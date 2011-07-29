@@ -1,7 +1,8 @@
-auto: 			true
-server: 		true
-server_port: 	4000
-exclude: 		imports/
-source: 		.
-destination: 	./_site
-base-url: 		http://lincolnmullen.com/
+auto: true
+server: true
+server_port: 4000
+exclude: imports/
+source: .
+destination: ./_site
+base-url: http://lincolnmullen.com/
+url: http://lincolnmullen.com/

@@ -12,15 +12,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
-html {
+html,
+body {
 	height:100%;
-/*	margin:-24px;*/
 }
 body {
 	background: url(../img/2.jpg) repeat scroll -24px -24px #DDDDD6;
-	font: 300 62.5% Verdana,sans-serif;
+	font: 400 62.5% 'Cardo',Times New Roman, Times, serif;
 	color:#555550;
-	height:100%;
 	min-width: 350px;
     margin:-24px;
 	line-height:1.1;
@@ -32,7 +31,7 @@ body {
 	border:1px solid white;
 	padding:24px;
 }
-#content{
+#content {
 	background:none repeat scroll 0 0 rgba(255, 255, 255, 0.0);
 	max-width:800px;
 	margin:24px auto;
@@ -44,6 +43,9 @@ section {
     display:block;
 }
 
+nav {
+list-style: none;
+	}
 
 
 /*===============*/

@@ -4,5 +4,5 @@ server_port: 4000
 exclude: imports/
 source: .
 destination: ./_site
-base-url: http://lincolnmullen.com/
+base-url: /
 url: http://lincolnmullen.com/

@@ -1,0 +1,16 @@
+---
+layout: default
+title: Lincoln Mullen &middot; {{post.title}}
+---
+
+## This is an example of a test post ##
+
+Here oh here is where the information goes. 
+
+See how this works:
+* well
+* quickly
+* in a hurry
+* intuitively
+
+See my [CV](http://lincolnmullen.com/cv/) online.

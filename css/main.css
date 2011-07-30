@@ -116,7 +116,7 @@ nav {
 
 header {
 	background-color:#E5E5E5;
-	margin:0;
+	margin:0 0 48px 0;
 	padding:24px 24px 24px 24px;
 	border-bottom: 2px solid #DDDDDD;
 }
@@ -144,6 +144,14 @@ header {
 	padding-right:25px;
 	text-decoration:none;
 }
+
+footer {
+	max-width:800px;
+	margin:auto;
+	border-top:2px solid #E5E5E5;
+	padding: 12px 24px 0 24px;
+}
+
 /*===============*/
 /* Homepage */
 

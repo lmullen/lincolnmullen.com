@@ -79,6 +79,14 @@ abbr {
 	letter-spacing: 0.1em;
 }
 
+footer p {
+	font-size:.8em;
+	color:#555555;
+}
+footer p+p {
+	margin-top:10px;
+	}
+
 /*LAYOUT*/
 html,
 body {
@@ -86,7 +94,7 @@ body {
 }
 
 body {
-	background: url(../img/2.jpg) repeat fixed -24px -24px #DDDDD6;
+	background: url(../img/2.jpg) fixed #DDDDD6;
 	color: black;
 	min-width: 350px;
 	margin: -24px;

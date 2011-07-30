@@ -1,3 +1,6 @@
 imports
 docs/Mullen-cv.pdf
-_site/
+_site/*
+_site/css/main.css
+
+_site/index.html

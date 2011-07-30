@@ -13,11 +13,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /*TYPOGRAPHY*/
 html {
-	font-size: 11px;
+	font-size: 10px;
 }
 
 body {
-	color: black;
+	color: #333333;
 	text-decoration: none;
 	word-spacing: normal;
 	text-align: left;
@@ -36,10 +36,17 @@ body {
 	text-indent: 1.5em;
 	text-align: left;
 }
-h1 {
+h1,
+h1 a,
+h1 a:visited,
+h1 a:hover {
+/*
 	font-family:'Philosopher', sans-serif;
+*/
+	color:black;
 	font-weight:700;
 	font-size:1.25em;
+	text-decoration:none;
 }
 
 h2 {
@@ -89,8 +96,8 @@ body {
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
 	max-width: 980px;
 	margin: 48px auto;
-	border: 1px solid white;
-	padding: 24px;
+	border: 2px solid #E5E5E5;
+	padding: 0 0 24px 0;
 }
 
 #content {
@@ -102,15 +109,41 @@ body {
 article,
 header,
 footer,
-section {
+section,
+nav {
 	display: block;
 }
 
-nav {
-	list-style: none;
-	display:inline;
+header {
+	background-color:#E5E5E5;
+	margin:0;
+	padding:24px 24px 24px 24px;
+	border-bottom: 2px solid #DDDDDD;
 }
 
+#logo {
+	float:left;
+	width:200px;
+}
+#header-nav {
+	list-style: none outside none;
+	margin: 0 0 0 225px;
+	text-align:left;
+}
+/*
+#header-nav ul {
+	padding:200px 0 0 0;
+	}
+*/
+#header-nav ul,
+#header-nav li {
+	display:inline;
+	line-height:1.5em;
+}
+#header-nav a {
+	padding-right:25px;
+	text-decoration:none;
+}
 /*===============*/
 /* Homepage */
 

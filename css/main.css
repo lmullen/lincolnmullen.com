@@ -208,7 +208,7 @@ width:300px;
 margin-top:12px;
 }
 .email {
-    background: url("../img/email.png") no-repeat scroll left center transparent;
+    background: url("../img/email-small.png") no-repeat scroll left center transparent;
     padding: 4px 0 4px 24px;
     white-space: nowrap;
 }
@@ -216,6 +216,17 @@ margin-top:12px;
     background: url("../img/phone.png") no-repeat scroll left center transparent;
     padding: 4px 0 4px 24px;
     white-space: nowrap;
+}
+.mail {
+    background: url("../img/mail.png") no-repeat scroll left center transparent;
+    padding: 4px 0 4px 24px;
+    white-space: nowrap;
+}
+addr p {
+    padding-left:24px;
+}
+addr p:first-child {
+    margin-top:-28px;
 }
 .chat {
     background: url("../img/chat.gif") no-repeat scroll left center transparent;
@@ -238,7 +249,7 @@ margin-top:12px;
     white-space: nowrap;
 }
 .twitter {
-    background: url("../img/twitter.png") no-repeat scroll left center transparent;
+    background: url("../img/twitter-2.png") no-repeat scroll left center transparent;
     padding: 4px 0 4px 24px;
     white-space: nowrap;
 }
@@ -274,6 +285,26 @@ margin-top:12px;
 }
 .github {
     background: url("../img/github.png") no-repeat scroll left center transparent;
+    padding: 4px 0 4px 24px;
+    white-space: nowrap;
+}
+.gowalla {
+    background: url("../img/gowalla-2.png") no-repeat scroll left center transparent;
+    padding: 4px 0 4px 24px;
+    white-space: nowrap;
+}
+.skype {
+    background: url("../img/skype.png") no-repeat scroll left center transparent;
+    padding: 4px 0 4px 24px;
+    white-space: nowrap;
+}
+.academiaedu {
+    background: url("../img/academiaedu.png") no-repeat scroll left center transparent;
+    padding: 4px 0 4px 24px;
+    white-space: nowrap;
+}
+.googleplus {
+    background: url("../img/googleplus.png") no-repeat scroll left center transparent;
     padding: 4px 0 4px 24px;
     white-space: nowrap;
 }

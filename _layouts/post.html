@@ -6,6 +6,10 @@ layout: default
 	
 	<h2 class="article-title">{{ page.title }}</h2>
 
+	Written on {{ page.date | date_to_string }}.
+	
+	Introduction: {{ page.introduction }}
+
 		<!-- Content from Jekyll is inserted here -->
 		<div class="article-body">
 				{{ content }}		

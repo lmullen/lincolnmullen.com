@@ -36,6 +36,11 @@ body {
 	text-indent: 1.5em;
 	text-align: left;
 }
+h1 {
+	font-family:'Philosopher', sans-serif;
+	font-weight:700;
+	font-size:1.25em;
+}
 
 h2 {
 	font-size: 1.4em;
@@ -103,6 +108,7 @@ section {
 
 nav {
 	list-style: none;
+	display:inline;
 }
 
 /*===============*/

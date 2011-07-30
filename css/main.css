@@ -97,7 +97,9 @@ body {
 	background: url(../img/2.jpg) fixed #DDDDD6;
 	color: black;
 	min-width: 350px;
+/*
 	margin: -24px;
+*/
 }
 
 #page {
@@ -110,8 +112,12 @@ body {
 
 #content {
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.0);
-	max-width: 33em;
 	margin: 24px auto;
+	max-width:800px;
+}
+article {
+	max-width: 33em;
+	margin:auto;
 }
 
 article,
@@ -154,11 +160,34 @@ header {
 }
 
 footer {
+	clear:both;
 	max-width:800px;
 	margin:auto;
 	border-top:2px solid #E5E5E5;
+	margin-top:48px;
 	padding: 12px 24px 0 24px;
 }
+
+/* HOMEPAGE */
+
+#bio {
+float:left;
+max-width:440px;
+margin:0 30px 24px 0;
+}
+#info {
+clear:right;
+float:right;
+margin: 0 0 24px 30px;
+width:300px;
+}
+
+/* IMAGES */
+.alignleft {
+	float:left;
+	margin: 0 12px 0 0;
+}
+
 
 /*===============*/
 /* Homepage */

@@ -337,6 +337,21 @@ margin-top:12px;
     white-space: nowrap;
 }
 
+/* WRITING PAGE */
+dl {
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 80px;
+    text-align: right;
+	color:#555555;
+}
+dd {
+    margin: 0 0 0 95px;
+    padding: 0 0 0.5em 0;
+}
 
 /* IMAGES */
 .alignleft {

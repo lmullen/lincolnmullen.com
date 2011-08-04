@@ -36,13 +36,7 @@ body {
 	text-indent: 2em;
 	text-align: left;
 }
-h1,
-h1 a,
-h1 a:visited,
-h1 a:hover {
-/*
-	font-family:'Philosopher', sans-serif;
-*/
+h1 {
 	color:black;
 	font-weight:700;
 	font-size:1.25em;
@@ -97,6 +91,17 @@ a:hover {
     color: #A60D0D;
     text-decoration: underline;
 }
+h1 a, 
+h1 a:visited, 
+h1 a:link,
+h1 a:focus {
+	text-decoration: none;
+	color:black;
+}
+h1 a:active,
+h1 a:hover {
+	text-decoration: underline;
+}
 
 a[href$=".pdf"] {
     background: url("../img/pdf.gif") no-repeat scroll left center transparent;
@@ -112,7 +117,7 @@ body {
 }
 
 body {
-	background: url(../img/2.jpg) fixed #DDDDD6;
+	background: url(../img/chalkboard.jpg) fixed #DDDDD6;
 	color: black;
 	min-width: 350px;
 /*
@@ -121,10 +126,10 @@ body {
 }
 
 #page {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95);
 	max-width: 980px;
 	margin: 48px auto;
-	border: 2px solid #E5E5E5;
+	border: 2px solid #959595;
 	padding: 0 0 24px 0;
 }
 
@@ -227,7 +232,7 @@ margin-top:12px;
     white-space: nowrap;
 }
 .mail {
-    background: url("../img/mail.png") no-repeat scroll left top transparent;
+    background: url("../img/mail.png") no-repeat scroll left center transparent;
     padding: 4px 0 4px 24px;
     white-space: nowrap;
 }

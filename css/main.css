@@ -218,15 +218,9 @@ margin-top:12px;
     white-space: nowrap;
 }
 .mail {
-    background: url("../img/mail.png") no-repeat scroll left center transparent;
+    background: url("../img/mail.png") no-repeat scroll left top transparent;
     padding: 4px 0 4px 24px;
     white-space: nowrap;
-}
-addr p {
-    padding-left:24px;
-}
-addr p:first-child {
-    margin-top:-28px;
 }
 .chat {
     background: url("../img/chat.gif") no-repeat scroll left center transparent;

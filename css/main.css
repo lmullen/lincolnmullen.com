@@ -85,11 +85,14 @@ footer p+p {
 a, 
 a:visited,
 a:link,
-a:active,
-a:focus,
-a:hover {
+a:focus {
     color: #A60D0D;
-    text-decoration: underline;
+    text-decoration:none;
+}
+a:active,
+a:hover {
+	color: #A60D0D;
+	text-decoration:underline;
 }
 h1 a, 
 h1 a:visited, 

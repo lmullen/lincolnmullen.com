@@ -88,7 +88,16 @@ footer p+p {
 	}
 
 /* LINKS */
-	
+a, 
+a:visited,
+a:link,
+a:active,
+a:focus,
+a:hover {
+    color: #A60D0D;
+    text-decoration: underline;
+}
+
 a[href$=".pdf"] {
     background: url("../img/pdf.gif") no-repeat scroll left center transparent;
     display: inline-block;

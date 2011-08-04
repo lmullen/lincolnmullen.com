@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now"
+title: "Digital Humanities Is a Spectrum; or, We&#8217;re All Digital Humanists Now"
 category: essays
 introduction: "This text was originally published at the Backward Glance."
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Review of <em>All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World</em>, by Stuart B. Schwartz"
 category: reviews
 introduction: "This text was originally published at the Religion in America."
-book-reviewed: "Schwartz, Stuart B. *All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World*. New Haven, CT: Yale University Press, 2008. ISBN: 978-0-300-15854-0."
+book-reviewed: "Schwartz, Stuart B. <em>All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World</em>. New Haven, CT: Yale University Press, 2008. ISBN: 978-0-300-15854-0."
 ---
 
 The early modern Atlantic world, in Iberia as well as in Spanish and

@@ -17,7 +17,7 @@ title: Writing
 		These reviews were originally published at various blogs and are now collected here.
 		</p>-->
 	<dl class="writing-list">
-		<dt>3 Dec 2010</dt><dd><a href="http://thebrandeishoot.com/articles/9255">Faith-based Tolerance</a>, <em>The Brandeis Hoot</em></dd>
+		<dt>3 December 2010</dt><dd><a href="http://thebrandeishoot.com/articles/9255">Faith-based Tolerance</a>, <em>The Brandeis Hoot</em></dd>
 	</dl>
 </div> <!-- #reviews -->
 
@@ -28,8 +28,8 @@ title: Writing
 		These essays were originally published at various blogs and are now collected here.
 	</p>
 	<dl class="writing-list">
-		{% for post in site.posts %}
-		<dt>{{ post.date | date_to_string }}</dt>
+		{% for post in site.categories.essays %}
+		<dt>{{ post.date | date_to_long_string }}</dt>
 		<dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
 		{% endfor %}
 	</dl>
@@ -41,8 +41,10 @@ title: Writing
 		These reviews were originally published at various blogs and are now collected here.
 	</p>
 	<dl class="writing-list">
-		<dt></dt>
-		<dd></dd>
+		{% for post in site.categories.reviews%}
+		<dt>{{ post.date | date_to_long_string }}</dt>
+		<dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+		{% endfor %}
 	</dl>
 </div> <!-- #reviews -->
 
@@ -53,9 +55,9 @@ title: Writing
 		These posts were published at <a href="http://chronicle.com/blogs/profhacker/">ProfHacker</a>, a blog at the <em>Chronicle of Higher Education</em> about &#147;pedagogy, productivity, and technology in higher education.&#148; All but my earliest posts are also <a href="http://chronicle.com/blogs/profhacker/author/lmullen/">listed at ProfHacker</a>.
 	</p>
 	<dl class="writing-list">
-		<dt>3 Aug 2011</dt><dd><a href="http://chronicle.com/blogs/profhacker/using-docscanner-to-scan-on-the-go/35091">Using DocScanner to Scan on the Go</a></dd>
-		<dt>13 Jul 2011</dt><dd><a href="http://chronicle.com/blogs/profhacker/the-sociology-of-academic-networks/34691">The Sociology of Academic Networks</a></dd>
-		<dt>26 Jan 2010</dt><dd><a href="http://chronicle.com/blogs/profhacker/keeping-up-with-journals/22931">Keeping Up with Journals</a></dd>
+		<dt>3 August 2011</dt><dd><a href="http://chronicle.com/blogs/profhacker/using-docscanner-to-scan-on-the-go/35091">Using DocScanner to Scan on the Go</a></dd>
+		<dt>13 July 2011</dt><dd><a href="http://chronicle.com/blogs/profhacker/the-sociology-of-academic-networks/34691">The Sociology of Academic Networks</a></dd>
+		<dt>26 January 2010</dt><dd><a href="http://chronicle.com/blogs/profhacker/keeping-up-with-journals/22931">Keeping Up with Journals</a></dd>
 	</dl>
 </div><!-- #profhacker -->
 

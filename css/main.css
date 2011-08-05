@@ -22,12 +22,25 @@ body {
 	word-spacing: normal;
 	text-align: left;
 	font-size: 1.8em;
-	font-family: 'EB Garamond', Times New Roman, Times, serif;
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1.5em;
+	font-family: 'Crimson Text', 'Times New Roman', Times, serif;	
 }
 
+h2, h3, h4, h5, h6 {
+	font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+	font-weight:700;	
+	font-style:normal;
+}	
+h2 em, h3 em, h4 em, h5 em, h6 em {
+	font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+	font-weight:700;
+	font-style:italic;
+}
+h1 {
+	font-family: 'IM Fell English', 'Crimson Text', 'Times New Roman', Times, serif;
+}
 .article-body p {
 	text-indent: 0;
 }
@@ -39,13 +52,13 @@ body {
 h1 {
 	color:black;
 	font-weight:700;
-	font-size:1.25em;
+	font-size:1.6em;
 	text-decoration:none;
 }
 
 h2 {
 	font-size: 1.6em;
-	font-weight:600;
+	font-weight:700;
 	line-height: 1.2em;
 	margin-bottom:.25em;
 }
@@ -166,11 +179,11 @@ header {
 
 #logo {
 	float:left;
-	width:200px;
+	width:250px;
 }
 #header-nav {
 	list-style: none outside none;
-	margin: 0 0 0 225px;
+	margin: -2px 0 0 225px;
 	text-align:left;
 }
 /*

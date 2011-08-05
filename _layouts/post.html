@@ -6,11 +6,14 @@ layout: default
 	
 	<h2 class="article-title">{{ page.title }}</h2>
 
-	Written on {{ page.date | date_to_string }}.
+	<p>Written on {{ page.date | date_to_long_string }}.</p>
+	<p>Introduction: {{ page.introduction }}</p>
 	
-	Introduction: {{ page.introduction }}
+	{% if page.book-reviewed != null %}
+	<p>{{ page.book-reviewed }}</p>
+	{% endif %}
 
-		<!-- Content from Jekyll is inserted here -->
+	<!-- Content from Jekyll is inserted here -->
 		<div class="article-body">
 				{{ content }}		
 		</div>

@@ -107,6 +107,9 @@ footer p+p {
 .book-reviewed {
 	padding: 0 50px 24px 50px;
 }
+blockquote {
+	margin:1em 3em 1em 3em;
+}
 /* LINKS */
 a, 
 a:visited,

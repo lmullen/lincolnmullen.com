@@ -20,12 +20,12 @@ body {
 	color: #333333;
 	text-decoration: none;
 	word-spacing: normal;
-	text-align: left;
 	font-size: 1.8em;
 	font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1.35em;
 	font-family: 'SortsMillGoudyRegular', serif;	
+	text-align:left;
 }
 
 h1,h2, h3, h4, h5, h6 {
@@ -36,11 +36,12 @@ h2 em, h3 em, h4 em, h5 em, h6 em {
 }
 .article-body p {
 	text-indent: 0;
+	text-align:justify;
 }
 
 .article-body p + p {
 	text-indent: 2em;
-	text-align: left;
+	text-align: justify;
 }
 h1 {
 	color:black;
@@ -49,7 +50,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.6em;
+	font-size: 1.5em;
 	line-height: 1.2em;
 	margin-bottom:.25em;
 }
@@ -86,7 +87,26 @@ footer p {
 footer p+p {
 	margin-top:10px;
 	}
-
+.post-author {
+	font-variant:small-caps;
+	text-align:center;
+	padding:20px 0 48px 0;
+	margin:0;
+}
+.post-date {
+	font-variant:small-caps;
+	text-align:center;
+	padding: 0 0 20px 0;
+	margin:0;
+}
+.post-title {
+	padding:0 25px 0 25px;
+	margin:0;
+	text-align:center;
+}
+.book-reviewed {
+	padding: 0 50px 24px 50px;
+}
 /* LINKS */
 a, 
 a:visited,

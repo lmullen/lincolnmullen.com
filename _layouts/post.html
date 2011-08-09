@@ -4,19 +4,26 @@ layout: default
 
 	<article class="post">
 	
-	<h2 class="article-title">{{ page.title }}</h2>
+	<div class="post-date">{{ page.date | date_to_long_string | downcase }}</div>
 
-	<p>Written on {{ page.date | date_to_long_string }}.</p>
-	<p>Introduction: {{ page.introduction }}</p>
+	<h2 class="post-title">{{ page.title }}</h2>
+
+	<div class="post-author">lincoln mullen</div>
+	
 	
 	{% if page.book-reviewed != null %}
-	<p>{{ page.book-reviewed }}</p>
+	<p class="book-reviewed">{{ page.book-reviewed }}</p>
 	{% endif %}
 
 	<!-- Content from Jekyll is inserted here -->
 		<div class="article-body">
 				{{ content }}		
-		</div>
+			</div>
+
+	<p>Introduction: {{ page.introduction }}</p>
+
+
+
 	<div class="response"> Agree? Disagree? Comments? E-mail me at <a href="">lincoln@lincolnmullen.com</a> or reply to me on Twitter at <a>@lincolnmullen</a>.</div>
 	</article>
 

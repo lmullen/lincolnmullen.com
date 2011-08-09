@@ -232,97 +232,87 @@ margin-top:12px;
 }
 .email {
     background: url("../img/email-small.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .phone {
     background: url("../img/phone.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .mail {
     background: url("../img/mail.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .chat {
     background: url("../img/chat.gif") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .calendar {
     background: url("../img/calendar.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .vcard {
     background: url("../img/vcard.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .religion {
     background: url("../img/religion.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .twitter {
     background: url("../img/twitter-2.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .librarything {
     background: url("../img/librarything.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .zotero {
     background: url("../img/zotero.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .linkedin {
     background: url("../img/linkedin.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
-    white-space: nowrap;
-}
-.facebook {
-    background: url("../img/facebook.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .googlereader {
     background: url("../img/googlereader.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
-    white-space: nowrap;
-}
-.delicious {
-    background: url("../img/delicious.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .github {
     background: url("../img/github.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .gowalla {
     background: url("../img/gowalla-2.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .skype {
     background: url("../img/skype.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .academiaedu {
     background: url("../img/academiaedu.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .googleplus {
     background: url("../img/googleplus.png") no-repeat scroll left center transparent;
-    padding: 4px 0 4px 24px;
+    padding: 6px 0 2px 24px;
     white-space: nowrap;
 }
 .rss-big {

@@ -171,7 +171,12 @@ article {
 	max-width: 33em;
 	margin:auto;
 }
-
+.post-meta {
+	font-size:.8em;
+	margin:24px auto 0 auto;
+	padding:12px 0 0 0;
+	border-top: 2px solid #DDDDDD;
+}
 article,
 header,
 footer,

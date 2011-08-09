@@ -2,8 +2,7 @@
 layout: post
 title: Review of <em>The Metaphysical Club</em>, by Louis Menand
 category: reviews
-introduction: "This review was originally published at Lincoln Mullen.com"
-book-reviewed: "Menand, Louis. <em>The Metaphysical Club</em>. New York: Farrar, Straus, and Giroux, 2001. 546 pages."
+book-reviewed: "Menand, Louis. <em>The Metaphysical Club</em>. New York: Farrar, Straus, and Giroux, 2001. 546 pages. ISBN: 0374528497."
 ---
 
 Most self-described intellectuals have joined a discussion club at some

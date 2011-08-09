@@ -1,10 +1,8 @@
 ---
 layout: post 
-title: "Sacred Book, Sacred Space: My Attempt to Buy a
-Qur’an" 
+title: "Sacred Book, Sacred Space: My Attempt to Buy a Qur’an" 
 category: essays 
-introduction: "This text was originally
-published on Religion in America."
+introduction: "This essay was originally published at Religion in America."
 ---
 
 Yesterday afternoon, I tried to buy a Qur’an. I used to own two copies

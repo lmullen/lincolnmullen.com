@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Review of <em>All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World</em>, by Stuart B. Schwartz"
+title: "Review of <em>All Can Be Saved</em>, by Stuart B. Schwartz"
 category: reviews
-introduction: "This text was originally published at the Religion in America."
+introduction: "This review was originally published at Religion in America."
 book-reviewed: "Schwartz, Stuart B. <em>All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World</em>. New Haven, CT: Yale University Press, 2008. ISBN: 978-0-300-15854-0."
 ---
 
@@ -147,25 +147,25 @@ his work might be strengthened by future investigations into the
 relationship between vernacular ideas, theology, religious practice, and
 lived religion.
 
------------------------------------------------
+### Comments ###
 
-    -   It is always encouraging to see well done reviews done with
-        care, clarity, and an appreciation and understanding of the
-        topic. Your points are well-taken and I appreciate the thought
-        you have put into the critique. My response is that I feel on
-        the first critique you are a bit too hard, after all there is
-        considerable discussion of Africans and syncretism in the
-        chapter on Brazil and some mention of them elsewhere. Also,
-        converso ideas of “salvation” seem to have their origin more in
-        Christian theology rather in that of Judaism.
+It is always encouraging to see well done reviews done with
+care, clarity, and an appreciation and understanding of the
+topic. Your points are well-taken and I appreciate the thought
+you have put into the critique. My response is that I feel on
+the first critique you are a bit too hard, after all there is
+considerable discussion of Africans and syncretism in the
+chapter on Brazil and some mention of them elsewhere. Also,
+converso ideas of "salvation" seem to have their origin more in
+Christian theology rather in that of Judaism.
 
-        On the second, there may be something there in that the emphasis
-        on good works presents a catholic position to some extent, but
-        the problem is, as I implied in the last chapter,that such ideas
-        of tolerance could also be found elsewhere in Europe in
-        Protestant communities–a position, by the way that B. Kaplan’s
-        Divided by Faith also argues.
+On the second, there may be something there in that the emphasis
+on good works presents a catholic position to some extent, but
+the problem is, as I implied in the last chapter,that such ideas
+of tolerance could also be found elsewhere in Europe in
+Protestant communities–a position, by the way that B. Kaplan’s
+Divided by Faith also argues.
 
-        In any case, thanks for the thoughtful review.
+In any case, thanks for the thoughtful review.
 
-        Stuart Schwartz [**1 December 2010**
+Stuart Schwartz --- **1 December 2010**

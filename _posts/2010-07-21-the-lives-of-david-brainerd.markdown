@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Review of <em>The Lives of David Brainerd: The Making of an American Evangelical Icon</em>, by John A. Grigg"
+title: "Review of <em>The Lives of David Brainerd</em>, by John A. Grigg"
 category: reviews
-introduction: "This text was originally published at the Religion in America."
+introduction: "This review was originally published at Religion in America."
 book-reviewed: "Grigg, John A. <em>The Lives of David Brainerd: The Making of an American Evangelical Icon</em>. New York: Oxford University Press, 2009. 276 pages. ISBN: 978-0-19-537237-3."
 ---
 

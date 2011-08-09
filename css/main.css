@@ -363,12 +363,12 @@ dl {
 dt {
     float: left;
     clear: left;
-    width: 150px;
+    width: 100px;
     text-align: right;
 	color:#555555;
 }
 dd {
-    margin: 0 0 0 165px;
+    margin: 0 0 0 115px;
     padding: 0 0 0.5em 0;
 }
 

@@ -141,7 +141,19 @@ a[href$=".pdf"] {
     line-height: 18px;
     padding-left: 28px;
 }
-
+ol li {
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+.footnotes {
+	font-size:.8em;
+}
+sup:before {
+	content: " ["
+}
+sup:after {
+	content: "] "
+}
 /*LAYOUT*/
 html,
 body {

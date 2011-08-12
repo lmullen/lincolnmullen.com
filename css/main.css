@@ -139,7 +139,7 @@ a[href$=".pdf"] {
     background: url("../img/pdf.gif") no-repeat scroll left center transparent;
     display: inline-block;
     line-height: 18px;
-    padding-left: 28px;
+    padding: 2px 0 0px 28px;
 }
 ol li {
 	list-style-type:decimal;

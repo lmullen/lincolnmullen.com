@@ -22,7 +22,7 @@ This concept of a spectrum can turn the ethos of inclusion into a tool of persua
 In other words: we're all digital humanists now. Persuading other scholars of that is a way to spread what is best in the ethos of digital humanities.
 
 
-
+<!--
 ### Comments ###
 
 
@@ -78,3 +78,4 @@ March 24, 20114:05 am
 
 <p>[...] I'm going to step around Ramsay's argument here (though I recommend reading the thoughtful discussion that ensued on Ramsay's blog). I mention Ramsay simply as an illustrative example of the various tensions within the digital humanities. There are others too: teaching vs. research, universities vs. liberal arts colleges, centers vs. networks, and so on. I see the presence of so many divides---which are better labeled as perspectives---as a sign that there are many stakeholders in the digital humanities, which is a good thing. We're all in this together, even when we're not. [...]</p>
 
+-->

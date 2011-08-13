@@ -7,12 +7,12 @@ title: Writing
 <div class="writing-section" id="academic-publications">
 	<h3>Academic Publications</h3>
 
-	<p class="introduction">Publications which are available in full text are listed here. For a complete listing, see my <a href="{{ site.base-url }}docs/Mullen-cv.pdf">CV</a>.</p>
+	<p class="introduction">Publications which are available in full text are listed here. For a complete listing, see my <a href="{{ site.base-url }}/docs/Mullen-cv.pdf">CV</a>.</p>
 	<dl class="writing-list">
-	<dt>2011</dt><dd>Review of <em>The Gardiners of Massachusetts: Provincial Ambition and the British-American Career</em>, by T. A. Milford, <em>Historical Journal of Massachusetts</em> 39, nos. 1&ndash;2 (summer 2011), 265&ndash;66. <a href="{{ site.base-url }}docs/reviewgardiners.pdf">PDF</a></dd>
+	<dt>2011</dt><dd>Review of <em>The Gardiners of Massachusetts: Provincial Ambition and the British-American Career</em>, by T. A. Milford, <em>Historical Journal of Massachusetts</em> 39, nos. 1&ndash;2 (summer 2011), 265&ndash;66. <a href="{{ site.base-url }}/docs/reviewgardiners.pdf">PDF</a></dd>
 	<dt>2011</dt><dd>Review of <em>Daily Lives of Civilians in Wartime Early America: From the Colonial Era to the Civil War</em>, edited by David S. Heidler and Jeanne T. Heidler, <em>Army History</em> 78 (winter 2011), 44&ndash;45. <a href="{{ site.base-url }}docs/reviewdailylives.pdf">PDF</a></dd>
-	<dt>2010</dt><dd>&#147;Confessionalization and the Creedal Tradition,&#148; <em>The Proceedings of the South Carolina Historical Association</em> (March 2010): 79-90. <a href="{{ site.base-url }}docs/confessionalization.pdf">PDF</a></dd>
-	<dt>2009</dt><dd>Review of <em>In the Beginning: Fundamentalism, the Scopes Trial, and the Making of the Anti-evolution Movement</em>, by Michael Lienesch, <em>The Southern Historian</em> 30 (spring 2009), 103&ndash;5. <a href="{{ site.base-url }}docs/reviewinthebeginning.pdf">PDF</a></dd>
+	<dt>2010</dt><dd>&#147;Confessionalization and the Creedal Tradition,&#148; <em>The Proceedings of the South Carolina Historical Association</em> (March 2010): 79-90. <a href="{{ site.base-url }}/docs/confessionalization.pdf">PDF</a></dd>
+	<dt>2009</dt><dd>Review of <em>In the Beginning: Fundamentalism, the Scopes Trial, and the Making of the Anti-evolution Movement</em>, by Michael Lienesch, <em>The Southern Historian</em> 30 (spring 2009), 103&ndash;5. <a href="{{ site.base-url }}/docs/reviewinthebeginning.pdf">PDF</a></dd>
 	</dl>
 	
 </div>
@@ -20,7 +20,7 @@ title: Writing
 <div class="writing-section" id="newspapers">
 	<h3>Newspaper Articles</h3>
 	<dl class="writing-list">
-		<dt>3 Dec 2010</dt><dd><a href="http://thebrandeishoot.com/articles/9255">Faith-based Tolerance</a>, <em>The Brandeis Hoot</em>. <a href="{{ site.base-url }}docs/faithbasedtolerance.pdf">PDF</a></dd>
+		<dt>3 Dec 2010</dt><dd><a href="http://thebrandeishoot.com/articles/9255">Faith-based Tolerance</a>, <em>The Brandeis Hoot</em>. <a href="{{ site.base-url }}/docs/faithbasedtolerance.pdf">PDF</a></dd>
 	</dl>
 </div> <!-- #reviews -->
 
@@ -33,7 +33,7 @@ title: Writing
 	<dl class="writing-list">
 		{% for post in site.categories.essays %}
 		<dt>{{ post.date | date_to_string }}</dt>
-		<dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+		<dd><a href="{{site.base-url}}{{ post.url }}">{{ post.title }}</a></dd>
 		{% endfor %}
 	</dl>
 </div> <!-- #essays -->

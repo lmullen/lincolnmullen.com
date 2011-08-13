@@ -6,12 +6,25 @@
 	<title>Lincoln Mullen &middot; {{ page.title }}</title>
 	<link rel="stylesheet" media="screen" href="{{site.base-url}}css/main.css">
 	<link rel="stylesheet" media="screen" href="{{site.base-url}}css/fonts.css">
-	<link rel="canonical" href="http://lincolnmullen.com">
+	<link rel="canonical" href="http://lincolnmullen.com{{page.url}}">
 	<link rel="shortcut icon" href="{{site.base-url}}img/favicon.png" sizes="16x16">
 	<link rel="author" href="mailto:lincoln@lincolnmullen.com">
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-7132154-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
 </head>
 <body>
 	<div id="page">
@@ -37,6 +50,5 @@
 		<p>Powered by <a href="http://jekyllrb.com/">Jekyll</a>. Website code hosted at <a href="https://github.com/lmullen/lincolnmullen.com">GitHub</a>. <a href="{{site.base-url}}colophon.html">Colophon</a>.</p>
 	</footer>
 	<div>
-		<!-- Don't forget the Google Analytics code -->
 </body>
 </html>

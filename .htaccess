@@ -1,0 +1,18 @@
+# Redirect old blog posts to their new locations
+Redirect permanent /2010/09/26/whats-so-wrong-with-myths/ http://lincolnmullen.com/essays/2010/09/26/whats-so-wrong-with-myths.html
+Redirect permanent /2010/04/29/digital-humanities-is-a-spectrum-or-were-all-digital-humanists-now/ http://lincolnmullen.com/essays/2010/04/29/digital-humanities-is-a-spectrum.html
+Redirect permanent /2010/03/11/what-would-jesus-do-a-parable-about-copyright/ http://lincolnmullen.com/essays/2010/03/11/a-parable-about-copyright.html
+Redirect permanent /2010/02/26/reflections-on-pdp-2010/ http://lincolnmullen.com/essays/2010/02/26/reflections-on-pdp-2010.html
+
+# Redirect the old link to the cv to the home page, since the new link is a PDF
+Redirect permanent /cv/ http://lincolnmullen.com/index.html
+
+# Prevent visitors from seeing htaccess files
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Direct the server to the error pages I've created
+ErrorDocument 500 http://lincolnmullen.com/500.html
+ErrorDocument 404 http://lincolnmullen.com/404.html

@@ -1,5 +1,5 @@
 auto: true
-base-url: /
+base-url: http://lincolnmullen.com
 destination: ./_site
 exclude: imports/
 server: true

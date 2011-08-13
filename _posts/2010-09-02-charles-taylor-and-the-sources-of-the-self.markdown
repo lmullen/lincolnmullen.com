@@ -2,7 +2,7 @@
 layout: post
 title: "Charles Taylor and the Sources of the Self"
 category: essays
-introduction: This post originally appeared at Religion in America. 
+introduction: "This post originally appeared at Religion in America." 
 copyright: 
 ---
 

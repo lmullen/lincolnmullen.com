@@ -2,7 +2,7 @@
 layout: post
 title: "Religious Liberty and the Islamic Community Center"
 category: essays
-introduction: This post originally appeared at Religion in America. 
+introduction: "This post originally appeared at Religion in America."
 copyright: 
 ---
 

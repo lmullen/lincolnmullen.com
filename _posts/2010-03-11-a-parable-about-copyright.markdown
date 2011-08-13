@@ -22,7 +22,7 @@ In the 1890s, copyright was opt-in, not opt-out. In order for a book to be copyr
 
 To be sure, *In His Steps* would not have been a bestseller simply because of a mistake in the copyright registration. Sixteen publishers would not have issued the book unless it appealed to the reading public. Nor can the resurgence of *WWJD?* in the 1990s be attributed to the book’s being in the public domain—by that time the book would have long been out of copyright no matter what. And it is worth noting that the book was a best*seller*: the failure of copyright registration did not mean that the book was available for free, just that Sheldon made hardly any royalties from it. Even today, the book is [available for purchase][] in many editions, though it is available free from [several][] [sources][].
 
-But would the explosive sales and long-standing popularity of Sheldon’s *In His Steps* have been possible if the book had been subject to, say, the [Copyright Act of 1976, or the Sonny Bono Copyright Term Extension Act, or, worse, the Digital Millennium Copyright Act][]? If the point of copyright is “to promote the Progress of Science and useful Arts, by securing for[*limited Times*][] to Authors and Inventors the exclusive Right to their respective Writings and Discoveries,” perhaps there is something to be learned from the case of Charles Sheldon and his novel—a fitting parable for a Progressive reformer, indeed.
+But would the explosive sales and long-standing popularity of Sheldon’s *In His Steps* have been possible if the book had been subject to, say, the [Copyright Act of 1976, or the Sonny Bono Copyright Term Extension Act, or, worse, the Digital Millennium Copyright Act][copyright laws]? If the point of copyright is “to promote the Progress of Science and useful Arts, by securing for[*limited Times*][] to Authors and Inventors the exclusive Right to their respective Writings and Discoveries,” perhaps there is something to be learned from the case of Charles Sheldon and his novel—a fitting parable for a Progressive reformer, indeed.
 
   [evangelical consumer culture]: http://www.bookforum.com/inprint/016_02/3848
   [*In His Steps: What Would Jesus Do?*]: http://books.google.com/books?id=cHVIAAAAMAAJ
@@ -30,6 +30,5 @@ But would the explosive sales and long-standing popularity of Sheldon’s *In Hi
   [available for purchase]: http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias=aps&field-keywords=in+his+steps&x=0&y=0
   [several]: http://www.gutenberg.org/etext/4540
   [sources]: http://books.google.com/books?id=cHVIAAAAMAAJ&printsec=frontcover&dq=in+his+steps&ei=dWCZS4HvMpbONM-vwdcH&cd=1#v=onepage&q=&f=false
-  [Copyright Act of 1976, or the Sonny Bono Copyright Term Extension
-  Act, or, worse, the Digital Millennium Copyright Act]: http://chnm.gmu.edu/digitalhistory/copyright/1.php
+  [copyright laws]: http://chnm.gmu.edu/digitalhistory/copyright/1.php
   [*limited Times*]: http://www.archives.gov/exhibits/charters/constitution_transcript.html

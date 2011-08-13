@@ -167,9 +167,6 @@ body {
 	background: url(../img/cotton-fabric-rough.jpg) repeat fixed #DDDDD6;
 	color: black;
 	min-width: 350px;
-/*
-	margin: -24px;
-*/
 }
 
 #page {
@@ -204,7 +201,7 @@ nav {
 }
 
 header {
-	background-color:#E5E5E5;
+	background-color:#E9E9E9;
 	margin:0 0 48px 0;
 	padding:24px 24px 24px 24px;
 	border-bottom: 2px solid #DDDDDD;

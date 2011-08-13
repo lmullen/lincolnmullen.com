@@ -4,23 +4,21 @@ category: essays
 title: "What Would Jesus Do? A Parable About Copyright"
 ---
 
-Have you heard the saying “What would Jesus do?” Who hasn’t? In the 1990s the
-phrase became a fad among evangelical Christians, who printed the
-abbreviation *WWJD?* on bracelets, t-shirts, and posters, spawning in
-turn a host of mocking pop culture imitations. *WWJD* can provide a
-useful lens for looking at [evangelical consumer
-culture](http://www.bookforum.com/inprint/016_02/3848) of the late
+Have you heard the saying “What would Jesus do?” Who hasn’t? In the
+1990s the phrase became a fad among evangelical Christians, who printed
+the abbreviation *WWJD?* on bracelets, t-shirts, and posters, spawning
+in turn a host of mocking pop culture imitations. *WWJD* can provide a
+useful lens for looking at [evangelical consumer culture][] of the late
 twentieth century. But the phrase can also serve as a parable about
 contemporary copyright law.
 
 The phrase “What would Jesus do?” originated in a novel titled [*In His
-Steps: What Would Jesus
-Do?*](http://books.google.com/books?id=cHVIAAAAMAAJ), published in 1897
-by Charles M. Sheldon. Sheldon was a Congregational minister in Topeka,
-Kansas, and a Progressive concerned with Christianity’s relationship to
-the social politics of his day. His book is a parable about the Reverend
-Henry Maxwell, a minister to a wealthy middle-class congregation.
-Maxwell comes into contact with a poor man who owes his plight to
+Steps: What Would Jesus Do?*][], published in 1897 by Charles M.
+Sheldon. Sheldon was a Congregational minister in Topeka, Kansas, and a
+Progressive concerned with Christianity’s relationship to the social
+politics of his day. His book is a parable about the Reverend Henry
+Maxwell, a minister to a wealthy middle-class congregation. Maxwell
+comes into contact with a poor man who owes his plight to
 industrialization, and is thereby jarred from his complacency about
 social issues. He challenges his congregation to seriously consider the
 question “What would Jesus do?” in all their actions. As his
@@ -38,8 +36,7 @@ be copyrighted, the publisher had to register it with the federal
 government. Chicago Advance, Sheldon’s publisher, incorrectly registered
 the copyright, and so the book was available in the public domain. Many
 publishers issued their own editions of *In His Steps*, which sold
-widely. About the sales of the book, [Paul Boyer
-writes](http://www.jstor.org/stable/2711587):
+widely. About the sales of the book, [Paul Boyer writes][]:
 
 > Owing to a defect in the copyright, sixteen different publishers soon
 > had editions of the book in the market, and by the summer of 1897,
@@ -58,21 +55,25 @@ been out of copyright no matter what. And it is worth noting that the
 book was a best*seller*: the failure of copyright registration did not
 mean that the book was available for free, just that Sheldon made hardly
 any royalties from it. Even today, the book is [available for
-purchase](http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias=aps&field-keywords=in+his+steps&x=0&y=0)
-in many editions, though it is available free from
-[several](http://www.gutenberg.org/etext/4540)
-[sources](http://books.google.com/books?id=cHVIAAAAMAAJ&printsec=frontcover&dq=in+his+steps&ei=dWCZS4HvMpbONM-vwdcH&cd=1#v=onepage&q=&f=false).
+purchase][] in many editions, though it is available free from
+[several][] [sources][].
 
 But would the explosive sales and long-standing popularity of Sheldon’s
 *In His Steps* have been possible if the book had been subject to, say,
 the [Copyright Act of 1976, or the Sonny Bono Copyright Term Extension
-Act, or, worse, the Digital Millennium Copyright
-Act](http://chnm.gmu.edu/digitalhistory/copyright/1.php)? If the point
-of copyright is “to promote the Progress of Science and useful Arts, by
-securing for[*limited
-Times*](http://www.archives.gov/exhibits/charters/constitution_transcript.html)
-to Authors and Inventors the exclusive Right to their respective
-Writings and Discoveries,” perhaps there is something to be learned from
-the case of Charles Sheldon and his novel—a fitting parable for a
-Progressive reformer, indeed.
+Act, or, worse, the Digital Millennium Copyright Act][]? If the point of
+copyright is “to promote the Progress of Science and useful Arts, by
+securing for[*limited Times*][] to Authors and Inventors the exclusive
+Right to their respective Writings and Discoveries,” perhaps there is
+something to be learned from the case of Charles Sheldon and his novel—a
+fitting parable for a Progressive reformer, indeed.
 
+  [evangelical consumer culture]: http://www.bookforum.com/inprint/016_02/3848
+  [*In His Steps: What Would Jesus Do?*]: http://books.google.com/books?id=cHVIAAAAMAAJ
+  [Paul Boyer writes]: http://www.jstor.org/stable/2711587
+  [available for purchase]: http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias=aps&field-keywords=in+his+steps&x=0&y=0
+  [several]: http://www.gutenberg.org/etext/4540
+  [sources]: http://books.google.com/books?id=cHVIAAAAMAAJ&printsec=frontcover&dq=in+his+steps&ei=dWCZS4HvMpbONM-vwdcH&cd=1#v=onepage&q=&f=false
+  [Copyright Act of 1976, or the Sonny Bono Copyright Term Extension
+  Act, or, worse, the Digital Millennium Copyright Act]: http://chnm.gmu.edu/digitalhistory/copyright/1.php
+  [*limited Times*]: http://www.archives.gov/exhibits/charters/constitution_transcript.html

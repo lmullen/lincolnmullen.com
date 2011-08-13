@@ -3,13 +3,17 @@ layout: page
 title: Colophon
 ---
 
-This site is powered by [Jekyll]. Code for the site is [hosted at GitHub][site code], in the spirit of Jeremy Bogg's post ["Participating in the Bazaar: Sharing Code in the Digital Humanities."][bazaar] I got the idea to use Jekyll from [Jason Heppler][] and [Stephen Ramsay][]. The code for [Jason's site][] in particular was very helpful.
+This site is powered by [Jekyll][].
+
+Code for the site is [hosted at GitHub][site code], in the spirit of Jeremy Bogg's post ["Participating in the Bazaar: Sharing Code in the Digital Humanities."][bazaar]
+
+I got the idea to use Jekyll from [Jason Heppler][] and [Stephen Ramsay][]. The code for [Jason's site][] in particular was very helpful.
 
 Background image courtesy of [Silvia Hartmann][].
 
 Some icons courtesy of the [Icon Dock][].
 
-This site was hand-coded using a bizarre mixture of [TextMate][], [MacVim][], and [BBEdit][].
+This site was hand-coded using a bizarre mixture of [TextMate][], [MacVim][], and [BBEdit][], with a little help from [Git][] and [Github][].
 
 
 [jekyll]: http://jekyllrb.com/
@@ -23,3 +27,5 @@ This site was hand-coded using a bizarre mixture of [TextMate][], [MacVim][], an
 [textmate]: http://macromates.com/
 [macvim]: http://code.google.com/p/macvim/
 [bbedit]: http://www.barebones.com/products/bbedit/
+[github]: https://github.com/
+[git]: http://git-scm.com/

@@ -1,8 +1,8 @@
-auto: true
+auto: false
 base-url: http://lincolnmullen.com
 destination: ./_site
 exclude: imports/
-server: true
+server: false
 server_port: 4000
 source: .
 url: http://lincolnmullen.com/

@@ -30,7 +30,7 @@ But for all the diversity, there are several important similarities
 across the text. All but one text is from the nineteenth century,
 beginning with Thomas Jefferson’s *Life and Morals of Jesus of Nazareth*
 (1819–20) and ending with Levi H. Dowling’s *The Aquarian Gospel of
-Jesus the Christ*(1907)—a century or so of religious creativity
+Jesus the Christ* (1907)—a century or so of religious creativity
 expressed in sacred texts. But more important, almost all of these texts
 are an interpretation of Jesus of Nazareth. This collection of texts
 would work well paired with Richard Wightman Fox’s *Jesus in America:

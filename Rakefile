@@ -22,7 +22,7 @@ task :deploy do
   # uploads changes via SSH and rsync
   # does NOT delete other files on the server
   puts 'BUILDING AND DEPLOYING TO LINCOLNMULLEN.COM'
-  sh "time rsync --progress -artze ssh _site/* lam:/home/lincolnm/public_html/"
+  sh 'time rsync --progress -artze ssh _site/ lam:/home/lincolnm/public_html/'
   puts 'Successfully deployed site!'
 end
 

@@ -170,7 +170,7 @@ body {
 }
 
 #page {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95);
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
 	max-width: 980px;
 	margin: 48px auto;
 	border: 2px solid #959595;
@@ -178,7 +178,7 @@ body {
 }
 
 #content {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.0);
+	background: none repeat scroll 0 0 rgb(255, 255, 255);
 	margin: 24px auto;
 	max-width:800px;
 }

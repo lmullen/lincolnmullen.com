@@ -11,3 +11,10 @@ task :deploy do
   sh "time jekyll && rsync --progress -artze ssh _site/* lam:/home/lincolnm/public_html/"
   puts 'Successfully built and deployed!'
 end
+
+desc 'copy most up-to-date CV to website directory'
+task :copycv do
+  puts 'COPYING CV'
+  sh "time cp ~/Documents/academic/CV/Mullen-cv.pdf ~/dev/lincolnmullen.com/docs/Mullen-cv.pdf"
+  puts 'Successfully copied the CV.'
+end

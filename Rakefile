@@ -3,6 +3,12 @@
 # and from Jeff McFadden:
 # http://jeffmcfadden.com/blog/2011/04/13/rsync-your-jekyll/
 
+desc 'copy current CV, build site, deploy to lincolnmullen.com'
+task :default => [:copycv, :deploy] do
+  # runs copy cv and deploy tasks
+  puts 'Successfully updated website.'
+end
+
 desc 'build and deploy to lincolnmullen.com via rsync'
 task :deploy do
   # uploads changes via SSH and rsync

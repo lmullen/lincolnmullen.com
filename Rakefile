@@ -5,8 +5,6 @@
 
 desc 'copy current CV, build site, deploy to lincolnmullen.com'
 task :default => [:copycv, :build, :deploy] do
-  puts 'COPYING CV, BUILDING SITE, DEPLOYING SITE'
-  # runs copy cv and deploy tasks
   puts 'Successfully updated website!'
 end
 

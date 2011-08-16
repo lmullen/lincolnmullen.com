@@ -1,7 +1,8 @@
 auto: false
 base-url: http://lincolnmullen.com
+baseurl: http://lincolnmullen.com
 destination: ./_site
-exclude: imports/
+exclude: imports/, Rakefile
 server: false
 server_port: 4000
 source: .

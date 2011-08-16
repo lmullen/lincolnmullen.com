@@ -1,7 +1,15 @@
 ---
 layout: none
-permalink: .htaccess
+permalink: /.htaccess
 ---
+# Rewrite www links to no www
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^lincolnmullen\.com$ [NC]
+RewriteRule ^(.*)$ http://lincolnmullen.com/$1 [R=301,L]
+
+
 # Redirect old blog posts to their new locations
 Redirect permanent /2010/09/26/whats-so-wrong-with-myths/ http://lincolnmullen.com/essays/2010/09/26/whats-so-wrong-with-myths.html
 Redirect permanent /2010/04/29/digital-humanities-is-a-spectrum-or-were-all-digital-humanists-now/ http://lincolnmullen.com/essays/2010/04/29/digital-humanities-is-a-spectrum.html

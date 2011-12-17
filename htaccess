@@ -31,6 +31,9 @@ Redirect /feed/atom/ http://lincolnmullen.com/feed/
 Redirect /comments/feed/ http://lincolnmullen.com/feed/
 Redirect /feed/ http://feeds.feedburner.com/LincolnMullenWritings
 
+# Redirect calendar to Google public calendar
+Redirect /calendar/ https://www.google.com/calendar/b/0/embed?src=lincoln@lincolnmullen.com&ctz=America/New_York&gsessionid=OK
+
 # Prevent visitors from seeing htaccess files
 <Files .htaccess>
 order allow,deny

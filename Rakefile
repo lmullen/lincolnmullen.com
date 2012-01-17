@@ -29,6 +29,6 @@ end
 desc 'copy current CV to development directory'
 task :copycv do
   puts 'COPYING CURRENT CV'
-  sh "time cp ~/Documents/academic/CV/Mullen-cv.pdf ~/dev/lincolnmullen.com/docs/Mullen-cv.pdf"
+  sh "time cp ~/acad/cv/Mullen-cv.pdf ~/dev/lincolnmullen.com/docs/Mullen-cv.pdf"
   puts 'Successfully copied the CV.'
 end

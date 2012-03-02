@@ -13,7 +13,7 @@ task :build do
   # builds the site using Jekyll
   # Jekyll will get is configuration from _config.yaml
   puts 'BUILDING SITE USING JEKYLL'
-  sh "time jekyll"
+  sh "jekyll"
   puts 'Successfully built site!'
 end
 
@@ -22,13 +22,13 @@ task :deploy do
   # uploads changes via SSH and rsync
   # does NOT delete other files on the server
   puts 'BUILDING AND DEPLOYING TO LINCOLNMULLEN.COM'
-  sh 'time rsync --progress -artze ssh _site/ lam:/home/lincolnm/public_html/'
+  sh 'rsync --progress -artze ssh _site/ lam:/home/lincolnm/public_html/'
   puts 'Successfully deployed site!'
 end
 
 desc 'copy current CV to development directory'
 task :copycv do
   puts 'COPYING CURRENT CV'
-  sh "time cp ~/acad/cv/Mullen-cv.pdf ~/dev/lincolnmullen.com/docs/Mullen-cv.pdf"
+  sh "cp ~/acad/cv/Mullen-cv.pdf ~/dev/lincolnmullen.com/docs/Mullen-cv.pdf"
   puts 'Successfully copied the CV.'
 end

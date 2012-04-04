@@ -1,0 +1,79 @@
+# Rewrite www links to no www
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^lincolnmullen\.com$ [NC]
+RewriteRule ^(.*)$ http://lincolnmullen.com/$1 [R=301,L]
+
+
+# Redirect old WordPress URLs to their new locations
+Redirect permanent /2010/09/26/whats-so-wrong-with-myths/ http://lincolnmullen.com/blog/whats-so-wrong-with-myths/
+Redirect permanent /2010/04/29/digital-humanities-is-a-spectrum-or-were-all-digital-humanists-now/ http://lincolnmullen.com/blog/digital-humanities-is-a-spectrum/
+Redirect permanent /archives/2010/04/digital-humanities-is-a-spectrum-or-were-all-digital-humanists-now/ http://lincolnmullen.com/blog/digital-humanities-is-a-spectrum/
+Redirect permanent /2010/03/11/what-would-jesus-do-a-parable-about-copyright/ http://lincolnmullen.com/blog/a-parable-about-copyright/
+Redirect permanent /archives/2010/03/11/what-would-jesus-do-a-parable-about-copyright/ http://lincolnmullen.com/blog/a-parable-about-copyright/
+Redirect permanent /2010/02/26/reflections-on-pdp-2010/ http://lincolnmullen.com/blog/reflections-on-pdp-2010/
+Redirect permanent /archives/2010/02/26/reflections-on-pdp-2010/ http://lincolnmullen.com/blog/reflections-on-pdp-2010/
+
+# Redirect old Jekyll category URLs to new permalink
+Redirect permanent /reviews/2008/06/10/the-metaphysical-club.html http://lincolnmullen.com/blog/the-metaphysical-club/
+Redirect permanent /reviews/2009/08/29/prodigal-nation.html http://lincolnmullen.com/blog/prodigal-nation/
+Redirect permanent /essays/2010/02/26/reflections-on-pdp-2010.html http://lincolnmullen.com/blog/reflections-on-pdp-2010/html
+Redirect permanent /essays/2010/03/11/a-parable-about-copyright.html http://lincolnmullen.com/blog/a-parable-about-copyright/
+Redirect permanent /essays/2010/04/29/digital-humanities-is-a-spectrum.html http://lincolnmullen.com/blog/digital-humanities-is-a-spectrum/
+Redirect permanent /reviews/2010/05/05/to-serve-god-and-walmart.html http://lincolnmullen.com/blog/to-serve-god-and-walmart/
+Redirect permanent /essays/2010/06/01/the-cultural-history-of-american-fundamentalism.html http://lincolnmullen.com/blog/the-cultural-history-of-american-fundamentalism/
+Redirect permanent /reviews/2010/07/21/the-lives-of-david-brainerd.html http://lincolnmullen.com/blog/the-lives-of-david-brainerd/
+Redirect permanent /essays/2010/08/10/religious-liberty-and-the-islamic-community-center.html http://lincolnmullen.com/blog/religious-liberty-and-the-islamic-community-center/
+Redirect permanent /essays/2010/09/02/charles-taylor-and-the-sources-of-the-self.html http://lincolnmullen.com/blog/charles-taylor-and-the-sources-of-the-self/
+Redirect permanent /essays/2010/09/10/sacred-book-sacred-space.html http://lincolnmullen.com/blog/sacred-book-sacred-space/
+Redirect permanent /essays/2010/09/26/whats-so-wrong-with-myths.html http://lincolnmullen.com/blog/whats-so-wrong-with-myths/
+Redirect permanent /reviews/2010/10/14/all-can-be-saved.html http://lincolnmullen.com/blog/all-can-be-saved/
+Redirect permanent /essays/2010/10/02/what-is-secularization.html http://lincolnmullen.com/blog/what-is-secularization/
+Redirect permanent /reviews/2011/02/10/american-scriptures.html http://lincolnmullen.com/blog/american-scriptures/
+Redirect permanent /reviews/2012/01/25/theology-of-religious-change.html http://lincolnmullen.com/blog/theology-of-religious-change/
+
+# Redirect old Jekyll blog-less URLs to new permalink
+Redirect permanent /the-metaphysical-club.html http://lincolnmullen.com/blog/the-metaphysical-club/
+Redirect permanent /prodigal-nation.html http://lincolnmullen.com/blog/prodigal-nation/
+Redirect permanent /reflections-on-pdp-2010.html http://lincolnmullen.com/blog/reflections-on-pdp-2010/html
+Redirect permanent /a-parable-about-copyright.html http://lincolnmullen.com/blog/a-parable-about-copyright/
+Redirect permanent /digital-humanities-is-a-spectrum.html http://lincolnmullen.com/blog/digital-humanities-is-a-spectrum/
+Redirect permanent /to-serve-god-and-walmart.html http://lincolnmullen.com/blog/to-serve-god-and-walmart/
+Redirect permanent /the-cultural-history-of-american-fundamentalism.html http://lincolnmullen.com/blog/the-cultural-history-of-american-fundamentalism/
+Redirect permanent /the-lives-of-david-brainerd.html http://lincolnmullen.com/blog/the-lives-of-david-brainerd/
+Redirect permanent /religious-liberty-and-the-islamic-community-center.html http://lincolnmullen.com/blog/religious-liberty-and-the-islamic-community-center/
+Redirect permanent /charles-taylor-and-the-sources-of-the-self.html http://lincolnmullen.com/blog/charles-taylor-and-the-sources-of-the-self/
+Redirect permanent /sacred-book-sacred-space.html http://lincolnmullen.com/blog/sacred-book-sacred-space/
+Redirect permanent /whats-so-wrong-with-myths.html http://lincolnmullen.com/blog/whats-so-wrong-with-myths/
+Redirect permanent /all-can-be-saved.html http://lincolnmullen.com/blog/all-can-be-saved/
+Redirect permanent /what-is-secularization.html http://lincolnmullen.com/blog/what-is-secularization/
+Redirect permanent /american-scriptures.html http://lincolnmullen.com/blog/american-scriptures/
+Redirect permanent /theology-of-religious-change.html http://lincolnmullen.com/blog/theology-of-religious-change/
+
+# Redirect the old link to the cv to the PDF
+Redirect /cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
+
+# Redirect the feed to the home page
+Redirect /feed/rss/ http://lincolnmullen.com/feed/
+Redirect /feed/rss2/ http://lincolnmullen.com/feed/
+Redirect /feed/rdf/ http://lincolnmullen.com/feed/
+Redirect /feed/atom/ http://lincolnmullen.com/feed/
+Redirect /comments/feed/ http://lincolnmullen.com/feed/
+Redirect /feed/ http://lincolnmullen.com/atom.xml
+
+# Redirect the page called writing and now called scholarship
+Redirect permanent /writing.html http://lincolnmullen.com/scholarship.html
+
+# Redirect calendar to Google public calendar
+Redirect /calendar/ https://www.google.com/calendar/b/0/embed?src=lincoln@lincolnmullen.com&ctz=America/New_York&gsessionid=OK
+
+# Prevent visitors from seeing htaccess files
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Direct the server to the error pages I've created
+#ErrorDocument 500 http://lincolnmullen.com/500.html
+#ErrorDocument 404 http://lincolnmullen.com/404.html

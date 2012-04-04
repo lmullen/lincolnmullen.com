@@ -1,0 +1,40 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+//a[href$=".pdf"] {
+	//background: url("../images/pdf.gif") no-repeat scroll right center transparent;
+	//display: inline-block;
+	////line-height: 18px;
+	//padding: 0px 32px 0px 0px;
+//}
+
+.twitter {
+	background: url("../images/twitter-2.png") no-repeat scroll left center transparent;
+	padding-left: 24px;
+	white-space: nowrap;
+}
+
+.librarything {
+	background: url("../images/librarything.png") no-repeat scroll left center transparent;
+	padding-left: 24px;
+	white-space: nowrap;
+}
+
+.zotero {
+	background: url("../images/zotero.png") no-repeat scroll left center transparent;
+	padding-left: 24px;
+	white-space: nowrap;
+}
+
+.github {
+	background: url("../images/github.png") no-repeat scroll left center transparent;
+	padding-left: 24px;
+	white-space: nowrap;
+}
+
+.skype {
+	background: url("../images/skype.png") no-repeat scroll left center transparent;
+	padding-left: 24px;
+	white-space: nowrap;
+}
+

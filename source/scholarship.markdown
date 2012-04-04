@@ -5,10 +5,16 @@ comments: false
 sharing: false
 ---
 
-Only scholarship which is available in full text are listed here. For a
+Only works which are available in full text are listed here. For a
 complete listing, see my [CV]({{ root_url }}/docs/Mullen-cv.pdf).
 
-### Conference Proceedings
+
+### Conference Proceedings and Papers
+
+"The Vocabulary of Conversion: Text-Mining the East Windsor Conversion
+Relations," paper presented at the annual meeting of the American
+Society for Church History, Boston, January 9, 2011.
+[PDF: text and slides]({{root_url}}/docs/Mullen.Vocabulary-of-Conversion.pdf)
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of
 the South Carolina Historical Association* (March 2010): 79--90.

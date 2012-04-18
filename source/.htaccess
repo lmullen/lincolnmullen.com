@@ -60,7 +60,7 @@ Redirect /feed/rss2/ http://lincolnmullen.com/feed/
 Redirect /feed/rdf/ http://lincolnmullen.com/feed/
 Redirect /feed/atom/ http://lincolnmullen.com/feed/
 Redirect /comments/feed/ http://lincolnmullen.com/feed/
-Redirect /feed/ http://lincolnmullen.com/atom.xml
+Redirect /feed/ http://feeds.feedburner.com/LincolnMullenWritings 
 
 # Redirect the page called writing and now called scholarship
 Redirect permanent /writing.html http://lincolnmullen.com/scholarship.html

@@ -12,3 +12,4 @@ source/stylesheets/screen.css
 vendor
 node_modules
 *.vcf
+source/docs/Mullen-cv.pdf

@@ -2,4 +2,5 @@ User-agent: *
 Disallow: /cgi-bin/
 Disallow: /info.php
 Disallow: /thinkup/
-Allow: /
+Disallow: /dev/
+Disallow: /dev/jsr/

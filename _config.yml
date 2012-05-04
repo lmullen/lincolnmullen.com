@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: http://feeds.feedburner.com/LincolnMullenWritings
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: lincoln@lincolnmullen.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -38,7 +38,7 @@ pygments: false # default python pygments have been replaced by pygments.rb
 
 paginate: 4          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
-recent_posts: 3       # Posts in the sidebar Recent Posts section
+recent_posts: 4       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read this post &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
 titlecase: false       # Converts page and post titles to titlecase
@@ -47,7 +47,7 @@ sidebar: collapse
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [custom/asides/about.html, custom/asides/elsewhere.html, asides/twitter.html] 
+default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/twitter.html] 
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -67,7 +67,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: lincolnmullen
-twitter_tweet_count: 4
+twitter_tweet_count: 3
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false

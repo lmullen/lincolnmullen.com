@@ -2,7 +2,8 @@
 layout: post
 comments: true
 categories: 
-- Essays
+- essays
+- blog
 title: "What Would Jesus Do? A Parable About Copyright"
 ---
 

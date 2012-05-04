@@ -5,7 +5,7 @@ date: 2012-04-03 20:20
 comments: true
 categories: 
 - blog
-- Dissertation
+- dissertation
 ---
 After I returned from the AHA/ASCH annual meeting this January, I broke
 ground on my dissertation. My goal is to turn out a rough draft of a

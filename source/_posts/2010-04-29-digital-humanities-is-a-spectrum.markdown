@@ -3,7 +3,8 @@ layout: post
 comments: true
 title: "Digital Humanities Is a Spectrum; or, We&#8217;re All Digital Humanists Now"
 categories: 
-- Essays
+- essays
+- blog
 ---
 
 

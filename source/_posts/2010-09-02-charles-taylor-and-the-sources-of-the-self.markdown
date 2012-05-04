@@ -2,7 +2,8 @@
 layout: post
 comments: true
 title: "Charles Taylor and the Sources of the Self"
-category: Blog
+categories:
+- blog
 ---
 
 What is identity? What is a self? How has selfhood changed over time?

@@ -3,7 +3,8 @@ layout: post
 comments: true
 title: "Sacred Book, Sacred Space: My Attempt to Buy a Qur’an" 
 categories:
-- Essays
+- essays
+- blog
 introduction: "This essay was originally published at Religion in America."
 ---
 

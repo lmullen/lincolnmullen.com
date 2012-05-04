@@ -2,7 +2,8 @@
 layout: post
 comments: true
 title: "Review of <em>The Lives of David Brainerd</em>"
-category: Book reviews
+categories:
+- book reviews
 ---
 
 **Grigg, John A. <em>The Lives of David Brainerd: The Making of an

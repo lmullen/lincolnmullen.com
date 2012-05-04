@@ -2,7 +2,8 @@
 layout: post
 comments: true
 title: "Review of <em>The Metaphysical Club</em>"
-category: Book reviews
+categories:
+- book reviews
 ---
 
 **Menand, Louis. _The Metaphysical Club_. New York: Farrar, Straus, and

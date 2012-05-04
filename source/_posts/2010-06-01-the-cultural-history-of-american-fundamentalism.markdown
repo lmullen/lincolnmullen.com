@@ -1,7 +1,8 @@
 ---
 layout: post
 comments: true
-category: Book reviews
+categories:
+- book reviews
 title: "The Cultural History of American Fundamentalism: A Review Essay"
 ---
 

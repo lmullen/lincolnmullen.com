@@ -1,7 +1,8 @@
 ---
 layout: post
 comments: true
-category: Book reviews
+categories:
+- book reviews
 title: "Review of <em>Prodigal Nation</em>"
 ---
 

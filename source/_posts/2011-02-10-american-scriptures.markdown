@@ -2,7 +2,8 @@
 layout: post
 comments: true
 title: "Review of <em>American Scriptures</em>"
-category: Book reviews
+categories:
+- book reviews
 ---
 
 **Maffly-Kipp, Laurie F., ed. <em>American Scriptures: An Anthology of

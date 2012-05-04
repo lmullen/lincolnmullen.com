@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Review of <em>A Theology of Religious Change</em>"
-category: Book reviews
+categories: 
+- book reviews
 comments: true
 ---
 

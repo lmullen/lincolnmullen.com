@@ -2,7 +2,8 @@
 layout: post
 comments: true
 title: "What's So Wrong with Myths?"
-category: blog
+categories:
+- blog
 ---
 
 

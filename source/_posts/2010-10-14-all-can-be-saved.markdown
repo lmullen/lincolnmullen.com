@@ -2,7 +2,8 @@
 layout: post
 comments: true
 title: "Review of <em>All Can Be Saved</em>"
-category: Book reviews
+categories:
+- book reviews
 ---
 
 **Schwartz, Stuart B. <em>All Can Be Saved: Religious Tolerance and

@@ -2,6 +2,7 @@ cgi-bin/
 dev/
 temp/
 thinkup/
+patristics/
 .ftpquota
 .ftpquota.swp
 

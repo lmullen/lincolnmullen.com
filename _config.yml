@@ -7,7 +7,7 @@ title: Lincoln Mullen
 subtitle: 
 author: Lincoln Mullen
 simple_search: http://google.com/search
-description: Lincoln Mullen is a graduate student and historian of religion and early America.
+description: Lincoln Mullen is a historian of American religion and a PhD candidate at Brandeis University.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -67,7 +67,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: lincolnmullen
-twitter_tweet_count: 3
+twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -98,4 +98,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id: UA-25121492-1
 
 # Facebook Like
-facebook_like: false
+facebook_like: true

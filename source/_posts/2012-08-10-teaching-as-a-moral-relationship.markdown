@@ -117,9 +117,10 @@ details of teaching.
     your own.
 
 As a teaching fellow I did not always---or even often---succeed at
-cultivating teaching relationships as moral relationships. After one
-transgression, a professor encouraged me to rethink my interactions with
-students in exactly these moral terms. The most important thing you can
-do as a teacher is subject all your interactions to moral discipline.
+cultivating teaching relationships as moral relationships. After turning
+in some uncharitable grades, a professor encouraged me to rethink my
+interactions with students in exactly these moral terms. The most
+important thing you can do as a teacher is subject all your interactions
+to moral discipline.
 
   [post I wrote for ProfHacker]: http://chronicle.com/blogs/profhacker/how-to-persuade-with-ethos-pathos-or-logos/35431

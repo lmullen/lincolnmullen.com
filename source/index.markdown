@@ -3,7 +3,6 @@ layout: page
 comments: false
 sharing: false
 footer: false
-
 --- 
 
 I am a [PhD student in American history][] at [Brandeis University][] in

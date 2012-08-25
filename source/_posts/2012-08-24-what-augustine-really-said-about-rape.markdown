@@ -13,11 +13,10 @@ categories:
 In this [article][] Professor Burrus and the other authors argue in part
 that Rep. Todd Akin's remarks about 'legitimate rape' have a precedent
 in the thought of Augustine of Hippo, which further discredits Akin (if
-someone whose arguments about rape are so reprehensible could have any
-less legitimacy). The question is whether what Augustine 'does is
-essentially to blame the victim nonetheless, much as Akin seems to do.'
-Regrettably, Professor Burrus seriously misrepresents Augustine's
-argument in [*City of God*][].
+Akin could have any less legitimacy). The question is whether what
+Augustine 'does is essentially to blame the victim nonetheless, much as
+Akin seems to do.' Regrettably, Professor Burrus seriously misrepresents
+Augustine's argument in [*City of God*][].
 
 <!--more-->
 
@@ -134,7 +133,7 @@ As Augustine writes, 'This ... is our position, and it seems
 sufficiently lucid' ([1.19][]). Readers can find the [relevant pages of Augustine online][] and judge for themselves.
 
 I write this exposition of the [*City of God*][relevant pages of Augustine online] at such length not to justify Augustine, but rather to
-condemn Todd Akin. Doubtless the authors of this article wish to oppose
+blame Todd Akin. Doubtless the authors of this article wish to oppose
 Akin by linking him to what they suppose Augustine to have said. But
 connecting Akin's ideas, which are beyond the pale, to one of the great
 writers of the Christian church is a bizarre and ineffective way to do

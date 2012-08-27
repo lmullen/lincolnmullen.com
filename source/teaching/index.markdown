@@ -6,7 +6,7 @@ sharing: false
 footer: true
 ---
 
-I have taught or assisted the following courses.
+I have taught the following courses.
 
 ## [Religious Pluralism and the American State][uws]
 

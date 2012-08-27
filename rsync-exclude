@@ -1,9 +1,9 @@
-cgi-bin/
-dev/
-temp/
-thinkup/
-patristics/
 .ftpquota
 .ftpquota.swp
+cgi-bin/
 courses/
-
+dev/
+docs/
+patristics/
+temp/
+thinkup/

@@ -105,6 +105,11 @@ details of teaching.
     your students, and should go out of your way to try to help all of
     them.
 
+-   What should I do when students say or do funny things? By all means
+    have a good laugh to yourself when students make amusing mistakes in
+    their papers. But never post those mistakes online, or anywhere
+    else.
+
 -   What should I do in dubious situations? You'll encounter situations
     when you doubt that a student is being honest. But always assume and
     hope that your student has the best motives and intent, because
@@ -119,8 +124,8 @@ details of teaching.
 As a teaching fellow I did not always---or even often---succeed at
 cultivating teaching relationships as moral relationships. After turning
 in some uncharitable grades, a professor encouraged me to rethink my
-interactions with students in exactly these moral terms. The most
-important thing you can do as a teacher is subject all your interactions
-to moral discipline.
+interactions with students in exactly these moral terms. So the lesson
+that I learned is that the most important thing you can do as a teacher
+is subject all your interactions to moral discipline.
 
   [post I wrote for ProfHacker]: http://chronicle.com/blogs/profhacker/how-to-persuade-with-ethos-pathos-or-logos/35431

@@ -32,7 +32,7 @@ Science of Conversion Means for the Gospel*, by David J. Zehnder,
 
 Review of *Evangelism and Resistance in the Black Atlantic,
 1760–1835*, by Cedrick May, *Journal of Southern Religion* 13 (2011).
-[web](http://jsr.fsu.edu/Volume13/Mullen.html),
+[web](http://jsr.fsu.edu/issues/vol13/mullen.html),
 [PDF]({{root_url}}docs/reviewmay.pdf)
 
 Review of *The Gardiners of Massachusetts: Provincial Ambition and

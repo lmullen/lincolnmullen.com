@@ -63,7 +63,9 @@ RewriteRule ^comments/feed http://feeds.feedburner.com/LincolnMullenWritings [QS
 RewriteRule ^writing.html http://lincolnmullen.com/scholarship.html [QSA,L,R=301]
 
 # Redirect calendar to Google public calendar
-RewriteRule ^calendar/ https://www.google.com/calendar/b/0/embed?src=lincoln@lincolnmullen.com&ctz=America/New_York&gsessionid=OK [QSA,L,R=302]
+RewriteRule ^calendar https://www.google.com/calendar/b/0/embed?src=lincoln@lincolnmullen.com&ctz=America/New_York&gsessionid=OK [QSA,L,R=302]
+
+RewriteRule ^officehours https://www.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI
 
 # Prevent visitors from seeing htaccess files
 <Files .htaccess>

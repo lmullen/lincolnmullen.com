@@ -6,11 +6,9 @@ sharing: false
 footer: true
 ---
 
-I have taught the following courses.
-
 ## [Religious Pluralism and the American State][uws]
 
-*Brandeis University, fall 2012, UWS 1A-1*
+*Brandeis University, fall 2012*
 
 **[Syllabus][uws-syllabus]**   |   **[Course website][uws]**
 

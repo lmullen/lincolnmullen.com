@@ -55,7 +55,7 @@ all : $(PDFS)
 {% endcodeblock %}
 
 We need a rule for making PDFs. Using Make's string replacement
-characters, we define a generic rule:
+macros, we define a generic rule:
 
 {% codeblock %}
 %.md.pdf : %.md

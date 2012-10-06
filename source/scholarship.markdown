@@ -5,13 +5,18 @@ comments: false
 sharing: false
 ---
 
-### Edited documents
+### Articles, book chapters, and conference proceedings
 
-"Roger Wolcott's 'A Narrative of the Troubles in the Second Church in
-Windsor from the Year 1735 to the Year 1741,'" *Journal of Jonathan
-Edwards Studies*, forthcoming, October 2012.
+"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now," 
+in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining 
+Digital Humanities: A Reader* (Ashgate, forthcoming 2013).
+[web]({{root_url}}/blog/digital-humanities-is-a-spectrum/)
 
-### Conference proceedings (peer-reviewed)
+"A Narrative of the Troubles in the Second Church in
+Windsor, 1735--1741 [Part 1]," by Roger Wolcott, *Journal of Jonathan
+Edwards Studies* 2, no. 2 (2012): 83--142.
+[web](http://jestudies.yale.edu/index.php/journal/issue/view/19/showToc),
+[PDF]({{root_url}}/docs/mullen.wolcott-narrative.pdf)
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of the
 South Carolina Historical Association* (March 2010): 79--90.
@@ -21,10 +26,9 @@ South Carolina Historical Association* (March 2010): 79--90.
 
 Review of *A Theology of Religious Change: What the Social Science of
 Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
-Markets and Morality* 15, no. 1 (2012): 249--250.
+Markets and Morality* 15, no. 1 (2012): 249--250
 [web]({{root_url}}/blog/theology-of-religious-change/),
 [PDF]({{root_url}}/docs/reviewzehnder.pdf)
-
 
 Review of *Evangelism and Resistance in the Black Atlantic, 1760--1835*,
 by Cedrick May, *Journal of Southern Religion*, 13 (2011),
@@ -49,10 +53,14 @@ Southern Historian* 30 (2009): 103--5.
 
 ### Conference papers & talks
 
-"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural
-Conversion in John Eliot's Mission to the Indians," paper presented at
-the annual meeting of the American Society for Church History, January
-7, 2012.
+"Does the Soul Have a History?" paper presented at the biennial meeting 
+of the Conference on Faith and History, Gordon College, October 5, 2012.
+[PDF]({{root_url}}/docs/mullen.does-the-soul-have-a-history.pdf)
+
+"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural 
+Conversion in John Eliot's Mission to the Indians," paper presented at 
+the annual meeting of the American Society for Church History, Chicago, 
+January 7, 2012.
 
 <!--
 Conference participant, THATCamp [The Humanities and Technology Camp]
@@ -90,13 +98,11 @@ Christianity and American History conference, Liberty University, April
 Aquinas," paper presented at the annual meeting of the South Carolina
 Historical Association, March 2006.
 
-### Writings in service to the public
+### Writings in service to the public and profession
 
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
 [web](http://thebrandeishoot.com/articles/9255),
 [PDF]({{root_url}}/docs/faithbasedtolerance.pdf)
-
-### Writings in service to the profession
 
 Regular contributor to ProfHacker, a *Chronicle of Higher Education*
 blog, <http://chronicle.com/blogs/profhacker/author/lmullen>.

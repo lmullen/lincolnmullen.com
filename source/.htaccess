@@ -51,13 +51,15 @@ Redirect permanent /what-is-secularization.html http://lincolnmullen.com/blog/wh
 Redirect permanent /american-scriptures.html http://lincolnmullen.com/blog/american-scriptures/
 Redirect permanent /theology-of-religious-change.html http://lincolnmullen.com/blog/theology-of-religious-change/
 
-# Redirect the old link to the cv to the PDF
-Redirect /cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
 
 # Redirect the feed to the home page, but don't mess up other domains
 RewriteCond %{HTTP_HOST} ^lincolnmullen.com$
 RewriteRule ^feed http://feeds.feedburner.com/LincolnMullenWritings [QSA,L,R=301]
 RewriteRule ^comments/feed http://feeds.feedburner.com/LincolnMullenWritings [QSA,L,R=301]
+
+# Redirect the old link to the cv to the PDF
+# Redirect /cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
+RewriteRule ^cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
 
 # Redirect the page called writing and now called scholarship
 RewriteRule ^writing.html http://lincolnmullen.com/scholarship.html [QSA,L,R=301]

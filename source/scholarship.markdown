@@ -53,6 +53,11 @@ Southern Historian* 30 (2009): 103--5.
 
 ### Conference papers & talks
 
+"The Humanist's Operating System; or, Scholarship in Plain Text," 
+workshop presented at THATCamp New England 2012, Brown University, 
+October 20, 2012.
+[web]({{root_url}}/blog/scholarship-in-plain-text/)
+
 "Does the Soul Have a History?" paper presented at the biennial meeting 
 of the Conference on Faith and History, Gordon College, October 5, 2012.
 [PDF]({{root_url}}/docs/mullen.does-the-soul-have-a-history.pdf)

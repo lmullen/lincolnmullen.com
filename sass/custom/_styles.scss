@@ -43,3 +43,11 @@ blockquote {
   font-size: 1.0em;
   line-height: 1.5em;
 }
+
+.sidebar {
+  background: #fbfbfb!important;
+}
+
+.frame {
+  @include shadow-box;
+}

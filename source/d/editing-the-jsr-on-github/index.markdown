@@ -39,12 +39,11 @@ mistakes.
     {% img center /d/editing-the-jsr-on-github/jsr-2.png %}
 
 3.  All of the issues are stored in the directory `_source/issues`,
-    which you can navigate to in GitHub or which you can go to [here][].
-    The page will look like this:
+    which you can navigate to in GitHub. The page will look like this:
 
     {% img center /d/editing-the-jsr-on-github/jsr-1.png %}
 
-    From there you can click on the directory for the issuse that you
+    From there you can click on the directory for the issue that you
     want, e.g., `vol14`. Click on that directory to get to the issue
     contents.
 
@@ -78,8 +77,8 @@ mistakes.
 
     Footnote markers look like this: `end of sentence.[^14]`
 
-    Footnotes themselves look like this (they're at the end of the file:
-    `[^14]: Author, *Book* (2012), 23.`
+    Footnotes themselves look like this (they're at the end of the
+    file): `[^14]: Author, *Book* (2012), 23.`
 
     Em dashes: `word---another word`. En dashes: `from 1776--1780`.
 
@@ -102,5 +101,4 @@ mistakes.
   [GitHub]: http://https://github.com/
   [Sign up for a free account]: https://github.com/signup/free
   [E-mail me]: mailto:lincoln@lincolnmullen.com
-  [here]: https://github.com/lmullen/jsr/tree/master/_source/issues
   [explanation of Markdown]: http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295

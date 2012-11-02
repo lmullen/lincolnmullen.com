@@ -39,6 +39,11 @@ the README.
 This my first project in Ruby, so I'll be glad for any improvements 
 you'd like to suggest.
 
+**Update 2012-11-01:** I learned that there is another project called 
+[jekyll-epub] so I had to change the name of this project to 
+`jekyll-ebook`. The links above have been corrected. And I've also 
+published the project [as a gem].
+
   [editors]: http://jsr.fsu.edu/about/masthead.html
   [Journal of Southern Religion]: http://jsr.fsu.edu
   [rebuilt the site]: http://jsr.fsu.edu/blog/announcement/site-update.html
@@ -53,4 +58,6 @@ you'd like to suggest.
   [Journal of Digital Humanities]: http://journalofdigitalhumanities.org/
   [Pandoc]: johnmacfarlane.net/pandoc/
   [Octopress]: http://octopress.org/
-  [get the code from GitHub]: https://github.com/lmullen/epub-jekyll
+  [get the code from GitHub]: https://github.com/lmullen/jekyll-ebook
+  [jekyll-epub]: https://rubygems.org/gems/jekyll-epub
+  [as a gem]: https://rubygems.org/gems/jekyll-ebook

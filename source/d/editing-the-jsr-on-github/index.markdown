@@ -17,8 +17,8 @@ mistakes.
 
 1.  [Sign up for a free account][] on GitHub.
 
-2.  [E-mail me][] your GitHub username and password so that I can give
-    you permission to edit the *JSR*'s content.
+2.  [E-mail me][] your GitHub username (no need to send the password) so 
+    that I can give you permission to edit the *JSR*'s content.
 
 3.  Sign in to GitHub.
 
@@ -84,17 +84,43 @@ mistakes.
 
     Headers: `## My Header`
 
-5.  Once you've made your corrections, you need to save the changes. Git
+    Block quotations look like this. You can put just one `>` symbol on 
+    the first line of a paragraph as in the first example. Either of 
+    these examples will produce the same result.
+
+{% codeblock %}
+
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+aliquip ex ea commodo consequat. Duis aute irure dolor in 
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+culpa qui officia deserunt mollit anim id est laborum.Q
+
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+> enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+> reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+> nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+> sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{% endcodeblock %}
+    
+## Saving your changes
+
+1.  Once you've made your corrections, you need to save the changes. Git
     calls this a "commit." At the bottom of the file, you'll see a box
     labeled `Commit summary`. In that box type a brief description of
     what you did, e.g., `Fixed typos`. It will look like this.
 
     {% img center /d/editing-the-jsr-on-github/jsr-5.png %}
 
-6.  Click `Commit Changes` and you're done! You can go on to edit other
+2.  Click `Commit Changes` and you're done! You can go on to edit other
     files if you wish.
 
-7.  I'll probably notice that you made changes. But to be safe, please
+3.  I'll probably notice that you made changes. But to be safe, please
     send me an e-mail saying that there are changes to be added to the
     site.
 

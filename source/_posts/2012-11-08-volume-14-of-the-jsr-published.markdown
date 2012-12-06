@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Volume 14 of the JSR Published"
+external-link: http://jsr.fsu.edu/issues/vol14/
 date: 2012-11-08 16:39
 comments: true
 categories: 

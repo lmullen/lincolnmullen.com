@@ -14,6 +14,8 @@ tags:
 
 The *JSR* [editors][] been making a lot of changes at the *[Journal of Southern Religion][]* in the past year. We've [rebuilt the site][] from the ground up, we've [released our content under an open-access license][] (written up [here][]), we've added a [successful podcast][] with seven episodes already, and we're getting close to adding DOIs and releasing a new issue. Sometime soon I want to write a full 'making of' post about the decisions we made and the tools we used. Today, though, I want to introduce a Ruby script I've written for the *JSR* to make e-books in [EPUB][] format of each issue.
 
+<!--more-->
+
 The *JSR*'s website runs on [Jekyll][], a 'simple, blog aware, static 
 site generator' that converts Markdown files into a website. In other 
 words, *JSR* articles are stored in plain text files like [these][] from 

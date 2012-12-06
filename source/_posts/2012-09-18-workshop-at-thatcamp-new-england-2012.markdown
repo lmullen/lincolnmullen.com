@@ -11,6 +11,8 @@ categories:
 I've been asked to give a [workshop][] at [THATCamp New England 2012][]
 on Saturday, October 20. Here is the description of the workshop:
 
+<!--more-->
+
 > **The Humanist's Operating System; or, Scholarship in Plain Text**
 
 > An operating system is the most basic software on a computer, which

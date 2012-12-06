@@ -23,6 +23,8 @@ lets you define a series of rules to compile files. You define 'targets'
 commands that express the relation between the two. A typical rule using
 [Pandoc][] might look like this:
 
+<!--more-->
+
 {% codeblock %}
 lesson.01.md.pdf : lesson.01.md
     pandoc lesson.01.md -o lesson 01.md.pdf

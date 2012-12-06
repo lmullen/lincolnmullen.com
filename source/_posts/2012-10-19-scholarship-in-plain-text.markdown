@@ -8,8 +8,9 @@ categories:
 - talks
 ---
 
-This Saturday, October 20, I'll be giving a [workshop][] at [THATCamp
-New England 2012][]. Here is the description of the workshop:
+This Saturday, October 20, I'll be giving a [workshop][] at [THATCamp New England 2012][]. Here is the description of the workshop:
+
+<!--more-->
 
 > An operating system is the most basic software on a computer, which
 > allows the computer run higher order applications. Scholars also need

@@ -12,7 +12,7 @@ tags:
 ---
 
 At the Anxious Bench, Thomas Kidd [lists][] "Five Compelling Religious
-Biographies." Among them are Catherine Brekus's new [book][], *Sarah
+Biographies." Among them is Catherine Brekus's new [book][], *Sarah
 Osborn's World: The Rise of Evangelical Christianity in Early America*,
 which Kidd calls "the best biography we have on a female evangelical in
 colonial America" and also "simply one of the best books I have read on

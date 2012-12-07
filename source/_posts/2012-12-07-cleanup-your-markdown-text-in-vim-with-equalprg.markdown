@@ -23,8 +23,7 @@ or the `==` command on a single line. By setting the `equalprg`
 variable, you can clean up your Markdown text using an external program.
 
 First, add this line to a `~/.vim/ftplugin/pandoc.vim` file. This code 
-tells Vim to use `=` to call Pandoc as a filter to format the text. All 
-of the footnote
+tells Vim to use `=` to call Pandoc as a filter to format the text.
 
 {% codeblock lang:vim %}
 setlocal equalprg=pandoc\ -t\ markdown\ --reference-links\ --atx-headers

@@ -5,10 +5,11 @@ date: 2012-12-06 01:45
 comments: true
 external-link: http://www.patheos.com/blogs/anxiousbench/2012/12/five-compelling-religious-biographies/
 categories: 
-- link
+- links
 tags:
 - biography
 - First Great Awakening
+- Sarah Osborn
 ---
 
 At the Anxious Bench, Thomas Kidd [lists][] "Five Compelling Religious

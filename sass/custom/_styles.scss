@@ -60,6 +60,18 @@ blockquote {
   background: #fbfbfb!important;
 }
 
+
+.permalink,
+.sidebar code a,
+.external-link a:link,
+.external-link a:visited {
+  text-decoration: none;
+}
+
+.external-link a:hover {
+  text-decoration: underline;
+}
+
 .frame {
   @include shadow-box;
 }

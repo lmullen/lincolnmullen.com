@@ -9,6 +9,7 @@ tags:
 - Vim
 - Pandoc
 - hacks
+- writing
 ---
 
 [Jason Heppler][], [Caleb McDaniel][], and [Chad Black][] often post

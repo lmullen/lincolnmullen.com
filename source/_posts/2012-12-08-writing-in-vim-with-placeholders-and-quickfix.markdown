@@ -8,6 +8,7 @@ categories:
 tags:
 - Vim
 - hacks
+- writing
 ---
 
 In his famous [essay][] on "History as a Literary Art," Samuel Eliot

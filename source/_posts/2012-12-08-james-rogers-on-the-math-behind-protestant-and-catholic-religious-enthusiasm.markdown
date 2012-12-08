@@ -16,7 +16,7 @@ external-link: http://www.firstthings.com/onthesquare/2012/12/doing-the-math-on-
 *Christianity Today* [reports][] a forthcoming study by sociologist
 Philip Schwadel that there is a growing "intensity gap" between
 Protestants and Catholics, "with some 56 percent of evangelicals
-describing themselves as "strongly affiliated" with their religion
+describing themselves as 'strongly affiliated' with their religion
 compared with 35 percent of Catholics."
 
 At the *First Things* blog On the Square, James Rogers [explains][] that

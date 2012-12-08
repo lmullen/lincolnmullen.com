@@ -27,7 +27,7 @@ variable, you can clean up your Markdown text using an external program.
 First, add this line to a `~/.vim/ftplugin/pandoc.vim` file. This code 
 tells Vim to use `=` to call Pandoc as a filter to format the text.
 
-{% codeblock lang:vim %}
+{% codeblock %}
 setlocal equalprg=pandoc\ -t\ markdown\ --reference-links\ --atx-headers
 {% endcodeblock %}
 
@@ -37,7 +37,7 @@ the document and press `=G` to filter the whole document.
 I've also added a keymapping to filter the whole document automatically. 
 You can put this line in the same file as above, or in your `.vimrc`.
 
-{% codeblock lang:vim %}
+{% codeblock %}
 nnoremap <silent> <leader>= mpgg/\v^(\w\|\#)<CR>=G`p :let @/ = ""<CR>
 {% endcodeblock %}
 

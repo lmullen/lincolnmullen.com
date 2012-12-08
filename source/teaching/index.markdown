@@ -4,6 +4,7 @@ title: "Teaching"
 comments: false
 sharing: false
 footer: true
+sidebar: collapse
 ---
 
 ## [Religious Pluralism and the American State][uws]

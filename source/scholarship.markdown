@@ -3,6 +3,7 @@ layout: page
 title: Scholarship
 comments: false
 sharing: false
+sidebar: collapse
 ---
 
 ### Articles, book chapters, and conference proceedings

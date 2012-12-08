@@ -22,6 +22,8 @@ automatically indent text using the `=` command over a range or motion,
 or the `==` command on a single line. By setting the `equalprg`
 variable, you can clean up your Markdown text using an external program.
 
+<!--more-->
+
 First, add this line to a `~/.vim/ftplugin/pandoc.vim` file. This code 
 tells Vim to use `=` to call Pandoc as a filter to format the text.
 

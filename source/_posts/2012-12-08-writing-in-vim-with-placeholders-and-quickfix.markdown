@@ -51,8 +51,8 @@ nnoremap <leader>{ :vimgrep /{\w\+}/ %<CR>:copen<CR>
 {% endcodeblock %}
 
 That keymapping puts all of the markers into Vim's [quickfix][] buffer, 
-which gives me a list of all the needed correction and lets me jump from 
-one to another easily. It looks like this:
+which gives me a list of all the needed corrections and lets me jump 
+from item to item. It looks like this:
 
 {% img ../../postimg/2012-12-08-quickfix.png %}
 

@@ -9,7 +9,7 @@ external-link: http://earlyamericanists.com/2012/12/10/welcome-to-the-junto/
 ---
 
 The [Junto][], a group blog on early American history, has begun
-publishing today with great line up of 19 contributors. Here is their
+publishing today with great lineup of 19 contributors. Here is their
 description:
 
 > The Junto is a group blog made up of young early Americanists

@@ -8,7 +8,7 @@
       {% endif %}
     {% else %}
       {% if page.external-link %} 
-      <h3 class="entry-title external-link"><a href="{{ page.external-link }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} &rarr;</a></h3>
+      <h4 class="entry-title external-link"><a href="{{ page.external-link }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %} &rarr;</a></h4>
       {% else %} 
       <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
       {% endif %}

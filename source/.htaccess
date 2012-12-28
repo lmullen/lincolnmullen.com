@@ -59,10 +59,11 @@ RewriteRule ^comments/feed http://feeds.feedburner.com/LincolnMullenWritings [QS
 
 # Redirect the old link to the cv to the PDF
 # Redirect /cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
-RewriteRule ^cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
+# RewriteRule ^cv/ http://lincolnmullen.com/docs/Mullen-cv.pdf
 
 # Redirect the page called writing and now called scholarship
-RewriteRule ^writing.html http://lincolnmullen.com/scholarship.html [QSA,L,R=301]
+RewriteRule ^writing.html http://lincolnmullen.com/cv/ [QSA,L,R=301]
+RewriteRule ^scholarship.html http://lincolnmullen.com/cv/ [QSA,L,R=301]
 
 # Redirect calendar to Google public calendar
 RewriteRule ^calendar https://www.google.com/calendar/b/0/embed?src=lincoln@lincolnmullen.com&ctz=America/New_York&gsessionid=OK [QSA,L,R=302]

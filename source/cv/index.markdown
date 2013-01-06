@@ -105,6 +105,7 @@ and Martin Hershock (Washington, DC: CQ Press, 2008).
 "Catholic Converts in the Nineteenth-century Market of Souls," paper 
 presented at the annual meeting of the American Catholic Historical 
 Association, New Orleans, January 4, 2013.
+[PDF]({{root_url}}/docs/Mullen.acha.2013.md.pdf)
 
 "The Humanist's Operating System; or, Scholarship in Plain Text," 
 workshop presented at THATCamp New England 2012, Brown University, 

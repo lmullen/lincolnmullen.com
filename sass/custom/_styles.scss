@@ -78,3 +78,17 @@ blockquote {
 html {
   background: #fbfbfb;
 }
+
+body nav,
+#content aside.sidebar {
+  border-top-color: #fbfbfb!important;
+}
+
+aside.sidebar section h1 {
+  border-bottom-color: #ccc;
+}
+
+aside.sidebar section ul li {
+  border-bottom-color: #fbfbfb!important;
+  border-bottom-width: 0px;
+}

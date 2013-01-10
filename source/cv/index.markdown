@@ -9,7 +9,7 @@ sidebar: collapse
 
 <img src="{{root_url}}/images/pdf.gif" style="border:0;" /> **[View this CV as a PDF]({{root_url}}/docs/Mullen-cv.pdf)** 
 
-Irving and Rose Crown fellow \& PhD candidate  
+Irving and Rose Crown fellow & PhD candidate  
 Department of History, Brandeis University  
 
 ## Education
@@ -100,7 +100,7 @@ Barbara, CA: ABC-CLIO, 2009).
 "Draft" in *The Political Lincoln: An Encyclopedia*, ed. Paul Finkelman
 and Martin Hershock (Washington, DC: CQ Press, 2008).
 
-## Conference papers \& talks
+## Conference papers & talks
 
 "Catholic Converts in the Nineteenth-century Market of Souls," paper 
 presented at the annual meeting of the American Catholic Historical 
@@ -202,7 +202,7 @@ Technology, November 13--14, 2010
 + List editor, H-GRAD, 2009--2011
 
 
-## Seminars \& workshops
+## Seminars & workshops
 
 + Public history seminar, directed by Martha A. Sandweiss and 
 Anthony Grafton, Princeton University, May 21--25, 2012.
@@ -210,7 +210,7 @@ Anthony Grafton, Princeton University, May 21--25, 2012.
 Religious Communities," directed by Gerardo Marti, Calvin College, June 
 27--July 22, 2011.
 
-## Grants \& awards
+## Grants & awards
 
 ### Research 
 
@@ -231,7 +231,7 @@ University, Brown University, and other donors, 2011
 + Outstanding Teaching Assistant, Brandeis University, Graduate School of 
 Arts and Sciences, 2012
 
-## Languages \& specialist skills
+## Languages & specialist skills
 
 + Advanced reading knowledge of ancient (Koine) Greek
 + Computer languages and software: proficiencies in Ruby, PHP, CSS, HTML, Git, WordPress, Jekyll, Omeka, LaTeX, Bash, ZSH

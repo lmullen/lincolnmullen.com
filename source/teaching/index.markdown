@@ -11,7 +11,7 @@ sidebar: collapse
 
 *Brandeis University, fall 2012*
 
-**[Syllabus][uws-syllabus]**   |   **[Course website][uws]**
+**[Syllabus][uws-syllabus]**   \|   **[Course website][uws]**
 
 **Course description:** Two of the most pressing questions about
 American religion and its public role are intertwined: how should

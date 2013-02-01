@@ -30,5 +30,10 @@ Ingersoll deserves to be better known as an important figure from the
 nineteenth century, and perhaps Jacoby's recent [biography][], *The
 Great Agnostic*, will be a contribution.
 
+**Update:** Timothy Larsen [reviews][] Jacoby's biography, and finds it
+riddled with errors and misinterpretations (via [Alan Jacobs][]).
+
   [offers]: http://theamericanscholar.org/a-new-birth-of-reason/
   [biography]: https://www.amazon.com/dp/0300137257/ref=as_li_ss_til?tag=readthefathers-20&camp=0&creative=0&linkCode=as4&creativeASIN=0300137257&adid=1NFNP6QDRB7GPE8K6953&
+  [reviews]: http://www.christianitytoday.com/ct/2013/january-web-only/ingersoll-quest-for-perfect-atheist.html?paging=off
+  [Alan Jacobs]: http://www.theamericanconservative.com/jacobs/slander-is-indestructible/

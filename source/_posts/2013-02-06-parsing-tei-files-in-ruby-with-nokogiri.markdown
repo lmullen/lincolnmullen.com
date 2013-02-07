@@ -22,7 +22,7 @@ proof of concept.
 <!--more-->
 
 For experimental purposes, I downloaded the Folger Shakespeare Library's
-[Digital Texts][], a collection of Shakespeares Plays encoded in TEI. I
+[Digital Texts][], a collection of Shakespeare's plays encoded in TEI. I
 choose these texts because they had each speaker marked up, as in this
 snippet from *[Macbeth][]*. For my purposes, a text that marked up
 names, dates, or places would be more interesting, but the principles 

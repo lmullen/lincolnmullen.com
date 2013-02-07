@@ -52,7 +52,7 @@ module RelatedPosts
         else
           b[0].date <=> a[0].date
         end
-      end.collect {|post,freq| post}
+      end.collect {|post,freq| post}[0..2]
     end
   end
 

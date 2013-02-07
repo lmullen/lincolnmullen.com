@@ -19,6 +19,8 @@ experiment with analyzing a TEI file programmatically, so I found some
 sample documents and wrote an easy script in [Ruby][] to serve as my own
 proof of concept.
 
+<!--more-->
+
 For experimental purposes, I downloaded the Folger Shakespeare Library's
 [Digital Texts][], a collection of Shakespeares Plays encoded in TEI. I
 choose these texts because they had each speaker marked up, as in this

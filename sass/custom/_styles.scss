@@ -96,3 +96,8 @@ aside.sidebar section ul li {
 sup {
   vertical-align: super;
 }
+
+// Correct for bizzare wrapping behavior in articles
+article a {
+  white-space: normal
+}

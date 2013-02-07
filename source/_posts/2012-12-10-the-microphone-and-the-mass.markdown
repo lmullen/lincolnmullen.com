@@ -4,7 +4,8 @@ title: "The microphone and the Mass"
 date: 2012-12-10 20:44
 comments: true
 categories: 
-- religion
+- links
+tags:
 - Catholicism
 - liturgy
 external-link: http://www.firstthings.com/article/2012/11/drop-the-mic

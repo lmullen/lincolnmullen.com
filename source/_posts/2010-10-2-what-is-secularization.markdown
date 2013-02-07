@@ -4,6 +4,11 @@ comments: true
 title: "What Is Secularization?"
 categories:
 - blog
+tags:
+- secularization
+- secularism
+- history
+- religion
 ---
 
 A few days ago, Paul [introduced us to secularization theory](http://religioninamerica.org/2010/09/25/secularization-theory/), and in particular to Charles Taylor’s book *A Secular Age*. (Taylor’s other book, *Sources of the Self*, was the [subject of an earlier post](http://religioninamerica.org/2010/09/02/charles-taylor-and-the-sources-of-the-self/).) Taylor’s book is notable for going against the grain: at a time when most scholars are again recognizing the importance of religion, Taylor has undertaken to explain the old question of why societies become more secular. Why? 

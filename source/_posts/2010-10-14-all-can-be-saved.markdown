@@ -4,6 +4,11 @@ comments: true
 title: "Review of <em>All Can Be Saved</em>"
 categories:
 - book reviews
+tags:
+- history
+- religion
+- pluralism
+- book reviews
 ---
 
 **Schwartz, Stuart B. <em>All Can Be Saved: Religious Tolerance and

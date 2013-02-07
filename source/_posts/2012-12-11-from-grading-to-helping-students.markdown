@@ -6,6 +6,10 @@ comments: true
 categories: 
 - ProfHacker
 - teaching
+tags:
+- ProfHacker
+- teaching
+- grading
 ---
 
 *[This post originally appeared at [ProfHacker][] on December 11,

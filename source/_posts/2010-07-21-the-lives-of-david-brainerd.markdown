@@ -4,6 +4,10 @@ comments: true
 title: "Review of <em>The Lives of David Brainerd</em>"
 categories:
 - book reviews
+tags:
+- evangelicalism
+- history
+- book reviews
 ---
 
 **Grigg, John A. <em>The Lives of David Brainerd: The Making of an

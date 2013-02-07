@@ -6,6 +6,10 @@ comments: true
 categories: 
 - blog
 - essays
+tags:
+- Augustine
+- history
+- polemic
 ---
 
 *[Note: This post was written in response to the article ["'Let It Be Unto Me': Akin, Rape, and the Early Church"][article] published in *Religion Dispatches* on August 22, 2012. It was originally posted as a comment on that article.]*

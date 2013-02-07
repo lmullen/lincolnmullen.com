@@ -10,6 +10,7 @@ categories:
 tags:
 - cron
 - Bash
+- hacks
 ---
 
 Here is a hack for those of you writing a dissertation (or book, or

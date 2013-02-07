@@ -4,7 +4,6 @@ title: "A Makefile to Convert All Markdown Files to PDFs Using Pandoc"
 date: 2012-09-22 14:55
 comments: true
 categories: 
-- blog
 - hacks
 tags:
 - Makefile

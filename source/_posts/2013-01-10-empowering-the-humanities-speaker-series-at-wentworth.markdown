@@ -5,6 +5,9 @@ date: 2013-01-10 10:32
 comments: true
 categories: 
 - digital humanities
+tags:
+- CFP
+- announcements
 ---
 
 Via the Boston Digital Humanities mailing list comes an announcement for a speaker series this fall at the [Wentworth Institute of Technology](http://www.wit.edu/) in Boston. ([PDF of poster]({{site.baseurl}}/uploads/wit.empowering-humanities.pdf))

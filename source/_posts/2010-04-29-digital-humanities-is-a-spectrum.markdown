@@ -6,6 +6,8 @@ categories:
 - essays
 - blog
 - digital humanities
+tags:
+- digital humanities
 ---
 
 Digital humanities is a spectrum. To put it another way, all humanities scholars use digital practices and concepts to one degree or another, even those who do not identify as digital humanists. Working as a digital humanist is _not_ one side of a binary, the other side of which is working as a traditional scholar.

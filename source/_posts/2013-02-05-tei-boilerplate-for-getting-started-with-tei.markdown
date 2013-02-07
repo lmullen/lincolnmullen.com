@@ -6,6 +6,10 @@ comments: true
 categories: 
 - digital humanities
 external-link: http://dcl.slis.indiana.edu/teibp/
+tags:
+- TEI
+- digital humanities
+- XML
 ---
 
 I sat in on [John Unsworth's][] digital humanities class on [TEI][] this

@@ -9,6 +9,7 @@ external-link: http://theamericanscholar.org/a-new-birth-of-reason/
 tags:
 - secularism
 - Robert Ingersoll
+- Susan Jacoby
 ---
 
 The history of American secularism is a mostly neglected field, except a

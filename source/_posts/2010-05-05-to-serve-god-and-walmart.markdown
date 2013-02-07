@@ -3,6 +3,10 @@ layout: post
 comments: true
 categories:
 - book reviews
+tags:
+- religion
+- history
+- book reviews
 title: "Review of <em>To Serve God and Wal-Mart</em>"
 ---
 

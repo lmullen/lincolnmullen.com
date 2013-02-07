@@ -9,6 +9,9 @@ categories:
 tags:
 - JSR
 - Ruby
+- publishing
+- e-books
+- journals
 ---
 
 Today the *JSR* editors ([Mike Pasquier][], [Luke Harlow][], [Art Remillard][], and [Emily Clark][]) published [volume 14][] of the *[Journal of Southern Religion][]*. This issue has a great line up of articles, especially the forum on "Religion in the Early South" guest edited by [Rebecca Goetz][].

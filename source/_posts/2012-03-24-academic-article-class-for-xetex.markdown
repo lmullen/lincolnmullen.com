@@ -4,6 +4,9 @@ title: "Academic Article Class for XeLaTeX"
 categories: 
 - blog
 comments: true
+tags:
+- LaTeX
+- code
 ---
 
 I've created an XeLaTeX class that creates a nice-looking academic article

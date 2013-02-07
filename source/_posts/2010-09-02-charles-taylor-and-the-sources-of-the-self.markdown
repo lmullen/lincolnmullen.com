@@ -2,6 +2,10 @@
 layout: post
 comments: true
 title: "Charles Taylor and the Sources of the Self"
+tags:
+- books
+- self
+- dissertation
 categories:
 - blog
 ---

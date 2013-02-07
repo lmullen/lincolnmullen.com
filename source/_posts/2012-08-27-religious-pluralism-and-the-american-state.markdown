@@ -6,6 +6,12 @@ comments: true
 categories: 
 - blog
 - teaching
+tags:
+- teaching
+- religion
+- pluralism
+- state
+- history
 ---
 
 This fall I'll be teaching a university writing seminar titled

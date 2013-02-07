@@ -3,6 +3,12 @@ layout: post
 comments: true
 categories:
 - book reviews
+tags:
+- book reviews
+- history
+- providentialism
+- jeremiad
+- religion
 title: "Review of <em>Prodigal Nation</em>"
 ---
 

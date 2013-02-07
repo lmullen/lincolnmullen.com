@@ -4,8 +4,11 @@ title: "The Science of the Soul in Colonial New England"
 date: 2012-12-31 12:02
 comments: true
 categories: 
-- history
 - book reviews
+tags:
+- book reviews
+- history
+- religion
 ---
 
 *[This post originally appeared at [Religion in American History][] on

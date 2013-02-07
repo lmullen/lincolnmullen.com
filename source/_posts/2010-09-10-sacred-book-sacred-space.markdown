@@ -2,6 +2,9 @@
 layout: post 
 comments: true
 title: "Sacred Book, Sacred Space: My Attempt to Buy a Qur’an" 
+tags:
+- pluralism
+- religion
 categories:
 - essays
 - blog

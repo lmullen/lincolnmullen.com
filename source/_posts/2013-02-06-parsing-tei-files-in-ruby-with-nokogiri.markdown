@@ -9,6 +9,7 @@ tags:
 - Ruby
 - TEI
 - Nokogiri
+- digital humanities
 ---
 
 Yesterday when I [wrote][] about experimenting with TEI Boilerplate, I

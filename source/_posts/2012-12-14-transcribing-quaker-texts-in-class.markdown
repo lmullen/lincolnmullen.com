@@ -6,6 +6,11 @@ comments: true
 categories: 
 - links
 - history
+tags:
+- history
+- teaching
+- TEI
+- digital humanities
 external-link: http://www.common-place.org/vol-13/no-01/school/
 ---
 

@@ -4,9 +4,11 @@ title: "Jewish Converts to Catholicism and Jewish-Catholic Reconciliation"
 date: 2013-01-08 19:29
 comments: true
 categories: 
-- history
 - links
 external-link: http://www.firstthings.com/article/2012/12/jacob-and-esau
+tags:
+- history
+- reviews
 ---
 
 From Nicholas J. Healy's 

@@ -4,6 +4,10 @@ title: "Review of <em>A Theology of Religious Change</em>"
 categories: 
 - book reviews
 comments: true
+tags:
+- religion
+- book reviews
+- conversion
 ---
 
 **Zehnder, David J. _A Theology of Religious Change: What the Social

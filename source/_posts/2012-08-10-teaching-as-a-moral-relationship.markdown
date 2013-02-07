@@ -7,6 +7,10 @@ categories:
 - blog
 - teaching
 - essays
+- talks
+tags:
+- teaching
+- ethics
 ---
 
 *[I have been asked to participate in an orientation for new teaching

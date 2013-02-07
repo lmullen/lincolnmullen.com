@@ -5,8 +5,8 @@ date: 2013-01-14 11:20
 comments: true
 categories: 
 - links
-- writing
 tags:
+- writing
 - text editors
 external-link: http://www.newyorker.com/reporting/2013/01/14/130114fa_fact_mcphee
 --- 

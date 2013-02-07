@@ -9,6 +9,7 @@ tags:
 - Vim
 - hacks
 - writing
+- text editors
 ---
 
 In his famous [essay][] on "History as a Literary Art," Samuel Eliot

@@ -6,6 +6,11 @@ comments: true
 categories: 
 - blog
 - dissertation
+tags:
+- writing
+- dissertation
+- history
+- religion
 ---
 After I returned from the AHA/ASCH annual meeting this January, I broke
 ground on my dissertation. My goal is to turn out a rough draft of a

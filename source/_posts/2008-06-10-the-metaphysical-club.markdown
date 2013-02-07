@@ -4,6 +4,12 @@ comments: true
 title: "Review of <em>The Metaphysical Club</em>"
 categories:
 - book reviews
+tags:
+- reviews
+- pragmatism
+- William James
+- Louis Menand
+- history
 ---
 
 **Menand, Louis. _The Metaphysical Club_. New York: Farrar, Straus, and

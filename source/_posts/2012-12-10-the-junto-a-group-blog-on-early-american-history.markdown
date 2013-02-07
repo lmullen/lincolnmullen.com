@@ -4,6 +4,9 @@ title: "The Junto: A Group Blog on Early American History"
 date: 2012-12-10 14:41
 comments: true
 categories: 
+- links
+tags:
+- blogs
 - history
 external-link: http://earlyamericanists.com/2012/12/10/welcome-to-the-junto/ 
 ---

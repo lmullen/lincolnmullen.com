@@ -3,6 +3,11 @@ layout: post
 comments: true
 categories:
 - book reviews
+tags:
+- fundamentalism
+- history
+- religion
+- evangelicalism
 title: "The Cultural History of American Fundamentalism: A Review Essay"
 ---
 

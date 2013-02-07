@@ -6,6 +6,12 @@ comments: true
 categories: 
 - blog
 - digital humanities
+tags:
+- text editors
+- Unix
+- Vim
+- Pandoc
+- Markdown
 ---
 
 I've been asked to give a [workshop][] at [THATCamp New England 2012][]

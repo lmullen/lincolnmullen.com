@@ -6,6 +6,12 @@ comments: true
 categories: 
 - digital humanities
 - talks
+tags:
+- hacks
+- text editors
+- Unix
+- Vim
+- Pandoc
 ---
 
 This Saturday, October 20, I'll be giving a [workshop][] at [THATCamp New England 2012][]. Here is the description of the workshop:

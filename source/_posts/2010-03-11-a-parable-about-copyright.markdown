@@ -4,6 +4,9 @@ comments: true
 categories: 
 - essays
 - blog
+tags:
+- copyright
+- open access
 title: "What Would Jesus Do? A Parable About Copyright"
 ---
 

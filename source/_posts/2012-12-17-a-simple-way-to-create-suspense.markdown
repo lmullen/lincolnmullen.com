@@ -7,6 +7,9 @@ categories:
 - links
 - writing
 external-link: http://opinionator.blogs.nytimes.com/2012/12/08/a-simple-way-to-create-suspense/
+tags:
+- writing
+- narrative
 ---
 
 Lee Child demonstrates then [explains][] how to create suspense in

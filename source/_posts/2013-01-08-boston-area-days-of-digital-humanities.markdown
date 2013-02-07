@@ -7,6 +7,11 @@ categories:
 - digital humanities
 - links
 external-link: http://nulab.neu.edu/events/dhdays2013/
+tags:
+- digital humanities
+- CFP
+- event
+- announcement
 ---
 
 [John Unsworth][], [Dave Wedaman][], and [Ryan Cordell][] have organized

@@ -15,7 +15,7 @@ This is an astounding [interview][] of Garry Wills on the *Colbert
 Report*. On the one hand, professed-Catholic Wills denies the validity 
 of transubstantiation ("it's a fake"), last rites, the priesthood, and 
 the papacy like a low-church Protestant. On the other hand, Wills bases 
-some of his arguments on denying the usefulness of the book of Hebrew 
+some of his arguments on denying the usefulness of the book of Hebrews
 for theology like a ... well, not like a Catholic or most Protestant 
 traditions. It's hard to figure out where Wills coming from.
 

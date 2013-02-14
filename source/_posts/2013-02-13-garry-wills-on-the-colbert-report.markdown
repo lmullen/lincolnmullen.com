@@ -17,7 +17,7 @@ of transubstantiation ("it's a fake"), last rites, the priesthood, and
 the papacy like a low-church Protestant. On the other hand, Wills bases 
 some of his arguments on denying the usefulness of the book of Hebrews
 for theology like a ... well, not like a Catholic or most Protestant 
-traditions. It's hard to figure out where Wills coming from.
+traditions. It's hard to figure out where Wills is coming from.
 
   [interview]: http://www.colbertnation.com/the-colbert-report-videos/423715/february-11-2013/garry-wills
 <iframe src="http://media.mtvnservices.com/embed/mgid:cms:video:colbertnation.com:423715" width="512" height="288" frameborder="0"></iframe>

@@ -7,75 +7,89 @@ footer: true
 sidebar: collapse
 ---
 
-Digital humanities and coding projects that I have initiated or
-contributed to.
+My digital history, digital humanities, academic writing and publishing,
+and coding projects
 
 ## American Converts
 
-{% img project /projects/project-convertsdb.png "American Converts" %}
+[{% img project /projects/project-convertsdb.png %}][9]
 
-**[American Converts Database][]**
+A database of Americans who experienced religious conversions, broadly
+defined. Produced in collaboration with other historians of American
+religion.
 
-A collaborative database of American converts who changed religions
+-   [American Converts database][9]
 
 ## Historical Demographics of American Religion
 
-**[Blog posts][]** \| **[GitHub repository][]**
+[{% img project /projects/project-demographics.png %}][8]
 
 Data and R scripts to track the historical demographics of American
-religion
+religion from primary sources
+
+-   [Blog posts about the project][12]
+-   [GitHub repository][8]
 
 ## Journal of Southern Religion
 
-{% img project /projects/project-jsr.png "JSR" %}
+[{% img project /projects/project-jsr.png "JSR" %}][10]
 
-**[*Journal of Southern Religion*][]** \| **[GitHub repository][1]**
+The open-access online *Journal of Southern Religion*, whose website I
+built and maintain
 
-As the web editor of the *Journal of Southern Religion*, I redesigned
-the website and its method of publishing articles, as well as adding a
-podcast and e-books of each issue.
+-   [*Journal of Southern Religion* website][10]
+-   [GitHub repository][10]
 
 ## Jekyll E-book
 
-**[GitHub repository][2]** \| **[Ruby Gems][]**
-
-A Ruby script/gem to create EPUB books from Jekyll posts and pages using
+A Ruby gem to create EPUB e-books from Jekyll posts and pages using
 Pandoc
+
+-   [GitHub repository][1]
+-   [Ruby Gems][11]
 
 ## Bibkeys
 
-**[GitHub repository][3]** \| **[Ruby Gems][4]**
-
 A Ruby gem to list all the citation keys in a BibTeX file
+
+-   [GitHub repository][2]
+-   [Ruby Gems][3]
 
 ## History Bibliography
 
-**[GitHub repository][5]**
-
 A BibTeX database of citations in religious history and American history
+
+-   [GitHub repository][4]
 
 ## Academic Article LaTeX Class
 
-**[GitHub repository][6]**
-
 An academic article LaTeX class
 
-## Academic Paper LaTeX Class
+-   [GitHub repository][5]
 
-**[GitHub repository][7]**
+## Academic Paper LaTeX Class
 
 A LaTeX class that extends the article class and does some formatting to
 make the article format more suitable for classroom papers.
 
-  [American Converts Database]: http://americanconverts.org
-  [Blog posts]: http://lincolnmullen.com/blog/categories/demographics-religion/
-  [GitHub repository]: https://github.com/lmullen/demographics-religion
-  [*Journal of Southern Religion*]: http://jsr.fsu.edu
-  [1]: https://github.com/lmullen/jsr
-  [2]: https://github.com/lmullen/jekyll-ebook
-  [Ruby Gems]: http://rubygems.org/gems/jekyll-ebook
-  [3]: https://github.com/lmullen/bibkeys
-  [4]: http://rubygems.org/gems/bibkeys
-  [5]: https://github.com/lmullen/historybib
-  [6]: https://github.com/lmullen/academic-article-latex
-  [7]: https://github.com/lmullen/acadpaper
+-   [GitHub repository][6]
+
+## Dotfiles
+
+My Unix/Linux/Mac OS X configuration files, mostly for ZSH, Vim, iTerm2,
+Git, Ruby, and R.
+
+-   [GitHub repository][7]
+
+  [1]: https://github.com/lmullen/jekyll-ebook
+  [2]: https://github.com/lmullen/bibkeys
+  [3]: http://rubygems.org/gems/bibkeys
+  [4]: https://github.com/lmullen/historybib
+  [5]: https://github.com/lmullen/academic-article-latex
+  [6]: https://github.com/lmullen/acadpaper
+  [7]: https://github.com/lmullen/dotfiles
+  [8]: https://github.com/lmullen/demographics-religion
+  [9]: http://americanconverts.org
+  [10]: https://github.com/lmullen/jsr
+  [11]: http://rubygems.org/gems/jekyll-ebook
+  [12]: http://lincolnmullen.com/blog/categories/demographics-religion/

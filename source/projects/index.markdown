@@ -20,17 +20,16 @@ A collaborative database of American converts who changed religions
 
 ## Historical Demographics of American Religion
 
-**[Blog posts][]** | **[GitHub repository][]**
+**[Blog posts][]** \| **[GitHub repository][]**
 
 Data and R scripts to track the historical demographics of American
 religion
 
 ## Journal of Southern Religion
 
-{% img project /projects/project-jsr.png "Journal of Southern Religion"
-%}
+{% img project /projects/project-jsr.png "JSR" %}
 
-**[*Journal of Southern Religion*][]** | **[GitHub repository][1]**
+**[*Journal of Southern Religion*][]** \| **[GitHub repository][1]**
 
 As the web editor of the *Journal of Southern Religion*, I redesigned
 the website and its method of publishing articles, as well as adding a
@@ -38,14 +37,14 @@ podcast and e-books of each issue.
 
 ## Jekyll E-book
 
-**[GitHub repository][2]** | **[Ruby Gems][]**
+**[GitHub repository][2]** \| **[Ruby Gems][]**
 
 A Ruby script/gem to create EPUB books from Jekyll posts and pages using
 Pandoc
 
 ## Bibkeys
 
-**[GitHub repository][3]** | **[Ruby Gems][4]**
+**[GitHub repository][3]** \| **[Ruby Gems][4]**
 
 A Ruby gem to list all the citation keys in a BibTeX file
 

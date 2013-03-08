@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Upcoming Course: Religion in the 19th Century: A Digital History 
+title: "Upcoming Course: Nineteenth-Century American Religion: A Digital History 
 Seminar"
-date: 2013-03-07 21:02
+date: 2013-03-08 10:38
 comments: true
 categories: 
 - teaching
@@ -25,7 +25,7 @@ History Seminar." Though I'd known for a while that the course would be
 a history of nineteenth-century religion, the design of the course came
 out of a discussion with [Jeff McClurken][] and Caleb McDaniel at Jeff's
 workshop on "Teaching Digital History" and a discussion with [Mills
-Kelly][] and others his session on "Disruptive Pedagogy," both at
+Kelly][] and others at his session on "Disruptive Pedagogy," both at
 [THATCamp AHA][] in New Orleans. I've taken as models Jeff's course
 ["Adventures in Digital History"][], Mills's ["Dead in Virginia"][]
 historical methods course, and [Tona Hangen's][] [Digital Worcester][]
@@ -97,4 +97,4 @@ Here is the digital project for the course:
   [Digital Worcester]: http://www.digitalworcester.org/
   [Omeka]: http://omeka.org/
   [Neatline]: http://neatline.org/
-  [GitHub repository for the syllabys]: https://github.com/lmullen/religion-19c-dh
+  [GitHub repository for the syllabus]: https://github.com/lmullen/religion-19c-dh

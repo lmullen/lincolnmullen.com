@@ -7,11 +7,51 @@ footer: true
 sidebar: collapse
 ---
 
-## [Religious Pluralism and the American State][uws]
+
+## [Nineteenth-Century American Religion: A Digital History Seminar][upi-syllabus]
+
+*Brandeis University, University Prize Instructorship, scheduled spring 2014*
+
+-   **[Syllabus][upi-syllabus]**   
+
+**Course description:** During the American Revolution and the following 
+decades, the state and federal governments cut their financial and 
+constitutional support for established churches. Though many at the time 
+predicted the demise of Christianity, the result was a flowering of an 
+astonishing diversity of religions. In this course you will read the 
+writings of the many individuals and groups that lived out their 
+religion in the nineteenth-century United States: the alliance of 
+skeptics and believers who supported disestablishment; Baptist and 
+Methodists revivalists; Catholic priests, missionaries, and animists; 
+founders of new religions such as Mormonism and Christian Science; 
+Reform and Orthodox Jews; African-Americans; metaphysicians; liberal and 
+conservative Protestants; agnostics and atheists. We will make sense of 
+that diversity by asking and answering a set of unifying questions: How 
+did mainstream and minority faiths relate to one another, especially in 
+the public sphere?  How did people experience religion in their everyday 
+lives? How did religious people change laws and society? How did new 
+forms of religious expression develop? How were new religions founded? 
+How were religions imported from Europe, Asia, Africa, and South 
+America, and how did those religions adapt? How did Americans become 
+more religious and more secular at the same time?
+
+The centerpiece of this class will be a digital history project: you 
+will do your own original research into nineteenth-century sources to 
+make a digital map of religion in Boston over the nineteenth century.  
+Creating this project will teach you the skills of a 
+historian---researching, writing, analyzing---and will let you put what 
+you'll learn in this class to work on the ground. In this history class 
+as shop class, you'll also learn digital and project 
+skills---publishing, mapping, encoding, collaborating, communicating, 
+managing---that are widely useful in government, business, and research 
+outside the academy.
+
+## [Religious Pluralism and the American State][uws-website]
 
 *Brandeis University, fall 2012*
 
-**[Syllabus][uws-syllabus]**   \|   **[Course website][uws]**
+-   **[Syllabus][uws-syllabus]**  
+-   **[Course website][uws-website]**
 
 **Course description:** Two of the most pressing questions about
 American religion and its public role are intertwined: how should
@@ -52,5 +92,7 @@ fellow for the following courses at [Brandeis University][]:
     Govind Sreenivasan (2011, spring)
 
   [Brandeis University]: http://www.brandeis.edu/
-  [uws]: http://lincolnmullen.com/courses/uws/
+  [uws-website]: http://lincolnmullen.com/courses/uws/
   [uws-syllabus]: http://lincolnmullen.com/docs/religious-pluralism.syllabus.2012-fall.pdf
+  [upi-syllabus]: http://lincolnmullen.com/downloads/docs/religion-19c-dh.pdf
+

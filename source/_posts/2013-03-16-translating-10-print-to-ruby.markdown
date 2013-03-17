@@ -250,9 +250,9 @@ ingenuity of the original BASIC.
 
 ### Appendix: How to run this code
 
-You can run each of these solutions for yourself in a terminal. The 
-easiest way to do this is to copy the entire line between the `''` in 
-this command, which interprets the code with Ruby.
+You can run each of these solutions for yourself in a terminal. The
+easiest way to do this is to paste the entire line of code between the
+`''` in this command, which interprets the code with Ruby.
 
 ``` bash
 ruby -e 'CODE GOES HERE'

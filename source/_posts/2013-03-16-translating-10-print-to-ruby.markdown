@@ -34,7 +34,7 @@ randomization function selects between characters 205 and 206. Then the
 `GOTO 10` command returns to the beginning of the line and runs the
 command in an endless loop. The output of the program is diagonal maze.
 
-{% img center /postimg/2013-03-16.10PRINT-1.jpg %}
+{% img center /postimg/2013-03-16.10PRINT-1.png %}
 
 <!--more-->
 

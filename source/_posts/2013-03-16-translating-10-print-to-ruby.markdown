@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Challenge of Translating 10 PRINT to Ruby"
-date: 2013-03-16 20:25
+date: 2013-03-17 14:25
 comments: true
 categories: 
 - digital humanities

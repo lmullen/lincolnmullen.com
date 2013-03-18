@@ -37,7 +37,7 @@ native or African religions and Christianity, between mainstream
 denominations and new religious movements such as the Mormons, and
 between religion and irreligion. We met at a [panel on Catholic
 converts][] at ACHA 2013, and realized that collaborating on a database
-would advance both of our research. We have a few other people who have
+would help us both with our research. We have a few other people who have
 expressed interest in collaborating as well.
 
 The project is in very early stages: an incomplete rough draft, if you

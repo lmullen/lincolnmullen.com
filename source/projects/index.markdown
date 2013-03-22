@@ -40,6 +40,14 @@ built and maintain
 -   [*Journal of Southern Religion* website][10]
 -   [GitHub repository][10]
 
+## Catalog Search Plugin for Omeka
+
+A plugin for [Omeka](http://omeka.org) that that uses the subject field 
+in an Omeka item to generate links to searches in catalogs, such as 
+Archive Grid and the Library of Congress
+
+-   [GitHub repository][13]
+
 ## Jekyll E-book
 
 A Ruby gem to create EPUB e-books from Jekyll posts and pages using
@@ -70,14 +78,14 @@ An academic article LaTeX class
 ## Academic Paper LaTeX Class
 
 A LaTeX class that extends the article class and does some formatting to
-make the article format more suitable for classroom papers.
+make the article format more suitable for classroom papers
 
 -   [GitHub repository][6]
 
 ## Dotfiles
 
 My Unix/Linux/Mac OS X configuration files, mostly for ZSH, Vim, iTerm2,
-Git, Ruby, and R.
+Git, Ruby, and R
 
 -   [GitHub repository][7]
 
@@ -93,3 +101,4 @@ Git, Ruby, and R.
   [10]: https://github.com/lmullen/jsr
   [11]: http://rubygems.org/gems/jekyll-ebook
   [12]: http://lincolnmullen.com/blog/categories/demographics-religion/
+  [13]: https://github.com/lmullen/plugin-CatalogSearch

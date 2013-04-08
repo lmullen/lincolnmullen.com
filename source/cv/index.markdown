@@ -16,11 +16,10 @@ Department of History, Brandeis University
 
 #### PhD history, Brandeis University, 2009--
 
-+ Dissertation: "The Varieties of American Conversion: The Origins of 
-Religious Choice in the United States"
-+ Committee:  Jonathan D. Sarna, Jane Kamensky, David Hackett 
-Fischer
-+ General examinations passed, May 2011
+-   Dissertation: "The Varieties of American Conversion: The Origins of
+    Religious Choice in the United States"
+-   Committee: Jonathan D. Sarna, Jane Kamensky, David Hackett Fischer
+-   General examinations passed, May 2011
 
 #### MA history, Brandeis University, 2011
 
@@ -32,49 +31,38 @@ Fischer
 
 ### Articles, book chapters, and conference proceedings
 
-"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now," 
-in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining 
-Digital Humanities: A Reader* (Ashgate, forthcoming 2013).
-[web]({{root_url}}/blog/digital-humanities-is-a-spectrum/)
+"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now,"
+in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining
+Digital Humanities: A Reader* (Ashgate, forthcoming 2013). [web][]
 
-"A Narrative of the Troubles in the Second Church in
-Windsor, 1735--1741 [Part 1]," by Roger Wolcott, *Journal of Jonathan
-Edwards Studies* 2, no. 2 (2012): 83--142.
-[web](http://jestudies.yale.edu/index.php/journal/issue/view/19/showToc),
-[PDF]({{root_url}}/docs/mullen.wolcott-narrative.pdf)
+"A Narrative of the Troubles in the Second Church in Windsor, 1735--1741
+[Part 1]," by Roger Wolcott, *Journal of Jonathan Edwards Studies* 2,
+no. 2 (2012): 83--142. [web][1], [PDF][]
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of the
-South Carolina Historical Association* (March 2010): 79--90.
-[PDF]({{root_url}}/docs/confessionalization.pdf)
+South Carolina Historical Association* (March 2010): 79--90. [PDF][2]
 
 ### Book reviews
 
 Review of *A Theology of Religious Change: What the Social Science of
 Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
-Markets and Morality* 15, no. 1 (2012): 249--250
-[web]({{root_url}}/blog/theology-of-religious-change/),
-[PDF]({{root_url}}/docs/reviewzehnder.pdf)
+Markets and Morality* 15, no. 1 (2012): 249--250 [web][3], [PDF][4]
 
 Review of *Evangelism and Resistance in the Black Atlantic, 1760--1835*,
 by Cedrick May, *Journal of Southern Religion*, 13 (2011),
-<http://jsr.fsu.edu/issues/vol13/mullen.html>.
-[web](http://jsr.fsu.edu/issues/vol13/mullen.html),
-[PDF]({{root_url}}docs/reviewmay.pdf)
+<http://jsr.fsu.edu/issues/vol13/mullen.html>. [web][5], [PDF][6]
 
 Review of *The Gardiners of Massachusetts: Provincial Ambition and the
 British-American*, by T. A. Milford, *Historical Journal of
-Massachusetts* 39, nos. 1--2 (2011): 265--66.
-[PDF]({{root_url}}/docs/reviewgardiners.pdf)
+Massachusetts* 39, nos. 1--2 (2011): 265--66. [PDF][7]
 
 Review of *Daily Lives of Civilians in Wartime Early America: From the
 Colonial Era to the Civil War*, edited by David S. Heidler and Jeanne T.
-Heidler, *Army History* 78 (2011): 44--45.
-[PDF]({{root_url}}docs/reviewdailylives.pdf)
+Heidler, *Army History* 78 (2011): 44--45. [PDF][8]
 
 Review of *In the Beginning: Fundamentalism, the Scopes Trial, and the
 Making of the Antievolution Movement*, by Michael Lienesch, *The
-Southern Historian* 30 (2009): 103--5.
-[PDF]({{root_url}}/docs/reviewinthebeginning.pdf)
+Southern Historian* 30 (2009): 103--5. [PDF][9]
 
 ### Encyclopedia articles
 
@@ -102,23 +90,30 @@ and Martin Hershock (Washington, DC: CQ Press, 2008).
 
 ## Conference papers & talks
 
-"Catholic Converts in the Nineteenth-century Market of Souls," paper 
-presented at the annual meeting of the American Catholic Historical 
-Association, New Orleans, January 4, 2013.
-[PDF]({{root_url}}/docs/Mullen.acha.2013.md.pdf)
+"Returning to the Fold: Nineteenth Century Converts Who Returned to
+Their Original Faith," paper presented at Kronstadt Moment/Road to
+Damascus, New School for Social Research, New York, April 26--27, 2013.
 
-"The Humanist's Operating System; or, Scholarship in Plain Text," 
-workshop presented at THATCamp New England 2012, Brown University, 
-October 20, 2012.
-[web]({{root_url}}/blog/scholarship-in-plain-text/)
+"The American Converts Database and the Monographic Dissertation," talk
+for the panel "Digital Methods and the Traditional Dissertation," given
+at Digital Humanities: The Next Generation, Simmons College, Boston,
+March 15, 2013.
 
-"Does the Soul Have a History?" paper presented at the biennial meeting 
+"Catholic Converts in the Nineteenth-century Market of Souls," paper
+presented at the annual meeting of the American Catholic Historical
+Association, New Orleans, January 4, 2013. [PDF][10]
+
+"The Humanist's Operating System; or, Scholarship in Plain Text,"
+workshop presented at THATCamp New England 2012, Brown University,
+October 20, 2012. [web][11]
+
+"Does the Soul Have a History?" paper presented at the biennial meeting
 of the Conference on Faith and History, Gordon College, October 5, 2012.
-[PDF]({{root_url}}/docs/mullen.does-the-soul-have-a-history.pdf)
+[PDF][12]
 
-"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural 
-Conversion in John Eliot's Mission to the Indians," paper presented at 
-the annual meeting of the American Society for Church History, Chicago, 
+"'Six Days Shalt Thou Labor': Work, Sabbath Observance, and Cultural
+Conversion in John Eliot's Mission to the Indians," paper presented at
+the annual meeting of the American Society for Church History, Chicago,
 January 7, 2012.
 
 <!--
@@ -134,8 +129,8 @@ Technology Camp] New England 2011, Brandeis University, October 21--22,
 
 "The Vocabulary of Conversion: Text-Mining the East Windsor Conversion
 Relations," paper presented at the annual meeting of the American
-Society for Church History, Boston, January 9, 2011.
-[PDF: text and slides]({{root_url}}/docs/Mullen.Vocabulary-of-Conversion.pdf)
+Society for Church History, Boston, January 9, 2011. [PDF: text and
+slides][]
 
 <!--
 Conference organizer and participant, THATCamp [The Humanities and
@@ -160,86 +155,109 @@ Historical Association, March 2006.
 ## Writings in service to the public and profession
 
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
-[web](http://thebrandeishoot.com/articles/9255),
-[PDF]({{root_url}}/docs/faithbasedtolerance.pdf)
+[web][13], [PDF][14]
 
-Regular 
-[contributor](http://chronicle.com/blogs/profhacker/author/lmullen) to ProfHacker, a *Chronicle of Higher Education*
+Regular [contributor][] to ProfHacker, a *Chronicle of Higher Education*
 blog.
 
 Blog on history, religion, and digital humanities,
 <http://lincolnmullen.com>
 
+## Digital Projects
+
+Principal investigator with Erin Bartram, *The American Converts
+Database*, a database of converts and conversions in American history,
+<http://americanconverts.org>.
 
 ## Teaching
 
 #### Instructor, Brandeis University
 
-+ Religious Pluralism and the American State, fall 2012
+-   Religious Pluralism and the American State, fall 2012
 
 #### Teaching fellow, Brandeis University
 
-+ The Radical 1950s (David Engerman)
-+ World War II (David Hackett Fischer)
-+ East Asian Civilizations (Xing Hang)
-+ State and Society in Early Modern Europe, 1500--1700 (Govind Sreenivasan)
-+ The American Revolution (co-taught with David Hackett 
-Fischer and Craig Smith)
+-   The Radical 1950s (David Engerman)
+-   World War II (David Hackett Fischer)
+-   East Asian Civilizations (Xing Hang)
+-   State and Society in Early Modern Europe, 1500--1700 (Govind
+    Sreenivasan)
+-   The American Revolution (co-taught with David Hackett Fischer and
+    Craig Smith)
 
 ## Service to the profession
 
-
-+ Co-convener, Religion Working Group, Brandeis University, 
-2012
-+ Web editor, *Journal of Southern Religion*, 2011--
-+ Co-organizer, THATCamp New England 2012, held at Brown University,
-October 19--20, 2012
-+ Lead organizer, THATCamp New England 2011, held at Brandeis University, 
-October 21--22, 2011
-+ Teaching with Technology Committee, Brandeis University, 2010--2012
-+ Co-organizer, THATCamp New England 2010, held at Wentworth Institute of 
-Technology, November 13--14, 2010
-+ List editor, H-GRAD, 2009--2011
-
+-   Co-convener, Religion Working Group, Brandeis University, 2012--13
+-   Web editor, *Journal of Southern Religion*, 2011--
+-   Co-organizer, THATCamp New England 2012, held at Brown University,
+    October 19--20, 2012
+-   Lead organizer, THATCamp New England 2011, held at Brandeis
+    University, October 21--22, 2011
+-   Teaching with Technology Committee, Brandeis University, 2010--2012
+-   Co-organizer, THATCamp New England 2010, held at Wentworth Institute
+    of Technology, November 13--14, 2010
+-   List editor, H-GRAD, 2009--2011
 
 ## Seminars & workshops
 
-+ Public history seminar, directed by Martha A. Sandweiss and 
-Anthony Grafton, Princeton University, May 21--25, 2012.
-+ "Congregations and Social Change: Adaptation and Innovation among 
-Religious Communities," directed by Gerardo Marti, Calvin College, June 
-27--July 22, 2011.
+-   Public history seminar, directed by Martha A. Sandweiss and Anthony
+    Grafton, Princeton University, May 21--25, 2012.
+-   "Congregations and Social Change: Adaptation and Innovation among
+    Religious Communities," directed by Gerardo Marti, Calvin College,
+    June 27--July 22, 2011.
 
-## Grants & awards
+## Grants
 
-### Research 
+### Research grants
 
-+ Ruth B. Fein Prize, American Jewish Historical Society, 2012
-+ Mellon Dissertation Research Grant, Brandeis University, 2012
-+ Grant to attend ``Congregations and Social Change'' seminar, Calvin 
-College, 2011 
-+ Irving and Rose Crown Fellowship, Brandeis University, 2009--2014
+-   Ruth B. Fein Prize, American Jewish Historical Society, 2012
+-   Mellon Dissertation Research Grant, Brandeis University, 2012
+-   Grant to attend \`\`Congregations and Social Change'' seminar,
+    Calvin College, 2011
+-   Irving and Rose Crown Fellowship, Brandeis University, 2009--2014
 
+### Teaching grants
+
+-   University Prize Instructorship, Brandeis University, 2013
 
 ### Fundraising
 
-+ Raised $15,500 for THATCamp New England from NERCOMP, Brandeis 
-University, Brown University, and other donors, 2011
+-   Raised \$15,500 for THATCamp New England from NERCOMP, Brandeis
+    University, Brown University, and other donors, 2011
 
-## Awards 
+## Awards
 
-+ Outstanding Teaching Assistant, Brandeis University, Graduate School of 
-Arts and Sciences, 2012
+-   Outstanding Teaching Assistant, Brandeis University, Graduate School
+    of Arts and Sciences, 2012
 
 ## Languages & specialist skills
 
-+ Advanced reading knowledge of ancient (Koine) Greek
-+ Computer languages and software: proficiencies in Ruby, PHP, CSS, HTML, Git, WordPress, Jekyll, Omeka, LaTeX, Bash, ZSH
-
+-   Advanced reading knowledge of ancient (Koine) Greek
+-   Computer languages and software: proficiencies in Ruby, PHP, CSS,
+    HTML, Git, WordPress, Jekyll, Omeka, LaTeX, Bash, ZSH
 
 ## Academic memberships
 
-+ American Catholic Historical Association, 2012--
-+ American Historical Association, 2009--
-+ American Society of Church History, 2007--
-+ Conference on Faith and History, 2007--
+-   American Catholic Historical Association, 2012--
+-   American Historical Association, 2009--
+-   American Society of Church History, 2007--
+-   Conference on Faith and History, 2007--
+
+  [web]: {{root_url}}/blog/digital-humanities-is-a-spectrum/
+  [1]: http://jestudies.yale.edu/index.php/journal/issue/view/19/showToc
+  [PDF]: {{root_url}}/docs/mullen.wolcott-narrative.pdf
+  [2]: {{root_url}}/docs/confessionalization.pdf
+  [3]: {{root_url}}/blog/theology-of-religious-change/
+  [4]: {{root_url}}/docs/reviewzehnder.pdf
+  [5]: http://jsr.fsu.edu/issues/vol13/mullen.html
+  [6]: {{root_url}}docs/reviewmay.pdf
+  [7]: {{root_url}}/docs/reviewgardiners.pdf
+  [8]: {{root_url}}docs/reviewdailylives.pdf
+  [9]: {{root_url}}/docs/reviewinthebeginning.pdf
+  [10]: {{root_url}}/docs/Mullen.acha.2013.md.pdf
+  [11]: {{root_url}}/blog/scholarship-in-plain-text/
+  [12]: {{root_url}}/docs/mullen.does-the-soul-have-a-history.pdf
+  [PDF: text and slides]: {{root_url}}/docs/Mullen.Vocabulary-of-Conversion.pdf
+  [13]: http://thebrandeishoot.com/articles/9255
+  [14]: {{root_url}}/docs/faithbasedtolerance.pdf
+  [contributor]: http://chronicle.com/blogs/profhacker/author/lmullen

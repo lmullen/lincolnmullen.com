@@ -1,0 +1,102 @@
+---
+layout: post
+title: "Getting Back to Getting Things Done"
+date: 2013-02-01 12:00
+comments: true
+categories: 
+- ProfHacker
+tags: 
+- ProfHacker
+- Getting Things Done
+- GTD
+- productivity
+---
+
+*[This post originally appeared at [ProfHacker][].]*
+
+I read David Allen's *[Getting Things Done][]* five or six years ago,
+and it has more or less shaped the way I organize my work since then. I
+say more or less, because the elaborate system of projects, next
+actions, someday/maybe lists, and processing that makes up GTD is easy
+to slip away from. That's probably for the best, since undue obsession
+with planning your work can take away from actually doing the work. I've
+noticed that I go through long cycles, at the end of which I return to
+organizing my work according to GTD.
+
+I've recently gotten back to the *[Getting Things Done][] *system,
+thanks to a series of episodes in the podcast *[Back to Work][]*.
+[Merlin Mann][] and [Dan Benjamin][] discuss the high points of GTD,
+especially the sticking points where your system can fall apart. (A
+caveat: the hosts spend a *lot* of time talking about things that are
+off topic, especially comics. If you enjoy that, fine; if not, scan
+ahead to the place about 30 minutes in where the episodes really get
+started.) Here are links to the five episodes: [episode 95][], [episode
+96][], [episode 97][], [episode 98][], [episode 99][]. You can read the
+show notes to find which episodes might be most helpful to you.
+
+Since I've gotten back to GTD (for now, at least), I feel a lot more
+confident that I'm working on the right things at the right time. For
+example, I'm sure that I'm not missing fellowship or grant application
+deadlines, because I've made projects for each of them, and I can move
+ahead on any of my projects at any time, because I've already figured
+out what the next action is that I need to take. These are the main
+points that I took away from the *Back to Work *podcasts:
+
+-   I've been far more consistent about doing a **weekly** **review**,
+    and now I often perform a review twice or three times a week. My
+    tendency is to plan everything then not actually look at the list of
+    projects, and to let the inbox pile up until it's unmanageable.
+    Reorienting myself at least once a week has given me a lot more
+    confidence.
+-   I've take the time to figure out the actual **next action** for each
+    project, whereas before I've created a long list of things that
+    could conceivably be done for each project. I really am more likely
+    to move a project along if the next action is "Checkout BV 4705 .H4
+    Isaac Hecker's Diary \@GoldfarbLibrary" instead of "Read Isaac
+    Hecker's Diary."
+-   I've been more realistic about **what is a project**. A project like
+    "Write dissertation chapter 6″ (let alone, "Write dissertation") is
+    inadequately thought out. Now I have a series of reasonable projects
+    that correspond to sections of each chapter. For example, a project
+    might be "Read the secondary literature on gift economies as it
+    relates to religion" with a next action of "Compile a starting
+    bibliography from Schmidt's essay." My work is more focused and
+    efficient when I conceive of a project as a chunk of work that can
+    be accomplished in a few days, rather than a few months.
+-   I've written better **instructions to myself**. Tasks such as "Read
+    Schmidt" might be fine if I do it the same day I create it; they're
+    worthless a month later. A task like "Read Schmidt's essay in *Lived
+    Religion*, looking for the main concepts and literature on gift
+    economies" is far more likely to be meaningful.
+-   I've gotten better about deciding not to do projects, either
+    by **deferring** them or outright deciding against them.
+
+The other way to get back to GTD is to read the ProfHacker archives---it's
+a topic of perpetual interest here. You might start with Nels's
+[introduction][] or Natalie's [review][] of the key concepts. Ryan
+reviews Cultured Code's [Things][] software, which I use; somehow
+ProfHacker doesn't have a full review of Omnifocus, the more popular
+alternative to Things. Natalie writes about "[How to Defer an Action][]"
+and about "[GTD Contexts and Academic Work][]." Jason [reviews some
+posts][] about productivity related to GTD, and suggest how to [resume
+tasks][] rather than restart them. Finally, you can look at all our
+posts [tagged GTD][].
+
+  [ProfHacker]: http://chronicle.com/blogs/profhacker/getting-back-to-getting-things-done/45741
+  [Getting Things Done]: https://www.amazon.com/dp/0142000280/ref=as_li_ss_til?tag=backwardglance-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=0142000280&amp;adid=1DNHPJFYBDXHARCWGQFF&amp;
+  [Back to Work]: http://5by5.tv/b2w/
+  [Merlin Mann]: http://www.merlinmann.com/
+  [Dan Benjamin]: http://benjamin.org/dan/
+  [episode 95]: http://5by5.tv/b2w/95
+  [episode 96]: http://5by5.tv/b2w/96
+  [episode 97]: http://5by5.tv/b2w/97
+  [episode 98]: http://5by5.tv/b2w/98
+  [episode 99]: http://5by5.tv/b2w/99
+  [introduction]: http://chronicle.com/blogPost/An-Introduction-to-GTD/22719/
+  [review]: http://chronicle.com/blogs/profhacker/from-the-archives-getting-things-done/24742
+  [Things]: http://chronicle.com/blogs/profhacker/putting-the-things-in-gtd-managing-an-academic-life-with-cultured-codes-things/22908
+  [How to Defer an Action]: http://chronicle.com/blogs/profhacker/how-to-defer-an-action-gtd/42858
+  [GTD Contexts and Academic Work]: http://chronicle.com/blogs/profhacker/gtd-contextsacademic-work/22767
+  [reviews some posts]: http://chronicle.com/blogs/profhacker/five-recent-developments-in-getting-things-done/40547
+  [resume tasks]: http://chronicle.com/blogs/profhacker/resume-not-restart/41243
+  [tagged GTD]: https://chronicle.com/blogs/profhacker/tag/gtd

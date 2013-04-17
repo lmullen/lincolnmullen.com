@@ -1,0 +1,250 @@
+---
+layout: post
+title: "The Kindle Paperwhite Reviewed: Device and Ecosystem"
+date: 2013-02-04 12:00
+comments: true
+categories: 
+- ProfHacker
+tags: 
+- ProfHacker
+- Kindle
+- Kindle Paperwhite
+- e-books
+---
+
+*[This post originally appeared at [ProfHacker][].]*
+
+A few weeks ago I did something which surprised my wife, and which
+surprised me: I bought a [Kindle Paperwhite][]. Even more surprising, I
+like the Kindle a lot, and I find myself doing most of a certain kind of
+reading on the Kindle.
+
+Here is a not-so-brief review of the device itself, followed by a few
+thoughts on the Kindle as an e-book ecosystem.
+
+![Kindle Paperwhite][1]
+
+## The Device
+
+**Size.** First, the [Paperwhite][Kindle Paperwhite] is light and small
+— less than half a pound, about the height and width of a small trade
+paperback, but a lot thinner. At that size, I never think about whether
+to bring the Kindle with me or not: the benefits of having it with me
+for the odd moment during the day outweighs the space and weight it
+takes up.
+
+**Screen.** The Paperwhite’s screen is an e-ink display, like all of the
+Kindles except the Fire, and like e-readers such as the Barnes & Noble
+Nook. The advantage of the e-ink display over an LCD display on a tablet
+is that it’s easier on the eyes because it’s more like paper and ink.
+I’ve certainly found that to be true. I can’t read comfortably for any
+length of time on my phone or my wife’s Kindle Fire ([reviewed by
+Anastasia][]), but I don’t feel any discomfort reading on the
+Paperwhite.
+
+The screen on all the other Kindles I’ve ever looked at seemed dingy to
+me: gray text on a gray background. But the Paperwhite’s screen has two
+improvements. The light, which is on even in daytime, makes the screen
+white and so improves the contrast. More important, the Paperwhite’s
+screen has a 212 PPI resolution, whereas the earlier Kindles have
+resolutions of 167 PPI. The bump in resolution means that text on the
+Paperwhite is appreciably sharper — not as crisp as text in a printed
+book, which I think is usually around 300 DPI, but crisp enough.
+
+I bought the Paperwhite fully resigned to not being able to read PDFs on
+it, which was previously an essential qualification for any e-reader I
+considered. But I was surprised to find that the Paperwhite does an
+adequate work of reading most PDFs, as long as the type isn’t too small
+and as long as you put the Kindle in landscape mode. I’ve read a number
+of journal articles, white papers, and a few 19th-century books from
+Google Books on the Paperwhite.
+
+**The Light.** The light is one of the main features of the
+[Paperwhite][Kindle Paperwhite]. The light is designed to illuminate the
+text through reflection, rather than by shining a light in your face. I
+find it perfectly good for reading in complete darkness, though I do
+prefer a lamp when I read. I rode an airport shuttle through sunlight
+and tunnels, and didn’t have to adjust anything about the device to keep
+reading through the changes in light. The light does illuminate the page
+unevenly at the bottom, as a number of reviews have pointed out. It
+doesn’t bother me, but the severity of the problem might vary from
+device to device.
+
+**Battery.** The Paperwhite’s battery life makes it unlike any other
+device I’ve used: I never think about whether it’s going to need a
+charge or not. Amazon’s specs claim a battery life of eight weeks, based
+on half an hour of reading with the light at full power. My own
+experience confirms that claim. I waited two weeks to recharge the
+Kindle for the first time, using it during several flights and lots of
+time waiting around an airport or hotel, plus time reading each evening.
+Even after the two weeks, there was still charge left for several days.
+Since then I’ve gone several weeks at a time before charging the device.
+
+**Storage.** The [Paperwhite][Kindle Paperwhite] has 2GB of storage, the
+equivalent of 1,100 books, according to Amazon. It can certainly hold a
+lot of books and periodicals in Kindle format — more than you’re ever
+likely to read between chances to connect to the internet. But PDFs or
+Word documents will fill up the Paperwhite much faster than Kindle
+e-books. The limited storage space is something to keep in mind.
+
+**User interface / operating system.** The user interface is
+straightforward. It’s easy enough to highlight sections in the text. You
+can type notes and get them off through a USB connection or online; it
+works adequately if not very well. You can search through books. As
+you’d expect from Amazon, buying new books is very, very easy. There are
+no physical buttons to turn the pages, but most of the touch screen
+serves to advance the pages. If you’re used to the instant
+responsiveness of a phone or tablet, the e-ink screen’s refresh will
+seem sluggish at first. But after the first hour of using the device,
+the page refreshes don’t seem like a distraction any more.
+
+One downside to using an e-reader is that you can’t tell where you are
+in the book. Amazon has solved this disorientation by putting small
+indicators at the bottom of the screen. The lower right corner always
+tells you what percentage of the book you have read. The lower left hand
+corner can alternate between telling you how many minutes it will take
+to read the current chapter or the rest of the book. The Paperwhite
+learns to calculate these times as you read; I’ve found them to be
+reasonably accurate.
+
+[![][]][]
+
+**Network connection.** I have the WiFi version of the Paperwhite, and
+it connects to the internet to download books and documents just fine. I
+can’t see paying extra for the 3G option unless you really travel a lot
+and are away from WiFi frequently.
+
+**Other features.** The [Kindle Paperwhite][] has no other features. It
+won’t play music. It won’t read books out loud to you. It does have an
+“experimental” web browser, but browsing is so painful that I can only
+assume it was intentionally designed that way: the pain makes you feel
+glad that you’re not on the internet. The lack of features is the point:
+this is a device for reading books, not for storing books while you
+check Twitter and e-mail.
+
+**Price.** The base price for the Paperwhite is at the edge of
+reasonable. (Do remember that a graduate student is writing this review.
+Also keep in mind that the first Kindle sold for \$399 in 2007.) The
+regular Paperwhite costs \$119. You can shell out an extra \$60 to get
+the 3G model, but the extra price doesn’t seem worth the advantage to
+me. The Paperwhite is nearly twice as expensive as the older generation
+of Kindle (\$69), but it’s easily twice as good a device. Yet there are
+two caveats to the base price. First, the entry price gets you a Kindle
+and a USB charging cable, but not an adapter that lets you plug the
+cable into an outlet. The adapter will cost you another \$10. This is
+not such a big deal: you might have an adapter around already (any USB
+adapter will do), and you can also plug the Paperwhite into a USB port
+on your computer, since you’ll be charging it so infrequently. But
+still. The maddening part about the base price is that the Kindle comes
+with “special offers.” That means ads will appear on the screen when the
+device is powered down (bad enough) and on the home screen (really bad).
+You can turn off the ads for \$20, and despite your best intentions,
+someday in a fit of rage \$20 will seem less valuable to you than
+freedom from the “special offers.” And if you don’t pony up to turn off
+the ads, you’ll probably spend even more than \$20 at Amazon because of
+them. Amazon isn’t making any money off the Paperwhite’s hardware —
+their low-margin profit comes from the e-books — but this “special
+offers” model is bad customer relations. I’d rather add the \$20 to the
+base price than feel like I was being taxed to free my device.
+
+You can see the Amazon specs for more details. If you want a more
+thorough review, you can read the reviews at [Engadget][], [The
+Verge][], or [CNET][].
+
+## The Ecosystem
+
+**E-books have problems . . .** Look, buying e-books is terrible. I’m no
+expert, but that doesn’t mean that I don’t have opinions. Publishers are
+basically incompetent, and they’re at the mercy of a very small number
+of content distributors. Amazon and Apple are the biggest players, and
+they’re not playing the market to the benefit of consumers. (To wit, the
+antitrust lawsuit against Apple, Macmillan, and Penguin Group, which
+Hachette, HarperCollins, and Simon & Schuster have all settled with the
+government.) The amazing promise of digital technology is the
+possibility of virtually limitless, priceless copying of information;
+indeed, copying data is how computers do everything they do. But e-book
+sellers have books locked down with DRM and, in the case of Amazon,
+constrained to their own proprietary formats. When you buy a print book,
+you can do almost anything that you want with it, thanks to the doctrine
+of first sale. When you buy hand over money for an e-book, all you get
+is a [license to use the book][] in very constrained ways. The e-book
+market doesn’t have to work this way, but it’s the mess we’ve got.
+
+It’s for these reasons that I’ve stayed out of the e-book market for so
+long. If you want to read e-books as a consumer, I think you’ll have to
+console yourself with two ideas.
+
+First, practical openness matters more than theoretical openness. By
+that I mean that it would be amazing if e-books could be open access in
+open formats: but for the kinds of e-books that I buy, it matters more
+that I can read a Kindle book on my Paperwhite, on any kind of smart
+phone or tablet, on a Mac or a PC, and in a browser. Compare that to an
+e-book that you buy from Apple, which is in an open format, but which
+you are welcome to read on your iPad or iPhone only.
+
+Second, you have to think of e-books as a format with particular
+affordances that fits into a range of options that includes paper books.
+While the strength of e-books should be their ability to be copied, but
+isn’t, they do have the strength of portability and even disposability.
+(I got this idea from an article published recently in the *Chronicle*,
+but I can’t find the citation.) The first Kindle book I bought was Neal
+Stephenson’s [*Snow Crash*][]. (Sorry, Jason, Ryan, and probably the
+rest of the ProfHackers, but I didn’t like it.) I’ll never read it
+again, and so I’m glad that I don’t have a physical copy. I’m also
+reading John le Carre’s [*Tinker, Tailor, Soldier, Spy*][], and enjoying
+it, but I’ll probably never read it again either. I read a couple
+periodicals on the Kindle, and I don’t miss disposing of the paper
+copies. But William James’s \*[Varieties of Religious Experience][] \*I
+bought on paper, in the nicest edition I could find, but it’s a book I
+read and use all the time for my work. In other words, e-books are
+ephemera, but I’ve come to realize that I don’t mind a certain portion
+of my reading being ephemeral.
+
+**. . . But Amazon’s ecosystem is pretty good.** With those caveats in
+mind, Amazon has the best ecosystem for e-books, hands down. Almost any
+book that you can find as an e-book, you can find as a Kindle e-book.
+Usually the Kindle version can be had at a discount, often a steep
+discount. For ephemeral reading, cheapness matters more than durability.
+Amazon also has many periodicals available in Kindle edition. It’s nice
+to have those periodicals appear on your Kindle when they’re released.
+The downside is that you are Amazon’s customer, not the publisher’s, so
+deals like access to a publication’s back issues are usually not
+available.
+
+I’ve been able to find quite a few e-books through my local public
+library and through the Boston Public Library. These are general
+interest or fiction books, not books for my work as a historian. Amazon
+also has many free books that are out of copyright, such as classic
+novels. You probably wouldn’t do literary criticism on these editions,
+but they suffice for pleasure reading. In addition, if you do find a
+good academic book in your library’s e-book catalog, the Kindle format
+offers you an advantage that you don’t have in paper library books: the
+ability to highlight text and see your highlights even after the book
+itself has been returned.
+
+For the social features of the Kindle, you can see [Erin’s post on the
+topic][].
+
+Overall, I’ve found the [Kindle Paperwhite][] to be a great little
+device for certain kinds of reading. The proof is that for those kinds
+of reading, especially for pleasure, I’m reading a lot more.
+
+**Have you tried the Paperwhite? Do you use a different e-reader?**
+
+*First image from Amazon’s website. Second image Creative Commons
+licensed by Flickr user [paz.ca][].*
+
+  [ProfHacker]: http://chronicle.com/blogs/profhacker/the-kindle-paperwhite-reviewed-device-and-ecosystem/45683
+  [Kindle Paperwhite]: https://www.amazon.com/dp/B007OZNZG0/ref=as_li_ss_til?tag=backwardglance-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=B007OZNZG0&amp;adid=0GS31AKP7HCFR0AN3EW1&amp;
+  [1]: http://chronicle.com/blogs/profhacker/files/2013/01/Paperwhite-212x300.png
+    "Paperwhite"
+  [reviewed by Anastasia]: http://chronicle.com/blogs/profhacker/kindle-fire/37397
+  []: http://www.engadget.com/2012/09/30/amazon-kindle-paperwhite-review/
+  [The Verge]: http://www.theverge.com/2012/9/30/3433110/amazon-kindle-paperwhite-review
+  [CNET]: http://reviews.cnet.com/kindle-paperwhite/
+  [license to use the book]: http://www.latimes.com/business/la-fi-hiltzik-20121223,0,1032270.column
+  [*Snow Crash*]: https://www.amazon.com/dp/B000FBJCJE/ref=as_li_ss_til?tag=backwardglance-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=B000FBJCJE&amp;adid=05RRYAQ8EX48QR62PBNK&amp;
+  [*Tinker, Tailor, Soldier, Spy*]: https://www.amazon.com/dp/B004RKXNDU/ref=as_li_ss_til?tag=backwardglance-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=B004RKXNDU&amp;adid=0YRM938H95DN66087XYH&amp;
+  [Varieties of Religious Experience]: https://www.amazon.com/dp/0940450380/ref=as_li_ss_til?tag=backwardglance-20&amp;camp=0&amp;creative=0&amp;linkCode=as4&amp;creativeASIN=0940450380&amp;adid=1R25S2DF0DY6DKEWA97Z&amp;
+  [Erin’s post on the topic]: http://chronicle.com/blogs/profhacker/kindle-amazon-com-social-kindling/35319
+  [paz.ca]: http://www.flickr.com/photos/pazca/8394938882/in/photostream/

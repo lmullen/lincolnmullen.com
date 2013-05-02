@@ -13,7 +13,7 @@ tags:
 external-link: http://www.theatlanticcities.com/neighborhoods/2013/04/americas-most-and-least-religious-metro-areas/5180/
 ---
 
-*Atlantic Cities* has an [article][]about "America's Most (and Least)
+*Atlantic Cities* has an [article][] about "America's Most (and Least)
 Religious Metro Areas." Based on a [Gallup survey][], the data shows
 that "the most religious metros as well as states are in the South,
 while the least religious are in in the Northeast and West Coast." The

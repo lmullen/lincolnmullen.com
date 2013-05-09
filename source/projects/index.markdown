@@ -46,7 +46,9 @@ A plugin for [Omeka](http://omeka.org) that that uses the subject field
 in an Omeka item to generate links to searches in catalogs, such as 
 Archive Grid and the Library of Congress
 
+-   [Download from Omeka](http://omeka.org/add-ons/plugins/catalog-search/)
 -   [GitHub repository][13]
+-   [Blog post about the plugin](http://lincolnmullen.com/blog/catalog-search-plugin-for-omeka-released/)
 
 ## Jekyll E-book
 

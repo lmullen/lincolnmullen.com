@@ -53,8 +53,8 @@ moments of the day?**
 He is a statistical analyst at the Kaiser Family Foundation and an all
 around good guy, not a graduate student.
 
-[^1]: No, I'm not qualified to compare R to SAS, SPSS, Stata,
-    Processing, or anything else.
+[^1]: No, I'm not qualified to compare R to SAS, SPSS, Stata, 
+Processing, or anything else.
 
   [ProfHacker]: http://chronicle.com/blogs/profhacker/learn-r-with-twotorials/45843
   [R Twotorials]: http://www.twotorials.com/

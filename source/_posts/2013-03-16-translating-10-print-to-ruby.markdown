@@ -42,7 +42,7 @@ As part of the demonstration, Patsy and Nick brought two Commodore 64s
 for the audience to try. That was fun: I'd never played with a
 Commodore. While we were waiting our turn, Shane Landrum and I decided
 to translate the program into another computer language. He chose Perl,
-and I chose Ruby. [^1] In about 10 minutes, we tied in reproducing the
+and I chose Ruby.[^1] In about 10 minutes, we tied in reproducing the
 output. Here are our solutions:
 
 [^1]: I learned after the fact that the *10 PRINT* book discusses ports

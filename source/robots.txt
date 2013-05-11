@@ -1,5 +1,7 @@
+---
+layout: nil
+---
 User-agent: *
-Disallow: /cgi-bin/
-Disallow: /info.php
-Disallow: /dev/
-Disallow: /dev/jsr/
+Disallow: 
+
+Sitemap: {{ site.url }}/sitemap.xml 

@@ -102,5 +102,5 @@ Git, Ruby, and R
   [9]: http://americanconverts.org
   [10]: https://github.com/lmullen/jsr
   [11]: http://rubygems.org/gems/jekyll-ebook
-  [12]: http://lincolnmullen.com/blog/categories/demographics-religion/
+  [12]: http://lincolnmullen.com/blog/categories/demographics-of-religion/
   [13]: https://github.com/lmullen/plugin-CatalogSearch

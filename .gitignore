@@ -18,3 +18,4 @@ vendor
 _source/_drafts/
 source/_drafts/
 _site
+jekyll_s3.yml

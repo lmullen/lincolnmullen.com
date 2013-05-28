@@ -18,9 +18,9 @@ other long form project) in plain text. Since I am writing my
 dissertation in [Markdown][] and [Pandoc][], it's easy to find out the
 word count for a chapter from the command line:
 
-{% codeblock %}
+{% highlight bash %}
 $ wc -w ch4.dissertation.Mullen.md
-{% endcodeblock %}
+{% endhighlight %}
 
 I wanted to track my progress by regularly getting a word count for
 every chapter. To do that, I wrote a Bash script which runs `wc` and
@@ -44,10 +44,10 @@ file (line 17).
 When the script is executed, it returns data like this (from the very
 first line in my data file):
 
-{% codeblock %}
+{% highlight bash %}
 EPOCH,DATETIME,CH1WC,CH2WC,CH3WC,CH4WC,CH5WC,CH6WC,CH7WC,CH8WC,PREWC,INTROWC,CONCLWC
 1332736387,Mon Mar 26 00:33:07 EDT 2012,0,0,0,12412,0,0,0,0,0,0,0
-{% endcodeblock %}
+{% endhighlight %}
 
 As you can see, by March 26 I had written 12,412 words for chapter 4,
 and not much else. Apparently I also wrote this script after midnight.
@@ -55,9 +55,9 @@ and not much else. Apparently I also wrote this script after midnight.
 I run the script automatically each hour by adding this line to my
 crontab:
 
-{% codeblock %}
+{% highlight cron %}
 0   *   *   *   *   /Users/lmullen/acad/dissertation/wordcount.sh
-{% endcodeblock %}
+{% endhighlight %}
 
 I haven't done much with the data yet, but the point is to collect it
 while I am writing. It's easy enough to open the CSV file in Excel and

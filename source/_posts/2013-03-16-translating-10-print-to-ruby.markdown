@@ -24,9 +24,9 @@ program written in [BASIC][] for the [Commodore 64][].
   [BASIC]: http://en.wikipedia.org/wiki/BASIC
   [Commodore 64]: http://en.wikipedia.org/wiki/Commodore_64
 
-```
+{% highlight %}
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
-```
+{% endhighlight %}
 
 The *10 PRINT* authors explain how the code works, but here's a brief
 explanation. The `PRINT` command outputs a character to the screen. The
@@ -73,14 +73,14 @@ commentary.
 
 ### Solution 1
 
-``` ruby
+{% highlight ruby %}
 character = ["/","\\"]
 
 while true do
   select = Random.new.rand(0..1)
   print character[select]
 end
-```
+{% endhighlight %}
 
 My first inclination was to separate each logical part of the program on
 its own line. In this first attempt, I was trying to reproduce only the

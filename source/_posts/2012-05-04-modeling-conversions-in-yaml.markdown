@@ -103,7 +103,7 @@ modeling other kinds of historical events. For example, suppose a labor
 historian is researching strikes and kept a YAML file for each strike
 ...
 
-{% codeblock  %}
+{% highlight yaml %}
 id:	Pullman strike
 location: Pullman, Illinois
 date: 1894-05-11
@@ -127,11 +127,11 @@ accounts:
 	imperdiet ac aliquam sodales, gravida ut diam. Vestibulum nec erat a
 	ligula tincidunt dignissim in et diam. Quisque tincidunt
 	pellentesque lorem, a scelerisque quam lacinia vitae."
-{% endcodeblock %}
+{% endhighlight %}
 
 and another for each union ...
 
-{% codeblock  %}
+{% highlight yaml %}
 union: American Railway Union
 leaders:	
 	-	name: Eugene V. Debs
@@ -140,7 +140,7 @@ leaders:
 founded:
 	date: 1893-06-20
 	place: Chicago, Illinois
-{% endcodeblock %}
+{% endhighlight %}
 
 
 I asked about this idea at [Digital Humanities Questions & Answers][]

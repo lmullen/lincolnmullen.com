@@ -1,29 +1,43 @@
 ---
 layout: default
+title: Lincoln A. Mullen
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archive/">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
+<div class="row">
+  <div class="eight columns centered">
+    <p>Hi, I'm Lincoln. I'm a PhD candidate at Brandeis University. I am writing a dissertation titled "The Varieties of Religious Conversion: The Origins of Religious Choice in the United States." It's fun.</p>
+    <p>Contact me here: <code>lincoln@lincolnmullen.com</code>.
   </div>
 </div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+
+<div class="row">
+  <div class="three columns">
+    <h4>Blog Posts</h4>
+  </div>
+  <div class="nine columns">
+    <ul class="posts">
+      {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="ten columns">
+    <hr/>
+  </div>
+</div>
+
+<div class="row">
+  <div class="three columns">
+    <h4>My Projects</h4>
+  </div>
+  <div class="nine columns">
+    <ul>
+      <li><a href="#">American Converts Database</a></li>
+      <li>Journal of Southern Religion</li>
+      <li>Historical Demographics of American Religion</li>
+    </div>
+  </div>

@@ -1,5 +1,6 @@
 // Your custom SCSS should be written here...
 
+// Code
 $monospace-font: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
 pre {
@@ -29,3 +30,8 @@ pre.terminal {
 pre.terminal code {
   background-color: #333;
 }
+
+// Superscripts and subscripts
+small, sub, sup { font-size: .83em }
+sub             { vertical-align: sub }
+sup             { vertical-align: super }

@@ -1,1 +1,31 @@
 // Your custom SCSS should be written here...
+
+$monospace-font: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+
+pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+  font-family: $monospace-font;
+}
+
+pre code {
+  border: none;
+}
+
+/* terminal */
+pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+pre.terminal code {
+  background-color: #333;
+}

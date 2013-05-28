@@ -26,6 +26,7 @@ GEM
       compass (>= 0.12.1)
       sass (>= 3.2.0)
       sassy-math (>= 1.5)
+    pandoc-ruby (0.7.0)
     posix-spawn (0.3.6)
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
@@ -51,6 +52,7 @@ DEPENDENCIES
   compass
   jekyll
   modular-scale
+  pandoc-ruby
   pygments.rb (~> 0.3.4)
   sassy-math
   sinatra (~> 1.4.2)

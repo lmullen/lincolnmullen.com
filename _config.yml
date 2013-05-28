@@ -18,7 +18,11 @@ permalink: /blog/:title/
 source: source
 destination: public
 plugins: plugins
-markdown: kramdown
+markdown: pandoc
+pandoc:
+  extensions:
+    - smart
+
 pygments: true
 
 # Google Analytics

@@ -6,6 +6,7 @@ group :development do
   gem 'compass' 
   gem 'modular-scale'
   gem 'sassy-math'
+  gem 'pandoc-ruby'
 end
 
 gem 'sinatra', '~> 1.4.2'

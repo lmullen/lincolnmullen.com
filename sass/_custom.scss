@@ -103,7 +103,6 @@ pre {
   // font-size: 0.8rem;
   // line-height: 1.25rem;
   line-height: 1.45em;
-  font-size: 13px;
   margin-bottom: 2em;
   padding: .8em 1em;
   overflow: auto;
@@ -114,6 +113,7 @@ code {
   // background-color: #eef;
   padding: 0 .2em;
   font-family: $monospace-font;
+  font-size: 0.93rem;
 }
 
 pre code {

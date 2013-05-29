@@ -1,35 +1,31 @@
 ---
 layout: page
-title: "CV for Lincoln A. Mullen"
-comments: false
-sharing: false
-footer: true
-sidebar: collapse
+title: "Curriculum Vitae"
 ---
 
-<img src="{{root_url}}/images/pdf.gif" style="border:0;" /> **[View this CV as a PDF]({{root_url}}/docs/Mullen-cv.pdf)** 
+**[View this CV as a PDF](/downloads/docs/Mullen-cv.pdf)**
 
 Irving and Rose Crown fellow & PhD candidate  
 Department of History, Brandeis University  
 
-## Education
+### Education
 
-#### PhD history, Brandeis University, 2009--
+##### PhD history, Brandeis University, 2009--
 
 -   Dissertation: "The Varieties of American Conversion: The Origins of
     Religious Choice in the United States"
 -   Committee: Jonathan D. Sarna, Jane Kamensky, David Hackett Fischer
 -   General examinations passed, May 2011
 
-#### MA history, Brandeis University, 2011
+##### MA history, Brandeis University, 2011
 
-#### MA history, Bob Jones University, 2008
+##### MA history, Bob Jones University, 2008
 
-#### BA history, Bob Jones University, 2006
+##### BA history, Bob Jones University, 2006
 
-## Publications
+### Publications
 
-### Articles, book chapters, and conference proceedings
+#### Articles, book chapters, and conference proceedings
 
 "Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now,"
 in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining
@@ -42,7 +38,7 @@ no. 2 (2012): 83--142. [web][1], [PDF][]
 "Confessionalization and the Creedal Tradition," *The Proceedings of the
 South Carolina Historical Association* (March 2010): 79--90. [PDF][2]
 
-### Book reviews
+#### Book reviews
 
 Review of *A Theology of Religious Change: What the Social Science of
 Conversion Means for the Gospel*, by David J. Zehnder, *Journal of
@@ -64,7 +60,7 @@ Review of *In the Beginning: Fundamentalism, the Scopes Trial, and the
 Making of the Antievolution Movement*, by Michael Lienesch, *The
 Southern Historian* 30 (2009): 103--5. [PDF][9]
 
-### Encyclopedia articles
+#### Encyclopedia articles
 
 "James G. Birney Runs for President (1840 & 1844)" in *The Encyclopedia
 of American Reform Movements*, ed. John R. McKivigan and Heather L.
@@ -88,7 +84,7 @@ Barbara, CA: ABC-CLIO, 2009).
 "Draft" in *The Political Lincoln: An Encyclopedia*, ed. Paul Finkelman
 and Martin Hershock (Washington, DC: CQ Press, 2008).
 
-## Conference papers & talks
+### Conference papers & talks
 
 "Returning to the Fold: Nineteenth Century Converts Who Returned to
 Their Original Faith," paper presented at Kronstadt Moment/Road to
@@ -116,32 +112,24 @@ Conversion in John Eliot's Mission to the Indians," paper presented at
 the annual meeting of the American Society for Church History, Chicago,
 January 7, 2012.
 
-<!--
 Conference participant, THATCamp [The Humanities and Technology Camp]
 AHA 2012, American Historical Association, January 5, 2012.\
--->
 
-<!--
 Conference organizer and participant, THATCamp [The Humanities and
 Technology Camp] New England 2011, Brandeis University, October 21--22,
 2011.
--->
 
 "The Vocabulary of Conversion: Text-Mining the East Windsor Conversion
 Relations," paper presented at the annual meeting of the American
 Society for Church History, Boston, January 9, 2011. [PDF: text and
 slides][]
 
-<!--
 Conference organizer and participant, THATCamp [The Humanities and
 Technology Camp] New England 2010, Wentworth Institute of Technology,
 November 13--14, 2010.
--->
 
-<!--
 Conference participant, THATCamp [The Humanities and Technology Camp]
 2010, George Mason University, May 22--23, 2010.
--->
 
 "'Call to Remembrance the Former Days': The Use of History in New
 England Occasional Sermons, 1660--1684," paper presented at the
@@ -152,30 +140,33 @@ Christianity and American History conference, Liberty University, April
 Aquinas," paper presented at the annual meeting of the South Carolina
 Historical Association, March 2006.
 
-## Writings in service to the public and profession
+### Writings in service to the public and profession
+
+Regular [contributor][rinah] to Religion in American History
+
+Regular [contributor][ph] to ProfHacker, a *Chronicle of Higher Education*
+blog, 2010--
+
+Blog on history, religion, and digital humanities,
+<http://lincolnmullen.com>, 2008--
 
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
 [web][13], [PDF][14]
 
-Regular [contributor][] to ProfHacker, a *Chronicle of Higher Education*
-blog.
 
-Blog on history, religion, and digital humanities,
-<http://lincolnmullen.com>
-
-## Digital Projects
+### Digital Projects
 
 Principal investigator with Erin Bartram, *The American Converts
 Database*, a database of converts and conversions in American history,
 <http://americanconverts.org>.
 
-## Teaching
+### Teaching
 
-#### Instructor, Brandeis University
+##### Instructor, Brandeis University
 
 -   Religious Pluralism and the American State, fall 2012
 
-#### Teaching fellow, Brandeis University
+##### Teaching fellow, Brandeis University
 
 -   The Radical 1950s (David Engerman)
 -   World War II (David Hackett Fischer)
@@ -185,7 +176,7 @@ Database*, a database of converts and conversions in American history,
 -   The American Revolution (co-taught with David Hackett Fischer and
     Craig Smith)
 
-## Service to the profession
+### Service to the profession
 
 -   Co-convener, Religion Working Group, Brandeis University, 2012--13
 -   Web editor, *Journal of Southern Religion*, 2011--
@@ -198,7 +189,7 @@ Database*, a database of converts and conversions in American history,
     of Technology, November 13--14, 2010
 -   List editor, H-GRAD, 2009--2011
 
-## Seminars & workshops
+### Seminars & workshops
 
 -   Public history seminar, directed by Martha A. Sandweiss and Anthony
     Grafton, Princeton University, May 21--25, 2012.
@@ -206,58 +197,61 @@ Database*, a database of converts and conversions in American history,
     Religious Communities," directed by Gerardo Marti, Calvin College,
     June 27--July 22, 2011.
 
-## Grants
+### Grants
 
-### Research grants
+#### Research grants
 
 -   Ruth B. Fein Prize, American Jewish Historical Society, 2012
 -   Mellon Dissertation Research Grant, Brandeis University, 2012
--   Grant to attend \`\`Congregations and Social Change'' seminar,
+-   Grant to attend "Congregations and Social Change" seminar,
     Calvin College, 2011
 -   Irving and Rose Crown Fellowship, Brandeis University, 2009--2014
 
-### Teaching grants
+#### Teaching grants
 
 -   University Prize Instructorship, Brandeis University, 2013
 
-### Fundraising
+#### Fundraising
 
 -   Raised \$15,500 for THATCamp New England from NERCOMP, Brandeis
     University, Brown University, and other donors, 2011
 
-## Awards
+### Awards
 
 -   Outstanding Teaching Assistant, Brandeis University, Graduate School
     of Arts and Sciences, 2012
 
-## Languages & specialist skills
+### Languages & specialist skills
 
 -   Advanced reading knowledge of ancient (Koine) Greek
--   Computer languages and software: proficiencies in Ruby, PHP, CSS,
-    HTML, Git, WordPress, Jekyll, Omeka, LaTeX, Bash, ZSH
+-   Computer languages and software:
+    - Programming and data analysis: Ruby, R, PHP
+    - Web: HTML, CSS, WordPress, Jekyll, Omeka
+    - General: Git, LaTeX, Bash, ZSH
 
-## Academic memberships
+### Academic memberships
 
 -   American Catholic Historical Association, 2012--
 -   American Historical Association, 2009--
 -   American Society of Church History, 2007--
 -   Conference on Faith and History, 2007--
 
-  [web]: {{root_url}}/blog/digital-humanities-is-a-spectrum/
+  [web]: /blog/digital-humanities-is-a-spectrum/
   [1]: http://jestudies.yale.edu/index.php/journal/issue/view/19/showToc
-  [PDF]: {{root_url}}/docs/mullen.wolcott-narrative.pdf
-  [2]: {{root_url}}/docs/confessionalization.pdf
-  [3]: {{root_url}}/blog/theology-of-religious-change/
-  [4]: {{root_url}}/docs/reviewzehnder.pdf
+  [PDF]: /downloads/docs/mullen.wolcott-narrative.pdf
+  [2]: /downloads/docs/confessionalization.pdf
+  [3]: /blog/theology-of-religious-change/
+  [4]: /downloads/docs/reviewzehnder.pdf
   [5]: http://jsr.fsu.edu/issues/vol13/mullen.html
-  [6]: {{root_url}}docs/reviewmay.pdf
-  [7]: {{root_url}}/docs/reviewgardiners.pdf
-  [8]: {{root_url}}docs/reviewdailylives.pdf
-  [9]: {{root_url}}/docs/reviewinthebeginning.pdf
-  [10]: {{root_url}}/docs/Mullen.acha.2013.md.pdf
-  [11]: {{root_url}}/blog/scholarship-in-plain-text/
-  [12]: {{root_url}}/docs/mullen.does-the-soul-have-a-history.pdf
-  [PDF: text and slides]: {{root_url}}/docs/Mullen.Vocabulary-of-Conversion.pdf
+  [6]: /downloads/docs/reviewmay.pdf
+  [7]: /downloads/docs/reviewgardiners.pdf
+  [8]: docs/reviewdailylives.pdf
+  [9]: /downloads/docs/reviewinthebeginning.pdf
+  [10]: /downloads/docs/Mullen.acha.2013.md.pdf
+  [11]: /blog/scholarship-in-plain-text/
+  [12]: /downloads/docs/mullen.does-the-soul-have-a-history.pdf
+  [PDF: text and slides]: /downloads/docs/Mullen.Vocabulary-of-Conversion.pdf
   [13]: http://thebrandeishoot.com/articles/9255
-  [14]: {{root_url}}/docs/faithbasedtolerance.pdf
-  [contributor]: http://chronicle.com/blogs/profhacker/author/lmullen
+  [14]: /downloads/docs/faithbasedtolerance.pdf
+  [ph]: http://chronicle.com/blogs/profhacker/author/lmullen
+  [rinah]: http://usreligion.blogspot.com/search/label/lincoln%27s%20posts

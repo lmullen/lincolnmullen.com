@@ -147,8 +147,6 @@ was the importance of emotion in writing history. So in a later post
 I'll try to tell a story about my own experience of emotion in an
 archival visit.
 
-* * * * *
-
 [^1]: David Hackett Fischer, "The Braided Narrative: Substance and Form
     in Social History," in *The Literature of Fact: Selected Papers from
     the English Institute*, edited by Angus Fletcher (New York:

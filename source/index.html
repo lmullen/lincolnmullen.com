@@ -4,39 +4,142 @@ title: Lincoln A. Mullen
 ---
 
 <div class="row">
-  <div class="eight columns centered">
+  <div class="twelve columns centered">
     {% include greeting.html %}
   </div>
 </div>
 
 <div class="row">
-  <div class="three columns">
-    <h4>Blog Posts</h4>
+  <div class="four columns">
+    <h5>Subscribe</h5>
+    <ul>
+      <li>
+        <a class="subscribe-feed" href="{{ site.subscribe_rss }}">Feed</a>
+      </li>
+      <li>
+        <a class="subscribe-email" href="{{ site.subscribe_email }}">E-mail</a>
+      </li>
+    </ul>
   </div>
-  <div class="nine columns">
-    <ul class="posts">
-      {% for post in site.posts limit: 10 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
+  <div class="four columns">
+    <h5>Elsewhere</h5>
+    <ul>
+      <li>
+        <a class="twitter" href="{{ site.twitter }}">Twitter</a>
+      </li>
+      <li>
+        <a class="github" href="{{ site.github }}">GitHub</a>
+      </li>
+    </ul>
+  </div>
+  <div class="four columns">
+    <h5>Regular Contributor</h5>
+    <ul>
+      <li>
+        <a class="rinah" href="{{ site.rinah }}">Religion in American History</a>
+      </li>
+      <li>
+        <a class="profhacker" href="{{ site.profhacker }}">ProfHacker</a>
+      </li>
     </ul>
   </div>
 </div>
 
-
 <div class="row">
-  <div class="ten columns">
+  <div class="twelve columns">
     <hr/>
   </div>
 </div>
 
-<div class="row">
+<div id="writing" class="row">
   <div class="three columns">
-    <h4>My Projects</h4>
+    <h4>Writing</h4>
   </div>
   <div class="nine columns">
-    <ul>
-      <li><a href="#">American Converts Database</a></li>
-      <li>Journal of Southern Religion</li>
-      <li>Historical Demographics of American Religion</li>
-    </div>
+    <ul class="posts">
+      {% for post in site.posts limit: 6 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <p class="below-the-fold">
+      <a href="/blog/">
+        All blog posts <i class="icon-right-thin"></i>
+      </a>
+    </p>
   </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr/>
+  </div>
+</div>
+
+<div id="publishing" class="row">
+  <div class="three columns">
+    <h4>Publishing</h4>
+  </div>
+  <div class="nine columns">
+    {% include publishing.html %}
+    <p class="below-the-fold">
+      <a href="/cv/">
+        Curriculum vitae with full text of publications and papers <i class="icon-right-thin"></i>
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr/>
+  </div>
+</div>
+
+<div id="researching" class="row">
+  <div class="three columns">
+    <h4>Researching</h4>
+  </div>
+  <div class="nine columns">
+    {% include researching.html %}
+    <p class="below-the-fold">
+      <a href="/teaching/">
+        All research projects<i class="icon-right-thin"></i>
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr/>
+  </div>
+</div>
+
+<div id="teaching" class="row">
+  <div class="three columns">
+    <h4>Teaching</h4>
+  </div>
+  <div class="nine columns">
+    {% include teaching.html %}
+    <p class="below-the-fold">
+      <a href="/teaching/">
+        Course websites and syllabuses<i class="icon-right-thin"></i>
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    <hr/>
+  </div>
+</div>
+
+<div id="coding" class="row">
+  <div class="three columns">
+    <h4>Coding</h4>
+  </div>
+  <div class="nine columns">
+    {% include coding.html %}
+  </div>
+</div>

@@ -25,8 +25,6 @@ I try to follow this advice when I'm writing by leaving notes or markers
 in the text when I'm missing a fact or a reference. Following up on my
 [post][] about Vim yesterday, here is how I manage these markers in Vim.
 
-<!--more-->
-
 First, I insert the markers in a standard form: `{TODO}` is my generic
 marker; `{PAGE}` marks a missing reference; `{FACT}` marks a missing
 date or the like. I insert these markers using [vim-snipmate][] but any
@@ -36,18 +34,18 @@ Second, I use the line below to highlight these markers in the text. I
 have the line in `~/.vim/after/syntax/pandoc.vim`, but you could also 
 put it in your `.vimrc`.
 
-{% highlight %}
+{% highlight vim %}
 match Error '{\w\+}'
 {% endhighlight %}
 
 The result looks like this:
 
-{% img ../../postimg/2012-12-08-marker.png %}
+{% img /downloads/post/2012-12-08-marker.png %}
 
 These markers then come in handy when it's time to clean up the draft. I
 could search for the markers, but this keymapping makes things easier:
 
-{% highlight %}
+{% highlight vim %}
 nnoremap <leader>{ :vimgrep /{\w\+}/ %<CR>:copen<CR>
 {% endhighlight %}
 
@@ -55,7 +53,7 @@ That keymapping puts all of the markers into Vim's [quickfix][] buffer,
 which gives me a list of all the needed corrections and lets me jump 
 from item to item. It looks like this:
 
-{% img ../../postimg/2012-12-08-quickfix.png %}
+{% img /downloads/post/2012-12-08-quickfix.png %}
 
   [quickfix]: http://vimdoc.sourceforge.net/htmldoc/quickfix.html
   [post]: http://lincolnmullen.com/blog/cleanup-your-markdown-text-in-vim-with-equalprg/

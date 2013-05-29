@@ -1,9 +1,22 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div id="post">
-{{ content }}
+<div class="row">
+  <article>
+    <header>
+      <h3>
+        <a title="permalink" href="{{ post.url }}">
+        {{ page.title }}
+      </a>
+      </h3>
+      <p class="meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" pubdate data-updated="true">
+          {{ page.date | date_to_string }}
+        </time>
+      </p>
+    </header>
+    <div id="post">
+      {{ content }}
+    </div>
+  </article>
 </div>

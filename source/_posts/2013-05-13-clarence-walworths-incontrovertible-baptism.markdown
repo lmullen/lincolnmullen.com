@@ -89,8 +89,6 @@ In terms of theology, Walworth's second baptism was incontrovertible. Yet it was
 
 {% img center /postimg/2013-05-13-walworth-4.png %}
 
-* * * * *
-
 [^1]: Clarence Walworth, *[The Oxford Movement in America; or, Glimpses of Life in an Anglican Seminary](http://books.google.com/books?id=6Y9HAAAAYAAJ&dq=clarence+walworth+oxford+movement+in+america&source=gbs_navlinks_s)* (New York: Catholic Book Exchange, 1895), 31. Most Christian denominations recoil from re-baptism. If there is any question about someone's baptism, Episcopalians and Catholics perform a conditional baptism. Though trine baptism was an ancient practice, it was unusual in the modern church. The rubrics of the 1789 American *Book of Common Prayer*, as revised in 1841, state, "Then shall the minister take each person to be baptized by the right hand; and placing him conveniently by the Font, according to his discretion, ... then shall dip him in the water, or pour water upon him." *The Book of Common Prayer and Administration of the Sacraments and Other Rites and Ceremonies of the Church: According to the Use of the Protestant Episcopal Church in the United States of America* (New York: H. & S. Raynor, 1842), 166. The first prayer book of Edward VI prescribed trine baptism, but the requirement was left out of all subsequent prayer books. The American prayer book did contain rubrics for conditional baptism.
 
 [^2]: Walworth, 9.

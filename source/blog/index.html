@@ -1,0 +1,21 @@
+---
+layout: page
+title: All Blog Posts
+---
+
+<div id="blog-archives">
+  <ul class="posts">
+    {% for post in site.posts reverse %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}" pubdate data-updated="true">
+        {{ post.date | date_to_string }}
+      </time> 
+      <i class="icon-dot-3"></i>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+

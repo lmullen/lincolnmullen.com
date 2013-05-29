@@ -22,12 +22,10 @@ lets you define a series of rules to compile files. You define 'targets'
 commands that express the relation between the two. A typical rule using
 [Pandoc][] might look like this:
 
-<!--more-->
-
-{% codeblock %}
+{% highlight make %}
 lesson.01.md.pdf : lesson.01.md
     pandoc lesson.01.md -o lesson 01.md.pdf
-{% endcodeblock %}
+{% endhighlight %}
 
 But in larger projects, such as the [class][] that I'm teaching, every
 time I added a Markdown file I also had to add a new rule to the
@@ -45,23 +43,23 @@ make. We get that list by using the `wildcard` function to find all the
 `*.md` files, then by using the `patsubst` function to append `.pdf` to
 those file names. 
 
-{% codeblock %}
+{% highlight make %}
 PDFS := $(patsubst %.md,%.md.pdf,$(wildcard *.md))
-{% endcodeblock %}
+{% endhighlight %}
 
 Next we define a generic target, `all`, using that list.
 
-{% codeblock %}
+{% highlight make %}
 all : $(PDFS)
-{% endcodeblock %}
+{% endhighlight %}
 
 We need a rule for making PDFs. Using Make's string replacement
 macros, we define a generic rule:
 
-{% codeblock %}
+{% highlight make %}
 %.md.pdf : %.md
         pandoc $< -o $@
-{% endcodeblock %}
+{% endhighlight %}
 
 Now running `make` creates or updates all the PDFs in the project. Four
 lines of code that are portable to any project beat 60+ lines that are
@@ -70,7 +68,28 @@ specific to the project.
 Here is the whole `Makefile` as a [Gist][] (with a few additional
 rules):
 
-{% gist 3767386 %}
+{% highlight make %}
+# Produce PDFs from all Markdown files in a directory
+# Lincoln Mullen | http://lincolnmullen.com | lincoln@lincolnmullen.com
+
+# List files to be made by finding all *.md files and appending .pdf
+PDFS := $(patsubst %.md,%.md.pdf,$(wildcard *.md))
+
+# The all rule makes all the PDF files listed
+all : $(PDFS)
+                        
+# This generic rule accepts PDF targets with corresponding Markdown 
+# source, and makes them using pandoc
+%.md.pdf : %.md
+        pandoc $< -o $@
+
+# Remove all PDF outputs
+clean :
+        rm $(PDFS)
+
+# Remove all PDF outputs then build them again
+rebuild : clean all
+{% endhighlight %}
 
 The filenames of my PDFs are a little peculiar: if the source file is
 `handout.md`, I name the PDF `handout.md.pdf` instead of `handout.pdf`.

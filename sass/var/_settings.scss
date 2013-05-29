@@ -3,7 +3,7 @@
 
 
 // Grid Settings
-$row-max-width: 940px !default;
+$row-max-width: 800px !default;
 $gutter-in-px: 20px !default;
 $cols: 12 !default;
 $hybrid: 16 !default;
@@ -69,12 +69,12 @@ $tremendous: ms(9);
 $absurd: ms(10);
 
 // Typography Colors
-$header-font-color: #000000 !default;
-$header-link-color: #d04526 !default;
-$header-link-hover-color: #c03d20 !default;
 $body-font-color: #000000 !default;
 $body-link-color: #3085d6 !default;
 $body-link-hover-color: #c03d20 !default;
+$header-font-color: #000000 !default;
+$header-link-color: darken($body-link-color,20) !default;
+$header-link-hover-color: $body-link-hover-color !default;
 
 // User Interface Colors
 $global-bg-color: #ffffff;
@@ -99,7 +99,7 @@ $black: #000;
 $white: #fff;
 
 // Borders
-$button-radius: 4px;
+$button-radius: 10px;
 $metro-radius: 0 !default;
 $bigger-radius: 8px;
 
@@ -131,3 +131,6 @@ $drawer-inner-shadow-color: #313436;
 // Floats
 $default-float: left;
 $switch-float: right;
+
+// Code
+$monospace-font: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;

@@ -42,9 +42,9 @@ This Saturday, October 20, I'll be giving a [workshop][] at [THATCamp New Englan
 These are the slides from the workshop.
 
 <iframe class="frame" width="800" height="600" style="border:10px;"
-src="http://lincolnmullen.com/docs/slides/embedder.html#http://lincolnmullen.com/docs/slides/scholarship-in-plain-text/slides.html">
+src="/downloads/docs/slides/embedder.html#http://lincolnmullen.com/downloads/docs/slides/scholarship-in-plain-text/slides.html">
 <a 
-  href="http://lincolnmullen.com/docs/slides/scholarship-in-plain-text/slides.html">View
+  href="/downloads/docs/slides/scholarship-in-plain-text/slides.html">View
 the slides.</a> </iframe>
 
 Here are some links to resources to help you get started with plain-text

@@ -24,10 +24,8 @@ have just started working on. **[The American Converts Database][]** is
 a database of people who experienced a religious conversion in the
 United States.
 
-[{% img center /postimg/2013-03-17.convertsdb.png %}][The American
+[{% img center /downloads/post/2013-03-17.convertsdb.png %}][The American
 Converts Database]
-
-<!--more-->
 
 [Erin][Erin Bartram] and I are collaborating on the project because both
 our dissertations are about converts. Erin is writing about [Jane Minot

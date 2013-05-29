@@ -57,9 +57,9 @@ played music in the court of Emperor Haile Selassie. The emperor was
 born Ras Tafari Makonnen, and the belief that he is divine animates the
 Rastafarians, who also figure in Dorman's work.
 
-<!--more-->
 
-Rabbi Wentworth A. Matthew ([source][]): {% img http://1.bp.blogspot.com/-lJMo9n1b70w/UW7Y74Fg-sI/AAAAAAAAAB8/sJmdTvlzFhI/s1600/rabbi_matthew1.jpg %}
+{% img http://1.bp.blogspot.com/-lJMo9n1b70w/UW7Y74Fg-sI/AAAAAAAAAB8/sJmdTvlzFhI/s1600/rabbi_matthew1.jpg %}<br/>
+*Rabbi Wentworth A. Matthew ([source][])*
 
 I thought the best chapter was the last, in which Dorman offers a
 micro-historical reading of the life and religious practices of Rabbi

@@ -8,7 +8,7 @@ sidebar: collapse
 ---
 
 
-## [Nineteenth-Century American Religion: A Digital History Seminar][upi-syllabus]
+#### [Nineteenth-Century American Religion: A Digital History Seminar][upi-syllabus]
 
 *Brandeis University, University Prize Instructorship, scheduled spring 2014*
 
@@ -46,12 +46,11 @@ skills---publishing, mapping, encoding, collaborating, communicating,
 managing---that are widely useful in government, business, and research 
 outside the academy.
 
-## [Religious Pluralism and the American State][uws-website]
+#### [Religious Pluralism and the American State][uws-website]
 
 *Brandeis University, fall 2012*
 
 -   **[Syllabus][uws-syllabus]**  
--   **[Course website][uws-website]**
 
 **Course description:** Two of the most pressing questions about
 American religion and its public role are intertwined: how should
@@ -69,7 +68,7 @@ three essays: one expositing a document about a religious conflict, a
 second interacting with other historians' interpretations, and a third
 based on original research into religious conflict.
 
-## The American Revolution (co-taught)
+#### The American Revolution (co-taught)
 
 *Brandeis University, fall 2010*
 
@@ -79,7 +78,7 @@ structured around discussions among the three of us, in which the
 students also participated. Each of us also gave brief lecture delivered
 *seriatim*.
 
-## Teaching Fellow
+#### Teaching Fellow
 
 Besides teaching as the instructor of record for the course above, I
 have also taught discussion sections and guest lectures as a teaching
@@ -92,7 +91,7 @@ fellow for the following courses at [Brandeis University][]:
     Govind Sreenivasan (2011, spring)
 
   [Brandeis University]: http://www.brandeis.edu/
-  [uws-website]: http://lincolnmullen.com/courses/uws/
-  [uws-syllabus]: http://lincolnmullen.com/docs/religious-pluralism.syllabus.2012-fall.pdf
-  [upi-syllabus]: http://lincolnmullen.com/downloads/docs/religion-19c-dh.pdf
+  [uws-website]: /downloads/docs/religious-pluralism.syllabus.2012-fall.pdf
+  [uws-syllabus]: /downloads/docs/religious-pluralism.syllabus.2012-fall.pdf
+  [upi-syllabus]: /downloads/docs/religion-19c-dh.pdf
 

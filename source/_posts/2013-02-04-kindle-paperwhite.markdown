@@ -107,8 +107,6 @@ to read the current chapter or the rest of the book. The Paperwhite
 learns to calculate these times as you read; I’ve found them to be
 reasonably accurate.
 
-[![][]][]
-
 **Network connection.** I have the WiFi version of the Paperwhite, and
 it connects to the internet to download books and documents just fine. I
 can’t see paying extra for the 3G option unless you really travel a lot

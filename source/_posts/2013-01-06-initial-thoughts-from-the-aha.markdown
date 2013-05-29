@@ -86,7 +86,7 @@ correspondents Erin Bartram and Mary Sanders at [Fea's blog][], posts at
   [Stephanie Jacobe]: http://american.academia.edu/StephanieJacobe
   [Charles Gallagher]: http://www.bc.edu/schools/cas/history//faculty/alphabetical/gallagher_charles.html
   [Una Cadegan]: http://www.udayton.edu/directory/artssciences/history/cadegan_una.php
-  [PDF]: {{root_url}}/docs/Mullen.acha.2013.md.pdf
+  [PDF]: /downloads/docs/Mullen.acha.2013.md.pdf
   [session]: http://aha.confex.com/aha/2013/webprogram/Session9319.html
   [here]: http://hnn.us/videos/149965.html
   [live tweeted]: http://thebroadside.org/tw-archives/aha2013.php

@@ -1,18 +1,15 @@
 ---
 layout: page
-title: "Projects"
-comments: false
-sharing: false
-footer: true
-sidebar: collapse
+title: "Research and Projects"
 ---
 
-My digital history, digital humanities, academic writing and publishing,
-and coding projects
+#### Dissertation
 
-## American Converts
+#### American Converts Database
 
-[{% img project /projects/project-convertsdb.png %}][9]
+<div class="noline">
+[{% img project /downloads/post/project-convertsdb.png %}][9]
+</div>
 
 A database of Americans who experienced religious conversions, broadly
 defined. Produced in collaboration with other historians of American
@@ -20,9 +17,11 @@ religion.
 
 -   [American Converts database][9]
 
-## Historical Demographics of American Religion
+#### Historical Demographics of American Religion
 
-[{% img project /projects/project-demographics.png %}][8]
+<div class="noline">
+[{% img project /downloads/post/project-demographics.png %}][8]
+</div>
 
 Data and R scripts to track the historical demographics of American
 religion from primary sources
@@ -30,9 +29,11 @@ religion from primary sources
 -   [Blog posts about the project][12]
 -   [GitHub repository][8]
 
-## Journal of Southern Religion
+#### Journal of Southern Religion
 
-[{% img project /projects/project-jsr.png "JSR" %}][10]
+<div class="noline">
+[{% img project /downloads/post/project-jsr.png "JSR" %}][10]
+</div>
 
 The open-access online *Journal of Southern Religion*, whose website I
 built and maintain
@@ -40,7 +41,7 @@ built and maintain
 -   [*Journal of Southern Religion* website][10]
 -   [GitHub repository][10]
 
-## Catalog Search Plugin for Omeka
+#### Catalog Search Plugin for Omeka
 
 A plugin for [Omeka](http://omeka.org) that that uses the subject field 
 in an Omeka item to generate links to searches in catalogs, such as 
@@ -50,7 +51,7 @@ Archive Grid and the Library of Congress
 -   [GitHub repository][13]
 -   [Blog post about the plugin](http://lincolnmullen.com/blog/catalog-search-plugin-for-omeka-released/)
 
-## Jekyll E-book
+#### Jekyll E-book
 
 A Ruby gem to create EPUB e-books from Jekyll posts and pages using
 Pandoc
@@ -58,33 +59,33 @@ Pandoc
 -   [GitHub repository][1]
 -   [Ruby Gems][11]
 
-## Bibkeys
+#### Bibkeys
 
 A Ruby gem to list all the citation keys in a BibTeX file
 
 -   [GitHub repository][2]
 -   [Ruby Gems][3]
 
-## History Bibliography
+#### History Bibliography
 
 A BibTeX database of citations in religious history and American history
 
 -   [GitHub repository][4]
 
-## Academic Article LaTeX Class
+#### Academic Article LaTeX Class
 
 An academic article LaTeX class
 
 -   [GitHub repository][5]
 
-## Academic Paper LaTeX Class
+#### Academic Paper LaTeX Class
 
 A LaTeX class that extends the article class and does some formatting to
 make the article format more suitable for classroom papers
 
 -   [GitHub repository][6]
 
-## Dotfiles
+#### Dotfiles
 
 My Unix/Linux/Mac OS X configuration files, mostly for ZSH, Vim, iTerm2,
 Git, Ruby, and R

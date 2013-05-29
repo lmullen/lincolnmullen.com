@@ -20,8 +20,6 @@ experiment with analyzing a TEI file programmatically, so I found some
 sample documents and wrote an easy script in [Ruby][] to serve as my own
 proof of concept.
 
-<!--more-->
-
 For experimental purposes, I downloaded the Folger Shakespeare Library's
 [Digital Texts][], a collection of Shakespeare's plays encoded in TEI. I
 choose these texts because they had each speaker marked up, as in this
@@ -29,13 +27,13 @@ snippet from *[Macbeth][]*. For my purposes, a text that marked up
 names, dates, or places would be more interesting, but the principles 
 are identical.
 
-``` xml
+{% highlight xml %}
 <speaker xml:id="spk-1490">
 <w xml:id="w0221430">SECOND</w>
 <c xml:id="c0221440"> </c>
 <w xml:id="w0221450">WITCH</w>
 </speaker>
-```
+{% endhighlight %}
 
 I decided to write a Ruby script that identified all the speakers and
 counted the number of times each spoke. The heavy lifting is done by the
@@ -49,26 +47,73 @@ primer.)
 with. In this script, it does all the analytical work in two lines. 
 One line opens the TEI file, and Nokogiri then parses the document.
 
-``` ruby
+{% highlight ruby %}
 doc = Nokogiri::XML(open(filename))
-```
+{% endhighlight %}
 
 The other line finds each `<speaker>` element and cleans up the name 
 of the speaker.
 
-``` ruby
+{% highlight ruby %}
 name = speaker.content.gsub(/\n/,"")
-``` 
+{% endhighlight %}
 
 The rest of the script just sets up some scaffolding to keep track of 
 the speakers and the number of their lines. Here is the whole thing.
 
-{% include_code speakers.rb %}
+{% highlight ruby %}
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+# Name::          speakers.rb
+# Author::        Lincoln Mullen (mailto:lincoln@lincolnmullen.com)
+# Copyright::     Copyright (c) 2013 Lincoln Mullen 
+# License::       MIT License | http://lmullen.mit-license.org/
+
+# This program finds all of the speakers in a TEI file and lists them 
+# by the number of times that they speak.
+# Usage: ./speakers.rb my-tei-file.xml
+
+require 'nokogiri'          # for xml parsing
+require 'pp'                # for a nicer output
+
+# Get the file name to open
+filename = ARGV[0]
+
+# Open a hash to store our data
+speakers = Hash.new
+
+begin 
+  # Open the file and parse it with Nokogiri
+  doc = Nokogiri::XML(open(filename))
+  # Find each instance of a <speaker> tag
+  doc.search('speaker').each do |speaker|
+    # Clean up the line breaks in the speaker's name
+    name = speaker.content.gsub(/\n/,"")
+    if speakers.has_key?(name)
+      # If the speaker is already in our hash then add 1 to the count 
+      # of utterances
+      speakers[name] += 1
+    else
+      # If the speaker is not already in the hash then add the speaker 
+      # with a count of 1
+      speakers[name] = 1
+    end
+  end
+rescue Errno::ENOENT
+  # If the file we've been passed doesn't exist, catch the error
+  puts "That file does not exist."
+end
+
+# Sort the hash of speakers by the number of times they speak, in 
+# descending order, then print the output
+pp speakers.sort_by { |name, lines| lines }.reverse
+{% endhighlight %}
 
 The output for *Macbeth* looks like this. It's nothing too impressive, 
 but it does show how Ruby and Nokogiri can be used to analyze TEI files.
 
-``` text
+{% highlight ruby %}
 [["MACBETH", 145],
  ["LADY MACBETH", 59],
  ["MACDUFF", 59],
@@ -111,7 +156,7 @@ but it does show how Ruby and Nokogiri can be used to analyze TEI files.
  ["FIRST APPARITION", 1],
  ["SOLDIER", 1],
  ["MACBETH AND LENNOX", 1]]
-```
+{% endhighlight %}
 
   [Digital Texts]: http://www.folgerdigitaltexts.org/
   [Macbeth]: http://www.folgerdigitaltexts.org/?chapter=5&play=Mac&loc=p7

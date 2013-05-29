@@ -37,7 +37,7 @@ American-British-German connection that I thought I saw in the sources.
 But the plot also contains places that I didn’t expect, which I hope
 will be a fruitful area to research further.
 
-![Paper Machines Map][]
+{% img center http://chronicle.com/blogs/profhacker/files/2012/11/Screen-Shot-2012-11-07-at-8.13.41-PM.png %}
 
 For a much fuller description of Paper Machines, you can see the
 [documentation][Paper Machines], Johnson-Roberson’s [write up][Paper
@@ -46,7 +46,7 @@ Sarita Alami from the Emory libraries.
 
 **Have you tried Paper Machines with your Zotero library?**
 
-**Update (11/8): **In the original post I neglected to give credit to Jo
+**Update (11/8):** In the original post I neglected to give credit to Jo
 Guldi and Matthew Battles who started and directed the project. You can
 read a post about Paper Machines by Guldi [here][].
 
@@ -62,7 +62,6 @@ Harvard’s [metaLAB][].”
   [Chris Johnson-Roberson]: http://www.chrisjr.org/
   [Jo Guldi]: http://www.joguldi.com/
   [Matthew Battles]: http://metalab.harvard.edu/people/
-  [Paper Machines Map]: http://metalab.harvard.edu/2012/07/paper-machines/
   [blog]: http://web.library.emory.edu/blog/supercharge-your-zotero-library-using-paper-machines-part-i
   [posts]: http://web.library.emory.edu/blog/supercharge-your-zotero-library-using-paper-machines-part-ii-6
   [here]: http://landscape.blogspot.com/2012/03/understanding-paper-machines.html

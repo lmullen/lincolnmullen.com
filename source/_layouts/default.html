@@ -15,11 +15,12 @@
   <meta name="keywords" content="" />
   <meta name="author" content="humans.txt">
 
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <link rel="stylesheet" href="/css/gumby.css">
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+  <link rel="stylesheet" href="/css/screen.css">
 
   <script src="js/libs/modernizr-2.6.2.min.js"></script>
 </head>
@@ -30,55 +31,34 @@
 
   <div class="container">
     <div id="header" class="row">
-      <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+      <div class="six columns">
+        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+      </div>
+      <div class="six columns">
+        {% include navigation.html %}
+      </div>
     </div>
 
     {{ content }}
 
+  </div> <!-- /container -->
     <footer>
       <div class="row">
-      <div class="centered six columns">
-      <p>
-        <small><i class="icon-cc-by"></i>Licensed CC-BY. <i class="icon-github"></i> Source at GitHub.</small>
-      </p>
-    </div>
-    </div>
+        <div class="centered eight columns">
+          {% include footer.html %}
+        </div>
+      </div>
     </footer>
-  </div> <!-- /container -->
 
+  <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js"><\/script>')</script>
 
-</section>
-
-<!-- Grab Google CDN's jQuery, fall back to local if offline -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js"><\/script>')</script>
-
-  <!--
-  Include gumby.js followed by UI modules.
-  Or concatenate and minify into a single file
-  <script src="js/libs/gumby.js"></script>
-  <script src="js/libs/ui/gumby.retina.js"></script>
-  <script src="js/libs/ui/gumby.fixed.js"></script>
-  <script src="js/libs/ui/gumby.skiplink.js"></script>
-  <script src="js/libs/ui/gumby.toggleswitch.js"></script>
-  <script src="js/libs/ui/gumby.checkbox.js"></script>
-  <script src="js/libs/ui/gumby.radiobtn.js"></script>
-  <script src="js/libs/ui/gumby.tabs.js"></script>
-  <script src="js/libs/ui/gumby.navbar.js"></script>
-  <script src="js/libs/ui/jquery.validation.js"></script>
-  <script src="js/libs/gumby.init.js"></script>-->
-  
   <script src="js/libs/gumby.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Change UA-XXXXX-X to be your site's ID -->
-  <!--<script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>-->
+  {% include google_analytics.html %}
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
   chromium.org/developers/how-tos/chrome-frame-getting-started -->

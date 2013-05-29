@@ -19,8 +19,6 @@ visible and useful to check my work. Last night I discovered [TEI Boilerplate][]
 readable in a browser, with accompanying CSS and Javascript. The idea is
 to let you use your jQuery skills instead of learning XSLT:
 
-<!--more-->
-
 > But the power of XSLT comes at a cost. XSLT is a far more complex
 > language than CSS and has a far steeper learning curve. There are
 > relatively few expert XSLT programmers compared to the numbers of

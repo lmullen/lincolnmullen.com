@@ -24,7 +24,7 @@ a nineteenth century historian, second an early Americanist, and the
 records in the database so far reflect that, but the database also takes
 in twentieth century conversions too.
 
-[{% img center /postimg/2013-04-17.perry-headline.png %}][conversions]
+[{% img center /downloads/post/2013-04-17.perry-headline.png %}][conversions]
 
 <!--more-->
 

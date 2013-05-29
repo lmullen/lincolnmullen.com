@@ -26,9 +26,25 @@ I wanted to track my progress by regularly getting a word count for
 every chapter. To do that, I wrote a Bash script which runs `wc` and
 stores the data to a CSV file. Here is the script:
 
-<!--more-->
+{% highlight bash %}
+#!/bin/bash          
+source /Users/lmullen/.bash_profile
 
-{% gist 3381331 dissertation-wordcount.sh %}
+EPOCH=$(date +"%s")
+DATE=$(date)
+WCCH1=$(wc -w /Users/lmullen/acad/dissertation/ch1.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch1.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH2=$(wc -w /Users/lmullen/acad/dissertation/ch2.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch2.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH3=$(wc -w /Users/lmullen/acad/dissertation/ch3.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch3.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH4=$(wc -w /Users/lmullen/acad/dissertation/ch4.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch4.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH5=$(wc -w /Users/lmullen/acad/dissertation/ch5.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch5.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH6=$(wc -w /Users/lmullen/acad/dissertation/ch6.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch6.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH7=$(wc -w /Users/lmullen/acad/dissertation/ch7.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch7.dissertation.Mullen.md//' | sed 's/ //g')
+WCCH8=$(wc -w /Users/lmullen/acad/dissertation/ch8.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/ch8.dissertation.Mullen.md//' | sed 's/ //g')
+WCPRE=$(wc -w /Users/lmullen/acad/dissertation/preface.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/preface.dissertation.Mullen.md//' | sed 's/ //g')
+WCINTRO=$(wc -w /Users/lmullen/acad/dissertation/introduction.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/introduction.dissertation.Mullen.md//' | sed 's/ //g')
+WCCONCL=$(wc -w /Users/lmullen/acad/dissertation/conclusion.dissertation.Mullen.md | sed 's/\/Users\/lmullen\/acad\/dissertation\/conclusion.dissertation.Mullen.md//' | sed 's/ //g')
+echo $EPOCH,$DATE,$WCCH1,$WCCH2,$WCCH3,$WCCH4,$WCCH5,$WCCH6,$WCCH7,$WCCH8,$WCPRE,$WCINTRO,$WCCONCL >> /Users/lmullen/acad/dissertation/wordcount-data.csv
+{% endhighlight %}
 
 First, the script finds out the date in two formats (lines 4--5), the
 Unix "epoch" time (or number of seconds since midnight on January 1,
@@ -55,7 +71,7 @@ and not much else. Apparently I also wrote this script after midnight.
 I run the script automatically each hour by adding this line to my
 crontab:
 
-{% highlight cron %}
+{% highlight bash %}
 0   *   *   *   *   /Users/lmullen/acad/dissertation/wordcount.sh
 {% endhighlight %}
 

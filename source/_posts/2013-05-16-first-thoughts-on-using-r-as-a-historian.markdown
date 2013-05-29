@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some Basic Plots of the Demography of American Judaism; or, First Thoughts on Using R as a Historian"
+title: "Using R to Chart the Historical Demography of American Judaism"
 date: 2013-05-16 19:40
 comments: true
 sidebar: collapse
@@ -22,8 +22,6 @@ The historical demography of American religion is in a sorry state. I've been in
 
 So what tools are available to historians who want to study historical demography?
 
-<!--more-->
-
 As I see it, there are three main features that we need. One is a simple, future-proof way to store data. The second is a way to analyze the data mathematically. The third is a way to present the data visually.
 
 Why not use Excel? For the love of your fellow scholars, *don't use Excel*. If you need a reason, see this example of [economists who made a mistake in Excel](http://www.nextnewdeal.net/rortybomb/researchers-finally-replicated-reinhart-rogoff-and-there-are-serious-problems) with the results that "that one of the core empirical points providing the intellectual foundation for the global move to austerity in the early 2010s was based on someone accidentally not updating a row formula in Excel" (via [Kieran Healy](http://kieranhealy.org/blog/archives/2013/04/17/new-tools-for-reproducible-research/)).
@@ -38,26 +36,27 @@ The data are American Jewish population estimates taken from the appendix to Jon
 
 I've entered this data into a [CSV file](https://github.com/lmullen/demographics-religion/blob/master/judaism/sarna.appendix.csv), part of which looks like this: 
 
-```
+{% highlight bash %}
 year,estimate-low,estimate-high,percentage-population-low,percentage-population-high
 1660,50,50,,
 1700,200,300,,
 1776,1000,2500,0.04,0.1
 1790,1300,3000,0.03,0.08
 1800,2500,2500,0.04,0.04
-```
+{% endhighlight %}
+
 
 Next I've written [an R script](https://github.com/lmullen/demographics-religion/blob/master/judaism/judaism.overview.R) which will do some analysis and plotting.
 
 Getting the data into R is easy:
 
-``` r
+{% highlight r %}
 data <- read.csv("sarna.appendix.csv", comment.char = "#")
-```
+{% endhighlight %}
 
 Now we can use R to do some basic calculations. In this case, the data does not include a mid-point between the high and low estimates, so we need to calculate that. 
 
-``` r
+{% highlight r %}
 # Calculate mean/midpoint and the height of the range bars
 # -------------------------------------------------------------------
 midpoint.population <- (data$estimate.high + data$estimate.low)/2
@@ -66,11 +65,11 @@ midpoint.percentage <- (data$percentage.population.high +
                         data$percentage.population.low)/2
 error.percentage    <- (data$percentage.population.high -
                         data$percentage.population.low)/2
-```
+{% endhighlight %}
 
 Now we can plot the population estimates. 
 
-``` r
+{% highlight r %}
 png(filename = "jewish-population.png",
 width=2000, height=1200, res=300)
 ggplot(data) +
@@ -86,7 +85,8 @@ scale_y_continuous(breaks = seq(0, 6e+06, 1e+06),
                    labels = seq(0, 6e+06, 1e+06) / 1e+06)
 attribution("Data: Jonathan Sarna, American Judaism")
 dev.off()
-```
+{% endhighlight %}
+
 Here is the result:
 
 {% img center /downloads/img/jewish-population.png %}

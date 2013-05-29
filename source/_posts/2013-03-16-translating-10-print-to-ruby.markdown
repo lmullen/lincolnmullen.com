@@ -24,7 +24,7 @@ program written in [BASIC][] for the [Commodore 64][].
   [BASIC]: http://en.wikipedia.org/wiki/BASIC
   [Commodore 64]: http://en.wikipedia.org/wiki/Commodore_64
 
-{% highlight %}
+{% highlight bash %}
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
 {% endhighlight %}
 
@@ -35,8 +35,6 @@ randomization function selects between characters 205 and 206. Then the
 command in an endless loop. The output of the program is diagonal maze.
 
 {% img center /postimg/2013-03-16.10PRINT-1.png %}
-
-<!--more-->
 
 As part of the demonstration, Patsy and Nick brought two Commodore 64s
 for the audience to try. That was fun: I'd never played with a
@@ -141,9 +139,9 @@ takes five lines to do the same thing that the BASIC code does in one.
 Does each Catullan couplet require an entire English sonnet? The next
 solution gets the code down to one line.
 
-``` ruby
+{% highlight ruby %}
 print ['/','\\'][Random.new.rand(0..1)] while true
-```
+{% endhighlight %}
 
 The code is compressed by eliminating assignments to variables.  We've 
 also eliminated the `do` code block. But because we still need the 
@@ -154,9 +152,9 @@ BASIC.
 
 ### Solution 3
 
-``` ruby
+{% highlight ruby %}
 print ['/','\\'][rand(0..1)] while true
-```
+{% endhighlight %}
 
 One of the features of the BASIC program is brevity, so `rand` is 
 preferable to `Random.new.rand`. We emphasize the cognate, while making 
@@ -173,9 +171,9 @@ PRINT* point out, the Commodore 64 had its own character set
 and a different keyboard than is now standard. We'd be better off with 
 different characters.
 
-``` ruby
+{% highlight ruby %}
 print ["\u2571","\u2572"][rand(0..1)] while true
-```
+{% endhighlight %}
 
 In this solution we use two [Unicode][] characters, [U+2571][] and
 [U+2572][], which map more closely to the PETSCII characters. But just
@@ -197,9 +195,9 @@ We could leave our solution well enough alone. It's idiomatic Ruby, and
 But one of the interesting features of the BASIC code is the logic that 
 it uses to select the characters. Let's look at this more closely:
 
-```
+{% highlight bash %}
 CHR$(205.5+RND(1))
-```
+{% endhighlight %}
 
 The two PETSCII characters have the index numbers 205 and 206. By
 starting with the number 205.5 and adding a random number between 0 and
@@ -211,9 +209,9 @@ much of the pleasure of reading code comes from understanding clever
 solutions that get around limitations of the language. We can get a lot
 closer to the BASIC with this Ruby code:
 
-``` ruby
+{% highlight ruby %}
 print (9585+rand(0..1)).chr(Encoding::UTF_8) while true
-```
+{% endhighlight %}
 
 Here we're accessing the same Unicode characters as in solution 4, but
 using a decimal rather than a hexadecimal system of enumeration. We want
@@ -254,8 +252,8 @@ You can run each of these solutions for yourself in a terminal. The
 easiest way to do this is to paste the entire line of code between the
 `''` in this command, which interprets the code with Ruby.
 
-``` bash
+{% highlight bash %}
 ruby -e 'CODE GOES HERE'
-```
+{% endhighlight %}
 
 To quit the program, press `CTRL+C`.

@@ -20,15 +20,13 @@ Discovery of the American Continent*. Bancroft's narrative is
 strengthened by one of the features of the book's typography. Take a 
 look at this page from [volume 1][]:
 
-{% img center /postimg/2013-02-08-fullpage.png %}
-
-<!--more-->
+{% img center /downloads/post/2013-02-08-fullpage.png %}
 
 The margins of every page contain the dates of events mentioned in the 
 narrative. Usually the date is a year, but they are often precise to the 
 month or day. Here is a close up of one of the dates:
 
-{% img center /postimg/2013-02-08-datecloseup.png %}
+{% img center /downloads/post/2013-02-08-datecloseup.png %}
 
 I haven't seen dates in the margins of many other books; what few I have
 seen are from the nineteenth century. But these dates serve an important
@@ -53,10 +51,10 @@ The book's other typological feature that helps a narrative is running
 heads. Here is a sequence of a few pages. Notice that the headers change
 given the topic of the current page:
 
-{% img center /postimg/2013-02-08-runninghead1.png %}
-{% img center /postimg/2013-02-08-runninghead2.png %}
-{% img center /postimg/2013-02-08-runninghead3.png %}
-{% img center /postimg/2013-02-08-runninghead4.png %}
+{% img center /downloads/post/2013-02-08-runninghead1.png %}
+{% img center /downloads/post/2013-02-08-runninghead2.png %}
+{% img center /downloads/post/2013-02-08-runninghead3.png %}
+{% img center /downloads/post/2013-02-08-runninghead4.png %}
 
 Just to stick his finger in the eye of twenty-first-century historians, 
 Bancroft's book also has footnotes, where we are usually stuck with 

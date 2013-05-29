@@ -15,7 +15,6 @@ tags:
 
 {% img right http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Orestes_Brownson_by_GPA_Healy%2C_1863.jpg/375px-Orestes_Brownson_by_GPA_Healy%2C_1863.jpg 375 475 "Orestes Brownson" "Orestes Brownson" %}
 
-
 For my [dissertation][], I am researching the lives of converts from the
 nineteenth century. Some people who converted left behind an enormous
 source base. [Orestes Brownson][] converted from Congregationalism to
@@ -38,9 +37,7 @@ won't know which questions can be investigated programmatically or what
 the data to answer them will look like until I've done substantially
 more research.
 
-<!--more-->
-
-## The idea: use YAML to model lives and events
+#### The idea: use YAML to model lives and events
 
 With that research problem in mind, I've drawn up a list of
 specifications for what my data model should look like.
@@ -62,7 +59,7 @@ blog and [another web project][]. YAML also fits well into the
 principles I learned from [*Linux and the Unix Philosophy*][],
 especially "store data in flat text files."
 
-## Example YAML model and Ruby script
+#### Example YAML model and Ruby script
 
 I've created a working example with two YAML files and a Ruby script to
 output some of the data. I've shared the example as a [Gist on GitHub][].
@@ -78,7 +75,68 @@ necessary. Finally, the `source` array has one value
 (`@carey_orestes_2004`) which is the key to an entry in [my BibTeX database][], 
 which I've added with [Vim's][] autocomplete function.
 
-{% gist 2580742 brownson-orestes.yml %}
+{% highlight yaml %}
+# A model of a convert's life
+---
+name-last       : Brownson
+name-first      : Orestes Augustus
+born            : 1803-09-16
+died            : 1876-04-17
+birth-religion  : Congregationalism
+
+conversions     :
+
+-   origin-religion         : Congregationalism
+    destination-religion    : Presbyterianism
+    date                    : 1822
+    ritual                  : church membership
+    citation                : ANB
+    notes                   : >
+      Brownson's change to congregationalism was more denominational 
+      switching than a change in conscience.
+
+-   origin-religion         : Presbyterianism
+    destination-religion    : Universalism
+    date                    : 1826
+    ritual                  : ordination
+    location                : "Jaffrey, New Hampshire"
+    citation                : ANB
+    notes                   : >
+      "He would later refer to his years in this fold as 'the most 
+      anti-Christian period of my life'" (ANB).
+
+      Brownson was editor of _The Gospel Advocate and Impartial 
+      Investigator_, a Universalist publication.
+
+-   origin-religion         : Universalism
+    destination-religion    : Unitarianism
+    ritual                  : further research
+    location                : "Walpole, New Hampshire"
+    citation                : ANB
+    notes                   : >
+      Brownson spent some time at Brook Farm, which prepared him for 
+      Transcendentalism
+
+-   origin-religion         : Unitarianism and Transcendentalism
+    destination-religion    : Catholicism
+    date                    : 1844-10-19
+    ritual                  : baptism
+    citation                : ANB
+    notes                   : >
+      Brownson studied after his conversion with a Sulpician priest.
+
+source          :
+-   @carey_orestes_2004
+-   American National Biography
+
+comments        : >
+  This is a minimal example of what a model of a convert might look 
+  like. The historical data is hastily gathered, so only the model is 
+  of interest here.
+
+  N.B. I would like to replace the citations with BibTeX keys.
+...
+{% endhighlight %}
 
 I had to prove to myself that I could get at the data programmatically, so I
 wrote the Ruby script below. It's just a proof-of-concept, and it's the
@@ -88,22 +146,106 @@ hash. The class has a few methods to display the names of the converts
 and a list of all the conversions. Doubtless there are more interesting
 things that can be done. 
 
-{% gist 2580742 converts.rb %}
+{% highlight ruby %}
+#!/usr/bin/env ruby
+# A proof-of-concept script that outputs some simple data from YAML 
+# files modeling conversions
+#
+# Author:: Lincoln Mullen (lincoln@lincolnmullen.com)
+
+require 'yaml' 
+
+# This class loads data from YAML files, and outputs some values
+
+class Converts
+
+  attr_accessor :files, :data
+
+  def initialize (files = nil, data = nil)
+    @files = files
+    @data = Hash.new
+
+    if @files.nil?
+      puts "You didn't pass me any files."
+    elsif @files.respond_to?("each")
+      # walk through the array of files, creating a hash with the 
+      # file name as the key and the file data as the value
+      @files.each do |file|
+        @data[file] = YAML.load_file( file )
+      end
+    end
+  end
+
+  # output the hash we can see what we're working with
+  def display_raw
+    puts "\nThis is the raw data we have loaded:"
+    p( @data )
+  end
+
+  # walk through the hash, outputting the names of each person
+  def display_names
+    puts "\nThese people converted:"
+    @data.each_key do |key|
+      puts " - #{@data[key]["name-first"]} #{@data[key]["name-last"]}"
+    end
+  end
+
+  # walk through the hash, outputting the names and conversions of 
+  # each person
+  def display_conversions
+    puts "\nWe know about these conversions:"
+    @data.each_key do |key|
+      puts " - #{@data[key]["name-first"]} #{@data[key]["name-last"]}:"
+      # each person has an array of conversions (even if there is 
+      # only one conversion)
+      @data[key]["conversions"].each { |conversion|
+        puts "     + From #{conversion["origin-religion"]} to #{conversion["destination-religion"]} by #{conversion["ritual"]} in #{conversion["date"]}."
+      }
+    end
+  end
+
+end
+
+# get sample data by loading every YAML file in the directory
+puts "Let's load all the YAML files in this directory:"
+puts Dir.glob( '*.yml').join(', ')
+c = Converts.new(Dir.glob('*.yml'))
+
+# call the methods to display the names and conversions
+c.display_names
+c.display_conversions
+{% endhighlight %}
 
 If you run the script on the sample YAML files, you get the output
 below. (Yes---the script does output in [Markdown][].
 I only know one trick.)
 
-{% gist 2580742 output.txt %}
+{% highlight bash %}
+Let's load all the YAML files in this directory:
+brownson-orestes.yml, wharton-charles.yml
 
-## What's next?
+These people converted:
+ - Charles Wharton
+ - Orestes Augustus Brownson
+
+We know about these conversions:
+ - Charles Wharton:
+     + From Catholicism to Church of England by conformity in .
+ - Orestes Augustus Brownson:
+     + From Congregationalism to Presbyterianism by church membership in 1822.
+     + From Presbyterianism to Universalism by ordination in 1826.
+     + From Universalism to Unitarianism by further research in .
+     + From Unitarianism and Transcendentalism to Catholicism by baptism in 1844-10-19.
+{% endhighlight %}
+
+#### What's next?
 
 If this model works for modeling conversions, it should also work for
 modeling other kinds of historical events. For example, suppose a labor
 historian is researching strikes and kept a YAML file for each strike
 ...
 
-{% highlight yaml %}
+{% highlight yaml  %}
 id:	Pullman strike
 location: Pullman, Illinois
 date: 1894-05-11
@@ -131,7 +273,7 @@ accounts:
 
 and another for each union ...
 
-{% highlight yaml %}
+{% highlight yaml  %}
 union: American Railway Union
 leaders:	
 	-	name: Eugene V. Debs

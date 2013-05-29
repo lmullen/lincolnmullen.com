@@ -66,6 +66,6 @@ crucial questions facing our democracy. I hope this course will be a
 small contribution to helping the students and myself think through the
 question.
 
-  [syllabus]: http://lincolnmullen.com/docs/religious-pluralism.syllabus.2012-fall.pdf
+  [syllabus]: http://lincolnmullen.com/downloads/docs/religious-pluralism.syllabus.2012-fall.pdf
   [course website]: http://lincolnmullen.com/courses/uws/
   [primary sources]: http://lincolnmullen.com/courses/uws/schedule/

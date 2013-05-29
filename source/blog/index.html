@@ -7,7 +7,7 @@ title: All Blog Posts
   <ul class="posts">
     {% for post in site.posts reverse %}
     <li>
-      <time datetime="{{ post.date | date_to_xmlschema }}" pubdate data-updated="true">
+      <time datetime="{{ post.date | date_to_xmlschema }}">
         {{ post.date | date_to_string }}
       </time> 
       <i class="icon-dot-3"></i>

@@ -73,35 +73,18 @@ body {
     color: lighten($body-font-color, 40);
   }
   .time {
-    float:right;
+    // float:right;
     text-align: right;
   }
 }
 
 ul.leaders {
   padding: 0;
-  overflow-x: hidden;
-  list-style: none
+  list-style: none;
 }
-ul.leaders li:before {
-  float: left;
-  width: 0;
-  white-space: nowrap;
-  content:
-  ". . . . . . . . . . . . . . . . . . . . "
-  ". . . . . . . . . . . . . . . . . . . . "
-  ". . . . . . . . . . . . . . . . . . . . "
-  ". . . . . . . . . . . . . . . . . . . . "
-  ". . . . . . . . . . . . . . . . . . . . "
-}
-ul.leaders span:first-child {
-  padding-right: 0.33em;
-  background: white
-}
-ul.leaders span + span {
-  float: right;
-  padding-left: 0.33em;
-  background: white
+
+ul.leaders span:first-child:after {
+  content: leader(dotted);
 }
 
 // Footer

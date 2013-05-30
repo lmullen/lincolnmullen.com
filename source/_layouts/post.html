@@ -11,7 +11,7 @@ layout: default
       </h3>
       <p class="meta">
         <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date_to_string }}
+          {{ page.date | date: "%B %e, %Y" }}
         </time>
       </p>
     </header>

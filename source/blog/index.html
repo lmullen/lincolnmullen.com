@@ -4,16 +4,19 @@ title: All Blog Posts
 ---
 
 <div id="blog-archives">
-  <ul class="posts">
+  <ul class="posts leaders">
     {% for post in site.posts reverse %}
     <li>
-      <time datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date_to_string }}
-      </time> 
-      <i class="icon-dot-3"></i>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
+      <span>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </span>
+      <span class="time">
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%B %e, %Y" }}
+        </time>
+      </span>
     </li>
     {% endfor %}
   </ul>

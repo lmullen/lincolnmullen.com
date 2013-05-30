@@ -30,7 +30,7 @@ nor did it prescribe the "mode of 'trine immersion'" in its prayer book.
 Why then did Walworth take pains to be baptized in an unusual way, and
 what did it mean?[^1]
 
-{% img center /postimg/2013-05-13-walworth.png %}
+{% img center /downloads/post/2013-05-13-walworth.png %}
 
 <!--more-->
 
@@ -60,7 +60,7 @@ Protestant mind." But once persuaded, this new doctrine was "the
 entering wedge of a new faith, far broader and deeper than any I then
 conceived of as possible."[^2]
 
-{% img center /postimg/2013-05-13-walworth-2.png %}
+{% img center /downloads/post/2013-05-13-walworth-2.png %}
 
 Baptism was a recurring topic of debate in the seminary, and Walworth
 thought about it often. Professors were split between high church, low
@@ -81,13 +81,13 @@ come." Carey, presiding over the meeting, defined those Protestants as
 In time Walworth was persuaded that his previous baptism was invalid, and
 asked Rector Caleb Clapp to rectify the deficiency with the waters of the Hudson River and Atlantic Ocean. At stake was his membership in the true church and the forgiveness of his sins. In later years Walworth, after he and McMaster had converted to Catholicism as a concerned aunt and a fellow seminarian had predicted he would, he learned what the better-read McMaster and Carey likely already knew: the Roman Catholic Church recognized his Presbyterian baptism as perfectly valid. The Council of Trent held that even baptism by heretics was valid, provided that it was done "in the name of the Father, and of the Son, and of the Holy Ghost, with the intention of doing what the Church does."[^4] That theology, however, was Walworth's reflection in 1895, after five decades in the Roman Catholic church. In 1843, Walworth sought catholicity but had not yet found it in communion with the Bishop of Rome.[^5]
 
-{% img center /postimg/2013-05-13-walworth-3.png %}
+{% img center /downloads/post/2013-05-13-walworth-3.png %}
 
 The twenty-three-year-old confused catholicity with a kind of Christian pluralism, which he thought his baptismal rite and certificate guaranteed. The rite was designed to appeal to every possible Christian opinion of baptism. Catholics could not gainsay the baptism "on the ground of a want of intention on the part of the minister, since Mr. Clapp was a firm believer in the necessity of baptism, and would not administer it thoughtlessly." Episcopalians could not object to Clapp's credentials, since he was in holy orders from the Episcopal Church and not a layman. Baptists had could not object that Walworth was "an infant and so incapable" of receiving baptism. Baptists and the Greek orthodox church had to admit that the mode of baptism was valid, "since the method of trine immersion was carefully used." [^6]
 
 In terms of theology, Walworth's second baptism was incontrovertible. Yet it was controversy rather than any coherent theology that motivated the curious rite. In seeking his salvation and membership in the true church, Walworth thought he had to please his Presbyterian parents, his Protestant aunt who brought him on trips to the American Bible Society, his skeptical and scoffing uncle, his Tractarian-leaning fellow seminarians, the judicious divines of his Episcopal church, the charge of excommunication from the papacy, and even the rites of the "schismatic Greeks" whom he likely knew only from his books. As he moved from Protestant indifferentism to the hothouse of the General Theological Seminary caught up in the Oxford Movement and eventually to Rome, Walworth was an example of a broader trend of people caught up in growing religious pluralism: sometimes the need to change one's religion, but always the need to justify one's religion to oneself and to family, friends, and the world.
 
-{% img center /postimg/2013-05-13-walworth-4.png %}
+{% img center /downloads/post/2013-05-13-walworth-4.png %}
 
 [^1]: Clarence Walworth, *[The Oxford Movement in America; or, Glimpses of Life in an Anglican Seminary](http://books.google.com/books?id=6Y9HAAAAYAAJ&dq=clarence+walworth+oxford+movement+in+america&source=gbs_navlinks_s)* (New York: Catholic Book Exchange, 1895), 31. Most Christian denominations recoil from re-baptism. If there is any question about someone's baptism, Episcopalians and Catholics perform a conditional baptism. Though trine baptism was an ancient practice, it was unusual in the modern church. The rubrics of the 1789 American *Book of Common Prayer*, as revised in 1841, state, "Then shall the minister take each person to be baptized by the right hand; and placing him conveniently by the Font, according to his discretion, ... then shall dip him in the water, or pour water upon him." *The Book of Common Prayer and Administration of the Sacraments and Other Rites and Ceremonies of the Church: According to the Use of the Protestant Episcopal Church in the United States of America* (New York: H. & S. Raynor, 1842), 166. The first prayer book of Edward VI prescribed trine baptism, but the requirement was left out of all subsequent prayer books. The American prayer book did contain rubrics for conditional baptism.
 

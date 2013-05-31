@@ -34,7 +34,7 @@ randomization function selects between characters 205 and 206. Then the
 `GOTO 10` command returns to the beginning of the line and runs the
 command in an endless loop. The output of the program is diagonal maze.
 
-{% img center /postimg/2013-03-16.10PRINT-1.png %}
+{% img center /downloads/post/2013-03-16.10PRINT-1.png %}
 
 As part of the demonstration, Patsy and Nick brought two Commodore 64s
 for the audience to try. That was fun: I'd never played with a
@@ -130,7 +130,7 @@ produce the right output.
 
 This is the output of solutions 1 through 3:
 
-{% img center /postimg/2013-03-16.10PRINT-2.png %}
+{% img center /downloads/post/2013-03-16.10PRINT-2.png %}
 
 ### Solution 2
 
@@ -185,7 +185,7 @@ set of the Commodore 64. The output looks much better:
   [U+2571]: http://www.fileformat.info/info/unicode/char/2571/index.htm
   [U+2572]: http://www.fileformat.info/info/unicode/char/2572/index.htm
 
-{% img center /postimg/2013-03-16.10PRINT-3.png %}
+{% img center /downloads/post/2013-03-16.10PRINT-3.png %}
 
 ### Solution 5
 

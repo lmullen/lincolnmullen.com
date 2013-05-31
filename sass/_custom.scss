@@ -73,18 +73,13 @@ body {
     color: lighten($body-font-color, 40);
   }
   .time {
-    // float:right;
+    float:right;
     text-align: right;
   }
-}
-
-ul.leaders {
-  padding: 0;
-  list-style: none;
-}
-
-ul.leaders span:first-child:after {
-  content: leader(dotted);
+  li {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
 }
 
 // Footer

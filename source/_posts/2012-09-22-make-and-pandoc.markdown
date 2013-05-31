@@ -11,6 +11,9 @@ tags:
 - Markdown
 ---
 
+**Update May 30, 2013:** I now do the same thing in [Rake instead of
+Make][].
+
 I write all my documents in [Markdown][] and pipe them through
 [Pandoc][] to make PDFs. Typing `pandoc myfile.md -o myfile.md.pdf` over
 and over at the command line gets tedious, especially if the [Pandoc][]
@@ -104,3 +107,5 @@ the Markdown file instead of doing something with the PDF.
 [introduction]: http://www.cprogramming.com/tutorial/makefiles.html
 [class]: http://lincolnmullen.com/courses/uws/
 [Gist]: https://gist.github.com/3767386
+[Rake instead of Make]: /blog/rake-and-pandoc/
+

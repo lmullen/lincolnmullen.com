@@ -41,6 +41,8 @@ built and maintain
 -   [*Journal of Southern Religion* website][10]
 -   [GitHub repository][10]
 
+<!--
+
 #### Catalog Search Plugin for Omeka
 
 A plugin for [Omeka](http://omeka.org) that that uses the subject field 
@@ -91,6 +93,8 @@ My Unix/Linux/Mac OS X configuration files, mostly for ZSH, Vim, iTerm2,
 Git, Ruby, and R
 
 -   [GitHub repository][7]
+
+-->
 
   [1]: https://github.com/lmullen/jekyll-ebook
   [2]: https://github.com/lmullen/bibkeys

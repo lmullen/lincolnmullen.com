@@ -7,6 +7,5 @@ group :development do
   gem 'modular-scale'
   gem 'sassy-math'
   gem 'pandoc-ruby'
+  gem 's3_website'
 end
-
-gem 'sinatra', '~> 1.4.2'

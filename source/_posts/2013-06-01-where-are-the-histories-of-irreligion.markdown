@@ -9,6 +9,10 @@ categories:
 
 *[This post originally appeared at [Religion in American History][].]*
 
+  [Religion in American History]: 
+
+{% img center /downloads/post/2013-06-01-owen-campbell-debate.png %}
+
 Robert Owen and Alexander Campbell squared off against one another in a
 public debate on April 13 and April 21, 1829. The debate packed out a
 Methodist meeting house in Cincinnati, where the European traveler

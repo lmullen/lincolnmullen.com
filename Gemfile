@@ -8,4 +8,5 @@ group :development do
   gem 'sassy-math'
   gem 'pandoc-ruby'
   gem 's3_website'
+  gem 'stringex'
 end

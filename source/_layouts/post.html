@@ -35,7 +35,7 @@ layout: default
     </ul>
   </div>
   <div class="eight columns">
-    <p>Or read these posts on the similar topics ...</p>
+    <p>Or read these posts on similar topics ...</p>
     <ul class="disc">
       {% for post in site.related_posts limit:2 offset:1 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>

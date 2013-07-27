@@ -22,7 +22,7 @@ markdown: pandoc
 pandoc:
   extensions:
     - smart
-
+lsi: true
 pygments: true
 
 # Google Analytics

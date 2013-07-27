@@ -3,14 +3,15 @@ require "stringex"
 # Concept borrowed from Octopress:
 # https://github.com/imathis/octopress/blob/master/Rakefile
 desc "New draft post"
-task :new_draft, :title do |t, args|
-  if args.title
-    title = args.title
-  else
-    title = get_stdin("What is the title of your post? ")
-  end
+task :new_draft do |t|
 
-  filename = "source/_drafts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+  branch   = get_stdin("What is the name of the branch? ").to_url
+  title    = get_stdin("What is the title of your post? ")
+  filename = "source/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+
+  puts "Checking out a new draft branch: draft/#{branch}"
+  `git checkout -b draft/#{branch}`
+
   puts "Creating new draft: #{filename}" 
   open(filename, "w") do |post|
     post.puts "---"
@@ -20,6 +21,7 @@ task :new_draft, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
+
 end
 
 def get_stdin(message)

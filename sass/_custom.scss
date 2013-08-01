@@ -4,7 +4,7 @@
 // Links
 p a:link {
   text-decoration: none;
-  border-bottom: 1px dotted $body-link-color; 
+  border-bottom: 1px dotted $body-link-color;
 }
 
 #researching p a:link {
@@ -68,7 +68,7 @@ body {
 
 // Archives list
 
-#blog-archives { 
+#blog-archives {
   time {
     color: lighten($body-font-color, 40);
   }
@@ -250,4 +250,12 @@ blockquote {
     color: $body-font-color;
     line-height: $base-line-height;
   }
+}
+
+article  #post ul {
+  list-style-type: square;
+}
+
+td, th {
+  padding: 0 10px 0 10px;
 }

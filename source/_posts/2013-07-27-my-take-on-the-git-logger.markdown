@@ -10,7 +10,7 @@ categories:
 
 Almost all the work that I do on my computer that is worth doing goes through a Git repository. My Git commits are therefore a useful indication of what I've accomplished each day, except they are scattered across many directories.
 
-When I saw that [Brett Terpstra](http://brettterpstra.com/) created [a script to make a log]() of all his Git commits, I saw the solution to my problem. Terpstra has an implementation that scans a list of repositories once per day, filters certain kinds of commits, and exports them in different kinds of formats. That's more power than I needed, so I wrote my own script. The main difference is that where Terpstra's script is run by cron once per day and goes out to fetch commits, my script is run after every commit and pushes the information to the log. 
+When I saw that [Brett Terpstra](http://brettterpstra.com/) created [a script to make a log](http://brettterpstra.com/2012/05/21/git-logger-revisited/) of all his Git commits, I saw the solution to my problem. Terpstra has an implementation that scans a list of repositories once per day, filters certain kinds of commits, and exports them in different kinds of formats. That's more power than I needed, so I wrote my own script. The main difference is that where Terpstra's script is run by cron once per day and goes out to fetch commits, my script is run after every commit and pushes the information to the log. 
 
 The script is run using the magic of Git hooks, in this case, post-commit. Any script named `post-commit` in the `.git/hooks` directory will be called after each commit.
 

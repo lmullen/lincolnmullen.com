@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "Quantifying the American Tract Society: Using Library Catalog Data for Historical Research"
-date: 2013-07-26 19:33
+date: 2013-08-01 7:00
 categories:
 - digital humanities
 - history
 - research
 - Ruby
 - R
+- American Tract Society
+- archives
+- libraries
 ---
 
 *[This post originally appeared at [Religion in American History][].]*

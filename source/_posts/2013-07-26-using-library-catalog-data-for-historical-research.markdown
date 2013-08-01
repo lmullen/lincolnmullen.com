@@ -2,7 +2,7 @@
 layout: post
 title: "Quantifying the American Tract Society: Using Library Catalog Data for Historical Research"
 date: 2013-07-26 19:33
-categories: 
+categories:
 - digital humanities
 - history
 - research
@@ -10,7 +10,11 @@ categories:
 - R
 ---
 
-Since the American Antiquarian Society was generous to offer me a fellowship this summer, I took a month to research in the AAS's wonderful collections. A fair bit of my time was spent reading through the nearly complete print run of American Tract Society pamphlets from the early to mid nineteenth century. I wanted to answer a question: did the ATS pamphlets include "the sinner's prayer," a common feature of twentieth century evangelical tracts? If it did, when did the genre develop? I think I have an answer to that question: yes, the ATS did contribute to the development of the genre of the sinner's prayer. More on what I found another time, both here on the blog and in chapter two of the dissertation.
+*[This post originally appeared at [Religion in American History][].]*
+
+  [Religion in American History]: http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html
+
+The [American Antiquarian Society](http://www.americanantiquarian.org/) was generous enough to offer me a fellowship this summer, so I took a month to research in the [AAS's wonderful collections](http://usreligion.blogspot.com/2013/06/know-your-archives-american-antiquarian.html). A fair bit of my time was spent reading through the nearly complete print run of American Tract Society pamphlets from the early to mid-nineteenth century. I wanted to answer a question: did the ATS pamphlets include "the sinner's prayer," a common feature of twentieth century evangelical tracts? If it did, when did the genre develop? I think I have an answer to that question: yes, the ATS did contribute to the development of the genre of the sinner's prayer. More on what I found another time, both here on the blog and in chapter two of the dissertation.
 
 Answering that question required a sense of how the ATS tracts were distributed over time, but reading each pamphlets was a poor way to get that sense. Down in the weeds of the pamphlets---most of which sounded alike---it was hard to see how the pamphlets were distributed over time. And whatever patterns I could discern were likely to be unreliable: I was, after all, looking for a particular pattern and was thus at risk of committing a classic historians' fallacy. What I needed was an external way of looking at the texts to supplement my close reading.
 
@@ -28,13 +32,15 @@ I made a series of visualizations about various questions using Ruby and R. I'll
 
 3.  I used an [R script][] to analyze the data.
 
+The kind of analysis that I'm writing about here is not an argument itself, but a step along the way to an argument. Nor do I mean to imply that there is some kind of "scientific" value in this analysis. Take this for what it is: a behind-the-scenes musing about methodology.
+
 ### Dates
 
 One of my questions was when the ATS published its tracts. This is a histogram of the tracts by date.
 
 {% img center /downloads/post/ats-pub-date.png %}
 
-The American Tract Society was founded in 1825 from the merger of the New-York Religious Tract Society and the Boston-based American Tract Society (formerly, the New England Religious Tract Society). The chart shows that the ATS quickly ramped up the publication of tracts in its first five years. Many of these early pamphlets were reprints from British tract societies, such as the Religious Tract Society of London founded in 1799. As was the case with most evangelical institutions from this period, the British had a head start, and evangelicalism was an Anglophone movement with debts to German, French, and Swiss. The ATS republished works from proven British authors, such as Legh Richmond and Hannah More. After the early series of tracts, beginning in the 1830s, the ATS published more its own original tracts.
+The American Tract Society was founded in 1825 from the merger of the New-York Religious Tract Society and the Boston-based American Tract Society (formerly, the New England Religious Tract Society). The chart shows that the ATS quickly ramped up the publication of tracts in its first five years. Many of these early pamphlets were reprints from British tract societies, such as the Religious Tract Society of London founded in 1799. As was the case with most evangelical institutions from this period, the British had a head start, and evangelicalism was an Anglophone movement with debts to German, French, and Swiss Protestants. The ATS republished works from proven British authors, such as Legh Richmond and Hannah More. After the early series of tracts, beginning in the 1830s, the ATS published more of its own original tracts.
 
 The above chart shows the earliest possible date that a given tract was published. But the ATS republished these tracts in many editions throughout the nineteenth century. The point is that the ATS publications tended to be first published in the decade between 1825 and 1835---exactly the period when Charles Finney was most active in New York. But unlike Finney, these tracts kept getting the message out for the entirety of the nineteenth century. (The ATS is [still publishing][] today.) And though much of Finney's powerful presentation came from being in his presence, and sitting on his anxious bench, the ATS tracts were carried across the country by colporteurs to places like the pine barrens of New Jersey which the government could barely reach.
 
@@ -60,7 +66,7 @@ There is one topic which I found to be ubiquitous in reading the tracts, but whi
 
 ### Length
 
-Anyone who is familiar with the contemporary evangelical tracts would be surprised at long the ATS tracts are. Where a contemporary tract might be six or eight very small pages with several illustrations, the ATS tracts average sixteen pages of closely printed type and were commonly thirty-two pages long. Besides the main tract that comprised the body, the tracts usually had a paper wrapped which had supplementary materials or another tract in its own right. Bill Bright's well-known tract from the 1960s, *Do You Know the Four Spiritual Laws*, could fit on the wrapper of one of these hefty ATS tracts.
+Anyone who is familiar with the contemporary evangelical tracts would be surprised at long the ATS tracts are. Where a contemporary tract might be six or eight very small pages with several illustrations, the ATS tracts average sixteen pages of closely printed type and were commonly thirty-two pages long. Besides the main tract that comprised the body, the tracts usually had a paper wrapper which had supplementary materials or another tract in its own right. Bill Bright's well-known tract from the 1960s, *Do You Know the Four Spiritual Laws*, could fit on the wrapper of one of these hefty ATS tracts.
 
 Since I am making an argument about how the normative experience of conversion became simplified, I wondered whether the tracts got shorter over time. They did not.
 
@@ -91,7 +97,7 @@ We can get a sense of who wrote the ATS tracts by looking at most frequently pub
   13     Clark, Daniel A.       1840   5
   14     Malan, Cesar           1864   5
 
-The chart and the table show that most of the authors lived in the nineteenth century contemporaneous with the ATS. This chart does not include anonymous tracts, most of which were from the nineteenth-century. Yet the ATS also reprinted works from Puritan divines or English Nonconformists such as John Flavel, John Owen, and Richard Baxter, and also revivalists and evangelicals like theologian Jonathan Edwards, hymn writer Isaac Watts, and most frequently the Nonconformist pastor Phillipp Doddridge.
+The chart and the table show that most of the authors lived in the nineteenth century contemporaneous with the ATS. This chart does not include anonymous tracts, most of which were from the nineteenth century. Yet the ATS also reprinted works from Puritan divines or English Nonconformists such as John Flavel, John Owen, and Richard Baxter, and also revivalists and evangelicals like theologian Jonathan Edwards, hymn writer Isaac Watts, and most frequently the Nonconformist pastor Phillipp Doddridge.
 
 In excerpting and re-framing these works of earlier generations, the ATS was remaking an old tradition into a new tradition. The history of the ATS publications is thus a story of long continuity in an evangelical tradition of heart religion and vital piety, centered on conversion, being gradually remade---sometimes intentionally but often through subtle shifts in the meanings of words and drifting in the substance of doctrine or practice---into a new forms of conversion.
 
@@ -99,7 +105,7 @@ Here's to my unsung collaborators: the diligent catalogers at the American Antiq
 
 [^1]: I used the death date since there is necessarily quite a few years between one's birth and the time one is publishing.
 
-[^2]: The prominence of Isaac Watts is a bit misleading, because he is listed as an author on tracts that contain his hymns, though he might not always be the primary author. But on the other hand, the frequency with which his hymns appear, probably understated in the catalog, is itself a sign of influence. 
+[^2]: The prominence of Isaac Watts is a bit misleading, because he is listed as an author on tracts that contain his hymns, though he might not always be the primary author. But on the other hand, the frequency with which his hymns appear, probably understated in the catalog, is itself a sign of influence.
 
   [how to date]: http://americanantiquarian.org/ATS.htm
   [ambitious project]: http://www.stg.brown.edu/projects/mapping-genres/

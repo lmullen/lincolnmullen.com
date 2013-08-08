@@ -9,4 +9,5 @@ group :development do
   gem 'pandoc-ruby'
   gem 's3_website'
   gem 'stringex'
+  gem 'rake'
 end

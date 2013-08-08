@@ -1,7 +1,6 @@
+require "rake/clean"
 require "stringex"
 
-# Concept borrowed from Octopress:
-# https://github.com/imathis/octopress/blob/master/Rakefile
 desc "New draft post"
 task :new_draft do |t|
 
@@ -24,7 +23,35 @@ task :new_draft do |t|
 
 end
 
+desc "Preview the site with Jekyll and Compass"
+task :preview do
+
+  puts "Previewing the site locally with Jekyll and Compass."
+
+  system "compass compile"
+  jekyllPid  = Process.spawn("jekyll serve --watch")
+  compassPid = Process.spawn("compass watch")
+
+  trap("INT") {
+    [jekyllPid, compassPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+    exit 0
+  }
+
+  [jekyllPid, compassPid].each { |pid| Process.wait(pid) }
+
+end
+
+desc "Push the site to the development server"
+task :push do
+  puts "Building the site then pushing it to Amazon S3"
+  system "compass compile"
+  system "jekyll build"
+  system "s3_website push"
+end
+
 def get_stdin(message)
   print message
   STDIN.gets.chomp
 end
+
+CLOBBER.include('public/*')

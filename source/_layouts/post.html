@@ -10,9 +10,9 @@ layout: default
         </a>
       </h3>
       <p class="meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date: "%B %e, %Y" }}
-        </time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %e, %Y" }}
+      </time>
       </p>
     </header>
     <div id="post">
@@ -20,27 +20,10 @@ layout: default
     </div>
   </article>
 </div>
-<div class="row">
-  <div class="twelve columns">
-    <hr/>
-    <h4><small>Did you like this post? Want to talk about it?</small></h4>
-  </div>
+<div class="row" id="discussion">
+  {% include discussion.html %}
 </div>
-<div class="row">
-  <div class="four columns">
-    <p>Then please feel free to ...</p>
-    <ul>
-      <li><i class="icon-mail"></i> <a href="mailto:lincoln@lincolnmullen.com">e-mail me</a> or</li>
-      <li><i class="icon-twitter"></i> <a href="https://twitter.com/lincolnmullen">ping me on Twitter</a>.</li>
-    </ul>
-  </div>
-  <div class="eight columns">
-    <p>Or read these posts on similar topics ...</p>
-    <ul class="disc">
-      {% for post in site.related_posts limit:2 offset:1 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="row" id="comments">
+  {% include disqus.html %}
 </div>
 

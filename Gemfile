@@ -10,4 +10,5 @@ group :development do
   gem 's3_website'
   gem 'stringex'
   gem 'rake'
+  gem 'atom-tools'
 end

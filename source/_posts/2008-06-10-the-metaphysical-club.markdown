@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Review of <em>The Metaphysical Club</em>"
 categories:
-- book reviews
+- book-reviews
 tags:
 - reviews
 - pragmatism

@@ -3,7 +3,8 @@ layout: post
 title: "Maps of Catholic Dioceses in the US, Canada, and Mexico"
 date: 2013-06-16 22:48
 categories: 
-- demographics of religion
+- demographics-of-religion
+- R-language
 ---
 
 It's well known among American religious historians that the first Catholic diocese in the United States was

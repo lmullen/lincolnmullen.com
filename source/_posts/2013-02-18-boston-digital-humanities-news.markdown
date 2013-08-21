@@ -4,7 +4,7 @@ title: "Boston Digital Humanities News"
 date: 2013-02-18 11:07
 comments: true
 categories: 
-- digital humanities
+- digital-humanities
 - link
 tag:
 - digital humanities

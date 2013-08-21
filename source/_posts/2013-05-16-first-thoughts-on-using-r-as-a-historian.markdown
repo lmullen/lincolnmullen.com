@@ -6,15 +6,15 @@ comments: true
 sidebar: collapse
 categories: 
 - research
-- digital humanities
-- demographics of religion
+- digital-humanities
+- demographics-of-religion
 - history
+- R-language
 tags:
 - research
 - digital humanities
 - demographics of religion
 - history
-- R language
 - statistical programming
 ---
 

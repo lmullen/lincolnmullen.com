@@ -5,7 +5,7 @@ date: 2013-07-01 7:00
 categories: 
 - HNN
 - guest posts
-- digital humanities
+- digital-humanities
 - THATCamp
 ---
 

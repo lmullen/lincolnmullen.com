@@ -3,10 +3,10 @@ layout: post
 title: "Shapefiles of Historic U.S. State Boundaries for Use in R"
 date: 2013-08-20 22:21
 categories: 
-- R language
+- R-language
 - GIS
-- spatial humanities
-- digital humanities
+- spatial-humanities
+- digital-humanities
 - history
 ---
 

@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    atom-tools (2.0.5)
     aws-sdk (1.8.5)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
@@ -70,6 +71,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  atom-tools
   compass
   jekyll
   modular-scale

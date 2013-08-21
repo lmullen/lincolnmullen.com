@@ -50,7 +50,7 @@ process the files, you can download the already converted boundary data:
 -   [historic-state-boundaries.zip][] (500 MB)
 
 The NHGIS has kindly granted me permission to share these converted 
-files, but if you use them, please be sure to [cite][] the NHGIS.  
+files, but if you use them, please be sure to [cite][] the NHGIS. 
 (Please cite me too!) The NHGIS has also asked that you not redistribute 
 these converted files yourself, but instead point people here or to 
 their own site. This is the citation you can use for the NHGIS:

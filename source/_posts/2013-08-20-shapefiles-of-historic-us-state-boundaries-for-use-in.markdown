@@ -47,13 +47,13 @@ since this is non-trivial both in terms of the required dependencies
 (see the script's documentation) and in the amount of time it takes to
 process the files, you can download the already converted boundary data:
 
--   [historic-state-boundaries.zip][] (524 MB)
+-   [historic-state-boundaries.zip][] (500 MB)
 
-The NHGIS has kindly granted me permission to share these converted
-files, but if you use them, please be sure to [cite][] the NHGIS with
-the form below. (Please cite me too!) The NHGIS has also asked that you
-not redistribute these converted files yourself, but instead point
-people here:
+The NHGIS has kindly granted me permission to share these converted 
+files, but if you use them, please be sure to [cite][] the NHGIS.  
+(Please cite me too!) The NHGIS has also asked that you not redistribute 
+these converted files yourself, but instead point people here or to 
+their own site. This is the citation you can use for the NHGIS:
 
 > Minnesota Population Center. National Historical Geographic
 > Information System: Version 2.0. Minneapolis, MN: University of
@@ -92,7 +92,7 @@ the data in the first place.
   [cite]: https://www.nhgis.org/research/citation
   [R.utils]: http://cran.r-project.org/web/packages/R.utils/index.html
   [the R language]: http://www.r-project.org/
-  [historic-state-boundaries.zip]: https://dl.dropboxusercontent.com/u/1125028/historic-state-boundaries.zip
+  [historic-state-boundaries.zip]: https://www.dropbox.com/s/xu0bug1x7hgm5h1/historic-state-boundaries.zip
   [ggmap]: https://sites.google.com/site/davidkahle/ggmap
   [ggplot2]: http://ggplot2.org/
   [maps of Catholic dioceses]: http://lincolnmullen.com/blog/mapping-catholic-dioceses-over-time/

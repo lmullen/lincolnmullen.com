@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some Thoughts on Getting Started with Ubuntu Linux"
-date: YYYY-MM-DD 12:00
+date: 2013-08-21 9:00
 comments: true
 categories: 
 - ProfHacker
@@ -11,8 +11,6 @@ categories:
 ---
 
 *[This post originally appeared at [ProfHacker][].]*
-
-  [ProfHacker]: 
 
 About a month ago, I came to the sad realization that my six-year-old
 white plastic MacBook was not going to see me to the end of my
@@ -66,12 +64,10 @@ get started with Linux and point you to some new possibilities in the
 world of Linux. If you work the way that I do, and if you're curious
 about Linux, maybe the posts will be of use to you.
 
-**Are there any ProfHacker readers who use Linux? What got you started
-with Linux?**
-
 \* There are other reasons to try Linux, [explained by Amy][], such as
 its ability to run on older hardware and its ability to be customized.
 
+  [ProfHacker]: http://chronicle.com/blogs/profhacker/some-thoughts-on-getting-started-with-ubuntu-linux/51663
   [new Mac Pros]: http://www.apple.com/mac-pro/
   [ThinkPad T430]: https://www.amazon.com/dp/B00BFFAWHK/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00BFFAWHK&adid=1G67D7FAXT0YD88RCA5S&
   [Vim]: http://www.vim.org/

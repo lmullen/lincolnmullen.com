@@ -45,7 +45,7 @@ desc "Push the site to the development server"
 task :push do
   puts "Building the site then pushing it to Amazon S3"
   system "compass compile"
-  system "jekyll build"
+  system "jekyll build --lsi"
   system "s3_website push"
 end
 

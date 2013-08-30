@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Learning How to Teach History in a Digital Age"
-date: 2013-08-23 10:56
+date: 2013-08-30 10:56
 categories: 
 - ProfHacker
 - teaching
 - history
 - pedagogy
 ---
+
+*[This post originally appeared at [ProfHacker][].]*
 
 You only have to read a few of Mills Kelly's posts at his blog
 [Edwired][] to pick up on his overarching argument: historians should
@@ -107,12 +109,11 @@ that comes out in this book. And while you're gaining experience in
 teaching, this book is a good way to borrow some experience for
 yourself.
 
-**How are you teaching in a digital age? Have you read Kelly's book?**
-
 \* The book is available in [hardcover and e-book][] from the University
 of Michigan Press, and also in a free Creative Commons licensed [web
 version][].
 
+  [ProfHacker]: http://chronicle.com/blogs/profhacker/learning-how-to-teach-history-in-a-digital-age/51875
   [Edwired]: http://edwired.org/
   [Teaching History in the Digital Age]: http://www.digitalculture.org/books/teaching-history-in-the-digital-age/
   [thinking]: http://quod.lib.umich.edu/d/dh/12146032.0001.001/1:5/--teaching-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1

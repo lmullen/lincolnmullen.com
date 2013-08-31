@@ -42,7 +42,7 @@ task :preview do
 end
 
 desc "Push the site to the development server"
-task :push do
+task :push => [:cv] do
   puts "Building the site then pushing it to Amazon S3"
   system "compass compile"
   system "jekyll build --lsi"
@@ -55,3 +55,10 @@ def get_stdin(message)
 end
 
 CLOBBER.include('public/*')
+
+desc "Copy CV"
+task :cv do
+  puts "Copying the CV"
+  FileUtils.cp("/home/lmullen/acad/cv/Mullen-cv.pdf", 
+               "./source/downloads/docs/Mullen-cv.pdf")
+end

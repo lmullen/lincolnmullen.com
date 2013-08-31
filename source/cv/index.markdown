@@ -6,7 +6,7 @@ title: "Curriculum Vitae"
 <i class="icon-doc-text"></i> [Download this CV as a PDF][] | <i 
 class="icon-level-down"></i> [Full text of publications][]
 
-<object data='http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf#page=1&view=FitH' 
+<iframe src='http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf#page=1&view=FitH' 
         id="cv-embed"
         type='application/pdf' 
         width='100%' 
@@ -15,7 +15,7 @@ class="icon-level-down"></i> [Full text of publications][]
 It appears that your browser does not have a PDF plugin. Click the link
 above to download the PDF of the CV.
 </p>
-</object>
+</iframe>
 
 ### Full Text of Publications
 

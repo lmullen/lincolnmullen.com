@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Curriculum Vitae"
+title: "CV for Lincoln A. Mullen"
 ---
 
 <i class="icon-doc-text"></i> [Download this CV as a PDF][] | <i 
@@ -90,11 +90,11 @@ South Carolina Historical Association* (March 2010): 79--90. [PDF][14]
   [2]: http://jestudies.yale.edu/index.php/journal/issue/view/19/showToc
   [3]: /downloads/docs/mullen.wolcott-narrative.pdf
   [4]: /blog/theology-of-religious-change/
-  [5]: /downloads/docs/reviewzehnder.pdf
+  [5]: /downloads/docs/review-Zehnder.pdf
   [6]: http://jsr.fsu.edu/issues/vol13/mullen.html
   [7]: /downloads/docs/reviewmay.pdf
   [8]: /downloads/docs/reviewgardiners.pdf
-  [9]: docs/reviewdailylives.pdf
+  [9]: /downloads/docs/reviewdailylives.pdf
   [10]: /downloads/docs/reviewinthebeginning.pdf
   [11]: /blog/scholarship-in-plain-text/
   [12]: /downloads/docs/mullen.does-the-soul-have-a-history.pdf

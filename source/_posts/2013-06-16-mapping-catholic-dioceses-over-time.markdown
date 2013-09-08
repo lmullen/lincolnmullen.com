@@ -5,17 +5,20 @@ date: 2013-06-16 22:48
 categories: 
 - demographics-of-religion
 - R-language
+- history
 ---
 
-It's well known among American religious historians that the first Catholic diocese in the United States was
-the diocese of Baltimore, erected in 1789 under Bishop John Carroll.
-What I didn't know was how Catholic dioceses spread across the United
-States, and how U.S. dioceses related to Canadian and Mexican dioceses.
-So I gathered data on Catholic dioceses in the [United States][],
-[Canada][], and [Mexico][], and [mapped][] their spread across North
-America over time. Below are maps of 356 North American dioceses by
-decade, with brief comments on the nineteenth-century maps about what
-they reveal about U.S. Catholicism.
+**Update:** I've made better maps of these dioceses in [this post][].
+
+It's well known among American religious historians that the first
+Catholic diocese in the United States was the diocese of Baltimore,
+erected in 1789 under Bishop John Carroll. What I didn't know was how
+Catholic dioceses spread across the United States, and how U.S. dioceses
+related to Canadian and Mexican dioceses. So I gathered data on Catholic
+dioceses in the [United States][], [Canada][], and [Mexico][], and
+[mapped][] their spread across North America over time. Below are maps
+of 356 North American dioceses by decade, with brief comments on the
+nineteenth-century maps about what they reveal about U.S. Catholicism.
 
 A few general comments: A map of Catholic dioceses is not, of course, a
 map of Catholics. The institution lags behind people. Nevertheless, I
@@ -144,6 +147,7 @@ the Great Lakes.
 
 {% img center /downloads/demographics/map.catholic.dioceses.2010.png %}
 
+  [this post]: /blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/
   [United States]: https://github.com/lmullen/demographics-religion/blob/master/data/catholic.dioceses.us.csv
   [Canada]: https://github.com/lmullen/demographics-religion/blob/master/data/catholic.dioceses.canada.csv
   [Mexico]: https://github.com/lmullen/demographics-religion/blob/master/data/catholic.dioceses.mexico.csv

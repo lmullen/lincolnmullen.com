@@ -87,7 +87,7 @@ the data in the first place.
 
   [code]: https://github.com/lmullen/demographics-religion/blob/master/shapefiles.demo.R
   [National Historical Geographic Information System]: https://www.nhgis.org/
-  [R script to convert these shapefiles]: https://github.com/lmullen/demographics-religion/blob/master/historic.shapefiles.R
+  [R script to convert these shapefiles]: https://github.com/lmullen/demographics-religion/blob/master/historic.shapefiles.r
   [historical demography]: https://github.com/lmullen/demographics-religion/
   [cite]: https://www.nhgis.org/research/citation
   [R.utils]: http://cran.r-project.org/web/packages/R.utils/index.html

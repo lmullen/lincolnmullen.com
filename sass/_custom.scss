@@ -40,7 +40,7 @@ body {
 
 #researching h5 {
   font-weight: bold;
-  font-size: 1rem;
+  // font-size: 1rem;
   a {
     // color: $header-font-color;
   }
@@ -53,6 +53,7 @@ body {
 #publishing h4,
 #coding h4 {
   margin-top: -6px;
+  font-size: 1.6rem;
 }
 
 .below-the-fold {
@@ -119,7 +120,7 @@ code {
   // background-color: #eef;
   padding: 0 .2em;
   font-family: $monospace-font;
-  font-size: 0.93rem;
+  font-size: 0.8rem;
 }
 
 pre code {
@@ -269,4 +270,8 @@ td, th {
   border-style: solid;
   border-width: 1px;
   border-color: #333;
+}
+
+li {
+  font-size: 1.125rem;
 }

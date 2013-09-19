@@ -1,4 +1,4 @@
-// Welcome to Gumby 2.0 Settings.
+// Welcome to Gumby 2.0 Settinas.
 // Happy Tinkering!
 
 
@@ -18,7 +18,7 @@ $max-device-width: 2880px;
 $nav-distance: 0px;
 
 // Typography
-$font-family: "Open Sans";
+$font-family: "PT Serif", serif;
 $font-style-italic: italic;
 $icons: entypo;
 $font-smoothing: subpixel-antialiased;
@@ -48,7 +48,7 @@ $rhythm-height: .711;
 // http//www.modularscale.com by Tim Brown
 // https//github.com/scottkellum/modular-scale
 $ratio: $golden !default;
-$base-font-size: 16px !default;
+$base-font-size: 18px !default;
 $importantNum: 78px !default;
 $base-size: $base-font-size $importantNum;
 

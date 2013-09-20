@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quantifying the American Tract Society: Using Library Catalog Data for Historical Research"
+title: "Quantifying the ATS: Using Library Catalog Data for Historical Research"
 date: 2013-08-01 7:00
 categories:
 - digital-humanities

@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Upcoming Course: Nineteenth-Century American Religion: A Digital History 
-Seminar"
+title: "Nineteenth-Century American Religion: A Digital History Seminar"
 date: 2013-03-08 10:38
 comments: true
 categories: 

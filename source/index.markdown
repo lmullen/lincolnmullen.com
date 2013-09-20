@@ -10,10 +10,13 @@ the nineteenth century.
 My [dissertation][] is a history of conversion between religions in the
 nineteenth-century United States. My [curriculum vitae][] has my
 publications, talks, and workshops, usually in full text. My
-[research][] is made public in databases and other digital projects. I
-[teach classes][] on American religious history, the nineteenth century,
-and digital humanities. I'm a regular contributor at at [Religion in
-American History][] and [ProfHacker][].
+[research][] is made public in databases and other digital projects.
+Along with Erin Bartram, I've created the [American Converts
+Database][], and I'm working on a project on the [historical
+demographics of American religion][]. I [teach classes][] on American
+religious history, the nineteenth century, and digital humanities. I'm a
+regular contributor at at [Religion in American History][] and
+[ProfHacker][].
 
 On this site I write an academic blog about history, religion, and
 digital humanities, which also aggregates my writings elsewhere. Here is
@@ -35,6 +38,8 @@ You can write to me at <lincoln@lincolnmullen.com> or find me on
   [dissertation]: /research/#dissertation
   [curriculum vitae]: /cv/
   [research]: /research/
+  [American Converts Database]: http://americanconverts.org
+  [historical demographics of American religion]: https://github.com/lmullen/demographics-religion
   [teach classes]: /teaching/
   [Religion in American History]: http://usreligion.blogspot.com/
   [ProfHacker]: http://chronicle.com/blogs/profhacker/

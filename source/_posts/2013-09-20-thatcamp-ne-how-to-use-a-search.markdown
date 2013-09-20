@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "THATCamp NE: How to Use a Database for Historical Research"
+title: "THATCamp NE Workshop: How to Use a Database for Historical Research"
 date: 2013-09-20 15:43
 categories: 
 - history

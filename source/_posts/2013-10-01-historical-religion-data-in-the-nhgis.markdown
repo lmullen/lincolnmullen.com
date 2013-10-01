@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Historical Religion Data in the NHGIS"
+title: "Historical Religion Data in the NHGIS and What You Can Do with It" 
 date: 2013-10-01 09:12
 categories: 
 - religion
@@ -30,8 +30,8 @@ census. By the time he wrote, the 1850 and 1860 census had gathered some
 data about churches, though not about their membership. (Rameur
 dismissed this data, but historians can't afford to be so
 discriminating.) Gaustad and Barlow summarize what is available in the
-census for their note on the sources for their standard work, *The New
-Historical Atlas of American Religion*:
+census for their note on the sources for their standard work, *[The New
+Historical Atlas of American Religion][]*:
 
 > Although the U.S. Census began in 1790, compilation of religious data
 > did not begin until 1850. From 1850 to 1880, the government gathered
@@ -198,6 +198,7 @@ approach appeals to you, then the NHGIS census data is a good place to
 start.
 
   [The Progress of the Church in the United States]: http://quod.lib.umich.edu/m/moajrnl/bac8387.0001.001/5:3?rgn=full+text;view=image
+  [The New Historical Atlas of American Religion]: https://www.amazon.com/dp/B0044KMUNC/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=B0044KMUNC&adid=1VWHJBJNDXA101GHTNYP&
   [National Historical Geographic Information System]: https://www.nhgis.org/
   [other useful data]: http://www.ipums.org/
   [like R]: http://www.r-project.org/

@@ -22,13 +22,16 @@ On this site I write an academic blog about history, religion, and
 digital humanities, which also aggregates my writings elsewhere. Here is
 a list of [all of my posts][], and these are the most recent:
 
-<ul class="posts">
+<ul id="posts">
 {% for post in site.posts limit: 5 %}
 <li>
 <a href="{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endfor %}
 </ul>
+
+Much of my research is supported or augmented by coding projects, which 
+are listed on the [research page][research].
 
 You can write to me at <lincoln@lincolnmullen.com> or find me on
 [GitHub][] or [Twitter][].

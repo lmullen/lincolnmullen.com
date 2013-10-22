@@ -1,11 +1,13 @@
 ---
 layout: page
-title: "Research and Projects"
+title: Research and Projects
 ---
 
-#### Dissertation Abstract
+**** 
 
-**The Varieties of Religious Conversion: The Origins of Religious Choice 
+##### Dissertation Abstract
+
+**The Varieties of Religious Conversion: The Origins of Religious Choice
 in the United States**
 
 In the nineteenth-century United States, people converted between
@@ -69,107 +71,130 @@ dissertation thus argues that a variety of religions and a constellation
 of ideas---punctuality, the gift, freedom, sincerity, catholicity,
 infidelity---shaped the American idea of religion.
 
+* * * * *
+
 #### American Converts Database
 
 <div class="noline">
-[{% img project /downloads/post/project-convertsdb.png %}][9]
+
+[{% img project /downloads/post/project-convertsdb.png %}][]
+
 </div>
 
 A database of Americans who experienced religious conversions, broadly
 defined. Produced in collaboration with other historians of American
 religion.
 
--   [American Converts database][9]
+-   [American Converts database][{% img project /downloads/post/project-convertsdb.png %}]
+
+* * * * *
 
 #### Historical Demographics of American Religion
 
 <div class="noline">
-[{% img project /downloads/post/project-demographics.png %}][8]
+
+[{% img project /downloads/post/project-demographics.png %}][]
+
 </div>
 
 Data and R scripts to track the historical demographics of American
 religion from primary sources
 
--   [Blog posts about the project][12]
--   [GitHub repository][8]
+-   [Blog posts about the project][]
+-   [GitHub repository][{% img project /downloads/post/project-demographics.png %}]
+
+* * * * *
 
 #### Journal of Southern Religion
 
 <div class="noline">
-[{% img project /downloads/post/project-jsr.png "JSR" %}][10]
+
+[{% img project /downloads/post/project-jsr.png "JSR" %}][]
+
 </div>
 
 The open-access online *Journal of Southern Religion*, whose website I
 built and maintain
 
--   [*Journal of Southern Religion* website][10]
--   [GitHub repository][10]
+-   [*Journal of Southern Religion* website][{% img project /downloads/post/project-jsr.png "JSR" %}]
+-   [GitHub repository][{% img project /downloads/post/project-jsr.png "JSR" %}]
 
-<!--
+* * * * *
 
-#### Catalog Search Plugin for Omeka
+#### Coding
 
-A plugin for [Omeka](http://omeka.org) that that uses the subject field 
-in an Omeka item to generate links to searches in catalogs, such as 
-Archive Grid and the Library of Congress
+Much of my research is supported by coding or software analysis, in
+support of which I have written the following software. All of my
+code-based projects can be found at <a 
+href="https://github.com/lmullen?tab=repositories">GitHub</a>.
 
--   [Download from Omeka](http://omeka.org/add-ons/plugins/catalog-search/)
--   [GitHub repository][13]
--   [Blog post about the plugin](http://lincolnmullen.com/blog/catalog-search-plugin-for-omeka-released/)
+  
+<ul>
+<li>
+<a href="https://github.com/lmullen/omeka_client"> Omeka Client </a> — a
+Ruby gem that provides a REST client for the Omeka API, to access Omeka
+sites programmatically.
+(<a href="https://github.com/lmullen/omeka_client">GitHub</a> |
+<a href="https://rubygems.org/gems/omeka_client">RubyGems</a>)
+</li>
+  
+<li>
+<a href="https://github.com/lmullen/plugin-CatalogSearch"> Catalog
+Search Plugin </a> — a plugin that links Omeka to searches in catalogs
+such as Archive Grid and the Library of Congress.
+(<a href="https://github.com/lmullen/plugin-CatalogSearch">GitHub</a> |
+<a href="http://omeka.org/add-ons/plugins/catalog-search/">Omeka
+Plugins</a>)
+</li>
+  
+<li>
+<a href="https://github.com/lmullen/jekyll-ebook"> Jekyll E-book </a> —
+a Ruby gem to create EPUB e-books from Jekyll posts and pages using
+Pandoc.
+</li>
+  
+<li>
+<a href="https://github.com/lmullen/bibkeys"> Bibkeys </a> — a Ruby gem
+to list all the citation keys in a BibTeX file.
+</li>
+  
+<li>
+<a href="https://github.com/lmullen/plugin-HonorThyContributors"> Honor
+Thy Contributors Plugin </a> — a plugin to give credit to your
+contributors on an Omeka site.
+</li>
+  
+<li>
+<a href="https://github.com/lmullen/plugin-AddItem"> Add Item Plugin
+</a> — a simple Omeka plugin that adds an "add item" link to the admin
+bars.
+</li>
+  
+<li>
+<a href="https://github.com/lmullen/historybib"> History Bibliography
+</a> — a BibTeX database of citations in religious history and American
+history.
+</li>
 
-#### Jekyll E-book
+<li>
+<a href="https://github.com/lmullen/academic-article-latex"> Academic
+Article LaTeX Class </a> — a LaTeX class suitable for academic articles
+in the humanities.
+</li>
 
-A Ruby gem to create EPUB e-books from Jekyll posts and pages using
-Pandoc
+<li>
+<a href="https://github.com/lmullen/acadpaper"> Academic Paper LaTeX
+Class </a> — a LaTeX class suitable for classroom papers.
+</li>
 
--   [GitHub repository][1]
--   [Ruby Gems][11]
+<li>
+<a href="https://github.com/lmullen/dotfiles"> Dotfiles </a> — my
+Unix/Linux/Mac OS X configuration files, mostly for ZSH, Vim, Git, Ruby,
+and R.
+</li>
+</ul>
 
-#### Bibkeys
-
-A Ruby gem to list all the citation keys in a BibTeX file
-
--   [GitHub repository][2]
--   [Ruby Gems][3]
-
-#### History Bibliography
-
-A BibTeX database of citations in religious history and American history
-
--   [GitHub repository][4]
-
-#### Academic Article LaTeX Class
-
-An academic article LaTeX class
-
--   [GitHub repository][5]
-
-#### Academic Paper LaTeX Class
-
-A LaTeX class that extends the article class and does some formatting to
-make the article format more suitable for classroom papers
-
--   [GitHub repository][6]
-
-#### Dotfiles
-
-My Unix/Linux/Mac OS X configuration files, mostly for ZSH, Vim, iTerm2,
-Git, Ruby, and R
-
--   [GitHub repository][7]
-
--->
-
-  [1]: https://github.com/lmullen/jekyll-ebook
-  [2]: https://github.com/lmullen/bibkeys
-  [3]: http://rubygems.org/gems/bibkeys
-  [4]: https://github.com/lmullen/historybib
-  [5]: https://github.com/lmullen/academic-article-latex
-  [6]: https://github.com/lmullen/acadpaper
-  [7]: https://github.com/lmullen/dotfiles
-  [8]: https://github.com/lmullen/demographics-religion
-  [9]: http://americanconverts.org
-  [10]: https://github.com/lmullen/jsr
-  [11]: http://rubygems.org/gems/jekyll-ebook
-  [12]: http://lincolnmullen.com/blog/categories/demographics-of-religion/
-  [13]: https://github.com/lmullen/plugin-CatalogSearch
+  [{% img project /downloads/post/project-convertsdb.png %}]: http://americanconverts.org
+  [{% img project /downloads/post/project-demographics.png %}]: https://github.com/lmullen/demographics-religion
+  [Blog posts about the project]: http://lincolnmullen.com/blog/categories/demographics-of-religion/
+  [{% img project /downloads/post/project-jsr.png "JSR" %}]: https://github.com/lmullen/jsr

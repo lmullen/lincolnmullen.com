@@ -8,7 +8,10 @@ categories:
 - GIS
 - mapping
 - demography
+- RinAH
 ---
+
+*[This post originally appeared at [Religion in American History][].]*
 
 In 1865, the French observer of American Catholicism E. Rameur opened
 the inaugural issue of the *Catholic World* with an article on "[The
@@ -197,6 +200,7 @@ not typically been the province of religious historians. If that kind of
 approach appeals to you, then the NHGIS census data is a good place to
 start.
 
+  [Religion in American History]: http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html
   [The Progress of the Church in the United States]: http://quod.lib.umich.edu/m/moajrnl/bac8387.0001.001/5:3?rgn=full+text;view=image
   [The New Historical Atlas of American Religion]: https://www.amazon.com/dp/B0044KMUNC/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=B0044KMUNC&adid=1VWHJBJNDXA101GHTNYP&
   [National Historical Geographic Information System]: https://www.nhgis.org/

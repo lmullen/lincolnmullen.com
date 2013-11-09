@@ -100,7 +100,6 @@ religion.
 Data and R scripts to track the historical demographics of American
 religion from primary sources
 
--   [Blog posts about the project][]
 -   [GitHub repository][{% img project /downloads/post/project-demographics.png %}]
 
 * * * * *
@@ -196,5 +195,4 @@ and R.
 
   [{% img project /downloads/post/project-convertsdb.png %}]: http://americanconverts.org
   [{% img project /downloads/post/project-demographics.png %}]: https://github.com/lmullen/demographics-religion
-  [Blog posts about the project]: http://lincolnmullen.com/blog/categories/demographics-of-religion/
   [{% img project /downloads/post/project-jsr.png "JSR" %}]: https://github.com/lmullen/jsr

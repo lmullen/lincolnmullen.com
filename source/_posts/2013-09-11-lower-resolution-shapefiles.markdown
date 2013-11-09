@@ -47,7 +47,7 @@ states_1790 <- loadObject("path/to/us.state.1790.Rdata")
 
   [posted some shapefiles]: http://lincolnmullen.com/blog/shapefiles-of-historic-us-state-boundaries-for-use-in/
   [Ramer-Douglas-Peucker Algorithm]: http://karthaus.nl/rdp/
-  [Low-resolution shapefiles]: /downloads/demographics/historic.states.low-res.zip
+  [Low-resolution shapefiles]: https://dl.dropboxusercontent.com/u/1125028/historic.states.low-res.zip
   [High resolution shapefiles]: https://www.dropbox.com/s/xu0bug1x7hgm5h1/historic-state-boundaries.zip
   [Code to generate the shapefiles]: https://github.com/lmullen/demographics-religion/blob/master/historic.shapefiles.r
   [R.utils]: http://cran.r-project.org/web/packages/R.utils/index.html

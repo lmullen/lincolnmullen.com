@@ -2,10 +2,12 @@
 categories:
 - reviews
 - Religion in American History
-date: '2013-11-30 16:48'
+date: '2013-12-01 16:48'
 layout: post
 title: From the Rivers of Water to the River of Dark Dreams
 ---
+
+*[This post originally appeared at [Religion in American History][].]*
 
 As Erskine Clarke begins his most [recent book][], Paul, a slave, looks
 from a rice plantation across the Savannah River to the busy docks of
@@ -100,6 +102,7 @@ with the history of capitalism cover the twentieth century. It remains
 for religious historians of the nineteenth century to account more fully
 for the pervasive influence of American capitalism.
 
+  [Religion in American History]: http://usreligion.blogspot.com/2013/12/from-rivers-of-water-to-river-of-dark.html
   [recent book]: https://www.amazon.com/dp/0465002722/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=0465002722&adid=1Q8CTK31XEYMHJTSCGWZ&
   [Dwelling Place]: https://www.amazon.com/dp/030012256X/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=030012256X&adid=1KA9NXH5H0M262ZCE5W4&
   [River of Dark Dreams: Slavery and Empire in the Cotton Kingdom]: https://www.amazon.com/dp/0674045556/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=0674045556&adid=1G01AVDVJZSPQZG3SND2&

@@ -44,12 +44,22 @@ the longuee duree element). American Christianities, by Gilip and {FACT}
 also has a longish period, though it is comprised of a number of shorter
 elements.
 
+Andrew Prestons's Sword of the Spirit, Shield of Faith. Lutheran guy's 
+book on violence.
+
 This is part of a larger need, which I've been arguing for a long time,
 that what American religious history needs is synthesis. That's a topic
 perhaps I'll have to return to in a another statement. Briefly put, I
 think there are so many different kinds of religion that get treated on
 their own, and these must be brought together as historians have been
 calling for since the 1997s books.
+
+I think that religion is particularly suited to the longue duree 
+approach because the topic matter is less inherently bound to states, 
+and because the change of pace can be slower. In my case, I don't know 
+how the progress of time could be any shorter, given that tracing out 
+one life, let alone hundreds, consumes many decades. 
+
 
 That's why American religious history too often lapses into a
 simplisitic argument that American religion was "diverse," with no
@@ -91,3 +101,11 @@ see moving in the field?
 
 \*\* In the long run, though, I think that it will be people who can
 combine the archive with broad reading who are going to do best.
+
+Is there anything in American religious history that can be said to be 
+the longue duree? 
+
+"As we shall see, a generation with limited
+prospects on the job market increasingly defined itself by its mastery 
+of discrete archives." My sense as well. Now we need scholars who can 
+demonstrate mastery over a wide swathe of material. 

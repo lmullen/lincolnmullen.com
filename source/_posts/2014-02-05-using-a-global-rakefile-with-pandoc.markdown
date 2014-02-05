@@ -38,14 +38,13 @@ require "rake/clean"
 CLOBBER.include(PDFS)
 {% endhighlight %}
 
-Now in each directory you should be able to run `rake pandoc` to 
-generate a PDF from each Markdown file. (You may need to use the `-g` 
-flag to access the global Rakefile.) You can customize the shell command 
-if you have more complicated needs, or you can create a project-specific 
-Rakefile if the project is more complicated. For important projects you 
-should definitely include a Rakefile in the repository, since the 
-Rakefile is record of how to reproduce your outputs. But for simple 
-projects this is sufficient.
+Now in each directory you should be able to run `rake -g pandoc` to 
+generate a PDF from each Markdown file. You can customize the shell 
+command if you have more complicated needs, or you can create a 
+project-specific Rakefile if the project is more complicated. For 
+important projects you should definitely include a Rakefile in the 
+repository, since the Rakefile records how to reproduce your outputs.  
+But for simple projects this is sufficient.
 
   [how to use Rake to automate the process of building PDFs using
   Pandoc]: http://lincolnmullen.com/blog/rake-and-pandoc/

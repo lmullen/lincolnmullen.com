@@ -1,8 +1,17 @@
 ---
-date: '2014-02-05 11:03'
+date: '2014-02-05 15:03'
 layout: post
 title: 'Ghostery on Your Machine: Stop Sites from Tracking You'
-...
+comments: true
+categories: 
+- ProfHacker
+tags: 
+- ProfHacker
+---
+
+*[This is a preview of a post that will appear at [ProfHacker][] next
+week. I've been on a long ProfHacker hiatus to write other things, but
+Internet privacy is sufficiently important to me to make an exception.]*
 
 Suppose that you visited the website of the *[New York Times][]* this
 morning. If you were me, then you likely skimmed past ads for
@@ -47,9 +56,12 @@ most do not.
 You need something more powerful: a tool where you make the decisions
 rather than the website. I suggest you try [Ghostery][].
 
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/EKzyifAvC_U?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 [Ghostery][] is a plugin for Chrome, Firefox, Safari, Internet Explorer
 and Opera, which you can install from its website. (See the introductory
-video below.) Ghostery keeps a database of all the methods of tracking
+video above.) Ghostery keeps a database of all the methods of tracking
 people on the Internet. The database is up to 1840 trackers so far. When
 you visit a website, the plugin pops up a small, unobtrusive window that
 tells you how which trackers are active on a site. For example, at the
@@ -78,8 +90,6 @@ desirable (perhaps the comments on this page) then its easy to re-enable
 them on a case by case basis. At least you'll be making an informed
 decision.
 
-<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/EKzyifAvC_U?rel=0" frameborder="0" allowfullscreen></iframe>
-
 Ironically, Ghostery makes money by selling information about web
 trackers to businesses. You can opt-in to sharing the data that the
 plugin gathers about trackers on websites. Ghostery promises that this
@@ -92,6 +102,7 @@ fine grained control over which websites track you and how.\*
 
 \* *N.B.* Ghostery does not protect you from NSA tracking.
 
+  [ProfHacker]: http://chronicle.com/blogs/profhacker/
   [New York Times]: http://nytimes.com
   [Panopticlick]: https://panopticlick.eff.org
   [set up your browser to use "do not track" here]: http://donottrack.us/

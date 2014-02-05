@@ -46,7 +46,7 @@ task :push => [:cv] do
   puts "Building the site then pushing it to Amazon S3"
   system "compass compile"
   system "jekyll build"
-  system "s3_website push"
+  system "s3_website push --site public"
 end
 
 def get_stdin(message)

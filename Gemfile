@@ -7,7 +7,7 @@ group :development do
   gem 'modular-scale'
   gem 'sassy-math'
   gem 'pandoc-ruby'
-  gem 's3_website'
+  gem 's3_website', '~> 1.6.7'
   gem 'stringex'
   gem 'rake'
   gem 'atom-tools'

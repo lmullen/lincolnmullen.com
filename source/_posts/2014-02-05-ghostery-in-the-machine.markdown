@@ -85,8 +85,8 @@ library auto-updating," so that the list of trackers is kept up-to-date.
 Then I would "select all" of the trackers, which will disable all of
 them. And on the options page I would check "Block new elements by
 default," which will make any new tracker disabled by default. If you
-notice that Ghostery breaks something on web page that you find
-desirable (perhaps the comments on this page) then its easy to re-enable
+notice that Ghostery breaks something on a web page that you find
+desirable (perhaps the comments on this page) then it's easy to re-enable
 them on a case by case basis. At least you'll be making an informed
 decision.
 

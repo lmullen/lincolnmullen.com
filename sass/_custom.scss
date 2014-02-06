@@ -108,23 +108,24 @@ hr {
 
 // Code
 pre {
-  border-left: 30px solid #111;
-  line-height: 1.45em;
-  margin-bottom: 2em;
-  padding: .8em 1em;
-  overflow: auto;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: .5em;
+  margin: 16px;
 }
 
 code {
   border: 1px solid #ddd;
-  // background-color: #eef;
+  background-color: #eef;
   padding: 0 .2em;
   font-family: $monospace-font;
-  font-size: 0.8rem;
+  font-size: .85em;
+  line-height: .85em;
 }
 
 pre code {
   border: none;
+  background-color: #eef;
 }
 
 p {
@@ -134,7 +135,6 @@ p {
     -ms-border-radius: .4em;
     -o-border-radius: .4em;
     border-radius: .4em;
-    background-color: #fcfcfc;
     a:link {
       border-bottom: none;
     }

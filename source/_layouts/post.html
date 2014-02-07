@@ -19,5 +19,11 @@ layout: default
       {{ content }}
     </div>
   </article>
+  <div class="row" id="discussion">
+    {% include discussion.html %}
+  </div>
+  <div class="row" id="comments">
+    {% include disqus.html %}
+  </div>
 </div>
 

@@ -276,3 +276,21 @@ td, th {
 li {
   font-size: 1.125rem;
 }
+
+th {
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+thead {
+  border-bottom: 2px solid #889;
+}
+
+tr {
+  border-bottom: 1px solid #aaa;
+}
+
+td {
+  padding: 5px 20px;
+}
+

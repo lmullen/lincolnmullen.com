@@ -28,13 +28,13 @@ many ways the changes in a department or university might be more
 interesting, and they certainly would seem to have a more immediate
 causal effect on dissertation authors.
 
-Here are charts of all the universities with more than 50
-dissertations in the data set. (See below for caveats.) What surprised
-me is that the trend for many departments tracks closely to the
-profession as a whole. Northwestern, for example, is almost an exact match.  
-Can we say, contrary to my initial hypothesis, that intellectual and 
-job-market trends have a bigger influence on the length of dissertations 
-than departments and universities?
+Here are charts of all the universities with more than 50 dissertations 
+in the data set. (See below for caveats.) What surprised me is that the 
+trend for many departments tracks closely to the profession as a whole. 
+Northwestern, for example, is almost an exact match. Can we say, 
+contrary to my initial hypothesis, that intellectual and job-market 
+trends have a bigger influence on the length of dissertations than 
+departments and universities?
 
 There are some universities, though, that diverge sharply from the
 general trend. Brandeis (my own department) was founded relatively

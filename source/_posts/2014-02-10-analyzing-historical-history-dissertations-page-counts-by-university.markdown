@@ -31,7 +31,7 @@ causal effect on dissertation authors.
 Here are charts of all the universities with more than 50
 dissertations in the data set. (See below for caveats.) What surprised
 me is that the trend for many departments tracks closely to the
-profession as a whole. Cornell, for example, is almost an exact match.  
+profession as a whole. Northwestern, for example, is almost an exact match.  
 Can we say, contrary to my initial hypothesis, that intellectual and 
 job-market trends have a bigger influence on the length of dissertations 
 than departments and universities?

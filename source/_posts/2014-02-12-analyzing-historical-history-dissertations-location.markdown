@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analyzing Historical History Dissertations: Location"
-date: 2014-02-12 08:00
+date: 2014-02-12 08:55
 categories: 
 - r-language
 - leaflet-js
@@ -20,14 +20,16 @@ history departments][].  Today, though, I want to look at the locations
 where history dissertations were produced.
 
 Below is a map of the universities that have produced dissertations
-about history. In case the map isn't self-explanatory, the numbers in
-red boxes represent the total number of dissertations produced in a
+about history. Once again, since I'm using the ProQuest data, these are
+dissertations about history, a bigger set than dissertations written in
+history departments. In case the map isn't self-explanatory, the numbers
+in red boxes represent the total number of dissertations produced in a
 geographic area. You can put your mouse over the box to see the
 boundaries of the geographic area. Zooming in or clicking on the box
 will cluster the points into smaller and smaller units. Eventually
-you'll get individual markers for each university. Clicking on those
-markers will tell you the university name and the number of history
-dissertations is has produced.
+you'll get individual markers for each university. Clicking on a marker
+will tell you the university name and the number of history
+dissertations it is has produced.
 
 <style>
 #map {

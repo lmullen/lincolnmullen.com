@@ -1,0 +1,464 @@
+"","university","count","lon","lat"
+"1","Columbia University.",3271,-73.9625727,40.8075355
+"2","The University of Wisconsin - Madison.",2418,-89.4124875,43.076592
+"3","University of California, Berkeley.",2281,-122.2505629,37.8739132
+"4","Yale University.",2211,-72.9223431,41.3163244
+"5","University of California, Los Angeles.",2162,-118.4451812,34.068921
+"6","New York University.",2118,-73.9964609,40.7295134
+"7","Harvard University.",2060,-71.1166601,42.3770029
+"8","University of Michigan.",1934,-83.7382259,42.2780584
+"9","University of Pennsylvania.",1848,-75.1932137,39.9522188
+"10","The University of Chicago.",1793,-87.5987133,41.7886079
+"11","Princeton University.",1678,-74.6514481,40.3439888
+"12","Indiana University.",1541,-86.5149053,39.1691355
+"13","University of Minnesota.",1483,-93.2277285,44.97399
+"14","Stanford University.",1369,-122.169719,37.4274745
+"15","The University of Texas at Austin.",1315,-97.7327641,30.2806543
+"16","University of Toronto (Canada).",1284,-79.1859984,43.7847122
+"17","The University of North Carolina at Chapel Hill.",1263,-79.0469134,35.9049122
+"18","University of Virginia.",1219,-78.5079772,38.0335529
+"19","The Ohio State University.",1208,-83.0310846,40.0138423
+"20","Duke University.",1079,-78.9382286,36.0014258
+"21","University of Illinois at Urbana-Champaign.",1076,-88.2271615,40.1019523
+"22","The Johns Hopkins University.",1068,-76.6233538,39.3249281
+"23","Cornell University.",993,-76.4735027,42.4534492
+"24","City University of New York.",966,-73.9478026,40.7712656
+"25","Northwestern University.",954,-87.6748758,42.0539102
+"26","University of Washington.",933,-122.3035191,47.6553354
+"27","Rutgers The State University of New Jersey - New Brunswick.",882,-74.4473434,40.5009561
+"28","University of Maryland, College Park.",854,-76.9428679,38.9869367
+"29","The University of Iowa.",785,-91.5548998,41.6626963
+"30","University of California, Santa Barbara.",779,-119.848947,34.4139629
+"31","University of Pittsburgh.",733,-79.960835,40.4443533
+"32","The Florida State University.",703,-84.2984889,30.4418778
+"33","Emory University.",700,-84.3239795,33.7920794
+"34","Michigan State University.",669,-84.4791506,42.7041949
+"35","University of Kansas.",668,-95.251663,38.9544238
+"36","Brown University.",651,-71.4025625,41.8267175
+"37","Temple University.",614,-75.1546786,39.9820942
+"38","University of Notre Dame.",554,-86.2353067,41.7052193
+"39","Boston University.",544,-71.1073183,42.3507543
+"40","Georgetown University.",532,-77.0722585,38.9076089
+"41","University of Southern California.",510,-118.2851232,34.0223383
+"42","State University of New York at Buffalo.",492,-78.8170273,42.953672
+"43","The Pennsylvania State University.",481,-77.8599084,40.7982133
+"44","University of Missouri - Columbia.",477,-92.3277375,38.9403808
+"45","Brandeis University.",474,-71.258595,42.3654347
+"46","The University of Arizona.",459,-110.9553864,32.2321012
+"47","State University of New York at Binghamton.",457,-75.9669692,42.0888268
+"48","Saint Louis University.",453,-90.2326947,38.6357012
+"49","Vanderbilt University.",444,-86.8027437,36.1443747
+"50","University of California, San Diego.",439,-117.2421885,32.8803981
+"51","Syracuse University.",439,-76.1351158,43.0391534
+"52","The Catholic University of America.",434,-76.998692,38.9368811
+"53","University of Colorado at Boulder.",424,-105.2659419,40.0075811
+"54","University of Florida.",421,-82.346394,29.645264
+"55","The Claremont Graduate University.",417,-117.714337,34.1028769
+"56","McGill University (Canada).",414,-73.5771511,45.5047847
+"57","The University of New Mexico.",409,-106.6197553,35.0843441
+"58","The George Washington University.",393,-77.0474734,38.9007683
+"59","The University of Oklahoma.",387,-97.4457137,35.2058936
+"60","University of Massachusetts Amherst.",384,-72.5265441,42.3910761
+"61","Tulane University.",382,-90.1207279,29.9403477
+"62","University of California, Irvine.",380,-117.8442962,33.6404952
+"63","York University (Canada).",378,-79.5018684,43.7734535
+"64","University of Kentucky.",377,-84.5039697,38.0306511
+"65","University of South Carolina.",377,-81.0274276,33.996112
+"66","University of Rochester.",375,-77.6260033,43.1305531
+"67","State University of New York at Stony Brook.",375,-73.1235863,40.9130959
+"68","University of Connecticut.",363,-72.2539805,41.8077414
+"69","University of Hawai'i at Manoa.",352,-157.8176117,21.2998136
+"70","University of Delaware.",349,-75.7506113,39.6779505
+"71","Boston College.",347,-71.1684945,42.3355488
+"72","University of Oregon.",340,-123.0726062,44.0448303
+"73","Arizona State University.",334,-112.0730317,33.4535269
+"74","Louisiana State University and Agricultural & Mechanical College.",333,-91.1736224,30.4052164
+"75","University of California, Davis.",328,-121.7617125,38.5382322
+"76","Loyola University Chicago.",326,-87.6566204,41.9985666
+"77","The University of Nebraska - Lincoln.",323,-96.6475965,40.838785
+"78","Washington University in St. Louis.",319,-90.3107962,38.6487895
+"79","American University.",316,-77.0908767,38.9368448
+"80","University of Georgia.",309,-83.3773221,33.9480053
+"81","University of California, Riverside.",300,-117.3281109,33.973287
+"82","Case Western Reserve University.",294,-81.6083838,41.5043413
+"83","Texas A&M University.",290,-99.9018131,31.9685988
+"84","Queen's University (Canada).",287,-76.4965691,44.2261474
+"85","Fordham University.",285,-73.885758,40.8616045
+"86","Drew University.",284,-74.4281995,40.7611058
+"87","The University of Utah.",279,-111.8421021,40.7649368
+"88","Kent State University.",253,-81.3414649,41.1490629
+"89","Purdue University.",248,-86.9211946,40.4237054
+"90","Washington State University.",248,-117.154422,46.7319374
+"91","University of Illinois at Chicago.",246,-87.6478309,41.8678673
+"92","Rice University.",245,-95.4018312,29.7173941
+"93","University of Cincinnati.",238,-84.5149504,39.1329219
+"94","Marquette University.",234,-87.9304238,43.0388508
+"95","University of North Texas.",232,-97.1525862,33.207488
+"96","The University of British Columbia (Canada).",230,-123.2539612,49.2669848
+"97","Howard University.",225,-77.0194377,38.9226843
+"98","Ohio University.",225,-82.1014242,39.3243417
+"99","Texas Christian University.",223,-97.3637239,32.7078459
+"100","The University of Tennessee.",216,-83.9294564,35.9544013
+"101","Universite Laval (Canada).",207,-71.2748145,46.7819799
+"102","The University of Alabama.",204,-87.5474349,33.2144445
+"103","Boston University Graduate School.",198,-71.0888609,42.3382852
+"104","The College of William and Mary.",195,-76.7169032,37.2723284
+"105","Graduate Theological Union.",195,-122.2618454,37.8755361
+"106","Bryn Mawr College.",195,-75.3143902,40.0266576
+"107","Southern Illinois University at Carbondale.",194,-89.2521413,37.7770916
+"108","University of California, Santa Cruz.",193,-122.0608718,36.9913856
+"109","University of Denver.",190,-104.9618965,39.6766174
+"110","The Southern Baptist Theological Seminary.",190,-85.6861488,38.2475149
+"111","Bowling Green State University.",186,-83.6300826,41.3797788
+"112","West Virginia University.",183,-79.9559358,39.6361396
+"113","Universite de Montreal (Canada).",182,-73.6137592,45.5056156
+"114","University of Houston.",182,-95.3422334,29.7199489
+"115","State University of New York at Albany.",175,-73.822852,42.686744
+"116","The Union Institute.",170,120.4884928,16.2280926
+"117","Texas Tech University.",170,-101.8782822,33.5842591
+"118","Auburn University.",168,-85.4951663,32.5933574
+"119","University of Ottawa (Canada).",167,-75.6798172,45.4209014
+"120","Northern Illinois University.",166,-88.773718,41.934299
+"121","University of Alberta (Canada).",165,-113.5259951,53.5234543
+"122","Georgia State University.",160,-84.3852819,33.753068
+"123","The University of Mississippi.",158,-89.5384565,34.3647402
+"124","Wayne State University.",156,-83.0665462,42.3591388
+"125","Southwestern Baptist Theological Seminary.",150,-97.3483457,32.6819836
+"126","Miami University.",149,-84.7308768,39.5105334
+"127","The University of Western Ontario (Canada).",140,-81.2737336,43.0095971
+"128","McMaster University (Canada).",137,-79.9192254,43.260879
+"129","The Chinese University of Hong Kong (Hong Kong).",137,114.2077357,22.417282
+"130","Oklahoma State University.",136,-97.0737222,36.1270236
+"131","Carleton University (Canada).",135,-75.6960202,45.3875812
+"132","New School for Social Research.",134,-73.994412,40.735589
+"133","Princeton Theological Seminary.",134,-74.6639375,40.3448966
+"134","University of Miami.",134,-80.2781784,25.7179436
+"135","The University of Maine.",133,-68.6687076,44.897732
+"136","University of Arkansas.",131,-94.1736551,36.0678324
+"137","George Mason University.",129,-77.308037,38.8321941
+"138","Carnegie Mellon University.",127,-79.9425528,40.4424925
+"139","University of New Hampshire.",126,-70.9370252,43.138948
+"140","Mississippi State University.",126,-88.7901613,33.4548567
+"141","St. John's University (New York).",123,-74.0126713,40.7154084
+"142","Baylor University.",123,-97.1184377,31.5482204
+"143","Kansas State University.",118,-96.5847249,39.1974437
+"144","Iowa State University.",116,-93.6464654,42.0266187
+"145","University of Calgary (Canada).",105,-114.1358007,51.0781599
+"146","Clark University.",103,-71.8222312,42.250386
+"147","University of Manitoba (Canada).",101,-97.1366259,49.8075008
+"148","The University of Southern Mississippi.",101,-89.3357393,31.3310077
+"149","The University of Toledo.",100,-83.6126979,41.6621416
+"150","The University of Wisconsin - Milwaukee.",99,-87.8819686,43.078263
+"151","Ball State University.",95,-85.4088412,40.1972366
+"152","Fletcher School of Law and Diplomacy (Tufts University).",94,-71.1216018,42.4077821
+"153","Union Institute and University.",92,-72.5562286,42.8502571
+"154","Concordia University (Canada).",89,-73.6400637,45.4585652
+"155","Simon Fraser University (Canada).",89,-122.9198833,49.2780937
+"156","New School University.",87,-73.994412,40.735589
+"157","Tufts University.",87,-71.1190229,42.4074843
+"158","The University of Texas at Arlington.",86,-97.1183636,32.7284834
+"159","Lehigh University.",86,-75.3782832,40.6069087
+"160","Brigham Young University.",84,-111.6493177,40.2518429
+"161","The University of Memphis.",76,-89.9371249,35.1189522
+"162","Dalhousie University (Canada).",74,-63.5895754,44.6369358
+"163","The University of Texas at Dallas.",72,-96.7459305,32.9843468
+"164","Northern Arizona University.",72,-111.6514545,35.1893974
+"165","Virginia Polytechnic Institute and State University.",65,-80.4234167,37.2283843
+"166","The University of Akron.",65,-81.5102535,41.0763656
+"167","Union Theological Seminary.",63,-73.9618097,40.8114022
+"168","University of Victoria (Canada).",62,-123.3113384,48.4649122
+"169","Southern Methodist University.",60,-96.7845175,32.8412178
+"170","Westminster Theological Seminary.",59,-75.1757473,40.0992319
+"171","University of Idaho.",58,-117.0126084,46.7288124
+"172","Duquesne University.",58,-79.9914615,40.4372706
+"173","Peabody College for Teachers of Vanderbilt University.",57,-86.8027437,36.1443747
+"174","University of Waterloo (Canada).",56,-80.5448576,43.4722854
+"175","Western Michigan University.",55,-85.6152186,42.2831778
+"176","University of Missouri - Kansas City.",55,-94.550378,39.091816
+"177","California Institute of Integral Studies.",52,-122.416178,37.774583
+"178","Regent University.",51,-76.191591,36.7990277
+"179","University of Guelph (Canada).",50,-75.6378949,45.006289
+"180","The Jewish Theological Seminary of America.",50,-73.9606117,40.811899
+"181","Florida International University.",47,-80.376174,25.7581198
+"182","Virginia Commonwealth University.",47,-77.4534286,37.5489872
+"183","University of Nevada, Reno.",47,-119.8191047,39.5467263
+"184","Pacifica Graduate Institute.",47,-119.580987,34.421235
+"185","University of Louisville.",46,-85.7568149,38.2136878
+"186","University of New Brunswick (Canada).",45,-66.6406975,45.9454276
+"187","The University of North Carolina at Greensboro.",44,-79.8057288,36.0663077
+"188","Andrews University.",43,-86.3591598,41.9564842
+"189","Trinity Evangelical Divinity School.",42,-87.8823219,42.1994501
+"190","New Orleans Baptist Theological Seminary.",41,-90.0714607,29.9771475
+"191","Memorial University of Newfoundland (Canada).",40,-52.7329053,47.5737975
+"192","Hebrew Union College - Jewish Institute of Religion (Ohio).",38,-82.907123,40.4172871
+"193","Georgia Institute of Technology.",38,-84.396285,33.7756178
+"194","The University of Saskatchewan (Canada).",37,-106.6236777,52.138997
+"195","Yeshiva University.",36,-73.929274,40.8504757
+"196","Capella University.",36,-93.2685615,44.9761142
+"197","University of St. Michael's College (Canada).",36,-79.3900115,43.6673047
+"198","University of Puerto Rico, Rio Piedras (Puerto Rico).",35,-66.0501373,18.4028067
+"199","Texas Woman's University.",35,-97.1272887,33.2265342
+"200","Northeastern University.",34,-71.0891717,42.3398067
+"201","Oregon State University.",33,-123.2794752,44.5637355
+"202","Indiana University of Pennsylvania.",33,-79.158242,40.6169
+"203","Southeastern Baptist Theological Seminary.",33,-78.514221,35.9803954
+"204","The Iliff School of Theology and University of Denver.",32,-104.9604243,39.6758185
+"205","University of Nevada, Las Vegas.",31,-115.1387236,36.1054711
+"206","University of South Florida.",30,-82.4138539,28.0587031
+"207","Walden University.",30,-93.265738,44.981374
+"208","University of California, San Francisco.",29,-122.4258437,37.7716141
+"209","Rensselaer Polytechnic Institute.",29,-73.6788026,42.730172
+"210","Mid-America Baptist Theological Seminary.",29,-90.0181461,35.1437009
+"211","Colorado State University.",29,-105.0865473,40.573436
+"212","Memphis State University.",29,-90.0489801,35.1495343
+"213","Salve Regina University.",27,-71.3031968,41.4726383
+"214","University of Wyoming.",25,-105.5796706,41.3130972
+"215","University of New Orleans.",25,-90.0633038,30.0306794
+"216","Lutheran School of Theology at Chicago.",23,-87.5989379,41.7955896
+"217","University of Rhode Island.",22,-71.5317118,41.4863755
+"218","Middle Tennessee State University.",22,-86.3593732,35.8467089
+"219","University of Montana.",21,-113.9852081,46.8600672
+"220","Dallas Theological Seminary.",21,-96.7808543,32.7948872
+"221","Universite du Quebec a Montreal (Canada).",20,-73.6137592,45.5056156
+"222","Union Theological Seminary in Virginia.",20,-77.4494636,37.578845
+"223","United States International University.",19,-119.044471,35.370552
+"224","University of Dallas.",19,-96.9194984,32.845549
+"225","The University of Texas at El Paso.",18,-106.506257,31.7741317
+"226","University of Missouri - Saint Louis.",18,-90.1994042,38.6270025
+"227","The University of North Dakota.",18,-97.0768014,47.922891
+"228","Asbury Theological Seminary.",18,-84.6602771,37.8624058
+"229","University of Southwestern Louisiana.",18,-92.0181642,30.2165443
+"230","Hartford Seminary.",17,-72.7076241,41.7699134
+"231","Trinity International University.",17,-87.88075,42.1982366
+"232","New York University, Graduate School of Business Administration.",17,-77.6310361,43.1271566
+"233","Gonzaga University.",17,-117.4028769,47.6672326
+"234","Wilfrid Laurier University (Canada).",16,-80.5281759,43.4742205
+"235","Royal Military College of Canada (Canada).",15,-76.4676064,44.2316723
+"236","Old Dominion University.",15,-76.3043925,36.8860153
+"237","Union Theological Seminary & Presbyterian School of Christian Education.",15,-73.9618097,40.8114022
+"238","Cleveland State University.",15,-81.6743859,41.5027328
+"239","North Carolina State University.",15,-78.6820946,35.7846633
+"240","Florida Atlantic University.",15,-80.1043409,26.3743763
+"241","University of Maryland, Baltimore County.",14,-76.7154264,39.2566151
+"242","University of Rochester, Eastman School of Music.",14,-77.6018376,43.1576156
+"243","University of Melbourne (Australia).",14,144.9620676,-37.79873
+"244","University of Louisiana at Lafayette.",14,-92.0181642,30.2165443
+"245","Hong Kong University of Science and Technology (Hong Kong).",14,114.2654655,22.3363998
+"246","University of Alaska Fairbanks.",14,-147.8231178,64.8570673
+"247","Morgan State University.",14,-76.5845846,39.3435122
+"248","Clemson University.",13,-82.8370896,34.6670459
+"249","Michigan Technological University.",13,-88.5445315,47.1170514
+"250","Luther Seminary.",13,-93.1967735,44.9858877
+"251","Portland State University.",13,-122.6835567,45.5112888
+"252","University of Colorado at Denver.",12,-104.9618559,39.6735789
+"253","Indiana State University.",11,-87.4070911,39.4685335
+"254","Rutgers The State University of New Jersey - Newark.",11,-74.173057,40.740592
+"255","The University of Tulsa.",11,-95.9436367,36.150944
+"256","Universite de Sherbrooke (Canada).",11,-71.9296037,45.3786594
+"257","The Fielding Institute.",11,-119.7174291,34.4292222
+"258","Trent University (Canada).",10,-78.2901596,44.3569495
+"259","California Institute of Technology.",10,-118.125269,34.1376576
+"260","The University of Auckland (New Zealand).",10,174.7691073,-36.8523378
+"261","Utah State University.",10,-111.8097214,41.7451312
+"262","Georgia State University - College of Education.",9,-81.7883372,32.4222893
+"263","The Australian National University (Australia).",9,149.118527,-35.2776999
+"264","University of Dayton.",9,-84.1792421,39.7406624
+"265","The University of Regina (Canada).",9,-104.5870277,50.4182951
+"266","Reformed Theological Seminary.",9,-90.2695136,32.3340899
+"267","Arkansas State University.",8,-90.6766749,35.8383947
+"268","Garrett-Evangelical Theological Seminary.",8,-87.6755502,42.0560686
+"269","Central Michigan University.",8,-84.7751384,43.5912088
+"270","Universidad de Castilla - La Mancha (Spain).",7,-2.1467025,40.0782318
+"271","University of London (United Kingdom).",7,-0.1308206,51.5229378
+"272","Fielding Graduate University.",7,-119.7174291,34.4292222
+"273","East Carolina University.",7,-77.366959,35.607482
+"274","Universite du Quebec a Trois-Rivieres (Canada).",7,-72.5777006,46.3471054
+"275","New Mexico State University.",7,-106.7541649,32.2822923
+"276","University of Sydney (Australia).",7,151.1905601,-33.8899135
+"277","Montana State University.",7,-111.049354,45.667565
+"278","The Wright Institute.",7,-122.2530905,37.8682532
+"279","Wesleyan University.",7,-72.6569041,41.5566104
+"280","Illinois State University.",7,-88.9933141,40.5115787
+"281","University of Cambridge (United Kingdom).",6,0.1149085,52.2042666
+"282","The Dropsie College.",6,-75.1551765,39.9889908
+"283","Universiteit Antwerpen (Belgium).",6,4.4102275,51.2228044
+"284","Sam Houston State University.",6,-95.5502773,30.7130808
+"285","Claremont School of Theology.",6,-117.716081,34.1081
+"286","California School of Professional Psychology - Berkeley/Alameda.",5,-122.2416355,37.7652065
+"287","Golden Gate University.",5,-122.398622,37.789144
+"288","North Dakota State University.",5,-96.7996688,46.8923865
+"289","Cardinal Stritch University.",5,-87.9078448,43.1390113
+"290","Bryn Mawr College, Graduate School of Social Work and Social Research.",5,-75.315854,40.021833
+"291","Brandeis University, The Heller School for Social Policy and Management.",5,-71.2592175,42.3692308
+"292","Graduate Theological Union and University of California, Berkeley.",5,-122.2505629,37.8739132
+"293","Golden Gate Baptist Theological Seminary.",5,-117.8900169,33.9152797
+"294","University of Illinois at Chicago, Health Sciences Center.",5,-87.6297982,41.8781136
+"295","Fuller Theological Seminary, School of Psychology.",4,-118.1394015,34.1492978
+"296","University of St. Andrews (United Kingdom).",4,-2.7927522,56.3416934
+"297","St. Mary's Seminary and University.",4,-76.639092,39.360639
+"298","DePaul University.",4,-87.6272206,41.8776314
+"299","Texas State University - San Marcos.",4,-97.9438451,29.8887885
+"300","Semmelweis Egyetem (Hungary).",4,19.0673266,47.4873553
+"301","Providence College.",4,-71.4346677,41.8438848
+"302","State University of New York College of Environmental Science and Forestry.",4,-76.1369148,43.0344612
+"303","Freie Universitaet Berlin (Germany).",3,13.2896787,52.4525264
+"304","Universitaire Instelling Antwerpen (Belgium).",3,4.4024643,51.2194475
+"305","Monash University (Australia).",3,145.134682,-37.9152113
+"306","University of Birmingham (United Kingdom).",3,-1.9305135,52.4508168
+"307","Columbia University under the Faculty of Union Theological Seminary in the City of New York.",3,-74.0059731,40.7143528
+"308","Villanova University.",3,-75.3373504,40.0349011
+"309","Presbyterian School of Christian Education.",3,-77.449389,37.578907
+"310","University of the West.",3,-87.2215089,30.5453678
+"311","Antioch University.",3,-118.3847289,33.9885601
+"312","Antioch University New England.",3,-72.2939847,42.9320854
+"313","University of Wales, Lampeter (United Kingdom).",3,-4.0758834,52.1132429
+"314","Northcentral University.",3,-112.2861866,34.5989486
+"315","Our Lady of the Lake University.",3,-98.5428357,29.4255949
+"316","La Trobe University (Australia).",3,145.050087,-37.7227742
+"317","East Texas State University.",3,-97.6551322,30.5688616
+"318","Ruprecht-Karls-Universitaet Heidelberg (Germany).",3,8.7085901,49.4107016
+"319","Baltimore Hebrew University.",3,-76.6121893,39.2903848
+"320","University of Nebraska Medical Center.",3,-95.9750247,41.2547389
+"321","School of Intercultural Studies, Biola University.",3,-118.0180414,33.9056131
+"322","Fielding Graduate Institute.",3,-119.7174291,34.4292222
+"323","Alliant International University, San Francisco Bay.",3,-122.409572,37.807747
+"324","University of St. Michael's College Faculty of Theology and University of Toronto (Canada).",3,-79.3831843,43.653226
+"325","University of the Incarnate Word.",3,-98.4662003,29.4667505
+"326","University of Northern Colorado.",3,-104.698087,40.400727
+"327","Marywood University.",3,-75.636663,41.433806
+"328","Ryerson University (Canada).",2,-79.3782333,43.6576889
+"329","Ecole Polytechnique, Montreal (Canada).",2,-73.6137211,45.5047429
+"330","Loyola College in Maryland.",2,-76.820441,39.189212
+"331","Gallaudet University.",2,-76.9923875,38.908422
+"332","University of California, Berkeley with San Francisco State University.",2,-122.4782094,37.721897
+"333","Georgia State University - College of Arts and Sciences.",2,-84.3872418,33.7531334
+"334","University of Aberdeen (United Kingdom).",2,-2.1002589,57.1650429
+"335","Universita degli Studi di Roma 'La Sapienza' (Italy).",2,12.5170112,41.9026683
+"336","Universidade de Sao Paulo (Brazil).",2,-46.7307891,-23.5613991
+"337","The University of Liverpool (United Kingdom).",2,-2.9655722,53.405936
+"338","Ahmadu Bello University (Nigeria).",2,7.6541328,11.1553498
+"339","University of South Dakota.",2,-96.9253068,42.7851754
+"340","The New School.",2,-73.9970482,40.7356153
+"341","Dallas Baptist University.",2,-96.946411,32.7106801
+"342","Illinois Institute of Technology.",2,-87.628465,41.8344196
+"343","Hong Kong Baptist University (Hong Kong).",2,114.1826156,22.334123
+"344","College of Notre Dame of Maryland.",2,-76.620005,39.351329
+"345","Universidad de Huelva (Spain).",2,-6.9431675,37.2590111
+"346","Keio University (Japan).",2,139.7429376,35.6489643
+"347","Kanazawa University (Japan).",2,136.6771907,36.5548876
+"348","Lesley University.",2,-71.1166972,42.3799132
+"349","Tokyo Keizai University (Japan).",2,139.490687,35.699109
+"350","The Claremont Graduate University and San Diego State University.",2,-117.0715336,32.7746613
+"351","University of London, University College London (United Kingdom).",2,-0.1340401,51.5245592
+"352","Universidad de Valladolid (Spain).",2,-4.7140547,41.6569271
+"353","University of Central Florida.",2,-81.2000599,28.6024276
+"354","Clark Atlanta University.",2,-84.4127874,33.7492435
+"355","Nagoya University (Japan).",2,136.9215499,35.1589551
+"356","University of California, San Francisco with the University of California, Berkeley.",2,-122.2505629,37.8739132
+"357","The University of Alabama at Birmingham.",2,-86.8095148,33.4964621
+"358","Universite de Geneve (Switzerland).",2,6.1451157,46.199444
+"359","Hitotsubashi University (Japan).",2,139.445214,35.693659
+"360","Universidad Complutense de Madrid (Spain).",2,-3.7285373,40.4478375
+"361","Lynn University.",2,-80.125283,26.384176
+"362","Drexel University.",2,-75.1899441,39.9566127
+"363","Universiteit van Amsterdam (The Netherlands).",2,4.9557263,52.3558182
+"364","Ryerson University and York University (Canada).",1,-79.3782333,43.6576889
+"365","HEC Montreal (Canada).",1,-73.6221313,45.5039407
+"366","The University of Texas - Pan American.",1,-98.175972,26.3052059
+"367","Rosemead School of Psychology, Biola University.",1,-118.0180414,33.9056131
+"368","University of San Diego.",1,-117.1900103,32.7715337
+"369","Christian-Albrechts Universitaet zu Kiel (Germany).",1,10.1147022,54.3460549
+"370","University of Colorado Health Sciences Center.",1,-104.6934485,40.4083861
+"371","The Chicago School of Professional Psychology.",1,-87.6338915,41.8883049
+"372","Jackson State University.",1,-90.209123,32.2961636
+"373","Leopold-Franzens Universitaet Innsbruck (Austria).",1,11.3838006,47.2633542
+"374","Griffith University (Australia).",1,153.053627,-27.5523592
+"375","The Iliff School of Theology.",1,-104.9604243,39.6758185
+"376","Universitaet Bern (Switzerland).",1,7.438119,46.9504896
+"377","Erasmus Universiteit Rotterdam (The Netherlands).",1,4.5259005,51.9154933
+"378","Istanbul Teknik Universitesi (Turkey).",1,29.010109,41.052219
+"379","The University of Texas School of Public Health.",1,-96.3543232,30.6095073
+"380","The University of Adelaide (Australia).",1,138.6062277,-34.920603
+"381","University of California, Berkeley with the University of California, San Francisco.",1,-122.4258437,37.7716141
+"382","University of London, King's College (United Kingdom).",1,-0.0897397,51.5033351
+"383","Barry University School of Social Work.",1,-80.106876,26.812179
+"384","Linkopings Universitet (Sweden).",1,15.575568,58.3997597
+"385","Russian Academy of Sciences (Russia).",1,37.577814,55.710794
+"386","Atlanta University.",1,-84.1692299,34.062726
+"387","Universidad Pontificia Comillas de Madrid (Spain).",1,-3.7112788,40.4299827
+"388","Eberhard Karls Universitaet Tuebingen (Germany).",1,9.043774,48.5294782
+"389","The Victoria University of Manchester (United Kingdom).",1,-2.2335496,53.4665323
+"390","Bar-Ilan University (Israel).",1,34.8430876,32.0691989
+"391","University of Stirling (United Kingdom).",1,-3.9197915,56.1459667
+"392","Goteborgs Universitet (Sweden).",1,11.9717376,57.6980218
+"393","The University of Queensland (Australia).",1,153.0120301,-27.4954306
+"394","Manchester Business School (United Kingdom).",1,-2.2335496,53.4665323
+"395","Boston University School of Education.",1,-71.100785,42.349751
+"396","Universitaet Basel (Switzerland).",1,7.5834336,47.5582745
+"397","University of Delhi (India).",1,77.2108219,28.6887689
+"398","Oxford Centre for Mission Studies (United Kingdom).",1,-1.2640555,51.7643353
+"399","Mercer University.",1,-83.6495552,32.8295826
+"400","Assemblies of God Theological Seminary.",1,-93.261974,37.224297
+"401","Texas A&M University - Commerce.",1,-99.9018131,31.9685988
+"402","Universita degli Studi di Milano (Italy).",1,9.1946194,45.4601393
+"403","Alvernia University.",1,-75.9330845,40.3133387
+"404","Simmons College.",1,-71.1006594,42.3390666
+"405","Universidad Politecnica de Valencia (Spain).",1,-0.3459773,39.4804189
+"406","Wheaton College.",1,-88.099602,41.8685135
+"407","The University of North Carolina at Charlotte.",1,-80.7285523,35.3075696
+"408","Union Presbyterian Seminary.",1,-77.449389,37.578907
+"409","Hong Kong Polytechnic University (Hong Kong).",1,114.1794674,22.3051948
+"410","Seton Hall University.",1,-74.2461738,40.7426312
+"411","Anderson University.",1,-85.6650106,40.1114605
+"412","Prescott College.",1,-112.4766192,34.5448304
+"413","Boston University School of Theology.",1,-71.1073138,42.3504774
+"414","Queensland University of Technology (Australia).",1,153.0130982,-27.455069
+"415","Senshu Daigaku (Japan).",1,139.7539631,35.6968538
+"416","Centro de Estudios Avanzados de Puerto Rico y el Caribe (Puerto Rico).",1,-66.1184997,18.4666116
+"417","University of Warwick (United Kingdom).",1,-1.5614704,52.3792525
+"418","Oakland University.",1,-83.2070756,42.6667236
+"419","Seattle University.",1,-122.3172284,47.6105941
+"420","Sveuciliste u Zagrebu (Croatia).",1,15.9698015,45.8105703
+"421","Johannes Gutenberg-Universitaet Mainz (Germany).",1,8.2415552,49.9926403
+"422","The University of Manchester (United Kingdom).",1,-2.2335496,53.4665323
+"423","University of South Alabama.",1,-88.1803557,30.6964406
+"424","Japan Women's University (Japan).",1,139.7203793,35.7169733
+"425","Chuo Daigaku (Japan).",1,139.7496874,35.7081926
+"426","United States Sports Academy.",1,-87.911836,30.639197
+"427","Univerzita Karlova (Czech Republic).",1,14.42469,50.0690439
+"428","University of Louisiana at Monroe.",1,-92.0724303,32.5287009
+"429","University of St. Thomas (Houston).",1,-95.3933007,29.7364692
+"430","The Hebrew University of Jerusalem (Israel).",1,35.243361,31.793132
+"431","Universidad de Salamanca (Spain).",1,-5.6669251,40.9613376
+"432","Universidad Nacional Autonoma de Mexico (Mexico).",1,-99.188153,19.3322788
+"433","The University of New England (Australia).",1,151.642667,-30.497933
+"434","Massey University (New Zealand).",1,175.617723,-40.3861339
+"435","Trinity University.",1,-98.4839479,29.4621116
+"436","Colorado Technical University.",1,-104.8343351,38.8941309
+"437","Tel Aviv University (Israel).",1,34.8035584,32.1134982
+"438","Talbot School of Theology, Biola University.",1,-118.0178511,33.9064503
+"439","The University of Buckingham (United Kingdom).",1,-0.9919337,51.9961233
+"440","Rikkyo University (Japan).",1,139.7039449,35.7305222
+"441","Emporia State University.",1,-96.1800783,38.4138215
+"442","Ochanomizu University (Japan).",1,139.732176,35.718758
+"443","Adelphi University.",1,-73.6506244,40.7220719
+"444","Flinders University of South Australia (Australia).",1,138.571039,-35.01781
+"445","Universidad de Deusto (Spain).",1,-1.9764298,43.3094159
+"446","Tennessee Technological University.",1,-85.5071496,36.1768904
+"447","Florida Agricultural and Mechanical University.",1,-84.28559,30.42689
+"448","Hofstra University.",1,-73.6040401,40.7136931
+"449","University of Oxford (United Kingdom).",1,-1.2547037,51.7566341
+"450","The Milltown Institute (Ireland).",1,-6.2259066,53.3101413
+"451","University of Newcastle (Australia).",1,151.697491,-32.896614
+"452","University of Western Australia (Australia).",1,115.8199096,-31.981179
+"453","Institute for Clinical Social Work (Chicago).",1,-87.6297982,41.8781136
+"454","Makerere University (Uganda).",1,32.5674106,0.3279888
+"455","International Christian University (Japan).",1,139.529477,35.687555
+"456","University of Rochester School of Nursing.",1,-77.626099,43.121198
+"457","University of Sussex (United Kingdom).",1,-0.087914,50.8670895
+"458","University of California, San Diego and San Diego State University.",1,-117.0715336,32.7746613
+"459","Universite Catholique de Louvain (Belgium).",1,4.6128456,50.6684169
+"460","University of Redlands.",1,-117.163181,34.062685
+"461","University of Glasgow (United Kingdom).",1,-4.2882005,55.8721211
+"462","Universitaet Breslau (Germany).",1,7.626421,51.964421
+"463","Universidad Autonoma de Madrid (Spain).",1,-3.6938964,40.5452036

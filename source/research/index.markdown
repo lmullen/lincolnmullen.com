@@ -104,6 +104,14 @@ religion from primary sources
 
 * * * * *
 
+#### Analyzing Historical History Dissertations
+
+A [series of blog posts](/research/history-dissertations/) with 
+accompanying [code](https://github.com/lmullen/dissertations-data) 
+analyzing historical history dissertations.
+
+* * * * *
+
 #### Journal of Southern Religion
 
 <div class="noline">

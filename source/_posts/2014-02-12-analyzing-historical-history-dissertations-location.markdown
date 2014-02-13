@@ -9,9 +9,13 @@ categories:
 - historical-dissertations
 ---
 
-*Earlier posts about "Analyzing Historical History Dissertations": 
-[Beginnings][] | [Limitations of the Data][] | [Page Counts][] | [Page 
-  Counts by University][].*
+*This series on "Analyzing Historical History Dissertations" is a work
+in progress and I've re-done some of these visualizations. If you would
+like to cite or link to this work in progress, please consider using the
+**[landing page][]**, which will always have the most up-to-date
+information and a list of all the posts.*
+
+  [landing page]: http://lincolnmullen.com/research/history-dissertations/
 
 So far I have mostly looked at the number of dissertations, and the page
 counts of dissertations. I'd like to refine the analysis of page counts
@@ -154,10 +158,6 @@ university][], the data set only has information for some universities
 after the 1980s or 1990s. That will skew the numbers on this map down.
 
   [reproducible research]: http://christophergandrud.github.io/RepResR-RStudio/
-  [Beginnings]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-beginnings/
-  [Limitations of the Data]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-limitations-of-the-data/
-  [Page Counts]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/
-  [Page Counts by University]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts-by-university/
   [NRC rankings of history departments]: https://www.historians.org/publications-and-directories/perspectives-on-history/december-2010/nrc-report-provides-data-on-history-doctoral-programs
   [this post]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts-by-university/
   [page counts by university]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts-by-university/

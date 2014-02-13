@@ -8,6 +8,14 @@ categories:
 - historical-dissertations
 ---
 
+*This series on "Analyzing Historical History Dissertations" is a work
+in progress and I've re-done some of these visualizations. If you would
+like to cite or link to this work in progress, please consider using the
+**[landing page][]**, which will always have the most up-to-date
+information and a list of all the posts.*
+
+  [landing page]: http://lincolnmullen.com/research/history-dissertations/
+
 Some scholars whose work I admire have done some useful data analysis
 about dissertations. Michael Beck [wrote a post][] where he scraped
 dissertation data from the University of Minnesota since 2007, and found

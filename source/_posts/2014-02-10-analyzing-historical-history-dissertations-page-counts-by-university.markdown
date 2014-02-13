@@ -8,6 +8,14 @@ categories:
 - historical-dissertations
 ---
 
+*This series on "Analyzing Historical History Dissertations" is a work
+in progress and I've re-done some of these visualizations. If you would
+like to cite or link to this work in progress, please consider using the
+**[landing page][]**, which will always have the most up-to-date
+information and a list of all the posts.*
+
+  [landing page]: http://lincolnmullen.com/research/history-dissertations/
+
 In the [last post][], I looked at the changing lengths of history
 dissertations over time. For context, here is the most significant
 chart:

@@ -5,7 +5,7 @@ title: Research and Projects
 
 **** 
 
-##### Dissertation Abstract
+#### Dissertation 
 
 **The Varieties of Religious Conversion: The Origins of Religious Choice
 in the United States**
@@ -106,6 +106,12 @@ religion from primary sources
 
 #### Analyzing Historical History Dissertations
 
+<div class="noline">
+
+[{% img project /downloads/post/project-dissertations.png %}][]
+
+</div>
+
 A [series of blog posts](/research/history-dissertations/) with 
 accompanying [code](https://github.com/lmullen/dissertations-data) 
 analyzing historical history dissertations.
@@ -136,7 +142,13 @@ code-based projects can be found at <a
 href="https://github.com/lmullen?tab=repositories">GitHub</a>.
 
   
-<ul>
+<ul class="square">
+<li>
+<a href="http://lmullen.github.io/gender/"> Gender </a> — an R package 
+to encode gender based on names, taking into account the variation in 
+the use of names over time.
+</li>
+
 <li>
 <a href="https://github.com/lmullen/omeka_client"> Omeka Client </a> — a
 Ruby gem that provides a REST client for the Omeka API, to access Omeka
@@ -204,3 +216,4 @@ and R.
   [{% img project /downloads/post/project-convertsdb.png %}]: http://americanconverts.org
   [{% img project /downloads/post/project-demographics.png %}]: https://github.com/lmullen/demographics-religion
   [{% img project /downloads/post/project-jsr.png "JSR" %}]: https://github.com/lmullen/jsr
+  [{% img project /downloads/post/project-dissertations.png %}]: http://localhost:4000/research/history-dissertations/

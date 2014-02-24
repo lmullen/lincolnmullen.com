@@ -17,6 +17,8 @@ earlier posts.
 4.  [Page Counts by University][]
 5.  [Location][]
 6.  [Cleaning the Data Again][]
+7.  [Gender][]
+
 
   [ProQuest Dissertations and Theses Database]: http://www.proquest.com/en-US/catalogs/databases/detail/pqdt.shtml
   [Beginnings]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-beginnings/
@@ -25,3 +27,4 @@ earlier posts.
   [Page Counts by University]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts-by-university/
   [Location]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-location/
   [Cleaning the Data Again]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-cleaning-the-data-again/
+  [Gender]: http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-gender/

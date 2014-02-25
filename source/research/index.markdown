@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Research and Projects
+title: Research 
+navigation: true
 ---
 
 **** 

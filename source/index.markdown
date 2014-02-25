@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Lincoln A. Mullen'
+title: About
 ---
 
 Greetings. I am a PhD candidate in the [history department][] at

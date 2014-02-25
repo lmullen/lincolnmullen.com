@@ -5,6 +5,7 @@ comments: false
 sharing: false
 footer: true
 sidebar: collapse
+navigation: true
 ---
 
 

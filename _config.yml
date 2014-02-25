@@ -9,7 +9,8 @@ description: American religious history in prose and code
 
 # RSS / Email 
 subscribe_rss: http://feeds.feedburner.com/LincolnMullenWritings
-subscribe_email: http://feedburner.google.com/fb/a/mailverify?uri=LincolnMullenWritings&amp;loc=en_US
+subscribe_rss: http://lincolnmullen.com/atom.xml
+# subscribe_email: http://feedburner.google.com/fb/a/mailverify?uri=LincolnMullenWritings&amp;loc=en_US
 # RSS feeds can list your email address if you like
 email: lincoln@lincolnmullen.com
 

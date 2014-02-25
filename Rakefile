@@ -28,16 +28,14 @@ task :preview do
 
   puts "Previewing the site locally with Jekyll and Compass."
 
-  system "compass compile"
   jekyllPid  = Process.spawn("jekyll serve --watch")
-  compassPid = Process.spawn("compass watch")
 
   trap("INT") {
-    [jekyllPid, compassPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+    [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
     exit 0
   }
 
-  [jekyllPid, compassPid].each { |pid| Process.wait(pid) }
+  [jekyllPid].each { |pid| Process.wait(pid) }
 
 end
 

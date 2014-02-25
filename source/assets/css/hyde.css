@@ -327,3 +327,8 @@ a.sidebar-nav-item:focus {
 .foundicon-video-chat:before {
   content: "\f01b";
 }
+
+.abstract {
+  font-size: .75rem;
+  padding: 0 2rem 0 2rem;
+}

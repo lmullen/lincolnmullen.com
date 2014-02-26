@@ -1,16 +1,9 @@
 ---
 layout: page
-title: "CV for Lincoln A. Mullen"
+title: Publications
 ---
 
-<i class="icon-doc-text"></i> [Download this CV as a PDF][] | <i 
-class="icon-level-down"></i> [Full text of publications][]
-
-<iframe src='http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf#page=1&view=FitH' id="cv-embed" type='application/pdf' width='100%' height='100%'> <p>
-Your browser does not have a PDF plugin. Click the link above to
-download the PDF of the CV.
-</p>
-</iframe>
+*For a full list of publications, see my [CV][].*
 
 ### Full Text of Publications
 
@@ -81,8 +74,7 @@ South Carolina Historical Association* (March 2010): 79--90. [PDF][14]
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
 [web][15], [PDF][16]
 
-  [Download this CV as a PDF]: http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf
-  [Full text of publications]: #full-text-of-publications
+  [CV]: http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf
   [blog post]: /blog/
   [PDF]: /downloads/docs/Mullen.returning-to-the-fold.pdf
   [1]: /downloads/docs/Mullen.acha.2013.md.pdf

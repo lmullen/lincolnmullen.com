@@ -7,34 +7,38 @@ Greetings. I am a PhD candidate in the [history department][] at
 [Brandeis University][] and a historian of religion in early America and
 the nineteenth century.
 
+#### Research
+
 My [dissertation][] is a history of conversion between religions in the
 nineteenth-century United States. My [curriculum vitae][] has my
-publications, talks, and workshops, usually in full text. My
-[research][] is made public in databases and other digital projects.
-Along with Erin Bartram, I've created the [American Converts
-Database][], and I'm working on a project on the [historical
-demographics of American religion][]. I [teach classes][] on American
-religious history, the nineteenth century, and digital humanities. I'm a
-regular contributor at at [Religion in American History][] and
-[ProfHacker][].
+publications, talks, and workshops, usually in full text. 
+
+My [research][] is made public in databases and other digital projects.  
+Along with Erin Bartram, I've created the [American Converts 
+Database][], and I'm working on a project on the [historical 
+demographics of American religion][]. I [teach classes][] on American 
+religious history, the nineteenth century, and digital humanities. 
+
+#### Blog
 
 On this site I write an academic blog about history, religion, and
-digital humanities, which also aggregates my writings elsewhere. Here is
-a list of [all of my posts][], and these are the most recent:
+digital humanities, and I'm also a regular contributor at at [Religion
+in American History][] and [ProfHacker][]. Here is a list of [all of my
+posts][], and these are the most recent:
 
 <ul id="posts">
 {% for post in site.posts limit: 5 %}
 <li>
-<a href="{{ post.url }}">{{ post.title }}</a>
+<time>{{ post.date | date: "%b %-d:" }}</time> <a href="{{ post.url }}">{{ post.title }}</a>
+</p>
 </li>
 {% endfor %}
 </ul>
 
-Much of my research is supported or augmented by coding projects, which
-are listed on the [research page][research].
+#### Code
 
-You can write to me at <lincoln@lincolnmullen.com> or find me on
-[GitHub][] or [Twitter][].
+Much of my research is augmented by coding projects or expressed in
+code. These projects are listed on the [research page][research].
 
   [history department]: http://www.brandeis.edu/departments/history/
   [Brandeis University]: http://www.brandeis.edu

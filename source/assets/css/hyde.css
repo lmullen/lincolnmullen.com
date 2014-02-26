@@ -347,3 +347,7 @@ a.sidebar-nav-item:focus {
   zoom: 1;
   /* IE7 */
 }
+
+.sidebar small a {
+  color: rgba(255,255,255,.5);
+}

@@ -9,15 +9,38 @@ the nineteenth century.
 
 #### Research
 
-My [dissertation][] is a history of conversion between religions in the
-nineteenth-century United States. My [curriculum vitae][] has my
-publications, talks, and workshops, usually in full text. 
+My [dissertation][], *The Varieties of Religious Conversion: The Origins
+of Religious Choice in the United States*, is a history of conversion
+between religions in the nineteenth-century United States. The
+[publications page][] lists my publications and talks and provides the
+full text if possible.
 
-My [research][] is made public in databases and other digital projects.  
-Along with Erin Bartram, I've created the [American Converts 
-Database][], and I'm working on a project on the [historical 
-demographics of American religion][]. I [teach classes][] on American 
-religious history, the nineteenth century, and digital humanities. 
+My [research][] is made public in databases and other digital projects.
+Along with [Erin Bartram][], I've created the [American Converts
+Database][], and I'm in the very beginning stages of a project on the
+[historical demographics of American religion][]. On the side I'm
+writing a series of posts on [Analyzing Historical History
+Dissertations][].
+
+<div style="display: inline-block;">
+
+<a
+href="http://americanconverts.org"><img style="display: inline-block;
+margin-right: 5%; border: 1px solid #aaa"
+src="/downloads/post/project-converts.png" width="45%" /></a><a
+href="https://github.com/lmullen/demographics-religion/"><img
+style="display: inline-block; border: 1px solid #aaa"
+src="/downloads/post/project-demographics.png" width="45%" /></a>
+
+</div>
+
+Much of my research is augmented by coding projects or expressed in
+code. These projects are listed on the [research page][research]. Most
+recently I've been working with on the [gender package][] for R, which
+infers gender based on first names and a range of years.
+
+I [teach classes][] on American religious history, the nineteenth
+century, and digital humanities.
 
 #### Blog
 
@@ -29,27 +52,24 @@ posts][], and these are the most recent:
 <ul id="posts">
 {% for post in site.posts limit: 5 %}
 <li>
-<time>{{ post.date | date: "%b %-d:" }}</time> <a href="{{ post.url }}">{{ post.title }}</a>
+<time>{{ post.date | date: "%b %-d:" }}</time>
+<a href="{{ post.url }}">{{ post.title }}</a>
 </p>
 </li>
 {% endfor %}
 </ul>
 
-#### Code
-
-Much of my research is augmented by coding projects or expressed in
-code. These projects are listed on the [research page][research].
-
   [history department]: http://www.brandeis.edu/departments/history/
   [Brandeis University]: http://www.brandeis.edu
   [dissertation]: /research/#dissertation
-  [curriculum vitae]: /cv/
+  [publications page]: /publications/
   [research]: /research/
+  [Erin Bartram]: http://history.uconn.edu/graduate/bartram.php
   [American Converts Database]: http://americanconverts.org
   [historical demographics of American religion]: https://github.com/lmullen/demographics-religion
+  [Analyzing Historical History Dissertations]: /research/history-dissertations/
+  [gender package]: https://github.com/lmullen/gender
   [teach classes]: /teaching/
   [Religion in American History]: http://usreligion.blogspot.com/
   [ProfHacker]: http://chronicle.com/blogs/profhacker/
   [all of my posts]: /blog/
-  [GitHub]: http://github.com/lmullen
-  [Twitter]: http://twitter.com/lincolnmullen

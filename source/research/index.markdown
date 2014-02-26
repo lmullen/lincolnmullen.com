@@ -4,12 +4,9 @@ title: Research
 navigation: true
 ---
 
-**** 
+### Dissertation: The Varieties of Religious Conversion: The Origins of Religious Choice in the United States
 
-#### Dissertation 
-
-**The Varieties of Religious Conversion: The Origins of Religious Choice
-in the United States**
+<div class="abstract">
 
 In the nineteenth-century United States, people converted between
 religions often, and often faced the opportunity to convert. As
@@ -72,81 +69,40 @@ dissertation thus argues that a variety of religions and a constellation
 of ideas---punctuality, the gift, freedom, sincerity, catholicity,
 infidelity---shaped the American idea of religion.
 
-* * * * *
-
-#### American Converts Database
-
-<div class="noline">
-
-[{% img project /downloads/post/project-convertsdb.png %}][]
-
 </div>
+
+### American Converts Database
 
 A database of Americans who experienced religious conversions, broadly
 defined. Produced in collaboration with other historians of American
 religion.
 
--   [American Converts database][{% img project /downloads/post/project-convertsdb.png %}]
-
-* * * * *
-
-#### Historical Demographics of American Religion
-
-<div class="noline">
-
-[{% img project /downloads/post/project-demographics.png %}][]
-
-</div>
+## Historical Demographics of American Religion
 
 Data and R scripts to track the historical demographics of American
 religion from primary sources
 
--   [GitHub repository][{% img project /downloads/post/project-demographics.png %}]
+### Analyzing Historical History Dissertations
 
-* * * * *
+A [series of blog posts][] with accompanying [code][] analyzing
+historical history dissertations.
 
-#### Analyzing Historical History Dissertations
-
-<div class="noline">
-
-[{% img project /downloads/post/project-dissertations.png %}][]
-
-</div>
-
-A [series of blog posts](/research/history-dissertations/) with 
-accompanying [code](https://github.com/lmullen/dissertations-data) 
-analyzing historical history dissertations.
-
-* * * * *
-
-#### Journal of Southern Religion
-
-<div class="noline">
-
-[{% img project /downloads/post/project-jsr.png "JSR" %}][]
-
-</div>
+### Journal of Southern Religion
 
 The open-access online *Journal of Southern Religion*, whose website I
 built and maintain
 
--   [*Journal of Southern Religion* website][{% img project /downloads/post/project-jsr.png "JSR" %}]
--   [GitHub repository][{% img project /downloads/post/project-jsr.png "JSR" %}]
-
-* * * * *
-
-#### Coding
+### Coding
 
 Much of my research is supported by coding or software analysis, in
 support of which I have written the following software. All of my
 code-based projects can be found at <a 
 href="https://github.com/lmullen?tab=repositories">GitHub</a>.
 
-  
 <ul class="square">
 <li>
-<a href="http://lmullen.github.io/gender/"> Gender </a> — an R package 
-to encode gender based on names, taking into account the variation in 
+<a href="http://lmullen.github.io/gender/"> Gender </a> — an R package
+to encode gender based on names, taking into account the variation in
 the use of names over time.
 </li>
 
@@ -214,7 +170,6 @@ and R.
 </li>
 </ul>
 
-  [{% img project /downloads/post/project-convertsdb.png %}]: http://americanconverts.org
-  [{% img project /downloads/post/project-demographics.png %}]: https://github.com/lmullen/demographics-religion
-  [{% img project /downloads/post/project-jsr.png "JSR" %}]: https://github.com/lmullen/jsr
-  [{% img project /downloads/post/project-dissertations.png %}]: http://localhost:4000/research/history-dissertations/
+
+  [series of blog posts]: /research/history-dissertations/
+  [code]: https://github.com/lmullen/dissertations-data

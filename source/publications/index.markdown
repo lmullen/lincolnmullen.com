@@ -3,16 +3,11 @@ layout: page
 title: Publications
 ---
 
-*For a full list of publications, see my [CV][].*
-
-### Full Text of Publications
-
-*N.B. Below is a list of publications and talks which I have the rights
-to make available here. I am always willing to share the text of talks
-even if they are not listed here. For a full list of publications and
-talks, please [see the CV][Download this CV as a PDF]. Almost everything
-that I can put online is also published or linked to in a [blog
-post][].*
+*Below is a list of publications and talks which I have the rights to
+make available here. I am always willing to share the text of talks even
+if they are not listed here. For a full list of publications and talks,
+please [see the CV][]. Almost everything that I can put online is also
+published or linked to in a [blog post][].*
 
 "Returning to the Fold: Nineteenth Century Converts Who Returned to
 Their Original Faith," talk given at Kronstadt Moment/Road to Damascus,
@@ -74,7 +69,7 @@ South Carolina Historical Association* (March 2010): 79--90. [PDF][14]
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
 [web][15], [PDF][16]
 
-  [CV]: http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf
+  [see the CV]: http://lincolnmullen.com/downloads/docs/Mullen-cv.pdf
   [blog post]: /blog/
   [PDF]: /downloads/docs/Mullen.returning-to-the-fold.pdf
   [1]: /downloads/docs/Mullen.acha.2013.md.pdf

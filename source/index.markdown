@@ -30,7 +30,7 @@ a list of [all of my posts][], and these are the most recent:
 {% endfor %}
 </ul>
 
-Much of my research is supported or augmented by coding projects, which 
+Much of my research is supported or augmented by coding projects, which
 are listed on the [research page][research].
 
 You can write to me at <lincoln@lincolnmullen.com> or find me on
@@ -49,37 +49,3 @@ You can write to me at <lincoln@lincolnmullen.com> or find me on
   [all of my posts]: /blog/
   [GitHub]: http://github.com/lmullen
   [Twitter]: http://twitter.com/lincolnmullen
-
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>

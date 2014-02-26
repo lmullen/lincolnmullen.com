@@ -23,10 +23,10 @@ task :new_draft do |t|
 
 end
 
-desc "Preview the site with Jekyll and Compass"
+desc "Preview the site with Jekyll"
 task :preview do
 
-  puts "Previewing the site locally with Jekyll and Compass."
+  puts "Previewing the site locally with Jekyll."
 
   jekyllPid  = Process.spawn("jekyll serve --watch")
 
@@ -42,7 +42,6 @@ end
 desc "Push the site to the development server"
 task :push => [:cv] do
   puts "Building the site then pushing it to Amazon S3"
-  system "compass compile"
   system "jekyll build"
   system "s3_website push --site public"
 end

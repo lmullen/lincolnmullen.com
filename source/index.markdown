@@ -24,13 +24,26 @@ Dissertations][].
 
 <div style="display: inline-block;">
 
+<p>
 <a
 href="http://americanconverts.org"><img style="display: inline-block;
-margin-right: 5%; border: 1px solid #aaa"
+margin-right: 6%; border: 1px solid #aaa"
 src="/downloads/post/project-converts.png" width="45%" /></a><a
 href="https://github.com/lmullen/demographics-religion/"><img
 style="display: inline-block; border: 1px solid #aaa"
 src="/downloads/post/project-demographics.png" width="45%" /></a>
+</p>
+
+<p>
+<a href="/research/history-dissertations/"><img style="display: 
+inline-block;
+margin-right: 6%; border: 1px solid #aaa" 
+src="/downloads/post/project-dissertations.png" width="45%" /></a>
+<a href="http://jsr.fsu.edu/"><img style="display: 
+inline-block;
+border: 1px solid #aaa" 
+src="/downloads/post/project-jsr.png" width="45%" /></a>
+</p>
 
 </div>
 

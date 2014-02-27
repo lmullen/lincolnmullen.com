@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Research 
-navigation: true
 ---
 
-### Dissertation: The Varieties of Religious Conversion: The Origins of Religious Choice in the United States
+### Dissertation
+
+*The Varieties of Religious Conversion: The Origins of Religious Choice
+in the United States*, Brandeis University (expected 2014)
 
 <div class="abstract">
 
@@ -77,20 +79,39 @@ A database of Americans who experienced religious conversions, broadly
 defined. Produced in collaboration with other historians of American
 religion.
 
+<a href="http://americanconverts.org"><img style="display: inline-block;
+margin-right: 5%; border: 1px solid #aaa" 
+src="/downloads/post/project-converts.png" width="45%" /></a>
+
 ## Historical Demographics of American Religion
 
 Data and R scripts to track the historical demographics of American
-religion from primary sources
+religion from primary sources.
+
+<a href="https://github.com/lmullen/demographics-religion/"><img 
+style="display: inline-block;
+margin-right: 5%; border: 1px solid #aaa" 
+src="/downloads/post/project-demographics.png" width="45%" /></a>
 
 ### Analyzing Historical History Dissertations
 
 A [series of blog posts][] with accompanying [code][] analyzing
 historical history dissertations.
 
+<a href="/research/history-dissertations/"><img style="display: 
+inline-block;
+margin-right: 5%; border: 1px solid #aaa" 
+src="/downloads/post/project-dissertations.png" width="45%" /></a>
+
 ### Journal of Southern Religion
 
 The open-access online *Journal of Southern Religion*, whose website I
-built and maintain
+built and maintain.
+
+<a href="http://jsr.fsu.edu/"><img style="display: 
+inline-block;
+margin-right: 5%; border: 1px solid #aaa" 
+src="/downloads/post/project-jsr.png" width="45%" /></a>
 
 ### Coding
 

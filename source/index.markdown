@@ -37,7 +37,8 @@ src="/downloads/post/project-demographics.png" width="45%" /></a>
 Much of my research is augmented by coding projects or expressed in
 code. These projects are listed on the [research page][research]. Most
 recently I've been working with on the [gender package][] for R, which
-infers gender based on first names and a range of years.
+infers gender based on first names and a range of years, along with a
+few Omeka plugins and an [Omeka API client][] written in Ruby.
 
 I [teach classes][] on American religious history, the nineteenth
 century, and digital humanities.
@@ -69,6 +70,7 @@ posts][], and these are the most recent:
   [historical demographics of American religion]: https://github.com/lmullen/demographics-religion
   [Analyzing Historical History Dissertations]: /research/history-dissertations/
   [gender package]: https://github.com/lmullen/gender
+  [Omeka API client]: https://github.com/lmullen/omeka_client
   [teach classes]: /teaching/
   [Religion in American History]: http://usreligion.blogspot.com/
   [ProfHacker]: http://chronicle.com/blogs/profhacker/

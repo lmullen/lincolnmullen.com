@@ -352,3 +352,8 @@ a.sidebar-nav-item:focus {
   color: rgba(255,255,255,.5);
 }
 
+@media (max-width: 48rem) {
+  .hide-on-small {
+    display: none;
+  }
+}

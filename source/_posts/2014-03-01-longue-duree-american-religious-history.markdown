@@ -2,7 +2,7 @@
 date: '2014-03-01 12:00'
 layout: post
 title: 'The Return of the <em>Longue Durée</em> in American Religious History'
-...
+---
 
 David Armitage and Jo Guldi have written an article forthcoming in
 *Annales* which will likely appear on many history department syllabi

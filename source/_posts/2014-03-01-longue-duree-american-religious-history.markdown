@@ -4,8 +4,10 @@ layout: post
 title: 'The Return of the <em>Longue Durée</em> in American Religious History'
 ---
 
-David Armitage and Jo Guldi have written an article forthcoming in
-*Annales* which will likely appear on many history department syllabi
+*[This post originally appeared at [Religion in American History][].]*
+
+[David Armitage][] and [Jo Guldi][] have written an article forthcoming
+in *Annales* which will likely appear on many history department syllabi
 this fall. (It ought to appear on religious studies syllabi too.) In
 "[The Return of the *Longue Durée*: An Anglo-American Perspective][]",
 Armitage and Guldi describe how and why historians since the 1920s
@@ -181,6 +183,9 @@ and how might that be possible?
     that is genuinely original scholarship but that aims its sights more
     broadly than the monograph.
 
+  [Religion in American History]: http://usreligion.blogspot.com/2014/03/the-return-of-longue-duree-in-american.html
+  [David Armitage]: http://scholar.harvard.edu/armitage
+  [Jo Guldi]: http://www.joguldi.com/
   [The Return of the *Longue Durée*: An Anglo-American Perspective]: http://scholar.harvard.edu/armitage/publications/return-longue-dur%C3%A9e
   [study of history dissertations]: http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html
   [yet]: http://lincolnmullen.com/research/history-dissertations/

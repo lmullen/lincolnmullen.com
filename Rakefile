@@ -41,13 +41,13 @@ end
 
 desc "Build the production version of the site"
 task :build do
-  puts "Building the production version of the site ..."
-  system "jekyll build"
+  puts "\nBuilding the production version of the site ..."
+  ok_failed system "jekyll build"
 end
 
 desc "Copy CV"
 task :cv do
-  puts "Copying the CV..."
+  puts "\nCopying the CV..."
   FileUtils.cp("/home/lmullen/acad/cv/Mullen-cv.pdf", 
                "./source/downloads/docs/Mullen-cv.pdf")
 end
@@ -55,17 +55,18 @@ end
 desc "Deploy the site to Amazon S3"
 task :amazon_s3 do
   puts "Deploying the site to Amazon S3..."
-  system "s3_website push --site public"
+  ok_failed system "s3_website push --site public"
 end
 
 desc "Deploy the site via rsync"
 task :rsync do
-  puts "Deploying the site via rsync..."
+  puts "\nDeploying the site via rsync..."
 
   ssh_port       = "22"
   ssh_user       = "lincolnm@lincolnmullen.org"
   rsync_delete   = true
-  public_dir      = "public" 
+  rsync_options  = "-avze"
+  public_dir     = "public" 
   document_root  = "~/public_html/lincolnmullen.com"
 
   exclude = ""
@@ -73,7 +74,7 @@ task :rsync do
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
 
-  system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+  ok_failed system("rsync #{rsync_options} 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
 end
 
 desc "Build and deploy the production version of the site"
@@ -82,6 +83,14 @@ task :production => [:cv, :build, :rsync]
 def get_stdin(message)
   print message
   STDIN.gets.chomp
+end
+
+def ok_failed(condition)
+  if (condition)
+    puts "OK"
+  else
+    puts "FAILED"
+  end
 end
 
 CLOBBER.include('public/*')

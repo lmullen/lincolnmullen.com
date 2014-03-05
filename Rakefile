@@ -59,7 +59,7 @@ task :rsync do
   ssh_port       = "22"
   ssh_user       = "lincolnm@lincolnmullen.org"
   rsync_delete   = true
-  rsync_options  = "-avze"
+  rsync_options  = "--stats -avze"
   public_dir     = "public" 
   document_root  = "~/public_html/lincolnmullen.com"
 

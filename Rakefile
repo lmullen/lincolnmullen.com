@@ -52,12 +52,6 @@ task :cv do
                "./source/downloads/docs/Mullen-cv.pdf")
 end
 
-desc "Deploy the site to Amazon S3"
-task :amazon_s3 do
-  puts "Deploying the site to Amazon S3..."
-  ok_failed system "s3_website push --site public"
-end
-
 desc "Deploy the site via rsync"
 task :rsync do
   puts "\nDeploying the site via rsync..."
@@ -78,7 +72,7 @@ task :rsync do
 end
 
 desc "Build and deploy the production version of the site"
-task :production => [:cv, :build, :rsync]
+task :production => [:build, :rsync]
 
 def get_stdin(message)
   print message

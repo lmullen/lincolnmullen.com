@@ -122,7 +122,7 @@ href="https://github.com/lmullen?tab=repositories">GitHub</a>.
 
 <ul class="square">
 <li>
-<a href="http://lmullen.github.io/gender/"> Gender </a> — an R package
+<a href="https://github.com/lmullen/gender/"> Gender </a> — an R package
 to encode gender based on names, taking into account the variation in
 the use of names over time.
 </li>

@@ -19,12 +19,14 @@ scroll and zoom.
 The first chart ([SVG][], [PDF][]) shows salaries grouped by institution
 type:
 
-<img src="/downloads/post/faculty-salaries-by-institution.svg">
+<a href="/downloads/post/faculty-salaries-by-institution.svg"><img 
+src="/downloads/post/faculty-salaries-by-institution.svg"></a>
 
 The second chart ([SVG][1], [PDF][2]) shows salaries grouped by
 discipline:
 
-<img src="/downloads/post/faculty-salaries-by-discipline.svg">
+<a href="/downloads/post/faculty-salaries-by-discipline.svg"><img 
+src="/downloads/post/faculty-salaries-by-discipline.svg"></a>
 
 *Note:* The labels on the bars are average salaries for assistant,
 associate, and full professors; I've left out new assistant professors.

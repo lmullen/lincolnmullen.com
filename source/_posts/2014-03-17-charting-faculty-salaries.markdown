@@ -16,16 +16,39 @@ send to your loved ones to justify your life choices. You'll probably
 want to click through to the SVG or PDF versions of these charts so that
 you can scroll and zoom.
 
-The first chart ([SVG][], [PDF][]) shows salaries grouped by institution
-type:
+The first chart
+(<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
+'eventAction': 'View', 'eventLabel': 
+'faculty-salaries-by-institution.svg', 'page': 
+'/downloads/post/faculty-salaries-by-institution.svg' });" 
+href="/downloads/post/faculty-salaries-by-institution.svg">SVG</a>,
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
+'eventAction': 'View', 'eventLabel': 
+'faculty-salaries-by-institution.pdf', 'page': 
+'/downloads/post/faculty-salaries-by-institution.pdf' });" 
+href="/downloads/post/faculty-salaries-by-institution.pdf">PDF</a>)
+shows salaries grouped by institution type:
 
-<a href="/downloads/post/faculty-salaries-by-institution.svg"><img 
-src="/downloads/post/faculty-salaries-by-institution.svg"></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'faculty-salaries-by-institution.svg', 'page': '/downloads/post/faculty-salaries-by-institution.svg' });" href="/downloads/post/faculty-salaries-by-institution.svg"><img src="/downloads/post/faculty-salaries-by-institution.svg"></a>
 
-The second chart ([SVG][1], [PDF][2]) shows salaries grouped by
-discipline:
+The second chart
+(<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
+'eventAction': 'View', 'eventLabel': 
+'faculty-salaries-by-discipline.svg', 'page': 
+'/downloads/post/faculty-salaries-by-discipline.svg' });" 
+href="/downloads/post/faculty-salaries-by-discipline.svg">SVG</a>,
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
+'eventAction': 'View', 'eventLabel': 
+'faculty-salaries-by-discipline.pdf', 'page': 
+'/downloads/post/faculty-salaries-by-discipline.pdf' });" 
+href="/downloads/post/faculty-salaries-by-discipline.pdf">PDF</a>) shows
+salaries grouped by discipline:
 
-<a href="/downloads/post/faculty-salaries-by-discipline.svg"><img 
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
+'eventAction': 'View', 'eventLabel': 
+'faculty-salaries-by-discipline.svg', 'page': 
+'/downloads/post/faculty-salaries-by-discipline.svg' });" 
+href="/downloads/post/faculty-salaries-by-discipline.svg"><img 
 src="/downloads/post/faculty-salaries-by-discipline.svg"></a>
 
 *Note:* The labels on the bars are average salaries for assistant,
@@ -44,9 +67,5 @@ You can [check my work here][].
   [Average Salaries of Tenured and Tenure-Track Faculty at 4-Year
   Colleges, 2013--14]: http://chronicle.com/article/Average-Salaries-of-Tenured/145283/
   [accompanying article]: http://chronicle.com/article/Remedial-Educators-Contest/145349
-  [SVG]: /downloads/post/faculty-salaries-by-institution.svg
-  [PDF]: /downloads/post/faculty-salaries-by-institution.pdf
-  [1]: /downloads/post/faculty-salaries-by-discipline.svg
-  [2]: /downloads/post/faculty-salaries-by-discipline.pdf
   [salary compression]: http://www.insidehighered.com/news/2013/02/11/university-tries-deal-salary-compression-among-faculty-members
   [check my work here]: https://gist.github.com/lmullen/9606187

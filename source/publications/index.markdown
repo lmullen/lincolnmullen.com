@@ -5,12 +5,15 @@ title: Publications
 
 *Below is a list of publications and talks which I have the rights to
 make available here. For a full list of publications and talks, please
-[see the CV][]. Almost everything that I can put online is also
-published or linked to in a [blog post][].*
+<a href="/files/Mullen-cv.pdf" onclick="ga('send', 'event', { 
+'eventCategory': 'PDF', 'eventAction': 'Download', 'eventLabel': 
+'Mullen-cv.pdf', 'page': '/files/Mullen-cv.pdf' });">see the CV</a>.
+Almost everything that I can put online is also published or linked to
+in a [blog post][].*
 
 ### Articles and Book Chapters
 
-"Catholic Converts in the Nineteenth-Century Market for Souls," *U.S. 
+"Catholic Converts in the Nineteenth-Century Market for Souls," *U.S.
 Catholic Historian*, forthcoming spring 2014.
 
 "Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now,"
@@ -75,7 +78,6 @@ Southern Historian* 30 (2009): 103--5. [PDF][13]
 "Faith-based Tolerance" in *The Brandeis Hoot*, December 3, 2010.
 [web][14], [PDF][15]
 
-  [see the CV]: /downloads/docs/Mullen-cv.pdf
   [blog post]: /blog/
   [web]: /blog/digital-humanities-is-a-spectrum/
   [1]: http://jestudies.yale.edu/index.php/journal/issue/view/19/showToc

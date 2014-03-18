@@ -7,7 +7,10 @@
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
-      <a href="/">About</a> | <a href="/downloads/docs/Mullen-cv.pdf">CV</a> |
+      <a href="/">About</a> | <a onclick="ga('send', 'event', { 
+        'eventCategory': 'PDF', 'eventAction': 'Download', 'eventLabel': 
+      'Mullen-cv.pdf', 'page': '/files/Mullen-cv.pdf' });" 
+    href="/downloads/docs/Mullen-cv.pdf">CV</a> |
       <a href="/blog/">Blog</a>
       </li>
       <li class="sidebar-nav-item">

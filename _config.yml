@@ -19,10 +19,13 @@ permalink: /blog/:title/
 source: source
 destination: public
 plugins: plugins
+gems: [jekyll_figure]
 markdown: pandoc
 pandoc:
   extensions:
     - smart
+figures:
+  dir: /figures
 lsi: false
 pygments: true
 

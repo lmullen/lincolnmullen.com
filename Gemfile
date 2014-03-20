@@ -8,4 +8,5 @@ group :development do
   gem 'rake'
   gem 'stringex'
   gem 'atom-tools'
+  gem 'jekyll_figure'
 end

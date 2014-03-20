@@ -333,10 +333,30 @@ a.sidebar-nav-item:focus {
   padding: 0 2rem 0 2rem;
 }
 
-.post p img {
+.post p img, figure img {
   max-width: 100%;
 }
 
+figure {
+  display: block;
+  margin: 2rem 0 2rem 0;
+  padding: 0;
+  font-size: .8rem;
+  line-height: 1.4;
+}
+figure img {
+  margin: 0;
+}
+figure figcaption {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  font-style: italic;
+  margin: .1rem 0 0 1rem;
+}
+figure figcaption:before {
+  content: "\00a7";
+}
 /* Tab like spacing for blog archive */
 #blog-archives time {
   display: inline-block;

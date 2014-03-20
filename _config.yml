@@ -26,6 +26,7 @@ pandoc:
     - smart
 figures:
   dir: /figures
+  enumerate: true
 lsi: false
 pygments: true
 

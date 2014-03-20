@@ -120,7 +120,7 @@ support of which I have written the following software. All of my
 code-based projects can be found at <a 
 href="https://github.com/lmullen?tab=repositories">GitHub</a>.
 
-<ul class="square">
+<ul>
 <li>
 <a href="https://github.com/lmullen/gender/"> Gender </a> — an R package
 to encode gender based on names, taking into account the variation in
@@ -142,6 +142,13 @@ such as Archive Grid and the Library of Congress.
 (<a href="https://github.com/lmullen/plugin-CatalogSearch">GitHub</a> |
 <a href="http://omeka.org/add-ons/plugins/catalog-search/">Omeka
 Plugins</a>)
+</li>
+
+<li>
+<a href="https://github.com/lmullen/jekyll_figure"> Jekyll Figure </a> — a
+Ruby gem that inserts figures into a Jekyll website.
+(<a href="https://github.com/lmullen/jekyll_figure">GitHub</a> |
+<a href="https://rubygems.org/gems/jekyll_figure">RubyGems</a>)
 </li>
   
 <li>

@@ -354,9 +354,6 @@ figure figcaption {
   font-style: italic;
   margin: .1rem 0 0 1rem;
 }
-figure figcaption:before {
-  content: "\00a7";
-}
 /* Tab like spacing for blog archive */
 #blog-archives time {
   display: inline-block;

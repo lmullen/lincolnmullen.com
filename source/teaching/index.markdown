@@ -3,9 +3,63 @@ layout: page
 title: Teaching
 ---
 
+### Programming for Historians
+
+<a href="/files/clio3.syllabus.hist698.2014f.pdf" onclick="ga('send', 
+'event', { 'eventCategory': 'PDF', 'eventAction': 'Download', 
+'eventLabel': 'clio3.syllabus.hist698.2014f.pdf', 'page': 
+'/files/clio3.syllabus.hist698.2014f.pdf' });">Syllabus</a> | George
+Mason University, fall 2014
+
+<div class="abstract">
+
+This course will teach you have to use computer programming for research
+in history. The focus is on gaining familiarity with several languages
+in order to understand their underlying principles, and on connecting
+programming methods to specific problems that historians want to solve.
+Our first major section will be on data analysis, in which you will use
+the R language to analyze historical data both quantitatively and
+geographically. You will also learn how researchers structure,
+manipulate, and clean their data. Our next major section will be on
+scripting for research, using Ruby to access APIs and scrape web
+documents. Then we will use Ruby to create our own simple web
+applications and to interact with relational databases. Finally we will
+move on from Ruby to PHP, a commonly used language for web applications
+like Omeka and WordPress. No previous experience with programming is
+required, but students are strongly encouraged to have already taken
+Clio 1 and Clio 2.
+
+</div>
+
+### Church and State in America
+
+George Mason University, fall 2014
+
+<div class="abstract">
+
+Two of the most pressing questions about American religion and its
+public role are intertwined: how should religions relate to one another,
+and how should religions relate to the state? In this class you will
+take up these questions by studying the interactions of Protestant,
+Catholic, Jewish, Mormon, and Native American religions with one another
+and with the federal and state governments. You will investigate how law
+has regulated the public sphere and the civil square in which religious
+interactions take place, but also how religious actors have driven those
+interactions. We will read primary and secondary sources about the
+American Revolution and disestablishment, moral reform, temperance, and
+abolition, polygamy, the school system, pacifism, civil rights, and
+political movements, ranging from the late eighteenth to the late
+twentieth century.
+
+</div>
+
 ### Mapping Boston's Religions: A Digital History Seminar
 
-[Syllabus][] | [Course Project][] | Brandeis University, spring 2014
+<a href="/files/religion-19c-dh.pdf" onclick="ga('send', 'event', { 
+'eventCategory': 'PDF', 'eventAction': 'Download', 'eventLabel': 
+'religion-19c-dh.pdf', 'page': '/files/religion-19c-dh.pdf' 
+});">Syllabus</a> | [Course Project][] | Brandeis University, spring
+2014
 
 <div class="abstract">
 
@@ -39,7 +93,11 @@ outside the academy.
 
 ### Religious Pluralism and the American State
 
-[Syllabus][1] | Brandeis University, fall 2012
+<a href="/files/religious-pluralism.syllabus.2012-fall.pdf" 
+onclick="ga('send', 'event', { 'eventCategory': 'PDF', 'eventAction': 
+'Download', 'eventLabel': 'religious-pluralism.syllabus.2012-fall.pdf', 
+'page': '/files/religious-pluralism.syllabus.2012-fall.pdf' 
+});">Syllabus</a> | Brandeis University, fall 2012
 
 <div class="abstract">
 
@@ -61,6 +119,4 @@ research into religious conflict.
 
 </div>
 
-  [Syllabus]: /downloads/docs/religion-19c-dh.pdf
   [Course Project]: http://omeka.lts.brandeis.edu/neatline/fullscreen/mapping-bostons-religions
-  [1]: /downloads/docs/religious-pluralism.syllabus.2012-fall.pdf

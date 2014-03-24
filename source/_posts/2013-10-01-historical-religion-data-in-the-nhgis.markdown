@@ -116,7 +116,7 @@ barely visible, though it was a primary center of American Catholicism,
 but some of the huge boundaries in the west are over represented.
 
 But we've also corrected one the major problems with the Gaustad and
-Barlow maps. These kinds of maps (called [choloropleths][]) rely on
+Barlow maps. These kinds of maps (called [choropleths][]) rely on
 changing the color within a geographic boundary according to changes in
 the data. The maps above use the same scale for each year, so the
 darkest red represents more than 40 churches per county, and the medium
@@ -208,6 +208,6 @@ start.
   [like R]: http://www.r-project.org/
   [QGIS]: http://www.qgis.org/en/site/
   [Historical Mapping with QGIS]: http://fredgibbs.net/historical-mapping-with-qgis/
-  [choloropleths]: http://en.wikipedia.org/wiki/Choropleth_map
+  [choropleths]: http://en.wikipedia.org/wiki/Choropleth_map
   [is useful]: http://usreligion.blogspot.com/2013/07/atlases-of-american-religion-print-and.html
   [Railroads and the Making of Modern America]: http://railroads.unl.edu/

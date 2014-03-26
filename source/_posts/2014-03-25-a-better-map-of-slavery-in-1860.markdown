@@ -90,7 +90,7 @@ Charleston, Nashville, Mobile, and New Orleans---important since slavery
 must be understood in terms of slave markets, commodities markets, and
 capitalism. [^2] The hinterland of slavery is also more clearly
 defined---important since the expansion of slavery was the issue in the
-sectional crisis.
+sectional crisis. [^3] 
 
 {% figure slavery-map/slaves_1860 png,svg,pdf "Number of slaves by county in 1860 (Jenks breaks)" %}
 
@@ -109,9 +109,12 @@ technological skill in making a historical map.
     Walter Johnson, *River of Dark Dreams: Slavery and Empire in the
     Cotton Kingdom*, 2013.
 
+[^3]: The code and data for the map is [on GitHub][].
+
   [tweeted]: https://twitter.com/lincolnmullen/status/448282708095934464
   [retweeted]: https://twitter.com/AntheaButler/status/448282851055009792
   [quartiles]: http://en.wikipedia.org/wiki/Quartile
   [George Jenks's algorithm]: http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization
   [Jenks method]: http://support.esri.com/en/knowledgebase/techarticles/detail/26442
   [fertile crescent]: http://www.npr.org/blogs/krulwich/2012/10/02/162163801/obama-s-secret-weapon-in-the-south-small-dead-but-still-kickin
+  [on GitHub]: https://github.com/lmullen/slavery-nhgis

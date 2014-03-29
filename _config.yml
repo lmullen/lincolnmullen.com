@@ -27,6 +27,7 @@ pandoc:
 figures:
   dir: /figures
   enumerate: true
+  analytics: true
 lsi: false
 pygments: false
 

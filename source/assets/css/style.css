@@ -721,3 +721,6 @@ figure figcaption {
   }
 }
 
+.footnotes p {
+  font-size: 0.85rem;
+}

@@ -28,7 +28,7 @@ figures:
   dir: /figures
   enumerate: true
 lsi: false
-pygments: true
+pygments: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-25121492-1

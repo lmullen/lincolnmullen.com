@@ -152,7 +152,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+  /* color: #bf616a; */
   background-color: #f9f9f9;
   border-radius: 3px;
 }
@@ -381,25 +381,26 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-@media (min-width: 30rem) {
-  .pagination {
-    margin: 3rem 0;
-  }
-  .pagination-item {
-    float: left;
-    width: 50%;
-  }
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
-  }
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
-}
+/* @media (min-width: 30rem) { */
+/*   .pagination { */
+/*     margin: 3rem 0; */
+/*   } */
+/*   .pagination-item { */
+/*     float: left; */
+/*     width: 50%; */
+/*   } */
+/*   .pagination-item:first-child { */
+/*     margin-bottom: 0; */
+/*     border-top-left-radius:    4px; */
+/*     border-bottom-left-radius: 4px; */
+/*   } */
+/*   .pagination-item:last-child { */
+/*     margin-left: -1px; */
+/*     border-top-right-radius:    4px; */
+/*     border-bottom-right-radius: 4px; */
+/*   } */
+/* } */
+
 .hll { background-color: #ffffcc }
  /*{ background: #f0f3f3; }*/
 .c { color: #999; } /* Comment */
@@ -521,20 +522,10 @@ html {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
+  /* text-align: center; */
+  padding: 1.5rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
-}
-@media (min-width: 48rem) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
 }
 
 /* Sidebar links */
@@ -548,6 +539,8 @@ html {
   margin-top: 0;
   /* font-family: "Abril Fatface", serif; */
   font-size: 1.40rem;
+  display: inline;
+  vertical-align: top;
 }
 
 /* Sidebar nav */
@@ -566,22 +559,6 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-/* Sticky sidebar
- *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
- */
-
-@media (min-width: 48rem) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
-}
-
-
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -589,26 +566,9 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    1.5rem;
+  padding-bottom: 1.5rem;
 }
-
-@media (min-width: 48rem) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
-}
-
-@media (min-width: 64rem) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
-}
-
-
 
 /*
  * Themes
@@ -631,9 +591,15 @@ a.sidebar-nav-item:focus {
 
 /* **************************************************** */
 
+#icons {
+  display: inline;
+  vertical-align: top;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
 #icons i {
   padding-right: 1rem;
-  font-size: 1.5rem;
 }
 
 #icons a {
@@ -753,3 +719,4 @@ figure figcaption {
     display: none;
   }
 }
+

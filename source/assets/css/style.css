@@ -533,6 +533,15 @@ html {
   color: #fff;
 }
 
+.sidebar-nav a {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.sidebar-nav a:first-of-type {
+  padding-left: 0rem;
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;

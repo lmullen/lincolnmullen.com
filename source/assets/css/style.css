@@ -595,11 +595,11 @@ a.sidebar-nav-item:focus {
   display: inline;
   vertical-align: top;
   margin-top: 0;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 #icons i {
-  padding-right: 1rem;
+  padding-right: .5rem;
 }
 
 #icons a {

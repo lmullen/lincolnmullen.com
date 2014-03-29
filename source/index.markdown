@@ -3,9 +3,11 @@ layout: default
 title: About
 ---
 
-Greetings. I am a PhD candidate in the [history department][] at
-[Brandeis University][] and a historian of religion in early America and
-the nineteenth century.
+I am a PhD candidate in the [history department][] at [Brandeis
+University][] and a historian of religion in early America and the
+nineteenth century. In the fall I will be an assistant professor in the
+[Department of History and Art History][] at [George Mason
+University][]. You can write to me at `lincoln@lincolnmullen.com`.
 
 #### Research
 
@@ -75,6 +77,8 @@ posts][], and these are the most recent:
 
   [history department]: http://www.brandeis.edu/departments/history/
   [Brandeis University]: http://www.brandeis.edu
+  [Department of History and Art History]: http://historyarthistory.gmu.edu/
+  [George Mason University]: http://www.gmu.edu/
   [dissertation]: /research/#dissertation
   [publications page]: /publications/
   [research]: /research/

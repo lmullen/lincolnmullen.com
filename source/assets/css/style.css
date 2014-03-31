@@ -623,11 +623,18 @@ a.sidebar-nav-item:focus {
 
 figure {
   display: block;
-  margin: 2rem 0;
+  margin: 2rem -4rem;
   padding: 0;
   font-size: .8rem;
   line-height: 1.4;
 }
+
+@media (max-width: 48rem) {
+  figure {
+    margin: 2rem 0;
+  }
+}
+
 figure img {
   margin: 0;
 }

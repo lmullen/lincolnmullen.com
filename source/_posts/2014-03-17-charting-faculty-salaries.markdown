@@ -29,7 +29,9 @@ href="/downloads/post/faculty-salaries-by-institution.svg">SVG</a>,
 href="/downloads/post/faculty-salaries-by-institution.pdf">PDF</a>)
 shows salaries grouped by institution type:
 
+<figure>
 <a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'faculty-salaries-by-institution.svg', 'page': '/downloads/post/faculty-salaries-by-institution.svg' });" href="/downloads/post/faculty-salaries-by-institution.svg"><img src="/downloads/post/faculty-salaries-by-institution.svg"></a>
+</figure>
 
 The second chart
 (<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
@@ -44,12 +46,14 @@ href="/downloads/post/faculty-salaries-by-discipline.svg">SVG</a>,
 href="/downloads/post/faculty-salaries-by-discipline.pdf">PDF</a>) shows
 salaries grouped by discipline:
 
+<figure>
 <a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 
 'eventAction': 'View', 'eventLabel': 
 'faculty-salaries-by-discipline.svg', 'page': 
 '/downloads/post/faculty-salaries-by-discipline.svg' });" 
 href="/downloads/post/faculty-salaries-by-discipline.svg"><img 
 src="/downloads/post/faculty-salaries-by-discipline.svg"></a>
+</figure>
 
 *Note:* The labels on the bars are average salaries for assistant,
 associate, and full professors; I've left out new assistant professors.

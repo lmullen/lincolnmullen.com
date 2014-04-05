@@ -9,6 +9,23 @@ nineteenth century. In the fall I will be an assistant professor in the
 [Department of History and Art History][] at [George Mason
 University][]. You can write to me at `lincoln@lincolnmullen.com`.
 
+#### Blog
+
+On this site I write an academic blog about history, religion, and
+digital humanities, and I'm also a regular contributor at at [Religion
+in American History][] and [ProfHacker][]. Here is a list of [all of my
+posts][], and these are the most recent:
+
+<ul id="posts">
+{% for post in site.posts limit: 5 %}
+<li>
+<time>{{ post.date | date: "%b %-d:" }}</time>
+<a href="{{ post.url }}">{{ post.title }}</a>
+</p>
+</li>
+{% endfor %}
+</ul>
+
 #### Research
 
 My [dissertation][], *The Varieties of Religious Conversion: The Origins
@@ -58,22 +75,6 @@ few Omeka plugins and an [Omeka API client][] written in Ruby.
 I [teach classes][] on American religious history, the nineteenth
 century, and digital humanities.
 
-#### Blog
-
-On this site I write an academic blog about history, religion, and
-digital humanities, and I'm also a regular contributor at at [Religion
-in American History][] and [ProfHacker][]. Here is a list of [all of my
-posts][], and these are the most recent:
-
-<ul id="posts">
-{% for post in site.posts limit: 5 %}
-<li>
-<time>{{ post.date | date: "%b %-d:" }}</time>
-<a href="{{ post.url }}">{{ post.title }}</a>
-</p>
-</li>
-{% endfor %}
-</ul>
 
   [history department]: http://www.brandeis.edu/departments/history/
   [Brandeis University]: http://www.brandeis.edu

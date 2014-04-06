@@ -23,10 +23,10 @@ professional, "serious" journals, and reviews that appear everywhere
 else. These reviews have entirely different purposes. When I get my copy
 of the *American Historical Review* or *Church History*, I browse the
 reviews for anything that is immediately interesting or relevant. But
-most of the time I come across reviews in journals like those through a
-search in JSTOR or some other database. In such cases I'm looking for
-reviews to find out the scholarly consensus about the worth of the book
-that has been established over time. And make no mistake, it takes
+most of the time I come across reviews in journals through a search in
+JSTOR or some other database. In such cases I'm looking for reviews to
+find out the scholarly consensus about the worth of the book that has
+been established over time. And make no mistake, it takes
 time---years---for books to be reviewed in scholarly journals. I want
 those reviews to be the plainest possible explanation of what is good
 and bad about a book, perhaps even erring on the side of letting readers
@@ -39,12 +39,12 @@ reviews can be of the highest quality---for example, take Paul Putz's
 recent [review][] of Matthew Bowman's *The Urban Pulpit*. But the
 purpose of these reviews is different. To [borrow a phrase from Dan
 Cohen][], their purpose is "catching the good." When I read a review at
-one of these sites, I want the authors to alert me to the best books,
-books they've found useful for their research or teaching, or books that
-are a [model of the historian's craft][]. I can't think of a reason why
-someone would publish a highly critical review in venues like those,
-especially since you get to pick what you review. If it's a bad book,
-don't bother reviewing it.
+one of these sites, I want the authors to alert me to the best
+books---books they've found useful for their research or teaching, or
+books that are a [model of the historian's craft][]. I can't think of a
+reason why someone would publish a highly critical review in venues like
+those, especially since you get to pick what you review. If it's a bad
+book, don't bother reviewing it.
 
 If you agree to write a review for a scholarly journal, then be as
 critical as you must, keeping in mind what Kidd [writes][The Art of the

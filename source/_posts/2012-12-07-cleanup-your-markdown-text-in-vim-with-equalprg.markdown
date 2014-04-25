@@ -26,9 +26,9 @@ variable, you can clean up your Markdown text using an external program.
 First, add this line to a `~/.vim/ftplugin/pandoc.vim` file. This code 
 tells Vim to use `=` to call Pandoc as a filter to format the text.
 
-{% highlight vim %}
-setlocal equalprg=pandoc\ -t\ markdown\ --reference-links\ --atx-headers
-{% endhighlight %}
+    {% raw %}
+    setlocal equalprg=pandoc\ -t\ markdown\ --reference-links\ --atx-headers
+    {% endraw %}
 
 Now you can select a range of text and press `=`, or go to the start of 
 the document and press `=G` to filter the whole document.
@@ -36,9 +36,9 @@ the document and press `=G` to filter the whole document.
 I've also added a keymapping to filter the whole document automatically. 
 You can put this line in the same file as above, or in your `.vimrc`.
 
-{% highlight vim %}
-nnoremap <silent> <leader>= mpgg/\v^(\w\|\#)<CR>=G`p :let @/ = ""<CR>
-{% endhighlight %}
+    {% raw %}
+    nnoremap <silent> <leader>= mpgg/\v^(\w\|\#)<CR>=G`p :let @/ = ""<CR>
+    {% endraw %}
 
 That line drops a mark at your current cursor location, goes to the
 beginning of the document, finds the first line that begins with a word

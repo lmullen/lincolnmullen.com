@@ -34,9 +34,9 @@ Second, I use the line below to highlight these markers in the text. I
 have the line in `~/.vim/after/syntax/pandoc.vim`, but you could also 
 put it in your `.vimrc`.
 
-{% highlight vim %}
-match Error '{\w\+}'
-{% endhighlight %}
+    {% raw %}
+    match Error '{\w\+}'
+    {% endraw %}
 
 The result looks like this:
 
@@ -45,9 +45,9 @@ The result looks like this:
 These markers then come in handy when it's time to clean up the draft. I
 could search for the markers, but this keymapping makes things easier:
 
-{% highlight vim %}
-nnoremap <leader>{ :vimgrep /{\w\+}/ %<CR>:copen<CR>
-{% endhighlight %}
+    {% raw %}
+    nnoremap <leader>{ :vimgrep /{\w\+}/ %<CR>:copen<CR>
+    {% endraw %}
 
 That keymapping puts all of the markers into Vim's [quickfix][] buffer, 
 which gives me a list of all the needed corrections and lets me jump 

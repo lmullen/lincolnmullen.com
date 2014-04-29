@@ -73,6 +73,35 @@ infidelity---shaped the American idea of religion.
 
 </div>
 
+
+
+### Paulists Missions, 1851--1906
+
+The Paulist Fathers are a Catholic order founded in the United States in 
+1858. Their apostolate is the conversion of Americans to Roman 
+Catholicism. Beginning with their missions as Redemptorist priests in 
+1851, the Paulists kept records of the missions that they held, the 
+number of converts they made, and the number of confessions they heard 
+(which is roughly a count of the number of people who attended the 
+missions). This map with accompanying charts demonstrates the spread of 
+Catholic missions and conversions across the United States.
+
+<a href="/projects/paulists-map/"><img style="display: 
+inline-block;
+margin-right: 5%; border: 1px solid #aaa" 
+src="/downloads/post/project-paulists-map.png" width="45%" /></a>
+
+### Historical Boundaries of the United States, 1783–1912
+
+A map of how boundaries of the states and territories of the United 
+States changed over time. The map is based on data from the Newberry 
+Library.
+
+<a href="/projects/us-boundaries/"><img style="display: 
+inline-block;
+margin-right: 5%; border: 1px solid #aaa" 
+src="/downloads/post/project-us-boundaries.png" width="45%" /></a>
+
 ### American Converts Database
 
 A database of Americans who experienced religious conversions, broadly
@@ -83,7 +112,8 @@ religion.
 margin-right: 5%; border: 1px solid #aaa" 
 src="/downloads/post/project-converts.png" width="45%" /></a>
 
-## Historical Demographics of American Religion
+
+### Historical Demographics of American Religion
 
 Data and R scripts to track the historical demographics of American
 religion from primary sources.

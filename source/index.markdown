@@ -34,14 +34,21 @@ between religions in the nineteenth-century United States. The
 [publications page][] lists my publications and talks and provides the
 full text if possible.
 
-My [research][] is made public in databases and other digital projects.
-Along with [Erin Bartram][], I've created the [American Converts
-Database][], and I'm in the very beginning stages of a project on the
-[historical demographics of American religion][]. On the side I'm
-writing a series of posts on [Analyzing Historical History
-Dissertations][].
+Below are some of the historical maps, visualizations, database, and
+publication projects that I am working on, which are also listed on the
+[research page][reseach].
 
 <div style="display: inline-block;">
+
+<p>
+<a
+href="/projects/us-boundaries/"><img style="display: inline-block;
+margin-right: 6%; border: 1px solid #aaa"
+src="/downloads/post/project-us-boundaries.png" width="45%" /></a><a
+href="/projects/paulists-map/"><img
+style="display: inline-block; border: 1px solid #aaa"
+src="/downloads/post/project-paulists-map.png" width="45%" /></a>
+</p>
 
 <p>
 <a
@@ -52,6 +59,7 @@ href="https://github.com/lmullen/demographics-religion/"><img
 style="display: inline-block; border: 1px solid #aaa"
 src="/downloads/post/project-demographics.png" width="45%" /></a>
 </p>
+
 
 <p>
 <a href="/research/history-dissertations/"><img style="display: 
@@ -67,29 +75,24 @@ src="/downloads/post/project-jsr.png" width="45%" /></a>
 </div>
 
 Much of my research is augmented by coding projects or expressed in
-code. These projects are listed on the [research page][research]. Most
-recently I've been working with on the [gender package][] for R, which
-infers gender based on first names and a range of years, along with a
-few Omeka plugins and an [Omeka API client][] written in Ruby.
+code. These projects are listed on the [research page][]. Most recently
+I've been working with on the [gender package][] for R, which infers
+gender based on first names and a range of years, along with a few Omeka
+plugins and an [Omeka API client][] written in Ruby.
 
 I [teach classes][] on American religious history, the nineteenth
 century, and digital humanities.
-
 
   [history department]: http://www.brandeis.edu/departments/history/
   [Brandeis University]: http://www.brandeis.edu
   [Department of History and Art History]: http://historyarthistory.gmu.edu/
   [George Mason University]: http://www.gmu.edu/
-  [dissertation]: /research/#dissertation
-  [publications page]: /publications/
-  [research]: /research/
-  [Erin Bartram]: http://history.uconn.edu/graduate/bartram.php
-  [American Converts Database]: http://americanconverts.org
-  [historical demographics of American religion]: https://github.com/lmullen/demographics-religion
-  [Analyzing Historical History Dissertations]: /research/history-dissertations/
-  [gender package]: https://github.com/lmullen/gender
-  [Omeka API client]: https://github.com/lmullen/omeka_client
-  [teach classes]: /teaching/
   [Religion in American History]: http://usreligion.blogspot.com/
   [ProfHacker]: http://chronicle.com/blogs/profhacker/
   [all of my posts]: /blog/
+  [dissertation]: /research/#dissertation
+  [publications page]: /publications/
+  [research page]: /research/
+  [gender package]: https://github.com/lmullen/gender
+  [Omeka API client]: https://github.com/lmullen/omeka_client
+  [teach classes]: /teaching/

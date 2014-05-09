@@ -36,7 +36,7 @@ full text if possible.
 
 Below are some of the historical maps, visualizations, database, and
 publication projects that I am working on, which are also listed on the
-[research page][reseach].
+[research page][].
 
 <div style="display: inline-block;">
 

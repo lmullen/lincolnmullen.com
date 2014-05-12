@@ -42,10 +42,11 @@ publication projects that I am working on, which are also listed on the
 
 <p>
 <a
-href="/projects/us-boundaries/"><img style="display: inline-block;
+href="http://lincolnmullen.com/projects/us-boundaries/"><img 
+style="display: inline-block;
 margin-right: 6%; border: 1px solid #aaa"
-src="/downloads/post/project-us-boundaries.png" width="45%" /></a><a
-href="/projects/paulists-map/"><img
+src="/downloads/post/project-us-boundaries.png" width="45%" /></a>
+<a href="/projects/paulists-map/"><img
 style="display: inline-block; border: 1px solid #aaa"
 src="/downloads/post/project-paulists-map.png" width="45%" /></a>
 </p>
@@ -54,10 +55,11 @@ src="/downloads/post/project-paulists-map.png" width="45%" /></a>
 <a
 href="http://americanconverts.org"><img style="display: inline-block;
 margin-right: 6%; border: 1px solid #aaa"
-src="/downloads/post/project-converts.png" width="45%" /></a><a
-href="https://github.com/lmullen/demographics-religion/"><img
+src="/downloads/post/project-converts.png" width="45%" /></a>
+<a href="http://lincolnmullen.com/projects/slavery/"><img
 style="display: inline-block; border: 1px solid #aaa"
-src="/downloads/post/project-demographics.png" width="45%" /></a>
+src="/downloads/post/project-slavery.png" width="45%" /></a>
+</a>
 </p>
 
 

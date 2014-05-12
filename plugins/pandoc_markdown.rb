@@ -3,9 +3,6 @@ module Jekyll
     class Markdown < Converter
       safe true
 
-      pygments_prefix "\n"
-      pygments_suffix "\n"
-
       def setup
         return if @setup
         @parser = case @config['markdown']

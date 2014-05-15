@@ -2,7 +2,13 @@
 date: '2014-05-12 13:00'
 layout: post
 title: Mapping the Spread of American Slavery
+categories: 
+ - Smithsonian
 ...
+
+*[A revised version of this post [was published at Smithsonian.com][].]*
+
+  [was published at Smithsonian.com]: http://www.smithsonianmag.com/history/maps-reveal-slavery-expanded-across-united-states-180951452/
 
 In September of 1861, the U.S. Coast Survey published a [large map][],
 just under three feet square, titled a "Map showing the distribution of

@@ -42,7 +42,9 @@ Bostock][] and [Jason Davies][], the kinds of perspectives that Harrison
 used are available to web mapmakers.[^1] As part of the [geographic
 projections][] available in [D3][], Bostock has created a [satellite
 projection][], with which the mapmaker can control the view of the earth
-as from a camera mounted on satellite.
+as from a camera mounted on satellite. Such a map could be combined with 
+any of the visualization techniques---choropleth shading, bubble maps, 
+place names---for which [D3][] is known.
 
 {% figure harrison/bostock-satellite png "An example of Bostock's [satellite projection][]." %}
 
@@ -61,7 +63,7 @@ example, a map that redraws the Atlantic slave trade from the
 perspective of West Africa, or a map that literally [faces east from 
 Indian country][]. As is often the case when I read Schulten's work, 
 the historical maps she studies provide a useful suggestion for 
-historians should be imagining their own maps.
+how historians could make their own maps to imagine the past.
 
 {% figure harrison/facing-east png "Looking east over the Chesapeake." %}
 

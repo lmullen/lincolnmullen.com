@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: .htaccess
+...
+
+Redirect 302 /officehours https://www.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI

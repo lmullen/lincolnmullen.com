@@ -3,31 +3,28 @@ layout: page
 title: Teaching
 ---
 
-### Programming for Historians
+### Programming in History/New Media 
 
-<a href="/files/clio3.syllabus.hist698.2014f.pdf" onclick="ga('send', 
-'event', { 'eventCategory': 'PDF', 'eventAction': 'Download', 
-'eventLabel': 'clio3.syllabus.hist698.2014f.pdf', 'page': 
-'/files/clio3.syllabus.hist698.2014f.pdf' });">Syllabus</a> | George
-Mason University, fall 2014
+[Syllabus and course 
+website](http://lincolnmullen.com/courses/clio3.2014/) | George
+Mason University, fall 2014 (HIST 698)
 
 <div class="abstract">
 
-This course will teach you have to use computer programming for research
-in history. The focus is on gaining familiarity with several languages
-in order to understand their underlying principles, and on connecting
-programming methods to specific problems that historians want to solve.
-Our first major section will be on data analysis, in which you will use
-the R language to analyze historical data both quantitatively and
-geographically. You will also learn how researchers structure,
-manipulate, and clean their data. Our next major section will be on
-scripting for research, using Ruby to access APIs and scrape web
-documents. Then we will use Ruby to create our own simple web
-applications and to interact with relational databases. Finally we will
-move on from Ruby to PHP, a commonly used language for web applications
-like Omeka and WordPress. No previous experience with programming is
-required, but students are strongly encouraged to have already taken
-Clio 1 and Clio 2.
+This class will introduce you to the rudiments of programming languages; 
+even more, the class will teach you how to learn how to learn whatever 
+programming techniques you need to solve scholarly problems. We will 
+spend the first month on a general introduction to programming. Most of 
+the course will focus on applying programming techniques to historical 
+research. Each week you will learn a new technique—such as a 
+visualization, mapping, network analysis, text-mining—using real 
+historical data to develop arguments and interpretation. By the end of 
+the semester you will create a programming project of your choice which 
+will help you in your future scholarly research. The main languages that 
+you will learn are JavaScript (a language obligatory for the web but 
+useful for many applications) and R (a statistical programming language 
+well-suited to scholarly purposes), but you are encouraged to learn any 
+language you like for the final project.
 
 </div>
 

@@ -1,11 +1,9 @@
 ---
 layout: default
 title: About
----
+...
 
-I am a PhD candidate in the [history department][] at [Brandeis
-University][] and a historian of religion in early America and the
-nineteenth century. In the fall I will be an assistant professor in the
+I am a historian of American religions and an assistant professor in the
 [Department of History and Art History][] at [George Mason
 University][]. You can write to me at `lincoln@lincolnmullen.com`.
 
@@ -13,8 +11,8 @@ University][]. You can write to me at `lincoln@lincolnmullen.com`.
 
 On this site I write an academic blog about history, religion, and
 digital humanities, and I'm also a regular contributor at at [Religion
-in American History][] and [ProfHacker][]. Here is a list of [all of my
-posts][], and these are the most recent:
+in American History][]. Here is a list of [all of my posts][], and these
+are the most recent:
 
 <ul id="posts">
 {% for post in site.posts limit: 5 %}
@@ -58,8 +56,7 @@ margin-right: 6%; border: 1px solid #aaa"
 src="/downloads/post/project-converts.png" width="45%" /></a>
 <a href="http://lincolnmullen.com/projects/slavery/"><img
 style="display: inline-block; border: 1px solid #aaa"
-src="/downloads/post/project-slavery.png" width="45%" /></a>
-</a>
+src="/downloads/post/project-slavery.png" width="45%" /></a> </a>
 </p>
 
 
@@ -85,12 +82,9 @@ plugins and an [Omeka API client][] written in Ruby.
 I [teach classes][] on American religious history, the nineteenth
 century, and digital humanities.
 
-  [history department]: http://www.brandeis.edu/departments/history/
-  [Brandeis University]: http://www.brandeis.edu
   [Department of History and Art History]: http://historyarthistory.gmu.edu/
   [George Mason University]: http://www.gmu.edu/
   [Religion in American History]: http://usreligion.blogspot.com/
-  [ProfHacker]: http://chronicle.com/blogs/profhacker/
   [all of my posts]: /blog/
   [dissertation]: /research/#dissertation
   [publications page]: /publications/

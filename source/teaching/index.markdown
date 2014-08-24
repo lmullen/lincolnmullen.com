@@ -1,36 +1,34 @@
 ---
 layout: page
 title: Teaching
----
+...
 
-### Programming in History/New Media 
+### Programming in History/New Media
 
-[Syllabus and course 
-website](http://lincolnmullen.com/courses/clio3.2014/) | George
-Mason University, fall 2014 (HIST 698)
+[Syllabus and course website][] | George Mason University, fall 2014
 
 <div class="abstract">
 
-This class will introduce you to the rudiments of programming languages; 
-even more, the class will teach you how to learn how to learn whatever 
-programming techniques you need to solve scholarly problems. We will 
-spend the first month on a general introduction to programming. Most of 
-the course will focus on applying programming techniques to historical 
-research. Each week you will learn a new technique—such as a 
-visualization, mapping, network analysis, text-mining—using real 
-historical data to develop arguments and interpretation. By the end of 
-the semester you will create a programming project of your choice which 
-will help you in your future scholarly research. The main languages that 
-you will learn are JavaScript (a language obligatory for the web but 
-useful for many applications) and R (a statistical programming language 
-well-suited to scholarly purposes), but you are encouraged to learn any 
+This class will introduce you to the rudiments of programming languages;
+even more, the class will teach you how to learn how to learn whatever
+programming techniques you need to solve scholarly problems. We will
+spend the first month on a general introduction to programming. Most of
+the course will focus on applying programming techniques to historical
+research. Each week you will learn a new technique—such as a
+visualization, mapping, network analysis, text-mining—using real
+historical data to develop arguments and interpretation. By the end of
+the semester you will create a programming project of your choice which
+will help you in your future scholarly research. The main languages that
+you will learn are JavaScript (a language obligatory for the web but
+useful for many applications) and R (a statistical programming language
+well-suited to scholarly purposes), but you are encouraged to learn any
 language you like for the final project.
 
 </div>
 
 ### Church and State in America
 
-George Mason University, fall 2014
+[Syllabus and course website][1] | George Mason University, fall 2014
 
 <div class="abstract">
 
@@ -116,4 +114,6 @@ research into religious conflict.
 
 </div>
 
+  [Syllabus and course website]: http://lincolnmullen.com/courses/clio3.2014/
+  [1]: http://lincolnmullen.com/courses/church-state.2014/
   [Course Project]: http://omeka.lts.brandeis.edu/neatline/fullscreen/mapping-bostons-religions

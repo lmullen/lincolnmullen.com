@@ -1,7 +1,7 @@
 require "rake/clean"
 require "stringex"
 
-desc "New draft post"
+desc "New draft post in its own branch"
 task :new_draft do |t|
 
   branch   = get_stdin("What is the name of the branch? ").to_url
@@ -20,6 +20,30 @@ task :new_draft do |t|
     post.puts "categories: "
     post.puts "---"
   end
+
+end
+
+desc "Create new post on master branch and open Vim"
+task :new_post do |t|
+
+  title    = get_stdin("What is the title of your post? ")
+  filename = "source/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+
+  puts "Creating new draft: #{filename}" 
+  open(filename, "w") do |post|
+    post.puts "---"
+    post.puts "layout: post"
+    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "categories: "
+    post.puts "---"
+  end
+
+  editor = fork do
+    exec "mvim #{filename}"
+  end
+
+  Process.detach(editor)
 
 end
 

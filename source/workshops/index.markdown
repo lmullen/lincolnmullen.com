@@ -1,7 +1,19 @@
 ---
 layout: page
 title: Workshops
----
+...
+
+### Introduction to Mapping and Spatial History
+
+[Doing Digital History][], NEH-ODH Summer Institute, George Mason
+University, August 11, 2014
+
+<div class="abstract">
+
+Most of this workshop was hands on, but the [slides and notes][] from
+the introductory session are available.
+
+</div>
 
 ### Data Analysis for Humanists
 
@@ -104,6 +116,8 @@ ProfHacker posts may also be helpful.
 
 </div>
 
+  [Doing Digital History]: http://history2014.doingdh.org/
+  [slides and notes]: /downloads/pdf/spatial-history.doing-dh.pdf
   [THATCamp American Historical Association 2014]: http://aha2014.thatcamp.org/
   [THATCamp American Academy of Religion 2013]: http://aar2013.thatcamp.org/
   [statistical programming language R]: http://www.r-project.org/

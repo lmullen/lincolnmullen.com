@@ -665,3 +665,12 @@ figure figcaption em {
 .footnotes {
   font-size: 0.85rem;
 }
+
+.post-type {
+  display: inline-block;
+  min-width: 1.2rem;
+}
+
+.post-type a:hover {
+  text-decoration: none;
+}

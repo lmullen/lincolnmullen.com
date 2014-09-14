@@ -4,6 +4,7 @@ categories:
 date: '2014-09-12 09:15'
 layout: post
 title: Timothy Larsen on The Noah Sphinx
+link: http://www.booksandculture.com/articles/2014/sepoct/noah-sphinx.html
 ...
 
 Over at *Books and Culture*, Timothy Larsen has an [entertaining

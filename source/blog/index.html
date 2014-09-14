@@ -19,8 +19,15 @@ navigation: true
     {% when 'September' %}Sept.
     {% else %}{{ post.date | date: "%b" }}.
   {% endcase %}
-  {{ post.date | date: "%-d" }}:
+  {{ post.date | date: "%-d" }}
   </time>
+  <span class="post-type">
+    {% if post.link %}
+      <a href="{{ post.link }}" title="Link post">&rarr;</a>
+    {% else %}
+      &nbsp;
+    {% endif %}
+  </span>
   <a href="{{ post.url }}">{{ post.title }}</a>
   </p>
   {% endfor %}

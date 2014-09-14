@@ -3,6 +3,26 @@ layout: page
 title: Teaching
 ...
 
+### Religion and Capitalism in the U.S.
+
+George Mason University, spring 2015
+
+<div class="abstract">
+
+Course description forthcoming
+
+</div>
+
+### The Digital Past
+
+George Mason University, spring 2015
+
+<div class="abstract">
+
+Course description forthcoming
+
+</div>
+
 ### Programming in History/New Media
 
 [Syllabus and course website][] | George Mason University, fall 2014

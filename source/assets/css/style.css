@@ -33,12 +33,12 @@ html {
 }
 @media (min-width: 48rem) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 58rem) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
 }
-h2 {
+.post h3, h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
@@ -80,7 +80,7 @@ h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
-h4, h5, h6 {
+.link h3, h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -172,7 +172,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  border-left: .25rem solid #aaaaaa;
+  border-left: .25rem solid #ddd;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -673,4 +673,27 @@ figure figcaption em {
 
 .post-type a:hover {
   text-decoration: none;
+}
+
+.article-finish p {
+  width: 100%;
+  font-size: 1.5rem;
+  color: #999;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.permalink {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.post-metadata {
+  font-size: .9rem;
+  color: #999;
+  margin-top: -0.5rem;
+}
+
+.blog-separator {
+  border-top: 1px solid #ccc;
 }

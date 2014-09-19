@@ -19,7 +19,23 @@ George Mason University, spring 2015
 
 <div class="abstract">
 
-Course description forthcoming
+In this class, you will to learn to do history using digital tools. The
+course---which satisfies the university's IT requirement---teaches the
+fundamentals of information technology within the context of a history
+course rather than as a set of abstract principles or discrete skills
+tied to particular software packages. The content focus for the course
+will be the history of American religions, but the skills you learn over
+the semester will be useful to you throughout your university career and
+in your professional life. In our Active Learning Environment, you will
+work with your classmates to locate and analyze digitized historical
+primary sources; research and synthesize secondary sources to offer
+context for your primary source work; publish your work online using
+content management systems; gather and refine data from many sources to
+produce effective visualizations; create digital maps that offer a
+spatial context for your primary sources; analyze and interpret large
+corpora of texts; and, combine all of these skills together to ask and
+answer an historical inquiry question. Above all, this is a course about
+learning by doing.
 
 </div>
 

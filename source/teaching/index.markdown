@@ -21,21 +21,21 @@ George Mason University, spring 2015
 
 In this class, you will to learn to do history using digital tools. The
 course---which satisfies the university's IT requirement---teaches the
-fundamentals of information technology within the context of a history
-course rather than as a set of abstract principles or discrete skills
-tied to particular software packages. The content focus for the course
-will be the history of American religions, but the skills you learn over
-the semester will be useful to you throughout your university career and
-in your professional life. In our Active Learning Environment, you will
-work with your classmates to locate and analyze digitized historical
-primary sources; research and synthesize secondary sources to offer
-context for your primary source work; publish your work online using
-content management systems; gather and refine data from many sources to
-produce effective visualizations; create digital maps that offer a
-spatial context for your primary sources; analyze and interpret large
-corpora of texts; and, combine all of these skills together to ask and
-answer an historical inquiry question. Above all, this is a course about
-learning by doing.
+fundamentals of information technology by applying them to a practical
+problem in history. Throughout the semester, you will work individually
+and with classmates on a research project about American religious
+history. You will learn how to do research online, but also how to put
+those sources in the context of other scholarly work. You will gather
+data, learn how to question it, analyze it, summarize it, and interpret
+it. You will create visualizations of datasets, especially maps. But you
+will also learn how to integrate data with narratives from individual
+lives. You will learn how to present visual and textual sources online
+in web exhibits, and you will learn how to write and publish effectively
+online. Through learning by doing, you will gain many digital skills
+which are broadly applicable; even more important, you will learn how to
+use these skills to create arguments and stories. This combination will
+be useful to you throughout your university career and in your
+professional life.
 
 </div>
 

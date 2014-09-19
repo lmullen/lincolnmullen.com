@@ -9,7 +9,29 @@ George Mason University, spring 2015
 
 <div class="abstract">
 
-Course description forthcoming
+It seems obvious that there is *some* relationship between religion and
+capitalism, but what is that relationship? Historians of the United
+States have tried to answer this question in many ways; even more, it
+was a problem that perplexed the people whom historians study. In this
+class, you will meet many people whose religion led them to interact
+with capitalism in incredibly diverse ways. You will meet the Puritans
+whose work ethic supposedly created capitalism, but who insisted on
+resting on the Sabbath; Moravian missionaries who made converts and
+money; slaves, slaveowners, and abolitionists who all claimed the Bible
+when reckoning with the capitalist system of slavery; a Protestant
+writer who insisted that Jesus was a businessman, and Catholics who
+believed Jesus called them to a kind of socialism; Jews who
+mass-manufactured matzah and who were prosecuted for breaking Sunday
+"blue laws"; an industrialist who wrote *The Gospel of Wealth*, and
+laborers who created churches for the working class; nineteenth-century
+consumers who turned gift-giving into a ritual, and a
+twenty-first-century television personality who turned consumption into
+therapy; converts who thought religion required poverty, and Prosperity
+Gospelers who thought it promised wealth. You will read primary sources
+from American history, secondary works in both religious history and the
+new history of capitalism, and excerpts from theorists of religion and
+capitalism. Through these readings and your own research project, you
+are invited make sense of this perpetual historical puzzle.
 
 </div>
 

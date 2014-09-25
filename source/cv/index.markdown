@@ -73,6 +73,7 @@ Maps and visualizations:
 
 [Open-source contributions][] to scholarly software and data:
 
+-   [historydata][], an R data package with datasets for historians
 -   [Demographics of religion][], data about the history of American
     religions
 -   [mullenMisc][], R package for data analysis
@@ -348,9 +349,10 @@ CSS
   [Historical Boundaries of the United States, 1783--1912]: http://lincolnmullen.com/projects/us-boundaries/
   [Paulists Missions, 1851--1906]: http://lincolnmullen.com/projects/paulists-map/
   [Analyzing Historical History Dissertations]: http://lincolnmullen.com/research/history-dissertations/
-  [Faculty Salaries by Discipline, Rank, and Institution]: Faculty%20Salaries%20by%20Discipline,%20Rank,%20and%20Institution
+  [Faculty Salaries by Discipline, Rank, and Institution]: http://lincolnmullen.com/blog/charting-faculty-salaries/
   [Catholic Dioceses in the US, Canada, and Mexico]: http://lincolnmullen.com/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/
   [Open-source contributions]: http://github.com/lmullen
+  [historydata]: https://github.com/lmullen/historydata
   [Demographics of religion]: https://github.com/lmullen/demographics-religion
   [mullenMisc]: https://github.com/lmullen/mullenMisc
   [jekyll\_figure]: https://github.com/lmullen/jekyll_figure

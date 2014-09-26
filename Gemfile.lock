@@ -85,6 +85,7 @@ DEPENDENCIES
   atom-tools
   jekyll (>= 1.4.3)
   jekyll_figure
+  json (>= 1.8.1)
   pandoc-ruby
   pygments.rb (>= 0.5.0)
   rake

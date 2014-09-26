@@ -1,6 +1,11 @@
 require "rake/clean"
 require "stringex"
 
+task :version do
+  `ruby --version`
+  `which ruby`
+end
+
 desc "New draft post in its own branch"
 task :new_draft do |t|
 
@@ -18,7 +23,7 @@ task :new_draft do |t|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "categories: "
-    post.puts "---"
+    post.puts "..."
   end
 
 end
@@ -36,7 +41,7 @@ task :new_post do |t|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "categories: "
-    post.puts "---"
+    post.puts "..."
   end
 
   editor = fork do

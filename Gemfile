@@ -9,4 +9,5 @@ group :development do
   gem 'stringex'
   gem 'atom-tools'
   gem 'jekyll_figure'
+  gem 'json', '>= 1.8.1'
 end

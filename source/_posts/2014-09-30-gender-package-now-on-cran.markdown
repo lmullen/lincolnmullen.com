@@ -19,7 +19,8 @@ package [README at GitHub][]. This is the package description:
 > gender of a name, and it is able to report the probability that a name
 > was male or female.
 
-The package was based on an idea by [Cameron Blevins][] and includes
+The package was based on an idea by [Cameron Blevins][], with whom I'm
+collaborating on a related article, and it includes significant
 contributions from [Ben Schmidt][].
 
   [Gender]: http://cran.r-project.org/web/packages/gender/index.html

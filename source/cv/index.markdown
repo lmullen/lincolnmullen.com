@@ -322,11 +322,11 @@ CSS
 
 ## Professional Memberships
 
--   American Academy of Religion
 -   American Catholic Historical Association
 -   American Historical Association
 -   American Society of Church History
 -   Conference on Faith and History
+-   Organization of American Historians
 
   [Department of History and Art History]: http://historyarthistory.gmu.edu/
   [The Varieties of American Conversion: The Origins of Religious Choice

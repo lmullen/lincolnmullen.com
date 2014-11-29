@@ -68,20 +68,17 @@ task :preview do
 
 end
 
-desc "Build the production version of the site"
 task :build do
   puts "\nBuilding the production version of the site ..."
   ok_failed system "jekyll build"
 end
 
-desc "Copy CV"
 task :cv do
   puts "\nCopying the CV..."
   FileUtils.cp("/home/lmullen/acad/cv/Mullen-cv.pdf", 
                "./source/downloads/docs/Mullen-cv.pdf")
 end
 
-desc "Deploy the site via rsync"
 task :rsync do
   puts "\nDeploying the site via rsync..."
 

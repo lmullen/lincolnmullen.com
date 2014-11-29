@@ -73,6 +73,8 @@ Maps and visualizations:
 
 [Open-source contributions][] to scholarly software and data:
 
+-   [USAboundaries][], an R package for historical maps of the United
+    States
 -   [historydata][], an R data package with datasets for historians
 -   [Demographics of religion][], data about the history of American
     religions
@@ -352,6 +354,7 @@ CSS
   [Faculty Salaries by Discipline, Rank, and Institution]: http://lincolnmullen.com/blog/charting-faculty-salaries/
   [Catholic Dioceses in the US, Canada, and Mexico]: http://lincolnmullen.com/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/
   [Open-source contributions]: http://github.com/lmullen
+  [USAboundaries]: https://github.com/ropensci/usaboundaries
   [historydata]: https://github.com/lmullen/historydata
   [Demographics of religion]: https://github.com/lmullen/demographics-religion
   [mullenMisc]: https://github.com/lmullen/mullenMisc

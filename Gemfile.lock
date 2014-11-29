@@ -12,18 +12,11 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     colorator (0.1)
-    colored (1.2)
-    configure-s3-website (1.6.0)
-      deep_merge (= 1.0.0)
-    deep_merge (1.0.0)
-    dotenv (0.11.1)
-      dotenv-deployment (~> 0.0.2)
-    dotenv-deployment (0.0.2)
     execjs (2.2.2)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     hitimes (1.2.2)
-    jekyll (2.4.0)
+    jekyll (2.5.2)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
       jekyll-coffeescript (~> 1.0)
@@ -50,7 +43,7 @@ GEM
     json (1.8.1)
     kramdown (1.5.0)
     liquid (2.6.1)
-    listen (2.8.0)
+    listen (2.8.3)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -62,20 +55,14 @@ GEM
     pygments.rb (0.6.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rake (10.3.2)
+    rake (10.4.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.2.0)
-    s3_website (2.6.1)
-      colored (= 1.2)
-      configure-s3-website (= 1.6.0)
-      dotenv (~> 0.11.1)
-      thor (= 0.18.1)
+    redcarpet (3.2.1)
     safe_yaml (1.0.4)
-    sass (3.4.8)
+    sass (3.4.9)
     stringex (2.5.2)
-    thor (0.18.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -87,11 +74,9 @@ PLATFORMS
 
 DEPENDENCIES
   atom-tools
-  jekyll (= 2.4.0)
+  jekyll (= 2.5.2)
   jekyll_figure
   json (>= 1.8.1)
   pandoc-ruby
-  pygments.rb (>= 0.5.0)
   rake
-  s3_website (>= 1.6.11)
   stringex

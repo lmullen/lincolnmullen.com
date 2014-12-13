@@ -86,8 +86,8 @@ I use a few Mac or web apps: [iTerm 2][] as a terminal emulator;
 [OmniFocus][] for task management, which I could probably use better;
 [BackBlaze][] for online backups; [DropBox][] for file syncing;
 [Caffeine][] to keep my monitor from going to sleep while I'm teaching;
-[QGIS][] for GIS work if I really must; [Tranmit][] for FTP and Amazon
-S3; [TextExpander][] for snippets; [Spectactle][] for window management;
+[QGIS][] for GIS work if I really must; [Transmit][] for FTP and Amazon
+S3; [TextExpander][] for snippets; [Spectacle][] for window management;
 [Feedly][] for reading feeds.
 
 My open-source or open-access licenses of choice are [MIT][] for
@@ -162,9 +162,9 @@ licenses.
   [DropBox]: https://db.tt/f5srxqL
   [Caffeine]: http://lightheadsw.com/caffeine/
   [QGIS]: http://www.qgis.org/en/site/
-  [Tranmit]: http://panic.com/transmit/
+  [Transmit]: http://panic.com/transmit/
   [TextExpander]: http://smilesoftware.com/TextExpander/index.html
-  [Spectactle]: http://spectacleapp.com/
+  [Spectacle]: http://spectacleapp.com/
   [Feedly]: http://feedly.com/
   [MIT]: http://opensource.org/licenses/MIT
   [CC-BY]: http://creativecommons.org/licenses/by/4.0/

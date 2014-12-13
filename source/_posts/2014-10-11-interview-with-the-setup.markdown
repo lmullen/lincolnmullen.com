@@ -1,13 +1,14 @@
 ---
-date: '2014-10-11 13:31'
+date: '2014-12-13 11:31'
 layout: post
 title: Interview with the Setup
 ...
 
-*[I was interviewed by [The Setup][]. The original interview is there
-and below.]*
+*[I was interviewed by [The Setup][], "a collection of nerdy interviews
+asking people from all walks of life what they use to get the job done."
+The interview is [there][The Setup] and below.]*
 
-### 1) Who are you, and what do you do?
+#### Who are you, and what do you do?
 
 My name is [Lincoln Mullen][] and I'm a historian at [George Mason
 University][]. I teach and write about American religious history; at
@@ -18,7 +19,7 @@ I'm responsible for teaching a [graduate course on computer programming
 for historians][], for which I'm writing a book (still very much a rough
 draft) on [using R for digital history][].
 
-### 2) What hardware do you use?
+#### What hardware do you use?
 
 I have a [15" MacBook Pro][] with an Intel i7 processor, an SSD, and 16
 GB of RAM provided by my department. I also use a [ThinkPad T430][]
@@ -29,7 +30,7 @@ more and more dislike using a phone for anything.
 I really like my [Timbuk2 Command Laptop messenger][]; I wouldn't change
 a thing about it.
 
-### 3) And what software?
+#### And what software?
 
 I used to play around with software much too often. Now I've settled
 down with a few organizing principles influenced by Mike Gancarz's
@@ -92,7 +93,7 @@ S3; [TextExpander][] for snippets; [Spectactle][] for window management;
 My open-source or open-access licenses of choice are [MIT][] for
 software and [CC-BY][] for prose.
 
-### 4) What would be your dream setup?
+#### What would be your dream setup?
 
 I have plenty of computing power and can rent more cheaply. I don't even
 have much to complain about when it comes to battery power. I wish that

@@ -4,6 +4,9 @@ layout: post
 title: Interview with the Setup
 ...
 
+*[I was interviewed by [The Setup][]. The original interview is there
+and below.]*
+
 ### 1) Who are you, and what do you do?
 
 My name is [Lincoln Mullen][] and I'm a historian at [George Mason
@@ -11,9 +14,8 @@ University][]. I teach and write about American religious history; at
 the moment I'm writing a history of people who converted between
 religions in the nineteenth-century United States. I'm also a digital
 historian at the [Roy Rosenzweig Center for History and New Media][].
-Among the many projects created by my colleagues at RRCHNM do, I'm
-responsible for teaching a [graduate course on computer programming for
-historians][], for which I'm writing a book (still very much a rough
+I'm responsible for teaching a [graduate course on computer programming
+for historians][], for which I'm writing a book (still very much a rough
 draft) on [using R for digital history][].
 
 ### 2) What hardware do you use?
@@ -108,6 +110,7 @@ humanities to be released online (in pre-prints like [arXiv][], or in
 final versions) in open formats and hopefully under open-access
 licenses.
 
+  [The Setup]: http://lincoln.mullen.usesthis.com/
   [Lincoln Mullen]: http://lincolnmullen.com
   [George Mason University]: http://historyarthistory.gmu.edu/
   [Roy Rosenzweig Center for History and New Media]: http://chnm.gmu.edu/

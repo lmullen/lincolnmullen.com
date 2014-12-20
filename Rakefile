@@ -85,7 +85,7 @@ task :rsync do
   ssh_port       = "22"
   ssh_user       = "lincolnm@lincolnmullen.org"
   rsync_delete   = true
-  rsync_options  = "--checksum --stats -avze"
+  rsync_options  = "--checksum --stats --info=progress2 -avz -e"
   public_dir     = "public" 
   document_root  = "~/public_html/lincolnmullen.com"
 

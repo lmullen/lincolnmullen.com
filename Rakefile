@@ -75,8 +75,15 @@ end
 
 task :cv do
   puts "\nCopying the CV..."
-  FileUtils.cp("/home/lmullen/acad/cv/Mullen-cv.pdf", 
+  FileUtils.cp("/Users/lmullen/acad/cv/Mullen-cv.pdf", 
                "./source/downloads/docs/Mullen-cv.pdf")
+end
+
+desc "Copy cartographer vignette"
+task :cartographer do
+  puts "\nCopying Cartographer vignette..."
+  FileUtils.cp("/Users/lmullen/dev/cartographer/inst/doc/cartographer.html",
+               "./source/research/cartographer/index.html")
 end
 
 task :rsync do

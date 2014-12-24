@@ -73,6 +73,9 @@ Maps and visualizations:
 
 [Open-source contributions][] to scholarly software and data:
 
+-   [cartographer][], an R package for interactive maps using
+    d3-carto-map
+-   [omekaR][], an Omeka API client for R
 -   [USAboundaries][], an R package for historical maps of the United
     States
 -   [historydata][], an R data package with datasets for historians
@@ -354,6 +357,8 @@ CSS
   [Faculty Salaries by Discipline, Rank, and Institution]: http://lincolnmullen.com/blog/charting-faculty-salaries/
   [Catholic Dioceses in the US, Canada, and Mexico]: http://lincolnmullen.com/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/
   [Open-source contributions]: http://github.com/lmullen
+  [cartographer]: http://lincolnmullen.com/research/cartographer/
+  [omekaR]: https://github.com/lmullen/omekaR
   [USAboundaries]: https://github.com/ropensci/usaboundaries
   [historydata]: https://github.com/lmullen/historydata
   [Demographics of religion]: https://github.com/lmullen/demographics-religion

@@ -4,3 +4,5 @@ permalink: .htaccess
 ...
 
 Redirect 302 /officehours https://www.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI
+
+Redirect 302 /projects/coding-poster http://lincolnmullen.com/blog/poster-teaching-graduate-students-to-code

@@ -5,7 +5,7 @@ categories:
 - teaching
 date: '2014-12-31 09:03'
 layout: post
-title: Roundup of Syllabi from the Fall Semester
+title: Religious History and Religious Studies Syllabi from the Past Semester
 ...
 
 *[This post was originally published at [Religion in American

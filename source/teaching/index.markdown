@@ -5,7 +5,7 @@ title: Teaching
 
 ### Religion and Capitalism in the U.S.
 
-George Mason University, spring 2015
+[Syllabus](http://lincolnmullen.com/courses/religion-capitalism.2015/) | [Course blog](http://lincolnmullen.com/course-blogs/religion-capitalism-2015/) | George Mason University, spring 2015
 
 <div class="abstract">
 

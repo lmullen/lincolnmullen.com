@@ -701,3 +701,7 @@ figure figcaption em {
 .blog-separator {
   border-top: 1px solid #ccc;
 }
+
+sup {
+  line-height: 1em;
+}

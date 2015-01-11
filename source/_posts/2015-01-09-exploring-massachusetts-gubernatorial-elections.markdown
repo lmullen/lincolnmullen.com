@@ -1,12 +1,12 @@
 ---
 date: '2015-01-09 20:35'
 layout: post
-title: Exploring Massachusetts Gubernatorial Elections in the Early Republic
+title: Exploring Elections for Massachusetts Governor in the Early Republic
 ...
 
 The [New Nation Votes][] database (NNV) offers election returns from the early American republic collected by Philip Lampi and digitized by Tufts University and the American Antiquarian Society. Several scholars writing in a 2013 issue of the *Journal of the Early Republic* have tackled questions such as voter turnout and measures of party competitiveness (Brooke), the resurgence of the Federalists after 1808 (Lampi), the expansion of the franchise (Ratcliffe), and families and the turnover of congressmen (Zagarri). My aim is much more preliminary: to see what kind of analysis, in particular mapping, might be done with the dataset.[^1] I have wanted to explore this dataset for some time, so here is a preliminary investigation into the Massachusetts gubernatorial elections up to 1824.
 
-The first aim is to get an overview of party politics in the elections for governor. The chart below shows the percentage of votes won by the Federalist and Democratic-Republican parties from 1796 to 1824. The overall pattern in elections for governors is fairly plain. From 1797 until 1805, the Federalists had strong hold on the office, putting Increase Sumner, Moses Gill, and Caleb Strong in the governor's chair.[^2] Caleb Strong came to office (after both Sumner and Gill had died in office) with some competition in 1800, but his hold was fairly secure until 1805. That year inaugurated stiff competition for the governorship, which switched hands repeatedly until the election of 1813. The War of 1812 and the rise of younger Federalists gave the Federalists the upper hand until they lost the 1823 election, never to win the Massachusetts governorship again. Note that there are a few oddities in this chart which I have not resolved. For example, John Brooks was listed as a Federalist every year from 1816 to 1821, except 1818 to 1819; I don't know whether that means Brooks really ran without an affiliation or whether it is an omission in the data. But this chart more or less confirms the argument of Philip Lampi (and earlier, of David Hackett Fischer).
+The first aim is to get an overview of party politics in the elections for governor. The chart below shows the percentage of votes won by the Federalist and Democratic-Republican parties from 1796 to 1824. The overall pattern in elections for governors is fairly plain. From 1797 until 1805, the Federalists had a strong hold on the office, putting Increase Sumner, Moses Gill, and Caleb Strong in the governor's chair.[^2] Caleb Strong came to office (after both Sumner and Gill had died in office) with some competition in 1800, but his hold was fairly secure until 1805. That year inaugurated stiff competition for the governorship, which switched hands repeatedly until the election of 1813. The War of 1812 and the rise of younger Federalists gave the Federalists the upper hand until they lost the 1823 election, never to win the Massachusetts governorship again. Note that there are a few oddities in this chart which I have not resolved. For example, John Brooks was listed as a Federalist every year from 1816 to 1821, except 1818 to 1819; I don't know whether that means Brooks really ran without an affiliation or whether it is an omission in the data. But this chart more or less confirms the argument of Philip Lampi (and earlier, of David Hackett Fischer).
 
 {% figure ma-gov/ma-parties svg,png "Percentage of the vote won by the Federalist and Democratic-Republican parties in elections for Massachusetts governor, 1796--1824. Data: [A New Nation Votes][New Nation Votes]." %}
 
@@ -20,7 +20,7 @@ Some general observations about the importance of space in these elections.
 
 First, Boston was far and away the biggest city in Massachusetts, but it had little impact on the elections. In the 1800 election, Gerry got only 24 more votes than Strong in Boston, a difference of less than 1 percent of the turn out. In 1823, Otis got only 108 more votes than Eustis. Only in 1807 did Strong get significantly more votes than Sullivan (and Strong still lost the election). Even though Boston contributed more votes than any place, and though sometimes it went for Democratic-Republicans and sometimes it went for Federalists, it was not really a swing city because the two parties were usually closely tied in Boston.
 
-Second, in the 1800 election Strong won because he won Berkshire and Hampshire Counties in Western Massachusetts. Gerry's support in those counties was virtually non-existent. [^6] Gerry, though, did much well in Maine, especially away from the coast. Strong also did well Essex County, a Federalist center of strength.
+Second, in the 1800 election Strong won because he won Berkshire and Hampshire Counties in Western Massachusetts. Gerry's support in those counties was virtually non-existent. [^6] Gerry, though, did much better in Maine, especially away from the coast. Strong also did well in Essex County, a Federalist center of strength.
 
 <figure>
 <iframe src="/figures/ma-gov/ma-gov-1800.html" style="height:500px;width:100%;">
@@ -29,7 +29,7 @@ Second, in the 1800 election Strong won because he won Berkshire and Hampshire C
 Figure 3: Election for Massachusetts governor, 1800. Data: [A New Nation Votes][New Nation Votes].
 </figcaption>
 </figure>
-By 1807 the Democratic-Republican candidate, James Sullivan, did far better than Gerry had in the Western counties and in some Western towns he did better than Strong. Sullivan even made some inroads into Essex County and Cape Code, though Strong made some inroads into Maine. This election was closely contested in nearly every town, and Sullivan narrowly defeated Strong by gaining votes in places that had gone heavily for Federalists in earlier elections. The change in politics from dominance by one party to heavily contested elections that we noted in the charts above also appears on this map.
+By 1807 the Democratic-Republican candidate, James Sullivan, did far better than Gerry had in the Western counties and in some Western towns he did better than Strong. Sullivan even made some inroads into Essex County and Cape Cod, though Strong made some inroads into Maine. This election was closely contested in nearly every town, and Sullivan narrowly defeated Strong by gaining votes in places that had gone heavily for Federalists in earlier elections. The change in politics from dominance by one party to heavily contested elections that we noted in the charts above also appears on this map.
 
 <figure>
 <iframe src="/figures/ma-gov/ma-gov-1807.html" style="height:500px;width:100%;">
@@ -38,7 +38,7 @@ By 1807 the Democratic-Republican candidate, James Sullivan, did far better than
 Figure 4: Election for Massachusetts governor, 1807. Data: [A New Nation Votes][New Nation Votes].
 </figcaption>
 </figure>
-In 1823, Otis maintained some of the Federalist strength in western Massachusetts, though he also lost (I suspect that when Maine gained statehood in 1820, the Federalists benefited slightly from a decline of Republican votes.) But Otis was defeated in most of the towns surrounding Boston.
+In 1823, Otis maintained some of the Federalist strength in western Massachusetts, though he also lost (I suspect that when Maine gained statehood in 1820, the Federalists benefited slightly from a decline of Republican votes). But Otis was defeated in most of the towns surrounding Boston.
 
 <figure>
 <iframe src="/figures/ma-gov/ma-gov-1823.html" style="height:500px;width:100%;">
@@ -47,7 +47,7 @@ In 1823, Otis maintained some of the Federalist strength in western Massachusett
 Figure 5: Election for Massachusetts governor, 1823. Data: [A New Nation Votes][New Nation Votes].
 </figcaption>
 </figure>
-These maps show comparatively little of the split between "blue" cities and "red" country that we are accustomed to in modern electoral maps. This is hardly surprising, since mass urbanization happened much later. But what is surprising in these few maps is how close the vote was in many towns. The line between Federalists and Democratic-Republicans did not run between towns but through them. Elections were highly competitive at the state level, but that competition was also reflected in most towns.[^7] There is a lot more work to do, including figuring out a better way of representing votes by town, creating maps for all the Massachusetts gubernatorial elections, and extending the analysis to other states and other types of elections.
+These maps show comparatively little of the split between "blue" cities and "red" country that we are accustomed to in modern electoral maps. This is hardly surprising, since mass urbanization happened much later. But what is surprising in these few maps is how close the vote was in many towns. The line between Federalists and Democratic-Republicans did not run between towns but through them. Elections were highly competitive at the state level, but that competition was also reflected in most towns.[^7] There is a lot more work to do, including figuring out a better way of representing votes by town, creating maps for all the Massachusetts gubernatorial elections, extending the analysis to other states and other types of elections, and taking on questions such as voter turnout and changing patterns of votes within particular towns.
 
 #### Appendix
 

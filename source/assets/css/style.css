@@ -188,7 +188,7 @@ blockquote p:last-child {
   }
 }
 
-img {
+img, iframe {
   display: block;
   margin: 0 0 1rem;
   border-radius: 5px;
@@ -611,7 +611,7 @@ a.sidebar-nav-item:focus {
   padding: 0 2rem 0 2rem;
 }
 
-.post p img, figure img {
+.post p img, figure img, .post iframe {
   max-width: 100%;
 }
 
@@ -629,7 +629,7 @@ figure {
   }
 }
 
-figure img {
+figure img, iframe {
   margin: 0;
   border: 1px solid #ccc;
 }
@@ -713,4 +713,7 @@ figure figcaption em {
 
 #disqus_thread {
   margin-top: 5rem;
+
+sup {
+  line-height: 1em;
 }

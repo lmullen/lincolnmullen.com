@@ -39,7 +39,8 @@
             <a class="permalink" title="Permalink" href="{{ post.url }}">∞</a>
           </p>
         </header>
-        {{ post.excerpt }}
+
+        {{ post.excerpt | split: '<section class="footnotes">' | first }}
 
         <p class="more-link">
           <a href="{{ post.url }}">Continue reading &rarr;</a>

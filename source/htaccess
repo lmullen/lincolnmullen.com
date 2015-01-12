@@ -8,3 +8,5 @@ Redirect 302 /officehours https://www.google.com/calendar/selfsched?sstoken=UU94
 Redirect 302 /projects/coding-poster http://lincolnmullen.com/blog/poster-teaching-graduate-students-to-code
 
 Redirect 301 /posts.atom.xml http://lincolnmullen.com/atom.xml
+
+ErrorDocument 404 /404.html

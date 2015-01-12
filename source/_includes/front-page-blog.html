@@ -30,13 +30,20 @@
             </a>
           </h3>
           <p class="post-metadata">
-            <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">
+            <time class="posttime" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">
               {{ post.date | date_to_string }}
-            </time>
+            </time> 
+            |
+            <a class="commentlink" href="{{ post.url }}#disqus_thread">Leave a comment</a> 
+            |
             <a class="permalink" title="Permalink" href="{{ post.url }}">∞</a>
           </p>
         </header>
-        {{ post.content }}
+        {{ post.excerpt }}
+
+        <p class="more-link">
+          <a href="{{ post.url }}">Continue reading &rarr;</a>
+        </p>
 
         <div class="article-finish"><p>&squf;</p></div>
 

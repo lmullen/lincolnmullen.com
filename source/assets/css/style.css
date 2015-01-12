@@ -687,9 +687,13 @@ figure figcaption em {
   margin-bottom: 4rem;
 }
 
-.permalink {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.posttime {
+  padding-right: 0.5rem;
+}
+
+.permalink, .commentlink {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .post-metadata {
@@ -700,4 +704,13 @@ figure figcaption em {
 
 .blog-separator {
   border-top: 1px solid #ccc;
+}
+
+.more-link a {
+  color: #268bd2!important;
+  font-weight: bold;
+}
+
+#disqus_thread {
+  margin-top: 5rem;
 }

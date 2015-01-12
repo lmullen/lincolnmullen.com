@@ -17,6 +17,7 @@ source: source
 destination: public
 plugins: plugins
 gems: [jekyll_figure]
+# excerpt_separator: <!--more-->
 markdown: pandoc
 pandoc:
   extensions:

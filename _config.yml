@@ -29,6 +29,7 @@ figures:
 lsi: false
 highlighter: false
 paginate: 8
+# paginate_path: "blog/page:num"
 
 # Google Analytics
 google_analytics_tracking_id: UA-25121492-1

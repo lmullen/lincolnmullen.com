@@ -8,7 +8,7 @@ author: Lincoln Mullen
 tagline: Historian of American religions
 
 # RSS / Email 
-subscribe_rss: http://lincolnmullen.com/feed.xml
+subscribe_rss: http://lincolnmullen.com/atom.xml
 email: lincoln@lincolnmullen.com
 
 root: /

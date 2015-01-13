@@ -1,6 +1,6 @@
 ---
 categories:
-- 'r-stats'
+- rstats
 date: '2014-09-20 14:03'
 layout: post
 title: A Vagrant Development Environment for R

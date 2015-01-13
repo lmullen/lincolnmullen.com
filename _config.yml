@@ -28,6 +28,7 @@ figures:
   analytics: true
 lsi: false
 highlighter: false
+paginate: 8
 
 # Google Analytics
 google_analytics_tracking_id: UA-25121492-1

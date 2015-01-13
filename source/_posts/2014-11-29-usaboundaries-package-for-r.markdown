@@ -1,6 +1,6 @@
 ---
 categories:
-- 'r-stats'
+- rstats
 date: '2014-11-29 15:04'
 layout: post
 title: USAboundaries Package for R

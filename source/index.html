@@ -3,22 +3,24 @@ layout: default
 title: Home
 ...
 
-<p>
-I am an
-<a href="http://historyarthistory.gmu.edu/people/lmullen">assistant
-professor</a> in the
-<a href="http://historyarthistory.gmu.edu/">Department of History and
-Art History</a> at <a href="http://www.gmu.edu/">George Mason
-University</a>, working on digital history and the history of American
-religions. You can find a link to just about anything I've worked on in
-my <a href="/cv/">CV</a> or in the <a href="/blog/">blog archives</a>.
-Some of my work is described in more detail on the
-<a href="/research/">research</a> page, and my
-<a href="/teaching/">syllabi</a> are on the teaching page along with
-<a href="/workshops">workshop materials</a>. You can write to me at
-<code>lincoln@lincolnmullen.com</code>.
-</p>
-
-<hr class="blog-separator" />
+{% if page.url == '/index.html' %}
+  <div class="bio">
+    <p>
+      I am an
+      <a href="http://historyarthistory.gmu.edu/people/lmullen">assistant
+        professor</a> in the
+      <a href="http://historyarthistory.gmu.edu/">Department of History and
+        Art History</a> at <a href="http://www.gmu.edu/">George Mason
+        University</a>, working on digital history and the history of American
+      religions. You can find a link to just about anything I've worked on in
+      my <a href="/cv/">CV</a> or in the <a href="/blog/">blog archives</a>.
+      Some of my work is described in more detail on the
+      <a href="/research/">research</a> page, and my
+      <a href="/teaching/">syllabi</a> are on the teaching page along with
+      <a href="/workshops">workshop materials</a>. You can write to me at
+      <code>lincoln@lincolnmullen.com</code>.
+    </p>
+  </div>
+{% endif %}
 
 {% include front-page-blog.html %}

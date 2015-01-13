@@ -1,5 +1,5 @@
 <section id="blog-front-page">
-  {% for post in site.posts limit: 10 %}
+  {% for post in paginator.posts %}
     {% if post.link %}
       <article class="link">
         <header>
@@ -40,15 +40,36 @@
           </p>
         </header>
 
+        {% comment %}
         {{ post.excerpt | split: '<section class="footnotes">' | first }}
-
         <p class="more-link">
           <a href="{{ post.url }}">Continue reading &rarr;</a>
         </p>
+        {% endcomment %}
+
+        {{ post.content }}
 
         <div class="article-finish"><p>&squf;</p></div>
 
       </article>
     {% endif %}
   {% endfor %}
+  <div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" 
+      href="/page{{paginator.next_page}}/">&larr; Older Posts</a>
+  {% else %}
+    <span class="pagination-item older">&larr; Older Posts</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer Posts &rarr;</a>
+    {% else %}
+      <a class="pagination-item newer" 
+        href="/page{{paginator.previous_page}}/">Newer Posts &rarr;</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer Posts &rarr;</span>
+  {% endif %}
+</div>
 </section>

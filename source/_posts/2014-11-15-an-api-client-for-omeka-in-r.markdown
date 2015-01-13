@@ -1,6 +1,6 @@
 ---
 categories:
-- 'r-stats'
+- rstats
 date: '2014-11-15 09:26'
 layout: post
 title: An API Client for Omeka in R

@@ -1,6 +1,6 @@
 ---
 categories:
-- 'r-stats'
+- rstats
 date: '2014-09-30 10:56'
 layout: post
 title: Gender package now on CRAN

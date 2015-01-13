@@ -337,38 +337,6 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
-
-/*
- * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
- */
-
-.pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
-}
-
-/* Pagination items can be `span`s or `a`s */
-.pagination-item {
-  display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
-}
-.pagination-item:first-child {
-  margin-bottom: -1px;
-}
-
-/* Only provide a hover state for linked pagination items */
-a.pagination-item:hover {
-  background-color: #f5f5f5;
-}
-
 .hll { background-color: #ffffcc }
  /*{ background: #f0f3f3; }*/
 .c { color: #999; } /* Comment */
@@ -702,8 +670,10 @@ figure figcaption em {
   margin-top: -0.5rem;
 }
 
-.blog-separator {
-  border-top: 1px solid #ccc;
+.bio {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 4rem;
 }
 
 .more-link a {
@@ -713,6 +683,17 @@ figure figcaption em {
 
 #disqus_thread {
   margin-top: 5rem;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+}
+
+.pagination-item {
+  margin: 0 2rem 0 2rem;
+  width: 100px;
+}
 
 sup {
   line-height: 1em;

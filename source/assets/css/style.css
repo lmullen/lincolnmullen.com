@@ -671,9 +671,13 @@ figure figcaption em {
 }
 
 .bio {
-  border: 1px solid #ccc;
+  border: 1px solid #ac4142;
   padding: 1rem;
   margin-bottom: 4rem;
+}
+
+.bio p {
+  margin-bottom: 0;
 }
 
 .more-link a {

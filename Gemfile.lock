@@ -73,7 +73,7 @@ PLATFORMS
 
 DEPENDENCIES
   atom-tools
-  jekyll (~> 2.5.2)
+  jekyll (> 2.5.2)
   jekyll_figure
   pandoc-ruby
   rake

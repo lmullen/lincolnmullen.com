@@ -57,7 +57,7 @@ task :preview do
 
   puts "Previewing the site locally with Jekyll."
 
-  jekyllPid  = Process.spawn("jekyll build --watch --drafts")
+  jekyllPid  = Process.spawn("jekyll build --watch --drafts --limit_posts 3")
 
   trap("INT") {
     [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }

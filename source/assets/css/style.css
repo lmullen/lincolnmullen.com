@@ -609,6 +609,7 @@ figure figcaption {
   font-style: italic;
   margin: .1rem auto;
   text-align: center;
+  max-width: 38rem;
 }
 
 figure figcaption em {

@@ -46,7 +46,7 @@ Principal investigator with [Erin M. Bartram](http://history.uconn.edu/doctoral-
 Maps and visualizations:
 
 -   [The Spread of U.S. Slavery, 1790--1860](http://lincolnmullen.com/projects/slavery/)
--   [Divergence in U.S. Sex Ratios by County, 1820–2010](http://lincolnmullen.com/projects/sex-ratios/)
+-   [Divergence in U.S. Sex Ratios by County, 1820--2010](http://lincolnmullen.com/projects/sex-ratios/)
 -   [Historical Boundaries of the United States, 1783--1912](http://lincolnmullen.com/projects/us-boundaries/)
 -   [Paulists Missions, 1851--1906](http://lincolnmullen.com/projects/paulists-map/)
 -   [Analyzing Historical History Dissertations](http://lincolnmullen.com/research/history-dissertations/)
@@ -116,9 +116,9 @@ Review of *In the Beginning: Fundamentalism, the Scopes Trial, and the Making of
 
 "Converts and the Category of Irreligion in the Nineteenth-Century United States," paper scheduled for the annual meeting of the Organization of American Historians, St. Louis, April 16--19, 2015.
 
-"Mapping Boston's Religions from the Revolution to 1880," paper scheduled for the panel "Mapping Religious Space: Four American Cities from the Colonial Era to the Twentieth Century" at the annual meeting of the American Society of Church History, New York, January 2--5, 2015.
+"[Mapping Boston's Religions: Next Steps in Mapping U.S. Religious History](http://lincolnmullen.com/projects/asch-2015/)," for the panel "Mapping Religious Space: Four American Cities from the Colonial Era to the Twentieth Century" at the annual meeting of the American Society of Church History, New York, January 2--5, 2015.
 
-"Teaching Graduate Students to Code," poster session scheduled for the annual meeting of the American Historical Association, New York, January 2--5, 2015.
+"[Teaching Graduate Students to Code](http://lincolnmullen.com/blog/poster-teaching-graduate-students-to-code/)," poster for the annual meeting of the American Historical Association, New York, January 2--5, 2015.
 
 "[Introduction to Spatial History and Mapping](/workshops/)," workshop given at Doing Digital History NEH-ODH Summer Institute, George Mason University, Arlington, VA, August 11, 2014.
 

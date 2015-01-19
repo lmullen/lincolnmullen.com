@@ -19,9 +19,7 @@ PhD history, Brandeis University (2014). Dissertation: "[The Varieties of Americ
 
 MA history, Brandeis University (2011)
 
-MA history, Bob Jones University (2008)
-
-BA history, Bob Jones University (2006)
+BA and MA history, Bob Jones University (2006/2008)
 
 ## Manuscripts and other projects in progress
 

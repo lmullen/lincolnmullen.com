@@ -10,7 +10,7 @@ desc "New draft post"
 task :draft do |t|
 
   title    = get_stdin("What is the title of your post? ")
-  filename = "source/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+  filename = "source/_drafts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
 
   puts "Creating new draft: #{filename}" 
   open(filename, "w") do |post|
@@ -29,7 +29,7 @@ task :preview do
 
   puts "Previewing the site locally with Jekyll."
 
-  jekyllPid  = Process.spawn("jekyll build --watch --drafts --limit_posts 3")
+  jekyllPid  = Process.spawn("jekyll build --watch --drafts --limit_posts 5")
 
   trap("INT") {
     [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }

@@ -6,30 +6,8 @@ task :version do
   `which ruby`
 end
 
-desc "New draft post in its own branch"
-task :new_draft do |t|
-
-  branch   = get_stdin("What is the name of the branch? ").to_url
-  title    = get_stdin("What is the title of your post? ")
-  filename = "source/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
-
-  puts "Checking out a new draft branch: draft/#{branch}"
-  `git checkout -b draft/#{branch}`
-
-  puts "Creating new draft: #{filename}" 
-  open(filename, "w") do |post|
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "categories: "
-    post.puts "..."
-  end
-
-end
-
-desc "Create new post on master branch and open Vim"
-task :new_post do |t|
+desc "New draft post"
+task :draft do |t|
 
   title    = get_stdin("What is the title of your post? ")
   filename = "source/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
@@ -43,12 +21,6 @@ task :new_post do |t|
     post.puts "categories: "
     post.puts "..."
   end
-
-  editor = fork do
-    exec "mvim #{filename}"
-  end
-
-  Process.detach(editor)
 
 end
 
@@ -70,13 +42,7 @@ end
 
 task :build do
   puts "\nBuilding the production version of the site ..."
-  ok_failed system "jekyll build"
-end
-
-task :cv do
-  puts "\nCopying the CV..."
-  FileUtils.cp("/Users/lmullen/acad/cv/Mullen-cv.pdf", 
-               "./source/downloads/docs/Mullen-cv.pdf")
+  system "jekyll build"
 end
 
 desc "Copy cartographer vignette"
@@ -101,7 +67,7 @@ task :rsync do
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
 
-  ok_failed system("rsync #{rsync_options} 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+  system("rsync #{rsync_options} 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
 end
 
 desc "Build and deploy the production version of the site"
@@ -110,14 +76,6 @@ task :deploy => [:build, :rsync]
 def get_stdin(message)
   print message
   STDIN.gets.chomp
-end
-
-def ok_failed(condition)
-  if (condition)
-    puts "OK"
-  else
-    puts "FAILED"
-  end
 end
 
 CLOBBER.include('public/*')

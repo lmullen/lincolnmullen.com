@@ -1,23 +1,61 @@
 require "rake/clean"
 require "stringex"
+require "yaml"
+require "fileutils"
+
+# Configuration
+
+# Set "rake watch" as default task
+task :default => :preview
+
+# Load the configuration file
+CONFIG = YAML.load_file("_config.yml")
+
+# Get and parse the date
+DATE = Time.now.strftime("%Y-%m-%d")
+
+# Directories
+POSTS = "source/_posts"
+DRAFTS = "source/_drafts"
+
+# Tasks
 
 desc "New draft post"
 task :draft do |t|
 
   title    = get_stdin("What is the title of your post? ")
-  filename = "source/_drafts/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.markdown"
+  filename = "source/_drafts/#{title.to_url}.markdown"
 
   puts "Creating new draft: #{filename}" 
   open(filename, "w") do |post|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    # post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "categories: "
     post.puts "..."
   end
 
 end
+
+desc "Move a post from _drafts to _posts"
+task :publish do
+  extension = "markdown"
+  files = Dir["#{DRAFTS}/*.#{extension}"]
+  files.each_with_index do |file, index|
+    puts "#{index + 1}: #{file}".sub("#{DRAFTS}/", "")
+  end
+  print "> "
+  number = $stdin.gets
+  if number =~ /\D/
+    filename = files[number.to_i - 1].sub("#{DRAFTS}/", "")
+    FileUtils.mv("#{DRAFTS}/#{filename}", "#{POSTS}/#{DATE}-#{filename}")
+    puts "#{filename} was moved to '#{POSTS}'."
+  else
+    puts "Please choose a draft by the assigned number."
+  end
+end
+
 
 desc "Preview the site with Jekyll"
 task :preview do

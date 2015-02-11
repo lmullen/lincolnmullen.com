@@ -194,6 +194,12 @@ img, iframe {
   border-radius: 5px;
 }
 
+img.right {
+  float: right;
+  max-width: 33%!important;
+  margin: 0 0 1rem 1rem;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;

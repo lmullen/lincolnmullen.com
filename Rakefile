@@ -1,11 +1,6 @@
 require "rake/clean"
 require "stringex"
 
-task :version do
-  `ruby --version`
-  `which ruby`
-end
-
 desc "New draft post"
 task :draft do |t|
 

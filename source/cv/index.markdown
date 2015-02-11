@@ -31,7 +31,7 @@ BA and MA history, Bob Jones University (2006/2008)
 
 "The Contours of Conversion to Catholicism in the Nineteenth Century," *U.S. Catholic Historian* 32, no. 2 (2014): 1--27. DOI: [10.1353/cht.2014.0007](http://dx.doi.org/10.1353/cht.2014.0007) | [Project Muse](http://muse.jhu.edu/journals/cht/summary/v032/32.2.mullen.html) | [PDF](/downloads/pdf/mullen.contours-conversion-to-catholicism.pdf)
 
-"Using Metadata and Maps to Teach the History of Religion," *Transformations: The Journal of Inclusive Scholarship and Pedagogy*, 24, no. 3 (2014): 34--40. In press. [PDF preprint](/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf)
+"Using Metadata and Maps to Teach the History of Religion," *Transformations: The Journal of Inclusive Scholarship and Pedagogy*, 24, no. 3 (2014): 34--40. [PDF preprint](/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf)
 
 "Confessionalization and the Creedal Tradition," *The Proceedings of the South Carolina Historical Association* (March 2010): 79--90. [PDF](/downloads/pdf/mullen.confessionalization.pdf)
 
@@ -48,12 +48,13 @@ Maps and visualizations:
 -   [Historical Boundaries of the United States, 1783--1912](http://lincolnmullen.com/projects/us-boundaries/)
 -   [Paulists Missions, 1851--1906](http://lincolnmullen.com/projects/paulists-map/)
 -   [Analyzing Historical History Dissertations](http://lincolnmullen.com/research/history-dissertations/)
--   [Faculty Salaries by Discipline, Rank, and Institution](http://lincolnmullen.com/blog/charting-faculty-salaries/)
 -   [Catholic Dioceses in the US, Canada, and Mexico](http://lincolnmullen.com/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/)
 
 [Open-source contributions](http://github.com/lmullen) to scholarly software and data:
 
 -   [cartographer](http://lincolnmullen.com/research/cartographer/), an R package for interactive maps using d3-carto-map
+-   [internetarchive](http://lincolnmullen.com/research/internetarchive/), 
+an R package for the Internet Archive API
 -   [omekaR](https://github.com/lmullen/omekaR), an Omeka API client for R
 -   [USAboundaries](https://github.com/ropensci/usaboundaries), an R package for historical maps of the United States
 -   [historydata](https://github.com/lmullen/historydata), an R data package with datasets for historians
@@ -194,6 +195,8 @@ Elsewhere:
 -   Religious Pluralism and the American State, Brandeis University ([fall 2012](/downloads/pdf/religious-pluralism.syllabus.2012-fall.pdf))
 
 ## Service
+
+Reviewer for the following journals: *Journal of Mormon History*
 
 Web editor, *Journal of Southern Religion* (2011--present)
 

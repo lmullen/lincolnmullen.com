@@ -45,11 +45,15 @@ task :build do
   system "jekyll build"
 end
 
-desc "Copy cartographer vignette"
-task :cartographer do
+desc "Copy vignettes"
+task :vignettes do
   puts "\nCopying Cartographer vignette..."
   FileUtils.cp("/Users/lmullen/dev/cartographer/inst/doc/cartographer.html",
                "./source/research/cartographer/index.html")
+  puts "\nCopying Internet Archive vignette..."
+  FileUtils.cp("/Users/lmullen/dev/internetarchive/inst/doc/internet-archive.html",
+               "./source/research/internetarchive/index.html")
+  
 end
 
 task :rsync do

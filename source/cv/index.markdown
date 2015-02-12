@@ -91,6 +91,8 @@ an R package for the Internet Archive API
 
 ## Book reviews
 
+Review of *Religion and the Marketplace in the United States*, edited by Jan Stievermann, Philip Goff, Detlef Junker, Anthony Santoro, and Daniel Silliman, *Religion in American History*, February 1, 2015. [web](http://usreligion.blogspot.com/2015/02/religion-and-marketplace-in-united.html) 
+
 Review of *The Age of Atheists: How We Have Sought to Live Since the Death of God*, by Peter Watson, *Books and Culture*, August 2014. [web](http://www.booksandculture.com/articles/webexclusives/2014/august/age-of-atheists.html?paging=off)
 
 Review of *By the Rivers of Water: A Nineteenth-Century Atlantic Odyssey*, by Erskine Clarke, *Religion in American History*, December 1, 2013. [web](http://usreligion.blogspot.com/2013/12/from-rivers-of-water-to-river-of-dark.html)

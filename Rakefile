@@ -56,8 +56,7 @@ task :publish do
   end
 end
 
-
-desc "Preview the site with Jekyll"
+desc "Preview the site with Jekyll, show drafts and limit posts"
 task :preview do
 
   puts "Previewing the site locally with Jekyll."
@@ -108,7 +107,7 @@ task :rsync do
 end
 
 desc "Build and deploy the production version of the site"
-task :deploy => [:build, :rsync]
+task :deploy => [:vignettes, :build, :rsync]
 
 def get_stdin(message)
   print message

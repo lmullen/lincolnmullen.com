@@ -107,7 +107,7 @@ task :rsync do
 end
 
 desc "Build and deploy the production version of the site"
-task :deploy => [:vignettes, :build, :rsync]
+task :deploy => [:build, :rsync]
 
 def get_stdin(message)
   print message

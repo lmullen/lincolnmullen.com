@@ -103,7 +103,7 @@ Review of *Chosen People: The Rise of American Black Israelite Religions*, by Ja
 
 Review of *The Science of the Soul in Colonial New England*, by Sarah Rivett, *Religion in American History*, December 17, 2012. [web](http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html)
 
-Review of *A Theology of Religious Change: What the Social Science of Conversion Means for the Gospel*, by David J. Zehnder, *Journal of Markets and Morality* 15, no. 1 (2012): 249--250 [web](/blog/theology-of-religious-change/), [PDF](/downloads/pdf/review.zehnder.theology_of_religious_change.pdf)
+Review of *A Theology of Religious Change: What the Social Science of Conversion Means for the Gospel*, by David J. Zehnder, *Journal of Markets and Morality* 15, no. 1 (2012): 249--250. [web](/blog/theology-of-religious-change/), [PDF](/downloads/pdf/review.zehnder.theology_of_religious_change.pdf)
 
 Review of *Evangelism and Resistance in the Black Atlantic, 1760--1835*, by Cedrick May, *Journal of Southern Religion*, 13 (2011). [web](http://jsr.fsu.edu/issues/vol13/mullen.html), [PDF](/downloads/pdf/review.may.evangelism-resistance.pdf)
 

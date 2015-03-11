@@ -72,9 +72,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
 }
-.post h3, h2 {
+h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 h3 {
   margin-top: 1.5rem;
@@ -206,6 +206,13 @@ table {
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
+}
+table caption {
+  font-weight: bold;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0;
+  text-align: left;
+  padding: .25rem .5rem;
 }
 td,
 th {
@@ -621,6 +628,18 @@ figure figcaption {
 figure figcaption em {
   font-style: normal;
 }
+
+.rightfig {
+  float:right;
+  max-width: 50%;
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+.rightfig figure {
+  margin-top: 0
+}
+
 /* Tab like spacing for blog archive */
 #blog-archives time {
   display: inline-block;

@@ -24,11 +24,11 @@
     {% else %}
       <article class="post">
         <header>
-          <h3>
+          <h2>
             <a href="{{ post.url }}">
               {{ post.title }}
             </a>
-          </h3>
+          </h2>
           <p class="post-metadata">
             <time class="posttime" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">
               {{ post.date | date_to_string }}

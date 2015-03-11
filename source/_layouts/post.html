@@ -3,9 +3,9 @@ layout: default
 ---
 
 <article class="post standalone">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h2 class="post-title">{{ page.title }}</h2>
   <p class="post-metadata">
-    <time class="posttime" datetime="{{ page.date | date_to_xmlschema }}" pubdate="pubdate">
+    <time class="posttime" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date_to_string }}
     </time> 
     |
@@ -20,5 +20,5 @@ layout: default
 
   {{ content }}
 
-</div>
+</article>
 

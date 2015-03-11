@@ -10,7 +10,7 @@
             </a>
           </h3>
           <p class="post-metadata">
-            <time datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
               {{ post.date | date_to_string }}
             </time>
             <a class="permalink" title="Permalink" href="{{ post.url }}">∞</a>
@@ -30,7 +30,7 @@
             </a>
           </h2>
           <p class="post-metadata">
-            <time class="posttime" datetime="{{ post.date | date_to_xmlschema }}" pubdate="pubdate">
+            <time class="posttime" datetime="{{ post.date | date_to_xmlschema }}">
               {{ post.date | date_to_string }}
             </time> 
             |

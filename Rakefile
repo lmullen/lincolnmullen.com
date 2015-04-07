@@ -116,3 +116,6 @@ end
 
 CLOBBER.include('public/*')
 
+task :write do
+  sh %[mvim source/_drafts/*]
+end

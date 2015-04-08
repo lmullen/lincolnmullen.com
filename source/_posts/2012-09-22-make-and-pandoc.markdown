@@ -11,8 +11,8 @@ tags:
 - Markdown
 ---
 
-**Update May 30, 2013:** I now do the same thing in [Rake instead of
-Make][].
+<!-- **Update May 30, 2013:** I now do the same thing in [Rake instead of
+Make][]. -->
 
 I write all my documents in [Markdown][] and pipe them through
 [Pandoc][] to make PDFs. Typing `pandoc myfile.md -o myfile.md.pdf` over

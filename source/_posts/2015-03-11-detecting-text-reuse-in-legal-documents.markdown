@@ -3,7 +3,7 @@ categories:
 - history
 - digital history
 layout: post
-title: 'Detecting Text Reuse in Nineteenth-Century Legal Documents: Methods and Preliminary Results'
+title: 'Detecting Text Reuse in Nineteenth-Century Legal Documents'
 ...
 
 How can you track changes in the law of nearly every state in the United States over the course of half a century? How can you figure out which states borrowed laws from one another, and how can you visualize the connections among the legal system as a whole?

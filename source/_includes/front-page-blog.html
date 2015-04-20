@@ -1,73 +1,18 @@
 <section id="blog-front-page">
-  {% for post in paginator.posts %}
-    {% if post.link %}
-      <article class="link">
-        <header>
-          <h3>
-            <a href="{{ post.link }}">
-              {{ post.title }}
-              <span class="link-arrow">&rarr;</span>
-            </a>
-          </h3>
-          <p class="post-metadata">
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date_to_string }}
-            </time>
-            <a class="permalink" title="Permalink" href="{{ post.url }}">∞</a>
-          </p>
-        </header>
-        {{ post.content }}
-
-        <div class="article-finish"><p>&squf;</p></div>
-
-      </article>
-    {% else %}
-      <article class="post">
-        <header>
-          <h2>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h2>
-          <p class="post-metadata">
-            <time class="posttime" datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date_to_string }}
-            </time> 
-            |
-            <a class="permalink" title="Permalink" href="{{ post.url }}">∞</a>
-          </p>
-        </header>
-
-        {% comment %}
-        {{ post.excerpt | split: '<section class="footnotes">' | first }}
-        <p class="more-link">
-          <a href="{{ post.url }}">Continue reading &rarr;</a>
-        </p>
-        {% endcomment %}
-
-        {{ post.content }}
-
-        <div class="article-finish"><p>&squf;</p></div>
-
-      </article>
-    {% endif %}
-  {% endfor %}
-  <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" 
-      href="/page{{paginator.next_page}}/">&larr; Older Posts</a>
-  {% else %}
-    <span class="pagination-item older">&larr; Older Posts</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer Posts &rarr;</a>
-    {% else %}
-      <a class="pagination-item newer" 
-        href="/page{{paginator.previous_page}}/">Newer Posts &rarr;</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer Posts &rarr;</span>
-  {% endif %}
-</div>
+  <h3>Most recent blog posts</h3>
+  <ul id="recent-posts">
+    {% for post in site.posts limit: 10 %}
+      <li>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <time class="posttime" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
+        </time> 
+        {% comment %} {{ post.excerpt | split: '<section class="footnotes">' | first }} {% endcomment %}
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ site.baseurl }}/blog/" class="more-posts">All blog posts &rarr;</a>
 </section>
+

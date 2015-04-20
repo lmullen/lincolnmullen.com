@@ -701,7 +701,7 @@ figure figcaption em {
 .bio {
   border: 1px solid #ac4142;
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .bio p {
@@ -729,4 +729,31 @@ figure figcaption em {
 
 sup {
   line-height: 1em;
+}
+
+#recent-posts {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#recent-posts li {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+#recent-posts li a {
+  max-width: 70%;
+  display: inline-block;
+}
+ 
+#recent-posts .posttime {
+  float: right;
+  text-align: right;
+  clear: both;
+  color: #999;
+  min-width: 20%
+}
+ 
+.more-posts {
+  font-weight: bold;
 }

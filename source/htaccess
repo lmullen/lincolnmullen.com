@@ -9,6 +9,6 @@ Redirect 302 /projects/coding-poster http://lincolnmullen.com/blog/poster-teachi
 
 Redirect 301 /posts.atom.xml http://lincolnmullen.com/atom.xml
 
-Redirect 302 /projects/gender-predictor/ https://lmullen.shinyapps.io/gender-predictor/
+Redirect 301 /projects/gender-predictor/ http://apps.lincolnmullen.com/gender-predictor/
 
 ErrorDocument 404 /404.html

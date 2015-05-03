@@ -1,7 +1,7 @@
 <section id="blog-front-page">
-  <h3>Most recent blog posts</h3>
+  <h2>Most recent blog posts</h2>
   <ul id="recent-posts">
-    {% for post in site.posts limit: 10 %}
+    {% for post in site.posts limit: 5 %}
       <li>
         <a href="{{ post.url }}">
           {{ post.title }}

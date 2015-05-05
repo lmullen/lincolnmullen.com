@@ -116,6 +116,7 @@ end
 
 CLOBBER.include('public/*')
 
+desc "Edit drafts"
 task :write do
   sh %[mvim source/_drafts/*]
 end

@@ -3,23 +3,32 @@ layout: default
 title: Home
 ...
 
-{% if page.url == '/index.html' %}
-  <div class="bio">
-    <p>
-      I am an
-      <a href="http://historyarthistory.gmu.edu/people/lmullen">assistant
-        professor</a> in the
-      <a href="http://historyarthistory.gmu.edu/">Department of History and
-        Art History</a> at <a href="http://www.gmu.edu/">George Mason
-        University</a>, working on digital history and the history of American
-      religions. You can write to me at
-      <code>lincoln@lincolnmullen.com</code>.
-    </p>
-  </div>
-{% endif %}
+<h2 id="about">About</h2>
+
+<p>
+  I am an
+  <a href="http://historyarthistory.gmu.edu/people/lmullen">assistant
+    professor</a> in the
+  <a href="http://historyarthistory.gmu.edu/">Department of History and
+    Art History</a> at <a href="http://www.gmu.edu/">George Mason
+    University</a>, working on digital history and the history of American
+  religions. You can write to me at
+  <code>lincoln@lincolnmullen.com</code>.
+</p>
+
+<h2 id="digital-projects">Digital Projects</h2>
+
+{% include front-page-projects.html %}
+
+<h2 id="publications">Publications</h2>
+
+<h2 id="software">Software</h2>
+
+<h2 id="presentations">Presentations</h2>
+
+<h2 id="workshops">Workshops</h2>
+
+<h2 id="blog">Blog</h2>
 
 {% include front-page-blog.html %}
 
-<hr>
-
-{% include front-page-projects.html %}

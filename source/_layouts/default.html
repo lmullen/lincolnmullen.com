@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
-  <body>
+  <body data-spy="scroll" data-target="#front-page-nav">
     <div class="container">
-      {% include sidebar.html %}
-      <div class="content">
-        {{ content }}
+      <div class="row">
+        <div class="col-md-3" data-spy="affix" data-offset-top="50000" data-offset-bottom="0">
+          <div class="bs-docs-sidebar affix" role="complementary">
+            {% include sidebar.html %}
+          </div>
+        </div>
+        <div class="col-md-8" role="main">
+          {{ content }}
+        </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    {% include google_analytics.html %}
+    {% include jquery-script.html %}
   </body>
-  {% include jquery-script.html %}
 </html>

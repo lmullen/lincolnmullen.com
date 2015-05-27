@@ -1,0 +1,5 @@
+1. Take a screenshot at full screen on Retina display.
+2. Open in GIMP.
+3. Crop at aspect ratio 700:400.
+4. Resize to 700px by 400px.
+5. Export as jpeg at quality 80.

@@ -1,108 +1,25 @@
-<div class="media">
-  <div class="media-left">
-    <a href="http://lincolnmullen.com/projects/slavery/">
-      <img class="media-object" src="/figures/projects-img/spread-slavery-thumbnail.jpg" alt="Spread of slavery map">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="http://lincolnmullen.com/projects/slavery/">
-        The Spread of U.S. Slavery, 1790&ndash;1860
-      </a>
-    </h4>
-    <p>
-      Mapping the population of enslaved and free African Americans before the Civil War.
-    </p>
-  </div>
+<div class="row">
+
+  {% assign projects = (site.projects | sort: 'order') %}
+  {% for project in projects %}
+    <div class="col-sm-6 col-md-6">
+      <div class="thumbnail">
+        <a href="{{ project.link }}">
+          <img src="{{ project.thumbnail }}" alt="{{ project.title}} thumbnail">
+        </a>
+        <div class="caption">
+          <a href="{{ project.link }}">
+            <h4>
+              {{ project.title }}
+            </h4>
+          </a>
+          <p>
+            {{ project.content }}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
 </div>
 
-<div class="media">
-  <div class="media-left">
-    <a href="http://apps.lincolnmullen.com/gender-predictor/">
-      <img class="media-object" src="/figures/projects-img/gender-predictor-thumbnail.jpg" alt="Gender Predictor thumbnail">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="http://apps.lincolnmullen.com/gender-predictor/">
-        Gender Predictor
-      </a>
-    </h4>
-    <p>
-      Predict your gender from your first name and birth year using historical data.
-    </p>
-  </div>
-</div>
-
-<div class="media">
-  <div class="media-left">
-    <a href="http://lincolnmullen.com/projects/sex-ratios/">
-      <img class="media-object" src="/figures/projects-img/sex-ratios-thumbnail.jpg" alt="Diverging sex ratios map">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="http://lincolnmullen.com/projects/sex-ratios/">
-        Divergence in U.S. Sex Ratios by County, 1820&ndash;2010
-      </a>
-    </h4>
-    <p>
-      Counties that were disproportionally male or female over time, based on U.S. Census data.
-    </p>
-  </div>
-</div>
-
-<div class="media">
-  <div class="media-left">
-    <a href="http://lincolnmullen.com/projects/paulists-map/">
-      <img class="media-object" src="/figures/projects-img/paulist-missions-thumbnail.jpg" alt="Paulist Missions map">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="http://lincolnmullen.com/projects/paulists-map/">
-        Paulist Missions, 1851&ndash;1906
-      </a>
-    </h4>
-    <p>
-      Locations and statistics of missions preached by the Missionary Priests of St. Paul the Apostle during the nineteenth century.
-    </p>
-  </div>
-</div>
-
-<div class="media">
-  <div class="media-left">
-    <a href="http://lincolnmullen.com/projects/us-boundaries/">
-      <img class="media-object" src="/figures/projects-img/historical-boundaries-thumbnail.jpg" alt="Historical Boundaries of the US map">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="http://lincolnmullen.com/projects/us-boundaries/">
-        Historical Boundaries of the United States, 1783&ndash;1912
-      </a>
-    </h4>
-    <p>
-      The political boundaries of the United States on each date from 1783 to 
-      1912.
-    </p>
-  </div>
-</div>
-
-<div class="media">
-  <div class="media-left">
-    <a href="http://americanconverts.org">
-      <img class="media-object" src="/figures/projects-img/converts-thumbnail.jpg" alt="American Converts Database thumbnail">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-      <a href="http://americanconverts.org">
-        The American Converts Database
-      </a>
-    </h4>
-    <p>
-    A database of converts and conversions in American religious history.
-    </p>
-  </div>
-</div>

@@ -1,88 +1,67 @@
 <h1 id="site-title"><a href="/">{{ site.title }}</a></h1>
 
-<ul class="list-unstyled">
+<p>
+  <a href="mailto:lincoln@lincolnmullen.com">
+    <i class="fa fa-fw fa-envelope-o"></i>
+    lincoln@lincolnmullen.com
+  </a>
+</p>
+
+<ul class="list-inline">
+  <li> 
+    <a href="https://github.com/lmullen/">
+      <i class="fa fa-2x fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/lincolnmullen">
+      <i class="fa fa-2x fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="{{site.subscribe_rss}}">
+      <i class="fa fa-2x fa-rss"></i>
+    </a>
+  </li>
+
+<ul class="nav nav-list">
   <li>
-    <a href="mailto:lincoln@lincolnmullen.com">
-      <i class="fa fa-fw fa-envelope-o"></i>
-      lincoln@lincolnmullen.com
+    <a href="files/Mullen-cv.pdf">
+      CV <i class="fa fa-fw fa-lg fa-file-pdf-o"></i>
     </a>
   </li>
   <li>
+    <a href="/blog/">
+      Blog</a>
+  </li>
+
+  <li>
     <a href="http://notebook.lincolnmullen.com">
-      <i class="fa fa-fw fa-pencil"></i>
       Open Notebook
     </a>
   </li>
-  <li>
-    <a href="https://github.com/lmullen/">
-      <i class="fa fa-fw fa-github"></i>
-      GitHub
-    </a>
-  </li>
-  <li>
-    <a href="https://twitter.com/lincolnmullen">
-      <i class="fa fa-fw fa-twitter"></i>
-      Twitter
-    </a>
-  </li>
-  <li>
-    <a href="https://www.zotero.org/lmullen/items/order/dateModified/sort/desc">
-      <i class="fa fa-fw fa-book"></i>
-      Zotero
-    </a>
-  </li>
-  <!--
-  <li>
-    <a href="https://pinboard.in/u:lmullen/">
-      <i class="fa fa-fw fa-thumb-tack"></i>
-      Pinboard
-    </a>
-  </li>
-  -->
 </ul>
-
-<ul class="list-unstyled">
-  <li>
-    <a href="{{site.subscribe_rss}}">
-      <i class="fa fa-fw fa-rss"></i>
-      Feed: Blog Posts
-    </a>
-  </li>
-  <li>
-    <a href="http://notebook.lincolnmullen.com/_feed/">
-      <i class="fa fa-fw fa-rss"></i>
-      Feed: Open Notebook
-    </a>
-  </li>
-</ul>
-
-<hr>
-
-<ul class="nav nav-list">
-  <li><a href="files/Mullen-cv.pdf">CV <i class="fa fa-fw fa-lg fa-file-pdf-o"></i> </a> </li>
-  <li><a href="/blog/">Blog</a></li>
-</ul>
-
-<hr class="hidden-sm hidden-xs">
 
 {% if page.url == "/index.html" %}
-<ul class="nav nav-list hidden-sm hidden-xs">
-  <li><a data-scroll href="#about">About</a></li>
-  <li><a data-scroll href="#digital-projects">Digital Projects</a></li>
-  <li><a data-scroll href="#publications">Publications</a></li>
-  <li><a data-scroll href="#software">Academic Software</a></li>
-  <li><a data-scroll href="#presentations">Presentations</a></li>
-  <li><a data-scroll href="#classes">Classes</a></li>
-  <li><a data-scroll href="#workshops">Workshops</a></li>
-</ul>
+  <ul class="nav nav-list">
+    <li><a data-scroll href="#about">About</a></li>
+    <li><a data-scroll href="#digital-projects">Digital Projects</a></li>
+    <li><a data-scroll href="#publications">Publications</a></li>
+    <li><a data-scroll href="#software">Academic Software</a></li>
+    <li><a data-scroll href="#presentations">Presentations</a></li>
+    <li><a data-scroll href="#classes">Classes</a></li>
+    <li><a data-scroll href="#workshops">Workshops</a></li>
+  </ul>
 {% else %}
-<ul class="nav nav-list hidden-sm hidden-xs">
-  <li><a href="/#about">About</a></li>
-  <li><a href="/#digital-projects">Digital Projects</a></li>
-  <li><a href="/#publications">Publications</a></li>
-  <li><a href="/#software">Academic Software</a></li>
-  <li><a href="/#presentations">Presentations</a></li>
-  <li><a href="/#classes">Classes</a></li>
-  <li><a href="/#workshops">Workshops</a></li>
-</ul>
+  <ul class="nav nav-list">
+    <li><a href="/#about">About</a></li>
+    <li><a href="/#digital-projects">Digital Projects</a></li>
+    <li><a href="/#publications">Publications</a></li>
+    <li><a href="/#software">Academic Software</a></li>
+    <li><a href="/#presentations">Presentations</a></li>
+    <li><a href="/#classes">Classes</a></li>
+    <li><a href="/#workshops">Workshops</a></li>
+  </ul>
 {% endif %}
+
+<hr class="hidden-md hidden-lg">

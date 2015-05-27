@@ -1,7 +1,3 @@
-img.media-object {
-  max-width: 200px;
-}
-
 .sidebar a {
   color: black;
 }
@@ -12,13 +8,18 @@ img.media-object {
 }
 
 .nav>li>a {
-  padding: 5px 22px;
+  padding: 5px 5px;
+}
+.nav>li>a:hover,
+.nav>li>a:focus {
+  background:none;
 }
 
 #site-title {
   font-stretch: extra-condensed;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 5px;
 }
 
 .bs-docs-sidebar.affix {

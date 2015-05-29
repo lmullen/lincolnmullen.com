@@ -5,4 +5,4 @@ thumbnail: /figures/projects-img/spread-slavery-thumbnail.jpg
 order: 10
 ---
 
-Mapping the population of enslaved and free African Americans before the Civil War.
+Maps of enslaved and free African Americans before the Civil War.

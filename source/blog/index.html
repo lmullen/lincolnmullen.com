@@ -21,6 +21,7 @@ navigation: true
   {% endcase %}
   {{ post.date | date: "%-d" }}
   </time>
+  {% comment %}
   <span class="post-type">
     {% if post.link %}
       <a href="{{ post.link }}" title="Link post">&rarr;</a>
@@ -28,6 +29,7 @@ navigation: true
       &nbsp;
     {% endif %}
   </span>
+  {% endcomment %}
   <a href="{{ post.url }}">{{ post.title }}</a>
   </p>
   {% endfor %}

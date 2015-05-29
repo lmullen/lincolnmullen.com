@@ -13,6 +13,9 @@ Redirect 301 /projects/gender-predictor/ http://apps.lincolnmullen.com/gender-pr
 
 Redirect 302 /research/index.html http://lincolnmullen.com/files/Mullen-cv.pdf
 
+Redirect 302 /cv/index.html http://lincolnmullen.com/files/Mullen-cv.pdf
+Redirect 302 /cv/ http://lincolnmullen.com/files/Mullen-cv.pdf
+
 ErrorDocument 404 /404.html
 
 <ifModule mod_gzip.c>

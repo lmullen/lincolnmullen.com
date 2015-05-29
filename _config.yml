@@ -5,7 +5,6 @@ url: http://lincolnmullen.com
 title: Lincoln Mullen
 name: Lincoln Mullen
 author: Lincoln Mullen
-tagline: Historian of American religions
 
 # RSS / Email 
 subscribe_rss: http://lincolnmullen.com/atom.xml
@@ -30,8 +29,10 @@ figures:
   analytics: true
 lsi: false
 highlighter: false
-# paginate: 10
-# paginate_path: "blog/page:num"
+
+collections:
+- projects
+- software
 
 # Google Analytics
 google_analytics_tracking_id: UA-25121492-1

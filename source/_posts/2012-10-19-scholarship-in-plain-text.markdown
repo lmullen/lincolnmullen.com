@@ -39,14 +39,6 @@ This Saturday, October 20, I'll be giving a [workshop][] at [THATCamp New Englan
 > [Notepad++][] on Windows) before the session. The links above to
 > ProfHacker posts may also be helpful.
 
-These are the slides from the workshop.
-
-<iframe class="frame" width="800" height="600" style="border:10px;"
-src="/downloads/scholarship-in-plain-text/embedder.html#http://lincolnmullen.com/downloads/scholarship-in-plain-text/slides.html">
-<a 
-  href="/downloads/scholarship-in-plain-text/slides.html">View
-the slides.</a> </iframe>
-
 Here are some links to resources to help you get started with plain-text
 scholarship. *N.B. I'll be adding more links soon.*
 

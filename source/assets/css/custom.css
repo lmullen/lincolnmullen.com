@@ -1,0 +1,158 @@
+.sidebar a,
+.post-title>a {
+  color: black;
+}
+
+.sidebar a:hover, 
+.post-title>a:hover {
+  color: #ac4142;
+  text-decoration: none;
+}
+
+/* Collapse the sidebar navigation on small screens */
+@media screen and (max-width: 992px) { 
+  .container {
+    padding: 5px 10px;
+  }
+  .sidebar-nav {
+    display: inline-block!important;
+    list-style: none;
+  }
+  .sidebar-nav>li {
+    padding: 0;
+    display: inline-block!important;
+  }
+  .sidebar-nav>li>a::after {
+    content: "/";
+    padding: 0 10px;
+  }
+  .sidebar-nav>li:last-child>a::after {
+    content: none;
+  }
+}
+ 
+.nav>li>a {
+  padding: 5px 0px;
+}
+.nav>li>a:hover,
+.nav>li>a:focus {
+  background:none;
+}
+
+#site-title {
+  font-stretch: extra-condensed;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.bs-docs-sidebar.affix {
+  position: static;
+}
+
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+  /* .bs-docs-sidebar .nav > .active > ul { */
+  /*   display: block; */
+  /* } */
+  /* Widen the fixed sidebar */
+  .bs-docs-sidebar.affix,
+  .bs-docs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bs-docs-sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 20px;
+  }
+  .bs-docs-sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .bs-docs-sidebar.affix-bottom .bs-docs-sidenav,
+  .bs-docs-sidebar.affix .bs-docs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .bs-docs-sidebar.affix-bottom,
+  .bs-docs-sidebar.affix {
+    width: 263px;
+  }
+}
+
+
+.post p img, figure img, .post iframe {
+  max-width: 100%;
+}
+
+#projects-front-page img {
+  max-width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 3rem;
+}
+
+
+figure {
+  display: block;
+  margin: 2rem 0rem;
+  padding: 0;
+  /* font-size: .8rem */
+  line-height: 1.4;
+}
+
+figure img, iframe {
+  margin: auto;
+  border: 1px solid #ccc;
+  display: block;
+}
+
+figure figcaption {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  font-style: italic;
+  margin: .1rem auto;
+  text-align: center;
+  max-width: 80%;
+}
+
+figure figcaption em {
+  font-style: normal;
+}
+
+.rightfig {
+  float:right;
+  max-width: 50%;
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+
+.rightfig figure {
+  max-width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+/* Tab like spacing for blog archive */
+#blog-archives time {
+  display: inline-block;
+  width: 8rem;
+  /* IE7 */
+  *display: inline;
+  zoom: 1;
+  /* IE7 */
+}
+
+.post-metadata {
+  margin-bottom: 3rem;
+}
+
+.post-metadata a {
+  color: #999;
+}
+
+.post-metadata a:hover {
+  color: #ac4142;
+}
+

@@ -1,0 +1,29 @@
+{% assign software = (site.software | sort: 'order') %}
+{% for project in software %}
+  <p data-mh="software" style="margin-bottom: 20px; line-height: 2.5rem;">
+    <a href="https://github.com/{{ project.github }}">{{ project.name }}</a>: {{ project.description }}<br/>
+    {% if project.language == "r" %}
+      {% if project.package %}
+        <a href="http://cran.rstudio.com/web/packages/{{ project.package }}/index.html">
+          <img src="http://www.r-pkg.org/badges/version/{{ project.package }}">
+        </a>
+        <a href="http://cran.rstudio.com/web/packages/{{ project.package }}/index.html">
+          <img src="http://cranlogs.r-pkg.org/badges/grand-total/{{ project.package }}">
+        </a>
+      {% else %}
+        <img src="http://www.r-pkg.org/badges/version/{{ project.name }}?color=lightgrey">
+      {% endif %}
+    {% elsif project.language == "ruby" %}
+      <a href="https://rubygems.org/gems/{{ project.name }}">
+        <img src="https://img.shields.io/gem/v/{{ project.name }}.svg">
+      </a>
+      <a href="https://rubygems.org/gems/{{ project.name }}">
+        <img src="https://img.shields.io/gem/dt/{{ project.name }}.svg">
+      </a>
+    {% elsif project.language == "php" %}
+      <a href="{{ project.omeka }}">
+        <img src="https://img.shields.io/badge/omekaplugin-{{ project.omeka_version }}-yellowgreen.svg">
+      </a>
+    {% endif %}
+  </p>
+{% endfor %}

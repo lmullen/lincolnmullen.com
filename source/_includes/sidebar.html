@@ -1,26 +1,59 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1><a href="/">{{ site.title }}</a></h1>
-      <div id="icons">
-        <a href="https://twitter.com/lincolnmullen"><i 
-            class="foundicon-twitter"></i></a>
-        <a href="https://github.com/lmullen"><i 
-            class="foundicon-github"></i></a>
-        <a href="{{site.subscribe_rss}}"><i class="foundicon-rss"></i></a>
-      </div>
-    </div>
+<h1 id="site-title"><a href="/">{{ site.title }}</a></h1>
 
-    <div class="sidebar-nav">
-      <a href="/">Home</a> |
-      <a href="/cv/">CV</a> |
-      <a href="/research/">Research</a> | 
-      <a href="/teaching/">Teaching</a> |
-      <a href="/workshops/">Workshops</a> |
-      <a href="/blog/">Blog</a> |
-      <a href="http://notebook.lincolnmullen.com/">Open Notebook</a>
-    </div>
+<p>
+  <small>
+    <a href="mailto:lincoln@lincolnmullen.com">
+      <i class="fa fa-fw fa-envelope-o"></i>
+      lincoln@lincolnmullen.com
+    </a>
+  </small>
+</p>
 
-  </div>
-</div>
+<ul class="list-inline">
+  <li> 
+    <a href="https://github.com/lmullen/">
+      <i class="fa fa-lg fa-github"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="https://twitter.com/lincolnmullen">
+      <i class="fa fa-lg fa-twitter"></i>
+    </a>
+  </li>
+  <li> 
+    <a href="{{site.subscribe_rss}}">
+      <i class="fa fa-lg fa-rss"></i>
+    </a>
+  </li>
+</ul>
 
+<ul class="nav nav-list sidebar-nav">
+  <li>
+    <a href="files/Mullen-cv.pdf">
+      CV <i class="fa fa-fw fa-lg fa-file-pdf-o hidden-sm hidden-xs"></i>
+    </a>
+  </li>
+  <li><a href="/blog/">Blog</a></li>
+
+  <li><a href="http://notebook.lincolnmullen.com">Open Notebook</a></li>
+
+  {% if page.url == "/index.html" %}
+    <li><a data-scroll href="#about">About</a></li>
+    <li><a data-scroll href="#digital-projects">Digital Projects</a></li>
+    <li><a data-scroll href="#publications">Publications</a></li>
+    <li><a data-scroll href="#software">Academic Software</a></li>
+    {% comment %} <li><a data-scroll href="#presentations">Presentations</a></li> {% endcomment %}
+    <li><a data-scroll href="#classes">Classes</a></li>
+    <li><a data-scroll href="#workshops">Workshops</a></li>
+  {% else %}
+    <li><a href="/#about">About</a></li>
+    <li><a href="/#digital-projects">Digital Projects</a></li>
+    <li><a href="/#publications">Publications</a></li>
+    <li><a href="/#software">Academic Software</a></li>
+    <li><a href="/#presentations">Presentations</a></li>
+    <li><a href="/#classes">Classes</a></li>
+    <li><a href="/#workshops">Workshops</a></li>
+  {% endif %}
+</ul>
+
+<hr class="hidden-md hidden-lg">

@@ -2,7 +2,7 @@
 
   {% assign projects = (site.projects | sort: 'order') %}
   {% for project in projects %}
-    <div class="col-sm-6 col-md-6">
+    <div class="col-sm-4 col-md-4">
       <div class="thumbnail" data-mh="projects">
         <a href="{{ project.link }}">
           <img src="{{ project.thumbnail }}" alt="{{ project.title}} thumbnail">
@@ -14,7 +14,9 @@
             </h4>
           </a>
           <p>
-            {{ project.content }}
+            <small>
+              {{ project.content }}
+            </small>
           </p>
         </div>
       </div>

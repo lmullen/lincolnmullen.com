@@ -32,6 +32,7 @@ highlighter: false
 
 collections:
 - projects
+- software
 
 # Google Analytics
 google_analytics_tracking_id: UA-25121492-1

@@ -1,8 +1,10 @@
-.sidebar a {
+.sidebar a,
+.post-title>a {
   color: black;
 }
 
-.sidebar a:hover {
+.sidebar a:hover, 
+.post-title>a:hover {
   color: #ac4142;
   text-decoration: none;
 }
@@ -103,6 +105,7 @@ figure {
 figure img, iframe {
   margin: auto;
   border: 1px solid #ccc;
+  display: block;
 }
 
 figure figcaption {
@@ -131,7 +134,6 @@ figure figcaption em {
   margin: 0 0 1rem 0;
 }
 
-
 /* Tab like spacing for blog archive */
 #blog-archives time {
   display: inline-block;
@@ -140,5 +142,17 @@ figure figcaption em {
   *display: inline;
   zoom: 1;
   /* IE7 */
+}
+
+.post-metadata {
+  margin-bottom: 3rem;
+}
+
+.post-metadata a {
+  color: #999;
+}
+
+.post-metadata a:hover {
+  color: #ac4142;
 }
 

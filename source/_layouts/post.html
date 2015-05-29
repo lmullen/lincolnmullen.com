@@ -3,13 +3,17 @@ layout: default
 ---
 
 <article class="post standalone">
-  <h2 class="post-title">{{ page.title }}</h2>
+  <h2 class="post-title">
+    <a href="{{page.url }}">
+      {{ page.title }}
+    </a>
+  </h2>
   <p class="post-metadata">
-    <time class="posttime" datetime="{{ page.date | date_to_xmlschema }}">
-      {{ page.date | date_to_string }}
-    </time> 
-    |
-    <a class="permalink" title="Permalink" href="{{ page.url }}">∞</a>
+    <a class="permalink" title="Permalink" href="{{ page.url }}">
+      <time class="posttime" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: '%B %d, %Y' }}
+      </time> 
+    </a>
   </p>
 
   {% if page.rinah %}

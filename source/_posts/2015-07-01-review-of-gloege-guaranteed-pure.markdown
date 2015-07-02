@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Business Practices of Corporate Evangelicals
+rinah: http://usreligion.blogspot.com/2015/07/the-business-practices-of-corporate.html
 ...
 
 <div class="rightfig">

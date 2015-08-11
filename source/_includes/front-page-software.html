@@ -14,16 +14,20 @@
         <img src="http://www.r-pkg.org/badges/version/{{ project.name }}?color=lightgrey">
       {% endif %}
     {% elsif project.language == "ruby" %}
+      <!--
       <a href="https://rubygems.org/gems/{{ project.name }}">
         <img src="https://img.shields.io/gem/v/{{ project.name }}.svg">
       </a>
       <a href="https://rubygems.org/gems/{{ project.name }}">
         <img src="https://img.shields.io/gem/dt/{{ project.name }}.svg">
       </a>
+      -->
     {% elsif project.language == "php" %}
+      <!--
       <a href="{{ project.omeka }}">
         <img src="https://img.shields.io/badge/omekaplugin-{{ project.omeka_version }}-yellowgreen.svg">
       </a>
+      -->
     {% endif %}
   </p>
 {% endfor %}

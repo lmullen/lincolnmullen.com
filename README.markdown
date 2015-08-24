@@ -1,1 +1,1 @@
-The source for [lincolnmullen.com][]. 
+The source for [lincolnmullen.com](http://lincolnmullen.com). 

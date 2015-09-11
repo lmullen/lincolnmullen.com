@@ -9,5 +9,8 @@ This corpus was created for the purpose of testing document similarity and text 
 
 Here is the corpus and its repository:
 
--   [ats\_corpus.zip](http://lincolnmullen.com/files/ats_corpus.zip) (122 Mb)
+-   [ats\_corpus.zip](http://lincolnmullen.com/files/ats_corpus.zip) (128 MB)
 -   [GitHub repository to reproduce the corpus](https://github.com/lmullen/ats-corpus)
+
+
+**Update September 11, 2015:** I say this is a small corpus, which it is in the sense that you can store the texts in well under a gigabyte of RAM. But note that when making naive pairwise comparisons, there are 205,120 pairs of documents. In other words, the corpus is big enough that you need a non-naive approach.

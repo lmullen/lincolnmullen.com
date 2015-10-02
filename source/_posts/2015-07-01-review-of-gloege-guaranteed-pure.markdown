@@ -5,9 +5,7 @@ rinah: http://usreligion.blogspot.com/2015/07/the-business-practices-of-corporat
 ...
 
 <div class="rightfig">
-<a href="http://www.amazon.com/gp/product/1469621010/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1469621010&linkCode=as2&tag=thebacgla-20&linkId=BSBPMAFO2SLHW7TM">
 {% img /figures/guaranteed-pure/gloege.jpg %}
-</a>
 </div>
 
 Tim Gloege's recent book, *[Guaranteed Pure: The Moody Bible Institute, Business, and the Making of Modern Evangelicalism](http://www.amazon.com/gp/product/1469621010/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1469621010&linkCode=as2&tag=thebacgla-20&linkId=BSBPMAFO2SLHW7TM)* (UNC Press, 2015), details the ways that business shaped the evangelicalism of the Moody Bible Institute in the late nineteenth and early twentieth centuries. This book intervenes in several different subfields, including the history of fundamentalism and evangelicalism and the history of religion and capitalism. But before I get to the historiography, first the history.

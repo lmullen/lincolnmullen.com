@@ -11,9 +11,9 @@ p, .sidebar {
   margin-bottom: 1.6em;
 }
 
-.thumbnail .caption p, {
-  margin-bottom: 1em;
-  line-height: 1.2em;
+.thumbnail p {
+  margin-bottom: 0;
+  line-height: 1.4em;
 }
 
 #blog-archives p {

@@ -1,3 +1,25 @@
+html, body, h1, h2, h3, h4, h5, h6, p .tooltip, .popover {
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+p, .sidebar {
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.02em;
+  margin-bottom: 1.6em;
+}
+
+.thumbnail .caption p, {
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+
+#blog-archives p {
+  margin-bottom: 1.25em;
+}
+
 .sidebar a,
 .post-title>a {
   color: black;
@@ -161,7 +183,8 @@ figure figcaption em {
 pre {
   background-color: #f8f8f8!important;
   border: none!important;
-  color: #666!important
+  color: #666!important;
+  margin-bottom: 1.6em;
 }
 div.sourceCode { overflow-x: auto; }
 table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {

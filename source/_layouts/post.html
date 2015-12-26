@@ -22,7 +22,7 @@ layout: default
     </em></p>
   {% endif %}
 
-  {{ content }}
+  {{ content | replace: '<!--more-->', '<a id="read-more"></a>' }}
 
   <hr>
 

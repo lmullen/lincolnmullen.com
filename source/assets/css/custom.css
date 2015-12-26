@@ -3,12 +3,12 @@ html, body, h1, h2, h3, h4, h5, h6, p .tooltip, .popover {
   text-rendering: optimizeLegibility;
 }
 
-p, .sidebar {
+p, .sidebar, ol, ul, dl {
   line-height: 1.6;
   text-rendering: optimizeLegibility;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.02em;
-  margin-bottom: 1.6em;
+  margin-bottom: 1.0em;
 }
 
 .thumbnail p {
@@ -52,8 +52,12 @@ p, .sidebar {
     content: none;
   }
 }
- 
+
+.nav>li {
+  margin-bottom: 1rem;
+}
 .nav>li>a {
+  display: inline;
   padding: 5px 0px;
 }
 .nav>li>a:hover,
@@ -115,7 +119,6 @@ p, .sidebar {
   margin-bottom: 3rem;
 }
 
-
 figure {
   display: block;
   margin: 4rem 0rem;
@@ -167,6 +170,7 @@ figure figcaption em {
   /* IE7 */
 }
 
+/* Standalone posts */
 .post-metadata {
   margin-bottom: 3rem;
 }
@@ -177,6 +181,42 @@ figure figcaption em {
 
 .post-metadata a:hover {
   color: #ac4142;
+}
+
+/* Blog index */
+.post-meta time {
+  color: #999;
+  font-size: 14px;
+}
+.post-meta h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+h3.link-post {
+  font-size: 18px;
+}
+.post-after {
+  margin-top: 3rem;
+}
+.post-after a {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  font-weight: bold;
+}
+.post-separator {
+  color: #f5f5f5;
+  width: 33.3%;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+}
+.page_number {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* pandoc.org/demo/example18a.html */

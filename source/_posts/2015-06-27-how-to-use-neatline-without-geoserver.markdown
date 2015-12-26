@@ -11,6 +11,8 @@ The trouble with Neatline is its recommended dependency, [GeoServer](http://geos
 
 I've figured out how to use all of Neatline's features without installing GeoServer by using a different WMS server instead. The people at [THATCamp Prime](http://prime2015.thatcamp.org) this weekend indicated that an explanation would be helpful, so I'm writing up how to do that.
 
+<!--more-->
+
 Neatline has many parts, and you have to understand what functionality each of them provides. The [Neatline documentation](http://docs.neatline.org/installing-neatline.html) is clear that with just the main Neatline plugin you can add points or lines or polygons associated with Omeka items on top of common map layers such as Google Maps or Open Street Maps.[^1] To take a trivial example, here is a single point in Neatline with an Open Street Maps base layer. If this is all you want to do, then you don't need GeoServer or another WMS server at all.
 
 {% figure neatline/point png "A single point in Neatline." %}

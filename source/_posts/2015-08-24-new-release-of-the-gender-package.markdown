@@ -11,6 +11,8 @@ I have released a new version (v0.5.0) of the [gender package](http://www.r-pkg.
 
 This release brings a number of improvements. First, there are significant performance improvements, which make the package more useful for anyone using it for large datasets. I have also simplified the package so it always returns data frames. This was my first R package that I published on CRAN, and let's just say that I have since found a lot of low-hanging fruit when it came to performance and usability.
 
+<!--more-->
+
 Second, I have added a dataset from the [North Atlantic Population Project](https://www.nappdata.org/napp/) which provides a dataset of names for Canada, Great Britain, Germany, Iceland, Norway, Sweden for the nineteenth century. This extends the package's usefulness beyond its original focus on American history. (If you have suitable datasets for other times and places, I'd welcome contributions since the gender package can be easily extended.)
 
 Third, I have added a new function `gender_df()` which makes it easier to use gender with a common research problem. The `gender()` function is vectorized on names but not on dates. In other words, it is easy to pass `gender()` many names, but not many dates. Suppose, for example, that we have a list of names and wish to guess their genders for birth years in the 1930s. We can do that like this:

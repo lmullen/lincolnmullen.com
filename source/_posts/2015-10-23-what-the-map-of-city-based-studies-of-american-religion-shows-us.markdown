@@ -10,6 +10,8 @@ Earlier today [Paul Putz](http://www.paulemoryputz.com/) wrote a post about an i
 
 First, and utterly unsurprisingly, the map basically aligns with the urban population of the United States. So New York, Chicago and Boston, followed closely by New Orleans, Washington, Detroit, San Francisco, and Los Angeles, are the most written about cities.
 
+<!--more-->
+
 The implication of this, second, is that cities fall into two groups: cities that have been written a lot about, and cities that have only been written about once. (And, of course, cities that have never been written about.) For those seven cities, it is possible to get a rich comparative perspective on different groups and different periods. For other cities, you are much more likely to get a one or at most two studies. We have quite a lot of work on religion in biggest cities, less work on religion in smaller cities.
 
 Third, urban religious history has been written predominantly as the history of Catholics, Jews, and African Americans. A rough count shows at least 44 books specifically about Catholics, at least 25 about Jews, and at least 26 books about African Americans, out of our current total of 178. This says something about how the field thinks about (or, at any rate, thought about) religion and cities. That is to say, that urban religion and ethnically or racially marked religion were considered to be linked, while unmarked (read, white Protestant) religion was thought of as transcending specific places. This is probably an overstatement. But then again, many of the exceptions to this rule are about *Southern* white religion, which can again be read as a kind of ethnic marker.

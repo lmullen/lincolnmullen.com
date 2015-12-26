@@ -26,6 +26,7 @@ href="http://lincolnmullen.com/projects/sex-ratios/">interactive map of sex rati
 </figcaption>
 </figure>
 
+<!--more-->
 
 Two general patterns are clear. First, heavily populated places tended
 to be slightly female, while lightly populated places[^1] tend to be heavily

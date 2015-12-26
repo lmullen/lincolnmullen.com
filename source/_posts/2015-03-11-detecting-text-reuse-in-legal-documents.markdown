@@ -10,6 +10,8 @@ How can you track changes in the law of nearly every state in the United States 
 
 [Kellen Funk](http://kellenfunk.org/), a historian of American law, is writing a dissertation on how codes of civil procedure spread across the United States in the second half of the nineteenth century. He and I have been collaborating on the digital part of this project, which involves identifying and visualizing the borrowings between these codes. The problem of text reuse is a common one in digital history/humanities projects. In this post I want to describe our methods and lay out some of our preliminary results. To get a fuller picture of this project, you should read the four posts that Kellen has written about his project:
 
+<!--more-->
+
 <div class="rightfig">
 
 {% figure field-code/ddfield jpg "David Dudley Field, leading member of the New York commission that drafted the Field Code of 1850. Image from the [New York Public Library](http://digitalcollections.nypl.org/items/510d47df-a7c9-a3d9-e040-e00a18064a99)." %}

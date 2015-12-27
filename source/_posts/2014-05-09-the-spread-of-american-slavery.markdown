@@ -42,6 +42,8 @@ help, especially interactive web maps that make it possible to zoom in
 and out, to represent more than one subject of interest, and to set
 representations of the past in motion in order to show change over time.
 
+<!--more-->
+
 I have created an [interactive map][] of the spread of slavery in the
 United States from 1790 to 1860.[^3] Using Census data available from
 the [NHGIS][], the visualization shows the population of slaves, of free

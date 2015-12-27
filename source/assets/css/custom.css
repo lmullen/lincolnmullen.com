@@ -219,6 +219,9 @@ h3.link-post {
   margin-right: 50px;
 }
 
+#blog {
+  margin-top: 4rem;
+}
 /* pandoc.org/demo/example18a.html */
 pre {
   background-color: #f8f8f8!important;

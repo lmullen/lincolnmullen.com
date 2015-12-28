@@ -3,42 +3,53 @@ layout: default
 ---
 
 <article class="post standalone">
-  <h2 class="post-title">
-    <a href="{{page.url }}">
-      {{ page.title }}
-    </a>
-  </h2>
-  <p class="post-metadata">
-    <a class="permalink" title="Permalink" href="{{ page.url }}">
-      <time class="posttime" datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: '%B %d, %Y' }}
-      </time> 
-    </a>
-  </p>
-
-  {% if page.rinah %}
-    <p><em>
-        [This post originally appeared at the <a href="{{ page.rinah }}">Religion in American History</a> blog.]
-    </em></p>
-  {% endif %}
-
-  {{ content | replace: '<!--more-->', '<a id="read-more"></a>' }}
+  <section class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date_to_long_string }}
+    </time>
+    {% if page.link %}
+      <h3 class="link-post"><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    {% else %}
+      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    {% endif %}
+  </section>
+  <section class="post-content">
+    {% if page.rinah %}
+      <p><em>
+          [This post originally appeared at the <a href="{{ page.rinah }}">Religion in American History</a> blog.]
+      </em></p>
+    {% endif %}
+    {{ content | replace: '<!--more-->', '<a id="read-more"></a>' }}
+  </section>
+  <section class="post-after">
+    {% if page.link %}
+      <a href="{{ page.link }}">
+        {% if page.link-text %}
+          <span class="glyphicon glyphicon-link"></span>
+          {{ page.link-text }} &rarr;
+        {% else %}
+          <span class="glyphicon glyphicon-link"></span>
+          {{ page.title }} &rarr;
+        {% endif %}
+      </a>
+    {% endif %}
+  </section>
 
   <hr>
 
-  <div id="disqus_thread" style="margin-top:20px;"></div>
-<script type="text/javascript">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'lincolnmullendotcom';
-    
+
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
 </article>
 

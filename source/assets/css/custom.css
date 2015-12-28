@@ -171,6 +171,14 @@ figure figcaption em {
 }
 
 /* Standalone posts */
+.standalone {
+  margin-top: 2rem;
+}
+.standalone hr {
+  margin-top: 60px;
+  margin-bottom: 60px
+}
+
 .post-metadata {
   margin-bottom: 3rem;
 }

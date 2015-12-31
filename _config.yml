@@ -14,10 +14,11 @@ root: /
 permalink: /blog/:title/
 source: source
 destination: public
-plugins: plugins
+plugins_dir: plugins
 gems: 
   - jekyll_figure
   - jekyll-pandoc
+  - jekyll-paginate
 excerpt_separator: <!--more-->
 markdown: pandoc
 pandoc:
@@ -28,7 +29,7 @@ figures:
   enumerate: true
   analytics: true
 lsi: false
-highlighter: false
+# highlighter: false
 collections:
 - projects
 - software

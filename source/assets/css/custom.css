@@ -172,7 +172,7 @@ figure figcaption em {
 
 /* Standalone posts */
 .standalone {
-  margin-top: 2rem;
+  margin-top: 2.4rem;
 }
 .standalone hr {
   margin-top: 60px;
@@ -228,7 +228,7 @@ h3.link-post {
 }
 
 #blog {
-  margin-top: 4rem;
+  margin-top: 2.4rem;
 }
 /* pandoc.org/demo/example18a.html */
 pre {

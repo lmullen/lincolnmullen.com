@@ -1,7 +1,8 @@
 source "http://rubygems.org"
 
-gem 'jekyll', '> 2.5.2'
-gem "jekyll-pandoc", "~> 0.0.1"
+gem 'jekyll', '~> 3.0.1'
+gem "jekyll-pandoc"
+gem "jekyll-paginate"
 gem 'pandoc-ruby'
 gem 'rake'
 gem 'stringex'

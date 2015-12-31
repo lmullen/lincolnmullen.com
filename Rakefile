@@ -32,6 +32,8 @@ task :draft do |t|
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     # post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "# link:"
+    post.puts "# link-text:"
     post.puts "categories: "
     post.puts "..."
   end
@@ -61,7 +63,7 @@ task :preview do
 
   puts "Previewing the site locally with Jekyll."
 
-  jekyllPid  = Process.spawn("jekyll build --watch --drafts --limit_posts 10")
+  jekyllPid  = Process.spawn("jekyll build --watch --drafts --incremental")
 
   trap("INT") {
     [jekyllPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
@@ -74,7 +76,7 @@ end
 
 task :build do
   puts "\nBuilding the production version of the site ..."
-  system "jekyll build"
+  system "jekyll build --incremental"
 end
 
 desc "Copy vignettes"
@@ -119,4 +121,8 @@ CLOBBER.include('public/*')
 desc "Edit drafts"
 task :write do
   sh %[mvim source/_drafts/*]
+end
+
+task :version do
+  system "jekyll --version"
 end

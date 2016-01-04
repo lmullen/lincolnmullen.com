@@ -76,7 +76,7 @@ end
 
 task :build do
   puts "\nBuilding the production version of the site ..."
-  system "jekyll build --incremental"
+  system "jekyll build"
 end
 
 desc "Copy vignettes"

@@ -1,6 +1,6 @@
 #### Journal articles 
 
-Cameron Blevins and Lincoln Mullen, "Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction," *Digital Humanities Quarterly*, forthcoming.
+Cameron Blevins and Lincoln Mullen, "Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction," *Digital Humanities Quarterly*, 9, no. 3 (2015). [web](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html)
 
 "The Contours of Conversion to Catholicism in the Nineteenth Century," *U.S. Catholic Historian* 32, no. 2 (2014): 1--27. DOI: [10.1353/cht.2014.0007](http://dx.doi.org/10.1353/cht.2014.0007),  [Project Muse](http://muse.jhu.edu/journals/cht/summary/v032/32.2.mullen.html),  [PDF](/downloads/pdf/mullen.contours-conversion-to-catholicism.pdf)
 

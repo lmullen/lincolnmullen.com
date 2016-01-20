@@ -18,7 +18,7 @@ Not so simple solution: My solution to this problem is to try to take the burden
 You might object: there is no way my institution will give me a server of my own, and installing RStudio Server might be too difficult for me. For RStudio, at least, the [analogsea package](https://github.com/sckott/analogsea) can help you get a server up and running at Digital Ocean. Assuming you already have a [Digital Ocean](https://www.digitalocean.com/) account, it can be as simple as these few lines of code (though you will also have to add users and configure the memory).
 
 ``` {.r}
-library(analogse)
+library(analogsea)
 
 docklet_create() %>%
  docklet_rstudio()

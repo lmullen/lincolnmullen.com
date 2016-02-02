@@ -38,6 +38,8 @@ task :draft do |t|
     post.puts "..."
   end
 
+  sh "mvim #{filename}"
+
 end
 
 desc "Move a post from _drafts to _posts"

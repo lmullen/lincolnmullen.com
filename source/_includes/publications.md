@@ -2,6 +2,8 @@
 
 Cameron Blevins and Lincoln Mullen, "Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction," *Digital Humanities Quarterly*, 9, no. 3 (2015). [web](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html)
 
+"Lynching, Visualization, and Visibility," *Journal of Southern Religion* 17 (2015). [web](http://jsreligion.org/issues/vol17/mullen.html)
+
 "The Contours of Conversion to Catholicism in the Nineteenth Century," *U.S. Catholic Historian* 32, no. 2 (2014): 1--27. DOI: [10.1353/cht.2014.0007](http://dx.doi.org/10.1353/cht.2014.0007),  [Project Muse](http://muse.jhu.edu/journals/cht/summary/v032/32.2.mullen.html),  [PDF](/downloads/pdf/mullen.contours-conversion-to-catholicism.pdf)
 
 "Using Metadata and Maps to Teach the History of Religion," *Transformations: The Journal of Inclusive Scholarship and Pedagogy*, 24, no. 3 (2014): 34--40. [PDF preprint](/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf)

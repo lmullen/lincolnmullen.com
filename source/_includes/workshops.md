@@ -1,3 +1,7 @@
+Jason Heppler and Lincoln Mullen, "[R, Interactive Graphics, and Data Visualization for the Humanities](http://dhsi.org/courses.php)." To be given at Digital Humanities Summer Institute, University of Victoria, British Columbia, Canada, June 6--10, 2016.
+
+"[Data Visualization Workshop](http://lincolnmullen.com/projects/helsinki-workshop/)." Given at the University of Helsinki, Finland, December 16--18, 2015.
+
 "[Spatial Humanities Workshop](http://lincolnmullen.com/projects/spatial-workshop/)." Given at Concordia College, Moorhead, MN, June 1--5, 2015.
 
 "Introduction to Mapping and Spatial History." Given at [Doing Digital History](http://history2014.doingdh.org/), NEH-ODH Summer Institute, George Mason University, August 11, 2014. ([slides and notes](/downloads/pdf/spatial-history.doing-dh.pdf))

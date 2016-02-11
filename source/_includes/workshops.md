@@ -1,3 +1,5 @@
+Kellen Funk and Lincoln Mullen, "Text Reuse for Digital Legal History." To be given at the American Society for Legal History, Toronto, Canada, October 27, 2016.
+
 Jason Heppler and Lincoln Mullen, "[R, Interactive Graphics, and Data Visualization for the Humanities](http://dhsi.org/courses.php)." To be given at Digital Humanities Summer Institute, University of Victoria, British Columbia, Canada, June 6--10, 2016.
 
 "[Data Visualization Workshop](http://lincolnmullen.com/projects/helsinki-workshop/)." Given at the University of Helsinki, Finland, December 16--18, 2015.

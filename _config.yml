@@ -6,6 +6,8 @@ title: Lincoln Mullen
 name: Lincoln Mullen
 author: Lincoln Mullen
 
+limit_posts: 1
+
 # RSS / Email 
 subscribe_rss: http://lincolnmullen.com/atom.xml
 email: lincoln@lincolnmullen.com

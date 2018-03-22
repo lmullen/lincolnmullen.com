@@ -77,6 +77,12 @@ ul {
   list-style-type: square;
 }
 
+.feed-icon {
+  height: 20px;
+  width: auto;
+  margin-top: -1px;
+}
+
 #description ul a {
   text-decoration: none;
 }
@@ -108,6 +114,17 @@ td {
 .short-description {
   margin-top: 0;
   font-style: italic;
+}
+
+.site-title {
+  font-weight: 700;
+  text-decoration: none;
+  color: black!important;
+}
+
+.rss-feed {
+  width: auto;
+  height: 16;
 }
 
 h1 {

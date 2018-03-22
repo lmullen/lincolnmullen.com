@@ -3,3 +3,7 @@ languageCode: "en-us"
 title: "Lincoln A. Mullen"
 description: "Lincoln A. Mullen is a historian of American religious history and nineteenth-century United States history."
 canonifyURLs: true
+author:
+  name: "Lincoln A. Mullen"
+  email: "lincoln@lincolnmullen.com"
+

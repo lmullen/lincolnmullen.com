@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ .Hugo.Generator }}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+    <script src="/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <h1>{{ .Site.Title }}</h1>
+      {{ partial "nav.html" . }}
+      <hr>
+    </header>
+
+    <main>

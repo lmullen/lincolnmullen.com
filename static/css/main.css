@@ -1,0 +1,292 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  clear: both;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+body {
+  max-width: 800px;
+  margin: 0rem auto;
+  padding: 2rem;
+}
+
+nav a {
+  padding-right: 1rem;
+  /* text-decoration: none; */
+  white-space: nowrap;
+}
+
+#description {
+  position: relative;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #ac4142;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#description ul a {
+  text-decoration: none;
+}
+
+.book {
+  margin: 0 0 1rem 0;
+  clear: both;
+  position: relative;
+  overflow: auto;
+}
+
+.book img {
+  float: right;
+  margin: 1.5rem 0 0 1rem;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.semester {
+  min-width: 140px;
+  display: inline-block;
+}
+
+td {
+  padding: 8px 4px;
+}
+
+.short-description {
+  margin-top: 0;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  margin-bottom: 0.25em;
+}
+
+.project-link {
+  font-weight: bold;
+}
+
+#page-nav {
+  padding-top:0;
+}
+
+/* ==========================================================================
+ * Two columns
+========================================================================== */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 0 0 0 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 65%;
+}
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (max-width: 875px) {
+	.col { 
+		/* margin: 1% 0 1% 0%; */
+	}
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

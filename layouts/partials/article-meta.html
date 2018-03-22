@@ -1,0 +1,4 @@
+<header class="article-meta">
+<h1><span class="title">{{ .Title }}</span></h1>
+{{ if (gt .Params.date 0) }}<time class="date" datetime="2006-01-02">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
+</header>

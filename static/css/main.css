@@ -128,26 +128,80 @@ td {
 }
 
 h1 {
-  font-size: 1.25em;
-  font-weight: bold;
-  margin-bottom: 0.2em;
+  font-size: 1.75em;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.5em; 
 }
 
 h3 {
-  margin-bottom: 0.25em;
+  font-size: 1.125em;
 }
 
 .project-link {
   font-weight: bold;
 }
 
-#page-nav {
-  padding-top:0;
+hr.nav {
+  margin-bottom: 2rem;
 }
+
+ul.blog {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.blog li {
+  margin-bottom: 0.5rem;
+}
+
+article {
+	counter-reset: figures;
+}
+
+figure {
+	counter-increment: figures;
+}
+
+figure figcaption, figure figcaption p {
+  display: inline-block;
+  font-style: italic;
+}
+
+figure figcaption:before {
+	content: 'Figure ' counter(figures) '. ';
+	white-space: nowrap;
+	/* font-weight: bold; */
+}
+
+article img,
+article figure img {
+  max-width: 100%;
+}
+
+.article-meta {
+  margin-top: -0.75em;
+}
+
+.post-categories,
+.post-categories a {
+  color: #777;
+}
+
+.highlight {
+  margin-left: 2em;
+}
+
+/* Align the post titles in the blog list */
+time.date {
+  width: 100px;
+  display: inline-block;
+}
+
+a.post-link {
+  display: inline-block;
+} 
 
 /* ==========================================================================
  * Two columns

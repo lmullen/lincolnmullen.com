@@ -1,7 +1,10 @@
 {{ partial "head.html" . }}
 
 <article>
-{{ partial "article-meta.html" . }}
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+    {{ partial "article-meta.html" . }}
+  </header>
 {{ .Content }}
 </article>
 

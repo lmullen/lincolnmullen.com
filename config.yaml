@@ -1,8 +1,17 @@
-baseURL: "https://lincolnmullen.com/"
-languageCode: "en-us"
 title: "Lincoln A. Mullen"
 description: "Lincoln A. Mullen is a historian of American religious history and nineteenth-century United States history."
+baseURL: "https://lincolnmullen.com/"
+
 canonifyURLs: true
+languageCode: "en-us"
+googleAnalytics: "UA-25121492-1"
+
+pygmentsCodefences: true
+pygmentsUseClasses: true
+
+taxonomies:
+  category: "categories"
+
 author:
   name: "Lincoln A. Mullen"
   email: "lincoln@lincolnmullen.com"

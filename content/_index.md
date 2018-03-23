@@ -1,6 +1,5 @@
 ---
 title: "About"
-draft: false
 ---
 
 This is the home page.

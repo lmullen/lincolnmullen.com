@@ -4,13 +4,15 @@
 
 {{ .Content }}
 
+<!-- <h2>Posts by date</h2> -->
+
 {{ range .Data.Pages.GroupByDate "2006" }}
 <h3>{{ .Key }}</h3>
 <ul class="blog">
     {{ range .Pages }}
     <li>
-      <time class="date" datetime="2006-01-02">{{ .Date.Format "Jan 02" }}</time>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <time class="date" datetime="2006-01-02">{{ .Date.Format "January 2" }}</time>
+      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
     </li>
     {{ end }}
 </ul>

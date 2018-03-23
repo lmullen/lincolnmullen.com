@@ -1,8 +1,12 @@
 {{ partial "head.html" . }}
-<div class="homepage">
-  {{ partial "article-meta.html" . }}
-  {{.Content}}
-</div>
-{{ partial "foot.html" . }}
 
+<article>
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+    {{ partial "article-meta.html" . }}
+  </header>
+{{ .Content }}
+</article>
+
+{{ partial "foot.html" . }}
 

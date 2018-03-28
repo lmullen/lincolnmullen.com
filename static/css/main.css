@@ -169,15 +169,20 @@ figure {
 	counter-increment: figures;
 }
 
-figure figcaption, figure figcaption p {
-  display: inline;
+figure figcaption {
+  display: inline-block;
+}
+
+figure figcaption p {
+  display: inline; 
   font-style: italic;
 }
 
 figure figcaption:before {
 	content: 'Figure ' counter(figures) '. ';
 	white-space: nowrap;
-	/* font-weight: bold; */
+	display: inline;
+	font-style: italic;
 }
 
 article img,

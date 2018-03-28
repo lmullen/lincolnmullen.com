@@ -96,8 +96,8 @@ ul {
 
 .book img {
   float: right;
-  margin: 1.5rem 0 0 1rem;
-  max-width: 200px;
+  margin: 0 0 0.5em 0.5em;
+  max-width: 220px;
   border: 1px solid #ccc;
   padding: 3px;
 }
@@ -112,7 +112,7 @@ td {
 }
 
 .short-description {
-  margin-top: 0;
+  margin-top: 0em;
   font-style: italic;
 }
 
@@ -128,23 +128,28 @@ td {
 }
 
 h1 {
-  font-size: 1.75em;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 h2 {
-  font-size: 1.5em; 
+  font-size: 1.3em; 
+  font-weight: bold;
+}
+
+.book h2 {
+  margin-bottom: 0.25em;
 }
 
 h3 {
   font-size: 1.125em;
-}
-
-.project-link {
   font-weight: bold;
 }
 
 hr.nav {
-  margin-bottom: 2rem;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 ul.blog {
@@ -165,7 +170,7 @@ figure {
 }
 
 figure figcaption, figure figcaption p {
-  display: inline-block;
+  display: inline;
   font-style: italic;
 }
 
@@ -195,13 +200,19 @@ article figure img {
 
 /* Align the post titles in the blog list */
 time.date {
-  width: 100px;
+  width: 80px;
   display: inline-block;
 }
 
 a.post-link {
   display: inline-block;
 } 
+
+.profile-photo {
+  max-width: 250px;
+  float: right;
+  margin: 0 0 1em 1em;
+}
 
 /* ==========================================================================
  * Two columns

@@ -1,0 +1,9 @@
+<div class="book">
+<h2>{{ .Get "title" }}</h2>
+<p class="short-description">{{ .Get "publisher" }}, {{ .Get "year" }}</p>
+
+<a href='{{ .Get "url" }}'><img src='/img/{{ .Get "image" }}' alt='{{ .Get "title" }}'></a>
+
+{{ .Inner }}
+
+</div>

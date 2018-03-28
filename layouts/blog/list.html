@@ -11,7 +11,7 @@
 <ul class="blog">
     {{ range .Pages }}
     <li>
-      <time class="date" datetime="2006-01-02">{{ .Date.Format "January 2" }}</time>
+      <time class="date" datetime="2006-01-02">{{ .Date.Format "Jan 2" }}</time>
       <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
     </li>
     {{ end }}

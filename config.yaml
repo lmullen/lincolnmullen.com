@@ -5,6 +5,9 @@ baseURL: "https://lincolnmullen.com/"
 canonifyURLs: true
 languageCode: "en-us"
 googleAnalytics: "UA-25121492-1"
+disqusShortname: lincolnmullendotcom
+permalinks:
+  post: "/:section/:slug/"
 
 pygmentsCodefences: true
 pygmentsUseClasses: true

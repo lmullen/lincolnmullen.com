@@ -96,7 +96,7 @@ ul {
 
 .book img {
   float: right;
-  margin: 0 0 0.5em 0.5em;
+  margin: 0 0 1em 1em;
   max-width: 220px;
   border: 1px solid #ccc;
   padding: 3px;
@@ -190,6 +190,10 @@ article figure img {
   max-width: 100%;
 }
 
+article p,
+.book p {
+  text-align: justify;
+}
 .article-meta {
   margin-top: -0.75em;
 }

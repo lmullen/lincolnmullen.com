@@ -5,6 +5,14 @@
 <h2><span class="title">{{ .Title }}</span></h2>
 {{ partial "article-meta.html" . }}
 </header>
+
+{{ if lt .Date.Year 2017 }}
+<div class="migration-warning">
+  I've recently migrated this blog, and the older posts might not yet be 
+  satisfactorily cleaned up. Apologies for the temporary mess.
+</div>
+{{ end }}
+
 {{ .Content }}
 </article>
 

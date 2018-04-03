@@ -96,7 +96,7 @@ ul {
 
 .book img {
   float: right;
-  margin: 0 0 1em 1em;
+  margin: 0 0 0.5em 1em;
   max-width: 220px;
   border: 1px solid #ccc;
   padding: 3px;
@@ -190,10 +190,23 @@ article figure img {
   max-width: 100%;
 }
 
+#publications-and-projects p {
+  text-align: left;
+}
+
 article p,
-.book p {
+#publications-and-projects .book p {
   text-align: justify;
 }
+
+.migration-warning {
+  width: 50%;
+  margin: 1em 0em;
+  border: 1px solid lightgrey;
+  padding: 1em;
+  font-style: italic;
+}
+
 .article-meta {
   margin-top: -0.75em;
 }
@@ -220,7 +233,7 @@ a.post-link {
 .profile-photo {
   max-width: 250px;
   float: right;
-  margin: 0 0 1em 1em;
+  margin: 0 0 0.5em 1em;
 }
 
 /* ==========================================================================
@@ -261,6 +274,19 @@ Media Queries
 		/* margin: 1% 0 1% 0%; */
 	}
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
+
+}
+@media only screen and (max-width: 600px) {
+	.book img,
+	.profile-photo {
+    float: none;
+    margin: 0;
+    /* max-width: 200px; */
+  }
+  article p,
+  #publications-and-projects .book p {
+    text-align: left;
+  }
 }
 
 @media print,

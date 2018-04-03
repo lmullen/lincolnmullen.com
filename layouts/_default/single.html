@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 
-<article>
+<article id="{{ urlize .Title }}">
   <header>
     <h1 class="title">{{ .Title }}</h1>
     {{ partial "article-meta.html" . }}

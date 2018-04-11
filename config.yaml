@@ -12,6 +12,9 @@ permalinks:
 pygmentsCodefences: true
 pygmentsUseClasses: true
 
+params:
+  categories: false
+
 taxonomies:
   category: "categories"
 

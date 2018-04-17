@@ -4,6 +4,8 @@ title: "Publications and projects"
 
 [Books and projects](#books-and-projects) | [Works in progress](#wip) | [Articles and chapters](#articles) | [Miscellaneous](#misc)
 
+For a complete list of my scholarship, please see my [CV](https://lincolnmullen.com/files/Mullen-cv.pdf).
+
 <a name="books-and-projects"></a>
 
 {{% book title="The Chance of Salvation: A History of Conversion in America" image="chance-of-salvation-cover.jpg" year="2017" publisher="Harvard University Press" url="http://www.hup.harvard.edu/catalog.php?isbn=9780674975620" %}}

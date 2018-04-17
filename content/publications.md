@@ -63,6 +63,11 @@ Analytical Work Reproducibly Using R (and Friends)," *The American
 Statistician* (forthcoming): <https://doi.org/10.1080/00031305.2017.1375986>.
 [PeerJ preprint](https://peerj.com/preprints/3192/), [published version](https://doi.org/10.1080/00031305.2017.1375986)
 
+Lincoln A. Mullen et al., "Fast, Consistent Tokenization of
+Natural Language Text," *Journal of Open Source Software* 3, no.
+23 (2018): 655, <https://doi.org/10.21105/joss.00655>.
+
+Lincoln A. Mullen and Jordan F. Bratt, "USAboundaries: Historical and Contemporary Boundaries of the United States of America," *Journal of Open Source Software* 3, no. 23 (2018): 314, <https: //doi.org/10.21105/joss.00314>.
 
 Kellen Funk and Lincoln A. Mullen, "The Spine of American Law:
 Digital Text Analysis and U.S. Legal Practice," *American Historical

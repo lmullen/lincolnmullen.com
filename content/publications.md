@@ -40,14 +40,13 @@ Press.
 
 ## Works in progress
 
-"The Making of America’s Public Bible: Computational Text Analysis in Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter).  
-
-[*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/).
-
-*Mapping Early American Elections*, Roy Rosenzweig Center for History and New Media, George Mason University, 2016–2019. [Project website](http://earlyamericanelections.org)
+"The Making of America's Public Bible: Computational Text Analysis in Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter).  
 
 Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Making Deep Maps: Foundations, Approaches, and Methods*, edited by David Bodenhamer, John Corrigan, and Trevor Harris (Indiana University Press).
 
+*Mapping Early American Elections*, Roy Rosenzweig Center for History and New Media, George Mason University, 2016–2019. [Project website](http://earlyamericanelections.org)
+
+[*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/).
 
 -------------------------------------------------------------------
 
@@ -55,41 +54,40 @@ Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Mak
 
 ## Articles and book chapters
 
-Kellen R. Funk and Lincoln A. Mullen, "The Spine of American Law:
-Digital Text Analysis and U.S. Legal Practice," *American Historical
-Review* 123, no. 1 (2018): 132–164, <https://doi.org/10.1093/ahr/123.1.132>. [published version](https://doi-org.mutex.gmu.edu/10.1093/ahr/123.1.132), [SSRN
-preprint](https://ssrn.com/abstract=3001377), [SocArXiv
-preprint](https://osf.io/preprints/socarxiv/w8un4/)
+"A Braided Narrative for Digital History," in *Debates in the Digital
+Humanities 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of
+Minnesota Press, forthcoming 2019). [Humanities Commons preprint](https://hcommons.org/deposits/item/hc:18095)
 
-Ben Marwick, Carl Boettiger, and Lincoln Mullen, "Packaging Data
+Ben Marwick, Carl Boettiger, and Lincoln A. Mullen, "Packaging Data
 Analytical Work Reproducibly Using R (and Friends)," *The American
 Statistician* (forthcoming): <https://doi.org/10.1080/00031305.2017.1375986>.
 [PeerJ preprint](https://peerj.com/preprints/3192/), [published version](https://doi.org/10.1080/00031305.2017.1375986)
 
-"A Braided Narrative for Digital History," in *Debates in the Digital
-Humanities 2018*, ed. Matthew K. Gold and Lauren F. Klein (University of
-Minnesota Press, forthcoming 2018).
 
-"Bibles and Tracts in Print Culture in America," *Oxford Research
-Encyclopedia of Religion* (Oxford University Press, September 2017).
-DOI: 10.1093/acrefore/9780199340378.013.412.
-[Web](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412)
+Kellen Funk and Lincoln A. Mullen, "The Spine of American Law:
+Digital Text Analysis and U.S. Legal Practice," *American Historical
+Review* 123, no. 1 (2018): 132--164, <https://doi.org/10.1093/ahr/123.1.132>. [published version](https://doi-org.mutex.gmu.edu/10.1093/ahr/123.1.132), [SSRN
+preprint](https://ssrn.com/abstract=3001377), [SocArXiv
+preprint](https://osf.io/preprints/socarxiv/w8un4/)
 
 Lincoln A. Mullen, Margaret Bendroth, Thomas Kidd, Keith Harper, and
 Robert W. Prichard, "The Uses of Denominational History," *Fides et
-Historia* 49, no. 2 (forthcoming fall 2017). [SocArXiv
+Historia* 49, no. 2 (2017): 57--66. [SocArXiv
 preprint](https://osf.io/preprints/socarxiv/3zwgr/)
+
+Arguing with Digital History working group, "Digital History and Argument," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): <https://rrchnm.org/ argument-white-paper/>. (primary author with Stephen Robertson)
+
+"Bibles and Tracts in Print Culture in America," *Oxford Research
+Encyclopedia of Religion* (Oxford University Press, 2017), <https://10.1093/acrefore/9780199340378.013.412>. [published version](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412)
 
 Kellen Funk and Lincoln A. Mullen, "A Servile Copy: Text Reuse and
 Medium Data in American Civil Procedure," in *Forum: Die
 geisteswissenschaftliche Perspektive: Welche Forschungsergebnisse lassen
 Digital Humanities erwarten? [Forum: With the Eyes of a Humanities
 Scholar: What Results Can We Expect from Digital Humanities?]*, 24
-*Rechtsgeschichte [Legal History]* (2016): 341--43. DOI:
-10.12946/rg24/341-343. [published
-version](http://rg.rg.mpg.de/en/article_id/1040)
+*Rechtsgeschichte [Legal History]* (2016): 341--43, <https://doi.org/10.12946/rg24/341-343>.  
 
-Kellen R. Funk and Lincoln A. Mullen, "The Migration of the Field Code,"
+Kellen Funk and Lincoln A. Mullen, "The Migration of the Field Code,"
 working paper, February 2016. [working
 paper](https://osf.io/preprints/socarxiv/nfg92)
 
@@ -99,14 +97,11 @@ Humanities Quarterly* 9, no. 3 (2015). [published
 version](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html)
 
 "Lynching, Visualization, and Visibility," *Journal of Southern
-Religion* 17 (2015). [published
-version](http://jsreligion.org/issues/vol17/mullen.html)
+Religion* 17 (2015): <http://jsreligion.org/issues/vol17/mullen.html>
 
 "The Contours of Conversion to Catholicism in the Nineteenth Century,"
-*U.S. Catholic Historian* 32, no. 2 (2014): 1--27. DOI:
-10.1353/cht.2014.0007. [published
-version](http://lincolnmullen.com/files/pdf/mullen.contours-conversion-to-catholicism.pdf),
-[Project Muse](https://muse.jhu.edu/article/552113)
+*U.S. Catholic Historian* 32, no. 2 (2014): 1--27, <https://doi.org/10.1353/cht.2014.0007>. [published
+version](http://lincolnmullen.com/files/pdf/mullen.contours-conversion-to-catholicism.pdf), [Project Muse](https://muse.jhu.edu/article/552113)
 
 "Using Metadata and Maps to Teach the History of Religion,"
 *Transformations: The Journal of Inclusive Scholarship and Pedagogy*,

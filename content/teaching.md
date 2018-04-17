@@ -3,6 +3,7 @@ title: "Teaching"
 ---
 
 <table border="0" cellspacing="5" cellpadding="5">
+  <tr><td class="semester">Fall 2018</td> <td><a href="https://historyarthistory.gmu.edu/courses/hist389/course_sections/36671">American Scriptures</a> (with John Turner)</td></tr>
   <tr><td class="semester">Spring 2018</td> <td><a href="http://lincolnmullen.com/courses/clio2.2018/">Clio 2: Computational History</a></td></tr>
   <tr><td class="semester">Spring 2017</td> <td><a href="http://lincolnmullen.com/courses/clio2.2017/">Clio 2: Data and Visualization in Digital History</a></td></tr>
   <tr><td class="semester">Spring 2017</td> <td><a href="http://lincolnmullen.com/files/Global-History-Christianity.spring-2017.pdf">Global History of Christianity</a> (with Mack Holt and John Turner)</td></tr>

@@ -2,9 +2,9 @@
 title: "Publications and projects"
 ---
 
-[Books](#books) | [Works in progress](#wip) | [Articles and chapters](#articles) | [Miscellaneous](#misc)
+[Books and projects](#books-and-projects) | [Works in progress](#wip) | [Articles and chapters](#articles) | [Miscellaneous](#misc)
 
-<a name="books"></a>
+<a name="books-and-projects"></a>
 
 {{% book title="The Chance of Salvation: A History of Conversion in America" image="chance-of-salvation-cover.jpg" year="2017" publisher="Harvard University Press" url="http://www.hup.harvard.edu/catalog.php?isbn=9780674975620" %}}
 
@@ -15,6 +15,8 @@ As nineteenth-century Americans confronted a growing array of religious options,
 [Harvard University Press](http://www.hup.harvard.edu/catalog.php?isbn=9780674975620) | [Amazon.com](https://www.amazon.com/Chance-Salvation-History-Conversion-America/dp/0674975626/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1490978609&sr=1-1&linkCode=ll1&tag=backwardglance-20&linkId=7f7a7942a1a57644b1148d412c367aec) | [Google Books](https://books.google.com/books?id=OH0uDwAAQBAJ&printsec=frontcover#v=onepage&q&f=false)
 
 {{% /book %}}
+
+-------------------------------------------------------------------
 
 {{% book title="America’s Public Bible: Biblical Quotations in U.S. Newspapers" image="public-bible-screenshot.png" year="in progress" publisher="Stanford University Press" url="http://americaspublicbible.org/" %}}
 
@@ -30,7 +32,17 @@ available online. A much expanded version of the site is in progress,
 and it will be published as a digital monograph by Stanford University
 Press.
 
-[America's Public Bible website](http://americaspublicbible.org)
+[America's Public Bible website](http://americaspublicbible.org) | [GitHub repositories](https://github.com/public-bible)
+
+{{% /book %}}
+
+-------------------------------------------------------------------
+
+{{% book title="Mapping Early American Elections" image="mapping-elections-screenshot.png" year="in progress" publisher="Roy Rosenzweig Center for History and New Media" url="http://earlyamericanelections.org/" %}}
+
+*Mapping Early American Elections* is a [collaborative project with a team](http://earlyamericanelections.org/about/#project-team) at RRCHNM for which I am the principal investigator. The project, which is currently in progress, offers a window into the formative era of American politics through interactive maps and visualizations of Congressional and state legislative elections from 1787 to 1825. The project makes available the electoral returns and spatial data underlying those maps, along with topical essays on the political history of the period and tutorials to encourage users to use the datasets to create their own maps.
+
+[Mapping Early American Elections website](http://earlyamericanelections.org) | [GitHub repositories](https://github.com/mapping-elections)
 
 {{% /book %}}
 
@@ -44,9 +56,7 @@ Press.
 
 Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Making Deep Maps: Foundations, Approaches, and Methods*, edited by David Bodenhamer, John Corrigan, and Trevor Harris (Indiana University Press).
 
-*Mapping Early American Elections*, Roy Rosenzweig Center for History and New Media, George Mason University, 2016–2019. [Project website](http://earlyamericanelections.org)
-
-[*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/).
+[*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/) (textbook in progress).
 
 -------------------------------------------------------------------
 
@@ -73,7 +83,7 @@ Kellen Funk and Lincoln A. Mullen, "The Spine of American Law:
 Digital Text Analysis and U.S. Legal Practice," *American Historical
 Review* 123, no. 1 (2018): 132--164, <https://doi.org/10.1093/ahr/123.1.132>. [published version](https://doi-org.mutex.gmu.edu/10.1093/ahr/123.1.132), [SSRN
 preprint](https://ssrn.com/abstract=3001377), [SocArXiv
-preprint](https://osf.io/preprints/socarxiv/w8un4/)
+preprint](https://osf.io/preprints/socarxiv/w8un4/), [analysis repository](https://github.com/lmullen/civil-procedure-codes)
 
 Lincoln A. Mullen, Margaret Bendroth, Thomas Kidd, Keith Harper, and
 Robert W. Prichard, "The Uses of Denominational History," *Fides et

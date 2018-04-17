@@ -2,21 +2,29 @@
 title: "Code"
 ---
 
-"tokenizers: A Consistent Interface to Tokenize Natural Language Text."
-R package. 2016--. [GitHub](https://github.com/ropensci/tokenizers)
+The following software packages are actively maintained and, as appropriate, peer-reviewed and accompanied by a published paper about the software. If you are interested in the code I've written to perform various analyses, those repositories are listed with the associated [publications or projects](/publications/).
 
-"textreuse: Detect Text Reuse and Document Similarity." R package.
-2015--. [GitHub](https://github.com/ropensci/textreuse)
+#### tokenizers: Fast, consistent tokenization of natural language text
 
-"gender: Predict Gender from Names Using Historical Data." R package.
-2014--. [GitHub](https://github.com/ropensci/gender)
+[JOSS paper](https://doi.org/10.21105/joss.00655) | [Package website](http://lincolnmullen.com/software/tokenizers/) | [GitHub repository](https://github.com/ropensci/tokenizers) | [CRAN](https://cran.r-project.org/package=tokenizers)
 
-"internetarchive: An R client to the Internet Archive API." R package.
-2015--. [GitHub](https://github.com/ropensci/internetarchive)
+#### textreuse: Detect text reuse and document similarity
 
-"USAboundaries: Historical and Contemporary Boundaries of the United
-States of America." R package. 2015--.
-[GitHub](https://github.com/ropensci/USAboundaries)
+[Package website](http://lincolnmullen.com/software/textreuse/) | [GitHub repository](https://github.com/ropensci/textreuse) | [CRAN](https://cran.r-project.org/package=textreuse)
 
-"historydata: Datasets for Historians." R package. 2014--.
-[GitHub](https://github.com/ropensci/historydata)
+#### USAboundaries: Historical and contemporary boundaries of the United States of America
+
+[JOSS paper](https://doi.org/10.21105/joss.00314) | [Package website](http://lincolnmullen.com/software/tokenizers/) | [GitHub repository](https://github.com/ropensci/tokenizers) | [CRAN](https://cran.r-project.org/package=tokenizers)
+
+#### historydata: Datasets for historians
+
+[Package website](http://lincolnmullen.com/software/historydata/) | [GitHub repository](https://github.com/ropensci/historydata) | [CRAN](https://cran.r-project.org/package=historydata)
+
+#### internetarchive: An R client for the Internet Archive API
+
+[Package website](http://lincolnmullen.com/software/internetarchive/) | [GitHub repository](https://github.com/ropensci/internetarchive) | [CRAN](https://cran.r-project.org/package=internetarchive)
+
+#### gender: Predict gender from names using historical data
+
+[DHQ paper](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html) | [Package website](http://lincolnmullen.com/software/gender/) | [GitHub repository](https://github.com/ropensci/gender) | [CRAN](https://cran.r-project.org/package=gender)
+

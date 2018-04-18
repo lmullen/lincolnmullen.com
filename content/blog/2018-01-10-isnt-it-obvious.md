@@ -12,11 +12,11 @@ When I present the results of my work as a visualization, audiences sometimes re
 
 The problem is that often it is not possible to know what a visualization would look like in advance, and so it should not be possible immediately after seeing it to explain it as something that we already know. To convey this point, I've been trying a new technique when giving talks. Before showing the audience a visualization, I first show them a blank visualization with just the axes and title, and ask them to sketch out what they think the trend will be. For instance, here is a blank visualization of the trends in the rate at which the Bible was quoted in nineteenth-century U.S. newspapers, from my [*America's Public Bible*](http://americaspublicbible.org/) project.
 
-{{< figure src="/figures/slide08a.png" caption="What would you predict the trends should be for the rates at which the Bible was quoted in nineteenth-century U.S. newspapers?" >}}
+{{< figure src="/blog-figures/slide08a.png" caption="What would you predict the trends should be for the rates at which the Bible was quoted in nineteenth-century U.S. newspapers?" >}}
 
 Before I made the visualization, I couldn't predict the trend. I would have said something like "vaguely downwards." I certainly could not have predicted the scale. When I have given this talk to various audiences, no one has been able to predict what the actual visualization should look like. Nor for that matter could anyone guess what the top ten most frequently quoted Bible verses were with any degree of accuracy---certainly not me.
 
-{{< figure src="/figures/slide08.png" caption="The actual trend lines are not easily guessed." >}}
+{{< figure src="/blog-figures/slide08.png" caption="The actual trend lines are not easily guessed." >}}
 
 I've found that this simple approach, used both for myself and with audiences, helps dispel the sense that what is learned from visualizations was already obvious.
 

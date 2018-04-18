@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Lincoln Mullen is a historian of American religious history and the nineteenth-century United States."
 ---
 
 <img src="/img/mullen-photo.jpeg" class="profile-photo" alt="Lincoln Mullen photo">

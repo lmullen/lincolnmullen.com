@@ -42,7 +42,7 @@ Press.
 
 {{% book title="Mapping Early American Elections" image="mapping-elections-screenshot.png" year="in progress" publisher="Roy Rosenzweig Center for History and New Media" url="http://earlyamericanelections.org/" %}}
 
-*Mapping Early American Elections* is a [collaborative project with a team](http://earlyamericanelections.org/about/#project-team) at RRCHNM for which I am the principal investigator. The project, which is currently in progress, offers a window into the formative era of American politics through interactive maps and visualizations of Congressional and state legislative elections from 1787 to 1825. The project makes available the electoral returns and spatial data underlying those maps, along with topical essays on the political history of the period and tutorials to encourage users to use the datasets to create their own maps.
+*Mapping Early American Elections* is a [collaborative project with a team](http://earlyamericanelections.org/about/#project-team) at RRCHNM. The project, which is currently in progress, offers a window into the formative era of American politics through interactive maps and visualizations of Congressional and state legislative elections from 1787 to 1825. The project makes available the electoral returns and spatial data underlying those maps, along with topical essays on the political history of the period and tutorials to encourage users to use the datasets to create their own maps.
 
 [Mapping Early American Elections website](http://earlyamericanelections.org) | [GitHub repositories](https://github.com/mapping-elections)
 

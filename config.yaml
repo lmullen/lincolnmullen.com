@@ -15,8 +15,8 @@ pygmentsUseClasses: true
 params:
   categories: false
 
-taxonomies:
-  category: "categories"
+taxonomies: false
+#   category: "categories"
 
 author:
   name: "Lincoln A. Mullen"

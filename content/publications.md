@@ -54,8 +54,6 @@ Press.
 
 ## Works in progress
 
-"The Making of America's Public Bible: Computational Text Analysis in Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter).  
-
 Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Making Deep Maps: Foundations, Approaches, and Methods*, edited by David Bodenhamer, John Corrigan, and Trevor Harris (Indiana University Press).
 
 [*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/) (textbook in progress).
@@ -65,6 +63,8 @@ Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Mak
 <a name="articles"></a>
 
 ## Articles and book chapters
+
+"The Making of America's Public Bible: Computational Text Analysis in Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter, forthcoming).  
 
 "A Braided Narrative for Digital History," in *Debates in the Digital
 Humanities 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of
@@ -79,7 +79,7 @@ Lincoln A. Mullen et al., "Fast, Consistent Tokenization of
 Natural Language Text," *Journal of Open Source Software* 3, no.
 23 (2018): 655, <https://doi.org/10.21105/joss.00655>.
 
-Lincoln A. Mullen and Jordan F. Bratt, "USAboundaries: Historical and Contemporary Boundaries of the United States of America," *Journal of Open Source Software* 3, no. 23 (2018): 314, <https: //doi.org/10.21105/joss.00314>.
+Lincoln A. Mullen and Jordan F. Bratt, "USAboundaries: Historical and Contemporary Boundaries of the United States of America," *Journal of Open Source Software* 3, no. 23 (2018): 314, <https://doi.org/10.21105/joss.00314>.
 
 Kellen Funk and Lincoln A. Mullen, "The Spine of American Law:
 Digital Text Analysis and U.S. Legal Practice," *American Historical
@@ -92,7 +92,7 @@ Robert W. Prichard, "The Uses of Denominational History," *Fides et
 Historia* 49, no. 2 (2017): 57--66. [SocArXiv
 preprint](https://osf.io/preprints/socarxiv/3zwgr/)
 
-Arguing with Digital History working group, "Digital History and Argument," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): <https://rrchnm.org/ argument-white-paper/>. (primary author with Stephen Robertson)
+Arguing with Digital History working group, "Digital History and Argument," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): <https://rrchnm.org/argument-white-paper/>. (primary author with Stephen Robertson)
 
 "Bibles and Tracts in Print Culture in America," *Oxford Research
 Encyclopedia of Religion* (Oxford University Press, 2017), <https://10.1093/acrefore/9780199340378.013.412>. [published version](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412)

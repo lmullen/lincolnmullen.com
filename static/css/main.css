@@ -55,6 +55,9 @@ body {
   max-width: 800px;
   margin: 0rem auto;
   padding: 2rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 nav a {

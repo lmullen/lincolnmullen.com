@@ -121,7 +121,7 @@ Religion* 17 (2015): <http://jsreligion.org/issues/vol17/mullen.html>
 version](http://lincolnmullen.com/files/pdf/mullen.contours-conversion-to-catholicism.pdf), [Project Muse](https://muse.jhu.edu/article/552113)
 
 "Using Metadata and Maps to Teach the History of Religion,"
-*Transformations: The Journal of Inclusive Scholarship and Pedagogy*,
+*Transformations: The Journal of Inclusive Scholarship and Pedagogy*
 25, no. 1 (2014): 112--118.
 [post-print](http://lincolnmullen.com/files/pdf/mullen.using-metadata-and-maps.preprint.pdf)
 

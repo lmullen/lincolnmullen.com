@@ -95,7 +95,7 @@ preprint](https://osf.io/preprints/socarxiv/3zwgr/)
 Arguing with Digital History working group, "Digital History and Argument," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): <https://rrchnm.org/argument-white-paper/>. (primary author with Stephen Robertson)
 
 "Bibles and Tracts in Print Culture in America," *Oxford Research
-Encyclopedia of Religion* (Oxford University Press, 2017), <https://10.1093/acrefore/9780199340378.013.412>. [published version](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412)
+Encyclopedia of Religion* (Oxford University Press, 2017), <https://doi.org/10.1093/acrefore/9780199340378.013.412>. [published version](https://doi.org/10.1093/acrefore/9780199340378.013.412)
 
 Kellen Funk and Lincoln A. Mullen, "A Servile Copy: Text Reuse and
 Medium Data in American Civil Procedure," in *Forum: Die

@@ -72,7 +72,7 @@ Minnesota Press, forthcoming 2019). [Humanities Commons preprint](https://hcommo
 
 Ben Marwick, Carl Boettiger, and Lincoln A. Mullen, "Packaging Data
 Analytical Work Reproducibly Using R (and Friends)," *The American
-Statistician* (forthcoming): <https://doi.org/10.1080/00031305.2017.1375986>.
+Statistician* 72, no. 1 (2018): 80--88, <https://doi.org/10.1080/00031305.2017.1375986>.
 [PeerJ preprint](https://peerj.com/preprints/3192/), [published version](https://doi.org/10.1080/00031305.2017.1375986)
 
 Lincoln A. Mullen et al., "Fast, Consistent Tokenization of

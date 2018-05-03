@@ -8,6 +8,4 @@ build :
 deploy : build
 	rsync --delete --exclude-from=rsync-excludes \
 		--checksum -avz \
-		public/ reclaim:~/www/lincolnmullen.com/ \
-		| tee deploy.log
-
+		public/ reclaim:~/www/lincolnmullen.com/

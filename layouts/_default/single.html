@@ -5,6 +5,10 @@
     <h1 class="title">{{ .Title }}</h1>
     {{ partial "article-meta.html" . }}
   </header>
+  {{ if .Params.toc }}
+  <strong>Table of contents:</strong>
+  {{ .TableOfContents }}
+  {{ end }}
 {{ .Content }}
 </article>
 

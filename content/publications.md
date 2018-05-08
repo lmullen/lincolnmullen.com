@@ -83,7 +83,7 @@ Lincoln A. Mullen and Jordan F. Bratt, "USAboundaries: Historical and Contempora
 
 Kellen Funk and Lincoln A. Mullen, "The Spine of American Law:
 Digital Text Analysis and U.S. Legal Practice," *American Historical
-Review* 123, no. 1 (2018): 132--164, <https://doi.org/10.1093/ahr/123.1.132>. [published version](https://doi-org.mutex.gmu.edu/10.1093/ahr/123.1.132), [SSRN
+Review* 123, no. 1 (2018): 132--164, <https://doi.org/10.1093/ahr/123.1.132>. [published version (not paywalled)](https://academic.oup.com/ahr/article/123/1/132/4840258?guestAccessKey=3a271895-4af8-41e8-b3d9-15941dfe0bcf), [SSRN
 preprint](https://ssrn.com/abstract=3001377), [SocArXiv
 preprint](https://osf.io/preprints/socarxiv/w8un4/), [analysis repository](https://github.com/lmullen/civil-procedure-codes)
 

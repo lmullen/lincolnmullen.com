@@ -4,8 +4,7 @@ baseURL: "https://lincolnmullen.com/"
 
 canonifyURLs: true
 languageCode: "en-us"
-googleAnalytics: "UA-25121492-1"
-disqusShortname: lincolnmullendotcom
+googleAnalytics: "UA-121242961-1"
 permalinks:
   post: "/:section/:slug/"
 

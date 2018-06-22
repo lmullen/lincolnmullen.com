@@ -2,6 +2,12 @@
 title: "Teaching"
 ---
 
+<style>
+table, tr, td, table td {
+  border:none;
+}
+</style>
+
 <table border="0" cellspacing="5" cellpadding="5">
   <tr><td class="semester">Fall 2018</td> <td><a href="https://historyarthistory.gmu.edu/courses/hist389/course_sections/36671">American Scriptures</a> (with John Turner)</td></tr>
   <tr><td class="semester">Spring 2018</td> <td><a href="http://lincolnmullen.com/courses/clio2.2018/">Clio 2: Computational History</a></td></tr>

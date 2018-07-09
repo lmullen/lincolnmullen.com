@@ -64,11 +64,11 @@ Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Mak
 
 ## Articles and book chapters
 
-"The Making of America's Public Bible: Computational Text Analysis in Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter, forthcoming).  
+"The Making of America's Public Bible: Computational Text Analysis for Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter, forthcoming). [Humanities Commons preprint](http://dx.doi.org/10.17613/M6WW76Z8Q)
 
 "A Braided Narrative for Digital History," in *Debates in the Digital
 Humanities 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of
-Minnesota Press, forthcoming 2019). [Humanities Commons preprint](https://hcommons.org/deposits/item/hc:18095)
+Minnesota Press, forthcoming 2019). [Humanities Commons preprint](http://dx.doi.org/10.17613/M6VC3T)
 
 Ben Marwick, Carl Boettiger, and Lincoln A. Mullen, "Packaging Data
 Analytical Work Reproducibly Using R (and Friends)," *The American

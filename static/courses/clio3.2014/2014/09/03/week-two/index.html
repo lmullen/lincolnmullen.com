@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Week 2: Reproducible Research</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <link rel="canonical" href="http://lincolnmullen.com/courses/clio3.2014/courses/clio3.2014/2014/09/03/week-two/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/courses/clio3.2014/css/main.css">
+
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25121492-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <a class="site-title" href="/courses/clio3.2014/">Clio 3: Programming in History/New Media</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          
+          
+          
+          
+          
+          
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/">About</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/assignments/">Assignments</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/schedule/">Schedule</a>
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/participants/">Participants</a>
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/resources/">Resources</a>
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/policies/">Policies</a>
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+            <a class="page-link" href="/courses/clio3.2014/blog/">Blog</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrap">
+      
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Week 2: Reproducible Research</h1>
+    <p class="meta">Sep 3, 2014</p>
+  </header>
+
+  <article class="post-content">
+  <h2 id="reproducible-research">Reproducible Research</h2>
+<p>Reproducible research is</p>
+<ol type="1">
+<li>documented,</li>
+<li>version controlled,</li>
+<li>automated with a build script,</li>
+<li>written as a literate program,</li>
+<li>with all dependencies managed.</li>
+</ol>
+<p>My <a href="http://dh-r.lincolnmullen.com/reproducible.html">attempt</a> at explaining reproducible research.</p>
+<h2 id="git">Git</h2>
+<p>Normal work:</p>
+<ul>
+<li><code>git init</code></li>
+<li><code>git status</code></li>
+<li><code>git diff</code></li>
+<li><code>git add</code></li>
+<li><code>git commit</code></li>
+<li><code>git commit -a</code> and <code>git commit -m</code> and <code>git commit -am</code></li>
+<li><code>git checkout -b branch-name</code></li>
+<li><code>git merge</code></li>
+<li><code>git rebase</code></li>
+<li><code>git push origin master</code></li>
+<li><code>git tag</code></li>
+<li><code>git clone</code></li>
+</ul>
+<p>When things go bad:</p>
+<ul>
+<li><code>git reset HEAD filename</code> to unstage</li>
+<li><code>git checkout file</code> to revert to HEAD</li>
+<li><code>git diff master..branch-name</code></li>
+<li><code>git log</code></li>
+<li><code>git blame</code></li>
+<li><code>git checkout commit</code></li>
+<li><code>git revert commit</code></li>
+</ul>
+<p>Good to know:</p>
+<ul>
+<li><code>.gitignore</code> file</li>
+<li><code>~/.gitconfig</code> file</li>
+</ul>
+<p>Gists and Gistup</p>
+<ul>
+<li><a href="https://gist.github.com/">Gists</a></li>
+<li><a href="https://github.com/mbostock/gistup">Gistup</a>: <code>npm install -g gistup</code></li>
+</ul>
+<h2 id="picking-topics">Picking topics</h2>
+<p>Sign up for one of these:</p>
+<ul>
+<li>Ruby or Python</li>
+<li>XML, Xpath, TEI, Nokogiri/Beautiful Soup</li>
+<li>C or Java</li>
+<li>PHP</li>
+<li>SQL and MySQL</li>
+<li>Debugging and/or refactoring</li>
+<li>Testing</li>
+<li>Stats for historians</li>
+<li>Plugins</li>
+<li>Ruby on Rails or Sinata</li>
+<li>Dat</li>
+<li>Image processing</li>
+<li>Packaging</li>
+<li>Cloud computing: Amazon EC2 etc.</li>
+<li>A portion of any of the topics on the syllabus</li>
+</ul>
+<p>Sign-up list:</p>
+<ul>
+<li>Anne: D3</li>
+<li>Sara: SQL</li>
+<li>Allison: MARC</li>
+<li>Peter: Image processing</li>
+<li>Mandy: Dat</li>
+<li>Janelle: PHP</li>
+<li>George:</li>
+</ul>
+<h2 id="break">Break</h2>
+<h2 id="makefiles">Makefiles</h2>
+<p>Demonstration of Makefiles</p>
+<p>Our class Makefile:</p>
+<ul>
+<li>Install Lynx: <code>brew install lynx</code> or <code>sudo apt-get install lynx</code></li>
+<li>URL for Tracts for the Times: <code>http://lincolnmullen.com/files/tracts-for-times.zip</code></li>
+<li><a href="https://gist.github.com/lmullen/d2d0162a0cda6301b748">Gist of sample Makefile</a></li>
+</ul>
+<h2 id="more-unix">More Unix</h2>
+<p>Why Vim keeps popping up:</p>
+<ul>
+<li>The <code>$EDITOR</code> shell variable.</li>
+<li>Enough Vim to make you dangerous: <code>i</code> to insert; <code>ESC</code> to get back to to command mode; <code>:</code> to execute a command; <code>:w</code> to write; <code>:q</code> to quit; <code>:wq</code> to write and quit; <code>hjkl</code> to move around.</li>
+<li>Try <code>export EDITOR='subl -w'</code> in your <code>~/.bash_profile</code> or <code>~/.zshrc</code>.</li>
+<li>Another option on Macs is <code>export EDITOR='open -a TextEdit'</code>.</li>
+</ul>
+<p>Executable files:</p>
+<ul>
+<li>Execute a script: <code>Rscript script.R</code> or <code>ruby script.rb</code> or <code>node  script.js</code> or <code>python script.py</code> or <code>bash script.sh</code>.</li>
+<li>The hashbang or shebang: <code>#!</code>.</li>
+<li>Execute a script without specifying a command by putting a hashbang at the first line of the file: <code>#!/usr/bin/node</code>.</li>
+<li>Except the correct binary for the language might not be in <code>/usr/bin/</code>, so use <code>#!/usr/bin/env node</code>.</li>
+<li>Make a file executable with <code>chmod +x script.js</code>.</li>
+<li>Use <code>ls -l</code> to check permissions. <a href="http://www.linux.com/learn/tutorials/309527-understanding-linux-file-permissions">Explanation of permissions</a>.</li>
+</ul>
+<h2 id="hello-world.js">hello-world.js</h2>
+<ul>
+<li><a href="https://gist.github.com/lmullen/c2ffb4442adc02bef7a1">Gist for JavaScript Hello World</a></li>
+<li>Assignment: <code>var a = 20;</code> or <code>var a = &quot;my own string&quot;;</code></li>
+<li>Function definition:</li>
+</ul>
+<pre><code>function myFunction(a) {
+  return a + 20;
+}</code></pre>
+<p>or</p>
+<pre><code>var myFunction = function(a) {
+  return a + 20;
+}</code></pre>
+<ul>
+<li>For loop:</li>
+</ul>
+<pre><code>for (i = 0; i &lt; 10; i++) {
+  console.log(i);
+}</code></pre>
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <h2 class="footer-heading">Clio 3: Programming in History/New Media</h2>
+
+    <div class="footer-col-1 column">
+      <h3>Course</h3>
+      <ul>
+        <li>
+          
+            <a href="http://historyarthistory.gmu.edu/courses/2544/course_sections/16549"> HIST 698 </a>
+          
+          <span class="separator">|</span> Fall 2014</li>
+        <li>Meets in Research Hall 402</li>
+        <li>Meets on Wed., 7:20&ndash;10:00 p.m.</li>
+        <li>Credit hours: 3</li>
+        <li>Prerequisites: HIST 696, 697 strongly suggested</li>
+        <li>
+            Course hashtag: <a href="https://www.twitter.com/hashtag/clio3">#clio3</a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <h3>Instructor</h3>
+      <ul>
+        <li>Instructor: <a href="http://lincolnmullen.com">
+            Lincoln Mullen</a></li>
+        <li>E-mail: <a href="mailto:lmullen@gmu.edu">
+            lmullen@gmu.edu</a></li>
+        <li>Office: Research Hall 457 </li>
+        <li>Office hours: By appointment (<a href="http://lincolnmullen.com/officehours">signup</a>)</li>
+        <li>
+            Twitter: <a href="https://www.twitter.com/lincolnmullen">@lincolnmullen</a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <h3>Description</h3>
+      <p class="text">An introduction to programming for historians.</p>
+    </div>
+
+  </div>
+
+<p id="back-link">
+  <a href="http://lincolnmullen.com">← Back to home page</a>
+</p>
+
+</footer>
+
+
+    </body>
+</html>

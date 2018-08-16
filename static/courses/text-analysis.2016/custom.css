@@ -1,0 +1,21 @@
+ol, ul {
+  width: 75%;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square
+}
+
+ul li {
+  margin-left: 1.1rem;
+  padding-left 1rem;
+  text-indent: -1rem;
+}
+
+p, footer, table, div.table-wrapper-small, div.supertable-wrapper > p, div.booktabs-wrapper { width: 75%; }
+ 
+footer {
+  margin: 4rem 0;
+}

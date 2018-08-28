@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 aliases:
-- "/courses/"
+- "/teaching/"
 ---
 
 <style>

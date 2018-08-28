@@ -15,9 +15,7 @@ params:
   categories: false
 
 taxonomies: false
-#   category: "categories"
 
 author:
   name: "Lincoln A. Mullen"
   email: "lincoln@lincolnmullen.com"
-

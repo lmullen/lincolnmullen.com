@@ -1,4 +1,3 @@
-
 html {
   color: #444;
   font-size: 1em;
@@ -137,12 +136,15 @@ td {
 h1 {
   font-size: 1.5em;
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 h2 {
-  font-size: 1.3em; 
+  font-size: 1.2em; 
   font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .book h2 {
@@ -492,4 +494,45 @@ table-horizontal th {
 }
 table-horizontal tbody > tr:last-child > td {
     border-bottom-width: 0;
+}
+
+/* Syllabus specific */
+article.syllabus header {
+  background: rgb(243, 243, 243);
+  border: 1px solid black;
+  padding: 0.20rem 1.0rem;
+}
+
+article.syllabus nav#TableOfContents ul li li {
+  display: none;
+}
+
+h4#toc {
+  margin-bottom: 0;
+}
+
+article.syllabus nav#TableOfContents ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  padding: 0;
+  margin-top: 4px;
+}
+article.syllabus nav#TableOfContents ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Print only styles */
+.print-only {
+  display: none;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+  .print-only{
+    display: block;
+  }
 }

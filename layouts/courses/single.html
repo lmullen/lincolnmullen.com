@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+
+<article class="syllabus" id="{{ urlize .Title }}">
+  <h1 class="title">Syllabus for {{ .Title }} ({{ .Params.semester }} {{ .Params.year }})</h1>
+  <header>
+    <p>
+      <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}} {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets {{ .Params.meets }} in {{ .Params.room }}.
+    </p>
+    <p>
+      <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto: {{ .Params.email }}">{{ .Params.email }}</a>&gt;. Office: {{ .Params.office }}. Office hours: {{ .Params.officehours }}. <a href="{{ .Params.officesignup }}">Feel free to sign up for an appointment</a>.
+    </p>
+  </header>
+  {{ if .Params.toc }}
+  <h4 id="toc">Table of contents:</h4>
+  {{ .TableOfContents }}
+  {{ end }}
+  <main>
+    <strong class="print-only">This syllabus comes from {{ .Permalink }}. Only the online version of this syllabus is authoritative, and it may be updated as necessary.</strong>
+  {{ .Content }}
+
+  <p><em>Last updated: {{ now.Format "January 2, 2006 at 3:04pm"}}</em></p>
+  </main>
+</article>
+
+{{ partial "foot.html" . }}

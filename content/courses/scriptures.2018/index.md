@@ -21,7 +21,7 @@ officesignup: https://lincolnmullen.youcanbook.me/
 
 # Course description
 
-In this course, students will analyze texts that Americans have treated as "scripture." Students will read texts that present themselves as scripture, such as selections from the Book of Mormon and a Holy Sacred and Divine Roll and Book (a Shaker text). They will also read texts that have attained a sort of canonicity within American culture, such as the Declaration of Independence and Martin Luther King Jr.'s "Letter from Birmingham Jail." Students will thus gain more than a valuable familiarity with a variety of American religious traditions. They will also reflect on the way that, even in a digital age, texts continue to shape American identity. Finally, the course invites students to reflect on the meaning and function of "scripture." Although many Americans reflexively define scripture as "the Word of God" or think of the Bible or the Qu’ran, the scholar William Cantwell Smith cautions that "no text is a scripture in itself and as such. People---a given community---make a text into scripture, or keep it scripture." Along those lines, Americans, and different groups of Americans, have granted such authority to a wide variety of texts. 
+In this course, students will analyze texts that Americans have treated as "scripture." Students will read texts that present themselves as scripture, such as selections from the Book of Mormon and a Holy Sacred and Divine Roll and Book (a Shaker text). They will also read texts that have attained a sort of canonicity within American culture, such as the Declaration of Independence and Martin Luther King Jr.'s "Letter from Birmingham Jail." Students will thus gain more than a valuable familiarity with a variety of American religious traditions. They will also reflect on the way that, even in a digital age, texts continue to shape American identity. Finally, the course invites students to reflect on the meaning and function of "scripture." Although many Americans reflexively define scripture as "the Word of God" or think of the Bible or the Qu’ran, the scholar Wilfred Cantwell Smith cautions that "no text is a scripture in itself and as such. People---a given community---make a text into scripture, or keep it scripture." Along those lines, Americans, and different groups of Americans, have granted such authority to a wide variety of texts. 
 
 # Learning goals
 
@@ -58,7 +58,7 @@ This class will have two essential activities. The first is reading texts and th
 
 The second main activity for this class will be creating a [popup museum](http://popupmuseum.org/) and accompanying online exhibit about scriptures in America. Beginning after the first few weeks of the semester, we will work together as a class to define a theme for our museum. Then we will find texts, create facsimiles of artifacts, and write explanatory text. We will publish our exhibit online and host the popup museum at some venue on campus. You will have the resources of the [Mason Innovation Exchange](https://www.mix.gmu.edu/) maker space to help you with the project. To prepare for this assignment, you will visit the Museum of the Bible in Washington, DC, and to study it critically as a "text."
 
-**Reading quizzes and class participation (15 points):** On any given class I may give a brief quiz over the assigned reading, which will pose no difficulty if you have read thoroughly. I will also give you a few participation assignments to prompt class discussion (some of these are listed on the syllbus already). Participation in class discussions is vital. I will assign a grade for this section at the end of the semester.
+**Reading quizzes and class participation (15 points):** On any given class I may give a brief quiz over the assigned reading, which will pose no difficulty if you have read thoroughly. I will also give you a few participation assignments to prompt class discussion (some of these are listed on the syllabus already). Participation in class discussions is vital. I will assign a grade for this section at the end of the semester.
 
 **Short response papers (4 papers × 10 points/paper = 40 points):** You will be asked to write four very short papers responding to some texts that we have read. There are six possible papers throughout the semester; the prompts and requirements are listed in the schedule below. You must write the one about the Museum of the Bible, but you can pick which of the other three you want to write. These are due at the start of class.
 
@@ -70,7 +70,7 @@ Final grades will be calculated using the typical percentage-based grading scale
 
 ### Tuesday, August 28: Introduction
 
-In class: Abrahm Lincoln, [Second Inaugural Address](https://www.loc.gov/resource/rbpe.24203400/).
+In class: Abraham Lincoln, [Second Inaugural Address](https://www.loc.gov/resource/rbpe.24203400/).
 
 In class: What do different Bibles contain?
 

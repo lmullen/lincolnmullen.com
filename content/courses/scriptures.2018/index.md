@@ -44,33 +44,33 @@ Other readings will be available online, on Blackboard, or through the GMU libra
 
 ## On studying religion in the classroom
 
-A few words of advice from a historian of American religion (adapted from [Tona Hangen](http://www.tonahangen.com/)):
+A few words of advice from a historian of American religion (modified from [Tona Hangen](http://www.tonahangen.com/)):
 
-1. Religious rituals, acts, beliefs, and doctrines make sense in context. If something doesn't make sense to you, then you need more context. Don't think "how could they believe that?" Instead seek understanding: "Why was this believable to them? What work did this belief or ritual accomplish?"
+1. Religious rituals, acts, beliefs, and doctrines make sense in context. If something doesn't make sense to you, then you need more context. Don't think "how could they believe that?" Instead seek understanding: "Why was this believable to them? What work did this belief or ritual accomplish?" At least in the classroom, no religious concept should be dismissed as weird,crazy, or abnormal. There is no "normal." You can certainly have your own opinions and personal beliefs about religion, but those don't belong in our classroom discussion.
 
-2. At least in the classroom, no religious concept should be dismissed as weird,crazy, or abnormal. There is no "normal." You can certainly have your own opinions and personal beliefs about religion, but those don't belong in our classroom discussion.
+2. As much as is possible, approach your scholarship as a historian, rather than as a believer or a skeptic. While religious doctrines will be discussed, it is never with the intent to prove a religion right or wrong. Please do not use our class as a platform for either proselytizing your faith to convert others, or debunking the faith of others to lessen their commitment. Our class is going to be made up of a variety of faiths and degrees of religious involvement which we should all respect.
 
-3. As much as is possible, approach your scholarship as a historian, rather than as a believer or a skeptic. While religious doctrines will be discussed, it is never with the intent to prove a religion right or wrong. Please do not use our class as a platform for either proselytizing your faith to convert others, or debunking the faith of others to lessen their commitment. Our class is going to be made up of a variety of faiths and degrees of religious involvement which we should all respect.
-
-4. History provides an opportunity to expand our ability to empathize with those not like ourselves. In fact, the past (and present, for that matter) is a very strange place, populated with people who do not share many of your values and ideas about the world. Developing the ability to at least understand why those values and ideas may be compelling is a great skill for surviving and thriving in a diverse world.
+3. History provides an opportunity to expand our ability to empathize with those not like ourselves. In fact, the past (and present, for that matter) is a very strange place, populated with people who do not share many of your values and ideas about the world. Developing the ability to at least understand why those values and ideas may be compelling is a great skill for surviving and thriving in a diverse world.
 
 # Assignments 
 
-This class will have two essential activities. The first is reading texts and then discussing them and writing about them. Most days we will read primary source texts which have been regarded as scripture by one group or another. While I will give lectures to set the context, much of our class time will be spent discussing these texts. You will also be asked to write several short analytical essays about these texts. I will often bring additional sources to class for us to read together in-class and discuss.
+This class will have two essential activities. The first is reading texts and then discussing them and writing about them. Most days we will read primary source texts which have been regarded as scripture by one group or another. While I will give lectures to set the context, much of our class time will be spent discussing these texts. You will also be asked to write several short analytical essays about these texts. I will often bring additional sources to class for us to read together in class.
 
-The main project for this class will be creating a [popup museum](http://popupmuseum.org/) and accompanying online exhibit about scriptures in America. Beginning after the first few weeks of the semester, we will work together as a class to define a theme for our museum. Then we will find texts, create facsimiles of artifacts, and write explanatory text. We will publish our exhibit online and host the popup museum at some venue on campus. You will have the resources of the [Mason Innovation Exchange](https://www.mix.gmu.edu/) maker space to help you with the project. To prepare for this assignment, you will visit the Museum of the Bible in Washington, DC, and to study it critically as a "text."
+The second main activity for this class will be creating a [popup museum](http://popupmuseum.org/) and accompanying online exhibit about scriptures in America. Beginning after the first few weeks of the semester, we will work together as a class to define a theme for our museum. Then we will find texts, create facsimiles of artifacts, and write explanatory text. We will publish our exhibit online and host the popup museum at some venue on campus. You will have the resources of the [Mason Innovation Exchange](https://www.mix.gmu.edu/) maker space to help you with the project. To prepare for this assignment, you will visit the Museum of the Bible in Washington, DC, and to study it critically as a "text."
 
-**Reading quizzes and class participation (15 points):** On any given class I may give a brief quiz over the assigned reading, which will be easy if you have read thoroughly. I will also give you a few participation assignments to prompt class discussion (some of these are listed on the syllbus already). Participation in class discussions is vital. I will assign a grade for this section at the end of the semester.
+**Reading quizzes and class participation (15 points):** On any given class I may give a brief quiz over the assigned reading, which will pose no difficulty if you have read thoroughly. I will also give you a few participation assignments to prompt class discussion (some of these are listed on the syllbus already). Participation in class discussions is vital. I will assign a grade for this section at the end of the semester.
 
 **Short response papers (4 papers × 10 points/paper = 40 points):** You will be asked to write four very short papers responding to some texts that we have read. There are six possible papers throughout the semester; the prompts and requirements are listed in the schedule below. You must write the one about the Museum of the Bible, but you can pick which of the other three you want to write. These are due at the start of class.
 
-**Museum assignment (45 total points)**: Our main work for the course will be creating the popup museum. Parts of this work will be due throughout the semester. Your grade for this assignment will be determined by the text your edit or facsimile artifacts you create (15 points), the exhibit text that you write (15 points), the bibliography you compile (5 points), and your contributions to the larger class exhibit (10 points). You will receive full instructions for this assignment later in the semester, as we develop our ideas for what the exhibit should be about. This assignment will be due during finals week in place of an exam.
+**Museum assignment (45 total points)**: Our main work for the course will be creating the popup museum. Parts of this work will be due throughout the semester. Your grade for this assignment will be determined by the text you edit or facsimile artifacts you create (15 points), the exhibit text that you write (15 points), the bibliography you compile (5 points), and your contributions to the larger class exhibit (10 points). You will receive full instructions and due dates for this assignment later in the semester, as we develop our ideas for what the exhibit should be about. The completed assignment will be due during finals week in place of an exam.
 
 Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--82, B = 83--88, B- = 80--82, ... F = 0--59).
 
 # Schedule 
 
 ### Tuesday, August 28: Introduction
+
+In class: Abrahm Lincoln, [Second Inaugural Address](https://www.loc.gov/resource/rbpe.24203400/).
 
 In class: What do different Bibles contain?
 
@@ -167,6 +167,8 @@ No class for GMU fall break.
 
 ### Thursday, October 11: Race in the literary canon
 
+**Museum assignment**: Choose a text or artifact, and write one paragraph about why it is a good choice.
+
 Read:
 
 - Harriet Beecher Stowe, *Uncle Tom's Cabin*, in Prothero, 162--180.
@@ -222,6 +224,8 @@ Read:
 
 ### Thursday, November 8: The Jewish Bible
 
+**Museum exhibit:** Bibliography about your chosen text or exhibit, and outline of items/texts/visuals and exhibit text. 
+
 Read:
 
 - Jonathan D. Sarna, “The Bible and Judaism in America,” in *The Oxford Handbook of the Bible in America*, ed. Paul C. Gutjahr (Oxford University Press, 2017), 505--16. PDF on Blackboard.
@@ -234,7 +238,7 @@ Read:
 
 ### Thursday, November 15: Civil rights 
 
-**Short essay 6:** Three double-spaced pages. Compare the rhetoric and arguments made in King’s "Letter" and Malcolm X's "Ballot or the Bullet." What are the settings for these two texts? What circumstances explain the differences in their arguments?
+**Short essay 6:** Three double-spaced pages. Compare the rhetoric and arguments made in King’s "Letter" and Malcolm X's "The Ballot or the Bullet." What are the settings for these two texts? What circumstances explain the differences in their arguments?
 
 Read:
 
@@ -246,7 +250,7 @@ Read:
 Read:
 
 - "The Pledge of Allegiance," in Prothero, 408--418.
-- Franklin Delano Roosevelt and John F. Kennedy, inaugural addresses, in Prothero, 260-263.
+- Franklin Delano Roosevelt and John F. Kennedy, inaugural addresses, in Prothero, 260--263.
 
 ### Thursday, November 22: No class
 
@@ -262,6 +266,8 @@ Read:
 
 ### Thursday, November 29
 
+**Museum exhibit:** Complete draft of exhibit text.
+
 In class: Work on exhibit.
 
 ### Tuesday, December 4: Songs, Hymns, and Spiritual Songs
@@ -274,6 +280,8 @@ Read:
 - "The Battle Hymn of the Republic" and "We Shall Overcome." PDF on Blackboard.
 
 ### Thursday, December 6: Conclusion
+
+**Museum exhibit:** Revised draft of contributions to exhibit and the museum.
 
 In class: Work on exhibit.
 

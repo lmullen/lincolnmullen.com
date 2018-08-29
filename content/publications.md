@@ -2,7 +2,7 @@
 title: "Publications and projects"
 ---
 
-[Books and projects](#books-and-projects) | [Works in progress](#wip) | [Articles and chapters](#articles) | [Miscellaneous](#misc)
+[Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Miscellaneous](#misc)
 
 For a complete list of my scholarship, please see my [CV](https://lincolnmullen.com/files/Mullen-cv.pdf).
 
@@ -47,16 +47,6 @@ Press.
 [Mapping Early American Elections website](http://earlyamericanelections.org) | [GitHub repositories](https://github.com/mapping-elections)
 
 {{% /book %}}
-
--------------------------------------------------------------------
-
-<a name="wip"></a>
-
-## Works in progress
-
-Stephen Robertson and Lincoln A. Mullen, "Navigating through Narrative," in *Making Deep Maps: Foundations, Approaches, and Methods*, edited by David Bodenhamer, John Corrigan, and Trevor Harris (Indiana University Press).
-
-[*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/) (textbook in progress).
 
 -------------------------------------------------------------------
 
@@ -144,6 +134,8 @@ version](http://jestudies.yale.edu/index.php/journal/article/view/107/0?no_redir
 <a name="misc"></a>
 
 ## Miscellaneous
+
+[*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/) (textbook in progress).
 
 [Gender Predictor](http://shiny.chnm.org/gender-predictor/) (2016).
 

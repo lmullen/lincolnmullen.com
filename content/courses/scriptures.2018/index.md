@@ -94,7 +94,7 @@ Read:
 
 Read:
 
-- Eddie S. Glaude Jr., *Exodus! Religion, Race, and Nation in Early Nineteenth-Century Black America* (University of Chicago Press, 200), ch 3. PDF on Blackboard.
+- Eddie S. Glaude Jr., *Exodus! Religion, Race, and Nation in Early Nineteenth-Century Black America* (University of Chicago Press, 200), ch 2. PDF on Blackboard.
 
 ### Tuesday, September 11: Texts of the American founding
 

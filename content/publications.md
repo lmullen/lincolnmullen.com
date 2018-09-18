@@ -14,6 +14,26 @@ The United States has a long history of religious pluralism, yet Americans have 
 
 As nineteenth-century Americans confronted a growing array of religious options, pressures to convert altered the basis of American religion.  Evangelical Protestants emphasized conversion as a personal choice, while Protestant missionaries brought Christianity to Native American nations such as the Cherokee. African Americans created a distinctive form of conversion based on ideas of divine justice and redemption.  Mormons proselytized for a new tradition that stressed individual free will. American Jews resisted evangelism while winning converts to Judaism. Converts to Catholicism opted out of the system of religious choice by turning to Church authority. By the early twentieth century, religion in the United States was a system of competing options that created an obligation for more and more Americans to choose their own faith. Religion had changed from an inherited to a consciously chosen identity.
 
+Reviews: 
+
+- Jay Green, [*Journal of American History*](https://doi.org/10.1093/jahist/jay158)
+- Lewis R. Rambo, [*Reading Religion*](http://readingreligion.org/books/chance-salvation)
+- Amanda Porterfield, [*Church History*](https://doi.org/10.1017/S0009640718001385)
+- Charlie McCrary, [*Bulletin for the Study of Religion*](https://www.equinoxpub.com/home/mullen-lincoln-chance-salvation-history-conversion-america-cambridge-ma-harvard-university-press-2017-pp-384-39-95-hardcover/)
+- Timothy Wesley, [*American Nineteenth Century History*](https://doi.org/10.1080/14664658.2018.1436919)
+- E. Brooks Holifield, [*American Historical Review*](https://doi.org/10.1093/ahr/123.2.584)
+- Josh McMullen, [*Christianity Today*](https://www.christianitytoday.com/ct/2017/november-web-only/how-america-became-conversion-nation.html)
+- J. A. Albertson, [*Choice Reviews*](http://choicereviews.org/review/10.5860/CHOICE.206375)
+- Brian Sullivan, [*Library Journal*](http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=125998988&site=ehost-live)
+
+Interviews: 
+
+- Emma Green, [*The Atlantic*](https://www.theatlantic.com/politics/archive/2017/08/conversions-lincoln-mullen/536151/)
+- John Fea, [*The Way of Improvement Leads Home*](https://thewayofimprovement.com/2017/09/07/the-authors-corner-with-lincoln-mullen/)
+- Maureen Fiedler, [*Interfaith Voices*](http://interfaithradio.org/Story_Details/Looking_Back_at___Born_Again__)
+- Thomas Kidd, [*Evangelical History*](https://www.thegospelcoalition.org/blogs/evangelical-history/the-chance-of-salvation-an-interview-with-lincoln-mullen/)
+- John Turner, [*The Anxious Bench*](http://www.patheos.com/blogs/anxiousbench/2017/08/the-chance-of-salvation/)
+
 [Harvard University Press](http://www.hup.harvard.edu/catalog.php?isbn=9780674975620) | [Amazon.com](https://www.amazon.com/Chance-Salvation-History-Conversion-America/dp/0674975626/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1490978609&sr=1-1&linkCode=ll1&tag=backwardglance-20&linkId=7f7a7942a1a57644b1148d412c367aec) | [Google Books](https://books.google.com/books?id=OH0uDwAAQBAJ&printsec=frontcover#v=onepage&q&f=false)
 
 {{% /book %}}

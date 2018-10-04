@@ -18,6 +18,4 @@ Elsewhere on the internet:
 - [ORCID](https://orcid.org/0000-0001-5103-6917)
 - [Zotero](https://www.zotero.org/lmullen)
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ)
-- [*Religion in American History* blog](http://usreligion.blogspot.com/search/label/lincoln%27s%20posts)
-- [Twitter](https://twitter.com/lincolnmullen)
 

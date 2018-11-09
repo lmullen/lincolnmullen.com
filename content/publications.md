@@ -14,6 +14,8 @@ The United States has a long history of religious pluralism, yet Americans have 
 
 As nineteenth-century Americans confronted a growing array of religious options, pressures to convert altered the basis of American religion.  Evangelical Protestants emphasized conversion as a personal choice, while Protestant missionaries brought Christianity to Native American nations such as the Cherokee. African Americans created a distinctive form of conversion based on ideas of divine justice and redemption.  Mormons proselytized for a new tradition that stressed individual free will. American Jews resisted evangelism while winning converts to Judaism. Converts to Catholicism opted out of the system of religious choice by turning to Church authority. By the early twentieth century, religion in the United States was a system of competing options that created an obligation for more and more Americans to choose their own faith. Religion had changed from an inherited to a consciously chosen identity.
 
+**Winner of the [2018 prize](https://www.aarweb.org/2018-book-award-winners) for Best First Book in the History of Religions from the American Academy of Religion:** "Mullen takes a common trope about American religions---that they are about conversion and choice---and deploys it in astonishingly illuminating ways across the breadth of religious traditions. ... Mullen clearly and convincingly demonstrates how pressures to convert changed the foundations of American religions. ... This book is innovative, accessible, highly teachable, wise and mature."
+
 Reviews: 
 
 - Jay Green, [*Journal of American History*](https://doi.org/10.1093/jahist/jay158)

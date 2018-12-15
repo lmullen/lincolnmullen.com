@@ -66,7 +66,7 @@ The second main activity for this class will be creating a [popup museum](http:/
 
 **[Guidelines for the museum assignment](American Scriptures exhibit assignment - fall 2018.pdf)**
 
-Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--82, B = 83--88, B- = 80--82, ... F = 0--59).
+Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
 # Schedule 
 

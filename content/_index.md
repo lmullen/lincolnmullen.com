@@ -9,7 +9,10 @@ I am a historian of American religious history and the nineteenth-century United
 
 My first book, [*The Chance of Salvation: A History of Conversion in America*](http://www.hup.harvard.edu/catalog.php?isbn=9780674975620), was published by Harvard University Press in 2017. My research is currently focused on *America's Public Bible*, a large-scale text analysis of the use of the Bible in American newspapers. A [prototype](http://americaspublicbible.org/) of the project is available online, and it will be published as a digital monograph by Stanford University Press. With a team at RRCHNM I am working on projects called [*Mapping Early American Elections*](http://earlyamericanelections.org/) and *Mapping American Religious Ecologies*, among other things.
 
-You can write to me at [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com). If you are a student, you can make an [office hours appointment here](https://lincolnmullen.youcanbook.me/).
+✉️ You can write to me at
+[lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com).
+
+📆 You can make an [office hours appointment here](https://lincolnmullen.youcanbook.me/).
 
 Elsewhere on the internet:
 
@@ -18,4 +21,3 @@ Elsewhere on the internet:
 - [ORCID](https://orcid.org/0000-0001-5103-6917)
 - [Zotero](https://www.zotero.org/lmullen)
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ)
-- [Twitter](https://twitter.com/lincolnmullen)

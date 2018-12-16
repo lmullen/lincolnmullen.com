@@ -19,6 +19,8 @@
   {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
   {{ end -}}
+    <link href="https://micro.blog/lmullen" rel="me" />
+
 
 
     <script src="/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>

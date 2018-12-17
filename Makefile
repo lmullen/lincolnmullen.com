@@ -3,7 +3,7 @@ preview :
 
 build :
 	rm -rf public/*
-	hugo --cleanDestinationDir
+	hugo --cleanDestinationDir --minify
 
 deploy : build
 	rsync --delete --exclude-from=rsync-excludes \

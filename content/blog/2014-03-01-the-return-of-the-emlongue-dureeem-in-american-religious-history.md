@@ -1,7 +1,7 @@
 ---
 date: '2014-03-01T17:00:00+00:00'
 slug: 'the-return-of-the-emlongue-dureeem-in-american-religious-history'
-title: 'The Return of the <em>Longue Durée</em> in American Religious History'
+title: 'The Return of the Longue Durée in American Religious History'
 ---
 
 *\[This post originally appeared at [Religion in American History](http://usreligion.blogspot.com/2014/03/the-return-of-longue-duree-in-american.html).\]*

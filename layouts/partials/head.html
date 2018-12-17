@@ -10,21 +10,26 @@
     {{ else if .IsPage }}
     <meta name="description" content="{{ .Summary | plainify }}">
     {{ end }}
+
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.min.css">
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="shortcut icon" href="/img/favicon.png">
-    {{ template "_internal/twitter_cards.html" }}
-  {{ range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
-  {{ end -}}
     <link href="https://micro.blog/lmullen" rel="me" />
-
-
+    <link href="https://weblog.lincolnmullen.com" rel="me" />
+    <link href="https://hcommons.org/members/lmullen/" rel="me">
+    <link href="https://orcid.org/0000-0001-5103-6917" rel="me">
+    <link href="https://github.com/lmullen/" rel="me">
+    <link href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">
+    <link href="https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ" rel="me">
+    <link href="https://www.zotero.org/lmullen/" rel="me">
+    <link rel="alternate" type="application/atom+xml" href="/blog/index.xml" title="Atom feed for the main blog." />
+    <link rel="alternate" type="application/rss+xml" href="https://weblog.lincolnmullen.com/feed.xml" title="RSS feed for the microblog." />
 
     <script src="/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     {{ template "_internal/google_analytics.html" . }}
+
   </head>
   <body>
 

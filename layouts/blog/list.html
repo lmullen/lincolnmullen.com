@@ -4,6 +4,8 @@
 
 {{ .Content }}
 
+<img class="feed-icon" alt="feed-icon" src="/img/rss.svg"> <a rel="alternate" type="application/atom+xml" href="/blog/index.xml">Subscribe to this blog's feed.</a>
+
 <!-- <h2>Posts by date</h2> -->
 
 {{ range .Data.Pages.GroupByDate "2006" }}

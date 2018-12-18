@@ -9,7 +9,7 @@ I am a historian of American religion and the nineteenth-century United States, 
 
 My first **book**, [*The Chance of Salvation: A History of Conversion in America*](http://www.hup.harvard.edu/catalog.php?isbn=9780674975620), was published by Harvard University Press in 2017. My **current research** is focused on *America's Public Bible*, a large-scale text analysis of the use of the Bible in American newspapers. A [prototype](http://americaspublicbible.org/) of the project is available online, and it will be published as a digital monograph by Stanford University Press. With a team at RRCHNM I am working on projects called [*Mapping Early American Elections*](http://earlyamericanelections.org/) and [*Mapping American Religious Ecologies*](http://religiousecologies.org/), among other things.
 
-⌨️ My old-school **[weblog](https://weblog.lincolnmullen.com/)** (or new-school microblog, however your prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen on Micro.blog](https://micro.blog/lmullen) or use the [feed](http://weblog.lincolnmullen.com/feed.xml). 
+⌨️ My old-school **[weblog](https://weblog.lincolnmullen.com/)** (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen on Micro.blog](https://micro.blog/lmullen) or use the [feed](http://weblog.lincolnmullen.com/feed.xml). 
 
 🖥️ My **[blog](/blog/)** features longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). 
 

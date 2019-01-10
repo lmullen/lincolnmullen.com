@@ -227,7 +227,7 @@ article p,
 .blog-nav {
   margin: 2rem 0 2rem 0;
   padding: 1.0rem 0.5rem;
-  background: #2770e625;
+  background-color: rgba(39, 112, 230, 0.145);
 }
 
 .subscribe {
@@ -235,7 +235,7 @@ article p,
 }
 
 .blog-comments {
-  /* font-size: 0.8rem; */
+  font-size: 0.8333rem;
   font-style: italic;
 }
 
@@ -253,7 +253,7 @@ article p,
 }
 
 time.dt-published {
-  font-size: 0.8rem;
+  font-size: 0.8333rem;
 }
 
 a.permalink, a.permalink:visited {
@@ -577,6 +577,10 @@ article.syllabus nav#TableOfContents ul li {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+blockquote {
+  margin: 0 2rem 0 4rem;
 }
 
 /* Print only styles */

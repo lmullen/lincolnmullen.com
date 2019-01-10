@@ -1,5 +1,6 @@
 ---
 title: "Code"
+slug: /code/
 ---
 
 The following software packages are actively maintained and, as appropriate, peer-reviewed and accompanied by a published paper about the software. If you are interested in the code I've written to perform various analyses, those repositories are listed with the associated [publications or projects](/publications/).

@@ -1,6 +1,7 @@
 ---
 title: "Digital history dossier"
 toc: true
+slug: /dossier/
 ---
 
 <p>&nbsp;</p>

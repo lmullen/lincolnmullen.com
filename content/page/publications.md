@@ -1,5 +1,6 @@
 ---
 title: "Publications and projects"
+slug: '/publications/'
 ---
 
 [Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Miscellaneous](#misc)

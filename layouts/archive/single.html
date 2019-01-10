@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+
+{{ partial "blog-nav" .}}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+
+{{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
+<h2>{{ .Key }}</h2>
+<ul class="blog-archive">
+    {{ range .Pages }}
+    <li>
+      <time class="date" datetime="2006-01-02">{{ .Date.Format "Jan 2" }}</time>
+      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+
+{{ partial "foot.html" . }}

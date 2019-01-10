@@ -1,9 +1,13 @@
 html {
   color: #444;
-  font-size: 1em;
-  line-height: 1.4em;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.4;
+  font-family: 'Avenir Next', 'Avenir', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
+}
+
+strong {
+  font-weight: 600;
 }
 
 ::-moz-selection {
@@ -72,6 +76,7 @@ a,
 a:hover,
 a:visited {
   color: #ac4142;
+  text-decoration: underline;
 }
 
 ul {
@@ -123,7 +128,7 @@ td {
 }
 
 .site-title {
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   color: black!important;
 }
@@ -134,17 +139,17 @@ td {
 }
 
 h1 {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.2em; 
-  font-weight: bold;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
+  font-size: 1.25rem; 
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .book h2 {
@@ -152,21 +157,26 @@ h2 {
 }
 
 h3 {
-  font-size: 1.125em;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 hr.nav {
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-top: 1rem;
+  border-top: 2px solid #2770e6;
+  margin-bottom: 2rem;
 }
 
-ul.blog {
+ul.blog-archive {
   list-style: none;
+  margin-top: 0;
   padding-left: 0;
+  margin-bottom: 1rem;
 }
 
-ul.blog li {
+ul.blog-archive li {
   margin-bottom: 0.5rem;
 }
 
@@ -209,15 +219,25 @@ article p,
 }
 
 .migration-warning {
-  width: 50%;
   margin: 1em 0em;
   border: 1px solid lightgrey;
   padding: 1em;
   font-style: italic;
 }
 
-.article-meta {
-  margin-top: -0.75em;
+.blog-nav {
+  margin: 2rem 0 2rem 0;
+  padding: 1.0rem 0.5rem;
+  background: #2770e625;
+}
+
+.subscribe {
+  margin-left: 1rem;
+}
+
+.blog-comments {
+  /* font-size: 0.8rem; */
+  font-style: italic;
 }
 
 .post-categories,
@@ -229,8 +249,37 @@ article p,
   margin-left: 2em;
 }
 
+.post-title {
+  margin-bottom: 0;
+}
+
+time.dt-published {
+  font-size: 0.8rem;
+}
+
+a.permalink, a.permalink:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.post-title a, .post-title a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.post-separator {
+  margin-top: 4rem;
+  border-bottom: 1.25px dashed #2770e6;
+  margin-bottom: 4rem;
+}
+
+.post-separator.narrow {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* Align the post titles in the blog list */
-time.date {
+.blog-archive li time.date {
   width: 80px;
   display: inline-block;
 }
@@ -295,6 +344,13 @@ Media Queries
   article p,
   #publications-and-projects .book p {
     text-align: left;
+  }
+  .subscribe {
+    margin-left: 0
+  }
+  .subscribe::before {
+    content: "\A";
+    white-space: pre;
   }
 }
 

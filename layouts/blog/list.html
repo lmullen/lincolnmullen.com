@@ -1,24 +1,20 @@
 {{ partial "head.html" . }}
 
-<h1>{{ .Title }}</h1>
-
 {{ .Content }}
 
-<img class="feed-icon" alt="feed-icon" src="/img/rss.svg"> <a rel="alternate" type="application/atom+xml" href="/blog/index.xml">Subscribe to this blog's feed.</a>
+{{ partial "blog-nav" }}
 
-<!-- <h2>Posts by date</h2> -->
-
-{{ range .Data.Pages.GroupByDate "2006" }}
-<h3>{{ .Key }}</h3>
-<ul class="blog">
-    {{ range .Pages }}
-    <li>
-      <time class="date" datetime="2006-01-02">{{ .Date.Format "Jan 2" }}</time>
-      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
-    </li>
-    {{ end }}
-</ul>
+{{ range first 10 .Pages }}
+<article id='{{ urlize .Title }}' class="h-entry post">
+  <header>
+    <h2 class="post-title"><a href='{{ .Permalink }}' class='p-name'>{{ .Title }}</a></h2>
+    <a href='{{ .Permalink }}' class='u-url u-uid permalink'><time class='dt-published' datetime='{{ .Date }}'>{{ .Date.Format "January 2, 2006" }}</time></a>
+  </header>
+  <div class='post-body e-content'>
+    {{ .Content }}
+  </div>
+</article>
+<div class="post-separator"></div>
 {{ end }}
-
+{{ partial "blog-nav" }}
 {{ partial "foot.html" . }}
-

@@ -22,9 +22,6 @@ After teaching these courses [a](http://www.dhsi.org/archive.php?year=2016) [fe
 
 I'm not entirely sure about the title, though. What do you think of these possible titles?
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYazCeUkMBIizgiAGxyZKT_sdNGWGrivSvyiSboyFfQi3oXA/viewform?embedded=true" width="700" height="820" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
-Loading...
-</iframe>
 1.  *Computational Historical Thinking: With Applications in R*
 2.  *The Compleat Computational Historian*
 3.  *Computational History Methods in R*

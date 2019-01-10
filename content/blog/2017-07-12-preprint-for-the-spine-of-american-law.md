@@ -4,7 +4,7 @@ categories:
 - digital history
 date: '2017-07-13T01:55:08+00:00'
 slug: 'preprint-for-the-spine-of-american-law'
-title: 'Preprint for "The Spine of American Law"'
+title: 'Preprint for “The Spine of American Law”'
 ---
 
 [Kellen Funk](http://kellenfunk.org/) and I have co-authored an article titled "[The Spine of American Law: Digital Text Analysis and U.S. Legal Practice](https://ssrn.com/abstract=3001377)." The article has been recently accepted for publication in the *American Historical Review*. It is currently scheduled for the February 2018 issue. Here is our abstract.

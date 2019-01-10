@@ -1,6 +1,6 @@
 ---
 date: '2009-08-29T04:00:00+00:00'
-slug: 'review-of-emprodigal-nationem'
+slug: 'review-of-prodigal-nation'
 title: 'Review of Prodigal Nation'
 ---
 

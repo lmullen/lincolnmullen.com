@@ -20,12 +20,7 @@ Before I made the visualization, I couldn't predict the trend. I would have said
 
 I've found that this simple approach, used both for myself and with audiences, helps dispel the sense that what is learned from visualizations was already obvious.
 
-------------------------------------------------------------------------
-
-**Updates, 10 January 2018**
+*Updates, 10 January 2018*
 
 1.  An additional thought that occurs to me after discussion with my collaborator, Kellen Funk. In many instances, scholars might already know that a phenomenon happened, but that is different than the details of how it happened. For instance, before Ryan Cordell et al. did the work of the *Viral Texts* project, scholars knew that newspapers reprinted one another, but that project showed the actual relationships created by those borrowings. Similarly, scholars have long known that states borrowed their codes of civil procedure from New York, but Kellen and I have created a network of those borrowings. Knowing that there is a network and knowing what the network is are two different kinds of knowledge.
 2.  Hadley Wickham pointed out that it is possible to create a p-value by showing an audience different plots and letting them try to identify the actual plot. He has an article on the subject. H. Wickham, D. Cook, H. Hofmann and A. Buja, "[Graphical inference for infovis](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5613434&isnumber=5613414)," in *IEEE Transactions on Visualization and Computer Graphics*, vol. 16, no. 6, pp. 973-979, Nov.-Dec. 2010. doi: 10.1109/TVCG.2010.161
-
-{{< tweet 951148682128306176 >}}
-

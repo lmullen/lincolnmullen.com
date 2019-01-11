@@ -4,7 +4,6 @@ baseURL: "https://lincolnmullen.com/"
 copyright: "2008-2019"
 languageCode: "en-us"
 googleAnalytics: "UA-121242961-1"
-rssLimit: 1
 
 permalinks:
   blog: "/:section/:slug/"
@@ -18,7 +17,6 @@ pygmentsCodefences: true
 pygmentsUseClasses: true
 
 params:
-  categories: false
   blogFeedTitle: "Lincoln Mullen's blog"
 
 taxonomies: false

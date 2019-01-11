@@ -5,7 +5,7 @@ categories:
 - book review
 date: '2017-05-10T20:55:51+00:00'
 slug: 'the-places-of-evangelical-gotham'
-title: 'The places of "Evangelical Gotham"'
+title: 'The places of Evangelical Gotham'
 ---
 
 [This review originally appeared at [Religion in American History](http://usreligion.blogspot.com/2017/03/the-places-of-evangelical-gotham.html) as part of a panel of reviews.]

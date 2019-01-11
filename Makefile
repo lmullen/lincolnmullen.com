@@ -8,4 +8,5 @@ build :
 deploy : build
 	rsync --delete --exclude-from=rsync-excludes \
 		--checksum -avz \
-		public/ reclaim:~/www/lincolnmullen.com/
+		--itemize-changes \
+		public/ reclaim:~/www/lincolnmullen.com/ | egrep -v '^\.'

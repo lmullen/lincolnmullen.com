@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /dossier/
+
+Sitemap: https://lincolnmullen.com/sitemap.xml

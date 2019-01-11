@@ -168,15 +168,16 @@ hr.nav {
   margin-bottom: 2rem;
 }
 
-ul.blog-archive {
-  list-style: none;
-  margin-top: 0;
-  padding-left: 0;
-  margin-bottom: 1rem;
+table.blog-archive {
+  border: none;
+  width: 100%;
 }
 
-ul.blog-archive li {
-  margin-bottom: 0.5rem;
+table.blog-archive tr td {
+  padding: 0.25rem 0; 
+  vertical-align: top;
+  border: none;
+  word-break: keep-all;
 }
 
 article {

@@ -9,14 +9,20 @@
 
 {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
 <h2>{{ .Key }}</h2>
-<ul class="blog-archive">
+<table class='blog-archive'>
+    <colgroup>
+      <col style="width:6rem;">
+      <col>
+    </colgroup>  
+    <tbody>
     {{ range .Pages }}
-    <li>
-      <time class="date" datetime="2006-01-02">{{ .Date.Format "Jan 2" }}</time>
-      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
-    </li>
+    <tr>
+      <td><time class="date" datetime="2006-01-02">{{ .Date.Format "Jan 2" }}</time></td>
+      <td><a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a></td>
+    </tr>
     {{ end }}
-</ul>
+    </tbody>
+</table>
 {{ end }}
 
 {{ partial "foot.html" . }}

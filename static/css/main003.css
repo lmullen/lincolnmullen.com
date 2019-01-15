@@ -337,45 +337,6 @@ a.post-link {
 	width: 65%;
 }
 
-
-/* ==========================================================================
-Media Queries
-========================================================================== */
-
-@media only screen and (max-width: 875px) {
-	.col { 
-		/* margin: 1% 0 1% 0%; */
-	}
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
-
-}
-@media only screen and (max-width: 600px) {
-	.book img,
-	.profile-photo {
-    float: none;
-    margin: 0;
-    /* max-width: 200px; */
-  }
-  article p,
-  #publications-and-projects .book p {
-    text-align: left;
-  }
-  .subscribe {
-    margin-left: 0
-  }
-  .subscribe::before {
-    content: "\A";
-    white-space: pre;
-  }
-}
-
-@media print,
-(-o-min-device-pixel-ratio: 5/4),
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi) {
-
-}
-
 /* ==========================================================================
 Helper classes
 ========================================================================== */
@@ -423,73 +384,6 @@ Helper classes
 .clearfix {
   *zoom: 1;
 }
-
-/* ==========================================================================
-Print styles
-========================================================================== */
-
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  img {
-    max-width: 100% !important;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
-
-/*******************8
- */
 
 table {
     /* Remove spacing between table cells (from Normalize.css) */
@@ -609,5 +503,110 @@ blockquote {
   }
   .print-only{
     display: block;
+  }
+}
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (max-width: 875px) {
+	.col { 
+		/* margin: 1% 0 1% 0%; */
+	}
+  .span_2_of_2, .span_1_of_2 { width: 100%; }
+  
+  blockquote {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+	.book img,
+	.profile-photo {
+    float: none;
+    margin: 0;
+    /* max-width: 200px; */
+  }
+  article p,
+  #publications-and-projects .book p {
+    text-align: left;
+  }
+  .subscribe {
+    margin-left: 0
+  }
+  .subscribe::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
   }
 }

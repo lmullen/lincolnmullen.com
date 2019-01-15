@@ -267,6 +267,21 @@ a.permalink, a.permalink:visited {
   color: black;
 }
 
+.footnotes hr {
+  width: 20%;
+  color: rgb(240, 240, 240);
+  margin: 1.5rem 0;
+}
+
+.footnotes ol {
+  font-size: 0.833rem;
+}
+
+.footnote-ref a,
+a.footnote-return {
+  text-decoration: none;
+}
+
 .post-separator {
   margin-top: 4rem;
   border-bottom: 1.25px dashed #2770e6;
@@ -581,7 +596,7 @@ article.syllabus nav#TableOfContents ul li {
 }
 
 blockquote {
-  margin: 0 2rem 0 4rem;
+  margin: 0 4rem 0 2rem;
 }
 
 /* Print only styles */

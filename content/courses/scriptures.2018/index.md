@@ -16,7 +16,7 @@ instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
 office: Research Hall 457
 officehours: "Mondays, 11am–12pm; Tuesdays, 2pm–3pm; Thursdays, 2pm–4pm"
-officesignup: https://lincolnmullen.youcanbook.me/
+officesignup: https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI
 ---
 
 # Course description
@@ -33,7 +33,7 @@ In this course you will
 
 # Essential information
 
-You are always welcome to visit me during my office hours. While you can drop in, I strongly recommend that you [book an appointment with this link](https://lincolnmullen.youcanbook.me/). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) and we will find another time. Whether you need help in the class or just want to talk more about it, get in touch sooner rather than later. 
+You are always welcome to visit me during my office hours. While you can drop in, I strongly recommend that you [book an appointment with this link](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) and we will find another time. Whether you need help in the class or just want to talk more about it, get in touch sooner rather than later. 
 
 The following textbooks are required and are available through the bookstore and elsewhere:
 

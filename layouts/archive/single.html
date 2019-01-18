@@ -9,7 +9,7 @@
 
 {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
 <h2>{{ .Key }}</h2>
-<table class='blog-archive'>
+<table id='blog-archive' class='date-list-table'>
     <colgroup>
       <col style="width:6rem;">
       <col>

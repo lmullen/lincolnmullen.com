@@ -62,7 +62,7 @@ body {
 }
 
 nav a {
-  padding-right: 1rem;
+  padding-right: 0.6rem;
   /* text-decoration: none; */
   white-space: nowrap;
 }
@@ -141,14 +141,14 @@ h1 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 h2 {
   font-size: 1.25rem; 
   font-weight: 600;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .book h2 {
@@ -159,7 +159,11 @@ h3 {
   font-size: 1rem;
   font-weight: 600;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+h1 + p, h2 + p, h3 + p {
+  margin-top: 0;
 }
 
 hr.nav {
@@ -168,13 +172,14 @@ hr.nav {
   margin-bottom: 2rem;
 }
 
-table.blog-archive {
-  border: none;
+/* A .date-list-table is used for the blog archive and for the list of syllabi */
+table.date-list-table {
   width: 100%;
+  border: none;
 }
 
-table.blog-archive tr td {
-  padding: 0.25rem 0; 
+table.date-list-table tr td {
+  padding: 0.3rem 0; 
   vertical-align: top;
   border: none;
   word-break: keep-all;
@@ -463,12 +468,40 @@ table-horizontal tbody > tr:last-child > td {
 
 /* Syllabus specific */
 article.syllabus header {
-  background: rgb(243, 243, 243);
-  border: 1px solid black;
+  /* background: rgb(243, 243, 243); */
+  border: 1.25px solid #2770e6;
   padding: 0.20rem 1.0rem;
 }
 
-article.syllabus nav#TableOfContents ul li li {
+/* Make h1s on a syllabus the same as h2s elsewhere */
+article.syllabus h1 {
+  font-size: 1.25rem; 
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+/* but not the title */
+article.syllabus h1.syllabus-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+article.syllabus h3 {
+  margin-top: 1.5rem;
+}
+
+article.syllabus h4#toc {
+  display: none;
+}
+
+article.syllabus nav#TableOfContents {
+  margin: 2rem 0 1rem 0;
+}
+
+article.syllabus nav#TableOfContents ul li ul {
   display: none;
 }
 
@@ -483,6 +516,7 @@ article.syllabus nav#TableOfContents ul {
   padding: 0;
   margin-top: 4px;
 }
+
 article.syllabus nav#TableOfContents ul li {
   list-style-type: none;
   margin: 0;
@@ -511,9 +545,6 @@ Media Queries
 ========================================================================== */
 
 @media only screen and (max-width: 875px) {
-	.col { 
-		/* margin: 1% 0 1% 0%; */
-	}
   .span_2_of_2, .span_1_of_2 { width: 100%; }
   
   blockquote {
@@ -537,6 +568,20 @@ Media Queries
   .subscribe::before {
     content: "\A";
     white-space: pre;
+  }
+  article.syllabus nav#TableOfContents ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+  article.syllabus nav#TableOfContents ul li {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+  }
+  article.syllabus ul {
+    margin-left: 1.25rem;
+    padding-left: 0;
   }
 }
 
@@ -608,5 +653,11 @@ Print styles
   h2,
   h3 {
     page-break-after: avoid;
+  }
+
+  article.syllabus header {
+    border: none;
+    padding: 0;
+    margin: 0;
   }
 }

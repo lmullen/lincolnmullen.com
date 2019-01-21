@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: "Software"
 slug: /code/
 ---
 

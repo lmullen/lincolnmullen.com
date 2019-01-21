@@ -1,30 +1,28 @@
 ---
-css:
-- 'tufte.css'
-- 'custom.css'
-fontfamily:
-- mathpazo
-fontsize: 10pt
-geometry:
-- "margin=1in"
-link-citations: False
-smart: True
-title: Computational History
-type: index
+title: "Clio 2: Computational History"
+semester: Spring
+year: 2018
+department: Department of History and Art History
+university: George Mason University
+coursenum: HIST 697-001
+courseurl: https://historyarthistory.gmu.edu/courses/hist697/course_sections/34585
+credits: 3
+meets: Mondays, 7:20–10:00pm
+room: RRCHNM conference room, Research Hall 402
+instructor: Lincoln Mullen
+instructorurl: https://lincolnmullen.com
+email: lmullen@gmu.edu
+office: Research Hall 457
+officehours: "by appointment"
+toc: true
+draft: false
 ---
 
-[Course description](#course-description) | [Essential information](#essential-information) | [Main texts](#main-texts) | [Schedule](#schedule) | [Assignments](#assignments) | [Fine Print](#fine-print)
-
-<p class="sans">
-[HIST697-001: Creating History in New Media](https://historyarthistory.gmu.edu/courses/hist697/course_sections/34585). Spring 2018. [Department of History and Art History](http://historyarthistory.gmu.edu/), George Mason University. 3 credits. Meets Mondays, 7:20 p.m. to 10:00 p.m., in RRCHNM conference room, Research Hall 402.
-</p>
-<p class="sans">
-Instructor: [Lincoln Mullen](http://lincolnmullen.com) &lt;<lmullen@gmu.edu>&gt;. Office: Research Hall 457. Book an [office hours appointment](https://lincolnmullen.com/page/office-hours/).
-</p>
-
-## Course description
+# Course description
 
 In this course you will learn to apply computational methods to create historical arguments. You will learn to work with historical data, including finding, gathering, manipulating, analyzing, visualizing, and arguing from data, with special attention to geospatial, textual, and network data. These methods will be taught primarily through scripting in the [R programming language](https://www.r-project.org/). While historical methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century U.S. religion, and you will apply these methods to a dataset in your own field of research.
+
+# Learning goals
 
 After taking this course, you will be able to
 
@@ -34,13 +32,13 @@ After taking this course, you will be able to
 -   conceive of and execute a research project in computational history suitable for treatment in a dissertation chapter or journal article.
 -   take the course "Programming in History/New Media," a.k.a. Clio 3, should you choose.
 
-## Essential information
+# Essential information
 
-You are always welcome to [book an appointment](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI) during my office hours. If the times that are available do not work for you, feel free to contact me. All communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help.
+You are always welcome to [book an appointment](/page/office-hours/) during my office hours. If the times that are available do not work for you, feel free to contact me. All communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help.
 
 Bring a computer to each class meeting. We will use [R](https://cran.rstudio.com/) and [RStudio](https://www.rstudio.com/products/rstudio/#Desktop). [Install them](http://dh-r.lincolnmullen.com/installing-r-and-packages.html) on your own computer. You will also have access to an [RStudio Server instance](http://rstudio.chnm.org/) which will let you use R in your browser. Much of your work for the course will go on [GitHub](https://github.com/), so sign up for an account.
 
-## Main texts
+### Main texts
 
 All required readings are available online for free or through the GMU libraries, though they can also be purchased (sometimes in more complete editions) in print or e-books. These are the books we will use most frequently.
 
@@ -50,7 +48,7 @@ All required readings are available online for free or through the GMU libraries
 - Julia Silge and David Robinson, [*Text Mining with R: A Tidy Approach*](https://www.tidytextmining.com/) (O'Reilly, 2017).
 - Hadley Wickham and Garrett Grolemund, [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/) (O'Reilly, 2017).
 
-## Assignments
+# Assignments
 
 **Be prepared**. Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings.
 
@@ -65,7 +63,7 @@ All required readings are available online for free or through the GMU libraries
 
 **Research paper (25%).** You will write one research paper suitable for a presentation at a disciplinary or digital humanities conference (see for example the CFP for [Current Research in Digital History](http://crdh.rrchnm.org/), or the CFP for the major conference in your field). This paper must advance a historical argument using data analysis of a set of sources that you choose from your research interests. Submit this paper as a PDF or self-contained HTML file (if it includes interactive visualizations) to [this Dropbox folder](https://www.dropbox.com/request/grN2YG0bS4ycamVCjHXX). Further instructions will be given throughout the semester. **Due May 10.**
 
-## Schedule
+# Schedule
 
 ### Week 1 (Jan. 22): Introduction
 
@@ -91,7 +89,7 @@ Read:
 -   Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8.
 -   Shari Rabin, "'Let us Endeavor to Count Them Up': The Nineteenth-Century Origins of American Jewish Demography," *American Jewish History* 101, no 4 (2017): 419--440, <https://doi.org/10.1353/ajh.2017.0060>.
 -   Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1, 5.
--   Laurie F. Maffly-Kipp, "[If It's South Dakota You Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S. Religiona](http://www.jstor.org/stable/4146694)" *Church History* 71, no. 1 (2002): 132--42.
+-   Laurie F. Maffly-Kipp, "[If It's South Dakota You Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S. Religion](http://www.jstor.org/stable/4146694)" *Church History* 71, no. 1 (2002): 132--42.
 
 Browse:
 
@@ -251,9 +249,7 @@ Tutorials:
 
 Topic and readings to be determined by the needs of student research papers.
 
-## Fine print
-
-<div class="policies">
+# Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 
@@ -261,7 +257,5 @@ Students must satisfactorily complete all assignments (including participation a
 
 See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](http://oai.gmu.edu/understanding-the-honor-code/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services at 703-993-2474 or through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note these dates from the [academic calendar](http://registrar.gmu.edu/calendars/spring-2018/).
 
--   Last day to add a class or drop a class without penalty: January 29, 2018.
--   Last day to drop a class without special permission: February 23, 2018.
-
-</div>
+- Last day to add a class or drop a class without penalty: January 29, 2018.
+- Last day to drop a class without special permission: February 23, 2018.

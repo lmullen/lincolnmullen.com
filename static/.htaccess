@@ -6,7 +6,7 @@ Redirect 301 /projects/gender-predictor/ http://shiny.chnm.org/gender-predictor/
 Redirect 302 /cv/index.html https://lincolnmullen.com/files/Mullen-cv.pdf
 Redirect 302 /cv/ https://lincolnmullen.com/files/Mullen-cv.pdf
 
-# ErrorDocument 404 /404.html
+ErrorDocument 404 /404.html
 
 <ifModule mod_gzip.c>
 mod_gzip_on Yes

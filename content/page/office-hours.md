@@ -13,4 +13,6 @@ If you are a student, you are always welcome to come talk with me in office hour
 
 **Booking an appointment.** [Go to the booking page.](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI). You may have to sign in with your Google account. You will see a page where you can browse through a calendar, and available appointments will show up as in the image below. Click on one to book an appointment.
 
+If the times that I have available do not work for you, please [email me](mailto:lmullen@gmu.edu) and suggest three times that work for you.
+
 {{< figure src="/img/office-hours.png" caption="This is what the office hours appointment page will look like." >}}

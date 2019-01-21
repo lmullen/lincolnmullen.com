@@ -14,7 +14,6 @@ instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
 office: Research Hall 457
 officehours: "Mondays, 11am–12pm; Tuesdays, 2pm–3pm; Thursdays, 2pm–4pm"
-officesignup: https://lincolnmullen.youcanbook.me/
 toc: true
 draft: false
 ---

@@ -19,7 +19,7 @@ type: index
 [HIST697-001: Creating History in New Media](https://historyarthistory.gmu.edu/courses/hist697/course_sections/34585). Spring 2018. [Department of History and Art History](http://historyarthistory.gmu.edu/), George Mason University. 3 credits. Meets Mondays, 7:20 p.m. to 10:00 p.m., in RRCHNM conference room, Research Hall 402.
 </p>
 <p class="sans">
-Instructor: [Lincoln Mullen](http://lincolnmullen.com) &lt;<lmullen@gmu.edu>&gt;. Office: Research Hall 457. Book an [office hours appointment](https://lincolnmullen.youcanbook.me/).
+Instructor: [Lincoln Mullen](http://lincolnmullen.com) &lt;<lmullen@gmu.edu>&gt;. Office: Research Hall 457. Book an [office hours appointment](https://lincolnmullen.com/page/office-hours/).
 </p>
 
 ## Course description

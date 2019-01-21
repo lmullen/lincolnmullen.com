@@ -22,4 +22,4 @@ Web **bookmarks** are at [Pinboard](https://pinboard.in/u:lmullen).
 
 You can **email** me at [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com).
 
-You can [make an appointment](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI) for **office hours**. 
+You can [make an appointment](/page/office-hours/) for **office hours**. 

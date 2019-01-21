@@ -13,8 +13,7 @@ instructor: Lincoln Mullen
 instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
 office: Research Hall 457
-officehours: "Mondays, 11:00–12:00pm; Wednesdays 10:30–11:45am"
-officesignup: https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI
+officehours: "Mondays, 11:00–12:00pm; Wednesdays, 10:30–11:45am"
 toc: true
 draft: false
 ---
@@ -37,7 +36,7 @@ This course fulfills the Mason Core requirement for [Global Understanding](https
 
 This class will be a combination of lecture, discussion, and in-class assignments. Come to class having read the assigned material and be prepared to discuss those readings in class. You must have a copy of the texts assigned for each day available in class. On any day for which there is a reading assignment but not a short writing assignment (i.e., most days), you should write down two questions or comments on any of the assigned readings and bring them to class.
 
-You are always welcome to visit me during office hours. While you can drop in, I strongly encourage you to [book an appointment](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) to suggest a few other times that would work for you. 
+You are always welcome to visit me during office hours. While you can drop in, I strongly encourage you to [book an appointment](/page/office-hours/). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) to suggest a few other times that would work for you. 
 
 These books are required. Other readings will be available on Blackboard or through the GMU libraries.
 

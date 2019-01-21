@@ -4,11 +4,12 @@ baseURL: "https://lincolnmullen.com/"
 copyright: "2008-2019"
 languageCode: "en-us"
 googleAnalytics: "UA-121242961-1"
+officehoursLink: /page/office-hours/
 
 permalinks:
   blog: "/:section/:slug/"
   archive: "/:slug/"
-  page: "/:slug/"
+  page: "/:section/:slug/"
 
 blackfriday:
   fractions: false

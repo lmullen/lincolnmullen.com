@@ -2,6 +2,7 @@
 title: "Digital history dossier"
 toc: true
 slug: /dossier/
+hidden: true
 ---
 
 <p>&nbsp;</p>

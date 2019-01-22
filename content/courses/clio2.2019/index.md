@@ -15,13 +15,16 @@ email: lmullen@gmu.edu
 office: Research Hall 457
 officehours: "Mondays, 11:00–12:00pm; Wednesdays, 10:30–11:45am"
 toc: true
-draft: true
+draft: false
 ---
 
 # Course description
 
-In this course you will learn to apply computational methods to create historical arguments. You will learn to work with historical data, including finding, gathering, manipulating, analyzing, visualizing, and arguing from data, with special attention to geospatial, textual, and network data. These methods will be taught primarily through scripting in the [R programming language](https://www.r-project.org/). While historical methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century U.S. religion, and you will apply these methods to a dataset in your own field of research.
+In this course you will learn to use computational methods to create historical arguments. You will work with historical data, including finding, gathering, manipulating, analyzing, visualizing, and arguing from data, with special attention to geospatial, textual, and network data. These methods will be taught primarily through scripting in the [R programming language](https://www.r-project.org/). While historical methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century United States, and you will apply these methods to a dataset in your own field of research. 
 
+Additional emphasis will be placed on publishing your scholarship on the web. While this is not a course in web development, you will learn the basics of publishing documents on the web, including familiarity with command line programs, getting files onto servers, basic web technologies such as HTML and CSS, Git and GitHub, and packages such as RMarkdown for publishing data analysis.
+
+In other words, this class will teach you how to have something historically meaningful to say from data, and how to publish what you want to say on the web.
 
 # Learning goals
 
@@ -30,79 +33,250 @@ After taking this course, you will be able to
 - perform exploratory data analysis; clean, tidy, and manipulate data; gather historical data from print and manuscript sources; use existing historical data sets; create common visualizations; work with geospatial, textual, and network data.
 - write scripts using the R programming language and its extensive set of packages.
 - understand the place of data analysis and visualization within humanities computing, digital history, and the discipline of history.
-- conceive of and execute a research project in computational history suitable for treatment in a dissertation chapter or journal article.
-- take the course "Programming in History/New Media," a.k.a. Clio 3, should you choose.
+- conceive of and execute a short research project in computational history. 
+- publish your scholarship on the web.
 
 # Essential information
 
-You are always welcome to [book an appointment](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI) during my office hours. If the times that are available do not work for you, feel free to contact me. All communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help.
+This is a graduate methods course in a field that moves reasonably quickly. The syllabus is likely to change over the course of the semester. In particular, I am likely to send you additional projects or visualizations to look at before class.
 
-Bring a computer to each class meeting. We will use [R](https://cran.rstudio.com/) and [RStudio](https://www.rstudio.com/products/rstudio/#Desktop). [Install them](http://dh-r.lincolnmullen.com/installing-r-and-packages.html) on your own computer. You will also have access to an [RStudio Server instance](http://rstudio.chnm.org/) which will let you use R in your browser. Much of your work for the course will go on [GitHub](https://github.com/), so sign up for an account.
+You are always welcome to talk with me during office hours. While you can drop in, I strongly encourage you to [book an appointment](/page/office-hours/). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) and suggest a few other times that would work for you.
 
-All required readings are available online for free or through the GMU libraries, though they can also be purchased (sometimes in more complete editions) in print or e-books. These are the books we will use most frequently.
+All communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help. This is your primary place to ask for help.
+
+Bring a computer to each class meeting. See the list of software that you will need to install under the heading for the first week. This class is going to assume that you a computer with some kind of Unix-like operating system available. The easiest will be macOS or a Linux distribution. But if you use Windows, good news, you can [install the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about), though after that you are mostly on your own to figure out the peculiarities of Windows.
+
+You will need a basic web server and your own domain. If you do not already have a domain and web hosting, the personal shared hosting from [Reclaim Hosting](https://reclaimhosting.com/shared-hosting/) will be more than adequate.
+
+One textbook is required in print (though it is partially available online).
+
+- Kieran Healy, [*Data Visualization: A Practical Introduction*](http://socviz.co/) (Princeton University Press, 2018). ISBN: 9780691181622.
+
+All the other required readings are available online or through the GMU libraries, though they can also be purchased---sometimes in more complete editions---in print or e-books. These are the books we will use most frequently.
 
 - Shawn Graham, Ian Milligan, and Scott Weingart, [*Exploring Big Historical Data: The Historian's Macroscope*](http://www.themacroscope.org/2.0/) (Imperial College Press, 2015).
-- Kieran Healy, [*Data Visualization: A Practical Introduction*](http://socviz.co/) (Princeton University Press, forthcoming 2018). 
-- Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016). 
-- Julia Silge and David Robinson, [*Text Mining with R: A Tidy Approach*](https://www.tidytextmining.com/) (O'Reilly, 2017).
 - Hadley Wickham and Garrett Grolemund, [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/) (O'Reilly, 2017).
+
+In general I have provided datasets and questions for you to work on for all the assignments except the final paper. But for any assignment, you may substitute a dataset from your own historical interests after checking with me. The forward-thinking graduate student will try to find such datasets early on in the semester so that you can use the intermediate assignments as preparation for your final assignment. If you can peer even farther into the future, you can try to use the final assignment as a test run of work you might want to do in one of your own research projects, such as an article or a dissertation.
 
 # Assignments 
 
+Assignments should be [submitted via this form](https://goo.gl/forms/J0a0sYVk4AANryBq2) unless otherwise instructed. For each assignment you will be expected to turn in two things. The first will be a web page with a public-facing presentation of your work. The other will be a GitHub repository with the source code that creates that web page.
 
-**Be prepared**. Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings.
+Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings. Final grades will be calculated using the typical percentage-based grading scale (A = 93–100, A- = 90–92, B+ = 88–89, B = 83–87, B- = 80–82, ... F = 0–59). 
 
-**Worksheets and weekly assignments (20%).** Many classes will have an assignment due before class begins. Some will require you to do library research; others will be practice data analysis worksheets. Some of the questions on the worksheet will be easy; most will be difficult; some you may find nearly impossible. The aim is to *practice*. We will go over the worksheets in class each week. If you attempt a problem and can't solve it, you should still turn in whatever work you did on it. Students who complete all the easy and moderate difficulty questions, attempt the very difficult questions, and ask for help as needed will do just fine. These assignments will graded by completion, with three levels: "incomplete," "acceptable," "excellent." Unless otherwise specified, these assignments should be submitted as a PDF or a standalone HTML file, one file per assignment. Name them like this: `Mullen-worksheet-week02.pdf`. Submit them to [this Dropbox folder](https://www.dropbox.com/request/grN2YG0bS4ycamVCjHXX).
+**Worksheets and weekly assignments (20%).** Many classes will have an assignment due before class begins. Some will require you to do library research; others will be practice data analysis worksheets. Some of the questions on the worksheets will be easy; most will be difficult; some you may find nearly impossible. The aim is to *practice*. We will go over the worksheets in class each week. If you attempt a problem and can't solve it, you should still turn in whatever work you did on it. Students who complete all the easy and moderately difficult questions, attempt the very difficult questions, and ask for help as needed will do just fine. These assignments will graded by completion.
 
-**Analysis assignments (3 @ 15% each).** You will do three analysis assignments, each demonstrating a specific skill in data analysis. For these assignments you will be given a historical dataset and asked some interpretative questions. You will prepare an [RMarkdown document](http://rmarkdown.rstudio.com/) containing prose, code, and tables or visualizations to answer the historical questions and, as necessary, explain your methods. You will be given a starter GitHub repository with the data and questions. Submit your final analysis as an HTML file along with your R Markdown file to [this Dropbox folder](https://www.dropbox.com/request/grN2YG0bS4ycamVCjHXX). <del>You will also be evaluated on the code in your GitHub repository, which I must be able to run on my computer.</del>
+**Analysis assignments (3 × 15% = 45%).** You will do three analysis assignments, each demonstrating a specific skill in data analysis. For these assignments you will be given a historical dataset and asked some interpretative questions. You will prepare an [RMarkdown document](http://rmarkdown.rstudio.com/) containing prose, code, and tables or visualizations to answer the historical questions and, as necessary, explain your methods. You will be given a starter GitHub repository that you can fork with the data and questions.
 
-- [Mapping assignment](https://github.com/ClioGMU/clio2-mapping)
-- [Text analysis assignment](https://github.com/ClioGMU/clio2-text)
-
-**R package tutorial (10%).** At our second meeting, you will pick from a list of R packages not covered in this class. You will be assigned a week (beginning at week 7) during which you will teach the class for 15 minutes about the topic you selected. As part of that teaching, you will prepare a PDF handout. That handout should include these parts: (1) a one- to two-paragraph summary of what the package does and while it is useful; (2) a brief section of example code and results; (3) a bulleted list of examples (historical if possible) where the package was used. A draft of that handout is due to me one week before you are scheduled to teach. I will offer feedback, and you will give the class a revised version in Slack on the Friday before you teach.
-
-**Research paper (25%).** You will write one research paper suitable for a presentation at a disciplinary or digital humanities conference (see for example the CFP for [Current Research in Digital History](http://crdh.rrchnm.org/), or the CFP for the major conference in your field). This paper must advance a historical argument using data analysis of a set of sources that you choose from your research interests. Submit this paper as a PDF or self-contained HTML file (if it includes interactive visualizations) to [this Dropbox folder](https://www.dropbox.com/request/grN2YG0bS4ycamVCjHXX). Further instructions will be given throughout the semester. **Due May 10.**
-
-Due Monday, May 13 at 5pm. 
-
-Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
+**Research paper (35%).** You will write a research paper suitable for a presentation at a disciplinary or digital humanities conference. This paper should advance a historical argumentation on the basis computational historical methods, though you can and should use more traditional historical methods as necessary. The body of the paper should be about 2,000 words in length. It should include notes in Chicago format like any other work of history. The paper should include embedded visualizations or tables as appropriate. Each table and figure must have a caption written in complete sentences. The paper should be attractively presented on your website using the [Radix RMarkdown format](https://rstudio.github.io/radix/). Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The paper should be accompanied by a GitHub repository containing your data and code in a reproducible analysis. Ideally this paper could be presented at a conference, and it could serve as a trial for computational work you might do in a larger research project. As a model, see the most recent [CFP](http://crdh.rrchnm.org/cfp/) for *Current Research in Digital History*. Due Monday, May 13 at 5pm.
 
 # Schedule 
 
-### Monday, January 28
+### Week 1 (January 28): The web
 
-### Monday, February 4
+Do your level best to get these set up before the first day of class:
 
-### Monday, February 11
+- Join the class [Slack group](https://mason-dh-grad.slack.com/signup).
+- Get your own domain and web hosting, at [Reclaim Hosting](https://reclaimhosting.com/shared-hosting/) if you don't have it already.
+- Install [R](https://cran.rstudio.com/), a programming language for data analysis.
+- Install [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an environment for using R.
+- Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
+- Install [Cyberduck](https://cyberduck.io), an FTP client.
+- Get a [GitHub](https://github.com/) account and post it to the Slack group. (E.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen).)
+- Install [Git](https://help.github.com/articles/set-up-git/) (more [detailed guide](https://happygitwithr.com/install-git.html)).
+- Install [Homebrew](https://brew.sh) (only if you use macOS).
+- Install [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (only if you use Windows).
 
-### Monday, February 18
+Read:
 
-### Monday, February 25
+- Alan Jacobs, "[Tending the Digital Commons: A Small Ethics toward the Future](https://iasc-culture.org/THR/THR_article_2018_Spring_Jacobs.php)," *Hedgehog Review* 20, no. 1 (2018). 
+- Arguing with Digital History working group, "[Digital History and Argument](https://rrchnm.org/argument-white-paper/)," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017).
 
-### Monday, March 4
+### Week 2 (February 4): Data from history and historians
 
-### Monday, March 11: Spring break
+Assignment:
 
-### Monday, March 18
+- Find at least three primary source data tables, datasets, or corpora from your field of historical research. Post full citations and URLs in the Slack group, along with a sentence or two explaining what you've found. Examine the links that other people post before class.
 
-### Monday, March 25
+Read:
 
-### Monday, April 1
+- Shari Rabin, "'Let us Endeavor to Count Them Up': The Nineteenth-Century Origins of American Jewish Demography," *American Jewish History* 101, no 4 (2017): 419--440, <https://doi.org/10.1353/ajh.2017.0060>.
+- Laurie F. Maffly-Kipp, "[If It's South Dakota You Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S. Religion](http://www.jstor.org/stable/4146694)" *Church History* 71, no. 1 (2002): 132--42.
+- Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
+- Jessica Marie Johnson, "Markup BodiesBlack \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads," *Social Text* 36, no. 4 (137) (December 1, 2018): 57--79, https://doi.org/10.1215/01642472-7145658.
+- Frederick W. Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)," *The American Historian* (February 2016).
+- Taylor Arnold and Lauren Tilton, "New Data: The Role of Statistics in DH," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, forthcoming 2019).
 
-### Monday, April 8
+Browse:
 
-### Monday, April 15
+- Fletcher W. Hewes and Henry Garnett, [*Scribner's Statistical Atlas of the United States Showing by Graphic Methods Their Present Condition and Their Political, Social and Industrial Development*](http://www.davidrumsey.com/luna/servlet/s/rod36m) (New York: Charles Scribner's Sons, 1883), plates 58 to 61.
+- Herman Carl Weber, [*Presbyterian Statistics through One Hundred Years, 1826-1926*](http://catalog.hathitrust.org/Record/007109885) (Philadelphia: Presbyterian Church in the U.S.A., 1927), part II
 
-### Monday, April 22
+### Week 3 (February 11): Basics of R
 
-### Monday, April 29
+Assignment:
 
-### Monday, May 6
+- If you found a primary source dataset last week that is worth transcribing, then you can transcribe it. Otherwise, transcribe some of the [*Minutes*](https://catalog.hathitrust.org/Record/006771726) of the Methodist Episcopal Church from after 1851. Whichever source you use, transcribe at least 25 rows of the data into a spreadsheet. Be prepared to describe in class how you decided on the structure of your data, and how you identified what the variables were. (Hint: read the Broman and Woo article before you start this assignment.)
+
+Read: 
+
+- Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
+- Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8.
+- Read "[Introduction](https://dh-r.lincolnmullen.com/introduction.html)" and "[Getting Started](https://dh-r.lincolnmullen.com/getting-started.html)" from *Computational Historical Thinking*. 
+
+Browse:
+
+- [Tutorial for RMarkdown](https://rmarkdown.rstudio.com/).
+
+### Week 4 (February 18): Data manipulation
+
+Assignment: 
+
+- [Introduction to R worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+
+Read:
+
+- Wickham and Grolemund, *R for Data Science*, ch. 5, 12.
+- Graham, Milligan, Weingart, *Macroscope*, ch. 1--2.
+- William G. Thomas III, "Computing and the Historical Imagination," in [*A Companion to Digital Humanities*](http://www.digitalhumanities.org/companion), ed. Susan Schreibman, Ray Siemens, John Unsworth (Blackwell, 2004).
+
+### Week 5 (February 25): Data visualization
+
+Assignment: 
+
+- [First data manipulation worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+
+Read:
+
+- Wickham and Grolemund, *R for Data Science*, ch. 3.
+- Healy, *Data Visualization*, ch. 1, 3.
+- Graham, Milligan, Weingart, *Macroscope*, ch 5.
+- Kieran Healy and James Moody, "[Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf)" *Annual Review of Sociology*, 40:105--128.
+
+### Week 6 (March 4): More data manipulation and visualizations
+
+Assignment: 
+
+- [ggplot2 worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+
+Read:
+
+- Healy, *Data Visualization*, ch 4--5, 8.
+- Wickham and Grolemund, *R for Data Science*, ch. 13.
+- Lauren F. Klein, “The Image of Absence: Archival Silence, Data Visualization, and James Hemings,” American Literature 85, no. 4 (December 1, 2013): 661–88, https://doi.org/10.1215/00029831-2367310.
+- John Theibault, "Visualizations and Historical Arguments," in *Writing History in the Digital Age*, ed. Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013), <https://doi.org/10.3998/dh.12230987.0001.001>.
+
+### Spring break (March 11)
+
+### Week 7 (March 18): Exploratory data analysis
+
+Assignment: 
+
+- [Second data manipulation worksheet](https://dh-r.lincolnmullen.com/worksheets.html). 
+
+Read:
+
+- Wickham and Grolemund, *R for Data Science*, ch. 7, 19--21.
+- Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016), chs. 1, 4--6.
+- Skim: Wickham and Grolemund, *R for Data Science*, ch. 27, 29.3-29.4, 30.
+
+### Week 8 (March 25): Mapping
+
+Assignment: 
+
+- [Exploratory data analysis assignment due](https://github.com/ClioGMU/clio2-eda)
+
+Read:
+
+-  Healy, *Data Visualization*, ch 7.
+-  Richard White "[What is Spatial History?](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29)."
+-  Cameron Blevins, "Space, Nation, and the Triumph of Region: A View of the World from Houston," *Journal of American History* 101, no. 1 (2014): 122--47, https://doi.org/10.1093/jahist/jau184.
+
+Browse:
+
+-  Documentation for the [leaflet package](https://rstudio.github.io/leaflet/).
+
+### Week 9 (April 1): Mapping
+
+Read:
+
+- Todd Presner and David Shepard, "Mapping the Geospatial Turn," in _A New Companion to Digital Humanities_, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 201--212. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
+- Bret E. Carroll, "Spatial Approaches to American Religious Studies,” _Oxford Research Encyclopedia of Religion_ (Oxford University Press, 2015), <https://doi.org/10.1093/acrefore/9780199340378.013.13>.
+- Stephen Robertson, "[Putting Harlem on the Map](http://quod.lib.umich.edu/d/dh/12230987.0001.001/1:8/--writing-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1#8.2)," in *Writing History in the Digital Age*, edited by Jack Dougherty and Kristen Nawrotzki (University of Michigan Press, 2013).
+
+Browse:
+
+- [Ben Schmidt maps and visualizations gallery](http://benschmidt.org/maps-visualizations-gallery/)
+
+### Week 10 (April 8): Text analysis
+
+Assignment: 
+
+- [Mapping assignment due](https://github.com/ClioGMU/clio2-mapping)
+
+Read:
+
+- Kasper, Welbers, Wouter van Atteveldt, and Kenneth Benoit, "Text analysis in R," *Communications Methods and Measures* 11, no. 4: 245--265, <https://doi.org/10.1080/19312458.2017.1387238>.
+- Taylor Arnold, Nicolas Ballier, Paula Lissón, and Lauren Tilton, "Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities." [preprint](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
+- Ben Schmidt, "[Vector Space Models for the Digital Humanities](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html)" (October 25, 2015).
+- Ben Schmidt, "[Rejecting the Gender Binary: A Vector-Space Operation](http://bookworm.benschmidt.org/posts/2015-10-30-rejecting-the-gender-binary.html)" (October 30, 2015).
+- Graham, Milligan, Weingart, *Macroscope*, chs. 3--4.
+
+Browse: 
+
+- [quanteda documentation](https://quanteda.io/)
+- [cleanNLP documentation](https://statsmaths.github.io/cleanNLP/)
+- Wickham and Grolemund, *R for Data Science*, 14.
+
+### Week 11 (April 15): Text analysis
+
+Read:
+
+- Tim Hitchcock and William J. Turkel, "The _Old Bailey Proceedings, 1674--1913_: Text Mining for Evidence of Court Behavior," _Law and History Review_ 34, no. 4 (2016): 929--955, <https://doi.org/10.1017/S0738248016000304>.
+- Matthew K. Gold et al., "[Forum: Text Analysis at Scale](http://dhdebates.gc.cuny.edu/debates/text/93)," in *Debates in the Digital Humanities 2016* (University of Minnesota Press, 2016), 525--568.
+- Ryan Cordell, "Reprinting, Circulation, and the Network Author in Antebellum Newspapers," *American Literary History* 27, no. 3 (2015): 417--445, <https://doi.org/10.1093/alh/ajv028>.
+- David A. Smith, Ryan Cordell, and Abby Mullen, "Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers," *American Literary History* 27, no. 3 (2015): E1--E15, <https://doi.org/10.1093/alh/ajv029>.
+- Robert K. Nelson, *[Mining the Dispatch](http://dsl.richmond.edu/dispatch/)*.
+
+### Week 12 (April 22): Network analysis
+
+Assignment: 
+
+- [Text analysis assignment due](https://github.com/ClioGMU/clio2-text)
+
+Read:
+
+- Graham, Milligan, Weingart, *Macroscope*, ch. 6--7.
+- Matthew Lincoln, "Social Network Centralization Dynamics in Print Production in the Low Countries, 1550--1750," *International Journal for Digital Art History* 2 (2016): 134--157, <https://doi.org/10.11588/dah.2016.2.25337>.
+- "[AHR Forum: Mapping the Republic of Letters](https://academic-oup-com.mutex.gmu.edu/ahr/search-results?f_TocHeadingTitle=AHR%20Forum:%20Mapping%20the%20Republic%20of%20Letters)," _American Historical Review_ 122, no. 2 (2017): 399--463. 
+- Rebecca Sutton Koeser, "[Trusting Others to 'Do the Math'](https://doi.org/10.1080/03080188.2016.1165454)" _Interdisciplinary Science Reviews_ 40, no. 4 (2015): 376--392, <https://doi.org/10.1080/03080188.2016.1165454>.
+- Benjamin Schmidt, "[Do Digital Humanists Need to Understand Algorithms?](http://dhdebates.gc.cuny.edu/debates/text/99)" in _Debates in the Digital Humanities 2016_, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2016).
+
+### Week 13 (April 29): Supervised classification
+
+Read:
+
+- Gareth James, et al., *An Introduction to Statistical Learning: With Applications in R* (Springer, 2013), ch. 1, 2, 4. [GMU library](https://link-springer-com.mutex.gmu.edu/chapter/10.1007/978-1-4614-7138-7_2)
+- Matthew L. Jockers and Ted Underwood, "Text-Mining the Humanities" in _A New Companion to Digital Humanities_, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 291--306. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
+
+
+### Week 14 (May 6): TBD
+
+Topic and readings to be determined by the needs of student research papers.
+
+Read: 
+
+- Ben Marwick, Carl Boettiger, and Lincoln Mullen, "Packaging Data Analytical Work Reproducibly Using R (and Friends)," *American Statistician* 72, no. 1 (2018): 80--88, <https://doi.org/10.1080/00031305.2017.1375986>.
+
+Possible topic:
+
+- [Distant Viewing](https://www.distantviewing.org)
 
 # Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 
-Students must satisfactorily complete all assignments (including participation assignments) in order to pass this course. Your attendance is expected at every meeting (exceptions made only for religious holidays). If you must be absent, I request that you notify me in advance of the class meeting. I am sometimes willing to grant extensions for cause, but you must request an extension before the assignment's due date. For every day or part of a day that an assignment is late without an extension, I may reduce your grade. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
+Students must satisfactorily complete all assignments (including participation assignments) in order to pass this course. Your attendance is expected at every meeting. If you must be absent, I request that you notify me in advance of the class meeting. I am sometimes willing to grant extensions on assignments for cause, but you must request an extension before the assignment's due date. For every day or part of a day that an assignment is late without an extension, I may reduce your grade. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
 
 See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](http://oai.gmu.edu/understanding-the-honor-code/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services at 703-993-2474 or through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note the dates for dropping and adding courses from the [GMU academic calendar](http://registrar.gmu.edu/calendars/spring-2019/).

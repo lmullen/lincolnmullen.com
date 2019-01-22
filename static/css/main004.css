@@ -164,7 +164,7 @@ h3 {
 }
 
 h1 + p, h2 + p, h3 + p {
-  margin-top: 0;
+  margin-top: 0.5rem;
 }
 
 hr.nav {
@@ -494,20 +494,12 @@ article.syllabus h3 {
   margin-top: 1.5rem;
 }
 
-article.syllabus h4#toc {
-  display: none;
-}
-
 article.syllabus nav#TableOfContents {
   margin: 2rem 0 1rem 0;
 }
 
 article.syllabus nav#TableOfContents ul li ul {
   display: none;
-}
-
-h4#toc {
-  margin-bottom: 0;
 }
 
 article.syllabus nav#TableOfContents ul {
@@ -526,19 +518,6 @@ article.syllabus nav#TableOfContents ul li {
 
 blockquote {
   margin: 0 4rem 0 2rem;
-}
-
-/* Print only styles */
-.print-only {
-  display: none;
-}
-@media print {
-  .no-print {
-    display: none;
-  }
-  .print-only{
-    display: block;
-  }
 }
 
 /* ==========================================================================
@@ -596,8 +575,34 @@ Media Queries
 /* ==========================================================================
 Print styles
 ========================================================================== */
+/* Print only styles */
+.print-only {
+  display: none;
+}
 
 @media print {
+
+  .no-print {
+    display: none;
+  }
+
+  .print-only{
+    display: block;
+  }
+
+  @page {
+    margin: 1.0in 0.75in 0.75in 0.75in;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1.syllabus-title {
+    margin-top: 0;
+  }
+
   *,
   *:before,
   *:after {
@@ -651,8 +656,7 @@ Print styles
     widows: 3;
   }
 
-  h2,
-  h3 {
+  h2, h3, h4 {
     page-break-after: avoid;
   }
 

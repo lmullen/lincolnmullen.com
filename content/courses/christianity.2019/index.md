@@ -59,6 +59,8 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 ### Wednesday, January 23: Introduction
 
+- In class: Acts 2
+
 ### Monday, January 28: From Ancient Israel to Rabbinic Judaism
 
 - MacCulloch, ch. 2.
@@ -96,7 +98,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 ### Monday, February 18: Augustine and the Making of Latin Christianity 
 
 - MacCulloch, pp. 289--312.
-- Augustine, *Confessions*, book 2; Egeria, *Pilgrimage*; Gregory of Nyssa, *Life of Moses*; 
+- Augustine, *Confessions*, book 2; Egeria, *Pilgrimage*; Gregory of Nyssa, *Life of Moses*. 
 
 ### Wednesday, February 20: Asian and African Christianities
 
@@ -119,7 +121,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 - MacCulloch, pp. 381--89.
 - Four accounts of the First Crusade.
-- **Short writing assignment 4:** What are the most striking differences you see in these four accounts? Despite these differences, what similarities can you find? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **Short writing assignment 4:** What are the most striking differences you see in these four accounts of the First Crusade? Despite these differences, what similarities can you find? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Wednesday, March 6: Medieval Christianity
 

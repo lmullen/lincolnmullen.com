@@ -594,6 +594,10 @@ Print styles
     margin: 1.0in 0.75in 0.75in 0.75in;
   }
 
+  html {
+    font-size: 0.8333em;
+  }
+
   body {
     margin: 0;
     padding: 0;

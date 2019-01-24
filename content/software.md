@@ -3,7 +3,9 @@ title: "Software"
 slug: /code/
 ---
 
-The following software packages are actively maintained and, as appropriate, peer-reviewed and accompanied by a published paper about the software. If you are interested in the code I've written to perform various analyses, those repositories are listed with the associated [publications or projects](/publications/).
+## R packages
+
+The following software packages for the [R programming language](https://www.r-project.org) are actively maintained and, as appropriate, peer-reviewed and accompanied by a published paper about the software.
 
 #### tokenizers: Fast, consistent tokenization of natural language text
 
@@ -29,3 +31,6 @@ The following software packages are actively maintained and, as appropriate, pee
 
 [DHQ paper](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html) | [Package website](http://lincolnmullen.com/software/gender/) | [GitHub repository](https://github.com/ropensci/gender) | [CRAN](https://cran.r-project.org/package=gender)
 
+## Utilities
+
+- [Chronicling America OCR debatcher](https://github.com/lmullen/chronam-ocr-debatcher)

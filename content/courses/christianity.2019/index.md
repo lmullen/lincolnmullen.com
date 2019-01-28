@@ -59,7 +59,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 ### Wednesday, January 23: Introduction
 
-- In class: Acts 2
+- In class: Acts 2.
 
 ### Monday, January 28: From Ancient Israel to Rabbinic Judaism
 
@@ -74,7 +74,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 ### Monday, February 4: Early Christianity; Greece and Rome
 
-- MacCulloch, ch. 2.
+- MacCulloch, ch. 1.
 - Acts ch. 9, 10, and 15; Galatians ch. 1--2; *Didache*, ch. 1--5, 7, 9--10; Justin Martyr, *First Apology*, ch. 5--6, 9--10, 61, 65--67.
 - **Short writing assignment 1:** How do the authors of Acts and Galatians, respectively, describe conflicts between different groups of early Christians? According to this group of readings, what were the most significant rituals and practices among early Christians? Write one double-spaced page on each of these questions. Use quotations from the primary sources as evidence in your response.
 

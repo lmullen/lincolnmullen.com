@@ -98,13 +98,13 @@ Grades will be based on the following assignments. Final grades will be calculat
 ### Monday, February 18: Augustine and the Making of Latin Christianity 
 
 - MacCulloch, pp. 289--312.
-- Augustine, *Confessions*, book 2; Egeria, *Pilgrimage*; Gregory of Nyssa, *Life of Moses*. 
+- Augustine, *City of God*, book 14; Egeria, *Pilgrimage*.
 
 ### Wednesday, February 20: Asian and African Christianities
 
 - MacCulloch, ch. 7 and pp. 267--269.
 - Jensen, ch. 3.
-- *Kebra Negast*
+- *Kebra Negast*.
 
 ### Monday, February 25: Muhammad and the Coming of Islam 
 
@@ -136,6 +136,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 - MacCulloch, pp. 427--456.
 - Jensen, ch. 7.
+- In class: John of Damascus, *On the Divine Images*.
 
 ### Wednesday, March 20: Midterm exam
 
@@ -178,7 +179,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 ### Wednesday, April 17: American Christianities and the Latter-day Saints
 
-- Joseph Smith, Letter to Samuel Smith; Emerson, "Divinity School Address," pp. 11--21, 27,
+- Joseph Smith, Letter to Samuel Smith; Emerson, "Divinity School Address," pp. 11--21, 27.
 
 ### Monday, April 22: Christianity and Missions in the Modern Era
 
@@ -197,6 +198,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 - MacCulloch, ch. 25.
 - Jensen, ch. 9.
+- In class: Documents of Vatican II.
 
 ### Monday, May 6: Conclusion
 

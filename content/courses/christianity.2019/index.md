@@ -51,7 +51,8 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Short writing assignments (6 × 5% each = 30%).* Six short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below.
 
-*Site visits and paper (15%).* You will be asked to visit two local Christian communities throughout the semester. After these visits you will write a reflection paper drawing on those visits and on your readings throughout the semester. More information will be provided early in the semester.
+*Site visits and paper (15%).* You will be asked to visit two local Christian communities throughout the semester. After these visits you will write a reflection paper drawing on those visits and on your readings throughout the semester. More information will be provided early in the semester. [**Site visits assignment instructions**](religious-site-visits-assignment.pdf)
+
 
 *Midterm exam (20%) and final exam (25%).* In-class exams will include essay and identification questions.
 

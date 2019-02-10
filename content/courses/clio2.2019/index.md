@@ -13,7 +13,7 @@ instructor: Lincoln Mullen
 instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
 office: Research Hall 457
-officehours: "Mondays, 11:00–12:00pm; Wednesdays, 10:30–11:45am"
+officehours: "By appointment"
 toc: true
 draft: false
 ---

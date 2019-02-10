@@ -8,7 +8,7 @@
       <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}} {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets {{ .Params.meets }} in {{ .Params.room }}.
     </p>
     <p>
-      <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>&gt;. Office: {{ .Params.office }}. Office hours: {{ .Params.officehours }}. <span class="no-print">(How to <a href="/page/office-hours/">book an appointment</a>.)</span>
+      <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>&gt;. Office: {{ .Params.office }}. Office hours: {{ .Params.officehours }}. <span>How to <a href="/page/office-hours/">book an appointment</a>.</span>
     </p>
   </header>
   {{ if .Params.toc }}<div class="no-print">{{ .TableOfContents }}</div>{{ end }}

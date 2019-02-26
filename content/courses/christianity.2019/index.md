@@ -96,55 +96,52 @@ Grades will be based on the following assignments. Final grades will be calculat
 - Creed of Nicaea; Chalcedonian Definition.
 - **Short writing assignment 2:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
-### Monday, February 18: Augustine and the Making of Latin Christianity 
+### Monday, February 18: Catch up
+
+
+### Wednesday, February 20: Snow day
+
+
+### Monday, February 25: Augustine and the Making of Latin Christianity
 
 - MacCulloch, pp. 289--312.
 - Augustine, *City of God*, book 14; Egeria, *Pilgrimage*.
-
-### Wednesday, February 20: Asian and African Christianities
-
-- MacCulloch, ch. 7 and pp. 267--269.
-- Jensen, ch. 3.
-- *Kebra Negast*.
-
-### Monday, February 25: Muhammad and the Coming of Islam 
-
-- MacCulloch, pp. 255--267, 277--285.
-- John of Damascus, *Fount of Knowledge*.
-- **Short writing assignment 3:** Write a two-paragraph summary of John of Damascus's discussion of Islam, followed by a one-page, double-spaced response of any sort. 
 
 ### Wednesday, February 27: Expansion to Northwest Europe 
 
 - MacCulloch, pp. 200--210, 312--318, 329--345.
 - Bede on England; Gregory of Tours on France and Germany.
 
-### Monday, March 4: Crusades
+### Monday, March 4: Asian and African Christianities
 
-- MacCulloch, pp. 381--89.
-- Four accounts of the First Crusade.
-- **Short writing assignment 4:** What are the most striking differences you see in these four accounts of the First Crusade? Despite these differences, what similarities can you find? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- MacCulloch, ch. 7 and pp. 267--269.
+- Jensen, ch. 3.
+- *Kebra Negast*.
 
-### Wednesday, March 6: Medieval Christianity
+### Wednesday, March 6: Muhammad and the Coming of Islam 
 
-- MacCulloch, pp. 396--415.
-- Jensen, ch. 4.
+- MacCulloch, pp. 255--267, 277--285.
+- John of Damascus, *Fount of Knowledge*.
+- **Short writing assignment 3:** Write a two-paragraph summary of John of Damascus's discussion of Islam, followed by a one-page, double-spaced response of any sort. 
 
 ### Monday, March 11: Spring break
 
 ### Wednesday, March 13: Spring break
 
-### Monday, March 18: Byzantine Christianity and Orthodoxy
+### Monday, March 18: Medieval Christianity and the Crusades
+
+- MacCulloch, pp. 381--89.
+- Jensen, ch. 4.
+- Four accounts of the First Crusade.
+- **Short writing assignment 4:** What are the most striking differences you see in these four accounts of the First Crusade? Despite these differences, what similarities can you find? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+
+### Wednesday, March 20: Midterm exam
+
+### Monday, March 25: Byzantine and Russian Christianity 
 
 - MacCulloch, pp. 427--456.
 - Jensen, ch. 7.
 - In class: John of Damascus, *On the Divine Images*.
-
-### Wednesday, March 20: Midterm exam
-
-### Monday, March 25: Russian Christianity 
-
-- MacCulloch, ch. 15.
-- *Russian Primary Chronicle*
 
 ### Wednesday, March 27: Reform before Luther 
 

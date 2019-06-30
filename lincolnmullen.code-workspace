@@ -6,12 +6,13 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"**/.git": true,
-			"**/.svn": true,
-			"**/.hg": true,
-			"**/CVS": true,
 			"**/.DS_Store": true,
-			"public/": true
+			"**/.git": true,
+			"**/.hg": true,
+			"**/.svn": true,
+			"**/CVS": true,
+			"public/": true,
+			"static/courses/": true
 		},
 	}
 }

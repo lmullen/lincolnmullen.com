@@ -9,6 +9,6 @@ If you are a student or a GRA at RRCHNM, you are always welcome to come talk wit
 **Booking an appointment.** You can browser through the dates and times I have available below. If the booking widget below does not work, then please go directly to the [booking page](https://calendly.com/lincolnmullen/office-hours/). If the times that I have available do not work for you, please [email me](mailto:lmullen@gmu.edu) and suggest three times that work for you.
 
 <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/lincolnmullen/office-hours" style="min-width:340px;height:600px;"></div>
+<div class="calendly-inline-widget" data-url="https://calendly.com/lincolnmullen/office-hours" style="min-width:340px;height:1400px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 <!-- Calendly inline widget end -->

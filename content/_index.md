@@ -4,22 +4,25 @@ description: "Lincoln Mullen is a historian of American religion and the ninetee
 
 <img src="/img/mullen-photo.jpeg" class="profile-photo" alt="Lincoln Mullen photo">
 
-I am a historian of American religion and the nineteenth-century United States, with expertise in computational methods for texts and maps. I serve as an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the [Department of History and Art History](https://historyarthistory.gmu.edu/) at George Mason University in Fairfax, Virginia, where I [teach courses](/teaching/) on digital history, American religious history, the nineteenth-century United States, and the history of Christianity. I am also [the director of computational history](https://rrchnm.org/author/lincoln-mullen/) at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
+I am a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. I am an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History at George Mason University, as well as one of the faculty directors at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
 
-My first **book**, [*The Chance of Salvation: A History of Conversion in America*](http://www.hup.harvard.edu/catalog.php?isbn=9780674975620), was published by Harvard University Press in 2017. My **current research** is focused on *America's Public Bible*, a large-scale text analysis of the use of the Bible in American newspapers. A [prototype](http://americaspublicbible.org/) of the project is available online, and it will be published as a digital monograph by Stanford University Press. With a team at RRCHNM I am working on projects called [*Mapping Early American Elections*](http://earlyamericanelections.org/) and [*Mapping American Religious Ecologies*](http://religiousecologies.org/), among other things.
+**Writing**. My old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen](https://micro.blog/lmullen) on Micro.blog or use the [feed](http://weblog.lincolnmullen.com/feed.xml). This website has a [blog](/blog/) for longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). Finally, I am contemplating whether to write a [newsletter](https://buttondown.email/lmullen), to be called "Working on It." If you want to subscribe in case I do, here you go:
 
-My old-school **[weblog](https://weblog.lincolnmullen.com/)** (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen on Micro.blog](https://micro.blog/lmullen) or use the [feed](http://weblog.lincolnmullen.com/feed.xml). 
+<form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form" > <label for="bd-email">Subscribe to newsletter:</label> <input type="email" name="email" id="bd-email" placeholder="Your email address"> <input type="hidden" value="1" name="embed"></input> <input type="submit" value="Subscribe"></input> </form>
 
-My **[blog](/blog/)** features longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). 
+**Scholarship**. Here are some things I've worked on:
 
-Preprints of my **scholarship** are available at my [Humanities Commons](https://hcommons.org/members/lmullen/) page, and you can find a complete list on my [CV](https://lincolnmullen.com/files/Mullen-cv.pdf) or on the [publications page](/publications/). The other appurtenances of scholarship: [ORCID] (https://orcid.org/0000-0001-5103-6917), [Zotero](https://www.zotero.org/lmullen), [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ).
+- John Turner and I are working with a team at RRCHNM on a project we call [*American Religious Ecologies*](http://religiousecologies.org). We are currently working on [digitizing](https://rrchnm.org/news/rrchnm-to-digitize-the-1926-census-of-religious-bodies/) the 1926 Census of Religious Bodies.
+- *America's Public Bible: A Commentary* is a large-scale text analysis of the use of the Bible in American newspapers. A [prototype](http://americaspublicbible.org/) of the project is available online, and I'm working on an expanded version.
+- Kellen Funk and I wrote an article called "[The Spine of American Law: Digital Text Analysis and U.S. Legal Practice](https://academic.oup.com/ahr/article/123/1/132/4840258?guestAccessKey=3a271895-4af8-41e8-b3d9-15941dfe0bcf)." Someday we will do more with digital legal history.
+- [*The Chance of Salvation: A History of Conversion in America*](http://www.hup.harvard.edu/catalog.php?isbn=9780674975620) was published by Harvard University Press in 2017. 
+- Nothing else I ever do will be as popular as this [map of American slavery](https://lincolnmullen.com/projects/slavery/).
 
-All of my **syllabi** are on the [teaching page](/courses/).
+The rest of my work is [listed here](/scholarship/). Preprints are available at my [Humanities Commons](https://hcommons.org/members/lmullen/) page. Software or data analysis repositories are available at [GitHub](https://github.com/lmullen/). The other appurtenances of scholarship: [ORCID] (https://orcid.org/0000-0001-5103-6917), [Zotero](https://www.zotero.org/lmullen), [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ).
 
-**Software** or data analysis repositories are available at [GitHub](https://github.com/lmullen/). Information about the more significant software that I maintain is on the [code](/code/) page.
+**Teaching**. I teach courses on digital history, American religious history, the nineteenth-century United States, and the history of Christianity. Here are the [syllabi](/courses/).
 
-Web **bookmarks** are at [Pinboard](https://pinboard.in/u:lmullen).
+Other things you might be looking for, especially if you are a student:
 
-You can **email** me at [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com).
-
-You can [make an appointment](/page/office-hours/) for **office hours**. 
+- You can email me at [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com).
+- You can [make an appointment](/page/office-hours/) for office hours. 

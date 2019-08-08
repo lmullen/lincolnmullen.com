@@ -1,9 +1,13 @@
 ---
-title: "Publications and projects"
-slug: '/publications/'
+title: "Scholarship"
+slug: '/scholarship/'
+aliases:
+- '/publications/'
+- '/software/'
+- '/code/'
 ---
 
-[Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Miscellaneous](#misc)
+[Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Software](#software) | [Miscellaneous](#misc)
 
 For a complete list of my scholarship, please see my [CV](https://lincolnmullen.com/files/Mullen-cv.pdf).
 
@@ -151,6 +155,38 @@ Digital Humanities: A Reader* (Ashgate, 2013), 237--38.
 1735--1741," by Roger Wolcott, *Journal of Jonathan Edwards Studies* 2,
 no. 2 (2012): 83--142. [published
 version](http://jestudies.yale.edu/index.php/journal/article/view/107/0?no_redirect=true)
+
+-------------------------------------------------------------------
+
+<a name="software"></a>
+
+#### tokenizers: Fast, consistent tokenization of natural language text
+
+[JOSS paper](https://doi.org/10.21105/joss.00655) | [Package website](http://lincolnmullen.com/software/tokenizers/) | [GitHub repository](https://github.com/ropensci/tokenizers) | [CRAN](https://cran.r-project.org/package=tokenizers)
+
+#### textreuse: Detect text reuse and document similarity
+
+[Package website](http://lincolnmullen.com/software/textreuse/) | [GitHub repository](https://github.com/ropensci/textreuse) | [CRAN](https://cran.r-project.org/package=textreuse)
+
+#### USAboundaries: Historical and contemporary boundaries of the United States of America
+
+[JOSS paper](https://doi.org/10.21105/joss.00314) | [Package website](http://lincolnmullen.com/software/tokenizers/) | [GitHub repository](https://github.com/ropensci/tokenizers) | [CRAN](https://cran.r-project.org/package=tokenizers)
+
+#### historydata: Datasets for historians
+
+[Package website](http://lincolnmullen.com/software/historydata/) | [GitHub repository](https://github.com/ropensci/historydata) | [CRAN](https://cran.r-project.org/package=historydata)
+
+#### internetarchive: An R client for the Internet Archive API
+
+[Package website](http://lincolnmullen.com/software/internetarchive/) | [GitHub repository](https://github.com/ropensci/internetarchive) | [CRAN](https://cran.r-project.org/package=internetarchive)
+
+#### gender: Predict gender from names using historical data
+
+[DHQ paper](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html) | [Package website](http://lincolnmullen.com/software/gender/) | [GitHub repository](https://github.com/ropensci/gender) | [CRAN](https://cran.r-project.org/package=gender)
+
+#### Other software
+
+- [Chronicling America OCR debatcher](https://github.com/lmullen/chronam-ocr-debatcher)
 
 -------------------------------------------------------------------
 

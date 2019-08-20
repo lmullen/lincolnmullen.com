@@ -5,6 +5,7 @@ aliases:
 ---
 
 <table id="syllabus-list" class="date-list-table">
+  <tr><td class="semester">Fall 2019</td> <td><a href="/courses/programming.2019/">Web Programming for Historians</a></td></tr>
   <tr><td class="semester">Spring 2019</td> <td><a href="/courses/christianity.2019/">Global History of Christianity</a></td></tr>
   <tr><td class="semester">Spring 2019</td> <td><a href="/courses/clio2.2019/">Clio 2: Computational History</a></td></tr>
   <tr><td class="semester">Fall 2018</td> <td><a href="/courses/scriptures.2018/">American Scriptures</a></td></tr>

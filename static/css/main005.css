@@ -670,3 +670,27 @@ Print styles
     margin: 0;
   }
 }
+
+a.calendly {
+display: inline-block;
+padding:0.5em 1.5em;
+margin:0 0.5em 0.5em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+background-color:#2770e6;
+text-align:center;
+transition: all 0.2s;
+}
+a.calendly:hover{
+background-color:#0753cc;
+}
+@media all and (max-width:30em){
+a.calendly {
+display:block;
+margin:0.2em auto;
+}
+}

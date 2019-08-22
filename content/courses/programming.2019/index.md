@@ -33,7 +33,7 @@ This class will be very flexible, and so you will have to be flexible too. The f
 
 That flexibility has a few implications: (1) Be prepared to treat this syllabus as a collaborative, living document, which we will continually revise throughout the semester. (2) Plan on doing a lot of reading of documentation, as well as searching for tutorials, in order to learn about the technologies that we are using. After the first few weeks we will have to go looking for materials about the things we want to learn. (3) Expect to negotiate the scope of the class project as well as your specific role on it with me and with the other people in the class.
 
-The other kind of flexibility concerns scheduling. We've agreed to hold the formal class meeting for two hours each week, and spend the other 40 minutes of class in impromptu sessions targeted at what you need to learn or at solving the problems you are facing. Please make liberal use of the ability to [book appointments](https://calendly.com/lincolnmullen/office-hours) with me, and be in touch if the scheduled times don't work for you.
+The other kind of flexibility concerns scheduling. We've agreed to hold the formal class meeting for two hours each week, and spend the other 40 minutes of class in impromptu sessions targeted at what you need to learn or at solving the problems you are facing. Please make liberal use of the ability to [book appointments](/page/office-hours/) with me, and be in touch if the scheduled times don't work for you.
 
 ### Resources
 

@@ -23,7 +23,7 @@ As nineteenth-century Americans confronted a growing array of religious options,
 
 Reviews: 
 
-- Jay Green, [*Journal of American History*](https://doi.org/10.1093/jahist/jay158)
+- Jay Green, [*Journal of American History*](https://academic.oup.com/jah/article-abstract/105/2/375/5085758)
 - Lewis R. Rambo, [*Reading Religion*](http://readingreligion.org/books/chance-salvation)
 - Christopher D. Cantwell, [*Journal of the American Academy of Religion*](https://doi.org/10.1093/jaarel/lfz019)
 - Charlie McCrary, [*Bulletin for the Study of Religion*](https://www.equinoxpub.com/home/mullen-lincoln-chance-salvation-history-conversion-america-cambridge-ma-harvard-university-press-2017-pp-384-39-95-hardcover/)

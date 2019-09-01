@@ -25,10 +25,12 @@ Reviews:
 
 - Jay Green, [*Journal of American History*](https://doi.org/10.1093/jahist/jay158)
 - Lewis R. Rambo, [*Reading Religion*](http://readingreligion.org/books/chance-salvation)
-- Amanda Porterfield, [*Church History*](https://doi.org/10.1017/S0009640718001385)
+- Christopher D. Cantwell, [*Journal of the American Academy of Religion*](https://doi.org/10.1093/jaarel/lfz019)
 - Charlie McCrary, [*Bulletin for the Study of Religion*](https://www.equinoxpub.com/home/mullen-lincoln-chance-salvation-history-conversion-america-cambridge-ma-harvard-university-press-2017-pp-384-39-95-hardcover/)
 - Timothy Wesley, [*American Nineteenth Century History*](https://doi.org/10.1080/14664658.2018.1436919)
+- Shari Rabin, [*American Jewish History*](https://doi.org/10.1353/ajh.2019.0010)
 - E. Brooks Holifield, [*American Historical Review*](https://doi.org/10.1093/ahr/123.2.584)
+- Amanda Porterfield, [*Church History*](https://doi.org/10.1017/S0009640718001385)
 - Josh McMullen, [*Christianity Today*](https://www.christianitytoday.com/ct/2017/november-web-only/how-america-became-conversion-nation.html)
 - J. A. Albertson, [*Choice Reviews*](http://choicereviews.org/review/10.5860/CHOICE.206375)
 - Brian Sullivan, [*Library Journal*](http://search.ebscohost.com/login.aspx?direct=true&db=a9h&AN=125998988&site=ehost-live)

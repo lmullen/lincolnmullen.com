@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="/css/normalize.min.css">
   <link rel="stylesheet" href="/css/syntax.css">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
-  {{ $mainCSS := resources.Get "/css/main.css" | resources.Fingerprint "md5" }}
+  {{ $mainCSS := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint "md5" }}
   <link rel="stylesheet" href="{{ $mainCSS.Permalink }}">
   <link rel=" shortcut icon" href="/img/favicon.png">
   <link href="https://micro.blog/lmullen" rel="me" />

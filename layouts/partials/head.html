@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="utf-8">
-    {{ if .IsHome }}
-    <title>{{ .Site.Title }} | Historian of American religion</title>
-    {{ else }}
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-    {{ end}}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {{ if .Description }}
-    <meta name="description" content="{{ .Description }}">
-    {{ else if .IsPage }}
-    <meta name="description" content="{{ .Summary | plainify }}">
-    {{ end }}
 
-    <link rel="stylesheet" href="/css/normalize.min.css">
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main005.css">
-    <link rel="shortcut icon" href="/img/favicon.png">
-    <link href="https://micro.blog/lmullen" rel="me" />
-    <link href="https://weblog.lincolnmullen.com" rel="me" />
-    <link href="https://hcommons.org/members/lmullen/" rel="me">
-    <link href="https://orcid.org/0000-0001-5103-6917" rel="me">
-    <link href="https://github.com/lmullen/" rel="me">
-    <link href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">
-    <link href="https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ" rel="me">
-    <link href="https://www.zotero.org/lmullen/" rel="me">
-    <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="Lincoln Mullen's blog." />
-    <link rel="alternate" type="application/rss+xml" href="https://weblog.lincolnmullen.com/feed.xml" title="{{ .Site.Params.blogFeedTitle }}" />
+<head>
+  <meta charset="utf-8">
+  {{ if .IsHome }}
+  <title>{{ .Site.Title }} | Historian of American religion</title>
+  {{ else }}
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  {{ end}}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ if .Description }}
+  <meta name="description" content="{{ .Description }}">
+  {{ else if .IsPage }}
+  <meta name="description" content="{{ .Summary | plainify }}">
+  {{ end }}
 
-    <script src="/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    {{ partial "analytics.html" . }}
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  {{ $mainCss := resources.Get "/css/main.css" }}
+  {{ $mainCssFingerprint := $mainCss | resources.Fingerprint "md5" }}
+  <link rel="stylesheet" href="{{ $mainCssFingerprint.Permalink }}">
+  <link rel=" shortcut icon" href="/img/favicon.png">
+  <link href="https://micro.blog/lmullen" rel="me" />
+  <link href="https://weblog.lincolnmullen.com" rel="me" />
+  <link href="https://hcommons.org/members/lmullen/" rel="me">
+  <link href="https://orcid.org/0000-0001-5103-6917" rel="me">
+  <link href="https://github.com/lmullen/" rel="me">
+  <link href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">
+  <link href="https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ" rel="me">
+  <link href="https://www.zotero.org/lmullen/" rel="me">
+  <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="Lincoln Mullen's blog." />
+  <link rel="alternate" type="application/rss+xml" href="https://weblog.lincolnmullen.com/feed.xml" title="{{ .Site.Params.blogFeedTitle }}" />
 
-  </head>
-  <body>
+  <script src="/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  {{ partial "analytics.html" . }}
 
-    <header class="no-print">
-      {{ partial "nav.html" . }}
-      <hr class="nav">
-    </header>
+</head>
 
-    <main>
+<body>
+
+  <header class="no-print">
+    {{ partial "nav.html" . }}
+    <hr class="nav">
+  </header>
+
+  <main>

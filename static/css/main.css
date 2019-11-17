@@ -2,7 +2,7 @@ html {
   color: #444;
   font-size: 1.1em;
   line-height: 1.4;
-  font-family: 'Avenir Next', 'Avenir', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -334,7 +334,6 @@ a.post-link {
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
 
 .span_2_of_2 {
 	width: 100%;

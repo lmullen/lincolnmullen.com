@@ -10,7 +10,6 @@ fi
 
 date=`date "+%Y-%m-%d"`
 name=$1
-dir="content/blog/$date-$name"
 # Use Hugo archetypes to do the heavy lifting in creating the new file
 hugo new "blog/$date-$name.md"
 # Open the resulting file in VS Code

@@ -2,7 +2,12 @@ html {
   color: #444;
   font-size: 1.1em;
   line-height: 1.4;
-  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
   text-rendering: optimizeLegibility;
 }
 

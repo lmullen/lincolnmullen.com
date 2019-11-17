@@ -1,10 +1,16 @@
 Redirect 301 /projects/coding-poster https://lincolnmullen.com/blog/poster-teaching-graduate-students-to-code/
+Redirect 301 /blog/feed/ https://lincolnmullen.com/blog/index.xml
+Redirect 301 /blog/category/history/feed/ https://lincolnmullen.com/blog/index.xml
 Redirect 301 /blog/feed/atom/ https://lincolnmullen.com/blog/index.xml
+Redirect 301 /feed/ https://lincolnmullen.com/blog/index.xml
+Redirect 301 /comments/feed/ https://lincolnmullen.com/blog/index.xml
 Redirect 301 /posts.atom.xml https://lincolnmullen.com/blog/index.xml
 Redirect 301 /atom.xml https://lincolnmullen.com/blog/index.xml
-Redirect 301 /projects/gender-predictor/ http://shiny.chnm.org/gender-predictor/
+Redirect 302 /assets/favicon.png https://lincolnmullen.com/img/favicon.png
 Redirect 302 /cv/index.html https://lincolnmullen.com/files/Mullen-cv.pdf
 Redirect 302 /cv/ https://lincolnmullen.com/files/Mullen-cv.pdf
+
+Redirect 301 /blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-us-religious-data/ https://lincolnmullen.com/blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-u-s-religious-data/
 
 ErrorDocument 404 /404.html
 

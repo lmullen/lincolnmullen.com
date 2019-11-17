@@ -7,6 +7,7 @@ html {
 }
 
 code {
+  font-size: 0.9rem;
   font-family: 'IBM Plex Mono', monospace;
   text-rendering: optimizeLegibility;
 }

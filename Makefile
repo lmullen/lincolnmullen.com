@@ -1,5 +1,5 @@
 preview :
-	hugo serve --buildDrafts --buildFuture --disableFastRender
+	hugo serve --port 1313 --buildDrafts --buildFuture --disableFastRender
 
 build :
 	rm -rf public/*

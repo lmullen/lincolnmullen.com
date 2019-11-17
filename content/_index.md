@@ -2,8 +2,6 @@
 description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
 ---
 
-<img src="/img/mullen-photo.jpeg" class="profile-photo" alt="Lincoln Mullen photo">
-
 I am a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. I am an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History at George Mason University, as well as one of the faculty directors at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
 
 **Writing**. My old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen](https://micro.blog/lmullen) on Micro.blog or use the [feed](http://weblog.lincolnmullen.com/feed.xml). This website has a [blog](/blog/) for longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). Finally, I am contemplating whether to write a [newsletter](https://buttondown.email/lmullen), to be called "Working on It." If you want to subscribe in case I do, here you go:

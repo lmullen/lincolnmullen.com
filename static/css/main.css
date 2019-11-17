@@ -315,12 +315,6 @@ a.post-link {
   display: inline-block;
 } 
 
-.profile-photo {
-  max-width: 250px;
-  float: right;
-  margin: 0 0 0.5em 1em;
-}
-
 /* ==========================================================================
  * Two columns
 ========================================================================== */
@@ -537,8 +531,7 @@ Media Queries
   }
 }
 @media only screen and (max-width: 600px) {
-	.book img,
-	.profile-photo {
+	.book img {
     float: none;
     margin: 0;
     /* max-width: 200px; */

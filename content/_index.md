@@ -4,7 +4,7 @@ description: "Lincoln Mullen is a historian of American religion and the ninetee
 
 Welcome. I am a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. I am an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History at George Mason University, as well as one of the faculty directors at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
 
-{{< now >}}
+{{< attention >}}
 
 **Scholarship**. Here are some things I've worked on:
 

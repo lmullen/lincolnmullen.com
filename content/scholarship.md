@@ -199,8 +199,6 @@ version](http://jestudies.yale.edu/index.php/journal/article/view/107/0?no_redir
 
 [*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/) (textbook in progress).
 
-[Gender Predictor](http://shiny.chnm.org/gender-predictor/) (2016).
-
 Paul E. Putz and Lincoln A. Mullen, [Bibliography of Urban American
 Religious History](http://shiny.chnm.org/urban-religious-history/)
 (2015).

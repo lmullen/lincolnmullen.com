@@ -243,8 +243,44 @@ article p,
   background-color: rgba(39, 112, 230, 0.145);
 }
 
+.attention {
+  padding: 0.25rem 1.0rem;
+  background-color: rgba(39, 112, 230, 0.145);
+}
+.attention form {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
 .subscribe {
   margin-left: 1rem;
+}
+
+#newsletter-form {
+  margin: 0;
+  font-size: 1rem;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+#newsletter-form input {
+  height: 1.75rem;
+  font-size: inherit;
+  border: none;
+  color: white;
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#newsletter-form .submit {
+  margin-left: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ac4142; 
+  padding: 0.10rem 0.5rem;
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .blog-comments {
@@ -669,6 +705,9 @@ Print styles
   }
 }
 
+/* ==========================================================================
+Special styles
+========================================================================== */
 a.calendly {
 display: inline-block;
 padding:0.5em 1.5em;

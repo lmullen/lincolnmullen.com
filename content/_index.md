@@ -2,11 +2,9 @@
 description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
 ---
 
-I am a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. I am an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History at George Mason University, as well as one of the faculty directors at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
+Welcome. I am a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. I am an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History at George Mason University, as well as one of the faculty directors at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
 
-**Writing**. My old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen](https://micro.blog/lmullen) on Micro.blog or use the [feed](http://weblog.lincolnmullen.com/feed.xml). This website has a [blog](/blog/) for longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). Finally, I am contemplating whether to write a [newsletter](https://buttondown.email/lmullen), to be called "Working on It." If you want to subscribe in case I do, here you go:
-
-<form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form" > <label for="bd-email">Subscribe to newsletter:</label> <input type="email" name="email" id="bd-email" placeholder="Your email address"> <input type="hidden" value="1" name="embed"></input> <input type="submit" value="Subscribe"></input> </form>
+{{< now >}}
 
 **Scholarship**. Here are some things I've worked on:
 
@@ -18,9 +16,11 @@ I am a historian of American religion and the nineteenth-century United States, 
 
 The rest of my work is [listed here](/scholarship/). Preprints are available at my [Humanities Commons](https://hcommons.org/members/lmullen/) page. Software or data analysis repositories are available at [GitHub](https://github.com/lmullen/). The other appurtenances of scholarship: [ORCID] (https://orcid.org/0000-0001-5103-6917), [Zotero](https://www.zotero.org/lmullen), [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ).
 
-**Teaching**. I teach courses on digital history, American religious history, the nineteenth-century United States, and the history of Christianity. Here are the [syllabi](/courses/).
+**Writing**. Soon---I hope---I will start publishing an occasional [newsletter](https://buttondown.email/lmullen) called "Working on It." This website has a [blog](/blog/) for longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). My old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen](https://micro.blog/lmullen) on Micro.blog or use the [feed](http://weblog.lincolnmullen.com/feed.xml).
 
-Other things you might be looking for, especially if you are a student:
+**Teaching**. I teach courses on American religious history, the history of Christianity, the nineteenth-century United States, and digital history. Here are the [syllabi](/courses/).
+
+**Useful links**. Other things you might be looking for, especially if you are a student:
 
 - You can email me at [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com).
 - You can [make an appointment](/page/office-hours/) for office hours. 

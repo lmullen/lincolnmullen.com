@@ -16,7 +16,11 @@ Welcome. I am a historian of American religion and the nineteenth-century United
 
 The rest of my work is [listed here](/scholarship/). Preprints are available at my [Humanities Commons](https://hcommons.org/members/lmullen/) page. Software or data analysis repositories are available at [GitHub](https://github.com/lmullen/). The other appurtenances of scholarship: [ORCID] (https://orcid.org/0000-0001-5103-6917), [Zotero](https://www.zotero.org/lmullen), [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ).
 
-**Writing**. Soon---I hope---I will start publishing an occasional [newsletter](https://buttondown.email/lmullen) called "Working on It." This website has a [blog](/blog/) for longer, more permanent posts. The easiest way to keep up with the blog is the [feed](https://lincolnmullen.com/blog/index.xml). My old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. To keep up with it you can follow me as [@lmullen](https://micro.blog/lmullen) on Micro.blog or use the [feed](https://weblog.lincolnmullen.com/feed.xml).
+**Writing**. There are three places where I tend to write online:
+
+- An occasional [newsletter](https://buttondown.email/lmullen) about American religious history, digital history, and the making thereof called "Working on It." 
+- This website has a [blog](/blog/) for longer, more permanent posts.
+- My old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it) has links, status updates, current reading, and so on. 
 
 **Teaching**. I teach courses on American religious history, the history of Christianity, the nineteenth-century United States, and digital history. Here are the [syllabi](/courses/).
 

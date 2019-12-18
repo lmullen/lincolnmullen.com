@@ -16,10 +16,6 @@
         "showReuseMessage": true,
         "clear": true
       },
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
       "problemMatcher": []
     },
     {
@@ -33,6 +29,10 @@
         "panel": "dedicated",
         "showReuseMessage": true,
         "clear": true
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
       },
       "problemMatcher": []
     },

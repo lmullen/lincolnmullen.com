@@ -6,8 +6,6 @@ Welcome. I am a historian of American religion and the nineteenth-century United
 
 {{< attention >}}
 
-----
-
 {{< gallery >}}
 
 **Scholarship**. Here are some things I've worked on:

@@ -6,6 +6,8 @@ Welcome. I am a historian of American religion and the nineteenth-century United
 
 {{< attention >}}
 
+{{< gallery >}}
+
 **Scholarship**. Here are some things I've worked on:
 
 - John Turner and I are working with a team at RRCHNM on a project we call [*American Religious Ecologies*](http://religiousecologies.org). We are currently working on [digitizing](https://rrchnm.org/news/rrchnm-to-digitize-the-1926-census-of-religious-bodies/) the 1926 Census of Religious Bodies.

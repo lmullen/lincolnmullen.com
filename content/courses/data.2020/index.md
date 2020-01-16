@@ -22,6 +22,8 @@ draft: true
 
 In this course you will learn to use computational methods to create historical arguments. You will work with historical data, including finding, gathering, manipulating, analyzing, visualizing, and arguing from data, with special attention to geospatial, textual, and network data. These methods will be taught primarily through scripting in the [R programming language](https://www.r-project.org/). While historical methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century United States.
 
+TODO: Write paper
+
 # Learning goals
 
 After taking this course, you will be able to
@@ -45,12 +47,10 @@ You will need a basic web server and your own domain. If you do not already have
 
 One textbook is required in print (though it is partially available online).
 
-- Kieran Healy, [*Data Visualization: A Practical Introduction*](http://socviz.co/) (Princeton University Press, 2018). ISBN: 9780691181622.
+- Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data* (O'Reilly, 2017): <http://r4ds.had.co.nz/>. ISBN: 978-1491910399.
+- Kieran Healy, *Data Visualization: A Practical Introduction* (Princeton University Press, 2018): <http://socviz.co/>. ISBN: 978-0691181622.
 
 All the other required readings are available online or through the GMU libraries, though they can also be purchased---sometimes in more complete editions---in print or e-books. These are the books we will use most frequently.
-
-- Shawn Graham, Ian Milligan, and Scott Weingart, [*Exploring Big Historical Data: The Historian's Macroscope*](http://www.themacroscope.org/2.0/) (Imperial College Press, 2015).
-- Hadley Wickham and Garrett Grolemund, [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/) (O'Reilly, 2017).
 
 In general I have provided datasets and questions for you to work on for all the assignments except the final paper. But for any assignment, you may substitute a dataset from your own historical interests after checking with me. The forward-thinking graduate student will try to find such datasets early on in the semester so that you can use the intermediate assignments as preparation for your final assignment. If you can peer even farther into the future, you can try to use the final assignment as a test run of work you might want to do in one of your own research projects, such as an article or a dissertation.
 
@@ -60,33 +60,38 @@ Assignments should be [submitted via this form](https://goo.gl/forms/J0a0sYVk4AA
 
 Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings. Final grades will be calculated using the typical percentage-based grading scale (A = 93–100, A- = 90–92, B+ = 88–89, B = 83–87, B- = 80–82, ... F = 0–59). 
 
-**Worksheets and weekly assignments (20%).** Many classes will have an assignment due before class begins. Some will require you to do library research; others will be practice data analysis worksheets. Some of the questions on the worksheets will be easy; most will be difficult; some you may find nearly impossible. The aim is to *practice*. We will go over the worksheets in class each week. If you attempt a problem and can't solve it, you should still turn in whatever work you did on it. Students who complete all the easy and moderately difficult questions, attempt the very difficult questions, and ask for help as needed will do just fine. These assignments will graded by completion.
+**Worksheets and weekly assignments (25%).** Many classes will have an assignment due before class begins. Some will require you to do library research; others will be practice data analysis worksheets. Some of the questions on the worksheets will be easy; most will be difficult; some you may find nearly impossible. The aim is to *practice*. We will go over the worksheets in class each week. If you attempt a problem and can't solve it, you should still turn in whatever work you did on it. Students who complete all the easy and moderately difficult questions, attempt the very difficult questions, and ask for help as needed will do just fine. These assignments will graded by completion.
 
 **Analysis assignments (3 × 15% = 45%).** You will do three analysis assignments, each demonstrating a specific skill in data analysis. For these assignments you will be given a historical dataset and asked some interpretative questions. You will prepare an [RMarkdown document](http://rmarkdown.rstudio.com/) containing prose, code, and tables or visualizations to answer the historical questions and, as necessary, explain your methods. You will be given a starter GitHub repository that you can fork with the data and questions.
 
-**Research paper (35%).** You will write a research paper suitable for a presentation at a disciplinary or digital humanities conference. This paper should advance a historical argumentation on the basis computational historical methods, though you can and should use more traditional historical methods as necessary. The body of the paper should be about 2,000 words in length. It should include notes in Chicago format like any other work of history. The paper should include embedded visualizations or tables as appropriate. Each table and figure must have a caption written in complete sentences. The paper should be attractively presented on your website using the [Radix RMarkdown format](https://rstudio.github.io/radix/). Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The paper should be accompanied by a GitHub repository containing your data and code in a reproducible analysis. Ideally this paper could be presented at a conference, and it could serve as a trial for computational work you might do in a larger research project. As a model, see the most recent [CFP](http://crdh.rrchnm.org/cfp/) for *Current Research in Digital History*. Due Monday, May 13 at 5pm.
+**Research paper (30%).** You will write a research paper suitable for a presentation at a disciplinary or digital humanities conference. This paper should advance a historical argumentation on the basis computational historical methods, though you can and should use more traditional historical methods as necessary. The body of the paper should be about 2,000 words in length. It should include notes in Chicago format like any other work of history. The paper should include embedded visualizations or tables as appropriate. Each table and figure must have a caption written in complete sentences. The paper should be attractively presented on your website using the [TODO Radix RMarkdown format](https://rstudio.github.io/radix/). Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The paper should be accompanied by a GitHub repository containing your data and code in a reproducible analysis. Ideally this paper could be presented at a conference, and it could serve as a trial for computational work you might do in a larger research project. As a model, see the most recent [CFP](http://crdh.rrchnm.org/cfp/) for *Current Research in Digital History*. Due Monday, May 13 at 5pm.
 
 # Schedule 
 
-### Week 1 (January 28): The web
+### Week 1 (January 28): Introduction
+
+Read:
+
+- Frederick W. Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)," *The American Historian* (February 2016).
+- Taylor Arnold and Lauren Tilton, "New Data: The Role of Statistics in DH," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, forthcoming 2019).
+- Find one example of a digital history project that uses visualization and be prepared with the URL and a three-minute explanation of why you find it interesting and insightful.
+
+TODO In-class: What are computational humanities. Discussion of models. Introduction to R and RStudio.
 
 Do your level best to get these set up before the first day of class:
 
 - Join the class [Slack group](https://mason-dh-grad.slack.com/signup).
-- Get your own domain and web hosting, at [Reclaim Hosting](https://reclaimhosting.com/shared-hosting/) if you don't have it already.
+- Get a [GitHub](https://github.com/) account and post it to the Slack group. (E.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen).)
 - Install [R](https://cran.rstudio.com/), a programming language for data analysis.
 - Install [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an environment for using R.
+- Install [Homebrew](https://brew.sh) (only if you use macOS).
+
+These are mostly optional, but it would be helpful to have them.
+
 - Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
 - Install [Cyberduck](https://cyberduck.io), an FTP client.
-- Get a [GitHub](https://github.com/) account and post it to the Slack group. (E.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen).)
 - Install [Git](https://help.github.com/articles/set-up-git/) (more [detailed guide](https://happygitwithr.com/install-git.html)).
-- Install [Homebrew](https://brew.sh) (only if you use macOS).
-- Install [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about) (only if you use Windows).
 
-Read:
-
-- Alan Jacobs, "[Tending the Digital Commons: A Small Ethics toward the Future](https://iasc-culture.org/THR/THR_article_2018_Spring_Jacobs.php)," *Hedgehog Review* 20, no. 1 (2018). 
-- Arguing with Digital History working group, "[Digital History and Argument](https://rrchnm.org/argument-white-paper/)," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017).
 
 ### Week 2 (February 4): Data from history and historians
 
@@ -100,13 +105,14 @@ Read:
 - Laurie F. Maffly-Kipp, "[If It's South Dakota You Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S. Religion](http://www.jstor.org/stable/4146694)" *Church History* 71, no. 1 (2002): 132--42.
 - Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
 - Jessica Marie Johnson, "Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads," *Social Text* 36, no. 4 (2018): 57--79, https://doi.org/10.1215/01642472-7145658.
-- Frederick W. Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)," *The American Historian* (February 2016).
-- Taylor Arnold and Lauren Tilton, "New Data: The Role of Statistics in DH," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, forthcoming 2019).
+- Arguing with Digital History working group, "[Digital History and Argument](https://rrchnm.org/argument-white-paper/)," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017).
 
 Browse:
 
 - Fletcher W. Hewes and Henry Garnett, [*Scribner's Statistical Atlas of the United States Showing by Graphic Methods Their Present Condition and Their Political, Social and Industrial Development*](http://www.davidrumsey.com/luna/servlet/s/rod36m) (New York: Charles Scribner's Sons, 1883), plates 58 to 61.
 - Herman Carl Weber, [*Presbyterian Statistics through One Hundred Years, 1826-1926*](http://catalog.hathitrust.org/Record/007109885) (Philadelphia: Presbyterian Church in the U.S.A., 1927), part II
+- TODO TIDY DATA SECTION
+- Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
 
 ### Week 3 (February 11): Basics of R
 
@@ -116,7 +122,6 @@ Assignment:
 
 Read: 
 
-- Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
 - Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8.
 - Read "[Introduction](https://dh-r.lincolnmullen.com/introduction.html)" and "[Getting Started](https://dh-r.lincolnmullen.com/getting-started.html)" from *Computational Historical Thinking*. 
 
@@ -133,7 +138,7 @@ Assignment:
 Read:
 
 - Wickham and Grolemund, *R for Data Science*, ch. 5, 12.
-- Graham, Milligan, Weingart, *Macroscope*, ch. 1--2.
+TODO - Graham, Milligan, Weingart, *Macroscope*, ch. 1--2.
 - William G. Thomas III, "Computing and the Historical Imagination," in [*A Companion to Digital Humanities*](http://www.digitalhumanities.org/companion), ed. Susan Schreibman, Ray Siemens, John Unsworth (Blackwell, 2004).
 
 ### Week 5 (February 25): Data visualization
@@ -146,7 +151,7 @@ Read:
 
 - Wickham and Grolemund, *R for Data Science*, ch. 3.
 - Healy, *Data Visualization*, ch. 1, 3.
-- Graham, Milligan, Weingart, *Macroscope*, ch 5.
+TODO - Graham, Milligan, Weingart, *Macroscope*, ch 5.
 - Kieran Healy and James Moody, "[Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf)" *Annual Review of Sociology*, 40:105--128.
 
 ### Week 6 (March 4): More data manipulation and visualizations
@@ -216,7 +221,7 @@ Read:
 - Taylor Arnold, Nicolas Ballier, Paula Lissón, and Lauren Tilton, "Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities." [preprint](https://statsmaths.github.io/pdf/2018-beyond-lex.pdf)
 - Ben Schmidt, "[Vector Space Models for the Digital Humanities](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html)" (October 25, 2015).
 - Ben Schmidt, "[Rejecting the Gender Binary: A Vector-Space Operation](http://bookworm.benschmidt.org/posts/2015-10-30-rejecting-the-gender-binary.html)" (October 30, 2015).
-- Graham, Milligan, Weingart, *Macroscope*, chs. 3--4.
+TODO - Graham, Milligan, Weingart, *Macroscope*, chs. 3--4.
 
 Browse: 
 
@@ -242,7 +247,7 @@ Assignment:
 
 Read:
 
-- Graham, Milligan, Weingart, *Macroscope*, ch. 6--7.
+TODO - Graham, Milligan, Weingart, *Macroscope*, ch. 6--7.
 - Matthew Lincoln, "Social Network Centralization Dynamics in Print Production in the Low Countries, 1550--1750," *International Journal for Digital Art History* 2 (2016): 134--157, <https://doi.org/10.11588/dah.2016.2.25337>.
 - "[AHR Forum: Mapping the Republic of Letters](https://academic-oup-com.mutex.gmu.edu/ahr/search-results?f_TocHeadingTitle=AHR%20Forum:%20Mapping%20the%20Republic%20of%20Letters)," _American Historical Review_ 122, no. 2 (2017): 399--463. 
 - Rebecca Sutton Koeser, "[Trusting Others to 'Do the Math'](https://doi.org/10.1080/03080188.2016.1165454)" _Interdisciplinary Science Reviews_ 40, no. 4 (2015): 376--392, <https://doi.org/10.1080/03080188.2016.1165454>.

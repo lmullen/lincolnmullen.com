@@ -4,10 +4,9 @@ courseurl: 'https://historyarthistory.gmu.edu/courses/hist697/course\_sections/4
 credits: 3
 department: Department of History and Art History
 draft: true
-email: 'lmullen\@gmu.edu'
 instructor: Lincoln Mullen
 instructorurl: 'https://lincolnmullen.com'
-meets: 'Mondays, 7:20--10:00pm'
+meets: 'Mondays, 7:20--10:00 p.m.'
 office: Research Hall 484
 officehours: By appointment
 room: Music Theater Building 1008
@@ -68,9 +67,9 @@ Preparation and participation are expected as a matter of course in a graduate c
 
 Assignment:
 
-Find one example of a digital history project that uses visualization or data analysis. Be prepared with the URL and a three-minute answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
+-   Find one example of a digital history project that uses visualization or data analysis. Be prepared with the URL and a three-minute answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
 
-Read:
+Readings:
 
 -   Frederick W. Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)," *The American Historian* (February 2016).
 -   Taylor Arnold and Lauren Tilton, "[New Data: The Role of Statistics in DH](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24)," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).
@@ -84,7 +83,7 @@ Do your level best to get these set up before the first day of class:
 -   Install [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an environment for using R.
 -   Install [Homebrew](https://brew.sh) (only if you use macOS).
 
-These are mostly optional, but it would be helpful to have them.
+These are mostly optional, but it would be helpful to have them:
 
 -   Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
 -   Install [Cyberduck](https://cyberduck.io), an FTP client.
@@ -92,31 +91,142 @@ These are mostly optional, but it would be helpful to have them.
 
 ### Week 2 (February 3): Data from history and historians
 
+Assignment:
+
+-   Find at least three primary source data tables, datasets, or corpora from your field of historical research. These could include sources that are in print or manuscript, as well as datasets that have already been created. Post full citations and URLs in the Slack group, along with a sentence or two explaining what you've found. Examine the links that other people post before class.
+
+Readings:
+
+-   Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
+-   Arguing with Digital History working group, "[Digital History and Argument](https://rrchnm.org/argument-white-paper/)," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017).
+-   Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
+-   Jessica Marie Johnson, "Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads," *Social Text* 36, no. 4 (2018): 57--79, <https://doi.org/10.1215/01642472-7145658>.
+-   Laurie F. Maffly-Kipp, "[If It's South Dakota You Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S. Religion](http://www.jstor.org/stable/4146694)" *Church History* 71, no. 1 (2002): 132--42.
+-   Shari Rabin, "'Let us Endeavor to Count Them Up': The Nineteenth-Century Origins of American Jewish Demography," *American Jewish History* 101, no 4 (2017): 419--440, <https://doi.org/10.1353/ajh.2017.0060>.
+-   William G. Thomas III, "Computing and the Historical Imagination," in [*A Companion to Digital Humanities*](http://www.digitalhumanities.org/companion), ed. Susan Schreibman, Ray Siemens, John Unsworth (Blackwell, 2004).
+-   Herman Carl Weber, [*Presbyterian Statistics through One Hundred Years, 1826-1926*](http://catalog.hathitrust.org/Record/007109885) (Philadelphia: Presbyterian Church in the U.S.A., 1927), part II.
+
 ### Week 3 (February 10): Basics of R
+
+Assignment:
+
+-   [Getting familiar with R worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+-   If you found a primary source dataset last week that is worth transcribing, then you can transcribe it. Otherwise, transcribe some of the [*Minutes*](https://catalog.hathitrust.org/Record/006771726) of the Methodist Episcopal Church from after 1851. Whichever source you use, transcribe at least 25 rows of the data into a spreadsheet. Be prepared to describe in class how you decided on the structure of your data, and how you identified what the variables were. Use the Broman and Woo article as a guide.
+
+Readings: - Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8, 27. - "[Getting Started](https://dh-r.lincolnmullen.com/getting-started.html)" and "[An R Primer](http://dh-r.lincolnmullen.com/primer.html)" in *Computational Historical Thinking*. - [RMarkdown documentation](https://rmarkdown.rstudio.com/).
 
 ### Week 4 (February 17): Data manipulation
 
+Assignment:
+
+-   [Data structures worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+-   [Functions worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+
+Readings:
+
+-   Wickham and Grolemund, *R for Data Science*, ch. 5, 12, 13.
+
 ### Week 5 (February 24): Data visualization
 
+Assignment:
+
+-   [Data manipulation worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+
+Readings:
+
+-   Healy, *Data Visualization*, ch. 1, 3, 4.
+-   Wickham and Grolemund, *R for Data Science*, ch. 3, 28.
+-   Kieran Healy and James Moody, "[Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf)" *Annual Review of Sociology*, 40:105--128.
+
 ### Week 6 (March 2): Exploratory data analysis
+
+Assignment:
+
+-   [Data visualization worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+
+Readings:
+
+-   Wickham and Grolemund, *R for Data Science*, ch. 7, 17--21, 30.
+-   Healy, *Data Visualization*, ch. 5, 8.
 
 ### Spring break (March 9)
 
 ### Week 7 (March 16): Maps
 
+Assignment:
+
+-   [Exploratory data analysis assignment](https://github.com/ClioGMU/clio2-eda).
+-   Healy, *Data Visualization*, ch. 7.
+
+Readings:
+
+-   
+
 ### Week 8 (March 23): Networks
+
+Assignment:
+
+-   [Mapping assignment](https://github.com/ClioGMU/clio2-mapping).
+
+Readings:
+
+-   
 
 ### Week 9 (March 30): Texts
 
+Assignment:
+
+-   [Network assignment](https://github.com/ClioGMU/clio2-networks).
+
+Readings:
+
+-   Wickham and Grolemund, *R for Data Science*, 14.
+
 ### Week 10 (April 6): Word embeddings
+
+Assignment:
+
+-   Send me a one-page proposal for the final paper that you are going to write. You may organize the proposal however you like, but it should address the following questions: What historical questions are you asking? How will this paper advanced historical understandingin your field? What dataset and other sources will you be using? Which methods and visualizations will you use to answer your questions? What additional computational skills will you need to learn?
+
+Readings:
+
+-   
 
 ### Week 11 (April 13): Clustering (unsupervised classification)
 
+Assignment:
+
+-   [Text analysis assignment](https://github.com/ClioGMU/clio2-texts).
+
+Readings:
+
+-   
+
 ### Week 12 (April 20): Prediction (supervised classification)
+
+Assignment:
+
+-   In the Slack group, post a one-paragraph summary of the work you've done since last week on your final paper. What challenges are you facing, and what progress have you made? Feel free to post visualizations or other work in progress.
+
+Readings:
+
+-   Wickham and Grolemund, *R for Data Science*, ch. 23--24.
 
 ### Week 13 (April 27): Interactive visualizations with Shiny
 
+Assignment:
+
+-   In the Slack group, post a one-paragraph summary of the work you've done since last week on your final paper. What challenges are you facing, and what progress have you made? Feel free to post visualizations or other work in progress.
+
+Readings:
+
+-   
+
 ### Week 14 (May 4): Final project workshop
+
+Assignment:
+
+-   Circulate a draft of your final project in Slack by Friday, May 1. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.
 
 # Fine print
 

@@ -5,13 +5,10 @@ url: /now/
 
 This page briefly describes what I am currently working on, or at least, the main things that I am trying to focus my attention on over the short term.
 
-**January:**
+**Late January:**
 
-We are in that pleasant time in between semesters. Nevertheless, these are the main things I'm trying to do:
-
-- Preparing a revised syllabus for "Computational History," a class on data analysis and visualization for grad students.
+- Gearing up to teach [Computational History](https://lincolnmullen.com/courses/data.2020/) again, and itching to actually write this [textbook](http://dh-r.lincolnmullen.com).
 - Making all the pieces of [*America's Public Bible*](http://americaspublicbible.org) work together: database, website, interactive visualizations.
-- Making a map of Catholic dioceses over time.
+- Keeping all the RRCHNM balls in the air.
 
-
-Last updated: 2020-01-10.
+Last updated: 2020-01-20.

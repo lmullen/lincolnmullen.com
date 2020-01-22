@@ -3,7 +3,6 @@ coursenum: 'HIST 697-001'
 courseurl: 'https://historyarthistory.gmu.edu/courses/hist697/course\_sections/46187'
 credits: 3
 department: Department of History and Art History
-draft: false
 instructor: Lincoln Mullen
 instructorurl: 'https://lincolnmullen.com'
 meets: 'Mondays, 7:20--10:00pm'
@@ -162,6 +161,7 @@ Readings:
 -   Wickham and Grolemund, *R for Data Science*, ch. 7, 17--21, 30.
 -   Healy, *Data Visualization*, ch. 5, 8.
 -   Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016), ch. 1, 4--6.
+-   Jordan F. Bratt, "[Congressional Incumbency in the Early Republic](https://earlyamericanelections.org/essays/05-bratt-incumbency.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
 ### Spring break (March 9)
 
@@ -179,6 +179,7 @@ Readings:
 -   Richard White, "[What is Spatial History?](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29)," *Spatial History Project* (Stanford University, 2010).
 -   Cameron Blevins, "Space, Nation, and the Triumph of Region: A View of the World from Houston," *Journal of American History* 101, no. 1 (2014): 122--47, https://doi.org/10.1093/jahist/jau184.
 -   Todd Presner and David Shepard, "Mapping the Geospatial Turn," in *A New Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 201--212. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
+-   Greta Swain, "[Maryland's Political Geography in the Early Republic](https://earlyamericanelections.org/essays/06-swain-geography-of-politics.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
 Browse:
 
@@ -280,6 +281,7 @@ Assignment:
 Read:
 
 -   Ben Marwick, Carl Boettiger, and Lincoln Mullen, "Packaging Data Analytical Work Reproducibly Using R (and Friends)," *American Statistician* 72, no. 1 (2018): 80--88, <https://doi.org/10.1080/00031305.2017.1375986>.
+-   Browse Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
 
 # Fine print
 

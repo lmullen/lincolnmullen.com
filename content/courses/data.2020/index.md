@@ -50,7 +50,7 @@ In general I have provided datasets and questions for you to work on for all the
 
 # Assignments
 
-Assignments should be [submitted via this form](https://forms.gle/A5hxmPqPBYJ9J1GMA). For each assignment you will be expected to turn in the URL to a web page you have created using [RMarkdown](https://rmarkdown.rstudio.com). You are responsible for finding some place to host the documents. A personal website, perhaps hosted at [Reclaim Hosting](https://reclaimhosting.com) or [GitHub pages](https://pages.github.com), will do.
+For each assignment, you should send me the completed HTML file knit from your RMarkdown document. You may either put that HTML file online at your personal website and send me a link, or you can send me the HTML file itself via email or private message in Slack. Send the assignments before the start of class on the day on which they are due.
 
 Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings, though you do not need to to submit them and I will not check them. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 

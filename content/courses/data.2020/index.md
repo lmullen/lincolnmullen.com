@@ -16,7 +16,9 @@ university: George Mason University
 year: 2020
 ---
 
+# Important updates
 
+This syllabus has been modified for the move to online classes for the remainder of the semester. This online syllabus will be kept up to date and is your best source of guidance for the requirements of this course.
 
 # Course description
 

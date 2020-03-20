@@ -20,6 +20,12 @@ year: 2020
 
 This syllabus has been modified for the move to online classes for the remainder of the semester. This online syllabus will be kept up to date and is your best source of guidance for the requirements of this course.
 
+The key changes are these:
+
+(1) Class will meet at 7:20 p.m. on Mondays via Webex. Class sessions will be recorded for anyone who cannot make it at that time or who might experience technical difficulties.
+(2) I will provide written tutorials of the techniques we are learning, to the extent possible. These will be in addition to the in-class explanations and sample code customarily provided.
+
+
 # Course description
 
 In this course you will learn to use computational methods to create historical interpretations. You will work with historical data, which includes finding, gathering, manipulating, analyzing, visualizing, and arguing from datasets, with special attention to geospatial, textual, and network data. These methods will be taught primarily using the [R programming language](https://www.r-project.org/). While data analysis methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century United States, and then apply the methods to write a research paper using a dataset from your own historical field.

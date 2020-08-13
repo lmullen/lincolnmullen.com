@@ -48,57 +48,91 @@ All written assignments should be submitted to the course Blackboard site as a P
 
 Engel. Religion and Profit
 
+God's Internationalists. 
+
 ### August 31 (Week 2): Commerce
 
 Valeri. Heavenly Merchandize.
+
+Max Weber, The Protestant Ethic and the Spirit of Capitalism, ed. Peter Baehr and Gordon C. Wells (New York: Penguin Classics, 2002), 1–95 (i.e., chs. 1-3 and ch. 4’s sections on Calvinism and Pietism).
+
 
 ### September 14 (Week 3): Money and markets
 
 Hudnut-Beumler. The Almighty's Dollar.
 
+Max Weber, The Protestant Ethic and the Spirit of Capitalism, ed. Peter Baehr and Gordon C. Wells (New York: Penguin Classics, 2002), 95–203.
+
+
 ### September 21 (Week 4): Capital
 
 Kobrin. Chosen Capital.
 
-### September 28 (Week 5): Consumption
+Marx, Capital, vol. 1, ch. 1.
 
-Schmidt. Consumer Rites.
 
-### October 5 (Week 6): Commodities
+### September 28 (Week 6): Commodities
 
 Martin. Preaching on Wax.
 
-### October 13 (Week 7): Business
+Sarna, When Matzah became square.
+
+
+### October 5 (Week 5): Consumption
+
+Schmidt. Consumer Rites.
+
+Marcel Mauss, The Gift: The Form and Reason for Exchange in Archaic Societies, trans. W. D. Halls (W. W. Norton, 2000).
+
+
+### October 13 (Week 7): Corporations
 
 Vaca. Evangelicals Incorporated.
+
+Darren Grem, “The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South,” in Sunbelt Rising: The Politics of Place, Space, and Region, ed. Michelle M. Nickerson and Darren Dochuk, Politics and Culture in Modern America (Philadelphia: University of Pennsylvania Press, 2011), 293–315.
 
 ### October 19 (Week 8): Railroads
 
 Walker. Railroading Religion.
 
+Greg Umbach, “Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910,” Journal of Social History 38, no. 1 (October 1, 2004): 29–61. JSTOR
+
 ### October 26 (Week 9): Labor
 
 Carter. Union Made.
+
+Something from Pew and Picket Line
 
 ### November 2 (Week 10): Recessions
 
 Greene. No Depression in Heaven.
 
+Catholic New Deal chapter
+
 ### November 9 (Week 11): Retail
 
 Kirk. Wanamaker's Temple
+
+Chapter from Moreton
 
 ### November 16 (Week 12): Energy
 
 Dochuk. Anointed with Oil.
 
+Baugh, God and the Green Divide.
+
 ### November 23 (Week 13): Prosperity
 
 Bowler. Blessed.
 
+Marla Frederick, Colored Television, ch2.
+
 ### November 30 (Week 14): Celebrity
 
 Lofton. Oprah.
+
+Burton ch.
+
 
 # Fine print
 

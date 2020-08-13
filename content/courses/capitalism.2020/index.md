@@ -44,7 +44,61 @@ All written assignments should be submitted to the course Blackboard site as a P
 
 # Schedule 
 
-### Tuesday, August 28: Introduction
+### August 24 (Week 1): Globalism
+
+Engel. Religion and Profit
+
+### August 31 (Week 2): Commerce
+
+Valeri. Heavenly Merchandize.
+
+### September 14 (Week 3): Money and markets
+
+Hudnut-Beumler. The Almighty's Dollar.
+
+### September 21 (Week 4): Capital
+
+Kobrin. Chosen Capital.
+
+### September 28 (Week 5): Consumption
+
+Schmidt. Consumer Rites.
+
+### October 5 (Week 6): Commodities
+
+Martin. Preaching on Wax.
+
+### October 13 (Week 7): Business
+
+Vaca. Evangelicals Incorporated.
+
+### October 19 (Week 8): Railroads
+
+Walker. Railroading Religion.
+
+### October 26 (Week 9): Labor
+
+Carter. Union Made.
+
+### November 2 (Week 10): Recessions
+
+Greene. No Depression in Heaven.
+
+### November 9 (Week 11): Retail
+
+Kirk. Wanamaker's Temple
+
+### November 16 (Week 12): Energy
+
+Dochuk. Anointed with Oil.
+
+### November 23 (Week 13): Prosperity
+
+Bowler. Blessed.
+
+### November 30 (Week 14): Celebrity
+
+Lofton. Oprah.
 
 # Fine print
 

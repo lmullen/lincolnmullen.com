@@ -11,7 +11,7 @@ office: Research Hall 484
 officehours: 'By appointment, Mondays through Wednesdays'
 room: Zoom
 semester: Fall
-title: American Religion and Capitalism
+title: Capitalism and American Religion
 toc: true
 university: George Mason University
 year: 2020

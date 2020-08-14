@@ -12,7 +12,7 @@ room: Innovation Hall 208
 instructor: Lincoln Mullen
 instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
-office: Research Hall 457
+office: Research Hall 484
 officehours: "Mondays, 11am–12pm; Tuesdays, 2pm–3pm; Thursdays, 2pm–4pm"
 toc: true
 draft: false

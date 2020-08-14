@@ -7,7 +7,7 @@ email: 'lmullen\@gmu.edu'
 instructor: Lincoln Mullen
 instructorurl: 'https://lincolnmullen.com'
 meets: 'Mondays, 7:20pm to 10:00pm'
-office: Research Hall 457
+office: Research Hall 484
 officehours: 'By appointment, Mondays through Wednesdays'
 room: Zoom
 semester: Fall

@@ -1,22 +1,23 @@
 ---
-title: Religion and Capitalism
-semester: Fall
-year: 2020
-department: Department of History and Art History
-university: George Mason University
-coursenum: HIST 615-DL7
-courseurl: https://historyarthistory.gmu.edu/courses/hist615/course_sections/52511
+coursenum: 'HIST 615-DL7'
+courseurl: 'https://historyarthistory.gmu.edu/courses/hist615/course_sections/52511'
 credits: 3
-meets: Mondays, 7:20pm to 10:00pm
-room: Zoom
+department: Department of History and Art History
+email: 'lmullen\@gmu.edu'
 instructor: Lincoln Mullen
-instructorurl: https://lincolnmullen.com
-email: lmullen@gmu.edu
+instructorurl: 'https://lincolnmullen.com'
+meets: 'Mondays, 7:20pm to 10:00pm'
 office: Research Hall 457
-officehours: "By appointment, Mondays through Wednesdays"
+officehours: 'By appointment, Mondays through Wednesdays'
+room: Zoom
+semester: Fall
+title: Religion and Capitalism
 toc: true
-draft: false
+university: George Mason University
+year: 2020
 ---
+
+
 
 # Course description
 
@@ -30,7 +31,7 @@ All communication for this course will happen in [our Slack group](https://mason
 
 Each week the syllabus features a main, book-length reading, and an article- or chapter-length reading for comparison. All of the main readings listed on the schedule are available for purchase in the university bookstore and elsewhere. Feel free to buy or borrow as you like: just be sure you have a copy you can read in full. The comparison readings are available through the university library, in PDF, or online, though in a few instances I have suggested editions that would be worth purchasing.
 
-# Assignments 
+# Assignments
 
 All written assignments should be submitted to the course Blackboard site as a PDF. You should also circulate your book reviews and primary sources via Slack so that other people in the class can read them. Book reviews and primary sources much be circulated by Thursday night before the relevant class meeting. Standard rules for historical papers: 11 or 12 point serif font; 1 inch margins; follow the *Chicago Manual of Style* religiously. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
@@ -38,78 +39,74 @@ All written assignments should be submitted to the course Blackboard site as a P
 
 **Leading discussion of primary sources (10%).** Beginning with week three, you will sign up for one week in which you will identify primary sources related to the topic, circulate them among the group, and lead a discussion of them. I will help you identify good sources; just plan ahead in advance if you want help with that. Often these sources could be ones that were explicitly discussed in the main readings for that week.
 
-**Book reviews (2 x 20%) and leading class discussion.**  For each week on the syllabus, there will be suggested additional books on the subject. Over the course of the semester you will write two reviews of books related to that week's discussion. You may select any book from the additional readings or, with permission, any other book on the history of capitalism and American religion, or the history of capitalism more generally. The reviews should be analyses, not summaries. *Reviews in American History* is a better model than *JAH* or *AHR* book reviews. Explain the overall argument of the book, whether it is effective, what are its source base and theoretical framework, and how it fits into the literature we have been reading. These reviews are stepping stones to your final essay, as well as important contributions towards broadening the base of knowledge for the class. The same week your review is due, you will give a presentation about and lead a brief discussion of your chosen books on the weeks you signed up for.
+**Book reviews (2 x 20%) and leading class discussion.** For each week on the syllabus, there will be suggested additional books on the subject. Over the course of the semester you will write two reviews of books related to that week's discussion. You may select any book from the additional readings or, with permission, any other book on the history of capitalism and American religion, or the history of capitalism more generally. The reviews should be analyses, not summaries. *Reviews in American History* is a better model than *JAH* or *AHR* book reviews. Explain the overall argument of the book, whether it is effective, what are its source base and theoretical framework, and how it fits into the literature we have been reading. These reviews are stepping stones to your final essay, as well as important contributions towards broadening the base of knowledge for the class. The same week your review is due, you will give a presentation about and lead a brief discussion of your chosen books on the weeks you signed up for.
 
 **Essay on religion and capitalism (40%).** You will write a fifteen-page historiographical essay on a topic of your choice related to religion and capitalism. This essay should be based on five or six books, at least three of which you should have read specifically for this assignment. See the schedule below for due dates. You will turn in a few sentences about your topic as well as a list of books for approval in advance. You will also submit a complete rough draft (emphasis on *complete*) for comment, which will be worth 5% of your course grade. The final paper will be worth the other 35%.
 
-# Schedule 
+# Schedule
 
 ### August 24 (Week 1): Globalism
 
 Katherine Carté Engel, *Religion and Profit: Moravians in Early America* (Philadelphia: University of Pennsylvania Press, 2011).
 
-David P. King, *God's Internationalists: World Vision and the Age of Evangelical Humanitarianism* (University of Pennsylvania Press, 2019), introduction. [PDF]
+David P. King, *God's Internationalists: World Vision and the Age of Evangelical Humanitarianism* (University of Pennsylvania Press, 2019), introduction. \[PDF\]
 
 Suggested readings:
 
-- King, *God's Internationalists*
-- Block, *Ordinary Lives in the Early Carribean*
-- Norton, *Sacred Gifts, Profane Pleasures*
+-   King, *God's Internationalists*
+-   Block, *Ordinary Lives in the Early Carribean*
+-   Norton, *Sacred Gifts, Profane Pleasures*
 
 ### August 31 (Week 2): Commerce
 
 Mark Valeri, *Heavenly Merchandize: How Religion Shaped Commerce in Puritan America* (Princeton: Princeton University Pres, 2014).
 
-Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1–95.
+Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1--95.
 
 Suggested readings:
 
-- Innes, *Creating the Commonwealth*
-- Peterson, *The Price of Redemption*
-
+-   Innes, *Creating the Commonwealth*
+-   Peterson, *The Price of Redemption*
 
 ### September 14 (Week 3): Money and markets
 
-James David Hudnut-Beumler, *In Pursuit of the Almighty’s Dollar: A History of Money and American Protestantism* (Chapel Hill: University of North Carolina Press, 2007).
+James David Hudnut-Beumler, *In Pursuit of the Almighty's Dollar: A History of Money and American Protestantism* (Chapel Hill: University of North Carolina Press, 2007).
 
-Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860* (Chicago: University of Chicago Press, 2008), ch. 1.
+Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860* (Chicago: University of Chicago Press, 2008), ch. 1.
 
 Suggested readings:
 
-- Davenport, *Friends of the Unrighteous Mammon* 
-- Noll, ed., *God and Mammon*
-- Sklansky, *The Soul's Economy*
-
+-   Davenport, *Friends of the Unrighteous Mammon*
+-   Noll, ed., *God and Mammon*
+-   Sklansky, *The Soul's Economy*
 
 ### September 21 (Week 4): Capital
 
 Rebecca Kobrin, ed., *Chosen Capital: The Jewish Encounter with American Capitalism* (New Brunswick: Rutgers University Press, 2012).
 
-Karl Marx, *Capital*, trans. Ben Fowkes (New York: Penguin, 1981), ch. 1.
+Karl Marx, *Capital*, trans. Ben Fowkes (New York: Penguin, 1981), ch. 1.
 
 Suggested readings:
 
-- Johnson, *A Shopkeeper's Millennium*
-- Nord, *Faith in Reading*
-- Joselit, *The Wonders of America*
-- Heinze, *Adapting to Abundance*
-- Michels, *A Fire in their Hearts*
-- Lederhendler, *Jewish Immigrants and American Capitalism*
-
+-   Johnson, *A Shopkeeper's Millennium*
+-   Nord, *Faith in Reading*
+-   Joselit, *The Wonders of America*
+-   Heinze, *Adapting to Abundance*
+-   Michels, *A Fire in their Hearts*
+-   Lederhendler, *Jewish Immigrants and American Capitalism*
 
 ### September 28 (Week 5): Commodities
 
 Lerone A. Martin, *Preaching on Wax: The Phonograph and the Shaping of Modern African American Religion* (New York: New York University Press, 2014).
 
-Colleen McDannell, *Material Christianity: Religion and Popular Culture in America* (New Haven: Yale University Press, 1995), ch. 6.
+Colleen McDannell, *Material Christianity: Religion and Popular Culture in America* (New Haven: Yale University Press, 1995), ch. 6.
 
 Suggested readings:
 
-- McDannell, *Material Christianity*
-- Gutjahr, *An American Bible*
-- Giggie, *After Redemption*
-- Sack, *Whitebread Protestants*
-
+-   McDannell, *Material Christianity*
+-   Gutjahr, *An American Bible*
+-   Giggie, *After Redemption*
+-   Sack, *Whitebread Protestants*
 
 ### October 5 (Week 6): Consumption
 
@@ -119,52 +116,50 @@ Marcel Mauss, *The Gift: The Form and Reason for Exchange in Archaic Societies*,
 
 Suggested readings:
 
-- Lofton, *Consuming Religion*
-- Corrigan, *Business of the Heart*
-- McCrossen, *Holy Day, Holiday*
-
+-   Lofton, *Consuming Religion*
+-   Corrigan, *Business of the Heart*
+-   McCrossen, *Holy Day, Holiday*
 
 ### October 13 (Week 7): Corporations
 
 Daniel Vaca, *Evangelicals Incorporated: Books and the Business of Religion in America* (Harvard University Press, 2019).
 
-Darren Grem, “The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South,” in *Sunbelt Rising: The Politics of Place, Space, and Region*, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293–315.
+Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in *Sunbelt Rising: The Politics of Place, Space, and Region*, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293--315.
 
 Suggested readings:
 
-- Grem, *The Blessings of Business*
-- Gloege, *Guaranteed Pure*
-- Kruse, *One Nation Under God*
-- Corrigan, Porterfield, and Grem, *The Business Turn in American Religious History*
+-   Grem, *The Blessings of Business*
+-   Gloege, *Guaranteed Pure*
+-   Kruse, *One Nation Under God*
+-   Corrigan, Porterfield, and Grem, *The Business Turn in American Religious History*
 
 ### October 19 (Week 8): Railroads
 
 David Walker, *Railroading Religion: Mormons, Tourists, and the Corporate Spirit of the West* (Chapel Hill: University of North Carolina Press, 2019).
 
-Greg Umbach, “Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910,” *Journal of Social History* 38, no. 1 (2004): 29–61.
+Greg Umbach, "Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910," *Journal of Social History* 38, no. 1 (2004): 29--61.
 
 Suggested readings:
 
-- Arrington, *Great Basin Kingdom*
-- Godfrey, *Religion, Politics, and Sugar*
+-   Arrington, *Great Basin Kingdom*
+-   Godfrey, *Religion, Politics, and Sugar*
 
 ### October 26 (Week 9): Labor
 
 Heath W. Carter, *Union Made: Working People and the Rise of Social Christianity in Chicago* (New York: Oxford University Press, 2017).
 
-Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shellers' Strike," in Christopher D. Cantwell, Heath W. Carter, and Janine Giordano Drake, eds., *The Pew and the Picket Line: Christianity and the American Working Class* (Urbana: University of Illinois Press, 2016), ch. 6.
+Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shellers' Strike," in Christopher D. Cantwell, Heath W. Carter, and Janine Giordano Drake, eds., *The Pew and the Picket Line: Christianity and the American Working Class* (Urbana: University of Illinois Press, 2016), ch. 6.
 
 Suggested readings:
 
-- Cantwell, Carter, and Drake, eds., *The Pew and the Picket Line*
-- Phillips, *A Kingdom on Earth*
-- Luker, *The Social Gospel in Black and White*
-- Bourgeois, *All Things Human*
-- Piehl, *Breaking Bread*
-- Fones-Wolf, *Trade Union Gospel*
-- Roll, *Spirit of Rebellion*
-- Miller, *God at Work*
-
+-   Cantwell, Carter, and Drake, eds., *The Pew and the Picket Line*
+-   Phillips, *A Kingdom on Earth*
+-   Luker, *The Social Gospel in Black and White*
+-   Bourgeois, *All Things Human*
+-   Piehl, *Breaking Bread*
+-   Fones-Wolf, *Trade Union Gospel*
+-   Roll, *Spirit of Rebellion*
+-   Miller, *God at Work*
 
 ### November 2 (Week 10): Recessions
 
@@ -174,57 +169,53 @@ Kenneth J. Heineman, *A Catholic New Deal: Religion and Reform in Depression Pit
 
 Suggested readings:
 
-- Heineman, *A Catholic New Deal*
+-   Heineman, *A Catholic New Deal*
 
 ### November 9 (Week 11): Retail
 
-Nicole C. Kirk, *Wanamaker’s Temple: The Business of Religion in an Iconic Department Store* (New York: New York University Press, 2018).
+Nicole C. Kirk, *Wanamaker's Temple: The Business of Religion in an Iconic Department Store* (New York: New York University Press, 2018).
 
 Bethany Moreton, *To Serve God and Wal-Mart: The Making of Christian Free Enterprise* (Cambridge, MA: Harvard University Press, 2010), 67--86.
 
 Suggested readings:
 
-- Moreton, *To Serve God and Wal-Mart*
-- Moore, *Selling God*
-- Leach, *Land of Desire*
-
+-   Moreton, *To Serve God and Wal-Mart*
+-   Moore, *Selling God*
+-   Leach, *Land of Desire*
 
 ### November 16 (Week 12): Energy
 
 Darren Dochuk, *Anointed with Oil: How Christianity and Crude Made Modern America* (New York: Basic Books, 2019).
 
-Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1.
+Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1.
 
 Suggested readings:
 
-- Baugh, *God and the Green Divide*
-
+-   Baugh, *God and the Green Divide*
 
 ### November 23 (Week 13): Prosperity
 
 Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (New York: Oxford University Press, 2013).
 
-Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2.
+Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2.
 
 Suggested readings:
 
-- Frederick, *Colored Television*
-- Walton, *Watch This*
-- Matzko, *The Radio Right*
-- Abrams, *Selling the Old-Time Religion*
-
+-   Frederick, *Colored Television*
+-   Walton, *Watch This*
+-   Matzko, *The Radio Right*
+-   Abrams, *Selling the Old-Time Religion*
 
 ### November 30 (Week 14): Celebrity
 
 Kathryn Lofton, *Oprah: The Gospel of an Icon* (University of California Press, 2011).
 
-Tara Isabella Burton, *Strange Rites: New Religions for a Godless World* (New York: PublicAffairs, 2020), introduction and ch. 5.
+Tara Isabella Burton, *Strange Rites: New Religions for a Godless World* (New York: PublicAffairs, 2020), introduction and ch. 5.
 
 Suggested readings:
 
-- Burton, *Strange Rites*
-- Bowler, *The Preacher's Wife*
-
+-   Burton, *Strange Rites*
+-   Bowler, *The Preacher's Wife*
 
 # Fine print
 

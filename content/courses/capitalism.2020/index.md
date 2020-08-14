@@ -61,7 +61,7 @@ Suggested readings:
 
 Mark Valeri, *Heavenly Merchandize: How Religion Shaped Commerce in Puritan America* (Princeton: Princeton University Pres, 2014).
 
-Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1--95.
+Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1--95. \[Also available online via GMU Libraries.\]
 
 Suggested readings:
 
@@ -111,7 +111,7 @@ Suggested readings:
 
 Leigh Eric Schmidt, *Consumer Rites: The Buying and Selling of American Holidays* (Princeton: Princeton University Press, 1997).
 
-Marcel Mauss, *The Gift: The Form and Reason for Exchange in Archaic Societies*, trans. W. D. Halls (W. W. Norton, 2000).
+Marcel Mauss, *The Gift: The Form and Reason for Exchange in Archaic Societies*, trans. W. D. Halls (W. W. Norton, 2000). \[[Also available online](https://archive.org/details/giftformsfunctio00maus).\]
 
 Suggested readings:
 
@@ -136,7 +136,7 @@ Suggested readings:
 
 David Walker, *Railroading Religion: Mormons, Tourists, and the Corporate Spirit of the West* (Chapel Hill: University of North Carolina Press, 2019).
 
-Greg Umbach, "Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910," *Journal of Social History* 38, no. 1 (2004): 29--61.
+Greg Umbach, "Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910," *Journal of Social History* 38, no. 1 (2004): 29--61. \[[GMU Libraries](http://mutex.gmu.edu/login?url=https://muse.jhu.edu/article/172354/).\]
 
 Suggested readings:
 
@@ -187,7 +187,7 @@ Suggested readings:
 
 Darren Dochuk, *Anointed with Oil: How Christianity and Crude Made Modern America* (New York: Basic Books, 2019).
 
-Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1.
+Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1. [Available via GMU Library catalog.]
 
 Suggested readings:
 
@@ -199,7 +199,7 @@ Suggested readings:
 
 Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (New York: Oxford University Press, 2013).
 
-Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2.
+Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2. [Available via GMU Library catalog.]
 
 Suggested readings:
 

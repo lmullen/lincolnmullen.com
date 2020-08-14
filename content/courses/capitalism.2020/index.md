@@ -48,7 +48,13 @@ All written assignments should be submitted to the course Blackboard site as a P
 
 Katherine Carté Engel, *Religion and Profit: Moravians in Early America* (Philadelphia: University of Pennsylvania Press, 2011).
 
-David P. King, *God's Internationalists: World Vision and the Age of Evangelical Humanitarianism* (University of Pennsylvania Press, 2019), introduction, ch. 7.
+David P. King, *God's Internationalists: World Vision and the Age of Evangelical Humanitarianism* (University of Pennsylvania Press, 2019), introduction. [PDF]
+
+Suggested readings:
+
+- King, *God's Internationalists*
+- Block, *Ordinary Lives in the Early Carribean*
+- Norton, *Sacred Gifts, Profane Pleasures*
 
 ### August 31 (Week 2): Commerce
 
@@ -56,11 +62,24 @@ Mark Valeri, *Heavenly Merchandize: How Religion Shaped Commerce in Puritan Amer
 
 Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1–95.
 
+Suggested readings:
+
+- Innes, *Creating the Commonwealth*
+- Peterson, *The Price of Redemption*
+
+
 ### September 14 (Week 3): Money and markets
 
 James David Hudnut-Beumler, *In Pursuit of the Almighty’s Dollar: A History of Money and American Protestantism* (Chapel Hill: University of North Carolina Press, 2007).
 
 Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860* (Chicago: University of Chicago Press, 2008), ch. 1.
+
+Suggested readings:
+
+- Davenport, *Friends of the Unrighteous Mammon* 
+- Noll, ed., *God and Mammon*
+- Sklansky, *The Soul's Economy*
+
 
 ### September 21 (Week 4): Capital
 
@@ -68,11 +87,29 @@ Rebecca Kobrin, ed., *Chosen Capital: The Jewish Encounter with American Capital
 
 Karl Marx, *Capital*, trans. Ben Fowkes (New York: Penguin, 1981), ch. 1.
 
+Suggested readings:
+
+- Johnson, *A Shopkeeper's Millennium*
+- Nord, *Faith in Reading*
+- Joselit, *The Wonders of America*
+- Heinze, *Adapting to Abundance*
+- Michels, *A Fire in their Hearts*
+- Lederhendler, *Jewish Immigrants and American Capitalism*
+
+
 ### September 28 (Week 5): Commodities
 
 Lerone A. Martin, *Preaching on Wax: The Phonograph and the Shaping of Modern African American Religion* (New York: New York University Press, 2014).
 
 Colleen McDannell, *Material Christianity: Religion and Popular Culture in America* (New Haven: Yale University Press, 1995), ch. 6.
+
+Suggested readings:
+
+- McDannell, *Material Christianity*
+- Gutjahr, *An American Bible*
+- Giggie, *After Redemption*
+- Sack, *Whitebread Protestants*
+
 
 ### October 5 (Week 6): Consumption
 
@@ -80,11 +117,25 @@ Leigh Eric Schmidt, *Consumer Rites: The Buying and Selling of American Holidays
 
 Marcel Mauss, *The Gift: The Form and Reason for Exchange in Archaic Societies*, trans. W. D. Halls (W. W. Norton, 2000).
 
+Suggested readings:
+
+- Lofton, *Consuming Religion*
+- Corrigan, *Business of the Heart*
+- McCrossen, *Holy Day, Holiday*
+
+
 ### October 13 (Week 7): Corporations
 
 Daniel Vaca, *Evangelicals Incorporated: Books and the Business of Religion in America* (Harvard University Press, 2019).
 
 Darren Grem, “The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South,” in *Sunbelt Rising: The Politics of Place, Space, and Region*, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293–315.
+
+Suggested readings:
+
+- Grem, *The Blessings of Business*
+- Gloege, *Guaranteed Pure*
+- Kruse, *One Nation Under God*
+- Corrigan, Porterfield, and Grem, *The Business Turn in American Religious History*
 
 ### October 19 (Week 8): Railroads
 
@@ -92,11 +143,28 @@ David Walker, *Railroading Religion: Mormons, Tourists, and the Corporate Spirit
 
 Greg Umbach, “Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910,” *Journal of Social History* 38, no. 1 (2004): 29–61.
 
+Suggested readings:
+
+- Arrington, *Great Basin Kingdom*
+- Godfrey, *Religion, Politics, and Sugar*
+
 ### October 26 (Week 9): Labor
 
 Heath W. Carter, *Union Made: Working People and the Rise of Social Christianity in Chicago* (New York: Oxford University Press, 2017).
 
 Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shellers' Strike," in Christopher D. Cantwell, Heath W. Carter, and Janine Giordano Drake, eds., *The Pew and the Picket Line: Christianity and the American Working Class* (Urbana: University of Illinois Press, 2016), ch. 6.
+
+Suggested readings:
+
+- Cantwell, Carter, and Drake, eds., *The Pew and the Picket Line*
+- Phillips, *A Kingdom on Earth*
+- Luker, *The Social Gospel in Black and White*
+- Bourgeois, *All Things Human*
+- Piehl, *Breaking Bread*
+- Fones-Wolf, *Trade Union Gospel*
+- Roll, *Spirit of Rebellion*
+- Miller, *God at Work*
+
 
 ### November 2 (Week 10): Recessions
 
@@ -104,11 +172,22 @@ Alison Collis Greene, *No Depression in Heaven: The Great Depression, the New De
 
 Kenneth J. Heineman, *A Catholic New Deal: Religion and Reform in Depression Pittsburgh* (Pennsylvania: Penn State University Press, 1999), 113--142.
 
+Suggested readings:
+
+- Heineman, *A Catholic New Deal*
+
 ### November 9 (Week 11): Retail
 
 Nicole C. Kirk, *Wanamaker’s Temple: The Business of Religion in an Iconic Department Store* (New York: New York University Press, 2018).
 
 Bethany Moreton, *To Serve God and Wal-Mart: The Making of Christian Free Enterprise* (Cambridge, MA: Harvard University Press, 2010), 67--86.
+
+Suggested readings:
+
+- Moreton, *To Serve God and Wal-Mart*
+- Moore, *Selling God*
+- Leach, *Land of Desire*
+
 
 ### November 16 (Week 12): Energy
 
@@ -116,11 +195,24 @@ Darren Dochuk, *Anointed with Oil: How Christianity and Crude Made Modern Americ
 
 Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1.
 
+Suggested readings:
+
+- Baugh, *God and the Green Divide*
+
+
 ### November 23 (Week 13): Prosperity
 
 Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (New York: Oxford University Press, 2013).
 
 Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2.
+
+Suggested readings:
+
+- Frederick, *Colored Television*
+- Walton, *Watch This*
+- Matzko, *The Radio Right*
+- Abrams, *Selling the Old-Time Religion*
+
 
 ### November 30 (Week 14): Celebrity
 
@@ -128,12 +220,20 @@ Kathryn Lofton, *Oprah: The Gospel of an Icon* (University of California Press, 
 
 Tara Isabella Burton, *Strange Rites: New Religions for a Godless World* (New York: PublicAffairs, 2020), introduction and ch. 5.
 
+Suggested readings:
+
+- Burton, *Strange Rites*
+- Bowler, *The Preacher's Wife*
+
+
 # Fine print
 
-This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
+This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version. In particular, this syllabus may be updated significantly as necessary in response to the pandemic.
 
-Everyone is bound to have difficulties during the pandemic. If you need accommodations or special arrangements or forbearance, please let me know. I will do everything I can to help you, but you do need to communicate with me about any difficulties you face and help you need.
+Everyone is bound to have difficulties during the pandemic. If you need accommodations or special arrangements or forbearance, please let me know. I will do everything I can to help you, but you do need to communicate with me about any difficulties you face and help you need and come to a agreement with me about the details of the .
 
-Students must satisfactorily complete all assignments in order to pass this course. I am sometimes willing to grant extensions on assignments for cause, but you must request an extension before the assignment's due date. For every day or part of a day that an assignment is late without an extension, I may reduce your grade. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
+Students must satisfactorily complete all assignments in order to pass this course. I am sometimes willing to grant extensions on assignments for cause, but you must request an extension before the assignment's due date. For every day or part of a day that an assignment is late without an extension, I may reduce your grade. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only during office hours.
 
-See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](http://oai.gmu.edu/understanding-the-honor-code/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services at 703-993-2474 or through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/fall_2020/).
+Students must check (and respond as necessary) to communications sent via email or Slack.
+
+See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies. The university and I are commited to supporting diversity in the classroom as explained in the [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](https://oai.gmu.edu/mason-honor-code/full-honor-code-document/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services at 703-993-2474 or through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/fall_2020/).

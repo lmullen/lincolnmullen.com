@@ -41,7 +41,11 @@ All written assignments should be submitted to the course Blackboard site as a P
 
 **Book reviews (2 x 20%) and leading class discussion.** For each week on the syllabus, there will be suggested additional books on the subject. Over the course of the semester, you will write two reviews of books related to that week's discussion. You may select any book from the additional readings or, with permission, any other book on the history of capitalism and American religion, or the history of capitalism more generally. The reviews should be analyses, not summaries. *Reviews in American History* is a better model than *JAH* or *AHR* book reviews. Explain the overall argument of the book, whether it is effective, what are its source base and theoretical framework, and how it fits into the literature we have been reading. These reviews are stepping stones to your final essay, as well as important contributions towards broadening the base of knowledge for the class. The same week your review is due, you will give a presentation about and lead a brief discussion of your chosen books on the weeks you signed up for.
 
-**Essay on religion and capitalism (40%).** You will write a fifteen-page historiographical essay on a topic of your choice related to religion and capitalism. This essay should be based on five or six books, at least three of which you should have read specifically for this assignment. See the schedule below for due dates. You will turn in a few sentences about your topic as well as a list of books for approval in advance. You will also submit a complete rough draft (emphasis on *complete*) for comment, which will be worth 5% of your course grade. The final paper will be worth the other 35%.
+**Essay on religion and capitalism (40%).** You will write a fifteen-page historiographical essay on a topic of your choice related to religion and capitalism. This essay should be based on five or six books, at least three of which you should have read specifically for this assignment. You will turn in a few sentences about your topic as well as a list of books for approval in advance. You will also submit a complete rough draft (emphasis on *complete*) for comment, which will be worth 5% of your course grade. The final paper will be worth the other 35%.
+
+- Topic statement and book list due on October 14.
+- Rough draft due on December 1.
+- Final paper due on December 10.
 
 # Schedule
 

@@ -11,7 +11,7 @@ office: Research Hall 457
 officehours: 'By appointment, Mondays through Wednesdays'
 room: Zoom
 semester: Fall
-title: Religion and Capitalism
+title: American Religion and Capitalism
 toc: true
 university: George Mason University
 year: 2020
@@ -187,7 +187,7 @@ Suggested readings:
 
 Darren Dochuk, *Anointed with Oil: How Christianity and Crude Made Modern America* (New York: Basic Books, 2019).
 
-Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1. [Available via GMU Library catalog.]
+Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1. \[Available via GMU Library catalog.\]
 
 Suggested readings:
 
@@ -199,7 +199,7 @@ Suggested readings:
 
 Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (New York: Oxford University Press, 2013).
 
-Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2. [Available via GMU Library catalog.]
+Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2. \[Available via GMU Library catalog.\]
 
 Suggested readings:
 

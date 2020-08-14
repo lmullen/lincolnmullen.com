@@ -21,7 +21,7 @@ year: 2020
 
 # Course description
 
-The relationship between religion and capitalism has long occupied historians of the United States, and before them it concerned the people whom historians study. In this class, you will meet many people whose religion led them to interact with capitalism in unexpected and unusual ways. You will meet the Puritans whose work ethic supposedly created capitalism, but who insisted on resting on the Sabbath; Moravian missionaries who made converts and money; slaves, slaveowners, and abolitionists who all claimed the Bible when reckoning with the capitalist system of slavery; a Protestant writer who insisted that Jesus was a businessman, and Catholics who believed Jesus called them to a kind of socialism; African American preachers who marketed their recorded sermons; Jews who mass-manufactured matzah and created Yiddish socialism; an industrialist who wrote The Gospel of Wealth, and laborers who created churches for the working class; nineteenth-century consumers who turned gift-giving into a ritual, and twenty-first-century television personalities who turned consumption into therapy; Christians whose faith turned them into environmentalists, and Christians who drilled for crude oil; converts who thought religion required poverty, and Prosperity Gospelers who thought it promised wealth. You will read primary sources from American history, secondary works in American religious history, and excerpts from theorists of religion and capitalism. Through these readings and your own writing, you are invited make sense of this perpetual historical puzzle.
+The relationship between religion and capitalism has long occupied historians of the United States, and before them it concerned the people whom historians study. In this class, you will meet many people whose religion led them to interact with capitalism in unexpected and unusual ways. You will meet the Puritans whose work ethic supposedly created capitalism, but who insisted on resting on the Sabbath; Moravian missionaries who made converts and money; slaves, slaveowners, and abolitionists who all claimed the Bible when reckoning with the capitalist system of slavery; a Protestant writer who insisted that Jesus was a businessman, and Catholics who believed Jesus called them to a kind of socialism; African American preachers who marketed their recorded sermons; Jews who mass-manufactured matzah and created Yiddish socialism; an industrialist who wrote The Gospel of Wealth, and laborers who created churches for the working class; nineteenth-century consumers who turned gift-giving into a ritual, and twenty-first-century television personalities who turned consumption into therapy; Christians whose faith turned them into environmentalists, and Christians who drilled for crude oil; converts who thought religion required poverty, and Prosperity Gospelers who thought it promised wealth. You will read primary sources from American history, secondary works in American religious history, and excerpts from theorists of religion and capitalism. Through these readings and your own writing, you are invited to make sense of this perpetual historical puzzle.
 
 # Essential information
 
@@ -33,13 +33,13 @@ Each week the syllabus features a main, book-length reading, and an article- or 
 
 # Assignments
 
-All written assignments should be submitted to the course Blackboard site as a PDF. You should also circulate your book reviews and primary sources via Slack so that other people in the class can read them. Book reviews and primary sources much be circulated by Thursday night before the relevant class meeting. Standard rules for historical papers: 11 or 12 point serif font; 1 inch margins; follow the *Chicago Manual of Style* religiously. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
+All written assignments should be submitted to the course Blackboard site as a PDF. You should also circulate your book reviews and primary sources via Slack so that other people in the class can read them. Book reviews and primary sources must be circulated by Thursday night before the relevant class meeting. Standard rules for historical papers: 11- or 12-point serif font; 1-inch margins; follow the *Chicago Manual of Style* religiously. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
 **Pre-circulated discussion questions (5%) and participation (5%).** Preparation and participation are expected as a matter of course in a graduate class. Complete all readings before class and submit all assignments by the due date. The better you prepare, the better our class discussions will be. Each week you will post three substantive questions or points of discussion to the Slack group. You can raise points about the works under discussion, the relationship between them, or the relationship to anything we've read previously. These should be posted by 1:00pm on Monday before class. During the weeks you present a book review or lead the primary source discussion, you do not have to submit questions.
 
 **Leading discussion of primary sources (10%).** Beginning with week three, you will sign up for one week in which you will identify primary sources related to the topic, circulate them among the group, and lead a discussion of them. I will help you identify good sources; just plan ahead in advance if you want help with that. Often these sources could be ones that were explicitly discussed in the main readings for that week.
 
-**Book reviews (2 x 20%) and leading class discussion.** For each week on the syllabus, there will be suggested additional books on the subject. Over the course of the semester you will write two reviews of books related to that week's discussion. You may select any book from the additional readings or, with permission, any other book on the history of capitalism and American religion, or the history of capitalism more generally. The reviews should be analyses, not summaries. *Reviews in American History* is a better model than *JAH* or *AHR* book reviews. Explain the overall argument of the book, whether it is effective, what are its source base and theoretical framework, and how it fits into the literature we have been reading. These reviews are stepping stones to your final essay, as well as important contributions towards broadening the base of knowledge for the class. The same week your review is due, you will give a presentation about and lead a brief discussion of your chosen books on the weeks you signed up for.
+**Book reviews (2 x 20%) and leading class discussion.** For each week on the syllabus, there will be suggested additional books on the subject. Over the course of the semester, you will write two reviews of books related to that week's discussion. You may select any book from the additional readings or, with permission, any other book on the history of capitalism and American religion, or the history of capitalism more generally. The reviews should be analyses, not summaries. *Reviews in American History* is a better model than *JAH* or *AHR* book reviews. Explain the overall argument of the book, whether it is effective, what are its source base and theoretical framework, and how it fits into the literature we have been reading. These reviews are stepping stones to your final essay, as well as important contributions towards broadening the base of knowledge for the class. The same week your review is due, you will give a presentation about and lead a brief discussion of your chosen books on the weeks you signed up for.
 
 **Essay on religion and capitalism (40%).** You will write a fifteen-page historiographical essay on a topic of your choice related to religion and capitalism. This essay should be based on five or six books, at least three of which you should have read specifically for this assignment. See the schedule below for due dates. You will turn in a few sentences about your topic as well as a list of books for approval in advance. You will also submit a complete rough draft (emphasis on *complete*) for comment, which will be worth 5% of your course grade. The final paper will be worth the other 35%.
 
@@ -53,9 +53,9 @@ David P. King, *God's Internationalists: World Vision and the Age of Evangelical
 
 Suggested readings:
 
--   King, *God's Internationalists*
--   Block, *Ordinary Lives in the Early Carribean*
--   Norton, *Sacred Gifts, Profane Pleasures*
+-   King, *God's Internationalists*.
+-   Block, *Ordinary Lives in the Early Carribean*.
+-   Norton, *Sacred Gifts, Profane Pleasures*.
 
 ### August 31 (Week 2): Commerce
 
@@ -65,8 +65,8 @@ Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr
 
 Suggested readings:
 
--   Innes, *Creating the Commonwealth*
--   Peterson, *The Price of Redemption*
+-   Peterson, *The Price of Redemption*.
+-   Innes, *Creating the Commonwealth*.
 
 ### September 14 (Week 3): Money and markets
 
@@ -76,9 +76,10 @@ Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and M
 
 Suggested readings:
 
--   Davenport, *Friends of the Unrighteous Mammon*
--   Noll, ed., *God and Mammon*
--   Sklansky, *The Soul's Economy*
+-   Davenport, *Friends of the Unrighteous Mammon*.
+-   Johnson, *A Shopkeeper's Millennium*.
+-   Noll, ed., *God and Mammon*.
+-   Sklansky, *The Soul's Economy*.
 
 ### September 21 (Week 4): Capital
 
@@ -88,12 +89,10 @@ Karl Marx, *Capital*, trans. Ben Fowkes (New York: Penguin, 1981), ch. 1.
 
 Suggested readings:
 
--   Johnson, *A Shopkeeper's Millennium*
--   Nord, *Faith in Reading*
--   Joselit, *The Wonders of America*
--   Heinze, *Adapting to Abundance*
--   Michels, *A Fire in their Hearts*
--   Lederhendler, *Jewish Immigrants and American Capitalism*
+-   Michels, *A Fire in their Hearts*.
+-   Lederhendler, *Jewish Immigrants and American Capitalism*.
+-   Heinze, *Adapting to Abundance*.
+-   Joselit, *The Wonders of America*.
 
 ### September 28 (Week 5): Commodities
 
@@ -103,10 +102,10 @@ Colleen McDannell, *Material Christianity: Religion and Popular Culture in Ameri
 
 Suggested readings:
 
--   McDannell, *Material Christianity*
--   Gutjahr, *An American Bible*
--   Giggie, *After Redemption*
--   Sack, *Whitebread Protestants*
+-   McDannell, *Material Christianity*.
+-   Giggie, *After Redemption*.
+-   Gutjahr, *An American Bible*.
+-   Sack, *Whitebread Protestants*.
 
 ### October 5 (Week 6): Consumption
 
@@ -116,9 +115,9 @@ Marcel Mauss, *The Gift: The Form and Reason for Exchange in Archaic Societies*,
 
 Suggested readings:
 
--   Lofton, *Consuming Religion*
--   Corrigan, *Business of the Heart*
--   McCrossen, *Holy Day, Holiday*
+-   Lofton, *Consuming Religion*.
+-   Corrigan, *Business of the Heart*.
+-   McCrossen, *Holy Day, Holiday*.
 
 ### October 13 (Week 7): Corporations
 
@@ -128,10 +127,10 @@ Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the 
 
 Suggested readings:
 
--   Grem, *The Blessings of Business*
--   Gloege, *Guaranteed Pure*
--   Kruse, *One Nation Under God*
--   Corrigan, Porterfield, and Grem, *The Business Turn in American Religious History*
+-   Grem, *The Blessings of Business*.
+-   Gloege, *Guaranteed Pure*.
+-   Kruse, *One Nation Under God*.
+-   Corrigan, Porterfield, and Grem, eds., *The Business Turn in American Religious History*.
 
 ### October 19 (Week 8): Railroads
 
@@ -141,8 +140,8 @@ Greg Umbach, "Learning to Shop in Zion: The Consumer Revolution in Great Basin M
 
 Suggested readings:
 
--   Arrington, *Great Basin Kingdom*
--   Godfrey, *Religion, Politics, and Sugar*
+-   Godfrey, *Religion, Politics, and Sugar*.
+-   Arrington, *Great Basin Kingdom*.
 
 ### October 26 (Week 9): Labor
 
@@ -152,14 +151,14 @@ Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shel
 
 Suggested readings:
 
--   Cantwell, Carter, and Drake, eds., *The Pew and the Picket Line*
--   Phillips, *A Kingdom on Earth*
--   Luker, *The Social Gospel in Black and White*
--   Bourgeois, *All Things Human*
--   Piehl, *Breaking Bread*
--   Fones-Wolf, *Trade Union Gospel*
--   Roll, *Spirit of Rebellion*
--   Miller, *God at Work*
+-   Cantwell, Carter, and Drake, eds., *The Pew and the Picket Line*.
+-   Fones-Wolf, *Trade Union Gospel*.
+-   Roll, *Spirit of Rebellion*.
+-   Phillips, *A Kingdom on Earth*.
+-   Luker, *The Social Gospel in Black and White*.
+-   Bourgeois, *All Things Human*.
+-   Piehl, *Breaking Bread*.
+-   Miller, *God at Work*.
 
 ### November 2 (Week 10): Recessions
 
@@ -169,7 +168,7 @@ Kenneth J. Heineman, *A Catholic New Deal: Religion and Reform in Depression Pit
 
 Suggested readings:
 
--   Heineman, *A Catholic New Deal*
+-   Heineman, *A Catholic New Deal*.
 
 ### November 9 (Week 11): Retail
 
@@ -179,9 +178,10 @@ Bethany Moreton, *To Serve God and Wal-Mart: The Making of Christian Free Enterp
 
 Suggested readings:
 
--   Moreton, *To Serve God and Wal-Mart*
--   Moore, *Selling God*
--   Leach, *Land of Desire*
+-   Moreton, *To Serve God and Wal-Mart*.
+-   Moore, *Selling God*.
+-   Leach, *Land of Desire*.
+-   Finke and Stark, *The Churching of America*.
 
 ### November 16 (Week 12): Energy
 
@@ -191,7 +191,9 @@ Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black 
 
 Suggested readings:
 
--   Baugh, *God and the Green Divide*
+-   Baugh, *God and the Green Divide*.
+-   Berry, *Devoted to Nature*.
+-   Stoll, *Inherit the Holy Mountain*.
 
 ### November 23 (Week 13): Prosperity
 
@@ -201,10 +203,9 @@ Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanfor
 
 Suggested readings:
 
--   Frederick, *Colored Television*
--   Walton, *Watch This*
--   Matzko, *The Radio Right*
--   Abrams, *Selling the Old-Time Religion*
+-   Frederick, *Colored Television*.
+-   Walton, *Watch This*.
+-   Matzko, *The Radio Right*.
 
 ### November 30 (Week 14): Celebrity
 
@@ -214,8 +215,8 @@ Tara Isabella Burton, *Strange Rites: New Religions for a Godless World* (New Yo
 
 Suggested readings:
 
--   Burton, *Strange Rites*
--   Bowler, *The Preacher's Wife*
+-   Burton, *Strange Rites*.
+-   Bowler, *The Preacher's Wife*.
 
 # Fine print
 

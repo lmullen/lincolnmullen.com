@@ -46,93 +46,87 @@ All written assignments should be submitted to the course Blackboard site as a P
 
 ### August 24 (Week 1): Globalism
 
-Engel. Religion and Profit
+Katherine Carté Engel, *Religion and Profit: Moravians in Early America* (Philadelphia: University of Pennsylvania Press, 2011).
 
-God's Internationalists. 
+David P. King, *God's Internationalists: World Vision and the Age of Evangelical Humanitarianism* (University of Pennsylvania Press, 2019), introduction, ch. 7.
 
 ### August 31 (Week 2): Commerce
 
-Valeri. Heavenly Merchandize.
+Mark Valeri, *Heavenly Merchandize: How Religion Shaped Commerce in Puritan America* (Princeton: Princeton University Pres, 2014).
 
-Max Weber, The Protestant Ethic and the Spirit of Capitalism, ed. Peter Baehr and Gordon C. Wells (New York: Penguin Classics, 2002), 1–95 (i.e., chs. 1-3 and ch. 4’s sections on Calvinism and Pietism).
-
+Max Weber, *The Protestant Ethic and the Spirit of Capitalism*, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1–95.
 
 ### September 14 (Week 3): Money and markets
 
-Hudnut-Beumler. The Almighty's Dollar.
+James David Hudnut-Beumler, *In Pursuit of the Almighty’s Dollar: A History of Money and American Protestantism* (Chapel Hill: University of North Carolina Press, 2007).
 
-Max Weber, The Protestant Ethic and the Spirit of Capitalism, ed. Peter Baehr and Gordon C. Wells (New York: Penguin Classics, 2002), 95–203.
-
+Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860* (Chicago: University of Chicago Press, 2008), ch. 1.
 
 ### September 21 (Week 4): Capital
 
-Kobrin. Chosen Capital.
+Rebecca Kobrin, ed., *Chosen Capital: The Jewish Encounter with American Capitalism* (New Brunswick: Rutgers University Press, 2012).
 
-Marx, Capital, vol. 1, ch. 1.
+Karl Marx, *Capital*, trans. Ben Fowkes (New York: Penguin, 1981), ch. 1.
 
+### September 28 (Week 5): Commodities
 
-### September 28 (Week 6): Commodities
+Lerone A. Martin, *Preaching on Wax: The Phonograph and the Shaping of Modern African American Religion* (New York: New York University Press, 2014).
 
-Martin. Preaching on Wax.
+Colleen McDannell, *Material Christianity: Religion and Popular Culture in America* (New Haven: Yale University Press, 1995), ch. 6.
 
-Sarna, When Matzah became square.
+### October 5 (Week 6): Consumption
 
+Leigh Eric Schmidt, *Consumer Rites: The Buying and Selling of American Holidays* (Princeton: Princeton University Press, 1997).
 
-### October 5 (Week 5): Consumption
-
-Schmidt. Consumer Rites.
-
-Marcel Mauss, The Gift: The Form and Reason for Exchange in Archaic Societies, trans. W. D. Halls (W. W. Norton, 2000).
-
+Marcel Mauss, *The Gift: The Form and Reason for Exchange in Archaic Societies*, trans. W. D. Halls (W. W. Norton, 2000).
 
 ### October 13 (Week 7): Corporations
 
-Vaca. Evangelicals Incorporated.
+Daniel Vaca, *Evangelicals Incorporated: Books and the Business of Religion in America* (Harvard University Press, 2019).
 
-Darren Grem, “The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South,” in Sunbelt Rising: The Politics of Place, Space, and Region, ed. Michelle M. Nickerson and Darren Dochuk, Politics and Culture in Modern America (Philadelphia: University of Pennsylvania Press, 2011), 293–315.
+Darren Grem, “The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South,” in *Sunbelt Rising: The Politics of Place, Space, and Region*, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293–315.
 
 ### October 19 (Week 8): Railroads
 
-Walker. Railroading Religion.
+David Walker, *Railroading Religion: Mormons, Tourists, and the Corporate Spirit of the West* (Chapel Hill: University of North Carolina Press, 2019).
 
-Greg Umbach, “Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910,” Journal of Social History 38, no. 1 (October 1, 2004): 29–61. JSTOR
+Greg Umbach, “Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910,” *Journal of Social History* 38, no. 1 (2004): 29–61.
 
 ### October 26 (Week 9): Labor
 
-Carter. Union Made.
+Heath W. Carter, *Union Made: Working People and the Rise of Social Christianity in Chicago* (New York: Oxford University Press, 2017).
 
-Something from Pew and Picket Line
+Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shellers' Strike," in Christopher D. Cantwell, Heath W. Carter, and Janine Giordano Drake, eds., *The Pew and the Picket Line: Christianity and the American Working Class* (Urbana: University of Illinois Press, 2016), ch. 6.
 
 ### November 2 (Week 10): Recessions
 
-Greene. No Depression in Heaven.
+Alison Collis Greene, *No Depression in Heaven: The Great Depression, the New Deal, and the Transformation of Religion in the Delta*, 2017.
 
-Catholic New Deal chapter
+Kenneth J. Heineman, *A Catholic New Deal: Religion and Reform in Depression Pittsburgh* (Pennsylvania: Penn State University Press, 1999), 113--142.
 
 ### November 9 (Week 11): Retail
 
-Kirk. Wanamaker's Temple
+Nicole C. Kirk, *Wanamaker’s Temple: The Business of Religion in an Iconic Department Store* (New York: New York University Press, 2018).
 
-Chapter from Moreton
+Bethany Moreton, *To Serve God and Wal-Mart: The Making of Christian Free Enterprise* (Cambridge, MA: Harvard University Press, 2010), 67--86.
 
 ### November 16 (Week 12): Energy
 
-Dochuk. Anointed with Oil.
+Darren Dochuk, *Anointed with Oil: How Christianity and Crude Made Modern America* (New York: Basic Books, 2019).
 
-Baugh, God and the Green Divide.
+Amanda J. Baugh, *God and the Green Divide: Religious Environmentalism in Black and White* (Oakland: University of California Press, 2017), ch. 1.
 
 ### November 23 (Week 13): Prosperity
 
-Bowler. Blessed.
+Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (New York: Oxford University Press, 2013).
 
-Marla Frederick, Colored Television, ch2.
+Marla F. Frederick, *Colored Television: American Religion Gone Global* (Stanford: Stanford University Press, 2016), ch. 2.
 
 ### November 30 (Week 14): Celebrity
 
-Lofton. Oprah.
+Kathryn Lofton, *Oprah: The Gospel of an Icon* (University of California Press, 2011).
 
-Burton ch.
-
+Tara Isabella Burton, *Strange Rites: New Religions for a Godless World* (New York: PublicAffairs, 2020), introduction and ch. 5.
 
 # Fine print
 

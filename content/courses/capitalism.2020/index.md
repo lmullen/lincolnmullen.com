@@ -93,6 +93,9 @@ Karl Marx, *Capital*, trans. Ben Fowkes (New York: Penguin, 1981), ch. 1.
 
 Suggested readings:
 
+-   Diner, ed., *Doing Business in America*.
+-   Cohen, *Cotton Capitalists*.
+-   Diner, *Roads Taken*.
 -   Michels, *A Fire in their Hearts*.
 -   Lederhendler, *Jewish Immigrants and American Capitalism*.
 -   Heinze, *Adapting to Abundance*.

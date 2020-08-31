@@ -76,7 +76,7 @@ Suggested readings:
 
 James David Hudnut-Beumler, *In Pursuit of the Almighty's Dollar: A History of Money and American Protestantism* (Chapel Hill: University of North Carolina Press, 2007).
 
-Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860* (Chicago: University of Chicago Press, 2008), ch. 1.
+Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860* (Chicago: University of Chicago Press, 2008), ch. 1. \[Available via GMU Library catalog.\]
 
 Suggested readings:
 

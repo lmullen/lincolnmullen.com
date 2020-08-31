@@ -126,7 +126,7 @@ Suggested readings:
 -   Corrigan, *Business of the Heart*.
 -   McCrossen, *Holy Day, Holiday*.
 
-### October 13 (Week 7): Corporations
+### October 12 (Week 7): Corporations
 
 Daniel Vaca, *Evangelicals Incorporated: Books and the Business of Religion in America* (Harvard University Press, 2019).
 

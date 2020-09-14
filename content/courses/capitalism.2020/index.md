@@ -81,6 +81,7 @@ Stewart Davenport, *Friends of the Unrighteous Mammon: Northern Christians and M
 Suggested readings:
 
 -   Davenport, *Friends of the Unrighteous Mammon*.
+-   Judson, *Pennies for Heaven*.
 -   Johnson, *A Shopkeeper's Millennium*.
 -   Noll, ed., *God and Mammon*.
 -   Sklansky, *The Soul's Economy*.

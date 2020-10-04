@@ -126,11 +126,15 @@ Suggested readings:
 -   Corrigan, *Business of the Heart*.
 -   McCrossen, *Holy Day, Holiday*.
 
-### October 12 (Week 7): Corporations
+### October 12 (Week 7)
+
+During this week (or the subsequent week, if your schedule requires it), plan on meeting with me individually to discuss your final paper. Please [sign up](https://lincolnmullen.com/page/office-hours/) for an office hours time; extra slots will be available. The first step for your paper---the topic statement and book list---is due on October 14, and will be the basis of our discussions.
+
+### October 19 (Week 8): Corporations
 
 Daniel Vaca, *Evangelicals Incorporated: Books and the Business of Religion in America* (Harvard University Press, 2019).
 
-Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in *Sunbelt Rising: The Politics of Place, Space, and Region*, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293--315.
+Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in *Sunbelt Rising: The Politics of Place, Space, and Region*, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293--315. \[[GMU Libraries](https://wrlc-gm.primo.exlibrisgroup.com/permalink/01WRLC_GML/19u1omk/cdi_askewsholts_vlebooks_9780812209976)\]
 
 Suggested readings:
 
@@ -139,16 +143,13 @@ Suggested readings:
 -   Kruse, *One Nation Under God*.
 -   Corrigan, Porterfield, and Grem, eds., *The Business Turn in American Religious History*.
 
-### October 19 (Week 8): Railroads
+For reference only:
 
-David Walker, *Railroading Religion: Mormons, Tourists, and the Corporate Spirit of the West* (Chapel Hill: University of North Carolina Press, 2019).
-
-Greg Umbach, "Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910," *Journal of Social History* 38, no. 1 (2004): 29--61. \[[GMU Libraries](http://mutex.gmu.edu/login?url=https://muse.jhu.edu/article/172354/).\]
-
-Suggested readings:
-
+- David Walker, *Railroading Religion: Mormons, Tourists, and the Corporate Spirit of the West* (Chapel Hill: University of North Carolina Press, 2019).
+- Greg Umbach, "Learning to Shop in Zion: The Consumer Revolution in Great Basin Mormon Culture, 1847-1910," *Journal of Social History* 38, no. 1 (2004): 29--61. \[[GMU Libraries](http://mutex.gmu.edu/login?url=https://muse.jhu.edu/article/172354/).\]
 -   Godfrey, *Religion, Politics, and Sugar*.
 -   Arrington, *Great Basin Kingdom*.
+
 
 ### October 26 (Week 9): Labor
 

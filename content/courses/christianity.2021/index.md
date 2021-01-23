@@ -4,11 +4,11 @@ semester: Spring
 year: 2021
 department: Department of History and Art History
 university: George Mason University
-coursenum: HIST 384-001 and RELI 384-001
+coursenum: HIST 384 and RELI 384
 courseurl: https://historyarthistory.gmu.edu/courses/hist384/course_sections/58939
 credits: 3
 meets: Tuesdays and Thursdays, 10:30am to 11:45am
-room: Innovation Hall 20 
+room: Innovation Hall 204
 instructor: Lincoln Mullen
 instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
@@ -20,15 +20,16 @@ draft: true
 
 # Course description
 
-This course is organized around a comparative examination of the many forms of global Christianity over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adapation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts and the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as a series of global systems organized around missions, migration, trade, and warfare.
+This course is organized around a comparative examination of the many forms of global Christianity over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adapation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts, the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as an element of global systems organized around missions, empire, migration, trade, and warfare.
 
 # Learning goals
 
 At the end of this course, you will be able 
 
 1. to display familiarity with Christianity in a variety of global contexts across time;
-2. to demonstrate specific knowledge of topics in the history of Christianity, such as Christendom, the Reformation, missions, and Pentecostalism; and
-3. to write clearly and coherently about the history of Christianity.
+2. to understand key questions of transmission, reception, and inculturation that affect Christianity's relationship to empire and other global systems;
+3. to demonstrate specific knowledge of topics in the history of Christianity, such as Christendom, the Reformation, missions, and Pentecostalism; and
+4. to write clearly and coherently about the history of Christianity.
 
 This course fulfills the Mason Core requirement for [Global Understanding](https://catalog.gmu.edu/mason-core/#global), and you will also meet those learning goals in addition to the course-specific learning goals.
 
@@ -36,17 +37,19 @@ This course fulfills the Mason Core requirement for [Global Understanding](https
 
 For spring semester 2021, this class will be taught both in person and online. Of course, given ongoing developments of the pandemic and the possibility of COVID-19 exposure, we will all have to remain flexible. In addition to following all GMU policies about COVID-19, I ask that you communicate with me if you will be absent from class for more than one session or if you will turn in an assignment late. Likewise, please check for emails from me in case it is ever necessary to hold class entirely online. By working together, we will make this a semester where you stay safe and learn a great deal about the history of Christianity.
 
-Before the start of class each week, I will send you a message about what to expect. This will help guide your participation class each week. Please read it carefully and note any actions you should take.
-
 This class will include a combination of lecture, discussion, and in-class assignments. Doing the reading is absolutely essential. Attend class having read any assigned material and be prepared to discuss those readings in class. You must have a copy of the texts assigned for each day available to you during class (electronic copies are fine, of course). On any day for which there is a reading assignment but not a short writing assignment (i.e., most days), be prepared for a brief quiz about the readings.
+
+To facilitate our hybrid model, communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Please sign up and join the `#christianity-2021` channel. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help.
+
+Before the start of class each week, I will send you a message about what to expect. This will help guide your participation class each week. Please read it carefully and note any actions you should take.
 
 You are always welcome to talk with me during office hours. To do so, please [book an appointment](/page/office-hours/). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) and suggest a few other times that would work for you. 
 
-These books are required. Any edition will do, and Achebe reading in particular is available in many versions. All other readings will be available on Blackboard or through the GMU libraries.
+**Required readings.** These books are required. Any edition will do, and the Achebe reading in particular is available in many versions. All other readings will be available on Blackboard or through the GMU libraries.
 
 - MacCulloch, Diarmaid. *Christianity: The First Three Thousand Years*. Penguin, 2009. ISBN: 9780143118695.
 - Sanneh, Lamin. *Disciples of All Nations: Pillars of World Christianity*. Oxford University Press, 2008. ISBN: 9780195189612.
-- Acheba, Chinua. *Things Fall Apart*. Penquin, 1994 (first published 1958). ISBN: 9780385474542. 
+- Achebe, Chinua. *Things Fall Apart*. Penquin, 1994 (first published 1958). ISBN: 9780385474542. 
 
 # Assignments 
 
@@ -54,9 +57,9 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Class participation (10%).* In addition to participating in class discussions, specific opportunities for participating in class (in person or online) will be explained prior to class sessions.
 
-*Reading quizzes (10%).* Any class may include a brief quiz over the assigned readings. 
+*Reading quizzes (10%).* Any class may (and likely will) include a brief quiz over the assigned readings. 
 
-*Short writing assignments (5 × 5% each = 25%).* Six short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below.
+*Short writing assignments (5 × 5% each = 25%).* Five short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below. There are six prompts; you may select any five that you wish to write.
 
 *Paper on reception of Christianity in non-Western cultures (15%).* You will be asked to write a five- to six-page paper on how Christianity has been transmitted and received in non-Western cultures, comparing the approaches in Achebe's _Things Fall Apart_ and Sanneh's _Disciples of All Nations_ and drawing on any other class material you find suitable. Full instructions for this assignment will be provided in advance.
 
@@ -64,7 +67,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 # Schedule 
 
-### Tuesday, January 26: Whose religion is Christianity?
+### Tuesday, January 26: Introduction: The pillar of translation
 
 - In class: Acts 2.
 
@@ -76,149 +79,166 @@ Grades will be based on the following assignments. Final grades will be calculat
 ### Tuesday, February 2: Jesus and the New Testament
 
 - MacCulloch, ch. 3.
-- Jensen, ch. 1.
-- In class: Matthew 1:1--3:17; Mark 1:1--11; Luke 1:1--3:38; and John 1:1--34.
+- Gospel of Mark
 
-### Thursday, February 4: Early Christianity; Greece and Rome
+### Thursday, February 4: Christians and Pagans
 
 - MacCulloch, ch. 1.
+- Sanneh, introduction.
 - Acts ch. 9, 10, and 15; Galatians ch. 1--2; *Didache*, ch. 1--5, 7, 9--10; Justin Martyr, *First Apology*, ch. 5--6, 9--10, 61, 65--67.
-- **Short writing assignment 1:** How do the authors of Acts and Galatians, respectively, describe conflicts between different groups of early Christians? According to this group of readings, what were the most significant rituals and practices among early Christians? Write one double-spaced page on each of these questions. Use quotations from the primary sources as evidence in your response.
+- **Short writing assignment 1:** How do the authors of Acts and Galatians, respectively, describe conflicts between different groups of early Christians? According to this group of readings, what were the most significant rituals and practices among early Christians? Write one (and no more than two) full double-spaced pages on each of these questions. Use quotations from the primary sources as evidence in your response.
 
-### Tuesday, February 9: Creeds and Heresies
+### Tuesday, February 9: Drawing boundaries
 
 - MacCulloch, pp. 121--147.
 - Gospel of Thomas.
 
-### Thursday, February 11: The Church and the Roman Empire
+### Thursday, February 11: Christianity and Empire
 
 - MacCulloch, pp. 155--176.
-- Jensen, ch. 2.
+- Sanneh, ch. 1.
 - *Martyrdom of Perpetua and Felicity*.
 
 ### Tuesday, February 16: Councils from Nicaea to Chalcedon
 
 - MacCulloch, pp. 189--200, 211--228.
 - Creed of Nicaea; Chalcedonian Definition.
-- **Short writing assignment 2:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **Short writing assignment 2:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
-### Thursday, February 18: 
-
-
-### Tuesday, February 23: 
-
-
-### Thursday, February 25: Augustine and the Making of Latin Christianity
+### Thursday, February 18: Augustine and the Making of Latin Christianity
 
 - MacCulloch, pp. 289--312.
-- Augustine, *City of God*, book 14; Egeria, *Pilgrimage*.
+- Augustine, *City of God*, book 14
+- Egeria, *Pilgrimage*.
 
-### Tuesday, March 2: Expansion to Northwest Europe 
+### Tuesday, February 23: Expansion to Northwest Europe 
 
 - MacCulloch, pp. 200--210, 312--318, 329--345.
-- Bede on England; Gregory of Tours on France and Germany.
+- Bede, _Ecclesiastical History_; Patrick, _Confession_.
 
-### Thursday, March 4: Asian and African Christianities
+### Thursday, February 25: Syrian and Ethiopian Christianity
 
-- MacCulloch, ch. 7 and pp. 267--269.
-- Jensen, ch. 3.
+- MacCulloch, pp. 176--188, 240--254, 267--269.
 - *Kebra Negast*.
 
-### Tuesday, March 9: Muhammad and the Coming of Islam 
+### Tuesday, March 2: Islam and Christianity
 
 - MacCulloch, pp. 255--267, 277--285.
+- Sanneh, ch. 2.
 - John of Damascus, *Fount of Knowledge*.
-- **Short writing assignment 3:** Write a two-paragraph summary of John of Damascus's discussion of Islam, followed by a one-page, double-spaced response of any sort. 
+- **Short writing assignment 3:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic, and how do they differ from the historical account in MacCulloch and Sanneh? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
-### Thursday, March 11: 
-
-### Tuesday, March 16: 
-
-### Thursday, March 18: Medieval Christianity and the Crusades
+### Thursday, March 4: Medieval Christianity and the Middle East
 
 - MacCulloch, pp. 381--89.
-- Jensen, ch. 4.
 - Four accounts of the First Crusade.
-- **Short writing assignment 4:** What are the most striking differences you see in these four accounts of the First Crusade? Despite these differences, what similarities can you find? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
-### Tuesday, March 23: Midterm exam
+### Tuesday, March 9: Asian and African Christianities
 
-### Thursday, March 25: Byzantine and Russian Christianity 
+- Sanneh, ch. 3.
+- Cosmas Indicopleustes, _Christian Topography_.
+- John of Ephesus, _Ecclesiastical History_.
+- Chinese Christian sutras.
+
+- **Short writing assignment 4:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. In two full double-spaced pages, describe the process by which Christianity was received in Asia and Africa? What similarities and differences can be identified to its reception in other places. Use quotations from the primary sources as evidence in your response.
+
+### Thursday, March 11: Ascetics
+
+- Athanasius, _Life of Antony_.
+- Gregory of Nyssa, _Life of Macrina_.
+
+### Tuesday, March 16: Midterm exam
+
+Exam to be given online. Details to be announced.
+
+### Thursday, March 18: Byzantine and Russian Christianity 
 
 - MacCulloch, pp. 427--456.
-- Jensen, ch. 7.
-- In class: John of Damascus, *On the Divine Images*.
+- John of Damascus, *On the Divine Images*.
 
-### Tuesday, March 30: Reform before Luther 
+### Tuesday, March 23: Monastics and friars
 
 - MacCulloch, ch. 16.
-- Rule of St. Benedict; Rule of St. Francis.
+- Rule of St. Benedict.
+- Rule of St. Francis.
 
-### Thursday, April 1: Magisterial and Radical Reformers
+### Thursday, March 25: The Protestant Reformation
 
 - MacCulloch, ch. 17.
 - Luther, "Ninety-five Theses" and *Freedom of a Christian*.
 - **Short writing assignment 5:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
-### Tuesday, April 6: Catholic Reformation and the Council of Trent
+### Tuesday, March 30: The Catholic Reformation
 
 - MacCulloch, pp. 655--667.
-- Jensen, ch. 8.
+- Documents about Francis Xavier in India, Southeast Asia, Japan, and China.
 
-### Thursday, April 8: Witch Hunts
+### Thursday, April 1: Spread of Christianity in Asia
 
-- MacCulloch, pp. 686--688.
-- Kramer and Sprenger, *The Hammer of Witches*.
+- MacCulloch, pp. 689--696, 703--709.
+- Sanneh, ch. 6.
+- Documents from the Taiping Rebellion.
 
-### Tuesday, April 13: Spread of Christianity in Africa, Asia, and the Americas
+### Tuesday, April 6: Spread of Christianity in Africa
 
-- MacCulloch, ch. 19.
-- Christian inscription in Chinese; Chinese Christian Sutras
+- MacCulloch, pp. 709--715.
+- Sanneh, ch. 8.
+- Documents on ecclesiastical independence in western and southern Africa.
 
-### Thursday, April 15: Enlightenment and Revolutions 
+### Thursday, April 8: Enlightenment and Revolutions 
 
 - MacCulloch, pp. 769--787, 794--806, 830--838.
 - Thomas Paine, *Age of Reason*; Friedrich Schleiermacher, *On Religion*.
-- **Short writing assignment 6:** Friedrich Schleiermacher's On Religion attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **Short writing assignment 6:** Friedrich Schleiermacher's On Religion attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
-### Tuesday, April 20: American Christianities and the Latter-day Saints
+### Tuesday, April 13: Christianity in North and South America
 
-- Joseph Smith, Letter to Samuel Smith; Emerson, "Divinity School Address," pp. 11--21, 27.
+- MacCulloch, pp. 696--703, 902--915.
+- Documents on language and translation in Latin American Christianity.
 
-### Thursday, April 22: Christianity and Missions in the Modern Era
+### Thursday, April 15: Christianity and Missions in the Modern Era
 
-- MacCulloch, ch. 23.
+- MacCulloch, pp. 866--901.
+- Sanneh, ch. 7.
+- Documents on missionary societies in Africa.
 
-### Tuesday, April 27: Colonization and Decolonization
+### Tuesday, April 20: Colonization and Decolonization
 
 - MacCulloch, ch. 24.
-- Gustavo Gutiérrez, *A Theology of Liberation*; Latin American Bishops' Conference at Puebla, 1979.
+- Sanneh, ch. 4.
+- Complete reading Achebe, _Things Fall Apart_. (Whoever has ears to hear: start this book in plenty of time. As you read, the section involving missionaries and Christianity in the denouement will obviously be our focus, but that episode depends on the narrative structure of the entire novel.)
 
-### Thursday, April 29: Pentecostalism
+### Thursday, April 22: Pentecostalism
 
+- Sanneh, ch. 5.
 - Nimi Wariboko, "Pentecostalism in Africa," *Oxford Research Encyclopedia of African History* (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
+- Documents on Pentecostalism in Africa and South America.
 
-### MOVE
+### Tuesday, April 27: Vatican II
 
 - MacCulloch, ch. 25.
-- Jensen, ch. 9.
 - In class: Documents of Vatican II.
 
-### MOVE
+### Thursday, April 29: Conclusion: Whose religion is Christianity?
 
-- **Site visits and reflection paper:** This paper is due by the start of class, but it can be turned in at any time during the semester.
+- Sanneh, ch. 9.
+- **DUE: Paper on reception of Christianity in non-Western cultures**. This paper will form the basis of our class discussion today.
 
 ### Thursday, May 4: Final exam, 10:30am–1:15pm
 
-Exam to be given online. Details TBD.
+Exam to be given online. Details to be announced.
 
 # Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 
-You are expected to attend each class and to participate actively (exceptions made only for religious holidays and other university-approved excuses). For most students, whether or not they attend class is the best indicator of how well they will do in the class. Computers, phones, and the like are to be used only for course work. Grades may be reduced due to repeated absences. Complete all the readings before the start of each class. No unexcused late work will be accepted, and no late short assignments will be accepted for any reason. No work will be accepted after the last day of class unless specifically assigned. I will discuss grades only in conversation during office hours, not over email.
+Follow the GMU COVID-19 safety protocols at all times.
 
-Class communications will be sent to your GMU email account, which you must check.
+You are expected to attend each class (in person or online) and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). For most students, whether or not they attend class is the best indicator of how well they will do in the class. If any health concerns come up, you may attend class online rather than in person even if you are registered for an in-person section.
+
+Computers, phones, and the like are to be used only for course work while class is in session. Grades may be reduced due to repeated absences. Complete all the readings before the start of each class. No unexcused late work will be accepted, and no late short assignments will be accepted for any reason. No work will be accepted after the last day of class unless specifically assigned. I will discuss grades only in conversation during office hours, not over email.
+
+Class communications will be sent to your GMU email account, which you must check. You should also check the course Slack group regularly, and be logged into it during class if you are not in the classroom in-person.
 
 Unless otherwise specified, you should work on your own for assignments. In general, every source that you use should be acknowledged in a note or bibliography entry. Sources must be adequately paraphrased, meaning (at a minimum) that word choice, sentence and paragraph structure, and the order of ideas must be made your own. Whenever you use others' exact words, you must mark them as such by quotation marks or block quotations with accompanying citations. Plagiarism consists of presenting the writing, research, or analysis of others as one's own. It applies not only to using the text of another author's work verbatim without quotation marks and accurate citation, but also to the taking of specific information, analysis or opinions---even if not in the exact words of the author---and presenting them without citation in one's own paper. Any instance of plagiarism will result in, at minimum, the student receiving a grade of 0 on this paper, and the student will not be given the opportunity to rewrite the paper.
 

@@ -8,7 +8,7 @@ coursenum: HIST 384 and RELI 384
 courseurl: https://historyarthistory.gmu.edu/courses/hist384/course_sections/58939
 credits: 3
 meets: Tuesdays and Thursdays, 10:30am to 11:45am
-room: Innovation Hall 204
+room: Innovation Hall 204 and online
 instructor: Lincoln Mullen
 instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
@@ -36,6 +36,8 @@ This course fulfills the Mason Core requirement for [Global Understanding](https
 # Essential information
 
 For spring semester 2021, this class will be taught both in-person and online, depending on which section you registered for. Of course, given ongoing developments of the pandemic and the possibility of COVID-19 exposure, we will all have to remain flexible. In addition to following all GMU policies about COVID-19, I ask that you communicate with me if you will be absent from class or if you will turn in an assignment late. Likewise, please check for emails and other messages from me in case it is ever necessary to hold class entirely online. By working together, we will make this a semester where you stay safe and learn a great deal about the history of Christianity.
+
+The Zoom connection information is available on Blackboard.
 
 This class will include a combination of lecture, discussion, and in-class assignments. Doing the reading is absolutely essential. Attend class having read any assigned material and be prepared to discuss those readings in class. You must have a copy of the texts assigned for each day available to you during class (electronic copies are fine, of course).
 

@@ -59,7 +59,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Reading quizzes (10%).* Any class may (and likely will) include a brief quiz over the assigned readings. 
 
-*Short writing assignments (5 × 5% each = 25%).* Five short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below. There are six prompts; you may select any five that you wish to write.
+*Short writing assignments (5 × 5% each = 25%).* Five short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below. There are seven prompts; you may select any five that you wish to write.
 
 *Paper on the reception of Christianity in non-Western cultures (15%).* You will write a five- to six-page paper on how Christianity has been transmitted and received in non-Western cultures, comparing the approaches in Achebe's _Things Fall Apart_, Sanneh's _Disciples of All Nations_, and the numerous primary sources readings that address that topic. Full instructions for this assignment will be provided in advance.
 

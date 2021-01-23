@@ -15,12 +15,12 @@ email: lmullen@gmu.edu
 office: Research Hall 484
 officehours: "By appointment on Zoom"
 toc: true
-draft: true
+draft: false
 ---
 
 # Course description
 
-This course is organized around a comparative examination of the many forms of global Christianity over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adapation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts, the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as an element of global systems organized around missions, empire, migration, trade, and warfare.
+This course is organized around a comparative examination of the many forms global Christianity has taken over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adaptation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts, the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as an element of global systems organized around missions, empire, migration, trade, and warfare.
 
 # Learning goals
 
@@ -35,13 +35,13 @@ This course fulfills the Mason Core requirement for [Global Understanding](https
 
 # Essential information
 
-For spring semester 2021, this class will be taught both in person and online. Of course, given ongoing developments of the pandemic and the possibility of COVID-19 exposure, we will all have to remain flexible. In addition to following all GMU policies about COVID-19, I ask that you communicate with me if you will be absent from class for more than one session or if you will turn in an assignment late. Likewise, please check for emails from me in case it is ever necessary to hold class entirely online. By working together, we will make this a semester where you stay safe and learn a great deal about the history of Christianity.
+For spring semester 2021, this class will be taught both in-person and online, depending on which section you registered for. Of course, given ongoing developments of the pandemic and the possibility of COVID-19 exposure, we will all have to remain flexible. In addition to following all GMU policies about COVID-19, I ask that you communicate with me if you will be absent from class or if you will turn in an assignment late. Likewise, please check for emails and other messages from me in case it is ever necessary to hold class entirely online. By working together, we will make this a semester where you stay safe and learn a great deal about the history of Christianity.
 
-This class will include a combination of lecture, discussion, and in-class assignments. Doing the reading is absolutely essential. Attend class having read any assigned material and be prepared to discuss those readings in class. You must have a copy of the texts assigned for each day available to you during class (electronic copies are fine, of course). On any day for which there is a reading assignment but not a short writing assignment (i.e., most days), be prepared for a brief quiz about the readings.
+This class will include a combination of lecture, discussion, and in-class assignments. Doing the reading is absolutely essential. Attend class having read any assigned material and be prepared to discuss those readings in class. You must have a copy of the texts assigned for each day available to you during class (electronic copies are fine, of course).
 
 To facilitate our hybrid model, communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Please sign up and join the `#christianity-2021` channel. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help.
 
-Before the start of class each week, I will send you a message about what to expect. This will help guide your participation class each week. Please read it carefully and note any actions you should take.
+Before the start of class each week, I will send you a message about what to expect. This will help guide your participation in class each week. Please read it carefully and note any actions you should take.
 
 You are always welcome to talk with me during office hours. To do so, please [book an appointment](/page/office-hours/). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) and suggest a few other times that would work for you. 
 
@@ -49,7 +49,7 @@ You are always welcome to talk with me during office hours. To do so, please [bo
 
 - MacCulloch, Diarmaid. *Christianity: The First Three Thousand Years*. Penguin, 2009. ISBN: 9780143118695.
 - Sanneh, Lamin. *Disciples of All Nations: Pillars of World Christianity*. Oxford University Press, 2008. ISBN: 9780195189612.
-- Achebe, Chinua. *Things Fall Apart*. Penquin, 1994 (first published 1958). ISBN: 9780385474542. 
+- Achebe, Chinua. *Things Fall Apart*. Penguin, 1994 (first published 1958). ISBN: 9780385474542. 
 
 # Assignments 
 
@@ -61,7 +61,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Short writing assignments (5 × 5% each = 25%).* Five short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below. There are six prompts; you may select any five that you wish to write.
 
-*Paper on reception of Christianity in non-Western cultures (15%).* You will be asked to write a five- to six-page paper on how Christianity has been transmitted and received in non-Western cultures, comparing the approaches in Achebe's _Things Fall Apart_ and Sanneh's _Disciples of All Nations_ and drawing on any other class material you find suitable. Full instructions for this assignment will be provided in advance.
+*Paper on the reception of Christianity in non-Western cultures (15%).* You will write a five- to six-page paper on how Christianity has been transmitted and received in non-Western cultures, comparing the approaches in Achebe's _Things Fall Apart_, Sanneh's _Disciples of All Nations_, and the numerous primary sources readings that address that topic. Full instructions for this assignment will be provided in advance.
 
 *Midterm exam (20%) and final exam (20%).* Exams will include essay and identification questions.
 
@@ -201,12 +201,13 @@ Exam to be given online. Details to be announced.
 - MacCulloch, pp. 866--901.
 - Sanneh, ch. 7.
 - Documents on missionary societies in Africa.
+- **Short writing assignment 7:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
 
 ### Tuesday, April 20: Colonization and Decolonization
 
 - MacCulloch, ch. 24.
 - Sanneh, ch. 4.
-- Complete reading Achebe, _Things Fall Apart_. (Whoever has ears to hear: start this book in plenty of time. As you read, the section involving missionaries and Christianity in the denouement will obviously be our focus, but that episode depends on the narrative structure of the entire novel.)
+- Complete reading Achebe, _Things Fall Apart_. (Whoever has ears to hear: start this book in plenty of time. As you read note that the section involving missionaries and Christianity in the denouement will obviously be our focus, but that episode depends on the narrative structure of the entire novel.)
 
 ### Thursday, April 22: Pentecostalism
 
@@ -222,7 +223,7 @@ Exam to be given online. Details to be announced.
 ### Thursday, April 29: Conclusion: Whose religion is Christianity?
 
 - Sanneh, ch. 9.
-- **DUE: Paper on reception of Christianity in non-Western cultures**. This paper will form the basis of our class discussion today.
+- **DUE: Paper on the reception of Christianity in non-Western cultures**. This paper will form the basis of our class discussion today.
 
 ### Thursday, May 4: Final exam, 10:30am–1:15pm
 
@@ -232,15 +233,15 @@ Exam to be given online. Details to be announced.
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 
-Follow the GMU COVID-19 safety protocols at all times.
+Follow the GMU [COVID-19 safety protocols](https://www2.gmu.edu/safe-return-campus) at all times.
 
-You are expected to attend each class (in person or online) and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). For most students, whether or not they attend class is the best indicator of how well they will do in the class. If any health concerns come up, you may attend class online rather than in person even if you are registered for an in-person section.
+You are expected to attend each class (in person or online) and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class. If any health concerns come up, you may attend class online rather than in person even if you are registered for an in-person section.
 
 Computers, phones, and the like are to be used only for course work while class is in session. Grades may be reduced due to repeated absences. Complete all the readings before the start of each class. No unexcused late work will be accepted, and no late short assignments will be accepted for any reason. No work will be accepted after the last day of class unless specifically assigned. I will discuss grades only in conversation during office hours, not over email.
 
 Class communications will be sent to your GMU email account, which you must check. You should also check the course Slack group regularly, and be logged into it during class if you are not in the classroom in-person.
 
-Unless otherwise specified, you should work on your own for assignments. In general, every source that you use should be acknowledged in a note or bibliography entry. Sources must be adequately paraphrased, meaning (at a minimum) that word choice, sentence and paragraph structure, and the order of ideas must be made your own. Whenever you use others' exact words, you must mark them as such by quotation marks or block quotations with accompanying citations. Plagiarism consists of presenting the writing, research, or analysis of others as one's own. It applies not only to using the text of another author's work verbatim without quotation marks and accurate citation, but also to the taking of specific information, analysis or opinions---even if not in the exact words of the author---and presenting them without citation in one's own paper. Any instance of plagiarism will result in, at minimum, the student receiving a grade of 0 on this paper, and the student will not be given the opportunity to rewrite the paper.
+Unless otherwise specified, you should work on your own for assignments. In general, every source that you use should be acknowledged in a note or bibliography entry. Sources must be adequately paraphrased, meaning (at a minimum) that word choice, sentence and paragraph structure, and the order of ideas must be made your own. Whenever you use others' exact words, you must mark them as such by quotation marks or block quotations with accompanying citations. Plagiarism consists of presenting the writing, research, or analysis of others as one's own. It applies not only to using the text of another author's work verbatim without quotation marks and accurate citations but also to the taking of specific information, analysis or opinions---even if not in the exact words of the author---and presenting them without citation in one's own paper. Any instance of plagiarism will result in, at minimum, the student receiving a grade of 0 on this paper, and the student will not be given the opportunity to rewrite the paper.
 
 George Mason University has an [Honor Code](https://oai.gmu.edu/mason-honor-code/), which requires all members of this community to maintain the highest standards of academic honesty and integrity. Cheating, plagiarism, lying, and stealing are all prohibited. All violations of the Honor Code will be reported to the Honor Committee.
 

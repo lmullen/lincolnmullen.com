@@ -61,7 +61,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Reading quizzes (10%).* Any class may (and likely will) include a brief quiz over the assigned readings. 
 
-*Short writing assignments (5 × 5% each = 25%).* Five short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below. There are seven prompts; you may select any five that you wish to write.
+*Short writing assignments (5 × 5% each = 25%).* Five short writing assignments are due in Blackboard before the start of class on the day assigned (no exceptions). The prompts for these writing assignments are on the schedule below. There are eight prompts; you may select any five that you wish to write.
 
 *Paper on the reception of Christianity in non-Western cultures (15%).* You will write a five- to six-page paper on how Christianity has been transmitted and received in non-Western cultures, comparing the approaches in Achebe's _Things Fall Apart_, Sanneh's _Disciples of All Nations_, and the numerous primary sources readings that address that topic. Full instructions for this assignment will be provided in advance.
 
@@ -122,13 +122,14 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 - MacCulloch, pp. 176--188, 240--254, 267--269.
 - *Kebra Negast*.
+- **DUE: Short writing assignment 3:** Christianity in Ethiopia developed in parallel to, but distinctly different from, Christianity in Europe. What are the similarities and differences? How do you account for those differences in terms of the global systems that affected Christian development? Write two full double-spaced pages. Use quotations from primary sources as evidence in your response.
 
 ### Tuesday, March 2: Islam and Christianity
 
 - MacCulloch, pp. 255--267, 277--285.
 - Sanneh, ch. 2.
 - John of Damascus, *Fount of Knowledge*.
-- **DUE: Short writing assignment 3:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic, and how do they differ from the historical account in MacCulloch and Sanneh? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 4:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic, and how do they differ from the historical account in MacCulloch and Sanneh? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Thursday, March 4: Medieval Christianity and the Middle East
 
@@ -141,8 +142,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 - Cosmas Indicopleustes, _Christian Topography_.
 - John of Ephesus, _Ecclesiastical History_.
 - Chinese Christian sutras.
-
-- **DUE: Short writing assignment 4:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. In two full double-spaced pages, describe the process by which Christianity was received in Asia and Africa? What similarities and differences can be identified to its reception in other places. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 5:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. In two full double-spaced pages, describe the process by which Christianity was received in Asia and Africa? What similarities and differences can be identified to its reception in other places. Use quotations from the primary sources as evidence in your response.
 
 ### Thursday, March 11: Ascetics
 
@@ -168,7 +168,7 @@ Exam to be given online. Details to be announced.
 
 - MacCulloch, ch. 17.
 - Luther, "Ninety-five Theses" and *Freedom of a Christian*.
-- **DUE: Short writing assignment 5:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 6:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Tuesday, March 30: The Catholic Reformation
 
@@ -191,7 +191,7 @@ Exam to be given online. Details to be announced.
 
 - MacCulloch, pp. 769--787, 794--806, 830--838.
 - Thomas Paine, *Age of Reason*; Friedrich Schleiermacher, *On Religion*.
-- **DUE: Short writing assignment 6:** Friedrich Schleiermacher's On Religion attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 7:** Friedrich Schleiermacher's On Religion attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Tuesday, April 13: Christianity in North and South America
 
@@ -203,7 +203,7 @@ Exam to be given online. Details to be announced.
 - MacCulloch, pp. 866--901.
 - Sanneh, ch. 7.
 - Documents on missionary societies in Africa.
-- **DUE: Short writing assignment 7:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
+- **DUE: Short writing assignment 8:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
 
 ### Tuesday, April 20: Colonization and Decolonization
 
@@ -220,7 +220,7 @@ Exam to be given online. Details to be announced.
 ### Tuesday, April 27: Vatican II
 
 - MacCulloch, ch. 25.
-- In class: Documents of Vatican II.
+- Documents of Vatican II.
 
 ### Thursday, April 29: Conclusion: Whose religion is Christianity?
 

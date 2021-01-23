@@ -90,7 +90,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 - Acts ch. 9, 10, and 15; Galatians ch. 1--2; *Didache*, ch. 1--5, 7, 9--10; Justin Martyr, *First Apology*, ch. 5--6, 9--10, 61, 65--67.
 - **DUE: Short writing assignment 1:** How do the authors of Acts and Galatians, respectively, describe conflicts between different groups of early Christians? According to this group of readings, what were the most significant rituals and practices among early Christians? Write one (and no more than two) full double-spaced pages on each of these questions. Use quotations from the primary sources as evidence in your response.
 
-### Tuesday, February 9: Drawing boundaries
+### Tuesday, February 9: Christians and Heretics
 
 - MacCulloch, pp. 121--147.
 - Gospel of Thomas.

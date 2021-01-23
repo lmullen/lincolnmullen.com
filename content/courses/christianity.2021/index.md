@@ -86,7 +86,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 - MacCulloch, ch. 1.
 - Sanneh, introduction.
 - Acts ch. 9, 10, and 15; Galatians ch. 1--2; *Didache*, ch. 1--5, 7, 9--10; Justin Martyr, *First Apology*, ch. 5--6, 9--10, 61, 65--67.
-- **Short writing assignment 1:** How do the authors of Acts and Galatians, respectively, describe conflicts between different groups of early Christians? According to this group of readings, what were the most significant rituals and practices among early Christians? Write one (and no more than two) full double-spaced pages on each of these questions. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 1:** How do the authors of Acts and Galatians, respectively, describe conflicts between different groups of early Christians? According to this group of readings, what were the most significant rituals and practices among early Christians? Write one (and no more than two) full double-spaced pages on each of these questions. Use quotations from the primary sources as evidence in your response.
 
 ### Tuesday, February 9: Drawing boundaries
 
@@ -103,7 +103,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 - MacCulloch, pp. 189--200, 211--228.
 - Creed of Nicaea; Chalcedonian Definition.
-- **Short writing assignment 2:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 2:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Thursday, February 18: Augustine and the Making of Latin Christianity
 
@@ -126,7 +126,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 - MacCulloch, pp. 255--267, 277--285.
 - Sanneh, ch. 2.
 - John of Damascus, *Fount of Knowledge*.
-- **Short writing assignment 3:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic, and how do they differ from the historical account in MacCulloch and Sanneh? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 3:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic, and how do they differ from the historical account in MacCulloch and Sanneh? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Thursday, March 4: Medieval Christianity and the Middle East
 
@@ -140,7 +140,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 - John of Ephesus, _Ecclesiastical History_.
 - Chinese Christian sutras.
 
-- **Short writing assignment 4:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. In two full double-spaced pages, describe the process by which Christianity was received in Asia and Africa? What similarities and differences can be identified to its reception in other places. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 4:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. In two full double-spaced pages, describe the process by which Christianity was received in Asia and Africa? What similarities and differences can be identified to its reception in other places. Use quotations from the primary sources as evidence in your response.
 
 ### Thursday, March 11: Ascetics
 
@@ -166,7 +166,7 @@ Exam to be given online. Details to be announced.
 
 - MacCulloch, ch. 17.
 - Luther, "Ninety-five Theses" and *Freedom of a Christian*.
-- **Short writing assignment 5:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 5:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society? Write two double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Tuesday, March 30: The Catholic Reformation
 
@@ -189,7 +189,7 @@ Exam to be given online. Details to be announced.
 
 - MacCulloch, pp. 769--787, 794--806, 830--838.
 - Thomas Paine, *Age of Reason*; Friedrich Schleiermacher, *On Religion*.
-- **Short writing assignment 6:** Friedrich Schleiermacher's On Religion attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
+- **DUE: Short writing assignment 6:** Friedrich Schleiermacher's On Religion attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
 ### Tuesday, April 13: Christianity in North and South America
 
@@ -201,7 +201,7 @@ Exam to be given online. Details to be announced.
 - MacCulloch, pp. 866--901.
 - Sanneh, ch. 7.
 - Documents on missionary societies in Africa.
-- **Short writing assignment 7:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
+- **DUE: Short writing assignment 7:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
 
 ### Tuesday, April 20: Colonization and Decolonization
 

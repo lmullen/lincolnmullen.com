@@ -411,7 +411,7 @@ Readings:
 
 Before the next class: Sign up for a free account at [Observable](https://observablehq.com).
 
-### Thurs. Apr. 22. Programming and machine learning.
+### Thurs. Apr. 22. Programming, machine learning, and algorithms.
 
 Readings:
 

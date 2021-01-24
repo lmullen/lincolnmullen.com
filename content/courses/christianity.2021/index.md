@@ -116,7 +116,8 @@ Grades will be based on the following assignments. Final grades will be calculat
 ### Tuesday, February 23: Expansion to Northwest Europe 
 
 - MacCulloch, pp. 200--210, 312--318, 329--345.
-- Bede, _Ecclesiastical History_; Patrick, _Confession_.
+- Bede, _Ecclesiastical History_.
+- Patrick, _Confession_.
 
 ### Thursday, February 25: Syrian and Ethiopian Christianity
 

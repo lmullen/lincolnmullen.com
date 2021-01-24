@@ -55,7 +55,7 @@ You are always welcome to talk with me during office hours. To do so, please [bo
 
 # Assignments 
 
-Grades will be based on the following assignments. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
+Grades will be based on the following assignments. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59). Turn in all assignments on Blackboard.
 
 *Class participation (10%).* In addition to participating in class discussions, specific opportunities for participating in class (in person or online) will be explained prior to class sessions.
 

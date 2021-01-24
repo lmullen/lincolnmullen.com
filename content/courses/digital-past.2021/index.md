@@ -3,7 +3,6 @@ coursenum: HIST 390-DL2
 courseurl: "https://historyarthistory.gmu.edu/courses/hist390/course_sections/58960"
 credits: 3
 department: Department of History and Art History
-draft: true
 email: lmullen\@gmu.edu
 instructor: Lincoln Mullen
 instructorurl: "https://lincolnmullen.com"
@@ -16,6 +15,7 @@ title: "The Digital Past: Reconstruction and Redemption"
 toc: true
 university: George Mason University
 year: 2021
+draft: false
 ---
 
 # Course description
@@ -64,11 +64,9 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 Turn in all assignments on Blackboard. In the box for the assignment text, include the URL to your assignment or blog post. This URL must be public. You should test the URL with a browser that is not logged in.
 
-In this class you will create a number of smaller projects on the history of Reconstruction. Each of these projects will demonstrate a specific skill that you learned in class. At the end of the semester, you will combine them into a portfolio of materials. You will also write blog posts on various subjects. **All assignments or blog posts given on Thursday are due before the start of class on Tuesday.**
+In this class you will create a number of smaller projects on the history of Reconstruction. Each of these projects will demonstrate a specific skill that you learned in class. These assignments are deliberately smaller scale and build on one another so that you can develop your digital literacy over time, rather than being obligated to one or two high stakes assignments. You will also write blog posts on various subjects. 
 
-**Blog (20%).** For each assignment, write a blog post of approximately five hundred words, using correct prose with full sentences and paragraphs with topic sentences. Respond to the questions in the prompt thoroughly, but do not simply enumerate your answers. These posts are graded by completion. Thoughtful posts will receive full credit; others will receive no credit.
-
-**Skills assignments (5 @ 8% each = 40%).** You will create five small projects over the course of the semester. You should pick a single state which underwent Reconstruction and, to the extent that the sources available to you will allow it, focus your assignments on that state. Except for the Omeka assignments, embed these in a page on your WordPress website. Due dates and further instructions are listed on the schedule. These are the assignments: (1) metadata in Omeka; (2) exhibits and storytelling in Omeka; (3) database of Freedmen's Bureau records; (4) georeferencing a historical map; (5) mapping data; (6) text mining WPA former slave narratives; (7) visualizing data; (8) creating a timeline of Reconstruction; (9) creating a portfolio of your other assignments for the course.
+**Blog posts and skills assignments (12 @ 5% each = 60%).** Each Thursday you will be assigned either to write a blog post or to undertake a skills-based digital assignment. **All assignments or blog posts given on Thursday are due before the start of class on Tuesday.** Except for the Omeka assignments, embed these in a page or post on your WordPress website. If asked to write a blog post, it should be approximately three hundred words long, using full sentences, paragraphs with topic sentences, and images or other illustrations as appropriate. 
 
 **Quizzes (10%).** Any class may (and likely will) include a brief quiz over the assigned readings.
 
@@ -80,30 +78,30 @@ In this class you will create a number of smaller projects on the history of Rec
 
 # Schedule
 
-### Tues. Jan. 24. Introduction.
+### Tues. Jan. 26. Introduction.
 
 In class:
 
 -   Introduction to Reconstruction and digital history.
 -   [Virginia Secession Convention](http://collections.richmond.edu/secession/).
 
-Assignment: Sign up for web hosting at [Reclaim Hosting](https://portal.reclaimhosting.com/aff.php?aff=004). *Think carefully* about your domain name.
+Before the next class: Sign up for web hosting at Reclaim Hosting. *Think carefully* about your domain name, and find one that has application beyond this class.
 
-### Thurs. Jan. 26. What is digital history?
+### Thurs. Jan. 28. What is digital history?
 
 Readings:
 
 -   Dan Cohen and Roy Rosenzweig, "[Introduction: Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)" and "[Getting Started](http://chnm.gmu.edu/digitalhistory/starting/)," in *Digital History*, online edition (Center for History and New Media, 2005).
+- Alan Jacobs, "[Tending the Digital Commons: A Small Ethics toward the Future](https://iasc-culture.org/THR/THR_article_2018_Spring_Jacobs.php)," *Hedgehog Review* 20, no. 1 (2018).
 -   Miriam Posner, "[How Did They Make That?](http://miriamposner.com/blog/how-did-they-make-that/)," August 29, 2013. Click through to all of the projects listed in this post.
 -   Megan O'Neil, "[Confronting the Myth of the 'Digital Native'](http://chronicle.com/article/Confronting-the-Myth-of-the/145949/)," *Chronicle of Higher Education*, April 21, 2014.
 -   Miriam Posner, Stewart Varner, and Brian Coxall, "[Creating Your Web Presence](http://chronicle.com/blogs/profhacker/creating-your-web-presence-a-primer-for-academics/30458)," *ProfHacker*, February 14, 2011.
--   Ryan Cordell, "[Creating and Maintaining a Professional Presence Online](http://chronicle.com/blogs/profhacker/creating-and-maintaining-a-professional-presence-online-a-roundup-and-reflection/43030)," *ProfHacker*, October 3, 2012.
 
 In class:
 
 -   [Valley of the Shadow](http://valley.lib.virginia.edu/).
 -   [Visualizing Emancipation](http://dsl.richmond.edu/emancipation/).
--   Installing [WordPress](https://wordpress.org/). [Instructions](https://portal.reclaimhosting.com/knowledgebase.php?action=displayarticle&id=2) from Reclaim Hosting.
+-   Installing [WordPress](https://wordpress.org/). [Instructions](https://community.reclaimhosting.com/t/installing-wordpress/265) from Reclaim Hosting.
 
 Assignment: Write a blog post reviewing one of the following digital history projects. What topic, period, and place of history do they cover? What arguments or interpretations do they make? What is the audience for the site? What sources are they based on? Who created them, and who did what work? Who funded them? What technologies do they use? Include screenshots of important parts of the website. Be sure to cite the project according to the *[Chicago Manual of Style](http://mutex.gmu.edu/login?URL=http://www.chicagomanualofstyle.org/16/contents.html)* conventions.
 
@@ -131,7 +129,7 @@ Assignment: Write a blog post reviewing one of the following digital history pro
 -   [Voting America](http://dsl.richmond.edu/voting/)
 -   [Women Writer's Project](http://www.wwp.northeastern.edu/)
 
-### Tues. Jan. 31. Overview of Reconstruction.
+### Tues. Feb 2. Overview of Reconstruction.
 
 Readings:
 
@@ -144,7 +142,7 @@ In class:
 -   Install [Zotero](https://zotero.org) and read/watch the [quick start guide](https://www.zotero.org/support/quick_start_guide).
 -   Sign up for an account at [Feedly](http://feedly.com).
 
-### Thurs. Feb. 2. Finding secondary sources / history of the Internet.
+### Thurs. Feb. 4. Finding secondary sources / history of the Internet.
 
 Readings:
 
@@ -162,11 +160,10 @@ In class:
 -   [JSTOR](http://www.jstor.org/).
 -   [Chicago Manual of Style](http://mutex.gmu.edu/login?URL=http://www.chicagomanualofstyle.org/16/contents.html).
 -   George Oberle, "[U.S. History Sources 1820s-1880s](http://infoguides.gmu.edu/sources-US-1820s-1880s)."
--   We go to Fenwick!
 
-Assignment: Using the library catalog, JSTOR, and other library resources, find a book on Reconstruction history and a journal article on Reconstruction history. Check the book out of the library and bring it to class on Tuesday. Write a blog post with correct citation information for the book and journal article you found according to the [Chicago Manual of Style](http://mutex.gmu.edu/login?URL=http://www.chicagomanualofstyle.org/16/contents.html). In a paragraph each, summarize their argument. Add the items to your Zotero library. Include a link to your public Zotero library including those items in your blog post.
+Assignment: Using the library catalog, JSTOR, and other library resources, find a book on Reconstruction history and a journal article on Reconstruction history. If you can get access to a physical book, that's great, but if not then find an e-book. Access the book through the library. Write a blog post with correct citation information for the book and journal article you found according to the [Chicago Manual of Style](http://mutex.gmu.edu/login?URL=http://www.chicagomanualofstyle.org/16/contents.html). In a paragraph each, summarize their argument. (You can do this by reading the introduction and conclusion.) Add the items to your Zotero library. Include a link to your public Zotero library including those items in your blog post.
 
-### Tues. Feb. 7. Wartime reconstruction.
+### Tues. Feb. 9. Wartime reconstruction.
 
 Readings:
 
@@ -179,7 +176,7 @@ In class:
 -   [A Century of Lawmaking for a New Nation](https://memory.loc.gov/ammem/amlaw/lawhome.html)
 -   [Abraham Lincoln Papers](https://memory.loc.gov/ammem/alhtml/malhome.html)
 
-### Thurs. Feb. 9. Finding primary sources.
+### Thurs. Feb. 11. Finding primary sources.
 
 Readings:
 
@@ -190,14 +187,15 @@ In class:
 
 -   [DPLA](https://dp.la/)
 -   [African American Newspapers](http://mutex.gmu.edu/login?URL=http://infoweb.newsbank.com/?db=EANX&d_collections=EANAAA)
+-   [Chronicling America](https://chroniclingamerica.loc.gov)
 -   [ProQuest Historical Newspapers](http://infowiz.gmu.edu/dbs/subjects/index.php).)
 -   [Schomburg Center for Research in Black Culture](https://www.nypl.org/about/locations/schomburg/digital-schomburg)
 -   Databases listed in the Mason library's [history guide](http://infowiz.gmu.edu/dbs/subjects/hist).
 -   George Oberle, "[U.S. History Sources 1820s-1880s](http://infoguides.gmu.edu/sources-US-1820s-1880s)."
 
-Assignment: Find five primary sources, from at least three different collections. You are welcome, even encouraged, to look for sources mentioned in the textbook. Add your sources to Zotero, and include a link a collection in Zotero. Write a blog post that cites the items using correct Chicago citations, and indicate which database they came from. Briefly summarize each of the sources. What did you learn from reading these sources? What did you learn about looking for sources and the reliability of sources found online?
+Assignment: Find five primary sources, from at least two different collections. You are welcome, even encouraged, to look for sources mentioned in the textbook. Add your sources to Zotero, and include a link a collection in Zotero. Write a blog post that cites the items using correct Chicago citations, and indicate which database they came from. Briefly summarize each of the sources. What did you learn from reading these sources? What did you learn about looking for sources and the reliability of sources found online?
 
-### Tues. Feb. 14. Early Reconstruction. Timelines.
+### Tues. Feb. 16. Early Reconstruction. Timelines.
 
 Readings:
 
@@ -208,9 +206,9 @@ In class:
 
 -   [Timeline.js](https://timeline.knightlab.com/). Make sure you have a Google account before coming to class.
 
-Assignment: Over the course of the semester, create a timeline of events in Reconstruction. The timeline should include approximately 20 events in two different categories: national events and events in your chosen state. Each event should include an accurate date, several sentences of description, links to more information when appropriate, and an image if possible. Unlike most assignments, this is **due on May 11 at 5 p.m.**
+Assignment: Create a timeline of events in Reconstruction. The timeline should include approximately 12 events. Each event should include an accurate date, several sentences of description, links to more information when appropriate, and an image if possible. While of course you won't cover the entire history of Reconstruction in 12 events, pick some kind of theme (e.g., black representation in Congress, political violence, occupation, Greater Reconstruction, and so on).
 
-### Thurs. Feb 16. Metadata and Omeka. Copyright.
+### Thurs. Feb 18. Metadata and Omeka. Copyright.
 
 Readings:
 
@@ -220,49 +218,48 @@ Readings:
 -   Zachary Crockett, "[How Mickey Mouse Evades the Public Domain](https://priceonomics.com/how-mickey-mouse-evades-the-public-domain/)," *Priceonomics*, January 7, 2016.
 -   Corynne McSherry, "[Court Upholds Legality of Google Books: Tremendous Victory for Fair Use and the Public Interest](https://www.eff.org/deeplinks/2013/11/court-upholds-legality-google-books-tremendous-victory-fair-use-and-public)," Electronic Frontier Foundation, November 14, 2013.
 -   Nate Harrison, "[The Amen Break](https://www.youtube.com/watch?v=5SaFTm2bcac)" (2004).
--   George Mason Copyright Office, sections on [copyright](http://copyright.gmu.edu/?page_id=241) and [fair use](http://copyright.gmu.edu/?page_id=40).
 
 In class:
 
 -   ALA, "[Digital Copyright Slider](http://librarycopyright.net/resources/digitalslider/)" (2012).
 -   [Creative Commons licenses](http://creativecommons.org/licenses/), including the "license deed" for each license.
+-    [Omeka S user manual](https://omeka.org/s/docs/user-manual/)
+
 
 Assignment: Using the primary sources that you gathered earlier, or other sources that you have found, create an Omeka collection with at least five Omeka items. Each item must be fully described in the metadata, though you do not necessarily have to use every Dublin Core field. Be sure to include a reference to the place you found the source in the appropriate field, and a copyright statement as appropriate.
 
-### Tues. Feb. 21. Freedom and Emancipation.
+### Tues. Feb. 23. Freedom and Emancipation.
 
 Readings:
 
 -   Foner, ch. 3 ("The Meaning of Freedom").
 -   [Documenting the American South](http://docsouth.unc.edu/)
 
-Before the next class: Install the [ExhibitBuilder](http://omeka.org/add-ons/plugins/exhibit-builder/) plugin on your Omeka site. (Here is [how to install a plugin](https://community.reclaimhosting.com/t/uploading-plugins-to-omeka/195).) Make sure that your Omeka site has at least five interesting items that work together to tell a coherent story about some aspect of Reconstruction. If you need to find other sources, then find other sources.
-
-### Thurs. Feb 23. Omeka exhibits.
+### Thurs. Feb 25. Omeka exhibits.
 
 Readings:
 
 -   Yoni Appelbaum, "[The Great Illusion of Gettysburg](http://www.theatlantic.com/national/archive/2012/02/the-great-illusion-of-gettysburg/238870/)," *The Atlantic*, February 5, 2012.
--   [Exhibit builder tutorial](http://omeka.org/codex/Plugins/ExhibitBuilder_3.0).
+-    [Omeka S user manual](https://omeka.org/s/docs/user-manual/)
 
 In class:
 
--   Sample exhibits: [1](http://omeka.lts.brandeis.edu/exhibits/show/africans-in-boston), [2](http://omeka.lts.brandeis.edu/exhibits/show/catholicism-boston), [3](http://omeka.lts.brandeis.edu/exhibits/show/hist-144a--zi-jing-teoh), [4](http://omeka.lts.brandeis.edu/exhibits/show/boston-synagogues), [5](http://omeka.lts.brandeis.edu/exhibits/show/mapping-daniel-rogers--from-bo)
+-   Creating exhibits in Omeka.
 
-Assignment: Create a coherent Omeka exhibit that tells a story about some aspect of Reconstruction. The exhibit should include a minimum of five items, each with metadata and in most cases with images. Link these items together with prose. You are practicing not just the technology behind Omeka, but the craft of writing for the web. **Due: Saturday, March 4.**
+Assignment: Create a coherent Omeka exhibit that tells a story about some aspect of Reconstruction. You may draw on other people's items, but be sure not to modify any but your own. The exhibit should include a minimum of five items, each with metadata and in most cases with images. Link these items together with prose. You are practicing not just the technology behind Omeka, but the craft of writing for the web.
 
-### Tues. Feb 28. Free labor.
+### Tues. Mar. 2. Free labor.
 
 Readings:
 
 -   Foner, ch. 4 ("Ambiguities of Free Labor").
 -   [The Freedmen's Bureau Online](http://freedmensbureau.com/).
 
-In class: working on exhibits.
+In class: Discussing your exhibits.
 
-### Thurs. Mar. 2. Databases.
+### Thurs. Mar. 4. Databases.
 
-Before class: Sign up for [Airtable](https://airtable.com/).
+Before class: Sign up for a free account on [Airtable](https://airtable.com/).
 
 Readings:
 
@@ -270,16 +267,15 @@ Readings:
 -   Mark Merry, [Designing Databases for Historical Research](http://port.sas.ac.uk/mod/book/view.php?id=75), especially part D.
 -   Lev Manovich, "[Database as a Genre of New Media](http://vv.arts.ucla.edu/AI_Society/manovich.html)," AI & Society 14 (2000).
 
-In class: Working with no more than four people in a group, create a database that digitizes elements from the Freedmen's Bureau. Decide on the schema of the database, i.e., which tables will hold which comments. Enter a few items each to make sure that your database model actually fits the data. Have the structure of your database complete by next Thursday for review in class. Be prepared to talk in class about the decisions that you made.
+In class: Working with no more than four people in a group, create a database that digitizes elements from the Freedmen's Bureau. Decide on the schema of the database, i.e., which tables will hold which content. Enter a few items each to make sure that your database model actually fits the data. Have the structure of your database complete by next Thursday for review in class. Be prepared to talk in class about the decisions that you made.
 
-### Tues. Mar. 7. Presidential Reconstruction.
+### Tues. Mar. 9. Presidential Reconstruction.
 
 Readings:
 
 -   Foner, ch. 5 ("The Failure of Presidential Reconstruction").
--   [Chronicling America](http://chroniclingamerica.loc.gov/).
 
-### Thurs. Mar 9. Radical Reconstruction. Databases continued.
+### Thurs. Mar 11. Radical Reconstruction. Databases continued.
 
 Readings:
 
@@ -287,9 +283,9 @@ Readings:
 
 In class: Working on database assignment.
 
-Assignment: Working in your group of no more than four people, finalize your database model. Each person should contribute at least twenty records (i.e. rows) to the database. Make sure that each person's contributions are marked in a column. Each person should write his or her own blog post, including a link to the publicly available database. The post should explain the decisions you made in normalizing the data. Submit the link to your blog post to Blackboard. **Due: start of class on Tuesday, March 21.**
+Assignment: Working in your group of no more than four people, finalize your database model. Each person should contribute at least fifteen records (i.e. rows) to the database. Make sure that each person's contributions are marked in a column. Each person should write his or her own blog post, including a link to the publicly available database. The post should explain the decisions you made in normalizing the data. Submit the link to your blog post to Blackboard. 
 
-### Tues. Mar 21. Georeferencing.
+### Tues. Mar 16. Georeferencing.
 
 Before class:
 
@@ -310,38 +306,38 @@ In class:
 
 Assignment: Georeference your historical map. Embed it in a blog post, and write a post explaining what you learned from the map and how georeferencing maps might be useful for understanding Reconstruction. Be sure to include a citation to the map and acknowledge any permissions that have been granted to use it.
 
-### Thurs. Mar. 23. Midterm examination.
+### Thurs. Mar. 18. Midterm examination.
 
-Bring a blue book and a pen.
+Exam to be given online. Details to be announced.
 
-### Tues. Mar. 28. Southern politics.
+### Tues. Mar. 23. Southern politics.
 
 Readings:
 
 -   Foner, ch. 7 ("Blueprints for a Republican South").
 -   [Mapping Occupation](http://mappingoccupation.org/)
 
-### Thurs. Mar 30. Mapping.
+### Thurs. Mar 25. Mapping.
 
 Before class:
 
--   Sign up for a free account at [CartoDB](http://cartodb.com/) and look through [the introduction](http://docs.cartodb.com/cartodb-editor.html).
+-   Look over [StoryMap.js](https://storymap.knightlab.com/?utm_source=syndicate&utm_campaign=onextrapixel-oct2016&utm_medium=post)
 
 Readings:
 
 -   Stephen Robertson, "[Putting Harlem on the Map](http://quod.lib.umich.edu/d/dh/12230987.0001.001/1:8/--writing-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1#8.2)," *Writing History in the Digital Age*, edited by Jack Dougherty and Kristen Nawrotzki (2012).
 -   [Data Maps](http://lincolnmullen.com/projects/spatial-workshop/data-maps.html)
 
-Assignment: Using the sample datasets provided, create a map using CartoDB. The map should clearly communicate its subject. Use annotations and labels as necessary. Embed the map in a blog post, and write about what you learned from making the map and the map itself.
+Assignment: Using sources you have already gathered, create a narrative map of Reconstruction using StoryMap.js. The map should clearly communicate its subject and develop as a narrative across space. Embed the map in a blog post, and write about what you learned from making the map and the map itself.
 
-### Tues. Apr. 4. Economics of Reconstruction.
+### Tues. Mar. 30. Economics of Reconstruction.
 
 Readings:
 
 -   Foner, ch. 8 ("Reconstruction: Political and Economic").
 -   [Mining the Dispatch](http://dsl.richmond.edu/dispatch/)
 
-### Thurs. Apr. 6. Text mining.
+### Thurs. Apr. 1. Text mining.
 
 Before class: Experiment with either Google Books or Bookworm.
 
@@ -352,23 +348,22 @@ Readings:
 
 In class:
 
--   [Voyant](http://voyant-tools.org/).
 -   Google Books [Ngrams Viewer](https://books.google.com/ngrams).
 -   Brigham Young University, [Corpus of Historical American English](http://corpus.byu.edu/coha/) and [Time Corpus](http://corpus.byu.edu/time/).
 -   [Bookworm](http://bookworm.culturomics.org/), especially Chronicling America.
 
-Assignment: Write a blog post about what you learned using text analysis tools. You should include screenshots of visualizations from at least two visualization tools. You can use Voyant Tools and Google Books as we did in class, or you can use one of the other's linked on the syllabus. Search for key terms in the history of Reconstruction of slavery. Embed these visualizations in a blog post. What did you learn from this distant reading of texts? What does this approach reveal that other methods do not?
+Assignment: Write a blog post about what you learned using text analysis tools. You should include screenshots of visualizations from at least two visualization tools. You can use Google Books as we did in class, or you can use one of the others linked on the syllabus. Search for key terms in the history of Reconstruction of slavery. Embed these visualizations in a blog post. What did you learn from this distant reading of texts? What does this approach reveal that other methods do not?
 
-### Tues. Apr. 11. Enforcing Reconstruction. Black political conventions.
+### Tues. Apr. 6. Enforcing Reconstruction. Black political conventions.
 
 Readings:
 
 -   Foner, ch. 9 ("The Challenge of Enforcement").
 -   [Colored Conventions](http://coloredconventions.org/).
 
-### Thurs. Apr. 13. Visualization.
+### Thurs. Apr. 8. Visualization.
 
-Before class: Create a free account at [Plotly](https://plot.ly/).
+Before class: Create a free account at [Tableau Public](https://public.tableau.com/en-us/s/).
 
 Readings:
 
@@ -380,16 +375,16 @@ In class:
 
 -   Minard map in [French](http://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png) (higher quality) and [English](http://www.datavis.ca/gallery/minard/minard-odt.jpg).
 
-Assignment: Using the datasets provided, create at least three visualizations. Be sure to include titles and captions, with citations to the data. What did your visualizations show you that you didn't see before? What kinds of literacy do your visualizations require? Embed the visualizations in a blog post where you answer these questions.
+Assignment: Using the datasets provided, create at least two visualizations. Be sure to include titles and captions, with citations to the data. What did your visualizations show you that you didn't see before? What kinds of literacy do your visualizations require? Embed the visualizations in a blog post where you answer these questions.
 
-### Tues. Apr. 18. Reconstruction in the North.
+### Tues. Apr. 13. Reconstruction in the North.
 
 Readings:
 
 -   Foner, ch. 10 ("The Reconstruction of the North").
 -   William G. Thomas III and Edward L. Ayers, "The Differences Slavery Made: A Close Analysis of Two American Communities," *American Historical Review* 108, no. 5 (December 1, 2003): 1299--1307, doi:10.1086/587017.
 
-### Thurs. Apr. 20. Sustainability, ethics, security.
+### Thurs. Apr. 15. Sustainability, ethics, security.
 
 Readings:
 
@@ -407,42 +402,41 @@ In class:
 
 Assignment: Pick one of the following two topics and write a blog post in answer to these questions. *Topic 1:* How sustainable is the digital work that you have done in this course. What would it take to sustain each of the assignments that you have completed? Which of the assignments are you able to export from the web services where you created them? *Topic 2:* How secure is your digital life? Who has access to your information? What kinds of things might hackers, corporations, or states be able to figure out about you from that information?
 
-### Tues. Apr. 25. Economics of Reconstruction.
+### Tues. Apr. 20. Economics of Reconstruction.
 
 Readings:
 
 -   Foner, ch. 11 ("The Politics of Depression").
 -   [America's Public Bible](http://americaspublicbible.org/).
 
-### Thurs. Apr. 27. Programming and machine learning.
+Before the next class: Sign up for a free account at [Observable](https://observablehq.com).
+
+### Thurs. Apr. 22. Programming and machine learning.
 
 Readings:
 
 -   Paul Ford, "[What is Code](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)," *Business Week*, June 11, 2015.
 -   Matthew Kirschenbaum, "[Hello Worlds](http://chronicle.com/article/Hello-Worlds/5476)," January 23, 2009.
 -   Jeff Atwood, "[Please Don't Learn to Code](http://blog.codinghorror.com/please-dont-learn-to-code/)," *Coding Horror*, May 15, 2012.
--   Ian Bogost, "[The Cathedral of Computation](http://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/)," *The Atlantic*, January 15, 2015. `<!--
-    -   Lev Manovich, "[The Algorithms of Our Lives](http://chronicle.com/article/The-Algorithms-of-Our-Lives-/143557/)," *Chronicle of Higher Education*, December 16, 2013.
-    -->`{=html}
+-   Ian Bogost, "[The Cathedral of Computation](http://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/)," *The Atlantic*, January 15, 2015.
+-   Lev Manovich, "[The Algorithms of Our Lives](http://chronicle.com/article/The-Algorithms-of-Our-Lives-/143557/)," *Chronicle of Higher Education*, December 16, 2013.
 
-Assignment: Write a blog post about the programming we did in class. Have you ever programmed before? Why or why not? What utility can you see in programming for history? For your major? Include images of your output if they help make your point.
+In class: Programming in JavaScript.
 
-### Tues. May. 2. Redemption.
+### Tues. Apr. 27. Redemption.
 
 Readings:
 
 -   Foner, ch. 12 ("Redemption and After") and epilogue ("The River Has Its Bend").
 -   [Library of Congress Reconstruction resources](https://www.loc.gov/topics/content.php?subcat=8)
 
-### Thurs. May. 4. Catch up and conclusion.
+### Thurs. Apr. 29. Conclusion.
 
-Readings: TBD.
+In class: How Reconstruction has shaped our present.
 
-Assignment:
+## Tuesday, May 4: Final exam, 1:30pm–4:15pm
 
--   There is no final exam.
--   Timeline (see description on Feb. 14) is due Thursday, May 11, at 5 p.m.
--   Portfolio is due Thursday, May 11, at 5 p.m. Create a page on your website which links to all of the assignments and blog posts you have created for this course. Include images of the assignments as the link where appropriate. *Make it attractive.* You should write prose describing what each assignment contributed to understanding the history of Reconstruction, and you should tie the assignments together with prose about Reconstruction. The total length of the text on this page should be about 250 words (max 500 words).
+Exam to be given online. Details to be announced.
 
 # Fine print
 
@@ -450,9 +444,9 @@ This syllabus may be updated online as necessary. The online version of this syl
 
 Follow the GMU [COVID-19 safety protocols](https://www2.gmu.edu/safe-return-campus) at all times.
 
-You are expected to attend each class (in person or online) and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class. If any health concerns come up, you may attend class online rather than in person even if you are registered for an in-person section.
+You are expected to attend each class and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class.
 
-Computers, phones, and the like are to be used only for course work while class is in session. Grades may be reduced due to repeated absences. Complete all the readings before the start of each class. No unexcused late work will be accepted, and no late short assignments will be accepted for any reason. No work will be accepted after the last day of class unless specifically assigned. I will discuss grades only in conversation during office hours, not over email.
+Computers, phones, and the like are to be used only for course work while class is in session. Grades may be reduced due to repeated absences. Complete all the readings before the start of each class. No unexcused late work will be accepted. No work will be accepted after the last day of class unless specifically assigned. I will discuss grades only in conversation during office hours, not over email.
 
 Class communications will be sent to your GMU email account, which you must check. You should also check the course Slack group regularly, and be logged into it during class if you are not in the classroom in-person.
 
@@ -466,5 +460,5 @@ If you are a student with a disability and you need academic accommodations, ple
 
 Students are responsible for verifying their enrollment in this class. Schedule adjustments should be made by the deadlines published in the Schedule of Classes. (Deadlines each semester are published in the Schedule of Classes available from the [Registrar's website](https://registrar.gmu.edu/).)
 
-HIST 390 is taught by many people at George Mason, and I have borrowed assignments, readings, and the structure of the course from syllabi by Erin Bush, Dan Cohen, Amanda French, Mills Kelly, Sharon Leon, Mike O'Malley, and Stephen Robertson.
+HIST 390 is taught by many people at George Mason, and I have borrowed assignments, readings, and the structure of the course from syllabi by Erin Bush, Dan Cohen, Amanda French, Mills Kelly, Sharon Leon, Mike O'Malley, Abby Mullen, and Stephen Robertson.
 

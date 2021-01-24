@@ -228,7 +228,7 @@ Exam to be given online. Details to be announced.
 - Sanneh, ch. 9.
 - **DUE: Paper on the reception of Christianity in non-Western cultures**. This paper will form the basis of our class discussion today.
 
-### Thursday, May 4: Final exam, 10:30am–1:15pm
+### Tuesday, May 4: Final exam, 10:30am–1:15pm
 
 Exam to be given online. Details to be announced.
 

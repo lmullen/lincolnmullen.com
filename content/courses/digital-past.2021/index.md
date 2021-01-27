@@ -285,7 +285,11 @@ In class: Working on database assignment.
 
 Assignment: Working in your group of no more than four people, finalize your database model. Each person should contribute at least fifteen records (i.e. rows) to the database. Make sure that each person's contributions are marked in a column. Each person should write his or her own blog post, including a link to the publicly available database. The post should explain the decisions you made in normalizing the data. Submit the link to your blog post to Blackboard. 
 
-### Tues. Mar 16. Georeferencing.
+### Tues. Mar. 16. Midterm examination.
+
+Exam to be given online. Details to be announced.
+
+### Thurs. Mar 18. Georeferencing.
 
 Before class:
 
@@ -306,9 +310,6 @@ In class:
 
 Assignment: Georeference your historical map. Embed it in a blog post, and write a post explaining what you learned from the map and how georeferencing maps might be useful for understanding Reconstruction. Be sure to include a citation to the map and acknowledge any permissions that have been granted to use it.
 
-### Thurs. Mar. 18. Midterm examination.
-
-Exam to be given online. Details to be announced.
 
 ### Tues. Mar. 23. Southern politics.
 

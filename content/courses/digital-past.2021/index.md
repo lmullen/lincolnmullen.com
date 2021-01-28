@@ -99,8 +99,9 @@ Readings:
 
 In class:
 
--   [Valley of the Shadow](http://valley.lib.virginia.edu/).
 -   [Visualizing Emancipation](http://dsl.richmond.edu/emancipation/).
+-   [Virginia Secession Convention](http://collections.richmond.edu/secession/).
+-   [Valley of the Shadow](http://valley.lib.virginia.edu/).
 -   Installing [WordPress](https://wordpress.org/). [Instructions](https://community.reclaimhosting.com/t/installing-wordpress/265) from Reclaim Hosting.
 
 Assignment: Write a blog post reviewing one of the following digital history projects. What topic, period, and place of history do they cover? What arguments or interpretations do they make? What is the audience for the site? What sources are they based on? Who created them, and who did what work? Who funded them? What technologies do they use? Include screenshots of important parts of the website. Be sure to cite the project according to the *[Chicago Manual of Style](http://mutex.gmu.edu/login?URL=http://www.chicagomanualofstyle.org/16/contents.html)* conventions.

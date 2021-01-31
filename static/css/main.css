@@ -714,6 +714,7 @@ Print styles
 }
 
 /* Gallery styles */
+
 #gallery {
   width: 100%;
   margin: 0;
@@ -766,6 +767,15 @@ Print styles
   grid-row: 4/5;
 }
 
+
+@media only screen and (max-width: 800px) {
+  #gallery {
+    display: none;
+  }
+  .gallery-divider {
+    display: none;
+  }
+}
 
 
 /* ==========================================================================

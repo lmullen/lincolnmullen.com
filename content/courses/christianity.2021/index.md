@@ -240,6 +240,8 @@ Follow the GMU [COVID-19 safety protocols](https://www2.gmu.edu/safe-return-camp
 
 You are expected to attend each class (in person or online) and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class. If any health concerns come up, you may attend class online rather than in person even if you are registered for an in-person section.
 
+As a courtesy to you to help you with the online or hybrid format of the course, I will share my slides and recordings of our Zoom sessions for the most recent class periods. These are intended to supplement, not replace, attendance in class. By accessing these materials, you agree not to distribute them to anyone outside the course.
+
 Computers, phones, and the like are to be used only for course work while class is in session. Grades may be reduced due to repeated absences. Complete all the readings before the start of each class. No unexcused late work will be accepted, and no late short assignments will be accepted for any reason. No work will be accepted after the last day of class unless specifically assigned. I will discuss grades only in conversation during office hours, not over email.
 
 Class communications will be sent to your GMU email account, which you must check. You should also check the course Slack group regularly, and be logged into it during class if you are not in the classroom in-person.

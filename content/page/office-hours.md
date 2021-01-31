@@ -8,6 +8,6 @@ If you are a student at GMU or a GRA at RRCHNM, you are always welcome to talk w
 
 <https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09> 
 
-**Booking an appointment.** Please click the booking button below or go to the [booking page](https://lincolnmullen.youcanbook.me/) and pick your appointment. If the times that I have available do not work for you, you are welcome to [email me](mailto:lmullen@gmu.edu) to suggest a different time. For spring 2021, I am available only on Tuesday, Wednesday, and Thursday afternoons.
+**Booking an appointment.** Please click the booking button below or go to the [booking page](https://lincolnmullen.youcanbook.me/) and pick your appointment. Appointments are for fifteen minutes, but if you are a graduate student or are really sure our discussion will take 30 minutes, you may sign up for back-to-back slots. If the times that I have available do not work for you, you are welcome to [email me](mailto:lmullen@gmu.edu) to suggest a different time. For spring 2021, I am available only on Tuesday, Wednesday, and Thursday afternoons.
 
 {{< booking >}}

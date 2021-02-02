@@ -149,11 +149,9 @@ Readings:
 
 -   Roy Rosenzweig, "[Can History Be Open Source: Wikipedia and the Future of the Past](http://www.jstor.org.mutex.gmu.edu/stable/4486062)," *Journal of American History* 93, 1 (2006).
 -   "[How Search Works](http://www.google.com/insidesearch/howsearchworks/)," Google.
--   "[How the World Came to be Run by Computer Code](http://www.bbc.co.uk/timelines/zxsrcdm)," BBC.
 -   "[How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)."
 -   "[History of the Internet](https://www.youtube.com/watch?v=9hIQjrMHTv4)."
 -   "[The Web at 25 in the U.S.](http://www.pewinternet.org/2014/02/27/the-web-at-25-in-the-u-s/)," Pew Research, February 27, 2014.
--   Vannevar Bush, "[As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/3881/?single_page=true)," *The Atlantic* (July 1945).
 
 In class:
 
@@ -169,7 +167,6 @@ Assignment: Using the library catalog, JSTOR, and other library resources, find 
 Readings:
 
 -   Foner, ch. 1 ("The World the War Made").
--   Caleb McDaniel, "[How to Read for History](http://www.owlnet.rice.edu/~wcm1/howtoread.html)," August 1, 2008.
 -   [The Spread of U.S. Slavery](http://lincolnmullen.com/projects/slavery/).
 
 In class:
@@ -218,7 +215,6 @@ Readings:
 -   Dan Cohen and Roy Rosenzweig, "[Owning the Past](http://chnm.gmu.edu/digitalhistory/copyright/)," in *Digital History*.
 -   Zachary Crockett, "[How Mickey Mouse Evades the Public Domain](https://priceonomics.com/how-mickey-mouse-evades-the-public-domain/)," *Priceonomics*, January 7, 2016.
 -   Corynne McSherry, "[Court Upholds Legality of Google Books: Tremendous Victory for Fair Use and the Public Interest](https://www.eff.org/deeplinks/2013/11/court-upholds-legality-google-books-tremendous-victory-fair-use-and-public)," Electronic Frontier Foundation, November 14, 2013.
--   Nate Harrison, "[The Amen Break](https://www.youtube.com/watch?v=5SaFTm2bcac)" (2004).
 
 In class:
 

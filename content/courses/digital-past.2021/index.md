@@ -156,6 +156,7 @@ Readings:
 In class:
 
 -   [GMU library catalog](https://academic.oup.com/jah/article/93/1/117/813367/Can-History-Be-Open-Source-Wikipedia-and-the)
+-   [HathiTrust](https://www.hathitrust.org)
 -   [JSTOR](http://www.jstor.org/).
 -   [Chicago Manual of Style](http://mutex.gmu.edu/login?URL=http://www.chicagomanualofstyle.org/16/contents.html).
 -   George Oberle, "[U.S. History Sources 1820s-1880s](http://infoguides.gmu.edu/sources-US-1820s-1880s)."

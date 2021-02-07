@@ -27,9 +27,10 @@ This course is organized around a comparative examination of the many forms glob
 At the end of this course, you will be able 
 
 1. to display familiarity with Christianity in a variety of global contexts across time;
-2. to understand key questions of transmission, reception, and inculturation that affect Christianity's relationship to empire and other global systems;
-3. to demonstrate specific knowledge of topics in the history of Christianity, such as Christendom, the Reformation, missions, and Pentecostalism; and
-4. to write clearly and coherently about the history of Christianity.
+2. understand the historic development of Christian beyond the West as well as the later reception of Christianity in non-Western cultures;
+3. to understand key questions of transmission, reception, and inculturation that affect Christianity's relationship to empire and other global systems;
+4. to demonstrate specific knowledge of topics in the history of Christianity, such as Christendom, the Reformation, missions, and Pentecostalism; and
+5. to write clearly and coherently about the history of Christianity.
 
 This course fulfills the Mason Core requirement for [Global Understanding](https://catalog.gmu.edu/mason-core/#global), and you will also meet those learning goals in addition to the course-specific learning goals.
 
@@ -98,7 +99,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 ### Thursday, February 11: Christianity and Empire
 
 - MacCulloch, pp. 155--176.
-- Sanneh, ch. 1.
+- Sanneh, ch. 1 ("Whither Christianity?")
 - *Martyrdom of Perpetua and Felicity*.
 
 ### Tuesday, February 16: Councils from Nicaea to Chalcedon
@@ -128,7 +129,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 ### Tuesday, March 2: Islam and Christianity
 
 - MacCulloch, pp. 255--267, 277--285.
-- Sanneh, ch. 2.
+- Sanneh, ch. 2 ("The Christian Movement in Islamic Perspective")
 - John of Damascus, *Fount of Knowledge*.
 - **DUE: Short writing assignment 4:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic, and how do they differ from the historical account in MacCulloch and Sanneh? Write two full double-spaced pages. Use quotations from the primary sources as evidence in your response.
 
@@ -139,7 +140,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 ### Tuesday, March 9: Asian and African Christianities
 
-- Sanneh, ch. 3.
+- Sanneh, ch. 3 ("Old World Precedents and New World Directions")
 - Cosmas Indicopleustes, _Christian Topography_.
 - John of Ephesus, _Ecclesiastical History_.
 - Chinese Christian sutras.
@@ -179,13 +180,13 @@ Exam to be given online. Details to be announced.
 ### Thursday, April 1: Spread of Christianity in Asia
 
 - MacCulloch, pp. 689--696, 703--709.
-- Sanneh, ch. 6.
+- Sanneh, ch. 8 ("Christian Awakening and the New China")
 - Documents from the Taiping Rebellion.
 
 ### Tuesday, April 6: Spread of Christianity in Africa
 
 - MacCulloch, pp. 709--715.
-- Sanneh, ch. 8.
+- Sanneh, ch. 6 ("Resurgence and the New Order in West Africa").
 - Documents on ecclesiastical independence in western and southern Africa.
 
 ### Thursday, April 8: Enlightenment and Revolutions 
@@ -202,19 +203,19 @@ Exam to be given online. Details to be announced.
 ### Thursday, April 15: Christianity and Missions in the Modern Era
 
 - MacCulloch, pp. 866--901.
-- Sanneh, ch. 7.
+- Sanneh, ch. 7 ("Civilization and the Limits of Mission").
 - Documents on missionary societies in Africa.
 - **DUE: Short writing assignment 8:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
 
 ### Tuesday, April 20: Colonization and Decolonization
 
 - MacCulloch, ch. 24.
-- Sanneh, ch. 4.
+- Sanneh, ch. 4 ("The Yogi and the Commisar").
 - Complete reading Achebe, _Things Fall Apart_. (Whoever has ears to hear: start this book in plenty of time. As you read note that the section involving missionaries and Christianity in the denouement will obviously be our focus, but that episode depends on the narrative structure of the entire novel.)
 
 ### Thursday, April 22: Pentecostalism
 
-- Sanneh, ch. 5.
+- Sanneh, ch. 5 ("Pillar of Charismatic Renewal").
 - Nimi Wariboko, "Pentecostalism in Africa," *Oxford Research Encyclopedia of African History* (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
 - Documents on Pentecostalism in Africa and South America.
 

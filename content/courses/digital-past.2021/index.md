@@ -179,7 +179,7 @@ In class:
 
 Readings:
 
--   Sam Wineburg, "[Thinking Like a Historian](http://www.loc.gov/teachers/tps/quarterly/historical_thinking/article.html)," *Teaching with Primary Sources Quarterly* 3, 1 (Winter 2010).
+-   Sam Wineburg, "[Thinking Like a Historian](https://www.loc.gov/static/programs/teachers/about-this-program/teaching-with-primary-sources-partner-program/documents/historical_thinking.pdf)," *Teaching with Primary Sources Quarterly* 3, 1 (Winter 2010).
 -   William Cronon, "[Getting Ready to Do History](http://www.williamcronon.net/writing/Cronon_Carnegie_Essay_Getting_Ready_to_Do_History_2004.pdf)," Carnegie Essays on the Doctorate (2004), pp. 1--6.
 
 In class:

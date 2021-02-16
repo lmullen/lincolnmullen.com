@@ -205,7 +205,7 @@ In class:
 
 -   [Timeline.js](https://timeline.knightlab.com/). Make sure you have a Google account before coming to class.
 
-Assignment: Create a timeline of events in Reconstruction. The timeline should include approximately 12 events. Each event should include an accurate date, a sentence of description, and an image if possible. While of course you won't cover the entire history of Reconstruction in 12 events, pick some kind of theme (e.g., black representation in Congress, political violence, occupation, Greater Reconstruction, and so on).
+In-class assignment: Working with a small group, create a timeline of events in Reconstruction. The timeline should include approximately 12 events. Each event should include an accurate date, a sentence of description, and an image if possible. While of course you won't cover the entire history of Reconstruction in 12 events, pick some kind of theme (e.g., black representation in Congress, political violence, occupation, Greater Reconstruction, and so on). Embed your timeline in a blog post and submit it; of course, everyone in your group will submit the same timeline.
 
 ### Thurs. Feb 18. Metadata and Omeka. Copyright.
 

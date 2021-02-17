@@ -221,7 +221,7 @@ In class:
 
 -   ALA, "[Digital Copyright Slider](http://librarycopyright.net/resources/digitalslider/)" (2012).
 -   [Creative Commons licenses](http://creativecommons.org/licenses/), including the "license deed" for each license.
--    [Omeka S user manual](https://omeka.org/s/docs/user-manual/)
+-    [Omeka classic user manual](https://omeka.org/classic/docs/)
 
 
 Assignment: Using the primary sources that you gathered earlier, or other sources that you have found, create an Omeka collection with at least five Omeka items. Each item must be fully described in the metadata, though you do not necessarily have to use every Dublin Core field. Be sure to include a reference to the place you found the source in the appropriate field, and a copyright statement as appropriate.

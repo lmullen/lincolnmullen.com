@@ -217,7 +217,6 @@ Exam to be given online. Details to be announced.
 
 - Sanneh, ch. 5 ("Pillar of Charismatic Renewal").
 - Nimi Wariboko, "Pentecostalism in Africa," *Oxford Research Encyclopedia of African History* (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
-- Documents on Pentecostalism in Africa and South America.
 
 ### Tuesday, April 27: Vatican II
 

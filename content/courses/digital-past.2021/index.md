@@ -306,7 +306,7 @@ In class:
 -   NYPL [Building Inspector](http://buildinginspector.nypl.org/).
 -   Ben Schmidt's [subway maps](http://benschmidt.org/dcmetro/).
 
-Assignment: Georeference your historical map. Embed it in a blog post, and write a post explaining what you learned from the map and how georeferencing maps might be useful for understanding Reconstruction. Be sure to include a citation to the map and acknowledge any permissions that have been granted to use it.
+Assignment: Georeference your historical map. Link to your georectified map in a blog post, and write a brief post explaining what you learned from the map and how georeferencing maps might be useful for understanding Reconstruction. Be sure to include a link back to the David Rumsey Map Collection.
 
 
 ### Tues. Mar. 23. Southern politics.

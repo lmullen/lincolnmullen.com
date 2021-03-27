@@ -1,13 +1,16 @@
 ---
-title: "Office hours"
+title: "Office hours and scheduling"
+slug: office-hours
 ---
 
-If you are a student at GMU or a GRA at RRCHNM, you are always welcome to talk with me in office hours. All office hours will be held remotely via Zoom. Please create an office hours appointment below unless we've agreed on a different time. 
+Greetings. You probably landed here either because you are a student looking for an office hours appointment or a collaborator looking to schedule a meeting. I would like to do whatever I can to help you, but it is also the case that many more people request my attention than I can possibly accommodate. To make this work, could you please a time from the appropriate category below? These really and truly are all of the times that I have available.
 
-**How to join a Zoom call for office hours.** Please go to [the URL below](https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09) to join my office hours via Zoom. If there are other people in the queue, you might have to wait a few minutes.
+**Zoom link.** For the time being, all meetings are held via Zoom. Unless we have agreed on some other venue, please [use this Zoom link](https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09). If there are other people in the queue, you might have to wait a few minutes.
 
-<https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09> 
+**Types of appointments.** Please select the appropriate type of appointment.
 
-**Booking an appointment.** Please click the booking button below or go to the [booking page](https://lincolnmullen.youcanbook.me/) and pick your appointment. Appointments are for fifteen minutes, but if you are a graduate student or are really sure our discussion will take 30 minutes, you may sign up for back-to-back slots. If the times that I have available do not work for you, you are welcome to [email me](mailto:lmullen@gmu.edu) to suggest a different time. For spring 2021, I am available only on Tuesday, Wednesday, and Thursday afternoons.
+- [Office hours for undergraduates](#undergrad)
+- [Office hours for graduate students and postdocs](#gradstudent)
+- [Project meetings with collaborators](#projects)
 
 {{< booking >}}

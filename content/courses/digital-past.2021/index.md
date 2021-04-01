@@ -66,7 +66,7 @@ Turn in all assignments on Blackboard. In the box for the assignment text, inclu
 
 In this class you will create a number of smaller projects on the history of Reconstruction. Each of these projects will demonstrate a specific skill that you learned in class. These assignments are deliberately smaller scale and build on one another so that you can develop your digital literacy over time, rather than being obligated to one or two high stakes assignments. You will also write blog posts on various subjects. 
 
-**Blog posts and skills assignments (12 @ 5% each = 60%).** Each Thursday you will be assigned either to write a blog post or to undertake a skills-based digital assignment. **All assignments or blog posts given on Thursday are due before the start of class on Tuesday.** Except for the Omeka assignments, embed these in a page or post on your WordPress website. If asked to write a blog post, it should be approximately three hundred words long, using full sentences, paragraphs with topic sentences, and images or other illustrations as appropriate. 
+**Blog posts and skills assignments (12 @ 5% each = 60%).** Each Thursday you will be assigned either to write a blog post or to undertake a skills-based digital assignment. **All assignments or blog posts given on Thursday are due before the start of class on Tuesday.** Except for the Omeka assignments, embed these in a page or post on your WordPress website. If asked to write a blog post, it should be approximately three hundred words long, using full sentences, paragraphs with topic sentences, and images or other illustrations as appropriate. (Update 1 April 2021: One of these assignments is waived.)
 
 **Quizzes (10%).** Any class may (and likely will) include a brief quiz over the assigned readings.
 
@@ -351,7 +351,7 @@ In class:
 -   Brigham Young University, [Corpus of Historical American English](http://corpus.byu.edu/coha/) and [Time Corpus](http://corpus.byu.edu/time/).
 -   [Bookworm](http://bookworm.culturomics.org/), especially Chronicling America.
 
-Assignment: Write a blog post about what you learned using text analysis tools. You should include screenshots of visualizations from at least two visualization tools. You can use Google Books as we did in class, or you can use one of the others linked on the syllabus. Search for key terms in the history of Reconstruction of slavery. Embed these visualizations in a blog post. What did you learn from this distant reading of texts? What does this approach reveal that other methods do not?
+Assignment: Write a blog post about what you learned using text analysis tools. You should include screenshots of visualizations from at least two visualization tools. You can use Google Books as we did in class, or you can use one of the others linked on the syllabus. Search for key terms in the history of Reconstruction of slavery. Embed these visualizations in a blog post. What did you learn from this distant reading of texts? What does this approach reveal that other methods do not? (Update 1 April 2021: This assignment has been waived.)
 
 ### Tues. Apr. 6. Enforcing Reconstruction. Black political conventions.
 

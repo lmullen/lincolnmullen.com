@@ -366,7 +366,6 @@ Before class: Create a free account at [Tableau Public](https://public.tableau.c
 
 Readings:
 
--   Fred Gibbs, "[Gentle Introduction to Historical Data Analysis](http://fredgibbs.net/extras/text-mining-digital-poster/)."
 -   John Theibault, "[Visualizations and Historical Arguments](http://quod.lib.umich.edu/d/dh/12230987.0001.001/1:8/--writing-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1#8.1)," in *Writing History in the Digital Age*, edited by Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013).
 -   Explore the visualizations created by [Mike Bostock](http://bost.ocks.org/mike/).
 
@@ -374,7 +373,7 @@ In class:
 
 -   Minard map in [French](http://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png) (higher quality) and [English](http://www.datavis.ca/gallery/minard/minard-odt.jpg).
 
-Assignment: Using the datasets provided, create at least two visualizations. Be sure to include titles and captions, with citations to the data. What did your visualizations show you that you didn't see before? What kinds of literacy do your visualizations require? Embed the visualizations in a blog post where you answer these questions.
+Assignment: Using the datasets provided, create one visualization. What did your visualizations show you that you didn't see before? What kinds of literacy do your visualizations require? Embed the visualizations in a blog post where you briefly answer these questions.
 
 ### Tues. Apr. 13. Reconstruction in the North.
 

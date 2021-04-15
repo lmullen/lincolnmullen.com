@@ -207,16 +207,16 @@ Exam to be given online. Details to be announced.
 - Documents on missionary societies in Africa.
 - **DUE: Short writing assignment 8:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish. Write two full double-spaced pages.
 
-### Tuesday, April 20: Colonization and Decolonization
+### Tuesday, April 20: Pentecostalism
+
+- Sanneh, ch. 5 ("Pillar of Charismatic Renewal").
+- Nimi Wariboko, "Pentecostalism in Africa," *Oxford Research Encyclopedia of African History* (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
+
+### Thursday, April 22: Colonization and Decolonization
 
 - MacCulloch, ch. 24.
 - Sanneh, ch. 4 ("The Yogi and the Commisar").
 - Complete reading Achebe, _Things Fall Apart_. (Whoever has ears to hear: start this book in plenty of time. As you read note that the section involving missionaries and Christianity in the denouement will obviously be our focus, but that episode depends on the narrative structure of the entire novel.)
-
-### Thursday, April 22: Pentecostalism
-
-- Sanneh, ch. 5 ("Pillar of Charismatic Renewal").
-- Nimi Wariboko, "Pentecostalism in Africa," *Oxford Research Encyclopedia of African History* (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
 
 ### Tuesday, April 27: Vatican II
 

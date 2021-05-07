@@ -9,7 +9,6 @@ Greetings. You probably landed here either because you are a student looking for
 
 **Types of appointments.** Please select the appropriate type of appointment.
 
-- [Office hours for undergraduates](#undergrad)
 - [Office hours for graduate students and postdocs](#gradstudent)
 - [Project meetings with collaborators](#projects)
 

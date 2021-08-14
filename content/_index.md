@@ -4,7 +4,18 @@ description: "Lincoln Mullen is a historian of American religion and the ninetee
 
 Welcome. I am a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. I am an [associate professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History at George Mason University, as well as one of the faculty directors at the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/).
 
-If you are interested in following my writing or other work, there are a few places you can find it. Short updates and links posts go on my old-school [weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however you prefer to think about it). This website has a [blog](/blog/) for longer, more permanent posts. Here is a page where you can read about what I am [currently working on](/now/) over the next month and semester.
+If you are interested in following my writing or other work, there are a few
+places you can find it. Short updates and links posts go on my old-school
+[weblog](https://weblog.lincolnmullen.com/) (or new-school microblog, however
+you prefer to think about it). This website has a [blog](/blog/) for longer,
+more permanent posts. Here is a page where you can read about what I am
+[currently working on](/now/) over the next month and semester.
+
+**Useful links**. Things you might be looking for:
+
+- Email: [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com)
+- [Office hours appointments](/page/office-hours/)
+- [GitHub](https://github.com/lmullen)
 
 {{< attention >}}
 
@@ -22,9 +33,6 @@ The rest of my published work is [listed here](/scholarship/). Preprints are ava
 
 
 
-**Teaching**. I teach courses on American religious history, the history of Christianity, the nineteenth-century United States, and digital history. Here are the [syllabi](/courses/).
-
-**Useful links**. Other things you might be looking for, especially if you are a student:
-
-- You can email me at [lincoln@lincolnmullen.com](mailto:lincoln@lincolnmullen.com).
-- You can [make an appointment](/page/office-hours/) for office hours. 
+**Teaching**. I teach courses on American religious history, the history of
+Christianity, the nineteenth-century United States, and digital history. Here
+are the [syllabi](/courses/).

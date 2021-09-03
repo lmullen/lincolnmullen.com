@@ -14,6 +14,8 @@ Redirect 301 /blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-
 Redirect 301 /blog/makefiles-for-ocr-and-converting-shapefiles https://lincolnmullen.com/blog/makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles/
 Redirect 301 /blog/the-spread-of-american-slavery/ https://lincolnmullen.com/blog/mapping-the-spread-of-american-slavery/
 Redirect 301 /blog/how-to-use-neatline-without-geoserver/ https://lincolnmullen.com/blog/how-to-use-neatline-with-map-warper-instead-of-geoserver/
+Redirect 301 /project/slavery https://lincolnmullen.com/projects/slavery/
+Redirect 301 /project/slavery/ https://lincolnmullen.com/projects/slavery/
 
 ErrorDocument 404 /404.html
 

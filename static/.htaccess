@@ -16,6 +16,12 @@ Redirect 301 /blog/the-spread-of-american-slavery/ https://lincolnmullen.com/blo
 Redirect 301 /blog/how-to-use-neatline-without-geoserver/ https://lincolnmullen.com/blog/how-to-use-neatline-with-map-warper-instead-of-geoserver/
 Redirect 301 /project/slavery https://lincolnmullen.com/projects/slavery/
 Redirect 301 /project/slavery/ https://lincolnmullen.com/projects/slavery/
+Redirect 301 /projects/dh-r2/packages.html https://dh-r.lincolnmullen.com
+Redirect 301 /projects/dh-r2/shapefiles.html https://dh-r.lincolnmullen.com
+Redirect 301 /projects/dh-r2/data.html https://dh-r.lincolnmullen.com
+Redirect 301 /projects/dh-r2/machine-learning.html https://dh-r.lincolnmullen.com
+Redirect 301 /projects/dh-r2/ https://dh-r.lincolnmullen.com
+
 
 ErrorDocument 404 /404.html
 

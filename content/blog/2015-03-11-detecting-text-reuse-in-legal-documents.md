@@ -402,16 +402,16 @@ Using the resulting matrix, we can created the following network visualization o
 
  
 <figure id="figure-7">
-[!['Network](/figures/field-code/codes-s10.svg)]( "/figures/field-code/codes-s10.svg")
+[!['Network](//files.lincolnmullen.com/figures//field-code/codes-s10.svg)]( "//files.lincolnmullen.com/figures//field-code/codes-s10.svg")
 <figcaption>
-Figure 7: Network graph of borrowings between codes of civil procedure in the nineteenth-century United States (weight ≥ .10). \[[SVG](/figures/field-code/codes-s10.svg)\]
+Figure 7: Network graph of borrowings between codes of civil procedure in the nineteenth-century United States (weight ≥ .10). \[[SVG](//files.lincolnmullen.com/figures//field-code/codes-s10.svg)\]
 </figcaption>
 </figure>
 The network graph below extracts the largest family of codes that were related to one another, and is much stricter about which connections are retained. Just as we expected, this graph centers on the 1850 New York code, which radiates connections out to the surrounding codes. (If the Field Code were not central, as we know it to be from other historical research, then we would have a had a strong presumption that our method had a problem.) But what is different about this visualization is the detailed connections between all the other codes.
 <figure id="figure-8">
-[!['The](/figures/field-code/code-family-s25.svg)]( "/figures/field-code/code-family-s25.svg")
+[!['The](//files.lincolnmullen.com/figures//field-code/code-family-s25.svg)]( "//files.lincolnmullen.com/figures//field-code/code-family-s25.svg")
 <figcaption>
-Figure 8: The largest family of codes which borrowed from one another (weight ≥ .25). \[[SVG](/figures/field-code/code-family-s25.svg)\]
+Figure 8: The largest family of codes which borrowed from one another (weight ≥ .25). \[[SVG](//files.lincolnmullen.com/figures//field-code/code-family-s25.svg)\]
 </figcaption>
 </figure>
 ### Preliminary findings and next steps

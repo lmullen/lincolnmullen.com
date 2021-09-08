@@ -8,22 +8,22 @@ The [New Nation Votes](http://elections.lib.tufts.edu/) database (NNV) offers el
 
 The first aim is to get an overview of party politics in the elections for governor. The chart below shows the percentage of votes won by the Federalist and Democratic-Republican parties from 1796 to 1824. The overall pattern in elections for governors is fairly plain. From 1797 until 1805, the Federalists had a strong hold on the office, putting Increase Sumner, Moses Gill, and Caleb Strong in the governor's chair.[<sup>2</sup>](#fn2){\#fnref2.footnoteRef} Caleb Strong came to office (after both Sumner and Gill had died in office) with some competition in 1800, but his hold was fairly secure until 1805. That year inaugurated stiff competition for the governorship, which switched hands repeatedly until the election of 1813. The War of 1812 and the rise of younger Federalists gave the Federalists the upper hand until they lost the 1823 election, never to win the Massachusetts governorship again. Note that there are a few oddities in this chart which I have not resolved. For example, John Brooks was listed as a Federalist every year from 1816 to 1821, except 1818 to 1819; I don't know whether that means Brooks really ran without an affiliation or whether it is an omission in the data. But this chart more or less confirms the argument of Philip Lampi (and earlier, of David Hackett Fischer).
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'ma-gov/ma-parties'});" href='/figures/ma-gov/ma-parties.svg'><img src='/figures/ma-gov/ma-parties.svg' alt='Percentage of the vote won by the Federalist and Democratic-Republican parties in elections for Massachusetts governor, 1796--1824. Data: \[A New Nation Votes\](http://elections.lib.tufts.edu/).'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'ma-gov/ma-parties'});" href='//files.lincolnmullen.com/figures//ma-gov/ma-parties.svg'><img src='//files.lincolnmullen.com/figures//ma-gov/ma-parties.svg' alt='Percentage of the vote won by the Federalist and Democratic-Republican parties in elections for Massachusetts governor, 1796--1824. Data: \[A New Nation Votes\](http://elections.lib.tufts.edu/).'></a>
 <figcaption>
 Figure 1: Percentage of the vote won by the Federalist and Democratic-Republican parties in elections for Massachusetts governor, 1796--1824. Data:
 
-[A New Nation Votes](http://elections.lib.tufts.edu/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;ma-gov/ma-parties&#39;});" href="/figures/ma-gov/ma-parties.svg">SVG</a>, <a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;ma-gov/ma-parties&#39;});" href="/figures/ma-gov/ma-parties.png">PNG</a>\]
+[A New Nation Votes](http://elections.lib.tufts.edu/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;ma-gov/ma-parties&#39;});" href="//files.lincolnmullen.com/figures//ma-gov/ma-parties.svg">SVG</a>, <a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;ma-gov/ma-parties&#39;});" href="//files.lincolnmullen.com/figures//ma-gov/ma-parties.png">PNG</a>\]
 
 </figcaption>
 </figure>
 <!--more-->
 The next task is to see which politicians were serious contenders for governor of Massachusetts. I'm arbitrarily defining a contender as someone who managed to win at least 10 percent of the vote in at least one election. More than one thousand people are listed in the gubernatorial election returns from 1787 to 1824, but only twenty got at least 10% of the vote, and only ten won office in their own right.[<sup>3</sup>](#fn3){\#fnref3.footnoteRef} The chart below shows the careers of those contenders. There are too many people on this chart for the colors to be much help, so I've labeled the lines for the more significant figures. John Hancock had a secure tenure, while Samuel Adams's was somewhat more rocky. But note that Increase Sumner, the first Federalist governor, also won high proportions of the popular vote. Starting in 1800 and certainly by 1805, elections were contested much more heavily; the nature of gubernatorial politics changed. We can see the arcs of people's careers. Federalist Caleb Strong won a close election in 1800 and gradually increased his margin of victory, but with the new regime of competition he was an on-again, off-again candidate until 1815. Federalist John Brooks enjoyed seven wins in a row, but his last three election were contested by William Eustis. Eustis never did defeat Brooks, but he did defeat Federalists Harrison Gray Otis in 1823 and Samuel Lathrop in 1824. Elbridge Gerry was the William Jennings Bryan of the early republic (except Gerry eventually won), running repeatedly for governor starting in 1788, but not even coming close until he won in 1810.
 <figure id="figure-2">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'ma-gov/ma-gov'});" href='/figures/ma-gov/ma-gov.svg'><img src='/figures/ma-gov/ma-gov.svg' alt='Contenders in elections for Massachusetts governor who won more than 10% of the vote, 1787--1824. Data: \[A New Nation Votes\](http://elections.lib.tufts.edu/).'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'ma-gov/ma-gov'});" href='//files.lincolnmullen.com/figures//ma-gov/ma-gov.svg'><img src='//files.lincolnmullen.com/figures//ma-gov/ma-gov.svg' alt='Contenders in elections for Massachusetts governor who won more than 10% of the vote, 1787--1824. Data: \[A New Nation Votes\](http://elections.lib.tufts.edu/).'></a>
 <figcaption>
 Figure 2: Contenders in elections for Massachusetts governor who won more than 10% of the vote, 1787--1824. Data:
 
-[A New Nation Votes](http://elections.lib.tufts.edu/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;ma-gov/ma-gov&#39;});" href="/figures/ma-gov/ma-gov.svg">SVG</a>\]
+[A New Nation Votes](http://elections.lib.tufts.edu/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;ma-gov/ma-gov&#39;});" href="//files.lincolnmullen.com/figures//ma-gov/ma-gov.svg">SVG</a>\]
 
 </figcaption>
 </figure>
@@ -35,7 +35,7 @@ First, Boston was far and away the biggest city in Massachusetts, but it had lit
 
 Second, in the 1800 election Strong won because he won Berkshire and Hampshire Counties in Western Massachusetts. Gerry's support in those counties was virtually non-existent. [<sup>6</sup>](#fn6){\#fnref6.footnoteRef} Gerry, though, did much better in Maine, especially away from the coast. Strong also did well in Essex County, a Federalist center of strength.
 <figure>
-<iframe src="/figures/ma-gov/ma-gov-1800.html" style="height:500px;width:100%;">
+<iframe src="//files.lincolnmullen.com/figures//ma-gov/ma-gov-1800.html" style="height:500px;width:100%;">
 <br />
 </iframe>
 <figcaption>
@@ -45,7 +45,7 @@ Figure 3: Election for Massachusetts governor, 1800. Data: [A New Nation Votes](
 </figure>
 By 1807 the Democratic-Republican candidate, James Sullivan, did far better than Gerry had in the Western counties and in some Western towns he did better than Strong. Sullivan even made some inroads into Essex County and Cape Cod, though Strong made some inroads into Maine. This election was closely contested in nearly every town, and Sullivan narrowly defeated Strong by gaining votes in places that had gone heavily for Federalists in earlier elections. The change in politics from dominance by one party to heavily contested elections that we noted in the charts above also appears on this map.
 <figure>
-<iframe src="/figures/ma-gov/ma-gov-1807.html" style="height:500px;width:100%;">
+<iframe src="//files.lincolnmullen.com/figures//ma-gov/ma-gov-1807.html" style="height:500px;width:100%;">
 <br />
 </iframe>
 <figcaption>
@@ -55,7 +55,7 @@ Figure 4: Election for Massachusetts governor, 1807. Data: [A New Nation Votes](
 </figure>
 In 1823, Otis maintained some of the Federalist strength in western Massachusetts, though he also lost (I suspect that when Maine gained statehood in 1820, the Federalists benefited slightly from a decline of Republican votes). But Otis was defeated in most of the towns surrounding Boston.
 <figure>
-<iframe src="/figures/ma-gov/ma-gov-1823.html" style="height:500px;width:100%;">
+<iframe src="//files.lincolnmullen.com/figures//ma-gov/ma-gov-1823.html" style="height:500px;width:100%;">
 <br />
 </iframe>
 <figcaption>
@@ -69,7 +69,7 @@ These maps show comparatively little of the split between "blue" cities and "red
 
 If you would like to look up a particular election or candidate, use the table below.
 <figure>
-<iframe src="/figures/ma-gov/gov-datatable.html" style="height:390px;width:100%;">
+<iframe src="//files.lincolnmullen.com/figures//ma-gov/gov-datatable.html" style="height:390px;width:100%;">
 <br />
 </iframe>
 <figcaption>

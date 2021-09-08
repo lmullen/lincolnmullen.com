@@ -9,7 +9,7 @@ title: 'New release: USAboundaries v0.3.0'
 
 I've recently published [version 0.3.0 of my USAboundaries R package](http://ropensci.github.io/USAboundaries/) to CRAN. USAboundaries provides access to spatial data for U.S. counties, states, cities, congressional districts, and zip codes. Of course you can easily get contemporary boundaries from lots of places, but this package lets you specify dates and get the locations for historical county and state boundaries as well as city locations.
 
-{{< figure src="/figures/usaboundaries-sample.png" caption="Sample boundaries from the USAboundaries package." >}}
+{{< figure src="//files.lincolnmullen.com/figures//usaboundaries-sample.png" caption="Sample boundaries from the USAboundaries package." >}}
 
 This version of the package has a number of new features. It has jumped on the [Simple Features](https://github.com/edzer/sfr) bandwagon, so now all boundary data is returned as an sf object. This version also includes updated shapefiles from the U.S. Census for contemporary data, as well as new centroids for Zipcode Tabulation Areas and historical city populations courtesy of Erik Steiner's [project from CESTA](https://github.com/cestastanford/historical-us-city-populations).
 

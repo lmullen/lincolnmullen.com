@@ -8,11 +8,11 @@ The title *[Presbyterian Statistics through One Hundred Years, 1826--1926: Tabul
 
 The first part of Weber's work included dozens of tables like the one below.[<sup>2</sup>](#fn2){\#fnref2.footnoteRef} Denominations often maintained records and published them in yearbooks and annual reports.[<sup>3</sup>](#fn3){\#fnref3.footnoteRef} What is especially useful with Weber's figures are that he compiled the numbers longitudinally---apparently over a period of three years of work---so that it is possible to see change over time.
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/table'});" href='/figures/weber/table.png'><img src='/figures/weber/table.png' alt='A table of membership figures from Weber, p. 12.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/table'});" href='//files.lincolnmullen.com/figures//weber/table.png'><img src='//files.lincolnmullen.com/figures//weber/table.png' alt='A table of membership figures from Weber, p. 12.'></a>
 <figcaption>
 Figure 1: A table of membership figures from Weber, p. 12. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/table&#39;});" href="/figures/weber/table.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/table&#39;});" href="//files.lincolnmullen.com/figures//weber/table.png">PNG</a>\]
 
 </figcaption>
 </figure>
@@ -20,41 +20,41 @@ Having gathered the numbers, Weber turned them into a series of visualizations a
 
 Weber's charts told a story. In the first visualization in the book, reproduced below, notice the rise in Presbyterian membership over a hundred years. (The vertical orientation of the chart exaggerates growth, but from what I can tell Weber chose that orientation because of the constraints of printing and not out of any intention to distort.) Weber called this a "bird's-eye view of the membership" (46).
 <figure id="figure-2">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/membership'});" href='/figures/weber/membership.png'><img src='/figures/weber/membership.png' alt='A chart of membership from Weber, p. 46.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/membership'});" href='//files.lincolnmullen.com/figures//weber/membership.png'><img src='//files.lincolnmullen.com/figures//weber/membership.png' alt='A chart of membership from Weber, p. 46.'></a>
 <figcaption>
 Figure 2: A chart of membership from Weber, p. 46. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/membership&#39;});" href="/figures/weber/membership.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/membership&#39;});" href="//files.lincolnmullen.com/figures//weber/membership.png">PNG</a>\]
 
 </figcaption>
 </figure>
 That first chart with its steep curve made the Presbyterians look good, but Weber was not so naive. He knew that in the nineteenth century United States everything was growing, and that some denominations were growing faster than the Presbyterians and had a larger share of the population. Weber included the "ratio chart" below, derived from the Yale economist and statistician [Irving Fisher](http://en.wikipedia.org/wiki/Irving_Fisher), that used a logarithmic scale to show "the same relative increases" with "the same slope" (203). The short explanation is that Weber found a way to show that the Presbyterians were only growing at the same rate as the population, and that the Baptists and Methodists were growing faster.
 <figure id="figure-3">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/ratio'});" href='/figures/weber/ratio.png'><img src='/figures/weber/ratio.png' alt='A chart from Weber comparing denominations, p. 49.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/ratio'});" href='//files.lincolnmullen.com/figures//weber/ratio.png'><img src='//files.lincolnmullen.com/figures//weber/ratio.png' alt='A chart from Weber comparing denominations, p. 49.'></a>
 <figcaption>
 Figure 3: A chart from Weber comparing denominations, p. 49. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/ratio&#39;});" href="/figures/weber/ratio.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/ratio&#39;});" href="//files.lincolnmullen.com/figures//weber/ratio.png">PNG</a>\]
 
 </figcaption>
 </figure>
 Weber's most intriguing work was a pair of charts about people who joined the Presbyterian church. Weber was quite interested in whether or not the Presbyterians were fulfilling their mission to win converts. The chart below of "Accessions on Confession" was "the line of response from the young, adolescent life of the Church to the call of the Kingdom." Weber annotated the chart to show the underlying causes in the fluctuations: the peaks for the revivals of Finney, Moody, and Sunday; the falling off in conversions caused by denominational splits, heresy trials, and the controversy with science.
 <figure id="figure-4">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/accessions'});" href='/figures/weber/accessions.png'><img src='/figures/weber/accessions.png' alt='A chart of Accessions on Confession from Weber, p. 51.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/accessions'});" href='//files.lincolnmullen.com/figures//weber/accessions.png'><img src='//files.lincolnmullen.com/figures//weber/accessions.png' alt='A chart of Accessions on Confession from Weber, p. 51.'></a>
 <figcaption>
 Figure 4: A chart of Accessions on Confession from Weber, p. 51. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/accessions&#39;});" href="/figures/weber/accessions.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/accessions&#39;});" href="//files.lincolnmullen.com/figures//weber/accessions.png">PNG</a>\]
 
 </figcaption>
 </figure>
 The chart of total new members showed a positive picture of Presbyterians' growth, but again, Weber knew enough to normalize the data to account for growth in population. In the chart below, he created an "Evangelistic Index," the "proportion of new members in the total membership." This was "the most significant of all the visualizations submitted in this volume" because it "portrays the actual record of the Church in the primary functional responsibility which has been committed to it" (57).
 <figure id="figure-5">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/evangelistic'});" href='/figures/weber/evangelistic.png'><img src='/figures/weber/evangelistic.png' alt='The Evangelistic Index, p. 56.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'weber/evangelistic'});" href='//files.lincolnmullen.com/figures//weber/evangelistic.png'><img src='//files.lincolnmullen.com/figures//weber/evangelistic.png' alt='The Evangelistic Index, p. 56.'></a>
 <figcaption>
 Figure 5: The Evangelistic Index, p. 56. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/evangelistic&#39;});" href="/figures/weber/evangelistic.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;weber/evangelistic&#39;});" href="//files.lincolnmullen.com/figures//weber/evangelistic.png">PNG</a>\]
 
 </figcaption>
 </figure>

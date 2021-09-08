@@ -12,7 +12,9 @@
       "**/.svn": true,
       "**/CVS": true,
       "public/": true,
-      "resources/": true
+      "resources/": true,
+      "static/courses/": true,
+      "static/projects/": true
     }
   }
 }

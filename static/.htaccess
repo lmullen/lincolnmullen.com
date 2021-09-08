@@ -45,7 +45,6 @@ RewriteRule ^blog/wp-content/uploads/(.*)$ https://lincolnmullen.com/files/uploa
 RewriteRule ^projects/dh-r/(.*)$ https://dh-r.lincolnmullen.com/ [L,R=301]
 RewriteRule ^course-blogs/(.*)$ https://lincolnmullen.com/ [L,R=301]
 RewriteRule ^projects/notebook/(.*)$ https://lincolnmullen.com/ [R=301,NC,L]
-RewriteRule ^projects/worksheets/(.*)$ https://dh-r.lincolnmullen.com/ [R=301,NC,L]
 RewriteRule ^downloads/(.*)$ https://lincolnmullen.com/files/downloads/$1 [R=301,NC,L]
 RewriteRule ^figures/(.*)$ https://lincolnmullen.com/files/figures/$1 [R=301,NC,L]
 

@@ -833,7 +833,7 @@ To illustrate the process of borrowing, here are page images from New York's 185
 
 New York's 1850 code:
 <figure id="attachment_557" style="max-width: 609px" class="wp-caption alignnone">
-<img class="size-full wp-image-557" src="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ny1850-summons.png?resize=609%2C266" alt="" width="609" height="266" srcset="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ny1850-summons.png?w=609 609w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ny1850-summons.png?resize=300%2C131 300w" sizes="(max-width: 609px) 100vw, 609px" data-recalc-dims="1" />
+<img class="size-full wp-image-557" src="//files.lincolnmullen.com/uploads/2017/01/ny1850-summons.png?resize=609%2C266" alt="" width="609" height="266" srcset="//files.lincolnmullen.com/uploads/2017/01/ny1850-summons.png?w=609 609w, //files.lincolnmullen.com/uploads/2017/01/ny1850-summons.png?resize=300%2C131 300w" sizes="(max-width: 609px) 100vw, 609px" data-recalc-dims="1" />
 <figcaption class="wp-caption-text">
 An excerpt from the 1850 New York code of civil procedure.
 </figcaption>
@@ -861,7 +861,7 @@ We can also create heat maps of which sections within a code are borrowed from o
 
 California (1851) borrows most heavily from New York 1850, and occasionally from other New York codes. But we can also identify the sections which were lifted from the California code a year earlier.
 <figure id="attachment_551" style="max-width: 739px" class="wp-caption alignnone">
-<img class="size-medium_large wp-image-551" src="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/CA1851.png?resize=739%2C444" alt="" width="739" height="444" srcset="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/CA1851.png?resize=768%2C461 768w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/CA1851.png?resize=300%2C180 300w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/CA1851.png?w=1000 1000w" sizes="(max-width: 739px) 100vw, 739px" data-recalc-dims="1" />
+<img class="size-medium_large wp-image-551" src="//files.lincolnmullen.com/uploads/2017/01/CA1851.png?resize=739%2C444" alt="" width="739" height="444" srcset="//files.lincolnmullen.com/uploads/2017/01/CA1851.png?resize=768%2C461 768w, //files.lincolnmullen.com/uploads/2017/01/CA1851.png?resize=300%2C180 300w, //files.lincolnmullen.com/uploads/2017/01/CA1851.png?w=1000 1000w" sizes="(max-width: 739px) 100vw, 739px" data-recalc-dims="1" />
 <figcaption class="wp-caption-text">
 Borrowed sections in California (1851).
 </figcaption>
@@ -875,7 +875,7 @@ Borrowed sections in Washington (1855).
 </figure>
 And Utah (1859) in turn borrows large, somewhat contiguous sections from the Oregon and Washington codes above.
 <figure id="attachment_563" style="max-width: 739px" class="wp-caption alignnone">
-<img class="size-medium_large wp-image-563" src="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/UT1859.png?resize=739%2C444" alt="" width="739" height="444" srcset="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/UT1859.png?resize=768%2C461 768w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/UT1859.png?resize=300%2C180 300w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/UT1859.png?w=1000 1000w" sizes="(max-width: 739px) 100vw, 739px" data-recalc-dims="1" />
+<img class="size-medium_large wp-image-563" src="//files.lincolnmullen.com/uploads/2017/01/UT1859.png?resize=739%2C444" alt="" width="739" height="444" srcset="//files.lincolnmullen.com/uploads/2017/01/UT1859.png?resize=768%2C461 768w, //files.lincolnmullen.com/uploads/2017/01/UT1859.png?resize=300%2C180 300w, //files.lincolnmullen.com/uploads/2017/01/UT1859.png?w=1000 1000w" sizes="(max-width: 739px) 100vw, 739px" data-recalc-dims="1" />
 <figcaption class="wp-caption-text">
 Borrowed sections in Utah (1859).
 </figcaption>

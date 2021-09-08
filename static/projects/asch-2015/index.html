@@ -1,648 +1,631 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Next Steps in Mapping U.S. Religious History</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="lib/d3-carto-map/d3map.css">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <title>Next Steps in Mapping U.S. Religious History</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 
-    <script src="lib/d3/d3.min.js"></script>
-    <script src="lib/queue-async/queue.min.js"></script>
-    <script src="lib/topojson/topojson.js"></script>
-    <script src="lib/d3-carto-map/d3.carto.map.min.js"></script>
-    <script src="lib/d3-plugins/geo/tile/tile.js" charset="utf-8"></script>
-    <script src="lib/stack/stack.v1.min.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-25121492-1', 'lincolnmullen.com');
-      ga('send', 'pageview');
-    </script> 
-  </head>
-  <body onload="ready();">
+  <link rel="stylesheet" href="lib/d3-carto-map/d3map.css">
+  <link rel="stylesheet" href="style.css">
 
-    <section id="title">
-      <h3 class="brown">
-        Mapping Boston’s Religions: <br>
-        Next Steps in Mapping U.S. Religious History
-      </h3>
+  <script src="d3.min.js"></script>
+  <script src="queue.min.js"></script>
+  <script src="topojson.js"></script>
+  <script src="d3.carto.map.min.js"></script>
+  <script src="tile.js" charset="utf-8"></script>
+  <script src="stack.v1.min.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-25121492-1', 'lincolnmullen.com');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body onload="ready();">
+
+  <section id="title">
+    <h3 class="brown">
+      Mapping Boston’s Religions: <br>
+      Next Steps in Mapping U.S. Religious History
+    </h3>
+    <p>
+      <strong>
+        <a href="http://lincolnmullen.com">
+          Lincoln Mullen </a>
+      </strong>
+      <br>
+      <span>
+        History and Art History, George Mason University
+      </span>
+    </p>
+    <aside style="margin-top:-9em;">
       <p>
-        <strong>
-          <a href="http://lincolnmullen.com">
-            Lincoln Mullen </a>
-        </strong>
-        <br>
-        <span>
-          History and Art History, George Mason University
-        </span>
+        This conference paper and visualizations are to be delivered January
+        5, 2015, at the annual meeting of the <a href="http://churchhistory.org">American Society of Church
+          History</a>. It is part of a panel on “<a
+          href="https://aha.confex.com/aha/2015/webprogram/Session12414.html">Mapping
+          Religious Space: Four American Cities from the Colonial Era to the
+          Twentieth Century</a>.”
       </p>
-      <aside style="margin-top:-9em;">
-        <p>
-          This conference paper and visualizations are to be delivered January 
-          5, 2015, at the annual meeting of the <a 
-            href="http://churchhistory.org">American Society of Church 
-            History</a>. It is part of a panel on “<a 
-            href="https://aha.confex.com/aha/2015/webprogram/Session12414.html">Mapping 
-            Religious Space: Four American Cities from the Colonial Era to the 
-            Twentieth Century</a>.”
-        </p>
-        <p>
-          Scroll up and down or use &uarr; and &darr; to navigate. Click the 
-          button below to see only the slides.
-          <a id="commentary" onclick="hideCommentary();">Click here to see 
-            only the slides.</a>
-        </p>
-        <p>
-          The <a href="https://github.com/lmullen/asch-2015-talk">code for 
-            these maps</a> is available on GitHub and <a 
-            href="http://creativecommons.org/licenses/by/4.0/">licensed 
-            CC-BY</a>.
-        </p>
-      </aside>
       <p>
-        <code>
+        Scroll up and down or use &uarr; and &darr; to navigate. Click the
+        button below to see only the slides.
+        <a id="commentary" onclick="hideCommentary();">Click here to see
+          only the slides.</a>
+      </p>
+      <p>
+        The <a href="https://github.com/lmullen/asch-2015-talk">code for
+          these maps</a> is available on GitHub and <a href="http://creativecommons.org/licenses/by/4.0/">licensed
+          CC-BY</a>.
+      </p>
+    </aside>
+    <p>
+      <code>
           <a href="http://lincolnmullen.com">
             http://lincolnmullen.com
           </a>
         </code><br>
-        <code>
+      <code>
           <a href="mailto:lincoln@lincolnmullen.com">
             lincoln@lincolnmullen.com
           </a>
         </code>
-      </p>
-    </section>
+    </p>
+  </section>
 
-    <section class="text">
+  <section class="text">
+    <p>
+      On my desk I keep one reference work within easy reach: the <i><a
+          href="https://global.oup.com/academic/product/new-historical-atlas-of-religion-in-america-9780195091687?cc=us&lang=en">New
+          Historical Atlas of Religion in America</a></i>. It is not just
+      that I am fascinated by maps. When writing or teaching about religion,
+      I try to remember the dictum that I first learned from Jane Kamensky:
+      “events take place.” To bring place into my work, I need to remind
+      myself constantly of the where and when of American religious history.
+    </p>
+
+    <aside>
+      Edwin S. Gaustad, Philip L. Barlow, and Richard W. Dishno, <i>New
+        Historical Atlas of Religion in America</i> (New York: Oxford
+      University Press, 2001).
+    </aside>
+
+    <p>
+      But I also keep in mind Laurie Maffly-Kipp’s memorably titled essay
+      “If It’s South Dakota You Must Be Episcopalian.” In that essay
+      Maffly-Kipp reviews several atlases of American religion and makes a
+      number of telling critiques of the whole enterprise of mapping
+      religion, and indeed mapping in the humanities generally. Those
+      critiques can be lumped into two categories: sources and definitions.
+      First, sources: “We are still limited by data that is partial,
+      ambiguous, and clearly slanted toward things that can be counted and
+      people that traditionally have been seen as significant.” In other
+      words, our sources for making maps of religion aren’t very good, and
+      the best sources let us make maps of groups that we already know a lot
+      about. Second, definitions: Maffly-Kipp observes that our “our
+      dazzling new technologies and spatial theories” might only have
+      “brought us back to much more circumscribed definitions of religious
+      experience.” In other words, map-making requires us to use
+      denominational categories when the whole trend of religious history
+      and religious studies is towards more complex, layered understandings
+      of religion.
+    </p>
+
+    <aside>
+      Laurie F. Maffly-Kipp, “<a href="http://www.jstor.org/stable/4146694">If It’s South Dakota You
+        Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S.
+        Religion</a>,” <i>Church History</i> 71, no. 1 (2002): 132–42. Cf.
+      Laurie F. Maffly-Kipp, “<a href="http://jah.oxfordjournals.org/content/94/2/522.short">Putting
+        Religion on the Map</a>,” <i>The Journal
+        of American History</i> 94, no. 2 (2007): 522–29,
+      doi:10.2307/25094964.
+    </aside>
+
+  </section>
+
+  <section class="text">
+    <p>
+      The scholars who created the leading atlases of American religion
+      often raised the same questions. When I look at the <i>New Historical
+        Atlas</i> or Bret Carroll's <i>Routledge Historical Atlas of
+        Religion in America</i>, I see their great ingenuity in dealing with
+      these questions within the limits of mapmaking in print.
+      But it seems to me that digital mapmaking permits us to escape some
+      of the constraints of maps in print atlases and monographs.
+      So my questions today are these: Can digital mapmaking let us make
+      maps which address these theoretical critiques? How can we take the
+      next step from the work of Gaustad and others, while taking into
+      account Maffly-Kipp's concerns?
+    </p>
+
+    <aside>
+      Bret E. Carroll, <i>The Routledge Historical Atlas of Religion in
+        America</i> (New York: Routledge, 2000).
+    </aside>
+
+    <p>
+      I'll try to answer those questions by showing you two projects that I
+      have worked on. The first is a class I taught on mapping Boston's
+      religions from the American revolution to the 1880s. And—since I've
+      done more interesting work since I submitted my abstract a year ago—I
+      will also sketch out the sources and methods for digital maps of
+      religion on a much larger scale.
+    </p>
+
+  </section>
+
+  <section class="text">
+    <p>
+      My general argument is that there are large sources of data on
+      American religion after the colonial period and before Word War II
+      which historians have not used to make maps. Scholars have not passed
+      over these sources because they are unaware of them, but because they
+      could not meaningfully represent them in print maps. The problem is
+      one of resolution. Print atlases could convey relatively few data
+      points. Furthermore, because atlases can contain only so many maps,
+      they have often been forced to set their chronological or geographic
+      scope very large. By using these more detailed sources we are able to
+      make maps which better approximate the sophisticated thinking about
+      religious categories that we expect from our prose. These richer maps
+      can tell us not just more, but more humanistic, things about religious
+      history. To take advantage of these more comprehensive sources we need
+      digital maps. To be sure, digital history has had more than its share
+      of hubris, more than we have time to repent of today. But digital maps
+      do offer the possibility for working at different scales, for
+      displaying change over time, for integrating maps with our sources,
+      and for crafting narratives with maps. While none of these advantages
+      entirely solves with the problem of mapping humanistically, they do
+      permit us to at least start to address these theoretical concerns.
+    </p>
+  </section>
+
+  <section class="text">
+    <p>
+      My first work to show you is a deep map of the history of religion in
+      Boston. In the spring of 2014, I taught a course at Brandeis
+      University on mapping the religions of Boston in the nineteenth
+      century. In this project-based course, students did original research
+      to locate congregations in Boston and created a map of the religious
+      landscape of the city as it changed over time. Students looked at
+      nineteenth-century maps of Boston, city directories, and
+      denominational records to find the locations of about 235
+      congregations. They then developed a metadata schema to handle the
+      information they had researched. In other words, they had to design
+      the categories for their maps and figure out how to represent change
+      over time and ambiguity in the sources. Using <a href="http://omeka.org/">Omeka</a> and <a
+        href="http://neatline.org/">Neatline</a>, students created records
+      for the congregations, including information such as the date a
+      congregation was formed and the date it disbanded, its street
+      location, denomination, and any other relevant information, including
+      citations. Many of the records included photographs or engravings of
+      the church buildings. Churches were pegged to a timeline, so that
+      changes in congregations could be shown dynamically. Students also
+      georectified original maps to put beneath their congregations to show
+      the changing landscape of the city. This was especially important for
+      Boston, since large parts of the city were reclaimed from the
+      harbor or the Back Bay during the middle of the nineteenth century.
+      Finally, students created exhibits (online essays, really) about
+      particular aspects of what they had learned from creating the map.
+    </p>
+
+    <aside>
+      The term <em>deep map</em> has recently come into vogue. It refers to
+      a map which not only visualizes data but permits access to the sources
+      underlying that data, and perhaps also to maps which embed narratives.
+      Deep maps usually embed a variety of ways of looking at a particular
+      place. See also the <a href="http://lincolnmullen.com/teaching/">syllabus for the
+        course</a>. I learned a lot about the pedagogy of teaching a class
+      centered on a digital project (history class as shop class), but that
+      is another discussion altogether. On the Boston landfill, see Nancy S.
+      Seasholes, <i>Gaining Ground: A History of Landmaking in Boston</i>
+      (Cambridge, MA: MIT Press, 2003).
+    </aside>
+
+  </section>
+
+  <section id="class-map">
+    <aside>
+
+      <h2>Map of Boston Religions, 1800–1880</h2>
+
       <p>
-        On my desk I keep one reference work within easy reach: the <i><a 
-            href="https://global.oup.com/academic/product/new-historical-atlas-of-religion-in-america-9780195091687?cc=us&lang=en">New 
-            Historical Atlas of Religion in America</a></i>. It is not just 
-        that I am fascinated by maps. When writing or teaching about religion, 
-        I try to remember the dictum that I first learned from Jane Kamensky: 
-        “events take place.” To bring place into my work, I need to remind 
-        myself constantly of the where and when of American religious history.
-      </p>
-
-      <aside>
-        Edwin S. Gaustad, Philip L. Barlow, and Richard W. Dishno, <i>New 
-          Historical Atlas of Religion in America</i> (New York: Oxford 
-        University Press, 2001).
-      </aside>
-
-      <p>
-        But I also keep in mind Laurie Maffly-Kipp’s memorably titled essay 
-        “If It’s South Dakota You Must Be Episcopalian.” In that essay 
-        Maffly-Kipp reviews several atlases of American religion and makes a 
-        number of telling critiques of the whole enterprise of mapping 
-        religion, and indeed mapping in the humanities generally.  Those 
-        critiques can be lumped into two categories: sources and definitions.  
-        First, sources: “We are still limited by data that is partial, 
-        ambiguous, and clearly slanted toward things that can be counted and 
-        people that traditionally have been seen as significant.” In other 
-        words, our sources for making maps of religion aren’t very good, and 
-        the best sources let us make maps of groups that we already know a lot 
-        about. Second, definitions: Maffly-Kipp observes that our “our 
-        dazzling new technologies and spatial theories” might only have 
-        “brought us back to much more circumscribed definitions of religious 
-        experience.” In other words, map-making requires us to use 
-        denominational categories when the whole trend of religious history 
-        and religious studies is towards more complex, layered understandings 
-        of religion.
-      </p>
-
-      <aside>
-        Laurie F. Maffly-Kipp, “<a 
-          href="http://www.jstor.org/stable/4146694">If It’s South Dakota You 
-          Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S.  
-          Religion</a>,” <i>Church History</i> 71, no. 1 (2002): 132–42. Cf.
-        Laurie F. Maffly-Kipp, “<a 
-          href="http://jah.oxfordjournals.org/content/94/2/522.short">Putting 
-          Religion on the Map</a>,” <i>The Journal
-          of American History</i> 94, no. 2 (2007): 522–29,
-        doi:10.2307/25094964.
-      </aside>
-
-    </section>
-
-    <section class="text">
-      <p>
-        The scholars who created the leading atlases of American religion 
-        often raised the same questions. When I look at the <i>New Historical 
-          Atlas</i> or Bret Carroll's <i>Routledge Historical Atlas of 
-          Religion in America</i>, I see their great ingenuity in dealing with 
-        these questions within the limits of mapmaking in print.
-        But it seems to me that digital mapmaking permits us to  escape some 
-        of the constraints of maps in print atlases and monographs.
-        So my questions today are these: Can digital mapmaking let us make 
-        maps which address these theoretical critiques? How can we take the 
-        next step from the work of Gaustad and others, while taking into 
-        account Maffly-Kipp's concerns?
-      </p>
-
-      <aside>
-        Bret E. Carroll, <i>The Routledge Historical Atlas of Religion in 
-          America</i> (New York: Routledge, 2000).
-      </aside>
-
-      <p>
-        I'll try to answer those questions by showing you two projects that I 
-        have worked on. The first is a class I taught on mapping Boston's 
-        religions from the American revolution to the 1880s. And—since I've 
-        done more interesting work since I submitted my abstract a year ago—I 
-        will also sketch out the sources and methods for digital maps of 
-        religion on a much larger scale.
-      </p>
-
-    </section>
-
-    <section class="text">
-      <p>
-        My general argument is that there are large sources of data on 
-        American religion after the colonial period and before Word War II 
-        which historians have not used to make maps.  Scholars have not passed 
-        over these sources because they are unaware of them, but because they 
-        could not meaningfully represent them in print maps. The problem is 
-        one of resolution. Print atlases could convey relatively few data 
-        points. Furthermore, because atlases can contain only so many maps, 
-        they have often been forced to set their chronological or geographic 
-        scope very large. By using these more detailed sources we are able to 
-        make maps which better approximate the sophisticated thinking about 
-        religious categories that we expect from our prose. These richer maps 
-        can tell us not just more, but more humanistic, things about religious 
-        history. To take advantage of these more comprehensive sources we need 
-        digital maps. To be sure, digital history has had more than its share 
-        of hubris, more than we have time to repent of today. But digital maps 
-        do offer the possibility for working at different scales, for 
-        displaying change over time, for integrating maps with our sources, 
-        and for crafting narratives with maps.  While none of these advantages 
-        entirely solves with the problem of mapping humanistically, they do 
-        permit us to at least start to address these theoretical concerns.  
-      </p>
-    </section>
-
-    <section class="text">
-      <p>
-        My first work to show you is a deep map of the history of religion in 
-        Boston. In the spring of 2014, I taught a course at Brandeis 
-        University on mapping the religions of Boston in the nineteenth 
-        century. In this project-based course, students did original research 
-        to locate congregations in Boston and created a map of the religious 
-        landscape of the city as it changed over time. Students looked at 
-        nineteenth-century maps of Boston, city directories, and 
-        denominational records to find the locations of about 235 
-        congregations. They then developed a metadata schema to handle the 
-        information they had researched. In other words, they had to design 
-        the categories for their maps and figure out how to represent change 
-        over time and ambiguity in the sources. Using <a 
-          href="http://omeka.org/">Omeka</a> and <a 
-          href="http://neatline.org/">Neatline</a>, students created records 
-        for the congregations, including information such as the date a 
-        congregation was formed and the date it disbanded, its street 
-        location, denomination, and any other relevant information, including 
-        citations. Many of the records included photographs or engravings of 
-        the church buildings. Churches were pegged to a timeline, so that 
-        changes in congregations could be shown dynamically. Students also 
-        georectified original maps to put beneath their congregations to show 
-        the changing landscape of the city. This was especially important for 
-        Boston, since large parts of the city were reclaimed from the 
-        harbor or the Back Bay during the middle of the nineteenth century. 
-        Finally, students created exhibits (online essays, really) about 
-        particular aspects of what they had learned from creating the map.  
-      </p>
-
-      <aside>
-        The term <em>deep map</em> has recently come into vogue. It refers to 
-        a map which not only visualizes data but permits access to the sources 
-        underlying that data, and perhaps also to maps which embed narratives.  
-        Deep maps usually embed a variety of ways of looking at a particular 
-        place. See also the <a 
-          href="http://lincolnmullen.com/teaching/">syllabus for the 
-          course</a>. I learned a lot about the pedagogy of teaching a class 
-        centered on a digital project (history class as shop class), but that 
-        is another discussion altogether. On the Boston landfill, see Nancy S. 
-        Seasholes, <i>Gaining Ground: A History of Landmaking in Boston</i> 
-        (Cambridge, MA: MIT Press, 2003).
-      </aside>
-
-    </section>
-
-    <section id="class-map">
-      <aside>
-
-        <h2>Map of Boston Religions, 1800–1880</h2>
-
-        <p>
-          This map was created by the students in “Mapping Boston's Religions: 
-          A Digital History Seminar” at Brandeis University in spring 2014.  
-          See the <a 
-            href="http://omeka.lts.brandeis.edu/neatline/show/mapping-bostons-religions">standalone 
-            version of the map</a> for full functionality and for the student 
-          exhibits about their findings from the map.
-        </p>
-
-        <p>
-          Try dragging the timeline to show the changing places of 
-          congregations. The georectified map layers should change as well. 
-          Clicking on individual congregations will show additional 
-          information about them, as will following the links to the Omeka 
-          site.
-        </p>
-
-      </aside>
-
-    </section>
-
-    <section class="text">
-      <p>
-        I wish to be cautious about about making historical claims from the 
-        map. The students were all excellent, but the class was very small; 
-        too small, probably, for the size of the project that we attempted.  I 
-        can't claim that we identified all the congregations in the Boston for 
-        that eighty year period, which would have taken a team of graduate 
-        students much longer than a semester.
+        This map was created by the students in “Mapping Boston's Religions:
+        A Digital History Seminar” at Brandeis University in spring 2014.
+        See the <a href="http://omeka.lts.brandeis.edu/neatline/show/mapping-bostons-religions">standalone
+          version of the map</a> for full functionality and for the student
+        exhibits about their findings from the map.
       </p>
 
       <p>
-        But I can point out some of the methodological advantages of this kind 
-        of deep mapping. First, by animating the map we were able to see 
-        change over time. <a 
-          href="http://omeka.lts.brandeis.edu/exhibits/show/hist-144a--zi-jing-teoh">One 
-          student</a> who was interested in the Methodist congregations was 
-        able to chart their spread throughout the city. Methodists, like 
-        everybody else, started in the downtown section of the city. But as 
-        new land opened because of the Back Bay landfill, churches moved to 
-        the west.  We identified photos of churches in the Back Bay where they 
-        were literally the only buildings in sight. By observing movements 
-        connected to photographs, we were able to discuss the significance of 
-        landscape—an observation only available through this kind of deep 
-        mapping.
+        Try dragging the timeline to show the changing places of
+        congregations. The georectified map layers should change as well.
+        Clicking on individual congregations will show additional
+        information about them, as will following the links to the Omeka
+        site.
       </p>
 
-    </section>
+    </aside>
 
-    <section class="text">
+  </section>
 
-      <p>
-        Second, students learned from creating this map to think of religions 
-        as being part of an ecosystem. The map led to useful questions about 
-        how religious groups related to one another and to their environment. 
-        <a 
-          href="http://omeka.lts.brandeis.edu/exhibits/show/boston-synagogues">Another 
-          student</a> wrote about the disputes between the “Bayer” (i.e., 
-        German) and the “Polander” (i.e., Polish) synagogues. She was able to 
-        identify many of the homes of the Jews who made up the membership of 
-        Congregation Ohabei Shalom. The split between these congregations over 
-        matters of culture and ritual later influenced the settlement of Jews, 
-        who lived in different neighborhoods of the city at different times.  
-        <a 
-          href="http://omeka.lts.brandeis.edu/exhibits/show/africans-in-boston">A 
-          third student</a> examined racial segregation in housing and 
-        churches along with interaction between black and white Baptist 
-        churches on Beacon Hill and in the North End.
-      </p>
+  <section class="text">
+    <p>
+      I wish to be cautious about about making historical claims from the
+      map. The students were all excellent, but the class was very small;
+      too small, probably, for the size of the project that we attempted. I
+      can't claim that we identified all the congregations in the Boston for
+      that eighty year period, which would have taken a team of graduate
+      students much longer than a semester.
+    </p>
 
+    <p>
+      But I can point out some of the methodological advantages of this kind
+      of deep mapping. First, by animating the map we were able to see
+      change over time. <a href="http://omeka.lts.brandeis.edu/exhibits/show/hist-144a--zi-jing-teoh">One
+        student</a> who was interested in the Methodist congregations was
+      able to chart their spread throughout the city. Methodists, like
+      everybody else, started in the downtown section of the city. But as
+      new land opened because of the Back Bay landfill, churches moved to
+      the west. We identified photos of churches in the Back Bay where they
+      were literally the only buildings in sight. By observing movements
+      connected to photographs, we were able to discuss the significance of
+      landscape—an observation only available through this kind of deep
+      mapping.
+    </p>
 
-      <p>
-        Finally students thought deeply about the categories we had to use. So 
-        far from mapping obscuring the categories we used, it was the central 
-        means of discussing them. One day we read Ralph Waldo Emerson's 
-        “Divinity School Address,” with its call for his audience to be 
-        “yourself a newborn bard of the Holy Ghost,—cast behind you all 
-        conformity.” One student observed that 
-        Emerson would not have found much use in our class project, because we 
-        were mapping congregations rather than individuals, institutions 
-        rather than prophets. Our map featured a city, when Emerson would have 
-        called us to “nature.” It was a brilliant observation, because it used 
-        our reading of Emerson’s text to interrogate the assumptions about 
-        religion and society that underlay our class project: assumptions that 
-        I had made, and also assumption inherent to mapmaking. But our 
-        discussion also led us to conclude
-        that though Emerson had a point about individualism, many 
-        people in Boston would not have so easily discarded the 
-        congregations of which they were members.
-      </p>
+  </section>
 
-      <aside>
-        Ralph Waldo Emerson, “<a 
-          href="http://books.google.com/books?id=oT4tGGrDmWkC&pg=PA136">An 
-          Address, Delivered Before the Senior Class in
-          Divinity College</a>,” in <i>Nature, Address, and Lectures</i> 
-        (Boston: Houghton,
-        Mifflin, 1898), 136, 143. I have written about this in a forthcoming 
-        article, “Using Metadata and Maps to Teach the History of Religion,” 
-        <i>Transformations: The Journal of Inclusive Scholarship and Pedagogy</i>, 
-        24, no. 3 (2014): 34–40 (<a 
-          href="http://lincolnmullen.com/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf">PDF 
-          preprint</a>).
-      </aside>
+  <section class="text">
 
-    </section>
-
-    <section class="text">
-
-      <p>
-        While the map by no means fully resolves the critiques that I cited 
-        earlier, it does start to address them. In particular, this map is 
-        based on very different sources than the maps in Gaustad, Barlow, and 
-        Dishno's <i>New Historical Atlas of Religion</i>. Where they used data 
-        from the Census Bureau for the majority of their national maps, we 
-        were able to use just about any kind of source and to capture many 
-        more details about it within the Omeka records. And though our map 
-        was still beholden to more or less the same denominational categories 
-        as the <i>New Historical Atlas</i>, we were able to turn our attention 
-        to ecosystems and interactions.
-      </p>
+    <p>
+      Second, students learned from creating this map to think of religions
+      as being part of an ecosystem. The map led to useful questions about
+      how religious groups related to one another and to their environment.
+      <a href="http://omeka.lts.brandeis.edu/exhibits/show/boston-synagogues">Another
+        student</a> wrote about the disputes between the “Bayer” (i.e.,
+      German) and the “Polander” (i.e., Polish) synagogues. She was able to
+      identify many of the homes of the Jews who made up the membership of
+      Congregation Ohabei Shalom. The split between these congregations over
+      matters of culture and ritual later influenced the settlement of Jews,
+      who lived in different neighborhoods of the city at different times.
+      <a href="http://omeka.lts.brandeis.edu/exhibits/show/africans-in-boston">A
+        third student</a> examined racial segregation in housing and
+      churches along with interaction between black and white Baptist
+      churches on Beacon Hill and in the North End.
+    </p>
 
 
-      <p>
-        All of our methodological differences from the <i>New Historical 
-          Atlas</i> depended on looking at a city rather than a nation. Is 
-        there a way to extend these kind of methods to a larger scale?
-      </p>
+    <p>
+      Finally students thought deeply about the categories we had to use. So
+      far from mapping obscuring the categories we used, it was the central
+      means of discussing them. One day we read Ralph Waldo Emerson's
+      “Divinity School Address,” with its call for his audience to be
+      “yourself a newborn bard of the Holy Ghost,—cast behind you all
+      conformity.” One student observed that
+      Emerson would not have found much use in our class project, because we
+      were mapping congregations rather than individuals, institutions
+      rather than prophets. Our map featured a city, when Emerson would have
+      called us to “nature.” It was a brilliant observation, because it used
+      our reading of Emerson’s text to interrogate the assumptions about
+      religion and society that underlay our class project: assumptions that
+      I had made, and also assumption inherent to mapmaking. But our
+      discussion also led us to conclude
+      that though Emerson had a point about individualism, many
+      people in Boston would not have so easily discarded the
+      congregations of which they were members.
+    </p>
 
-      <p>
-        Most of the maps in the Gaustad atlas depict a particular denomination 
-        in a given year using aggregated data from the U.S.  Census Bureau 
-        about the number of congregations in a county. These maps are thus 
-        able to give an overview of the regional prominence of particular 
-        religious groups county by county. The map of Congregationalists in 
-        the 1850 census is typical.
-      </p>
+    <aside>
+      Ralph Waldo Emerson, “<a href="http://books.google.com/books?id=oT4tGGrDmWkC&pg=PA136">An
+        Address, Delivered Before the Senior Class in
+        Divinity College</a>,” in <i>Nature, Address, and Lectures</i>
+      (Boston: Houghton,
+      Mifflin, 1898), 136, 143. I have written about this in a forthcoming
+      article, “Using Metadata and Maps to Teach the History of Religion,”
+      <i>Transformations: The Journal of Inclusive Scholarship and Pedagogy</i>,
+      24, no. 3 (2014): 34–40 (<a
+        href="http://lincolnmullen.com/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf">PDF
+        preprint</a>).
+    </aside>
 
-      <aside>
-        The maps in the <i>New Historical Atlas</i> are unreliable for change 
-        over time, however, because they inexplicably change the color scales 
-        from year to year (let alone from denomination to denomination). Thus 
-        some maps appear to show the growth of a particular religious group, 
-        when what actually happened is impossible to discern visually given 
-        the changing scales.
-      </aside>
+  </section>
 
-      <p>
-        Thanks to the <a href="https://www.nhgis.org/">National Historic 
-          Geographic Information System</a> (NHGIS) at the University of 
-        Minnesota, it is easy to reproduce any of the maps in the Gaustad 
-        atlas which are based on the census. NHGIS has digitized the 
-        aggregate-level census data and keyed it to <a 
-          href="http://en.wikipedia.org/wiki/Shapefile">shapefiles</a> of 
-        United States in each decade. We can use that data to create web (or 
-        print, for that matter) maps which are visually similar to Gaustad's 
-        and which depict the exact same data.
+  <section class="text">
 
-      </p>
+    <p>
+      While the map by no means fully resolves the critiques that I cited
+      earlier, it does start to address them. In particular, this map is
+      based on very different sources than the maps in Gaustad, Barlow, and
+      Dishno's <i>New Historical Atlas of Religion</i>. Where they used data
+      from the Census Bureau for the majority of their national maps, we
+      were able to use just about any kind of source and to capture many
+      more details about it within the Omeka records. And though our map
+      was still beholden to more or less the same denominational categories
+      as the <i>New Historical Atlas</i>, we were able to turn our attention
+      to ecosystems and interactions.
+    </p>
 
-    </section>
 
-    <section style="background-image:url('gaustad-congregationalists-1850.png');
+    <p>
+      All of our methodological differences from the <i>New Historical
+        Atlas</i> depended on looking at a city rather than a nation. Is
+      there a way to extend these kind of methods to a larger scale?
+    </p>
+
+    <p>
+      Most of the maps in the Gaustad atlas depict a particular denomination
+      in a given year using aggregated data from the U.S. Census Bureau
+      about the number of congregations in a county. These maps are thus
+      able to give an overview of the regional prominence of particular
+      religious groups county by county. The map of Congregationalists in
+      the 1850 census is typical.
+    </p>
+
+    <aside>
+      The maps in the <i>New Historical Atlas</i> are unreliable for change
+      over time, however, because they inexplicably change the color scales
+      from year to year (let alone from denomination to denomination). Thus
+      some maps appear to show the growth of a particular religious group,
+      when what actually happened is impossible to discern visually given
+      the changing scales.
+    </aside>
+
+    <p>
+      Thanks to the <a href="https://www.nhgis.org/">National Historic
+        Geographic Information System</a> (NHGIS) at the University of
+      Minnesota, it is easy to reproduce any of the maps in the Gaustad
+      atlas which are based on the census. NHGIS has digitized the
+      aggregate-level census data and keyed it to <a href="http://en.wikipedia.org/wiki/Shapefile">shapefiles</a> of
+      United States in each decade. We can use that data to create web (or
+      print, for that matter) maps which are visually similar to Gaustad's
+      and which depict the exact same data.
+
+    </p>
+
+  </section>
+
+  <section style="background-image:url('gaustad-congregationalists-1850.png');
       background-size: contain; background-repeat: no-repeat;
       background-position: center;">
-    </section>
+  </section>
 
 
-    <section id="gaustad-slide">
-      <div id="gaustad-map" class="map" style="pointer-events:none;">
-      </div>
-      <aside>
-        <h2>Reproduction of Gaustad's Map of Congregationalists in 1850</h2>
-        <p>
-          A reproduction of Gaustad's map using data from Minnesota Population 
-          Center, <i><a href="https://www.nhgis.org/">National Historical 
-              Geographic Information System</a></i>, version 2.0 (Minneapolis, 
-          MN: University of Minnesota, 2011). The NHGIS provides the same 
-          county-level aggregated data from the U.S. Census used by Gaustad, 
-          Dishno, and Barlow.
-        </p>
-        <p>
-          This map and all other maps in this presentation were made with 
-          Elijah Meeks's <a 
-            href="https://github.com/emeeks/d3-carto-map">d3-carto-map</a> 
-          library, which in turn depends on Mike Bostock's <a 
-            href="http://d3js.org/">D3.js</a> visualization library.
-        </p>
-      </aside>
-    </section>
-
-    <section class="text">
+  <section id="gaustad-slide">
+    <div id="gaustad-map" class="map" style="pointer-events:none;">
+    </div>
+    <aside>
+      <h2>Reproduction of Gaustad's Map of Congregationalists in 1850</h2>
       <p>
-        The mere translation of the Gaustad maps from print to digital gains 
-        us nothing. Beyond the strong presence of Congregationalism in New 
-        England and its spread to parts of Ohio and Illinois, we cannot learn 
-        much from county-level maps. Were we to zoom into Massachusetts, 
-        we would learn that each county has 25 churches or more (how many 
-        more?) but we would not know where those churches were located, how 
-        close they were to other Congregationalist churches (let alone 
-        churches of other denominations) or how many congregants they had. The 
-        problem is that the county is too coarse for meaningful maps.
+        A reproduction of Gaustad's map using data from Minnesota Population
+        Center, <i><a href="https://www.nhgis.org/">National Historical
+            Geographic Information System</a></i>, version 2.0 (Minneapolis,
+        MN: University of Minnesota, 2011). The NHGIS provides the same
+        county-level aggregated data from the U.S. Census used by Gaustad,
+        Dishno, and Barlow.
       </p>
-
-      <aside>
-        The sharp-eyed critic will notice that the print Gaustad both includes 
-        a legend and uses the Albers projection, which is much preferable to 
-        the default Mercator projection in my reproduction.
-      </aside>
-
       <p>
-        But there is much more detailed information available to us. I mean 
-        most obviously the records of many denominations, which often contain 
-        detailed information about membership, and usually at a minimum 
-        contain long lists of congregations. Often they even include 
-        information about Canada. Once these lists are digitized and
-        geocoded, they can provide maps of much greater resolution than the 
-        aggregate census data.
+        This map and all other maps in this presentation were made with
+        Elijah Meeks's <a href="https://github.com/emeeks/d3-carto-map">d3-carto-map</a>
+        library, which in turn depends on Mike Bostock's <a href="http://d3js.org/">D3.js</a> visualization library.
       </p>
+    </aside>
+  </section>
 
-      <aside>
-        We need not limit ourselves to denominational records in print. Any 
-        source that contains repeated references to place can be mapped. (See, 
-        for instance, Brian Croxall's <a 
-          href="http://www.briancroxall.net/dh/assignments/mapping-mrs-dalloway/">class 
-          assignment</a> to map Virginia Woolf’s Mrs. Dalloway. I have <a 
-          href="http://lincolnmullen.com/projects/paulists-map/">used similar 
-          techniques</a> to map manuscript records from the Paulist Fathers; 
-        Jannelle Legg has mapped the <a 
-          href="http://jannellelegg.com/portfolio/FinalProject/CMDM.html">Church 
-          Mission to Deaf-Mutes</a> from the very unsystematic reports of the 
-        missionaries.
-      </aside>
-    </section>
+  <section class="text">
+    <p>
+      The mere translation of the Gaustad maps from print to digital gains
+      us nothing. Beyond the strong presence of Congregationalism in New
+      England and its spread to parts of Ohio and Illinois, we cannot learn
+      much from county-level maps. Were we to zoom into Massachusetts,
+      we would learn that each county has 25 churches or more (how many
+      more?) but we would not know where those churches were located, how
+      close they were to other Congregationalist churches (let alone
+      churches of other denominations) or how many congregants they had. The
+      problem is that the county is too coarse for meaningful maps.
+    </p>
 
-    <section style="background-image:url('congregationalist-records.png');
+    <aside>
+      The sharp-eyed critic will notice that the print Gaustad both includes
+      a legend and uses the Albers projection, which is much preferable to
+      the default Mercator projection in my reproduction.
+    </aside>
+
+    <p>
+      But there is much more detailed information available to us. I mean
+      most obviously the records of many denominations, which often contain
+      detailed information about membership, and usually at a minimum
+      contain long lists of congregations. Often they even include
+      information about Canada. Once these lists are digitized and
+      geocoded, they can provide maps of much greater resolution than the
+      aggregate census data.
+    </p>
+
+    <aside>
+      We need not limit ourselves to denominational records in print. Any
+      source that contains repeated references to place can be mapped. (See,
+      for instance, Brian Croxall's <a href="http://www.briancroxall.net/dh/assignments/mapping-mrs-dalloway/">class
+        assignment</a> to map Virginia Woolf’s Mrs. Dalloway. I have <a
+        href="http://lincolnmullen.com/projects/paulists-map/">used similar
+        techniques</a> to map manuscript records from the Paulist Fathers;
+      Jannelle Legg has mapped the <a href="http://jannellelegg.com/portfolio/FinalProject/CMDM.html">Church
+        Mission to Deaf-Mutes</a> from the very unsystematic reports of the
+      missionaries.
+    </aside>
+  </section>
+
+  <section style="background-image:url('congregationalist-records.png');
       background-size: contain; background-repeat: no-repeat;
       background-position: center;">
-    </section>
+  </section>
 
-    <section id="congregationalists">
-      <div id="congregationalists-map" class="map">
-      </div>
+  <section id="congregationalists">
+    <div id="congregationalists-map" class="map">
+    </div>
 
-      <aside>
-        <h2>Congregationalists in 1853</h2>
-        <p>
-          This map is based on data for 2,212 congregations in the United 
-          States and Canada transcribed from the <i><a 
-              href="https://archive.org/details/americancongrega04amer">Year-Book 
-              of the American Congregational Union for the Year 1854</a></i> 
-          (New York, 1854). The geocoded data is available on <a 
-            href="https://github.com/lmullen/demographics-religion">GitHub</a>.
-        </p> 
-
-        <p>
-          Clicking on a congregation will show more information about it.  
-          Follow the link in the pop-up to see the original record. Try zooming 
-          the map to various places:
-        </p>
-
-        <ul>
-          <li id="united-states"><a>United States</a></li>
-          <li id="new-england"><a>New England</a></li>
-          <li id="massachusetts"><a>Massachusetts</a></li>
-          <li id="boston"><a>Greater Boston</a></li>
-          <li id="connecticut"><a>Connecticut</a></li>
-          <li id="midwest"><a>Midwest</a></li>
-          <li id="ohio"><a>Ohio</a></li>
-        </ul>
-
-        <p>
-          <em>N.B.</em> The locations of congregations are precise only the 
-          city. To avoid overlap, when a city was home to more than one 
-          congregation, the congregations have been randomly distributed 
-          within the city.
-        </p>
-
-      </aside>
-
-    </section>
-
-    <section class="text">
+    <aside>
+      <h2>Congregationalists in 1853</h2>
       <p>
-        Leaving aside for a moment the ability to pan and zoom the map, to 
-        access additional information by clicking on the congregations, and to link out to primary 
-        source, how much more information does this map contain than the 
-        equivalent map in the <i>New Historical Atlas</i>? The <i>Atlas</i> 
-        has 137 counties with at least one Congregationalist church: it thus 
-        makes 137 meaningful marks on the page. This map from denominational 
-        records has 2,212 Congregationalist churches in the United States and 
-        Canada. Also, the map is able to depict not just the existence 
-        of a congregation, but also its size in members. This is a 
-        32-fold increase in the amount of information conveyed in the map.
-        For comparison, that is the difference between 
-        an 800 x 600 pixel CRT monitor and two 4K monitors.
+        This map is based on data for 2,212 congregations in the United
+        States and Canada transcribed from the <i><a href="https://archive.org/details/americancongrega04amer">Year-Book
+            of the American Congregational Union for the Year 1854</a></i>
+        (New York, 1854). The geocoded data is available on <a
+          href="https://github.com/lmullen/demographics-religion">GitHub</a>.
       </p>
 
       <p>
-        This map really does let us see things that we could not in the map 
-        based on aggregate census data.  For one, we can see how New England's 
-        cities were complex ecosystem of small and large Congregationalist 
-        churches.  Only a few miles separated the pastor-less sixteen members 
-        of a church in North Chelsea from the 603 members of Park Street 
-        Church. Second, there is a sharper line between the Massachusetts 
-        border with New York than between churches in Michigan and Canada. And 
-        third, we can see the effects of personality: Oberlin's eleven hundred 
-        Congregationalists drawn by Charles Finney far outweigh the membership 
-        of any other church west of Massachusetts.
+        Clicking on a congregation will show more information about it.
+        Follow the link in the pop-up to see the original record. Try zooming
+        the map to various places:
       </p>
+
+      <ul>
+        <li id="united-states"><a>United States</a></li>
+        <li id="new-england"><a>New England</a></li>
+        <li id="massachusetts"><a>Massachusetts</a></li>
+        <li id="boston"><a>Greater Boston</a></li>
+        <li id="connecticut"><a>Connecticut</a></li>
+        <li id="midwest"><a>Midwest</a></li>
+        <li id="ohio"><a>Ohio</a></li>
+      </ul>
 
       <p>
-        Another use of these maps is the ability to set them in 
-        motion over time. This effectively lets us make scores of maps where 
-        before we only had one.
+        <em>N.B.</em> The locations of congregations are precise only the
+        city. To avoid overlap, when a city was home to more than one
+        congregation, the congregations have been randomly distributed
+        within the city.
       </p>
-    </section>
 
-    <section id="diachronic">
-      <div id="diachronic-map" class="map">
-      </div>
-      <aside>
-        <h2>Congregationalists Over Time</h2>
-        <p>
-          <span id="diachronic-date">1630</span>
-        </p>
-        <p>
-          This map shows the spread of Congregationalists over time based on 
-          the records in the <i><a 
-              href="https://archive.org/details/americancongrega04amer">Year-Book 
-              of the American Congregational Union for the Year 1854</a></i> 
-          (New York, 1854). Only some associations 
-          reported the founding dates for churches, so this map shows 
-          primarily Massachusetts, Maine, and Connecticut.
-        </p>
-        <p>
-          <a onclick="clearInterval(timer); churchesOverTime();" 
-            style="cursor: pointer;">Replay</a>
-        </p>
-      </aside>
-    </section>
+    </aside>
 
-    <section class="text">
+  </section>
 
+  <section class="text">
+    <p>
+      Leaving aside for a moment the ability to pan and zoom the map, to
+      access additional information by clicking on the congregations, and to link out to primary
+      source, how much more information does this map contain than the
+      equivalent map in the <i>New Historical Atlas</i>? The <i>Atlas</i>
+      has 137 counties with at least one Congregationalist church: it thus
+      makes 137 meaningful marks on the page. This map from denominational
+      records has 2,212 Congregationalist churches in the United States and
+      Canada. Also, the map is able to depict not just the existence
+      of a congregation, but also its size in members. This is a
+      32-fold increase in the amount of information conveyed in the map.
+      For comparison, that is the difference between
+      an 800 x 600 pixel CRT monitor and two 4K monitors.
+    </p>
+
+    <p>
+      This map really does let us see things that we could not in the map
+      based on aggregate census data. For one, we can see how New England's
+      cities were complex ecosystem of small and large Congregationalist
+      churches. Only a few miles separated the pastor-less sixteen members
+      of a church in North Chelsea from the 603 members of Park Street
+      Church. Second, there is a sharper line between the Massachusetts
+      border with New York than between churches in Michigan and Canada. And
+      third, we can see the effects of personality: Oberlin's eleven hundred
+      Congregationalists drawn by Charles Finney far outweigh the membership
+      of any other church west of Massachusetts.
+    </p>
+
+    <p>
+      Another use of these maps is the ability to set them in
+      motion over time. This effectively lets us make scores of maps where
+      before we only had one.
+    </p>
+  </section>
+
+  <section id="diachronic">
+    <div id="diachronic-map" class="map">
+    </div>
+    <aside>
+      <h2>Congregationalists Over Time</h2>
       <p>
-        One other observation about sources. Denominational records for the 
-        nineteenth century vary widely from denomination to denomination, and 
-        can even vary in detail from year to year within the same 
-        denomination. So another source of information available to historians 
-        are the published census data up through 1926 (or for some 
-        denominations, through 1936). You will recall that I criticized the 
-        county-level data from the census as obscuring as much as it reveals.  
-        In order to create those aggregate counts, the Census Bureau had to 
-        keep track of data at the level of congregations. The published census 
-        reports contain counts of churches and members in cities with more 
-        than 25,000 people.  Compared to the attention paid to cities like 
-        Boston, few of us have done work on Council Bluffs, Iowa, or 
-        Woonsocket, RI, but it is possible to know with some specificity about 
-        those cities. For example, in the published 1926 census report there 
-        are 292 cities containing records for 215 religions or denominations.
+        <span id="diachronic-date">1630</span>
       </p>
-
-      <aside>
-        United States Department of Commerce, Bureau of the Census, 
-        <i>Religious Bodies: 1926</i> (Washington: Government Printing Office, 
-        1930), 1:348–59; 2:iii-vii.
-        The reliability of the censuses of religion has been defended in  
-        Rodney Stark, “The Reliability of Historical United States Census Data 
-        on Religion,” <i>Sociology of Religion</i> 53, no. 1 (1992): 91–95, 
-        doi:<a 
-          href="http://socrel.oxfordjournals.org/content/53/1/91">10.2307/3711631</a>.
-      </aside>
-
       <p>
-        Though I have not yet tracked them down, it is also possible to access 
-        the raw returns for the 1926 Census. For an extraordinary number of
-        congregations in the United States, there are census returns giving 
-        addresses and often counts of members. The Census Bureau used these in 
-        compiling their aggregate reports, but they can in turn be sources for 
-        detailed maps.
+        This map shows the spread of Congregationalists over time based on
+        the records in the <i><a href="https://archive.org/details/americancongrega04amer">Year-Book
+            of the American Congregational Union for the Year 1854</a></i>
+        (New York, 1854). Only some associations
+        reported the founding dates for churches, so this map shows
+        primarily Massachusetts, Maine, and Connecticut.
       </p>
+      <p>
+        <a onclick="clearInterval(timer); churchesOverTime();" style="cursor: pointer;">Replay</a>
+      </p>
+    </aside>
+  </section>
 
-    </section>
+  <section class="text">
 
-    <section style="background-image:url('census-form.jpg');
+    <p>
+      One other observation about sources. Denominational records for the
+      nineteenth century vary widely from denomination to denomination, and
+      can even vary in detail from year to year within the same
+      denomination. So another source of information available to historians
+      are the published census data up through 1926 (or for some
+      denominations, through 1936). You will recall that I criticized the
+      county-level data from the census as obscuring as much as it reveals.
+      In order to create those aggregate counts, the Census Bureau had to
+      keep track of data at the level of congregations. The published census
+      reports contain counts of churches and members in cities with more
+      than 25,000 people. Compared to the attention paid to cities like
+      Boston, few of us have done work on Council Bluffs, Iowa, or
+      Woonsocket, RI, but it is possible to know with some specificity about
+      those cities. For example, in the published 1926 census report there
+      are 292 cities containing records for 215 religions or denominations.
+    </p>
+
+    <aside>
+      United States Department of Commerce, Bureau of the Census,
+      <i>Religious Bodies: 1926</i> (Washington: Government Printing Office,
+      1930), 1:348–59; 2:iii-vii.
+      The reliability of the censuses of religion has been defended in
+      Rodney Stark, “The Reliability of Historical United States Census Data
+      on Religion,” <i>Sociology of Religion</i> 53, no. 1 (1992): 91–95,
+      doi:<a href="http://socrel.oxfordjournals.org/content/53/1/91">10.2307/3711631</a>.
+    </aside>
+
+    <p>
+      Though I have not yet tracked them down, it is also possible to access
+      the raw returns for the 1926 Census. For an extraordinary number of
+      congregations in the United States, there are census returns giving
+      addresses and often counts of members. The Census Bureau used these in
+      compiling their aggregate reports, but they can in turn be sources for
+      detailed maps.
+    </p>
+
+  </section>
+
+  <section style="background-image:url('census-form.jpg');
       background-size: contain; background-repeat: no-repeat;
       background-position: center;">
-    </section>
+  </section>
 
-    <section class="text">
-      <p>
-        In conclusion, the scholars who created print atlases did 
-        extraordinary work, not least given the constraints of the medium of 
-        print. But print could only show a limited amount of data. Given how 
-        little data we’ve actually had to work with, it's not surprising that 
-        the maps we have are open to criticisms.  Some of these problems are 
-        inherent in the nature of mapping—you'll never find Emerson's "newborn 
-        bard of the Holy Ghost" on a map like this.  But at least some of the 
-        critiques can begin to be solved by producing far more detailed maps 
-        of American religion, which in turn let us ask more complex questions 
-        about ecosystems, interactions, and the layering of space and 
-        identities.
-      </p>
-    </section>
+  <section class="text">
+    <p>
+      In conclusion, the scholars who created print atlases did
+      extraordinary work, not least given the constraints of the medium of
+      print. But print could only show a limited amount of data. Given how
+      little data we’ve actually had to work with, it's not surprising that
+      the maps we have are open to criticisms. Some of these problems are
+      inherent in the nature of mapping—you'll never find Emerson's "newborn
+      bard of the Holy Ghost" on a map like this. But at least some of the
+      critiques can begin to be solved by producing far more detailed maps
+      of American religion, which in turn let us ask more complex questions
+      about ecosystems, interactions, and the layering of space and
+      identities.
+    </p>
+  </section>
 
-    <script src="visualization.js"></script>
-  </body>
+  <script src="visualization.js"></script>
+</body>
+
 </html>
-
-

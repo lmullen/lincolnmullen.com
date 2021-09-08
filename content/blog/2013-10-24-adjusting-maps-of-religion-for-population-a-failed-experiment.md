@@ -14,13 +14,13 @@ To try to solve this problem I plotted some county-level [religion data from the
 
 Here is a map of the population of the eastern United States in 1860. Notice that the scale used in all this maps is a square-root scale, meaning that the difference between a populous city and a less-populous farming county is compressed so that the cities don't wash out the map. I've mapped only the eastern United States not because the West is unimportant, but because the West is so much less populous than the East that adjusting for population skews the maps.
 
-<img class="center" src="/downloads/post/2013-10-24-us-population.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-10-24-us-population.png" />
 
 The population in 1860 was much more spread out than it is today, because much many more people were farmers. We can observe that the Northeast is more populous than most of the rest of the country, and that the rest of the North is more populous than the South. But already we can make an inference: if the population was more evenly distributed than it is today, then variations in our map are less likely to have been caused by population. (To put this in mathematical terms, in our pseudo-equation `map = x / population`, as the population approaches being the same everywhere, then our denominator has no influence on the map. It's like dividing by 1.)
 
 Now let's map the number of churches for six denominations in 1860. These denominations were more or less selected at random, except that I excluded Baptists and Methodists because they have so many more churches that they would raise the upper bound of the scale and so hide some of the detail.
 
-<img class="center" src="/downloads/post/2013-10-24-churches-absolute.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-10-24-churches-absolute.png" />
 
 There is a wide geographic variation between these denominations. Already this tells us that the variation cannot be determined primarily by population. Briefly stated, this is what we can observe about each denomination:
 
@@ -33,7 +33,7 @@ There is a wide geographic variation between these denominations. Already this t
 
 Next we can map the same denominations, but dividing the number of churches by the population of the county.
 
-<img class="center" src="/downloads/post/2013-10-24-churches-relative.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-10-24-churches-relative.png" />
 
 It is difficult to express in words what `map = x / population` really means. Notice that we're dividing by the population in the county, not the number of adherents in the county, so we're not mapping the sizes of congregations. What I think we're mapping is the places where a denomination is doing better than we would expect given the population. Another, more interpretative way to put this is that these are maps of places where denominations had an edge on their competitors.
 
@@ -62,7 +62,7 @@ We can also think of shortcomings in the data that we are using. Ideally, we wou
 
 There is another way to try to figure out whether population affects the location of religion, and that is to plot the number of churches as a function of the size of the county. That is what I've done in this chart, excluding the twenty most populous cities.
 
-<img class="center" src="/downloads/post/2013-10-24-churches-charts.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-10-24-churches-charts.png" />
 
 I don't have much to say about these charts, except to make these few observations. Every denomination tends to have most of its churches in counties with small populations, which is not surprising since the median county population is less than 10,000, and third quartile county population is about 17,000. Presbyterians tend to have more churches for any given population size, as do Episcopalians and Catholics. Perhaps these charts indicate that Episcopalians, Presbyterians, and Catholics are more affected by population, but I'll have to think more about it.
 

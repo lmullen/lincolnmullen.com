@@ -8,4 +8,4 @@ In an [earlier post](/blog/mapping-catholic-dioceses-over-time/), I shared some 
 
 Red dot are the seats of dioceses; purple dots are the seats of archdioceses. The data includes both Roman rite and various eastern rite dioceses. I've only displayed dioceses in Mexico and Canada that are close to the border within the boundaries of the map, though the data has all the Canadian and Mexican dioceses.
 
-<img class="center" src="/downloads/demographics/dioceses.animation.gif" />
+<img class="center" src="//files.lincolnmullen.com/downloads/demographics/dioceses.animation.gif" />

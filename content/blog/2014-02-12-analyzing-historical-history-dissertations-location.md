@@ -10,7 +10,7 @@ So far I have mostly looked at the number of dissertations, and the page counts 
 
 Below is a map of the universities that have produced dissertations about history. Once again, since I'm using the ProQuest data, these are dissertations about history, a bigger set than dissertations written in history departments. In case the map isn't self-explanatory, the numbers in red boxes represent the total number of dissertations produced in a geographic area. You can put your mouse over the box to see the boundaries of the geographic area. Zooming in or clicking on the box will cluster the points into smaller and smaller units. Eventually you'll get individual markers for each university. Clicking on a marker will tell you the university name and the number of history dissertations it is has produced.
 
-<link rel="stylesheet" href="/downloads/historical-dissertations/location/MarkerCluster.css" />
+<link rel="stylesheet" href="//files.lincolnmullen.com/downloads/historical-dissertations/location/MarkerCluster.css" />
 
 ::: {#map}
 :::

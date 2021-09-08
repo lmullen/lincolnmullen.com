@@ -6,11 +6,11 @@ title: What the Map of Urban Religious Histories Shows Us
 
 Earlier today [Paul Putz](http://www.paulemoryputz.com/) wrote a post about an interactive bibliography that he and I created of books that study American religion in the context of cities. Paul explained our motivation for the project and how we created it. I'd like to offer a few observations about what I think we can learn from [the map](http://apps.lincolnmullen.com/urban-religious-history/).
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'urban-religion'});" href='/figures/urban-religion.png'><img src='/figures/urban-religion.png' alt='Screenshot of the \[Bibliography of Urban Religious History\](http://apps.lincolnmullen.com/urban-religious-history/).'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'urban-religion'});" href='//files.lincolnmullen.com/figures//urban-religion.png'><img src='//files.lincolnmullen.com/figures//urban-religion.png' alt='Screenshot of the \[Bibliography of Urban Religious History\](http://apps.lincolnmullen.com/urban-religious-history/).'></a>
 <figcaption>
 Figure 1: Screenshot of the
 
-[Bibliography of Urban Religious History](http://apps.lincolnmullen.com/urban-religious-history/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;urban-religion&#39;});" href="/figures/urban-religion.png">PNG</a>\]
+[Bibliography of Urban Religious History](http://apps.lincolnmullen.com/urban-religious-history/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;urban-religion&#39;});" href="//files.lincolnmullen.com/figures//urban-religion.png">PNG</a>\]
 
 </figcaption>
 </figure>

@@ -34,6 +34,6 @@ Then you can plot the boundaries using this minimal example:
 </figure>
 The result can be a map like this one of the United States in 1790, 1830, and 1860 ([code](https://github.com/lmullen/demographics-religion/blob/master/shapefiles.demo.R)):
 
-<img class="center" src="/downloads/demographics/demo.state-boundaries.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/demographics/demo.state-boundaries.png" />
 
 If you're using R for historical mapping, please try out this data and let me know if you have any problems. Thanks to the NHGIS for providing the data in the first place.

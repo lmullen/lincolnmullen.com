@@ -10,9 +10,9 @@ Recently I rediscovered Michael Beck's [post on the length of dissertations by d
 
 Here is a chart of the distribution of dissertation lengths by subject for universities in the United States and Canada from 2001 to 2013.
 <figure id="figure-1">
-[!['Median](/figures/diss-length/diss-length.png)](/figures/diss-length/diss-length.png)
+[!['Median](//files.lincolnmullen.com/figures//diss-length/diss-length.png)](//files.lincolnmullen.com/figures//diss-length/diss-length.png)
 <figcaption>
-Figure 1: Median length of PhD dissertations by subject in U.S. and Canadian universities since 2001. \[[PNG](/figures/diss-length/diss-length.png), [SVG](/figures/diss-length/diss-length.svg), [PDF](/figures/diss-length/diss-length.pdf)\]
+Figure 1: Median length of PhD dissertations by subject in U.S. and Canadian universities since 2001. \[[PNG](//files.lincolnmullen.com/figures//diss-length/diss-length.png), [SVG](//files.lincolnmullen.com/figures//diss-length/diss-length.svg), [PDF](//files.lincolnmullen.com/figures//diss-length/diss-length.pdf)\]
 </figcaption>
 </figure>
 Note that the key difference between Beck's chart and mine that he is grouping is dissertations by "major," which I assume is the nearly the same thing as department. The ProQuest data does not include the department for about three-quarters of the dissertations, so I have grouped the dissertations by their primary subject field. Whether that is a good proxy for discipline or department, you can decide for yourself, but I think it's a reasonable approximation for this purpose. I've also filtered out diploma mills (why does ProQuest let them into their database?), non-PhD dissertations (no disrespect intended though), universities from outside the US and Canada (because they are a tiny part of the data) and any subject that had fewer than twenty-five dissertations. The ProQuest data seems not to include many dissertations from some disciplines, such as chemistry.

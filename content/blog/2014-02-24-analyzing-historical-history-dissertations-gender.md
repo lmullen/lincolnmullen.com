@@ -16,7 +16,7 @@ Using that method, I've guessed the gender of the first names in the dissertatio
 
 ::: {.figure}
 <p>
-<img src="/downloads/historical-dissertations/plot-gender.svg" alt="plot of chunk plot-gender" /> <a href="/downloads/historical-dissertations/plot-gender.svg">SVG</a> \| <a href="/downloads/historical-dissertations/plot-gender.png">PNG</a> \| <a href="/downloads/historical-dissertations/plot-gender.pdf">PDF</a>
+<img src="//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.svg" alt="plot of chunk plot-gender" /> <a href="//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.svg">SVG</a> \| <a href="//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.png">PNG</a> \| <a href="//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.pdf">PDF</a>
 </p>
 :::
 
@@ -24,7 +24,7 @@ Another way to examine this trend is to look at the proportion of male and femal
 
 ::: {.figure}
 <p>
-<img src="/downloads/historical-dissertations/dissertations-by-gender-proportion.svg" alt="plot of chunk dissertations-by-gender-proportion" /> <a href="/downloads/historical-dissertations/dissertations-by-gender-proportion.svg">SVG</a> \| <a href="/downloads/historical-dissertations/dissertations-by-gender-proportion.png">PNG</a> \| <a href="/downloads/historical-dissertations/dissertations-by-gender-proportion.pdf">PDF</a>
+<img src="//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.svg" alt="plot of chunk dissertations-by-gender-proportion" /> <a href="//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.svg">SVG</a> \| <a href="//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.png">PNG</a> \| <a href="//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.pdf">PDF</a>
 </p>
 :::
 

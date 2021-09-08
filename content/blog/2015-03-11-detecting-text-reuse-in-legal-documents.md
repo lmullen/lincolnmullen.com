@@ -37,7 +37,7 @@ But first, let's look at one instance of the kinds of borrowings that we are try
 
 First, here is a [section on serving summonses from the 1850 New York code](http://books.google.com/books?id=9HEbAQAAIAAJ&dq=%22Documents%20of%20the%20Assembly%20of%20the%20State%20of%20New%20York%22%201850%20david%20graham&pg=PA257#v=onepage&q&f=false).[<sup>3</sup>](#fn3){\#fnref3.footnoteRef}
 <figure id="attachment_557" style="max-width: 609px" class="wp-caption alignnone">
-<img class="size-full wp-image-557" src="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ny1850-summons.png?resize=609%2C266" alt="" width="609" height="266" srcset="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ny1850-summons.png?w=609 609w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ny1850-summons.png?resize=300%2C131 300w" sizes="(max-width: 609px) 100vw, 609px" data-recalc-dims="1" />
+<img class="size-full wp-image-557" src="//files.lincolnmullen.com/uploads/2017/01/ny1850-summons.png?resize=609%2C266" alt="" width="609" height="266" srcset="//files.lincolnmullen.com/uploads/2017/01/ny1850-summons.png?w=609 609w, //files.lincolnmullen.com/uploads/2017/01/ny1850-summons.png?resize=300%2C131 300w" sizes="(max-width: 609px) 100vw, 609px" data-recalc-dims="1" />
 <figcaption class="wp-caption-text">
 An excerpt from the 1850 New York code of civil procedure.
 </figcaption>
@@ -67,7 +67,7 @@ Transcription:
 
 The borrowing is obvious, but variations make it complicated to detect the similarity algorithmically. In the example above, California adds the words "attached to the certified copy of the complaint." Sometimes the variations are due to local circumstances, as in the example below, where the California code inserts the local names of its courts and sensibly requires that actions happen in San Francisco instead of New York. In addition to actual changes in the text, imperfect OCR adds noise. Though we have taken some pains to get good OCR and were mostly successful, I think, the noise still adds an additional challenge.
 <figure id="attachment_549" style="max-width: 659px" class="wp-caption alignnone">
-<img class="size-full wp-image-549" src="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-sanfrancisco.png?resize=659%2C150" alt="" width="659" height="150" srcset="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-sanfrancisco.png?w=659 659w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-sanfrancisco.png?resize=300%2C68 300w" sizes="(max-width: 659px) 100vw, 659px" data-recalc-dims="1" />
+<img class="size-full wp-image-549" src="//files.lincolnmullen.com/uploads/2017/01/ca1851-sanfrancisco.png?resize=659%2C150" alt="" width="659" height="150" srcset="//files.lincolnmullen.com/uploads/2017/01/ca1851-sanfrancisco.png?w=659 659w, //files.lincolnmullen.com/uploads/2017/01/ca1851-sanfrancisco.png?resize=300%2C68 300w" sizes="(max-width: 659px) 100vw, 659px" data-recalc-dims="1" />
 <figcaption class="wp-caption-text">
 Section 22 of the California code from 1851.
 </figcaption>
@@ -217,7 +217,7 @@ yes
 </table>
 We then extended this technique to compare any two codes. That is, for each five-gram in the California 1851 code, we see whether it has a match in the New York 1850 code. The plot below shows a vertical line for each five-gram in the California code that has a match somewhere in the New York code.
 <figure id="attachment_548" style="max-width: 739px" class="wp-caption alignnone">
-<img class="size-medium_large wp-image-548" src="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-density.jpg?resize=739%2C240" alt="" width="739" height="240" srcset="https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-density.jpg?resize=768%2C249 768w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-density.jpg?resize=300%2C97 300w, https://i0.wp.com/lincolnmullen.com/blog/wp-content/uploads/2017/01/ca1851-density.jpg?w=861 861w" sizes="(max-width: 739px) 100vw, 739px" data-recalc-dims="1" />
+<img class="size-medium_large wp-image-548" src="//files.lincolnmullen.com/uploads/2017/01/ca1851-density.jpg?resize=739%2C240" alt="" width="739" height="240" srcset="//files.lincolnmullen.com/uploads/2017/01/ca1851-density.jpg?resize=768%2C249 768w, //files.lincolnmullen.com/uploads/2017/01/ca1851-density.jpg?resize=300%2C97 300w, //files.lincolnmullen.com/uploads/2017/01/ca1851-density.jpg?w=861 861w" sizes="(max-width: 739px) 100vw, 739px" data-recalc-dims="1" />
 <figcaption class="wp-caption-text">
 Places where the California 1851 code borrowed from the New York 1850 code.
 </figcaption>
@@ -402,16 +402,16 @@ Using the resulting matrix, we can created the following network visualization o
 
  
 <figure id="figure-7">
-[!['Network](/figures/field-code/codes-s10.svg)]( "/figures/field-code/codes-s10.svg")
+[!['Network](//files.lincolnmullen.com/figures//field-code/codes-s10.svg)]( "//files.lincolnmullen.com/figures//field-code/codes-s10.svg")
 <figcaption>
-Figure 7: Network graph of borrowings between codes of civil procedure in the nineteenth-century United States (weight ≥ .10). \[[SVG](/figures/field-code/codes-s10.svg)\]
+Figure 7: Network graph of borrowings between codes of civil procedure in the nineteenth-century United States (weight ≥ .10). \[[SVG](//files.lincolnmullen.com/figures//field-code/codes-s10.svg)\]
 </figcaption>
 </figure>
 The network graph below extracts the largest family of codes that were related to one another, and is much stricter about which connections are retained. Just as we expected, this graph centers on the 1850 New York code, which radiates connections out to the surrounding codes. (If the Field Code were not central, as we know it to be from other historical research, then we would have a had a strong presumption that our method had a problem.) But what is different about this visualization is the detailed connections between all the other codes.
 <figure id="figure-8">
-[!['The](/figures/field-code/code-family-s25.svg)]( "/figures/field-code/code-family-s25.svg")
+[!['The](//files.lincolnmullen.com/figures//field-code/code-family-s25.svg)]( "//files.lincolnmullen.com/figures//field-code/code-family-s25.svg")
 <figcaption>
-Figure 8: The largest family of codes which borrowed from one another (weight ≥ .25). \[[SVG](/figures/field-code/code-family-s25.svg)\]
+Figure 8: The largest family of codes which borrowed from one another (weight ≥ .25). \[[SVG](//files.lincolnmullen.com/figures//field-code/code-family-s25.svg)\]
 </figcaption>
 </figure>
 ### Preliminary findings and next steps

@@ -14,17 +14,17 @@ The first question anyone writing a dissertation probably asks is, How long shou
 
 Using the ProQuest data, we can see how history dissertations varied in length over time:
 
-![](/downloads/historical-dissertations/pages-since-1878.png)
+![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-since-1878.png)
 
 The more useful view is to look at just dissertations since 1945:
 
-![](/downloads/historical-dissertations/pages-since-1945.png)
+![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-since-1945.png)
 
 We can make a few observations. First, the average length of dissertations is remarkably stable. From 1880 to 1930, history dissertations get quite a bit longer. But since from the 1950s to the present, the average length of dissertations has fluctuated within a relatively narrow band. That band is relatively narrow, that is, in relation to the huge overall variation in the length of history dissertations, which have a normal range between 150 and 600 pages. The acceptable range can even go a little lower than 150 pages, and it can go much, much higher than 600 pages.
 
 We can be more precise about typical length of a history dissertation by plotting the mean and median. (If you prefer, you can see that data in tabular form at the end of the post.)
 
-![](/downloads/historical-dissertations/pages-mean-median.png)
+![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-mean-median.png)
 
 The mean length is longer by 27 pages on average than the median length, as you would expect since the permissible maximum length for a dissertation is much more flexible than the permissible minimum length. But the two measures fluctuate more or less in tandem. From a peak in 1958 to a trough in 1972, dissertations got shorter by about 45 pages. Then from 1972 dissertations gradually got longer till they reached a peak in 1988 about 55 pages longer. Since 1988 dissertations are getting shorter, with 2012 being a low with a mean of 331 and a median of 306.
 
@@ -32,7 +32,7 @@ I don't have a good explanation for these fluctuations. Could dissertations have
 
 It's not enough to look at the mean or median dissertation length, given that there is such an enormous variation in the permissible length of dissertations. Another helpful way to look at the data is to see the distribution of the quartiles. (This chart cuts off many outliers above 800 pages long.)
 
-![](/downloads/historical-dissertations/pages-boxplot.png)
+![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-boxplot.png)
 
 The boxes in this chart show the middle 50 percent of dissertations for each half decade. We might interpret this as the typical range for most dissertations. Even typical dissertations fluctuate in length, so that the low end of typical can be 70 pages shorter than median, and the high end of typical can be 50 or 60 pages more than median. But many dissertations come in shorter, and there is a very high upper bound to the maximum length of dissertations.
 

@@ -12,7 +12,7 @@ I spent the past two days at "[Digital Humanities: The Next Generation](http://w
 
 The *10 PRINT* authors explain how the code works, but here's a brief explanation. The `PRINT` command outputs a character to the screen. The randomization function selects between characters 205 and 206. Then the `GOTO 10` command returns to the beginning of the line and runs the command in an endless loop. The output of the program is a diagonal maze.
 
-<img class="center" src="/downloads/post/2013-03-16.10PRINT-1.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-03-16.10PRINT-1.png" />
 
 As part of the demonstration, Patsy and Nick brought two Commodore 64s for the audience to try. That was fun: I'd never played with a Commodore. While we were waiting our turn, Shane Landrum and I decided to translate the program into another computer language. He chose Perl, and I chose Ruby. In about 10 minutes, we tied in reproducing the output. Here are our solutions:
 
@@ -66,7 +66,7 @@ Fourth, the program uses the variable to select one of the characters from the a
 
 This is the output of solutions 1 through 3:
 
-<img class="center" src="/downloads/post/2013-03-16.10PRINT-2.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-03-16.10PRINT-2.png" />
 
 ## Solution 2
 
@@ -95,7 +95,7 @@ The second most obvious defect of the translations so far is that the forward sl
 
 In this solution we use two [Unicode](http://www.unicode.org/) characters, [U+2571](http://www.fileformat.info/info/unicode/char/2571/index.htm) and [U+2572](http://www.fileformat.info/info/unicode/char/2572/index.htm), which map more closely to the PETSCII characters. But just as we have to use method calls to objects in Ruby rather than simple functions, here we have to use Unicode rather than the limited character set of the Commodore 64. The output looks much better:
 
-<img class="center" src="/downloads/post/2013-03-16.10PRINT-3.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-03-16.10PRINT-3.png" />
 
 ## Solution 5
 

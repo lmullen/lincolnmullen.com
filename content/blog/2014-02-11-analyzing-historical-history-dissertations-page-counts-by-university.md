@@ -8,7 +8,7 @@ title: 'Analyzing Historical History Dissertations: Page Counts by University'
 
 In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time. For context, here is the most significant chart:
 
-![](/downloads/historical-dissertations/pages-mean-median.png)
+![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-mean-median.png)
 
 There are probably at least four factors influencing the length of the dissertation:
 
@@ -40,319 +40,319 @@ The institutions are listed in descending order of the number of dissertations i
 
 ------------------------------------------------------------------------
 
-Columbia University. ![](/downloads/historical-dissertations/pages-columbia-university.png)
+Columbia University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-columbia-university.png)
 
-The University of Wisconsin -- Madison. ![](/downloads/historical-dissertations/pages-the-university-of-wisconsin---madison.png)
+The University of Wisconsin -- Madison. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-wisconsin---madison.png)
 
-University of California, Berkeley. ![](/downloads/historical-dissertations/pages-university-of-california,-berkeley.png)
+University of California, Berkeley. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-berkeley.png)
 
-Yale University. ![](/downloads/historical-dissertations/pages-yale-university.png)
+Yale University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-yale-university.png)
 
-University of California, Los Angeles. ![](/downloads/historical-dissertations/pages-university-of-california,-los-angeles.png)
+University of California, Los Angeles. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-los-angeles.png)
 
-New York University. ![](/downloads/historical-dissertations/pages-new-york-university.png)
+New York University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-new-york-university.png)
 
-Harvard University. ![](/downloads/historical-dissertations/pages-harvard-university.png)
+Harvard University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-harvard-university.png)
 
-University of Michigan. ![](/downloads/historical-dissertations/pages-university-of-michigan.png)
+University of Michigan. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-michigan.png)
 
-University of Pennsylvania. ![](/downloads/historical-dissertations/pages-university-of-pennsylvania.png)
+University of Pennsylvania. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-pennsylvania.png)
 
-The University of Chicago. ![](/downloads/historical-dissertations/pages-the-university-of-chicago.png)
+The University of Chicago. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-chicago.png)
 
-Princeton University. ![](/downloads/historical-dissertations/pages-princeton-university.png)
+Princeton University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-princeton-university.png)
 
-Indiana University. ![](/downloads/historical-dissertations/pages-indiana-university.png)
+Indiana University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-indiana-university.png)
 
-University of Minnesota. ![](/downloads/historical-dissertations/pages-university-of-minnesota.png)
+University of Minnesota. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-minnesota.png)
 
-Stanford University. ![](/downloads/historical-dissertations/pages-stanford-university.png)
+Stanford University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-stanford-university.png)
 
-The University of Texas at Austin. ![](/downloads/historical-dissertations/pages-the-university-of-texas-at-austin.png)
+The University of Texas at Austin. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-texas-at-austin.png)
 
-The University of North Carolina at Chapel Hill. ![](/downloads/historical-dissertations/pages-the-university-of-north-carolina-at-chapel-hill.png)
+The University of North Carolina at Chapel Hill. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-north-carolina-at-chapel-hill.png)
 
-University of Virginia. ![](/downloads/historical-dissertations/pages-university-of-virginia.png)
+University of Virginia. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-virginia.png)
 
-The Ohio State University. ![](/downloads/historical-dissertations/pages-the-ohio-state-university.png)
+The Ohio State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-ohio-state-university.png)
 
-Duke University. ![](/downloads/historical-dissertations/pages-duke-university.png)
+Duke University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-duke-university.png)
 
-University of Illinois at Urbana-Champaign. ![](/downloads/historical-dissertations/pages-university-of-illinois-at-urbana-champaign.png)
+University of Illinois at Urbana-Champaign. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-illinois-at-urbana-champaign.png)
 
-The Johns Hopkins University. ![](/downloads/historical-dissertations/pages-the-johns-hopkins-university.png)
+The Johns Hopkins University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-johns-hopkins-university.png)
 
-Cornell University. ![](/downloads/historical-dissertations/pages-cornell-university.png)
+Cornell University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-cornell-university.png)
 
-City University of New York. ![](/downloads/historical-dissertations/pages-city-university-of-new-york.png)
+City University of New York. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-city-university-of-new-york.png)
 
-Northwestern University. ![](/downloads/historical-dissertations/pages-northwestern-university.png)
+Northwestern University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-northwestern-university.png)
 
-University of Washington. ![](/downloads/historical-dissertations/pages-university-of-washington.png)
+University of Washington. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-washington.png)
 
-Rutgers The State University of New Jersey -- New Brunswick. ![](/downloads/historical-dissertations/pages-rutgers-the-state-university-of-new-jersey---new-brunswick.png)
+Rutgers The State University of New Jersey -- New Brunswick. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-rutgers-the-state-university-of-new-jersey---new-brunswick.png)
 
-University of Maryland, College Park. ![](/downloads/historical-dissertations/pages-university-of-maryland,-college-park.png)
+University of Maryland, College Park. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-maryland,-college-park.png)
 
-The University of Iowa. ![](/downloads/historical-dissertations/pages-the-university-of-iowa.png)
+The University of Iowa. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-iowa.png)
 
-University of California, Santa Barbara. ![](/downloads/historical-dissertations/pages-university-of-california,-santa-barbara.png)
+University of California, Santa Barbara. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-santa-barbara.png)
 
-University of Pittsburgh. ![](/downloads/historical-dissertations/pages-university-of-pittsburgh.png)
+University of Pittsburgh. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-pittsburgh.png)
 
-The Florida State University. ![](/downloads/historical-dissertations/pages-the-florida-state-university.png)
+The Florida State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-florida-state-university.png)
 
-Emory University. ![](/downloads/historical-dissertations/pages-emory-university.png)
+Emory University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-emory-university.png)
 
-Michigan State University. ![](/downloads/historical-dissertations/pages-michigan-state-university.png)
+Michigan State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-michigan-state-university.png)
 
-University of Kansas. ![](/downloads/historical-dissertations/pages-university-of-kansas.png)
+University of Kansas. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-kansas.png)
 
-Brown University. ![](/downloads/historical-dissertations/pages-brown-university.png)
+Brown University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-brown-university.png)
 
-Temple University. ![](/downloads/historical-dissertations/pages-temple-university.png)
+Temple University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-temple-university.png)
 
-University of Notre Dame. ![](/downloads/historical-dissertations/pages-university-of-notre-dame.png)
+University of Notre Dame. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-notre-dame.png)
 
-Boston University. ![](/downloads/historical-dissertations/pages-boston-university.png)
+Boston University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-boston-university.png)
 
-Georgetown University. ![](/downloads/historical-dissertations/pages-georgetown-university.png)
+Georgetown University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-georgetown-university.png)
 
-University of Southern California. ![](/downloads/historical-dissertations/pages-university-of-southern-california.png)
+University of Southern California. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-southern-california.png)
 
-State University of New York at Buffalo. ![](/downloads/historical-dissertations/pages-state-university-of-new-york-at-buffalo.png)
+State University of New York at Buffalo. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-state-university-of-new-york-at-buffalo.png)
 
-The Pennsylvania State University. ![](/downloads/historical-dissertations/pages-the-pennsylvania-state-university.png)
+The Pennsylvania State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-pennsylvania-state-university.png)
 
-University of Missouri -- Columbia. ![](/downloads/historical-dissertations/pages-university-of-missouri---columbia.png)
+University of Missouri -- Columbia. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-missouri---columbia.png)
 
-Brandeis University. ![](/downloads/historical-dissertations/pages-brandeis-university.png)
+Brandeis University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-brandeis-university.png)
 
-The University of Arizona. ![](/downloads/historical-dissertations/pages-the-university-of-arizona.png)
+The University of Arizona. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-arizona.png)
 
-State University of New York at Binghamton. ![](/downloads/historical-dissertations/pages-state-university-of-new-york-at-binghamton.png)
+State University of New York at Binghamton. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-state-university-of-new-york-at-binghamton.png)
 
-Saint Louis University. ![](/downloads/historical-dissertations/pages-saint-louis-university.png)
+Saint Louis University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-saint-louis-university.png)
 
-Vanderbilt University. ![](/downloads/historical-dissertations/pages-vanderbilt-university.png)
+Vanderbilt University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-vanderbilt-university.png)
 
-University of California, San Diego. ![](/downloads/historical-dissertations/pages-university-of-california,-san-diego.png)
+University of California, San Diego. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-san-diego.png)
 
-Syracuse University. ![](/downloads/historical-dissertations/pages-syracuse-university.png)
+Syracuse University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-syracuse-university.png)
 
-The Catholic University of America. ![](/downloads/historical-dissertations/pages-the-catholic-university-of-america.png)
+The Catholic University of America. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-catholic-university-of-america.png)
 
-University of Colorado at Boulder. ![](/downloads/historical-dissertations/pages-university-of-colorado-at-boulder.png)
+University of Colorado at Boulder. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-colorado-at-boulder.png)
 
-University of Florida. ![](/downloads/historical-dissertations/pages-university-of-florida.png)
+University of Florida. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-florida.png)
 
-The Claremont Graduate University. ![](/downloads/historical-dissertations/pages-the-claremont-graduate-university.png)
+The Claremont Graduate University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-claremont-graduate-university.png)
 
-The University of New Mexico. ![](/downloads/historical-dissertations/pages-the-university-of-new-mexico.png)
+The University of New Mexico. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-new-mexico.png)
 
-The George Washington University. ![](/downloads/historical-dissertations/pages-the-george-washington-university.png)
+The George Washington University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-george-washington-university.png)
 
-The University of Oklahoma. ![](/downloads/historical-dissertations/pages-the-university-of-oklahoma.png)
+The University of Oklahoma. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-oklahoma.png)
 
-University of Massachusetts Amherst. ![](/downloads/historical-dissertations/pages-university-of-massachusetts-amherst.png)
+University of Massachusetts Amherst. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-massachusetts-amherst.png)
 
-Tulane University. ![](/downloads/historical-dissertations/pages-tulane-university.png)
+Tulane University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-tulane-university.png)
 
-University of California, Irvine. ![](/downloads/historical-dissertations/pages-university-of-california,-irvine.png)
+University of California, Irvine. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-irvine.png)
 
-University of Kentucky. ![](/downloads/historical-dissertations/pages-university-of-kentucky.png)
+University of Kentucky. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-kentucky.png)
 
-University of South Carolina. ![](/downloads/historical-dissertations/pages-university-of-south-carolina.png)
+University of South Carolina. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-south-carolina.png)
 
-University of Rochester. ![](/downloads/historical-dissertations/pages-university-of-rochester.png)
+University of Rochester. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-rochester.png)
 
-State University of New York at Stony Brook. ![](/downloads/historical-dissertations/pages-state-university-of-new-york-at-stony-brook.png)
+State University of New York at Stony Brook. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-state-university-of-new-york-at-stony-brook.png)
 
-University of Connecticut. ![](/downloads/historical-dissertations/pages-university-of-connecticut.png)
+University of Connecticut. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-connecticut.png)
 
-University of Hawai'i at Manoa. ![](/downloads/historical-dissertations/pages-university-of-hawai'i-at-manoa.png)
+University of Hawai'i at Manoa. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-hawai'i-at-manoa.png)
 
-University of Delaware. ![](/downloads/historical-dissertations/pages-university-of-delaware.png)
+University of Delaware. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-delaware.png)
 
-Boston College. ![](/downloads/historical-dissertations/pages-boston-college.png)
+Boston College. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-boston-college.png)
 
-University of Oregon. ![](/downloads/historical-dissertations/pages-university-of-oregon.png)
+University of Oregon. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-oregon.png)
 
-Arizona State University. ![](/downloads/historical-dissertations/pages-arizona-state-university.png)
+Arizona State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-arizona-state-university.png)
 
-Louisiana State University and Agricultural & Mechanical College. ![](/downloads/historical-dissertations/pages-louisiana-state-university-and-agricultural-&-mechanical-college.png)
+Louisiana State University and Agricultural & Mechanical College. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-louisiana-state-university-and-agricultural-&-mechanical-college.png)
 
-University of California, Davis. ![](/downloads/historical-dissertations/pages-university-of-california,-davis.png)
+University of California, Davis. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-davis.png)
 
-Loyola University Chicago. ![](/downloads/historical-dissertations/pages-loyola-university-chicago.png)
+Loyola University Chicago. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-loyola-university-chicago.png)
 
-The University of Nebraska -- Lincoln. ![](/downloads/historical-dissertations/pages-the-university-of-nebraska---lincoln.png)
+The University of Nebraska -- Lincoln. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-nebraska---lincoln.png)
 
-Washington University in St. Louis. ![](/downloads/historical-dissertations/pages-washington-university-in-st.-louis.png)
+Washington University in St. Louis. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-washington-university-in-st.-louis.png)
 
-American University. ![](/downloads/historical-dissertations/pages-american-university.png)
+American University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-american-university.png)
 
-University of Georgia. ![](/downloads/historical-dissertations/pages-university-of-georgia.png)
+University of Georgia. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-georgia.png)
 
-University of California, Riverside. ![](/downloads/historical-dissertations/pages-university-of-california,-riverside.png)
+University of California, Riverside. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-riverside.png)
 
-Case Western Reserve University. ![](/downloads/historical-dissertations/pages-case-western-reserve-university.png)
+Case Western Reserve University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-case-western-reserve-university.png)
 
-Texas A&M University. ![](/downloads/historical-dissertations/pages-texas-a&m-university.png)
+Texas A&M University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-texas-a&m-university.png)
 
-Fordham University. ![](/downloads/historical-dissertations/pages-fordham-university.png)
+Fordham University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-fordham-university.png)
 
-Drew University. ![](/downloads/historical-dissertations/pages-drew-university.png)
+Drew University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-drew-university.png)
 
-The University of Utah. ![](/downloads/historical-dissertations/pages-the-university-of-utah.png)
+The University of Utah. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-utah.png)
 
-Kent State University. ![](/downloads/historical-dissertations/pages-kent-state-university.png)
+Kent State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-kent-state-university.png)
 
-Purdue University. ![](/downloads/historical-dissertations/pages-purdue-university.png)
+Purdue University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-purdue-university.png)
 
-Washington State University. ![](/downloads/historical-dissertations/pages-washington-state-university.png)
+Washington State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-washington-state-university.png)
 
-University of Illinois at Chicago. ![](/downloads/historical-dissertations/pages-university-of-illinois-at-chicago.png)
+University of Illinois at Chicago. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-illinois-at-chicago.png)
 
-Rice University. ![](/downloads/historical-dissertations/pages-rice-university.png)
+Rice University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-rice-university.png)
 
-University of Cincinnati. ![](/downloads/historical-dissertations/pages-university-of-cincinnati.png)
+University of Cincinnati. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-cincinnati.png)
 
-Marquette University. ![](/downloads/historical-dissertations/pages-marquette-university.png)
+Marquette University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-marquette-university.png)
 
-University of North Texas. ![](/downloads/historical-dissertations/pages-university-of-north-texas.png)
+University of North Texas. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-north-texas.png)
 
-Howard University. ![](/downloads/historical-dissertations/pages-howard-university.png)
+Howard University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-howard-university.png)
 
-Ohio University. ![](/downloads/historical-dissertations/pages-ohio-university.png)
+Ohio University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-ohio-university.png)
 
-Texas Christian University. ![](/downloads/historical-dissertations/pages-texas-christian-university.png)
+Texas Christian University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-texas-christian-university.png)
 
-The University of Tennessee. ![](/downloads/historical-dissertations/pages-the-university-of-tennessee.png)
+The University of Tennessee. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-tennessee.png)
 
-The University of Alabama. ![](/downloads/historical-dissertations/pages-the-university-of-alabama.png)
+The University of Alabama. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-alabama.png)
 
-Boston University Graduate School. ![](/downloads/historical-dissertations/pages-boston-university-graduate-school.png)
+Boston University Graduate School. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-boston-university-graduate-school.png)
 
-The College of William and Mary. ![](/downloads/historical-dissertations/pages-the-college-of-william-and-mary.png)
+The College of William and Mary. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-college-of-william-and-mary.png)
 
-Graduate Theological Union. ![](/downloads/historical-dissertations/pages-graduate-theological-union.png)
+Graduate Theological Union. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-graduate-theological-union.png)
 
-Bryn Mawr College. ![](/downloads/historical-dissertations/pages-bryn-mawr-college.png)
+Bryn Mawr College. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-bryn-mawr-college.png)
 
-Southern Illinois University at Carbondale. ![](/downloads/historical-dissertations/pages-southern-illinois-university-at-carbondale.png)
+Southern Illinois University at Carbondale. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-southern-illinois-university-at-carbondale.png)
 
-University of California, Santa Cruz. ![](/downloads/historical-dissertations/pages-university-of-california,-santa-cruz.png)
+University of California, Santa Cruz. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-california,-santa-cruz.png)
 
-University of Denver. ![](/downloads/historical-dissertations/pages-university-of-denver.png)
+University of Denver. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-denver.png)
 
-The Southern Baptist Theological Seminary. ![](/downloads/historical-dissertations/pages-the-southern-baptist-theological-seminary.png)
+The Southern Baptist Theological Seminary. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-southern-baptist-theological-seminary.png)
 
-Bowling Green State University. ![](/downloads/historical-dissertations/pages-bowling-green-state-university.png)
+Bowling Green State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-bowling-green-state-university.png)
 
-West Virginia University. ![](/downloads/historical-dissertations/pages-west-virginia-university.png)
+West Virginia University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-west-virginia-university.png)
 
-University of Houston. ![](/downloads/historical-dissertations/pages-university-of-houston.png)
+University of Houston. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-houston.png)
 
-State University of New York at Albany. ![](/downloads/historical-dissertations/pages-state-university-of-new-york-at-albany.png)
+State University of New York at Albany. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-state-university-of-new-york-at-albany.png)
 
-Texas Tech University. ![](/downloads/historical-dissertations/pages-texas-tech-university.png)
+Texas Tech University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-texas-tech-university.png)
 
-The Union Institute. ![](/downloads/historical-dissertations/pages-the-union-institute.png)
+The Union Institute. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-union-institute.png)
 
-Auburn University. ![](/downloads/historical-dissertations/pages-auburn-university.png)
+Auburn University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-auburn-university.png)
 
-Northern Illinois University. ![](/downloads/historical-dissertations/pages-northern-illinois-university.png)
+Northern Illinois University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-northern-illinois-university.png)
 
-Georgia State University. ![](/downloads/historical-dissertations/pages-georgia-state-university.png)
+Georgia State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-georgia-state-university.png)
 
-The University of Mississippi. ![](/downloads/historical-dissertations/pages-the-university-of-mississippi.png)
+The University of Mississippi. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-mississippi.png)
 
-Wayne State University. ![](/downloads/historical-dissertations/pages-wayne-state-university.png)
+Wayne State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-wayne-state-university.png)
 
-Southwestern Baptist Theological Seminary. ![](/downloads/historical-dissertations/pages-southwestern-baptist-theological-seminary.png)
+Southwestern Baptist Theological Seminary. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-southwestern-baptist-theological-seminary.png)
 
-Miami University. ![](/downloads/historical-dissertations/pages-miami-university.png)
+Miami University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-miami-university.png)
 
-Oklahoma State University. ![](/downloads/historical-dissertations/pages-oklahoma-state-university.png)
+Oklahoma State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-oklahoma-state-university.png)
 
-New School for Social Research. ![](/downloads/historical-dissertations/pages-new-school-for-social-research.png)
+New School for Social Research. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-new-school-for-social-research.png)
 
-Princeton Theological Seminary. ![](/downloads/historical-dissertations/pages-princeton-theological-seminary.png)
+Princeton Theological Seminary. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-princeton-theological-seminary.png)
 
-University of Miami. ![](/downloads/historical-dissertations/pages-university-of-miami.png)
+University of Miami. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-miami.png)
 
-The University of Maine. ![](/downloads/historical-dissertations/pages-the-university-of-maine.png)
+The University of Maine. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-maine.png)
 
-University of Arkansas. ![](/downloads/historical-dissertations/pages-university-of-arkansas.png)
+University of Arkansas. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-arkansas.png)
 
-George Mason University. ![](/downloads/historical-dissertations/pages-george-mason-university.png)
+George Mason University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-george-mason-university.png)
 
-Carnegie Mellon University. ![](/downloads/historical-dissertations/pages-carnegie-mellon-university.png)
+Carnegie Mellon University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-carnegie-mellon-university.png)
 
-University of New Hampshire. ![](/downloads/historical-dissertations/pages-university-of-new-hampshire.png)
+University of New Hampshire. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-new-hampshire.png)
 
-Mississippi State University. ![](/downloads/historical-dissertations/pages-mississippi-state-university.png)
+Mississippi State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-mississippi-state-university.png)
 
-Baylor University. ![](/downloads/historical-dissertations/pages-baylor-university.png)
+Baylor University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-baylor-university.png)
 
-Kansas State University. ![](/downloads/historical-dissertations/pages-kansas-state-university.png)
+Kansas State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-kansas-state-university.png)
 
-Iowa State University. ![](/downloads/historical-dissertations/pages-iowa-state-university.png)
+Iowa State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-iowa-state-university.png)
 
-Clark University. ![](/downloads/historical-dissertations/pages-clark-university.png)
+Clark University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-clark-university.png)
 
-The University of Southern Mississippi. ![](/downloads/historical-dissertations/pages-the-university-of-southern-mississippi.png)
+The University of Southern Mississippi. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-southern-mississippi.png)
 
-The University of Toledo. ![](/downloads/historical-dissertations/pages-the-university-of-toledo.png)
+The University of Toledo. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-toledo.png)
 
-The University of Wisconsin -- Milwaukee. ![](/downloads/historical-dissertations/pages-the-university-of-wisconsin---milwaukee.png)
+The University of Wisconsin -- Milwaukee. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-wisconsin---milwaukee.png)
 
-Ball State University. ![](/downloads/historical-dissertations/pages-ball-state-university.png)
+Ball State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-ball-state-university.png)
 
-Union Institute and University. ![](/downloads/historical-dissertations/pages-union-institute-and-university.png)
+Union Institute and University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-union-institute-and-university.png)
 
-New School University. ![](/downloads/historical-dissertations/pages-new-school-university.png)
+New School University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-new-school-university.png)
 
-Tufts University. ![](/downloads/historical-dissertations/pages-tufts-university.png)
+Tufts University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-tufts-university.png)
 
-The University of Texas at Arlington. ![](/downloads/historical-dissertations/pages-the-university-of-texas-at-arlington.png)
+The University of Texas at Arlington. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-texas-at-arlington.png)
 
-Lehigh University. ![](/downloads/historical-dissertations/pages-lehigh-university.png)
+Lehigh University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-lehigh-university.png)
 
-Brigham Young University. ![](/downloads/historical-dissertations/pages-brigham-young-university.png)
+Brigham Young University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-brigham-young-university.png)
 
-The University of Memphis. ![](/downloads/historical-dissertations/pages-the-university-of-memphis.png)
+The University of Memphis. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-memphis.png)
 
-The University of Texas at Dallas. ![](/downloads/historical-dissertations/pages-the-university-of-texas-at-dallas.png)
+The University of Texas at Dallas. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-texas-at-dallas.png)
 
-Northern Arizona University. ![](/downloads/historical-dissertations/pages-northern-arizona-university.png)
+Northern Arizona University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-northern-arizona-university.png)
 
-Virginia Polytechnic Institute and State University. ![](/downloads/historical-dissertations/pages-virginia-polytechnic-institute-and-state-university.png)
+Virginia Polytechnic Institute and State University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-virginia-polytechnic-institute-and-state-university.png)
 
-The University of Akron. ![](/downloads/historical-dissertations/pages-the-university-of-akron.png)
+The University of Akron. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-university-of-akron.png)
 
-Union Theological Seminary. ![](/downloads/historical-dissertations/pages-union-theological-seminary.png)
+Union Theological Seminary. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-union-theological-seminary.png)
 
-Southern Methodist University. ![](/downloads/historical-dissertations/pages-southern-methodist-university.png)
+Southern Methodist University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-southern-methodist-university.png)
 
-Westminster Theological Seminary. ![](/downloads/historical-dissertations/pages-westminster-theological-seminary.png)
+Westminster Theological Seminary. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-westminster-theological-seminary.png)
 
-University of Idaho. ![](/downloads/historical-dissertations/pages-university-of-idaho.png)
+University of Idaho. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-idaho.png)
 
-Duquesne University. ![](/downloads/historical-dissertations/pages-duquesne-university.png)
+Duquesne University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-duquesne-university.png)
 
-Peabody College for Teachers of Vanderbilt University. ![](/downloads/historical-dissertations/pages-peabody-college-for-teachers-of-vanderbilt-university.png)
+Peabody College for Teachers of Vanderbilt University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-peabody-college-for-teachers-of-vanderbilt-university.png)
 
-University of Missouri -- Kansas City. ![](/downloads/historical-dissertations/pages-university-of-missouri---kansas-city.png)
+University of Missouri -- Kansas City. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-university-of-missouri---kansas-city.png)
 
-Western Michigan University. ![](/downloads/historical-dissertations/pages-western-michigan-university.png)
+Western Michigan University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-western-michigan-university.png)
 
-California Institute of Integral Studies. ![](/downloads/historical-dissertations/pages-california-institute-of-integral-studies.png)
+California Institute of Integral Studies. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-california-institute-of-integral-studies.png)
 
-Regent University. ![](/downloads/historical-dissertations/pages-regent-university.png)
+Regent University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-regent-university.png)
 
-The Jewish Theological Seminary of America. ![](/downloads/historical-dissertations/pages-the-jewish-theological-seminary-of-america.png)
+The Jewish Theological Seminary of America. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-the-jewish-theological-seminary-of-america.png)
 
 ------------------------------------------------------------------------
 

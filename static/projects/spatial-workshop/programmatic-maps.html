@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+  <title>Making Maps with Code</title>
+
+  <script src="libs/jquery-1.11.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.1/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/respond.min.js"></script>
+  <script src="libs/htmlwidgets-0.4/htmlwidgets.js"></script>
+  <link href="libs/leaflet-0.7.3/leaflet.css" rel="stylesheet" />
+  <script src="libs/leaflet-0.7.3/leaflet.js"></script>
+  <link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+  <script src="libs/leaflet-binding-0.0.16/leaflet.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-25121492-1', 'lincolnmullen.com');
+    ga('send', 'pageview');
+  </script>
+  <!-- end in_header.html -->
+
+
+  <style type="text/css">
+    code {
+      white-space: pre;
+    }
+
+  </style>
+  <style type="text/css">
+    div.sourceCode {
+      overflow-x: auto;
+    }
+
+    table.sourceCode,
+    tr.sourceCode,
+    td.lineNumbers,
+    td.sourceCode {
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      border: none;
+    }
+
+    table.sourceCode {
+      width: 100%;
+      line-height: 100%;
+    }
+
+    td.lineNumbers {
+      text-align: right;
+      padding-right: 4px;
+      padding-left: 4px;
+      color: #aaaaaa;
+      border-right: 1px solid #aaaaaa;
+    }
+
+    td.sourceCode {
+      padding-left: 5px;
+    }
+
+    code>span.kw {
+      color: #007020;
+      font-weight: bold;
+    }
+
+    /* Keyword */
+    code>span.dt {
+      color: #902000;
+    }
+
+    /* DataType */
+    code>span.dv {
+      color: #40a070;
+    }
+
+    /* DecVal */
+    code>span.bn {
+      color: #40a070;
+    }
+
+    /* BaseN */
+    code>span.fl {
+      color: #40a070;
+    }
+
+    /* Float */
+    code>span.ch {
+      color: #4070a0;
+    }
+
+    /* Char */
+    code>span.st {
+      color: #4070a0;
+    }
+
+    /* String */
+    code>span.co {
+      color: #60a0b0;
+      font-style: italic;
+    }
+
+    /* Comment */
+    code>span.ot {
+      color: #007020;
+    }
+
+    /* Other */
+    code>span.al {
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    /* Alert */
+    code>span.fu {
+      color: #06287e;
+    }
+
+    /* Function */
+    code>span.er {
+      color: #ff0000;
+      font-weight: bold;
+    }
+
+    /* Error */
+    code>span.wa {
+      color: #60a0b0;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    /* Warning */
+    code>span.cn {
+      color: #880000;
+    }
+
+    /* Constant */
+    code>span.sc {
+      color: #4070a0;
+    }
+
+    /* SpecialChar */
+    code>span.vs {
+      color: #4070a0;
+    }
+
+    /* VerbatimString */
+    code>span.ss {
+      color: #bb6688;
+    }
+
+    /* SpecialString */
+    code>span.im {}
+
+    /* Import */
+    code>span.va {
+      color: #19177c;
+    }
+
+    /* Variable */
+    code>span.cf {
+      color: #007020;
+      font-weight: bold;
+    }
+
+    /* ControlFlow */
+    code>span.op {
+      color: #666666;
+    }
+
+    /* Operator */
+    code>span.bu {}
+
+    /* BuiltIn */
+    code>span.ex {}
+
+    /* Extension */
+    code>span.pp {
+      color: #bc7a00;
+    }
+
+    /* Preprocessor */
+    code>span.at {
+      color: #7d9029;
+    }
+
+    /* Attribute */
+    code>span.do {
+      color: #ba2121;
+      font-style: italic;
+    }
+
+    /* Documentation */
+    code>span.an {
+      color: #60a0b0;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    /* Annotation */
+    code>span.cv {
+      color: #60a0b0;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    /* CommentVar */
+    code>span.in {
+      color: #60a0b0;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    /* Information */
+
+  </style>
+  <style type="text/css">
+    pre:not([class]) {
+      background-color: white;
+    }
+
+  </style>
+
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+  <div class="container-fluid main-container">
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div id="header">
+          <h1 class="title">Making Maps with Code</h1>
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#why-make-maps-with-code">Why make maps with code?</a></li>
+            <li><a href="#which-language-and-libraries">Which language and libraries?</a></li>
+          </ul>
+        </div>
+
+        <div id="why-make-maps-with-code" class="section level2">
+          <h2>Why make maps with code?</h2>
+          <p>All of the maps that we have created so far in this workshop have been created using graphical user
+            interfaces (GUIs). However, there is an entirely different way to create maps using computer programming
+            languages. Consider the example code below. These five lines of code create the map below of a encounters
+            between American and French vessels during the Quasi War.<a href="#fn1" class="footnoteRef"
+              id="fnref1"><sup>1</sup></a> For now, don’t get hung up on the details of the code.</p>
+          <div class="sourceCode">
+            <pre
+              class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(leaflet)
+quasi &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/quasi-wars.csv&quot;</span>)
+<span class="kw">leaflet</span>(quasi) %&gt;%<span class="st"> </span>
+<span class="st">  </span><span class="kw">addTiles</span>() %&gt;%<span class="st"> </span>
+<span class="st">  </span><span class="kw">addCircles</span>(<span class="dt">popup =</span> ~engagement_type)</code></pre>
+          </div>
+          <p>
+          <div id="htmlwidget-3078" style="width:720px;height:504px;" class="leaflet"></div>
+          <script type="application/json"
+            data-for="htmlwidget-3078">{"x":{"calls":[{"method":"addTiles","args":["http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>"}]},{"method":"addCircles","args":[[23.463241,36.071505,29,39,49.19789,42.389998,42.912296,11.638707,23.15139,38.5,39,51.67876,49.16667,41.136558,22.75,20.722122,36.5630555555555,37.625056,44.525999,20,19.1666666666666,16.731527,18.472359,32.529722,23.5,22.979791,58.300592,26.306444,26.030358,15.329993,4.26666666666666,32.5,30.666,14.958827,23.2,23.234895,10.6816,20,22.1666,36.427059,15.868846,15.086009,15.946073,15.08,23.609501,23.609501,-34.863381,17.2652777,36.439089,59.9666,21.89194,28.572481,28.572481,21.4082,21.4082,16.413121,23.614626,15.840569,11.487287,51.254605,36.374851,15.984396,19.963375,14.984034,18.830375,16.243134,14.261394,17.623694,23.333,23.333,18.35635,42,42,31.680579,33,29.15,25.789598,18.798659,16.10916,18.7,15.5638,40.390357,32.314535,16.281218,28,16.7038,17.0863,36.0305,20.416,24.266,35.992099,41.854806,18.6125,36.042565,5.238784,5.238784,15.5,41.36864,36,41.331659,6.105707,-13.765353,8.756382,17.104069,36.6041666,29.033,16.339337,18.2505,19.946317,35.978033,17.907,25.7,36.123658,36.684502,36.684502,5.936358,16,23.15,11,28,6.341356,17.897299,17.863,16.041157,13.673766,12.430864,16.19408,28.53,42,10.999629,48.5,17.406937,23.5,16.66,15,16.008158,18.875776,18.8,18.634351,49.25,16,15.829995,17.272,16,18.957961,18.957961,18.957961,18.957961,19,19,10.66,16.316438,18.491981,33.1138,21.83,15.2833,17.306855,36.603065,19.46193,18.319839,18.319839,14.742841,18.112534,27.215076,18.065319,50.5,14.43,49.875908,47.83,17.7,21.83,19.4,20,22.076448,19.791075,19.048414,20.8905,30.85,19.805354,18.515876,27.833,28.066,37.5,18.517172,35.99,37.004384,37.004384,32.533,19.813308,37,18.065,15.952709,40,16.375623,17.493129,16.506357,16.5,18.4058],[-82.648825,-5.347424,-53,-65,-5.932063,-70.748853,-68.854839,-60.713151,-82.08361,-70.5,-72.5,1.722132,-10.5,-29.808629,-68.86667,-73.698263,-4.1075,-69.455751,-3.900361,-62.5,-50,-60.88355,-64.672053,-17.433004,-62,-77.81299,-8.867628,-54.420702,-68.9666,-59.913865,-37.0833333333333,-17.4,-19.833,-62.451707,-53.5,-81.460616,-66.4477,-62.5,-71.666,-4.35039,-61.893605,-60.689916,-61.708729,-60.68,-58.65522,-58.65522,17.627787,-62.29694,-6.757626,-17.45,-85.28861,-74.603391,-74.603391,-85.622243,-85.622243,-61.074134,-82.751741,-61.946174,-68.021542,-9.568518,-4.339101,-61.751469,-81.104537,-61.560056,-66.108395,-61.053311,-60.687452,-64.831874,-61.1666,-61.1666,-67.843445,-34.1833,-34.1833,-71.273305,-26,-78.8,-77.210579,-79.169904,-62.3775,-79.16,-61.824,-73.417511,-64.421013,-60.65833,-72,-60.638,-61.4105,-6.03361,-62,-63.6833,-5.422955,-19.579037,-62.38694,-6.30444,-52.406659,-52.406659,-55.83,-11.792195,-11.5,2.257944,-54.896385,76.200448,-59.345047,-61.562423,-6.59305,-17.5,-60.86402,-67.58805,-66.766665,-5.660277,-62.606,-77.2,-5.36974,-4.406523,-4.406523,-55.198509,-69,-82.47,-63.67,-35,-55.398414,-62.858236,-62.838,-62.0481,-60.349162,-68.707882,-61.533533,-65.66,-35,-61.660841,-8.83,-62.558455,-63,-59,-63,-62.027501,-66.014845,-66,-72.525784,-10.5,-62,-62.944774,-62.020416,-61.5,-72.906951,-72.906951,-72.906951,-72.906951,-90,-90,-60.2,-61.030961,-66.081344,-15.066,-59.5,-66.066,-54.300071,-6.518296,-73.110704,-74.403427,-74.403427,-61.19945,-61.320256,-64.486931,-72.519399,-20,-60.6,-6.288476,-14,-52,-55,-73.1,-55,-71.859508,-72.124386,-59.810384,-62.169,-70.66,-70.699644,-64.35201,-67.5,-66.516,21,-64.412456,-5.422,-9.092463,-9.092463,-66,-73.432023,-67,-72.519,-61.504277,-25,-61.01454,-62.716566,-61.16494,-61.164,-62.73],10,null,{"lineCap":null,"lineJoin":null,"clickable":true,"pointerEvents":null,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2,"dashArray":null},["engagement but no capture","engagement but no capture","engagement but no capture","engagement but no capture","engagement but no capture","engagement but no capture","sight but no engagement","sight but no engagement","engagement but no capture","Captured by French","Captured by French","Captured by French","Recaptured by British","Captured by French","Captured by French","Engagement but no capture","Captured by French","Captured by French","Engagement but no capture","Engagement but no capture","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Engagement but no capture","Engagement but no capture","Engagement but no capture","Engagement but no capture","Captured by French","Captured by French","Engagement but no capture","Captured by French","Captured by French","Captured by French","Engagement but no capture","Captured by French","Captured by French","Captured by French","Captured by French","Engagement but no capture","Engagement but no capture","Engagement but no capture","Sunk by Americans","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Engagement but no capture","Engagement but no capture","Engagement but no capture","Captured by Americans","Engagement but no capture","Engagement but no capture","Engagement but no capture","Engagement but no capture","Captured by Americans","Captured by British","Captured by Americans","Captured by Americans","Captured by French","Captured by Americans","Captured by Americans","Captured by French","Captured by French","Engagement but no capture","Captured by French","Captured by French","Captured by French","Captured by French","Captured by British","Captured by British","Captured by French","Boarded by French","","Captured by Americans","Captured by British","Captured by French","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Engagement but no capture","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by British","Engagement but no capture","Engagement but no capture","Engagement but no capture","Captured by Americans","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Engagement but no capture","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Recaptured by Americans","Boarded by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by Americans","Captured by Americans","Engagement but no capture","Captured by French","Captured by French","Captured by French","Captured by French","Captured by Americans","Sunk by Americans","Captured by Americans","Captured by French","Captured by French","Engagement but no capture","Captured by Americans","Engagement but no capture","Captured by French","Boarded by Americans","Captured by Americans","Captured by French","Captured by French","Engagement but no capture","Captured by Americans","Captured by French","Captured by Americans","Engagement but no capture","Captured by French","Engagement but no capture","Boarded by French","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Captured by Americans","Captured by French","Captured by French","Captured by French","Boarded by French","Captured by French","Captured by French","Captured by French","Captured by French","Boarded by French","Captured by Americans","Captured by French","Captured by Americans","Engagement but no capture","Captured by French","Captured by Americans","Captured by Americans","Captured by Americans","Captured by Americans","Engagement but no capture"]]}],"limits":{"lat":[-34.863381,59.9666],"lng":[-90,76.200448]}},"evals":[]}</script>
+          </p>
+          <p>There is a significant difference between the way we created this map and the way that we created maps
+            using GUIs. In the GUIs, we had to point and click, and it is difficult to explain what we did and to
+            reproduce or repeat it. Yet by making this map with code, we can in principle inspect and explain every step
+            along the way, even if the language takes some getting used to. For example, we can read this code and
+            observe that the line <code>addTiles()</code> adds the Open Street Map tiles to the map, and we can surmise
+            that if we left that line out we would not get any tiles, and if we added some more information to the
+            function that we could get different tiles. Or, we can observe that the <code>addCircles()</code> function
+            adds small blue circles to the map, and we can surmise that we could use that function to add large red
+            circles, or even that changing the function to something different might give us a different kind of marker
+            altogether. The principle is that computer code lets us specify exactly what we want.<a href="#fn2"
+              class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+          <p>Using computer code also opens the possibility that we can manipulate our data in much more powerful ways
+            than our GUI tools allowed. Consider this example.</p>
+          <div class="sourceCode">
+            <pre
+              class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(dplyr)
+quasi %&gt;%<span class="st"> </span>
+<span class="st">  </span><span class="kw">filter</span>(<span class="kw">as.Date</span>(date) &lt;<span class="st"> </span><span class="kw">as.Date</span>(<span class="st">&quot;1798-12-31&quot;</span>))</code></pre>
+          </div>
+          <pre><code>## Source: local data frame [38 x 13]
+## 
+##          date   ship_1_name         ship_1_type ship_1_nationality
+## 1  1798-09-28       America armed merchant ship                USA
+## 2  1798-07-11      American armed merchant ship                USA
+## 3  1798-09-27    Amphitrite armed merchant ship                USA
+## 4  1798-05-09     Belvedere armed merchant ship                USA
+## 5  1798-04-22 Boston Packet          armed brig                USA
+## 6  1798-12-28       Camilla armed merchant ship                USA
+## 7  1798-09-25    Carrollton armed merchant ship                USA
+## 8  1798-09-27          Cato armed merchant ship                USA
+## 9  1798-12-20        Chance      armed schooner                USA
+## 10 1798-05-25         Diana armed merchant ship                USA
+## ..        ...           ...                 ...                ...
+## Variables not shown: ship_2_name (fctr), ship_2_nationality (fctr),
+##   location (fctr), lat (dbl), long (dbl), outcome (fctr), source (fctr),
+##   engagement_type (fctr), status (fctr)</code></pre>
+          <p>These few lines of code might appear a little cryptic, but by looking at them we can figure out that we are
+            taking our Quasi War data (in the variable called <code>quasi</code>) and keeping only the events that
+            happened before the end of the year 1798.</p>
+          <p>You can certainly make all the maps that you need using the GUI tools that we have explored in this
+            workshop, and that may be the right decision for you. But writing your own code gives you a powerful,
+            flexible, and precise means of creating maps. The aim of this part of the workshop is to expose you to the
+            possibilities of what you can do by learning the rudiments of a programming language.</p>
+        </div>
+        <div id="which-language-and-libraries" class="section level2">
+          <h2>Which language and libraries?</h2>
+          <p>If you are going to use code to make maps, then you should almost certainly invest your time in learning a
+            language that lets you make interactive maps for the web. All web pages are created using (at a minimum) <a
+              href="http://www.w3schools.com/html/">HTML</a> to structure the page, <a
+              href="http://www.w3schools.com/css/">CSS</a> to tell the browser what the page should look like, and <a
+              href="http://www.w3schools.com/js/">JavaScript</a> to add interactivity. Web maps like the one above use
+            the popular <a href="http://leafletjs.com/">Leaflet.js</a> library, which uses JavaScript to create the
+            map.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> You could certainly follow one of the
+            many tutorials available for Leaflet in order to create a web map.</p>
+          <p>But for this workshop, we are going to use the <a href="http://www.r-project.org/">R programming
+              language</a>. R is a language whose strength is data analysis, and it will let us create interactive maps
+            that use JavaScript more easily than we could do in JavaScript itself. (The examples on this page above are
+            in R.) At the workshop you will be provided with access to a server running R so that you do not need to
+            install any software on your computer. But because R is open source, you can install all of the tools that
+            we are using if you wish. You can find <a href="http://www.r-project.org/">R itself</a> here; I also
+            recommend <a href="http://www.rstudio.com/">RStudio</a> for use with R. You may wish to consult this <a
+              href="http://lincolnmullen.com/projects/dh-r/">book-in-progress about R</a>.</p>
+        </div>
+        <div class="footnotes">
+          <hr />
+          <ol>
+            <li id="fn1">
+              <p>This data is courtesy of <a href="http://abbymullen.org/">Abby Mullen</a>, who also created a <a
+                  href="http://abbymullen.org/projects/Quasi-War/">map</a> and wrote a <a
+                  href="http://abbymullen.org/projects/Quasi-War/calculations_text.html">post</a> about this data.<a
+                  href="#fnref1">↩</a></p>
+            </li>
+            <li id="fn2">
+              <p>This code can and will be rerun quite literally hundreds of times, and yet it will produce the same map
+                each time.<a href="#fnref2">↩</a></p>
+            </li>
+            <li id="fn3">
+              <p>Another JavaScript library for mapping is <a href="http://d3js.org/">D3.js</a>.<a href="#fnref3">↩</a>
+              </p>
+            </li>
+          </ol>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

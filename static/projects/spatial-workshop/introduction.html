@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+  <title>Introduction</title>
+
+  <script src="libs/jquery-1.11.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.1/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/respond.min.js"></script>
+  <script src="libs/htmlwidgets-0.4/htmlwidgets.js"></script>
+  <script src="libs/viz-0.3/viz.js"></script>
+  <link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+  <script src="libs/grViz-binding-0.7/grViz.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-25121492-1', 'lincolnmullen.com');
+    ga('send', 'pageview');
+  </script>
+  <!-- end in_header.html -->
+
+
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+  <div class="container-fluid main-container">
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div id="header">
+          <h1 class="title">Introduction</h1>
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#mapping-digital-humanities-and-the-disciplines">Mapping, digital humanities, and the
+                disciplines</a></li>
+            <li><a href="#how-the-workshop-will-proceed">How the workshop will proceed</a></li>
+            <li><a href="#the-spatial-humanists-toolbox">The spatial humanist’s toolbox</a>
+              <ul>
+                <li><a href="#gis">GIS</a></li>
+                <li><a href="#web-mapping-tools">Web mapping tools</a></li>
+                <li><a href="#command-line-tools">Command line tools</a></li>
+                <li><a href="#programming-languages">Programming languages</a></li>
+                <li><a href="#general-purpose-tools">General purpose tools</a></li>
+              </ul>
+            </li>
+            <li><a href="#what-you-should-install-for-this-workshop">What you should install for this workshop</a>
+              <ul>
+                <li><a href="#a-note-on-operating-systems">A note on operating systems</a></li>
+              </ul>
+            </li>
+            <li><a href="#what-you-should-use-in-class">What you should use in class</a></li>
+          </ul>
+        </div>
+
+        <div id="mapping-digital-humanities-and-the-disciplines" class="section level2">
+          <h2>Mapping, digital humanities, and the disciplines</h2>
+          <p>The <a href="http://whatisdigitalhumanities.com/">digital humanities</a> have a number of common
+            specialties, among them text mining, network analysis, public history/humanities, and mapping. As Stephen
+            Robertson has <a
+              href="http://drstephenrobertson.com/blog-post/the-differences-between-digital-history-and-digital-humanities/">pointed
+              out</a>, mapping is one of the most commonly used techniques in digital history, whereas digital literary
+            studies has often focused more on text mining. But while digital history may have a special affinity for
+            mapping, mapping and the spatial turn more generally have had a significant impact across the humanities
+            disciplines. For an introduction to spatial humanities and the disciplines, you can read Jo Guldi’s
+            introduction “<a href="http://spatial.scholarslab.org/spatial-turn/">What Is the Spatial Turn?</a>,” which
+            discusses the importance of the spatial turn for eight academic disciplines, and Richard White’s essay “<a
+              href="https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29">What is Spatial
+              History?</a>,” which provides an introduction for the historical discipline. The list of projects on the
+            <a href="literacy.html">mapping literacy page</a> provides many example of how mapping has influenced
+            humanities research and teaching.</p>
+          <p>Mapping has many uses for humanities scholars. Humanists sometimes use maps to tell stories by tracking the
+            movement of individuals and groups through space and time. Another kind of humanities mapping focuses on
+            “deep mapping,” which seeks to demonstrate how the multiple meanings of places is constructed. A third kind
+            of humanities mapping is driven by data analysis: it seeks to use information, often but necessarily
+            quantitative, to understand spatial patterns in our sources. Most of these forms of maps can be thought of
+            either displaying or discovering knowledge. Sometimes the aim of the map is to present the answer to a
+            question, other times it is to attempt to ask a question and find out the answer. Like any research process,
+            mapping leads to a cycle of asking and answering questions, which in turn lead to new questions.</p>
+          <p>Digital maps—both through desktop GIS software and web mapping—have put the tools of mapmaking directly
+            into the hands of scholars and their students. Digital maps provide a number of affordances that aid
+            scholarship. First, their availability and relative accessibility means that the researchers who have not
+            been formally trained in cartography are able to make maps for themselves. Digital maps can be rapidly
+            iterated, so scholars can create experimental maps and maps that are likely to “fail” as part of their
+            process of asking and answering questions. The interactivity of digital maps permits scholars to filter the
+            data that is displayed, to change the scale of the map from the globe to the individual building, and to
+            embed other kinds of sources within map. More generally digital maps let scholars organize abundant sources
+            spatially in order to bring together disparate sources that might not otherwise be comparable, and to
+            extract additional information from scarce sources. However, these techniques take time to master, and once
+            the techniques are mastered, you must reflect on how maps will influence your teaching and research. It is
+            the aim of this workshop to provide you with the necessary skills at making maps in order to use them within
+            your discipline.</p>
+          <p>As you go through the workshop, consider which kinds of maps are most likely to be useful to your students.
+            Do you want them to explore a dataset, and perhaps even create the spatial data themselves, in order to do
+            their own research? Do you wish them to present their arguments to you in the form of a map? Or do you wish
+            them to think about the construction of place in a novel, or a historical source, or a painting?</p>
+        </div>
+        <div id="how-the-workshop-will-proceed" class="section level2">
+          <h2>How the workshop will proceed</h2>
+          <p>There is a common problem in working with spatial data (or really, any kind of data at all). Once one has
+            gained a reasonable competence at making maps, the actual process of making the maps can go very quickly.
+            Far more time is spent creating, cleaning, and preparing data. Furthermore, the process of creating maps is
+            repeatable from one map to the next. Once one has learned how to make a certain kind of map, making the
+            second or third or tenth map is much easier. But every new project brings the same challenges of finding and
+            preparing data. This work is highly specific to the datasets or primary sources in question. The skill of
+            creating, cleaning, and manipulating data can be learned, but the techniques are hard to distill down to a
+            tutorial or set of steps, since it requires your own judgment. This reality should offer a certain kind of
+            comfort to humanities scholars. The work we do as scholars in finding and interpreting data consumes the
+            major part of the time we work.</p>
+          <p>
+          <div id="htmlwidget-3078" style="width:100%;height:192px;" class="grViz"></div>
+          <script type="application/json"
+            data-for="htmlwidget-3078">{"x":{"diagram":"\n      digraph nicegraph {\n      graph [overlap = true,\n             rankdir = LR,\n             label = <The Process of Mapping<BR/><BR/> >,\n             fontname = Ubuntu,\n             labelloc = \"t\"\n]\n\n      node [shape = box,\n           overlap = true,\n           fontname = Ubuntu,\n           fontsize = 10]\n      A [label = \"Find/create data\"]\n      B [label = \"Clean/tidy data\"]\n      C [label = \"Explore data\"]\n      D [label = \"Map data\"]\n      E [label = \"Interpret map\"]\n\n      A->B->C->D->E [splines = \"line\"]\n      C->B [splines = \"curved\"]\n      E->D [splines = \"curved\"]\n      D->C [splines = \"curved\"]\n      E->A [splines = \"curved\"]\n      }\n      ","config":{"engine":"dot","options":null}},"evals":[]}</script>
+          </p>
+          <p>This does present a pedagogical challenge in learning about mapmaking, however. Once one has learned how to
+            make maps, one still might stumble in learning how to prepare the data. For this reason, this workshop will
+            work backwards from the workflow diagrammed above. We will begin by with literacy: the skill of reading and
+            interpreting maps, both modern digital maps created by scholars and maps as sources. Having gained that
+            skill, we will work on creating simple maps using cleaned and prepared data. Then we will work on the skills
+            of acquiring, cleaning, and preparing spatial data. We will also learn how to manipulate data: that is, to
+            change its projection, to join spatial data to other data, and so on, so that the data can be readily
+            mapped.</p>
+          <p>You will have to decide for yourself which of these skills you wish to introduce to the classroom. I
+            recommend focusing on map making for shorter assignments and and then gathering data only for longer
+            assignments. You should distinguish between necessary complexity (which requires scholarly insight) and
+            incidental complexity (which requires putting up with the cruft around technology). Whatever incidental
+            complexity can be eliminated, must be eliminated.</p>
+          <p>But for this workshop will not hide any of the unglamorous or tedious, sometimes frustrating work that goes
+            into preparing maps. If you wish to successfully teach mapmaking to your students, you will need to develop
+            those skills. This will be even more the case if you use these techniques in your own research. But at the
+            same time, you may also choose in the lessons that you prepare to focus on the mapmaking and the generating
+            of humanities insights, so that your students receive the most reward for their effort.</p>
+        </div>
+        <div id="the-spatial-humanists-toolbox" class="section level2">
+          <h2>The spatial humanist’s toolbox</h2>
+          <p>Working in the spatial humanities requires you to use a wide range of tools. Even though some programs will
+            claim that they can do everything, they can’t. Cultivating knowledge of what kind of tool to use to do what
+            job is crucial, especially when deciding what tools you will use in your courses, and which tools you can
+            rely on for your research.</p>
+          <p>You can think of spatial tools as lying on a spectrum from consumer to professional tools. Consumer tools
+            are intended to be “user friendly” (though they rarely live up to that claim). They invariably feature a <a
+              href="http://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a> (GUI), which
+            makes common actions fairly easy to perform but which makes uncommon actions impossible to do. They almost
+            always assume that you are working with data which is clean and ready to use. Often, but not always, they
+            are intended to have a flatter learning curve, but skilled users are not generally much more productive than
+            intermediate users. With notable exception such as ArcGIS, professional tools are often open-source, and so
+            free. Professional tools often have a steep learning curve, which is repaid by flexibility of us.
+            Professional tools respect their users by letting them inspect what is happening at any given point and by
+            letting them control every option. To do any real work beyond canned examples, you will need to use
+            professional tools to prepare the data. As a teacher, however, you may choose to prepare data for your
+            students so that they can use consumer tools exclusively. When working with spatial data you will almost
+            certainly need many tools, but as a teacher, you should probably limit the number of tools you teach to your
+            students.</p>
+          <p>These are the types of tools that you will use during this workshop.</p>
+          <div id="gis" class="section level3">
+            <h3>GIS</h3>
+            <p>The archetypical tool for doing spatial work is the <a
+                href="http://en.wikipedia.org/wiki/Geographic_information_system">geographic information system</a> from
+              which the discipline of GIS takes its names. These GIS tools are large GUI programs installed on a
+              computer. They are as near to being comprehensive as any tool, and handle data from its raw stage to the
+              final presentation of maps. The best known GIS system is <a
+                href="http://www.arcgis.com/features/">ArcGIS</a>, a Windows-only, very expensive commercial program
+              from ESRI. If you have access to ArcGIS, it probably comes through your university. An alternative is <a
+                href="http://www.qgis.org/en/site/">QGIS</a>, an open-source GIS program available on Mac, PC, and
+              Linux. This application has matured in recent years so that it is a viable alternative to ArcGIS. While
+              there are differences between the two programs, what you learn in one will be generally applicable to the
+              other. For this workshop, we will use <a href="qgis.html">QGIS to make maps</a>.</p>
+            <div class="figure">
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-screenshot.png"
+                alt="QGIS running on Mac OS X." />
+              <p class="caption">QGIS running on Mac OS X.</p>
+            </div>
+          </div>
+          <div id="web-mapping-tools" class="section level3">
+            <h3>Web mapping tools</h3>
+            <p>The online counterpart to GIS software are websites which offer the ability to create maps. These range
+              from free consumer tools like <a href="https://www.google.com/maps/d/u/0/">Google Maps</a>, to mapping
+              tools written specifically for humanists such as <a
+                href="http://palladio.designhumanities.org/">Palladio</a>, to services for web mapping such as <a
+                href="https://www.mapbox.com/education/">Mapbox</a>, to online versions of desktop GIS software such as
+              <a href="http://www.esri.com/software/arcgis/arcgisonline">ArcGIS Online</a>, to tools that aim to replace
+              GIS software entirely such as <a href="https://cartodb.com/">CartoDB</a>. Such tools are often easier to
+              use than GIS software, though considerably less powerful. They can be an especially good choice for
+              teaching, since they do not require students to install any software and since they produce maps intended
+              for the web. For this workshop, we will use <a href="data-maps.html">CartoDB to make data maps</a>.</p>
+            <div class="figure">
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-screenshot.png"
+                alt="Creating a map in CartoDB." />
+              <p class="caption">Creating a map in CartoDB.</p>
+            </div>
+          </div>
+          <div id="command-line-tools" class="section level3">
+            <h3>Command line tools</h3>
+            <p>For many tasks involving spatial data, it can be more convenient to use a command line tool. By
+              specifying a commmand at the terminal, one can quickly and reliably peform very powerful actions. For
+              instance, the command below uses a program from the <a href="http://www.gdal.org/">Geospatial Data
+                Abstraction Library</a> (GDAL/OGR) to convert a file from one format to another using a command like
+              this one:</p>
+            <pre><code>ogr2ogr -f &quot;GeoJSON&quot; countries.geojson ne_110m_admin_0_countries.shp</code></pre>
+            <div class="figure">
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/command-line-screenshot.png"
+                alt="Converting a shapefile to GeoJSON using a command line program." />
+              <p class="caption">Converting a shapefile to GeoJSON using a command line program.</p>
+            </div>
+            <p>While command line tools have a steep learning curve, they are essential for performing certain tasks,
+              especially preparing data. For this workshop, we will use GDAL/OGR to <a
+                href="spatial-data.html">manipulate spatial data</a>.</p>
+          </div>
+          <div id="programming-languages" class="section level3">
+            <h3>Programming languages</h3>
+            <p>The most advanced yet most powerful way to create maps is using computer programming langagues. Languages
+              such as <a href="http://www.r-project.org/">R</a>, <a href="https://www.python.org/">Python</a>, and <a
+                href="http://www.w3schools.com/js/">JavaScript</a>, along with popular libraries such as <a
+                href="http://leafletjs.com/">Leaflet</a> and <a href="http://d3js.org/">D3.js</a> permit you to create
+              your own custom maps. In this workshop, we will use R to create <a href="web-maps.html">web maps</a>.</p>
+          </div>
+          <div id="general-purpose-tools" class="section level3">
+            <h3>General purpose tools</h3>
+            <p>As in any serious work involving the computer, it is necessary to have a few simple general purpose
+              tools—the hammer and screwdriver of computer work. These include a plain text editor, and some program to
+              edit spreadsheets and <a href="http://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values
+                (CSV) files</a>.</p>
+          </div>
+        </div>
+        <div id="what-you-should-install-for-this-workshop" class="section level2">
+          <h2>What you should install for this workshop</h2>
+          <blockquote class="twitter-tweet" data-conversation="none" lang="en">
+            <p lang="en" dir="ltr">
+              .<a href="https://twitter.com/noamross"><span class="citation">@noamross</span></a> software often harder
+              to install than use, data often harder to clean than analyze
+            </p>
+            — Jennifer Bryan (<span class="citation">@JennyBryan</span>) <a
+              href="https://twitter.com/JennyBryan/status/577977718907613185">March 17, 2015</a>
+          </blockquote>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <ul>
+            <li><a href="http://www.qgis.org/en/site/">QGIS</a>. For Windows, use the standalone installer on the <a
+                href="http://www.qgis.org/en/site/forusers/download.html">QGIS downloads page</a>. For Mac, you can
+              follow the instructions on <a href="http://www.kyngchaos.com/software/qgis">this website</a>. In other
+              words, download these files in the following order, and run the install packages for each. (We will work
+              on this during the workshop.)
+              <ul>
+                <li><a href="http://www.kyngchaos.com/files/software/frameworks/GDAL_Complete-1.11.dmg">GDAL 1.11</a>
+                  (~40MB)</li>
+                <li><a href="http://www.kyngchaos.com/files/software/python/NumPy-1.8.0-1.dmg">NumPy 1.8.0-1</a> (~7MB)
+                </li>
+                <li><a href="http://www.kyngchaos.com/files/software/python/matplotlib-1.3.1-2.dmg">Matplotlib</a>
+                  (~40MB)</li>
+                <li><a href="http://www.kyngchaos.com/files/software/qgis/QGIS-2.8.2-1.dmg">QGIS 2.8.2-1</a> (~176 MB)
+                </li>
+              </ul>
+            </li>
+            <li><a href="https://www.google.com/earth/">Google Earth Desktop</a>.</li>
+            <li>A plain text editor. For Mac I recommend <a
+                href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. For Windows, <a
+                href="https://notepad-plus-plus.org/">NotePad++</a>.</li>
+            <li>A program to edit spreadsheets and CSV files. Excel will do, but I find <a
+                href="https://www.libreoffice.org/">Libre Office</a> to be more reliable.</li>
+            <li>Windows users should install <a href="https://www.cygwin.com/">Cygwin</a> if they wish to use command
+              line tools.</li>
+          </ul>
+          <p>In addition, there are a few things which it would be nice to have but which are optional.</p>
+          <ul>
+            <li>A website/blog hosted on a server that you can control. This will let you publish your maps to the web
+              without the security restrictions of free hosting. If you don’t have one already, <a
+                href="https://portal.reclaimhosting.com/aff.php?aff=004">Reclaim Hosting</a> is a web hosting provider
+              that serves academics and students well. If you use Reclaim Hosting, you may wish to <a
+                href="https://portal.reclaimhosting.com/knowledgebase.php?action=displayarticle&amp;id=2">install
+                WordPress</a> using Reclaim’s installer.</li>
+            <li>An FTP/SFTP client for accessing websites. On Mac and Windows I recommend <a
+                href="https://cyberduck.io/?l=en">Cyberduck</a>.</li>
+            <li><a href="http://www.gdal.org/">GDAL/OGR</a>. This set of command line programs offers many tools for
+              manipulating spatial data. Note that if you install QGIS on a Mac according to the instructions above, you
+              will already have install GDAL/OGR.</li>
+          </ul>
+          <div id="a-note-on-operating-systems" class="section level3">
+            <h3>A note on operating systems</h3>
+            <p>There are three common operating systems (or families of operating systems): Windows, Mac OS X, and
+              GNU/Linux and Unix. While there are major differences between Macs and Linux, they are more alike than
+              different in that they share the same foundational *nix underpinnings. Windows, on the other hand, is a
+              world apart, as different from Macs and Linux as English is from Mandarin. When working with web-based
+              tools in the browser, this should make no difference. But if you are working on Windows, you might
+              consider installing <a href="https://www.virtualbox.org/">Virtual Box</a> and <a
+                href="http://www.ubuntu.com/download/desktop">Ubuntu Desktop</a>.</p>
+          </div>
+        </div>
+        <div id="what-you-should-use-in-class" class="section level2">
+          <h2>What you should use in class</h2>
+          <p>For use in class, I recommend trying to keep as much of your work in the web as possible. Students will
+            come to class with every variety of technology, from Windows tablets to Mac laptops to Android phones. The
+            web is the one common denominator that all of these platforms can use at once. As you go through the
+            workshop, consider what kinds of software you would be able to support as you teach. This will depend in
+            large part on which kinds of maps you ask your students to create and which kinds of technologies you feel
+            comfortable supporting.</p>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

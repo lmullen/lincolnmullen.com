@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+  <title>Introduction to QGIS</title>
+
+  <script src="libs/jquery-1.11.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.1/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/respond.min.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-25121492-1', 'lincolnmullen.com');
+    ga('send', 'pageview');
+  </script>
+  <!-- end in_header.html -->
+
+
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+  <div class="container-fluid main-container">
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div id="header">
+          <h1 class="title">Introduction to QGIS</h1>
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#about-qgis">About QGIS</a></li>
+            <li><a href="#getting-data-from-nhgis">Getting Data from NHGIS</a></li>
+            <li><a href="#adding-a-vector-layer-to-qgis">Adding a Vector Layer to QGIS</a></li>
+            <li><a href="#joining-data">Joining data</a></li>
+            <li><a href="#next-steps">Next steps</a></li>
+          </ul>
+        </div>
+
+        <div id="about-qgis" class="section level2">
+          <h2>About QGIS</h2>
+          <p>QGIS is an advanced tool, comparable to <a
+              href="http://www.esri.com/software/arcgis/arcgis-for-desktop">ArcGIS</a>.<a href="#fn1"
+              class="footnoteRef" id="fnref1"><sup>1</sup></a> In this workshop we will use data from <a
+              href="https://www.nhgis.org/">NHGIS</a> which has U.S. Census data to create a <a
+              href="data-maps.html">data map</a> similar to what we did earlier. Working with NHGIS will serve as an
+            introduction to navigating large spatial datasets that are available from governments or academic sources.
+            But because the NHGIS shapefiles are too large to be usable in CartoDB<a href="#fn2" class="footnoteRef"
+              id="fnref2"><sup>2</sup></a> we will create a similar kind of map in QGIS.</p>
+          <p>QGIS, like CartoDB, uses map layers. (You might compare it to Photoshop in this regard.) You might
+            initially find it surprising that QGIS does not start with a base layer, such as a Google Maps. QGIS expects
+            you to add every layer for yourself.</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-load.png"
+              alt="QGIS after loading without any layers displayed." />
+            <p class="caption">QGIS after loading without any layers displayed.</p>
+          </div>
+        </div>
+        <div id="getting-data-from-nhgis" class="section level2">
+          <h2>Getting Data from NHGIS</h2>
+          <p>We will use data from the <a href="https://www.nhgis.org/">National Historic Geographic Information
+              System</a> (NHGIS), a project from the Minnesota Population Center to digitize U.S. Census data and
+            connect it to spatial data. You should navigate through NHGIS in order to download data for yourself. To
+            download data from NHGIS, you will need to create an account, then navigate the <a
+              href="https://data2.nhgis.org/main">data finder</a>. See the <a
+              href="https://www.nhgis.org/user-resources/users-guide">NHGIS User’s Guide</a> for details. After
+            downloading those files, you should unzip them into a directory. Be sure to include both census data and
+            shapefiles. The geographic level (i.e., county, state, or census tract) and the year must match one another
+            for the census data and the spatial data. Or you can download this <a
+              href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_csv.zip">assortment of data from 1890 U.S.
+              Census</a> (CSV files) with accompanying <a
+              href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_shape.zip">county boundaries</a> (a
+            shapefile).<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis.png"
+              alt="Selecting data from the NHGIS data finder." />
+            <p class="caption">Selecting data from the NHGIS data finder.</p>
+          </div>
+        </div>
+        <div id="adding-a-vector-layer-to-qgis" class="section level2">
+          <h2>Adding a Vector Layer to QGIS</h2>
+          <p>Each data set can be added to QGIS as a layer. The type of layer will depend on the kind of data that you
+            are using. (See the <a href="spatial-data.html">spatial data</a> section for an explanation.) We will begin
+            by adding the county boundaries for the U.S. in 1890. Since these are in a shapefile, they are a vector
+            layer.</p>
+          <p>To add the layer, click “Layer &gt; Add Layer &gt; Add Vector Layer.” You will then navigate to the
+            directory where the NHGIS shapefile is stored.<a href="#fn4" class="footnoteRef"
+              id="fnref4"><sup>4</sup></a></p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-select-file.png"
+              alt="Selecting a shapefile to add as a vector layer in QGIS." />
+            <p class="caption">Selecting a shapefile to add as a vector layer in QGIS.</p>
+          </div>
+          <p>After loading the shapefile, it will be displayed as a layer in QGIS.</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-shapefile-loaded.png"
+              alt="A shapefile after being loaded into QGIS." />
+            <p class="caption">A shapefile after being loaded into QGIS.</p>
+          </div>
+          <p>There are a number of things you can do now that QGIS is displaying data. You can pan and zoom using the
+            tools in the tool bar. It is particularly useful to right click on the layer in the list of layers to the
+            left and choose “Zoom to layer.” Using the “identify features” tool, you can click on individual counties
+            and see the data associated with them.</p>
+          <p>We are going to do two things: inspect the data associated with the layer, and change how the layer appears
+            on the map based on the data.</p>
+          <p>First, to see the data associated with the shapefile, you can right click on the layer and choose “Open
+            Attribute Table.” A window will pop up with a table similar to this.</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-attributes.png"
+              alt="The attribute table of a county shapefile in QGIS." />
+            <p class="caption">The attribute table of a county shapefile in QGIS.</p>
+          </div>
+          <p>Notice the way that this data is structured. There is one row for each “feature” in the shapefile, in this
+            case, one row for each county. Each county is associated with a set of variables, and each variable is
+            stored in a column. These variables can have a variety of kinds of information associated with them: in this
+            case there are text (i.e., string) fields as well as numeric fields. The kinds of information are important
+            too. Some of the fields are place names, such as <code>NHGISNAM</code> for the county name; others are
+            geographic information, like <code>SHAPE_AREA</code> for the area of the county in square meters. Yet others
+            seem cryptic, such as <code>GISJOIN</code>, but these fields provide an unique identifier that lets us
+            connect this spatial data to other kinds of data. This table could also contain information that might be of
+            interest in mapping, such as the population of the county, but it does not. (For instance, the Natural Earth
+            data, linked from the <a href="resources.html">resources page</a> include population data and other fields.)
+            We will eventually have to join that information to the shapefile ourselves.</p>
+          <p>Second, let’s change the way that the map is displayed. Instead of displaying the map based on the random
+            colors assigned it by QGIS, we will assign the colors on the map to data in the attributes. You can do this
+            by right clicking on the layer in the browser, then clicking “properties” and the “style” tab. QGIS calls
+            the way that data is displayed its “symbol.” The symbol is normally the same for each feature in a layer.
+            For instance, if all we wanted was to change the color and border of the boundaries, we could do so by
+            selecting the “single symbol” option. This would be appropriate if we were only interested in the
+            boundaries, or if we had, say, one shapefile for schools, another for churches, and so on, and wanted to
+            represent each by a different symbol. In our case we want to pick the “graduated symbol” option, meaning
+            that we are going to assign each feature to a bin associated with a color. By selecting the column to be the
+            <code>SHAPE_AREA</code>, we are saying that the color should be determined by that variable. The number of
+            “classes” is the number of bins. The “mode” is the way we determine what the boundaries of the bins should
+            be. In this case we will use the <a
+              href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks natural breaks algorithm</a>
+            which tries to make each bin as distinct as possible from every other bin, while making the items in each
+            bin as much alike as possible.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> There are a
+            number of color ramps to choose from, most taken from the <a href="http://colorbrewer2.org/">Color Brewer
+              palettes</a>. Clicking “classify” assigns our counties to bins.
+          </p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-graduated.png" alt="" />
+
+          </div>
+          <p>We get the following map as a result. It shows the counties classified by their size. We can inspect the
+            map and see that the bigger counties do in fact receive a darker color.</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-area.png"
+              alt="The resulting map of counties categorized by their area. Notice that in a choropleth map the area of a shape can distort its apparent significance." />
+            <p class="caption">The resulting map of counties categorized by their area. Notice that in a choropleth map
+              the area of a shape can distort its apparent significance.</p>
+          </div>
+        </div>
+        <div id="joining-data" class="section level2">
+          <h2>Joining data</h2>
+          <p>But we want to create a map of more interesting information than the area of counties. To do that we need
+            to use the data that we downloaded from NHGIS as a CSV. Try opening the file
+            <code>nhgis0040_ds27_1890_county.csv</code> in a program like LibreOffice or Excel. It should look like
+            this.
+          </p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis-csv.png"
+              alt="A CSV containing data from NHGIS." />
+            <p class="caption">A CSV containing data from NHGIS.</p>
+          </div>
+          <p>The first thing to notice about this file is that the first column, <code>GISJOIN</code>, contains the same
+            kind of code that we saw in the attributes table of our shapefile. This key identifies each county in space
+            and time. In other words, <code>G0100010</code> represents Autauga County, Alabama, in 1890;
+            <code>G2700270</code> represents Clay County, Minnesota, in 1890, and so on. This is the key to joining the
+            data in our spatial data (the shapefile) to our census data (the CSV file). We can see other data as well:
+            the name of the county, and so on. But the information that is actually of interest to us is contained in
+            columns with cryptic names such as <code>AUM001</code>. To learn what these names mean, we have to use the
+            codebook that is associated with out data file. The codebook is contained in the
+            <code>nhgis0040_ds27_1890_county_codebook.txt</code> file. Opening up the codebook in a text editor lets us
+            know what the columns mean. Now we are ready to join the data.
+          </p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-codebook.png" alt="An NHGIS codebook." />
+            <p class="caption">An NHGIS codebook.</p>
+          </div>
+          <p>To join the data, we need to load the CSV into QGIS. We can do this by choosing the “Layer &gt; Add Layer
+            &gt; Add Delimited Text Layer” menu option, then navigating to our file. If the file had spatial information
+            (e.g., latitude and longitude) we could let QGIS know where to find it. But this file has no spatial
+            information so we will select “no geometry.”</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-delimited.png"
+              alt="Adding a CSV file to QGIS." />
+            <p class="caption">Adding a CSV file to QGIS.</p>
+          </div>
+          <p>Now we have both layers in QGIS and need to join them together. To do that, we will right click on the
+            original shapefile layer, select “Properties,” and click the “Joins tab.” Earlier we noticed that both the
+            shapefile and the CSV file had a field called <code>GISJOIN</code>. We need to specify which layer we are
+            joining, then let QGIS know to use the <code>GISJOIN</code> column in both datasets. Note that your data
+            will not always be so clean and well-organized as this. In a different data set, for instance, you might
+            have to join a CSV of country data to a shapefile of countries using their respective columns with the names
+            of the countries, and inevitably there will be some names that will need to be standardized.</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-join.png"
+              alt="Joining a CSV file to a shapefile in QGIS." />
+            <p class="caption">Joining a CSV file to a shapefile in QGIS.</p>
+          </div>
+          <p>Once we have completed the join, we can reopen the shapefile’s attribute table. Where before we only had
+            geographic information, now we have access to all of the columns that were in the shapefile. We can create a
+            graduated symbol as we did above. In this case, we can use the column <code>AVL016</code>, which gives us
+            the number of people born in Germany by county.</p>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-german.png"
+              alt="People born in Germany residing in each county in 1890." />
+            <p class="caption">People born in Germany residing in each county in 1890.</p>
+          </div>
+        </div>
+        <div id="next-steps" class="section level2">
+          <h2>Next steps</h2>
+          <ul>
+            <li>Can you plot different columns in the NHGIS data set?</li>
+            <li>Can you try a different algorithm for determining the colors?</li>
+            <li>Can you normalize the map by population?</li>
+            <li>Can you normalize the map by area?</li>
+            <li>Can you change the map projection?</li>
+            <li>Can you use the <a href="http://www.qgistutorials.com/en/docs/making_a_map.html">map composer</a> to
+              output a map as an image?</li>
+            <li>Can you filter the shapefile?</li>
+            <li>Can you plot an entirely different data set?</li>
+          </ul>
+          <p>One of the most important skills to learn in using technology for scholarly research is how to read the
+            manual successfully. You may wish to read the guide that QGIS provides: “<a
+              href="http://docs.qgis.org/2.0/en/docs/gentle_gis_introduction/">A Gentle Introduction to GIS</a>.” There
+            are many tutorials for QGIS online; see the <a href="resources.html">resources page</a> for a list. QGIS
+            provides many advanced techniques which you should look over.</p>
+        </div>
+        <div class="footnotes">
+          <hr />
+          <ol>
+            <li id="fn1">
+              <p>Your institution may have a (rather expensive) subscription to ArcGIS. ArcGIS is indeed a powerful
+                tool, and perhaps in some ways the de facto standard among cartographers. However, I prefer QGIS for two
+                reasons. The first is a strong preference for open-source software for scholarly research and teaching.
+                Second, in order to use ArcGIS, you would likely have to use your institutional subscription in a
+                Windows computer lab, while QGIS permits students to use the software on their own machines. That said,
+                what you learn about QGIS should be broadly transferable to ArcGIS should you choose to use it for
+                yourself.<a href="#fnref1">↩</a></p>
+            </li>
+            <li id="fn2">
+              <p>In the section on <a href="spatial-data.html">spatial data</a> we will learn how to simplify these
+                shapefiles so that they can be used in CartoDB.<a href="#fnref2">↩</a></p>
+            </li>
+            <li id="fn3">
+              <p>Minnesota Population Center, <a href="http://www.nhgis.org/">National Historical Geographic Information
+                  System</a>: Version 2.0. Minneapolis, MN: University of Minnesota 2011.<a href="#fnref3">↩</a></p>
+            </li>
+            <li id="fn4">
+              <p>Even though the shapefile actually has several different files associated with it, you want to add it
+                as a file and not as a directory. QGIS will automatically import the other files as well.<a
+                  href="#fnref4">↩</a></p>
+            </li>
+            <li id="fn5">
+              <p>In this case, other options like “pretty” breaks don’t work well because the Alaska counties are much
+                larger than any others. We might consider removing Alaska from the shapefile if we don’t intend to
+                include it in the map.<a href="#fnref5">↩</a></p>
+            </li>
+          </ol>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

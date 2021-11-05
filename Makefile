@@ -3,7 +3,7 @@ preview :
 
 build :
 	rm -rf public/*
-	hugo --cleanDestinationDir --minify
+	hugo --cleanDestinationDir --minify --baseURL "https://lincolnmullen.com"
 
 deploy : build
 	rsync --delete --omit-dir-times --exclude-from=rsync-excludes \

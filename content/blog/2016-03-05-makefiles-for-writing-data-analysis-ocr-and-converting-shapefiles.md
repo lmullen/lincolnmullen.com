@@ -4,6 +4,8 @@ categories:
 date: '2016-03-05T05:00:00+00:00'
 slug: 'makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles'
 title: 'Makefiles for Writing, Data Analysis, OCR, and Converting Shapefiles'
+aliases:
+- /blog/makefiles-for-ocr-and-converting-shapefiles/
 ---
 
 I love Makefiles more than I ought to.[<sup>1</sup>](#fn1) If you haven't come across [GNU Make](https://www.gnu.org/software/make/) before, then Mike Bostock's "[Why Use Make](https://bost.ocks.org/mike/make/)" is a good introduction, as is the [section on Make](http://plain-text.co/make.html) at Kieran Healy's "[Plain Person's Guide to Plain Text Social Science](http://plain-text.co/)." I like Make for several reasons. It lets you specify how your final products (like a website or a PDF document) are related to inputs, and that discipline is invaluable for producing reproducible research and for structuring your project sensibly. For lots of tasks it provides free parallelization and rebuilds only what is absolutely necessary. Since my projects fit into several different genres, once I have created a Makefile for the genre, it is trivial to adapt it to different projects. Whether it is an article or a book manuscript, a data analysis project, a website, my CV, or some kind of file conversion process, all that I need to remember how to do is type `make` to build the project, `make deploy` to put it on the web, and `make clean` to start over.

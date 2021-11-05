@@ -10,10 +10,6 @@ Redirect 302 /assets/favicon.png https://lincolnmullen.com/img/favicon.png
 Redirect 302 /cv/index.html https://lincolnmullen.com/files/Mullen-cv.pdf
 Redirect 302 /cv/ https://lincolnmullen.com/files/Mullen-cv.pdf
 
-Redirect 301 /blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-us-religious-data/ https://lincolnmullen.com/blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-u-s-religious-data/
-Redirect 301 /blog/makefiles-for-ocr-and-converting-shapefiles https://lincolnmullen.com/blog/makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles/
-Redirect 301 /blog/the-spread-of-american-slavery/ https://lincolnmullen.com/blog/mapping-the-spread-of-american-slavery/
-Redirect 301 /blog/how-to-use-neatline-without-geoserver/ https://lincolnmullen.com/blog/how-to-use-neatline-with-map-warper-instead-of-geoserver/
 Redirect 301 /project/slavery https://lincolnmullen.com/projects/slavery/
 Redirect 301 /project/slavery/ https://lincolnmullen.com/projects/slavery/
 Redirect 301 /projects/dh-r2/packages.html https://dh-r.lincolnmullen.com

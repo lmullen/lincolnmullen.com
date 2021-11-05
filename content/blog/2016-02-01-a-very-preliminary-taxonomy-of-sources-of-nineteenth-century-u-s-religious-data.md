@@ -7,6 +7,8 @@ slug: 'a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-u-s-religiou
 tags:
 - religion data
 title: 'A Very Preliminary Taxonomy of Sources of Nineteenth-Century U.S. Religious Data'
+aliases:
+- /blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-us-religious-data/
 ---
 
 In my [last post](http://usreligion.blogspot.com/2016/01/Where-the-Problem-with-Historical-Data-about-U-S-Religion-Really-Lies.html) I explained that historians of U.S. religion have barely begun to scratch the surface of the data (meaning, sources that are amenable to computation) that are available to them. To demonstrate this I gave the example of a single source, the *Minutes of the Annual Conferences of the Methodist Episcopal Church*.

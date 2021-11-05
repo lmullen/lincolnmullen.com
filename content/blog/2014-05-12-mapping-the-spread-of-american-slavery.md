@@ -9,6 +9,8 @@ tags:
 - slavery
 - visualization
 title: Mapping the spread of American slavery
+aliases:
+- /blog/the-spread-of-american-slavery/
 ---
 
 *\[A revised version of this post [was published at Smithsonian.com](http://www.smithsonianmag.com/history/maps-reveal-slavery-expanded-across-united-states-180951452/).\]*

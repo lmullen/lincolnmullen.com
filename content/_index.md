@@ -29,7 +29,7 @@ more permanent posts. Here is a page where you can read about what I am
 - [*The Chance of Salvation: A History of Conversion in America*](https://www.hup.harvard.edu/catalog.php?isbn=9780674975620) was published by Harvard University Press in 2017. 
 - Nothing else I ever do will be as popular as this [map of American slavery](https://lincolnmullen.com/projects/slavery/).
 
-The rest of my published work is [listed here](/scholarship/). Preprints are available at my [Humanities Commons](https://hcommons.org/members/lmullen/) page. Software or data analysis repositories are available at [GitHub](https://github.com/lmullen/). The other appurtenances of scholarship: [ORCID] (https://orcid.org/0000-0001-5103-6917), [Zotero](https://www.zotero.org/lmullen), [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ).
+The rest of my published work is [listed here](/scholarship/). Preprints are available at my [Humanities Commons](https://hcommons.org/members/lmullen/) page. Software or data analysis repositories are available at [GitHub](https://github.com/lmullen/). The other appurtenances of scholarship: [ORCID](https://orcid.org/0000-0001-5103-6917), [Zotero](https://www.zotero.org/lmullen), [Google Scholar](https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ).
 
 
 

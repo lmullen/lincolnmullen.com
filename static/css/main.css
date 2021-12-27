@@ -224,6 +224,7 @@ figure figcaption:before {
 article img,
 article figure img {
   max-width: 100%;
+  border: 1px solid lightgray;
 }
 
 #publications-and-projects p {

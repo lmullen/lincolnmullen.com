@@ -10,10 +10,6 @@ permalinks:
   page: "/:section/:slug/"
 
 markup:
-  defaultMarkdownHandler: blackFriday
-  blackFriday:
-    fractions: false
-  # Make Goldmark work correctly if I switch to it
   goldmark:
     renderer:
       unsafe: true

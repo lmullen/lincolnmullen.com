@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Divergence in U.S. Sex Ratios by County, 1820&ndash;2010</title>
+  <meta name="author" content="Lincoln Mullen">
+  <meta name="description" content="An interactive map departures from an even 
+sex ratio in the United States.">
+  <meta charset="utf-8">
+  <meta name=monetization content="$ilp.uphold.com/3ZWiyMk9zAZE">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/css/normalize.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/css/foundation.min.css">
+  <link rel="stylesheet" href="colorbrewer.v1.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js" charset="utf-8"></script>
+  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <h1>Divergence in U.S. Sex Ratios by County,
+      1820&ndash;2010</h1>
+  </div>
+  <div class="row">
+    <div id="viz"></div>
+  </div>
+  <div class="row">
+    <div class="small-8 columns">
+      <div id="slider"></div>
+    </div>
+    <div class="small-4 columns">
+      <select name="field-selector" id="field-selector">
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <hr>
+  </div>
+  <div class="row">
+    <div id="description">
+      <h5>How to use this map</h5>
+      <p>This map shows U.S. counties that
+        diverged from an equal (or nearly equal) sex ratio. Counties shown in
+        white had a sex ratio of no more than
+        51 percent male or female. Counties shown in green had a higher proportion
+        of males; counties shown in brown had a higher proportion of
+        females.</p>
+      <hr>
+      <p>
+        Map by <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Code
+        available on <a href="https://github.com/lmullen/sex-ratios-map">
+          GitHub</a>, licensed MIT. Suggestions and criticism welcome: <a href="mailto:lincoln@lincolnmullen.com">lincoln@lincolnmullen.com</a>.
+      </p>
+      <h5>Citation</h5>
+      <p>
+        If you use this map in your research, I would appreciate a citation.
+        Here is the suggested form:
+      </p>
+      <blockquote>
+        Lincoln Mullen, "Divergence in U.S. Sex Ratios by County,
+        1820&ndash;2010," interactive map,
+        http://lincolnmullen.com/projects/sex-ratios/.
+      </blockquote>
+      <p>
+        You should also cite the <a href="http://www.nhgis.org">NHGIS</a>, who
+        provided the data:
+      </p>
+      <blockquote>
+        Minnesota Population Center, <em>National Historical Geographic
+          Information System: Version 2.0</em> (Minneapolis, MN: University of
+        Minnesota, 2011), http://www.nhgis.org.
+      </blockquote>
+    </div>
+  </div>
+  <script src="visualization.js"></script>
+  <p id="back-link">
+    <a href="http://lincolnmullen.com">&larr; Back to home page</a>
+  </p>
+</body>
+
+</html>

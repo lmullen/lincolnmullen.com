@@ -16,7 +16,7 @@ Second, I use the line below to highlight these markers in the text. I have the 
 
 The result looks like this:
 
-![](/downloads/post/2012-12-08-marker.png)
+![](//files.lincolnmullen.com/downloads/post/2012-12-08-marker.png)
 
 These markers then come in handy when it's time to clean up the draft. I could search for the markers, but this keymapping makes things easier:
 
@@ -24,4 +24,4 @@ These markers then come in handy when it's time to clean up the draft. I could s
 
 That keymapping puts all of the markers into Vim's [quickfix](http://vimdoc.sourceforge.net/htmldoc/quickfix.html) buffer, which gives me a list of all the needed corrections and lets me jump from item to item. It looks like this:
 
-![](/downloads/post/2012-12-08-quickfix.png)
+![](//files.lincolnmullen.com/downloads/post/2012-12-08-quickfix.png)

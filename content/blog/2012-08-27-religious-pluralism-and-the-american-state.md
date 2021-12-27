@@ -4,7 +4,7 @@ slug: 'religious-pluralism-and-the-american-state'
 title: Religious Pluralism and the American State
 ---
 
-This fall I'll be teaching a university writing seminar titled 'Religious Pluralism and the American State'. I've made the [syllabus](http://lincolnmullen.com/downloads/docs/religious-pluralism.syllabus.2012-fall.pdf) available online and I've put up a basic [course website](http://lincolnmullen.com/courses/uws/).
+This fall I'll be teaching a university writing seminar titled 'Religious Pluralism and the American State'. I've made the [syllabus](https://files.lincolnmullen.com/religious-pluralism.syllabus.2012-fall.pdf) available online and I've put up a basic [course website](http://lincolnmullen.com/courses/uws/).
 
 Here is the course description:
 

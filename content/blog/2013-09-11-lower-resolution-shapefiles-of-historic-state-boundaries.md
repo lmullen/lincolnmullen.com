@@ -10,7 +10,7 @@ A few weeks ago I [posted some shapefiles](http://lincolnmullen.com/blog/shapefi
 -   [High resolution shapefiles](https://www.dropbox.com/s/xu0bug1x7hgm5h1/historic-state-boundaries.zip)
 -   [Code to generate the shapefiles](https://github.com/lmullen/demographics-religion/blob/master/historic.shapefiles.r)
 
-The [NHGIS](http://nhgis.org) has kindly granted me permission to share these converted files, but if you use them, please be sure to cite the NHGIS. (Please cite me too!) The NHGIS has also asked that you not redistribute these converted files yourself, but instead point people here or to their own site. This is the citation you can use for the NHGIS:
+The [NHGIS](https://nhgis.org) has kindly granted me permission to share these converted files, but if you use them, please be sure to cite the NHGIS. (Please cite me too!) The NHGIS has also asked that you not redistribute these converted files yourself, but instead point people here or to their own site. This is the citation you can use for the NHGIS:
 
 > Minnesota Population Center. National Historical Geographic Information System: Version 2.0. Minneapolis, MN: University of Minnesota 2011. <http://www.nhgis.org>
 

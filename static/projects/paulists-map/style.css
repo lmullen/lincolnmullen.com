@@ -1,0 +1,55 @@
+#year-selector {
+  width: 500px;
+  margin-left: 50px;
+  display:inline-block;
+}
+
+#all-checkbox {
+  display:inline-block;
+}
+
+#year-label {
+  display:inline-block;
+  margin-left: 50px;
+}
+
+.state {
+  fill: #eee;
+}
+
+.border {
+  fill: none;
+  stroke: black;
+}
+
+.mission {
+  fill: red;
+  fill-opacity: 0.5;
+}
+
+.hidden {
+  display: none;
+}
+
+rect {
+  fill: gray;
+}
+
+.active {
+  fill: red;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 10px;
+}
+
+.x.axis path {
+  display: none;
+}

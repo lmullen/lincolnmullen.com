@@ -12,11 +12,11 @@ A tag like this:
 
 Produces output like this:
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'demo/12names'});" href='/figures/demo/12names.svg'><img src='/figures/demo/12names.svg' alt='Twelve names whose gender changed over time'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'demo/12names'});" href='//files.lincolnmullen.com/figures//demo/12names.svg'><img src='//files.lincolnmullen.com/figures//demo/12names.svg' alt='Twelve names whose gender changed over time'></a>
 <figcaption>
 Figure 1: Twelve names whose gender changed over time \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;demo/12names&#39;});" href="/figures/demo/12names.svg">SVG</a>, <a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;demo/12names&#39;});" href="/figures/demo/12names.pdf">PDF</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;demo/12names&#39;});" href="//files.lincolnmullen.com/figures//demo/12names.svg">SVG</a>, <a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;demo/12names&#39;});" href="//files.lincolnmullen.com/figures//demo/12names.pdf">PDF</a>\]
 
 </figcaption>
 </figure>

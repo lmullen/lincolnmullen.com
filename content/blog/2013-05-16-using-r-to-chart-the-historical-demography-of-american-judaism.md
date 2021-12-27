@@ -66,19 +66,19 @@ Now we can plot the population estimates.
 </figure>
 Here is the result:
 
-<img class="center" src="/downloads/post/jewish-population.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/jewish-population.png" />
 
 Notice that we've tried to make the plot indicate various features of the data. There are bars to indicate high and low estimates, which is important because the raw number of Jews is either growing or shrinking, depending on whether you use the high or low estimates. There are also dots to indicate which years we have data for, so we know where the line reflects an actual data point, and where it is an interpolation. And we've made the plot wider than it is tall, in order to avoid giving a false impression of the scale of the changes.
 
 We can also plot the change in Jewish population as a percentage of the population as a whole. (If we wished, we could layer these plots to compare them.)
 
-<img class="center" src="/downloads/post/jewish-population.percentage.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/jewish-population.percentage.png" />
 
 The very small number of Jews before 1776 and their rapid growth after 1890 mean that the less drastic changes in the nineteenth century are obscured. Using the same data, we can take snapshots of the earlier and later nineteenth century.
 
-<img class="center" src="/downloads/post/jewish-population.early-19c.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/jewish-population.early-19c.png" />
 
-<img class="center" src="/downloads/post/jewish-population.late-19c.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/jewish-population.late-19c.png" />
 
 This example is very basic---trivial, even. So why is this mode of working an improvement over, say, Excel?
 

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+  <title>Narrative Maps</title>
+
+  <script src="libs/jquery-1.11.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.1/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/respond.min.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+
+
+  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+  <!-- end in_header.html -->
+
+
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+  <div class="container-fluid main-container">
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div id="header">
+          <h1 class="title">Narrative Maps</h1>
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#what-are-narrative-maps">What are narrative maps?</a></li>
+            <li><a href="#an-example-narrative-map-in-storymap-js">An example narrative map in StoryMap JS</a></li>
+            <li><a href="#creating-a-story-map">Creating a Story Map</a></li>
+            <li><a href="#an-example-narrative-map-assignment">An example narrative map assignment</a></li>
+          </ul>
+        </div>
+
+        <div id="what-are-narrative-maps" class="section level2">
+          <h2>What are narrative maps?</h2>
+          <p>A narrative map tells a story plotted through space. The point of a narrative map is not to display data.
+            Rather it is to provide an explicit visual counterpart to the implicit spatial underpinnings of a narrative
+            or argument. Narrative maps are broadly useful across the disciplines, since many texts have a spatial
+            component. For example, a class on literature might ask the students to trace the movements of characters
+            within James Joyce’s <em><a href="http://www.gutenberg.org/ebooks/2814">Dubliners</a></em>, or some other
+            work of literature. Another class might look for the movements of Augustine of Hippo around the
+            Mediterranean. Students in a class on American religion might each take a different itinerant minister’s
+            autobiography and trace their movements.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> An
+            art or music class might track the development of certain kinds of painting or musical styles across space.
+          </p>
+          <p>Narrative maps are pedagogically useful as a <strong>lightweight mapping assignment</strong>. By
+            lightweight, I mean that the assignment demands comparatively little of students in terms of preparing
+            spatial data or learning mapping techniques, but that the assignment does get students thinking spatially. A
+            lightweight assignment might serve as a standalone digital assignment in a course, Or it might be a primer
+            to get students comfortable with mapping before taking on a more difficult task.</p>
+        </div>
+        <div id="an-example-narrative-map-in-storymap-js" class="section level2">
+          <h2>An example narrative map in StoryMap JS</h2>
+          <p>You could use any number of mapping programs to create a narrative map, including Google Maps or Google
+            Earth. We will use the Knight Foundation’s <a href="http://storymap.knightlab.com/">StoryMap JS</a>, created
+            for journalists but also useful for teaching. StoryMap JS offers a slide-show-like interface where the user
+            can connect text and images to places in a sequential narrative. Students will likely find the interface
+            familiar if they have ever used PowerPoint or Keynote. To create such a map, students will need to find
+            places mentioned in a text, which they can then identify on a map. Ideally, they should also find pictures
+            of those places and quotations about them in the text.</p>
+          <p>Below is a sample StoryMap. (<a
+              href="http://s3.amazonaws.com/uploads.knightlab.com/storymapjs/de923c6d12a51c1e4f77c1dbb66a81cc/dubliners-the-encounter/index.html">See
+              the example in its own window.</a>) I have taken the Jame Joyce’s short story “An Encounter” from
+            <em>Dubliners</em> (1914) and mapped the narrative of two boys’ journey around Dublin.
+          </p>
+          <iframe
+            src="http://s3.amazonaws.com/uploads.knightlab.com/storymapjs/de923c6d12a51c1e4f77c1dbb66a81cc/dubliners-the-encounter/index.html"
+            frameborder="0" width="120%" height="700" style="margin-left:-20%;">
+          </iframe>
+        </div>
+        <div id="creating-a-story-map" class="section level2">
+          <h2>Creating a Story Map</h2>
+          <p>During the workshop we will create a narrative map of Augustine of Hippo (or is that Augustine of Thagaste?
+            of Carthage? of Rome? of Milan?) in his journeys around the Mediterranean. We will need texts and images:
+          </p>
+          <ul>
+            <li>There are many online copies of Augustine’s <em>Confessions</em>. Here is E. B. Pusey’s <a
+                href="https://www.gutenberg.org/files/3296/3296-h/3296-h.htm">translation at Project Gutenberg</a>.</li>
+            <li>In 1464–65, the Italian painter <a
+                href="http://www.wga.hu/frames-e.html?/html/g/gozzoli/4gimigna/index.html">Benozzo Gozzoli</a> painted
+              seventeen frescoes from the life of Augustine for the chapel of the church of Sant’Agostino. You can find
+              <a href="http://www.wga.hu/frames-e.html?/html/g/gozzoli/4gimigna/index.html">photographs of these
+                scenes</a> at the Web Gallery of Art. These paintings also provide a key to figuring out the places
+              where Augustine traveled.
+            </li>
+          </ul>
+          <p>Follow these steps to create a map with StoryMap:</p>
+          <ol style="list-style-type: decimal">
+            <li>Go to the <a href="http://storymap.knightlab.com/">StoryMap website</a> and click “Make a story map
+              now.” You will need a Google account with Google Drive in order to save your map.</li>
+            <li>Create a title slide. The map on the title slide will be derived from the places associated with later
+              slides, so don’t expect it to display much at first.</li>
+            <li>Create at least two slides. Each of these slides will be associated with a point in space. You can find
+              the places by zooming the map and dragging the pointer, or by using the search box. Try uploading an image
+              and adding text.</li>
+            <li>Explore the per-slide options and the general options. For instance, which base map works best for your
+              purposes?</li>
+          </ol>
+        </div>
+        <div id="an-example-narrative-map-assignment" class="section level2">
+          <h2>An example narrative map assignment</h2>
+          <p>Brian Croxall’s “Introduction to Digital Humanities” class at Emory University created narrative maps of
+            Virginia Woolf’s novel <em>Mrs. Dalloway</em>. Croxall has <a
+              href="http://www.briancroxall.net/dh/assignments/mapping-mrs-dalloway/">shared his assignment online</a>.
+            The project from Croxall’s class can be viewed by downloading <a href="https://www.google.com/earth/">Google
+              Earth</a>. A similar project is available at the <a
+              href="http://mrsdallowaymappingproject.weebly.com/">Mrs. Dalloway Mapping Project</a> website.</p>
+        </div>
+        <div class="footnotes">
+          <hr />
+          <ol>
+            <li id="fn1">
+              <p>The idea for an assignment comes from Chris Cantwell.<a href="#fnref1">↩</a></p>
+            </li>
+          </ol>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

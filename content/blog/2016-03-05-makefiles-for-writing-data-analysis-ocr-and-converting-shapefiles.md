@@ -4,6 +4,8 @@ categories:
 date: '2016-03-05T05:00:00+00:00'
 slug: 'makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles'
 title: 'Makefiles for Writing, Data Analysis, OCR, and Converting Shapefiles'
+aliases:
+- /blog/makefiles-for-ocr-and-converting-shapefiles/
 ---
 
 I love Makefiles more than I ought to.[<sup>1</sup>](#fn1) If you haven't come across [GNU Make](https://www.gnu.org/software/make/) before, then Mike Bostock's "[Why Use Make](https://bost.ocks.org/mike/make/)" is a good introduction, as is the [section on Make](http://plain-text.co/make.html) at Kieran Healy's "[Plain Person's Guide to Plain Text Social Science](http://plain-text.co/)." I like Make for several reasons. It lets you specify how your final products (like a website or a PDF document) are related to inputs, and that discipline is invaluable for producing reproducible research and for structuring your project sensibly. For lots of tasks it provides free parallelization and rebuilds only what is absolutely necessary. Since my projects fit into several different genres, once I have created a Makefile for the genre, it is trivial to adapt it to different projects. Whether it is an article or a book manuscript, a data analysis project, a website, my CV, or some kind of file conversion process, all that I need to remember how to do is type `make` to build the project, `make deploy` to put it on the web, and `make clean` to start over.
@@ -21,7 +23,7 @@ I wrote about using [Make with pandoc](http://lincolnmullen.com/blog/make-and-pa
 
 Almost all of my projects that involve some kind of data analysis end up having a research notebook (like a lab notebook), where I keep track of my work and present preliminary results along the way. These all use [R Markdown](http://rmarkdown.rstudio.com/). As an example, one ongoing project is tracking the migration of law in the nineteenth-century United States. You can see the project's [notebook here](http://lmullen.github.io/civil-procedure-codes/), along with the [Makefile for the project](https://github.com/lmullen/civil-procedure-codes/blob/master/Makefile). This is such a common pattern for my projects that I have abstracted it out into my [Simple R Markdown Notebook](https://lmullen.github.io/rmd-notebook/) ([repository here](https://github.com/lmullen/rmd-notebook)). This is intentionally as bare bones as possible, but the Makefile creates all the pages along with an home page.
 
-I also have several standalone websites which are created with R Markdown. A good recent example is [the Makefile](https://github.com/lmullen/worksheets/blob/master/Makefile) for my worksheets for learning R, which creates [this site](http://lincolnmullen.com/projects/worksheets/). Besides the tasks to actually create the website, check out the task to [deploy it using rsync](https://github.com/lmullen/worksheets/blob/master/Makefile#L14). (Here's an even simpler example of a [deploy task using scp](https://github.com/lmullen/CV/blob/master/Makefile#L14).)
+I also have several standalone websites which are created with R Markdown. A good recent example is [the Makefile](https://github.com/lmullen/worksheets/blob/master/Makefile) for my worksheets for learning R, which creates [this site](https://dh-r.lincolnmullen.com/worksheets.html). Besides the tasks to actually create the website, check out the task to [deploy it using rsync](https://github.com/lmullen/worksheets/blob/master/Makefile#L14). (Here's an even simpler example of a [deploy task using scp](https://github.com/lmullen/CV/blob/master/Makefile#L14).)
 
 ### OCR
 

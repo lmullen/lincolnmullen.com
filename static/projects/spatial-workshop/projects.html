@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+  <title>From Manuscripts to Maps</title>
+
+  <script src="libs/jquery-1.11.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.1/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/respond.min.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+
+
+  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+  <!-- end in_header.html -->
+
+
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+  <div class="container-fluid main-container">
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div id="header">
+          <h1 class="title">From Manuscripts to Maps</h1>
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#preliminaries">Preliminaries</a></li>
+            <li><a href="#potential-projects">Potential projects</a></li>
+          </ul>
+        </div>
+
+        <p>So far in this workshop we have focused on the individual steps of mapmaking, whether that means creating a
+          map of points or manipulating spatial data. One of the challenges in creating maps, however, is working
+          through an entire project, from the idea and the source base to the finished map as a class project or
+          publication. The aim of this session to actually work through all of the steps of a real class or research
+          project to gain some experience in seeing a project through all its phases.</p>
+        <p>Creating such project involves thinking through at least these steps:</p>
+        <ol style="list-style-type: decimal">
+          <li>What kind of mapmaking or spatial project would be a significant contribution to my course or my field?
+          </li>
+          <li>What sources are available for such a project?</li>
+          <li>How can I extract/create place information from those sources?</li>
+          <li>How should my data be structured?</li>
+          <li>How can I connect the information extracted from the sources to spatial data? What spatial data do I need?
+          </li>
+          <li>What kind of map is most suitable for my data?</li>
+          <li>How should that map be published/publicized?</li>
+          <li>What kind of interpretative framework should I provide with the map?</li>
+          <li>How will I know if this mapping project was a success? What do I hope to learn?</li>
+        </ol>
+        <div id="preliminaries" class="section level2">
+          <h2>Preliminaries</h2>
+          <p>The following guides may be helpful in in working through such a project.</p>
+          <p>It is important to think through how your data will be structured. While the details of what kind of data
+            you record will depend on the sources and the map you hope to make, there is a common pattern to
+            well-structured data. Hadley Wickham explain this structure in his paper on “<a
+              href="http://www.jstatsoft.org/v59/i10/">Tidy Data</a>.”<a href="#fn1" class="footnoteRef"
+              id="fnref1"><sup>1</sup></a></p>
+          <p>Georeferencing is the process of turning place names or addresses into latitudes and longitudes. You can do
+            this with CartoDB, as explained in <a href="http://docs.cartodb.com/tutorials/how_to_georeference.html">this
+              tutorial</a>.</p>
+          <p>You may have the need to create vector data in QGIS, as <a
+              href="http://manual.linfiniti.com/en/create_vector_data/create_new_vector.html">explained here</a>.</p>
+        </div>
+        <div id="potential-projects" class="section level2">
+          <h2>Potential projects</h2>
+          <p>Based on the interests of workshop participants, we will work in groups on one or more of the following
+            projects. And if workshop participants have their own data and questions, we can start one of those
+            projects.</p>
+          <ul>
+            <li>
+              <p><a href="http://www.herhatwasinthering.org/web/index.aspx">Her Hat Was in the Ring</a> is a database of
+                women in the United States who ran for office before women received the franchise. The database
+                classifies candidates by state, but also contains notes about the specific places where women ran for
+                office.</p>
+            </li>
+            <li>
+              <p>The Paulist Fathers were a Catholic missionary order who preached missions around the United States.
+                They kept manuscript records of where and when they preached, as well as how many people came to
+                confession or were converted.</p>
+            </li>
+          </ul>
+          <div class="figure">
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/paulist-records.png"
+              alt="The record of a mission preached by the Paulist Fathers in 1859 at Princeton, New Jersey, with 570 attendees." />
+            <p class="caption">The record of a mission preached by the Paulist Fathers in 1859 at Princeton, New Jersey,
+              with 570 attendees.</p>
+          </div>
+          <ul>
+            <li>
+              <p><a href="http://elections.lib.tufts.edu/">A New Nation Votes</a> is a compilation of election returns
+                from the early American republic, including both local, state, and federal elections.</p>
+            </li>
+            <li>
+              <p>The <a href="http://memory.loc.gov/ammem/snhtml/">WPA former slave narratives</a> frequently mention
+                places. The narratives are organized by the place that the interviews happened, but the interviewees
+                frequently lived and mentioned other places.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="footnotes">
+          <hr />
+          <ol>
+            <li id="fn1">
+              <p>Hadley Wickham, “<a href="http://www.jstatsoft.org/v59/i10/">Tidy Data</a>,” <em>The Journal of
+                  Statistical Software</em> 59, no. 10 (2014).<a href="#fnref1">↩</a></p>
+            </li>
+          </ol>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <title>Resources for Spatial Humanities</title>
+
+  <script src="libs/jquery-1.11.3/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+  <!-- end in_header.html -->
+
+
+
+
+  <style type="text/css">
+    h1 {
+      font-size: 34px;
+    }
+
+    h1.title {
+      font-size: 38px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    h6 {
+      font-size: 12px;
+    }
+
+    .table th:not([align]) {
+      text-align: left;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .tabbed-pane {
+      padding-top: 12px;
+    }
+
+    button.code-folding-btn:focus {
+      outline: none;
+    }
+
+  </style>
+
+
+
+  <div class="container-fluid main-container">
+
+    <!-- tabsets -->
+    <script src="libs/navigation-1.1/tabsets.js"></script>
+    <script>
+      $(document).ready(function () {
+        window.buildTabsets("TOC");
+      });
+    </script>
+
+    <!-- code folding -->
+
+
+
+
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div class="fluid-row" id="header">
+
+
+
+          <h1 class="title toc-ignore">Resources for Spatial Humanities</h1>
+
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#sample-data-sets">Sample data sets</a></li>
+            <li><a href="#data-repositories">Data Repositories</a></li>
+            <li><a href="#historical-maps">Historical maps</a></li>
+            <li><a href="#syllabi">Syllabi</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#writing-on-maps-and-mapmaking">Writing on maps and mapmaking</a></li>
+          </ul>
+        </div>
+
+        <div id="sample-data-sets" class="section level2">
+          <h2>Sample data sets</h2>
+          <p><a href="//files.lincolnmullen.com/spatial-workshop/data/middlebury_amsterdam-master.zip">Locations in
+              Amsterdam depicted in art between 1550 and 1750</a>. Source: Matthew Lincoln. ‘Middlebury_amsterdam: Data
+            for 2014 Kress Digital Mapping and Art History Summer Institute.’ Zenodo, 2015. doi: <a
+              href="https://zenodo.org/record/15461">10.5281/zenodo.15461</a>. <a
+              href="https://github.com/mdlincoln/middlebury_amsterdam">GitHub</a>.</p>
+          <p>Abby Mullen, <a href="//files.lincolnmullen.com/spatial-workshop/data/quasi-wars.csv">Quasi-War
+              Encounters</a>. See <a href="http://abbymullen.org/projects/Quasi-War/">related map of this data</a>.</p>
+          <p><a href="http://www.naturalearthdata.com/">Natural Earth</a>: cultural and physical data. <a
+              href="http://naciscdn.org/naturalearth/packages/Natural_Earth_quick_start.zip">Download Quick Start
+              Kit</a>.</p>
+          <p><a href="//files.lincolnmullen.com/spatial-workshop/data/catholic-dioceses.csv">Catholic dioceses in the
+              United States, Canada, and Mexico</a>. Data compiled from Joseph Bernard Code, <em>Dictionary of the
+              American Hierarchy</em> (1789-1964) (New York: Joseph F. Wagner, 1964), 425-26, and for the United States
+            since 1963, Canada, and Mexico from <a href="http://www.catholic-hierarchy.org/"
+              class="uri">http://www.catholic-hierarchy.org/</a>.</p>
+          <p><a href="https://github.com/cestastanford/historical-us-city-populations">U.S. Cities and Populations</a>.
+            U.S. Census Bureau and Erik Steiner, Spatial History Project, Center for Spatial and Textual Analysis,
+            Stanford University.</p>
+          <p>Will Thomas, et al., <a href="http://railroads.unl.edu/resources/">Railroads and the Making of Modern
+              America</a> (University of Nebraska, Lincoln, 2011). Historical railroad information for the United States
+            in a variety of formats.</p>
+          <p>John H. Long, et al., <em><a href="http://publications.newberry.org/ahcbp/">Atlas of Historical County
+                Boundaries</a></em>, Dr. William M. Scholl Center for American History and Culture, The Newberry
+            Library, Chicago (2010).</p>
+          <p>Jason Heppler, “<a href="http://dissertation.jasonheppler.org/data/">Machines in the Valley</a>” (2015).
+          </p>
+          <p><a href="//files.lincolnmullen.com/spatial-workshop/data/auction-data.csv">Art auction data</a>. Compiled
+            by <a href="http://swroberts.ca/">Spencer Roberts</a>.</p>
+          <p><a href="https://github.com/tategallery/collection">Tate Collection</a>. Artist and artwork data sets. I
+            have <a href="//files.lincolnmullen.com/spatial-workshop/data/artists-geocoded.csv">geocoded the
+              artists</a>.</p>
+          <p><a href="https://www.nhgis.org/">National Historic GIS</a>. U.S. Census data available via the NHGIS data
+            finder. Or, download a set of <a
+              href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_csv.zip">data from the 1890 census</a>
+            with accompanying <a
+              href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_shape.zip">shapefiles</a>. All the NHGIS
+            state and county <a
+              href="http://lincolnmullen.com/projects/spatial-workshop/data/nhgis-simplified.zip">shapefiles simplified
+              and reprojected</a>. <a href="//files.lincolnmullen.com/spatial-workshop/data/day2-afternoon.zip">NHGIS
+              data for Day 2</a></p>
+          <p><a href="//files.lincolnmullen.com/spatial-workshop/data/occupy-directory.csv">Occupy directory</a>.</p>
+          <p><a href="http://darmc.harvard.edu/icb/icb.do?keyword=k40248&amp;pageid=icb.page601659">Digital Atlas of
+              Roman and Medieval Civilizations</a>.</p>
+          <p><a href="https://sites.google.com/site/atlanticnetworksproject/home/a-webmap-of-atlantic-networks">The
+              Atlantic Netowrks Projects</a>.</p>
+          <p><a href="//files.lincolnmullen.com/spatial-workshop/data/historic-england/">Historic England data sets</a>.
+            © Historic England 2015. Contains Ordnance Survey data © Crown copyright and database right 2015 The
+            Historic England GIS Data contained in this material was obtained in May 2015. The most publicly available
+            up to date Historic England GIS Data can be obtained from <a href="http://www.HistoricEngland.org.uk"
+              class="uri">http://www.HistoricEngland.org.uk</a>.</p>
+          <p><a href="http://www.gapminder.org/data/">Gapminder</a>. World demographic and health data. <a
+              href="//files.lincolnmullen.com/spatial-workshop/data/gapminder-food.csv">Gapminder food</a> and <a
+              href="//files.lincolnmullen.com/spatial-workshop/data/gapminder-gdp.csv">Gapminder GDP</a>.</p>
+          <p><a href="http://pleiades.stoa.org/downloads">Pleiades</a>. Ancient place names and locations.</p>
+          <p><a href="http://www.herhatwasinthering.org/web/index.aspx">Her Hat Was in the Ring</a>. Not spatial but
+            could be. <a href="//files.lincolnmullen.com/spatial-workshop/data/her-hat.csv">Some transcribed data from
+              the workshop</a>.</p>
+          <p><a href="http://elections.lib.tufts.edu/">A New Nation Votes</a>.</p>
+          <p><a href="http://www.slavevoyages.org/tast/database/download.faces">Trans-Atlantic Slave Trade Database</a>.
+            An <a href="//files.lincolnmullen.com/spatial-workshop/data/tastdb-2010.csv">export</a> from that database.
+          </p>
+          <p><a href="http://sedac.ciesin.org/data/collection/cddc">China Dimensions data collection</a>.</p>
+        </div>
+        <div id="data-repositories" class="section level2">
+          <h2>Data Repositories</h2>
+          <p><a href="http://datahub.io/">Datahub</a>.</p>
+          <p><a href="http://www.data.gov/">Data.gov</a></p>
+          <p><a href="http://data.gov.uk/">Data.gov.uk</a></p>
+        </div>
+        <div id="historical-maps" class="section level2">
+          <h2>Historical maps</h2>
+          <p><a href="http://www.davidrumsey.com/">David Rumsey Map Collection</a></p>
+          <p>Boston Public Library: <a href="http://maps.bpl.org/">Norman B. Leventhal Map Center</a></p>
+          <p>New York Public Library: <a
+              href="http://digitalcollections.nypl.org/search/index?filters%5BphysicalLocation_mtxt_s%5D%5B%5D=Map+Division&amp;keywords=&amp;sort=dateDigitized_dt+desc">Map
+              Division</a></p>
+          <p><a href="http://ngmdb.usgs.gov/maps/Topoview/">USGS topoView</a></p>
+          <p><a href="http://www.oldmapsonline.org/">Old Maps Online</a></p>
+          <p><a href="http://imagesearchnew.library.illinois.edu/cdm/search/collection/africanmaps">Maps of Africa</a>
+          </p>
+        </div>
+        <div id="syllabi" class="section level2">
+          <h2>Syllabi</h2>
+          <p>Fred Gibbs, <a href="http://fredgibbs.net/courses/digital-mapping/">Digital Mapping + Geospatial
+              Humanities</a></p>
+        </div>
+        <div id="tutorials" class="section level2">
+          <h2>Tutorials</h2>
+          <p><a href="http://academy.cartodb.com/">CartoDB Map Academy</a></p>
+          <p><a href="http://www.qgistutorials.com/en/docs/learning_resources.html">QGIS Tutorials and Tips</a></p>
+          <p>The <em>Spatial Humanities</em> project of the Scholars’ Lab at the University of Virginia has a set of
+            tutorials called <a href="http://spatial.scholarslab.org/stepbystep/">Spatial Humanities Step by Step</a>.
+          </p>
+          <p>Fred Gibbs, <a href="http://fredgibbs.net/tutorials/making-a-map-with-qgis/">Making a Map with QGIS</a>, <a
+              href="http://fredgibbs.net/tutorials/linking-and-styling-data-with-qgis/">Linking and Styling Data with
+              QGIS</a>.</p>
+          <p>Data Driven Journalism’s basic tutorial on “<a
+              href="http://datadrivenjournalism.net/resources/DDJSchool_Tutorial_How_to_Create_Maps_with_QGIS">How to
+              Create Maps with QGIS</a>.”</p>
+          <p>Abby Mullen, <a
+              href="https://docs.google.com/document/d/1O9xAUdGcglD1VMbHKKvylnsH7n0VvlCb_0e94UTDYC8/edit">Tutorial on
+              georectification in QGIS</a>.</p>
+          <p>Michelle Smith Collaboratory for Visual Culture, “<a
+              href="http://michellesmithcollaboratory.umd.edu/omeka-guide-getting-started-and-best-practices">Omeka: A
+              Guide to Getting Started and Best Practices</a>” (see the tutorial on Omeka and Neatline).</p>
+          <p>Axis Maps, <a href="http://axismaps.github.io/thematic-cartography/">Thematic Cartography Guide</a>.</p>
+        </div>
+        <div id="writing-on-maps-and-mapmaking" class="section level2">
+          <h2>Writing on maps and mapmaking</h2>
+          <p>David J. Bodenhamer, John Corrigan, and Trevor M. Harris, eds., <em>Deep Maps and Spatial Narratives</em>,
+            The Spatial Humanities (Indiana University Press, 2015).</p>
+          <p>David J. Bodenhamer, John Corrigan, and Trevor M. Harris, eds., <em>The Spatial Humanities: GIS and the
+              Future of Humanities Scholarship</em>, Spatial Humanities (Indiana University Press, 2010).</p>
+          <p>Tim Cresswell, <em>Geographic Thought: A Critical Introduction</em>, Critical Introductions to Geography
+            (Wiley-Blackwell, 2013).</p>
+          <p>Tim Cresswell, <em>Place: A Short Introduction</em>, Short Introductions to Geography (Blackwell Pub,
+            2004).</p>
+          <p>Tom Elliott and Sean Gillies, “<a
+              href="http://www.digitalhumanities.org/dhq/vol/3/1/000031/000031.html">Digital Geography and
+              Classics</a>,” <em>Digital Humanities Quarterly</em> 3, no. 1 (2009).</p>
+          <p>Pamela Fletcher and Anne Helmreich, with David Israel and Seth Erickson, “Local/Global: Mapping
+            Nineteenth-Century London’s Art Market,” Nineteenth Century Art Worldwide 11:3 (Autumn 2012).</p>
+          <p>Ian N. Gregory and A. Geddes, eds., <em>Toward Spatial Humanities: Historical GIS and Spatial History</em>,
+            The Spatial Humanities (Indiana University Press, 2014).</p>
+          <p>Jo Guldi, “<a href="http://spatial.scholarslab.org/spatial-turn/">What is the Spatial Turn?</a>”
+            <em>Spatial Humanities: A Project of the Institute for Enabling Geospatial Scholarship</em>.
+          </p>
+          <p>Isabel Meirelles, <em><a
+                href="http://www.amazon.com/gp/product/1592538061/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1592538061&amp;linkCode=as2&amp;tag=thebacgla-20&amp;linkId=W7VH76N6YRQFILBO">Design
+                for Information: An Introduction to the Histories, Theories, and Best Practices Behind Effective
+                Information Visualizations</a></em> (Rockport Publishers, 2013).</p>
+          <p>Mark Monmonier and H. J. de Blij, <em>How to Lie with Maps</em>, 2nd ed. (University Of Chicago Press,
+            1996).</p>
+          <p>Mia Ridge, Don Lafreniere, and Scott Nesbit, “Creating Deep Maps and Spatial Narratives through Design,”
+            <em>International Journal of Humanities and Arts Computing</em> 7, no. 1–2 (October 1, 2013): 176–89, <a
+              href="doi:10.3366/ijhac.2013.0088" class="uri">doi:10.3366/ijhac.2013.0088</a>.
+          </p>
+          <p>Stephen Robertson, “<a
+              href="http://quod.lib.umich.edu/d/dh/12230987.0001.001/1:8/--writing-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1#8.2">Putting
+              Harlem on the Map</a>,” <em>Writing History in the Digital Age</em>, edited by Jack Dougherty and Kristen
+            Nawrotzki (University of Michigan Press, 2012).</p>
+          <p>Susan Schulten, <em><a
+                href="http://www.amazon.com/gp/product/0226740560/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0226740560&amp;linkCode=as2&amp;tag=thebacgla-20&amp;linkId=DWICCEJK742M2BMO">The
+                Geographical Imagination in America, 1880–1950</a></em> (Chicago: University of Chicago Press, 2002).
+          </p>
+          <p>Susan Schulten, <em><a
+                href="http://www.amazon.com/gp/product/022610396X/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=022610396X&amp;linkCode=as2&amp;tag=thebacgla-20&amp;linkId=MPXUUOKZRIHIAELA">Mapping
+                the Nation: History and Cartography in Nineteenth-Century America</a></em> (Chicago: University of
+            Chicago Press, 2012).</p>
+          <p>Richard White, “<a href="http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29">What is
+              Spatial History</a>?” (Stanford University, Spatial History Project, 2010).</p>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

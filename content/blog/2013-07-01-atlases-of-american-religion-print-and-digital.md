@@ -8,7 +8,7 @@ title: 'Atlases of American Religion, Print and Digital'
 
 The go-to source for demographic information about American religious history continues to be Gaustad, Barlow, and Dishno's *[New Historical Atlas of Religion in America](https://www.amazon.com/dp/B0044KMUNC/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=B0044KMUNC&adid=139KHM8DTG373NS8G353&)*. Most recently published in 2001, this oversized, eight-pound volume is stuffed with beautiful, well-thought-out maps that chart the changes of many religions and denominations. The many maps are accompanied by analysis that also makes the book a survey of U.S. religious history. This accomplishment is especially impressive given the difficulty of finding reliable demographic information about American religion, since the Census Bureau has, except for a few years, not been authorized to gather data about religion. You'll have to pay a pretty penny, but the *Atlas* is well worth having on your reference shelf.
 
-<img class="right" src="/downloads/post/2013-07-01-gaustad.png" />
+<img class="right" src="//files.lincolnmullen.com/downloads/post/2013-07-01-gaustad.png" />
 
 As useful the *Atlas* is, it is hemmed in on every side by the limitations of print. To give an example, most denominations have maps of their extent only for 1750, 1850, 1890, 1950, and 1990. Undoubtedly the number of maps was constrained by the limits of space and cost for a printed volume. And what I would give not just for the maps in the atlas but for the *data* that underlies them! Given the data, historians could ask all kinds of questions and make new maps and charts to answer them. In a printed work, the analysis is necessarily static and limited to the author's questions. In a digital work, the analysis can be dynamic, shaped to the user's questions.
 
@@ -16,7 +16,7 @@ You can see some of the potential of digital work in religion in publications ab
 
 The *New Historical Atlas*'s new competitor is the *[Digital Atlas of American Religion](http://www.religionatlas.org/)*, a website released this April. The *Digital Atlas* is based on work stretching back at least a decade to an earlier version of atlas released in 2001, the same year as Gaustad's *Atlas*. The *Digital Atlas* lets the user create maps of data that they select themselves, such as number of adherents or adherents as a percentage of the total, number of congregations or congregations as a percentage of the total, and so on. A slider changes which year the map represents. Users can also represent data ways besides maps, including cartograms (maps distorted to represent the value of data), tree maps, pie charts, and motion charts. Perhaps most useful of all, the user can also look at the underlying data to see what the visualizations represent.
 
-<img class="center" src="/downloads/post/2013-07-01-daar.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/2013-07-01-daar.png" />
 
 The *Digital Atlas* was produced by The Polis Center at Indiana University-Purdue University Indianapolis, Florida State University and West Virginia University. You can see a [list of the scholars](http://religionatlas.org/?page_id=13) who contributed on the website (though I would guess that many more researchers compiled the data), and more information about the project in a [press release](http://news.iupui.edu/releases/2013/04/new-polis-website-042013.shtml).
 

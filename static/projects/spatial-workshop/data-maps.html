@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+
+
+
+  <title>Data Maps</title>
+
+  <script src="libs/jquery-1.11.0/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="libs/bootstrap-3.3.1/css/united.min.css" rel="stylesheet" />
+  <script src="libs/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/html5shiv.min.js"></script>
+  <script src="libs/bootstrap-3.3.1/shim/respond.min.js"></script>
+  <!-- begin in_header.html -->
+  <meta name="description" content="Workshop materials on the spatial humanities.">
+  <meta name="author" content="Lincoln Mullen">
+  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+
+
+  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+  <!-- end in_header.html -->
+
+
+
+  <link rel="stylesheet" href="libs/custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+  <style type="text/css">
+    .main-container {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    code {
+      color: inherit;
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+  <div class="container-fluid main-container">
+
+    <div class="fluid-row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="./">Spatial Humanities Workshop</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://lincolnmullen.com">Lincoln Mullen</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="fluid-row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a class="list-group-item" href="./">Home</a>
+          <a class="list-group-item" href="introduction.html">Introduction</a>
+          <a class="list-group-item" href="literacy.html">Map Literacy</a>
+          <a class="list-group-item" href="narrative-maps.html">Narrative Maps</a>
+          <a class="list-group-item" href="data-maps.html">Data Maps</a>
+          <a class="list-group-item" href="qgis.html">QGIS</a>
+          <a class="list-group-item" href="georectification.html">Georectification</a>
+          <a class="list-group-item" href="spatial-data.html">Working with Spatial Data</a>
+          <a class="list-group-item" href="deep-maps.html">Deep Maps</a>
+          <a class="list-group-item" href="projects.html">From Manuscripts to Map</a>
+          <a class="list-group-item" href="programmatic-maps.html">Programmatic Maps</a>
+          <a class="list-group-item" href="lesson-plans.html">Lesson Plans</a>
+          <a class="list-group-item" href="resources.html">Resources</a>
+        </div>
+        <script>
+          // manage active state of toc based on current page
+          var href = window.location.pathname;
+          href = href.substr(href.lastIndexOf('/') + 1);
+          if (href === "" || href === "index.html")
+            href = "./";
+          $('a.list-group-item[href="' + href + '"]').addClass('active');
+        </script>
+      </div>
+      <div class="col-sm-9 content-body">
+
+        <div id="header">
+          <h1 class="title">Data Maps</h1>
+        </div>
+
+        <div id="TOC">
+          <ul>
+            <li><a href="#about-data-maps">About data maps</a></li>
+            <li><a href="#a-first-data-map">A first data map</a>
+              <ul>
+                <li><a href="#examining-the-data">Examining the data</a></li>
+                <li><a href="#uploading-the-data-to-cartodb">Uploading the data to CartoDB</a></li>
+                <li><a href="#mapping-the-data">Mapping the data</a></li>
+                <li><a href="#asking-and-answering-questions">Asking and answering questions</a></li>
+              </ul>
+            </li>
+            <li><a href="#next-steps">Next steps</a></li>
+          </ul>
+        </div>
+
+        <div id="about-data-maps" class="section level2">
+          <h2>About data maps</h2>
+          <p>One of the most common types of maps that scholars want to create are maps of data, more properly called <a
+              href="http://en.wikipedia.org/wiki/Thematic_map">thematic maps</a>. These maps show one or several
+            variables (or themes) arranged spatially on a map. Sometimes the data is arranged on top of a cartographic
+            base layer; other times, as in a <a href="http://en.wikipedia.org/wiki/Cartogram">cartogram</a>, the spatial
+            arrangement is only approximate.</p>
+          <p>While such maps are increasingly common today, their lineage goes back to at least the nineteenth century.
+            Consider the two maps below.</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="figure">
+                <img src="//files.lincolnmullen.com/spatial-workshop/img/spread-slavery.png"
+                  alt="The Spread of U.S. Slavery, 1790–1860" />
+                <p class="caption"><a href="http://lincolnmullen.com/projects/slavery/">The Spread of U.S. Slavery,
+                    1790–1860</a></p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="figure">
+                <img src="//files.lincolnmullen.com/spatial-workshop/img/coast-survey.jpg"
+                  alt="U.S. Coast Survey, Map showing the distribution of the slave population of the southern states of the United States (Washington, DC: Henry S. Graham, 1861). Image from the Library of Congress." />
+                <p class="caption">U.S. Coast Survey, <em>Map showing the distribution of the slave population of the
+                    southern states of the United States</em> (Washington, DC: Henry S. Graham, 1861). Image from <a
+                    href="http://memory.loc.gov/cgi-bin/map_item.pl?data=/home/www/data/gmd/gmd386/g3861/g3861e/cw0013200.jp2&amp;style=gmd&amp;itemLink=r?ammem/gmd:@field(NUMBER+@band(g3861e+cw0013200))&amp;title=Map%20showing%20the%20distribution%20of%20the%20slave%20population%20of%20the%20southern%20states%20of%20the%20United%20States.%20%20Compiled%20from%20the%20census%20of%201860%20Drawn%20by%20E.%20Hergesheimer.%20Engr.%20by%20Th.%20Leonhardt.">the
+                    Library of Congress</a>.</p>
+              </div>
+            </div>
+          </div>
+          <p>The map on the left is an interactive maps which shows the population density of slavery in the antebellum
+            United States. The map on the right, from 1861, shows the same data from the U.S. Census. The one on the
+            left is a tool of scholarship; the one on the right was a tool of statecraft, war, and emancipation.<a
+              href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> When creating data maps, it is important to
+            keep in mind not just their contemporary relevance but also their historical antecedents. In particular,
+            scholars have often critiqued “the archive” as an artifact of the nation-state and of particular forms of
+            power. Maps that display data as often as not display data which was gathered by some government agency,
+            whether contemporary or historical. In the process of creating a data map with students, you might consider
+            having a discussion about the sources of the data and why it was gathered.</p>
+        </div>
+        <div id="a-first-data-map" class="section level2">
+          <h2>A first data map</h2>
+          <p>For our first data map, we will use a data set from <a href="http://matthewlincoln.net">Matthew
+              Lincoln’s</a> research on Dutch art. His dataset on works of art that depict places in Amsterdam can be
+            downloaded from the <a href="resources.html">resources</a> page. You should begin by looking at the <a
+              href="https://github.com/mdlincoln/middlebury_amsterdam">repository in which his data is stored</a>, and
+            by reading the <a
+              href="http://matthewlincoln.net/2015/02/15/mapping-artistic-attention-in-amsterdam.html">associated blog
+              post</a> where he talks about his research questions.<a href="#fn2" class="footnoteRef"
+              id="fnref2"><sup>2</sup></a></p>
+          <div id="examining-the-data" class="section level3">
+            <h3>Examining the data</h3>
+            <p>Begin by answering these questions:</p>
+            <ul>
+              <li>Where did Lincoln get his data?</li>
+              <li>How did he gather it?</li>
+              <li>What research questions did Lincoln have?</li>
+              <li>How did these questions shape the data?</li>
+            </ul>
+            <p>Now download and open the data sets. Notice that there are three files in <a
+                href="http://en.wikipedia.org/wiki/Comma-separated_values">comma-separated values</a> (CSV) format.
+              These can be opened in a spreadsheet program like Libre Office or Excel. Try to answer these questions.
+            </p>
+            <ul>
+              <li>What information do these files hold?</li>
+              <li>Where is the spatial data? What kind of spatial data is there?</li>
+              <li>What is the relationship between the files?</li>
+            </ul>
+          </div>
+          <div id="uploading-the-data-to-cartodb" class="section level3">
+            <h3>Uploading the data to CartoDB</h3>
+            <p>We will upload this data to <a href="https://cartodb.com/">CartoDB</a>. CartoDB is an online mapping tool
+              that has many of the features of more traditional GIS software. (See the discussion on the <a
+                href="introduction.html#the-spatial-humanists-toolbox">spatial humanist’s toolbox</a>.) We will use the
+              service’s free tier of service. You will need to create an account on the CartoDB website.</p>
+            <p>This tutorial is not intended to introduce you to every feature of CartoDB. Instead, you should look at
+              <a href="http://docs.cartodb.com/tutorials.html">CartoDB’s excellent tutorials</a>, their <a
+                href="http://academy.cartodb.com/">Map Academy</a>, and <a href="https://cartodb.com/docs/">their
+                documentation</a> to see all of its features. Instead, we will here focus on asking and answering a
+              humanist’s question with CartoDB.
+            </p>
+            <p>After you have logged into CartoDB, you will have to navigate to the datasets page to upload your data.
+              Here you will upload the <code>period_place_stats.csv</code> file. (Notice that CartoDB has many datasets
+              already available, and that the datasets you upload are public by default.)</p>
+            <div class="figure">
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-data.png" alt="Data page at CartoDB." />
+              <p class="caption">Data page at CartoDB.</p>
+            </div>
+            <p>Click “create new dataset,” then upload <code>period_place_stats.csv</code>. The resulting page will look
+              like this.</p>
+            <div class="figure">
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-upload.png"
+                alt="A dataset at CartoDB." />
+              <p class="caption">A dataset at CartoDB.</p>
+            </div>
+            <p>Notice that this tabular data looks the same as the data we uploaded. But there are two important
+              differences. First, the data has been assigned a type. Each of the columns is considered either a number,
+              a string (i.e., a set of characters), a boolean (i.e., true or false), or a date. For instance the column
+              <code>count</code> is correctly considered a number, the column <code>place</code> is correctly considered
+              a string, but the column <code>min_start</code> is considered a number rather than a date since it
+              contains only a year and not a full date identifier. CartoDB will not always correctly interpret your
+              data, so it will sometimes be necessary to cast it to a different type. The second important thing to
+              notice is that a new column called <code>the_geom</code> contains geographic point locations. These have
+              been created from the <code>latitude</code> and <code>longitude</code> columns.
+            </p>
+          </div>
+          <div id="mapping-the-data" class="section level3">
+            <h3>Mapping the data</h3>
+            <p>Clicking the “map view” will show a simple map of all the points in the dataset, one point for each row
+              in the dataset.</p>
+            <div class="figure">
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-simple-map.png"
+                alt="Point data at CartoDB." />
+              <p class="caption">Point data at CartoDB.</p>
+            </div>
+            <div style="float:right; max-width: 40%; margin-left: 1rem; margin-top: -3.5rem;">
+              <div class="figure">
+                <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-controls.png"
+                  alt="The CartoDB controls for mapping variables int the data to aesthetics on the map." />
+                <p class="caption">The CartoDB controls for mapping variables int the data to aesthetics on the map.</p>
+              </div>
+            </div>
+            <p>At this point, CartoDB provides a powerful set of features for mapping features in the data to the
+              display of the map. Try using these tools:</p>
+            <ul>
+              <li>The “map layer wizard” controls how the points are displayed. Can you map the <code>count</code>
+                variable to the size of the markers? To the color of the markers? Can you cluster the markers together,
+                or display them in a heat map? Can you attach labels to the points?</li>
+              <li>The “infowindow” controls what happens when you interact with the points. Can you display information
+                when points are clicked?</li>
+              <li>The “legends” control determines how the points on the map are explained. Can you create a legend
+                which accurately explains what your map is displaying?</li>
+              <li>The “filters” tab lets you select which points are displayed based on variables in the data. Can you
+                filter the points so only a given range of years appears?</li>
+              <li>The “basemap” button (at the top left) controls the base layer of the map. Can you change it to
+                something more suitable?</li>
+            </ul>
+            <p>Clicking “Visualize” (in the top right) will let you save a map to share it. In addition, it will let you
+              add titles, text, and annotations to the map.</p>
+          </div>
+          <div id="asking-and-answering-questions" class="section level3">
+            <h3>Asking and answering questions</h3>
+            <p>What questions about art or art history can you ask with this data? What answers does this map provide?
+              What features of this map, or what variables in the data, did you use to ask and answer these questions?
+            </p>
+            <p>Can you use this data to tell a lie? Or, to put it less bluntly, what features of this map are
+              potentially misleading?</p>
+          </div>
+        </div>
+        <div id="next-steps" class="section level2">
+          <h2>Next steps</h2>
+          <p>There are several other datasets listed on the <a href="resources.html">resources page</a>, and there are
+            also many datasets already available through CartoDB. Can you create a different map using one of these
+            datasets? What kind of mapping aesthetics (e.g., size, color, shape) are appropriate for different data
+            sets?</p>
+          <p>Lincoln’s dataset in the file <code>period_place_stats.csv</code> was created by joining the data in
+            <code>object_data.csv</code> to the points data contained in <code>location_coordinates.csv</code>. Read the
+            section on <a href="qgis.html#joining-data">joining data</a> on page about QGIS. Can you upload the two
+            original files and join those two datasets together following CartoDB’s <a
+              href="http://docs.cartodb.com/tutorials/merging_data.html">tutorial for joining data</a>?
+          </p>
+        </div>
+        <div class="footnotes">
+          <hr />
+          <ol>
+            <li id="fn1">
+              <p>See Susan Schulten, <em>Mapping the Nation: History and Cartography in Nineteenth-Century America</em>
+                (Chicago: University of Chicago Press, 2012), especially chapter 4 on slavery and statistical
+                cartography, as well as the <a href="http://www.mappingthenation.com/">book’s companion website</a>.<a
+                  href="#fnref1">↩</a></p>
+            </li>
+            <li id="fn2">
+              <p>Matthew Lincoln. ‘Middlebury_amsterdam: Data for 2014 Kress Digital Mapping and Art History Summer
+                Institute.’ Zenodo, 2015. doi: <a href="https://zenodo.org/record/15461">10.5281/zenodo.15461</a>.<a
+                  href="#fnref2">↩</a></p>
+            </li>
+          </ol>
+        </div>
+
+        <footer>
+          <p>
+            <small>
+              These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+              <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                  alt="Creative Commons License" style="border-width:0"
+                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+            </small>
+          </p>
+        </footer>
+
+      </div>
+    </div>
+
+    <script>
+      $.each($("img"), function (i, v) {
+        var img = $(v);
+        img.wrap("<a href='" + img.attr("src") + "'>");
+      })
+    </script>
+
+  </div>
+
+  <script>
+
+    // add bootstrap table styles to pandoc tables
+    $(document).ready(function () {
+      $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+    });
+
+  </script>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+
+</html>

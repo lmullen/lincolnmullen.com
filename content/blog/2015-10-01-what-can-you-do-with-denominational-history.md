@@ -19,11 +19,11 @@ A denominational history can describe denominational distinctives.
 </li>
 </ol>
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'denominational-history/baptist\_distinctives'});" href='/figures/denominational-history/baptist\_distinctives.jpg'><img src='/figures/denominational-history/baptist_distinctives.jpg' alt='\[Baptist distinctives\](http://www.hbcknox.org/).'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'denominational-history/baptist\_distinctives'});" href='//files.lincolnmullen.com/figures//denominational-history/baptist\_distinctives.jpg'><img src='//files.lincolnmullen.com/figures//denominational-history/baptist_distinctives.jpg' alt='\[Baptist distinctives\](http://www.hbcknox.org/).'></a>
 <figcaption>
 Figure 1:
 
-[Baptist distinctives](http://www.hbcknox.org/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;denominational-history/baptist_distinctives&#39;});" href="/figures/denominational-history/baptist_distinctives.jpg">JPG</a>\]
+[Baptist distinctives](http://www.hbcknox.org/). \[<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;denominational-history/baptist_distinctives&#39;});" href="//files.lincolnmullen.com/figures//denominational-history/baptist_distinctives.jpg">JPG</a>\]
 
 </figcaption>
 </figure>

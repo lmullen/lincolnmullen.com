@@ -41,7 +41,7 @@ The kind of analysis that I'm writing about here is not an argument itself, but 
 
 One of my questions was when the ATS published its tracts. This is a histogram of the tracts by date.
 
-<img class="center" src="/downloads/post/ats-pub-date.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/ats-pub-date.png" />
 
 The American Tract Society was founded in 1825 from the merger of the New-York Religious Tract Society and the Boston-based American Tract Society (formerly, the New England Religious Tract Society). The chart shows that the ATS quickly ramped up the publication of tracts in its first five years. Many of these early pamphlets were reprints from British tract societies, such as the Religious Tract Society of London founded in 1799. As was the case with most evangelical institutions from this period, the British had a head start, and evangelicalism was an Anglophone movement with debts to German, French, and Swiss Protestants. The ATS republished works from proven British authors, such as Legh Richmond and Hannah More. After the early series of tracts, beginning in the 1830s, the ATS published more of its own original tracts.
 
@@ -51,11 +51,11 @@ The above chart shows the earliest possible date that a given tract was publishe
 
 A second, obvious, question is, what were these tracts about? Though I had a pretty good sense of the proportions of the various topics, counting the subject headings is a useful correction to possibly haphazard impressions. The ATS catalog entries have 186 distinct subject headings. The distribution of all the subject headings is the familiar "long tail." Keep in mind, though, that each tract can have more than one subject heading, so [a tract](http://catalog.mwa.org/vwebv/holdingsInfo?bibId=229772) might be about both one of the most obscure topics ("Wine---poetry") and one of the most common topics ("Temperance").
 
-<img class="center" src="/downloads/post/ats-all-subjects.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/ats-all-subjects.png" />
 
 The chart is more useful if we limit it to only the twenty most frequently used subject headings.
 
-<img class="center" src="/downloads/post/ats-subjects.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/ats-subjects.png" />
 
 These headings fall into several groups:
 
@@ -73,13 +73,13 @@ Anyone who is familiar with the contemporary evangelical tracts would be surpris
 
 Since I am making an argument about how the normative experience of conversion became simplified, I wondered whether the tracts got shorter over time. They did not.
 
-<img class="center" src="/downloads/post/ats-length.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/ats-length.png" />
 
 ### Authors
 
 The most useful analysis was figuring out who wrote these tracts. Not only were the authors frequently British or occasionally Swiss or German, the authors were frequently from the eighteenth or even the seventeenth centuries. In this histogram I've charted the number of tracts by the death date of their authors. [<sup>1</sup>](#fn1){\#fnref1.footnoteRef}
 
-<img class="center" src="/downloads/post/ats-authors.png" />
+<img class="center" src="//files.lincolnmullen.com/downloads/post/ats-authors.png" />
 
 We can get a sense of who wrote the ATS tracts by looking at most frequently published authors. [<sup>2</sup>](#fn2){\#fnref2.footnoteRef}
 

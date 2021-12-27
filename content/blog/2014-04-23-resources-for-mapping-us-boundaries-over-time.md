@@ -8,11 +8,11 @@ When making maps it's not hard to find contemporary boundaries. The [Census Bure
 
 First, the single most useful resource that I've found is the *[Atlas of Historical County Boundaries](http://publications.newberry.org/ahcbp/index.html)* from the [Newberry Library](http://www.newberry.org/). This atlas includes boundary files for states and territories from 1783 to 2000, and also for counties from 1629 to 2000. The boundaries are available as both shapefiles and KMZ files suitable for Google Earth. (I've found that it's easier to get students up to speed using Google Earth than QGIS.) The boundary files are offered at various degrees of simplification, letting you pick between precision and file size without having to do the simplification yourself. For my purposes, the most important thing about the Newberry's boundary data is that it comes in a single file. This means that you can more easily filter the boundaries by date, for example, in QGIS or D3. Making a complex map showing change over time gets a lot simpler when you can filter one file instead of having to merge many files. The maps come with impressive annotations, including citations for the boundaries for each feature, and discussions of what changed about the boundaries. The data is licensed CC-NC-SA. The Newberry Library also offers an [online viewer](http://historical-county.newberry.org/website/USA/viewer.htm) for the files, which is clunky.[<sup>1</sup>](#fn1){\#fnref1.footnoteRef}
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'map-resources/us-1851'});" href='/figures/map-resources/us-1851.png'><img src='/figures/map-resources/us-1851.png' alt='Filtering the Newberry shapefiles to show the United States on January 1, 1851.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'map-resources/us-1851'});" href='//files.lincolnmullen.com/figures//map-resources/us-1851.png'><img src='//files.lincolnmullen.com/figures//map-resources/us-1851.png' alt='Filtering the Newberry shapefiles to show the United States on January 1, 1851.'></a>
 <figcaption>
 Figure 1: Filtering the Newberry shapefiles to show the United States on January 1, 1851. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;map-resources/us-1851&#39;});" href="/figures/map-resources/us-1851.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;map-resources/us-1851&#39;});" href="//files.lincolnmullen.com/figures//map-resources/us-1851.png">PNG</a>\]
 
 </figcaption>
 </figure>
@@ -20,11 +20,11 @@ Second, [Michael Porath](http://michaelporath.com/) has released a [series of st
 
 Porath has mapped the territorial changes himself in a project he calls "[Manifest Destiny](http://michaelporath.com/projects/manifest-destiny/)." The many maps let you page through the territorial changes in the United States. For example, try paging through the maps which show the order in which southern states seceded from the Union in 1860--61. I can see how these maps could be used to good effect in the U.S. survey.
 <figure id="figure-2">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'map-resources/porath'});" href='/figures/map-resources/porath.png'>\<img src='/figures/map-resources/porath.png' alt='Michael Porath's maps displaying the United States on January 10, 1861.'\></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'map-resources/porath'});" href='//files.lincolnmullen.com/figures//map-resources/porath.png'>\<img src='//files.lincolnmullen.com/figures//map-resources/porath.png' alt='Michael Porath's maps displaying the United States on January 10, 1861.'\></a>
 <figcaption>
 Figure 2: Michael Porath's maps displaying the United States on January 10, 1861. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;map-resources/porath&#39;});" href="/figures/map-resources/porath.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;map-resources/porath&#39;});" href="//files.lincolnmullen.com/figures//map-resources/porath.png">PNG</a>\]
 
 </figcaption>
 </figure>

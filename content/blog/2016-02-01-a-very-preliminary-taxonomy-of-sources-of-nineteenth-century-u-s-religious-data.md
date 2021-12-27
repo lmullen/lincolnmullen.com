@@ -7,6 +7,8 @@ slug: 'a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-u-s-religiou
 tags:
 - religion data
 title: 'A Very Preliminary Taxonomy of Sources of Nineteenth-Century U.S. Religious Data'
+aliases:
+- /blog/a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-us-religious-data/
 ---
 
 In my [last post](http://usreligion.blogspot.com/2016/01/Where-the-Problem-with-Historical-Data-about-U-S-Religion-Really-Lies.html) I explained that historians of U.S. religion have barely begun to scratch the surface of the data (meaning, sources that are amenable to computation) that are available to them. To demonstrate this I gave the example of a single source, the *Minutes of the Annual Conferences of the Methodist Episcopal Church*.
@@ -24,9 +26,9 @@ More valuable are the Censuses of Religious Bodies from [1906](http://catalog.ha
 
 The key to the Census data, though, is the level of aggregation for which the data has been reported. This may not be immediately intuitive, so an elaboration. Let's say the Census asked questions of every congregation it could find in 1926 (which it did). The form that the Census [used in 1926](http://www2.census.gov/prod2/decennial/documents/13949806v1ch1.pdf) looked like this.
 <figure id="figure-1">
-[!['Form](/figures/taxonomy-religion/1926-census-form.png)](/figures/taxonomy-religion/1926-census-form.png)
+[!['Form](//files.lincolnmullen.com/figures//taxonomy-religion/1926-census-form.png)](//files.lincolnmullen.com/figures//taxonomy-religion/1926-census-form.png)
 <figcaption>
-Figure 1: Form from the 1926 Census of Religious Bodies. \[[PNG](/figures/taxonomy-religion/1926-census-form.png)\]
+Figure 1: Form from the 1926 Census of Religious Bodies. \[[PNG](//files.lincolnmullen.com/figures//taxonomy-religion/1926-census-form.png)\]
 </figcaption>
 </figure>
 The Census did not simply transcribe those forms and report them, of course. Instead it aggregated them and reported the results by, for example, denomination and city, or denomination and county, or denomination and state. The level of aggregation matters because it affects the level of detail with which we can see religious groups. If this isn't obvious now, take it on faith until a later post where I can demonstrate how an exploratory data analysis works.
@@ -59,9 +61,9 @@ There is much more work to be done before we can go from sources to historical i
 
 In the meantime, as a bonus for making it to the end of the post, here is a [table](http://babel.hathitrust.org/cgi/pt?id=wu.89072975139;view=1up;seq=110) of people who pledged money to the Protestant Episcopal Church's Diocese of Central Pennsylvania, failed to pay, and were mentioned by name and outstanding amount in the 1880 journal of the diocese.
 <figure id="figure-2">
-[!['Pay](/figures/taxonomy-religion/debtors.png)](/figures/taxonomy-religion/debtors.png)
+[!['Pay](//files.lincolnmullen.com/figures//taxonomy-religion/debtors.png)](//files.lincolnmullen.com/figures//taxonomy-religion/debtors.png)
 <figcaption>
-Figure 2: Pay me that thou owest. \[[PNG](/figures/taxonomy-religion/debtors.png)\]
+Figure 2: Pay me that thou owest. \[[PNG](//files.lincolnmullen.com/figures//taxonomy-religion/debtors.png)\]
 </figcaption>
 </figure>
 <section class="footnotes">

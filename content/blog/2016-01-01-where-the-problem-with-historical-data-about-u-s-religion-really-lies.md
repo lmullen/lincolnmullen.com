@@ -16,21 +16,21 @@ This data is extremely limited. The federal censuses that asked about religion o
 
 While the federal censuses with county-level data are the easiest to access, historians aren't obliged to limit themselves to just those sources. In fact, we are in the midst of a renewal of mapping religion in cities in several different projects which have gone far beyond the census data. I'll offer a fuller account of what else is available eventually, but for now let's look at just two tables from two different years' worth of [Methodist annual conference minutes](http://notebook.lincolnmullen.com/Methodist%20Minutes%20of%20the%20Annual%20Conferences). The [first table](http://hdl.handle.net/2027/nyp.33433069134967?urlappend=%3Bseq=34) is from the *Minutes of the Annual Conferences of the Methodist Episcopal Church* for 1787.
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'methodists/minutes-1787'});" href='/figures/methodists/minutes-1787.png'><img src='/figures/methodists/minutes-1787.png' alt='Table from Methodist minutes for 1787'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'methodists/minutes-1787'});" href='//files.lincolnmullen.com/figures//methodists/minutes-1787.png'><img src='//files.lincolnmullen.com/figures//methodists/minutes-1787.png' alt='Table from Methodist minutes for 1787'></a>
 <figcaption>
 Figure 1: Table from Methodist minutes for 1787 \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;methodists/minutes-1787&#39;});" href="/figures/methodists/minutes-1787.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;methodists/minutes-1787&#39;});" href="//files.lincolnmullen.com/figures//methodists/minutes-1787.png">PNG</a>\]
 
 </figcaption>
 </figure>
 The [second table](http://hdl.handle.net/2027/nyp.33433069134900?urlappend=%3Bseq=23) is from the same minutes for 1858.
 <figure id="figure-2">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'methodists/minutes-1858'});" href='/figures/methodists/minutes-1858.png'><img src='/figures/methodists/minutes-1858.png' alt='Table from Methodist minutes for 1787'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'methodists/minutes-1858'});" href='//files.lincolnmullen.com/figures//methodists/minutes-1858.png'><img src='//files.lincolnmullen.com/figures//methodists/minutes-1858.png' alt='Table from Methodist minutes for 1787'></a>
 <figcaption>
 Figure 2: Table from Methodist minutes for 1787 \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;methodists/minutes-1858&#39;});" href="/figures/methodists/minutes-1858.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;methodists/minutes-1858&#39;});" href="//files.lincolnmullen.com/figures//methodists/minutes-1858.png">PNG</a>\]
 
 </figcaption>
 </figure>

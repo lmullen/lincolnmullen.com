@@ -2,6 +2,8 @@
 date: '2015-06-27T04:00:00+00:00'
 slug: 'how-to-use-neatline-with-map-warper-instead-of-geoserver'
 title: How to Use Neatline with Map Warper Instead of GeoServer
+aliases:
+- /blog/how-to-use-neatline-without-geoserver/
 ---
 
 > **TL;DR.** You don't need GeoServer to use historic map layers in Neatline: you just need any [WMS server](https://en.wikipedia.org/wiki/Web_Map_Service), such as [Map Warper](http://mapwarper.net/). Map Warper's base WMS URL is `http://mapwarper.net/maps/wms/{MAPID}`; the layer ID is whatever title you gave the map in Map Warper.
@@ -15,21 +17,21 @@ I've figured out how to use all of Neatline's features without installing GeoSer
 <!--more-->
 Neatline has many parts, and you have to understand what functionality each of them provides. The [Neatline documentation](http://docs.neatline.org/installing-neatline.html) is clear that with just the main Neatline plugin you can add points or lines or polygons associated with Omeka items on top of common map layers such as Google Maps or Open Street Maps.[<sup>1</sup>](#fn1){\#fnref1.footnoteRef} To take a trivial example, here is a single point in Neatline with an Open Street Maps base layer. If this is all you want to do, then you don't need GeoServer or another WMS server at all.
 <figure id="figure-1">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'neatline/point'});" href='/figures/neatline/point.png'><img src='/figures/neatline/point.png' alt='A single point in Neatline.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'neatline/point'});" href='//files.lincolnmullen.com/figures//neatline/point.png'><img src='//files.lincolnmullen.com/figures//neatline/point.png' alt='A single point in Neatline.'></a>
 <figcaption>
 Figure 1: A single point in Neatline. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;neatline/point&#39;});" href="/figures/neatline/point.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;neatline/point&#39;});" href="//files.lincolnmullen.com/figures//neatline/point.png">PNG</a>\]
 
 </figcaption>
 </figure>
 But one of the compelling features of Neatline is the ability to add georectified maps. These maps are not just additional map layers, but are also items which can be associated with metadata. As an example, in the screenshot below I have included a map titled "[Historic Canterbury](http://www.davidrumsey.com/luna/servlet/s/sgm48r)." The [Neatline documentation](http://docs.neatline.org/installing-neatline.html) says that to include such maps you need GeoServer: "For projects that need to incorporate custom imagery, though---for example, historical projects that want to overlay georeferenced maps on top of the default layers, or art history projects that need to use scans of paintings as base layers in exhibits---a third piece of software called GeoServer is necessary."
 <figure id="figure-2">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'neatline/overlay'});" href='/figures/neatline/overlay.png'><img src='/figures/neatline/overlay.png' alt='A historical map layer in Neatline.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'neatline/overlay'});" href='//files.lincolnmullen.com/figures//neatline/overlay.png'><img src='//files.lincolnmullen.com/figures//neatline/overlay.png' alt='A historical map layer in Neatline.'></a>
 <figcaption>
 Figure 2: A historical map layer in Neatline. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;neatline/overlay&#39;});" href="/figures/neatline/overlay.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;neatline/overlay&#39;});" href="//files.lincolnmullen.com/figures//neatline/overlay.png">PNG</a>\]
 
 </figcaption>
 </figure>
@@ -39,11 +41,11 @@ But [many services](http://trac.osgeo.org/openlayers/wiki/AvailableWMSServices) 
 
 [Map Warper](http://mapwarper.net/) is a service that provides a web interface for georectifying maps.[<sup>2</sup>](#fn2){\#fnref2.footnoteRef} For instance, [here is the map of Canterbury](http://mapwarper.net/maps/9592#Preview_Map_tab) that I displayed above. Map Warper provides several export options, including WMS. You can dig through the XML returned by [its WMS capabilities query](http://mapwarper.net/maps/wms/9592?request=GetCapabilities&service=WMS&version=1.1.1) in order to figure out the correct settings for Neatline, or you can follow these instructions. The base URL will take this form: `http://mapwarper.net/maps/wms/{MAPID}`. The map ID is the numeric value assigned to your map at Map Warper, which you can figure out from the Map Warper URL or metadata. For the Canterbury map, the ID is `9592`, so the full WMS base URL is `http://mapwarper.net/maps/wms/9592`. Then you need the layer ID. The layer ID is whatever title you assigned to your map at Map Warper, in this case, `Historic Canterbury`. Once you've gathered that information, you can create a new item in Neatline, and enter that into the "Style" tab on the item interface.
 <figure id="figure-3">
-<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'neatline/form'});" href='/figures/neatline/form.png'><img src='/figures/neatline/form.png' alt='Adding WMS settings to a Neatline item.'></a>
+<a onclick="ga('send', 'event', { 'eventCategory': 'Figure', 'eventAction': 'View', 'eventLabel': 'neatline/form'});" href='//files.lincolnmullen.com/figures//neatline/form.png'><img src='//files.lincolnmullen.com/figures//neatline/form.png' alt='Adding WMS settings to a Neatline item.'></a>
 <figcaption>
 Figure 3: Adding WMS settings to a Neatline item. \[
 
-<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;neatline/form&#39;});" href="/figures/neatline/form.png">PNG</a>\]
+<a onclick="ga(&#39;send&#39;, &#39;event&#39;, { &#39;eventCategory&#39;: &#39;Figure&#39;, &#39;eventAction&#39;: &#39;View&#39;, &#39;eventLabel&#39;: &#39;neatline/form&#39;});" href="//files.lincolnmullen.com/figures//neatline/form.png">PNG</a>\]
 
 </figcaption>
 </figure>

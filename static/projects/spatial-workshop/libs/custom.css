@@ -1,0 +1,73 @@
+body {
+  padding-top: 20px;
+}
+
+.main-container
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+footer {
+  border-top: 1px solid #CCC;
+  margin-top: 60px;
+  margin-bottom: 48px;
+  opacity: 0.75;
+}
+
+.content-body>:first-child, .content-body>:first-child>:first-child {
+  margin-top: 0 !important;
+}
+
+p code {
+  white-space: inherit;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  background-color: #772953;
+  border-color: #772953;
+}
+
+a {
+  color: #772953;
+}
+
+.figure, iframe, .html-widget-static-bound {
+  margin: 4rem 0 4rem 0;
+}
+
+.figure img, iframe, .html-widget-static-bound {
+  border: 1px solid gray;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.caption {
+  margin: 0.1rem 4rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.caption>em {
+  font-style: normal;
+}
+
+p a, li a {
+  text-decoration: underline;
+}
+
+.footnoteRef, nav a {
+  text-decoration: none;
+}
+
+blockquote {
+  font-size: 14px;
+  margin-left: 4rem;
+}
+
+#htmlwidget-4686 .leaflet-tile {
+  border: 1px solid black;
+}

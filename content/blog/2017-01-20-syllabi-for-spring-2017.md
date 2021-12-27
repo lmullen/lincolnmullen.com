@@ -12,7 +12,7 @@ This semester I am teaching three courses, two undergraduate and one graduate. "
 
 Here are the syllabi and course descriptions.
 
-**Global History of Christianity, [syllabus](http://lincolnmullen.com/files/Global-History-Christianity.spring-2017.pdf)**
+**Global History of Christianity, [syllabus](//files.lincolnmullen.com/Global-History-Christianity.spring-2017.pdf)**
 
 > This course is organized around a comparative examination of the many forms of global Christianity over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological contexts, students will explore several themes: use of sacred texts and the experiences of a typical church service, the relationship between Christianity and politics, and cultural aspects such as marriage and sexuality. Students will also consider Christianity as a series of global systems organized around missions, migration, trade, and warfare.
 

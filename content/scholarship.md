@@ -5,6 +5,7 @@ aliases:
 - '/publications/'
 - '/software/'
 - '/code/'
+- '/research/'
 description: "Books, articles, software, visualizations, and digital projects by Lincoln Mullen"
 ---
 

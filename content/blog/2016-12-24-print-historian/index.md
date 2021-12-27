@@ -8,9 +8,7 @@ title: Print historian
 
 Imagine a photograph of a pile of pages, perhaps with a few glossy image reproductions and a cover letter, and a USPS envelope. Perhaps a few years ago I might have been able to take such a picture for this post. But without having to pay for postage, I've delivered the final revisions of my book manuscript to my editor before the end of December as agreed. *The Chance of Salvation: A History of Conversion in America* will be published by Harvard University Press in fall 2017. While there is still copyediting, proofreading, indexing and so on to be done, the book definitely feels like it is in the hands of the press and not my hands now.
 
-<!--more-->
-
-{{< figure src="/blog-figures/brainerd-mission-station.jpg" caption="In lieu of a picture of the manuscript, here is an image of the Brainerd Mission Station of the American Board of Commissioners for Foreign Missions. Image from Penelope Johnson Allen research notes, correspondence, and photographs, Special Collections, University of Tennessee at Chattanooga, [MS-002-04-01-03-001](http://cdm16877.contentdm.oclc.%20org/cdm/ref/collection/p16877coll7/id/32)." >}}
+{{< figure src="brainerd-mission-station.jpg" caption="In lieu of a picture of the manuscript, here is an image of the Brainerd Mission Station of the American Board of Commissioners for Foreign Missions. Image from Penelope Johnson Allen research notes, correspondence, and photographs, Special Collections, University of Tennessee at Chattanooga, [MS-002-04-01-03-001](http://cdm16877.contentdm.oclc.%20org/cdm/ref/collection/p16877coll7/id/32)." >}}
 
 If you want to know more about the book, here is an abstract.
 

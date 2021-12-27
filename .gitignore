@@ -36,3 +36,4 @@ source/research/internetarchive/
 source/.jekyll-metadata
 public
 .hugo_build.lock
+resources/*

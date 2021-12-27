@@ -1,5 +1,5 @@
 <!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html -->
-<figure class='full'>
+<figure>
 	{{ $raw := .Get "src" | $.Page.Resources.GetMatch }}
 	{{ $regular := $raw.Fit "800x3200 webp"}}
 	{{ $bigger := $raw.Fit "1200x4800 webp"}}

@@ -1,0 +1,7 @@
+{{ $raw := .Get "src" | $.Page.Resources.GetMatch }}
+{{ $regular := $raw.Fit "800x3200 webp"}}
+{{ $bigger := $raw.Fit "1200x4800 webp"}}
+{{ $retina := $raw.Fit "1600x6400 webp"}}
+<img src='{{ $regular.Permalink }}'
+	srcset="{{ $regular.Permalink }}, {{ $bigger.Permalink }} 1.5x, {{ $retina.Permalink }} 2x"
+	alt='{{ .Get "alt" | plainify }}' />

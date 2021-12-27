@@ -16,6 +16,9 @@ markup:
   highlight:
     style: vs
 
+imaging:
+  quality: 85
+
 params:
   blogFeedTitle: "Lincoln Mullen's blog"
 

@@ -2,6 +2,8 @@
 date: '2012-10-19T23:17:00+00:00'
 slug: 'the-humanists-os-or-scholarship-in-plain-text'
 title: 'The Humanist''s OS; or, Scholarship in Plain Text'
+aliases:
+- '/blog/scholarship-in-plain-text/'
 ---
 
 This Saturday, October 20, I'll be giving a [workshop](http://newengland2012.thatcamp.org/workshops/) at [THATCamp New England 2012](http://newengland2012.thatcamp.org/). Here is the description of the workshop:

@@ -4,7 +4,7 @@ slug: office-hours
 ---
 
 Greetings. You probably landed here either because you are a student looking for
-an office hours appointment or a collaborator looking to schedule a meeting. Please note that in academic year 2021--22 I will either be on a fellowship or on leave, and so I will only be taking meetings only at set times. Please use the link below to schedule a time. These really and truly are all of the times that I have available. Let's assume that a meeting will be on Zoom unless you and I arrange otherwise.
+an office hours appointment or a collaborator looking to schedule a meeting. Please note that in academic year 2021--22 I will either be on a fellowship or on leave, and so I will only be taking meetings only at set times. Please use the link below to schedule a time. These really and truly are all of the times that I have available. Let's assume that a meeting will be on Zoom unless you and I arrange otherwise. Please book an appointment only if we have some current relationship where that would be expected. If we don't know one another, please send me an email first before booking an appointment.
 
 **Appointments:** [Book an office hours appointment](https://fantastical.app/lincoln-Un6G/office-hours)<br>
 **Office:** Research Hall 484, George Mason University<br>

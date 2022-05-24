@@ -2,7 +2,6 @@ title: "Lincoln Mullen"
 description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
 copyright: "2008-2022"
 languageCode: "en-us"
-officehoursLink: /page/office-hours/
 
 permalinks:
   blog: "/:section/:slug/"

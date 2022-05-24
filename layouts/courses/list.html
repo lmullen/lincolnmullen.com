@@ -1,11 +1,11 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
 <article>
+
   <header>
     <h1 class="title">{{ .Title }}</h1>
   </header>
-{{ .Content }}
+  {{ .Content }}
 </article>
 
-{{ partial "foot.html" . }}
-
+{{ end }}

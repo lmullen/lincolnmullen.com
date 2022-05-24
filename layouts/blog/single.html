@@ -1,4 +1,4 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
 <article id='{{ urlize .Title }}' class="h-entry post">
 
@@ -14,4 +14,4 @@
 <div class="post-separator narrow"></div>
 
 {{ partial "blog-nav" . }}
-{{ partial "foot" . }}
+{{ end }}

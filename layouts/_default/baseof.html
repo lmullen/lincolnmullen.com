@@ -61,10 +61,22 @@
 
 <body>
 
-	<header class="no-print">
-		{{ partial "nav.html" . }}
+	{{ block "page-header" . }}
+
+	<header id="site-header">
+		<nav id="site-nav">
+			<a href="/" class="site-title">{{ .Site.Title }}</a>
+			<a href="/">About</a>
+			<a href="//files.lincolnmullen.com/Mullen-cv.pdf">CV</a>
+			<a href="/scholarship/">Scholarship</a>
+			<a href="/courses/">Teaching</a>
+			<a href="/blog/">Blog</a>
+			<a href="https://weblog.lincolnmullen.com">Microblog</a>
+		</nav>
 		<hr class="nav">
 	</header>
+
+	{{ end }}
 
 	<main>
 		{{ block "main" . }}

@@ -2,13 +2,12 @@
 <html lang="en-us">
 
 <head>
-	<meta charset="utf-8">
-	{{ if .IsHome }}
-	<title>{{ .Site.Title }} | Historian of American religion</title>
-	{{ else }}
+	{{ block "title" . }}
 	<title>{{ .Title }} | {{ .Site.Title }}</title>
-	{{ end}}
+	{{ end }}
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="{{ .Site.Author.name }}">
 	{{ if .Description }}
 	<meta name="description" content="{{ .Description }}">
 	{{ else if .IsPage }}

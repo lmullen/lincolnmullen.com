@@ -76,13 +76,12 @@ _Note that class meets on Tuesday this week due to the "Mason Monday."_
 
 ## Fine print
 
-Graduate students:
-Mason Resources for Graduate Students
-https://historyarthistory.gmu.edu/graduate/mason-resources-for-graduate-students
-
+GMU has many resources available for graduate students; please [see the list on the department website](https://historyarthistory.gmu.edu/graduate/mason-resources-for-graduate-students).
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 
-Students must satisfactorily complete all assignments in order to pass this course. I am sometimes willing to grant extensions on assignments for cause, but you must request an extension before the assignment's due date. For every day or part of a day that an assignment is late without an extension, I may reduce your grade. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
+Regular participation is expected as a matter of course in a graduate course. Complete all readings and submit all assignments before the start of class, and be prepared to actively discuss the topics at hand.
 
-See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](http://oai.gmu.edu/understanding-the-honor-code/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services at 703-993-2474 or through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note the dates for dropping and adding courses from the [GMU academic calendar](http://registrar.gmu.edu/calendars/spring-2020/).
+Students must satisfactorily complete all assignments in order to pass this course. I am sometimes willing to grant extensions for cause, but you must request an extension before the assignment's due date. For every day or part of a day that an assignment is late without an extension, I may reduce your grade. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
+
+See the [George Mason University catalog](https://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](https://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](https://oai.gmu.edu/) and the [honor code](https://oai.gmu.edu/mason-honor-code/). If you are a student with a disability and you need academic accommodations, please contact the Office of Disability Services at 703-993-2474 or through [their website](https://ods.gmu.edu), then provide their documented accomodations to me. You are responsible for verifying your enrollment status. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/).

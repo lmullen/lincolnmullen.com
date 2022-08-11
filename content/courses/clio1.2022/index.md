@@ -38,29 +38,29 @@ After taking this class, students will
 
 The structure of this class is intended to model what it is intended to teach, namely collaborative historical work. You may find that the class differs in two ways from other graduate-level classes you have taken, in that it requires collaboration for the main assignments in the class, and that how we spend large parts of our class time will be determined collaboratively. We will figure out how to create a collaborative learning community together over the course of the semester.
 
-I care about your success in this course and more generally as a graduate student.
+I care about your success in this course and more generally as a graduate student. Please take the time to communicate with me about what you want out of this course and any challenges you may be end up facing. You are always welcome to talk with me during office hours. My [office hours page](/page/office-hours/) has instructions on how to book an appointment. If the scheduled times don't work for you, or if they are full, please contact me and suggest a few other times that would work for you.
+
+Communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup); you can sign up at that link. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help. The Slack group is a place for you to communicate with other people in the class, as well as to ask for help. Please ask for help in the public channels rather than private messages. You are almost certainly not the only person to have your question, and asking and answering questions publicly benefits everyone. Should we decide together that we want to use it, we will have access to [Basecamp](https://3.basecamp-help.com/article/159-getting-started-with-basecamp) for project management.
+
+One required purchase for this course is a shared hosting account ($30) and domain name ($15) through Reclaim Hosting. You can [sign up here](https://reclaimhosting.com/shared-hosting/). Signing up is not hard, but you do not need to have this set up until week four at the latest, so we can go over how to set this up in class. Choose your domain name wisely. Reclaim Hosting provides excellent service for scholars and educators, and your account will be the basis of the DH work we put on the web.
 
 Most required readings are available online or through the GMU libraries. These are the main books that we will be using for which you need to acquire your own copy.
 
 - TBD
 
-Communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup); you can sign up at that link. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help. The Slack group is a place for you to communicate with other people in the class, as well as to ask for help. Please ask for help in the public channels rather than private messages. You are almost certainly not the only person to have your question, and asking and answering questions publicly benefits everyone.
-
-You are always welcome to talk with me during office hours. My [office hours page](/page/office-hours/) has instructions on how to book an appointment. If the scheduled times don't work for you, please contact me and suggest a few other times that would work for you.
-
-Please bring a computer to each class meeting. Almost any computer should work for what we are going to do. My own experience is with Unix-like operating systems, like Ubuntu and MacOS, but I will endeavor to help you get alternatives should you be working on Windows.
+Please bring a computer to each class meeting. Almost any computer should work for what we are going to do. My own experience is with Unix-like operating systems, like Ubuntu and MacOS, but I will endeavor to help you find a way to get things done if you work on Windows. Operating systems that are limited in some way, such as ChromeOS or all phone and tablet operating systems are likely to cause both of us problems. If you have a problem obtaining a suitable device, please let me know.
 
 ## Assignments
 
-Please submit each assignment to Blackboard. (Yes, I know using Blackboard is a violation of other stated principles for this course, but without it I am hopeless at keeping track of assignments and grades.) Send the assignments before the start of class on the day on which they are due.
+Please submit each assignment to Blackboard. (Yes, I know using Blackboard is a violation of other principles for this course, but without it I am hopeless at keeping track of assignments and grades.) Send the assignments before the start of class on the day on which they are due.
 
-Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and any assignments we will be discussing in class before our session begins, and be prepared to actively discuss the topics at hand. That said, I am not a stickler for deadlines in graduate classes and do not assign late penalties, but please do not use this leeway to hinder other people in the class or to get yourself into an irretrievable situation. Likewise, if my grade for your assignment is unsatisfactory, you may revise it for additional credit. That said, no assignments (except final projects) may be submitted beyond the last day of class, and there are no extensions for final projects.
+Preparation and participation are expected as a matter of course in a graduate class. Complete all readings before our session begins, and be prepared to actively discuss the topics at hand. Most classes will have a list of things to do before class (which is self explanatory) and things to do after class, which will then be due before the start of the next class period. That said, I am not a stickler for deadlines in graduate classes and I do not assign late penalties, but please do not use this leeway to hinder other people in the class or to get yourself into an irretrievable situation. Likewise, if I find your work unsatisfactory I may give you an opportunity to revise and resubmit; if you find your grade to be unsatisfactory you may (in general) revise and resubmit for a new grade. That said, no assignments (except final projects) may be submitted beyond the last day of class, and there are no extensions for the final projects.
 
-Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
-
-\*\*
+One half of your grade will be based on individual work, and one half on collaborative work. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
 **DH project reports (4 × 5% = 20%).**
+
+
 
 **Collaborative project**.
 
@@ -87,7 +87,7 @@ In class:
 
 Do after class:
 
-### Week 2 (Aug. 29): Digitization and Collections
+### Week 2 (Aug. 29): Digitization and collections
 
 Read:
 
@@ -97,7 +97,7 @@ In class:
 
 Do after class:
 
-### Week 3 (Sept. 12): Publishing Digital History
+### Week 3 (Sept. 12): Publishing digital history
 
 Read:
 
@@ -107,7 +107,7 @@ In class:
 
 Do after class:
 
-### Week 4 (Sept. 19): Basics of Web Technologies
+### Week 4 (Sept. 19): Basics of web technologies
 
 Read:
 
@@ -117,7 +117,7 @@ In class:
 
 Do after class:
 
-### Week 5 (Sept. 26): Podcasting and Story Telling
+### Week 5 (Sept. 26): Podcasting and story telling
 
 Read:
 
@@ -127,7 +127,7 @@ In class:
 
 Do after class:
 
-### Week 6 (Oct. 3): Videogames and Virtual Reality
+### Week 6 (Oct. 3): Videogames and virtual reality
 
 Read:
 
@@ -137,7 +137,7 @@ In class:
 
 Do after class:
 
-### Week 7 (Oct. 11): Databases and Visualization
+### Week 7 (Oct. 11): Databases and visualization
 
 _Note that class meets on Tuesday this week due to the "Mason Monday."_
 
@@ -149,7 +149,7 @@ In class:
 
 Do after class:
 
-### Week 8 (Oct. 17): Maps and Space
+### Week 8 (Oct. 17): Maps and space
 
 Read:
 
@@ -159,7 +159,7 @@ In class:
 
 Do after class:
 
-### Week 9 (Oct. 24): Ethics and Activism
+### Week 9 (Oct. 24): Ethics and activism
 
 Read:
 
@@ -169,7 +169,7 @@ In class:
 
 Do after class:
 
-### Week 10 (Oct. 31): DH in Museums and Art History
+### Week 10 (Oct. 31): DH in museums / digital art history
 
 Read:
 
@@ -179,7 +179,7 @@ In class:
 
 Do after class:
 
-### Week 11 (Nov. 7): DH in Libraries and Research Centers
+### Week 11 (Nov. 7): DH in libraries and research centers
 
 Read:
 
@@ -189,7 +189,7 @@ In class:
 
 Do after class:
 
-### Week 12 (Nov. 14): Digital Pedagogy
+### Week 12 (Nov. 14): Digital pedagogy
 
 Read:
 
@@ -223,15 +223,15 @@ Do after class:
 
 ## Fine print
 
-This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
+This syllabus can and will be updated online as necessary. The online version of this syllabus is the only authoritative version.
 
 GMU has many resources available for graduate students; please [see the list on the department website](https://historyarthistory.gmu.edu/graduate/mason-resources-for-graduate-students).
 
-Students must satisfactorily complete all assignments in order to pass this course. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
+Students must satisfactorily complete all assignments in order to pass this course. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only during office hours, not via email or Slack.
 
 Much of our course work will appear online, as is the norm in this field. That said, not everyone's circumstances make being online safe for them. If this is a potential problem for you, please discuss it privately with me and we will find a solution such as anonymity or an alternative assignment that works for you.
 
-GMU has established well-defined [COVID-19 policies](https://www.gmu.edu/safe-return-campus) about masking, testing, and the like. We will follow the relevant university guidance and, if necessary, adapt. If you have individual concerns that you would like to express to me privately, you are more than welcome to do so.
+GMU has established well-defined [COVID-19 policies](https://www.gmu.edu/safe-return-campus) about masking, testing, and the like. We will follow the relevant university guidance and, if necessary, adapt if the university guidance changes. If you have individual concerns that you would like to express to me privately, you are more than welcome to do so.
 
 While much of our class communication will be in Slack, please do check your Mason email, since critical communications from me or from the university may be sent there.
 

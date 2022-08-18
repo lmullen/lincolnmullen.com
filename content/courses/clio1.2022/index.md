@@ -72,7 +72,7 @@ Consider questions such as these as you write your overview: What is the purpose
 
 - Omeka collection (5%). Using the class [Omeka S](https://omeka.org/s/) installation, create about ten items in Omeka. As necessary, you will have to define the metadata fields that are worth tracking about your item. In general, items should have both metadata (e.g., cataloging information about the item) and the data itself (i.e., a digital surrogate for the item). Work with one or two other members of the class to create collections that gather together multiple people's items.
 
-- Scholarly website (10%). This assignment will take more than a week's worth of work and will be covered in more than one class, so it is worth more than the others. Create a scholarly website. Most likely this will be a website for yourself, but it might also be one for an organization, a project, or the like. The website should be hosted on your own domain, using your Reclaim Hosting website. You should create it using the [Hugo static site generator](https://gohugo.io). You will have to acquire a basic understanding of HTML, CSS, perhaps JavaScript, Git/GitHub, and command line programs to create this site. You will also have to prepare the content that you want to publish on your site.
+- Scholarly website (10%). This assignment will take more than a week's worth of work and will be covered in more than one class, so it is worth more than the others. It can be submitted any time before the last day of class. Create a scholarly website. Most likely this will be a website for yourself, but it might also be one for an organization, a project, or the like. The website should be hosted on your own domain, using your Reclaim Hosting website. You should create it using the [Hugo static site generator](https://gohugo.io). You will have to acquire a basic understanding of HTML, CSS, perhaps JavaScript, Git/GitHub, and command line programs to create this site. You will also have to prepare the content that you want to publish on your site.
 
 - Podcast recording (5%). Write the script, record the audio, and edit it down to an episode of five minutes or less. The podcast episodes will be thematically linked for each person in the class. My best idea is to do episodes on "Archival Stories," where we each tell our most compelling five minute story about something we've found in our research. But as a class we might come up with something a lot better. 
 
@@ -82,9 +82,11 @@ Consider questions such as these as you write your overview: What is the purpose
 
 **Collaborative project (50% total)**. You will work with a group (of 3–4 people, though this is negotiable) to create a digital historical project published online. The form and content of the project are up to you, though the scope will be constrained by the length of the semester.
 
-- Pitch (5%). By the start of week 6, form a project team. Write a pitch of 500 words or less that offers a compelling explanation for a project that you want to do, especially its historical significance.
+- Form a project team by week 5.
 
-- Proposal and work plan (5%). By week 8, your team should write a 3–5 page proposal that offers an intellectual justification for your project, the audience you intend to reach, a survey of related work, a description of the deliverables that you will create and the technologies you will use, and a workplan that includes a schedule and that details the contributions of each team member.
+- Pitch (5%). By the start of week 7, form a project team. Write a pitch of 500 words or less that offers a compelling explanation for a project that you want to do, especially its historical significance.
+
+- Proposal and work plan (5%). By week 9, your team should write a 3–5 page proposal that offers an intellectual justification for your project, the audience you intend to reach, a survey of related work, a description of the deliverables that you will create and the technologies you will use, and a workplan that includes a schedule and that details the contributions of each team member.
 
 - Project (30%). Your final project should be substantially completed by week 14, so that your team can present it in class that evening. Your team can continue to work on the project and submit a final version on December 7.
 
@@ -118,6 +120,8 @@ In class:
 
 Do after class:
 
+- Complete the Omeka collection skills assignment.
+
 ### Week 3 (Sept. 12): Publishing digital history
 
 Read:
@@ -138,15 +142,21 @@ In class:
 
 Do after class:
 
+- Begin work on your website. This is not due next week, unlike the other skills assignments. But we will take on pieces of this project throughout the rest of the semester.
+
 ### Week 5 (Sept. 26): Podcasting and story telling
 
 Read:
 
 Do before class:
 
+- Form a project team before the start of class.
+
 In class:
 
 Do after class:
+
+- Create your podcast episode assignment.
 
 ### Week 6 (Oct. 3): Videogames and virtual reality
 
@@ -166,9 +176,13 @@ Read:
 
 Do before class:
 
+- Come prepared with your team's project pitch.
+
 In class:
 
 Do after class:
+
+- Create your database design assignment.
 
 ### Week 8 (Oct. 17): Maps and space
 
@@ -180,11 +194,15 @@ In class:
 
 Do after class:
 
+- Create your map assignment.
+
 ### Week 9 (Oct. 24): Ethics and activism
 
 Read:
 
 Do before class:
+
+- Come prepared with your team's proposal and work plan.
 
 In class:
 
@@ -236,11 +254,14 @@ Read:
 
 Do before class:
 
+- Have a substantially complete version of your project prepared to present in class..
+
 In class:
 
 Do after class:
 
-**Due:** reflection
+- Final project should be submitted by December 7.
+- Reflection papers should be submitted by December 12.
 
 ## Fine print
 

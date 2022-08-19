@@ -96,7 +96,7 @@ Consider questions such as these as you write your overview: What is the purpose
 
 Read:
 
-- Read the essays in Part 4, “Digital Humanities and the Disciplines” in [*Debates in DH 2016*](https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016). You may also wish to glance at a few essays in the “histories and future” section
+- Read the essays in Part 4, “Digital Humanities and the Disciplines” in [*Debates in DH 2016*](https://dhdebates.gc.cuny.edu/projects/debates-in-the-digital-humanities-2016). You may also wish to glance at a few essays in the “histories and future” section.
 
 Do before class:
 
@@ -124,8 +124,6 @@ Do before class:
 
 - Explore the [Omeka S](https://omeka.org/s/) documentation. 
 
-In class:
-
 Do after class:
 
 - Complete the Omeka collection skills assignment.
@@ -141,8 +139,6 @@ Do before class:
 - [This is really cool](https://github.com/robinsloan/perfect-edition). A more [buttoned-down version](https://manifoldapp.org). A [less buttoned-down version](https://scalar.me/anvc/scalar/).
 - Explore at least one of the [digital projects published by Stanford UP](https://www.sup.org/digital/). 
 
-In class:
-
 Do after class:
 
 ### Week 4 (Sept. 19): Basics of web technologies
@@ -150,6 +146,7 @@ Do after class:
 Read:
 
 - Jacobs, Alan. "[Tending the Digital Commons: A Small Ethics toward the Future](https://hedgehogreview.com/issues/the-human-and-the-digital/articles/tending-the-digital-commons)," _Hedgehog Review_ 20, no. 1 (2018). 
+- Cal Newport, "[Can Indie Social Media Save Us](https://www.newyorker.com/tech/annals-of-technology/can-indie-social-media-save-us)"
 
 Do before class:
 
@@ -157,8 +154,6 @@ Do before class:
 - Work through this [tutorial on making a basic website](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/). 
 - Also look at the [MDN web development guides](https://developer.mozilla.org/en-US/docs/Learn). Sometimes having things explained a different way helps.
 - This is a [harder, but still beginnner, version](https://microsoft.github.io/Web-Dev-For-Beginners/#/) of the tutorial we are working through. Keep it in mind in case you want to do something more advanced.
-
-In class:
 
 Do after class:
 
@@ -168,12 +163,15 @@ Do after class:
 
 Read:
 
+- Nuzum, Eric. _Make Noise: A Creator's Guide to Podcasting and Great Audio Storytelling_ (Workman, 2019). Chs. 1, 3.
+- Abby Mullen, "[How to Listen to a Podcast for Class](https://abbymullen.org/how-to-listen-to-a-podcast-for-class/)" and "[Podcasting in Class](https://abbymullen.org/podcasting-in-class/)"
+- [NPR Student Podcast Challenge](https://www.npr.org/2018/11/15/662070097/starting-your-podcast-a-guide-for-students)
+
 Do before class:
 
 - Form a project team before the start of class.
-- Install [Audacity](https://www.audacityteam.org).
-
-In class:
+- Install [Audacity](https://www.audacityteam.org) and [watch this tutorial](https://www.youtube.com/watch?v=xl-WDjWrTtk) or [read this one](https://programminghistorian.org/en/lessons/editing-audio-with-audacity).
+- Bring a 2–3 minute clip of a podcast about history class that illustrates something you can do to convey history through podcasting.
 
 Do after class:
 
@@ -184,6 +182,8 @@ Do after class:
 
 Read:
 
+- Chapman, Adam. _Digital Games as History: How Videogames Represent the Past and Offer Access to Historical Practice_. Routledge, 2018.
+
 Do before class:
 
 - [Virtual St Paul's Cathedral](https://vpcp.chass.ncsu.edu)
@@ -192,8 +192,6 @@ Do before class:
 - Look at [Twine](https://twinery.org) and [Inky](https://www.inklestudios.com/ink/).
 - Look at the stories on Kelly Schrum's [Digital Storytelling](https://scholarlydigitalstorytelling.org/about/) site.
 -Boom, Krijn H.J., et al, “[Using Video Games as a Platform to Teach about the Past](https://www.jstor.org/stable/j.ctv11cvx4t.8#metadata_info_tab_contents),” in _Communicating the Past in the Digital Age_, edited by Sebastian Hageneur (Ubiquity Press, 2020).
-
-In class:
 
 Do after class:
 
@@ -211,13 +209,12 @@ Read:
 - Johnson, Jessica Marie. “Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads.” _Social Text_ 36, no. 4 (2018): 57–79, <https://doi.org/10.1215/01642472-7145658>.
 - Broman, Karl W., and Kara H. Woo. “Data Organization in Spreadsheets.” _American Statistician_ 72, no. 1 (2018): 2–10. <https://doi.org/10.1080/00031305.2017.1375989>.
 - "[Spreadsheet Thinking vs. Database Thinking](https://eagereyes.org/basics/spreadsheet-thinking-vs-database-thinking)"
+- Wieringa, Jeri. "[A Gospel of Health and Salvation: Modeling the Religious Culture of Seventh-day Adventism, 1843-1920](http://dissertation.jeriwieringa.com/)" (PhD dissertation, George Mason University, 2019).
 
 Do before class:
 
 - Come prepared with your team's project pitch.
 - Read the [Airtable documentation](https://www.airtable.com/product)
-
-In class:
 
 Do after class:
 
@@ -235,10 +232,10 @@ Read:
 
 Do before class:
 
-In class:
+- Install [QGIS](https://www.qgis.org/en/site/)
+- Read Brandan Buck's [tutorials on "Rebuilding a War"](http://brandanpbuck.com/rebuilding-a-war/)
 
 Do after class:
-
 
 - Create your map assignment.
 
@@ -257,29 +254,19 @@ Do before class:
 - Come prepared with your team's proposal and work plan.
 - Install [Hugo](https://gohugo.io).
 
-In class:
-
 Do after class:
 
 - Translate your website to Hugo.
 
-### Week 10 (Oct. 31): DH in museums / digital art history
+### Week 10 (Oct. 31): Digital public history / digital art history
 
 Read:
 
 
 - Brown, Kathryn, ed. _[The Routledge Companion to Digital Humanities and Art History](https://www-taylorfrancis-com.mutex.gmu.edu/books/edit/10.4324/9780429505188/routledge-companion-digital-humanities-art-history-kathryn-brown?refId=233cb9fa-dbea-4082-8395-b27d5dc07dda&context=ubx)_. Routledge Art History and Visual Studies Companions. Routledge, 2020. Introduction, ch. 1, ch. 3, ch. 7.
-
-
-https://doi-org.mutex.gmu.edu/10.4324/9780429505188
-- Brennan, Sheila. “Outstanding public history award: Histories of the National Mall.” Public History Commons (blog), March 18, 2015. http://publichistorycommons.org/award-histories-of-the-national-mall/.
 - Lincoln, Matthew. “Social Network Centralization Dynamics in Print Production in the Low Countries, 1550-1750.” _International Journal for Digital Art History_ 2 (2016). <https://doi.org/10.11588/DAH.2016.2.25337>.
-
-
-
-Do before class:
-
-In class:
+- Brennan, Sheila. “Outstanding public history award: Histories of the National Mall.” Public History Commons (blog), March 18, 2015. http://publichistorycommons.org/award-histories-of-the-national-mall/.
+- Wingo, Rebecca S., Jason A. Heppler, and Paul Schadewald, _[Digital Community Engagement: Partnering Communities with the Academy](https://ucincinnatipress.manifoldapp.org/projects/digital-community-engagement)_ (University of Cincinnati Press, 2021). Introduction.
 
 Do after class:
 
@@ -289,14 +276,13 @@ Do after class:
 
 Read:
 
-Rosenzweig, Roy. “Can History Be Open Source? Wikipedia and the Future of the Past.” Originally published in The Journal of American History 93, no.1 (06, 2006): 117-46. http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=42.
-
+- Schreibman, Susan, Raymond Siemens, and John Unsworth, eds. A New Companion to Digital Humanities. Wiley/Blackwell, 2016. Section V, especially ch. 32.
+- Rosenzweig, Roy. “Can History Be Open Source? Wikipedia and the Future of the Past.” Journal of American History 93, no. 1 (2006): 117–46. https://doi.org/10.2307/4486062.
+- Read at least one other essay in Roy Rosenzweig, Clio Wired: The Future of the Past in the Digital Age (Columbia University Press, 2011).
 
 Do before class:
 
-In class:
-
-Do after class:
+- Pick an [NEH grant program](https://www.neh.gov/grants). Read the sample grant narratives for successful applications.
 
 ### Week 12 (Nov. 14): Digital pedagogy
 

@@ -46,11 +46,9 @@ I care about your success in this course and more generally as a graduate studen
 
 Communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup); you can sign up at that link. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help. The Slack group is a place for you to communicate with other people in the class, as well as to ask for help. Please ask for help in the public channels rather than private messages. You are almost certainly not the only person to have your question; asking and answering questions publicly benefits everyone. Should we decide together that we want to use it, we will have access to [Basecamp](https://3.basecamp-help.com/article/159-getting-started-with-basecamp) for project management.
 
-One required purchase for this course is a shared hosting account ($30) and domain name ($15) through Reclaim Hosting. You can [sign up here](https://reclaimhosting.com/shared-hosting/). Signing up is not hard, but you do not need to have this set up until week four at the latest. We will go over how to set this up in class. Choose your domain name wisely, or at least prudently. Reclaim Hosting provides excellent service for scholars and educators, and your account will be the basis of the DH work we put on the web.
+The one required purchase for this course is a shared hosting account ($30) and domain name ($15) through Reclaim Hosting. You can [sign up here](https://reclaimhosting.com/shared-hosting/). Signing up is not hard, but you do not need to have this set up until week four at the latest. We will go over how to set this up in class. Choose your domain name wisely, or at least prudently. Reclaim Hosting provides excellent service for scholars and educators, and your account will be the basis of the DH work we put on the web.
 
-Most required readings are available online or through the GMU libraries. These are the main books that we will be using for which you need to acquire your own copy.
-
-- TBD
+The required readings are available online or through the GMU libraries. 
 
 Please bring a computer to each class meeting. Almost any computer should work for what we are going to do. My own experience is with Unix-like operating systems, such as Ubuntu and MacOS, but I will endeavor to help you find a way to get things done if you work on Windows. Operating systems that are limited in some way, such as ChromeOS or all phone and tablet operating systems, are likely to cause problems for both us. If you have a problem obtaining a suitable device, please let me know.
 
@@ -104,7 +102,7 @@ Do before class:
 
 - Sign up for the Slack group (see above). 
 
-- Pick any digital history project of your choice, and complete a project report form. Be prepared to talk about your project for five minutes or so. If you have trouble finding a digital history project, look through one of these sites: [AADHum](https://aadhum.umd.edu/asante/about/), [CDH](https://cdh.princeton.edu), [CDRH](https://unlcms.unl.edu/cas/center-for-digital-research-in-the-humanities/), [CSRC](https://www.religionandcities.org), [CESTA](https://cesta.stanford.edu), [Digital Scholarship Lab](https://dsl.richmond.edu), [DH Awards](http://dhawards.org), [Metalab](https://mlml.io), [MITH](https://mith.umd.edu), [NULab](https://cssh.northeastern.edu/nulab/research/projects/), [Reviews in DH](https://reviewsindh.pubpub.org), [RRCHNM](https://rrchnm.org), [Scholars’ Lab](https://scholarslab.lib.virginia.edu).
+- Pick any digital history project of your choice, and complete a project report form. Be prepared to talk about your project for five minutes or so. If you have trouble finding a digital history project, look through one of these sites: [AADHum](https://aadhum.umd.edu/asante/about/), [CDH](https://cdh.princeton.edu), [CDRH](https://unlcms.unl.edu/cas/center-for-digital-research-in-the-humanities/), [CSRC](https://www.religionandcities.org), [CESTA](https://cesta.stanford.edu), [Digital Scholarship Lab](https://dsl.richmond.edu), [DH Awards](http://dhawards.org), [Metalab](https://mlml.io), [MITH](https://mith.umd.edu), [NULab](https://cssh.northeastern.edu/nulab/research/projects/), [Reviews in DH](https://reviewsindh.pubpub.org), [Roy Rosenzweig Prize winners](https://www.historians.org/awards-and-grants/past-recipients/roy-rosenzweig-prize-recipients), [RRCHNM](https://rrchnm.org), [Scholars’ Lab](https://scholarslab.lib.virginia.edu).
 
 Do after class:
 
@@ -114,7 +112,17 @@ Do after class:
 
 Read:
 
+- Milligan, Ian. _The Transformation of Historical Research in the Digital Age_. Cambridge University Press, 2022. <https://doi.org/10.1017/9781009026055>.
+- Putnam, Lara. “The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast.” _American Historical Review_ 121, no. 2 (2016): 377–402. https://doi.org/10.1093/ahr/121.2.377.
+_ Hitchcock, Tim and Robert Shoemaker. “[Digitising History From Below: The Old Bailey Proceedings Online, 1674–1834](http://uhra.herts.ac.uk/bitstream/handle/2299/38/102846.pdf?sequence=1).” _History Compass_ 4, no. 2 (2006): 193-202.
+- [Colored Conventions Project](https://coloredconventions.org)
+- [Wearing Gay History](https://wearinggayhistory.com)
+- [Hearing the Americas](https://hearingtheamericas.org/)
+- [Valley of the Shadow](https://valley.lib.virginia.edu)
+
 Do before class:
+
+- Explore the [Omeka S](https://omeka.org/s/) documentation. 
 
 In class:
 
@@ -126,7 +134,12 @@ Do after class:
 
 Read:
 
+- [Models of Argument-Driven Digital History](https://model-articles.rrchnm.org/). Read the introduction and the articles by Barleta, Midura, Hitchcok and Turkel, and one more of your choice. 
+
 Do before class:
+
+- [This is really cool](https://github.com/robinsloan/perfect-edition). A more [buttoned-down version](https://manifoldapp.org). A [less buttoned-down version](https://scalar.me/anvc/scalar/).
+- Explore at least one of the [digital projects published by Stanford UP](https://www.sup.org/digital/). 
 
 In class:
 
@@ -136,13 +149,20 @@ Do after class:
 
 Read:
 
+- Jacobs, Alan. "[Tending the Digital Commons: A Small Ethics toward the Future](https://hedgehogreview.com/issues/the-human-and-the-digital/articles/tending-the-digital-commons)," _Hedgehog Review_ 20, no. 1 (2018). 
+
 Do before class:
+
+- Install [Visual Studio Code](https://code.visualstudio.com) and [CyberDuck](https://cyberduck.io).
+- Work through this [tutorial on making a basic website](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/). 
+- Also look at the [MDN web development guides](https://developer.mozilla.org/en-US/docs/Learn). Sometimes having things explained a different way helps.
+- This is a [harder, but still beginnner, version](https://microsoft.github.io/Web-Dev-For-Beginners/#/) of the tutorial we are working through. Keep it in mind in case you want to do something more advanced.
 
 In class:
 
 Do after class:
 
-- Begin work on your website. This is not due next week, unlike the other skills assignments. But we will take on pieces of this project throughout the rest of the semester.
+- Begin work on your website. This is not due next week, unlike the other skills assignments. But we will take on pieces of this project throughout the rest of the semester. For this week, make a homepage for the website that you want to create.
 
 ### Week 5 (Sept. 26): Podcasting and story telling
 
@@ -151,12 +171,14 @@ Read:
 Do before class:
 
 - Form a project team before the start of class.
+- Install [Audacity](https://www.audacityteam.org).
 
 In class:
 
 Do after class:
 
 - Create your podcast episode assignment.
+- Make revisions to your home page. Share a new version before next week. Add at least one thing just because it would be cool.
 
 ### Week 6 (Oct. 3): Videogames and virtual reality
 
@@ -164,19 +186,36 @@ Read:
 
 Do before class:
 
+- [Virtual St Paul's Cathedral](https://vpcp.chass.ncsu.edu)
+- Play [Walden](https://www.waldengame.com) and watch the behind the scenes video. I can give you a password to the free educational version. Read some reviews, both popular and academic.
+- Work through this [Git introduction](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/) and this [GitHub introduction](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/).
+- Look at [Twine](https://twinery.org) and [Inky](https://www.inklestudios.com/ink/).
+- Look at the stories on Kelly Schrum's [Digital Storytelling](https://scholarlydigitalstorytelling.org/about/) site.
+-Boom, Krijn H.J., et al, “[Using Video Games as a Platform to Teach about the Past](https://www.jstor.org/stable/j.ctv11cvx4t.8#metadata_info_tab_contents),” in _Communicating the Past in the Digital Age_, edited by Sebastian Hageneur (Ubiquity Press, 2020).
+
 In class:
 
 Do after class:
 
-### Week 7 (Oct. 11): Databases and visualization
+- Get your website into Git/GitHub.
+
+### Week 7 (Oct. 11): Data and databases 
 
 _Note that class meets on Tuesday this week due to the "Mason Monday."_
 
 Read:
 
+- Jason Heppler, [*Machines in the Valley*](http://machinesinthevalley.org). 
+- Arnold, Taylor, and Lauren Tilton. "Distant Viewing: Analyzing Large Visual Corpora." _Digital Scholarship in the Humanities_ 34 (2019): i3–16. <https://doi.org/10.1093/llc/fqz013>.
+- [Slave Voyages](https://www.slavevoyages.org)
+- Johnson, Jessica Marie. “Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads.” _Social Text_ 36, no. 4 (2018): 57–79, <https://doi.org/10.1215/01642472-7145658>.
+- Broman, Karl W., and Kara H. Woo. “Data Organization in Spreadsheets.” _American Statistician_ 72, no. 1 (2018): 2–10. <https://doi.org/10.1080/00031305.2017.1375989>.
+- "[Spreadsheet Thinking vs. Database Thinking](https://eagereyes.org/basics/spreadsheet-thinking-vs-database-thinking)"
+
 Do before class:
 
 - Come prepared with your team's project pitch.
+- Read the [Airtable documentation](https://www.airtable.com/product)
 
 In class:
 
@@ -188,39 +227,70 @@ Do after class:
 
 Read:
 
+- Blevins, Cameron. _Paper Trails: The U.S. Post and the Making of the American West_. Oxford University Press, 2021.
+- [Geography of the Post](http://cameronblevins.org/gotp/)
+- [American Panorama](https://dsl.richmond.edu/panorama/)
+- [Keweenaw Time Traveler](https://kett.geospatialresearch.mtu.edu)
+- [Orbis](https://orbis.stanford.edu)
+
 Do before class:
 
 In class:
 
 Do after class:
 
+
 - Create your map assignment.
 
-### Week 9 (Oct. 24): Ethics and activism
+### Week 9 (Oct. 24): Ethics
 
 Read:
+
+-  Noble, Safiya Umoja. _Algorithms of Oppression: How Search Engines Reinforce Racism_ (NYU Press, 2018). Introduction and chapter 1.
+- Robyn Caplan, et al, “[Algorithmic Accountability: A Primer](https://datasociety.net/library/algorithmic-accountability-a-primer/),” 2018.
+- Arguing with Digital History working group, “Digital History and Argument,” white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): <https://rrchnm.org/argument-white-paper/>.
+- Block, Sharon. “[Erasure, Misrepresentation and Confusion: Investigating JSTOR Topics on Women’s and Race Histories](http://digitalhumanities.org/dhq/vol/14/1/000448/000448.html),” _Digital Humanities Quarterly_ 14, no 1 (2020).
+
 
 Do before class:
 
 - Come prepared with your team's proposal and work plan.
+- Install [Hugo](https://gohugo.io).
 
 In class:
 
 Do after class:
+
+- Translate your website to Hugo.
 
 ### Week 10 (Oct. 31): DH in museums / digital art history
 
 Read:
 
+
+- Brown, Kathryn, ed. _[The Routledge Companion to Digital Humanities and Art History](https://www-taylorfrancis-com.mutex.gmu.edu/books/edit/10.4324/9780429505188/routledge-companion-digital-humanities-art-history-kathryn-brown?refId=233cb9fa-dbea-4082-8395-b27d5dc07dda&context=ubx)_. Routledge Art History and Visual Studies Companions. Routledge, 2020. Introduction, ch. 1, ch. 3, ch. 7.
+
+
+https://doi-org.mutex.gmu.edu/10.4324/9780429505188
+- Brennan, Sheila. “Outstanding public history award: Histories of the National Mall.” Public History Commons (blog), March 18, 2015. http://publichistorycommons.org/award-histories-of-the-national-mall/.
+- Lincoln, Matthew. “Social Network Centralization Dynamics in Print Production in the Low Countries, 1550-1750.” _International Journal for Digital Art History_ 2 (2016). <https://doi.org/10.11588/DAH.2016.2.25337>.
+
+
+
 Do before class:
 
 In class:
 
 Do after class:
 
+- Put yourself in [ORCID](https://orcid.org) and [Humanities Commons](https://hcommons.org).
+
 ### Week 11 (Nov. 7): DH in libraries and research centers
 
 Read:
+
+Rosenzweig, Roy. “Can History Be Open Source? Wikipedia and the Future of the Past.” Originally published in The Journal of American History 93, no.1 (06, 2006): 117-46. http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=42.
+
 
 Do before class:
 
@@ -232,31 +302,28 @@ Do after class:
 
 Read:
 
-Do before class:
-
-In class:
+- Battershill, Claire, and Shawna Ross. _Using Digital Humanities in the Classroom: A Practical Introduction for Teachers, Lecturers and Students_. Bloomsbury Academic, 2017.
+- Craig, Kalani, Charlie Mahoney, Joshua Danish. "[Correcting for Presentism in Student Reading of Historical Accounts Through Digital-History Methodologies](https://kalanicraig.com/publications/AERA-dh-and-presentism/)", in AERA 2017 Annual Meeting Conference Proceedings, San Antonio, TX, April 26-May 1, 2017.
+- [World History Commons](https://worldhistorycommons.org)
+- [Educating for American Democracy](https://www.educatingforamericandemocracy.org)
 
 Do after class:
+
+- Consider [checking the accessibility of your website](https://www.a11yproject.com/checklist/). 
 
 ### Week 13 (Nov. 21): Topic to be determined
 
-Read:
-
-Do before class:
-
-In class:
+We will determine together what other subjects we want to cover together. If enough of you ask, I will teach you the dark arts of Vim, which will not make you a better historian, but which might make you a better person.
 
 Do after class:
 
-### Week 14 (Nov. 28): Final project presentations and debrief
+- Finish up anything about your website that remains undone.
 
-Read:
+### Week 14 (Nov. 28): Final project presentations and debrief
 
 Do before class:
 
-- Have a substantially complete version of your project prepared to present in class..
-
-In class:
+- Have a substantially complete version of your project prepared to present in class.
 
 Do after class:
 
@@ -278,3 +345,5 @@ GMU has established well-defined [COVID-19 policies](https://www.gmu.edu/safe-re
 While much of our class communication will be in Slack, please do check your Mason email, since critical communications from me or from the university may be sent there.
 
 See the [George Mason University catalog](https://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](https://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](https://oai.gmu.edu/) and the [honor code](https://oai.gmu.edu/mason-honor-code/). If you are a student with a disability and you need academic accommodations, please contact the Office of Disability Services at 703-993-2474 or through [their website](https://ods.gmu.edu), then provide their documented accomodations to me. You are responsible for verifying your enrollment status. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/).
+
+Thanks to my colleagues Stephen Robertson and Jessica Otis, from whose syllabi I have borrowed ideas and readings.

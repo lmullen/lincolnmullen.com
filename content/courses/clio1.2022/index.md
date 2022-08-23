@@ -60,9 +60,7 @@ Preparation and participation are expected as a matter of course in a graduate c
 
 One half of your grade will be based on individual work, and one half on collaborative work. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
-**DH project reports (4 × 5% = 20%).**
-
-Three times this semester you will lead a class discussion about a digital history project (broadly defined) relevant to the subject at hand. Everyone will do so for the first day of class; you will sign up for three other times during the semester. Pick some digital history project that you think is related to the kind of scholarship you would like to create. Before class, write a one-page (single-spaced) overview of that project. Please share this in the Slack group and also submit it to Blackboard. Use the questions below as prompts, answering the questions in the course of your overview rather than as a list. But you can write about whatever is compelling about the site. Then in class, be prepared to lead a discussion of the project for about 15 minutes. 
+**DH project reports (4 × 5% = 20%).** Three times this semester you will lead a class discussion about a digital history project (broadly defined) relevant to the subject at hand. Everyone will do so for the first day of class; you will sign up for three other times during the semester. Pick some digital history project that you think is related to the kind of scholarship you would like to create. Before class, write a one-page (single-spaced) overview of that project. Please share this in the Slack group and also submit it to Blackboard. Use the questions below as prompts, answering the questions in the course of your overview rather than as a list. But you can write about whatever is compelling about the site. Then in class, be prepared to lead a discussion of the project for about 15 minutes. 
 
 Consider questions such as these as you write your overview: What is the purpose of this project? What history does it tell? What is the intended audience? What is the form of the project, and how does that form compare to more conventional scholarship? What kinds of technologies were used to create this project? Can you find any evidence of how the project has been used or received? What use would you make of this project?
 
@@ -161,6 +159,8 @@ Do after class:
 
 ### Week 5 (Sept. 26): Podcasting and story telling
 
+_Guest: Jeanette Patrick_
+
 Read:
 
 - Nuzum, Eric. _Make Noise: A Creator's Guide to Podcasting and Great Audio Storytelling_ (Workman, 2019). Chs. 1, 3.
@@ -239,7 +239,7 @@ Do after class:
 
 - Create your map assignment.
 
-### Week 9 (Oct. 24): Ethics
+### Week 9 (Oct. 24): Ethics and activism
 
 Read:
 
@@ -259,6 +259,8 @@ Do after class:
 - Translate your website to Hugo.
 
 ### Week 10 (Oct. 31): Digital public history / digital art history
+
+_Guest: Deepthi Murali_
 
 Read:
 

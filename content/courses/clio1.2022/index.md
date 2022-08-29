@@ -112,7 +112,7 @@ Read:
 
 - Milligan, Ian. _The Transformation of Historical Research in the Digital Age_. Cambridge University Press, 2022. <https://doi.org/10.1017/9781009026055>.
 - Putnam, Lara. “The Transnational and the Text-Searchable: Digitized Sources and the Shadows They Cast.” _American Historical Review_ 121, no. 2 (2016): 377–402. https://doi.org/10.1093/ahr/121.2.377.
-_ Hitchcock, Tim and Robert Shoemaker. “[Digitising History From Below: The Old Bailey Proceedings Online, 1674–1834](http://uhra.herts.ac.uk/bitstream/handle/2299/38/102846.pdf?sequence=1).” _History Compass_ 4, no. 2 (2006): 193-202.
+- _ Hitchcock, Tim and Robert Shoemaker. “[Digitising History From Below: The Old Bailey Proceedings Online, 1674–1834](http://uhra.herts.ac.uk/bitstream/handle/2299/38/102846.pdf?sequence=1).” _History Compass_ 4, no. 2 (2006): 193-202.
 - [Colored Conventions Project](https://coloredconventions.org)
 - [Wearing Gay History](https://wearinggayhistory.com)
 - [Hearing the Americas](https://hearingtheamericas.org/)

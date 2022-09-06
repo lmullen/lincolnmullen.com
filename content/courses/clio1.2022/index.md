@@ -159,6 +159,7 @@ _Guest: Jeanette Patrick_
 Read:
 
 - Nuzum, Eric. _Make Noise: A Creator's Guide to Podcasting and Great Audio Storytelling_ (Workman, 2019). Chs. 1, 3.
+- Liz Covart, “History Podcasts: An Overview of the Field,” Journal of American History 109, no. 1 (2022): 220–29, <https://doi.org/10.1093/jahist/jaac229>.
 - Abby Mullen, "[How to Listen to a Podcast for Class](https://abbymullen.org/how-to-listen-to-a-podcast-for-class/)" and "[Podcasting in Class](https://abbymullen.org/podcasting-in-class/)"
 - [NPR Student Podcast Challenge](https://www.npr.org/2018/11/15/662070097/starting-your-podcast-a-guide-for-students)
 

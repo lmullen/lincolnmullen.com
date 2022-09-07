@@ -809,3 +809,7 @@ a.calendly:hover {
     margin: 0.2em auto;
   }
 }
+
+video {
+  max-width: 100%;
+}

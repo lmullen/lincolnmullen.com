@@ -80,7 +80,7 @@ Consider questions such as these as you write your overview: What is the purpose
 
 - Form a project team by week 5.
 
-- Pitch (5%). By the start of week 7, form a project team. Write a pitch of 500 words or less that offers a compelling explanation for a project that you want to do, especially its historical significance.
+- Pitch (5%). By the start of week 7, write a pitch of 500 words or less that offers a compelling explanation for a project that you want to do, especially its historical significance.
 
 - Proposal and work plan (5%). By week 9, your team should write a 3–5 page proposal that offers an intellectual justification for your project, the audience you intend to reach, a survey of related work, a description of the deliverables that you will create and the technologies you will use, and a workplan that includes a schedule and that details the contributions of each team member.
 
@@ -159,7 +159,7 @@ _Guest: Jeanette Patrick_
 Read:
 
 - Nuzum, Eric. _Make Noise: A Creator's Guide to Podcasting and Great Audio Storytelling_ (Workman, 2019). Chs. 1, 3.
-- Liz Covart, “History Podcasts: An Overview of the Field,” Journal of American History 109, no. 1 (2022): 220–29, <https://doi.org/10.1093/jahist/jaac229>.
+- Liz Covart, “History Podcasts: An Overview of the Field,” _Journal of American History_ 109, no. 1 (2022): 220–29, <https://doi.org/10.1093/jahist/jaac229>.
 - Abby Mullen, "[How to Listen to a Podcast for Class](https://abbymullen.org/how-to-listen-to-a-podcast-for-class/)" and "[Podcasting in Class](https://abbymullen.org/podcasting-in-class/)"
 - [NPR Student Podcast Challenge](https://www.npr.org/2018/11/15/662070097/starting-your-podcast-a-guide-for-students)
 
@@ -167,31 +167,25 @@ Do before class:
 
 - Form a project team before the start of class.
 - Install [Audacity](https://www.audacityteam.org) and [watch this tutorial](https://www.youtube.com/watch?v=xl-WDjWrTtk) or [read this one](https://programminghistorian.org/en/lessons/editing-audio-with-audacity).
-- Bring a 2–3 minute clip of a podcast about history class that illustrates something you can do to convey history through podcasting.
+- Bring a 2–3 minute clip of a podcast about history that illustrates something you can do to convey history through podcasting.
 
 Do after class:
 
 - Create your podcast episode assignment.
-- Make revisions to your home page. Share a new version before next week. Add at least one thing just because it would be cool.
 
 ### Week 6 (Oct. 3): Videogames and virtual reality
 
 Read:
 
 - Chapman, Adam. _Digital Games as History: How Videogames Represent the Past and Offer Access to Historical Practice_. Routledge, 2018.
+- Boom, Krijn H.J., et al, “[Using Video Games as a Platform to Teach about the Past](https://www.jstor.org/stable/j.ctv11cvx4t.8#metadata_info_tab_contents),” in _Communicating the Past in the Digital Age_, edited by Sebastian Hageneur (Ubiquity Press, 2020).
 
 Do before class:
 
 - [Virtual St Paul's Cathedral](https://vpcp.chass.ncsu.edu)
 - Play [Walden](https://www.waldengame.com) and watch the behind the scenes video. I can give you a password to the free educational version. Read some reviews, both popular and academic.
-- Work through this [Git introduction](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/) and this [GitHub introduction](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/).
 - Look at [Twine](https://twinery.org) and [Inky](https://www.inklestudios.com/ink/).
 - Look at the stories on Kelly Schrum's [Digital Storytelling](https://scholarlydigitalstorytelling.org/about/) site.
--Boom, Krijn H.J., et al, “[Using Video Games as a Platform to Teach about the Past](https://www.jstor.org/stable/j.ctv11cvx4t.8#metadata_info_tab_contents),” in _Communicating the Past in the Digital Age_, edited by Sebastian Hageneur (Ubiquity Press, 2020).
-
-Do after class:
-
-- Get your website into Git/GitHub.
 
 ### Week 7 (Oct. 11): Data and databases 
 

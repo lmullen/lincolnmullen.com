@@ -1,16 +1,25 @@
 :root {
-  --bs-font-sans-serif: "IBM Plex Sans", sans-serif;
-  --bs-font-monospace: "IBM Plex Mono", monospace;
+  --lm-border-color: #bebebe;
+  --lm-border: var(--bs-border-width) var(--bs-border-style) var(--lm-border-color);
+  --lm-gap: 1rem;
+  --lm-primary-color: rgb(195, 42, 38);
+  --lm-primary-hover-color: rgb(157, 40, 36);
+  --bs-body-color: #121213;
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1.1rem;
-  --bs-body-color: #121213;
-  --bs-link-color: rgb(195, 42, 38);
-  --bs-border-width: 1px;
-  --bs-border-style: solid;
   --bs-border-color: #dee2e6;
-  --lm-border-color: #bebebe;
-  --lm-gap: 1rem;
-  --lm-border: var(--bs-border-width) var(--bs-border-style) var(--lm-border-color);
+  --bs-border-style: solid;
+  --bs-border-width: 1px;
+  --bs-font-monospace: "IBM Plex Mono", monospace;
+  --bs-font-sans-serif: "IBM Plex Sans", sans-serif;
+  --bs-link-color: var(--lm-primary-color);
+  --bs-link-hover-color: var(--lm-primary-hover-color);
+}
+.btn-primary {
+  --bs-btn-bg: var(--lm-primary-color);
+  --bs-btn-hover-bg: var(--lm-primary-hover-color);
+  --bs-btn-border-color: var(--lm-primary-color);
+  --bs-btn-hover-border-color: var(--lm-primary-hover-color);
 }
 
 /* Body styles */
@@ -27,6 +36,7 @@ body {
 nav a {
   padding-right: 0.65rem;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .site-title {
@@ -39,4 +49,23 @@ nav a {
   padding-bottom: var(--lm-gap);
   margin-bottom: var(--lm-gap);
   border-bottom: var(--lm-border);
+}
+
+/* Homepage */
+.list-icon {
+  margin-right: 0.5rem;
+}
+
+.homepage-list a {
+  text-decoration: none;
+  /* color: black; */
+}
+
+.homepage-list .bi-rss-fill {
+  color: var(--bs-link-color);
+}
+
+.homepage-header {
+  font-weight: 500;
+  font-size: var(--bs-body-font-size);
 }

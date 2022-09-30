@@ -19,6 +19,7 @@ imaging:
 
 params:
   blogFeedTitle: "Lincoln Mullen's blog"
+  subtitle: "Historian of American religion"
 
 taxonomies: false
 

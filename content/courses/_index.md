@@ -5,6 +5,7 @@ aliases:
 ---
 
 <table id="syllabus-list" class="date-list-table">
+  <tr><td class="semester">Fall 2022</td> <td><a href="/courses/clio1.2022">Clio Wired: An Introduction to History and New Media</a></td></tr>
   <tr><td class="semester">Spring 2021</td> <td><a href="/courses/christianity.2021">Global History of Christianity</a></td></tr>
   <tr><td class="semester">Spring 2021</td> <td><a href="/courses/digital-past.2021">The Digital Past: Reconstruction and Redemption</a></td></tr>
   <tr><td class="semester">Fall 2020</td> <td><a href="/courses/capitalism.2020">Capitalism and American Religion</a></td></tr>

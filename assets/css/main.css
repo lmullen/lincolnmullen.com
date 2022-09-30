@@ -6,7 +6,7 @@
   --lm-primary-hover-color: rgb(157, 40, 36);
   --bs-body-color: #121213;
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1.1rem;
+  /* --bs-body-font-size: 1.1rem; */
   --bs-border-color: #dee2e6;
   --bs-border-style: solid;
   --bs-border-width: 1px;
@@ -28,8 +28,13 @@ body {
   margin-bottom: 2rem;
 }
 
-.container {
+.main-container {
   max-width: 1000px;
+}
+
+/* Typography */
+strong {
+  font-weight: 500;
 }
 
 /* Navigation */
@@ -68,4 +73,8 @@ nav a {
 .homepage-header {
   font-weight: 500;
   font-size: var(--bs-body-font-size);
+}
+
+.border-none {
+  border-width: 0;
 }

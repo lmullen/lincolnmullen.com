@@ -52,26 +52,29 @@
 
 	{{ block "page-header" . }}
 
-	<header id="site-header">
-		<nav id="site-nav">
-			<a href="/" class="site-title">{{ .Site.Title }}</a>
-			<a href="/">About</a>
-			<a href="//files.lincolnmullen.com/Mullen-cv.pdf">CV</a>
-			<a href="/scholarship/">Scholarship</a>
-			<a href="/courses/">Teaching</a>
-			<a href="/blog/">Blog</a>
-			<a href="https://weblog.lincolnmullen.com">Microblog</a>
-		</nav>
-		<hr class="nav">
-	</header>
+	<div class="container">
 
-	{{ end }}
-
-	<main>
-		{{ block "main" . }}
+		<header id="site-header">
+			<nav id="site-nav">
+				<a href="/" class="site-title">{{ .Site.Title }}</a>
+				<a href="/">About</a>
+				<a href="//files.lincolnmullen.com/Mullen-cv.pdf">CV</a>
+				<a href="/scholarship/">Scholarship</a>
+				<a href="/courses/">Teaching</a>
+				<a href="/blog/">Blog</a>
+				<a href="https://weblog.lincolnmullen.com">Microblog</a>
+			</nav>
+		</header>
 
 		{{ end }}
-	</main>
+
+		<main>
+			{{ block "main" . }}
+
+			{{ end }}
+		</main>
+
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 

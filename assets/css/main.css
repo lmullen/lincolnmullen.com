@@ -1,4 +1,42 @@
 :root {
   --bs-font-sans-serif: "IBM Plex Sans", sans-serif;
   --bs-font-monospace: "IBM Plex Mono", monospace;
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1.1rem;
+  --bs-body-color: #121213;
+  --bs-link-color: rgb(195, 42, 38);
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --lm-border-color: #bebebe;
+  --lm-gap: 1rem;
+  --lm-border: var(--bs-border-width) var(--bs-border-style) var(--lm-border-color);
+}
+
+/* Body styles */
+body {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+/* Navigation */
+nav a {
+  padding-right: 0.65rem;
+  white-space: nowrap;
+}
+
+.site-title {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+
+#site-header {
+  padding-bottom: var(--lm-gap);
+  margin-bottom: var(--lm-gap);
+  border-bottom: var(--lm-border);
 }

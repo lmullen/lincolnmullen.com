@@ -13,6 +13,17 @@ There are some great independent websites. [Robin Sloan](https://www.robinsloan.
 
 [Reclaim Hosting](https://reclaimhosting.com/) is a great web host. [Micro.blog](https://micro.blog/) is a fun blogging, social media place.
 
+## 🖥 Technology and computing
+
+A while back I [shared my setup](https://usesthis.com/interviews/lincoln.mullen/) with Uses This. 
+
+## 💻 Websites
+
+Here are some websites I like to read:
+
+- [Ars Technica](https://arstechnica.com/)
+- [Uses This](https://usesthis.com/)
+
 ## 📚 Books
 
 Again, this is highly selective, but [recent books](https://weblog.lincolnmullen.com/reading/) that I have read are on my weblog. The [Epilogue](https://epilogue.micro.blog/) app from the creators of Micro.blog is a lightweight way of tracking reading.

@@ -23,6 +23,7 @@ Here are some websites I like to read:
 
 - [Ars Technica](https://arstechnica.com/)
 - [Uses This](https://usesthis.com/)
+- [The Changelog](https://changelog.com/)
 
 ## 📚 Books
 

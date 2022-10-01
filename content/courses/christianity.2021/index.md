@@ -18,11 +18,11 @@ toc: true
 draft: false
 ---
 
-# Course description
+## Course description
 
 This course is organized around a comparative examination of the many forms global Christianity has taken over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adaptation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts, the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as an element of global systems organized around missions, empire, migration, trade, and warfare.
 
-# Learning goals
+## Learning goals
 
 At the end of this course, you will be able 
 
@@ -34,7 +34,7 @@ At the end of this course, you will be able
 
 This course fulfills the Mason Core requirement for [Global Understanding](https://catalog.gmu.edu/mason-core/#global), and you will also meet those learning goals in addition to the course-specific learning goals.
 
-# Essential information
+## Essential information
 
 For spring semester 2021, this class will be taught both in-person and online, depending on which section you registered for. Of course, given ongoing developments of the pandemic and the possibility of COVID-19 exposure, we will all have to remain flexible. In addition to following all GMU policies about COVID-19, I ask that you communicate with me if you will be absent from class or if you will turn in an assignment late. Likewise, please check for emails and other messages from me in case it is ever necessary to hold class entirely online. By working together, we will make this a semester where you stay safe and learn a great deal about the history of Christianity.
 
@@ -54,7 +54,7 @@ You are always welcome to talk with me during office hours. To do so, please [bo
 - Sanneh, Lamin. *Disciples of All Nations: Pillars of World Christianity*. Oxford University Press, 2008. ISBN: 9780195189612.
 - Achebe, Chinua. *Things Fall Apart*. Penguin, 1994 (first published 1958). ISBN: 9780385474542. 
 
-# Assignments 
+## Assignments 
 
 Grades will be based on the following assignments. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59). Turn in all assignments on Blackboard.
 
@@ -68,7 +68,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Midterm exam (20%) and final exam (20%).* Exams will include essay and identification questions.
 
-# Schedule 
+## Schedule 
 
 ### Tuesday, January 26: Introduction: The pillar of translation
 
@@ -232,7 +232,7 @@ Exam to be given online. Details to be announced.
 
 Exam to be given online. Details to be announced.
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

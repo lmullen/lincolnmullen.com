@@ -18,11 +18,11 @@ year: 2021
 draft: false
 ---
 
-# Course description
+## Course description
 
 In this class, you will to learn to do history using digital tools. The course---which satisfies the [Mason Core IT requirement](http://masoncore.gmu.edu/general-education-at-mason-2/information-technology-1/)---teaches the fundamentals of information technology by applying them to practical problems in history. Throughout the semester, you will work individually and with classmates on a series of projects about American history during the period of Reconstruction. You will learn how to do research online, but also how to put those sources in the context of other scholarly work. You will gather data, learn how to question it, analyze it, summarize it, and interpret it. You will create visualizations of datasets, including maps. You will learn how to present visual and textual sources online in web exhibits, and you will learn how to write and publish effectively online. Through learning by doing, you will gain both digital skills and the skills of a historian. This combination will be useful to you throughout your university career and in your future work. The topics we are learning---digital literacy, and the complex of issues around race, politics, and economics tied to the history of Reconstruction---are now more than ever vital to understanding and participating in American democracy.
 
-# Learning goals
+## Learning goals
 
 In this course you will
 
@@ -38,7 +38,7 @@ You will also learn the [IT competencies](http://masoncore.gmu.edu/general-educa
 3.  Students can use appropriate information and computing technologies to organize and analyze information and use it to guide decision-making.
 4.  Students will be able to choose and apply appropriate algorithmic methods to solve a problem.
 
-# Essential information
+## Essential information
 
 For spring semester 2021, this class will be taught online. Of course, given ongoing developments of the pandemic and the possibility of COVID-19 exposure, we will all have to remain flexible. In addition to following all GMU policies about COVID-19, I ask that you communicate with me if you will be absent from class or if you will turn in an assignment late. Likewise, please check for emails and other messages from me in case there are ever any developments that affect our class. By working together, we will make this a semester where you stay safe and learn a great deal about information technology and the history of Reconstruction.
 
@@ -58,7 +58,7 @@ You are always welcome to talk with me during office hours. To do so, please [bo
 
 You will also need to sign up for a year's hosting with [Reclaim Hosting](https://reclaimhosting.com/shared-hosting/). Do the cheapest option, the "Personal Plan." We will go over this in class, and you do not need to set this up until I explain it.
 
-# Assignments
+## Assignments
 
 Grades will be based on the following assignments. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
@@ -76,7 +76,7 @@ In this class you will create a number of smaller projects on the history of Rec
 
 **Participation (10%).** In addition to participating in class discussions, specific opportunities for participating in class (in person or online) will be explained prior to class sessions. These will sometimes include smaller group discussions through breakout rooms in Slack and Zoom.
 
-# Schedule
+## Schedule
 
 ### Tues. Jan. 26. Introduction.
 
@@ -432,11 +432,11 @@ Readings:
 
 In class: How Reconstruction has shaped our present.
 
-## Tuesday, May 4: Final exam, 1:30pm–4:15pm
+### Tuesday, May 4: Final exam, 1:30pm–4:15pm
 
 Exam to be given online. Details to be announced.
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

@@ -16,7 +16,7 @@ university: George Mason University
 year: 2020
 ---
 
-# Important updates
+## Important updates
 
 This syllabus has been modified for the move to online classes for the remainder of the semester. This online syllabus will be kept up to date and is your best source of guidance for the requirements of this course.
 
@@ -34,11 +34,11 @@ The key changes are these:
 
 What won't change is that I am committed to you and your success in the course. Please let me know whenever you need help.
 
-# Course description
+## Course description
 
 In this course you will learn to use computational methods to create historical interpretations. You will work with historical data, which includes finding, gathering, manipulating, analyzing, visualizing, and arguing from datasets, with special attention to geospatial, textual, and network data. These methods will be taught primarily using the [R programming language](https://www.r-project.org/). While data analysis methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century United States, and then apply the methods to write a research paper using a dataset from your own historical field.
 
-# Learning goals
+## Learning goals
 
 After taking this course, you will be able to
 
@@ -47,7 +47,7 @@ After taking this course, you will be able to
 -   understand the place of data analysis and visualization within the field of digital history and the discipline of history.
 -   conceive of and execute a short research project in computational history.
 
-# Essential information
+## Essential information
 
 Most required readings are available online or through the GMU libraries. These are the main books that we will be using.
 
@@ -64,7 +64,7 @@ Bring a computer to each class meeting. For the most part, we will be using an R
 
 In general I have provided datasets and questions for you to work on for all the assignments except the final paper. But for any assignment, you may substitute a dataset from your own historical field after checking with me. The forward-thinking graduate student will try to find such datasets early on in the semester so that you can use the intermediate assignments as preparation for your final assignment. If you can peer even farther into the future, you could try to use the final assignment as a test run for work you might want to do in one of your own research projects, such as a conference presentation, article, or dissertation.
 
-# Assignments
+## Assignments
 
 For each assignment, you should send me the completed HTML file knit from your RMarkdown document. Please submit the assignments via the Blackboard page for this class. Send the assignments before the start of class on the day on which they are due.
 
@@ -76,7 +76,7 @@ Preparation and participation are expected as a matter of course in a graduate c
 
 **Final project (35%).** You will designate one of the analysis assignments as a stepping stone to your final project. For that analysis assignment, you will use the same dataset that you will use for the final project. You will try out one of the methods we are learning on that dataset. In addition to the normal feedback that I will provide on an assignment, I will also give you guidance about how to refine and expand your analysis, visualizations, and interpretations. Then, you will expand and revise the work you did in the analysis assignment for the final project. This expanded version should include more prose and citations, not to exceed 1,500 words. The visualizations and data analysis should be expanded if necessary and refined in each case to the level of quality that would be expected in a published article. Each table and figure must have a caption written in complete sentences. Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The final assignment will be evaluated according to two primary criteria: (1) Did the visualizations significantly improve in refinement and quality? (2) Does the combination of prose and visualizations convey a meaningful historical argument? Due Monday, May 18 at 5pm.
 
-# Schedule
+## Schedule
 
 ### Week 1 (January 27): Introduction to computational history
 
@@ -286,7 +286,7 @@ Assignment:
 
 -   Circulate a draft of your final project in Slack by Friday, May 8. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

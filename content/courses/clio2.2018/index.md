@@ -18,11 +18,11 @@ toc: true
 draft: false
 ---
 
-# Course description
+## Course description
 
 In this course you will learn to apply computational methods to create historical arguments. You will learn to work with historical data, including finding, gathering, manipulating, analyzing, visualizing, and arguing from data, with special attention to geospatial, textual, and network data. These methods will be taught primarily through scripting in the [R programming language](https://www.r-project.org/). While historical methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century U.S. religion, and you will apply these methods to a dataset in your own field of research.
 
-# Learning goals
+## Learning goals
 
 After taking this course, you will be able to
 
@@ -32,13 +32,13 @@ After taking this course, you will be able to
 -   conceive of and execute a research project in computational history suitable for treatment in a dissertation chapter or journal article.
 -   take the course "Programming in History/New Media," a.k.a. Clio 3, should you choose.
 
-# Essential information
+## Essential information
 
 You are always welcome to [book an appointment](/page/office-hours/) during my office hours. If the times that are available do not work for you, feel free to contact me. All communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help.
 
 Bring a computer to each class meeting. We will use [R](https://cran.rstudio.com/) and [RStudio](https://www.rstudio.com/products/rstudio/#Desktop). [Install them](http://dh-r.lincolnmullen.com/installing-r-and-packages.html) on your own computer. You will also have access to an [RStudio Server instance](http://rstudio.chnm.org/) which will let you use R in your browser. Much of your work for the course will go on [GitHub](https://github.com/), so sign up for an account.
 
-### Main texts
+## Main texts
 
 All required readings are available online for free or through the GMU libraries, though they can also be purchased (sometimes in more complete editions) in print or e-books. These are the books we will use most frequently.
 
@@ -48,7 +48,7 @@ All required readings are available online for free or through the GMU libraries
 - Julia Silge and David Robinson, [*Text Mining with R: A Tidy Approach*](https://www.tidytextmining.com/) (O'Reilly, 2017).
 - Hadley Wickham and Garrett Grolemund, [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/) (O'Reilly, 2017).
 
-# Assignments
+## Assignments
 
 **Be prepared**. Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings.
 
@@ -63,7 +63,7 @@ All required readings are available online for free or through the GMU libraries
 
 **Research paper (25%).** You will write one research paper suitable for a presentation at a disciplinary or digital humanities conference (see for example the CFP for [Current Research in Digital History](http://crdh.rrchnm.org/), or the CFP for the major conference in your field). This paper must advance a historical argument using data analysis of a set of sources that you choose from your research interests. Submit this paper as a PDF or self-contained HTML file (if it includes interactive visualizations) to [this Dropbox folder](https://www.dropbox.com/request/grN2YG0bS4ycamVCjHXX). Further instructions will be given throughout the semester. **Due May 10.**
 
-# Schedule
+## Schedule
 
 ### Week 1 (Jan. 22): Introduction
 
@@ -249,7 +249,7 @@ Tutorials:
 
 Topic and readings to be determined by the needs of student research papers.
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

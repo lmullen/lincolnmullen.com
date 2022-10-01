@@ -17,17 +17,17 @@ officehours: "by appointment"
 toc: true
 ---
 
-# Course description
+## Course description
 
 In this course you will work collaboratively to create a web application from scratch that does something historically meaningful. We will decide what the scope and purpose of the web application should be, including its historical content. By working on a web application, you will learn three fundamental technologies: how to create a data model and administer a relational database; how to create an application layer using a web application framework; and how to create a user interface for the web. We will use PostgreSQL as the database, the Django web framework for the Python programming language for the application, and HTML, CSS, JavaScript and other web standards for the user interface. You will thus become familiar with those languages and frameworks, as well as with the tools and techniques of collaborative software development. But more important, you will learn to conceptualize, manage, and design a project that makes a meaningful contribution to the field of digital history.
 
-# Learning goals
+## Learning goals
 
 - You will have a basic proficiency in Python and the Django web application framework, as well as related web technologies.
 - You will understand the structures and common patterns of web applications.
 - You will understand how to adapt web technologies to historical purposes, as well as how to collaborate on software development in the humanities.
 
-# Essential information
+## Essential information
 
 This class will be very flexible, and so you will have to be flexible too. The first few weeks will acquaint you with the basics of programming for web applications. You will learn the kinds of things that would apply to any project that you might build. After that, we will be working on building a historical project together. The specific things we will need to know will depend on what we decide to do. This is by design: figuring out what you need to learn is an important skill, maybe the most important skill.
 
@@ -54,7 +54,7 @@ Try to install the following software or get accounts at the following places be
 - Sign up for a [GitHub](https://github.com) account if you don't already have one.
 - You will be given a login account to a development server at RRCHNM at an appropriate point in the semester. We will use this to deploy our class project.
 
-# Assignments
+## Assignments
 
 For each class there will be readings, tutorials, or the like that you will need to do in order to come to class prepared. Most students have found that they should do these readings before class and again after class. These will count for 20% of your grade.
 
@@ -62,7 +62,7 @@ For the first weeks of the semester, you will complete the tutorials from each o
 
 For the remainder of the semester, we will work on some project that we will define. Your contributions to the project may vary in form from other people in the class, but you will have to submit evidence of substantial contribution (such as commits to the repository, documentation written, design documents, and so forth). Your work on this project will count for 50% of your grade. 
 
-# Schedule
+## Schedule
 
 ### Week 1 (August 27): Introduction
 
@@ -161,7 +161,7 @@ TBD
 
 🚀 Initial release of the class project on or around this date 🚀
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

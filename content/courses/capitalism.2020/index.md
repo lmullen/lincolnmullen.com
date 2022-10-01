@@ -17,13 +17,11 @@ university: George Mason University
 year: 2020
 ---
 
-
-
-# Course description
+## Course description
 
 The relationship between religion and capitalism has long occupied historians of the United States, and before them it concerned the people whom historians study. In this class, you will meet many people whose religion led them to interact with capitalism in unexpected and unusual ways. You will meet the Puritans whose work ethic supposedly created capitalism, but who insisted on resting on the Sabbath; Moravian missionaries who made converts and money; slaves, slaveowners, and abolitionists who all claimed the Bible when reckoning with the capitalist system of slavery; a Protestant writer who insisted that Jesus was a businessman, and Catholics who believed Jesus called them to a kind of socialism; African American preachers who marketed their recorded sermons; Jews who mass-manufactured matzah and created Yiddish socialism; an industrialist who wrote *The Gospel of Wealth*, and laborers who created churches for the working class; nineteenth-century consumers who turned gift-giving into a ritual, and twenty-first-century television personalities who turned consumption into therapy; Christians whose faith turned them into environmentalists, and Christians who drilled for crude oil; converts who thought religion required poverty, and Prosperity Gospelers who thought it promised wealth. You will read primary sources from American history, secondary works in American religious history, and excerpts from theorists of religion and capitalism. Through these readings and your own writing, you are invited to make sense of this perpetual historical puzzle.
 
-# Essential information
+## Essential information
 
 You are always welcome to talk with me during office hours via Zoom. My [office hours page](/page/office-hours/) has instructions on how to book an appointment.
 
@@ -31,7 +29,7 @@ All communication for this course will happen in [our Slack group](https://mason
 
 Each week the syllabus features a main, book-length reading, and an article- or chapter-length reading for comparison. All of the main readings listed on the schedule are available for purchase in the university bookstore and elsewhere. Feel free to buy or borrow as you like: just be sure you have a copy you can read in full. The comparison readings are available through the university library, in PDF, or online, though in a few instances I have suggested editions that would be worth purchasing.
 
-# Assignments
+## Assignments
 
 All written assignments should be submitted to the course Blackboard site as a PDF. You should also circulate your book reviews and primary sources via Slack so that other people in the class can read them. Book reviews and primary sources must be circulated by Thursday night before the relevant class meeting. Standard rules for historical papers: 11- or 12-point serif font; 1-inch margins; double-spaced; follow the *Chicago Manual of Style* religiously. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
@@ -47,7 +45,7 @@ All written assignments should be submitted to the course Blackboard site as a P
 - Rough draft due on December 1.
 - Final paper due on December 10.
 
-# Schedule
+## Schedule
 
 ### August 24 (Week 1): Globalism
 
@@ -227,7 +225,7 @@ Suggested readings:
 -   Burton, *Strange Rites*.
 -   Bowler, *The Preacher's Wife*.
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version. In particular, this syllabus may be updated significantly as necessary in response to the pandemic.
 

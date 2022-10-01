@@ -18,7 +18,7 @@ toc: true
 draft: false
 ---
 
-# Course description
+## Course description
 
 In this course you will learn to use computational methods to create historical arguments. You will work with historical data, including finding, gathering, manipulating, analyzing, visualizing, and arguing from data, with special attention to geospatial, textual, and network data. These methods will be taught primarily through scripting in the [R programming language](https://www.r-project.org/). While historical methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century United States, and you will apply these methods to a dataset in your own field of research. 
 
@@ -26,7 +26,7 @@ Additional emphasis will be placed on publishing your scholarship on the web. Wh
 
 In other words, this class will teach you how to have something historically meaningful to say from data, and how to publish what you want to say on the web.
 
-# Learning goals
+## Learning goals
 
 After taking this course, you will be able to
 
@@ -36,7 +36,7 @@ After taking this course, you will be able to
 - conceive of and execute a short research project in computational history. 
 - publish your scholarship on the web.
 
-# Essential information
+## Essential information
 
 This is a graduate methods course in a field that moves reasonably quickly. The syllabus is likely to change over the course of the semester. In particular, I am likely to send you additional projects or visualizations to look at before class.
 
@@ -59,7 +59,7 @@ All the other required readings are available online or through the GMU librarie
 
 In general I have provided datasets and questions for you to work on for all the assignments except the final paper. But for any assignment, you may substitute a dataset from your own historical interests after checking with me. The forward-thinking graduate student will try to find such datasets early on in the semester so that you can use the intermediate assignments as preparation for your final assignment. If you can peer even farther into the future, you can try to use the final assignment as a test run of work you might want to do in one of your own research projects, such as an article or a dissertation.
 
-# Assignments 
+## Assignments 
 
 Assignments should be [submitted via this form](https://goo.gl/forms/J0a0sYVk4AANryBq2) unless otherwise instructed. For each assignment you will be expected to turn in two things. The first will be a web page with a public-facing presentation of your work. The other will be a GitHub repository with the source code that creates that web page.
 
@@ -71,7 +71,7 @@ Preparation and participation are expected as a matter of course in a graduate c
 
 **Research paper (35%).** You will write a research paper suitable for a presentation at a disciplinary or digital humanities conference. This paper should advance a historical argumentation on the basis computational historical methods, though you can and should use more traditional historical methods as necessary. The body of the paper should be about 2,000 words in length. It should include notes in Chicago format like any other work of history. The paper should include embedded visualizations or tables as appropriate. Each table and figure must have a caption written in complete sentences. The paper should be attractively presented on your website using the [Radix RMarkdown format](https://rstudio.github.io/radix/). Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The paper should be accompanied by a GitHub repository containing your data and code in a reproducible analysis. Ideally this paper could be presented at a conference, and it could serve as a trial for computational work you might do in a larger research project. As a model, see the most recent [CFP](http://crdh.rrchnm.org/cfp/) for *Current Research in Digital History*. Due Monday, May 13 at 5pm.
 
-# Schedule 
+## Schedule 
 
 ### Week 1 (January 28): The web
 
@@ -273,7 +273,7 @@ Possible topic:
 
 - [Distant Viewing](https://www.distantviewing.org)
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

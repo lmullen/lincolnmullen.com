@@ -32,11 +32,15 @@ body {
   max-width: 1000px;
 }
 
-/* Typography */
-
-h1 {
+footer {
+  font-size: 0.9rem;
+  border-top: var(--lm-border);
+  margin-top: calc(2 * var(--lm-gap));
+  padding-top: calc(2 * var(--lm-gap));
+  margin-bottom: calc(4 * var(--lm-gap));
 }
 
+/* Typography */
 strong {
   font-weight: 500;
 }

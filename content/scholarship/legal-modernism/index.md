@@ -12,5 +12,5 @@ links:
 description: |
   Law and legal practice modernized in the nineteenth-century United States. The textual record of legal modernization is vast. Hundreds of volumes of regulations were formulated, copied, and re-formulated by legislatures. Millions of case reports became the authoritative building blocks for the thousands of treatises from which modern American law was constructed. 
   
-  [Kellen Funk](https://kellenfunk.org/) and I are studying and visualizing the history of the modernization of American law through computational methods.
+  We are studying and visualizing the history of the modernization of American law through computational methods.
 ---

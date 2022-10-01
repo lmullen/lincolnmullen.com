@@ -18,49 +18,9 @@
 		{{ .Content }}
 	</div>
 
-	<div class="row">
-		<h3 class="h4">Current work</h3>
+	{{ partial "homepage-gallery.html" . }}
 
-		{{ $scholarship := where (where .Site.RegularPages "Type" "scholarship" ) "Params.homepage" "==" true }}
-		{{ range sort $scholarship "Params.homepageOrder"}}
-
-		<div class="card border-none mb-3 homepage-card">
-			<div class="row g-0">
-				<div class="col-md-4 col-sm-4">
-					{{ $img := .Resources.Get .Params.thumbnail }}
-					{{ $thumb1x := $img.Resize "600x webp" }}
-					{{ $thumb2x := $img.Resize "1200x webp" }}
-					<img class="img-thumbnail rounded img-fluid" src="{{ $thumb2x.Permalink }}" srcset="{{ $thumb1x.Permalink }} 1x, {{ $thumb2x.Permalink }} 2x" alt="Thumbnail for {{ .Title }}" />
-				</div>
-				<div class="col-md-8 col-sm-8">
-					<div class="card-body pt-md-0 pt-sm-0">
-						<h5 class="card-title mb-0">{{ .Title }}</h5>
-						{{ if .Params.Subtitle }}<p class="h5"><span class="text-muted small">{{ .Params.Subtitle }}</span></p>{{ end }}
-						<div class="card-text">
-							{{ .Description | markdownify }}
-						</div>
-						{{ if .Params.Links }}
-						<p>
-							{{ range .Params.Links }}
-							<a class="card-link" href="{{ .url }}">{{ .text }}&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
-							{{ end }}
-						</p>
-						{{ end }}
-					</div>
-				</div>
-			</div>
-		</div>
-
-		{{ end }}
-
-		<li><em>America’s Public Bible: A Commentary</em> is a large-scale text
-			analysis of the use of the Bible in American newspapers. A <a href="http://americaspublicbible.org/">prototype</a> of the project is
-			available online, and I’m working on an expanded version.</li>
-		<li>Nothing else I ever do will be as popular as this <a href="https://lincolnmullen.com/projects/slavery/">map of American
-				slavery</a>.</li>
-		</ul>
-	</div>
-
+	<!-- Move the sidebar to the bottom on small screens -->
 	<div class="d-md-none">
 		{{ partial "homepage-sidebar.html" . }}
 	</div>

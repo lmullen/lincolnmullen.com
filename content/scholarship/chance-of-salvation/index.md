@@ -3,7 +3,7 @@ title: "The Chance of Salvation: A History of Conversion in America"
 subtitle: "Harvard University Press, 2017"
 thumbnail: "chance-of-salvation-cover.jpg"
 homepage: true
-homepageOrder: 4
+homepageOrder: 5
 links:
 - url: http://www.hup.harvard.edu/catalog.php?isbn=9780674975620
   text: Harvard University Press

@@ -33,6 +33,10 @@ body {
 }
 
 /* Typography */
+
+h1 {
+}
+
 strong {
   font-weight: 500;
 }
@@ -46,7 +50,7 @@ strong {
 }
 
 .site-title {
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
   color: var(--bs-body-color);
 }
@@ -93,11 +97,24 @@ strong {
 
 /* Teaching */
 .semester {
-  /* min-width: 100%; */
-  /* display: inline-block; */
   text-align: right;
-  /* padding-right: 1rem; */
-  /* padding-left: 0; */
   padding: 0;
   white-space: nowrap;
 }
+
+/* article.syllabus nav#TableOfContents ul li ul {
+  display: none;
+}
+
+article.syllabus nav#TableOfContents ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  padding: 0;
+}
+
+article.syllabus nav#TableOfContents ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */

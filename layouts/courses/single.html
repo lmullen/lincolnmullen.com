@@ -32,3 +32,11 @@
 </article>
 
 {{ end }}
+
+{{ define "scripts" }}
+{{- $path := "js/demote-headings.js" -}}
+{{- $opts := dict "minify" "true" -}}
+{{- $js := resources.Get ($path) | js.Build $opts -}}
+{{- $script := $js | resources.Fingerprint -}}
+<script src="{{ $script.Permalink }}"></script>
+{{ end }}

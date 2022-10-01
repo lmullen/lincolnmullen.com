@@ -102,19 +102,11 @@ strong {
   white-space: nowrap;
 }
 
-/* article.syllabus nav#TableOfContents ul li ul {
-  display: none;
+.syllabus h2,
+.syllabus h3 {
+  margin-top: 2rem;
 }
 
-article.syllabus nav#TableOfContents ul {
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
-  padding: 0;
+.syllabus h2 + h3 {
+  margin-top: 0;
 }
-
-article.syllabus nav#TableOfContents ul li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-} */

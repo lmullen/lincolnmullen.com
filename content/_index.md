@@ -13,5 +13,5 @@ lede: "Greetings. I am a historian of American religion and the nineteenth-centu
 
 **Scholarship.** My scholarship is often collaborative. I have the good fortune of having collaborated with many of [my colleagues at RRCHNM](https://rrchnm.org/our-people/), and each of the project websites credits contributors fully. But I would be remiss not to mention that I have had particular fruitful collaborations with [John Turner](https://johngturner.com/) in American religion and [Kellen Funk](https://kellenfunk.org/) in American legal history.
 
-For a full list of my work, please [see my CV](http://files.lincolnmullen.com/Mullen-cv.pdf). Below is a list of my books (print and digital) and some of my collaborative digital projects, with an emphasis on ongoing work.
+For a full list of my work, please [see my CV](//files.lincolnmullen.com/Mullen-cv.pdf). Below is a list of my books (print and digital) and some of my collaborative digital projects, with an emphasis on ongoing work.
 

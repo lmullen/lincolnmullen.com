@@ -1,6 +1,6 @@
 ---
 title: "The History of American Antisemitism"
-subtitle: "A Podcast"
+subtitle: "An R2 Studios podcast"
 thumbnail: "thumbnail.png"
 homepage: true
 homepageOrder: 1

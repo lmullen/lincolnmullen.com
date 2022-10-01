@@ -1,6 +1,6 @@
 ---
-title: "The Chance of Salvation"
-subtitle: "A History of Conversion in America"
+title: "The Chance of Salvation: A History of Conversion in America"
+subtitle: "Harvard University Press, 2017"
 thumbnail: "chance-of-salvation-cover.jpg"
 homepage: true
 homepageOrder: 3

@@ -38,20 +38,20 @@ strong {
 }
 
 /* Navigation */
-nav a {
-  padding-right: 0.65rem;
-  white-space: nowrap;
-  text-decoration: none;
+.nav-link {
+  color: var(--lm-primary-color);
+}
+.nav-link:hover {
+  color: var(--lm-primary-hover-color);
 }
 
 .site-title {
-  font-weight: 600;
+  font-weight: bold;
   text-decoration: none;
   color: var(--bs-body-color);
 }
 
 #site-header {
-  padding-bottom: var(--lm-gap);
   margin-bottom: var(--lm-gap);
   border-bottom: var(--lm-border);
 }

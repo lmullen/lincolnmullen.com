@@ -1,0 +1,16 @@
+{
+  "name": "lincolnmullen.com",
+  "description": "Source code for lincolnmullen.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmullen/lincolnmullen.com.git"
+  },
+  "author": "Lincoln Mullen",
+  "bugs": {
+    "url": "https://github.com/lmullen/lincolnmullen.com/issues"
+  },
+  "homepage": "https://lincolnmullen.com",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}

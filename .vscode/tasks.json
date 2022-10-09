@@ -16,6 +16,10 @@
         "showReuseMessage": true,
         "clear": true
       },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
       "problemMatcher": []
     },
     {
@@ -30,19 +34,13 @@
         "showReuseMessage": true,
         "clear": true
       },
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
       "problemMatcher": []
     },
     {
       "label": "New post",
       "type": "shell",
       "command": "./new-post.sh",
-      "args": [
-        "${input:newPostSlug}"
-      ],
+      "args": ["${input:newPostSlug}"],
       "presentation": {
         "echo": true,
         "reveal": "silent",

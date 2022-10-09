@@ -1,27 +1,3 @@
-:root {
-  --lm-border-color: #bebebe;
-  --lm-border: var(--bs-border-width) var(--bs-border-style) var(--lm-border-color);
-  --lm-gap: 1rem;
-  --lm-primary-color: rgb(195, 42, 38);
-  --lm-primary-hover-color: rgb(157, 40, 36);
-  --bs-body-color: #121213;
-  --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1.1rem;
-  --bs-border-color: #dee2e6;
-  --bs-border-style: solid;
-  --bs-border-width: 1px;
-  --bs-font-monospace: "IBM Plex Mono", monospace;
-  --bs-font-sans-serif: "IBM Plex Sans", sans-serif;
-  --bs-link-color: var(--lm-primary-color);
-  --bs-link-hover-color: var(--lm-primary-hover-color);
-}
-.btn-primary {
-  --bs-btn-bg: var(--lm-primary-color);
-  --bs-btn-hover-bg: var(--lm-primary-hover-color);
-  --bs-btn-border-color: var(--lm-primary-color);
-  --bs-btn-hover-border-color: var(--lm-primary-hover-color);
-}
-
 /* Body styles */
 body {
   margin-top: 2rem;
@@ -34,10 +10,10 @@ body {
 
 footer {
   font-size: 0.9rem;
-  border-top: var(--lm-border);
-  margin-top: calc(2 * var(--lm-gap));
-  padding-top: calc(2 * var(--lm-gap));
-  margin-bottom: calc(4 * var(--lm-gap));
+  border-top: 1px solid $border-color;
+  margin-top: $lm-gap * 2;
+  padding-top: $lm-gap * 2;
+  margin-bottom: $lm-gap * 4;
 }
 
 /* Typography */
@@ -45,23 +21,14 @@ strong {
   font-weight: 500;
 }
 
-/* Navigation */
-.nav-link {
-  color: var(--lm-primary-color);
-}
-.nav-link:hover {
-  color: var(--lm-primary-hover-color);
-}
-
 .site-title {
   font-weight: 500;
   text-decoration: none;
-  color: var(--bs-body-color);
 }
 
 #site-header {
-  margin-bottom: var(--lm-gap);
-  border-bottom: var(--lm-border);
+  margin-bottom: $lm-gap * 2;
+  border-bottom: 1px solid $border-color;
 }
 
 /* Homepage */

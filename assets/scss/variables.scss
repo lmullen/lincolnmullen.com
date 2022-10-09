@@ -1,0 +1,24 @@
+// Custom variables
+$lm-primary: rgb(195, 42, 38);
+$lm-gap: 1rem;
+
+// Colors
+$primary: $lm-primary;
+$body-color: #121213;
+$border-color: #bebebe;
+
+// Fonts
+$font-family-sans-serif: "IBM Plex Sans", sans-serif;
+$font-family-monospace: "IBM Plex Mono", monospace;
+$font-size-base: 1.1rem;
+
+// Headings
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base;
+$h6-font-size: $font-size-base;
+
+// Miscellaneous
+$border-radius: 0.45rem;

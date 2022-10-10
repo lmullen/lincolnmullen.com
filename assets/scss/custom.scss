@@ -36,6 +36,12 @@ strong {
   margin-right: 0.5rem;
 }
 
+// This lines up SVGs brought in via an <img> tag with the Bootstrap
+// icons brought in via the <i> tag.
+img.list-icon {
+  margin-top: -0.2rem;
+}
+
 #site-header a,
 #homepage-sidebar a {
   text-decoration: none;

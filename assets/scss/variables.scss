@@ -10,14 +10,14 @@ $border-color: #bebebe;
 // Fonts
 $font-family-sans-serif: "IBM Plex Sans", sans-serif;
 $font-family-monospace: "IBM Plex Mono", monospace;
-$font-size-base: 1.1rem;
+$font-size-base: 1rem;
 $font-weight-semibold: 500;
 
 // Headings
-$h1-font-size: $font-size-base * 2;
-$h2-font-size: $font-size-base * 1.75;
-$h3-font-size: $font-size-base * 1.5;
-$h4-font-size: $font-size-base * 1.25;
+$h1-font-size: $font-size-base * 1.75; // = 28px
+$h2-font-size: $font-size-base * 1.5; // = 24px
+$h3-font-size: $font-size-base * 1.25; // = 20px
+$h4-font-size: $font-size-base * 1.125; // = 18px
 $h5-font-size: $font-size-base;
 $h6-font-size: $font-size-base;
 

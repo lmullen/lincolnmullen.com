@@ -24,8 +24,15 @@ strong {
 .site-title {
   font-weight: 500;
   text-decoration: none;
+  font-size: 1rem;
 }
 
+blockquote {
+  margin-left: 2rem;
+  font-size: 0.95rem;
+}
+
+/* Base */
 #site-header {
   margin-bottom: $lm-gap * 2;
   border-bottom: 1px solid $border-color;
@@ -131,14 +138,15 @@ a.permalink {
   color: inherit;
 }
 
-.post-date {
-  font-size: 0.9rem;
-}
-
 .post-title {
   margin-top: -0.25rem;
 }
 
 .post-separator {
   margin: 5rem 10rem;
+}
+
+.blog-archive td {
+  padding-bottom: 0.5rem;
+  vertical-align: top;
 }

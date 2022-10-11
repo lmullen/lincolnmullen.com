@@ -12,7 +12,7 @@
   </div>
 
   <header>
-    <h1>{{ .Title }} ({{ .Params.semester }} {{ .Params.year }})</h1>
+    <h1>{{ .Title | markdownify }} ({{ .Params.semester }} {{ .Params.year }})</h1>
     <div class="card my-4">
       <div class="card-body">
         <p>

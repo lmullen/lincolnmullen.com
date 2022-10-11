@@ -9,7 +9,7 @@
 <ul class="page-list">
   {{ range where .Pages ".Params.hidden" "!=" "true" }}
   <li>
-    <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    <a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a>
   </li>
   {{ end }}
 </ul>

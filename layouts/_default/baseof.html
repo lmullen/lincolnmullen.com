@@ -56,21 +56,26 @@
 	<div class="container main-container">
 
 		<header id="site-header">
-			<nav class="navbar navbar-expand">
-				<div class="container-fluid">
-					<a href="/" class="navbar-brand site-title mb-0">{{ .Site.Title }}</a>
-					<div class="collapse navbar-collapse">
-						<div class="navbar-nav">
-							<a class="nav-link" href="/">About</a>
-							<a class="nav-link" href="//files.lincolnmullen.com/Mullen-cv.pdf">CV</a>
-							<!-- <a class="nav-link" href="/scholarship/">Scholarship</a> -->
-							<a class="nav-link" href="/courses/">Teaching</a>
-							<a class="nav-link" href="/blog/">Blog</a>
-							<!-- <a href="https://weblog.lincolnmullen.com">Microblog</a> -->
-						</div>
-					</div>
-				</div>
-			</nav>
+			<ul class="nav flex-column flex-sm-row mb-3">
+				<li>
+					<a href="/" class="nav-link site-title">{{ .Site.Title }}</a>
+				</li>
+				<li>
+					<a class="nav-link" href="/">About</a>
+				</li>
+				<li>
+					<a class="nav-link" href="//files.lincolnmullen.com/Mullen-cv.pdf">CV</a>
+				</li>
+				<!-- <li> -->
+				<!-- <a class="nav-link" href="/scholarship/">Scholarship</a> -->
+				<!-- </li> -->
+				<li>
+					<a class="nav-link" href="/courses/">Teaching</a>
+				</li>
+				<li>
+					<a class="nav-link" href="/blog/">Blog</a>
+				</li>
+			</ul>
 		</header>
 
 		{{ end }}

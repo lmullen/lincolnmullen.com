@@ -9,8 +9,8 @@ The graduate students in my fall 2014 class "[Programming for Historians](http:/
 
 {{< figure src="teaching-grad-students-to-code.png" caption="The poster on teaching graduate students to code. Also available as a [PDF](teaching-grad-students-to-code.pdf).">}}
 
-</figcaption>
-</figure>
+<!--more-->
+
 The projects created by the graduate students in the course, along with the code that they wrote, are available at their own websites. Below is a list of authors and project titles:
 
 -   Sara Collini, "[Network Analysis of the Enslaved Community at Mount Vernon, 1786--1799](http://www.rpubs.com/scollini/final)"

@@ -12,6 +12,8 @@ Following that DOI will take you to [this page](https://academic.oup.com/ahr/art
 
 {{< figure src="01-blocked.png" caption="A paywalled version of the article." >}}
 
+<!--more-->
+
 We can send that URL through the GMU proxy and get to a version where we have access by adding the following prefix:
 
 ```

@@ -15,11 +15,13 @@
 
         {{ partial "article-meta" . }}
 
-        <div class='post-body e-content'>
+        <div class='post-body e-content mt-3'>
           {{ .Content }}
         </div>
       </article>
-      <div class="post-separator"></div>
+      <div class="post-separator">
+        <hr class="border-1 opacity-10">
+      </div>
       {{ end }}
     </div>
   </div>

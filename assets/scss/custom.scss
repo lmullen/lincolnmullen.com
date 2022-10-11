@@ -31,6 +31,16 @@ strong {
   border-bottom: 1px solid $border-color;
 }
 
+/* Figures */
+figcaption {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+figcaption em {
+  font-style: normal;
+}
+
 /* Homepage */
 .list-icon {
   margin-right: 0.5rem;
@@ -121,6 +131,6 @@ a.permalink {
   margin-top: -0.25rem;
 }
 
-.blog-list article.post {
-  margin-bottom: 6rem;
+.post-separator {
+  margin: 5rem 10rem;
 }

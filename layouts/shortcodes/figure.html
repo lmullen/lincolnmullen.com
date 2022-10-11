@@ -1,11 +1,11 @@
 <!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html -->
-<figure>
+<figure class="my-5">
 	{{ $raw := .Get "src" | $.Page.Resources.Get }}
 	{{ $regular := $raw.Fit "800x3200 webp"}}
 	{{ $bigger := $raw.Fit "1200x4800 webp"}}
 	{{ $retina := $raw.Fit "1600x6400 webp"}}
 	<img class="img-fluid" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }}, {{ $bigger.Permalink }} 1.5x, {{ $retina.Permalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}' />
-	<figcaption>
+	<figcaption class="ms-5">
 		<p>
 			{{ .Get "caption" | markdownify }}
 		</p>

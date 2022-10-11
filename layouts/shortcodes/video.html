@@ -1,11 +1,11 @@
 <!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html -->
-<figure>
+<figure class="my-5">
 	{{ $src := .Get "src" | $.Page.Resources.GetMatch }}
 	<video class="ratio" controls {{ if .Get "autoplay" }} autoplay loop {{ end }}>
 		<source src="{{ $src.Permalink }}" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
-	<figcaption>
+	<figcaption class="ms-5">
 		<p>
 			{{ .Get "caption" | markdownify }}
 		</p>

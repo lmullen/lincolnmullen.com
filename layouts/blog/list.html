@@ -9,7 +9,7 @@
     </div>
     <div class="col-md-9 order-md-1 blog-list">
 
-      {{ range first 10 .Pages }}
+      {{ range .Paginator.Pages }}
 
       <article id='{{ urlize .Title }}' class="h-entry post">
 
@@ -23,6 +23,7 @@
         <hr class="border-1 opacity-10">
       </div>
       {{ end }}
+      {{ partial "pagination.html" . }}
     </div>
   </div>
 </div>

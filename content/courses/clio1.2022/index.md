@@ -191,6 +191,8 @@ Do before class:
 
 _Note that class meets on Tuesday this week due to the "Mason Monday."_
 
+_Guest: Jason Heppler_
+
 Read:
 
 - Jason Heppler, [*Machines in the Valley*](http://machinesinthevalley.org). 

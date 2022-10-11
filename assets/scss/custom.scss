@@ -17,19 +17,12 @@ footer {
 }
 
 /* Typography */
-
 p + h2 {
   margin-top: 1.5rem;
 }
 
 strong {
   font-weight: $font-weight-semibold;
-}
-
-.site-title {
-  font-weight: 500;
-  text-decoration: none;
-  font-size: $font-size-base;
 }
 
 blockquote {
@@ -41,6 +34,16 @@ blockquote {
 #site-header {
   margin-bottom: $lm-gap * 2;
   border-bottom: 1px solid $border-color;
+}
+
+.site-title {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: $font-size-base;
+}
+
+.nav-link {
+  color: $primary;
 }
 
 /* Figures */

@@ -16,10 +16,7 @@
         "showReuseMessage": true,
         "clear": true
       },
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
+      "group": "build",
       "problemMatcher": []
     },
     {
@@ -34,7 +31,11 @@
         "showReuseMessage": true,
         "clear": true
       },
-      "problemMatcher": []
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     },
     {
       "label": "New post",

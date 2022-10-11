@@ -15,6 +15,8 @@ lesson.01.md.pdf : lesson.01.md
     pandoc lesson.01.md -o lesson 01.md.pdf
 ```
 
+<!--more-->
+
 But in larger projects, such as the [class](http://lincolnmullen.com/courses/uws/) that I'm teaching, every time I added a Markdown file I also had to add a new rule to the `Makefile`. Besides the time this took, that process was error-prone, especially if I ever changed the name of the file. The `Makefile` for the class was over 60 lines long---and that's at the start of the semester.
 
 So this afternoon I took some time to figure out how to write a Makefile which will run Pandoc on any Markdown file in a directory. I've put the file up as a [Gist](https://gist.github.com/3767386) on GitHub. Here is how it works.

@@ -1,17 +1,21 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
-<article id='{{ urlize .Title }}' class="h-entry post">
+<div class="container-fluid">
+  <div class="row gx-5">
+    <div class="col-md-3 order-md-2">
+      {{ partial "blog-nav" }}
+    </div>
+    <div class="col-md-9 order-md-1">
 
-  <header>
-    <h2 class="post-title"><a href='{{ .Permalink }}' class='p-name'>{{ .Title }}</a></h2>
-    <a href='{{ .Permalink }}' class='u-url u-uid permalink'><time class='dt-published'
-        datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>{{ .Date.Format "January 2, 2006" }}</time></a>
-  </header>
-  <div class='post-body e-content'>
-    {{ .Content }}
+      <article id='{{ urlize .Title }}' class="h-entry post">
+        {{ partial "article-meta" . }}
+        <div class='post-body e-content mt-3'>
+          {{ .Content }}
+        </div>
+      </article>
+
+    </div>
   </div>
-</article>
-<div class="post-separator narrow"></div>
+</div>
 
-{{ partial "blog-nav" . }}
-{{ partial "foot" . }}
+{{ end }}

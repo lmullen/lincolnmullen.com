@@ -1,0 +1,31 @@
+<div id="homepage-gallery" class="row mt-5">
+	{{ $scholarship := where (where .Site.RegularPages "Type" "scholarship" ) "Params.homepage" "==" true }}
+	{{ range sort $scholarship "Params.homepageOrder"}}
+	<div class="card border-none mb-4 homepage-card">
+		<div class="row g-0">
+			<div class="col-md-4 col-sm-4">
+				{{ $img := .Resources.Get .Params.thumbnail }}
+				{{ $thumb1x := $img.Resize "600x webp" }}
+				{{ $thumb2x := $img.Resize "1200x webp" }}
+				<img class="img-thumbnail rounded img-fluid" src="{{ $thumb2x.Permalink }}" srcset="{{ $thumb1x.Permalink }} 1x, {{ $thumb2x.Permalink }} 2x" alt="Thumbnail for {{ .Title }}">
+			</div>
+			<div class="col-md-8 col-sm-8">
+				<div class="card-body pt-md-0 pt-sm-0">
+					<h3 class="card-title mb-0">{{ .Title | markdownify }}</h3>
+					{{ if .Params.Subtitle }}<p class="h4"><span class="text-muted small">{{ .Params.Subtitle }}</span></p>{{ end }}
+					<div class="card-text">
+						{{ .Description | markdownify }}
+					</div>
+					{{ if .Params.Links }}
+					<p>
+						{{ range .Params.Links }}
+						<a class="card-link" href="{{ .url }}">{{ .text | markdownify }}&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
+						{{ end }}
+					</p>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+	{{ end }}
+</div>

@@ -1,10 +1,14 @@
-<div class="article-meta">
-{{ if (gt .Params.date 0) }}<time class="post-date" datetime="2006-01-02">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
-
-{{ if .Site.Params.categories }}
-{{ if .Params.categories }}
-  &middot;
-  <span class="post-categories">{{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}</span>
-{{ end }}
-{{ end }}
-</div>
+<header>
+  <a href='{{ .Permalink }}' class="u-url u-uid permalink">
+    <small>
+      <time class='post-date dt-published text-muted' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+    </small>
+  </a>
+  <a href='{{ .Permalink }}' class="u-url u-uid permalink">
+    <h2 class="post-title p-name">
+      {{ .Title }}
+    </h2>
+  </a>
+</header>

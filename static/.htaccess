@@ -60,6 +60,7 @@ ExpiresByType image/webp "access plus 1 month"
 ExpiresByType text/css "access plus 1 month"
 ExpiresByType application/pdf "access plus 1 day"
 ExpiresByType text/x-javascript "access plus 1 day"
+ExpiresByType text/javascript "access plus 1 day"
 ExpiresByType image/x-icon "access plus 1 week"
 ExpiresDefault "access plus 1 day"
 </IfModule>

@@ -1,15 +1,10 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
 <article id="{{ urlize .Title }}">
-  <header>
-    <h1 class="title">{{ .Title }}</h1>
-    {{ partial "article-meta.html" . }}
-  </header>
-  {{ if .Params.toc }}
-  <strong>Table of contents:</strong>
-  {{ .TableOfContents }}
-  {{ end }}
-{{ .Content }}
-</article>
 
-{{ partial "foot.html" . }}
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ .Content }}
+</article>
+{{ end }}

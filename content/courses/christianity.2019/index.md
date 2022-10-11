@@ -18,11 +18,11 @@ toc: true
 draft: false
 ---
 
-# Course description
+## Course description
 
 This course is organized around a comparative examination of the many forms of global Christianity over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological contexts, students will explore several themes: use of sacred texts and the experiences of a typical church service, the relationship between Christianity and politics, and cultural aspects such as marriage and sexuality. Students will also consider Christianity as a series of global systems organized around missions, migration, trade, and warfare.
 
-# Learning goals
+## Learning goals
 
 At the end of this course, you will be able 
 
@@ -32,7 +32,7 @@ At the end of this course, you will be able
 
 This course fulfills the Mason Core requirement for [Global Understanding](https://catalog.gmu.edu/mason-core/#global). 
 
-# Essential information
+## Essential information
 
 This class will be a combination of lecture, discussion, and in-class assignments. Come to class having read the assigned material and be prepared to discuss those readings in class. You must have a copy of the texts assigned for each day available in class. On any day for which there is a reading assignment but not a short writing assignment (i.e., most days), you should write down two questions or comments on any of the assigned readings and bring them to class.
 
@@ -43,7 +43,7 @@ These books are required. Other readings will be available on Blackboard or thro
 - MacCulloch, Diarmaid. *Christianity: The First Three Thousand Years*. Penguin, 2009. ISBN: 9780143118695.
 - Jensen, Robin M. *The Cross: History, Art, and Controversy*. Harvard University Press, 2017. ISBN: 9780674088801.
 
-# Assignments 
+## Assignments 
 
 Grades will be based on the following assignments. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
@@ -56,7 +56,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 *Midterm exam (20%) and final exam (25%).* In-class exams will include essay and identification questions.
 
-# Schedule 
+## Schedule 
 
 ### Wednesday, January 23: Introduction
 
@@ -204,7 +204,7 @@ Grades will be based on the following assignments. Final grades will be calculat
 
 ### Monday, May 13: Final exam, 1:30--4:15pm
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

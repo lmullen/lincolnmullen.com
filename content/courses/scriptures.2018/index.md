@@ -19,11 +19,11 @@ officehours: "Mondays, 11am–12pm; Tuesdays, 2pm–3pm; Thursdays, 2pm–4pm"
 officesignup: https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI
 ---
 
-# Course description
+## Course description
 
 In this course, students will analyze texts that Americans have treated as "scripture." Students will read texts that present themselves as scripture, such as selections from the Book of Mormon and a Holy Sacred and Divine Roll and Book (a Shaker text). They will also read texts that have attained a sort of canonicity within American culture, such as the Declaration of Independence and Martin Luther King Jr.'s "Letter from Birmingham Jail." Students will thus gain more than a valuable familiarity with a variety of American religious traditions. They will also reflect on the way that, even in a digital age, texts continue to shape American identity. Finally, the course invites students to reflect on the meaning and function of "scripture." Although many Americans reflexively define scripture as "the Word of God" or think of the Bible or the Qu’ran, the scholar Wilfred Cantwell Smith cautions that "no text is a scripture in itself and as such. People---a given community---make a text into scripture, or keep it scripture." Along those lines, Americans, and different groups of Americans, have granted such authority to a wide variety of texts. 
 
-# Learning goals
+## Learning goals
 
 In this course you will 
 
@@ -31,7 +31,7 @@ In this course you will
 - develop your ability to carefully analyze texts, paying attention to issues such as authorship, intertextuality, and reception. 
 - articulate historical insights clearly and memorably in prose, through an online exhibit, and in a museum exhibit.
 
-# Essential information
+## Essential information
 
 You are always welcome to visit me during my office hours. While you can drop in, I strongly recommend that you [book an appointment with this link](https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1ZlU0ZqfGRlZmF1bHR8ZTg3NzRjZDZiYTMxNDU5ZjEzNjZkZTZkODAyODVmYWI). If the scheduled times don't work for you, [email me](mailto:lmullen@gmu.edu) and we will find another time. Whether you need help in the class or just want to talk more about it, get in touch sooner rather than later. 
 
@@ -52,7 +52,7 @@ A few words of advice from a historian of American religion (modified from [Tona
 
 3. History provides an opportunity to expand our ability to empathize with those not like ourselves. In fact, the past (and present, for that matter) is a very strange place, populated with people who do not share many of your values and ideas about the world. Developing the ability to at least understand why those values and ideas may be compelling is a great skill for surviving and thriving in a diverse world.
 
-# Assignments 
+## Assignments 
 
 This class will have two essential activities. The first is reading texts and then discussing them and writing about them. Most days we will read primary source texts which have been regarded as scripture by one group or another. While I will give lectures to set the context, much of our class time will be spent discussing these texts. You will also be asked to write several short analytical essays about these texts. I will often bring additional sources to class for us to read together in class.
 
@@ -68,7 +68,7 @@ The second main activity for this class will be creating a [popup museum](http:/
 
 Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
-# Schedule 
+## Schedule 
 
 ### Tuesday, August 28: Introduction
 
@@ -287,7 +287,7 @@ Read:
 
 In class: Work on exhibit.
 
-# Fine print
+## Fine print
 
 This syllabus may be updated online as necessary. The online version of this syllabus is the only authoritative version.
 

@@ -1,19 +1,34 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
-<article class="syllabus" id="{{ urlize .Title }}">
-  <h1 class="syllabus-title">{{ .Title }} ({{ .Params.semester }} {{ .Params.year }})</h1>
+<article class="syllabus container-fluid" id="{{ urlize .Title }}">
+
+  <div class="d-none d-print-block alert alert-danger">
+    <p>
+      This syllabus comes from {{ .Permalink }}.
+    </p>
+    <p class="mb-0">
+      Only the online version of this syllabus is authoritative, and it may be updated as necessary.
+    </p>
+  </div>
 
   <header>
-    <p><strong class="print-only">This syllabus comes from {{ .Permalink }}. Only the online version of this syllabus is authoritative, and it may be updated as necessary.</strong></p>
-    <p>
-      <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}} {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets {{ .Params.meets | markdownify }} in {{ .Params.room | markdownify }}.
-    </p>
-    <p>
-      <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a>&gt;. Office: {{ .Params.office }}. Office hours: {{ .Params.officehours }}. <span><a href="/page/office-hours/">Book an appointment.</a></span>
-    </p>
+    <h1>{{ .Title }} ({{ .Params.semester }} {{ .Params.year }})</h1>
+    <div class="card my-4">
+      <div class="card-body">
+        <p>
+          <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}}
+          {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets
+          {{ .Params.meets | markdownify }} in {{ .Params.room | markdownify }}.
+        </p>
+        <p class="mb-0">
+          <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a>&gt;. Office: {{ .Params.office }}. Office hours:
+          {{ .Params.officehours }}. <span><a href="/page/office-hours/">Book an appointment.</a></span>
+        </p>
+      </div>
+    </div>
   </header>
-  {{ if .Params.toc }}<div class="no-print">{{ .TableOfContents }}</div>{{ end }}
+
   {{ .Content }}
 </article>
 
-{{ partial "foot.html" . }}
+{{ end }}

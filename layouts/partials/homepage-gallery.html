@@ -11,8 +11,8 @@
 			</div>
 			<div class="col-md-8 col-sm-8">
 				<div class="card-body pt-md-0 pt-sm-0">
-					<h5 class="card-title mb-0">{{ .Title | markdownify }}</h5>
-					{{ if .Params.Subtitle }}<p class="h5"><span class="text-muted small">{{ .Params.Subtitle }}</span></p>{{ end }}
+					<h3 class="card-title mb-0">{{ .Title | markdownify }}</h3>
+					{{ if .Params.Subtitle }}<p class="h4"><span class="text-muted small">{{ .Params.Subtitle }}</span></p>{{ end }}
 					<div class="card-text">
 						{{ .Description | markdownify }}
 					</div>

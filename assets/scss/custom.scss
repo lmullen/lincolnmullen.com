@@ -92,3 +92,13 @@ img.list-icon {
 .syllabus h2 + h3 {
   margin-top: 0;
 }
+
+/* Blog */
+@media (max-width: 768px) {
+  .blog-nav {
+    border-left: none !important;
+    padding: 1rem !important;
+    margin: 0 0 2rem 0 !important;
+    background-color: $gray-100;
+  }
+}

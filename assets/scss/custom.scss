@@ -94,11 +94,33 @@ img.list-icon {
 }
 
 /* Blog */
+.blog-nav {
+  top: 5rem;
+}
+
 @media (max-width: 768px) {
   .blog-nav {
     border-left: none !important;
     padding: 1rem !important;
     margin: 0 0 2rem 0 !important;
     background-color: $gray-100;
+    top: 0;
   }
+}
+
+a.permalink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-date {
+  font-size: 0.9rem;
+}
+
+.post-title {
+  margin-top: -0.25rem;
+}
+
+.blog-list article.post {
+  margin-bottom: 6rem;
 }

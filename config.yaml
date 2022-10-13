@@ -26,7 +26,5 @@ taxonomies: false
 author:
   name: "Lincoln Mullen"
   email: "lincoln@lincolnmullen.com"
-# module:
-#   mounts:
-#     - source:
-#       target:
+
+enableGitInfo: true

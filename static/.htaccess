@@ -19,19 +19,17 @@ Redirect 302 /cv/ https://files.lincolnmullen.com/Mullen-cv.pdf
 Redirect 302 /cv/index.html https://lincolnmullen.com/files/Mullen-cv.pdf
 Redirect 301 /projects/slavery/Demonstrate https://lincolnmullen.com/projects/slavery/
 Redirect 301 /projects/slavery/null https://lincolnmullen.com/projects/slavery/
-Redirect 301 /projects/slavery/,%20doi:%2010.5281/zenodo.9825. https://lincolnmullen.com/projects/slavery/
+Redirect 301 "/projects/slavery/, doi: 10.5281/zenodo.9825." https://lincolnmullen.com/projects/slavery/
 Redirect 301 /blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/null https://lincolnmullen.com/blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/
-Redirect 301 /projects/slavery/,%20doi:%2010.5281/zenodo.9825 https://lincolnmullen.com/projects/slavery/
+Redirect 301 "/projects/slavery/, doi: 10.5281/zenodo.9825" https://lincolnmullen.com/projects/slavery/
 Redirect 301 /blog/epub-generator-for-jekyll/ https://lincolnmullen.com/blog/e-books-for-journals-with-epub-generator-for-jekyll/
 Redirect 301 /courses/clio2.2018/null https://lincolnmullen.com/courses/clio2.2018/
 Redirect 301 /research/history-dissertations/ https://lincolnmullen.com/
 Redirect 301 /blog/ghostery-in-the-machine/ https://lincolnmullen.com/blog/ghostery-on-your-machine-stop-sites-from-tracking-you/
 Redirect 301 /projects/hist144a-maps/ https://lincolnmullen.com/
-Redirect 301 /projects/slavery/.%22https://lincolnmullen.com/projects/slavery/ https://lincolnmullen.com/projects/slavery/
+Redirect 301 /projects/slavery/."https://lincolnmullen.com/projects/slavery/ https://lincolnmullen.com/projects/slavery/
 Redirect 301 /projects/slavery/,doi:0.5281/zenodo.9825 https://lincolnmullen.com/projects/slavery/
-
-
-
+Redirect 302 /software/ https://lincolnmullen.com/
 
 ErrorDocument 404 /404.html
 
@@ -55,7 +53,15 @@ RewriteRule ^projects/dh-r/(.*)$ https://dh-r.lincolnmullen.com/ [L,R=301]
 RewriteRule ^course-blogs/(.*)$ https://lincolnmullen.com/ [L,R=301]
 RewriteRule ^projects/notebook/(.*)$ https://lincolnmullen.com/ [R=301,NC,L]
 RewriteRule ^downloads/(.*)$ https://lincolnmullen.com/files/downloads/$1 [R=301,NC,L]
-RewriteRule ^figures/(.*)$ https://lincolnmullen.com/files/figures//$1 [R=301,NC,L]
+RewriteRule ^figures/(.*)$ https://lincolnmullen.com/files/figures/$1 [R=301,NC,L]
+
+RewriteRule ^software/gender/(.*)$ https://github.com/lmullen/gender/ [R=301,NC,L]
+RewriteRule ^software/historydata/(.*)$ https://docs.ropensci.org/historydata/ [R=301,NC,L]
+RewriteRule ^software/internetarchive/(.*)$ https://docs.ropensci.org/internetarchive/ [R=301,NC,L]
+RewriteRule ^software/textreuse/(.*)$ https://docs.ropensci.org/textreuse/ [R=301,NC,L]
+RewriteRule ^software/tokenizers/(.*)$ https://docs.ropensci.org/tokenizers/ [R=301,NC,L]
+RewriteRule ^software/usaboundaries/(.*)$ https://docs.ropensci.org/USAboundaries/ [R=301,NC,L]
+RewriteRule ^software/usaboundariesdata/(.*)$ https://docs.ropensci.org/USAboundariesData/ [R=301,NC,L]
 
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]

@@ -6,5 +6,7 @@
     <h1>{{ .Title | markdownify }}</h1>
   </header>
   {{ .Content }}
+
+  {{ partial "article-footer" . }}
 </article>
 {{ end }}

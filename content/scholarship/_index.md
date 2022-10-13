@@ -1,12 +1,18 @@
 ---
 title: "Scholarship"
-slug: '/scholarship/'
+# slug: '/scholarship/'
 aliases:
 - '/publications/'
 - '/software/'
 - '/code/'
 - '/research/'
 description: "Books, articles, software, visualizations, and digital projects by Lincoln Mullen"
+_build:
+  render: true
+cascade:
+  _build:
+    render: false
+    list: true
 ---
 
 [Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Software](#software) | [Miscellaneous](#misc)

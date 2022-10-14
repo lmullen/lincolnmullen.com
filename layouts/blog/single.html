@@ -9,6 +9,11 @@
 
       <article id='{{ urlize .Title }}' class="h-entry post">
         {{ partial "article-meta" . }}
+        {{ if .Params.External }}
+        <div class="mt-4 p-4 bg-light external-url">
+          This post originally appeared at <a href="{{ .Params.External.Url }}">{{ .Params.External.Name | markdownify }}&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>.
+        </div>
+        {{ end }}
         <div class='post-body e-content mt-3'>
           {{ .Content }}
         </div>
@@ -21,4 +26,12 @@
   </div>
 </div>
 
+{{ end }}
+
+{{ define "canonical" }}
+{{ if .Params.External }}
+<link rel="canonical" href="{{ .Params.External.URL }}">
+{{ else }}
+<link rel="canonical" href="{{ .Page.Permalink }}">
+{{ end }}
 {{ end }}

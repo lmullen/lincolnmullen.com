@@ -17,6 +17,15 @@ footer.site-footer {
 }
 
 /* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+}
+
 p + h2 {
   margin-top: 1.5rem;
 }
@@ -153,6 +162,17 @@ a.permalink {
   color: inherit;
 }
 
+.external-url {
+  font-style: italic;
+}
+
+.external-url em {
+  font-style: normal;
+}
+
+.external-url a {
+  text-decoration: none;
+}
 .post-title {
   margin-top: -0.25rem;
 }

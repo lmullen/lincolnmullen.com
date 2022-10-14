@@ -14,3 +14,9 @@ pbpaste | pandoc | pbcopy
 There is a one-liner which will work on a Mac to paste Markdown into [Pandoc](https://pandoc.org/) and then copy the resulting HTML back to the clipboard.
 
 Can't get much simpler than that.
+
+If you want do go from HTML to Markdown, the one-liner is a little longer:
+
+```
+pbpaste | pandoc -f html -t markdown | pbcopy
+```

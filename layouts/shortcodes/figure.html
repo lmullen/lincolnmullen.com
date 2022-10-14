@@ -1,10 +1,16 @@
 <!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html -->
 <figure class="my-5">
 	{{ $raw := .Get "src" | $.Page.Resources.Get }}
+	{{ $ext := path.Ext (.Get "src") }}
+	{{ if ne $ext ".gif" }}
 	{{ $regular := $raw.Resize "800x webp"}}
 	{{ $bigger := $raw.Resize "1200x webp"}}
 	{{ $retina := $raw.Resize "1600x webp"}}
 	<img class="img-fluid" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }}, {{ $bigger.Permalink }} 1.5x, {{ $retina.Permalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}' />
+	{{ else }}
+	<!-- Don't process GIFs-->
+	<img class="img-fluid" src='{{ $raw.Permalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
+	{{ end }}
 	<figcaption class="ms-5">
 		<p>
 			{{ .Get "caption" | markdownify }}

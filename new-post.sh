@@ -11,7 +11,7 @@ fi
 date=`date "+%Y-%m-%d"`
 name=$1
 # Use Hugo archetypes to do the heavy lifting in creating the new file
-hugo new "blog/$date-$name.md"
+hugo new --kind blog blog/$date-$name
 # Open the resulting file in VS Code
-code "content/blog/$date-$name.md"
+code "content/blog/$date-$name/index.md"
 

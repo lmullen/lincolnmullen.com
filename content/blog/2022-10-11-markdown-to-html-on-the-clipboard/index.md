@@ -14,14 +14,6 @@ I often have small snippets of Markdown that I want to copy to the clipboard and
 pbpaste | pandoc | pbcopy
 ```
 
-```js 
-console.log("This is a presenation")
-for(let i = 1; i < 10; i++) {
-	console.log(i)
-}
-```
-
-
 There is a one-liner which will work on a Mac to paste Markdown into [Pandoc](https://pandoc.org/) and then copy the resulting HTML back to the clipboard.
 
 Can't get much simpler than that.

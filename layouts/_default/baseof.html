@@ -48,6 +48,10 @@
 
 	{{ partial "analytics.html" . }}
 
+	{{ block "canonical" . }}
+	<link rel="canonical" href="{{ .Page.Permalink }}">
+	{{ end }}
+
 </head>
 
 <body>

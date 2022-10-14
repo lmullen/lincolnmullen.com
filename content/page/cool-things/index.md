@@ -9,7 +9,7 @@ Here is a decidedly non-exhaustive list of things that I like or think are cool,
 
 I love the web, or at least the idea of the web. You should read Alan Jacobs's essay on "[Tending the Digital Commons](https://hedgehogreview.com/issues/the-human-and-the-digital/articles/tending-the-digital-commons)," and Cal Newport's [essay on a similar topic](https://www.newyorker.com/tech/annals-of-technology/can-indie-social-media-save-us). I wrote a [love letter to the IndieWeb](https://buttondown.email/lmullen/archive/love-letter-to-the-indieweb/). 
 
-There are some great independent websites. [Robin Sloan](https://www.robinsloan.com/) is probably the coolest person on the internet, unless it is [Paul Ford](https://www.ftrain.com/). These personal websites are great to poke around on: [Jason Heppler](https://jasonheppler.org/), [Ben Schmidt](https://benschmidt.org/), [Alan Jacobs](https://ayjay.org/) (and [blog](https://blog.ayjay.org/), [Dan Cohen](https://dancohen.org/).
+There are some great independent websites. [Robin Sloan](https://www.robinsloan.com/) is probably the coolest person on the internet, unless it is [Paul Ford](https://www.ftrain.com/). These personal websites are great to poke around on: [Jason Heppler](https://jasonheppler.org/), [Ben Schmidt](https://benschmidt.org/), [Alan Jacobs](https://ayjay.org/) (and [blog](https://blog.ayjay.org/)), [Dan Cohen](https://dancohen.org/).
 
 [Reclaim Hosting](https://reclaimhosting.com/) is a great web host. [Micro.blog](https://micro.blog/) is a fun blogging, social media place.
 

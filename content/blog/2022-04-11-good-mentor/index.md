@@ -1,7 +1,9 @@
 ---
 title: 'What makes for a good academic mentor?'
-date: 2022-04-11T19:35:00-04:00
+date: 2022-04-11
 draft: false
+tags:
+- mentoring
 ---
 
 I was asked to write up what I thought made someone a good academic mentor, in less than a page. Since I had to write it up quickly, here it is for further thought. This list is partial and based on my own experience, but here is what I've observed from watching the good mentors that I have had.

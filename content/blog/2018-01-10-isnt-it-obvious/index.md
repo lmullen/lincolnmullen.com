@@ -1,6 +1,7 @@
 ---
-categories:
+tags:
 - digital history
+- presentations
 date: '2018-01-10T15:37:45+00:00'
 title: "Isn't it obvious?"
 slug: 'isnt-it-obvious'

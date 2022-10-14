@@ -1,7 +1,9 @@
 ---
 title: 'Bookmarklet for the GMU library proxy'
-date: 2022-09-07T15:00:00-04:00
+date: 2022-09-07
 draft: false
+tags:
+- library
 ---
 
 If you are a GMU student, faculty, or staff member, you can access library resources from off campus using a library proxy. Suppose you want to access this article:

@@ -2,11 +2,9 @@
 date: "2014-05-12"
 slug: "mapping-the-spread-of-american-slavery"
 tags:
-  - "19th-century history"
-  - digital history
-  - mapping
   - slavery
   - visualization
+  - mapping
 title: Mapping the spread of American slavery
 aliases:
   - /blog/the-spread-of-american-slavery/

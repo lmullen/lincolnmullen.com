@@ -1,8 +1,12 @@
 ---
 title: 'Links for presentation about digital scholarship for the Biennial Conference on Religion and American Culture'
-date: 2022-06-03T20:00:00-04:00
+date: 2022-06-03
 draft: false
 slug: raac-links
+tags:
+- presentation
+- American religion
+- digital history
 ---
 
 This weekend I am giving a presentation about the future of digital scholarship in the field of American religion at the [Biennial Conference on Religion and American Culture](https://raac.iupui.edu/programs/biennial-conference-on-religion-american-culture/). In the presentation I'll be sharing a number of digital projects in American religion that I've learned a lot from. Since the proceedings of the conference will be published later, I won't publish my remarks here now. But for the sake of conference participants who might want to follow along, here is a list of the projects I'll mention without notes or comment.

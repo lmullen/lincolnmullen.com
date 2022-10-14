@@ -1,8 +1,8 @@
 ---
-categories:
-- digital history
+tags:
+- software
 - rstats
-date: '2017-07-10T16:07:29+00:00'
+date: '2017-07-10'
 slug: 'usaboundaries-v0-3-0-released'
 title: 'New release: USAboundaries v0.3.0'
 ---

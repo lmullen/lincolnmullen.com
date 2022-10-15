@@ -17,12 +17,12 @@ footer.site-footer {
 }
 
 /* Typography */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
   margin-top: 2rem;
 }
 
@@ -195,6 +195,12 @@ footer.article-footer a {
   text-decoration: none;
 }
 
-pre {
+div.highlight {
+  max-width: 100%;
+}
+
+div.highlight pre {
+  white-space: pre-wrap;
+  word-break: break-word;
   margin-left: 1rem;
 }

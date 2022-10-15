@@ -24,7 +24,7 @@ http://mutex.gmu.edu/login?url=https://academic.oup.com/ahr/article/108/3/735/22
 
 But who wants to remember to do that? Instead we can create a bookmarklet that will send our URL through the proxy automatically. In your browser, you can create a new bookmark. You can name the bookmark whatever you want: I call mine `+GMU Proxy`. Then in the address field add the following JavaScript snippet.
 
-```
+```js
 javascript:(function()%20%7Bwindow.location=%22http://mutex.gmu.edu/login?url=%22%20+%20window.location.toString();%7D)()
 ```
 

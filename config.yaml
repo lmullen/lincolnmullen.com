@@ -30,3 +30,9 @@ author:
   email: "lincoln@lincolnmullen.com"
 
 enableGitInfo: true
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^BLOG_

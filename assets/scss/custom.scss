@@ -17,6 +17,15 @@ footer.site-footer {
 }
 
 /* Typography */
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  margin-top: 2rem;
+}
+
 p + h2 {
   margin-top: 1.5rem;
 }
@@ -140,6 +149,11 @@ img.list-icon {
   }
 }
 
+.link-post-title a,
+.cross-post-title a {
+  text-decoration: none;
+}
+
 .blog-nav a {
   text-decoration: none;
 }
@@ -148,9 +162,22 @@ img.list-icon {
   color: $primary;
 }
 
-a.permalink {
+a.permalink,
+a.author-link {
   text-decoration: none;
   color: inherit;
+}
+
+.external-url {
+  font-style: italic;
+}
+
+.external-url em {
+  font-style: normal;
+}
+
+.external-url a {
+  text-decoration: none;
 }
 
 .post-title {
@@ -175,6 +202,16 @@ footer.article-footer a {
   text-decoration: none;
 }
 
-pre {
+div.highlight {
+  max-width: 100%;
+}
+
+div.highlight pre {
+  white-space: pre-wrap;
+  word-break: break-word;
   margin-left: 1rem;
+}
+
+.prevnextlinks a {
+  text-decoration: none;
 }

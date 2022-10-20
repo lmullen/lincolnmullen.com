@@ -4,14 +4,17 @@
 
 if [ -z "$1" ]
 then
-  echo "Provide a slug."
+  echo "Provide a title."
   exit 1
 fi
 
+# Title will be provided by VS Code as an argument
+title=$1
+# The slug will be generated from the title
+slug=`echo "$title" | sed -e 's/[[:blank:]]/-/g' | tr '[:upper:]' '[:lower:]'`
 date=`date "+%Y-%m-%d"`
-name=$1
 # Use Hugo archetypes to do the heavy lifting in creating the new file
-hugo new "blog/$date-$name.md"
+BLOG_TITLE="$title" hugo new --kind blog blog/$date-$slug
 # Open the resulting file in VS Code
-code "content/blog/$date-$name.md"
+code "content/blog/$date-$slug/index.md"
 

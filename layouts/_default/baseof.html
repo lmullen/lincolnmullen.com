@@ -14,6 +14,7 @@
 	<meta name="description" content="{{ .Summary | plainify }}">
 	{{ end }}
 	<meta name="monetization" content="$ilp.uphold.com/3ZWiyMk9zAZE">
+	{{ hugo.Generator }}
 
 	<!-- CSS and fonts -->
 	<link rel="dns-prefetch" href="//files.lincolnmullen.com">
@@ -47,6 +48,10 @@
 	<link rel="alternate" type="application/rss+xml" href="https://weblog.lincolnmullen.com/feed.xml" title="Lincoln Mullen's Internet Weblog">
 
 	{{ partial "analytics.html" . }}
+
+	{{ block "canonical" . }}
+	<link rel="canonical" href="{{ .Page.Permalink }}">
+	{{ end }}
 
 </head>
 

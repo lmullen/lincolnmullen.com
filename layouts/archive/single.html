@@ -21,10 +21,12 @@
           </colgroup>
           <tbody>
             {{ range .Pages }}
+            {{ if not .Params.Linkpost }}
             <tr>
               <td><time class="date" datetime="2006-01-02">{{ .Date.Format "January 2" }}</time></td>
               <td><a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a></td>
             </tr>
+            {{ end }}
             {{ end }}
           </tbody>
         </table>

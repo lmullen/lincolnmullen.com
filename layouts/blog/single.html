@@ -3,24 +3,58 @@
 <div class="container-fluid">
   <div class="row gx-5">
     <div class="col-md-3 order-md-2">
-      {{ partial "blog-nav" }}
+      {{ partial "blog-nav" . }}
     </div>
     <div class="col-md-9 order-md-1">
 
-      <article id='{{ urlize .Title }}' class="h-entry post">
-        {{ partial "article-meta" . }}
-        {{ if .Params.External }}
-        <div class="mt-4 p-4 bg-light external-url">
-          This post originally appeared at <a href="{{ .Params.External.Url }}">{{ .Params.External.Name | markdownify }}&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>.
-        </div>
-        {{ end }}
-        <div class='post-body e-content mt-3'>
+      <!-- Blog post starts here -->
+
+      <article id='{{ urlize .Title }}' class="h-entry post mt-5">
+
+        <header>
+          {{ if .Params.Linkpost }}
+          <h2 class="link-post-title p-name h4">
+            <a href="{{ .Params.Linkpost }}">
+              {{ .Title | markdownify }}
+              &nbsp;<i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </h2>
+          {{ else }}
+          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
+            <h2 class="post-title p-name">
+              {{ .Title | markdownify }}
+            </h2>
+          </a>
+          {{ end }}
+
+          {{ if .Params.Crosspost }}
+          <div class="external-url mt-4 mb-4">
+            This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the original post&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
+          </div>
+          {{ end}}
+        </header>
+
+        <div class='post-body e-content mt-2 mb-5'>
           {{ .Content }}
         </div>
 
-      </article>
 
-      {{ partial "article-footer" . }}
+        <footer class="post-footer text-muted mt-4">
+          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
+            <i class="bi bi-link-45deg" aria-hidden="true"></i>
+          </a>
+          Published:
+          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
+            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+              {{ .Date.Format "January 2, 2006" }}.
+            </time>
+          </a>
+          Last modified: <time class='post-updated dt-updated' datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>{{ time.Format "January 2, 2006 at 03:04pm MST" .Lastmod}}</time>.<br>
+          <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
+        </footer>
+
+      </article>
+      <!-- Blog post ends here -->
 
     </div>
   </div>

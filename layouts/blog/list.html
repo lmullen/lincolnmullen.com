@@ -1,24 +1,71 @@
 {{ define "main" }}
-
-{{ .Content }}
-
 <div class="container-fluid">
+
+  {{ .Content }}
+
   <div class="row gx-5">
     <div class="col-md-3 order-md-2">
-      {{ partial "blog-nav" }}
+      {{ partial "blog-nav" . }}
     </div>
     <div class="col-md-9 order-md-1 blog-list">
 
       {{ range .Paginator.Pages }}
 
+      <!-- Blog post starts here -->
+
       <article id='{{ urlize .Title }}' class="h-entry post">
 
-        {{ partial "article-meta" . }}
+        <header>
+          {{ if .Params.Linkpost }}
+          <h2 class="link-post-title p-name h4">
+            <a href="{{ .Params.Linkpost }}">
+              {{ .Title | markdownify }}
+              &nbsp;<i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </h2>
+          {{ else if .Params.Crosspost }}
+          <h2 class="cross-post-title p-name">
+            <a href="{{ .Params.Crosspost.URL }}">
+              {{ .Title | markdownify }}
+              &nbsp;<i class="bi bi-box-arrow-up-right"></i>
+            </a>
+          </h2>
+          {{ else }}
+          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
+            <h2 class="post-title p-name">
+              {{ .Title | markdownify }}
+            </h2>
+          </a>
+          {{ end }}
+        </header>
 
-        <div class='post-body e-content mt-3'>
+        <div class='post-body e-content mt-2'>
+          {{ if .Params.Crosspost }}
+          {{ .Content | safeHTML | truncate 500 }}
+          {{ else }}
           {{ .Content }}
+          {{ end }}
         </div>
+
+        {{ if .Params.Crosspost }}
+        <div class="external-url alert alert-primary" role="alert">
+          This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the full post&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+        {{ end}}
+
+        <footer class="post-footer text-muted mt-4">
+          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
+            <i class="bi bi-link-45deg" aria-hidden="true"></i>
+            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+            <p class="d-none">by <a rel="author" class="p-author h-card" href="{{ .Site.BaseURL }}">Lincoln Mullen</a></p>
+          </a>
+        </footer>
+
       </article>
+      <!-- Blog post ends here -->
+
       <div class="post-separator">
         <hr class="border-1 opacity-10">
       </div>

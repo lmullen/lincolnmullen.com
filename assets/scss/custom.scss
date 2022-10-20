@@ -149,6 +149,11 @@ img.list-icon {
   }
 }
 
+.link-post-title a,
+.cross-post-title a {
+  text-decoration: none;
+}
+
 .blog-nav a {
   text-decoration: none;
 }
@@ -157,7 +162,8 @@ img.list-icon {
   color: $primary;
 }
 
-a.permalink {
+a.permalink,
+a.author-link {
   text-decoration: none;
   color: inherit;
 }
@@ -173,6 +179,7 @@ a.permalink {
 .external-url a {
   text-decoration: none;
 }
+
 .post-title {
   margin-top: -0.25rem;
 }

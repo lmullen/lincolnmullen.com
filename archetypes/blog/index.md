@@ -1,11 +1,12 @@
 ---
-title: "{{ slicestr .Name 11 | humanize }}"
-date: "{{ time.Format "2006-01-02" .Date  }}"
-slug: '{{ slicestr .Name 11 }}'
-tags:
-- 
+title: "{{ getenv "BLOG_TITLE" }}"
+date: "{{ .Date  }}"
+slug: "{{ slicestr .Name 11  }}"
 draft: true
-external: 
-  url:
-  name:
+# tags:
+# - 
+# crosspost: 
+#   url: ""
+#   source: ""
+# linkpost: ""
 ---

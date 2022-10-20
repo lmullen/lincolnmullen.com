@@ -41,13 +41,13 @@
       "label": "New post",
       "type": "shell",
       "command": "./new-post.sh",
-      "args": ["${input:newPostSlug}"],
+      "args": ["${input:newPostTitle}"],
       "presentation": {
         "echo": true,
         "reveal": "silent",
         "focus": false,
         "panel": "dedicated",
-        "showReuseMessage": true,
+        "showReuseMessage": false,
         "clear": true
       },
       "problemMatcher": []
@@ -55,9 +55,9 @@
   ],
   "inputs": [
     {
-      "id": "newPostSlug",
+      "id": "newPostTitle",
       "type": "promptString",
-      "description": "What is the slug for the new post?"
+      "description": "What is the the title for the new post?"
     }
   ]
 }

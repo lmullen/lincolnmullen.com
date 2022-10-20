@@ -135,12 +135,12 @@ img.list-icon {
 }
 
 /* Blog */
-.blog-nav {
+.sidebar-nav {
   top: 5rem;
 }
 
 @media (max-width: 768px) {
-  .blog-nav {
+  .sidebar-nav {
     border-left: none !important;
     padding: 1rem !important;
     margin: 0 0 2rem 0 !important;
@@ -154,7 +154,7 @@ img.list-icon {
   text-decoration: none;
 }
 
-.blog-nav a {
+.sidebar-nav a {
   text-decoration: none;
 }
 
@@ -214,4 +214,27 @@ div.highlight pre {
 
 .prevnextlinks a {
   text-decoration: none;
+}
+
+#TableOfContents ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#TableOfContents ul li,
+#TableOfContents ul li {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#TableOfContents ul li ul {
+  margin-top: 0.5rem;
+}
+
+#TableOfContents ul li ul li:last-child {
+  margin-bottom: 0;
 }

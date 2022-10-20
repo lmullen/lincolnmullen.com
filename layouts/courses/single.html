@@ -1,34 +1,48 @@
 {{ define "main" }}
 
-<article class="syllabus container-fluid" id="{{ urlize .Title }}">
+<div class="container-fluid">
 
-  <div class="d-none d-print-block alert alert-danger">
-    <p>
-      This syllabus comes from {{ .Permalink }}.
-    </p>
-    <p class="mb-0">
-      Only the online version of this syllabus is authoritative, and it may be updated as necessary.
-    </p>
-  </div>
-
-  <header>
-    <h1>{{ .Title | markdownify }} ({{ .Params.semester }} {{ .Params.year }})</h1>
-    <div class="card my-4">
-      <div class="card-body">
-        <p>
-          <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}}
-          {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets
-          {{ .Params.meets | markdownify }} in {{ .Params.room | markdownify }}.
-        </p>
-        <p class="mb-0">
-          <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a>&gt;. Office: {{ .Params.office }}. Office hours:
-          {{ .Params.officehours }}. <span><a href="/page/office-hours/">Book an appointment.</a></span>
-        </p>
+  <div class="row gx-3">
+    <div class="col-md-3 order-md-2">
+      <div class="sidebar-nav ps-3 py-2 mt-2 border-start sticky-md-top d-none d-md-block">
+        {{ .TableOfContents }}
       </div>
     </div>
-  </header>
+    <div class="col-md-9 order-md-1">
 
-  {{ .Content }}
-</article>
+
+      <article class="syllabus container-fluid" id="{{ urlize .Title }}">
+
+        <div class="d-none d-print-block alert alert-danger">
+          <p>
+            This syllabus comes from {{ .Permalink }}.
+          </p>
+          <p class="mb-0">
+            Only the online version of this syllabus is authoritative, and it may be updated as necessary.
+          </p>
+        </div>
+
+        <header>
+          <h1>{{ .Title | markdownify }} ({{ .Params.semester }} {{ .Params.year }})</h1>
+          <div class="card my-4">
+            <div class="card-body">
+              <p>
+                <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}}
+                {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets
+                {{ .Params.meets | markdownify }} in {{ .Params.room | markdownify }}.
+              </p>
+              <p class="mb-0">
+                <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a>&gt;. Office: {{ .Params.office }}. Office hours:
+                {{ .Params.officehours }}. <span><a href="/page/office-hours/">Book an appointment.</a></span>
+              </p>
+            </div>
+          </div>
+        </header>
+
+        {{ .Content }}
+      </article>
+    </div>
+  </div>
+</div>
 
 {{ end }}

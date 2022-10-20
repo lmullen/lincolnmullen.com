@@ -1,6 +1,6 @@
 ---
 title: "📧 Religion@RRCHNM: A podcast about the history of American antisemitism"
-date: '2022-10-20T17:43:16-05:00'
+date: '2022-10-20T17:43:16-04:00'
 slug: "religion-at-rrchnm-a-podcast-about-the-history-of-american-antisemitism"
 draft: false
 tags:

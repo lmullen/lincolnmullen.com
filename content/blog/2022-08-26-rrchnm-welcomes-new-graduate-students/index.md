@@ -5,9 +5,9 @@ slug: 'rrchnm-welcomes-new-graduate-students'
 tags:
 - RRCHNM
 draft: true
-external: 
+crosspost: 
   url: "https://rrchnm.org/about-rrchnm/rrchnm-welcomes-25-graduate-students-for-the-new-academic-year/"
-  name: RRCHNM
+  source: RRCHNM
 ---
 
 The start of the academic year at RRCHNM also means the return of many of our graduate students. This week RRCHNM welcomed [twenty-five graduate research assistants or graduate affiliates](https://rrchnm.org/our-people/).

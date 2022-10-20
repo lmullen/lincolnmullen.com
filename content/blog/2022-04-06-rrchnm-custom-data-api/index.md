@@ -7,9 +7,9 @@ tags:
 - Go
 - data
 draft: false
-external: 
-  url: https://rrchnm.org/news/rrchnms-custom-api-for-data-driven-projects/
-  name: "RRCHNM's blog"
+crosspost: 
+  url: "https://rrchnm.org/news/rrchnms-custom-api-for-data-driven-projects/"
+  source: "RRCHNM's blog"
 ---
 
 RRCHNM is a shop that is more and more working on computational history

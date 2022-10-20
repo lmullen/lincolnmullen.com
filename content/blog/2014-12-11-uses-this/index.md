@@ -4,11 +4,11 @@ date: 2014-12-11
 tags:
 - Unix
 - software
-- Max
+- Mac
 draft: false
-external:
+crosspost:
   url: "https://usesthis.com/interviews/lincoln.mullen/"
-  name: "*Uses This*"
+  source: "*Uses This*"
 ---
 
 ### Who are you, and what do you do?

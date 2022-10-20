@@ -53,8 +53,26 @@
           <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
         </footer>
 
+
+
       </article>
       <!-- Blog post ends here -->
+
+      <div class="mt-5 mb-4 prevnextlinks">
+        <h5>More blog posts</h5>
+        <div class="d-flex justify-content-between">
+          {{ if .NextInSection }}
+          <a class="text-start" href="{{.NextInSection.Permalink}}">
+            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;{{ .NextInSection.Title }}
+          </a>
+          {{ end }}
+          {{ if .PrevInSection }}
+          <a class="text-end" href="{{.PrevInSection.Permalink}}">
+            {{ .PrevInSection.Title }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
+          </a>
+          {{ end }}
+        </div>
+      </div>
 
     </div>
   </div>

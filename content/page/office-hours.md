@@ -1,6 +1,7 @@
 ---
 title: "Office hours and scheduling"
 slug: office-hours
+description: "How to sign up for office hours."
 ---
 
 Greetings. You probably landed here either because you are a student looking for

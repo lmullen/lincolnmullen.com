@@ -17,6 +17,6 @@ Since that time we have tried to maintain a consistent historical and methodolog
 
 To that end we have created a website for our work, which we are calling [Legal Modernism](https://legalmodernism.org/). At the moment the website simply gathers our already published work. But it will soon be the platform for our visualizations and other ongoing work. (There is a feed on the project website if you'd like subscribe for updates.)
 
-{{< figure src="legal-modernism-screenshot.png" caption="Our visualizations, publications, talks, and source code are available on the [project website](https://legalmodernism.org/)." >}}
+{{< figure src="legal-modernism-screenshot.png" caption="Our visualizations, publications, talks, and source code are available on the [project website](https://legalmodernism.org/)." link="https://legalmodernism.org/" >}}
 
 While my blogging efforts have been at most sporadic, I hope to share more substantively some of what we are working on in the coming days. 

@@ -5,7 +5,10 @@
 	{{ if ne $ext ".gif" }}
 	{{ $regular := $raw.Resize "702x webp"}}
 	{{ $retina := $raw.Resize "1404x webp"}}
-	<img class="img-fluid" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }}, {{ $retina.Permalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}' />
+	{{ $link := .Get "link" }}
+	<a href="{{ $link | default $raw.Permalink }}">
+		<img class="img-fluid" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }}, {{ $retina.Permalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}'>
+	</a>
 	{{ else }}
 	<!-- Don't process GIFs-->
 	<img class="img-fluid" src='{{ $raw.Permalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />

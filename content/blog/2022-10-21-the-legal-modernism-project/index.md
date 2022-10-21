@@ -2,7 +2,7 @@
 title: "The Legal Modernism project"
 date: "2022-10-21T13:42:43-04:00"
 slug: "the-legal-modernism-project"
-draft: true
+draft: false
 tags:
 - Legal Modernism
 # crosspost: 

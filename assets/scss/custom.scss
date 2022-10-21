@@ -238,3 +238,31 @@ div.highlight pre {
 #TableOfContents ul li ul li:last-child {
   margin-bottom: 0;
 }
+
+a.footnote-ref,
+a.footnote-backref {
+  text-decoration: none;
+}
+
+// Automatic figure numbering
+article {
+  counter-reset: figures;
+}
+
+figure {
+  counter-increment: figures;
+}
+
+figcaption p:before {
+  content: "Figure " counter(figures) ". ";
+  font-weight: 500;
+}
+
+.footnotes {
+  font-size: 0.85rem;
+  margin-top: 3rem;
+}
+
+.footnotes hr {
+  display: none;
+}

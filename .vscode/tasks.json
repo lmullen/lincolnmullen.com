@@ -38,6 +38,20 @@
       }
     },
     {
+      "label": "New link",
+      "type": "shell",
+      "command": "./new-link.sh",
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "New post",
       "type": "shell",
       "command": "./new-post.sh",

@@ -244,11 +244,11 @@ Read:
 Do before class:
 
 - Come prepared with your team's proposal and work plan.
-- Install [Hugo](https://gohugo.io).
+- ~~Install [Hugo](https://gohugo.io).~~
 
 Do after class:
 
-- Translate your website to Hugo.
+- ~~Translate your website to Hugo.~~
 
 ### Week 10 (Oct. 31): Digital public history / digital art history
 

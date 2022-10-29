@@ -22,7 +22,7 @@
 					<tbody>
 						{{ range .Pages }}
 						<tr>
-							<td><a href="{{ .Params.Linkpost }}" class="link-post-date"><time class="date" datetime="2006-01-02">{{ .Date.Format "January 2" }}</time>&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></td>
+							<td><a href="{{ .Params.Linkpost }}" class="link-post-date"><time class="date" datetime="{{ .Date }}">{{ .Date.Format "January 2" }}</time>&nbsp;<i class="bi bi-box-arrow-up-right"></i></a></td>
 							<td>{{ .Content }}</td>
 						</tr>
 						{{ end }}

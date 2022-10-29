@@ -1,3 +1,4 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Site.Params.blogFeedTitle }}</title>
@@ -15,18 +16,22 @@
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range first 20 (where .Site.RegularPages "Section" "blog") }}
+    {{ range first 25 (where .Site.RegularPages "Section" "in" (slice "blog" "links")) }}
     <item>
       {{ if .Params.Linkpost }}
-      <title>Link post: {{ .Content | plainify | truncate 75 }}</title>
+      <title>Link post: {{ .Content | plainify | truncate 75 | safeHTML }}</title>
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>
       {{ else }}
-      <title>{{ .Title }}</title>
+      <title>{{ .Title | safeHTML }}</title>
       <link>{{ .Permalink | absURL | htmlEscape }}</link>
       {{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      {{ if .Params.Linkpost }}
+      <guid>{{ .Permalink | absURL }}</guid>
+      {{ else }}
       <guid isPermaLink="true">{{ .Permalink | absURL }}</guid>
+      {{ end }}
       <description>{{ .Content | html }}</description>
     </item>
     {{ end }}

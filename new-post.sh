@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env bash
+set -o errexit
+set -o nounset
+set -o pipefail
 
 # Make a new post and open it in VS Code
 

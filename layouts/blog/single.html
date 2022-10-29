@@ -12,20 +12,11 @@
       <article id='{{ urlize .Title }}' class="h-entry post mt-5">
 
         <header>
-          {{ if .Params.Linkpost }}
-          <h2 class="link-post-title p-name h4">
-            <a href="{{ .Params.Linkpost }}">
-              {{ .Title | markdownify }}
-              &nbsp;<i class="bi bi-box-arrow-up-right"></i>
-            </a>
-          </h2>
-          {{ else }}
           <a href='{{ .Permalink }}' class="u-url u-uid permalink">
             <h2 class="post-title p-name">
               {{ .Title | markdownify }}
             </h2>
           </a>
-          {{ end }}
 
           {{ if .Params.Crosspost }}
           <div class="external-url mt-4 mb-4">
@@ -53,12 +44,9 @@
           <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
         </footer>
 
-
-
       </article>
       <!-- Blog post ends here -->
 
-      <!-- 
       <div class="mt-5 mb-4 prevnextlinks">
         <h5>More blog posts</h5>
         <div class="d-flex justify-content-between">
@@ -74,7 +62,6 @@
           {{ end }}
         </div>
       </div>
-      -->
 
     </div>
   </div>

@@ -17,10 +17,11 @@
     {{ end }}
     {{ range first 20 (where .Site.RegularPages "Section" "blog") }}
     <item>
-      <title>{{ .Title }}</title>
       {{ if .Params.Linkpost }}
+      <title>Link post: {{ .Content | plainify | truncate 75 }}</title>
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>
       {{ else }}
+      <title>{{ .Title }}</title>
       <link>{{ .Permalink | absURL | htmlEscape }}</link>
       {{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>

@@ -17,12 +17,7 @@
 
         <header>
           {{ if .Params.Linkpost }}
-          <h2 class="link-post-title p-name h4">
-            <a href="{{ .Params.Linkpost }}">
-              {{ .Title | markdownify }}
-              &nbsp;<i class="bi bi-box-arrow-up-right"></i>
-            </a>
-          </h2>
+          <!-- No title on link posts -->
           {{ else if .Params.Crosspost }}
           <h2 class="cross-post-title p-name">
             <a href="{{ .Params.Crosspost.URL }}">
@@ -53,7 +48,12 @@
         </div>
         {{ end}}
 
-        <footer class="post-footer text-muted mt-4">
+        <footer class="post-footer text-muted text-end mt-4">
+          {{ if .Params.Linkpost }}
+          <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+          {{ else }}
           <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
             <i class="bi bi-link-45deg" aria-hidden="true"></i>
             <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
@@ -61,6 +61,7 @@
             </time>
             <p class="d-none">by <a rel="author" class="p-author h-card" href="{{ .Site.BaseURL }}">Lincoln Mullen</a></p>
           </a>
+          {{ end }}
         </footer>
 
       </article>

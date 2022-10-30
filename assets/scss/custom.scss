@@ -275,3 +275,16 @@ figcaption p:before {
 .footnotes hr {
   display: none;
 }
+
+hr.break {
+  border: none;
+  margin: 2rem 0;
+  color: black;
+  opacity: 0.8;
+}
+
+hr.break::before {
+  content: "***";
+  display: block;
+  text-align: center;
+}

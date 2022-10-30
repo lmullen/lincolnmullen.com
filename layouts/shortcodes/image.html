@@ -1,7 +1,15 @@
-{{ $raw := .Get "src" | $.Page.Resources.GetMatch }}
-{{ $regular := $raw.Fit "800x3200 webp"}}
-{{ $bigger := $raw.Fit "1200x4800 webp"}}
-{{ $retina := $raw.Fit "1600x6400 webp"}}
-<img src='{{ $regular.Permalink }}'
-	srcset="{{ $regular.Permalink }}, {{ $bigger.Permalink }} 1.5x, {{ $retina.Permalink }} 2x"
-	alt='{{ .Get "alt" | plainify }}' />
+<!-- Does not have the logic about skipping GIFs from the figure shortcode -->
+{{ $raw := .Get "src" | $.Page.Resources.Get }}
+{{ $regular := $raw.Resize "702x webp"}}
+{{ $retina := $raw.Resize "1404x webp"}}
+{{ $link := .Get "link" }}
+{{ $original := .Get "original" }}
+{{ if (eq $original "true")}}
+<a href="{{ $link | default $raw.Permalink }}">
+	<img class="img-fluid my-4" src='{{ $raw.Permalink }}' alt='{{ .Get "alt" | plainify }}' />
+</a>
+{{ else }}
+<a href="{{ $link | default $raw.Permalink }}">
+	<img class="img-fluid my-4" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }} 1x, {{ $retina.Permalink }} 2x" alt='{{ .Get "alt" | plainify }}' />
+</a>
+{{ end }}

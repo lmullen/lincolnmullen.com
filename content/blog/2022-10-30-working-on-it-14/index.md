@@ -48,11 +48,11 @@ From our [announcement](https://rrchnm.org/news/r2-studios-receives-grant-for-po
 
 I'm not going to talk much---if at all---about the podcast before it is released, because I've learned that nothing kills my enthusiasm for working on a project like oversharing it before it is done. We are still looking for additional funders for the podcast, and the show doesn't have a title yet.
 
-But we had a "podcast summit" at my house this past week to kick off our collaboration. And---wow---have we assembed a great team. Our colleagues [Jeanette Patrick](https://www.linkedin.com/in/jeanettepatrick) (who is a co-PI on the grant) and [Jim Ambuske](https://www.jamespambuske.com) are the producers on the podcast. [Zev Eleff](https://www.gratz.edu/about/office-of-the-president) is leading our advisory board. [Mark Oppenheimer](https://www.markoppenheimer.com/) will be the podcast host. And we are close to concluding a partnership with a leading historian in the field to research and write the project.
+But we had a "podcast summit" at my house this past week to kick off our collaboration. And---wow---have we assembled a great team. Our colleagues [Jeanette Patrick](https://www.linkedin.com/in/jeanettepatrick) (who is a co-PI on the grant) and [Jim Ambuske](https://www.jamespambuske.com) are the producers on the podcast. [Zev Eleff](https://www.gratz.edu/about/office-of-the-president) is leading our advisory board. [Mark Oppenheimer](https://www.markoppenheimer.com/) will be the podcast host. And we are close to concluding a partnership with a leading historian in the field to research and write the project.
 
 <hr class="break">
 
-Two related recommendations. For listening, check out [Gatecrashers](https://www.tabletmag.com/sections/community/articles/gatecrashers-podcast-jews-ivy-league), a podcast from Mark Oppenheimer and _Tablet_ magazine about "the hidden history of Jews and the Ivy League." For reading, check out Britt Tevis's article "[Trends in the Study of Antisemitism in United States History](https://www.muse.jhu.edu/article/804163.)" in _American Jewish History_.
+Two related recommendations. For listening, check out [Gatecrashers](https://www.tabletmag.com/sections/community/articles/gatecrashers-podcast-jews-ivy-league), a podcast from Mark Oppenheimer and _Tablet_ magazine about "the hidden history of Jews and the Ivy League." For reading, check out Britt Tevis's article "[Trends in the Study of Antisemitism in United States History](https://muse.jhu.edu/article/804163)" in _American Jewish History_.
 
 <hr class="break">
 

@@ -38,7 +38,12 @@
           {{ if .Params.Crosspost }}
           {{ .Content | safeHTML | truncate 500 }}
           {{ else }}
+          {{ if findRE `<!--more-->` .RawContent }}
+          {{ .Summary }}
+          <p class="my-5"><strong><a href="{{ .RelPermalink }}">Read the entire post</a>&nbsp;<i class="bi bi-arrow-right"></i></strong></p>
+          {{ else }}
           {{ .Content }}
+          {{ end }}
           {{ end }}
         </div>
 

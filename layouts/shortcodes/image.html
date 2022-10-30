@@ -6,7 +6,7 @@
 {{ $original := .Get "original" }}
 {{ if (eq $original "true")}}
 <a href="{{ $link | default $raw.Permalink }}">
-	<img class="img-fluid my-4" src='{{ $raw.Permalink }}' alt='{{ .Get "alt" | plainify }}' />
+	<img class="img-fluid mt-2 mb-4" src='{{ $raw.Permalink }}' alt='{{ .Get "alt" | plainify }}' />
 </a>
 {{ else }}
 <a href="{{ $link | default $raw.Permalink }}">

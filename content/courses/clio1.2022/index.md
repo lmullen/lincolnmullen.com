@@ -259,7 +259,7 @@ Read:
 
 - Brown, Kathryn, ed. _[The Routledge Companion to Digital Humanities and Art History](https://www-taylorfrancis-com.mutex.gmu.edu/books/edit/10.4324/9780429505188/routledge-companion-digital-humanities-art-history-kathryn-brown?refId=233cb9fa-dbea-4082-8395-b27d5dc07dda&context=ubx)_. Routledge Art History and Visual Studies Companions. Routledge, 2020. Introduction, ch. 1, ch. 3, ch. 7.
 - Lincoln, Matthew. “Social Network Centralization Dynamics in Print Production in the Low Countries, 1550-1750.” _International Journal for Digital Art History_ 2 (2016). <https://doi.org/10.11588/DAH.2016.2.25337>.
-- Brennan, Sheila. “Outstanding public history award: Histories of the National Mall.” Public History Commons (blog), March 18, 2015. http://publichistorycommons.org/award-histories-of-the-national-mall/.
+- Brennan, Sheila. “Outstanding public history award: Histories of the National Mall.” Public History Commons (blog), March 18, 2015. <https://ncph.org/history-at-work/award-histories-of-the-national-mall/>.
 - Wingo, Rebecca S., Jason A. Heppler, and Paul Schadewald, _[Digital Community Engagement: Partnering Communities with the Academy](https://ucincinnatipress.manifoldapp.org/projects/digital-community-engagement)_ (University of Cincinnati Press, 2021). Introduction.
 
 Do after class:

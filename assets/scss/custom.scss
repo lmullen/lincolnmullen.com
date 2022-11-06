@@ -276,14 +276,14 @@ figcaption p:before {
   display: none;
 }
 
-hr.break {
+.post-body hr {
   border: none;
   margin: 2rem 0;
   color: black;
   opacity: 0.8;
 }
 
-hr.break::before {
+.post-body hr::before {
   content: "***";
   display: block;
   text-align: center;

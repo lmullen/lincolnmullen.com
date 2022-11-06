@@ -7,6 +7,7 @@ permalinks:
   archive: "/:slug/"
   page: "/:section/:slug/"
   links: "/:section/:year-:01-:02-:03-:04-:05/"
+  newsletter: "/:section/:slug/"
 
 markup:
   goldmark:
@@ -23,6 +24,8 @@ imaging:
 params:
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
+  newsletterTitle: "Working on It"
+  siteFeedUrl: "/blog/index.xml"
 
 taxonomies: false
 

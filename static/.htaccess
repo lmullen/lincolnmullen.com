@@ -30,6 +30,7 @@ Redirect 301 /projects/hist144a-maps/ https://lincolnmullen.com/
 Redirect 301 /projects/slavery/."https://lincolnmullen.com/projects/slavery/ https://lincolnmullen.com/projects/slavery/
 Redirect 301 /projects/slavery/,doi:0.5281/zenodo.9825 https://lincolnmullen.com/projects/slavery/
 Redirect 302 /software/ https://lincolnmullen.com/
+Redirect 302 /blog/archive/ https://lincolnmullen.com/archive/
 
 ErrorDocument 404 /404.html
 

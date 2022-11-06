@@ -9,7 +9,7 @@
     </div>
     <div class="col-md-9 order-md-1 blog-list pt-5">
 
-      {{ range (.Paginate (where $.Site.RegularPages "Section" "in" (slice "blog" "links"))).Pages }}
+      {{ range (.Paginate (where $.Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter"))).Pages }}
 
       <!-- Blog post starts here -->
 
@@ -25,6 +25,12 @@
               &nbsp;<i class="bi bi-box-arrow-up-right"></i>
             </a>
           </h2>
+          {{ else if (eq .Section "newsletter") }}
+          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
+            <h2 class="post-title p-name">
+              Working on It #{{ .Slug }}: {{ .Title | markdownify }}
+            </h2>
+          </a>
           {{ else }}
           <a href='{{ .Permalink }}' class="u-url u-uid permalink">
             <h2 class="post-title p-name">

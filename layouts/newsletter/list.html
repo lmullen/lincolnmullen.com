@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="container-fluid">
+
+  <div class="row gx-5">
+    <div class="col-md-3 order-md-2">
+      {{ partial "blog-nav" . }}
+    </div>
+
+    <div class="col-md-9 order-md-1 blog-archive mt-4">
+      <h1>{{ .Title }}</h1>
+
+      {{ .Content }}
+
+      {{ partial "newsletter.html" (dict "tag" "newsletter-archive") }}
+
+      <h2 class="h3">Past issues</h2>
+
+      <div class="mb-4">
+        <table class='date-list-table' style="width:100%;">
+          <colgroup>
+            <col style="width:8%;">
+            <col style="width:72%;">
+            <col style="width:20%;">
+          </colgroup>
+          <tbody>
+            {{ range .Pages }}
+            <tr>
+              <td class="text-end pe-2">#{{ .Slug }}:</td>
+              <td><a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a></td>
+              <td class="text-end text-muted ps-2 d-none d-sm-block"><time class="date" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2 Jan 2006" }}</time></td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{{ end }}

@@ -1,22 +1,17 @@
 ---
-title: "Working On It 14: _America's Public Bible_ to be published in December"
-date: "2022-10-30T19:32:14-04:00"
-slug: "working-on-it-14"
+title: "_America's Public Bible_ to be published in December"
+date: "2022-10-30"
+slug: 14
 draft: false
-newsletter: true
 tags:
 - history of antisemitism
 - America's Public Bible
 - podcasts
-# crosspost: 
-#   url: ""
-#   source: ""
-# linkpost: ""
 ---
 
 Hi folks. I write to you after, lo, these many months with two pieces of news and some recommendations.
 
-<hr class="break">
+------------
 
 On December 13, my digital book [_America's Public Bible: A Commentary_](https://www.sup.org/books/title/?id=28910) will be published online by Stanford University Press. The book will be a part of Stanford's [digital publishing program](https://www.sup.org/digital/), which publishes interactive works of scholarship.
 
@@ -34,7 +29,7 @@ And here is the [publisher's description](https://www.sup.org/books/title/?id=28
 
 <!--more-->
 
-<hr class="break">
+------------
 
 A year ago, my colleague and collaborator [John Turner](http://johngturner.com) and I were trying to decide what to work on next. We were thinking about doing a podcast, because RRCHNM was in the midst of standing up [R2 Studios](https://www.r2studios.org). And we wanted to do a project that would not just be of scholarly interest, but also would uncover the history of some topic important to American life. 
 
@@ -50,13 +45,13 @@ I'm not going to talk much---if at all---about the podcast before it is released
 
 But we had a "podcast summit" at my house this past week to kick off our collaboration. And---wow---have we assembled a great team. Our colleagues [Jeanette Patrick](https://www.linkedin.com/in/jeanettepatrick) (who is a co-PI on the grant) and [Jim Ambuske](https://www.jamespambuske.com) are the producers on the podcast. [Zev Eleff](https://www.gratz.edu/about/office-of-the-president) is leading our advisory board. [Mark Oppenheimer](https://www.markoppenheimer.com/) will be the podcast host. And we are close to concluding a partnership with a leading historian in the field to research and write the project.
 
-<hr class="break">
+-----------
 
 Two related recommendations. For listening, check out [Gatecrashers](https://www.tabletmag.com/sections/community/articles/gatecrashers-podcast-jews-ivy-league), a podcast from Mark Oppenheimer and _Tablet_ magazine about "the hidden history of Jews and the Ivy League." For reading, check out Britt Tevis's article "[Trends in the Study of Antisemitism in United States History](https://muse.jhu.edu/article/804163)" in _American Jewish History_.
 
-<hr class="break">
+-----------
 
-##### Updates
+### Updates
 
 Reading: Colin Woodward, [_Country Boy: The Roots of Johnny Cash_](https://www.uapress.com/product/country-boy/).
 

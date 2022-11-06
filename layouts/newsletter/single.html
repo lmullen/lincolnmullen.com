@@ -7,14 +7,13 @@
     </div>
     <div class="col-md-9 order-1 py-5">
 
-      <!-- Blog post starts here -->
 
       <article id='{{ urlize .Title }}' class="h-entry post">
 
         <header>
           <a href='{{ .Permalink }}' class="u-url u-uid permalink">
             <h2 class="post-title p-name">
-              {{ .Title | markdownify }}
+              {{ .Site.Params.NewsletterTitle }} #{{ .Slug}}: {{ .Title | markdownify }}
             </h2>
           </a>
 
@@ -45,19 +44,18 @@
         </footer>
 
       </article>
-      <!-- Blog post ends here -->
 
       <div class="mt-5 mb-4 prevnextlinks">
-        <h5>More blog posts</h5>
+        <h5>More newsletter issues</h5>
         <div class="d-flex justify-content-between">
           {{ if .NextInSection }}
           <a class="text-start" href="{{.NextInSection.Permalink}}">
-            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;{{ .NextInSection.Title | markdownify }}
+            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;#{{ .NextInSection.Slug}}:&nbsp;{{ .NextInSection.Title | markdownify }}
           </a>
           {{ end }}
           {{ if .PrevInSection }}
           <a class="text-end" href="{{.PrevInSection.Permalink}}">
-            {{ .PrevInSection.Title | markdownify }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
+            #{{ .PrevInSection.Slug }}:&nbsp;{{ .PrevInSection.Title | markdownify }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
           </a>
           {{ end }}
         </div>
@@ -70,9 +68,5 @@
 {{ end }}
 
 {{ define "canonical" }}
-{{ if .Params.External }}
-<link rel="canonical" href="{{ .Params.External.URL }}">
-{{ else }}
 <link rel="canonical" href="{{ .Page.Permalink }}">
-{{ end }}
 {{ end }}

@@ -1,0 +1,13 @@
+<div class="card text-bg-light my-4">
+  <div class="card-body">
+    <h4 class="homepage-header card-title">Subscribe to &ldquo;Working on It&rdquo;</h4>
+    <p class="small card-subtitle mb-2">An occasional newsletter about American religious history, digital history, and the making thereof</p>
+    <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
+      <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value='{{ .tag | default "website" }}'>
+      <div class="input-group mb-2">
+        <input type="text" name="email" id="bd-email" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="button-addon2">
+        <input type="submit" class="btn btn-primary" id="button-addon2" value="Subscribe">
+      </div>
+    </form>
+  </div>
+</div>

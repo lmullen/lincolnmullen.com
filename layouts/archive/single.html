@@ -11,7 +11,7 @@
       {{ partial "blog-nav" }}
     </div>
     <div class="col-md-9 order-md-1 blog-archive mt-4">
-      {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
+      {{ range (where .Site.RegularPages "Section" "in" (slice "blog" "newsletter")).GroupByDate "2006" }}
       <div class="mb-4">
         <h2>{{ .Key }}</h2>
         <table class='date-list-table'>
@@ -24,7 +24,11 @@
             {{ if not .Params.Linkpost }}
             <tr>
               <td><time class="date" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "January 2" }}</time></td>
+              {{ if (eq .Section "newsletter") }}
+              <td><a href="{{ .Permalink }}" class="post-link">{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .Title | markdownify }}</a></td>
+              {{ else }}
               <td><a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a></td>
+              {{ end }}
             </tr>
             {{ end }}
             {{ end }}

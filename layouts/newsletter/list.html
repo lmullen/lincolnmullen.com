@@ -2,11 +2,7 @@
 <div class="container-fluid">
 
   <div class="row gx-5">
-    <div class="col-md-3 order-md-2">
-      {{ partial "blog-nav" . }}
-    </div>
-
-    <div class="col-md-9 order-md-1 blog-archive mt-4">
+    <div class="col-md-9 blog-archive mt-4">
       <h1>{{ .Title }}</h1>
 
       {{ .Content }}
@@ -33,6 +29,9 @@
           </tbody>
         </table>
       </div>
+    </div>
+    <div class="col-md-3">
+      {{ partial "blog-nav" . }}
     </div>
   </div>
 </div>

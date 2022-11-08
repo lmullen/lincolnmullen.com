@@ -18,13 +18,6 @@
         <header>
           {{ if .Params.Linkpost }}
           <!-- No title on link posts -->
-          {{ else if .Params.Crosspost }}
-          <h2 class="cross-post-title p-name">
-            <a href="{{ .Params.Crosspost.URL }}">
-              {{ .Title | markdownify }}
-              &nbsp;<i class="bi bi-box-arrow-up-right"></i>
-            </a>
-          </h2>
           {{ else if (eq .Section "newsletter") }}
           <a href='{{ .Permalink }}' class="u-url u-uid permalink">
             <h2 class="post-title p-name">
@@ -40,24 +33,20 @@
           {{ end }}
         </header>
 
+        {{ if .Params.Crosspost }}
+        <div class="external-url alert alert-primary my-4" role="alert">
+          This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the original post.&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+        {{ end}}
+
         <div class='post-body e-content mt-2'>
-          {{ if .Params.Crosspost }}
-          {{ .Content | safeHTML | truncate 500 }}
-          {{ else }}
           {{ if findRE `<!--more-->` .RawContent }}
           {{ .Summary }}
           <p class="my-5"><strong><a href="{{ .RelPermalink }}">Read the entire post</a>&nbsp;<i class="bi bi-arrow-right"></i></strong></p>
           {{ else }}
           {{ .Content }}
           {{ end }}
-          {{ end }}
         </div>
-
-        {{ if .Params.Crosspost }}
-        <div class="external-url alert alert-primary" role="alert">
-          This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the full post&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
-        </div>
-        {{ end}}
 
         <footer class="post-footer text-muted text-end mt-4">
           {{ if .Params.Linkpost }}

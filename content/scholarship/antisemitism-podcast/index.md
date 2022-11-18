@@ -3,7 +3,7 @@ title: "The History of American Antisemitism"
 subtitle: "An R2 Studios podcast"
 thumbnail: "thumbnail.png"
 homepage: true
-homepageOrder: 3
+homepageOrder: 2
 links:
 - url: https://r2studios.org
   text: R2 Studios

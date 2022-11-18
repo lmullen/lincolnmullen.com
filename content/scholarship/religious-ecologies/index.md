@@ -3,7 +3,7 @@ title: "American Religious Ecologies"
 subtitle: "Datasets and visualizations for American religious history"
 thumbnail: "schedule.jpg"
 homepage: true
-homepageOrder: 4
+homepageOrder: 3
 links:
 - url: https://religiousecologies.org
   text: American Religious Ecologies website

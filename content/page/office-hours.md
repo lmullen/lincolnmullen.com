@@ -11,9 +11,7 @@ an office hours appointment or a collaborator looking to schedule a meeting. Ple
 
 **Appointments:**
 
-- [Office hours](https://fantastical.app/lincoln-Un6G/office-hours) for students
-- [Appointments and meetings](https://fantastical.app/lincoln-Un6G/collaborator-appointments) for collaborators
-- [Team meetings](https://fantastical.app/lincoln-Un6G/clio-wired-project-meetings) for Clio Wired (fall 2022)
+- [Office hours](https://fantastical.app/lincoln-Un6G/office-hours) for students. If you are a graduate student, feel free to sign up for two back to back fifteen minute appointments for a total of thirty minutes.
 
 **Zoom:** [My Zoom meeting room](https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09)
 

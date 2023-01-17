@@ -62,6 +62,8 @@ Grades will be based on the assignments listed below. Please turn in all assignm
 
 *Class participation (5%).* Regular attendance and participation in class activities is expected as a matter of course.
 
+*Extra credit: musical appreciation (3%).* Music has been a significant part of Christian history. Students can receive extra credit for opening each class session with music. To receive credit, you will play some brief selection of Christian music relevant to the time and place we are studying that day in the five minutes before class starts. Then, at the start of class, you will give the class an overview of no more than three minutes explaining why the musical selection is historically interesting or significant. 
+
 Final grades will be calculated using this scale: A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59.
 
 ## Schedule 

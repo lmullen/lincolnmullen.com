@@ -45,7 +45,7 @@ You are likewise welcome to email me at any time: <lmullen@gmu.edu>. You can gen
 **Required readings.** These books are required. Any edition will do, and the Achebe reading in particular is available in many versions. Some of the required books are available in the GMU libraries through [TextSelect Textbook Reserves](https://library.gmu.edu/textselect). All other readings will be available on Blackboard or through the GMU libraries. 
 
 - MacCulloch, Diarmaid. *Christianity: The First Three Thousand Years*. Penguin, 2009. ISBN: 9780143118695.
-- Sanneh, Lamin. *Disciples of All Nations: Pillars of World Christianity*. Oxford University Press, 2008. ISBN: 9780195189612.
+- Sanneh, Lamin. *Disciples of All Nations: Pillars of World Christianity*. Oxford University Press, 2008. ISBN: 9780195189612. Available as an [e-book through the GMU libraries](http://mutex.gmu.edu/login?url=http://dx.doi.org/10.1093/acprof:oso/9780195189605.001.0001).
 - Achebe, Chinua. *Things Fall Apart*. Penguin, 1994 (first published 1958). ISBN: 9780385474542. 
 
 ## Assignments 

@@ -56,7 +56,7 @@ Preparation and participation are expected as a matter of course in a graduate c
 
 **Analysis assignments (4 × 10% = 40%).** You will do four analysis assignments, each demonstrating a specific skill in data analysis. For these assignments you will be use a historical dataset and asked some interpretative questions. You will prepare a [Quarto](https://quarto.org) document containing prose, code, and tables or visualizations to answer the historical questions and, as necessary, explain your methods. For these assignment I will provide a dataset that you can work with (but see below). 
 
-**Final project (35%).** You will designate one of the analysis assignments as a stepping stone to your final project. For that analysis assignment, you will use the same dataset that you will use for the final project. You will try out one of the methods we are learning on that dataset. In addition to the normal feedback that I will provide on an assignment, I will also give you guidance about how to refine and expand your analysis, visualizations, and interpretations. Then, you will expand and revise the work you did in the analysis assignment for the final project. This expanded version should include more prose and citations, not to exceed 1,500 words. You may do this assignment either in a Quarto notebook or in an Observable notebook. The visualizations and data analysis should be expanded if necessary and refined in each case to the level of quality that would be expected in a published article. Each table and figure must have a caption written in complete sentences. Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The final assignment will be evaluated according to two primary criteria: (1) Did the visualizations significantly improve in refinement and quality? (2) Does the combination of prose and visualizations convey a meaningful historical argument? 
+**Final project (35%).** You will designate one of the analysis assignments as a stepping stone to your final project. For that analysis assignment, you will use the same dataset that you will use for the final project. You will try out one of the methods we are learning on that dataset. In addition to the normal feedback that I will provide on an assignment, I will also give you guidance about how to refine and expand your analysis, visualizations, and interpretations. Then, you will expand and revise the work you did in the analysis assignment for the final project. This expanded version should include more prose and citations, not to exceed 1,500 words. You may do this assignment either in a Quarto notebook or in an Observable notebook. The visualizations and data analysis should be expanded if necessary and refined in each case to the level of quality that would be expected in a published article. Each table and figure must have a caption written in complete sentences. Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The final assignment will be evaluated according to two primary criteria: (1) Did the visualizations significantly improve in refinement and quality? (2) Does the combination of prose and visualizations convey a meaningful historical argument? **Due by 12pm on Monday, May 15.**
 
 ## Schedule
 
@@ -72,19 +72,15 @@ Readings:
 -   Taylor Arnold and Lauren Tilton, "[New Data: The Role of Statistics in DH](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24)," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).
 -   "[Introduction](http://dh-r.lincolnmullen.com/introduction.html)," in *Computational Historical Thinking*.
 
-Do your level best to get these set up before the first day of class:
+We will set these up the first day of class:
 
 -   Join the class [Slack group](https://mason-dh-grad.slack.com/signup).
 -   Get a [GitHub](https://github.com/) account and post it to the Slack group (e.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen)).
 -   Install [R](https://cran.rstudio.com/), a programming language for data analysis.
 -   Install [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an environment for using R.
 -   Install [Homebrew](https://brew.sh) (only if you use macOS).
-
-These are mostly optional, but it would be helpful to have them:
-
 -   Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
--   Install [Cyberduck](https://cyberduck.io), an FTP client.
--   Install [Git](https://help.github.com/articles/set-up-git/) (more [detailed guide](https://happygitwithr.com/install-git.html)).
+-   Get an account at [Observable](https://observablehq.com).
 
 ### Week 2 (January 30): Data from history and historians
 
@@ -119,7 +115,7 @@ Readings:
 -   Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8, 27.
 -   Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
 -   "[Getting Started](https://dh-r.lincolnmullen.com/getting-started.html)" and "[An R Primer](http://dh-r.lincolnmullen.com/primer.html)" in *Computational Historical Thinking*.
--   [RMarkdown documentation](https://rmarkdown.rstudio.com/).
+-   [Quarto documentation](https://quarto.org).
 
 ### Week 4 (February 13): Data manipulation
 
@@ -214,6 +210,7 @@ Readings:
 -   Tim Hitchcock and William J. Turkel, "The *Old Bailey Proceedings, 1674--1913*: Text Mining for Evidence of Court Behavior," *Law and History Review* 34, no. 4 (2016): 929--955, <https://doi.org/10.1017/S0738248016000304>.
 -   Joshua Catalano, "Digitally Analyzing the Uneven Ground: Language Borrowing Among Indian Treaties," *Current Research in Digital History* 1 (2018): <https://doi.org/10.31835/crdh.2018.02>.
 -   Ryan Cordell, "Reprinting, Circulation, and the Network Author in Antebellum Newspapers," *American Literary History* 27, no. 3 (2015): 417--445, <https://doi.org/10.1093/alh/ajv028>.
+- Browse: Taylor Arnold, Courtney Rivard, Lauren Tilton, [_Layered Lives: Rhetoric and Representation in the Southern Life History Project_](https://layeredlives.org) (Stanford University Press, 2022): <https://doi.org/10.21627/2022ll>. 
 
 For reference:
 
@@ -230,7 +227,7 @@ Readings:
 -   Matthew K. Gold and Lauren F. Klein et al., "[Forum: Text Analysis at Scale](http://dhdebates.gc.cuny.edu/debates/text/93)," in *Debates in the Digital Humanities 2016* (University of Minnesota Press, 2016), 525--568.
 -   Jo Guldi, "Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.030>.
 
-### Week 11 (April 10): Clustering (unsupervised classification)
+### Week 11 (April 10): Supervised and unsupervised classification
 
 Assignment:
 
@@ -242,29 +239,29 @@ Readings:
 -   Robert K. Nelson, *[Mining the Dispatch](http://dsl.richmond.edu/dispatch/)* (Digital Scholarship Lab, University of Richmond).
 -   Benjamin Schmidt, "Stable Random Projection: Lightweight, General-Purpose Dimensionality Reduction for Digitized Libraries," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.025>.
 -   Skim Gareth James, et al., *An Introduction to Statistical Learning: With Applications in R* (Springer, 2013), ch. 10. [GMU library](https://link-springer-com.mutex.gmu.edu/chapter/10.1007/978-1-4614-7138-7_2)
-
-### Week 12 (April 17): Prediction (supervised classification)
-
-Readings:
-
 -   Wickham and Grolemund, *R for Data Science*, ch. 23--24.
 -   Matthew L. Jockers and Ted Underwood, "Text-Mining the Humanities" in *A New Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 291--306. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
--   Skim Gareth James, et al., *An Introduction to Statistical Learning: With Applications in R* (Springer, 2013), ch. 1, 2, 4. [GMU library](https://link-springer-com.mutex.gmu.edu/chapter/10.1007/978-1-4614-7138-7_2)
 
-### Week 13 (April 24): Next steps with computational history
+### Week 12 (April 17): Introduction to JavaScript and Observable notebooks
+
+For this week, we will do a deep dive into Observable notebooks, which is a way of doing similar work with JavaScript rather than R or Python. Read as much of the [Observable documentation](https://observablehq.com/tutorials) as you can, focusing on the hands-on tutorials.
+
+### Week 13 (April 24): Introduction to Observable plot
+
+Read the [Observable documentation](https://observablehq.com/tutorials) about their libraries and working with data. 
 
 Readings:
 
--   Browse documentation and gallery for [Shiny](https://shiny.rstudio.com).
--   Reas as much as you can: Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
 -   Rebecca Sutton Koeser, "[Trusting Others to 'Do the Math'](https://doi.org/10.1080/03080188.2016.1165454)" *Interdisciplinary Science Reviews* 40, no. 4 (2015): 376--392, <https://doi.org/10.1080/03080188.2016.1165454>.
 -   Benjamin Schmidt, "[Do Digital Humanists Need to Understand Algorithms?](http://dhdebates.gc.cuny.edu/debates/text/99)" in *Debates in the Digital Humanities 2016*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2016).
 
 ### Week 14 (May 1): Final project workshop
 
+Readings: 
+-   Read as much as you can: Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
 Assignment:
 
--   Circulate a draft of your final project in Slack by Friday, May 8. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.
+-   Circulate a draft of your final project in Slack by Friday, April 28. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.
 
 ## Fine print
 

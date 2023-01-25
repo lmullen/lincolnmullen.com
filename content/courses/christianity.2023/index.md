@@ -74,7 +74,7 @@ Final grades will be calculated using this scale: A = 93--100, A- = 90--92, B+ =
 
 ### Thu., Jan. 26: From Ancient Israel to Rabbinic Judaism
 
-- MacCulloch, ch. 47--73.
+- MacCulloch, pp. 47--73.
 - In class: Isaiah 7:10--17, 52:13--15, and 53:1--12; Daniel 1:1--21 and 7:1--28.
 
 ### Tues., Jan. 31: Jesus and the New Testament

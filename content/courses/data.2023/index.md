@@ -144,7 +144,9 @@ Readings:
 -   Lauren F. Klein, "The Image of Absence: Archival Silence, Data Visualization, and James Hemings," American Literature 85, no. 4 (December 1, 2013): 661--88, https://doi.org/10.1215/00029831-2367310.
 -   John Theibault, "Visualizations and Historical Arguments," in *Writing History in the Digital Age*, ed. Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013), <https://doi.org/10.3998/dh.12230987.0001.001>.
 
-### Week 6 (February 27): Exploratory data analysis
+### Week 6 (February 27): Cancelled
+
+### Week 7 (March 6): Exploratory data analysis
 
 Assignment:
 
@@ -157,11 +159,30 @@ Readings:
 -   Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016), ch. 1, 4--6.
 -   Jordan F. Bratt, "[Congressional Incumbency in the Early Republic](https://earlyamericanelections.org/essays/05-bratt-incumbency.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
-### Week 7 (March 6): Maps
+
+### Spring break (March 13)
+
+### Week 8 (March 20): Texts
 
 Assignment:
 
 -   [Exploratory data analysis assignment](https://github.com/ClioGMU/clio2-eda).
+
+Readings:
+
+-   Kasper, Welbers, Wouter van Atteveldt, and Kenneth Benoit, "Text analysis in R," *Communications Methods and Measures* 11, no. 4: 245--265, <https://doi.org/10.1080/19312458.2017.1387238>.
+-   Taylor Arnold, Nicolas Ballier, Paula Lissón, and Lauren Tilton, "Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities," *Language Resources and Evaluation* 53, no. 4 (2019): 707--733, <https://doi.org/10.1007/s10579-019-09456-6>.
+-   Tim Hitchcock and William J. Turkel, "The *Old Bailey Proceedings, 1674--1913*: Text Mining for Evidence of Court Behavior," *Law and History Review* 34, no. 4 (2016): 929--955, <https://doi.org/10.1017/S0738248016000304>.
+-   Joshua Catalano, "Digitally Analyzing the Uneven Ground: Language Borrowing Among Indian Treaties," *Current Research in Digital History* 1 (2018): <https://doi.org/10.31835/crdh.2018.02>.
+-   Ryan Cordell, "Reprinting, Circulation, and the Network Author in Antebellum Newspapers," *American Literary History* 27, no. 3 (2015): 417--445, <https://doi.org/10.1093/alh/ajv028>.
+- Browse: Taylor Arnold, Courtney Rivard, Lauren Tilton, [_Layered Lives: Rhetoric and Representation in the Southern Life History Project_](https://layeredlives.org) (Stanford University Press, 2022): <https://doi.org/10.21627/2022ll>. 
+
+For reference:
+
+-   Documentation for [quanteda package](https://quanteda.io/).
+-   Documentation for [cleanNLP documentation](https://statsmaths.github.io/cleanNLP/).
+
+### Week 9 (March 27): Maps
 
 Readings:
 
@@ -176,9 +197,7 @@ For reference:
 -   Documentation for the [leaflet package](https://rstudio.github.io/leaflet/).
 -   Greta Swain, "[Maryland's Political Geography in the Early Republic](https://earlyamericanelections.org/essays/06-swain-geography-of-politics.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
-### Spring break (March 13)
-
-### Week 8 (March 20): Networks
+### Week 10 (April 3): Networks
 
 Assignment:
 
@@ -197,27 +216,13 @@ For reference:
 
 -   Documentation for the [ggraph package](https://ggraph.data-imaginist.com).
 
-### Week 9 (March 27): Texts
+
+### Week 11 (April 10): Word embeddings
 
 Assignment:
 
 -   [Network assignment](https://github.com/ClioGMU/clio2-networks).
 
-Readings:
-
--   Kasper, Welbers, Wouter van Atteveldt, and Kenneth Benoit, "Text analysis in R," *Communications Methods and Measures* 11, no. 4: 245--265, <https://doi.org/10.1080/19312458.2017.1387238>.
--   Taylor Arnold, Nicolas Ballier, Paula Lissón, and Lauren Tilton, "Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities," *Language Resources and Evaluation* 53, no. 4 (2019): 707--733, <https://doi.org/10.1007/s10579-019-09456-6>.
--   Tim Hitchcock and William J. Turkel, "The *Old Bailey Proceedings, 1674--1913*: Text Mining for Evidence of Court Behavior," *Law and History Review* 34, no. 4 (2016): 929--955, <https://doi.org/10.1017/S0738248016000304>.
--   Joshua Catalano, "Digitally Analyzing the Uneven Ground: Language Borrowing Among Indian Treaties," *Current Research in Digital History* 1 (2018): <https://doi.org/10.31835/crdh.2018.02>.
--   Ryan Cordell, "Reprinting, Circulation, and the Network Author in Antebellum Newspapers," *American Literary History* 27, no. 3 (2015): 417--445, <https://doi.org/10.1093/alh/ajv028>.
-- Browse: Taylor Arnold, Courtney Rivard, Lauren Tilton, [_Layered Lives: Rhetoric and Representation in the Southern Life History Project_](https://layeredlives.org) (Stanford University Press, 2022): <https://doi.org/10.21627/2022ll>. 
-
-For reference:
-
--   Documentation for [quanteda package](https://quanteda.io/).
--   Documentation for [cleanNLP documentation](https://statsmaths.github.io/cleanNLP/).
-
-### Week 10 (April 3): Word embeddings
 
 Readings:
 
@@ -227,7 +232,7 @@ Readings:
 -   Matthew K. Gold and Lauren F. Klein et al., "[Forum: Text Analysis at Scale](http://dhdebates.gc.cuny.edu/debates/text/93)," in *Debates in the Digital Humanities 2016* (University of Minnesota Press, 2016), 525--568.
 -   Jo Guldi, "Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.030>.
 
-### Week 11 (April 10): Supervised and unsupervised classification
+### Week 12 (April 17): Supervised and unsupervised classification
 
 Assignment:
 
@@ -241,10 +246,6 @@ Readings:
 -   Skim Gareth James, et al., *An Introduction to Statistical Learning: With Applications in R* (Springer, 2013), ch. 10. [GMU library](https://link-springer-com.mutex.gmu.edu/chapter/10.1007/978-1-4614-7138-7_2)
 -   Wickham and Grolemund, *R for Data Science*, ch. 23--24.
 -   Matthew L. Jockers and Ted Underwood, "Text-Mining the Humanities" in *A New Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 291--306. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
-
-### Week 12 (April 17): Introduction to JavaScript and Observable notebooks
-
-For this week, we will do a deep dive into Observable notebooks, which is a way of doing similar work with JavaScript rather than R or Python. Read as much of the [Observable documentation](https://observablehq.com/tutorials) as you can, focusing on the hands-on tutorials.
 
 ### Week 13 (April 24): Introduction to Observable plot
 

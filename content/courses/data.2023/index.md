@@ -187,7 +187,7 @@ For reference:
 Readings:
 
 -   Healy, *Data Visualization*, ch. 7.
--   Richard White, "[What is Spatial History?](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29)," *Spatial History Project* (Stanford University, 2010).
+-   Richard White, "[What is Spatial History?](https://web.stanford.edu/group/spatialhistory/static/publications/pub29.html)," *Spatial History Project* (Stanford University, 2010).
 -   Cameron Blevins, "Space, Nation, and the Triumph of Region: A View of the World from Houston," *Journal of American History* 101, no. 1 (2014): 122--47, https://doi.org/10.1093/jahist/jau184.
 -   Browse: Robert K. Nelson and Edward L. Ayers, eds., [*American Panorama: An Atlas of United States History*](https://dsl.richmond.edu/panorama/) (Digital Scholarship Lab, University of Richmond).
 

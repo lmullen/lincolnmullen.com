@@ -205,7 +205,7 @@ Assignment:
 
 Readings:
 
--   Mark E. J. Newman, [*Networks: An Introduction*](http://math.sjtu.edu.cn/faculty/xiaodong/course/Networks%20An%20introduction.pdf) (Oxford University Press, 2010), ch. 1, 3, 4. Skim chs. 6, 7.
+-   Mark E. J. Newman, [*Networks: An Introduction*](https://math.bme.hu/~gabor/oktatas/SztoM/Newman_Networks.pdf) (Oxford University Press, 2010), ch. 1, 3, 4. Skim chs. 6, 7.
 -   Matthew Lincoln, "Social Network Centralization Dynamics in Print Production in the Low Countries, 1550--1750," *International Journal for Digital Art History* 2 (2016): 134--157, <https://doi.org/10.11588/dah.2016.2.25337>.
 
 Browse:

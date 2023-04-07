@@ -1,6 +1,6 @@
 ---
 title: "America's Public Bible: A Commentary"
-subtitle: "Stanford University Press, forthcoming 2022"
+subtitle: "Stanford University Press, 2023"
 thumbnail: "apb-cover.jpg"
 homepage: true
 homepageOrder: 1

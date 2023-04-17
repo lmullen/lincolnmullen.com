@@ -234,10 +234,6 @@ Readings:
 
 ### Week 12 (April 17): Supervised and unsupervised classification
 
-Assignment:
-
--   [Text analysis assignment](https://github.com/ClioGMU/clio2-texts).
-
 Readings:
 
 -   Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016), ch. 12.

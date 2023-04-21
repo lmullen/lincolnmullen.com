@@ -4,7 +4,7 @@ date: "2022-08-26"
 slug: 'rrchnm-welcomes-new-graduate-students'
 tags:
 - RRCHNM
-draft: true
+draft: false
 crosspost: 
   url: "https://rrchnm.org/about-rrchnm/rrchnm-welcomes-25-graduate-students-for-the-new-academic-year/"
   source: RRCHNM

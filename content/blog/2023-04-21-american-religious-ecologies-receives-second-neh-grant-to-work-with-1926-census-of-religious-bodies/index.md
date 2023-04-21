@@ -1,5 +1,5 @@
 ---
-title: "American Religious Ecologies Receives Second NEH Grant to Work with 1926 Census of Religious Bodies"
+title: "American Religious Ecologies receives second NEH grant to work with 1926 Census of Religious Bodies"
 date: "2023-04-19T15:26:58-04:00"
 slug: "american-religious-ecologies-receives-second-neh-grant"
 draft: false

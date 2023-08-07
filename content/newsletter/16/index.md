@@ -66,7 +66,10 @@ at the American Historical Association annual meeting.
 and a key contributor to the
 [Mapping Early American Elections](https://earlyamericanelections.org) and
 [American Religious Ecologies](https://religiousecologies.org) projects at
-RRCHNM---successfully defended her dissertation on "Potomac Networks" last week. [Here is why](https://lincolnmullen.com/blog/greta-swain-defends-dissertation-on-potomac-networks/) the dissertation is a masterclass in using digital methods for historical interpretation. Greta is off to Southern Methodist University as a postdoc.
+RRCHNM---successfully defended her dissertation on "Potomac Networks" last week.
+[Here is why](https://lincolnmullen.com/blog/greta-swain-defends-dissertation-on-potomac-networks/)
+the dissertation is a masterclass in using digital methods for historical
+interpretation. Greta is off to Southern Methodist University as a postdoc.
 
 ---
 
@@ -78,7 +81,7 @@ This week my wife will send in the manuscript of her book for final copyediting.
 The book is provisionally titled _The Olive Branch and the Sword: The United
 States in the Mediterranean, 1800--1805_, and it will be published by Johns
 Hopkins University Press. For our fifteenth wedding anniversary, we took a trip
-to some of the sites in her book. So here we are outside the fortifications in
+to some of the sites in her book. Here we are outside the fortifications in
 Tangier.
 
 ---

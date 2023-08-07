@@ -88,5 +88,5 @@ Tangier.
 {{< image src="moving-1.jpeg" alt="Moving day" >}}
 {{< image src="moving-2.jpeg" alt="Moving day" >}}
 
-I am packing up all my books in my office at [RRCHNM](https://rrchnm.org) to
+I am packing up all of the books in my office at [RRCHNM](https://rrchnm.org) to
 move to the other side of the wall. More on that next time.

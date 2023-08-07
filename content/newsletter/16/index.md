@@ -2,7 +2,7 @@
 title: "Photo newsletter"
 date: "2023-08-06T21:13:11-04:00"
 slug: 16
-draft: true
+draft: false
 newsletter: true
 tags:
   - legal modernism
@@ -55,6 +55,18 @@ another $350k grant from the National Endowment for the Humanities for our
 wonderful project team (a few of whom are pictured above) also
 [presented a poster](https://religiousecologies.org/blog/american-religious-ecologies-at-aha-2023/)
 at the American Historical Association annual meeting.
+
+---
+
+### Currently defending
+
+{{< image src="defending.jpeg" alt="Committee for Greta Swain's dissertation" >}}
+
+[Greta Swain](http://gretaswain.org/)---a PhD student in history at George Mason
+and a key contributor to the
+[Mapping Early American Elections](https://earlyamericanelections.org) and
+[American Religious Ecologies](https://religiousecologies.org) projects at
+RRCHNM---successfully defended her dissertation on "Potomac Networks" last week. [Here is why](https://lincolnmullen.com/blog/greta-swain-defends-dissertation-on-potomac-networks/) the dissertation is a masterclass in using digital methods for historical interpretation. Greta is off to Southern Methodist University as a postdoc.
 
 ---
 

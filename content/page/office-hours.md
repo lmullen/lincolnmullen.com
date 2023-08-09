@@ -21,7 +21,7 @@ booking an appointment.
   ([30 minutes](https://fantastical.app/lincoln-Un6G/collaboration30) or
   [60 minutes](https://fantastical.app/lincoln-Un6G/collaboration60)).
 
-**Office:** Research Hall 484, George Mason University. The physical address is
+**Office:** Research Hall 483, George Mason University. The physical address is
 10401 York River Road, Fairfax, Virginia.
 
 **Zoom:**

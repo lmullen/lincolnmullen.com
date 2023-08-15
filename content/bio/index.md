@@ -2,7 +2,7 @@
 title: "Biography"
 ---
 
-<div style="max-width:50%; margin-left: 2rem; margin-bottom: 2rem;" class="float-end img-thumbnail bio-img">{{< image src="mullen-photo.png" alt="Photograph of Lincoln Mullen">}}</div>
+<div style="max-width:50%; margin-left: 2rem; margin-bottom: 2rem;" class="float-end img-thumbnail bio-img">{{< image src="lincoln-mullen-photo.png" alt="Photograph of Lincoln Mullen">}}</div>
 
 [Lincoln Mullen](https://lincolnmullen.com) is a historian of American religion
 and the nineteenth-century United States, often using computational methods for
@@ -74,4 +74,4 @@ in the Young Scholars in American Religion program at the Center for the Study
 of Religion and American Culture.
 
 His wife, [Abby Mullen](https://abbymullen.org), is a historian at the U.S.
-Naval Academy. They have two children.
+Naval Academy. They have two children and live in Annandale, Virginia.

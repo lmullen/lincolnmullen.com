@@ -23,9 +23,9 @@ newsletter. You can subscribe to everything either by adding the
 
 My colleagues and I release a monthly newsletter titled
 "[American Religion @ RRCHNM](https://us14.campaign-archive.com/home/?u=36898c6824a31b8e1d4434a55&id=18c732c256),"
-about our digital history work. I also have a more personal
-[weblog](https://weblog.lincolnmullen.com/), which is the closest thing I have
-to social media.
+about our digital history work. My social media accounts are listed in the
+sidebar; I mostly use [Bluesky](https://bsky.app/profile/lincolnmullen.com)
+these days.
 
 **Teaching.** My courses cover American religious history, the history of
 Christianity, the history of the nineteenth-century United States, and digital

@@ -1,13 +1,13 @@
 ---
-title: "RRCHNM on entering its thirtieth year"
+title: "RRCHNM past, present, and future"
 date: "2023-08-15T09:00:00-04:00"
 slug: "rrchnm-on-entering-its-thirtieth-year"
-draft: true
+draft: false
 # newsletter: true
 tags:
   - RRCHNM
 crosspost:
-  url: "https://rrchnm.org/"
+  url: "https://rrchnm.org/about-rrchnm/rrchnm-past-present-and-future/"
   source: "RRCHNM"
 # linkpost: ""
 ---
@@ -28,6 +28,8 @@ website and couldn't get it to look the way I wanted. (I am still terrible at
 CSS.) I wrote to a graduate student who was working at CHNM and asked if I could
 copy and paste the design for his website. He graciously said yes, introducing
 me to some of the key values of CHNM: collaboration and openly sharing with all.
+
+<!--more-->
 
 One of the clearest examples of openness in RRCHNM's history was the
 [THATCamp](https://www.insidehighered.com/blogs/gradhacker/whats-thatcamp-and-why-go-0)

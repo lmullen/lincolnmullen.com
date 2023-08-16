@@ -38,16 +38,17 @@ American religion, including digitizing the 1926 Census of Religious Bodies.
 They are also the writers of the forthcoming podcast,
 [_Antisemitism, U.S.A_](https://www.r2studios.org/show/Antisemitism-USA/). He is
 working with [Kellen Funk](https://kellenfunk.org) on the
-[Legal Modernism](https://legalmodernism.org) project, which studies and
+[_Legal Modernism_](https://legalmodernism.org) project, which studies and
 visualizes the history of the modernization of American law using computational
 methods. They published
 [an article in the _American Historical Review_](https://doi.org/10.1093/ahr/123.1.132)
 on the diffusion of New York procedure codes across the United States during
 Reconstruction. With
 [Rosemarie Zagarri](https://historyarthistory.gmu.edu/people/rzagarri), he
-created [Mapping Early American Elections](https://earlyamericanelections.org),
-which uncovers the history of Congressional and state legislative election
-results during the formative era of the first party system. With
+created
+[_Mapping Early American Elections_](https://earlyamericanelections.org), which
+uncovers the history of Congressional and state legislative election results
+during the formative era of the first party system. With
 [Stephen Robertson](https://drstephenrobertson.com), he has authored or edited a
 series of publications encouraging
 [argument-driven digital history](https://model-articles.rrchnm.org), and the

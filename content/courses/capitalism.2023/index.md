@@ -131,7 +131,7 @@ Suggested readings:
 
 - Giggie, _After Redemption_.
 - Gutjahr, _An American Bible_.
-- McDannel, _Material Christianity_.
+- McDannell, _Material Christianity_.
 - Sack, _Whitebread Protestants_.
 
 ### October 10 (Week 7, GMU Monday): Labor

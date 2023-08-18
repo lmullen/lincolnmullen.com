@@ -69,7 +69,7 @@ Suggested readings:
 
 Mark Valeri, _Heavenly Merchandize: How Religion Shaped Commerce in Puritan America_ (Princeton University Pres, 2014).
 
-Max Weber, _The Protestant Ethic and the Spirit of Capitalism_, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1--95. \[Also available online via GMU Libraries.\]
+Max Weber, _The Protestant Ethic and the Spirit of Capitalism_, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1--95.
 
 Suggested readings:
 
@@ -78,16 +78,17 @@ Suggested readings:
 
 ### September 4: No class, Labor Day
 
-Not required, but you should read Roy Rosenzweig, _Eight Hours for What We Will: Workers and Leisure in an Industrial City, 1870--1920_ (Cambridge University Press, 1983).
+To observe the day, you should read Roy Rosenzweig, _Eight Hours for What We Will: Workers and Leisure in an Industrial City, 1870--1920_ (Cambridge University Press, 1983).
 
 ### September 11 (Week 3): Money and markets
 
-James David Hudnut-Beumler, _In Pursuit of the Almighty's Dollar: A History of Money and American Protestantism_ (University of North Carolina Press, 2007).
+James Hudnut-Beumler, _In Pursuit of the Almighty's Dollar: A History of Money and American Protestantism_ (University of North Carolina Press, 2007).
 
 Stewart Davenport, _Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860_ (Chicago: University of Chicago Press, 2008), ch. 1.
 
 Suggested readings:
 
+- Davenport, _Friends of the Unrighteous Mammon_.
 - Johnson, _A Shopkeeper's Millennium_.
 - Judson, _Pennies for Heaven_.
 - Noll, ed., _God and Mammon_.
@@ -130,6 +131,7 @@ Suggested readings:
 
 - Giggie, _After Redemption_.
 - Gutjahr, _An American Bible_.
+- McDannel, _Material Christianity_.
 - Sack, _Whitebread Protestants_.
 
 ### October 10 (Week 7, GMU Monday): Labor
@@ -160,6 +162,7 @@ Bethany Moreton, _To Serve God and Wal-Mart: The Making of Christian Free Enterp
 Suggested readings:
 
 - Moore, _Selling God_.
+- Moreton, _To Serve God and Wal-Mart_.
 - Leach, _Land of Desire_.
 - Finke and Stark, _The Churching of America_.
 
@@ -175,17 +178,18 @@ Suggested readings:
 
 ### October 30 (Week 10): Energy and environmentalism
 
-Darren Dochuk, _Anointed with Oil: How Christianity and Crude Made Modern America_ (New York: Basic Books, 2019).
+Darren Dochuk, _Anointed with Oil: How Christianity and Crude Made Modern America_ (Basic Books, 2019).
 
 Amanda J. Baugh, _God and the Green Divide: Religious Environmentalism in Black and White_ (University of California Press, 2017), ch. 1. [Available via GMU Library catalog.]
 
 Suggested readings:
 
+- Baugh, _God and the Green Divide_.
 - Berry, _Devoted to Nature_.
 - Smil, _Energy and Civilization_.
 - Stoll, _Inherit the Holy Mountain_.
 
-### November 6 (Week 11, GMU Monday): Philanthropy
+### November 6 (Week 11): Philanthropy
 
 Lila Corwin Berman, _The American Jewish Philanthropic Complex: The History of a Multibillion-Dollar Institution_ (Princeton University Press, 2021).
 
@@ -199,7 +203,7 @@ Suggested readings:
 
 Daniel Vaca, _Evangelicals Incorporated: Books and the Business of Religion in America_ (Harvard University Press, 2019).
 
-Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in _Sunbelt Rising: The Politics of Place, Space, and Region_, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293--315. \[[GMU Libraries](https://wrlc-gm.primo.exlibrisgroup.com/permalink/01WRLC_GML/19u1omk/cdi_askewsholts_vlebooks_9780812209976)\]
+Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in _Sunbelt Rising: The Politics of Place, Space, and Region_, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293--315.
 
 Suggested readings:
 
@@ -231,6 +235,7 @@ Kathryn Lofton, _Oprah: The Gospel of an Icon_ (University of California Press, 
 Suggested readings:
 
 - Bowler, _The Preacher's Wife_.
+- Lofton, _Oprah_.
 - McCarraher, _The Enchantments of Mammon_.
 
 ## Fine print

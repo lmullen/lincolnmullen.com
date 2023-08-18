@@ -143,6 +143,7 @@ Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shel
 Suggested readings:
 
 - Cantwell, Carter, and Drake, eds., _The Pew and the Picket Line_.
+- Drake, _The Gospel of Church_.
 - Fones-Wolf, _Trade Union Gospel_.
 - Roll, _Spirit of Rebellion_.
 - Piehl, _Breaking Bread_.

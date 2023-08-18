@@ -196,6 +196,7 @@ Suggested readings:
 
 - Bourgeois, _All Things Human_.
 - Graber, _Debt: The First 5000 Years_.
+- Kaell, _Christian Globalism at Home_.
 - Luker, _The Social Gospel in Black and White_.
 - Phillips, _A Kingdom on Earth_.
 

@@ -47,8 +47,8 @@ Standard rules for historical papers: 11- or 12-point serif font; 1-inch margins
 
 You will submit a proposal, which will be graded on a completion basis. You will also submit a complete rough draft (emphasis on _complete_) for comment, which will be worth 5% of your course grade. The final paper will be worth the other 35%.
 
-- Topic paragraph and book list due on October 14.
-- Rough draft due on December 1.
+- Topic paragraph and book list due on October 16.
+- Rough draft due on November 27.
 - Final paper due on December 10.
 
 ## Schedule

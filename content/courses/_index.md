@@ -1,12 +1,15 @@
 ---
 title: "Teaching"
 aliases:
-- "/teaching/"
+  - "/teaching/"
 ---
 
-I teach courses in American religion, the global history of Christianity, the nineteenth-century United States, and in particular on digital history and computational history. All of my syllabi are available below.
+I teach courses in American religion, the global history of Christianity, the
+nineteenth-century United States, and in particular on digital history and
+computational history. All of my syllabi are available below.
 
 <table id="syllabus-list" class="date-list-table table table-borderless align-top">
+  <tr><td class="semester">Fall 2023</td> <td><a href="/courses/capitalism.2023">Capitalism and American Religion</a></td></tr>
   <tr><td class="semester">Spring 2023</td> <td><a href="/courses/christianity.2023">Global History of Christianity</a></td></tr>
   <tr><td class="semester">Spring 2023</td> <td><a href="/courses/data.2023">Data Analysis for History</a></td></tr>
   <tr><td class="semester">Fall 2022</td> <td><a href="/courses/clio1.2022">Clio Wired: An Introduction to History and New Media</a></td></tr>
@@ -33,4 +36,3 @@ I teach courses in American religion, the global history of Christianity, the ni
   <tr><td class="semester">Spring 2014</td> <td><a href="//files.lincolnmullen.com/religion-19c-dh.pdf">Mapping Boston&rsquo;s Religions</a></td></tr>
   <tr><td class="semester">Fall 2012</td> <td><a href="//files.lincolnmullen.com/religious-pluralism.syllabus.2012-fall.pdf">Religious Pluralism and the American State</a></td></tr>
 </table>
-

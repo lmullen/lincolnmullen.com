@@ -69,7 +69,7 @@ Suggested readings:
 
 Mark Valeri, _Heavenly Merchandize: How Religion Shaped Commerce in Puritan America_ (Princeton University Pres, 2014).
 
-Max Weber, _The Protestant Ethic and the Spirit of Capitalism_, ed. Peter Baehr and Gordon C. Wells (New York: Penguin, 2002), 1--95.
+Max Weber, _The Protestant Ethic and the Spirit of Capitalism_, ed. Peter Baehr and Gordon C. Wells (Penguin, 2002), 1--95.
 
 Suggested readings:
 
@@ -84,7 +84,7 @@ To observe the day, you should read Roy Rosenzweig, _Eight Hours for What We Wil
 
 James Hudnut-Beumler, _In Pursuit of the Almighty's Dollar: A History of Money and American Protestantism_ (University of North Carolina Press, 2007).
 
-Stewart Davenport, _Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860_ (Chicago: University of Chicago Press, 2008), ch. 1.
+Stewart Davenport, _Friends of the Unrighteous Mammon: Northern Christians and Market Capitalism, 1815--1860_ (University of Chicago Press, 2008), ch. 1.
 
 Suggested readings:
 
@@ -145,9 +145,6 @@ Suggested readings:
 - Cantwell, Carter, and Drake, eds., _The Pew and the Picket Line_.
 - Fones-Wolf, _Trade Union Gospel_.
 - Roll, _Spirit of Rebellion_.
-- Phillips, _A Kingdom on Earth_.
-- Luker, _The Social Gospel in Black and White_.
-- Bourgeois, _All Things Human_.
 - Piehl, _Breaking Bread_.
 - Miller, _God at Work_.
 - Michels, _A Fire in their Hearts_.
@@ -180,7 +177,7 @@ Suggested readings:
 
 Darren Dochuk, _Anointed with Oil: How Christianity and Crude Made Modern America_ (Basic Books, 2019).
 
-Amanda J. Baugh, _God and the Green Divide: Religious Environmentalism in Black and White_ (University of California Press, 2017), ch. 1. [Available via GMU Library catalog.]
+Amanda J. Baugh, _God and the Green Divide: Religious Environmentalism in Black and White_ (University of California Press, 2017), ch. 1.
 
 Suggested readings:
 
@@ -197,13 +194,16 @@ Marcel Mauss, _The Gift: The Form and Reason for Exchange in Archaic Societies_,
 
 Suggested readings:
 
+- Bourgeois, _All Things Human_.
 - Graber, _Debt: The First 5000 Years_.
+- Luker, _The Social Gospel in Black and White_.
+- Phillips, _A Kingdom on Earth_.
 
 ### November 13 (Week 12): Corporations
 
 Daniel Vaca, _Evangelicals Incorporated: Books and the Business of Religion in America_ (Harvard University Press, 2019).
 
-Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in _Sunbelt Rising: The Politics of Place, Space, and Region_, ed. Michelle M. Nickerson and Darren Dochuk (Philadelphia: University of Pennsylvania Press, 2011), 293--315.
+Darren Grem, "The Marketplace Missions of S. Truett Cathy, Chick-Fil-A, and the Sunbelt South," in _Sunbelt Rising: The Politics of Place, Space, and Region_, ed. Michelle M. Nickerson and Darren Dochuk (University of Pennsylvania Press, 2011), 293--315.
 
 Suggested readings:
 

@@ -218,7 +218,7 @@ Suggested readings:
 
 Kate Bowler, _Blessed: A History of the American Prosperity Gospel_ (Oxford University Press, 2013).
 
-Marla F. Frederick, _Colored Television: American Religion Gone Global_ (Stanford University Press, 2016), ch. 2. \[Available via GMU Library catalog.\]
+Marla F. Frederick, _Colored Television: American Religion Gone Global_ (Stanford University Press, 2016), ch. 2.
 
 Suggested readings:
 

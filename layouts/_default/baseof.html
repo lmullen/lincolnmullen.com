@@ -62,7 +62,7 @@
 	{{ block "page-header" . }}
 	<div class="container main-container">
 
-		<header id="site-header">
+		<header id="site-header" class="d-print-none">
 			<ul class="nav flex-column flex-sm-row mb-3">
 				<li>
 					<a href="/" class="pt-0 pb-1 nav-link site-title">{{ .Site.Title }}</a>
@@ -101,7 +101,7 @@
 
 		{{ block "footer" . }}
 
-		<footer class="site-footer">
+		<footer class="site-footer d-print-none">
 			<div class="h-card">
 				<p>
 					This website is created in <a href="https://en.wikipedia.org/wiki/Annandale,_Virginia"><span class="p-adr h-adr"><span class="p-locality">Annandale</span>, <span class="p-region">Virginia</span></span></a>. Made with <a href="https://gohugo.io/">Hugo</a> (<a href="https://github.com/lmullen/lincolnmullen.com">source code</a>). Here are some <a href="/page/cool-things/">cool things</a>.

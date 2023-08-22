@@ -226,6 +226,7 @@ Suggested readings:
 - Frederick, _Colored Television_.
 - Walton, _Watch This_.
 - Matzko, _The Radio Right_.
+- Wigger, _PTL_.
 
 ### November 27 (Week 14): Culture
 

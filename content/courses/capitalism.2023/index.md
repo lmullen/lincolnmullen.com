@@ -136,7 +136,7 @@ Suggested readings:
 
 ### October 10 (Week 7, GMU Monday): Labor
 
-Heath W. Carter, _Union Made: Working People and the Rise of Social Christianity in Chicago_ (Oxford University Press, 2017). [This book has not yet been published, though its publication date is September 29. But if you wish, you may substitute Janine Giordano Drake, _The Gospel of Church: How Mainline Protestants Vilified Christian Socialism and Fractured the Labor Movement_ (Oxford University Press, 2023).]
+Heath W. Carter, _Union Made: Working People and the Rise of Social Christianity in Chicago_ (Oxford University Press, 2017). [But if you wish, you may substitute Janine Giordano Drake, _The Gospel of Church: How Mainline Protestants Vilified Christian Socialism and Fractured the Labor Movement_ (Oxford University Press, 2023). Drake's book has not yet been published, though its publication date is September 29.]
 
 Arlene Sánchez Walsh, "Emma Tenayuca, Religious Elites, and the 1938 Pecan-Shellers' Strike," in Christopher D. Cantwell, Heath W. Carter, and Janine Giordano Drake, eds., _The Pew and the Picket Line: Christianity and the American Working Class_ (University of Illinois Press, 2016), ch. 6.
 

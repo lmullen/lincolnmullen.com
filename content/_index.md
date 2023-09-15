@@ -7,7 +7,7 @@ lede: "Greetings. I am a historian of American religion and the nineteenth-centu
 
 {{< newsletter >}}
 
-My colleagues and I release a monthly newsletter titled "[American Religion @ RRCHNM](https://us14.campaign-archive.com/home/?u=36898c6824a31b8e1d4434a55&id=18c732c256)," about our digital history work. My social media accounts are listed in the sidebar; I mostly use [Bluesky](https://bsky.app/profile/lincolnmullen.com) these days.
+If you want to follow our work at RRCHNM, please [subscribe to our newsletters](http://go.gmu.edu/RRCHNMnews). My social media accounts are listed in the sidebar; I mostly use [Bluesky](https://bsky.app/profile/lincolnmullen.com) these days.
 
 **Teaching.** My courses cover American religious history, the history of Christianity, the history of the nineteenth-century United States, and digital history. All of my [syllabi](/courses/) are freely available.
 

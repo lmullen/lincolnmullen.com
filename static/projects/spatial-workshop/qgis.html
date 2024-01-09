@@ -25,7 +25,7 @@
 
 
 
-  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+
   <!-- end in_header.html -->
 
 
@@ -116,20 +116,14 @@
 
         <div id="about-qgis" class="section level2">
           <h2>About QGIS</h2>
-          <p>QGIS is an advanced tool, comparable to <a
-              href="http://www.esri.com/software/arcgis/arcgis-for-desktop">ArcGIS</a>.<a href="#fn1"
-              class="footnoteRef" id="fnref1"><sup>1</sup></a> In this workshop we will use data from <a
-              href="https://www.nhgis.org/">NHGIS</a> which has U.S. Census data to create a <a
-              href="data-maps.html">data map</a> similar to what we did earlier. Working with NHGIS will serve as an
+          <p>QGIS is an advanced tool, comparable to <a href="http://www.esri.com/software/arcgis/arcgis-for-desktop">ArcGIS</a>.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> In this workshop we will use data from <a href="https://www.nhgis.org/">NHGIS</a> which has U.S. Census data to create a <a href="data-maps.html">data map</a> similar to what we did earlier. Working with NHGIS will serve as an
             introduction to navigating large spatial datasets that are available from governments or academic sources.
-            But because the NHGIS shapefiles are too large to be usable in CartoDB<a href="#fn2" class="footnoteRef"
-              id="fnref2"><sup>2</sup></a> we will create a similar kind of map in QGIS.</p>
+            But because the NHGIS shapefiles are too large to be usable in CartoDB<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> we will create a similar kind of map in QGIS.</p>
           <p>QGIS, like CartoDB, uses map layers. (You might compare it to Photoshop in this regard.) You might
             initially find it surprising that QGIS does not start with a base layer, such as a Google Maps. QGIS expects
             you to add every layer for yourself.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-load.png"
-              alt="QGIS after loading without any layers displayed." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-load.png" alt="QGIS after loading without any layers displayed." />
             <p class="caption">QGIS after loading without any layers displayed.</p>
           </div>
         </div>
@@ -138,19 +132,14 @@
           <p>We will use data from the <a href="https://www.nhgis.org/">National Historic Geographic Information
               System</a> (NHGIS), a project from the Minnesota Population Center to digitize U.S. Census data and
             connect it to spatial data. You should navigate through NHGIS in order to download data for yourself. To
-            download data from NHGIS, you will need to create an account, then navigate the <a
-              href="https://data2.nhgis.org/main">data finder</a>. See the <a
-              href="https://www.nhgis.org/user-resources/users-guide">NHGIS User’s Guide</a> for details. After
+            download data from NHGIS, you will need to create an account, then navigate the <a href="https://data2.nhgis.org/main">data finder</a>. See the <a href="https://www.nhgis.org/user-resources/users-guide">NHGIS User’s Guide</a> for details. After
             downloading those files, you should unzip them into a directory. Be sure to include both census data and
             shapefiles. The geographic level (i.e., county, state, or census tract) and the year must match one another
-            for the census data and the spatial data. Or you can download this <a
-              href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_csv.zip">assortment of data from 1890 U.S.
-              Census</a> (CSV files) with accompanying <a
-              href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_shape.zip">county boundaries</a> (a
+            for the census data and the spatial data. Or you can download this <a href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_csv.zip">assortment of data from 1890 U.S.
+              Census</a> (CSV files) with accompanying <a href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_shape.zip">county boundaries</a> (a
             shapefile).<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis.png"
-              alt="Selecting data from the NHGIS data finder." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis.png" alt="Selecting data from the NHGIS data finder." />
             <p class="caption">Selecting data from the NHGIS data finder.</p>
           </div>
         </div>
@@ -161,17 +150,14 @@
             by adding the county boundaries for the U.S. in 1890. Since these are in a shapefile, they are a vector
             layer.</p>
           <p>To add the layer, click “Layer &gt; Add Layer &gt; Add Vector Layer.” You will then navigate to the
-            directory where the NHGIS shapefile is stored.<a href="#fn4" class="footnoteRef"
-              id="fnref4"><sup>4</sup></a></p>
+            directory where the NHGIS shapefile is stored.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-select-file.png"
-              alt="Selecting a shapefile to add as a vector layer in QGIS." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-select-file.png" alt="Selecting a shapefile to add as a vector layer in QGIS." />
             <p class="caption">Selecting a shapefile to add as a vector layer in QGIS.</p>
           </div>
           <p>After loading the shapefile, it will be displayed as a layer in QGIS.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-shapefile-loaded.png"
-              alt="A shapefile after being loaded into QGIS." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-shapefile-loaded.png" alt="A shapefile after being loaded into QGIS." />
             <p class="caption">A shapefile after being loaded into QGIS.</p>
           </div>
           <p>There are a number of things you can do now that QGIS is displaying data. You can pan and zoom using the
@@ -183,8 +169,7 @@
           <p>First, to see the data associated with the shapefile, you can right click on the layer and choose “Open
             Attribute Table.” A window will pop up with a table similar to this.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-attributes.png"
-              alt="The attribute table of a county shapefile in QGIS." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-attributes.png" alt="The attribute table of a county shapefile in QGIS." />
             <p class="caption">The attribute table of a county shapefile in QGIS.</p>
           </div>
           <p>Notice the way that this data is structured. There is one row for each “feature” in the shapefile, in this
@@ -209,8 +194,7 @@
             that we are going to assign each feature to a bin associated with a color. By selecting the column to be the
             <code>SHAPE_AREA</code>, we are saying that the color should be determined by that variable. The number of
             “classes” is the number of bins. The “mode” is the way we determine what the boundaries of the bins should
-            be. In this case we will use the <a
-              href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks natural breaks algorithm</a>
+            be. In this case we will use the <a href="http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization">Jenks natural breaks algorithm</a>
             which tries to make each bin as distinct as possible from every other bin, while making the items in each
             bin as much alike as possible.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> There are a
             number of color ramps to choose from, most taken from the <a href="http://colorbrewer2.org/">Color Brewer
@@ -223,8 +207,7 @@
           <p>We get the following map as a result. It shows the counties classified by their size. We can inspect the
             map and see that the bigger counties do in fact receive a darker color.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-area.png"
-              alt="The resulting map of counties categorized by their area. Notice that in a choropleth map the area of a shape can distort its apparent significance." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-area.png" alt="The resulting map of counties categorized by their area. Notice that in a choropleth map the area of a shape can distort its apparent significance." />
             <p class="caption">The resulting map of counties categorized by their area. Notice that in a choropleth map
               the area of a shape can distort its apparent significance.</p>
           </div>
@@ -237,8 +220,7 @@
             this.
           </p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis-csv.png"
-              alt="A CSV containing data from NHGIS." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis-csv.png" alt="A CSV containing data from NHGIS." />
             <p class="caption">A CSV containing data from NHGIS.</p>
           </div>
           <p>The first thing to notice about this file is that the first column, <code>GISJOIN</code>, contains the same
@@ -261,8 +243,7 @@
             (e.g., latitude and longitude) we could let QGIS know where to find it. But this file has no spatial
             information so we will select “no geometry.”</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-delimited.png"
-              alt="Adding a CSV file to QGIS." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-delimited.png" alt="Adding a CSV file to QGIS." />
             <p class="caption">Adding a CSV file to QGIS.</p>
           </div>
           <p>Now we have both layers in QGIS and need to join them together. To do that, we will right click on the
@@ -273,8 +254,7 @@
             have to join a CSV of country data to a shapefile of countries using their respective columns with the names
             of the countries, and inevitably there will be some names that will need to be standardized.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-join.png"
-              alt="Joining a CSV file to a shapefile in QGIS." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-join.png" alt="Joining a CSV file to a shapefile in QGIS." />
             <p class="caption">Joining a CSV file to a shapefile in QGIS.</p>
           </div>
           <p>Once we have completed the join, we can reopen the shapefile’s attribute table. Where before we only had
@@ -282,8 +262,7 @@
             graduated symbol as we did above. In this case, we can use the column <code>AVL016</code>, which gives us
             the number of people born in Germany by county.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-german.png"
-              alt="People born in Germany residing in each county in 1890." />
+            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-german.png" alt="People born in Germany residing in each county in 1890." />
             <p class="caption">People born in Germany residing in each county in 1890.</p>
           </div>
         </div>
@@ -301,8 +280,7 @@
             <li>Can you plot an entirely different data set?</li>
           </ul>
           <p>One of the most important skills to learn in using technology for scholarly research is how to read the
-            manual successfully. You may wish to read the guide that QGIS provides: “<a
-              href="http://docs.qgis.org/2.0/en/docs/gentle_gis_introduction/">A Gentle Introduction to GIS</a>.” There
+            manual successfully. You may wish to read the guide that QGIS provides: “<a href="http://docs.qgis.org/2.0/en/docs/gentle_gis_introduction/">A Gentle Introduction to GIS</a>.” There
             are many tutorials for QGIS online; see the <a href="resources.html">resources page</a> for a list. QGIS
             provides many advanced techniques which you should look over.</p>
         </div>
@@ -328,8 +306,7 @@
             </li>
             <li id="fn4">
               <p>Even though the shapefile actually has several different files associated with it, you want to add it
-                as a file and not as a directory. QGIS will automatically import the other files as well.<a
-                  href="#fnref4">↩</a></p>
+                as a file and not as a directory. QGIS will automatically import the other files as well.<a href="#fnref4">↩</a></p>
             </li>
             <li id="fn5">
               <p>In this case, other options like “pretty” breaks don’t work well because the Alaska counties are much
@@ -345,9 +322,7 @@
               These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
               <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
               <br>
-              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                  alt="Creative Commons License" style="border-width:0"
-                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             </small>
           </p>
         </footer>

@@ -27,7 +27,7 @@
   <meta name="author" content="Lincoln Mullen">
   <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
 
-  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
+
   <!-- end in_header.html -->
 
 
@@ -133,18 +133,17 @@
           <h2>Mapping, digital humanities, and the disciplines</h2>
           <p>The <a href="http://whatisdigitalhumanities.com/">digital humanities</a> have a number of common
             specialties, among them text mining, network analysis, public history/humanities, and mapping. As Stephen
-            Robertson has <a
-              href="http://drstephenrobertson.com/blog-post/the-differences-between-digital-history-and-digital-humanities/">pointed
+            Robertson has <a href="http://drstephenrobertson.com/blog-post/the-differences-between-digital-history-and-digital-humanities/">pointed
               out</a>, mapping is one of the most commonly used techniques in digital history, whereas digital literary
             studies has often focused more on text mining. But while digital history may have a special affinity for
             mapping, mapping and the spatial turn more generally have had a significant impact across the humanities
             disciplines. For an introduction to spatial humanities and the disciplines, you can read Jo Guldi’s
             introduction “<a href="http://spatial.scholarslab.org/spatial-turn/">What Is the Spatial Turn?</a>,” which
-            discusses the importance of the spatial turn for eight academic disciplines, and Richard White’s essay “<a
-              href="https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29">What is Spatial
+            discusses the importance of the spatial turn for eight academic disciplines, and Richard White’s essay “<a href="https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29">What is Spatial
               History?</a>,” which provides an introduction for the historical discipline. The list of projects on the
             <a href="literacy.html">mapping literacy page</a> provides many example of how mapping has influenced
-            humanities research and teaching.</p>
+            humanities research and teaching.
+          </p>
           <p>Mapping has many uses for humanities scholars. Humanists sometimes use maps to tell stories by tracking the
             movement of individuals and groups through space and time. Another kind of humanities mapping focuses on
             “deep mapping,” which seeks to demonstrate how the multiple meanings of places is constructed. A third kind
@@ -185,8 +184,7 @@
             major part of the time we work.</p>
           <p>
           <div id="htmlwidget-3078" style="width:100%;height:192px;" class="grViz"></div>
-          <script type="application/json"
-            data-for="htmlwidget-3078">{"x":{"diagram":"\n      digraph nicegraph {\n      graph [overlap = true,\n             rankdir = LR,\n             label = <The Process of Mapping<BR/><BR/> >,\n             fontname = Ubuntu,\n             labelloc = \"t\"\n]\n\n      node [shape = box,\n           overlap = true,\n           fontname = Ubuntu,\n           fontsize = 10]\n      A [label = \"Find/create data\"]\n      B [label = \"Clean/tidy data\"]\n      C [label = \"Explore data\"]\n      D [label = \"Map data\"]\n      E [label = \"Interpret map\"]\n\n      A->B->C->D->E [splines = \"line\"]\n      C->B [splines = \"curved\"]\n      E->D [splines = \"curved\"]\n      D->C [splines = \"curved\"]\n      E->A [splines = \"curved\"]\n      }\n      ","config":{"engine":"dot","options":null}},"evals":[]}</script>
+          <script type="application/json" data-for="htmlwidget-3078">{"x":{"diagram":"\n      digraph nicegraph {\n      graph [overlap = true,\n             rankdir = LR,\n             label = <The Process of Mapping<BR/><BR/> >,\n             fontname = Ubuntu,\n             labelloc = \"t\"\n]\n\n      node [shape = box,\n           overlap = true,\n           fontname = Ubuntu,\n           fontsize = 10]\n      A [label = \"Find/create data\"]\n      B [label = \"Clean/tidy data\"]\n      C [label = \"Explore data\"]\n      D [label = \"Map data\"]\n      E [label = \"Interpret map\"]\n\n      A->B->C->D->E [splines = \"line\"]\n      C->B [splines = \"curved\"]\n      E->D [splines = \"curved\"]\n      D->C [splines = \"curved\"]\n      E->A [splines = \"curved\"]\n      }\n      ","config":{"engine":"dot","options":null}},"evals":[]}</script>
           </p>
           <p>This does present a pedagogical challenge in learning about mapmaking, however. Once one has learned how to
             make maps, one still might stumble in learning how to prepare the data. For this reason, this workshop will
@@ -214,8 +212,7 @@
             job is crucial, especially when deciding what tools you will use in your courses, and which tools you can
             rely on for your research.</p>
           <p>You can think of spatial tools as lying on a spectrum from consumer to professional tools. Consumer tools
-            are intended to be “user friendly” (though they rarely live up to that claim). They invariably feature a <a
-              href="http://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a> (GUI), which
+            are intended to be “user friendly” (though they rarely live up to that claim). They invariably feature a <a href="http://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a> (GUI), which
             makes common actions fairly easy to perform but which makes uncommon actions impossible to do. They almost
             always assume that you are working with data which is clean and ready to use. Often, but not always, they
             are intended to have a flatter learning curve, but skilled users are not generally much more productive than
@@ -230,20 +227,16 @@
           <p>These are the types of tools that you will use during this workshop.</p>
           <div id="gis" class="section level3">
             <h3>GIS</h3>
-            <p>The archetypical tool for doing spatial work is the <a
-                href="http://en.wikipedia.org/wiki/Geographic_information_system">geographic information system</a> from
+            <p>The archetypical tool for doing spatial work is the <a href="http://en.wikipedia.org/wiki/Geographic_information_system">geographic information system</a> from
               which the discipline of GIS takes its names. These GIS tools are large GUI programs installed on a
               computer. They are as near to being comprehensive as any tool, and handle data from its raw stage to the
-              final presentation of maps. The best known GIS system is <a
-                href="http://www.arcgis.com/features/">ArcGIS</a>, a Windows-only, very expensive commercial program
-              from ESRI. If you have access to ArcGIS, it probably comes through your university. An alternative is <a
-                href="http://www.qgis.org/en/site/">QGIS</a>, an open-source GIS program available on Mac, PC, and
+              final presentation of maps. The best known GIS system is <a href="http://www.arcgis.com/features/">ArcGIS</a>, a Windows-only, very expensive commercial program
+              from ESRI. If you have access to ArcGIS, it probably comes through your university. An alternative is <a href="http://www.qgis.org/en/site/">QGIS</a>, an open-source GIS program available on Mac, PC, and
               Linux. This application has matured in recent years so that it is a viable alternative to ArcGIS. While
               there are differences between the two programs, what you learn in one will be generally applicable to the
               other. For this workshop, we will use <a href="qgis.html">QGIS to make maps</a>.</p>
             <div class="figure">
-              <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-screenshot.png"
-                alt="QGIS running on Mac OS X." />
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-screenshot.png" alt="QGIS running on Mac OS X." />
               <p class="caption">QGIS running on Mac OS X.</p>
             </div>
           </div>
@@ -251,17 +244,15 @@
             <h3>Web mapping tools</h3>
             <p>The online counterpart to GIS software are websites which offer the ability to create maps. These range
               from free consumer tools like <a href="https://www.google.com/maps/d/u/0/">Google Maps</a>, to mapping
-              tools written specifically for humanists such as <a
-                href="http://palladio.designhumanities.org/">Palladio</a>, to services for web mapping such as <a
-                href="https://www.mapbox.com/education/">Mapbox</a>, to online versions of desktop GIS software such as
+              tools written specifically for humanists such as <a href="http://palladio.designhumanities.org/">Palladio</a>, to services for web mapping such as <a href="https://www.mapbox.com/education/">Mapbox</a>, to online versions of desktop GIS software such as
               <a href="http://www.esri.com/software/arcgis/arcgisonline">ArcGIS Online</a>, to tools that aim to replace
               GIS software entirely such as <a href="https://cartodb.com/">CartoDB</a>. Such tools are often easier to
               use than GIS software, though considerably less powerful. They can be an especially good choice for
               teaching, since they do not require students to install any software and since they produce maps intended
-              for the web. For this workshop, we will use <a href="data-maps.html">CartoDB to make data maps</a>.</p>
+              for the web. For this workshop, we will use <a href="data-maps.html">CartoDB to make data maps</a>.
+            </p>
             <div class="figure">
-              <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-screenshot.png"
-                alt="Creating a map in CartoDB." />
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/cartodb-screenshot.png" alt="Creating a map in CartoDB." />
               <p class="caption">Creating a map in CartoDB.</p>
             </div>
           </div>
@@ -274,20 +265,16 @@
               this one:</p>
             <pre><code>ogr2ogr -f &quot;GeoJSON&quot; countries.geojson ne_110m_admin_0_countries.shp</code></pre>
             <div class="figure">
-              <img src="//files.lincolnmullen.com/spatial-workshop/img/command-line-screenshot.png"
-                alt="Converting a shapefile to GeoJSON using a command line program." />
+              <img src="//files.lincolnmullen.com/spatial-workshop/img/command-line-screenshot.png" alt="Converting a shapefile to GeoJSON using a command line program." />
               <p class="caption">Converting a shapefile to GeoJSON using a command line program.</p>
             </div>
             <p>While command line tools have a steep learning curve, they are essential for performing certain tasks,
-              especially preparing data. For this workshop, we will use GDAL/OGR to <a
-                href="spatial-data.html">manipulate spatial data</a>.</p>
+              especially preparing data. For this workshop, we will use GDAL/OGR to <a href="spatial-data.html">manipulate spatial data</a>.</p>
           </div>
           <div id="programming-languages" class="section level3">
             <h3>Programming languages</h3>
             <p>The most advanced yet most powerful way to create maps is using computer programming langagues. Languages
-              such as <a href="http://www.r-project.org/">R</a>, <a href="https://www.python.org/">Python</a>, and <a
-                href="http://www.w3schools.com/js/">JavaScript</a>, along with popular libraries such as <a
-                href="http://leafletjs.com/">Leaflet</a> and <a href="http://d3js.org/">D3.js</a> permit you to create
+              such as <a href="http://www.r-project.org/">R</a>, <a href="https://www.python.org/">Python</a>, and <a href="http://www.w3schools.com/js/">JavaScript</a>, along with popular libraries such as <a href="http://leafletjs.com/">Leaflet</a> and <a href="http://d3js.org/">D3.js</a> permit you to create
               your own custom maps. In this workshop, we will use R to create <a href="web-maps.html">web maps</a>.</p>
           </div>
           <div id="general-purpose-tools" class="section level3">
@@ -305,13 +292,11 @@
               .<a href="https://twitter.com/noamross"><span class="citation">@noamross</span></a> software often harder
               to install than use, data often harder to clean than analyze
             </p>
-            — Jennifer Bryan (<span class="citation">@JennyBryan</span>) <a
-              href="https://twitter.com/JennyBryan/status/577977718907613185">March 17, 2015</a>
+            — Jennifer Bryan (<span class="citation">@JennyBryan</span>) <a href="https://twitter.com/JennyBryan/status/577977718907613185">March 17, 2015</a>
           </blockquote>
           <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           <ul>
-            <li><a href="http://www.qgis.org/en/site/">QGIS</a>. For Windows, use the standalone installer on the <a
-                href="http://www.qgis.org/en/site/forusers/download.html">QGIS downloads page</a>. For Mac, you can
+            <li><a href="http://www.qgis.org/en/site/">QGIS</a>. For Windows, use the standalone installer on the <a href="http://www.qgis.org/en/site/forusers/download.html">QGIS downloads page</a>. For Mac, you can
               follow the instructions on <a href="http://www.kyngchaos.com/software/qgis">this website</a>. In other
               words, download these files in the following order, and run the install packages for each. (We will work
               on this during the workshop.)
@@ -327,24 +312,18 @@
               </ul>
             </li>
             <li><a href="https://www.google.com/earth/">Google Earth Desktop</a>.</li>
-            <li>A plain text editor. For Mac I recommend <a
-                href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. For Windows, <a
-                href="https://notepad-plus-plus.org/">NotePad++</a>.</li>
-            <li>A program to edit spreadsheets and CSV files. Excel will do, but I find <a
-                href="https://www.libreoffice.org/">Libre Office</a> to be more reliable.</li>
+            <li>A plain text editor. For Mac I recommend <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. For Windows, <a href="https://notepad-plus-plus.org/">NotePad++</a>.</li>
+            <li>A program to edit spreadsheets and CSV files. Excel will do, but I find <a href="https://www.libreoffice.org/">Libre Office</a> to be more reliable.</li>
             <li>Windows users should install <a href="https://www.cygwin.com/">Cygwin</a> if they wish to use command
               line tools.</li>
           </ul>
           <p>In addition, there are a few things which it would be nice to have but which are optional.</p>
           <ul>
             <li>A website/blog hosted on a server that you can control. This will let you publish your maps to the web
-              without the security restrictions of free hosting. If you don’t have one already, <a
-                href="https://portal.reclaimhosting.com/aff.php?aff=004">Reclaim Hosting</a> is a web hosting provider
-              that serves academics and students well. If you use Reclaim Hosting, you may wish to <a
-                href="https://portal.reclaimhosting.com/knowledgebase.php?action=displayarticle&amp;id=2">install
+              without the security restrictions of free hosting. If you don’t have one already, <a href="https://portal.reclaimhosting.com/aff.php?aff=004">Reclaim Hosting</a> is a web hosting provider
+              that serves academics and students well. If you use Reclaim Hosting, you may wish to <a href="https://portal.reclaimhosting.com/knowledgebase.php?action=displayarticle&amp;id=2">install
                 WordPress</a> using Reclaim’s installer.</li>
-            <li>An FTP/SFTP client for accessing websites. On Mac and Windows I recommend <a
-                href="https://cyberduck.io/?l=en">Cyberduck</a>.</li>
+            <li>An FTP/SFTP client for accessing websites. On Mac and Windows I recommend <a href="https://cyberduck.io/?l=en">Cyberduck</a>.</li>
             <li><a href="http://www.gdal.org/">GDAL/OGR</a>. This set of command line programs offers many tools for
               manipulating spatial data. Note that if you install QGIS on a Mac according to the instructions above, you
               will already have install GDAL/OGR.</li>
@@ -356,8 +335,7 @@
               different in that they share the same foundational *nix underpinnings. Windows, on the other hand, is a
               world apart, as different from Macs and Linux as English is from Mandarin. When working with web-based
               tools in the browser, this should make no difference. But if you are working on Windows, you might
-              consider installing <a href="https://www.virtualbox.org/">Virtual Box</a> and <a
-                href="http://www.ubuntu.com/download/desktop">Ubuntu Desktop</a>.</p>
+              consider installing <a href="https://www.virtualbox.org/">Virtual Box</a> and <a href="http://www.ubuntu.com/download/desktop">Ubuntu Desktop</a>.</p>
           </div>
         </div>
         <div id="what-you-should-use-in-class" class="section level2">
@@ -376,9 +354,7 @@
               These workshops materials are &copy; 2015 <a href="http://lincolnmullen.com">Lincoln Mullen</a>. Licensed
               <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
               <br>
-              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                  alt="Creative Commons License" style="border-width:0"
-                  src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
             </small>
           </p>
         </footer>

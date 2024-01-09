@@ -1,435 +1,434 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Week 1: Unix</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="">
-    <link rel="canonical" href="http://lincolnmullen.com/courses/clio3.2014/courses/clio3.2014/2014/08/27/week-one/">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Week 1: Unix</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="">
+  <link rel="canonical" href="http://lincolnmullen.com/courses/clio3.2014/courses/clio3.2014/2014/08/27/week-one/">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/courses/clio3.2014/css/main.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/courses/clio3.2014/css/main.css">
 
-
-  <script defer data-domain="lincolnmullen.com" src="https://plausible.io/js/plausible.js"></script>
 
 </head>
 
 
-    <body>
+<body>
 
-    <header class="site-header">
+  <header class="site-header">
 
-  <div class="wrap">
+    <div class="wrap">
 
-    <a class="site-title" href="/courses/clio3.2014/">Clio 3: Programming in History/New Media</a>
+      <a class="site-title" href="/courses/clio3.2014/">Clio 3: Programming in History/New Media</a>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
-          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
-            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
-            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
-            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-      <div class="trigger">
-        
-          
-          
-          
-          
-          
-          
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/">About</a>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/assignments/">Assignments</a>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/schedule/">Schedule</a>
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/participants/">Participants</a>
-          
-          
-          
-          
-          
-          
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/resources/">Resources</a>
-          
-          
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/policies/">Policies</a>
-          
-          
-          
-          
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        
-          
-          
-          
-          
-            <a class="page-link" href="/courses/clio3.2014/blog/">Blog</a>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
-</header>
+      <nav class="site-nav">
+        <a href="#" class="menu-icon">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+            <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+            <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+            <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
+          </svg>
+        </a>
+        <div class="trigger">
 
 
 
-    <div class="page-content">
-      <div class="wrap">
-      
-      <div class="post">
 
-  <header class="post-header">
-    <h1>Week 1: Unix</h1>
-    <p class="meta">Aug 27, 2014</p>
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/">About</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/assignments/">Assignments</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/schedule/">Schedule</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/participants/">Participants</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/resources/">Resources</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/policies/">Policies</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <a class="page-link" href="/courses/clio3.2014/blog/">Blog</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </nav>
+
+    </div>
+
   </header>
 
-  <article class="post-content">
-  <h2 id="introductions">Introductions</h2>
-<ul>
-<li>Introductions</li>
-<li>Syllabus</li>
-<li><a href="http://dh-r.lincolnmullen.com">DH Methods in R</a></li>
-<li>Data sets</li>
-<li><a href="https://docs.google.com/forms/d/12x79BgpoJdub41GlgFCKlFSJAPr7SRZG78yte7kzA3k/viewform">Survey</a></li>
-<li>DH as I see it</li>
-<li>The challenge in front of you</li>
-</ul>
-<h2 id="additional-techniques-and-languages">Additional techniques and languages</h2>
-<p>Sign up for one of these</p>
-<ul>
-<li>Ruby or Python</li>
-<li>XML, Xpath, TEI, Nokogiri/Beautiful Soup</li>
-<li>C or Java</li>
-<li>PHP</li>
-<li>SQL and MySQL</li>
-<li>Debugging and/or refactoring</li>
-<li>Testing</li>
-<li>Stats for historians</li>
-<li>Plugins</li>
-<li>Ruby on Rails or Sinata</li>
-<li>Dat</li>
-<li>Image processing</li>
-<li>Packaging</li>
-<li>A portion of any of the topics on the syllabus</li>
-</ul>
-<h2 id="unix-philosophy">Unix Philosophy</h2>
-<p>We are interested in *nix as the operating system which underlies most humanities computing. Unix or one of its derivatives is the operating system which runs most of the programs, whether on the server or on personal computers, which digital historians write. Even, more we are interested in the ideas about computing which comprise the “Unix philosophy.” These have most clearly been expressed by Mike Gancarz in <em>Linux and the Unix Philosophy</em>.</p>
-<blockquote>
-<ol type="1">
-<li>Small is beautiful. Small things have tremendous advantages over their larger counterparts. Among these is the ability to combine with other small things in unique and useful ways, ways often unforeseen by the original designer.</li>
-<li>Make each program do one thing well. By focusing on a single task, a program can eliminate much extraneous code that often results in excess overhead, unnecessary complexity, and a lack of flexibility.</li>
-<li>Build a prototype as soon as possible. Most people would agree that prototyping is a valuable element of any project. But whereas prototyping is only a small part of the design phase under other methodologies, under Unix it is the principal vehicle for generating an effective design.</li>
-<li>Choose portability over efficiency. When Unix broke new ground as the first portable operating system of any significance, it was big news. Today portability is taken for granted as a necessity in any modern software design, an example of a tenet that has gained wide acceptance on other systems besides Unix.</li>
-<li>Store data in flat text files. The choice between portability and efficiency addresses the value of portable code. Portable data is at least as important as-if not more important than-portable code. Portable data is the often-neglected part of the portability formula.</li>
-<li>Use software leverage to your advantage. Many programmers have only a superficial understanding of the importance of reusable code modules. Code reuse helps one take advantage of software leverage, a powerful concept that some Unix developers use to create numerous applications in a comparatively short time.</li>
-<li>Use shell scripts to increase leverage and portability. Shell scripts are double-edged swords for enhancing both software leverage and portability in a design. Whenever possible, writing a script instead of a complete C program is the way to go.</li>
-<li>Avoid captive user interfaces. Some commands have user interfaces known to Unix developers as “captive” user interfaces. These prevent the user from running other commands while the command is in use, effectively making the user a captive to the system for the duration of the command. In a graphical user interface world, such interfaces would be called “modal.”</li>
-<li>Make every program a filter. The fundamental nature of all software programs is that they only modify data; they do not create it. Therefore, they should be written to perform as filters since they are filters.</li>
-</ol>
-</blockquote>
-<p>We can add some other observations drawn from Gancarz:</p>
-<ol type="1">
-<li>Ethos of open software: runs everywhere, open source.</li>
-<li>Assumed that the user of their software would be computer literate from the start.</li>
-</ol>
-<p>ATT&amp;T Bell Labs, “<a href="https://www.youtube.com/watch?v=tc4ROCJYbm0">The UNIX Operating System</a>.”</p>
-<iframe width="480" height="360" src="//www.youtube.com/embed/tc4ROCJYbm0?rel=0" frameborder="0" allowfullscreen>
-</iframe>
-<h2 id="installation">Installation</h2>
-<p>Install party!</p>
-<h2 id="key-terminal-commands">Key Terminal Commands</h2>
-<ul>
-<li><code>--help</code> and <code>man</code> for help</li>
-<li><code>cd</code> to change directories</li>
-<li><code>ls</code> to list contents; <code>ls -l</code> for more information; <code>ls -a</code> for hidden files</li>
-<li><code>UP</code> and <code>DOWN</code> to find previous commands; <code>ctrl + r</code> for search</li>
-<li><code>file</code> to check file type</li>
-<li><code>less</code> to read files</li>
-<li><code>open</code> or <code>xdg-open</code> to open</li>
-<li><code>pwd</code> for print working directory</li>
-<li><code>~</code> for home directory; <code>/</code> for root; <code>./</code> for current directory; <code>../</code> for lower directory; <code>/dev/null</code> for the bit bucket</li>
-<li><code>/tmp/</code> for temporary files</li>
-<li><code>popd</code> and <code>pushd</code> for directory stack</li>
-<li><code>mkdir</code> and <code>mkdir -p</code> to make directory; <code>rmdir</code> to remove it</li>
-<li><code>touch</code> to touch or create file</li>
-<li><code>mv</code> to move files</li>
-<li><code>rm</code> to remove file; <code>rm -r</code> to remove recursively; <code>rm -f</code> to force removal</li>
-<li><code>bash</code> and <code>zsh</code> for shells</li>
-<li><code>~/.zshrc</code> or <code>~./bash_profile</code> or <code>~/.bashrc</code> for configuration</li>
-<li><code>/usr/bin/</code> and <code>/usr/local/bin/</code> for executables</li>
-<li><code>export</code> for variables; <code>$</code> to access them</li>
-<li><code>$PATH</code> for order of execution</li>
-<li><code>*</code> and <code>?</code> for file globbing</li>
-<li><code>wc</code> for counting words/lines/characters; <code>wc -w</code> and <code>wc -l</code></li>
-<li><code>sudo</code> for superpowers</li>
-<li><code>cat</code> to join streams, concatenate</li>
-<li><code>echo</code> to echo a variable or string</li>
-<li><code>head</code> and <code>tail</code> and <code>tail -f</code> to look at start and end of files</li>
-<li><code>sort</code> to sort</li>
-<li><code>|</code> to pipe streams</li>
-<li><code>&gt;</code> to redirect to file</li>
-<li><code>&gt;&gt;</code> to append to file</li>
-<li><code>1&gt;filename</code> to redirect stdout; <code>2&gt;filename</code> for stderror; <code>-</code> for stdin</li>
-<li><code>&amp;</code> to send to background; <code>ctrl+z</code> to halt; <code>fg</code> to resume; <code>bg</code> to send to background and resume</li>
-<li><code>ps -aux</code> to see running processes</li>
-<li><code>grep</code> to search for files</li>
-<li><code>which</code> to find executable</li>
-<li><code>chmod</code> to change permissions; <code>chmod +x</code> to make executable</li>
-<li><code>ruby -run -e httpd . -p 4000</code> for local server</li>
-<li><code>python -m SimpleHTTPServer 8080</code> for local server</li>
-<li><code>http://localhost/</code> or <code>http://localhost:8000</code> for local server</li>
-<li><code>ctrl+c</code> to quit; <code>ctrl+d</code> for end of file</li>
-<li><code>kill</code> to kill process; <code>kill -9</code> to kill it more</li>
-<li><code>du -h</code> for file size</li>
-<li><code>df -h</code> for disk usage</li>
-<li><code>top</code> for processes</li>
-<li><code>zip</code> to zip; <code>unzip</code> to unzip</li>
-<li><code>curl -O</code> to download; <code>wget</code> to download a lot</li>
-<li><code>ssh</code> for remote hosts</li>
-<li><code>scp</code> and <code>rsync</code> for transferring files</li>
-<li><code>sed</code> and <code>awk</code> for text manipulation</li>
-<li><code>whoami</code> and <code>uname -a</code> for answers to life’s tough questions</li>
-<li><code>date</code> for date and time</li>
-<li><code>ln -s</code> for symbolic links</li>
-<li><code>brew install</code> on Mac and <code>sudo apt-get install</code> to install software</li>
-<li><code>#!/usr/bin/mylanguage</code> vs <code>#!/usr/bin/env mylanguage</code> for scripts</li>
-</ul>
-<p><a href="http://www.thegeekstuff.com/2010/11/50-linux-commands/">Most used Linux commands</a></p>
-<p><a href="http://furbo.org/2014/09/03/the-terminal/">Another handy guide to the Mac terminal</a></p>
-<h2 id="preview-of-next-week">Preview of Next Week</h2>
-<ul>
-<li>Version control</li>
-<li>Make</li>
-</ul>
 
-  </article>
 
-</div>
+  <div class="page-content">
+    <div class="wrap">
+
+      <div class="post">
+
+        <header class="post-header">
+          <h1>Week 1: Unix</h1>
+          <p class="meta">Aug 27, 2014</p>
+        </header>
+
+        <article class="post-content">
+          <h2 id="introductions">Introductions</h2>
+          <ul>
+            <li>Introductions</li>
+            <li>Syllabus</li>
+            <li><a href="http://dh-r.lincolnmullen.com">DH Methods in R</a></li>
+            <li>Data sets</li>
+            <li><a href="https://docs.google.com/forms/d/12x79BgpoJdub41GlgFCKlFSJAPr7SRZG78yte7kzA3k/viewform">Survey</a></li>
+            <li>DH as I see it</li>
+            <li>The challenge in front of you</li>
+          </ul>
+          <h2 id="additional-techniques-and-languages">Additional techniques and languages</h2>
+          <p>Sign up for one of these</p>
+          <ul>
+            <li>Ruby or Python</li>
+            <li>XML, Xpath, TEI, Nokogiri/Beautiful Soup</li>
+            <li>C or Java</li>
+            <li>PHP</li>
+            <li>SQL and MySQL</li>
+            <li>Debugging and/or refactoring</li>
+            <li>Testing</li>
+            <li>Stats for historians</li>
+            <li>Plugins</li>
+            <li>Ruby on Rails or Sinata</li>
+            <li>Dat</li>
+            <li>Image processing</li>
+            <li>Packaging</li>
+            <li>A portion of any of the topics on the syllabus</li>
+          </ul>
+          <h2 id="unix-philosophy">Unix Philosophy</h2>
+          <p>We are interested in *nix as the operating system which underlies most humanities computing. Unix or one of its derivatives is the operating system which runs most of the programs, whether on the server or on personal computers, which digital historians write. Even, more we are interested in the ideas about computing which comprise the “Unix philosophy.” These have most clearly been expressed by Mike Gancarz in <em>Linux and the Unix Philosophy</em>.</p>
+          <blockquote>
+            <ol type="1">
+              <li>Small is beautiful. Small things have tremendous advantages over their larger counterparts. Among these is the ability to combine with other small things in unique and useful ways, ways often unforeseen by the original designer.</li>
+              <li>Make each program do one thing well. By focusing on a single task, a program can eliminate much extraneous code that often results in excess overhead, unnecessary complexity, and a lack of flexibility.</li>
+              <li>Build a prototype as soon as possible. Most people would agree that prototyping is a valuable element of any project. But whereas prototyping is only a small part of the design phase under other methodologies, under Unix it is the principal vehicle for generating an effective design.</li>
+              <li>Choose portability over efficiency. When Unix broke new ground as the first portable operating system of any significance, it was big news. Today portability is taken for granted as a necessity in any modern software design, an example of a tenet that has gained wide acceptance on other systems besides Unix.</li>
+              <li>Store data in flat text files. The choice between portability and efficiency addresses the value of portable code. Portable data is at least as important as-if not more important than-portable code. Portable data is the often-neglected part of the portability formula.</li>
+              <li>Use software leverage to your advantage. Many programmers have only a superficial understanding of the importance of reusable code modules. Code reuse helps one take advantage of software leverage, a powerful concept that some Unix developers use to create numerous applications in a comparatively short time.</li>
+              <li>Use shell scripts to increase leverage and portability. Shell scripts are double-edged swords for enhancing both software leverage and portability in a design. Whenever possible, writing a script instead of a complete C program is the way to go.</li>
+              <li>Avoid captive user interfaces. Some commands have user interfaces known to Unix developers as “captive” user interfaces. These prevent the user from running other commands while the command is in use, effectively making the user a captive to the system for the duration of the command. In a graphical user interface world, such interfaces would be called “modal.”</li>
+              <li>Make every program a filter. The fundamental nature of all software programs is that they only modify data; they do not create it. Therefore, they should be written to perform as filters since they are filters.</li>
+            </ol>
+          </blockquote>
+          <p>We can add some other observations drawn from Gancarz:</p>
+          <ol type="1">
+            <li>Ethos of open software: runs everywhere, open source.</li>
+            <li>Assumed that the user of their software would be computer literate from the start.</li>
+          </ol>
+          <p>ATT&amp;T Bell Labs, “<a href="https://www.youtube.com/watch?v=tc4ROCJYbm0">The UNIX Operating System</a>.”</p>
+          <iframe width="480" height="360" src="//www.youtube.com/embed/tc4ROCJYbm0?rel=0" frameborder="0" allowfullscreen>
+          </iframe>
+          <h2 id="installation">Installation</h2>
+          <p>Install party!</p>
+          <h2 id="key-terminal-commands">Key Terminal Commands</h2>
+          <ul>
+            <li><code>--help</code> and <code>man</code> for help</li>
+            <li><code>cd</code> to change directories</li>
+            <li><code>ls</code> to list contents; <code>ls -l</code> for more information; <code>ls -a</code> for hidden files</li>
+            <li><code>UP</code> and <code>DOWN</code> to find previous commands; <code>ctrl + r</code> for search</li>
+            <li><code>file</code> to check file type</li>
+            <li><code>less</code> to read files</li>
+            <li><code>open</code> or <code>xdg-open</code> to open</li>
+            <li><code>pwd</code> for print working directory</li>
+            <li><code>~</code> for home directory; <code>/</code> for root; <code>./</code> for current directory; <code>../</code> for lower directory; <code>/dev/null</code> for the bit bucket</li>
+            <li><code>/tmp/</code> for temporary files</li>
+            <li><code>popd</code> and <code>pushd</code> for directory stack</li>
+            <li><code>mkdir</code> and <code>mkdir -p</code> to make directory; <code>rmdir</code> to remove it</li>
+            <li><code>touch</code> to touch or create file</li>
+            <li><code>mv</code> to move files</li>
+            <li><code>rm</code> to remove file; <code>rm -r</code> to remove recursively; <code>rm -f</code> to force removal</li>
+            <li><code>bash</code> and <code>zsh</code> for shells</li>
+            <li><code>~/.zshrc</code> or <code>~./bash_profile</code> or <code>~/.bashrc</code> for configuration</li>
+            <li><code>/usr/bin/</code> and <code>/usr/local/bin/</code> for executables</li>
+            <li><code>export</code> for variables; <code>$</code> to access them</li>
+            <li><code>$PATH</code> for order of execution</li>
+            <li><code>*</code> and <code>?</code> for file globbing</li>
+            <li><code>wc</code> for counting words/lines/characters; <code>wc -w</code> and <code>wc -l</code></li>
+            <li><code>sudo</code> for superpowers</li>
+            <li><code>cat</code> to join streams, concatenate</li>
+            <li><code>echo</code> to echo a variable or string</li>
+            <li><code>head</code> and <code>tail</code> and <code>tail -f</code> to look at start and end of files</li>
+            <li><code>sort</code> to sort</li>
+            <li><code>|</code> to pipe streams</li>
+            <li><code>&gt;</code> to redirect to file</li>
+            <li><code>&gt;&gt;</code> to append to file</li>
+            <li><code>1&gt;filename</code> to redirect stdout; <code>2&gt;filename</code> for stderror; <code>-</code> for stdin</li>
+            <li><code>&amp;</code> to send to background; <code>ctrl+z</code> to halt; <code>fg</code> to resume; <code>bg</code> to send to background and resume</li>
+            <li><code>ps -aux</code> to see running processes</li>
+            <li><code>grep</code> to search for files</li>
+            <li><code>which</code> to find executable</li>
+            <li><code>chmod</code> to change permissions; <code>chmod +x</code> to make executable</li>
+            <li><code>ruby -run -e httpd . -p 4000</code> for local server</li>
+            <li><code>python -m SimpleHTTPServer 8080</code> for local server</li>
+            <li><code>http://localhost/</code> or <code>http://localhost:8000</code> for local server</li>
+            <li><code>ctrl+c</code> to quit; <code>ctrl+d</code> for end of file</li>
+            <li><code>kill</code> to kill process; <code>kill -9</code> to kill it more</li>
+            <li><code>du -h</code> for file size</li>
+            <li><code>df -h</code> for disk usage</li>
+            <li><code>top</code> for processes</li>
+            <li><code>zip</code> to zip; <code>unzip</code> to unzip</li>
+            <li><code>curl -O</code> to download; <code>wget</code> to download a lot</li>
+            <li><code>ssh</code> for remote hosts</li>
+            <li><code>scp</code> and <code>rsync</code> for transferring files</li>
+            <li><code>sed</code> and <code>awk</code> for text manipulation</li>
+            <li><code>whoami</code> and <code>uname -a</code> for answers to life’s tough questions</li>
+            <li><code>date</code> for date and time</li>
+            <li><code>ln -s</code> for symbolic links</li>
+            <li><code>brew install</code> on Mac and <code>sudo apt-get install</code> to install software</li>
+            <li><code>#!/usr/bin/mylanguage</code> vs <code>#!/usr/bin/env mylanguage</code> for scripts</li>
+          </ul>
+          <p><a href="http://www.thegeekstuff.com/2010/11/50-linux-commands/">Most used Linux commands</a></p>
+          <p><a href="http://furbo.org/2014/09/03/the-terminal/">Another handy guide to the Mac terminal</a></p>
+          <h2 id="preview-of-next-week">Preview of Next Week</h2>
+          <ul>
+            <li>Version control</li>
+            <li>Make</li>
+          </ul>
+
+        </article>
+
       </div>
     </div>
-
-    <footer class="site-footer">
-
-  <div class="wrap">
-
-    <h2 class="footer-heading">Clio 3: Programming in History/New Media</h2>
-
-    <div class="footer-col-1 column">
-      <h3>Course</h3>
-      <ul>
-        <li>
-          
-            <a href="http://historyarthistory.gmu.edu/courses/2544/course_sections/16549"> HIST 698 </a>
-          
-          <span class="separator">|</span> Fall 2014</li>
-        <li>Meets in Research Hall 402</li>
-        <li>Meets on Wed., 7:20&ndash;10:00 p.m.</li>
-        <li>Credit hours: 3</li>
-        <li>Prerequisites: HIST 696, 697 strongly suggested</li>
-        <li>
-            Course hashtag: <a href="https://www.twitter.com/hashtag/clio3">#clio3</a>
-          </li>
-      </ul>
-    </div>
-
-    <div class="footer-col-2 column">
-      <h3>Instructor</h3>
-      <ul>
-        <li>Instructor: <a href="http://lincolnmullen.com">
-            Lincoln Mullen</a></li>
-        <li>E-mail: <a href="mailto:lmullen@gmu.edu">
-            lmullen@gmu.edu</a></li>
-        <li>Office: Research Hall 457 </li>
-        <li>Office hours: By appointment (<a href="http://lincolnmullen.com/officehours">signup</a>)</li>
-        <li>
-            Twitter: <a href="https://www.twitter.com/lincolnmullen">@lincolnmullen</a>
-          </li>
-      </ul>
-    </div>
-
-    <div class="footer-col-3 column">
-      <h3>Description</h3>
-      <p class="text">An introduction to programming for historians.</p>
-    </div>
-
   </div>
 
-<p id="back-link">
-  <a href="http://lincolnmullen.com">← Back to home page</a>
-</p>
+  <footer class="site-footer">
 
-</footer>
+    <div class="wrap">
+
+      <h2 class="footer-heading">Clio 3: Programming in History/New Media</h2>
+
+      <div class="footer-col-1 column">
+        <h3>Course</h3>
+        <ul>
+          <li>
+
+            <a href="http://historyarthistory.gmu.edu/courses/2544/course_sections/16549"> HIST 698 </a>
+
+            <span class="separator">|</span> Fall 2014
+          </li>
+          <li>Meets in Research Hall 402</li>
+          <li>Meets on Wed., 7:20&ndash;10:00 p.m.</li>
+          <li>Credit hours: 3</li>
+          <li>Prerequisites: HIST 696, 697 strongly suggested</li>
+          <li>
+            Course hashtag: <a href="https://www.twitter.com/hashtag/clio3">#clio3</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col-2 column">
+        <h3>Instructor</h3>
+        <ul>
+          <li>Instructor: <a href="http://lincolnmullen.com">
+              Lincoln Mullen</a></li>
+          <li>E-mail: <a href="mailto:lmullen@gmu.edu">
+              lmullen@gmu.edu</a></li>
+          <li>Office: Research Hall 457 </li>
+          <li>Office hours: By appointment (<a href="http://lincolnmullen.com/officehours">signup</a>)</li>
+          <li>
+            Twitter: <a href="https://www.twitter.com/lincolnmullen">@lincolnmullen</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col-3 column">
+        <h3>Description</h3>
+        <p class="text">An introduction to programming for historians.</p>
+      </div>
+
+    </div>
+
+    <p id="back-link">
+      <a href="http://lincolnmullen.com">← Back to home page</a>
+    </p>
+
+  </footer>
 
 
-    </body>
+</body>
+
 </html>

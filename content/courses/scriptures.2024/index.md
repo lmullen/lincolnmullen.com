@@ -224,7 +224,7 @@ Participation assignment: bring a sacred song or hymn to class.
 Read:
 
 - "The Star-Spangled Banner," "God Bless America," and "This Land Is Your Land," in Prothero, 214--43.
-- "The Battle Hymn of the Republic" and "We Shall Overcome." PDF on Blackboard.
+- "The Battle Hymn of the Republic" and "We Shall Overcome." (Find these online.)
 
 ### Tuesday, Apr. 2: Zodiac and horoscopes
 

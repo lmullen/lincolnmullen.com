@@ -81,7 +81,7 @@ In class: What do different Bibles contain?
 Read:
 
 - Wilfred Cantwell Smith, _What Is Scripture? A Comparative Approach_ (Fortress Press, 1993), introduction. PDF on Blackboard.
-- Stephen Stein, "America's Bibles: Canon, Commentary, and Community," _Church History_ 64, no. 2 (1995): 169--184. [Article through GMU libraries] (http://mutex.gmu.edu/login?url=https://www.jstor.org/stable/3167903).
+- Stephen Stein, "America's Bibles: Canon, Commentary, and Community," _Church History_ 64, no. 2 (1995): 169--184. [Article through GMU libraries](http://mutex.gmu.edu/login?url=https://www.jstor.org/stable/3167903).
 
 ### Tuesday, Jan. 23: Exodus
 

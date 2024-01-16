@@ -48,8 +48,8 @@ You are likewise welcome to email me at any time: <lmullen@gmu.edu>. You can gen
 
 **Required readings.** The following books are required. Any edition will do.
 
-- Maffly-Kipp, Laurie F. _American Scriptures: An Anthology of Sacred Writings_. Penguin, 2010. ISBN: 978-0-14-310619-7.
-- Prothero, Stephen. _The American Bible: How Our Words United, Divide, and Define a Nation_. HarperOne, 2012. ISBN: 978-0-06-212345-9.
+- Maffly-Kipp, Laurie F. _American Scriptures: An Anthology of Sacred Writings_. Penguin, 2010. ISBN: 978-0143106197.
+- Prothero, Stephen. _The American Bible: How Our Words United, Divide, and Define a Nation_. HarperOne, 2012. ISBN: 978-0062123459.
 - Rothschild, Mike. _The Storm Is Upon Us: How QAnon Became a Movement, Cult, and Conspiracy Theory of Everything_. Melville House, 2022. ISBN: 978-1685890186.
 
 Other readings will be available on Blackboard or through the GMU libraries.

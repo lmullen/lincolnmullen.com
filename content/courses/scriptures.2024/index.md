@@ -145,21 +145,23 @@ Read:
 - Harriet Beecher Stowe, _Uncle Tom's Cabin_, in Prothero, 162--180.
 - Mark Twain, _Adventures of Huckleberry Finn_, in Prothero, 181--198.
 
-### Tuesday, Feb. 20: Spiritualism and Christian Science
+### ~~Tuesday, Feb. 20: Class canceled~~
+
+### Thursday, Feb. 22: Spiritualism and Christian Science
 
 Read:
 
 - Principles of Nature, in Maffly-Kipp, 116--139.
 - Science and Health, in Maffly-Kipp, 194--218.
 
-### Thursday, Feb. 22: Metaphysical religion
+### Tuesday, Feb. 27: Metaphysical religion
 
 Read:
 
 - OAHSPE, in Maffly-Kipp, 219--240.
 - Aquarian Gospel of Jesus the Christ, 378--406.
 
-### Tuesday, Feb. 27: The Qu'ran in America
+### Thursday, Feb. 29: The Qu'ran in America
 
 **Short essay 2.** What circumstances shaped Omar ibn Said's conclusion? How does he make use of both the Qur'an and the Bible in his life story?
 
@@ -169,15 +171,15 @@ Read:
 - Elijah Muhammad, _Message to the Blackman in America_. PDF on Blackboard.
 - Amina Wadud, _Qu'ran and Woman_, from _Columbia Sourcebook of Muslims in the United States_. PDF on Blackboard.
 
-### Thursday, Feb. 29: Texts as material objects
+### GMU spring break, March 4–8
+
+### Tuesday, Mar. 12: Texts as material objects
 
 Read:
 
 - Paul C. Gutjahr, _An American Bible: A History of the Good Book in the United States, 1777--1880_ (Stanford University Press, 1999), ch. 2. PDF on Blackboard.
 
-### GMU spring break, March 4–8
-
-### Tuesday, Mar. 12: Women's interpretation of the Bible
+### Thursday, Mar. 14: Women's interpretation of the Bible
 
 **Short essay 3.** What arguments do Stanton and Bushnell advance about women and the Bible? What strategies do they employ for reading the text and for understanding it as authoritative?
 
@@ -186,13 +188,13 @@ Read:
 - Elizabeth Cady Stanton, _The Woman's Bible_, in Maffly-Kipp, 345--377.
 - Katherine Bushnell, _God's Word to Women_. PDF on Blackboard.
 
-### Thursday, Mar. 14: The Jewish Bible
+### Tuesday, Mar. 19: The Jewish Bible
 
 Read:
 
 - Jonathan D. Sarna, “The Bible and Judaism in America,” in _The Oxford Handbook of the Bible in America_, ed. Paul C. Gutjahr (Oxford University Press, 2017), 505--16. PDF on Blackboard.
 
-### Tuesday, Mar. 19: How the Bible was used
+### Thursday, Mar. 21: How the Bible was used
 
 **Short essay 4.** Pick two verses from the Christian Bible that relate to one another. Using [_America's Public Bible_](http://americaspublicbible.org), trace the trends in how these verses were quoted over time. Then follow the links to _Chronicling America_ to read the context of those quotations in newspapers. How were those verses used? Were used differently by different people? How did their interpretations change over time? Include footnotes to and quotations from the newspapers.
 
@@ -200,7 +202,7 @@ Browse:
 
 - Lincoln A. Mullen, _America’s Public Bible: A Commentary_ (Stanford University Press, 2023): <https://americaspublicbible.org>, <https://doi.org/10.21627/2022apb>.
 
-### Thursday, Mar. 21: Civil rights
+### Tuesday, Mar. 26: ~~Patriotism~~ Civil rights
 
 **Short essay 5.** Compare the rhetoric and arguments made in King’s "Letter" and Malcolm X's "The Ballot or the Bullet." What are the settings for these two texts? What circumstances explain the differences in their arguments?
 
@@ -209,13 +211,8 @@ Read:
 - Martin Luther King Jr., “Letter from Birmingham Jail," in Prothero, 462--482.
 - Malcom X, _Autobiography of Malcom X_, in Prothero, 308--328.
 - Malcom X, "The Ballot or the Bullet." PDF on Blackboard.
-
-### Tuesday, Mar. 26: Patriotism
-
-Read:
-
-- "The Pledge of Allegiance," in Prothero, 408--418.
-- Franklin Delano Roosevelt and John F. Kennedy, inaugural addresses, in Prothero, 260--263.
+- ~~"The Pledge of Allegiance," in Prothero, 408--418.~~
+- ~~Franklin Delano Roosevelt and John F. Kennedy, inaugural addresses, in Prothero, 260--263.~~
 
 ### Thursday, Mar. 28: Songs, hymns, and spiritual songs
 

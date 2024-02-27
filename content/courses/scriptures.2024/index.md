@@ -161,7 +161,15 @@ Read:
 - OAHSPE, in Maffly-Kipp, 219--240.
 - Aquarian Gospel of Jesus the Christ, 378--406.
 
-### Thursday, Feb. 29: The Qu'ran in America
+### Thursday, Feb. 29: Texts as material objects
+
+Read:
+
+- Paul C. Gutjahr, _An American Bible: A History of the Good Book in the United States, 1777--1880_ (Stanford University Press, 1999), ch. 2. PDF on Blackboard.
+
+### GMU spring break, March 4–8
+
+### Tuesday, Mar. 12: The Qu'ran in America
 
 **Short essay 2.** What circumstances shaped Omar ibn Said's conclusion? How does he make use of both the Qur'an and the Bible in his life story?
 
@@ -170,14 +178,6 @@ Read:
 - Omar ibn Said, _Autobiography of Omar ibn Said, Slave in North Carolina_. PDF on Blackboard.
 - Elijah Muhammad, _Message to the Blackman in America_. PDF on Blackboard.
 - Amina Wadud, _Qu'ran and Woman_, from _Columbia Sourcebook of Muslims in the United States_. PDF on Blackboard.
-
-### GMU spring break, March 4–8
-
-### Tuesday, Mar. 12: Texts as material objects
-
-Read:
-
-- Paul C. Gutjahr, _An American Bible: A History of the Good Book in the United States, 1777--1880_ (Stanford University Press, 1999), ch. 2. PDF on Blackboard.
 
 ### Thursday, Mar. 14: Women's interpretation of the Bible
 

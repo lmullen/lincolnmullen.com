@@ -233,10 +233,10 @@ Participation assignment: bring some cultural text about the Zodiac, horoscopes,
 
 Read each of the following brief essays:
 
-- Kelly Gannon and Kimberly Wagner, “Museum of the Bible, Washington, D.C.,” _Journal of American History_ 105, no. 3 (2018): 618--25, <https://doi.org/10.1093/jahist/jay283>.
-- James Bielo, “Quality: D.C.’s Museum of the Bible and Aesthetic Evaluation,” _Material Religion_ 15, no. 1 (2019): 131--32, <https://doi.org/10.1080/17432200.2018.1535015>.
-- Jana Mathews, “The Museum of the Bible’s ‘Fake’ History of the Bible,” _Material Religion_ 15, no. 1 (2019): 133--36, <https://doi.org/10.1080/17432200.2018.1535017>.
-- Jill Stevenson, “Narrative Space: Performing Progress at the Museum of the Bible,” _Material Religion_ 15, no. 1 (2019): 136--40, <https://doi.org/10.1080/17432200.2018.1535018>.
+- Kelly Gannon and Kimberly Wagner, “Museum of the Bible, Washington, D.C.,” _Journal of American History_ 105, no. 3 (2018): 618--25, <http://mutex.gmu.edu/login?url=https://doi.org/10.1093/jahist/jay283>.
+- James Bielo, “Quality: D.C.’s Museum of the Bible and Aesthetic Evaluation,” _Material Religion_ 15, no. 1 (2019): 131--32, <http://mutex.gmu.edu/login?url=https://doi.org/10.1080/17432200.2018.1535015>.
+- Jana Mathews, “The Museum of the Bible’s ‘Fake’ History of the Bible,” _Material Religion_ 15, no. 1 (2019): 133--36, <http://mutex.gmu.edu/login?url=https://doi.org/10.1080/17432200.2018.1535017>.
+- Jill Stevenson, “Narrative Space: Performing Progress at the Museum of the Bible,” _Material Religion_ 15, no. 1 (2019): 136--40, <http://mutex.gmu.edu/login?url=https://doi.org/10.1080/17432200.2018.1535018>.
 
 Read at least one of the following:
 

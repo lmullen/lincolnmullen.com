@@ -1,9 +1,9 @@
 ---
 title: "Antisemitism, U.S.A."
-subtitle: "A History"
+subtitle: "A podcast on the history of American antisemitism"
 thumbnail: "thumbnail.png"
 homepage: true
-homepageOrder: 4
+homepageOrder: 1
 links:
   - url: https://www.r2studios.org/show/Antisemitism-USA/
     text: R2 Studios

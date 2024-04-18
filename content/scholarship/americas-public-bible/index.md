@@ -3,7 +3,7 @@ title: "America's Public Bible: A Commentary"
 subtitle: "Stanford University Press, 2023"
 thumbnail: "apb-cover.jpg"
 homepage: true
-homepageOrder: 1
+homepageOrder: 2
 links:
   - url: https://americaspublicbible.org
     text: _America's Public Bible_ project website

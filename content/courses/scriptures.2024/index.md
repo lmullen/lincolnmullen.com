@@ -281,7 +281,7 @@ Read:
 
 ### Thursday, Apr. 25: Conclusion
 
-**Final projects due Friday at 5:00pm.**
+**Final projects due Tuesday, April 30, at 5:00pm.**
 
 ## Fine print
 

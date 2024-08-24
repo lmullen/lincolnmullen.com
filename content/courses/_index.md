@@ -7,6 +7,7 @@ aliases:
 I teach courses in American religion, the global history of Christianity, the nineteenth-century United States, and in particular on digital history and computational history. All of my syllabi are available below.
 
 <table id="syllabus-list" class="date-list-table table table-borderless align-top">
+  <tr><td class="semester">Fall 2024</td> <td><a href="https://canvas.gmu.edu/courses/25783/">Global History of Christianity</a></td></tr>
   <tr><td class="semester">Spring 2024</td> <td><a href="/courses/scriptures.2024">American Scriptures</a></td></tr>
   <tr><td class="semester">Fall 2023</td> <td><a href="/courses/capitalism.2023">Capitalism and American Religion</a></td></tr>
   <tr><td class="semester">Spring 2023</td> <td><a href="/courses/christianity.2023">Global History of Christianity</a></td></tr>

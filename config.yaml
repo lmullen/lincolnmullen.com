@@ -26,12 +26,11 @@ params:
   subtitle: "Historian of American religion"
   newsletterTitle: "Working on It"
   siteFeedUrl: "/blog/index.xml"
+  author:
+    name: "Lincoln Mullen"
+    email: "lincoln@lincolnmullen.com"
 
 taxonomies: false
-
-author:
-  name: "Lincoln Mullen"
-  email: "lincoln@lincolnmullen.com"
 
 enableGitInfo: true
 

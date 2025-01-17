@@ -29,7 +29,7 @@ I've had a pretty good career so far (more on that in a moment), and I have the 
 
 2. Second, stay tuned: the podcast trailer will be releasing soon, at which point you can subscribe to it. I'll mention it in an upcoming newsletter. Will you plan to subscribe then? Here is the [show page](https://www.r2studios.org/show/Antisemitism-USA/) in the meantime.
 
-If you want to know more, here is the overview of the podcast
+If you want to know more, here is the overview of the podcast:
 
 > Antisemitism has deep roots in American history. Yet in the United States, we often talk about it as if it were something new. We’re shocked when events happen like the Tree of Life Shootings in Pittsburgh or the Unite the Right Rally in Charlottesville, but also surprised. We ask, "Where did this come from?" as if it came out of nowhere. But antisemitism in the United States has a history. A long, complicated history. A history easy to overlook. Join us on _Antisemitism, U.S.A._, a limited podcast series hosted by Mark Oppenheimer, to learn just how deep those roots go. Coming this summer from R2 Studios, part of the Roy Rosenzweig Center for History and New Media at George Mason University. _Antisemitism, U.S.A._ is written by John Turner and Lincoln Mullen. Britt Tevis is the lead scholar. The series is executive produced by Jeanette Patrick and produced by Jim Ambuske.
 

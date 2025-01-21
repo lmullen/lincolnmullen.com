@@ -18,49 +18,44 @@ year: 2025
 
 ## Course description
 
-In this course you will learn to use computational methods to create historical interpretations. You will work with historical data, which includes finding, gathering, manipulating, analyzing, visualizing, and arguing from datasets, with special attention to geospatial, textual, and network data. These methods will be taught primarily using programming languages for data analysis. While data analysis methods can be applied to many topics and time periods, they cannot be understood separate from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using datasets from the history of the nineteenth-century United States, and then apply the methods to write a research paper using a dataset from your own historical field.
+In this course you will learn to use computational methods to create historical interpretations. You will work with historical data, which includes finding, gathering, manipulating, analyzing, visualizing, and arguing from datasets, with special attention to geospatial and network data. These methods will be taught primarily using programming languages for data analysis. While data analysis methods can be applied to many topics and time periods, they cannot be understood separately from how the discipline forms meaningful questions and interpretations, nor divorced from the particularities of the sources and histories of some specific topic. You will therefore work through a series of example problems using provided datasets and then apply the methods to write a research paper using a dataset from your own historical field.
 
 ## Learning goals
 
 After taking this course, you will be able to
 
--   gather historical data from print and manuscript sources; use existing historical data sets; clean, tidy, and manipulate data; perform exploratory data analysis; create common visualizations; work with geospatial, textual, and network data.
--   write scripts using the R programming language and its extensive set of packages, as well as gain a basic understanding of data visualization for the web.
+-   gather historical data from print and manuscript sources; use existing historical data sets; clean, tidy, and manipulate data; perform exploratory data analysis; create common visualizations; work with geospatial and network data.
+-   create visualizations for the web and for print in open-source JavaScript libraries. 
 -   understand the place of data analysis and visualization within the field of digital history and the discipline of history.
 -   conceive of and execute a short research project in computational history.
 
 ## Essential information
 
-Most required readings are available online or through the GMU libraries. These are the main books that we will be using.
+All of the required readings for this course are available online or through the GMU libraries. Readings are listed on the syllabus below. This is a graduate methods course in a field that moves quickly. The syllabus is likely to change over the course of the semester, and I may change or add to the readings at any time. 
 
--   Hadley Wickham and Garrett Grolemund, [*R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*](http://r4ds.had.co.nz/) (O'Reilly, 2017). ISBN: 978-1491910399.
--   Kieran Healy, [*Data Visualization: A Practical Introduction*](http://socviz.co/) (Princeton University Press, 2018). ISBN: 978-0691181622.
+Communication for this course will happen in a channel in the RRCHNM Slack group. You will receive an invitation to that Slack channel. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help. The Slack group is your primary place to ask for help. Please ask for help in the public channel rather than private messages. You are almost certainly not the only person to have your question, and asking and answering questions publicly benefits everyone. When you ask a question, help me help you by including the code that you are asking about and any error messages that are relevant.
 
-This is a graduate methods course in a field that moves reasonably quickly. The syllabus is likely to change over the course of the semester. In particular, I am likely to send you additional projects or visualizations to look at before class, which should be treated the same as other assigned readings.
+You are always welcome to talk with me during office hours. My [office hours page](/page/office-hours/) has instructions on how to book an appointment. Make an effort to meet with me in person before you request a meeting via Zoom. If the scheduled times don't work for you, please contact me and suggest a few other times that would work for you.
 
-All communication for this course will happen in [our Slack group](https://mason-dh-grad.slack.com/signup). Please signup and join the `#data-2023` channel. Read this [getting started guide](https://get.slack.help/hc/en-us/articles/218080037-Getting-started-for-new-users) if you need help. The Slack group is your primary place to ask for help. Please ask for help in the public channels rather than private messages. You are almost certainly not the only person to have your question, and asking and answering questions publicly benefits everyone. When you ask a question, help me help you by including the code that you are asking about and any error messages that are relevant.
-
-You are always welcome to talk with me during office hours. My [office hours page](/page/office-hours/) has instructions on how to book an appointment. If the scheduled times don't work for you, please contact me and suggest a few other times that would work for you.
-
-Bring a computer to each class meeting. We will be using both the R programming langauge and JavaScript via Observable notebooks. You can use R on your computer or via GMU's [OpenOnDemand](https://ondemand.orc.gmu.edu/pun/sys/dashboard/) instance, which you can use via a web browser. I also recommend that you install some key software on your computer. See the list under the heading for the first week. (I will assume that you have a computer with some kind of Unix-like operating system available. The easiest will be macOS or a Linux distribution. But if you use Windows, good news: R has very good support for Windows.)
-
-In general I have provided datasets and questions for you to work on for all the assignments except the final paper. But for any assignment, you may substitute a dataset from your own historical field after checking with me. The forward-thinking graduate student will try to find such datasets early on in the semester so that you can use the intermediate assignments as preparation for your final assignment. If you can peer even farther into the future, you could try to use the final assignment as a test run for work you might want to do in one of your own research projects, such as a conference presentation, article, or dissertation.
+Bring a computer to each class meeting. Some, but not all, of the software we are using can be accessed through a web browser, but you will still need a computer. I also recommend that you install some key software. See the list under the heading for the first week. (I only know how to help  you with a computer with some kind of Unix-like operating system available: macOS or a Linux distribution. But all of the software we will use has Windows support.)
 
 ## Assignments
 
-For each assignment, you should send me the completed file (not the source code) knit from your RMarkdown document. Please submit the assignments via the Blackboard page for this class. Send the assignments before the start of class on the day on which they are due. 
+For each assignment, you should submit the submitted assignment on Canvas. If the assignment lives online, send me a URL through Canvas but make sure that I have permissions to see it. Submit the assignments before the start of class on the day on which they are due. 
 
-Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings, though you do not need to to submit them and I will not check them. Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
+Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings, though you do not need to to submit them and I will not check them. 
 
-**Worksheets and weekly assignments (25%).** Many classes will have an assignment due before class begins. Some will require you to do library research; others will be practice data analysis worksheets. Some of the questions on the worksheets will be easy; most will be difficult; some you may find nearly impossible. The aim is to *practice*. We will go over the worksheets in class each week. If you attempt a problem and can't solve it, you should still turn in whatever work you did on it. Students who complete all the easy and moderately difficult questions, attempt the very difficult questions, and ask for help as needed will do just fine. These assignments will graded by completion.
+Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
-**Analysis assignments (4 × 10% = 40%).** You will do four analysis assignments, each demonstrating a specific skill in data analysis. For these assignments you will be use a historical dataset and asked some interpretative questions. You will prepare a [Quarto](https://quarto.org) document containing prose, code, and tables or visualizations to answer the historical questions and, as necessary, explain your methods. For these assignment I will provide a dataset that you can work with (but see below). 
+**Weekly assignments (30%).** Many classes will have an assignment due before class begins. Most of those will require you to work through the material for the previous week. The aim is to *practice*. We will go over these assignments in class each week as a part of the learning process. If you attempt a problem and can't solve it, you should still turn in whatever work you did on it. These assignments will graded by completion.
 
-**Final project (35%).** You will designate one of the analysis assignments as a stepping stone to your final project. For that analysis assignment, you will use the same dataset that you will use for the final project. You will try out one of the methods we are learning on that dataset. In addition to the normal feedback that I will provide on an assignment, I will also give you guidance about how to refine and expand your analysis, visualizations, and interpretations. Then, you will expand and revise the work you did in the analysis assignment for the final project. This expanded version should include more prose and citations, not to exceed 1,500 words. You may do this assignment either in a Quarto notebook or in an Observable notebook. The visualizations and data analysis should be expanded if necessary and refined in each case to the level of quality that would be expected in a published article. Each table and figure must have a caption written in complete sentences. Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. The final assignment will be evaluated according to two primary criteria: (1) Did the visualizations significantly improve in refinement and quality? (2) Does the combination of prose and visualizations convey a meaningful historical argument? **Due by 12pm on Monday, May 15.**
+**Analysis assignments (3 × 10% = 30%).** You will do three analysis assignments, each demonstrating a specific skill in data analysis. For these assignments you will be use a historical dataset and asked some interpretative questions. You will prepare an Observable notebook containing prose, code, and tables or visualizations to answer the historical questions and, as necessary, explain your methods. For these assignment I will provide a dataset that you can work with, but you can substitute your own dataset if you prefer. 
+
+**Final project (draft = 10 %; final = 30%).** For your final project, you will write a paper, based on data analysis and visualization, that could be presented at a historical conference. Like the analysis assignments, this paper will be written in an Observable notebook, which you can use to create the visualizations and tables. This paper should include more prose and citations, not to exceed 2,000 words. The prose, visualizations, and data analysis should be refined to the level of quality that would be expected in a published article. Each table and figure must have a caption written in complete sentences. The primary point of your paper should be advancing some well-argued interpretation of the past. Explain your methods as needed, but write in a way which would be understandable and compelling to any historian working in your field. Rough draft to be circulated before class on **Monday, May 5.** Final draft due **Monday, May 12.**
 
 ## Schedule
 
-### Week 1 (January 23): Introduction to computational history
+### Week 1 (January 27): Introduction to computational history
 
 Assignment:
 
@@ -82,7 +77,7 @@ We will set these up the first day of class:
 -   Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
 -   Get an account at [Observable](https://observablehq.com).
 
-### Week 2 (January 30): Data from history and historians
+### Week 2 (February 3): Data from history and historians
 
 Assignment:
 
@@ -103,7 +98,7 @@ Browse:
 -   Herman Carl Weber, [*Presbyterian Statistics through One Hundred Years, 1826-1926*](http://catalog.hathitrust.org/Record/007109885) (Philadelphia: Presbyterian Church in the U.S.A., 1927), part II.
 -   Jasmine Weber, "[How W.E.B. Du Bois Meticulously Visualized 20th-Century Black America](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/)," 5 February 2019.
 
-### Week 3 (February 6): Basics of R
+### Week 3 (February 10): Basics of R
 
 Assignment:
 
@@ -117,7 +112,7 @@ Readings:
 -   "[Getting Started](https://dh-r.lincolnmullen.com/getting-started.html)" and "[An R Primer](http://dh-r.lincolnmullen.com/primer.html)" in *Computational Historical Thinking*.
 -   [Quarto documentation](https://quarto.org).
 
-### Week 4 (February 13): Data manipulation
+### Week 4 (February 17): Data manipulation
 
 Assignment:
 
@@ -130,7 +125,7 @@ Readings:
 -   Documentation for the [tidyverse](https://www.tidyverse.org).
 -   Documentation for [databases in R](https://db.rstudio.com).
 
-### Week 5 (February 20): Data visualization
+### Week 5 (February 24): Data visualization
 
 Assignment:
 
@@ -144,9 +139,11 @@ Readings:
 -   Lauren F. Klein, "The Image of Absence: Archival Silence, Data Visualization, and James Hemings," American Literature 85, no. 4 (December 1, 2013): 661--88, https://doi.org/10.1215/00029831-2367310.
 -   John Theibault, "Visualizations and Historical Arguments," in *Writing History in the Digital Age*, ed. Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013), <https://doi.org/10.3998/dh.12230987.0001.001>.
 
-### Week 6 (February 27): Cancelled
+### Week 6 (March 3): Cancelled
 
-### Week 7 (March 6): Exploratory data analysis
+### Spring break (March 10)
+
+### Week 7 (March 17): Exploratory data analysis
 
 Assignment:
 
@@ -160,9 +157,8 @@ Readings:
 -   Jordan F. Bratt, "[Congressional Incumbency in the Early Republic](https://earlyamericanelections.org/essays/05-bratt-incumbency.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
 
-### Spring break (March 13)
 
-### Week 8 (March 20): Texts
+### Week 8 (March 24): Texts
 
 Assignment:
 
@@ -182,7 +178,7 @@ For reference:
 -   Documentation for [quanteda package](https://quanteda.io/).
 -   Documentation for [cleanNLP documentation](https://statsmaths.github.io/cleanNLP/).
 
-### Week 9 (March 27): Maps
+### Week 9 (March 31): Maps
 
 Readings:
 
@@ -197,7 +193,7 @@ For reference:
 -   Documentation for the [leaflet package](https://rstudio.github.io/leaflet/).
 -   Greta Swain, "[Maryland's Political Geography in the Early Republic](https://earlyamericanelections.org/essays/06-swain-geography-of-politics.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
-### Week 10 (April 3): Networks
+### Week 10 (April 7): Networks
 
 Assignment:
 
@@ -217,7 +213,7 @@ For reference:
 -   Documentation for the [ggraph package](https://ggraph.data-imaginist.com).
 
 
-### Week 11 (April 10): Word embeddings
+### Week 11 (April 14): Word embeddings
 
 Assignment:
 
@@ -232,7 +228,7 @@ Readings:
 -   Matthew K. Gold and Lauren F. Klein et al., "[Forum: Text Analysis at Scale](http://dhdebates.gc.cuny.edu/debates/text/93)," in *Debates in the Digital Humanities 2016* (University of Minnesota Press, 2016), 525--568.
 -   Jo Guldi, "Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.030>.
 
-### Week 12 (April 17): Supervised and unsupervised classification
+### Week 12 (April 21): Supervised and unsupervised classification
 
 Readings:
 
@@ -243,7 +239,7 @@ Readings:
 -   Wickham and Grolemund, *R for Data Science*, ch. 23--24.
 -   Matthew L. Jockers and Ted Underwood, "Text-Mining the Humanities" in *A New Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 291--306. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
 
-### Week 13 (April 24): Introduction to Observable plot
+### Week 13 (April 28): Introduction to Observable plot
 
 Read the [Observable documentation](https://observablehq.com/tutorials) about their libraries and working with data. 
 
@@ -252,7 +248,7 @@ Readings:
 -   Rebecca Sutton Koeser, "[Trusting Others to 'Do the Math'](https://doi.org/10.1080/03080188.2016.1165454)" *Interdisciplinary Science Reviews* 40, no. 4 (2015): 376--392, <https://doi.org/10.1080/03080188.2016.1165454>.
 -   Benjamin Schmidt, "[Do Digital Humanists Need to Understand Algorithms?](http://dhdebates.gc.cuny.edu/debates/text/99)" in *Debates in the Digital Humanities 2016*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2016).
 
-### Week 14 (May 1): Final project workshop
+### Week 14 (May 5): Final project workshop
 
 Readings: 
 -   Read as much as you can: Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
@@ -266,10 +262,10 @@ This syllabus may be updated online as necessary. The online version of this syl
 
 Students must satisfactorily complete all assignments in order to pass this course. I am sometimes willing to grant extensions on assignments for cause, but you must request an extension before the assignment's due date. For graduate students, I never penalize late work, but falling behind is not a good idea. No work (other than final projects) will be accepted after the last day that the class meets. I will discuss grades only in person during office hours.
 
-Please submit all assignments in Blackboard.
+Please submit all assignments in Canvas.
 
 You are expected to attend each class and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class. If you wish to be excused for an absence, please email me before the absence if possible, or as soon as possible after the absence. I understand that life happens, and I will do my best to work with you.
 
-See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](http://oai.gmu.edu/understanding-the-honor-code/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note the dates for dropping and adding courses from the [GMU academic calendar](http://registrar.gmu.edu/calendars/spring-2020/).
+See the [George Mason University catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](http://oai.gmu.edu/) and the [honor code](http://oai.gmu.edu/understanding-the-honor-code/). If you are a student with a disability and you need academic accommodations, please see me and contact the Office of Disability Services through [their website](http://ods.gmu.edu). You are responsible for verifying your enrollment status. All academic accommodations must be arranged through that office. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/spring_2025/).
 
-This syllabus draws ideas and assignments from many people and syllabi, including Taylor Arnold, Andrew Goldstone, Jason Heppler, Ben Schmidt, and Lauren Tilton.
+This syllabus draws ideas and assignments from many people and syllabi, including Taylor Arnold, Andrew Goldstone, Kieran Healy, Jason Heppler, Ben Schmidt, and Lauren Tilton.

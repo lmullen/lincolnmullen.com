@@ -55,29 +55,30 @@ Final grades will be calculated using the typical percentage-based grading scale
 
 ## Schedule
 
-### Week 1 (January 27): Introduction to computational history
+### Week 1 (January 27): History of data visualization
+
+Readings:
+
+- Lauren Klein et al., [_Data by Design: An Interactive History of Data Visualization, 1789--1900](https://dataxdesign.io/) (MIT Press, 2024 public beta).
+-   Frederick W. Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)," *The American Historian* (February 2016).
+-   Taylor Arnold and Lauren Tilton, "[New Data: The Role of Statistics in DH](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24)," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).
+
+We will set these up the first day of class:
+
+-   Join the class Slack channel.
+-   Get a [GitHub](https://github.com/) account and post it to the Slack group (e.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen)).
+-   Get an account at [Observable](https://observablehq.com).
+-   Install [DB Browser for SQLite](https://sqlitebrowser.org).
+-   Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
+-   (Optional) Install [Homebrew](https://brew.sh) (only if you use macOS).
+-   (Optional) Consider [Claude](https://claude.ai/) or its ilk for support writing code and queries.
+
+
+### Week 2 (February 3): Data from history and historians
 
 Assignment:
 
 -   Find one example of a digital history project that uses visualization or data analysis. Be prepared with the URL and a three-minute answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
-
-Readings:
-
--   Frederick W. Gibbs, "[New Forms of History: Critiquing Data and Its Representations](http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/)," *The American Historian* (February 2016).
--   Taylor Arnold and Lauren Tilton, "[New Data: The Role of Statistics in DH](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a2a6a192-f04a-4082-afaa-97c76a75b21c#ch24)," in *Debates in DH 2019*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).
--   "[Introduction](http://dh-r.lincolnmullen.com/introduction.html)," in *Computational Historical Thinking*.
-
-We will set these up the first day of class:
-
--   Join the class [Slack group](https://mason-dh-grad.slack.com/signup).
--   Get a [GitHub](https://github.com/) account and post it to the Slack group (e.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen)).
--   Install [R](https://cran.rstudio.com/), a programming language for data analysis.
--   Install [RStudio](https://www.rstudio.com/products/rstudio/#Desktop), an environment for using R.
--   Install [Homebrew](https://brew.sh) (only if you use macOS).
--   Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
--   Get an account at [Observable](https://observablehq.com).
-
-### Week 2 (February 3): Data from history and historians
 
 Assignment:
 

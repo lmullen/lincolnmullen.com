@@ -70,6 +70,7 @@ We will set these up the first day of class:
 -   Get an account at [Observable](https://observablehq.com).
 -   Install [DB Browser for SQLite](https://sqlitebrowser.org).
 -   Install [Visual Studio Code](https://code.visualstudio.com), a general-purpose text editor for developers.
+-   Install a terminal. For Mac I recommend either [iTerm2](https://iterm2.com) or [Warp](https://www.warp.dev). 
 -   (Optional) Install [Homebrew](https://brew.sh) (only if you use macOS).
 -   (Optional) Consider [Claude](https://claude.ai/) or its ilk for support writing code and queries.
 

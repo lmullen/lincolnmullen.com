@@ -75,32 +75,27 @@ We will set these up the first day of class:
 -   (Optional) Consider [Claude](https://claude.ai/) or its ilk for support writing code and queries.
 
 
-### Week 2 (February 3): Data from history and historians
+### Week 2 (February 3): From sources to data to history
 
 Assignment:
 
--   Find one example of a digital history project that uses visualization or data analysis. Be prepared with the URL and a three-minute answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
-
-Assignment:
-
--   Find at least three primary source data tables, datasets, or corpora from your field of historical research. These could include sources that are in print or manuscript, as well as datasets that have already been created. Post full citations and URLs in the Slack group, along with a sentence or two explaining what you've found. Examine the links that other people post before class.
+-   Find at least three primary source data tables, datasets, or corpora from your field of historical research. These could include sources that are in print or manuscript, as well as datasets that have already been created. Post citations and URLs in the Slack group, along with a sentence or two explaining what you've found. Examine the links that other people post before class.
+-   Find one example of a digital history project that uses visualization or data analysis. Post URL to the Slack group and a three-minute answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
 
 Readings:
 
--   Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
+-   Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
 -   Chad Gaffield, "Words, Words, Words: How the Digital Humanities Are Integrating Diverse Research Fields to Study People," *Annual Review of Statistics and Its Application* 5, no. 1 (2018): 119--39, <https://doi.org/10.1146/annurev-statistics-031017-100547>.
 -   Abraham Gibson and Cindy Ermus, "The History of Science and the Science of History: Computational Methods, Algorithms, and the Future of the Field," *Isis* 110, no. 3 (2019): 555--66, <https://doi.org/10.1086/705543>.
 -   Jessica Marie Johnson, "Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads," *Social Text* 36, no. 4 (2018): 57--79, <https://doi.org/10.1215/01642472-7145658>.
--   Laurie F. Maffly-Kipp, "[If It's South Dakota You Must Be Episcopalian: Lies, Truth-Telling, and the Mapping of U.S. Religion](http://www.jstor.org/stable/4146694)" *Church History* 71, no. 1 (2002): 132--42.
 -   Shari Rabin, "'Let us Endeavor to Count Them Up': The Nineteenth-Century Origins of American Jewish Demography," *American Jewish History* 101, no 4 (2017): 419--440, <https://doi.org/10.1353/ajh.2017.0060>.
+-   Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
 
 Browse:
 
--   Robert K. Nelson et al., [*Atlas of the Historical Geography of the United States*](https://dsl.richmond.edu/historicalatlas/) (Digital Scholarship Lab, University of Richmond).
 -   Herman Carl Weber, [*Presbyterian Statistics through One Hundred Years, 1826-1926*](http://catalog.hathitrust.org/Record/007109885) (Philadelphia: Presbyterian Church in the U.S.A., 1927), part II.
--   Jasmine Weber, "[How W.E.B. Du Bois Meticulously Visualized 20th-Century Black America](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/)," 5 February 2019.
 
-### Week 3 (February 10): Basics of R
+### Week 3 (February 10): Data visualization basics
 
 Assignment:
 
@@ -110,11 +105,8 @@ Assignment:
 Readings:
 
 -   Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8, 27.
--   Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
--   "[Getting Started](https://dh-r.lincolnmullen.com/getting-started.html)" and "[An R Primer](http://dh-r.lincolnmullen.com/primer.html)" in *Computational Historical Thinking*.
--   [Quarto documentation](https://quarto.org).
 
-### Week 4 (February 17): Data manipulation
+### Week 4 (February 17): Data bases
 
 Assignment:
 
@@ -127,7 +119,7 @@ Readings:
 -   Documentation for the [tidyverse](https://www.tidyverse.org).
 -   Documentation for [databases in R](https://db.rstudio.com).
 
-### Week 5 (February 24): Data visualization
+### Week 5 (February 24): Data manipulation
 
 Assignment:
 
@@ -141,7 +133,7 @@ Readings:
 -   Lauren F. Klein, "The Image of Absence: Archival Silence, Data Visualization, and James Hemings," American Literature 85, no. 4 (December 1, 2013): 661--88, https://doi.org/10.1215/00029831-2367310.
 -   John Theibault, "Visualizations and Historical Arguments," in *Writing History in the Digital Age*, ed. Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013), <https://doi.org/10.3998/dh.12230987.0001.001>.
 
-### Week 6 (March 3): Cancelled
+### Week 6 (March 3): Observable Plot
 
 ### Spring break (March 10)
 
@@ -160,7 +152,7 @@ Readings:
 
 
 
-### Week 8 (March 24): Texts
+### Week 8 (March 24): Maps 
 
 Assignment:
 
@@ -215,7 +207,7 @@ For reference:
 -   Documentation for the [ggraph package](https://ggraph.data-imaginist.com).
 
 
-### Week 11 (April 14): Word embeddings
+### Week 11 (April 14): LLMs for historical research
 
 Assignment:
 
@@ -230,7 +222,7 @@ Readings:
 -   Matthew K. Gold and Lauren F. Klein et al., "[Forum: Text Analysis at Scale](http://dhdebates.gc.cuny.edu/debates/text/93)," in *Debates in the Digital Humanities 2016* (University of Minnesota Press, 2016), 525--568.
 -   Jo Guldi, "Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.030>.
 
-### Week 12 (April 21): Supervised and unsupervised classification
+### Week 12 (April 21): Image analysis
 
 Readings:
 
@@ -241,7 +233,9 @@ Readings:
 -   Wickham and Grolemund, *R for Data Science*, ch. 23--24.
 -   Matthew L. Jockers and Ted Underwood, "Text-Mining the Humanities" in *A New Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 291--306. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
 
-### Week 13 (April 28): Introduction to Observable plot
+### Week 13 (April 28): Project workshop
+
+-   Read as much as you can: Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
 
 Read the [Observable documentation](https://observablehq.com/tutorials) about their libraries and working with data. 
 
@@ -250,10 +244,9 @@ Readings:
 -   Rebecca Sutton Koeser, "[Trusting Others to 'Do the Math'](https://doi.org/10.1080/03080188.2016.1165454)" *Interdisciplinary Science Reviews* 40, no. 4 (2015): 376--392, <https://doi.org/10.1080/03080188.2016.1165454>.
 -   Benjamin Schmidt, "[Do Digital Humanists Need to Understand Algorithms?](http://dhdebates.gc.cuny.edu/debates/text/99)" in *Debates in the Digital Humanities 2016*, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2016).
 
-### Week 14 (May 5): Final project workshop
+### Week 14 (May 5): Project workshop
 
 Readings: 
--   Read as much as you can: Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
 Assignment:
 
 -   Circulate a draft of your final project in Slack by Friday, April 28. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.

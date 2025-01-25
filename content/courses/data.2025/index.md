@@ -69,7 +69,7 @@ We will set these up the first day of class:
 -   Get a [GitHub](https://github.com/) account and post it to the Slack group (e.g., I am `lmullen` and this is [my GitHub profile](https://github.com/lmullen)).
 -   Get an account at [Observable](https://observablehq.com).
 -   Install [DB Browser for SQLite](https://sqlitebrowser.org).
--   Install [Visual Studio Code](https://code.visualstudio.com.
+-   Install [Visual Studio Code](https://code.visualstudio.com).
 -   Install a terminal. For Mac I recommend either [iTerm2](https://iterm2.com) or [Warp](https://www.warp.dev). 
 -   (Optional) Install [Homebrew](https://brew.sh), only if you use macOS.
 -   (Optional) Consider [Claude](https://claude.ai/) or its ilk for support writing code and queries.
@@ -89,7 +89,7 @@ Readings:
 -   Chad Gaffield, "Words, Words, Words: How the Digital Humanities Are Integrating Diverse Research Fields to Study People," *Annual Review of Statistics and Its Application* 5, no. 1 (2018): 119--39, <https://doi.org/10.1146/annurev-statistics-031017-100547>.
 -   Abraham Gibson and Cindy Ermus, "The History of Science and the Science of History: Computational Methods, Algorithms, and the Future of the Field," *Isis* 110, no. 3 (2019): 555--66, <https://doi.org/10.1086/705543>.
 -   Jessica Marie Johnson, "Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads," *Social Text* 36, no. 4 (2018): 57--79, <https://doi.org/10.1215/01642472-7145658>.
--   Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
+-   Roger Finke and Rodney Stark, [_The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy_](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
 
 Browse:
 

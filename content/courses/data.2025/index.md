@@ -80,15 +80,15 @@ We will set these up the first day of class:
 Assignment:
 
 -   Find at least three primary source data tables, datasets, or corpora from your field of historical research. These could include sources that are in print or manuscript, as well as datasets that have already been created. Post citations and URLs in the Slack group, along with a sentence or two explaining what you've found. Examine the links that other people post before class.
--   Find one example of a digital history project that uses visualization or data analysis. Post URL to the Slack group and a three-minute answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
+-   Find one example of a digital history project that uses visualization or data analysis. Post the URL to the Slack group and be ready in class with brief answer to these questions: What is interesting or insightful about this project? What did this project do that you would like to learn how to do for your own research?
 
 Readings:
 
 -   Karl W. Broman and Kara H. Woo, "Data Organization in Spreadsheets," *American Statistician* 72, no. 1 (2018): 2--10, <https://doi.org/10.1080/00031305.2017.1375989>.
+- Hadley Wickham, "Tidy Data," _Journal of Statistical Software_ 59 (2014): 1--23: <https://doi.org/10.18637/jss.v059.i10>.
 -   Chad Gaffield, "Words, Words, Words: How the Digital Humanities Are Integrating Diverse Research Fields to Study People," *Annual Review of Statistics and Its Application* 5, no. 1 (2018): 119--39, <https://doi.org/10.1146/annurev-statistics-031017-100547>.
 -   Abraham Gibson and Cindy Ermus, "The History of Science and the Science of History: Computational Methods, Algorithms, and the Future of the Field," *Isis* 110, no. 3 (2019): 555--66, <https://doi.org/10.1086/705543>.
 -   Jessica Marie Johnson, "Markup Bodies: Black \[Life\] Studies and Slavery \[Death\] Studies at the Digital Crossroads," *Social Text* 36, no. 4 (2018): 57--79, <https://doi.org/10.1215/01642472-7145658>.
--   Shari Rabin, "'Let us Endeavor to Count Them Up': The Nineteenth-Century Origins of American Jewish Demography," *American Jewish History* 101, no 4 (2017): 419--440, <https://doi.org/10.1353/ajh.2017.0060>.
 -   Roger Finke and Rodney Stark, [*The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*](http://www.jstor.org/stable/j.ctt5hhwnc) (Rutgers University Press, 2005), ch. 1.
 
 Browse:
@@ -99,41 +99,34 @@ Browse:
 
 Assignment:
 
--   [Getting familiar with R worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
--   Either use a primary source dataset that you found last week or, as a backup, the [*Minutes*](https://catalog.hathitrust.org/Record/006771726) of the Methodist Episcopal Church from after 1851. Create a well-structured spreadsheet and transcribe at least 25 rows of the data. Upload a CSV file to Slack before class. Be prepared to describe in class how you decided on the structure of your data, and how you identified what the variables were. Use the Broman and Woo article as a guide.
+-   Either use a primary source dataset that you found last week or, as a backup, the [*Minutes*](https://catalog.hathitrust.org/Record/006771726) of the Methodist Episcopal Church from after 1851. Create a well-structured spreadsheet and transcribe some substantial portion of the data. Upload a CSV file to Slack before class. Be prepared to describe in class how you decided on the structure of your data, and how you identified what the observations and variables were. Use the Broman and Woo article as a guide.
 
 Readings:
 
--   Wickham and Grolemund, *R for Data Science*, ch. 1, 4, 6, 8, 27.
+-   Kieran Healy and James Moody, "[Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf)" *Annual Review of Sociology*, 40:105--128.
+-   John Theibault, "Visualizations and Historical Arguments," in *Writing History in the Digital Age*, ed. Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013), <https://doi.org/10.3998/dh.12230987.0001.001>.
+-   [Observable Notebooks documentation](https://observablehq.com/documentation/notebooks/). Focus on "Cells > Data table," "Cells > Chart," and the "Data" sections in particular.
+- Claus O. Wilke, _Fundamentals of Data Visualization_ (O'Reilly, 2019). At a minimum, read ch. 2, 3, 4, 6, 7, 12, 13.
 
-### Week 4 (February 17): Data bases
 
-Assignment:
+### Week 4 (February 17): Databases
 
--   [Data structures worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
--   [Functions worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+Jay A. Kreibich, _Using SQLite_ (O'Reilly, 2010).
 
-Readings:
-
--   Wickham and Grolemund, *R for Data Science*, ch. 5, 12, 13.
--   Documentation for the [tidyverse](https://www.tidyverse.org).
--   Documentation for [databases in R](https://db.rstudio.com).
+If you want to level up: 
+Anthony DeBarros, _Practical SQL_, 2nd ed. (No Starch Press, 2022).
 
 ### Week 5 (February 24): Data manipulation
 
-Assignment:
+You may wish to consult Nick Morgan, _JavaScript Crash Course_ (No Starch Press, 2024) or Marijn Haverbeke, _Eloquent JavaScript_, 4th ed. (No Starch Press, 2024). 
 
--   [Data manipulation worksheet](https://dh-r.lincolnmullen.com/worksheets.html).
+### Week 6 (March 3): Observable Plot
 
 Readings:
 
--   Healy, *Data Visualization*, ch. 1, 3, 4.
--   Wickham and Grolemund, *R for Data Science*, ch. 3, 28.
--   Kieran Healy and James Moody, "[Data Visualization in Sociology](http://kieranhealy.org/files/papers/data-visualization.pdf)" *Annual Review of Sociology*, 40:105--128.
--   Lauren F. Klein, "The Image of Absence: Archival Silence, Data Visualization, and James Hemings," American Literature 85, no. 4 (December 1, 2013): 661--88, https://doi.org/10.1215/00029831-2367310.
--   John Theibault, "Visualizations and Historical Arguments," in *Writing History in the Digital Age*, ed. Kristen Nawrotzki and Jack Dougherty (University of Michigan Press, 2013), <https://doi.org/10.3998/dh.12230987.0001.001>.
-
-### Week 6 (March 3): Observable Plot
+- [Observable Plot documentation](https://observablehq.com/plot/)
+- [Observable Plot gallery](https://observablehq.com/@observablehq/plot-gallery)
+- Nathan Yau, _Visualize This_, 2nd ed. (Wiley, 2024).
 
 ### Spring break (March 10)
 
@@ -145,9 +138,6 @@ Assignment:
 
 Readings:
 
--   Wickham and Grolemund, *R for Data Science*, ch. 7, 17--21, 30.
--   Healy, *Data Visualization*, ch. 5, 8.
--   Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016), ch. 1, 4--6.
 -   Jordan F. Bratt, "[Congressional Incumbency in the Early Republic](https://earlyamericanelections.org/essays/05-bratt-incumbency.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
 
@@ -156,42 +146,27 @@ Readings:
 
 Assignment:
 
--   [Exploratory data analysis assignment](https://github.com/ClioGMU/clio2-eda).
 
 Readings:
 
--   Kasper, Welbers, Wouter van Atteveldt, and Kenneth Benoit, "Text analysis in R," *Communications Methods and Measures* 11, no. 4: 245--265, <https://doi.org/10.1080/19312458.2017.1387238>.
--   Taylor Arnold, Nicolas Ballier, Paula Lissón, and Lauren Tilton, "Beyond Lexical Frequencies: Using R for Text Analysis in the Digital Humanities," *Language Resources and Evaluation* 53, no. 4 (2019): 707--733, <https://doi.org/10.1007/s10579-019-09456-6>.
--   Tim Hitchcock and William J. Turkel, "The *Old Bailey Proceedings, 1674--1913*: Text Mining for Evidence of Court Behavior," *Law and History Review* 34, no. 4 (2016): 929--955, <https://doi.org/10.1017/S0738248016000304>.
--   Joshua Catalano, "Digitally Analyzing the Uneven Ground: Language Borrowing Among Indian Treaties," *Current Research in Digital History* 1 (2018): <https://doi.org/10.31835/crdh.2018.02>.
--   Ryan Cordell, "Reprinting, Circulation, and the Network Author in Antebellum Newspapers," *American Literary History* 27, no. 3 (2015): 417--445, <https://doi.org/10.1093/alh/ajv028>.
-- Browse: Taylor Arnold, Courtney Rivard, Lauren Tilton, [_Layered Lives: Rhetoric and Representation in the Southern Life History Project_](https://layeredlives.org) (Stanford University Press, 2022): <https://doi.org/10.21627/2022ll>. 
 
 For reference:
-
--   Documentation for [quanteda package](https://quanteda.io/).
--   Documentation for [cleanNLP documentation](https://statsmaths.github.io/cleanNLP/).
 
 ### Week 9 (March 31): Maps
 
 Readings:
 
--   Healy, *Data Visualization*, ch. 7.
+-   Robert K. Nelson and Edward L. Ayers, eds., [*American Panorama: An Atlas of United States History*](https://dsl.richmond.edu/panorama/) (Digital Scholarship Lab, University of Richmond).
 -   Richard White, "[What is Spatial History?](https://web.stanford.edu/group/spatialhistory/static/publications/pub29.html)," *Spatial History Project* (Stanford University, 2010).
 -   Cameron Blevins, "Space, Nation, and the Triumph of Region: A View of the World from Houston," *Journal of American History* 101, no. 1 (2014): 122--47, https://doi.org/10.1093/jahist/jau184.
--   Browse: Robert K. Nelson and Edward L. Ayers, eds., [*American Panorama: An Atlas of United States History*](https://dsl.richmond.edu/panorama/) (Digital Scholarship Lab, University of Richmond).
 
-For reference:
 
--   Documentation for the [sf package](https://r-spatial.github.io/sf/).
--   Documentation for the [leaflet package](https://rstudio.github.io/leaflet/).
 -   Greta Swain, "[Maryland's Political Geography in the Early Republic](https://earlyamericanelections.org/essays/06-swain-geography-of-politics.html)," *Mapping Early American Elections* (RRCHNM, 2019).
 
 ### Week 10 (April 7): Networks
 
 Assignment:
 
--   [Mapping assignment](https://github.com/ClioGMU/clio2-mapping).
 
 Readings:
 
@@ -200,44 +175,24 @@ Readings:
 
 Browse:
 
--   Analysis repository for [civil procedure codes](https://github.com/lmullen/civil-procedure-codes).
-
-For reference:
-
--   Documentation for the [ggraph package](https://ggraph.data-imaginist.com).
 
 
 ### Week 11 (April 14): LLMs for historical research
 
 Assignment:
 
--   [Network assignment](https://github.com/ClioGMU/clio2-networks).
-
-
 Readings:
 
--   Ben Schmidt, "[Vector Space Models for the Digital Humanities](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html)" (October 25, 2015).
--   Ben Schmidt, "[Rejecting the Gender Binary: A Vector-Space Operation](http://bookworm.benschmidt.org/posts/2015-10-30-rejecting-the-gender-binary.html)" (October 30, 2015).
--   Ryan Heuser, "[Word Vectors in the Eighteenth Century](http://ryanheuser.org/word-vectors/)."
--   Matthew K. Gold and Lauren F. Klein et al., "[Forum: Text Analysis at Scale](http://dhdebates.gc.cuny.edu/debates/text/93)," in *Debates in the Digital Humanities 2016* (University of Minnesota Press, 2016), 525--568.
--   Jo Guldi, "Critical Search: A Procedure for Guided Reading in Large-Scale Textual Corpora," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.030>.
 
 ### Week 12 (April 21): Image analysis
 
 Readings:
 
--   Roger Peng, [*Exploratory Data Analysis with R*](https://bookdown.org/rdpeng/exdata/) (Leanpub, 2016), ch. 12.
--   Robert K. Nelson, *[Mining the Dispatch](http://dsl.richmond.edu/dispatch/)* (Digital Scholarship Lab, University of Richmond).
--   Benjamin Schmidt, "Stable Random Projection: Lightweight, General-Purpose Dimensionality Reduction for Digitized Libraries," *Journal of Cultural Analytics* (2018): <https://doi.org/10.22148/16.025>.
--   Skim Gareth James, et al., *An Introduction to Statistical Learning: With Applications in R* (Springer, 2013), ch. 10. [GMU library](https://link-springer-com.mutex.gmu.edu/chapter/10.1007/978-1-4614-7138-7_2)
--   Wickham and Grolemund, *R for Data Science*, ch. 23--24.
--   Matthew L. Jockers and Ted Underwood, "Text-Mining the Humanities" in *A New Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, and John Unsworth (Wiley, 2016), 291--306. [GMU library](http://mutex.gmu.edu/login?url=http://www.gmu.eblib.com/EBLWeb/patron/?target=patron&extendedid=P_4093339_0)
 
 ### Week 13 (April 28): Project workshop
 
 -   Read as much as you can: Jeri Wieringa, "[A Gospel of Health and Salvation](http://dissertation.jeriwieringa.com)" (PhD dissertation, George Mason University, 2019).
 
-Read the [Observable documentation](https://observablehq.com/tutorials) about their libraries and working with data. 
 
 Readings:
 

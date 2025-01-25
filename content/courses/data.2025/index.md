@@ -43,7 +43,7 @@ Bring a computer to each class meeting. Some, but not all, of the software we ar
 
 Submit each assignment to Canvas unless otherwise instructed. If the assignment lives online, send me a URL through Canvas but make sure that I have permissions to see it. Submit the assignments before the start of class on the day on which they are due.
 
-Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings, though you do not need to to submit them and I will not check them.
+Preparation and participation are expected as a matter of course in a graduate class. Complete all readings and submit all assignments before class. If the readings include sample code or questions at the end, work through them as part of doing the readings, though you do not need to submit them and I will not check them.
 
 Final grades will be calculated using the typical percentage-based grading scale (A = 93--100, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59).
 
@@ -194,8 +194,6 @@ Readings:
 - Mark E. J. Newman, [_Networks: An Introduction_](https://math.bme.hu/~gabor/oktatas/SztoM/Newman_Networks.pdf) (Oxford University Press, 2010), ch. 1, 3, 4. Skim ch. 6, 7.
 - Joshua Catalano, "Digitally Analyzing the Uneven Ground: Language Borrowing Among Indian Treaties," _Current Research in Digital History_ 1 (2018): <https://doi.org/10.31835/crdh.2018.02>.
 - Matthew Lincoln, "Social Network Centralization Dynamics in Print Production in the Low Countries, 1550--1750," _International Journal for Digital Art History_ 2 (2016): 134--157, <https://doi.org/10.11588/dah.2016.2.25337>.
-
-Browse:
 
 ### Week 11 (April 14): LLMs for historical research
 

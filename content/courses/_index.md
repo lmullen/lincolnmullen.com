@@ -17,7 +17,7 @@ I teach courses in American religion, the global history of Christianity, the ni
   <tr><td class="semester">Spring 2021</td> <td><a href="/courses/christianity.2021/">Global History of Christianity</a></td></tr>
   <tr><td class="semester">Spring 2021</td> <td><a href="/courses/digital-past.2021/">The Digital Past: Reconstruction and Redemption</a></td></tr>
   <tr><td class="semester">Fall 2020</td> <td><a href="/courses/capitalism.2020/">Capitalism and American Religion</a></td></tr>
-  <tr><td class="semester">Spring 2020</td> <td><a href="/courses/data.2020.">Computational History</a></td></tr>
+  <tr><td class="semester">Spring 2020</td> <td><a href="/courses/data.2020/">Computational History</a></td></tr>
   <tr><td class="semester">Fall 2019</td> <td><a href="//files.lincolnmullen.com/american-scriptures.fall2019.pdf">American Scriptures</a> (with John Turner)</td></tr>
   <tr><td class="semester">Fall 2019</td> <td><a href="/courses/programming.2019/">Web Programming for Historians</a></td></tr>
   <tr><td class="semester">Spring 2019</td> <td><a href="/courses/christianity.2019/">Global History of Christianity</a></td></tr>

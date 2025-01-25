@@ -1,5 +1,6 @@
 {
 	"cSpell.words": [
+		"Arquero",
 		"Arrington",
 		"Baehr",
 		"Baugh",
@@ -9,6 +10,9 @@
 		"Broman",
 		"Carraher",
 		"Carté",
+		"Catalano",
+		"Çetinkaya",
+		"Choropleth",
 		"Collis",
 		"Corrigan",
 		"Corwin",
@@ -31,6 +35,7 @@
 		"Gloege",
 		"Graber",
 		"Grem",
+		"Grolemund",
 		"Gutjahr",
 		"Hadley",
 		"Haverbeke",
@@ -52,6 +57,7 @@
 		"Lerone",
 		"linkpost",
 		"listserv",
+		"Llamafile",
 		"lmullen",
 		"Lofton",
 		"Luker",
@@ -72,21 +78,28 @@
 		"Piehl",
 		"Porterfield",
 		"Rebecca",
+		"Rundel",
 		"Sánchez",
+		"Schriebman",
 		"Sklansky",
 		"slaveowners",
 		"Smil",
+		"Spreasheet",
 		"Stoll",
 		"Tenayuca",
 		"Theibault",
 		"Tilton",
 		"Truett",
 		"Umbach",
+		"Unsworth",
 		"Vaca",
 		"Valeri",
 		"Whitebread",
 		"Wickham",
 		"Wieringa",
 		"Wilke"
+	],
+	"markdown.validate.ignoredLinks": [
+		"/page/office-hours/"
 	]
 }

@@ -1,0 +1,842 @@
+mission_number,church,city,state,date_start,date_end,year,decade,duration_days,duration_weeks,confessions,converts,order,lat,long,volume,page
+1,St. Joseph's Church,New York,NY,1851-04-06,1851-04-20,1851,1850s,14,2 weeks or less,6000,0,Redemptorist,40.7143528,-74.0059731,1,1
+2,St. Michael's Church,Loretto,PA,1851-04-27,1851-05-11,1851,1850s,14,2 weeks or less,1700,0,Redemptorist,40.5031263,-78.630296,1,6
+3,St. Mary's Church,Hollidaysburg,PA,1851-05-18,1851-05-28,1851,1850s,10,2 weeks or less,1000,0,Redemptorist,40.4272949,-78.3889024,1,11
+4,Church of St. John Evangelist,Johnstown,PA,1851-05-31,1851-06-08,1851,1850s,8,2 weeks or less,1000,0,Redemptorist,40.3267407,-78.9219698,1,12
+5,St. Peter's Church,New York,NY,1851-09-28,1851-10-12,1851,1850s,14,2 weeks or less,4000,0,Redemptorist,40.7143528,-74.0059731,1,15
+6,St. Patrick's Cathedral,New York,NY,1851-10-19,1851-11-03,1851,1850s,15,3 weeks or less,7000,0,Redemptorist,40.7143528,-74.0059731,1,18
+7,St. Patrick's Church,Erie,PA,1851-11-17,1851-11-28,1851,1850s,11,2 weeks or less,1000,0,Redemptorist,42.1292241,-80.085059,1,20
+8,St. Philip Benizi Church,Cussewago,PA,1851-12-01,1851-12-08,1851,1850s,7,1 week or less,270,0,Redemptorist,41.7985407,-80.2098219,1,22
+9,St. Vincent's Church (Benedictine),Youngstown,PA,1851-12-10,1851-12-19,1851,1850s,9,2 weeks or less,1000,0,Redemptorist,40.2797927,-79.3655913,1,22
+10,St. Peter's Church,Saratoga,NY,1852-01-11,1852-01-22,1852,1850s,11,2 weeks or less,600,3,Redemptorist,43.0448483,-73.6300729,1,23
+11,St. Peter's Church,Troy,NY,1852-01-25,1852-02-22,1852,1850s,28,more than 3 weeks,3100,0,Redemptorist,42.7284117,-73.6917851,1,27
+12,St. Joseph's Church,Albany,NY,1852-02-29,1852-03-14,1852,1850s,14,2 weeks or less,4000,0,Redemptorist,42.6525793,-73.7562317,1,28
+13,Ss. Peter and Paul's Cathedral,Detroit,MI,1852-03-21,1852-04-04,1852,1850s,14,2 weeks or less,3000,0,Redemptorist,42.331427,-83.0457538,1,31
+14,St. John's Church,Philadelphia,PA,1852-05-02,1852-05-16,1852,1850s,14,2 weeks or less,3000,0,Redemptorist,39.952335,-75.163789,1,33
+15,Church of the Assumption,Philadelphia,PA,1852-05-19,1852-05-31,1852,1850s,12,2 weeks or less,1700,0,Redemptorist,39.952335,-75.163789,1,33
+16,St. Bernard's Church,Cohoes,NY,1852-06-10,1852-06-20,1852,1850s,10,2 weeks or less,1400,0,Redemptorist,42.7742446,-73.7001187,1,35
+17,St. James's Cathedral,Wheeling,WV,1852-09-05,1852-09-15,1852,1850s,10,2 weeks or less,1250,3,Redemptorist,40.0639616,-80.7209149,1,36
+18,St. Peter's Cathedral,Cincinnati,OH,1852-09-26,1852-10-10,1852,1850s,14,2 weeks or less,5000,0,Redemptorist,39.1031182,-84.5120196,1,37
+19,Cathedral of the Assumption,Louisville,KY,1852-10-17,1852-10-31,1852,1850s,14,2 weeks or less,2000,3,Redemptorist,38.2526647,-85.7584557,1,38
+20,Cathedral of the Immaculate Conception,Albany,NY,1852-11-28,1852-12-12,1852,1850s,14,2 weeks or less,4500,3,Redemptorist,42.6525793,-73.7562317,1,39
+21,St. Peter's Cathedral,Richmond,VA,1852-12-24,1853-01-03,1852,1850s,10,2 weeks or less,620,3,Redemptorist,37.5407246,-77.4360481,1,40
+22,St. John's Cathedral,Cleveland,OH,1853-01-23,1853-02-06,1853,1850s,14,2 weeks or less,2300,3,Redemptorist,41.4994954,-81.6954088,1,41
+23,St. Mary's Church,Philadelphia,PA,1853-02-20,1853-03-06,1853,1850s,14,2 weeks or less,2550,3,Redemptorist,39.952335,-75.163789,1,42
+24,Cathedral of Baltimore,Baltimore,MD,1853-04-10,1853-04-24,1853,1850s,14,2 weeks or less,4500,0,Redemptorist,39.2903848,-76.6121893,1,45
+25,St. Ignatius' Church,Harford County,MD,1853-08-28,1853-09-10,1853,1850s,13,2 weeks or less,320,0,Redemptorist,39.5838964,-76.3637285,1,51
+26,St. Michael's Church,Flushing,NY,1853-09-11,1853-09-18,1853,1850s,7,1 week or less,950,0,Redemptorist,40.7674987,-73.833079,1,51
+27,St. Peter's Church,"New Brighton, Staten Island",NY,1853-09-29,1853-10-03,1853,1850s,4,1 week or less,1200,0,Redemptorist,40.6404369,-74.090226,1,52
+28,St. Mary's Church,Yonkers,NY,1853-09-29,1853-10-02,1853,1850s,3,1 week or less,550,0,Redemptorist,40.9312099,-73.8987469,1,52
+29,St. Mary's Church,New York,NY,1853-10-16,1853-10-30,1853,1850s,14,2 weeks or less,7800,0,Redemptorist,40.7143528,-74.0059731,1,53
+30,St. Patrick's Church,Norfolk,VA,1853-11-13,1853-11-24,1853,1850s,11,2 weeks or less,500,7,Redemptorist,36.8507689,-76.2858726,1,53
+31,St. Paul's Church,Portsmouth,VA,1853-11-13,1853-11-24,1853,1850s,11,2 weeks or less,330,10,Redemptorist,36.8354258,-76.2982742,1,55
+32,St. Peter and Paul's Church,"Williamsburg, Brookyln, New York",NY,1853-12-04,1853-12-18,1853,1850s,14,2 weeks or less,4000,16,Redemptorist,40.7064461,-73.9536163,1,56
+33,St. Patrick's Church,New Orleans,LA,1854-01-15,1854-01-29,1854,1850s,14,2 weeks or less,3000,3,Redemptorist,29.9510658,-90.0715323,1,58
+34,St. Joseph's Church,New Orleans,LA,1854-02-12,1854-02-21,1854,1850s,9,2 weeks or less,1300,3,Redemptorist,29.9510658,-90.0715323,1,61
+35,Cathedral of the Immaculate Conception,Mobile,AL,1854-03-04,1854-03-16,1854,1850s,12,2 weeks or less,1300,2,Redemptorist,30.6943566,-88.0430541,1,62
+36,St. Alphonsus' Church,New Orleans,LA,1854-03-26,1854-04-05,1854,1850s,10,2 weeks or less,2000,0,Redemptorist,29.9510658,-90.0715323,1,63
+37,St. Peter's Church,New Orleans,LA,1854-04-09,1854-04-17,1854,1850s,8,2 weeks or less,1700,2,Redemptorist,29.9510658,-90.0715323,1,64
+38,St. John Baptist's Church,New Orleans,LA,1854-04-23,1854-04-30,1854,1850s,7,1 week or less,1500,2,Redemptorist,29.9510658,-90.0715323,1,64
+39,St. Theresa's Church,New Orleans,LA,1854-05-14,1854-05-21,1854,1850s,7,1 week or less,1500,0,Redemptorist,29.9510658,-90.0715323,1,65
+40,St. John's Church,Schenectady,NY,1854-10-08,1854-10-18,1854,1850s,10,2 weeks or less,1300,0,Redemptorist,42.8142432,-73.9395687,1,66
+41,,Patterson,NJ,1854-10-29,1854-11-09,1854,1850s,11,2 weeks or less,2700,0,Redemptorist,40.9167654,-74.171811,1,67
+42,Church of Our Lady of the Mountain,Emmitsburg,MD,1854-11-19,1854-11-26,1854,1850s,7,1 week or less,500,0,Redemptorist,39.7045417,-77.3269307,1,68
+43,St. Peter's Church,Baltimore,MD,1854-12-03,1854-12-13,1854,1850s,10,2 weeks or less,2500,3,Redemptorist,39.2903848,-76.6121893,1,70
+44,St. Patrick's Cathedral,Newark,NJ,1854-12-31,1855-01-14,1854,1850s,14,2 weeks or less,4400,0,Redemptorist,40.735657,-74.1723667,1,71
+45,St. Mary's Church,Charlestown,MA,1855-01-28,1855-02-11,1855,1850s,14,2 weeks or less,2800,3,Redemptorist,42.3782065,-71.0602131,1,72
+46,St. Patrick's Church,Utica,NY,1855-02-21,1855-03-04,1855,1850s,11,2 weeks or less,1000,3,Redemptorist,43.100903,-75.232664,1,74
+47,Church of the Annunciation,Manhattanville,NY,1855-03-18,1855-04-01,1855,1850s,14,2 weeks or less,1400,0,Redemptorist,40.8169443,-73.9558333,1,75
+48,,Lexington,KY,1855-04-15,1855-04-25,1855,1850s,10,2 weeks or less,600,3,Redemptorist,38.0405837,-84.5037164,1,76
+49,,Frankfort,KY,1855-04-29,1855-05-03,1855,1850s,4,1 week or less,350,2,Redemptorist,38.2009055,-84.8732835,1,76
+50,,Canandagua,NY,1855-09-09,1855-09-17,1855,1850s,8,2 weeks or less,700,0,Redemptorist,42.887535,-77.2816984,1,79
+51,St. Paul's Cathedral,Pittsburgh,PA,1855-10-14,1855-10-28,1855,1850s,14,2 weeks or less,7600,20,Redemptorist,40.4406248,-79.9958864,1,79
+52,St. Joseph's Cathedral,Buffalo,NY,1855-11-11,1855-11-21,1855,1850s,10,2 weeks or less,3000,3,Redemptorist,42.8864468,-78.8783689,1,83
+53,Church of the Holy Angels,Sandusky,OH,1855-12-02,1855-12-12,1855,1850s,10,2 weeks or less,1100,0,Redemptorist,41.4489396,-82.7079605,1,84
+54,St. John's Cathedral,Cleveland,OH,1855-12-16,1855-12-25,1855,1850s,9,2 weeks or less,3300,0,Redemptorist,41.4994954,-81.6954088,1,85
+55,St. Stephen's Church,New York,NY,1856-01-06,1856-01-18,1856,1850s,12,2 weeks or less,4000,0,Redemptorist,40.7143528,-74.0059731,1,86
+56,Church of Our Lady Start of the Sea,Brooklyn,NY,1856-02-03,1856-02-17,1856,1850s,14,2 weeks or less,2800,1,Redemptorist,40.65,-73.95,1,87
+57,St. Patrick's Church,Newburgh,NY,1856-03-02,1856-03-13,1856,1850s,11,2 weeks or less,1350,3,Redemptorist,41.5034271,-74.0104178,1,89
+58,St. Patrick's Church,Norfolk,VA,1856-03-30,1856-04-06,1856,1850s,7,1 week or less,400,0,Redemptorist,36.8507689,-76.2858726,1,91
+59,,Portsmouth,VA,1856-03-30,1856-04-08,1856,1850s,9,2 weeks or less,520,9,Redemptorist,36.8354258,-76.2982742,1,95
+60,Richmond Cathedral,Richmond,VA,1856-04-13,1856-04-23,1856,1850s,10,2 weeks or less,900,0,Redemptorist,37.5407246,-77.4360481,1,95
+61,,Petersburg,VA,1856-04-13,1856-04-18,1856,1850s,5,1 week or less,210,0,Redemptorist,37.2279279,-77.4019267,1,97
+62,St. Mary's Church,Hoboken,NJ,1856-09-28,1856-10-05,1856,1850s,7,1 week or less,700,7,Redemptorist,40.7439905,-74.0323626,1,97
+63,St. Peter's Church,Wilmington,DE,1856-10-12,1856-10-23,1856,1850s,11,2 weeks or less,1700,0,Redemptorist,39.7458333,-75.5466667,1,102
+64,St. Patrick's Church,Washington,DC,1856-11-02,1856-11-15,1856,1850s,13,2 weeks or less,2700,3,Redemptorist,38.9072309,-77.0364641,1,106
+65,St. John's Church,Savannah,GA,1856-11-23,1856-12-07,1856,1850s,14,2 weeks or less,2500,3,Redemptorist,32.0835407,-81.0998342,1,111
+66,Church of the Immaculate Conception,Atlanta,GA,1856-12-14,1856-12-19,1856,1850s,5,1 week or less,190,3,Redemptorist,33.7489954,-84.3879824,1,113
+67,Church of the Assumption of the Blessed Virgin Mary,Macon,GA,1856-12-21,1856-12-28,1856,1850s,7,1 week or less,210,3,Redemptorist,32.8406946,-83.6324022,1,114
+68,St. Philip and James' Church,Columbus,GA,1857-01-04,1857-01-11,1857,1850s,7,1 week or less,170,1,Redemptorist,32.4609764,-84.9877094,1,116
+69,Trinity Church,Augusta,GA,1856-12-14,1856-12-24,1856,1850s,10,2 weeks or less,750,0,Redemptorist,33.4734978,-82.0105148,1,119
+70,,St. Augustine,FL,1857-01-04,1857-01-11,1857,1850s,7,1 week or less,600,0,Redemptorist,29.8942639,-81.3132083,1,126
+71,Cathedral of St. John and St. Finabarr,Charleston,SC,1857-01-25,1857-02-08,1857,1850s,14,2 weeks or less,3100,20,Redemptorist,32.7765656,-79.9309216,1,129
+72,St. Mary's Church,Roudout,NY,1857-03-01,1857-03-15,1857,1850s,14,2 weeks or less,2200,0,Redemptorist,41.920648,-73.9851381,1,133
+73,St. Mary's Church,Hudson,NY,1857-03-22,1857-03-29,1857,1850s,7,1 week or less,800,0,Redemptorist,42.2528649,-73.790959,1,136
+74,St. James' Church,Newark,NJ,1857-09-26,1857-10-06,1857,1850s,10,2 weeks or less,1900,0,Redemptorist,40.735657,-74.1723667,1,137
+75,Church of Our Lady of Loretto,Cold Spring,NY,1857-10-11,1857-10-18,1857,1850s,7,1 week or less,800,2,Redemptorist,41.4200937,-73.954583,1,138
+76,St. Peter's Church,Poughkeepsie,NY,1857-10-24,1857-11-06,1857,1850s,13,2 weeks or less,1950,0,Redemptorist,41.7003713,-73.9209701,1,140
+77,St. John's Church,Utica,NY,1857-11-15,1857-11-27,1857,1850s,12,2 weeks or less,3000,0,Redemptorist,43.100903,-75.232664,1,142
+78,St. Joseph's Church,Brandywine,DE,1857-12-06,1857-12-14,1857,1850s,8,2 weeks or less,920,1,Redemptorist,39.8295563,-75.5343681,1,144
+79,St. John the Baptist's Church,Trenton,NJ,1857-12-20,1857-12-31,1857,1850s,11,2 weeks or less,2050,5,Redemptorist,40.2170534,-74.7429384,1,145
+80,Cathedral of Burlington,Burlington,VT,1858-01-10,1858-01-18,1858,1850s,8,2 weeks or less,1400,2,Redemptorist,44.4758825,-73.212072,1,148
+81,St John Baptist's Church,Plattsburg,NY,1858-01-24,1858-01-31,1858,1850s,7,1 week or less,1100,1,Redemptorist,44.6994873,-73.4529124,1,151
+82,,Brandon,VT,1858-02-07,1858-02-11,1858,1850s,4,1 week or less,277,0,Redemptorist,43.7981572,-73.087648,1,153
+83,,East Rutland,VT,1858-02-07,1858-02-15,1858,1850s,8,2 weeks or less,840,0,Redemptorist,43.6106237,-72.9726065,1,155
+84,,West Rutland,VT,1858-02-21,1858-03-01,1858,1850s,8,2 weeks or less,1008,3,Redemptorist,43.5930919,-73.0451081,1,156
+85,,Saratoga Springs,NY,1858-03-07,1858-03-15,1858,1850s,8,2 weeks or less,970,0,Redemptorist,43.0831301,-73.7845651,1,157
+86,,Little Falls,NY,1858-03-21,1858-03-28,1858,1850s,7,1 week or less,800,3,Redemptorist,43.0434039,-74.8595957,1,158
+1,St. Patrick's Church,Watertown,NY,1858-04-18,1858-04-26,1858,1850s,8,2 weeks or less,1073,5,Paulist,43.9747838,-75.9107565,1,169
+2,St. Bridget's Church,New York,NY,1858-05-02,1858-05-16,1858,1850s,14,2 weeks or less,5700,15,Paulist,40.7143528,-74.0059731,1,172
+3,Cathedral of Ss. Peter & Paul,Providence,RI,1858-09-19,1858-10-01,1858,1850s,12,2 weeks or less,4430,0,Paulist,41.8239891,-71.4128343,1,178
+4,St. Peter's Cathedral,New York,NY,1858-10-10,1858-10-17,1858,1850s,7,1 week or less,2000,0,Paulist,40.7143528,-74.0059731,1,183
+5,St. Mary's Cathedral,Covington,KY,1858-10-24,1858-11-01,1858,1850s,8,2 weeks or less,1450,0,Paulist,39.0836712,-84.5085536,1,186
+6,St. Augustine's Church,Kalamazoo,MI,1858-11-07,1858-11-14,1858,1850s,7,1 week or less,430,2,Paulist,42.2917069,-85.5872286,1,189
+7,Church of the Immaculate Conception,Marshall,MI,1858-11-21,1858-11-26,1858,1850s,5,1 week or less,575,1,Paulist,42.2722641,-84.9633148,1,192
+8,St. John's Church,Jackson,MI,1858-11-28,1858-12-05,1858,1850s,7,1 week or less,450,1,Paulist,42.245869,-84.4013462,1,193
+9,St. Thomas's Church,Ann Arbor,MI,1858-12-12,1858-12-19,1858,1850s,7,1 week or less,910,5,Paulist,42.2808256,-83.7430378,1,196
+10,St. Mary's Church,New Haven,CT,1859-01-02,1859-01-14,1859,1850s,12,2 weeks or less,2060,4,Paulist,41.308274,-72.9278835,1,200
+11,St. Paul's Church,Princeton,NJ,1859-01-23,1859-01-31,1859,1850s,8,2 weeks or less,570,1,Paulist,40.3572976,-74.6672226,1,202
+12,St. Peter's Church,Belleville,NJ,1859-02-13,1859-02-20,1859,1850s,7,1 week or less,1135,2,Paulist,40.7936744,-74.1500469,1,206
+13,St. Patrick's Church,Quebec,QC,1859-03-20,1859-04-03,1859,1850s,14,2 weeks or less,7250,50,Paulist,46.8032826,-71.242796,1,209
+14,St. Peter's Church,Troy,NY,1859-04-10,1859-04-20,1859,1850s,10,2 weeks or less,2600,6,Paulist,42.7284117,-73.6917851,1,218
+15,Cathedral of the Immaculate Conception,St. John,NB,1859-09-04,1859-09-15,1859,1850s,11,2 weeks or less,8450,6,Paulist,45.2733153,-66.0633081,1,223
+16,St. Mary's Church,Jersey City,NJ,1859-10-02,1859-10-10,1859,1850s,8,2 weeks or less,1950,3,Paulist,40.7281575,-74.0776417,1,227
+17,St. Mary's Church,New York,NY,1859-10-16,1859-10-23,1859,1850s,7,1 week or less,3500,5,Paulist,40.7143528,-74.0059731,1,230
+18,St. James' Church,Bridgeport,CT,1859-10-30,1859-11-07,1859,1850s,8,2 weeks or less,1570,0,Paulist,41.1865478,-73.1951767,1,234
+19,Church of St. Paul the Apostle,New York,NY,1859-12-18,1859-12-25,1859,1850s,7,1 week or less,800,0,Paulist,40.7143528,-74.0059731,1,237
+20,St. Mary's Church,"Clifton, Staten Island",NY,1860-01-01,1860-01-08,1860,1860s,7,1 week or less,1250,3,Paulist,40.6189726,-74.0784785,1,239
+21,Church of the Immaculate Conception,Waterbury,CT,1860-01-15,1860-01-29,1860,1860s,14,2 weeks or less,2800,3,Paulist,41.5581525,-73.0514965,1,241
+22,St. John's Church,Middletown,CT,1860-02-05,1860-02-14,1860,1860s,9,2 weeks or less,2270,3,Paulist,41.5623209,-72.6506488,1,244
+23,St. Mary's Church,New Britain,CT,1860-02-19,1860-02-28,1860,1860s,9,2 weeks or less,1230,0,Paulist,41.6612104,-72.7795419,1,247
+24,St. Rose's Church,Meriden,CT,1860-03-11,1860-03-18,1860,1860s,7,1 week or less,810,0,Paulist,41.5381535,-72.8070435,1,249
+25,Church of St. Paul the Apostle,New York,NY,1860-03-25,1860-03-28,1860,1860s,3,1 week or less,925,0,Paulist,40.7143528,-74.0059731,1,250
+26,Cathedral,Kingston,ON,1860-04-15,1860-04-25,1860,1860s,10,2 weeks or less,2640,5,Paulist,44.2311717,-76.4859544,1,251
+27,St. Mary's Church,Norwich,CT,1860-05-06,1860-05-16,1860,1860s,10,2 weeks or less,1900,5,Paulist,41.5242649,-72.0759105,1,255
+28,Church of the Immaculate Conception,Lawrence,MA,1860-09-30,1860-10-12,1860,1860s,12,2 weeks or less,2150,0,Paulist,42.7070354,-71.1631137,1,259
+29,St. Patrick's Church,Elizabethport,NJ,1860-10-20,1860-10-28,1860,1860s,8,2 weeks or less,1000,1,Paulist,40.6501031,-74.1870888,1,261
+30,St. Soryl's Church,Hudson City,NJ,1860-11-04,1860-11-12,1860,1860s,8,2 weeks or less,1100,1,Paulist,41.1896081,-73.9242251,1,263
+31,St. James Church,New York,NY,1860-11-25,1860-12-09,1860,1860s,14,2 weeks or less,6950,10,Paulist,40.7143528,-74.0059731,1,266
+32,St. John Baptist Church,Boston,MA,1860-12-30,1861-01-10,1860,1860s,11,2 weeks or less,4550,0,Paulist,42.3584308,-71.0597732,1,271
+33,St. Gregory's Church,Haverhill,MA,1861-01-20,1861-01-28,1861,1860s,8,2 weeks or less,1002,4,Paulist,42.7762015,-71.0772796,1,274
+34,Church of the Holy Redeemer,East Boston,MA,1861-02-13,1861-02-27,1861,1860s,14,2 weeks or less,2900,0,Paulist,42.3702137,-71.0388601,1,276
+35,Church of the Immaculate Conception,Newburyport,MA,1861-03-03,1861-03-13,1861,1860s,10,2 weeks or less,1900,0,Paulist,42.8125913,-70.8772751,1,278
+36,,Pittston,PA,1861-04-14,1861-04-22,1861,1860s,8,2 weeks or less,1980,3,Paulist,41.3259134,-75.7893604,1,281
+37,,Holyoke,MA,1861-04-28,1861-05-09,1861,1860s,11,2 weeks or less,1850,5,Paulist,42.2042586,-72.6162009,1,282
+38,St. Mary's Church,Elizabeth,NJ,1861-10-06,1861-10-14,1861,1860s,8,2 weeks or less,950,1,Paulist,40.6639916,-74.2107006,1,284
+39,St. Michael's Church,New York,NY,1861-11-17,1861-11-28,1861,1860s,11,2 weeks or less,4000,0,Paulist,40.7143528,-74.0059731,1,285
+40,,Newport,NY,1861-12-29,1862-01-05,1861,1860s,7,1 week or less,370,1,Paulist,43.1859025,-75.0143244,1,287
+41,,Dunmore,PA,1862-01-19,1862-01-26,1862,1860s,7,1 week or less,700,0,Paulist,41.4198027,-75.6324112,1,291
+42,St. Philomena's Church,Rawley,PA,1862-02-02,1862-02-10,1862,1860s,8,2 weeks or less,1150,1,Paulist,40.3647715,-80.06532,1,291
+43,St. John's Church,Orange,NJ,1862-02-02,1862-02-09,1862,1860s,7,1 week or less,1000,2,Paulist,40.7706187,-74.2326478,1,292
+44,Church of the Immaculate Conception,New York,NY,1862-03-02,1862-03-16,1862,1860s,14,2 weeks or less,6800,1,Paulist,40.7143528,-74.0059731,1,293
+45,St. Stephen's Church,New York,NY,1862-03-30,1862-04-06,1862,1860s,7,1 week or less,2400,0,Paulist,40.7143528,-74.0059731,1,295
+46,,Scranton,PA,1862-05-18,1862-05-29,1862,1860s,11,2 weeks or less,2500,0,Paulist,41.408969,-75.6624122,1,295
+47,St. Peter's Church,Cambridge,MA,1862-04-27,1862-05-07,1862,1860s,10,2 weeks or less,2500,2,Paulist,42.3736158,-71.1097335,1,296
+NA,St. John's Church,Stamford,CT,1862-09-28,1862-10-05,1862,1860s,7,1 week or less,900,2,Paulist,41.0534302,-73.5387341,2,1
+NA,Church of the Immaculate Conception,Jersey City,NJ,1862-10-12,1862-10-23,1862,1860s,11,2 weeks or less,2875,0,Paulist,40.7281575,-74.0776417,2,2
+NA,St. Mary's Cathedral,Halifax,NS,1862-11-30,1862-12-08,1862,1860s,8,2 weeks or less,5636,4,Paulist,44.6488625,-63.5753196,2,3
+NA,Nativity Church,New York,NY,1863-01-04,1863-01-16,1863,1860s,12,2 weeks or less,3500,0,Paulist,40.7143528,-74.0059731,2,4
+NA,Church of St. Rose of Lima,Carbondale,PA,1863-01-25,1863-02-03,1863,1860s,9,2 weeks or less,2100,7,Paulist,41.5736935,-75.5018508,2,5
+NA,Assumption Church,Philadelphia,PA,1863-02-15,1863-02-26,1863,1860s,11,2 weeks or less,1500,0,Paulist,39.952335,-75.163789,2,6
+NA,Cathedral of the Holy Cross,Boston,MA,1863-03-08,1863-03-17,1863,1860s,9,2 weeks or less,3000,0,Paulist,42.3584308,-71.0597732,2,7
+NA,Church of the Most Holy Name of Jesus,Chicopee,MA,1863-04-12,1863-04-20,1863,1860s,8,2 weeks or less,2600,3,Paulist,42.1487043,-72.6078672,2,8
+NA,St. Joseph's Church,Pittsfield,MA,1863-05-03,1863-05-12,1863,1860s,9,2 weeks or less,2000,1,Paulist,42.4500845,-73.2453824,2,9
+NA,Church of Our Lady of Mercy,Port Chester,NY,1863-09-13,1863-09-21,1863,1860s,8,2 weeks or less,710,1,Paulist,41.0017643,-73.6656834,2,10
+NA,Cathedral of the Holy Name,Chicago,IL,1863-10-04,1863-10-14,1863,1860s,10,2 weeks or less,2600,8,Paulist,41.8781136,-87.6297982,2,11
+NA,St. Patrick's Cathedral,St. Louis,MO,1863-10-25,1863-11-04,1863,1860s,10,2 weeks or less,2500,3,Paulist,38.6270025,-90.1994042,2,12
+NA,St. John's Church,St. Louis,MO,1863-11-15,1863-11-24,1863,1860s,9,2 weeks or less,1300,0,Paulist,38.6270025,-90.1994042,2,13
+NA,St. Theresa's,New York,NY,1864-01-03,1864-01-15,1864,1860s,12,2 weeks or less,4500,6,Paulist,40.7143528,-74.0059731,2,14
+NA,St. John's Church,Honesdale,PA,1864-01-24,1864-02-01,1864,1860s,8,2 weeks or less,1400,1,Paulist,41.5767552,-75.2587871,2,15
+NA,Church of the Immaculate Conception,Stoughton,MA,1864-02-14,1864-02-21,1864,1860s,7,1 week or less,567,0,Paulist,42.125,-71.1027778,2,17
+NA,Church of St. John the Baptist,Trenton,NJ,1864-02-28,1864-03-10,1864,1860s,11,2 weeks or less,2800,10,Paulist,40.2170534,-74.7429384,2,18
+NA,Church of St. Patrick,North Bridgewater,MA,1864-04-03,1864-04-10,1864,1860s,7,1 week or less,1100,1,Paulist,41.9903519,-70.9750541,2,21
+NA,,Webster,MA,1864-04-17,1864-04-24,1864,1860s,7,1 week or less,700,0,Paulist,42.050091,-71.8800628,2,23
+NA,Church of St. William,Ware,MA,1864-05-01,1864-05-08,1864,1860s,7,1 week or less,1080,2,Paulist,42.2598457,-72.2398566,2,24
+NA,Church of Immaculate Conception,Port Jervis,NY,1864-09-11,1864-09-21,1864,1860s,10,2 weeks or less,750,1,Paulist,41.3750937,-74.692663,2,25
+NA,Church of St. Peter,Southbridge,MA,1864-10-02,1864-10-09,1864,1860s,7,1 week or less,730,4,Paulist,42.0751065,-72.0333905,2,26
+NA,Church of St. Mary,Lancaster,OH,1864-10-23,1864-10-31,1864,1860s,8,2 weeks or less,800,3,Paulist,39.7136754,-82.5993294,2,27
+NA,Church of the Assumption,Brookline,MA,1864-11-06,1864-11-14,1864,1860s,8,2 weeks or less,1200,1,Paulist,42.3317642,-71.1211635,2,31
+NA,,Brighton,MA,1864-11-17,1864-11-17,1864,1860s,0,1 week or less,700,3,Paulist,42.3463503,-71.1626756,2,31
+NA,Church of the Immaculate Conception,Salem,MA,1864-12-04,1864-12-13,1864,1860s,9,2 weeks or less,2100,3,Paulist,42.51954,-70.8967155,2,32
+NA,Church of St. James,Salem,MA,1865-01-01,1865-01-11,1865,1860s,10,2 weeks or less,2551,11,Paulist,42.51954,-70.8967155,2,33
+NA,Church of St. Thomas Aquinas,Archibald,PA,1865-01-29,1865-02-05,1865,1860s,7,1 week or less,1200,0,Paulist,41.4948038,-75.5368521,2,34
+NA,Church of Immaculate Conception,Birmingham,CT,1865-02-12,1865-02-20,1865,1860s,8,2 weeks or less,1600,1,Paulist,42.5467012,-83.2113192,2,35
+NA,Church of St. Gregory Thaumaturgus,Milton,MA,1865-03-12,1865-03-19,1865,1860s,7,1 week or less,1200,1,Paulist,42.2495321,-71.0661653,2,36
+NA,Church of St. Mary,"Clifton, Staten Island",NY,1865-03-26,1865-04-04,1865,1860s,9,2 weeks or less,1600,13,Paulist,40.6189726,-74.0784785,2,37
+NA,Church of St. John,Newark,NJ,1865-05-07,1865-05-14,1865,1860s,7,1 week or less,1400,0,Paulist,40.735657,-74.1723667,2,38
+NA,Church of St. Ann,Manchester,NH,1865-09-24,1865-10-05,1865,1860s,11,2 weeks or less,2600,0,Paulist,42.9956397,-71.4547891,2,39
+NA,Church of St. Mary,Cold Spring,NY,1865-10-29,1865-11-05,1865,1860s,7,1 week or less,721,0,Paulist,41.4200937,-73.954583,2,41
+NA,Church of the Immaculate Conception,Nashua,NH,1871-04-30,1871-05-07,1871,1870s,7,1 week or less,1261,0,Paulist,42.7653662,-71.467566,2,51
+NA,Church of St. Patrick,North Bridgewater,MA,1871-10-29,1871-11-05,1871,1870s,7,1 week or less,1400,0,Paulist,41.9903519,-70.9750541,2,53
+NA,Church of St. Gregory Thaumaturgus,Milton,MA,1872-02-25,1872-03-03,1872,1870s,7,1 week or less,2000,0,Paulist,42.2495321,-71.0661653,2,54
+NA,Church of St. Paul,Wilmington,DE,1872-04-28,1872-05-05,1872,1870s,7,1 week or less,1300,0,Paulist,39.7458333,-75.5466667,2,55
+NA,St. Peter's Cathedral,Wilmington,DE,1872-10-29,1872-11-05,1872,1870s,7,1 week or less,1800,0,Paulist,39.7458333,-75.5466667,2,56
+NA,Church of the Sacred Heart,Philadelphia,PA,1872-11-10,1872-11-18,1872,1870s,8,2 weeks or less,1500,9,Paulist,39.952335,-75.163789,2,57
+NA,Church of Ss. Peter and Paul,Sandusky,OH,1872-11-24,1872-12-03,1872,1870s,9,2 weeks or less,1500,2,Paulist,41.4489396,-82.7079605,2,58
+NA,Church of St. John the Evangelist,Birmingham,PA,1872-12-08,1872-12-18,1872,1870s,10,2 weeks or less,2150,0,Paulist,40.6478421,-78.1952892,2,59
+NA,Church of St. Mary,Randolph,MA,1872-12-29,1873-01-05,1872,1870s,7,1 week or less,1600,2,Paulist,42.1619739,-71.042551,2,60
+NA,St. Theresa's Church,New York,NY,1873-01-12,1873-01-26,1873,1870s,14,2 weeks or less,6600,10,Paulist,40.7143528,-74.0059731,2,61
+NA,Church of St. Mary,Albany,NY,1873-02-02,1873-02-12,1873,1870s,10,2 weeks or less,2780,2,Paulist,42.6525793,-73.7562317,2,63
+NA,St. Peter's Cathedral,Cincinnati,OH,1873-02-23,1873-03-09,1873,1870s,14,2 weeks or less,3000,2,Paulist,39.1031182,-84.5120196,2,64
+NA,Church of St. Paul the Apostle,New York,NY,1873-03-16,1873-03-30,1873,1870s,14,2 weeks or less,5500,0,Paulist,40.7143528,-74.0059731,2,65
+NA,Cathedral of St. Joseph,Columbus,OH,1873-04-20,1873-04-29,1873,1870s,9,2 weeks or less,2100,0,Paulist,39.9611755,-82.9987942,2,68
+NA,Church of the Sacred Heart,Sharon,PA,1873-05-04,1873-05-11,1873,1870s,7,1 week or less,700,1,Paulist,41.2331116,-80.4934035,2,69
+NA,Church of the Holy Name,New York,NY,1873-05-18,1873-05-25,1873,1870s,7,1 week or less,1030,0,Paulist,40.7143528,-74.0059731,2,70
+NA,St. Elizabeth's Church,Washington Heights,NY,1873-09-21,1873-09-28,1873,1870s,7,1 week or less,1007,0,Paulist,40.8401451,-73.9389213,2,72
+NA,St. Mary's Church,Fall River,MA,1873-10-05,1873-10-19,1873,1870s,14,2 weeks or less,5300,8,Paulist,41.7014912,-71.1550451,2,73
+NA,St. Patrick's Church,New London,CT,1873-10-26,1873-11-04,1873,1870s,9,2 weeks or less,1400,2,Paulist,41.3556539,-72.0995209,2,76
+NA,St. Mary's Church,Providence,RI,1873-11-02,1873-11-11,1873,1870s,9,2 weeks or less,4000,0,Paulist,41.8239891,-71.4128343,2,78
+NA,Church of St. John the Baptist,Canton,OH,1873-11-16,1873-11-25,1873,1870s,9,2 weeks or less,700,22,Paulist,40.7989473,-81.378447,2,79
+NA,St. Joseph's Cathedral,Buffalo,NY,1873-11-30,1873-12-14,1873,1870s,14,2 weeks or less,4500,7,Paulist,42.8864468,-78.8783689,2,80
+NA,St. Malachy's Church,Arlington,MA,1874-01-04,1874-01-12,1874,1870s,8,2 weeks or less,1170,4,Paulist,42.4153925,-71.1564729,2,81
+NA,Church of St. Bridget,Lexington,MA,1874-01-04,1874-01-13,1874,1870s,9,2 weeks or less,400,4,Paulist,42.4430372,-71.2289641,2,82
+NA,Church of the Assumption,East Boston,MA,1874-01-16,1874-02-01,1874,1870s,16,3 weeks or less,2350,18,Paulist,42.3702137,-71.0388601,2,83
+NA,Church of St. Michael,Brattleboro,VT,1874-02-08,1874-02-15,1874,1870s,7,1 week or less,570,2,Paulist,42.8509348,-72.5578619,2,84
+NA,Church of St. Joseph,Kingston,NY,1874-02-22,1874-03-02,1874,1870s,8,2 weeks or less,1400,1,Paulist,41.9270367,-73.9973608,2,87
+NA,Church of the Sacred Heart,Central Falls,NY,1874-03-08,1874-03-16,1874,1870s,8,2 weeks or less,1450,12,Paulist,44.0778319,-73.8320824,2,88
+NA,St. Joseph's Church,Circleville,OH,1874-02-08,1874-02-17,1874,1870s,9,2 weeks or less,400,8,Paulist,39.600618,-82.9460133,2,90
+NA,St. Joseph's Church,Fond du Lac,WI,1874-02-22,1874-03-04,1874,1870s,10,2 weeks or less,1650,2,Paulist,43.7730448,-88.4470508,2,92
+NA,Church of the Holy Cross,Ovid,NY,1874-03-22,1874-03-29,1874,1870s,7,1 week or less,700,3,Paulist,42.6764593,-76.8230111,2,93
+NA,Church of the Nativity,New York,NY,1874-04-12,1874-04-28,1874,1870s,16,3 weeks or less,4280,6,Paulist,40.7143528,-74.0059731,2,94
+NA,Church of St. Rose of Lima,Suffern,NY,1874-05-03,1874-05-08,1874,1870s,5,1 week or less,150,2,Paulist,41.1148179,-74.1495889,2,95
+NA,Church of St. Mary,Greenwood,NY,1874-05-10,1874-05-17,1874,1870s,7,1 week or less,260,0,Paulist,42.13507,-77.6483236,2,95
+NA,St. Jarlath's Church,Chicago,IL,1874-09-27,1874-10-07,1874,1870s,10,2 weeks or less,800,1,Paulist,41.8781136,-87.6297982,2,98
+NA,Church of St. Pius,Chicago,IL,1874-10-11,1874-10-25,1874,1870s,14,2 weeks or less,1500,12,Paulist,41.8781136,-87.6297982,2,99
+NA,Church of the Annunciation,Manhattanville,NY,1874-10-04,1874-10-14,1874,1870s,10,2 weeks or less,2600,6,Paulist,40.8169443,-73.9558333,2,100
+NA,St. John's Church,Trenton,NJ,1874-10-25,1874-11-05,1874,1870s,11,2 weeks or less,2700,6,Paulist,40.2170534,-74.7429384,2,102
+NA,St. Mary's Church,New Haven,CT,1874-11-08,1874-11-19,1874,1870s,11,2 weeks or less,2600,8,Paulist,41.308274,-72.9278835,2,103
+NA,St. Mary's Church,Jersey City,NJ,1874-12-06,1874-12-20,1874,1870s,14,2 weeks or less,4800,6,Paulist,40.7281575,-74.0776417,2,104
+NA,St. Mary's Cathedral,Ogdensburg,NY,1875-01-03,1875-01-14,1875,1870s,11,2 weeks or less,1850,6,Paulist,44.6942291,-75.4863364,2,105
+NA,St. Mary's Cathedral,San Francisco,CA,1875-02-14,1875-02-28,1875,1870s,14,2 weeks or less,2800,6,Paulist,37.7749295,-122.4194155,2,108
+NA,St. Francis Church,San Francisco,CA,1875-03-07,1875-03-16,1875,1870s,9,2 weeks or less,1350,7,Paulist,37.7749295,-122.4194155,2,109
+NA,St. Mary's Church,Oakland,CA,1875-03-07,1875-03-16,1875,1870s,9,2 weeks or less,1700,1,Paulist,37.8043637,-122.2711137,2,111
+NA,St. Patrick's Church,San Francisco,CA,1875-03-21,1875-04-05,1875,1870s,15,3 weeks or less,9000,13,Paulist,37.7749295,-122.4194155,2,112
+NA,Church of St. Rose of Lima,Sacramento,CA,1875-04-04,1875-04-14,1875,1870s,10,2 weeks or less,1600,2,Paulist,38.5815719,-121.4943996,2,114
+NA,Church of San Rafael,San Rafael,CA,1875-03-21,1875-03-28,1875,1870s,7,1 week or less,360,9,Paulist,37.9735346,-122.5310874,2,115
+NA,St. Peter's Church,San Francisco,CA,1875-04-11,1875-04-21,1875,1870s,10,2 weeks or less,1600,5,Paulist,37.7749295,-122.4194155,2,116
+NA,St. Joseph's Church,San Jose,CA,1875-04-18,1875-04-28,1875,1870s,10,2 weeks or less,1100,0,Paulist,37.3393857,-121.8949555,2,117
+NA,Church of the Holy Cross,Santa Cruz,CA,1875-04-25,1875-05-02,1875,1870s,7,1 week or less,650,2,Paulist,36.9741171,-122.0307963,2,119
+NA,St. Joseph's Cathedral,Marysville,CA,1875-05-16,1875-05-24,1875,1870s,8,2 weeks or less,550,5,Paulist,39.1457253,-121.5913547,2,120
+NA,Church of the Immaculate Conception,Smartsville,CA,1875-05-16,1875-05-24,1875,1870s,8,2 weeks or less,350,2,Paulist,39.2077473,-121.2988335,2,121
+NA,Church of the Immaculate Conception,Virginia City,NV,1875-05-30,1875-06-13,1875,1870s,14,2 weeks or less,1200,3,Paulist,39.3095135,-119.6499793,2,122
+NA,St. Patrick's Church,Gold Hill,NV,1875-05-30,1875-06-06,1875,1870s,7,1 week or less,660,1,Paulist,39.2904678,-119.6574011,2,123
+NA,Church of Mary Magdalen,Salt Lake City,UT,1875-06-20,1875-06-27,1875,1870s,7,1 week or less,75,1,Paulist,40.7607793,-111.8910474,2,124
+NA,,Ophir City,UT,1875-06-20,1875-06-25,1875,1870s,5,1 week or less,37,1,Paulist,40.36939,-112.2585566,2,125
+NA,Church of St. Michael,Stillwater,MN,1875-09-19,1875-09-30,1875,1870s,11,2 weeks or less,1200,1,Paulist,45.056004,-92.8088443,2,126
+NA,Cathedral of St. Paul,St. Paul,MN,1875-10-03,1875-10-17,1875,1870s,14,2 weeks or less,2100,6,Paulist,44.9537029,-93.0899578,2,127
+NA,St. Mary's Church,St. Paul,MN,1875-10-24,1875-11-03,1875,1870s,10,2 weeks or less,1200,6,Paulist,44.9537029,-93.0899578,2,130
+NA,Church of the Immaculate Conception,Minneapolis,MN,1875-11-07,1875-11-21,1875,1870s,14,2 weeks or less,2200,12,Paulist,44.983334,-93.26667,2,132
+NA,Church of the Immaculate Conception,Faribault,MN,1875-11-28,1875-12-08,1875,1870s,10,2 weeks or less,1300,6,Paulist,44.2949636,-93.268827,2,133
+NA,Church of St. Thomas,Winona,MN,1875-12-12,1875-12-19,1875,1870s,7,1 week or less,800,10,Paulist,44.0478889,-91.6404389,2,134
+NA,St. John's Church,Baltimore,MD,1876-01-09,1876-01-23,1876,1870s,14,2 weeks or less,4200,29,Paulist,39.2903848,-76.6121893,2,135
+NA,Church of St. Michael,Penn Yan,NY,1876-01-30,1876-02-09,1876,1870s,10,2 weeks or less,800,2,Paulist,42.6609026,-77.0538577,2,136
+NA,Church of St. Rose of Lima,Chelsea,MA,1876-02-27,1876-03-12,1876,1870s,14,2 weeks or less,3200,14,Paulist,42.3917638,-71.0328284,2,137
+NA,Church of St. Patrick,Boston,MA,1876-03-19,1876-04-09,1876,1870s,21,3 weeks or less,4000,3,Paulist,42.3584308,-71.0597732,2,138
+NA,Church of St. Michael,Jersey City,NJ,1876-04-23,1876-05-07,1876,1870s,14,2 weeks or less,5000,7,Paulist,40.7281575,-74.0776417,2,139
+NA,Cathedral of St. Paul,St. Paul,MN,1876-09-10,1876-09-14,1876,1870s,4,1 week or less,1500,0,Paulist,44.9537029,-93.0899578,2,141
+NA,St. Augustine's Church,Austin,MN,1876-09-17,1876-09-27,1876,1870s,10,2 weeks or less,790,17,Paulist,43.6666296,-92.9746367,2,142
+NA,St. Lawrence's Church,Fountain,MN,1876-10-01,1876-10-06,1876,1870s,5,1 week or less,440,3,Paulist,43.7399639,-92.1362717,2,143
+NA,St. Patrick's Church,Lanesboro,MN,1876-10-08,1876-10-18,1876,1870s,10,2 weeks or less,620,13,Paulist,43.7207974,-91.9768224,2,144
+NA,St. Patrick's Church,Caledonia,MN,1876-10-27,1876-10-30,1876,1870s,3,1 week or less,960,6,Paulist,43.6346913,-91.4968076,2,145
+NA,Church of St. Patrick,Brownsville,MN,1876-11-04,1876-11-09,1876,1870s,5,1 week or less,520,8,Paulist,43.6940552,-91.2798153,2,146
+NA,St. Thomas's Church,Rochester,MN,1876-11-19,1876-11-28,1876,1870s,9,2 weeks or less,1537,8,Paulist,44.0234,-92.46295,2,147
+NA,St. Bridget's Church,Rochester,MN,1876-11-29,1876-12-03,1876,1870s,4,1 week or less,626,2,Paulist,44.0234,-92.46295,2,148
+NA,St. Mary's Church,Waverly,MN,1876-09-17,1876-09-24,1876,1870s,7,1 week or less,460,11,Paulist,45.0666667,-93.9663889,2,149
+NA,St. Gerhard's Church,Forest City,MN,1876-10-01,1876-10-10,1876,1870s,9,2 weeks or less,700,3,Paulist,45.2063519,-94.4663799,2,150
+NA,St. Mary's Church,Shakopee,MN,1876-10-15,1876-10-22,1876,1870s,7,1 week or less,415,3,Paulist,44.7973962,-93.5272861,2,151
+NA,Church of the Sacred Heart,Belle Plaine,MN,1876-10-29,1876-11-07,1876,1870s,9,2 weeks or less,1030,4,Paulist,44.6230409,-93.7684042,2,152
+NA,St. Mary's Church,Le Sueur,MN,1876-11-12,1876-11-19,1876,1870s,7,1 week or less,520,2,Paulist,44.4658333,-93.9088889,2,153
+NA,St. Patrick's Church,Shieldsville,MN,1876-11-26,1876-12-06,1876,1870s,10,2 weeks or less,1100,3,Paulist,44.3660744,-93.4088334,2,154
+NA,Church of the Guardian Angels,Hastings,MN,1876-09-17,1876-09-26,1876,1870s,9,2 weeks or less,1050,1,Paulist,44.7443293,-92.8513706,2,155
+NA,St. Joseph's Church,Red Wing,MN,1876-10-01,1876-10-06,1876,1870s,5,1 week or less,240,0,Paulist,44.5660691,-92.5369563,2,156
+NA,St. Mary's Church,Lake City and West Albany,MN,1876-10-08,1876-10-17,1876,1870s,9,2 weeks or less,443,2,Paulist,44.4131284,-92.341887,2,157
+NA,Church of St. Felix of Valois,Wabasha,MN,1876-10-22,1876-10-29,1876,1870s,7,1 week or less,470,1,Paulist,44.3710051,-92.0382346,2,159
+NA,Church of the Immaculate Conception,Highland,MN,1876-10-29,1876-11-02,1876,1870s,4,1 week or less,370,1,Paulist,43.6807984,-91.8701524,2,160
+NA,Church of the Sacred Heart,Owatonna,MN,1876-11-05,1876-11-12,1876,1870s,7,1 week or less,400,3,Paulist,44.0855572,-93.2259349,2,162
+NA,Church of St. Charles Borromeo,St. Charles,MN,1876-11-19,1876-11-24,1876,1870s,5,1 week or less,375,1,Paulist,43.9694165,-92.064194,2,163
+NA,Church of Ss. Peter and Paul,Hart,MN,1876-11-26,1876-11-29,1876,1870s,3,1 week or less,215,2,Paulist,43.8755194,-91.7398706,2,164
+NA,"Church of Our Lady, Help of Christians",Sioux City,IA,1876-12-03,1876-12-13,1876,1870s,10,2 weeks or less,750,6,Paulist,42.4999942,-96.4003069,2,165
+NA,,Yankton,SD,1876-12-10,1876-12-17,1876,1870s,7,1 week or less,320,5,Paulist,42.8711088,-97.3972813,2,166
+NA,Church of the Immaculate Conception,Ithaca,NY,1876-12-31,1877-01-09,1876,1870s,9,2 weeks or less,1120,7,Paulist,42.4439614,-76.5018807,2,168
+NA,Church of the Holy Family,Auburn,NY,1877-01-21,1877-02-04,1877,1870s,14,2 weeks or less,3500,3,Paulist,42.9317335,-76.5660529,2,170
+NA,Church of St. Lucy,Syracuse,NY,1877-01-21,1877-01-30,1877,1870s,9,2 weeks or less,1500,5,Paulist,43.0481221,-76.1474244,2,172
+NA,Church of the Epiphany,New York,NY,1877-02-11,1877-02-25,1877,1870s,14,2 weeks or less,5300,0,Paulist,40.7143528,-74.0059731,2,173
+NA,St. Bridget's Church,New York,NY,1877-03-04,1877-03-18,1877,1870s,14,2 weeks or less,8000,15,Paulist,40.7143528,-74.0059731,2,175
+NA,St. Francis de Sales Church,Charlestown,NY,1877-04-08,1877-04-24,1877,1870s,16,3 weeks or less,6900,25,Paulist,41.3832162,-71.6418744,2,177
+NA,St John Baptist Church,Salina,NY,1877-04-29,1877-05-09,1877,1870s,10,2 weeks or less,1900,3,Paulist,43.1071066,-76.1725774,2,180
+NA,Church of the Sacred Heart,Weymouth,MA,1877-04-29,1877-05-09,1877,1870s,10,2 weeks or less,1700,0,Paulist,42.2180724,-70.9410356,2,181
+NA,,Everett,MA,1877-05-13,1877-05-20,1877,1870s,7,1 week or less,468,5,Paulist,42.40843,-71.0536625,2,183
+NA,St. James Church,Bay City,MI,1877-09-16,1877-09-26,1877,1870s,10,2 weeks or less,1700,7,Paulist,43.5944677,-83.8888647,2,186
+NA,St. Pius Church,Chicago,IL,1877-09-30,1877-10-11,1877,1870s,11,2 weeks or less,1280,0,Paulist,41.8781136,-87.6297982,2,187
+NA,St. James Church,Chicago,IL,1877-10-21,1877-11-07,1877,1870s,17,3 weeks or less,3086,8,Paulist,41.8781136,-87.6297982,2,189
+NA,St. Aloysius Church,Detroit,MI,1877-11-18,1877-12-04,1877,1870s,16,3 weeks or less,2000,0,Paulist,42.331427,-83.0457538,2,191
+NA,St. John's Church,Indianapolis,IN,1877-12-09,1877-12-22,1877,1870s,13,2 weeks or less,3790,4,Paulist,39.768403,-86.158068,2,193
+NA,Church of Our Lady of Perpetual Help,Defiance,OH,1877-09-30,1877-10-10,1877,1870s,10,2 weeks or less,450,1,Paulist,41.2844933,-84.3557802,2,196
+NA,St Stephen's Church,Flora,IL,1877-10-14,1877-10-21,1877,1870s,7,1 week or less,150,4,Paulist,38.6689364,-88.4856042,2,197
+NA,Church of St. Charles Borromeo,Charleston,IL,1877-10-28,1877-11-04,1877,1870s,7,1 week or less,160,0,Paulist,39.4961458,-88.1761521,2,198
+NA,Church Regina Coeli,Marshall,IL,1877-11-04,1877-11-13,1877,1870s,9,2 weeks or less,340,7,Paulist,39.3914252,-87.6936384,2,199
+NA,Church of St. Mary,Paris,IL,1877-11-18,1877-11-25,1877,1870s,7,1 week or less,462,2,Paulist,39.611146,-87.6961374,2,200
+NA,Church of St. Mary's,St. Mary's of the Woods,IN,1877-11-25,1877-12-04,1877,1870s,9,2 weeks or less,315,5,Paulist,35.7491283,-78.6943955,2,201
+NA,Church of St. Patrick,Galesburg,IL,1877-12-09,1877-12-19,1877,1870s,10,2 weeks or less,1000,2,Paulist,40.9478158,-90.3712395,2,202
+NA,Church of St. Paul the Apostle,New York,NY,1878-01-06,1878-01-27,1878,1870s,21,3 weeks or less,6200,6,Paulist,40.7143528,-74.0059731,2,204
+NA,St. Bernard's Church,Rockville,CT,1878-01-21,1878-01-29,1878,1870s,8,2 weeks or less,1058,6,Paulist,41.8667645,-72.4495287,2,206
+NA,St. Paul's Church 117th St.,Harlem,NY,1878-02-03,1878-02-17,1878,1870s,14,2 weeks or less,4539,0,Paulist,40.8115504,-73.9464769,2,207
+NA,St. Augustine's Church,South Boston,MA,1878-03-03,1878-03-24,1878,1870s,21,3 weeks or less,5674,11,Paulist,42.3381437,-71.0475773,2,208
+NA,St Bridget's Church,Cleveland,OH,1878-03-31,1878-04-10,1878,1870s,10,2 weeks or less,1323,1,Paulist,41.4994954,-81.6954088,2,210
+NA,Church of St. Antony of Padua,White River Junction,VT,1878-03-10,1878-03-17,1878,1870s,7,1 week or less,550,2,Paulist,43.6489596,-72.3192579,2,212
+NA,St. Mary's Church,Bellows Falls,VT,1878-03-24,1878-04-01,1878,1870s,8,2 weeks or less,612,1,Paulist,43.133411,-72.4439772,2,214
+NA,,"Sandy Hill, Hudson Falls",NY,1878-04-07,1878-04-16,1878,1870s,9,2 weeks or less,1100,8,Paulist,43.788801,-73.494427,2,215
+NA,Church of St. Bridget,North Manchester,CT,1878-05-05,1878-05-05,1878,1870s,0,1 week or less,645,1,Paulist,41.7759301,-72.5215009,2,216
+NA,Church of St. James,South Manchester,CT,1878-05-05,1878-05-12,1878,1870s,7,1 week or less,845,1,Paulist,41.7759301,-72.5215009,2,217
+NA,,Brockton,MA,1878-04-28,1878-05-06,1878,1870s,8,2 weeks or less,2322,7,Paulist,42.0834335,-71.0183787,2,219
+NA,,West Roxbury,MA,1878-05-12,1878-05-21,1878,1870s,9,2 weeks or less,424,3,Paulist,42.2797554,-71.1626756,2,220
+NA,Church of the Epiphany,Monmouth,IL,1878-09-29,1878-10-07,1878,1870s,8,2 weeks or less,510,1,Paulist,40.9114271,-90.6473576,2,229
+NA,Church of Immaculate Conception,Lacon,IL,1878-10-13,1878-10-20,1878,1870s,7,1 week or less,360,0,Paulist,41.0247583,-89.4112007,2,230
+NA,Church of St. Patrick,Camp Grove,IL,1878-10-20,1878-10-27,1878,1870s,7,1 week or less,580,1,Paulist,41.0789258,-89.6331524,2,231
+NA,Church of St. Patrick,O'Fallon,IL,1878-11-03,1878-11-10,1878,1870s,7,1 week or less,380,1,Paulist,38.592323,-89.910991,2,232
+NA,,Morrison,IL,1878-11-03,1878-11-10,1878,1870s,7,1 week or less,127,0,Paulist,41.809751,-89.9651186,2,232
+NA,,,IL,1878-11-14,1878-11-17,1878,1870s,3,1 week or less,93,0,Paulist,40.6331249,-89.3985283,2,233
+NA,,Savannah,IL,1878-11-14,1878-11-17,1878,1870s,3,1 week or less,130,0,Paulist,42.0944671,-90.1567944,2,233
+NA,,Sabula,IL,1878-11-24,1878-11-24,1878,1870s,0,1 week or less,86,0,Paulist,42.0711347,-90.1740169,2,233
+NA,,Lyons,IA,1878-11-24,1878-12-01,1878,1870s,7,1 week or less,860,1,Paulist,40.9545835,-95.7932008,2,234
+NA,Church of St. Paul of the Cross,Jersey City,NY,1878-09-22,1878-10-02,1878,1870s,10,2 weeks or less,1343,3,Paulist,40.7281575,-74.0776417,2,235
+NA,,Garder,MA,1878-10-06,1878-10-10,1878,1870s,4,1 week or less,975,0,Paulist,42.5750883,-71.998133,2,236
+NA,,Winchendon,MA,1878-10-13,1878-10-21,1878,1870s,8,2 weeks or less,625,0,Paulist,42.6871009,-72.0439529,2,239
+NA,,Shullsburg,WI,1878-10-27,1878-11-06,1878,1870s,10,2 weeks or less,1149,5,Paulist,42.5733354,-90.23096,2,240
+NA,St. Pius Church,Chicago,IL,1878-11-10,1878-11-17,1878,1870s,7,1 week or less,1100,0,Paulist,41.8781136,-87.6297982,2,342
+NA,St. Francis de Sales Church,Toledo,OH,1878-11-24,1878-12-04,1878,1870s,10,2 weeks or less,1688,0,Paulist,41.6639383,-83.555212,2,343
+NA,St. Mary's Church,Albany,NY,1878-12-08,1878-12-22,1878,1870s,14,2 weeks or less,3368,0,Paulist,42.6525793,-73.7562317,2,344
+NA,Church of the Holy Rosary,Newburgh,OH,1879-01-05,1879-01-20,1879,1870s,15,3 weeks or less,1960,0,Paulist,40.0092839,-82.9409387,2,346
+NA,St. Raphael's Church,Madison,WI,1879-01-26,1879-02-05,1879,1870s,10,2 weeks or less,1896,8,Paulist,43.0730517,-89.4012302,2,347
+NA,All Saint's Church,Chicago,IL,1879-02-09,1879-02-23,1879,1870s,14,2 weeks or less,2163,5,Paulist,41.8781136,-87.6297982,2,348
+NA,St. Patrick's Church,Providence,RI,1879-03-02,1879-03-16,1879,1870s,14,2 weeks or less,3507,0,Paulist,41.8239891,-71.4128343,2,349
+NA,St Mary's Church,New London,CT,1879-03-23,1879-04-02,1879,1870s,10,2 weeks or less,1826,4,Paulist,41.3556539,-72.0995209,2,350
+NA,St. Thomas Aquinas's Church,Bridgewater,CT,1879-04-20,1879-04-29,1879,1870s,9,2 weeks or less,1158,0,Paulist,41.5350949,-73.3662305,2,352
+NA,,West Roxbury,MA,1879-05-04,1879-05-12,1879,1870s,8,2 weeks or less,984,3,Paulist,42.2797554,-71.1626756,2,353
+NA,St. Leo's Church,Leominster,MA,1879-05-18,1879-05-25,1879,1870s,7,1 week or less,725,0,Paulist,42.5250906,-71.759794,2,354
+NA,Church of the Holy Trinity,Greenfield,MA,1879-09-14,1879-09-21,1879,1870s,7,1 week or less,550,0,Paulist,42.587915,-72.5994104,2,356
+NA,,South Deerfield,MA,1879-09-14,1879-09-21,1879,1870s,7,1 week or less,270,0,Paulist,42.4773097,-72.6078667,2,356
+NA,,Shelbourne Falls,MA,1879-09-14,1879-09-21,1879,1870s,7,1 week or less,115,0,Paulist,42.6042514,-72.7392588,2,357
+NA,,Chicopee Falls,MA,1879-09-25,1879-10-06,1879,1870s,11,2 weeks or less,1200,0,Paulist,42.1544318,-72.5784089,2,358
+NA,,Johnstown,PA,1879-10-12,1879-10-26,1879,1870s,14,2 weeks or less,2344,4,Paulist,40.3267407,-78.9219698,2,359
+NA,,Ypsilanti,MI,1879-11-02,1879-11-09,1879,1870s,7,1 week or less,480,0,Paulist,42.2411499,-83.6129939,2,360
+NA,,Ann Arbor,MI,1879-11-16,1879-11-24,1879,1870s,8,2 weeks or less,740,2,Paulist,42.2808256,-83.7430378,2,360
+NA,Church of St. Paul the Apostle,New York,NY,1879-11-30,1879-12-18,1879,1870s,18,3 weeks or less,5750,0,Paulist,40.7143528,-74.0059731,2,362
+NA,,Deposit,NY,1879-11-09,1879-11-16,1879,1870s,7,1 week or less,480,0,Paulist,42.0600834,-75.4276769,2,364
+NA,,Harper's Ferry,WV,1880-01-04,1880-01-11,1880,1880s,7,1 week or less,225,2,Paulist,39.3253786,-77.7388818,2,365
+NA,,Winchester,VA,1880-01-11,1880-01-20,1880,1880s,9,2 weeks or less,160,7,Paulist,39.1856597,-78.1633341,2,366
+NA,,Martinsburg,WV,1880-01-25,1880-02-02,1880,1880s,8,2 weeks or less,582,0,Paulist,39.4562099,-77.9638869,2,367
+NA,St. Mary's Church,Little Falls,NY,1880-01-04,1880-01-14,1880,1880s,10,2 weeks or less,1780,9,Paulist,43.0434039,-74.8595957,2,368
+NA,,Marine City,MI,1880-01-25,1880-02-01,1880,1880s,7,1 week or less,1000,3,Paulist,42.7194778,-82.492132,2,369
+NA,,Algonac,MI,1880-01-25,1880-01-27,1880,1880s,2,1 week or less,150,0,Paulist,42.6183675,-82.531018,2,369
+NA,,Northfield,MI,1880-02-08,1880-02-15,1880,1880s,7,1 week or less,523,7,Paulist,42.4003857,-83.7433813,2,370
+NA,,Evansville,IN,1880-02-22,1880-03-02,1880,1880s,9,2 weeks or less,794,6,Paulist,37.9715592,-87.5710898,2,371
+NA,,Terre Haute,IN,1880-03-07,1880-03-18,1880,1880s,11,2 weeks or less,1600,0,Paulist,39.4667034,-87.4139092,2,372
+NA,"St. Rose of Lima's Church, Cannon St",Cannon St.,NY,1880-04-04,1880-04-19,1880,1880s,15,3 weeks or less,4530,18,Paulist,40.7151188,-73.9802919,2,374
+NA,"St. Jerome's Church, 137th St. and Alexander Avenue",New York,NY,1880-04-25,1880-05-09,1880,1880s,14,2 weeks or less,2325,5,Paulist,40.7143528,-74.0059731,2,376
+NA,,Chambersburg,PA,1880-09-12,1880-09-18,1880,1880s,6,1 week or less,270,5,Paulist,39.9375911,-77.6611022,2,379
+NA,Corpus Christi Church,Chambersburg,PA,1880-09-19,1880-09-27,1880,1880s,8,2 weeks or less,390,2,Paulist,39.9375911,-77.6611022,2,381
+NA,St. Mary's Church,Hagerstown,MD,1880-10-15,1880-10-15,1880,1880s,0,1 week or less,410,1,Paulist,39.6417629,-77.7199932,2,382
+NA,,Carlisle,PA,1880-10-17,1880-10-25,1880,1880s,8,2 weeks or less,195,2,Paulist,40.2025,-77.195,2,383
+NA,St. Bridget's Church,Rochester,NY,1880-09-12,1880-09-21,1880,1880s,9,2 weeks or less,1325,1,Paulist,43.16103,-77.6109219,2,384
+NA,,Seneca Falls,NY,1880-10-01,1880-10-01,1880,1880s,0,1 week or less,1347,3,Paulist,42.9106219,-76.7966215,2,385
+NA,,Susquehanna,PA,1880-11-14,1880-11-23,1880,1880s,9,2 weeks or less,1500,1,Paulist,41.9436071,-75.5991789,2,386
+NA,,Mamaroneck,NY,1880-12-05,1880-12-12,1880,1880s,7,1 week or less,490,0,Paulist,40.9487097,-73.7326309,2,388
+NA,,Staunton,VA,1880-10-10,1880-10-17,1880,1880s,7,1 week or less,333,0,Paulist,38.149576,-79.0716958,2,389
+NA,,Lexington,VA,1880-10-24,1880-10-28,1880,1880s,4,1 week or less,24,0,Paulist,37.7840208,-79.4428157,2,390
+NA,,Fredricksburg,VA,1880-10-31,1880-11-04,1880,1880s,4,1 week or less,75,2,Paulist,38.3031837,-77.4605399,2,391
+NA,,Petersburg,VA,1880-11-07,1880-11-14,1880,1880s,7,1 week or less,325,0,Paulist,37.2279279,-77.4019267,2,392
+NA,St. Patrick's Church,Richmond,VA,1880-11-21,1880-11-28,1880,1880s,7,1 week or less,528,3,Paulist,37.5407246,-77.4360481,2,393
+NA,Cathedral,Richmond,VA,1880-11-28,1880-12-12,1880,1880s,14,2 weeks or less,1800,4,Paulist,37.5407246,-77.4360481,2,394
+NA,,Bergon Point,NJ,1881-01-16,1881-01-27,1881,1880s,11,2 weeks or less,1975,0,Paulist,40.6476033,-74.1412543,2,395
+NA,St. Peter's Church,Hartford,CT,1881-01-16,1881-01-30,1881,1880s,14,2 weeks or less,4288,0,Paulist,41.7637111,-72.6850932,2,397
+NA,St. Mark's Church,Kenastia,WI,1881-03-06,1881-03-15,1881,1880s,9,2 weeks or less,714,0,Paulist,42.5847425,-87.8211854,2,399
+NA,St. Paul's Church,Kenastia,WI,1881-03-20,1881-03-26,1881,1880s,6,1 week or less,400,0,Paulist,42.5847425,-87.8211854,2,400
+NA,,Marine City,MI,1881-03-06,1881-03-15,1881,1880s,9,2 weeks or less,1055,3,Paulist,42.7194778,-82.492132,2,400
+NA,,Delavan,WI,1881-03-20,1881-03-29,1881,1880s,9,2 weeks or less,536,0,Paulist,42.6330703,-88.6437138,2,402
+NA,St. John's Cathedral,Milwaukee,WI,1881-03-30,1881-04-03,1881,1880s,4,1 week or less,500,0,Paulist,43.0389025,-87.9064736,2,403
+NA,St. Francis Xavier's Church,Baltimore,MD,1881-04-17,1881-05-01,1881,1880s,14,2 weeks or less,1350,25,Paulist,39.2903848,-76.6121893,2,404
+NA,St. Joseph's Church,Circleville,OH,1881-02-06,1881-02-13,1881,1880s,7,1 week or less,430,1,Paulist,39.600618,-82.9460133,2,406
+NA,St. Patrick's Church,Racine,WI,1881-03-21,1881-03-29,1881,1880s,8,2 weeks or less,1017,3,Paulist,42.7261309,-87.7828523,2,407
+NA,Church of the Assumption,Evansville,IN,1881-02-20,1881-02-27,1881,1880s,7,1 week or less,750,0,Paulist,37.9715592,-87.5710898,2,408
+NA,St. James's Church,Salem,MA,1881-05-08,1881-05-23,1881,1880s,15,3 weeks or less,3926,1,Paulist,42.51954,-70.8967155,2,409
+NA,Cathedral,Albany,NY,1881-03-29,1881-04-03,1881,1880s,5,1 week or less,700,0,Paulist,42.6525793,-73.7562317,2,411
+NA,St. Patrick's Church,Brockton,MA,1881-09-18,1881-09-25,1881,1880s,7,1 week or less,900,0,Paulist,42.0834335,-71.0183787,2,412
+NA,St. Joseph's Church,New York,NY,1881-10-01,1881-10-08,1881,1880s,7,1 week or less,5000,0,Paulist,40.7143528,-74.0059731,2,412
+NA,St. Mary's Church (Regina Coeli),Marshall,IL,1881-09-18,1881-09-25,1881,1880s,7,1 week or less,382,1,Paulist,39.3914252,-87.6936384,2,413
+NA,Church of the Immaculate Conception,Paris,IL,1881-09-25,1881-10-02,1881,1880s,7,1 week or less,375,2,Paulist,39.611146,-87.6961374,2,414
+NA,Church of the Immaculate Conception,South Wheeling,WV,1881-09-18,1881-09-25,1881,1880s,7,1 week or less,576,0,Paulist,40.0639616,-80.7209149,2,415
+NA,Wheeling Cathedral,Wheeling,WV,1881-10-02,1881-10-16,1881,1880s,14,2 weeks or less,2500,1,Paulist,40.0639616,-80.7209149,2,417
+NA,St. Pius's Church,Chicago,IL,1881-10-23,1881-11-07,1881,1880s,15,3 weeks or less,1550,1,Paulist,41.8781136,-87.6297982,2,419
+NA,St. Peter's Church,Oshkosh,WI,1881-10-23,1881-10-30,1881,1880s,7,1 week or less,720,1,Paulist,44.0247062,-88.5426136,2,421
+NA,St. Mary's Church,Appleton,WI,1881-10-30,1881-11-06,1881,1880s,7,1 week or less,620,1,Paulist,44.2619309,-88.4153847,2,423
+NA,St. Patrick's Church,Chicago,IL,1881-11-13,1881-11-21,1881,1880s,8,2 weeks or less,4600,12,Paulist,41.8781136,-87.6297982,2,424
+NA,St. Bridget's Church,Stanton,WI,1881-12-04,1881-12-11,1881,1880s,7,1 week or less,234,1,Paulist,45.1730204,-92.4671398,2,426
+NA,Church of the Immaculate Conception,New Richmond,WI,1881-12-18,1881-12-25,1881,1880s,7,1 week or less,404,7,Paulist,45.1230213,-92.5365865,2,428
+NA,Church of St. Charles Borromeo,Charleston,IL,1881-12-02,1881-12-09,1881,1880s,7,1 week or less,204,0,Paulist,39.4961458,-88.1761521,2,430
+NA,Church of the Annunciation,Brazil,IN,1881-12-04,1881-12-11,1881,1880s,7,1 week or less,335,0,Paulist,39.523652,-87.1250154,2,431
+NA,,Carbon,IN,1881-12-11,1881-12-16,1881,1880s,5,1 week or less,84,0,Paulist,39.5996395,-87.1068681,2,432
+NA,,Evansville,IN,1881-12-01,1881-12-01,1881,1880s,0,1 week or less,350,0,Paulist,37.9715592,-87.5710898,2,433
+NA,St. Augustine's Church,Boston,MA,1881-12-01,1881-12-01,1881,1880s,0,1 week or less,900,0,Paulist,42.3584308,-71.0597732,2,434
+NA,St. Patrick's Church,Lowell,MA,1882-01-01,1882-01-07,1882,1880s,6,1 week or less,5800,0,Paulist,42.6334247,-71.3161718,2,434
+NA,St. Peter's Church,Hartford,CT,1882-01-08,1882-01-22,1882,1880s,14,2 weeks or less,4622,2,Paulist,41.7637111,-72.6850932,2,435
+NA,,New Lebanon,NY,1882-01-08,1882-01-15,1882,1880s,7,1 week or less,410,1,Paulist,42.4639722,-73.3964977,2,437
+NA,St. Rose of Lima,New York,NY,1882-02-05,1882-02-19,1882,1880s,14,2 weeks or less,4310,5,Paulist,40.7143528,-74.0059731,2,439
+NA,St. Francis de Sales,Boston,MA,1882-02-26,1882-03-10,1882,1880s,12,2 weeks or less,6370,7,Paulist,42.3584308,-71.0597732,2,442
+NA,St. John's Cathedral,Milwaukee,WI,1882-03-19,1882-04-02,1882,1880s,14,2 weeks or less,3270,3,Paulist,43.0389025,-87.9064736,2,444
+NA,,Kenastia,WI,1882-04-05,1882-04-09,1882,1880s,4,1 week or less,500,0,Paulist,42.5847425,-87.8211854,2,446
+NA,St. Rose's Church,Chelsea,MA,1882-04-16,1882-04-30,1882,1880s,14,2 weeks or less,3250,16,Paulist,42.3917638,-71.0328284,2,447
+NA,St. Mary's Church,Everett,MA,1882-05-07,1882-05-14,1882,1880s,7,1 week or less,497,3,Paulist,42.40843,-71.0536625,2,448
+NA,St. Thomas's Church,West Farms,NY,1882-04-02,1882-04-09,1882,1880s,7,1 week or less,442,2,Paulist,40.8430609,-73.8816001,2,449
+NA,Cathedral,Albany,NY,1882-05-07,1882-05-14,1882,1880s,7,1 week or less,700,0,Paulist,42.6525793,-73.7562317,2,450
+NA,,Waterville,NY,1882-05-15,1882-05-15,1882,1880s,0,1 week or less,1000,0,Paulist,42.931181,-75.3798924,2,450
+NA,,Oriskany Falls,NY,1882-05-15,1882-05-15,1882,1880s,0,1 week or less,300,1,Paulist,42.9392363,-75.4610076,2,450
+NA,,Hamilton,NY,1881-11-01,1881-11-01,1881,1880s,0,1 week or less,550,0,Paulist,42.8270136,-75.5446238,2,451
+NA,,Sherburne,NY,1881-11-01,1881-11-01,1881,1880s,0,1 week or less,250,0,Paulist,42.6781266,-75.4985123,2,451
+NA,,Sing-Sing,NY,1882-05-07,1882-05-14,1882,1880s,7,1 week or less,1350,1,Paulist,42.1719586,-76.8910257,2,451
+NA,St. Joseph's,New York,NY,1881-11-06,1881-11-20,1881,1880s,14,2 weeks or less,5000,3,Paulist,40.7143528,-74.0059731,2,453
+NA,Cathedral,Denver,CO,1881-12-04,1881-12-14,1881,1880s,10,2 weeks or less,2900,4,Paulist,39.737567,-104.9847179,2,454
+NA,,Boulder,CO,1881-12-18,1881-12-22,1881,1880s,4,1 week or less,50,1,Paulist,40.0149856,-105.2705456,2,455
+NA,,St. Vrain Valley,CO,1882-01-08,1882-01-12,1882,1880s,4,1 week or less,35,0,Paulist,40.1551451,-105.1071813,2,456
+NA,Church of the Immaculate Conception,Leadville,CO,1882-01-15,1882-01-29,1882,1880s,14,2 weeks or less,1700,5,Paulist,39.2508229,-106.2925238,2,456
+NA,,Idaho Springs,CO,1882-02-19,1882-02-26,1882,1880s,7,1 week or less,100,3,Paulist,39.7424881,-105.5136081,2,457
+NA,,South Boulder and Fort Collins,CO,1882-03-19,1882-04-02,1882,1880s,14,2 weeks or less,NA,0,Paulist,40.5840625,-104.9759032,2,458
+NA,,Mount Robinson,CO,1882-04-16,1882-04-24,1882,1880s,8,2 weeks or less,120,0,Paulist,38.1138903,-105.3452765,2,458
+NA,,Durango,CO,1882-04-30,1882-05-07,1882,1880s,7,1 week or less,60,0,Paulist,37.27528,-107.8800667,2,459
+NA,,Gunnison,CO,1882-05-08,1882-05-08,1882,1880s,0,1 week or less,NA,0,Paulist,38.5458246,-106.9253207,2,459
+NA,,Franklin,PA,1882-09-17,1882-09-24,1882,1880s,7,1 week or less,432,6,Paulist,41.3978358,-79.8314437,3,5
+NA,"St. Jerome's Church, 137th St. and Alexander Ave.",New York,NY,1882-10-01,1882-10-16,1882,1880s,15,3 weeks or less,2210,1,Paulist,40.7143528,-74.0059731,3,6
+NA,St. Teresa's Church,Brooklyn,NY,1882-10-22,1882-11-05,1882,1880s,14,2 weeks or less,2740,2,Paulist,40.65,-73.95,3,8
+NA,St. John's Church,Bellaire,OH,1882-11-12,1882-11-27,1882,1880s,15,3 weeks or less,830,2,Paulist,40.0161843,-80.7423054,3,10
+NA,St. Patrick's Church,Brockton,MA,1882-11-26,1882-12-10,1882,1880s,14,2 weeks or less,2918,1,Paulist,42.0834335,-71.0183787,3,12
+NA,St. Leo's Church,Irvington,NJ,1882-12-17,1882-12-22,1882,1880s,5,1 week or less,125,0,Paulist,40.7263249,-74.2286435,3,14
+NA,,Milford,MA,1882-12-31,1883-01-10,1882,1880s,10,2 weeks or less,2700,1,Paulist,42.1398577,-71.5163049,3,15
+NA,St. Paul the Apostle,New York,NY,1882-12-31,1883-01-28,1882,1880s,28,more than 3 weeks,6825,21,Paulist,40.7143528,-74.0059731,3,17
+NA,Church of the Sacred Heart,East Cambridge,MA,1883-02-04,1883-02-04,1883,1880s,0,1 week or less,5490,2,Paulist,42.3683353,-71.0824613,3,20
+NA,St. Bridget's Church,New York,NY,1883-03-04,1883-03-25,1883,1880s,21,3 weeks or less,6082,9,Paulist,40.7143528,-74.0059731,3,23
+NA,St. Ann's Church,Baltimore,MD,1883-04-15,1883-04-22,1883,1880s,7,1 week or less,970,1,Paulist,39.2903848,-76.6121893,3,26
+NA,St. Rose of Lima,New York,NY,1883-04-15,1883-04-22,1883,1880s,7,1 week or less,850,0,Paulist,40.7143528,-74.0059731,3,29
+NA,St. Rose of Lima,Chelsea,MA,1883-04-22,1883-04-29,1883,1880s,7,1 week or less,1050,0,Paulist,42.3917638,-71.0328284,3,30
+NA,,Rockland,MA,1883-05-06,1883-05-13,1883,1880s,7,1 week or less,1015,1,Paulist,42.1306563,-70.9161551,3,31
+NA,,Abington,MA,1883-05-13,1883-05-20,1883,1880s,7,1 week or less,952,0,Paulist,42.1048228,-70.9453218,3,33
+NA,,Suffern,NY,1883-05-13,1883-05-21,1883,1880s,8,2 weeks or less,170,2,Paulist,41.1148179,-74.1495889,3,34
+NA,St. Marys Church,Houlton,ME,1883-05-27,1883-06-03,1883,1880s,7,1 week or less,470,2,Paulist,46.1261806,-67.8402316,3,34
+NA,,Fort Fairfield,ME,1883-06-05,1883-06-10,1883,1880s,5,1 week or less,230,0,Paulist,46.7722294,-67.8339004,3,36
+NA,St. Paul's Church,Kensington,CT,1883-05-06,1883-05-13,1883,1880s,7,1 week or less,395,0,Paulist,41.6353769,-72.7687083,3,38
+NA,Our Lady of Mercy,Plainville,CT,1883-05-13,1883-05-20,1883,1880s,7,1 week or less,298,0,Paulist,41.6747222,-72.8569444,3,39
+NA,St. Elizabeth's Church,Fort Washington,NY,1883-09-16,1883-09-23,1883,1880s,7,1 week or less,670,0,Paulist,40.8501001,-73.9459708,3,43
+NA,St. John's Church,Kings Bridge,NY,1883-09-16,1883-09-23,1883,1880s,7,1 week or less,540,0,Paulist,40.8787108,-73.9051362,3,43
+NA,,Plymouth,MA,1883-09-16,1883-09-23,1883,1880s,7,1 week or less,575,0,Paulist,41.9584457,-70.6672621,3,46
+NA,,Kingston,MA,1883-09-16,1883-09-19,1883,1880s,3,1 week or less,190,0,Paulist,41.993305,-70.7284371,3,47
+NA,St. Peter's Church,Poughkeepsie,NY,1883-09-30,1883-10-07,1883,1880s,7,1 week or less,2500,1,Paulist,41.7003713,-73.9209701,3,49
+NA,St. Patrick's Church,Audenried,PA,1883-09-30,1883-10-07,1883,1880s,7,1 week or less,1600,1,Paulist,40.9106414,-75.991593,3,52
+NA,St. Patrick's Church,Beaver Meadows,PA,1883-09-30,1883-10-07,1883,1880s,7,1 week or less,535,0,Paulist,40.9281419,-75.9146444,3,52
+NA,Church of Our Lady of Perpetual Help,Defiance,OH,1883-10-14,1883-10-31,1883,1880s,17,3 weeks or less,625,0,Paulist,41.2844933,-84.3557802,3,56
+NA,St. Patrick's Church,Brooklyn,NY,1883-10-07,1883-10-14,1883,1880s,7,1 week or less,1500,0,Paulist,40.65,-73.95,3,58
+NA,Church of the Sacred Heart,Brooklyn,NY,1883-10-21,1883-10-28,1883,1880s,7,1 week or less,1000,0,Paulist,40.65,-73.95,3,59
+NA,Church of the Holy Angels,Chicago,IL,1883-10-14,1883-10-21,1883,1880s,7,1 week or less,625,0,Paulist,41.8781136,-87.6297982,3,60
+NA,Church of St. Peter and Paul,Sandusky,OH,1883-10-28,1883-11-05,1883,1880s,8,2 weeks or less,1362,1,Paulist,41.4489396,-82.7079605,3,61
+NA,St. Mary's,Harford Co.,MD,1883-10-28,1883-11-04,1883,1880s,7,1 week or less,217,0,Paulist,39.5838964,-76.3637285,3,62
+NA,St. Ignatius' Church,Hickory,MD,1883-11-04,1883-11-13,1883,1880s,9,2 weeks or less,563,3,Paulist,38.3762854,-75.5949108,3,63
+NA,,Port Deposit,MD,1883-11-18,1883-11-25,1883,1880s,7,1 week or less,203,1,Paulist,39.6048327,-76.1152289,3,64
+NA,St. Michael's Church,Jersey City,NJ,1883-11-11,1883-12-02,1883,1880s,21,3 weeks or less,4764,12,Paulist,40.7281575,-74.0776417,3,65
+NA,Church of St. Rose of Lima,New York,NY,1883-12-09,1883-12-23,1883,1880s,14,2 weeks or less,4410,7,Paulist,40.7143528,-74.0059731,3,68
+NA,St. John's Church,Worcester,MA,1884-01-06,1884-01-13,1884,1880s,7,1 week or less,1120,0,Paulist,42.2625932,-71.8022934,3,72
+NA,St. Mary's Church,Joliet,IL,1884-01-20,1884-02-03,1884,1880s,14,2 weeks or less,2480,2,Paulist,41.525031,-88.0817251,3,74
+NA,St. James's Church,Chicago,IL,1884-02-10,1884-02-24,1884,1880s,14,2 weeks or less,3279,0,Paulist,41.8781136,-87.6297982,3,76
+NA,St. Mary's Church,New Britain,CT,1884-03-02,1884-03-16,1884,1880s,14,2 weeks or less,4642,9,Paulist,41.6612104,-72.7795419,3,78
+NA,St. Joseph's Church,Brooklyn,NY,1884-03-23,1884-04-06,1884,1880s,14,2 weeks or less,4707,5,Paulist,40.65,-73.95,3,81
+NA,Cathedral,Richmond,VA,1883-12-09,1883-12-16,1883,1880s,7,1 week or less,1700,6,Paulist,37.5407246,-77.4360481,3,84
+NA,St. Patrick's Church,Richmond,VA,1883-12-09,1883-12-16,1883,1880s,7,1 week or less,720,0,Paulist,37.5407246,-77.4360481,3,85
+NA,,Norfolk,VA,1883-12-30,1884-01-06,1883,1880s,7,1 week or less,850,4,Paulist,36.8507689,-76.2858726,3,87
+NA,,Portsmouth,VA,1884-01-06,1884-01-13,1884,1880s,7,1 week or less,800,0,Paulist,36.8354258,-76.2982742,3,88
+NA,,Old Point Comfort,VA,1884-01-15,1884-01-17,1884,1880s,2,1 week or less,170,0,Paulist,37.0004248,-76.3113315,3,89
+NA,,Petersburg,VA,1884-01-20,1884-01-27,1884,1880s,7,1 week or less,320,1,Paulist,37.2279279,-77.4019267,3,90
+NA,,Lynchburg,VA,1884-01-27,1884-02-03,1884,1880s,7,1 week or less,625,2,Paulist,37.4137536,-79.1422464,3,91
+NA,,Staunton,VA,1884-02-10,1884-02-17,1884,1880s,7,1 week or less,370,1,Paulist,38.149576,-79.0716958,3,92
+NA,,Harrisonburg,VA,1884-02-10,1884-02-17,1884,1880s,7,1 week or less,72,0,Paulist,38.4495688,-78.8689155,3,92
+NA,,Martinsburg,WV,1884-02-17,1884-02-24,1884,1880s,7,1 week or less,670,5,Paulist,39.4562099,-77.9638869,3,93
+NA,,Winchester,VA,1884-03-02,1884-03-09,1884,1880s,7,1 week or less,153,4,Paulist,39.1856597,-78.1633341,3,93
+NA,,Keyset,WV,1884-03-11,1884-03-16,1884,1880s,5,1 week or less,190,0,Paulist,39.4409277,-78.9739156,3,94
+NA,,Harper's Ferry,WV,1884-03-19,1884-03-23,1884,1880s,4,1 week or less,250,2,Paulist,39.3253786,-77.7388818,3,94
+NA,,Havre de Grace,MD,1884-03-30,1884-04-06,1884,1880s,7,1 week or less,380,1,Paulist,39.5492792,-76.091617,3,95
+NA,St. Martin's Church,Baltimore,MD,1884-04-20,1884-05-04,1884,1880s,14,2 weeks or less,2000,2,Paulist,39.2903848,-76.6121893,3,96
+NA,St. Paul's Church,New York,NY,1884-04-27,1884-05-04,1884,1880s,7,1 week or less,1000,0,Paulist,40.7143528,-74.0059731,3,97
+NA,St. Patrick's Church,Lowell,MA,1884-05-05,1884-05-05,1884,1880s,0,1 week or less,6508,0,Paulist,42.6334247,-71.3161718,3,98
+NA,St. Peter's Church,Poughkeepsie,NY,1884-09-14,1884-09-21,1884,1880s,7,1 week or less,2100,0,Paulist,41.7003713,-73.9209701,3,103
+NA,St. Jerome's Church,New York,NY,1884-09-28,1884-10-05,1884,1880s,7,1 week or less,2475,4,Paulist,40.7143528,-74.0059731,3,104
+NA,St. Columba's Church,Ottowa,IL,1884-10-14,1884-10-21,1884,1880s,7,1 week or less,1675,0,Paulist,41.3455892,-88.8425769,3,107
+NA,,Seneca,IL,1884-10-21,1884-10-21,1884,1880s,0,1 week or less,550,0,Paulist,41.3111442,-88.6097936,3,108
+NA,,Marseilles,IL,1884-10-21,1884-10-21,1884,1880s,0,1 week or less,150,0,Paulist,41.3308666,-88.7081293,3,111
+NA,St. James's Church,New York,NY,1884-11-09,1884-12-11,1884,1880s,32,more than 3 weeks,11020,12,Paulist,40.7143528,-74.0059731,3,113
+NA,St. John's Church,Utica,NY,1884-12-14,1884-12-21,1884,1880s,7,1 week or less,800,0,Paulist,43.100903,-75.232664,3,119
+NA,Church of the Immaculate Conception,New York,NY,1885-01-11,1885-01-19,1885,1880s,8,2 weeks or less,5000,0,Paulist,40.7143528,-74.0059731,3,121
+NA,Manhattan College,New York,NY,1885-01-27,1885-01-29,1885,1880s,2,1 week or less,260,0,Paulist,40.7143528,-74.0059731,3,122
+NA,Church of St. Paul the Apostle,New York,NY,1885-02-01,1885-02-15,1885,1880s,14,2 weeks or less,6950,10,Paulist,40.7143528,-74.0059731,3,123
+NA,St. James's Church,Salem,MA,1885-02-22,1885-03-08,1885,1880s,14,2 weeks or less,4113,0,Paulist,42.51954,-70.8967155,3,129
+NA,St. Thomas's Church,Mamaroneck,NY,1885-03-08,1885-03-15,1885,1880s,7,1 week or less,630,6,Paulist,40.9487097,-73.7326309,3,131
+NA,,Waukesha,WI,1885-03-07,1885-03-15,1885,1880s,8,2 weeks or less,623,0,Paulist,43.0116784,-88.2314813,3,132
+NA,St. Joseph's Church,Terre Haute,IN,1885-03-22,1885-03-29,1885,1880s,7,1 week or less,1100,7,Paulist,39.4667034,-87.4139092,3,134
+NA,St. Augustine's Church,Morrissania,NY,1885-04-12,1885-04-19,1885,1880s,7,1 week or less,997,5,Paulist,40.8250663,-73.9109977,3,136
+NA,St. Thomas's Church,West Farms,NY,1885-04-12,1885-04-19,1885,1880s,7,1 week or less,336,0,Paulist,40.8430609,-73.8816001,3,137
+NA,St. Elizabeth's Church,Chicago,IL,1885-04-12,1885-04-21,1885,1880s,9,2 weeks or less,1676,1,Paulist,41.8781136,-87.6297982,3,139
+NA,St. Patrick's Church,Newburgh,NY,1885-04-26,1885-05-10,1885,1880s,14,2 weeks or less,2485,1,Paulist,41.5034271,-74.0104178,3,141
+NA,All Saints' Church,Chicago,IL,1885-04-26,1885-05-10,1885,1880s,14,2 weeks or less,2544,0,Paulist,41.8781136,-87.6297982,3,144
+NA,St. Patrick's Church,Brooklyn,NY,1885-05-17,1885-05-31,1885,1880s,14,2 weeks or less,5560,0,Paulist,40.65,-73.95,3,146
+NA,St. Bridget's Church,Abington,MA,1885-06-03,1885-06-08,1885,1880s,5,1 week or less,230,0,Paulist,42.1048228,-70.9453218,3,149
+NA,,Perth Amboy,NJ,1885-09-13,1885-09-20,1885,1880s,7,1 week or less,1042,0,Paulist,40.5067723,-74.2654234,3,152
+NA,Church of the Immaculate Conception,Yonkers,NY,1885-09-13,1885-09-27,1885,1880s,14,2 weeks or less,3772,0,Paulist,40.9312099,-73.8987469,3,153
+NA,,Currie,MN,1885-09-27,1885-10-04,1885,1880s,7,1 week or less,232,0,Paulist,44.071351,-95.6663993,3,156
+NA,,Tracy,MN,1885-10-04,1885-10-09,1885,1880s,5,1 week or less,67,0,Paulist,44.2319444,-95.6227778,3,157
+NA,,Willow Lake,MN,1885-10-04,1885-10-07,1885,1880s,3,1 week or less,69,0,Paulist,44.3394439,-95.1640605,3,158
+NA,"St. Peter's Church, Capitol Hill",Washington,DC,1885-10-04,1885-10-14,1885,1880s,10,2 weeks or less,2235,4,Paulist,38.9072309,-77.0364641,3,159
+NA,,Fulda,MN,1885-10-11,1885-10-18,1885,1880s,7,1 week or less,300,0,Paulist,43.8705185,-95.6002856,3,163
+NA,,Woodstock,MN,1885-10-16,1885-10-21,1885,1880s,5,1 week or less,109,0,Paulist,44.0091343,-96.1005806,3,164
+NA,,Pipestone,MN,1885-10-24,1885-10-24,1885,1880s,0,1 week or less,50,0,Paulist,43.9985815,-96.3128117,3,166
+NA,Cathedral,Baltimore,MD,1885-10-18,1885-11-01,1885,1880s,14,2 weeks or less,2505,0,Paulist,39.2903848,-76.6121893,3,169
+NA,Church of the Holy Family,Auburn,NY,1885-11-08,1885-11-22,1885,1880s,14,2 weeks or less,3900,2,Paulist,42.9317335,-76.5660529,3,174
+NA,St. Patrick's Church,Pittsburgh,PA,1885-11-08,1885-11-22,1885,1880s,14,2 weeks or less,3048,0,Paulist,40.4406248,-79.9958864,3,177
+NA,St. Thomas Aquinas's Church,Jamaica Plain,MA,1885-11-29,1885-12-13,1885,1880s,14,2 weeks or less,2770,0,Paulist,42.3097365,-71.1151431,3,179
+NA,,Terre Haute,IN,1885-11-28,1885-12-02,1885,1880s,4,1 week or less,1000,7,Paulist,39.4667034,-87.4139092,3,181
+NA,St. Lucy's Church,Syracuse,NY,1885-12-13,1885-12-21,1885,1880s,8,2 weeks or less,2527,0,Paulist,43.0481221,-76.1474244,3,182
+NA,St. James's Church,New York,NY,1886-01-03,1886-01-17,1886,1880s,14,2 weeks or less,8700,11,Paulist,40.7143528,-74.0059731,3,183
+NA,,Union Springs,NY,1886-01-10,1886-01-17,1886,1880s,7,1 week or less,300,1,Paulist,42.8397906,-76.6932818,3,184
+NA,Church of the Immaculate Conception,New York,NY,1886-01-24,1886-02-21,1886,1880s,28,more than 3 weeks,11052,20,Paulist,40.7143528,-74.0059731,3,185
+NA,Church of the Immaculate Conception,Washington,DC,1886-02-28,1886-03-09,1886,1880s,9,2 weeks or less,1774,6,Paulist,38.9072309,-77.0364641,3,189
+21,St. Charles College,Ellicot City,MD,1886-02-23,1886-02-28,1886,1880s,5,1 week or less,50,0,Paulist,39.2673283,-76.7983067,3,190
+22,,Phelps,NY,1886-03-07,1886-03-15,1886,1880s,8,2 weeks or less,250,0,Paulist,42.957564,-77.057471,3,191
+23,St. Joseph's Church,New York,NY,1886-03-14,1886-03-28,1886,1880s,14,2 weeks or less,5900,4,Paulist,40.7143528,-74.0059731,3,192
+24,,Mobile,AL,1886-02-28,1886-03-08,1886,1880s,8,2 weeks or less,900,4,Paulist,30.6943566,-88.0430541,3,195
+25,Church of St. John the Baptist,New Orleans,LA,1886-03-01,1886-03-01,1886,1880s,0,1 week or less,4300,0,Paulist,29.9510658,-90.0715323,3,198
+26,St. Bernard's Church,New York,NY,1886-04-04,1886-04-18,1886,1880s,14,2 weeks or less,5535,0,Paulist,40.7143528,-74.0059731,3,200
+NA,Church of the Annunciation,Manhattanville,NY,1886-04-04,1886-04-11,1886,1880s,7,1 week or less,1500,0,Paulist,40.8169443,-73.9558333,3,201
+NA,St. Teresa's Church,New York,NY,1886-04-11,1886-04-18,1886,1880s,7,1 week or less,2700,0,Paulist,40.7143528,-74.0059731,3,201
+27,St. Mary's Church,Canandaigua,NY,1886-05-09,1886-05-17,1886,1880s,8,2 weeks or less,1760,4,Paulist,42.887535,-77.2816984,3,201
+28,St. John's Cathedral,Milwaukee,WI,1886-05-02,1886-05-16,1886,1880s,14,2 weeks or less,2946,0,Paulist,43.0389025,-87.9064736,3,204
+29,St. Mary's Star of the Sea,Long Branch,NY,1886-05-23,1886-05-30,1886,1880s,7,1 week or less,515,0,Paulist,40.3042778,-73.9923596,3,207
+30,,Kenoska,WI,1886-05-23,1886-05-30,1886,1880s,7,1 week or less,750,0,Paulist,42.5847425,-87.8211854,3,208
+31,,Goshen,NY,1886-05-30,1886-06-06,1886,1880s,7,1 week or less,680,0,Paulist,41.4020382,-74.3243191,3,211
+NA,,Morristown,NJ,1886-05-01,1886-05-01,1886,1880s,0,1 week or less,800,0,Paulist,40.7967667,-74.4815438,3,211
+NA,,West Point,NY,1886-09-12,1886-09-19,1886,1880s,7,1 week or less,375,0,Paulist,41.3914827,-73.9559721,3,214
+NA,,Highland Falls,NY,1886-09-19,1886-09-26,1886,1880s,7,1 week or less,475,0,Paulist,41.3692605,-73.9662504,3,214
+NA,Church of the Immaculate Conception,Minneapolis,MN,1886-09-19,1886-09-27,1886,1880s,8,2 weeks or less,2265,2,Paulist,44.983334,-93.26667,3,217
+NA,St. Michael's Church,West St. Paul,MN,1886-09-26,1886-10-04,1886,1880s,8,2 weeks or less,721,0,Paulist,44.9160768,-93.1016074,3,218
+NA,St. Thomas Aquinas's Church,Jamaica Plain,MA,1886-10-03,1886-10-17,1886,1880s,14,2 weeks or less,2700,2,Paulist,42.3097365,-71.1151431,3,219
+NA,St. Paul's Cathedral,St. Paul,MN,1886-10-03,1886-10-17,1886,1880s,14,2 weeks or less,3203,2,Paulist,44.9537029,-93.0899578,3,220
+NA,St. Thomas's Church,Winona,MN,1886-10-24,1886-10-31,1886,1880s,7,1 week or less,1140,4,Paulist,44.0478889,-91.6404389,3,222
+NA,St. Ann's Church,Baltimore,MD,1886-10-24,1886-10-31,1886,1880s,7,1 week or less,920,2,Paulist,39.2903848,-76.6121893,3,223
+NA,Church of the Sacred Heart,Waseca,MN,1886-10-24,1886-10-31,1886,1880s,7,1 week or less,675,0,Paulist,44.0770411,-93.5083843,3,224
+NA,Church of the Sacred Heart,Owatonna,MN,1886-10-31,1886-11-07,1886,1880s,7,1 week or less,460,0,Paulist,44.0855572,-93.2259349,3,225
+NA,St. Mary's Church,St. Paul,MN,1886-11-07,1886-11-16,1886,1880s,9,2 weeks or less,1651,3,Paulist,44.9537029,-93.0899578,3,226
+NA,St. Paul's Church,Birmingham,AL,1886-11-07,1886-11-17,1886,1880s,10,2 weeks or less,500,5,Paulist,33.5206608,-86.80249,3,228
+NA,St. Patrick's Church,Shieldsville,MN,1886-11-21,1886-11-28,1886,1880s,7,1 week or less,636,0,Paulist,44.3660744,-93.4088334,3,229
+NA,St. Augustine's Church,Austin,MN,1886-11-21,1886-11-28,1886,1880s,7,1 week or less,700,0,Paulist,43.6666296,-92.9746367,3,231
+NA,,"Oyster Bay, Long Island",NY,1886-10-24,1886-10-28,1886,1880s,4,1 week or less,294,0,Paulist,40.8656543,-73.5320685,3,232
+NA,,"Huntington, Long Island",NY,1886-11-07,1886-11-14,1886,1880s,7,1 week or less,416,1,Paulist,40.8681539,-73.425676,3,232
+NA,,Aurora,NY,1886-11-21,1886-11-28,1886,1880s,7,1 week or less,324,0,Paulist,42.7539591,-76.7024485,3,233
+NA,St. Bernard's Church,New York,NY,1886-12-05,1886-12-12,1886,1880s,7,1 week or less,2700,0,Paulist,40.7143528,-74.0059731,3,233
+NA,St. Peter's Church,Montgomery,AL,1886-11-21,1886-11-30,1886,1880s,9,2 weeks or less,495,2,Paulist,32.3668052,-86.2999689,3,234
+NA,Church of the Immaculate Conception,Faribault,MN,1886-11-28,1886-12-05,1886,1880s,7,1 week or less,917,0,Paulist,44.2949636,-93.268827,3,236
+NA,St. Anthony of Padua's Church,East Minneapolis,MN,1886-12-05,1886-12-13,1886,1880s,8,2 weeks or less,1818,6,Paulist,44.983334,-93.26667,3,237
+NA,St. Michael's Church,Pensacola,FL,1886-12-05,1886-12-17,1886,1880s,12,2 weeks or less,875,20,Paulist,30.421309,-87.2169149,3,238
+NA,St. Joseph's Church,St. Paul,MN,1886-12-19,1886-12-26,1886,1880s,7,1 week or less,1354,0,Paulist,44.9537029,-93.0899578,3,240
+NA,,Farmington,MN,1886-12-19,1886-12-22,1886,1880s,3,1 week or less,145,1,Paulist,44.6402434,-93.1435497,3,242
+NA,,Boston,MA,1887-01-09,1887-01-19,1887,1880s,10,2 weeks or less,1120,0,Paulist,42.3584308,-71.0597732,3,245
+NA,St. Patrick's Church,Pittsburgh,PA,1887-01-09,1887-01-23,1887,1880s,14,2 weeks or less,2822,16,Paulist,40.4406248,-79.9958864,3,246
+NA,St. Mary's Church,Honeoye,NY,1887-01-30,1887-02-13,1887,1880s,14,2 weeks or less,253,2,Paulist,42.7900604,-77.5166873,3,248
+NA,St. William's Church,Conesus,NY,1887-01-30,1887-02-13,1887,1880s,14,2 weeks or less,120,3,Paulist,42.7189532,-77.6763859,3,248
+NA,St. Michael's Church,Livonia,NY,1887-01-30,1887-02-13,1887,1880s,14,2 weeks or less,430,1,Paulist,42.8214525,-77.6686097,3,248
+NA,,Honeoye Falls,NY,1887-01-30,1887-02-13,1887,1880s,14,2 weeks or less,355,1,Paulist,42.9522855,-77.5902759,3,249
+NA,,East Rush,NY,1887-01-30,1887-02-13,1887,1880s,14,2 weeks or less,335,0,Paulist,42.9958962,-77.6455564,3,249
+NA,St. Teresa's Church,New York,NY,1887-02-13,1887-03-13,1887,1880s,28,more than 3 weeks,6915,25,Paulist,40.7143528,-74.0059731,3,250
+NA,Church of St. John the Evangelist,New York,NY,1887-03-12,1887-04-03,1887,1880s,22,more than 3 weeks,NA,0,Paulist,40.7143528,-74.0059731,3,252
+NA,Church of the Annunciation,New York,NY,1887-03-20,1887-04-03,1887,1880s,14,2 weeks or less,2420,4,Paulist,40.7143528,-74.0059731,3,253
+NA,,Seneca Falls,NY,1887-03-29,1887-04-03,1887,1880s,5,1 week or less,1870,2,Paulist,42.9106219,-76.7966215,3,254
+NA,Church of the Sacred Heart,West Fitchburg,MA,1887-04-17,1887-04-24,1887,1880s,7,1 week or less,761,0,Paulist,42.5834228,-71.8022955,3,256
+NA,St. Patrick's Church,Weston,WV,1887-04-17,1887-04-24,1887,1880s,7,1 week or less,253,0,Paulist,39.0384274,-80.467313,3,257
+NA,St. Boniface Church,Leading Creek,WV,1887-04-25,1887-04-25,1887,1880s,0,1 week or less,164,0,Paulist,39.0013239,-80.8056079,3,258
+NA,St. Matthew's Church,Shullsburg,WI,1887-05-01,1887-05-08,1887,1880s,7,1 week or less,830,1,Paulist,42.5733354,-90.23096,3,259
+NA,St. Augustine's Church,Brooklyn,NY,1887-04-17,1887-05-08,1887,1880s,21,3 weeks or less,3655,0,Paulist,40.65,-73.95,3,260
+NA,,Wyandotte,MI,1887-05-08,1887-05-15,1887,1880s,7,1 week or less,43,1,Paulist,42.2142064,-83.1499239,3,262
+NA,St. John's Church,"Dayton's Bluff, St. Paul",MN,1887-05-15,1887-05-22,1887,1880s,7,1 week or less,709,0,Paulist,44.9543909,-93.0626284,3,263
+NA,,Luverne,MN,1887-05-22,1887-05-29,1887,1880s,7,1 week or less,180,0,Paulist,43.6555249,-96.2025289,3,264
+NA,,Ellsworth,MN,1887-05-29,1887-05-29,1887,1880s,0,1 week or less,100,0,Paulist,43.518023,-96.018356,3,265
+NA,Church of St. Mary of the Assumption,"Port Richmond, Staten Island",NY,1887-05-22,1887-05-29,1887,1880s,7,1 week or less,NA,0,Paulist,40.6354914,-74.1254641,3,266
+NA,,Seabright,NJ,1887-05-29,1887-06-06,1887,1880s,8,2 weeks or less,180,0,Paulist,39.8244272,-74.1965386,3,266
+NA,St. Michael's Church,Stillwater,MN,1887-06-05,1887-06-18,1887,1880s,13,2 weeks or less,1100,3,Paulist,45.056004,-92.8088443,3,268
+NA,Church of the Sacred Heart,Bridgeport,CT,1887-09-11,1887-09-20,1887,1880s,9,2 weeks or less,1600,1,Paulist,41.1865478,-73.1951767,3,272
+NA,St. Augustine's Church,Union Hill,NJ,1887-09-01,1887-09-01,1887,1880s,0,1 week or less,652,0,Paulist,40.8559326,-74.520156600000007,3,273
+NA,Church of Our Lady of the Sacred Heart,Chelsea,MI,1887-09-18,1887-09-25,1887,1880s,7,1 week or less,550,1,Paulist,42.3180919,-84.0205029,3,274
+NA,St. Mary's Church,Pinckney,MI,1887-09-20,1887-10-02,1887,1880s,12,2 weeks or less,445,1,Paulist,42.4567013,-83.9463358,3,275
+NA,,Bethel,CT,1887-09-25,1887-10-02,1887,1880s,7,1 week or less,430,1,Paulist,41.3712283,-73.4139621,3,277
+NA,St. Rose's Church,Lima,NY,1887-10-02,1887-10-09,1887,1880s,7,1 week or less,812,0,Paulist,42.9047857,-77.6113869,3,278
+NA,St. Joseph's Church,West Bloomfield,NY,1887-10-08,1887-10-12,1887,1880s,4,1 week or less,228,0,Paulist,42.9058971,-77.5391622,3,279
+NA,,Lenox,MA,1887-10-09,1887-10-23,1887,1880s,14,2 weeks or less,765,2,Paulist,42.3564609,-73.2848762,3,280
+NA,,Lee,MA,1887-10-09,1887-10-23,1887,1880s,14,2 weeks or less,1070,1,Paulist,42.3042151,-73.2481951,3,280
+NA,,South Lee,MA,1887-10-09,1887-10-23,1887,1880s,14,2 weeks or less,100,0,Paulist,42.2778653,-73.2773294,3,280
+NA,,Ithaca,NY,1887-10-09,1887-10-23,1887,1880s,14,2 weeks or less,1482,3,Paulist,42.4439614,-76.5018807,3,282
+NA,,Cayuga,NY,1887-10-24,1887-10-28,1887,1880s,4,1 week or less,300,0,Paulist,42.9189555,-76.7263397,3,284
+NA,,Avon,NY,1887-10-30,1887-11-06,1887,1880s,7,1 week or less,825,3,Paulist,42.9120072,-77.7455583,3,285
+NA,St. Mary's Church,Westfield,MA,1887-10-30,1887-11-06,1887,1880s,7,1 week or less,1314,1,Paulist,42.1250929,-72.749538,3,286
+NA,,Penn Yan,NY,1887-11-13,1887-11-20,1887,1880s,7,1 week or less,1025,4,Paulist,42.6609026,-77.0538577,3,287
+NA,Church of the Transfiguration,New York,NY,1887-11-13,1887-11-20,1887,1880s,7,1 week or less,2540,0,Paulist,40.7143528,-74.0059731,3,288
+NA,,Greenport,NY,1887-10-23,1887-10-30,1887,1880s,7,1 week or less,300,1,Paulist,41.1034326,-72.3592501,3,290
+NA,,Glen Cove,NY,1887-11-06,1887-11-13,1887,1880s,7,1 week or less,830,0,Paulist,40.8623217,-73.6337389,3,290
+NA,,Sag Harbor,NY,1887-11-27,1887-12-04,1887,1880s,7,1 week or less,600,0,Paulist,40.9978773,-72.2925819,3,291
+NA,St. Stephen's Church,Pittsburgh,PA,1887-11-27,1887-12-11,1887,1880s,14,2 weeks or less,1325,3,Paulist,40.4406248,-79.9958864,3,292
+NA,St. Andrew's Church,New York,NY,1887-12-04,1887-12-20,1887,1880s,16,3 weeks or less,3022,5,Paulist,40.7143528,-74.0059731,3,293
+NA,,Far Rockaway,NY,1888-01-15,1888-01-22,1888,1880s,7,1 week or less,511,0,Paulist,40.5998931,-73.7448437,3,294
+NA,St. Mary's Church,Norfolk,VA,1888-01-08,1888-01-19,1888,1880s,11,2 weeks or less,810,0,Paulist,36.8507689,-76.2858726,3,295
+NA,St. Patrick's Church,Lockport,NY,1888-01-22,1888-01-29,1888,1880s,7,1 week or less,1435,0,Paulist,43.1706128,-78.6903098,3,296
+NA,Church of St. Paul the Apostle,New York,NY,1888-01-29,1888-02-12,1888,1880s,14,2 weeks or less,8396,4,Paulist,40.7143528,-74.0059731,3,297
+NA,,Macedon,NY,1888-02-05,1888-02-13,1888,1880s,8,2 weeks or less,440,1,Paulist,43.0692299,-77.2988746,3,297
+NA,St. Paul's Church,Harlem,NY,1888-02-19,1888-03-04,1888,1880s,14,2 weeks or less,3435,12,Paulist,40.8115504,-73.9464769,3,298
+NA,Church of the Sacred Heart,Worcester,MA,1888-02-19,1888-03-04,1888,1880s,14,2 weeks or less,2678,1,Paulist,42.2625932,-71.8022934,3,299
+NA,,Lyons,NY,1888-03-11,1888-03-19,1888,1880s,8,2 weeks or less,465,0,Paulist,43.0642305,-76.9902456,3,301
+NA,,Newark,NY,1888-03-11,1888-03-19,1888,1880s,8,2 weeks or less,350,0,Paulist,43.0467301,-77.0952516,3,301
+NA,Church of St. John the Evangelist,New York,NY,1888-03-11,1888-03-25,1888,1880s,14,2 weeks or less,5300,0,Paulist,40.7143528,-74.0059731,3,303
+NA,,Morrisania,NY,1888-04-08,1888-04-15,1888,1880s,7,1 week or less,1075,5,Paulist,40.8250663,-73.9109977,3,304
+NA,,West Farms,NY,1888-04-08,1888-04-15,1888,1880s,7,1 week or less,318,0,Paulist,40.8430609,-73.8816001,3,304
+NA,St. Bernard's Church,Fitchburg,MA,1888-04-08,1888-04-22,1888,1880s,14,2 weeks or less,1291,0,Paulist,42.5834228,-71.8022955,3,305
+NA,St. Leo's Church,Leominster,MA,1888-04-08,1888-04-15,1888,1880s,7,1 week or less,960,0,Paulist,42.5250906,-71.759794,3,306
+NA,,Newburyport,MA,1888-04-22,1888-05-07,1888,1880s,15,3 weeks or less,2377,0,Paulist,42.8125913,-70.8772751,3,307
+NA,St. Elizabeth's Church,Chicago,IL,1888-04-22,1888-05-06,1888,1880s,14,2 weeks or less,1985,1,Paulist,41.8781136,-87.6297982,3,309
+NA,,Morristown,NJ,1888-05-13,1888-05-28,1888,1880s,15,3 weeks or less,1727,0,Paulist,40.7967667,-74.4815438,3,310
+NA,,West Stockbridge,MA,1888-05-14,1888-05-20,1888,1880s,6,1 week or less,686,1,Paulist,42.3338097,-73.3677582,3,312
+NA,,Stockbridge,MA,1888-05-20,1888-05-27,1888,1880s,7,1 week or less,452,0,Paulist,42.2875874,-73.3203862,3,313
+NA,,Galesburg,IL,1888-05-14,1888-05-20,1888,1880s,6,1 week or less,1020,0,Paulist,40.9478158,-90.3712395,3,314
+NA,,Wyandotte,MI,1888-05-22,1888-05-28,1888,1880s,6,1 week or less,600,0,Paulist,42.2142064,-83.1499239,3,315
+NA,,Suffern,NJ,1888-06-03,1888-06-10,1888,1880s,7,1 week or less,180,3,Paulist,41.1148179,-74.1495889,3,316
+NA,,Tuxedo Park,NJ,1888-06-10,1888-06-16,1888,1880s,6,1 week or less,97,0,Paulist,41.2013889,-74.2016667,3,316
+NA,St. Bridget's Church,Rochester,NY,1888-09-09,1888-09-17,1888,1880s,8,2 weeks or less,1550,0,Paulist,43.16103,-77.6109219,3,318
+NA,Church of the Holy Apostles,Rochester,NY,1888-09-16,1888-09-23,1888,1880s,7,1 week or less,1020,13,Paulist,43.16103,-77.6109219,3,320
+NA,St. Michael's Church,Frostburg,MD,1888-09-16,1888-09-23,1888,1880s,7,1 week or less,1232,1,Paulist,39.6581424,-78.928357,3,321
+NA,,Westport,CT,1888-09-16,1888-09-24,1888,1880s,8,2 weeks or less,500,0,Paulist,41.1414717,-73.3579049,3,323
+NA,St. Patrick's Church,Mt. Savage,MD,1888-09-23,1888-09-30,1888,1880s,7,1 week or less,478,1,Paulist,39.6956417,-78.8797442,3,325
+NA,St. Thomas's Church,Mooresville,MD,1888-10-04,1888-10-10,1888,1880s,6,1 week or less,36,0,Paulist,39.6920767,-78.0316969,3,327
+NA,St. Peter's Church,Hancock,MD,1888-09-30,1888-10-06,1888,1880s,6,1 week or less,204,0,Paulist,39.6989809,-78.1797293,3,328
+NA,,Little Orleans,MD,1888-10-07,1888-10-10,1888,1880s,3,1 week or less,96,0,Paulist,39.625925,-78.3864002,3,330
+NA,Church of the Immaculate Conception,Brooklyn,NY,1888-09-30,1888-10-14,1888,1880s,14,2 weeks or less,2470,8,Paulist,40.65,-73.95,3,332
+NA,St. Mary's Church,Davenport,IA,1888-10-07,1888-10-14,1888,1880s,7,1 week or less,715,5,Paulist,41.5236437,-90.5776367,3,335
+NA,St. Joseph's Church,Rock Island,IL,1888-10-14,1888-10-21,1888,1880s,7,1 week or less,860,3,Paulist,41.5094771,-90.5787476,3,336
+NA,St. Anthony's Church,Davenport,IA,1888-10-21,1888-10-29,1888,1880s,8,2 weeks or less,980,2,Paulist,41.5236437,-90.5776367,3,338
+NA,St. Ignatius's Church,Hickory,IN,1888-10-21,1888-10-28,1888,1880s,7,1 week or less,420,3,Paulist,41.4281251,-87.1719823,3,339
+NA,,Bergen Point,NJ,1888-10-21,1888-11-04,1888,1880s,14,2 weeks or less,3890,10,Paulist,40.6476033,-74.1412543,3,340
+NA,St. Matthias's Church,Muscatine,IA,1888-11-04,1888-11-12,1888,1880s,8,2 weeks or less,720,0,Paulist,41.424473,-91.0432051,3,343
+NA,St. Joseph's Church,Weedsport,NY,1888-11-11,1888-11-18,1888,1880s,7,1 week or less,416,1,Paulist,43.048677,-76.5627197,3,344
+NA,St. John's Church,Port Byron,NY,1888-11-18,1888-11-21,1888,1880s,3,1 week or less,128,3,Paulist,43.0345099,-76.6238343,3,345
+NA,St. Michael's Church,Montezuma,NY,1888-11-22,1888-11-25,1888,1880s,3,1 week or less,165,2,Paulist,43.010065,-76.7032833,3,346
+NA,Church of Our Lady of Perpetual Help,Defiance,OH,1888-11-18,1888-11-26,1888,1880s,8,2 weeks or less,640,0,Paulist,41.2844933,-84.3557802,3,347
+NA,Church of Ss. Peter and Paul,Brooklyn,NY,1888-11-11,1888-11-25,1888,1880s,14,2 weeks or less,4070,8,Paulist,40.65,-73.95,3,348
+NA,,Rye,NY,1888-12-02,1888-12-09,1888,1880s,7,1 week or less,394,0,Paulist,40.9806535,-73.6837399,3,350
+NA,Church of the Holy Innocents,New York,NY,1888-12-09,1888-12-23,1888,1880s,14,2 weeks or less,4712,5,Paulist,40.7143528,-74.0059731,3,352
+NA,,Far Rockaway,NY,1888-12-30,1889-01-01,1888,1880s,2,1 week or less,485,0,Paulist,40.5998931,-73.7448437,3,354
+NA,St. Agne's Church,New York,NY,1889-01-06,1889-01-20,1889,1880s,14,2 weeks or less,5804,6,Paulist,40.7143528,-74.0059731,3,356
+NA,Church of the Holy Name,Newburgh,OH,1889-01-06,1889-01-20,1889,1880s,14,2 weeks or less,2685,1,Paulist,40.0092839,-82.9409387,3,359
+NA,Church of the Holy Cross,Marine City,MI,1889-01-27,1889-02-03,1889,1880s,7,1 week or less,1250,3,Paulist,42.7194778,-82.492132,3,360
+NA,Sing Sing Prison,Ossining,NY,1889-01-27,1889-02-03,1889,1880s,7,1 week or less,580,0,Paulist,41.1628731,-73.8615246,3,362
+NA,St. Joseph's Church,Jersey City Heights,NJ,1889-01-21,1889-02-10,1889,1880s,20,3 weeks or less,3273,4,Paulist,40.7473758,-74.0505752,3,364
+NA,Church of the Epiphany,New York,NY,1889-02-17,1889-03-03,1889,1880s,14,2 weeks or less,4957,0,Paulist,40.7143528,-74.0059731,3,368
+NA,St. Teresa's Church,New York,NY,1889-03-10,1889-04-07,1889,1880s,28,more than 3 weeks,7131,0,Paulist,40.7143528,-74.0059731,3,370
+NA,,Gloucester,MA,1889-03-24,1889-04-07,1889,1880s,14,2 weeks or less,2900,4,Paulist,42.6159285,-70.6619888,3,373
+NA,St. Matthew's Church,Washington,DC,1889-04-07,1889-04-14,1889,1880s,7,1 week or less,1000,0,Paulist,38.9072309,-77.0364641,3,375
+NA,St. Patrick's Church,Wyandotte,MI,1889-04-14,1889-04-21,1889,1880s,7,1 week or less,895,0,Paulist,42.2142064,-83.1499239,3,376
+NA,St. Joseph's Church,Trenton,MI,1889-04-14,1889-04-21,1889,1880s,7,1 week or less,475,5,Paulist,42.1394858,-83.1782587,3,376
+NA,St. Ann's Church,Palmyra,NY,1889-04-28,1889-05-05,1889,1880s,7,1 week or less,455,0,Paulist,43.0639521,-77.2333154,3,376
+NA,,West Point,NY,1889-05-19,1889-06-02,1889,1880s,14,2 weeks or less,366,0,Paulist,41.3914827,-73.9559721,3,379
+NA,,Highland Falls,NY,1889-05-19,1889-06-02,1889,1880s,14,2 weeks or less,433,2,Paulist,41.3692605,-73.9662504,3,379
+NA,St. Paul's Cathedral,Pittsburgh,PA,1889-04-24,1889-05-12,1889,1880s,18,3 weeks or less,6980,20,Paulist,40.4406248,-79.9958864,3,382
+NA,,Short Hills,NJ,1889-06-09,1889-06-16,1889,1880s,7,1 week or less,417,1,Paulist,40.7483499,-74.3232194,3,385
+NA,,Mt. Pleasant,IA,1889-05-12,1889-05-19,1889,1880s,7,1 week or less,425,0,Paulist,40.9716959,-91.5487714,3,387
+NA,,Streator,IL,1889-05-26,1889-06-02,1889,1880s,7,1 week or less,NA,2,Paulist,41.1208668,-88.835352,3,389
+NA,St. John's Church,Worcester,MA,1889-05-19,1889-06-02,1889,1880s,14,2 weeks or less,6000,1,Paulist,42.2625932,-71.8022934,3,390
+NA,,Mystic Bridge,CT,1889-06-05,1889-06-16,1889,1880s,11,2 weeks or less,285,0,Paulist,41.4400788,-71.9109282,3,392
+NA,,Stonington,CT,1889-06-05,1889-06-16,1889,1880s,11,2 weeks or less,450,0,Paulist,41.3358915,-71.9058854,3,392
+NA,,Pontiac,IL,1889-06-02,1889-06-09,1889,1880s,7,1 week or less,365,0,Paulist,40.8808666,-88.6297839,3,394
+NA,,Flanagan,IL,1889-06-09,1889-06-15,1889,1880s,6,1 week or less,250,0,Paulist,40.878089,-88.8611818,3,395
+NA,St. Rose's Church,Chelsea,MA,1889-09-08,1889-09-23,1889,1880s,15,3 weeks or less,4006,2,Paulist,42.3917638,-71.0328284,4,52
+NA,St. Peter's Church,Belleville,NJ,1889-09-15,1889-09-22,1889,1880s,7,1 week or less,1205,0,Paulist,40.7936744,-74.1500469,4,55
+NA,,Irvington,NJ,1889-09-22,1889-09-26,1889,1880s,4,1 week or less,300,0,Paulist,40.7263249,-74.2286435,4,56
+NA,,Tarrytown,NY,1889-09-29,1889-10-06,1889,1880s,7,1 week or less,1277,0,Paulist,41.0762077,-73.8587461,4,58
+NA,St. Mary's Church,Ticonderoga,NY,1889-09-30,1889-10-06,1889,1880s,6,1 week or less,475,0,Paulist,43.8486707,-73.4234531,4,60
+NA,St. Augustine's Church,Sing Sing,NY,1889-10-06,1889-10-13,1889,1880s,7,1 week or less,1493,0,Paulist,42.1719586,-76.8910257,4,61
+NA,St. Bernard's Church,Rockville,CT,1889-10-20,1889-11-03,1889,1880s,14,2 weeks or less,2004,1,Paulist,41.8667645,-72.4495287,4,62
+NA,St. John's Church,Concord,MA,1889-09-29,1889-10-07,1889,1880s,8,2 weeks or less,1665,1,Paulist,42.4603719,-71.3489484,4,64
+NA,St. James's Church,Boston,MA,1889-10-13,1889-11-10,1889,1880s,28,more than 3 weeks,8200,0,Paulist,42.3584308,-71.0597732,4,66
+NA,Church of the Assumption,Evansville,IN,1889-10-13,1889-10-21,1889,1880s,8,2 weeks or less,700,0,Paulist,37.9715592,-87.5710898,4,69
+NA,Church of St. Lawrence,Muncie,IN,1889-10-27,1889-11-03,1889,1880s,7,1 week or less,2125,6,Paulist,40.1933767,-85.3863599,4,73
+NA,St. Paul's Church,Noblesville,IN,1889-11-10,1889-11-17,1889,1880s,7,1 week or less,83,0,Paulist,40.0455917,-86.0085955,4,77
+NA,St. Mary's Church,Anderson,IN,1889-11-17,1889-11-22,1889,1880s,5,1 week or less,525,6,Paulist,40.1053196,-85.6802541,4,81
+NA,,North Warren,MA,1889-11-17,1889-11-25,1889,1880s,8,2 weeks or less,1450,0,Paulist,42.2125423,-72.191185,4,83
+NA,St. Mary's Church,Charlestown,MA,1889-11-17,1889-12-01,1889,1880s,14,2 weeks or less,4466,0,Paulist,42.3782065,-71.0602131,4,85
+NA,St. Patrick's Church,Washington,DC,1889-12-01,1889-12-10,1889,1880s,9,2 weeks or less,1250,5,Paulist,38.9072309,-77.0364641,4,87
+NA,St. Agnes's Church,Pittsburgh,PA,1890-01-01,1890-01-19,1890,1890s,18,3 weeks or less,2720,3,Paulist,40.4406248,-79.9958864,4,90
+NA,,Rye,NY,1889-11-10,1889-11-17,1889,1880s,7,1 week or less,450,0,Paulist,40.9806535,-73.6837399,4,93
+NA,Church of the Transfiguration,Brooklyn,NY,1889-12-08,1889-12-22,1889,1880s,14,2 weeks or less,2972,0,Paulist,40.65,-73.95,4,94
+NA,Church of St. Rose of Lima,New York,NY,1890-01-05,1890-01-19,1890,1890s,14,2 weeks or less,4192,5,Paulist,40.7143528,-74.0059731,4,96
+NA,St. Mary's Church,Genesee,NY,1890-01-26,1890-02-02,1890,1890s,7,1 week or less,535,3,Paulist,42.9837843,-78.1564432,4,98
+NA,St. Patrick's Church,Augusta,GA,1890-01-12,1890-01-26,1890,1890s,14,2 weeks or less,1235,1,Paulist,33.4734978,-82.0105148,4,99
+NA,,Washington,GA,1890-01-26,1890-01-26,1890,1890s,0,1 week or less,150,0,Paulist,33.7367948,-82.7393089,4,102
+NA,St. Joseph's Church,Springfield,IL,1890-01-26,1890-02-02,1890,1890s,7,1 week or less,930,3,Paulist,39.7817213,-89.6501481,4,103
+NA,Church of the Immaculate Conception,Springfield,IL,1890-02-02,1890-02-11,1890,1890s,9,2 weeks or less,2900,2,Paulist,39.7817213,-89.6501481,4,105
+NA,Cathedral of Our Lady of Perpetual Help,Savannah,GA,1890-02-02,1890-02-16,1890,1890s,14,2 weeks or less,2343,3,Paulist,32.0835407,-81.0998342,4,108
+NA,St. Gabriel's Church,New York,NY,1890-02-09,1890-03-09,1890,1890s,28,more than 3 weeks,9520,11,Paulist,40.7143528,-74.0059731,4,110
+NA,St. Michael's Church,Pensacola,FL,1890-02-23,1890-03-04,1890,1890s,9,2 weeks or less,770,0,Paulist,30.421309,-87.2169149,4,112
+NA,Cathedral,Mobile,AL,1890-03-09,1890-03-17,1890,1890s,8,2 weeks or less,1230,0,Paulist,30.6943566,-88.0430541,4,114
+NA,St. John's Church,Canton,MA,1890-03-16,1890-03-30,1890,1890s,14,2 weeks or less,1875,0,Paulist,42.1584324,-71.1447732,4,115
+NA,St. Cecilia's Church,New York,NY,1890-03-16,1890-03-30,1890,1890s,14,2 weeks or less,6420,5,Paulist,40.7143528,-74.0059731,4,117
+NA,,Birmingham,AL,1890-03-23,1890-03-30,1890,1890s,7,1 week or less,870,0,Paulist,33.5206608,-86.80249,4,118
+NA,St. Patrick's Church,Brooklyn,NY,1890-04-13,1890-04-28,1890,1890s,15,3 weeks or less,5613,0,Paulist,40.65,-73.95,4,119
+NA,St. John's Church,Schenectady,NY,1890-04-13,1890-04-27,1890,1890s,14,2 weeks or less,2337,0,Paulist,42.8142432,-73.9395687,4,121
+NA,St. Michael's Church,Springfield,MA,1890-05-04,1890-05-18,1890,1890s,14,2 weeks or less,5151,5,Paulist,42.1014831,-72.589811,4,122
+NA,St. John's Church,Pittsburgh,PA,1890-05-04,1890-05-18,1890,1890s,14,2 weeks or less,1900,0,Paulist,40.4406248,-79.9958864,4,123
+NA,St. Vincent de Paul's Church,Mt. Vernon,OH,1890-05-25,1890-06-01,1890,1890s,7,1 week or less,630,1,Paulist,40.3933956,-82.4857181,4,126
+NA,St. Jarlath's Church,Chicago,IL,1890-05-25,1890-06-01,1890,1890s,7,1 week or less,1413,1,Paulist,41.8781136,-87.6297982,4,127
+NA,Church of the Blessed Sacrament,Providence,RI,1890-05-25,1890-06-01,1890,1890s,7,1 week or less,1300,0,Paulist,41.8239891,-71.4128343,4,128
+NA,,Livingston,NJ,1890-06-01,1890-06-11,1890,1890s,10,2 weeks or less,30,0,Paulist,40.7862871,-74.3300842,4,129
+NA,Church of St. Vincent de Paul,Sterling,NJ,1890-06-11,1890-06-15,1890,1890s,4,1 week or less,49,0,Paulist,40.6713311,-74.4945385,4,130
+NA,St. Patrick's Church,Chatham,NJ,1890-06-15,1890-06-18,1890,1890s,3,1 week or less,152,0,Paulist,40.740934,-74.3837624,4,130
+NA,St. Anne's Church,Manchester,NH,1890-09-14,1890-09-28,1890,1890s,14,2 weeks or less,3559,0,Paulist,42.9956397,-71.4547891,4,133
+NA,,Ridgway,PA,1890-09-14,1890-09-30,1890,1890s,16,3 weeks or less,505,0,Paulist,41.4203391,-78.7286388,4,135
+NA,,Emporium,PA,1890-09-14,1890-09-30,1890,1890s,16,3 weeks or less,410,0,Paulist,41.5114521,-78.2352872,4,135
+NA,,Cameron,PA,1890-09-14,1890-09-30,1890,1890s,16,3 weeks or less,45,0,Paulist,41.426156400000004,-78.1564432,4,135
+NA,,Torrington,CT,1890-09-21,1890-09-28,1890,1890s,7,1 week or less,1136,2,Paulist,41.8003049,-73.1211715,4,136
+NA,Ss. Peter and Paul's Cathedral,Philadelphia,PA,1890-10-05,1890-10-19,1890,1890s,14,2 weeks or less,9800,25,Paulist,39.952335,-75.163789,4,137
+NA,Church of the Annunciation,Danvers,MA,1890-10-26,1890-11-09,1890,1890s,14,2 weeks or less,1418,0,Paulist,42.5750009,-70.932122,4,139
+NA,Church of the Sacred Heart,New Haven,CT,1890-10-26,1890-11-09,1890,1890s,14,2 weeks or less,3540,2,Paulist,41.308274,-72.9278835,4,140
+NA,St. Joseph's Church,Terre Haute,IN,1890-11-02,1890-11-09,1890,1890s,7,1 week or less,1250,9,Paulist,39.4667034,-87.4139092,4,141
+NA,,Rockville,IN,1890-11-10,1890-11-13,1890,1890s,3,1 week or less,80,0,Paulist,39.7625404,-87.2291809,4,142
+NA,,South Bend,IN,1890-10-01,1890-11-30,1890,1890s,60,more than 3 weeks,600,0,Paulist,41.6763545,-86.2519898,4,143
+NA,St. James's Church,Chicago,IL,1890-11-16,1890-11-30,1890,1890s,14,2 weeks or less,4780,4,Paulist,41.8781136,-87.6297982,4,144
+NA,St. Mary's Star of the Sea,East Boston,MA,1890-11-16,1890-11-30,1890,1890s,14,2 weeks or less,1440,1,Paulist,42.3702137,-71.0388601,4,146
+NA,,Portland,CT,1890-11-16,1890-11-27,1890,1890s,11,2 weeks or less,1023,0,Paulist,41.5726229,-72.6408139,4,148
+NA,,East Hampton,CT,1890-11-16,1890-11-27,1890,1890s,11,2 weeks or less,228,0,Paulist,41.5757748,-72.5026249,4,148
+NA,Church of the Annunciation,Manhattanville,NY,1890-12-07,1890-12-21,1890,1890s,14,2 weeks or less,1720,0,Paulist,40.8169443,-73.9558333,4,149
+NA,St. James's Church,Boston,MA,1890-12-14,1890-12-21,1890,1890s,7,1 week or less,2500,0,Paulist,42.3584308,-71.0597732,4,150
+NA,St. Mary's Cathedral,Ogdensburg,NY,1890-12-07,1890-12-21,1890,1890s,14,2 weeks or less,2495,14,Paulist,44.6942291,-75.4863364,4,151
+NA,Church of Our Lady of Victory,Brooklyn,NY,1891-01-04,1891-01-18,1891,1890s,14,2 weeks or less,2495,6,Paulist,40.65,-73.95,4,153
+NA,Church of St. Paul the Apostle,New York,NY,1891-01-04,1891-02-01,1891,1890s,28,more than 3 weeks,11650,7,Paulist,40.7143528,-74.0059731,4,154
+NA,Church of the Sacred Heart,Brooklyn,NY,1891-01-25,1891-02-01,1891,1890s,7,1 week or less,5088,8,Paulist,40.65,-73.95,4,156
+NA,St. Augustine's Church,Union Hill,NJ,1891-02-01,1891-02-08,1891,1890s,7,1 week or less,801,0,Paulist,40.8559326,-74.520156600000007,4,157
+NA,Church of St. Francis de Sales,Geneva,NY,1891-02-15,1891-03-01,1891,1890s,14,2 weeks or less,2470,2,Paulist,42.8689552,-76.9777436,4,158
+NA,St. Matthew's Church,Washington,DC,1891-02-15,1891-02-23,1891,1890s,8,2 weeks or less,1300,0,Paulist,38.9072309,-77.0364641,4,160
+NA,St. Stephen's Church,Pittsburgh,PA,1891-02-15,1891-03-01,1891,1890s,14,2 weeks or less,1582,0,Paulist,40.4406248,-79.9958864,4,161
+NA,Church of St. Columbkille,Brighton,MA,1891-02-15,1891-03-01,1891,1890s,14,2 weeks or less,3300,0,Paulist,42.3463503,-71.1626756,4,162
+NA,St. Patrick's Church,Valley Falls,RI,1891-03-08,1891-03-22,1891,1890s,14,2 weeks or less,2905,1,Paulist,41.9067663,-71.3906119,4,163
+NA,St. Veronica's Church,New York,NY,1891-03-08,1891-03-22,1891,1890s,14,2 weeks or less,3650,4,Paulist,40.7143528,-74.0059731,4,164
+NA,Sacred Heart Church,Pittsburgh,PA,1891-03-08,1891-03-22,1891,1890s,14,2 weeks or less,2453,2,Paulist,40.4406248,-79.9958864,4,165
+NA,Sacred Heart Church,Worcester,MA,1891-04-05,1891-04-19,1891,1890s,14,2 weeks or less,2573,0,Paulist,42.2625932,-71.8022934,4,166
+NA,St. Anne's Church,Baltimore,MD,1891-04-05,1891-04-12,1891,1890s,7,1 week or less,1300,4,Paulist,39.2903848,-76.6121893,4,167
+NA,St. Louis' Church,Webster,MA,1891-04-05,1891-04-19,1891,1890s,14,2 weeks or less,1665,0,Paulist,42.050091,-71.8800628,4,169
+NA,Church of the Sacred Heart,Mt. Vernon,NY,1891-04-12,1891-04-21,1891,1890s,9,2 weeks or less,1050,0,Paulist,40.9125992,-73.8370786,4,170
+NA,Immaculate Conception Church,Birmingham,CT,1891-04-26,1891-05-10,1891,1890s,14,2 weeks or less,2801,0,Paulist,42.5467012,-83.2113192,4,172
+NA,St. Charles' Church,Adams,MA,1891-04-26,1891-05-10,1891,1890s,14,2 weeks or less,1622,2,Paulist,42.6242251,-73.1174344,4,173
+NA,Holy Cross Church,Lynchburg,VA,1891-04-26,1891-05-05,1891,1890s,9,2 weeks or less,700,1,Paulist,37.4137536,-79.1422464,4,174
+NA,St. Cecilia's Church,Coatesville,PA,1891-05-10,1891-05-17,1891,1890s,7,1 week or less,625,0,Paulist,39.9831616,-75.8238355,4,175
+NA,St. Michael's Cathedral,Springfield,MA,1891-05-10,1891-05-17,1891,1890s,7,1 week or less,1400,0,Paulist,42.1014831,-72.589811,4,176
+NA,St. Leo's Church,Leominster,MA,1891-05-17,1891-05-24,1891,1890s,7,1 week or less,1260,0,Paulist,42.5250906,-71.759794,4,177
+NA,St. John's Church,Canton,MA,1891-05-17,1891-05-24,1891,1890s,7,1 week or less,1400,0,Paulist,42.1584324,-71.1447732,4,178
+NA,St. Thomas's Church,West Farms,NY,1891-05-17,1891-05-24,1891,1890s,7,1 week or less,493,0,Paulist,40.8430609,-73.8816001,4,179
+NA,Sacred Heart Church,Valesburg,NJ,1891-05-31,1891-06-07,1891,1890s,7,1 week or less,265,1,Paulist,40.7400351,-74.2179355,4,180
+NA,Church of the Assumption,Ansonia,CT,1891-08-16,1891-08-20,1891,1890s,4,1 week or less,400,0,Paulist,41.3462078,-73.0789969,4,181
+NA,St. Michael's Church,Westerly,CT,1891-09-06,1891-09-13,1891,1890s,7,1 week or less,980,0,Paulist,41.3775987,-71.8272871,4,185
+NA,Holy Cross Church,Ovid,NY,1891-09-06,1891-09-16,1891,1890s,10,2 weeks or less,993,0,Paulist,42.6764593,-76.8230111,4,186
+NA,,Lyons,NY,1891-09-06,1891-09-20,1891,1890s,14,2 weeks or less,795,3,Paulist,43.0642305,-76.9902456,4,187
+NA,,Sodus Point,NY,1891-09-21,1891-09-24,1891,1890s,3,1 week or less,NA,0,Paulist,43.2717322,-76.9891355,4,189
+NA,St. Catherine's Church,Norwood,MA,1891-09-13,1891-09-20,1891,1890s,7,1 week or less,1110,0,Paulist,42.1943909,-71.1989695,4,191
+NA,,Bayonne,NJ,1891-09-06,1891-09-13,1891,1890s,7,1 week or less,640,0,Paulist,40.6687141,-74.1143091,4,192
+NA,,Greenfield,MA,1891-09-06,1891-09-13,1891,1890s,7,1 week or less,962,0,Paulist,42.587915,-72.5994104,4,193
+NA,,South Deerfield,MA,1891-09-13,1891-09-17,1891,1890s,4,1 week or less,300,0,Paulist,42.4773097,-72.6078667,4,194
+NA,,Dover,NH,1891-09-20,1891-10-04,1891,1890s,14,2 weeks or less,2705,0,Paulist,43.1978624,-70.8736698,4,195
+NA,St. Mary's Church,Biddeford,ME,1891-09-27,1891-10-11,1891,1890s,14,2 weeks or less,1821,0,Paulist,43.4925843,-70.4533844,4,197
+NA,Holy Family Church,Auburn,NY,1891-09-27,1891-10-11,1891,1890s,14,2 weeks or less,3480,5,Paulist,42.9317335,-76.5660529,4,198
+NA,St. Mary's Church,Cambridgeport,MA,1891-10-11,1891-10-25,1891,1890s,14,2 weeks or less,5165,0,Paulist,42.3595761,-71.1077157,4,200
+NA,St. Patrick's Church,Denver,CO,1891-10-18,1891-10-25,1891,1890s,7,1 week or less,755,0,Paulist,39.737567,-104.9847179,4,203
+NA,St. Matthew's Church,Brooklyn,NY,1891-10-18,1891-11-01,1891,1890s,14,2 weeks or less,1500,0,Paulist,40.65,-73.95,4,205
+NA,St. Joseph's Church,Denver,CO,1891-11-01,1891-11-08,1891,1890s,7,1 week or less,750,3,Paulist,39.737567,-104.9847179,4,207
+NA,St. Peter Claver's Church,Baltimore,MD,1891-11-01,1891-11-08,1891,1890s,7,1 week or less,270,0,Paulist,39.2903848,-76.6121893,4,209
+NA,Corpus Christi Church,Baltimore,MD,1891-11-08,1891-11-22,1891,1890s,14,2 weeks or less,1400,0,Paulist,39.2903848,-76.6121893,4,210
+NA,Immaculate Conception Church,Marlboro,MA,1891-11-08,1891-11-22,1891,1890s,14,2 weeks or less,3770,3,Paulist,42.3459271,-71.5522874,4,211
+NA,St. Francis's Cathedral,Vincennes,IN,1891-11-15,1891-11-24,1891,1890s,9,2 weeks or less,1018,7,Paulist,38.677269,-87.5286325,4,212
+NA,St. Colman's Church,Turtle Creek,PA,1891-11-29,1891-12-06,1891,1890s,7,1 week or less,640,3,Paulist,40.4059022,-79.8250479,4,213
+NA,St. Cecilia's Church,Boston,MA,1891-11-22,1891-11-29,1891,1890s,7,1 week or less,2600,0,Paulist,42.3584308,-71.0597732,4,214
+NA,St. Bridget's Church,Indianapolis,IN,1891-11-29,1891-12-09,1891,1890s,10,2 weeks or less,1300,9,Paulist,39.768403,-86.158068,4,215
+NA,St. Thomas's Church,Brooklyn,NY,1891-12-06,1891-12-20,1891,1890s,14,2 weeks or less,3375,11,Paulist,40.65,-73.95,4,216
+NA,St. Patrick's Church,Cleveland,OH,1891-12-06,1891-12-20,1891,1890s,14,2 weeks or less,3550,0,Paulist,41.4994954,-81.6954088,4,218
+NA,St. Stephen's Church,New York,NY,1892-01-03,1892-01-26,1892,1890s,23,more than 3 weeks,6500,6,Paulist,40.7143528,-74.0059731,4,220
+NA,St. Jerome's Church,Mott Haven,NY,1892-01-17,1892-01-31,1892,1890s,14,2 weeks or less,3980,3,Paulist,40.8091068,-73.9228881,4,223
+NA,St. Francis de Sales' Church,Brooklyn,NY,1892-01-31,1892-02-14,1892,1890s,14,2 weeks or less,2055,0,Paulist,40.65,-73.95,4,225
+NA,St. John the Evangelist's Church,Brooklyn,NY,1892-02-07,1892-02-21,1892,1890s,14,2 weeks or less,4925,0,Paulist,40.65,-73.95,4,227
+NA,St. Jerome's Church,Baltimore,MD,1892-02-14,1892-02-23,1892,1890s,9,2 weeks or less,960,5,Paulist,39.2903848,-76.6121893,4,229
+NA,St. Aloysius's Church,Detroit,MI,1892-02-07,1892-02-15,1892,1890s,8,2 weeks or less,1100,3,Paulist,42.331427,-83.0457538,4,231
+NA,St. Patrick's Church,Ottawa,Canada,1892-03-06,1892-03-20,1892,1890s,14,2 weeks or less,2516,0,Paulist,45.4215296,-75.6971931,4,232
+NA,St. John's Church,Worcester,MA,1892-03-06,1892-03-20,1892,1890s,14,2 weeks or less,7200,6,Paulist,42.2625932,-71.8022934,4,234
+NA,St. Rose's Church,Meriden,CT,1892-03-27,1892-04-10,1892,1890s,14,2 weeks or less,4650,6,Paulist,41.5381535,-72.8070435,4,236
+NA,St. Patrick's Church,Montreal,Canada,1892-03-20,1892-04-17,1892,1890s,28,more than 3 weeks,8728,0,Paulist,45.5086699,-73.5539925,4,238
+NA,Our Lady of Loretto's Church,Hempstead,NY,1892-04-24,1892-05-01,1892,1890s,7,1 week or less,410,2,Paulist,40.7062128,-73.6187397,4,243
+NA,St. Rose of Lima's Church,Parkville,NY,1892-04-24,1892-05-01,1892,1890s,7,1 week or less,370,0,Paulist,41.8553669,-74.7596049,4,244
+NA,St. Francis de Sales' Church,Utica,NY,1892-04-24,1892-05-02,1892,1890s,8,2 weeks or less,1430,4,Paulist,43.100903,-75.232664,4,245
+NA,Church of the Assumption,Ansonia,CT,1892-04-24,1892-05-08,1892,1890s,14,2 weeks or less,3250,0,Paulist,41.3462078,-73.0789969,4,246
+NA,Church of the Immaculate Conception,Tuckahoe,NY,1892-05-08,1892-05-17,1892,1890s,9,2 weeks or less,830,0,Paulist,40.9503764,-73.827356,4,248
+NA,St. Augustine's Church,Bridgeport,CT,1892-05-15,1892-05-29,1892,1890s,14,2 weeks or less,3450,0,Paulist,41.1865478,-73.1951767,4,249
+NA,St. Bridget's Church,West Troy,NY,1892-05-08,1892-05-22,1892,1890s,14,2 weeks or less,2110,0,Paulist,42.7284117,-73.6917851,4,250
+NA,St. Jerome's Church,Hyattsville,MD,1892-05-22,1892-05-29,1892,1890s,7,1 week or less,155,3,Paulist,38.9559442,-76.9455301,4,252
+NA,Church of the Annunciation,Florence,MA,1892-06-05,1892-06-12,1892,1890s,7,1 week or less,1075,1,Paulist,42.3355556,-72.6716667,4,253
+NA,,Canal Fulton,OH,1892-06-05,1892-06-12,1892,1890s,7,1 week or less,400,1,Paulist,40.8897784,-81.597623,4,254
+NA,St. Mary's Church,Canandaigua,NY,1892-05-29,1892-06-12,1892,1890s,14,2 weeks or less,1580,4,Paulist,42.887535,-77.2816984,4,255
+NA,Church of the Immaculate Conception,Newburyport,MA,1892-05-22,1892-06-05,1892,1890s,14,2 weeks or less,2740,0,Paulist,42.8125913,-70.8772751,4,257
+NA,St. Bridget's Church,Indianapolis,IN,1892-06-09,1892-06-12,1892,1890s,3,1 week or less,750,0,Paulist,39.768403,-86.158068,4,259
+NA,Star of the Sea Church,Long Branch,NJ,1892-09-11,1892-09-18,1892,1890s,7,1 week or less,600,1,Paulist,40.3042778,-73.9923596,4,263
+NA,St. Agnes's Church,Paterson,NJ,1892-09-11,1892-09-25,1892,1890s,14,2 weeks or less,2200,12,Paulist,40.9167654,-74.171811,4,264
+NA,Holy Trinity Church,Wallingford,CT,1892-09-11,1892-09-25,1892,1890s,14,2 weeks or less,1450,0,Paulist,41.4570108,-72.8230736,4,265
+NA,St. Columba's Church,Newark,NJ,1892-09-11,1892-09-25,1892,1890s,14,2 weeks or less,1575,0,Paulist,40.735657,-74.1723667,4,266
+NA,Church of Our Lady,Sand Beach,MI,1892-09-25,1892-09-29,1892,1890s,4,1 week or less,140,0,Paulist,43.8040404,-82.669947,4,267
+NA,St. Joseph's Church,Argyle,MI,1892-09-25,1892-09-30,1892,1890s,5,1 week or less,224,14,Paulist,43.564207,-82.9359965,4,268
+NA,Immaculate Conception Church,Monmouth,IL,1892-10-02,1892-10-09,1892,1890s,7,1 week or less,485,0,Paulist,40.9114271,-90.6473576,4,269
+NA,,Raritan,IL,1892-10-09,1892-10-12,1892,1890s,3,1 week or less,130,0,Paulist,40.6958732,-90.8273591,4,270
+NA,,Alexis,IL,1892-10-09,1892-10-13,1892,1890s,4,1 week or less,200,0,Paulist,41.0633703,-90.5559675,4,270
+NA,St. Augustine's Church,Kalamazoo,MI,1892-10-02,1892-10-16,1892,1890s,14,2 weeks or less,1600,0,Paulist,42.2917069,-85.5872286,4,271
+NA,,Highland Falls,NY,1892-10-02,1892-10-16,1892,1890s,14,2 weeks or less,350,0,Paulist,41.3692605,-73.9662504,4,273
+NA,,West Point,NY,1892-10-02,1892-10-16,1892,1890s,14,2 weeks or less,520,0,Paulist,41.3914827,-73.9559721,4,273
+NA,St. Ann's Church,Neponset,MA,1892-10-02,1892-10-16,1892,1890s,14,2 weeks or less,1610,1,Paulist,42.2237683,-71.1344539,4,274
+NA,St. Mark's Church,Peoria,IL,1892-10-16,1892-10-23,1892,1890s,7,1 week or less,317,0,Paulist,40.6936488,-89.5889864,4,275
+NA,Church of the Immaculate Conception,Spring Valley,IL,1892-10-23,1892-10-30,1892,1890s,7,1 week or less,950,0,Paulist,41.3275352,-89.1998076,4,276
+NA,Church of the Nativity,Brooklyn,NY,1892-10-16,1892-10-30,1892,1890s,14,2 weeks or less,2530,1,Paulist,40.65,-73.95,4,277
+NA,St. Mary's Church,Utica,IL,1892-10-30,1892-11-06,1892,1890s,7,1 week or less,507,0,Paulist,41.3414125,-89.0097155,4,279
+NA,Ss. Peter and Paul's Cathedral,Detroit,MI,1892-10-23,1892-11-06,1892,1890s,14,2 weeks or less,2050,0,Paulist,42.331427,-83.0457538,4,280
+NA,St. Mary's Church,Bethel,CT,1892-10-30,1892-11-06,1892,1890s,7,1 week or less,700,0,Paulist,41.3712283,-73.4139621,4,281
+NA,St. Simon's Church,Washington,IN,1892-11-13,1892-11-20,1892,1890s,7,1 week or less,1300,9,Paulist,38.6592152,-87.172789,4,282
+NA,St. Joseph's Church,Roxbury,MA,1892-11-13,1892-11-27,1892,1890s,14,2 weeks or less,2650,0,Paulist,42.3151978,-71.0913748,4,283
+NA,Chapel,Roxbury,MA,1892-11-13,1892-11-20,1892,1890s,7,1 week or less,1150,0,Paulist,42.3151978,-71.0913748,4,283
+NA,St. Ann's Church,Chicago,IL,1892-11-23,1892-11-27,1892,1890s,4,1 week or less,2250,0,Paulist,41.8781136,-87.6297982,4,285
+NA,Sacred Heart Church,Bloomfield,NJ,1892-11-27,1892-12-04,1892,1890s,7,1 week or less,1007,2,Paulist,40.8067546,-74.1854209,4,286
+NA,St. Cecilia's Church,Boston,MA,1892-12-04,1892-12-11,1892,1890s,7,1 week or less,2580,0,Paulist,42.3584308,-71.0597732,4,287
+NA,St. Stephen's Church,Brooklyn,NY,1892-12-04,1892-12-18,1892,1890s,14,2 weeks or less,3880,0,Paulist,40.65,-73.95,4,288
+NA,Church of the Immaculate Conception,East Weymouth,MA,1893-01-01,1893-01-11,1893,1890s,10,2 weeks or less,1300,3,Paulist,42.2125125,-70.9294163,4,289
+NA,St. Mary's Church,Dedham,MA,1893-01-01,1893-01-11,1893,1890s,10,2 weeks or less,1600,0,Paulist,42.2411916,-71.166143,4,290
+NA,Church of the Immaculate Conception,Cleveland,OH,1893-01-01,1893-01-13,1893,1890s,12,2 weeks or less,2950,5,Paulist,41.4994954,-81.6954088,4,292
+NA,,Port Ewen,NY,1893-01-22,1893-01-29,1893,1890s,7,1 week or less,284,0,Paulist,41.9053703,-73.976249,4,293
+NA,St. Mary's Church,New Britain,CT,1893-01-15,1893-01-29,1893,1890s,14,2 weeks or less,5285,4,Paulist,41.6612104,-72.7795419,4,294
+NA,St. Mary's Church,Roudout,NY,1893-01-29,1893-02-12,1893,1890s,14,2 weeks or less,3000,5,Paulist,41.920648,-73.9851381,4,296
+NA,St. Cecilia's Church,New York,NY,1893-02-12,1893-03-12,1893,1890s,28,more than 3 weeks,7550,20,Paulist,40.7143528,-74.0059731,4,297
+NA,St. Gabriel's Church,New York,NY,1893-02-19,1893-03-19,1893,1890s,28,more than 3 weeks,8637,0,Paulist,40.7143528,-74.0059731,4,299
+NA,St. John's Cathedral,Cleveland,OH,1893-03-19,1893-04-02,1893,1890s,14,2 weeks or less,3750,0,Paulist,41.4994954,-81.6954088,4,300
+NA,Church of the Visitation,Philadelphia,PA,1893-03-19,1893-04-02,1893,1890s,14,2 weeks or less,4800,12,Paulist,39.952335,-75.163789,4,302
+NA,Church of the Assumption,Morristown,NJ,1893-04-09,1893-04-23,1893,1890s,14,2 weeks or less,2087,3,Paulist,40.7967667,-74.4815438,4,303
+NA,St. John's Church,Bellefonte,PA,1893-04-09,1893-04-16,1893,1890s,7,1 week or less,760,4,Paulist,40.9133943,-77.7783348,4,305
+NA,,Meadville,PA,1893-04-09,1893-04-17,1893,1890s,8,2 weeks or less,900,1,Paulist,41.6414438,-80.1514484,4,307
+NA,,Sayre,PA,1893-04-09,1893-04-16,1893,1890s,7,1 week or less,700,3,Paulist,41.9789631,-76.515499,4,308
+NA,St. Patrick's Church,Norwich,CT,1893-04-23,1893-05-07,1893,1890s,14,2 weeks or less,4060,3,Paulist,41.5242649,-72.0759105,4,309
+NA,St. Malachy's Church,Chicago,IL,1893-04-23,1893-05-07,1893,1890s,14,2 weeks or less,2250,4,Paulist,41.8781136,-87.6297982,4,311
+NA,St. Matthew's Church,Washington,DC,1893-04-23,1893-04-23,1893,1890s,0,1 week or less,600,0,Paulist,38.9072309,-77.0364641,4,312
+NA,Immaculate Conception Church,Portsmouth,NH,1893-04-30,1893-05-07,1893,1890s,7,1 week or less,1350,0,Paulist,43.0717552,-70.7625532,4,313
+NA,St. Thomas's Church,"Woodberry, Baltimore",MD,1893-05-15,1893-05-21,1893,1890s,6,1 week or less,670,0,Paulist,39.3368301,-76.6513787,4,314
+NA,Manhattan College,New York,NY,1893-03-26,1893-03-29,1893,1890s,3,1 week or less,200,0,Paulist,40.7143528,-74.0059731,4,315
+NA,Classon-on-the-Sound,New York,NY,1893-05-08,1893-05-12,1893,1890s,4,1 week or less,120,0,Paulist,40.7143528,-74.0059731,4,315
+NA,St. Patrick's Church,Whitinsville,MA,1893-05-14,1893-05-24,1893,1890s,10,2 weeks or less,910,0,Paulist,42.1112075,-71.6661783,4,316
+NA,St. Rose's Church,"West Brighton, Staten Island",NY,1893-05-07,1893-05-28,1893,1890s,21,3 weeks or less,1685,5,Paulist,40.6270298,-74.1093141,4,318
+NA,,North Weymouth,MA,1893-05-24,1893-05-28,1893,1890s,4,1 week or less,240,0,Paulist,42.2459331,-70.9467133,4,320
+NA,,Broad Brook,CT,1893-05-14,1893-05-21,1893,1890s,7,1 week or less,312,0,Paulist,41.9123195,-72.5450873,4,321
+NA,St. Thomas's Church,Southington,CT,1893-05-14,1893-05-21,1893,1890s,7,1 week or less,840,0,Paulist,41.5964869,-72.8776013,4,322
+NA,St. Rose of Lima's Church,Suffern,NY,1893-05-21,1893-05-28,1893,1890s,7,1 week or less,217,1,Paulist,41.1148179,-74.1495889,4,323
+NA,,Tuxedo,NY,1893-05-28,1893-06-04,1893,1890s,7,1 week or less,146,2,Paulist,41.2376671,-74.1944529,4,323

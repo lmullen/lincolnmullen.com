@@ -16,8 +16,12 @@ slug: history-datasets
 - [dijon-prices.csv](dijon-prices.csv)
 - [dijon-prices-wide.csv](dijon-prices-wide.csv)
 
-## Methodsits
+## Methodists
 
 - [methodists.csv](methodists.csv)
 - [methodists-aggregated-year.csv](methodists-aggregated-year.csv)
 - [methodists-aggregated-year-conference.csv](methodists-aggregated-year-conference.csv)
+
+## Paulist Missions
+
+- [paulist-missions.csv](paulist-missions.csv)

@@ -29,3 +29,7 @@ slug: history-datasets
 ## Presbyterians
 
 - [presbyterians.csv](presbyterians.csv)
+
+## Minneapolis Fed Consumer Price Index
+
+- [minneapolisfed-cpi.csv](minneapolisfed-cpi.csv)

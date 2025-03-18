@@ -166,7 +166,7 @@ Assignment:
 
 **Exploratory data analysis assignment**: (1) Create a new Observable notebook. (2) Find a suitable quantitative dataset to analyze. This should be a primarily quantitative dataset, and preferably one you don't know much about as a dataset. It would be best if you used a dataset that you cared about, but some suggested datasets are listed below. (3) Upload your data to your notebook. (4) Load the data (joining it to other datasets if necessary). (5) Using both prose and code, create an exploratory data analysis of your dataset. Use the techniques in Grolemund and Wickham to figure out what the dataset is, what could be learned from it, and what potential pitfalls there are in the data. (6) Edit your document to get rid of visualizations and prose that proved not to be useful. In other words, you don't have to give me a polished final report, but don't give me a completely rough draft either. (7) Submit a link to your notebook.
 
-- Mapping Early American Elections, especially `congressional-candidate-totals.csv` or `congressional-counties-parties.csv`.
+- [Mapping Early American Elections](https://earlyamericanelections.org/data/), especially `congressional-candidate-totals.csv` or `congressional-counties-parties.csv`.
 - City-level membership data for denominations in the Census of Religious Bodies from the [*American Religious Ecologies*](https://religiousecologies.org/data/) project.
 - Selected U.S. Census data of your choice from [NHGIS](https://www.nhgis.org/).
 

@@ -187,11 +187,12 @@ Readings:
 - Claus O. Wilke, _Fundamentals of Data Visualization_ (O'Reilly, 2019), ch. 15, 22.
 - Greta Swain, "[Maryland's Political Geography in the Early Republic](https://earlyamericanelections.org/essays/06-swain-geography-of-politics.html)," _Mapping Early American Elections_ (RRCHNM, 2019).
 
+
 ### Week 10 (April 7): Networks
 
-Assignment:
+Mapping assignment:
 
-- Complete the mapping analysis assignment.
+- Using state level data from NHGIS, create a choropleth map (or several) of some dataset of interest. You may, at your option, substitute any other historical map you would like to make in an Observable notebook.
 
 Readings:
 

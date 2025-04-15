@@ -232,7 +232,7 @@ Readings:
 
 Assignment:
 
-- Circulate a draft of your final project in Slack by Friday, April 28. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.
+- Circulate a draft of your final project in Slack by Friday, May 2. Be prepared to present your work in class for approximately ten minutes. Read each person's draft and come prepared to offer helpful comments on their work.
 
 ## Fine print
 

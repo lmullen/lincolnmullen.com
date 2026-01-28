@@ -14,5 +14,28 @@
     ],
     "language": "en-US",
     "expired": false,
-    "items": []
+    "items": [
+        {{- range $index, $element := first 25 (where .Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter")) }}
+        {{- if $index }},{{ end }}
+        {
+            "id": "{{ .Permalink | absURL }}",
+            "url": "{{ .Permalink | absURL }}",
+            {{- if .Params.Linkpost }}
+            "external_url": "{{ .Params.Linkpost }}",
+            {{- else }}
+            "title": {{ .Title | jsonify }},
+            {{- end }}
+            "content_html": {{ .Content | jsonify }},
+            "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
+            {{- if .Params.tags }},
+            "tags": {{ .Params.tags | jsonify }}
+            {{- end }},
+            "authors": [
+                {
+                    "name": "{{ .Site.Params.author.name }}"
+                }
+            ]
+        }
+        {{- end }}
+    ]
 }

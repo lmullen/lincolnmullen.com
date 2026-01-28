@@ -32,7 +32,8 @@
             {{- end }},
             "authors": [
                 {
-                    "name": "{{ .Site.Params.author.name }}"
+                    "name": "{{ .Site.Params.author.name }}",
+                    "url": "{{ .Site.BaseURL }}"
                 }
             ]
         }

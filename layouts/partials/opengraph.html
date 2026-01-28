@@ -66,8 +66,8 @@ The image will be automatically resized and optimized for social sharing.
     {{- $image = .Params.image | absURL -}}
   {{- end -}}
 {{- else -}}
-  {{- /* Use optimized default site image */ -}}
-  {{- with resources.Get "img/lincoln-mullen-photo.png" -}}
+  {{- /* Use default social media image */ -}}
+  {{- with resources.Get "img/social-media.jpeg" -}}
     {{- $resized := .Fill "1200x630 Center" -}}
     {{- $image = $resized.Permalink -}}
   {{- end -}}

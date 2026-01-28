@@ -1,8 +1,8 @@
 {{- /*
-OpenGraph and Twitter Card meta tags
+OpenGraph meta tags
 
-This partial generates social media preview tags for sharing pages on Twitter,
-Facebook, LinkedIn, and other platforms.
+This partial generates social media preview tags for sharing pages on
+Facebook, LinkedIn, Slack, Discord, and other platforms.
 
 Features:
 - Automatic title, description, and URL generation
@@ -96,13 +96,3 @@ The image will be automatically resized and optimized for social sharing.
 {{- end }}
 {{- end }}
 {{- end }}
-
-<!-- Twitter Card meta tags -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{{ $title }}">
-<meta name="twitter:description" content="{{ $description }}">
-{{- if $image }}
-<meta name="twitter:image" content="{{ $image }}">
-{{- end }}
-<meta name="twitter:site" content="@lincolnmullen">
-<meta name="twitter:creator" content="@lincolnmullen">

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh pr create --title \"Remove unused copyright field from config\" --body \"$\\(cat <<''EOF''\n## Summary\n- Removes the `copyright: \"2008-2022\"` field from config.yaml\n\n## Rationale\n- The copyright field is only used in the RSS feed XML `<copyright>` tag\n- It''s an optional element per RSS 2.0 specification\n- It was outdated \\(stopped at 2022\\)\n- Not displayed anywhere on the visible website\n- No functional impact on the site\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\nEOF\n\\)\")",
+      "Bash(ls:*)",
+      "Bash(hugo:*)"
+    ]
+  }
+}

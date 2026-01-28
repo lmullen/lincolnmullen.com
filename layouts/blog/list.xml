@@ -3,7 +3,7 @@
   <channel>
     <title>{{ .Site.Params.blogFeedTitle }}</title>
     <link>{{ .Permalink | absURL }}</link>
-    <description>Recent blog posts by {{ .Site.Params.author.name }}</description>
+    <description>{{ .Site.Params.description }}</description>
     <generator>Hugo -- gohugo.io</generator>
     {{ with .Site.LanguageCode }}
     <language>{{.}}</language>
@@ -16,10 +16,9 @@
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range first 25 (where .Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter")) }}
+    {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter")) }}
     <item>
       {{ if .Params.Linkpost }}
-      <title>Link post: {{ .Content | markdownify | plainify | htmlUnescape | truncate 75 | safeHTML }}</title>
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>
       {{ else }}
       <title>{{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>

@@ -1,0 +1,108 @@
+{{- /*
+OpenGraph and Twitter Card meta tags
+
+This partial generates social media preview tags for sharing pages on Twitter,
+Facebook, LinkedIn, and other platforms.
+
+Features:
+- Automatic title, description, and URL generation
+- Article-specific metadata for blog posts and newsletter issues
+- Optimized image processing (resizes to 1200x630 for optimal social sharing)
+- Support for custom images via front matter
+
+To use a custom image for a specific page, add to front matter:
+  image: "featured-image.jpg"  # For page bundle resources
+  image: "/img/custom.jpg"     # For static files
+
+The image will be automatically resized and optimized for social sharing.
+*/ -}}
+
+{{- /* Determine page title */ -}}
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = .Site.Title -}}
+{{- else -}}
+  {{- $title = printf "%s | %s" .Title .Site.Title -}}
+{{- end -}}
+
+{{- /* Determine description */ -}}
+{{- $description := .Site.Params.description -}}
+{{- if .Description -}}
+  {{- $description = .Description -}}
+{{- else if .Summary -}}
+  {{- $description = .Summary | plainify | truncate 200 -}}
+{{- else if .IsPage -}}
+  {{- $description = .Summary | plainify | truncate 200 -}}
+{{- end -}}
+
+{{- /* Determine canonical URL */ -}}
+{{- $url := .Permalink -}}
+{{- if .Params.External -}}
+  {{- $url = .Params.External.URL -}}
+{{- else if .Params.linkpost -}}
+  {{- $url = .Params.linkpost -}}
+{{- end -}}
+
+{{- /* Determine page type */ -}}
+{{- $type := "website" -}}
+{{- if .IsPage -}}
+  {{- if eq .Section "blog" -}}
+    {{- $type = "article" -}}
+  {{- else if eq .Section "newsletter" -}}
+    {{- $type = "article" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Determine image */ -}}
+{{- $image := "" -}}
+{{- if .Params.image -}}
+  {{- /* Use custom image from front matter */ -}}
+  {{- with .Resources.GetMatch .Params.image -}}
+    {{- /* Resize page resource image for optimal social sharing */ -}}
+    {{- $resized := .Fill "1200x630 Center" -}}
+    {{- $image = $resized.Permalink -}}
+  {{- else -}}
+    {{- /* Try as a static file path */ -}}
+    {{- $image = .Params.image | absURL -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* Use optimized default site image */ -}}
+  {{- with resources.Get "img/lincoln-mullen-photo.png" -}}
+    {{- $resized := .Fill "1200x630 Center" -}}
+    {{- $image = $resized.Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+<!-- OpenGraph meta tags -->
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ $url }}">
+<meta property="og:type" content="{{ $type }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{- if $image }}
+<meta property="og:image" content="{{ $image }}">
+{{- end }}
+{{- if eq $type "article" }}
+<meta property="article:author" content="{{ .Site.Params.author.name }}">
+{{- with .PublishDate }}
+<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end }}
+{{- with .Lastmod }}
+<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end }}
+{{- with .Params.tags }}
+{{- range . }}
+<meta property="article:tag" content="{{ . }}">
+{{- end }}
+{{- end }}
+{{- end }}
+
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{- if $image }}
+<meta name="twitter:image" content="{{ $image }}">
+{{- end }}
+<meta name="twitter:site" content="@lincolnmullen">
+<meta name="twitter:creator" content="@lincolnmullen">

@@ -7,10 +7,10 @@ aliases:
 - '/code/'
 - '/research/'
 description: "Books, articles, software, visualizations, and digital projects by Lincoln Mullen"
-_build:
+build:
   render: true
 cascade:
-  _build:
+  build:
     render: false
     list: true
 ---

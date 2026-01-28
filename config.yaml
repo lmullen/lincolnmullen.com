@@ -1,8 +1,19 @@
 title: "Lincoln Mullen"
 description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
 
+mediaTypes:
+  application/feed+json:
+    suffixes: ["json"]
+
+outputFormats:
+  JSONFeed:
+    mediaType: "application/feed+json"
+    baseName: "index"
+    isPlainText: false
+    rel: "alternate"
+
 outputs:
-  blog: ["HTML", "RSS", "JSON"]
+  blog: ["HTML", "RSS", "JSONFeed"]
 
 permalinks:
   blog: "/:section/:slug/"

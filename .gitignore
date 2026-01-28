@@ -37,3 +37,6 @@ source/.jekyll-metadata
 public
 .hugo_build.lock
 resources/*
+
+# Claude Code local settings
+.claude/settings.local.json

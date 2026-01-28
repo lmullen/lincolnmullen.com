@@ -1,5 +1,7 @@
 ---
 title: "My reading list"
+slug: reading
+description: "Books I'm reading."
 ---
 
 - *Stranger in a Strange Land*

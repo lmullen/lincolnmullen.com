@@ -12,9 +12,6 @@ outputFormats:
     isPlainText: false
     rel: "alternate"
 
-outputs:
-  blog: ["HTML", "RSS", "JSONFeed"]
-
 permalinks:
   blog: "/:section/:slug/"
   archive: "/:slug/"

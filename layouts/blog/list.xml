@@ -19,7 +19,6 @@
     {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter")) }}
     <item>
       {{ if .Params.Linkpost }}
-      <title>Link post: {{ .Content | markdownify | plainify | htmlUnescape | truncate 75 | safeHTML }}</title>
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>
       {{ else }}
       <title>{{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>

@@ -1,0 +1,15 @@
+{
+	"name": "lincolnmullen-dot-com",
+	"compatibility_date": "2025-01-29",
+	"build": {
+		"command": "hugo --cleanDestinationDir --minify"
+	},
+	"assets": {
+		"directory": "./public",
+		"html_handling": "auto-trailing-slash",
+		"not_found_handling": "404-page",
+		"run_worker_first": false
+	},
+	"workers_dev": true,
+	"preview_urls": true
+}

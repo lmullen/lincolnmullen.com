@@ -1,7 +1,11 @@
 ---
 title: 'Church of God'
-date: 2020-05-28T21:15:15-04:00
+date: "2020-05-28"
 slug: 'church-of-god'
+tags:
+- American Religious Ecologies
+- denominations
+draft: false
 ---
 
 For our work on the [*American Religious Ecologies*](https://religiousecologies.org/) project, we have to deal with the way that the federal Census Bureau cataloged religious groups by denomination. At a meeting this week, I conflated the denomination called "The Church of God in Christ Jesus" (an Adventist denomination) with "The Church of God in Christ" (the much larger and predominantly African American Pentecostal-Holiness denomination). Though my sharper colleagues were not confused, perhaps my mistake was understandable. Of the 214 denominations that were enumerated in the 1926 Census of Religious Bodies, here are the ones that have the phrase "Church of God" in their name:

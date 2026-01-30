@@ -1,7 +1,10 @@
 ---
-date: '2014-09-30T14:56:00+00:00'
-slug: 'gender-package-now-on-cran'
 title: Gender package now on CRAN
+date: "2014-09-30"
+slug: 'gender-package-now-on-cran'
+tags:
+- R
+draft: false
 ---
 
 [Gender](http://cran.r-project.org/web/packages/gender/index.html) is an R package which takes names and associated dates or ranges of dates and predicts the gender of the name. The gender package is [now on CRAN](http://cran.r-project.org/web/packages/gender/index.html) for the first time; you can also see the package [README at GitHub](https://github.com/ropensci/gender). This is the package description:

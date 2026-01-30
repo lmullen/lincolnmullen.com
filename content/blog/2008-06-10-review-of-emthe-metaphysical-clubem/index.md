@@ -1,7 +1,10 @@
 ---
-date: '2008-06-10T04:00:00+00:00'
-slug: 'review-of-emthe-metaphysical-clubem'
 title: 'Review of The Metaphysical Club'
+date: "2008-06-10"
+slug: 'review-of-emthe-metaphysical-clubem'
+tags:
+- book reviews
+draft: false
 ---
 
 **Menand, Louis. *The Metaphysical Club*. New York: Farrar, Straus, and Giroux, 2001. 546 pages. ISBN: 0374528497.**

@@ -1,9 +1,11 @@
 ---
-categories:
-- digital history
-date: '2016-01-06T05:00:00+00:00'
-slug: 'jane-john-leslie-a-historical-method-for-algorithmic-gender-prediction'
 title: 'Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction'
+date: "2016-01-06"
+slug: 'jane-john-leslie-a-historical-method-for-algorithmic-gender-prediction'
+tags:
+- digital history
+- R
+draft: false
 ---
 
 [Cameron Blevins](http://www.cameronblevins.org/) and I recently published an article in *Digital Humanities Quarterly* titled "[Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html)." The article has two related goals. First we explain the historical method behind the [gender package](https://github.com/ropensci/gender) for R, showing how it takes into account changes in the associations between names and genders. This method can be used by historians and other scholars to guess genders from first names as reliably as possible. Then, to show how the method can actually be used to make an argument, we apply the method to show that, while the number of history dissertations written by men and women is nearly equal, there continues to be a gap between the number of books on history reviewed in the *American Historical Review* written by men and women.

@@ -1,7 +1,11 @@
 ---
-date: '2009-08-29T04:00:00+00:00'
-slug: 'review-of-prodigal-nation'
 title: 'Review of Prodigal Nation'
+date: "2009-08-29"
+slug: 'review-of-prodigal-nation'
+tags:
+- book reviews
+- American religious history
+draft: false
 ---
 
 **Murphy, Andrew R. *Prodigal Nation: Moral Decline and Divine Punishment from New England to 9/11*. Oxford: Oxford University Press, 2009. 232 pages. ISBN: 978-0-19-532128-9.**

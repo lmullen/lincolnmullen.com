@@ -1,7 +1,10 @@
 ---
-date: '2014-12-13T16:31:00+00:00'
-slug: 'interview-with-the-setup'
 title: Interview with the Setup
+date: "2014-12-13"
+slug: 'interview-with-the-setup'
+tags:
+- personal
+draft: false
 ---
 
 *\[I was interviewed by [The Setup](http://lincoln.mullen.usesthis.com/), "a collection of nerdy interviews asking people from all walks of life what they use to get the job done." The interview is [there](http://lincoln.mullen.usesthis.com/) and below.\]*
@@ -12,7 +15,7 @@ My name is [Lincoln Mullen](http://lincolnmullen.com) and I'm a historian at [Ge
 
 #### What hardware do you use?
 
-I have a [15\" MacBook Pro](http://www.apple.com/macbook-pro/) with an Intel i7 processor, an SSD, and 16 GB of RAM provided by my department. I also use a [ThinkPad T430](http://shop.lenovo.com/us/en/laptops/thinkpad/t-series/t430/) which was my main machine during graduate school. There is an unremarkable Dell external monitor on my desk. I have an iPhone 5C but I more and more dislike using a phone for anything.
+I have a [15" MacBook Pro](http://www.apple.com/macbook-pro/) with an Intel i7 processor, an SSD, and 16 GB of RAM provided by my department. I also use a [ThinkPad T430](http://shop.lenovo.com/us/en/laptops/thinkpad/t-series/t430/) which was my main machine during graduate school. There is an unremarkable Dell external monitor on my desk. I have an iPhone 5C but I more and more dislike using a phone for anything.
 
 I really like my [Timbuk2 Command Laptop messenger](http://www.amazon.com/gp/product/B005HEV52G/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005HEV52G&linkCode=as2&tag=thebacgla-20&linkId=6PG2AG73XNIA5ES4); I wouldn't change a thing about it.
 
@@ -36,6 +39,6 @@ My open-source or open-access licenses of choice are [MIT](http://opensource.org
 
 I have plenty of computing power and can rent more cheaply. I don't even have much to complain about when it comes to battery power. I wish that there was a way to teach students digital methods without going through the grime of setting up a development environment.
 
-I've never found an e-reader that I liked. I want a device with a large-enough screen approaching an 8.5\" by 11\" piece of paper that could read e-books and PDFs of journal articles, nineteenth-century books, and students papers with equal ease, preferably with an e-ink screen. Is that too much to ask?
+I've never found an e-reader that I liked. I want a device with a large-enough screen approaching an 8.5" by 11" piece of paper that could read e-books and PDFs of journal articles, nineteenth-century books, and students papers with equal ease, preferably with an e-ink screen. Is that too much to ask?
 
 And most of all, I'd like more and more academic work in history and the humanities to be released online (in pre-prints like [arXiv](http://arxiv.org/), or in final versions) in open formats and hopefully under open-access licenses.

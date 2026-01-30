@@ -1,7 +1,11 @@
 ---
-date: '2010-05-05T04:00:00+00:00'
-slug: 'review-of-emto-serve-god-and-wal-martem'
 title: 'Review of To Serve God and Wal-Mart'
+date: "2010-05-05"
+slug: 'review-of-emto-serve-god-and-wal-martem'
+tags:
+- book reviews
+- American religious history
+draft: false
 ---
 
 **Moreton, Bethany. *To Serve God and Wal-Mart: The Making of Christian Free Enterprise*. Cambridge, MA: Harvard University Press, 2009.**

@@ -1,7 +1,11 @@
 ---
-date: '2015-01-08T21:15:00+00:00'
-slug: 'new-syllabus-religion-and-capitalism-in-the-united-states'
 title: 'New Syllabus: Religion and Capitalism in the United States'
+date: "2015-01-08"
+slug: 'new-syllabus-religion-and-capitalism-in-the-united-states'
+tags:
+- American religious history
+- teaching
+draft: false
 ---
 
 This semester I'm teaching a new graduate seminar titled "Religion and Capitalism in the United States." The readers of the *Religion in American History* blog [gave me many suggestions](http://usreligion.blogspot.com/2014/11/reading-list-in-history-of-religion-and.html) for the readings. The [syllabus](http://lincolnmullen.com/courses/religion-capitalism.2015/) is available online. Here is the class description:

@@ -1,7 +1,10 @@
 ---
-date: '2014-02-13T15:55:00+00:00'
-slug: 'analyzing-historical-history-dissertations-cleaning-the-data-again'
 title: 'Analyzing Historical History Dissertations: Cleaning the Data Again'
+date: "2014-02-13"
+slug: 'analyzing-historical-history-dissertations-cleaning-the-data-again'
+tags:
+- digital history
+draft: false
 ---
 
 *This series on "Analyzing Historical History Dissertations" is a work in progress. If you would like to cite or link to it, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
@@ -48,7 +51,7 @@ As a last step, I'm dropping all universities with fewer than five dissertations
 
 Making these changes to the data set gives us fewer dissertations: 84428 dissertations before, 80575 after cleaning, which is 3853 fewer dissertations. It's a messy process, but then the data is messy. Keep that in mind the next time you're impressed by a slick visualization.
 
-------------------------------------------------------------------------
+---
 
 Now that the data is more thoroughly cleaned, I have redone some of the more significant visualizations from the earlier posts.
 
@@ -69,7 +72,7 @@ Third, a map of the locations where history dissertations were written.
 
 Finally, a redo of all the page counts by university. (Because nothing makes a post popular like giving every historian in North America a little blue dot of their own to look for.)
 
-------------------------------------------------------------------------
+---
 
 Columbia University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-2-columbia-university.png)
 
@@ -217,7 +220,7 @@ University of Georgia. ![](//files.lincolnmullen.com/downloads/historical-disser
 
 American University. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-2-american-university.png)
 
-Washington University in St. Louis. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-2-washington-university-in-st.-louis.png)
+Washington University in St. Louis. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-2-washington-university-in-st.-louis.png)
 
 Boston College. ![](//files.lincolnmullen.com/downloads/historical-dissertations/pages-2-boston-college.png)
 

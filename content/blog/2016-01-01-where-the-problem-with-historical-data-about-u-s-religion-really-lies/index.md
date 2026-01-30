@@ -20,11 +20,11 @@ This data is extremely limited. The federal censuses that asked about religion o
 
 While the federal censuses with county-level data are the easiest to access, historians aren't obliged to limit themselves to just those sources. In fact, we are in the midst of a renewal of mapping religion in cities in several different projects which have gone far beyond the census data. I'll offer a fuller account of what else is available eventually, but for now let's look at just two tables from two different years' worth of [Methodist annual conference minutes](http://notebook.lincolnmullen.com/Methodist%20Minutes%20of%20the%20Annual%20Conferences). The [first table](http://hdl.handle.net/2027/nyp.33433069134967?urlappend=%3Bseq=34) is from the *Minutes of the Annual Conferences of the Methodist Episcopal Church* for 1787.
 
-![Table from Methodist minutes for 1787](minutes-1787.png)
+{{< figure src="minutes-1787.png" caption="Table from the *Minutes of the Annual Conferences of the Methodist Episcopal Church* for 1787." >}}
 
 The [second table](http://hdl.handle.net/2027/nyp.33433069134900?urlappend=%3Bseq=23) is from the same minutes for 1858.
 
-![Table from Methodist minutes for 1858](minutes-1858.png)
+{{< figure src="minutes-1858.png" caption="Table from the *Minutes of the Annual Conferences of the Methodist Episcopal Church* for 1858." >}}
 
 Looking at these tables we see how these denominational records escape some of the constraints of county-level census data. Let's make a partial list of what is useful here. First the data in these tables is far more geographically detailed, focusing on circuits and stations. Not only is it more detailed, but the geographic divisions are linked to the institutional structures of the denomination rather than to arbitrary administrative boundaries. Second, with some effort the names of places can be linked from year to year, so that we can get an estimate not just of how the denomination changed as a whole but what was happening over time in particular places. Third, the data is annual. This is hugely important, since not only does it give us ten times more decade per data, but it also lets us evaluate the quality of the data by looking for anomalies. Fourth, the data starts much earlier than the federal data and goes on for longer. Fifth, we have far more interesting variables available to us. The number of adherents is a more useful thing to know than the number of churches. By the 1850s we can start to see things like the number of adherents per minister or per church, the ratio between infant and adult baptism, and so on. And most important even in the earliest Methodist data we have separate figures for white and black Methodists.
 

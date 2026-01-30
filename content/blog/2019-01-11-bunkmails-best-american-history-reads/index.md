@@ -1,5 +1,5 @@
 ---
-title: "Bunkmail's "Best American History Reads" and public engagement"
+title: 'Bunkmail''s "Best American History Reads" and public engagement'
 date: "2019-01-11"
 slug: 'bunkmails-best-american-history-reads'
 tags:

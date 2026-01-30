@@ -1,9 +1,12 @@
 ---
 title: "The Chance of Salvation at Fall for the Book"
-date: 2018-10-09T11:38:20-04:00
+date: "2018-10-09"
+slug: "the-chance-of-salvation-at-fall-for-the-book"
+tags:
+- Chance of Salvation
+- talks
 draft: false
 ---
-
 
 [Fall for the Book](http://fallforthebook.org/) is an annual book festival held at George Mason University and other venues in Fairfax, VA. If you are in Fairfax on October 10--13, it's worth attending.
 

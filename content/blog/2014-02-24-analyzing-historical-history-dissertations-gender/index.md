@@ -17,15 +17,11 @@ But names are an imperfect indicator of gender. To begin with, you need a list o
 
 Using that method, I've guessed the gender of the first names in the dissertations data set, and produced this chart, which shows the number of dissertations produced in absolute terms.(The "unknowns" are names which did not appear in the Social Security Administration data for the given time period; as you would expect, in most cases they are non-European names.)
 
-{{< figure src="//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.svg" >}}
-
-[SVG](//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.svg) | [PNG](//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.png) | [PDF](//files.lincolnmullen.com/downloads/historical-dissertations/plot-gender.pdf)
+{{< figure src="plot-gender.svg" caption="History dissertations by gender, absolute numbers." >}}
 
 Another way to examine this trend is to look at the proportion of male and female writers of history dissertations over time, which smooths out changes in the absolute number of dissertations produced. As you can see, the proportion of dissertations written by women has steadily increased since the 1950s. It appears to be plateauing with men producing a few percentage points more dissertations than women. (Keep in mind though that the number of names I was unable to identify is substantial, about 10% for each year through the 2000s.)
 
-{{< figure src="//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.svg" >}}
-
-[SVG](//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.svg) | [PNG](//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.png) | [PDF](//files.lincolnmullen.com/downloads/historical-dissertations/dissertations-by-gender-proportion.pdf)
+{{< figure src="dissertations-by-gender-proportion.svg" caption="History dissertations by gender, proportions." >}}
 
 If you want the percentages of dissertations written by men and women in tabular form, here it is.
 

@@ -1,7 +1,10 @@
 ---
-date: '2014-03-01T17:00:00+00:00'
-slug: 'the-return-of-the-emlongue-dureeem-in-american-religious-history'
 title: 'The Return of the Longue Durée in American Religious History'
+date: "2014-03-01"
+slug: 'the-return-of-the-emlongue-dureeem-in-american-religious-history'
+tags:
+- American religious history
+draft: false
 ---
 
 *\[This post originally appeared at [Religion in American History](http://usreligion.blogspot.com/2014/03/the-return-of-longue-duree-in-american.html).\]*
@@ -16,7 +19,7 @@ Doubtless the main lines of that story are true. Historians did write accounts o
 
 When I revisit works written before the development of the new historiography of American religion, I am surprised at how little they can be characterized by their supposed "narrowness," and how expansive they were. They were expansive because they were aimed at synthesizing and thus explaining American religion. I'll give two examples. Sidney Mead's *The Lively Experiment* (1963 but assembled from essays published earlier) is as open to the charge of being a book just about Protestants as any other work. Yet the book is striking in its ambition to encompass all of American religion within its interpretative framework, which runs from the colonial period to Mead's present where he thought the "lively experiment" was in danger of failing.
 
-Sydney Ahlstrom's *A Religious History of the American People* (1972) is the work to which I continually return in trying to understand how the discipline has changed. Ahlstrom's book was the flowering of the earlier historiography in that it tried to encompass all of American religion in a single history. It was also the seed of the new historiography, since any section of Ahlstrom's book could be taken as the idea for a monograph. What is striking about Sydney Ahlstrom's book is not the gaps exposed in his synthetic, *longue durée* treatment by the historiography since 1972, but that scholars who have all the benefit of that new historiography have not come anywhere close to writing such a synthesis, and indeed seem mostly to have given up on the attempt. [<sup>1</sup>](#fn1){\#fnref1.footnoteRef}
+Sydney Ahlstrom's *A Religious History of the American People* (1972) is the work to which I continually return in trying to understand how the discipline has changed. Ahlstrom's book was the flowering of the earlier historiography in that it tried to encompass all of American religion in a single history. It was also the seed of the new historiography, since any section of Ahlstrom's book could be taken as the idea for a monograph. What is striking about Sydney Ahlstrom's book is not the gaps exposed in his synthetic, *longue durée* treatment by the historiography since 1972, but that scholars who have all the benefit of that new historiography have not come anywhere close to writing such a synthesis, and indeed seem mostly to have given up on the attempt.[^1]
 
 Ahlstrom's work was watershed, in that later scholars have been fulfilling the goal of comprehensiveness in terms of topics of study, but at the expense of comprehensiveness in terms of chronology. In other words, at the same moment that historians were beginning to return to the *longue durée*, according to Ben Schmidt's [analysis](http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html), historians of religion turned to tackling both narrower time periods and narrower subjects. While I have not ([yet](http://lincolnmullen.com/research/history-dissertations/)) tried to chart the patterns for religious history separate from history generally, my reading of the historiography since Ahlstrom makes me think that the periods of time that religious historians wrote about got shorter even as their subjects got narrower.
 
@@ -35,13 +38,5 @@ That religious history is should be stuck writing about such short time periods 
 But as Armitage and Guldi point out, the new resources and techniques of digital history are making possible a new *longue durée* history. They write that "the arrival in the past five years of mass digitization projects ... announced an age of easy access to a tremendous amount of archival material." Access to sources has been accompanied by the development of "tools for abstracting knowledge" that "invite scholars to constantly try out historical hypotheses across the time scale of centuries." On this blog [Chris Cantwell](http://cas.umkc.edu/history/faculty/cantwell.asp) [has](http://usreligion.blogspot.com/2014/02/mavcor-new-digital-publication.html) [written](http://usreligion.blogspot.com/2013/12/winning-internet-religion-media-and.html) [about](http://usreligion.blogspot.com/2013/11/tumblr-ing-into-restored-jesuit-history.html) the [possibilities](http://usreligion.blogspot.com/2013/09/the-jesuit-libraries-project.html) [of](http://usreligion.blogspot.com/2013/07/digital-religion-in-classroom.html) [digital](http://usreligion.blogspot.com/2013/03/exhibiting-faith-religion-public.html) [history](http://usreligion.blogspot.com/2013/04/exhibiting-faith-part-ii-toward-public.html) for the field of American religion, and I have [contributed](http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html) [as well](http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html). There is much more to be said on this score, and many scholars have been doing the actual work of integrating digital history and religion. My hope is that as religion scholars take advantage of digital methodologies, they will return to writing more comprehensive works over longer periods of time.
 
 As I mentioned before, I think that the problem of the *longue durée* (meaning comprehensiveness over time) is tied to the problem of synthesis (here meaning comprehensiveness across religious traditions). The place of synthesis in American religious history is something I'll have to turn to in a later post. But I write this post as a question as much as an answer: How do you see the mainlines of the historiography of American religion? Have the chronological ambitions of Am Rel Hist shortened? And if so, is a return to longer periods of time desirable, and how might that be possible?
-<section class="footnotes">
 
-------------------------------------------------------------------------
-
-<li id="fn1">
-<p>
-Let's not count textbook syntheses of American religion which are uniformly terrible. By synthesis I don't really mean the synthesis that is aimed at classrooms, but the kind of "primary synthesis" that is genuinely original scholarship but that aims its sights more broadly than the monograph.<a href="#fnref1">↩</a>
-</p>
-</li>
-</section>
+[^1]: Let's not count textbook syntheses of American religion which are uniformly terrible. By synthesis I don't really mean the synthesis that is aimed at classrooms, but the kind of "primary synthesis" that is genuinely original scholarship but that aims its sights more broadly than the monograph.

@@ -1,10 +1,12 @@
 ---
-categories:
+title: New package tokenizers joins rOpenSci
+date: "2016-08-24"
+slug: 'new-package-tokenizers-joins-ropensci'
+tags:
 - digital history
 - R
-date: '2016-08-24T12:38:10+00:00'
-slug: 'new-package-tokenizers-joins-ropensci'
-title: New package tokenizers joins rOpenSci
+- tokenizers
+draft: false
 ---
 
 *This post [originally appeared](http://ropensci.org/blog/2016/08/23/tokenizers-joins-ropensci) at the rOpenSci blog*.
@@ -24,12 +26,12 @@ One of the basic tasks in any NLP pipeline is turning texts (which humans can re
 library(WPAnarratives)
 library(tokenizers)
 
-text &lt;- head(wpa_narratives$text, 5)
+text <- head(wpa_narratives$text, 5)
 class(text)
 
 ## [1] "character"
 
-words &lt;- tokenize_words(text, lowercase = TRUE)
+words <- tokenize_words(text, lowercase = TRUE)
 str(words)
 
 ## List of 5
@@ -39,7 +41,7 @@ str(words)
 ##  $ : chr [1:779] "charity" "anderson" "who" "believes" ...
 ##  $ : chr [1:350] "dat" "was" "one" "time" ...
 
-ngrams &lt;- tokenize_ngrams(text, n_min = 3, n = 5)
+ngrams <- tokenize_ngrams(text, n_min = 3, n = 5)
 str(ngrams)
 
 ## List of 5

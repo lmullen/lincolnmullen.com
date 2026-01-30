@@ -1,7 +1,10 @@
 ---
-date: '2014-02-12T13:55:00+00:00'
-slug: 'analyzing-historical-history-dissertations-location'
 title: 'Analyzing Historical History Dissertations: Location'
+date: "2014-02-12"
+slug: 'analyzing-historical-history-dissertations-location'
+tags:
+- digital history
+draft: false
 ---
 
 *This series on "Analyzing Historical History Dissertations" is a work in progress and I've re-done some of these visualizations. If you would like to cite or link to this work in progress, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
@@ -21,6 +24,6 @@ The main observations I would make are these. First, the Northeast produces a lo
 
 In future posts I want to look at not just the places where historians write, but the places they write about. I'm curious to see if I can detect some correlation between the universities that produce dissertations and the places those dissertations are about. Surely there is a reason for all these dissertations about Boston and Chicago.
 
-------------------------------------------------------------------------
+---
 
 Caveats: If you zoom the map out, you'll see that there is some cruft in the data. There are 341 dissertations in Asia, 55 in Australia, 94 in Europe, 6 in Africa, and 2 in South America. There are also 4,608 dissertations in Canada. Clearly this data set does not contain all the dissertations from outside North America. It's not clear to me whether the data set is comprehensive for Canadian dissertations or not. I knew that there were some non-U.S. dissertations in the data set, but I didn't know how many or from where exactly until I made this map. For future analysis I'm going to trim all the dissertations from outside the United States, and go back and redo the earlier analysis, though the difference will likely be minimal. That's why I practice [reproducible research](http://christophergandrud.github.io/RepResR-RStudio/). And as I observed in the post on [page counts by university](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts-by-university/), the data set only has information for some universities after the 1980s or 1990s. That will skew the numbers on this map down.

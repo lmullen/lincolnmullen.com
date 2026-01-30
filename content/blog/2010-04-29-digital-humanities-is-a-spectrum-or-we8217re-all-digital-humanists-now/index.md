@@ -1,11 +1,10 @@
 ---
-categories:
-- digital history
-date: '2010-04-29T04:00:00+00:00'
+title: "Digital humanities is a spectrum; or, we're all digital humanists now"
+date: "2010-04-29"
 slug: 'digital-humanities-is-a-spectrum-or-we8217re-all-digital-humanists-now'
-title: 'Digital humanities is a spectrum; or, we''re all digital humanists now'
-alias:
-- '/2010/04/29/digital-humanities-is-a-spectrum-or-were-all-digital-humanists-now'
+tags:
+- digital history
+draft: false
 ---
 
 Digital humanities is a spectrum. To put it another way, all humanities scholars use digital practices and concepts to one degree or another, even those who do not identify as digital humanists. Working as a digital humanist is *not* one side of a binary, the other side of which is working as a traditional scholar.

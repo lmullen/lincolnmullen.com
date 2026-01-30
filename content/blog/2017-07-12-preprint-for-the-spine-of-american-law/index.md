@@ -1,17 +1,19 @@
 ---
-categories:
-- '19th-century history'
-- digital history
-date: '2017-07-13T01:55:08+00:00'
+title: 'Preprint for "The Spine of American Law"'
+date: "2017-07-13"
 slug: 'preprint-for-the-spine-of-american-law'
-title: 'Preprint for “The Spine of American Law”'
+tags:
+- digital history
+- legal history
+- publications
+draft: false
 ---
 
-[Kellen Funk](http://kellenfunk.org/) and I have co-authored an article titled "[The Spine of American Law: Digital Text Analysis and U.S. Legal Practice](https://ssrn.com/abstract=3001377)." The article has been recently accepted for publication in the *American Historical Review*. It is currently scheduled for the February 2018 issue. Here is our abstract.
+[Kellen Funk](http://kellenfunk.org/) and I have co-authored an article titled "[The Spine of American Law: Digital Text Analysis and U.S. Legal Practice](https://ssrn.com/abstract=3001377)." The article has been recently accepted for publication in the *American Historical Review*. It is currently scheduled for the February 2018 issue. Here is our abstract.
 
 > In the second half of the nineteenth century, the majority of U.S. states adopted a novel code of legal practice for their civil courts. Legal scholars have long recognized the influence of the New York lawyer David Dudley Field on American legal codification, but tracing the influence of Field's code of civil procedure with precision across some 30,000 pages of statutes is a daunting task. By adapting methods of digital text analysis to observe text reuse in legal sources, this article provides a methodological guide to show how the evolution of law can be studied at a macro level---across many codes and jurisdictions---and at a micro level---regulation by regulation. Applying these techniques to the Field Code and its emulators, we show that by a combination of creditors' remedies the code exchanged the rhythms of agriculture for those of merchant capitalism. Archival research confirmed that the spread of the Field Code united the American South and American West in one Greater Reconstruction. Instead of just a national political development centered in Washington, we show that Reconstruction was also a state-level legal development centered on a procedure code from the Empire State of finance capitalism.
 
-The authors' original manuscript (or preprint) is [available at SSRN](https://ssrn.com/abstract=3001377). This is the version that we submitted for peer review in July 2016. The final version will be different, in part because of our revisions in response to the helpful peer reviews, and in part because we have expanded our original corpus by some 40% and plan to expand it further before publication. While we think these revisions greatly strengthen the essay, we don't think that they invalidate this earlier version. So we are making the authors' original manuscript available now following Oxford University Press's [policy](https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f).
+The authors' original manuscript (or preprint) is [available at SSRN](https://ssrn.com/abstract=3001377). This is the version that we submitted for peer review in July 2016. The final version will be different, in part because of our revisions in response to the helpful peer reviews, and in part because we have expanded our original corpus by some 40% and plan to expand it further before publication. While we think these revisions greatly strengthen the essay, we don't think that they invalidate this earlier version. So we are making the authors' original manuscript available now following Oxford University Press's [policy](https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f).
 
 This article relies on computational methods and so it has a number of related pieces. We've written two software packages for R that implement our method, the [tokenizers package](https://github.com/ropensci/tokenizers) and the [textreuse package](https://github.com/ropensci/textreuse), both separately peer reviewed by rOpenSci. This older [working paper](https://osf.io/preprints/socarxiv/nfg92/) describes our method, and we wrote a [brief essay](http://rg.rg.mpg.de/en/article_id/1040) for a digital history forum in *Rechtsgeschichte*. And of course there is the corpus of texts and the scripts to do the analysis and create the article and visualizations. This code and data is available in a [GitHub repository](https://github.com/lmullen/civil-procedure-codes#readme). If you know your way around R and GNU Make you should be able to reproduce our results from that code, but we plan to make a more useable research compendium available when the final version is published.
 

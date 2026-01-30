@@ -1,7 +1,10 @@
 ---
-date: '2014-09-19T16:12:00+00:00'
-slug: 'two-new-classes-for-the-spring'
 title: Two New Classes for the Spring
+date: "2014-09-19"
+slug: 'two-new-classes-for-the-spring'
+tags:
+- teaching
+draft: false
 ---
 
 This spring I'll be [teaching](/teaching/) two new courses. This first is a graduate course on "Religion and Capitalism in the United States." The new history of capitalism is bringing tremendous energy to American history generally, and historians of American religions have been producing lots of great books on the connection between religion and capitalism recently. Here is my first take at a course description:

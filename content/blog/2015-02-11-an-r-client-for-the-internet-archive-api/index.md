@@ -1,7 +1,11 @@
 ---
-date: '2015-02-11T14:15:00+00:00'
-slug: 'an-r-client-for-the-internet-archive-api'
 title: An R Client for the Internet Archive API
+date: "2015-02-11"
+slug: 'an-r-client-for-the-internet-archive-api'
+tags:
+- R
+- digital history
+draft: false
 ---
 
 In support of some of my research projects, I created a simple R package to access the [Internet Archive's](https://archive.org/) API. The package is intended to search for items, to retrieve their metadata in a usable form, and to download the files associated with the items. The package, called `internetarchive`, is [available on GitHub](https://github.com/lmullen/internetarchive). The README and the [vignette](http://lincolnmullen.com/research/internetarchive/) have a full explanation, but here is a brief overview.

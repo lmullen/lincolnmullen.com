@@ -1,7 +1,11 @@
 ---
-date: '2015-09-10T04:00:00+00:00'
-slug: 'corpus-of-american-tract-society-publications'
 title: Corpus of American Tract Society Publications
+date: "2015-09-10"
+slug: 'corpus-of-american-tract-society-publications'
+tags:
+- digital history
+- text analysis
+draft: false
 ---
 
 I've created a small to mid-sized corpus of publications by the American Tract Society up to the year 1900 in plain text. This corpus has been gathered from the [Internet Archive](https://archive.org/). It includes 641 documents containing just under sixty million words, along with a CSV file containing metadata for each of the files. I don't make any claims that this includes all of the ATS publications from that time period, and it is pretty obvious that the metadata from the Internet Archive is not much good. The titles are mostly correct; the dates are pretty far off in cases.
@@ -10,7 +14,7 @@ This corpus was created for the purpose of testing document similarity and text 
 
 Here is the corpus and its repository:
 
--   [ats\_corpus.zip](//files.lincolnmullen.com/ats_corpus.zip) (128 MB)
--   [GitHub repository to reproduce the corpus](https://github.com/lmullen/ats-corpus)
+- [ats\_corpus.zip](https://files.lincolnmullen.com/ats_corpus.zip) (128 MB)
+- [GitHub repository to reproduce the corpus](https://github.com/lmullen/ats-corpus)
 
 **Update September 11, 2015:** I say this is a small corpus, which it is in the sense that you can store the texts in well under a gigabyte of RAM. But note that when making naive pairwise comparisons, there are 205,120 pairs of documents. In other words, the corpus is big enough that you need a non-naive approach.

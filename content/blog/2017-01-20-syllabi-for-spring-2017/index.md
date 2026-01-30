@@ -1,18 +1,18 @@
 ---
-categories:
-- teaching
-date: '2017-01-20T14:04:35+00:00'
+title: Syllabi for spring 2017
+date: "2017-01-20"
 slug: 'syllabi-for-spring-2017'
 tags:
+- teaching
 - syllabus
-title: Syllabi for spring 2017
+draft: false
 ---
 
 This semester I am teaching three courses, two undergraduate and one graduate. "[Global History of Christianity](http://historyarthistory.gmu.edu/courses/1125/course_sections/30456)" is a new course which Mack Holt, John Turner, and I are team teaching in both history and religious studies. This course was Mack's idea, and the team teaching this semester is a one-time deal, but I am very glad that it's been approved for the catalog going forward. "[The Digital Past](http://historyarthistory.gmu.edu/courses/1125/course_sections/30456)" is taught by a number of people at Mason, but I've decided to organize mine around the theme of "Reconstruction and Redemption." For the graduate students, I've taught a version of "[Data and Visualization in Digital History](http://historyarthistory.gmu.edu/courses/1201/course_sections/30481)" before, but this is the first time that I'm teaching it as one of the required courses in the PhD sequence instead of as an elective.
 
 Here are the syllabi and course descriptions.
 
-**Global History of Christianity, [syllabus](//files.lincolnmullen.com/Global-History-Christianity.spring-2017.pdf)**
+**Global History of Christianity, [syllabus](Global-History-Christianity.spring-2017.pdf)**
 
 > This course is organized around a comparative examination of the many forms of global Christianity over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological contexts, students will explore several themes: use of sacred texts and the experiences of a typical church service, the relationship between Christianity and politics, and cultural aspects such as marriage and sexuality. Students will also consider Christianity as a series of global systems organized around missions, migration, trade, and warfare.
 

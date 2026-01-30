@@ -2,7 +2,7 @@
 <figure class="my-5">
 	{{ $raw := .Get "src" | $.Page.Resources.Get }}
 	{{ $ext := path.Ext (.Get "src") }}
-	{{ if ne $ext ".gif" }}
+	{{ if and (ne $ext ".gif") (ne $ext ".svg") }}
 	{{ $regular := $raw.Resize "702x webp"}}
 	{{ $retina := $raw.Resize "1404x webp"}}
 	{{ $link := .Get "link" }}
@@ -10,7 +10,7 @@
 		<img class="img-fluid" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }}, {{ $retina.Permalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}'>
 	</a>
 	{{ else }}
-	<!-- Don't process GIFs-->
+	<!-- Don't process GIFs or SVGs -->
 	<img class="img-fluid" src='{{ $raw.Permalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
 	{{ end }}
 	<figcaption class="ms-5">

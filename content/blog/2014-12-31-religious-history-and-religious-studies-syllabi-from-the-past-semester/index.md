@@ -1,7 +1,11 @@
 ---
-date: '2014-12-31T14:03:00+00:00'
-slug: 'religious-history-and-religious-studies-syllabi-from-the-past-semester'
 title: Religious History and Religious Studies Syllabi from the Past Semester
+date: "2014-12-31"
+slug: 'religious-history-and-religious-studies-syllabi-from-the-past-semester'
+tags:
+- American religious history
+- teaching
+draft: false
 ---
 
 Happy New Year, Religion in American History readers.

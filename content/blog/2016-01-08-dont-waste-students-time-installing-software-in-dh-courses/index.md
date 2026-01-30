@@ -1,14 +1,14 @@
 ---
-categories:
-- digital history
-date: '2016-01-08T05:00:00+00:00'
+title: "Don't Waste Students' Time Installing Software in DH Courses"
+date: "2016-01-08"
 slug: 'dont-waste-students-time-installing-software-in-dh-courses'
 tags:
+- digital history
 - AHA
 - conference
 - RStudio
 - teaching
-title: "Don't Waste Students' Time Installing Software in DH Courses"
+draft: false
 ---
 
 Here is a summary of what I said in the [DH pedagogy lightening sessions](http://www.historians.org/annual-meeting/resources-and-guides/digital-history-at-aha16/digital-history-lightning-rounds/aha16-digital-pedagogy-lightning-round-lineup) at the AHA.
@@ -23,11 +23,11 @@ Not so simple solution: My solution to this problem is to try to take the burden
 
 You might object: there is no way my institution will give me a server of my own, and installing RStudio Server might be too difficult for me. For RStudio, at least, the [analogsea package](https://github.com/sckott/analogsea) can help you get a server up and running at Digital Ocean. Assuming you already have a [Digital Ocean](https://www.digitalocean.com/) account, it can be as simple as these few lines of code (though you will also have to add users and configure the memory).
 
-::: {.sourceCode}
-<pre class="sourceCode r"><code class="sourceCode r">&lt;span class="kw">library&lt;/span>(analogsea)
+```r
+library(analogsea)
 
-&lt;span class="kw">docklet_create&lt;/span>() %&gt;%
-&lt;span class="st"> &lt;/span>&lt;span class="kw">docklet_rstudio&lt;/span>()</code></pre>
-:::
+docklet_create() %>%
+  docklet_rstudio()
+```
 
 The point is not that you should use RStudio Server (though it's great), and there are other options like Anaconda for Python. The point is to find a way to reduce or eliminate the waste of student time and attention that comes from installing software. Find a way to scaffold your courses so that you can get straight into the digital history.

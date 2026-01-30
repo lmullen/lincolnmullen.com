@@ -1,10 +1,9 @@
 ---
 title: 'Chronicling America OCR debatcher'
-date: 2019-01-24T18:01:12-05:00
+date: "2019-01-24"
 slug: 'chronam-debatcher'
-series:
-subjects:
-- go
+tags:
+- Go
 - software
 draft: false
 ---

@@ -1,7 +1,10 @@
 ---
-date: '2014-04-05T22:28:00+00:00'
-slug: 'the-two-purposes-of-book-reviews'
 title: The Two Purposes of Book Reviews
+date: "2014-04-05"
+slug: 'the-two-purposes-of-book-reviews'
+tags:
+- book reviews
+draft: false
 ---
 
 At the *Anxious Bench*, [Thomas Kidd](http://www.baylor.edu/history/index.php?id=7728) has a post titled "[The Art of the Book Review](http://www.patheos.com/blogs/anxiousbench/2014/04/the-art-of-the-book-review/)." Kidd argues:

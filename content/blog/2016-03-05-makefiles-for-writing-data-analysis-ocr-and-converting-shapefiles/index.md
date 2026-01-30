@@ -1,17 +1,19 @@
 ---
-categories:
-- digital history
-date: '2016-03-05T05:00:00+00:00'
-slug: 'makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles'
 title: 'Makefiles for Writing, Data Analysis, OCR, and Converting Shapefiles'
+date: "2016-03-05"
+slug: 'makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles'
 aliases:
 - /blog/makefiles-for-ocr-and-converting-shapefiles/
+tags:
+- digital history
+- programming
+draft: false
 ---
 
-I love Makefiles more than I ought to.[<sup>1</sup>](#fn1) If you haven't come across [GNU Make](https://www.gnu.org/software/make/) before, then Mike Bostock's "[Why Use Make](https://bost.ocks.org/mike/make/)" is a good introduction, as is the [section on Make](http://plain-text.co/make.html) at Kieran Healy's "[Plain Person's Guide to Plain Text Social Science](http://plain-text.co/)." I like Make for several reasons. It lets you specify how your final products (like a website or a PDF document) are related to inputs, and that discipline is invaluable for producing reproducible research and for structuring your project sensibly. For lots of tasks it provides free parallelization and rebuilds only what is absolutely necessary. Since my projects fit into several different genres, once I have created a Makefile for the genre, it is trivial to adapt it to different projects. Whether it is an article or a book manuscript, a data analysis project, a website, my CV, or some kind of file conversion process, all that I need to remember how to do is type `make` to build the project, `make deploy` to put it on the web, and `make clean` to start over.
+I love Makefiles more than I ought to.[^1] If you haven't come across [GNU Make](https://www.gnu.org/software/make/) before, then Mike Bostock's "[Why Use Make](https://bost.ocks.org/mike/make/)" is a good introduction, as is the [section on Make](http://plain-text.co/make.html) at Kieran Healy's "[Plain Person's Guide to Plain Text Social Science](http://plain-text.co/)." I like Make for several reasons. It lets you specify how your final products (like a website or a PDF document) are related to inputs, and that discipline is invaluable for producing reproducible research and for structuring your project sensibly. For lots of tasks it provides free parallelization and rebuilds only what is absolutely necessary. Since my projects fit into several different genres, once I have created a Makefile for the genre, it is trivial to adapt it to different projects. Whether it is an article or a book manuscript, a data analysis project, a website, my CV, or some kind of file conversion process, all that I need to remember how to do is type `make` to build the project, `make deploy` to put it on the web, and `make clean` to start over.
 
 <!--more-->
-I often get asked how to do certain tasks related to digital humanities. Several of these queries came all at once recently, so it made sense to create some general purpose Makefiles that solve certain classes of problems.[<sup>2</sup>](#fn2){\#fnref2.footnoteRef} Below I point you to Makefiles for writing projects, for data analysis notebooks and other websites using R Markdown, for OCRing PDFs, and for converting shapefiles.
+I often get asked how to do certain tasks related to digital humanities. Several of these queries came all at once recently, so it made sense to create some general purpose Makefiles that solve certain classes of problems.[^2] Below I point you to Makefiles for writing projects, for data analysis notebooks and other websites using R Markdown, for OCRing PDFs, and for converting shapefiles.
 
 If you look over all these Makefiles you'll see that there are probably only five or six elements which are repeated over and over. It doesn't take many lines in a Makefile to get powerful results, yet I run the command `make` literally dozens of times per day in widely varying projects. GNU Make is a little peculiar, but picking it up has probably had the best return on my time for any technology I've learned.
 
@@ -32,14 +34,7 @@ A common problem is to have a batch of PDFs for which one wants to generate OCR 
 ### Converting and simplifying shapefiles
 
 [NHGIS](https://www.nhgis.org/) is awesome for providing high quality shapefiles keyed to each U.S. Census. But these are too high-resolution and in the wrong projection to upload to [CartoDB](https://cartodb.com/), which is often useful for teaching. [This is a Makefile](https://github.com/lmullen/nghis-simplifier) which will convert those NHGIS shapefiles into a format that you can use in CartoDB. It wouldn't take much tweaking to adapt this to other tasks involving the conversion of shapefiles.
-<section class="footnotes">
 
-------------------------------------------------------------------------
+[^1]: One of my favorite parlor tricks is "deleting" my book manuscript in front of an audience, typing `make` and letting them watch it be recreated.
 
-<li id="fn1">
-One of my favorite parlor tricks is "deleting" my book manuscript in front of an audience, typing <code>make</code> and letting them watch it be recreated.<a href="#fnref1">↩</a>
-</li>
-<li id="fn2">
-No, if you write to me I won't create a custom Makefile for your project. These were things I had already written for my own purposes and it was trivial to generalize them for people I have an obligation to.<a href="#fnref2">↩</a>
-</li>
-</section>
+[^2]: No, if you write to me I won't create a custom Makefile for your project. These were things I had already written for my own purposes and it was trivial to generalize them for people I have an obligation to.

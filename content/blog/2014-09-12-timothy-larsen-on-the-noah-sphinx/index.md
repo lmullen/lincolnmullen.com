@@ -1,7 +1,10 @@
 ---
-date: '2014-09-12T13:15:00+00:00'
-slug: 'timothy-larsen-on-the-noah-sphinx'
 title: Timothy Larsen on The Noah Sphinx
+date: "2014-09-12"
+slug: 'timothy-larsen-on-the-noah-sphinx'
+tags:
+- book reviews
+draft: false
 ---
 
 Over at *Books and Culture*, Timothy Larsen has an [entertaining review](http://www.booksandculture.com/articles/2014/sepoct/noah-sphinx.html) of David Gange's *Dialogues with the Dead: Egyptology in British Culture and Religion, 1822--1922*.

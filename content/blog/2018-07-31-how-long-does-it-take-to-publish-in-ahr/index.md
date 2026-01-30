@@ -1,6 +1,10 @@
 ---
 title: "How long does it take to publish in the AHR?"
-date: 2018-07-31T07:00:00-04:00
+date: "2018-07-31"
+slug: "how-long-does-it-take-to-publish-in-the-ahr"
+tags:
+- publishing
+- peer review
 draft: false
 ---
 
@@ -41,6 +45,6 @@ Nevertheless, I want to make two suggestions that I think could speed up the del
 
 The first suggestion is to give peer reviewers shorter deadlines. I don't have any hard figures, but from my own experience as a referee, humanities journals tend to give scholars two or even three months to complete a peer review. To be honest, when I get a review deadline that is three months out, I start it about a week before the review is due. There are just too many other things to do to get a review back months early. But when I review software or software papers, I am typically given a deadline that is two or three weeks away---and start the review about a week before it is due. Whether the deadline is three weeks or three months, some reviwers will be late, and some will never finish the review. But with a shorter deadline, there isn't a guaranteed delay of several months before problems crop up. (The *Journal of the American Academy of Religion*, for example, requests reviews within in two weeks.)
 
-The second suggestion is that authors should post preprints at the earliest possible opportunity. Oxford University Press, the publisher of the *AHR*, has a fairly reasonable [preprint policy](https://academic-oup-com.mutex.gmu.edu/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f). In brief, authors are allowed to do whatever they like with the "author's original version" that is initially submitted. Kellen and I posted that version to the [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3001377) and [SocArXiv](https://osf.io/preprints/socarxiv/w8un4/) preprint servers the day that our article was accepted. That was about a year after we submitted the article, but it got the piece into circulation nearly seven months before the article was published. If we had been a little bolder, we could have posted that preprint the same day we submitted the article---a delay between submission and circulation of zero days. 
+The second suggestion is that authors should post preprints at the earliest possible opportunity. Oxford University Press, the publisher of the *AHR*, has a fairly reasonable [preprint policy](https://academic-oup-com.mutex.gmu.edu/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_f). In brief, authors are allowed to do whatever they like with the "author's original version" that is initially submitted. Kellen and I posted that version to the [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3001377) and [SocArXiv](https://osf.io/preprints/socarxiv/w8un4/) preprint servers the day that our article was accepted. That was about a year after we submitted the article, but it got the piece into circulation nearly seven months before the article was published. If we had been a little bolder, we could have posted that preprint the same day we submitted the article---a delay between submission and circulation of zero days.
 
-Whether or not humanities journals speed up the time to publication on their end, authors can use preprints to speed up the time to circulation. In a later post, I'll have some further thoughts about an effective preprint strategy for authors. 
+Whether or not humanities journals speed up the time to publication on their end, authors can use preprints to speed up the time to circulation. In a later post, I'll have some further thoughts about an effective preprint strategy for authors.

@@ -1,7 +1,11 @@
 ---
-date: '2010-10-14T04:00:00+00:00'
+title: 'Review of All Can Be Saved'
+date: "2010-10-14"
 slug: 'review-of-emall-can-be-savedem'
-title: Review of All Can Be Saved
+tags:
+- book reviews
+- history
+draft: false
 ---
 
 **Schwartz, Stuart B. *All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World*. New Haven, CT: Yale University Press, 2008. ISBN: 978-0-300-15854-0.**

@@ -1,7 +1,10 @@
 ---
-date: '2010-09-10T04:00:00+00:00'
+title: "Sacred Book, Sacred Space: My Attempt to Buy a Qur'an"
+date: "2010-09-10"
 slug: 'sacred-book-sacred-space-my-attempt-to-buy-a-quran'
-title: 'Sacred Book, Sacred Space: My Attempt to Buy a Qur''an'
+tags:
+- religion
+draft: false
 ---
 
 Yesterday afternoon, I tried to buy a Qur'an. I used to own two copies of the Qur'an (or, to be precise, a translation of the meaning of the Qur'an). One I bought as a textbook, and read, and one was mailed to me by Muslims trying to proselytize, but a search of my bookcases and attic revealed that neither copy had survived recent relocations. And so, I walked to the center of town to buy another copy.

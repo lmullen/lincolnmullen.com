@@ -29,21 +29,21 @@ First, Boston was far and away the biggest city in Massachusetts, but it had lit
 Second, in the 1800 election Strong won because he won Berkshire and Hampshire Counties in Western Massachusetts. Gerry's support in those counties was virtually non-existent.[^6] Gerry, though, did much better in Maine, especially away from the coast. Strong also did well in Essex County, a Federalist center of strength.
 
 <figure>
-<iframe src="//files.lincolnmullen.com/figures//ma-gov/ma-gov-1800.html" style="height:500px;width:100%;"></iframe>
+<iframe src="ma-gov-1800.html" style="height:500px;width:100%;"></iframe>
 <figcaption>Figure 3: Election for Massachusetts governor, 1800. Data: <a href="http://elections.lib.tufts.edu/">A New Nation Votes</a>.</figcaption>
 </figure>
 
 By 1807 the Democratic-Republican candidate, James Sullivan, did far better than Gerry had in the Western counties and in some Western towns he did better than Strong. Sullivan even made some inroads into Essex County and Cape Cod, though Strong made some inroads into Maine. This election was closely contested in nearly every town, and Sullivan narrowly defeated Strong by gaining votes in places that had gone heavily for Federalists in earlier elections. The change in politics from dominance by one party to heavily contested elections that we noted in the charts above also appears on this map.
 
 <figure>
-<iframe src="//files.lincolnmullen.com/figures//ma-gov/ma-gov-1807.html" style="height:500px;width:100%;"></iframe>
+<iframe src="ma-gov-1807.html" style="height:500px;width:100%;"></iframe>
 <figcaption>Figure 4: Election for Massachusetts governor, 1807. Data: <a href="http://elections.lib.tufts.edu/">A New Nation Votes</a>.</figcaption>
 </figure>
 
 In 1823, Otis maintained some of the Federalist strength in western Massachusetts, though he also lost (I suspect that when Maine gained statehood in 1820, the Federalists benefited slightly from a decline of Republican votes). But Otis was defeated in most of the towns surrounding Boston.
 
 <figure>
-<iframe src="//files.lincolnmullen.com/figures//ma-gov/ma-gov-1823.html" style="height:500px;width:100%;"></iframe>
+<iframe src="ma-gov-1823.html" style="height:500px;width:100%;"></iframe>
 <figcaption>Figure 5: Election for Massachusetts governor, 1823. Data: <a href="http://elections.lib.tufts.edu/">A New Nation Votes</a>.</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ These maps show comparatively little of the split between "blue" cities and "red
 If you would like to look up a particular election or candidate, use the table below.
 
 <figure>
-<iframe src="//files.lincolnmullen.com/figures//ma-gov/gov-datatable.html" style="height:390px;width:100%;"></iframe>
+<iframe src="gov-datatable.html" style="height:390px;width:100%;"></iframe>
 <figcaption>Table 1: Top five contenders in each election for governor of Massachusetts, 1787--1824. Data: <a href="http://elections.lib.tufts.edu/">A New Nation Votes</a>. Search by year or candidate name.</figcaption>
 </figure>
 

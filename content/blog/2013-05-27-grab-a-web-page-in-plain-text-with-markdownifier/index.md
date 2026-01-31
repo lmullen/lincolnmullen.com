@@ -5,9 +5,10 @@ slug: 'grab-a-web-page-in-plain-text-with-markdownifier'
 tags:
 - technology
 draft: false
+crosspost:
+  url: "http://chronicle.com/blogs/profhacker/grab-a-web-page-in-plain-text-with-markdownifier/49707"
+  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
 ---
-
-*[This post originally appeared at [ProfHacker](http://chronicle.com/blogs/profhacker/grab-a-web-page-in-plain-text-with-markdownifier/49707).]*
 
 We've [written a lot](http://chronicle.com/blogs/profhacker/from-the-archives-all-about-text/45815) about plain text at ProfHacker, from an introduction to [Markdown](http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295), to using [Pandoc](http://chronicle.com/blogs/profhacker/pandoc-converts-all-your-text-documents/38700), to [creating slides](http://chronicle.com/blogs/profhacker/markdown-and-mdpress-for-presentations/46343) from plain text. One thing I'd like to be able to do with plain text is this: Often I'd like to grab some text from a website in plain text. Copying and pasting into a text editor loses links and italics, while pasting into a word processor brings a lot of junk formatting with it. It'd be nice to be able to copy a website's text in Markdown.
 

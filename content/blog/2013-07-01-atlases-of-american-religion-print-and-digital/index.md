@@ -7,9 +7,10 @@ tags:
 - digital humanities
 - mapping
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2013/07/atlases-of-american-religion-print-and.html"
+  source: "[Religion in American History](http://usreligion.blogspot.com/)"
 ---
-
-*[This post originally appeared at [Religion in American History](http://usreligion.blogspot.com/2013/07/atlases-of-american-religion-print-and.html).]*
 
 The go-to source for demographic information about American religious history continues to be Gaustad, Barlow, and Dishno's *[New Historical Atlas of Religion in America](https://www.amazon.com/dp/B0044KMUNC/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=B0044KMUNC&adid=139KHM8DTG373NS8G353&)*. Most recently published in 2001, this oversized, eight-pound volume is stuffed with beautiful, well-thought-out maps that chart the changes of many religions and denominations. The many maps are accompanied by analysis that also makes the book a survey of U.S. religious history. This accomplishment is especially impressive given the difficulty of finding reliable demographic information about American religion, since the Census Bureau has, except for a few years, not been authorized to gather data about religion. You'll have to pay a pretty penny, but the *Atlas* is well worth having on your reference shelf.
 

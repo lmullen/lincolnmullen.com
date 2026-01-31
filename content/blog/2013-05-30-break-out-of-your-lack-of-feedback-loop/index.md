@@ -6,9 +6,10 @@ tags:
 - academia
 - writing
 draft: false
+crosspost:
+  url: "http://chronicle.com/blogs/profhacker/break-out-of-your-lack-of-feedback-loop/49815"
+  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
 ---
-
-*[This post originally appeared at [ProfHacker](http://chronicle.com/blogs/profhacker/break-out-of-your-lack-of-feedback-loop/49815).]*
 
 Does this ever happen to you? Let's say you're writing an article or a chapter. It's taking longer than you anticipated. (No surprise there.) Your editor or your dissertation advisor, or maybe just your writing group, is expecting to read a draft, but you think it's not ready. It's incomplete, it's tentative, it doesn't adequately review the secondary literature, it doesn't take into account a source you haven't read yet. So you put off sending out your work. Then another opportunity comes around to share your work. But in the intervening month, your draft hasn't improved as much as you'd hoped, and surely your readers' expectations have been raised. So you put off sending out your work until you're convinced that your readers' expectations are so high that you can't show them your draft until the draft is worthy of a Pulitzer Prize.
 

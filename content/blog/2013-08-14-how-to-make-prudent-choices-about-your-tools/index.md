@@ -5,9 +5,10 @@ slug: 'how-to-make-prudent-choices-about-your-tools'
 tags:
 - technology
 draft: false
+crosspost:
+  url: "http://chronicle.com/blogs/profhacker/how-to-make-prudent-choices-about-your-tools/51261"
+  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
 ---
-
-*[This post originally appeared at [ProfHacker](http://chronicle.com/blogs/profhacker/how-to-make-prudent-choices-about-your-tools/51261).]*
 
 One of the occupational hazards of being the kind of person who writes for or reads ProfHacker is the constant urge to try out new tools or techniques in the relentless search for "productivity." Sharpening one's tools might be a mark of a professional, yet constantly switching tools is the mark of someone who is just wasting time. As Jason has [explained](http://chronicle.com/blogs/profhacker/what-we-talk-about-when-we-talk-about-productivity/47805), ProfHacker is not interested in hacks for hacks' sake.
 

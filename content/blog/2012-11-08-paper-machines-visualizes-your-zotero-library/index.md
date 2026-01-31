@@ -8,7 +8,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/paper-machines-visualizes-your-zotero-library/44056"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 In the past few months there has been a lot of attention paid to a [Zotero](http://chronicle.com/blogs/profhacker/tag/zotero) plugin called [Paper Machines](https://github.com/chrisjr/papermachines). Created by Brown grad student [Chris Johnson-Roberson](http://www.chrisjr.org/) as a Google Summer of Code project, Paper machines was coded by Brown grad student [Chris Johnson-Roberson](http://www.chrisjr.org/), and [Jo Guldi](http://www.joguldi.com/) and [Matthew Battles](http://metalab.harvard.edu/people/) directed the project. Paper Machines uses the data in a Zotero collection to generate analyses and visualizations. If you have a sizeable collection of documents with good metadata and full text (for example, PDFs with text layers) then Paper Machines can run its analysis. The most basic output is a word cloud. More advanced analyses provide phrases matching a pattern, maps of place names, annotations of people, places, and organizations. Paper Machines can also perform topic modeling using MALLET.

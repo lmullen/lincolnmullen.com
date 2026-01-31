@@ -8,7 +8,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/learn-r-with-twotorials/45843"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 If you want to learn methods, techniques, or technologies that are outside your usual scholarly ambit, then you often have to learn them in small sections as you find time. That's why I was glad to learn about [R Twotorials](http://www.twotorials.com/).

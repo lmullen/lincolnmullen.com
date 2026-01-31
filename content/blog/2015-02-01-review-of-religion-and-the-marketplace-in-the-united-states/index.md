@@ -8,7 +8,7 @@ tags:
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2015/02/religion-and-marketplace-in-united.html"
-  source: "[Religion in American History](http://usreligion.blogspot.com/)"
+  source: "Religion in American History"
 ---
 
 As Heath Carter [has noted](http://usreligion.blogspot.com/2014/12/religious-historians-take-on-specter-of.html), we are due for a bumper crop of books on religion and capitalism in the United States. I want to briefly take note of a new collection of essays on the subject which came out of a conference held at Heidelberg University in 2011: Jan Stievermann, Philip Goff, Detlef Junker, Anthony Santoro, and Daniel Silliman, eds., *[Religion and the Marketplace in the United States](http://www.amazon.com/gp/product/0199361800/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0199361800&linkCode=as2&tag=thebacgla-20&linkId=K2XYWHXRZM5RJVXO)* New York: Oxford University Press, 2015.

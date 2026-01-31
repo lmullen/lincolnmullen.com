@@ -7,7 +7,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/the-slate-window-manager-for-mac-power-users/46203"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 Your computer's user interface is based on one metaphor or another. (At least, it is if you're not typing just 1s and 0s into your computer.) More than likely your computer operates on the "windows" metaphor, even if you use a Mac. Documents and applications float across the screen, and you click and drag to arrange the windows on your screen. The trouble with the window metaphor is that every second spent arranging windows is a waste of time. I find this to be a frequent source of frustration, and neither Windows nor Mac OS X handles it well. (The exception is [xmonad](http://xmonad.org/), a tiling windows manager that is a true thing of beauty, but not one that you can use without Linux.) That's why George wrote about [Better Snap Tool](http://chronicle.com/blogs/profhacker/a-tool-to-manage-your-on-screen-windows/33188), which Brian [also likes](http://chronicle.com/blogs/profhacker/resizing-and-rearranging-your-windows-with-two-keys/39500) in addition to [Divvy](http://chronicle.com/blogs/profhacker/divide-and-conquer-your-screen-with-divvy/38877), both of which add more powerful features to manage windows on a Mac. Either is a good, user-friendly option.

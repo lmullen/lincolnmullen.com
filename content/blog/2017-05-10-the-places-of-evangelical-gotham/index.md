@@ -8,7 +8,7 @@ tags:
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2017/03/the-places-of-evangelical-gotham.html"
-  source: "[Religion in American History](http://usreligion.blogspot.com/)"
+  source: "Religion in American History"
 ---
 
 In his elegantly written account, Kyle Roberts takes his readers on a tour of Evangelical Gotham. The book has a strong chronological through line, explaining how evangelicals went through three distinct periods in bringing their message of conversion and reform to New York City (10-11). While the spatial organization of the book is less obvious from its table of contents, Evangelical Gotham is a book that is fundamentally organized around place. This may seem like an obvious point to make about a book that focuses on a single city, but my aim is to show how Roberts uses spatial concepts.

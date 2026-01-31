@@ -7,7 +7,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/from-grading-to-helping-students-a-mind-hack/44857"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 For all the pleasures of teaching, grading is not one of them. We have a bunch of ProfHacker posts [about](http://chronicle.com/blogs/profhacker/are-you-locked-in-grading-jail/27718) [this](http://chronicle.com/blogs/profhacker/the-salt-mines-really/22927), and also a [number](http://chronicle.com/blogs/profhacker/paperless-grading-with-grademark/22898) of [ways](http://chronicle.com/blogs/profhacker/grading-differently-2/42614) to make your [grading process](http://chronicle.com/blogs/profhacker/your-grading-process/29739) [better](http://chronicle.com/blogs/profhacker/grading-triage/22855) or help you change the way you think about [grading](http://chronicle.com/blogs/profhacker/from-the-archives-on-grading/27787). I want to propose one more idea.

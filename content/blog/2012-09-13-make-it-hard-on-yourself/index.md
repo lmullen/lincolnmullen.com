@@ -7,7 +7,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/make-it-hard-on-yourself/42568"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 A lot of productivity advice, especially about technology, is about making things easier to do. For example, in the last few days at ProfHacker, George has asked about [paperless promotion portfolios](http://chronicle.com/blogs/profhacker/paperless-promotion-and-tenure/42292), Mark has shown us [an easier Zotero workflow with Zotpad](http://chronicle.com/blogs/profhacker/working-with-zotero-on-the-ipad-with-zotpad/42094), Adeline has [reviewed a geo-tagging journal](http://chronicle.com/blogs/profhacker/path-a-twenty-first-century-geotagging-journal/41922), and I have written about [hacking URLs for faster searches](http://chronicle.com/blogs/profhacker/how-to-hack-urls-for-faster-searches-in-your-browser/42304).

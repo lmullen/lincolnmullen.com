@@ -7,7 +7,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/a-first-look-at-the-digital-public-library-of-america/48729"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 Last Thursday at noon the Digital Public Library of America launched its website. The opening festivities, which had been booked solid with a long wait list for weeks, were canceled, since the venue at the main branch of the Boston Public Library was adjacent to the site of the bombing in Boston earlier that week. But the DPLA, which is a website and not a location, went ahead with the launch of the public service anyway.

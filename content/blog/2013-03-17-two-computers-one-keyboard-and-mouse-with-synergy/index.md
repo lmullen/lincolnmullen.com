@@ -7,7 +7,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/two-computers-one-keyboard-and-mouse-with-synergy/46943"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 The odds are good that there are multiple computers in your life. You might have a laptop along with a desktop computer in your office or at home. Or (like me) you might have an outmoded computer at home that could still be useful but which isn't your primary machine. Or maybe you run a NASA launch center, or wish you did. If you have multiple computers, chances are you'd like to use them at the same time. For me, when I recently built a [standing](http://chronicle.com/blogs/profhacker/the-portable-ninja-standing-desk/45197) [desk](http://chronicle.com/blogs/profhacker/stand-in-the-place-where-you-work-geekdesk-max-review/46257) in hopes of avoiding undue [health risks](http://chronicle.com/blogs/profhacker/stand-up-in-your-office/36054), it made sense to make a space both for my laptop and extra monitor *and* for an old Ubuntu desktop. (Yes, it's pretty nice screen-real-estate-wise, if not good-taste-in-furniture-wise.)

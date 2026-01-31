@@ -9,7 +9,7 @@ tags:
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html"
-  source: "[Religion in American History](http://usreligion.blogspot.com/)"
+  source: "Religion in American History"
 ---
 
 In 1865, the French observer of American Catholicism E. Rameur opened the inaugural issue of the *Catholic World* with an article on "[The Progress of the Church in the United States](http://quod.lib.umich.edu/m/moajrnl/bac8387.0001.001/5:3?rgn=full+text;view=image)." In assessing the current population of the church, Rameur's task was very difficult, as he pointed out: "The number of the faithful it is not easy to determine accurately; for a false delicacy prevents the Americans from including the statistics of religious belief in their census-tables. Estimates are very variable." Rameur was right: in the United States, unlike in many other countries, the census does not track religious data. The omission is justified by the separation of church and state, but every religious historian I know would gladly suffer a breach in the wall of separation for the sake of reliable data for the history of religion.

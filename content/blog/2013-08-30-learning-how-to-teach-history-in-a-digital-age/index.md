@@ -8,7 +8,7 @@ tags:
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/learning-how-to-teach-history-in-a-digital-age/51875"
-  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
+  source: "ProfHacker"
 ---
 
 You only have to read a few of Mills Kelly's posts at his blog [Edwired](http://edwired.org/) to pick up on his overarching argument: historians should pay as careful attention to scholarship on teaching as they do to the scholarship in their fields of research. There is a growing body of "Scholarship on Teaching and Learning," demonstrating, for example, that lecturing is the least effective method of teaching. Kelly contends that historians "have remained stubbornly ignorant of the history of teaching and learning in our discipline." In his recent book, Kelly provides his own contribution to this scholarly literature with a book focused on the pressing question of how we should go about *[Teaching History in the Digital Age](http://www.digitalculture.org/books/teaching-history-in-the-digital-age/)*.

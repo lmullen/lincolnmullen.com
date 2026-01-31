@@ -6,9 +6,10 @@ tags:
 - technology
 - Linux
 draft: false
+crosspost:
+  url: "http://chronicle.com/blogs/profhacker/some-thoughts-on-getting-started-with-ubuntu-linux/51663"
+  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
 ---
-
-*[This post originally appeared at [ProfHacker](http://chronicle.com/blogs/profhacker/some-thoughts-on-getting-started-with-ubuntu-linux/51663).]*
 
 About a month ago, I came to the sad realization that my six-year-old white plastic MacBook was not going to see me to the end of my dissertation. Among the more serious of its ailments, its hard disk was about to fail, and doing any task took at least thirty seconds of waiting. (Going through the metal detector at an archives *last* summer, one of the security guards said, "I remember you; you're the guy with the old laptop.") Fortunately the funds for a replacement were at hand, and I needed to decide which computer to buy.
 

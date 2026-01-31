@@ -11,7 +11,7 @@ draft: false
 
 XKCD [points out a common problem](http://xkcd.com/1138/) in mapping data:
 
-{{< figure src="https://imgs.xkcd.com/comics/heatmap.png" >}}
+{{< figure src="heatmap.png" caption="XKCD: Heatmap" >}}
 
 If it's true that maps of data tend to mirror maps of population, then it strikes me that this is particularly a problem for historical maps. Even if I have a rough mental map of what parts of the United States are populated today, I certainly don't have an accurate mental map of the U.S. population at any given point in history. Does a map of any given historical data follow the population? You couldn't know unless you had mapped the population.
 

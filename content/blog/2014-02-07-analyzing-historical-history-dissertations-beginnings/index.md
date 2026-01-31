@@ -19,6 +19,6 @@ The historical dissertations data contains 132,360 records. But not all of those
 
 For a first plot of the data, we can look at the number of dissertations and theses over time. Because there were so few dissertations in the late nineteenth and early twentieth century (I suspect some are missing), let's limit the plot to the years after 1950.
 
-![](//files.lincolnmullen.com/downloads/post/2014-02-07-number-dissertations.png)
+![](2014-02-07-number-dissertations.png)
 
 I'll do some more analysis soon. If you have any questions that you think the data can answer, let me know.

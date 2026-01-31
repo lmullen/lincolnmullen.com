@@ -6,9 +6,10 @@ tags:
 - digital history
 - American religious history
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html"
+  source: "[Religion in American History](http://usreligion.blogspot.com/)"
 ---
-
-*[This post originally appeared at [Religion in American History](http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html).]*
 
 The [American Antiquarian Society](http://www.americanantiquarian.org/) was generous enough to offer me a fellowship this summer, so I took a month to research in the [AAS's wonderful collections](http://usreligion.blogspot.com/2013/06/know-your-archives-american-antiquarian.html). A fair bit of my time was spent reading through the nearly complete print run of American Tract Society pamphlets from the early to mid-nineteenth century. I wanted to answer a question: did the ATS pamphlets include "the sinner's prayer," a common feature of twentieth century evangelical tracts? If it did, when did the genre develop? I think I have an answer to that question: yes, the ATS did contribute to the development of the genre of the sinner's prayer. More on what I found another time, both here on the blog and in chapter two of the dissertation.
 

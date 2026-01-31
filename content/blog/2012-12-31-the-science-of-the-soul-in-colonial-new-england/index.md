@@ -5,9 +5,10 @@ slug: 'the-science-of-the-soul-in-colonial-new-england'
 tags:
 - religion
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html"
+  source: "[Religion in American History](http://usreligion.blogspot.com/)"
 ---
-
-*[This post originally appeared at [Religion in American History](http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html) on December 16, 2012.]*
 
 Since it was published last year, Sarah Rivett's *The Science of the Soul in Colonial New England* (OIEAHC, 2011) has been garnering plenty of praise, including the American Society of Church History's Brewer prize. This demanding but gracefully written first [book](http://uncpress.unc.edu/books/T-9168.html) by [Rivett](http://english.princeton.edu/people/sarah-rivett), a professor of English at Princeton, has been reviewed by [Bryce Traister](http://www.common-place.org/vol-12/no-04/reviews/traister.shtml) at *Common-place*, by [Douglas Sweeney](http://jecteds.org/blog/2011/12/02/sweeneys-booknotes-edwards-and-the-science-of-the-soul/), by Jason LaFountain in the *[New England Quarterly](http://www.mitpressjournals.org/doi/abs/10.1162/TNEQ_r_00222)*, and doubtless elsewhere, but readers of this blog might appreciate this brief notice of the book.
 

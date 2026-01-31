@@ -6,9 +6,10 @@ tags:
 - American religious history
 - book reviews
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2015/04/christian-nation-christian.html"
+  source: "[Religion in American History](http://usreligion.blogspot.com/)"
 ---
-
-*\[This post was originally published at [Religion in American History](http://usreligion.blogspot.com/2015/04/christian-nation-christian.html).\]*
 
 Kruse, Kevin M. *[One Nation Under God: How Corporate America Invented Christian America](http://www.amazon.com/gp/product/0465049494/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0465049494&linkCode=as2&tag=thebacgla-20&linkId=CYV525HX35EIJKXW)*. New York: Basic Books, 2015.
 

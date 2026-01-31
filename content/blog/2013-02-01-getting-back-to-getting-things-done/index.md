@@ -5,9 +5,10 @@ slug: 'getting-back-to-getting-things-done'
 tags:
 - productivity
 draft: false
+crosspost:
+  url: "http://chronicle.com/blogs/profhacker/getting-back-to-getting-things-done/45741"
+  source: "[ProfHacker](http://chronicle.com/blogs/profhacker/)"
 ---
-
-*[This post originally appeared at [ProfHacker](http://chronicle.com/blogs/profhacker/getting-back-to-getting-things-done/45741).]*
 
 I read David Allen's *[Getting Things Done](https://www.amazon.com/dp/0142000280/ref=as_li_ss_til?tag=backwardglance-20&camp=0&creative=0&linkCode=as4&creativeASIN=0142000280&adid=1DNHPJFYBDXHARCWGQFF&)* five or six years ago, and it has more or less shaped the way I organize my work since then. I say more or less, because the elaborate system of projects, next actions, someday/maybe lists, and processing that makes up GTD is easy to slip away from. That's probably for the best, since undue obsession with planning your work can take away from actually doing the work. I've noticed that I go through long cycles, at the end of which I return to organizing my work according to GTD.
 

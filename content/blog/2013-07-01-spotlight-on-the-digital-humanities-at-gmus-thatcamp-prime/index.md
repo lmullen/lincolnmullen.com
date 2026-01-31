@@ -6,9 +6,10 @@ tags:
 - digital humanities
 - digital history
 draft: false
+crosspost:
+  url: "http://hnn.us/articles/spotlight-digital-humanities-gmus-thatcamp-prime"
+  source: "[History News Network](http://historynewsnetwork.org/)"
 ---
-
-*[This post originally appeared at the [History News Network](http://hnn.us/articles/spotlight-digital-humanities-gmus-thatcamp-prime).]*
 
 On June 7 and 8, the [Roy Rosenzweig Center for History and New Media](http://chnm.gmu.edu/) hosted its annual [THATCamp Prime](http://chnm2013.thatcamp.org/), an "[unconference](http://en.wikipedia.org/wiki/Unconference)" about The Humanities And Technology. THATCamp started at CHNM in 2008---hence the name "prime"---but since then there have been [over 150 around the world](http://thatcamp.org/about/map/). THATCamps draw professors, graduate students, librarians, archivists, and educational technologists for informal discussions (that is, no reading of papers) and hands-on workshops about how the humanities can take advantage of the possibilities of new technologies. THATCamps have been or will be hosted by major academic conferences, including the American Historical Association, the Modern Language Association, the American Academy of Religion, and the Organization of American Historians.
 

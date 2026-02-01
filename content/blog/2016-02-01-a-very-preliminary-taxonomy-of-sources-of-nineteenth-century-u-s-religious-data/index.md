@@ -42,7 +42,7 @@ Much more useful, if more voluminous, are the year-by-year records that denomina
 -   I've gathered [links](http://notebook.lincolnmullen.com/Methodist%20Minutes%20of%20the%20Annual%20Conferences) to the Methodists' Minutes of the Annual Conferences.
 -   And I've gathered [links](http://notebook.lincolnmullen.com/Protestant%20Episcopal%20Church%20yearbooks) to the yearbooks of the Protestant Episcopal Church.
 -   The Seventh Day Adventists have gathered [their meeting minutes and other records](http://documents.adventistarchives.org/default.aspx). (Jeri Wieringa, who is doing some sophisticated work with these records for her dissertation on the Adventists, found these records.)
--   Jordan Bratt has found the General Conference Reports from the Church of Jesus Christ of Latter-day Saints, for example, [1911's report](Conference%20reports%20of%20The%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints).
+-   Jordan Bratt has found the General Conference Reports from the Church of Jesus Christ of Latter-day Saints.
 
 Sometimes there is an even more detailed level of records in the form of regional reports. For example, the Protestant Episcopal Church published yearbooks and general convention reports which had data at the diocesan level. But individual dioceses also published [journals of their conventions](http://catalog.hathitrust.org/Search/Home?lookfor=annual%20convention%20diocese&searchtype=all&ft=ft&setft=true) which have data at the level of the congregation (an [example](http://babel.hathitrust.org/cgi/pt?id=nyp.33433070790765;view=1up;seq=106)).
 

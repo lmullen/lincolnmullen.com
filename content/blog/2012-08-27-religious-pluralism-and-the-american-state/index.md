@@ -7,7 +7,11 @@ tags:
 draft: false
 ---
 
-This fall I'll be teaching a university writing seminar titled 'Religious Pluralism and the American State'. I've made the [syllabus](religious-pluralism.syllabus.2012-fall.pdf) available online and I've put up a basic [course website](http://lincolnmullen.com/courses/uws/).
+This fall I'll be teaching a university writing seminar titled 'Religious Pluralism and the American State'.
+
+<!--more-->
+
+I've made the [syllabus](religious-pluralism.syllabus.2012-fall.pdf) available online and I've put up a basic [course website](http://lincolnmullen.com/courses/uws/).
 
 Here is the course description:
 

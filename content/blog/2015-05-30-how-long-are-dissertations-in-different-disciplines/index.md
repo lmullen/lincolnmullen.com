@@ -8,7 +8,7 @@ tags:
 draft: false
 ---
 
-About a year ago when I was finishing my dissertation I got intensely interested in seeing what I could figure out about history dissertations from data. I'll let you draw your own conclusions as to why that seemed more urgent than writing my own dissertation. I wrote a [series of posts on the topic](/research/history-dissertations/) using a dataset of historical history dissertations from ProQuest. But ProQuest also gave me a dataset of contemporary dissertations from all fields that I have not yet done anything with.
+About a year ago when I was finishing my dissertation I got intensely interested in seeing what I could figure out about history dissertations from data. I'll let you draw your own conclusions as to why that seemed more urgent than writing my own dissertation. I wrote a series of posts on the topic using a dataset of historical history dissertations from ProQuest. But ProQuest also gave me a dataset of contemporary dissertations from all fields that I have not yet done anything with.
 
 Recently I rediscovered Michael Beck's [post on the length of dissertations by department](https://beckmw.wordpress.com/2014/07/15/average-dissertation-and-thesis-length-take-two/) at the University of Minnesota (perhaps via Hacker News?). I thought I would redo Beck's visualization of dissertation lengths using the ProQuest dataset to see how the dissertations compare at most universities in the United States.
 

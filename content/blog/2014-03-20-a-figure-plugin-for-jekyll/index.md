@@ -7,7 +7,7 @@ tags:
 draft: false
 ---
 
-This site runs on [Jekyll](http://jekyllrb.com), a static-site generator written in Ruby. As I create [more](/blog/charting-faculty-salaries/) and [more](/blog/analyzing-historical-history-dissertations-page-counts/) [figures](/blog/historical-religion-data-in-the-nhgis/) to go on this site, it has become increasingly laborious to get the images, captions, and links properly formatted. So I've written a [jekyll_figure](https://github.com/lmullen/jekyll_figure) plugin to automate the figures.
+This site runs on [Jekyll](http://jekyllrb.com), a static-site generator written in Ruby. As I create more and more figures to go on this site, it has become increasingly laborious to get the images, captions, and links properly formatted. So I've written a [jekyll_figure](https://github.com/lmullen/jekyll_figure) plugin to automate the figures.
 
 A tag like this:
 

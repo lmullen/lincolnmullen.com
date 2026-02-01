@@ -14,7 +14,7 @@ The *JSR*'s website runs on [Jekyll](http://jekyllrb.com/), a 'simple, blog awar
 
 One of the new things I want to do with the *JSR* is make an e-book of each issue, so that scholars can read the journal on tablets and mobiles more immersively than is possible on a website. Whether there interest among *JSR* readers in this new format remains to be seen, but other people are [writing about EPUB for scholars](http://blogs.plos.org/mfenner/2011/01/23/beyond-the-pdf-%E2%80%A6-is-epub/) and other open-access journals, like the *[Journal of Digital Humanities](http://journalofdigitalhumanities.org/)* are releasing their content as EPUB.
 
-I've written a Ruby script, `epub-jekyll`, which parses posts and pages in a Jekyll website and passes them through [Pandoc](johnmacfarlane.net/pandoc/) to create an EPUB. Because the script uses a YAML file as a table of contents, it should be useable on other [Jekyll](http://jekyllrb.com/) (or [Octopress](http://octopress.org/)) websites. You can **[get the code from GitHub](https://github.com/lmullen/jekyll-ebook)** and learn how to use the script in the README.
+I've written a Ruby script, `epub-jekyll`, which parses posts and pages in a Jekyll website and passes them through [Pandoc](http://johnmacfarlane.net/pandoc/) to create an EPUB. Because the script uses a YAML file as a table of contents, it should be useable on other [Jekyll](http://jekyllrb.com/) (or [Octopress](http://octopress.org/)) websites. You can **[get the code from GitHub](https://github.com/lmullen/jekyll-ebook)** and learn how to use the script in the README.
 
 This my first project in Ruby, so I'll be glad for any improvements you'd like to suggest.
 

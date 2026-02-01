@@ -8,11 +8,11 @@ tags:
 draft: false
 ---
 
-*This series on "Analyzing Historical History Dissertations" is a work in progress and I've re-done some of these visualizations. If you would like to cite or link to this work in progress, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
-
 The first question anyone writing a dissertation probably asks is, How long should this thing be? When Michael Beck looked at data from the University of Minnesota, he found that [history dissertations were the longest](http://beckmw.wordpress.com/2013/04/15/how-long-is-the-average-dissertation/). Ben Schmidt found that the average length of history dissertations at Princeton [varied quite a bit](http://rpubs.com/benmschmidt/princetonhistorydiss), from a peak of about 425 pages on average around 1995 to a low of slightly more than 250 pages on average around 2006 or 2007. Ben also concluded that "300 pages is the normal length."
 
-Using the ProQuest data, we can see how history dissertations varied in length over time:
+Using the ProQuest data, we can see how history dissertations varied in length over time.
+
+<!--more-->
 
 ![](pages-since-1878.png)
 

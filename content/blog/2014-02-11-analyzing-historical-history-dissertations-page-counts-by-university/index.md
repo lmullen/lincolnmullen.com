@@ -7,9 +7,11 @@ tags:
 draft: false
 ---
 
-*This series on "Analyzing Historical History Dissertations" is a work in progress and I've re-done some of these visualizations. If you would like to cite or link to this work in progress, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
+In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time.
 
-In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time. For context, here is the most significant chart:
+<!--more-->
+
+For context, here is the most significant chart:
 
 ![](pages-mean-median.png)
 

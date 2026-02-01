@@ -7,8 +7,6 @@ tags:
 draft: false
 ---
 
-*This series on "Analyzing Historical History Dissertations" is a work in progress and I've re-done some of these visualizations. If you would like to cite or link to this work in progress, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
-
 **Update February 24, 2014 at 1:50 p.m.:** *I improved the regular expression that parses out first names, so the charts and table have been updated with fewer unknowns.*
 
 One of the useful questions that can be asked of any data set is about the significance of gender. Unfortunately almost all of the data sets that I have gotten to analyze don't record gender. I'm willing to hazard a guess that that is true for many if not most data sets of interest to historians. However, many data sets, like the one I'm working on for history dissertations, do include a list of names, and first names are a pretty good indicator of gender.

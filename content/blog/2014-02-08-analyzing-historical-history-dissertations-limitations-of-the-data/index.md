@@ -7,8 +7,6 @@ tags:
 draft: false
 ---
 
-*This series on "Analyzing Historical History Dissertations" is a work in progress and I've re-done some of these visualizations. If you would like to cite or link to this work in progress, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
-
 After my post yesterday about [historical history dissertations](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-beginnings/), [Yoni Appelbaum](https://twitter.com/YAppelbaum) sent me some useful questions about the completeness and accuracy of the data. I've had my own questions about exactly what data I am working with, and what are its limitations. The difficulty with a reasonably large data set like this one is that it is easier to know something about the data in aggregate than any of the particulars.
 
 The main question boils down to this: why does the data from ProQuest have 84,428 dissertations about history (based on the filters I described earlier) when the AHA's *[Directory of History Dissertations](https://secure.historians.org/pubs/dissertations/index.cfm)* contains "29,421 dissertations that were completed or are currently in progress at 194 academic departments in Canada and the United States"?

@@ -7,8 +7,6 @@ tags:
 draft: false
 ---
 
-*This series on "Analyzing Historical History Dissertations" is a work in progress and I've re-done some of these visualizations. If you would like to cite or link to this work in progress, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
-
 So far I have mostly looked at the number of dissertations, and the page counts of dissertations. I'd like to refine the analysis of page counts by seeing if the length of dissertations varies by [NRC rankings of history departments](https://www.historians.org/publications-and-directories/perspectives-on-history/december-2010/nrc-report-provides-data-on-history-doctoral-programs). Today, though, I want to look at the locations where history dissertations were produced.
 
 Below is a map of the universities that have produced dissertations about history. Once again, since I'm using the ProQuest data, these are dissertations about history, a bigger set than dissertations written in history departments. In case the map isn't self-explanatory, the numbers in red boxes represent the total number of dissertations produced in a geographic area. You can put your mouse over the box to see the boundaries of the geographic area. Zooming in or clicking on the box will cluster the points into smaller and smaller units. Eventually you'll get individual markers for each university. Clicking on a marker will tell you the university name and the number of history dissertations it is has produced.

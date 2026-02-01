@@ -7,8 +7,6 @@ tags:
 draft: false
 ---
 
-*This series on "Analyzing Historical History Dissertations" is a work in progress. If you would like to cite or link to it, please consider using the **[landing page](http://lincolnmullen.com/research/history-dissertations/)**, which will always have the most up-to-date information and a list of all the posts.*
-
 After posts about the length of dissertations about history university by university and for the American academy as a whole, along with a map of where history dissertations have been written, this post will be much less interesting. In this post I want to write about some decisions that I've made to further clean and tidy the data, and the consequent revisions to earlier visualizations. I'm writing about this process because I have conceived of this series of posts as being not just a presentation of my findings about history dissertations, but a set of reflections on the process of data analysis as performed by a historian. I hope this series will be pedagogically useful. Certainly no one ever taught me how to do this kind of data analysis in a history department, and it's not that hard to find scientists complaining that no one ever taught them how to do this kind of work. So I hope this series of posts and the [accompanying code](https://github.com/lmullen/dissertations-data) is one [resource](http://programminghistorian.org/) [among](http://geospatialhistorian.wordpress.com/) [many](http://software-carpentry.org/), and in particular that it will be useful as a guide to the many steps in digging through a mid- to large-sized data set.
 
 First, what do I mean by cleaning and tidying data? By cleaning data I mean standardizing the values of the data to make them more useful. For example, I have filtered out at least twenty thousand irrelevant dissertations from the data set. Cleaning might also mean performing an operation like standardizing the name of a university, or joining all the fields that hold paragraphs for an abstract into one field. By tidying data I mean what [Hadley Wickham](http://had.co.nz/) means in this fantastic [journal article](http://vita.had.co.nz/papers/tidy-data.pdf) and [talk](http://vimeo.com/33727555), namely, changing the structure of data so that "each variable is a column, each observation is a row, and each type of observational unit is a table." To put it a different way, tidying data is [normalizing the data](http://en.wikipedia.org/wiki/Database_normalization); cleaning the data is akin to proofreading the data.
@@ -23,7 +21,11 @@ Second, looking closely at the list of universities shows that there are some, s
 
 Now we have a more difficult decision to make, since we have to decide what counts as a dissertation in history. There is a strong argument to be made that the best definition is a dissertation written in a history department. Unfortunately, since only 7.64 percent of the dissertations in this data set identify their department, it is impossible to use that definition. But there are intellectual justifications for a more capacious definition. Certainly in my own field of American religious history, many if not most of the dissertations are written by people in religious studies departments, divinity schools, Judaic Studies departments, and the like. Economic history, particularly of a quantitative bent, has mostly moved to economics departments (though history of capitalism is making a roaring comeback in history departments). So I have no problem with using the ProQuest subject headings to study a broader definition of what a history dissertation is.
 
-The sticking point for me is whether to include dissertations with the subject "Education, History of" as dissertations in history. The argument that such dissertations are usually written in schools of education rather than colleges of arts and sciences, are therefore held to different norms and so should be excluded from this study is persuasive to me. But we can also test the hypothesis that they are held to different norms.
+The sticking point for me is whether to include dissertations with the subject "Education, History of" as dissertations in history.
+
+<!--more-->
+
+The argument that such dissertations are usually written in schools of education rather than colleges of arts and sciences, are therefore held to different norms and so should be excluded from this study is persuasive to me. But we can also test the hypothesis that they are held to different norms.
 
 Here is a chart of the page lengths of history of education dissertations vs all other kinds of history dissertations.
 
@@ -396,8 +398,6 @@ Finally, a redo of all the page counts by university. (Because nothing makes a p
 {{< figure src="pages-2-new-orleans-baptist-theological-seminary.png" caption="New Orleans Baptist Theological Seminary" >}}
 
 {{< figure src="pages-2-university-of-louisville.png" caption="University of Louisville" >}}
-
-Hebrew Union College -- Jewish Institute of Religion (Ohio). ![](pages-2-hebrew-union-college---jewish-institute-of-religion-(ohio).png)
 
 {{< figure src="pages-2-georgia-institute-of-technology.png" caption="Georgia Institute of Technology" >}}
 

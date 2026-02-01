@@ -7,7 +7,11 @@ tags:
 draft: false
 ---
 
-Via the Boston Digital Humanities mailing list comes an announcement for a speaker series this fall at the [Wentworth Institute of Technology](http://www.wit.edu/) in Boston. ([PDF of poster](wit.empowering-humanities.pdf))
+Via the Boston Digital Humanities mailing list comes an announcement for a speaker series this fall at the [Wentworth Institute of Technology](http://www.wit.edu/) in Boston.
+
+<!--more-->
+
+([PDF of poster](wit.empowering-humanities.pdf))
 
 **Empowering the Humanities: Digital Humanities Speaker Series**
 

@@ -10,6 +10,8 @@ draft: false
 
 Happy New Year, Religion in American History readers.
 
+<!--more-->
+
 One of my favorite ways to get to know a scholar is to read her syllabi. Syllabi show how scholars put together a whole field. (And probably no text reveals personality as much as the introduction and policies on a syllabus.) Yet unfortunately teaching documents are shared less routinely than our research, so we are much more likely to know a scholar's books and articles than her syllabi. Following the example of Paul Putz's regular lists of new books, I intend to start a posting a roundup of syllabi for religious history and religious studies from the past semester from whoever wishes to contribute.
 
 So here is a list of past syllabi from people who replied to my entreaties. Only a small number replied this first time, but if you would like to add your syllabus to this list, feel free to leave a link in the comments, or you can e-mail me a document and I'll add it (`lincoln@lincolnmullen.com`).

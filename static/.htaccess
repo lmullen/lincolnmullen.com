@@ -5,7 +5,7 @@ Redirect 301 /blog/feed/atom/ https://lincolnmullen.com/blog/index.xml
 Redirect 301 /blog/the-humanists-os-or-scholarship-in-plain-text/null https://lincolnmullen.com/blog/the-humanists-os-or-scholarship-in-plain-text/
 Redirect 301 /comments/feed/ https://lincolnmullen.com/blog/index.xml
 Redirect 301 /feed/ https://lincolnmullen.com/blog/index.xml
-Redirect 301 /files/Mullen-cv.pdf https://files.lincolnmullen.com/Mullen-cv.pdf
+Redirect 301 /files/Mullen-cv.pdf https://lincolnmullen.com/Mullen-cv.pdf
 Redirect 301 /posts.atom.xml https://lincolnmullen.com/blog/index.xml
 Redirect 301 /project/slavery https://lincolnmullen.com/projects/slavery/
 Redirect 301 /project/slavery/ https://lincolnmullen.com/projects/slavery/
@@ -15,8 +15,8 @@ Redirect 301 /projects/dh-r2/data.html https://dh-r.lincolnmullen.com
 Redirect 301 /projects/dh-r2/machine-learning.html https://dh-r.lincolnmullen.com
 Redirect 301 /projects/dh-r2/packages.html https://dh-r.lincolnmullen.com
 Redirect 301 /projects/dh-r2/shapefiles.html https://dh-r.lincolnmullen.com
-Redirect 302 /cv/ https://files.lincolnmullen.com/Mullen-cv.pdf
-Redirect 302 /cv/index.html https://lincolnmullen.com/files/Mullen-cv.pdf
+Redirect 302 /cv/ https://lincolnmullen.com/Mullen-cv.pdf
+Redirect 302 /cv/index.html https://lincolnmullen.com/Mullen-cv.pdf
 Redirect 301 /projects/slavery/Demonstrate https://lincolnmullen.com/projects/slavery/
 Redirect 301 /projects/slavery/null https://lincolnmullen.com/projects/slavery/
 Redirect 301 "/projects/slavery/, doi: 10.5281/zenodo.9825." https://lincolnmullen.com/projects/slavery/

@@ -15,4 +15,4 @@ This version of the package has a number of new features. It has jumped on the [
 
 I'm especially glad that the package has added a new author: [Jordan Bratt](http://jfbratt.org/), a PhD student at George Mason and a collaborator on [Mapping Early American Elections](http://earlyamericanelections.org/). Jordan added functionality to the package that lets users [get projections](http://ropensci.github.io/USAboundaries/reference/state_plane.html) from the State Plane Coordinate System, so that they can make locally accurate maps at the level of the state or below.
 
-The package has a [new website](/software/usaboundaries/) thanks to [pkgdown](http://hadley.github.io/pkgdown/). You can read the full release notes at the [package website](http://ropensci.github.io/USAboundaries/news/index.html).
+The package has a [new website](http://ropensci.github.io/USAboundaries/) thanks to [pkgdown](http://hadley.github.io/pkgdown/). You can read the full release notes at the [package website](http://ropensci.github.io/USAboundaries/news/index.html).

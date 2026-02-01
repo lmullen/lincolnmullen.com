@@ -11,7 +11,7 @@ tags:
 The graduate students in my fall 2014 class "[Programming for Historians](http://lincolnmullen.com/courses/clio3.2014/)"---Sara Collini, Peter Carr Jones, Jannelle Legg, Anne Ladyem McDivitt, George D. Oberle III, and Amanda Regan---and I will present the poster below at the [2015 annual meeting](https://aha.confex.com/aha/2015/webprogram/Paper17312.html) of the American Historical Association. This post is a (more or less) permanent version of the poster along with supplementary materials.
 
 
-{{< figure src="teaching-grad-students-to-code.png" caption="The poster on teaching graduate students to code. Also available as a [PDF](teaching-grad-students-to-code.pdf).">}}
+{{< figure src="teaching-grad-students-to-code.png" caption="The poster on teaching graduate students to code.">}}
 
 <!--more-->
 

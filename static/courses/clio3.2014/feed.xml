@@ -281,7 +281,7 @@ sapply(1:10, add_one)&lt;/code&gt;&lt;/pre&gt;
         <title>Week 3: Introduction to JavaScript</title>
         <description>&lt;h2 id=&quot;housekeeping&quot;&gt;Housekeeping&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Tutorial schedule &lt;a href=&quot;lincolnmullen.com/courses/clio3.2014/schedule/&quot;&gt;posted&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tutorial schedule &lt;a href=&quot;/courses/clio3.2014/schedule/&quot;&gt;posted&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;How much of the assignments should you get done?&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lincolnmullen.com/courses/clio3.2014/2014/09/09/how-to-submit-an-assignment-js/&quot;&gt;How to Submit Your Code: JavaScript Edition&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Minimal HTML for leading a JavaScript file:&lt;/li&gt;

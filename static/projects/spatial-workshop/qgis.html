@@ -21,7 +21,7 @@
   <!-- begin in_header.html -->
   <meta name="description" content="Workshop materials on the spatial humanities.">
   <meta name="author" content="Lincoln Mullen">
-  <link rel="shortcut icon" href="//files.lincolnmullen.com/spatial-workshop/img/favicon.png">
+  <link rel="shortcut icon" href="img/favicon.png">
 
 
 
@@ -123,7 +123,7 @@
             initially find it surprising that QGIS does not start with a base layer, such as a Google Maps. QGIS expects
             you to add every layer for yourself.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-load.png" alt="QGIS after loading without any layers displayed." />
+            <img src="img/qgis-load.png" alt="QGIS after loading without any layers displayed." />
             <p class="caption">QGIS after loading without any layers displayed.</p>
           </div>
         </div>
@@ -135,11 +135,11 @@
             download data from NHGIS, you will need to create an account, then navigate the <a href="https://data2.nhgis.org/main">data finder</a>. See the <a href="https://www.nhgis.org/user-resources/users-guide">NHGIS User’s Guide</a> for details. After
             downloading those files, you should unzip them into a directory. Be sure to include both census data and
             shapefiles. The geographic level (i.e., county, state, or census tract) and the year must match one another
-            for the census data and the spatial data. Or you can download this <a href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_csv.zip">assortment of data from 1890 U.S.
-              Census</a> (CSV files) with accompanying <a href="//files.lincolnmullen.com/spatial-workshop/data/nhgis0040_shape.zip">county boundaries</a> (a
+            for the census data and the spatial data. Or you can download this <a href="data/nhgis0040_csv.zip">assortment of data from 1890 U.S.
+              Census</a> (CSV files) with accompanying <a href="data/nhgis0040_shape.zip">county boundaries</a> (a
             shapefile).<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis.png" alt="Selecting data from the NHGIS data finder." />
+            <img src="img/nhgis.png" alt="Selecting data from the NHGIS data finder." />
             <p class="caption">Selecting data from the NHGIS data finder.</p>
           </div>
         </div>
@@ -152,12 +152,12 @@
           <p>To add the layer, click “Layer &gt; Add Layer &gt; Add Vector Layer.” You will then navigate to the
             directory where the NHGIS shapefile is stored.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a></p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-select-file.png" alt="Selecting a shapefile to add as a vector layer in QGIS." />
+            <img src="img/qgis-select-file.png" alt="Selecting a shapefile to add as a vector layer in QGIS." />
             <p class="caption">Selecting a shapefile to add as a vector layer in QGIS.</p>
           </div>
           <p>After loading the shapefile, it will be displayed as a layer in QGIS.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-shapefile-loaded.png" alt="A shapefile after being loaded into QGIS." />
+            <img src="img/qgis-shapefile-loaded.png" alt="A shapefile after being loaded into QGIS." />
             <p class="caption">A shapefile after being loaded into QGIS.</p>
           </div>
           <p>There are a number of things you can do now that QGIS is displaying data. You can pan and zoom using the
@@ -169,7 +169,7 @@
           <p>First, to see the data associated with the shapefile, you can right click on the layer and choose “Open
             Attribute Table.” A window will pop up with a table similar to this.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-attributes.png" alt="The attribute table of a county shapefile in QGIS." />
+            <img src="img/qgis-attributes.png" alt="The attribute table of a county shapefile in QGIS." />
             <p class="caption">The attribute table of a county shapefile in QGIS.</p>
           </div>
           <p>Notice the way that this data is structured. There is one row for each “feature” in the shapefile, in this
@@ -201,13 +201,13 @@
               palettes</a>. Clicking “classify” assigns our counties to bins.
           </p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-graduated.png" alt="" />
+            <img src="img/qgis-graduated.png" alt="" />
 
           </div>
           <p>We get the following map as a result. It shows the counties classified by their size. We can inspect the
             map and see that the bigger counties do in fact receive a darker color.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-area.png" alt="The resulting map of counties categorized by their area. Notice that in a choropleth map the area of a shape can distort its apparent significance." />
+            <img src="img/qgis-area.png" alt="The resulting map of counties categorized by their area. Notice that in a choropleth map the area of a shape can distort its apparent significance." />
             <p class="caption">The resulting map of counties categorized by their area. Notice that in a choropleth map
               the area of a shape can distort its apparent significance.</p>
           </div>
@@ -220,7 +220,7 @@
             this.
           </p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/nhgis-csv.png" alt="A CSV containing data from NHGIS." />
+            <img src="img/nhgis-csv.png" alt="A CSV containing data from NHGIS." />
             <p class="caption">A CSV containing data from NHGIS.</p>
           </div>
           <p>The first thing to notice about this file is that the first column, <code>GISJOIN</code>, contains the same
@@ -235,7 +235,7 @@
             know what the columns mean. Now we are ready to join the data.
           </p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-codebook.png" alt="An NHGIS codebook." />
+            <img src="img/qgis-codebook.png" alt="An NHGIS codebook." />
             <p class="caption">An NHGIS codebook.</p>
           </div>
           <p>To join the data, we need to load the CSV into QGIS. We can do this by choosing the “Layer &gt; Add Layer
@@ -243,7 +243,7 @@
             (e.g., latitude and longitude) we could let QGIS know where to find it. But this file has no spatial
             information so we will select “no geometry.”</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-delimited.png" alt="Adding a CSV file to QGIS." />
+            <img src="img/qgis-delimited.png" alt="Adding a CSV file to QGIS." />
             <p class="caption">Adding a CSV file to QGIS.</p>
           </div>
           <p>Now we have both layers in QGIS and need to join them together. To do that, we will right click on the
@@ -254,7 +254,7 @@
             have to join a CSV of country data to a shapefile of countries using their respective columns with the names
             of the countries, and inevitably there will be some names that will need to be standardized.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-join.png" alt="Joining a CSV file to a shapefile in QGIS." />
+            <img src="img/qgis-join.png" alt="Joining a CSV file to a shapefile in QGIS." />
             <p class="caption">Joining a CSV file to a shapefile in QGIS.</p>
           </div>
           <p>Once we have completed the join, we can reopen the shapefile’s attribute table. Where before we only had
@@ -262,7 +262,7 @@
             graduated symbol as we did above. In this case, we can use the column <code>AVL016</code>, which gives us
             the number of people born in Germany by county.</p>
           <div class="figure">
-            <img src="//files.lincolnmullen.com/spatial-workshop/img/qgis-german.png" alt="People born in Germany residing in each county in 1890." />
+            <img src="img/qgis-german.png" alt="People born in Germany residing in each county in 1890." />
             <p class="caption">People born in Germany residing in each county in 1890.</p>
           </div>
         </div>

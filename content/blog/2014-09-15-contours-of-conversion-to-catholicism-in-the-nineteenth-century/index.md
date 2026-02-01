@@ -8,7 +8,11 @@ tags:
 draft: false
 ---
 
-I have an article in the most recent issue of the *U.S. Catholic Historian* titled "[The Contours of Conversion to Catholicism in the Nineteenth Century](http://muse.jhu.edu/journals/cht/summary/v032/32.2.mullen.html)" (paywalled at Project Muse, but [PDF here](mullen.contours-conversion-to-catholicism.pdf)). One of the things I like about that journal is their theme issues, and this [issue](http://muse.jhu.edu/journals/us_catholic_historian/toc/cht.32.2.html) has a nice lineup from [Erin Bartram](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.bartram.html) on Jane Minot Sedgwick II, [Stephanie A. T. Jacobe](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.jacobe.html) on Thomas Fortune Ryan, [Charles Gallagher](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.gallagher.html) on Jacques Maritain, [Tim Lacy](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.lacy.html) on Mortimer Adler, and [Justin Poché](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.poche.html) on John Howard Griffin.
+I have an article in the most recent issue of the *U.S. Catholic Historian* titled "[The Contours of Conversion to Catholicism in the Nineteenth Century](http://muse.jhu.edu/journals/cht/summary/v032/32.2.mullen.html)."
+
+<!--more-->
+
+The article is paywalled at Project Muse, but the [PDF is here](mullen.contours-conversion-to-catholicism.pdf). One of the things I like about that journal is their theme issues, and this [issue](http://muse.jhu.edu/journals/us_catholic_historian/toc/cht.32.2.html) has a nice lineup from [Erin Bartram](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.bartram.html) on Jane Minot Sedgwick II, [Stephanie A. T. Jacobe](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.jacobe.html) on Thomas Fortune Ryan, [Charles Gallagher](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.gallagher.html) on Jacques Maritain, [Tim Lacy](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.lacy.html) on Mortimer Adler, and [Justin Poché](http://muse.jhu.edu/journals/us_catholic_historian/v032/32.2.poche.html) on John Howard Griffin.
 
 My article has some maps and charts of Paulists missions, which I've made [dynamic here](http://lincolnmullen.com/projects/paulists-map/). The abstract:
 

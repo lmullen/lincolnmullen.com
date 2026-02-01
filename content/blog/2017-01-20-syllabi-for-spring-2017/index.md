@@ -8,7 +8,11 @@ tags:
 draft: false
 ---
 
-This semester I am teaching three courses, two undergraduate and one graduate. "[Global History of Christianity](http://historyarthistory.gmu.edu/courses/1125/course_sections/30456)" is a new course which Mack Holt, John Turner, and I are team teaching in both history and religious studies. This course was Mack's idea, and the team teaching this semester is a one-time deal, but I am very glad that it's been approved for the catalog going forward. "[The Digital Past](http://historyarthistory.gmu.edu/courses/1125/course_sections/30456)" is taught by a number of people at Mason, but I've decided to organize mine around the theme of "Reconstruction and Redemption." For the graduate students, I've taught a version of "[Data and Visualization in Digital History](http://historyarthistory.gmu.edu/courses/1201/course_sections/30481)" before, but this is the first time that I'm teaching it as one of the required courses in the PhD sequence instead of as an elective.
+This semester I am teaching three courses, two undergraduate and one graduate.
+
+<!--more-->
+
+"[Global History of Christianity](http://historyarthistory.gmu.edu/courses/1125/course_sections/30456)" is a new course which Mack Holt, John Turner, and I are team teaching in both history and religious studies. This course was Mack's idea, and the team teaching this semester is a one-time deal, but I am very glad that it's been approved for the catalog going forward. "[The Digital Past](http://historyarthistory.gmu.edu/courses/1125/course_sections/30456)" is taught by a number of people at Mason, but I've decided to organize mine around the theme of "Reconstruction and Redemption." For the graduate students, I've taught a version of "[Data and Visualization in Digital History](http://historyarthistory.gmu.edu/courses/1201/course_sections/30481)" before, but this is the first time that I'm teaching it as one of the required courses in the PhD sequence instead of as an elective.
 
 Here are the syllabi and course descriptions.
 

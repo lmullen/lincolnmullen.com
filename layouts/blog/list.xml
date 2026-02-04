@@ -16,7 +16,7 @@
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter")) }}
+    {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) }}
     <item>
       {{ if .Params.Linkpost }}
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>

@@ -1,0 +1,7 @@
+{{ define "main" }}
+<script>window.location.href = "/micro/#post-{{ .Date.Format "2006-01-02-15-04-05" }}";</script>
+<noscript>
+  <meta http-equiv="refresh" content="0; url=/micro/#post-{{ .Date.Format "2006-01-02-15-04-05" }}">
+</noscript>
+<p>Redirecting to <a href="/micro/#post-{{ .Date.Format "2006-01-02-15-04-05" }}">the micro posts page</a>...</p>
+{{ end }}

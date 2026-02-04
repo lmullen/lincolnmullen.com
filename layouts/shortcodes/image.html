@@ -1,4 +1,12 @@
-{{ $raw := .Get "src" | $.Page.Resources.Get }}
+{{ $src := .Get "src" }}
+{{ $raw := "" }}
+{{ if hasPrefix $src "/" }}
+{{/* Absolute path: get from global assets */}}
+{{ $raw = resources.Get (strings.TrimPrefix "/" $src) }}
+{{ else }}
+{{/* Relative path: get from page resources */}}
+{{ $raw = $.Page.Resources.Get $src }}
+{{ end }}
 {{ $ext := path.Ext (.Get "src") }}
 {{ $link := .Get "link" }}
 {{ $original := .Get "original" }}

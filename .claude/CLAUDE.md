@@ -19,7 +19,7 @@ This site uses the static site generator, [Hugo](https://gohugo.io).
 
 ```bash
 ./new-post.sh "Post Title Here"   # Creates content/blog/YYYY-MM-DD-post-title-here/index.md
-./new-link.sh                      # Creates content/links/YYYY-MM-DD-HH-MM-SS.md
+./new-micro.sh                     # Creates content/micro/YYYY-MM-DD-HH-MM-SS.md
 ```
 
 For courses, manually create `content/courses/[course-code].[year]/index.md` using the archetype at `archetypes/courses.md`.
@@ -29,10 +29,10 @@ For courses, manually create `content/courses/[course-code].[year]/index.md` usi
 Content types have layout files in `./layouts/` and corresponding content in `./content/`. The most important content types:
 
 - `blog`: Longer blog posts, with a title, tags, and other metadata.
-- `links`: Shorter social media-like posts without a title.
+- `micro`: Shorter social media-like posts without a title, with optional external links and images.
 - `newsletter`: Archives of my newsletter.
 
-The blog list page combines posts from `blog/`, `links/`, and `newsletter/` sections into a mixed feed.
+The blog list page combines posts from `blog/`, `micro/`, and `newsletter/` sections into a mixed feed.
 
 ### Front Matter Patterns
 
@@ -40,9 +40,10 @@ The blog list page combines posts from `blog/`, `links/`, and `newsletter/` sect
 - Required: `title`, `date`, `slug`, `draft`
 - Optional: `newsletter: true`, `crosspost: {url, source}`, `linkpost: "url"`
 
-**Link posts** (`content/links/YYYY-MM-DD-HH-MM-SS.md`):
+**Micro posts** (`content/micro/YYYY-MM-DD-HH-MM-SS.md`):
 - Required: `date`
-- Optional: `linkpost: "url"`
+- Optional: `linkpost: "url"` (for external links)
+- Images: Store in `assets/images/micro/` and reference with `{{</* image src="/images/micro/filename.jpg" alt="description" */>}}`
 
 Use `<!--more-->` in blog posts for "Read More" truncation on list pages.
 

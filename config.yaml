@@ -16,7 +16,7 @@ permalinks:
   blog: "/:section/:slug/"
   archive: "/:slug/"
   page: "/:section/:slug/"
-  links: "/:section/:year-:01-:02-:03-:04-:05/"
+  micro: "/:section/:year-:01-:02-:03-:04-:05/"
   newsletter: "/:section/:slug/"
 
 markup:

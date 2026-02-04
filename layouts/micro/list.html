@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<div class="container-fluid">
+
+	<h1>{{ .Title }}</h1>
+
+	{{ .Content }}
+
+	<div class="row gx-5">
+		<div class="col-md-3 order-md-2">
+			{{ partial "blog-nav" }}
+		</div>
+		<div class="col-md-9 order-md-1 blog-archive mt-4">
+			{{ range (where .Site.RegularPages "Section" "micro").GroupByDate "2006" }}
+			<div class="mb-4">
+				<h2>{{ .Key }}</h2>
+				<table class='date-list-table'>
+					<colgroup>
+						<col style="width:8rem;">
+						<col>
+					</colgroup>
+					<tbody>
+						{{ range .Pages }}
+						<tr id="post-{{ .Date.Format "2006-01-02-15-04-05" }}">
+							<td>
+								{{ if .Params.Linkpost }}
+								<a href="{{ .Params.Linkpost }}" class="link-post-date"><time class="date" datetime="{{ .Date }}">{{ .Date.Format "January 2" }}</time>&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
+								{{ else }}
+								<a href="#post-{{ .Date.Format "2006-01-02-15-04-05" }}" class="link-post-date"><time class="date" datetime="{{ .Date }}">{{ .Date.Format "January 2" }}</time></a>
+								{{ end }}
+							</td>
+							<td>{{ .Content }}</td>
+						</tr>
+						{{ end }}
+					</tbody>
+				</table>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}

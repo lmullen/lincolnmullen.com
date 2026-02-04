@@ -9,15 +9,15 @@
     </div>
     <div class="col-md-9 order-md-1 blog-list pt-5">
 
-      {{ range (.Paginate (where $.Site.RegularPages "Section" "in" (slice "blog" "links" "newsletter"))).Pages }}
+      {{ range (.Paginate (where $.Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter"))).Pages }}
 
       <!-- Blog post starts here -->
 
       <article id='{{ urlize .Title }}' class="h-entry post">
 
         <header>
-          {{ if .Params.Linkpost }}
-          <!-- No title on link posts -->
+          {{ if (eq .Section "micro") }}
+          <!-- No title on micro posts -->
           {{ else if (eq .Section "newsletter") }}
           <a href='{{ .Permalink }}' class="u-url u-uid permalink">
             <h2 class="post-title p-name">
@@ -49,10 +49,13 @@
         </div>
 
         <footer class="post-footer text-muted text-end mt-4">
-          {{ if .Params.Linkpost }}
-          <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
-            {{ .Date.Format "January 2, 2006" }}
-          </time>
+          {{ if (eq .Section "micro") }}
+          <a href="{{ .Permalink }}" class="permalink text-muted" title="Permalink" style="opacity: 0.5;">
+            <i class="bi bi-link-45deg" aria-hidden="true"></i>
+            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+              {{ .Date.Format "January 2, 2006" }}
+            </time>
+          </a>
           {{ else }}
           <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
             <i class="bi bi-link-45deg" aria-hidden="true"></i>

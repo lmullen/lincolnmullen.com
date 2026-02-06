@@ -1,16 +1,18 @@
 {
   "name": "lincolnmullen.com",
+  "version": "0.0.0",
   "description": "Source code for lincolnmullen.com",
+  "homepage": "https://lincolnmullen.com",
+  "bugs": {
+    "url": "https://github.com/lmullen/lincolnmullen.com/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lmullen/lincolnmullen.com.git"
   },
   "author": "Lincoln Mullen",
-  "bugs": {
-    "url": "https://github.com/lmullen/lincolnmullen.com/issues"
-  },
-  "homepage": "https://lincolnmullen.com",
   "dependencies": {
-    "bootstrap": "^5.2.1"
+    "bootstrap": "^5.2.1",
+    "wrangler": "^4.63.0"
   }
 }

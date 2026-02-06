@@ -5,10 +5,8 @@ thumbnail: "thumbnail.png"
 homepage: true
 homepageOrder: 1
 links:
-  - url: https://www.r2studios.org/show/Antisemitism-USA/
-    text: R2 Studios
+  - url: https://podcasts.rrchnm.org/show/Antisemitism-USA/
+    text: Podcast home page
 description: |
-  Generously funded by the Henry Luce Foundation, this podcast will be released in June 2024. 
-
-  How can Americans overcome a problem that they can’t define, a bigotry whose particulars shift over time, a hatred that most consider a problem of the past rather than the present? RRCHNM's podcast explores instances and aspects of antisemitism in U.S. history through narration, primary sources, and expert interviews. These stories will discuss what antisemitism is and how it developed and persisted alongside other forms of bigotry and hatred in the United States. Episodes will relate to the podcast's broad themes: that antisemitism is a deep-rooted American problem, that it spans the political and religious spectrum of the United States, that it is intertwined with the history of race in America, and that knowledge and understanding of the history of American antisemitism makes it easier to identify and oppose it in the present.
+  Antisemitism has deep roots in American history. Yet in the United States, we often talk about it as if it were something new. We’re shocked when events happen like the Tree of Life Shootings in Pittsburgh or the Unite the Right Rally in Charlottesville, but also surprised. We ask, “Where did this come from?” as if it came out of nowhere. But antisemitism in the United States has a history. A long, complicated history. A history easy to overlook. Join us on _Antisemitism, U.S.A._, a narrative podcast from RRCHNM, to learn just how deep those roots go.
 ---

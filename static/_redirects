@@ -1,0 +1,40 @@
+# Cloudflare Pages redirects
+
+# Feed redirects
+/atom.xml /blog/index.xml 301
+/blog/category/history/feed/ /blog/index.xml 301
+/blog/feed/ /blog/index.xml 301
+/blog/feed/atom/ /blog/index.xml 301
+/comments/feed/ /blog/index.xml 301
+/feed/ /blog/index.xml 301
+/posts.atom.xml /blog/index.xml 301
+
+# CV redirects
+/cv/ /Mullen-cv.pdf 302
+/cv/index.html /Mullen-cv.pdf 302
+/files/Mullen-cv.pdf /Mullen-cv.pdf 302
+
+# Blog post redirects
+/blog/the-humanists-os-or-scholarship-in-plain-text/null /blog/the-humanists-os-or-scholarship-in-plain-text/ 301
+/blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/null /blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/ 301
+/blog/epub-generator-for-jekyll/ /blog/e-books-for-journals-with-epub-generator-for-jekyll/ 301
+/blog/ghostery-in-the-machine/ /blog/ghostery-on-your-machine-stop-sites-from-tracking-you/ 301
+/blog/archive/ /archive/ 302
+
+# Project redirects
+/project/slavery /projects/slavery/ 301
+/project/slavery/ /projects/slavery/ 301
+/projects/coding-poster /blog/poster-teaching-graduate-students-to-code/ 301
+/projects/hist144a-maps/ / 301
+/research/history-dissertations/ / 301
+
+
+# Software package redirects (wildcards)
+/software/ / 302
+/software/gender/* https://github.com/lmullen/gender/ 301
+/software/historydata/* https://docs.ropensci.org/historydata/ 301
+/software/internetarchive/* https://docs.ropensci.org/internetarchive/ 301
+/software/textreuse/* https://docs.ropensci.org/textreuse/ 301
+/software/tokenizers/* https://docs.ropensci.org/tokenizers/ 301
+/software/usaboundaries/* https://docs.ropensci.org/USAboundaries/ 301
+/software/usaboundariesdata/* https://docs.ropensci.org/USAboundariesData/ 301

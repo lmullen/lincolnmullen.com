@@ -2,7 +2,7 @@
 	"name": "lincolnmullen-dot-com",
 	"compatibility_date": "2025-01-29",
 	"build": {
-		"command": "hugo --cleanDestinationDir --minify"
+		"command": "hugo --cleanDestinationDir --minify --baseURL \"https://lincolnmullen.com\""
 	},
 	"assets": {
 		"directory": "./public",

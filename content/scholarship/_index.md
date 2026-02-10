@@ -17,7 +17,7 @@ cascade:
 
 [Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Software](#software) | [Miscellaneous](#misc)
 
-For a complete list of my scholarship, please see my [CV](/Mullen-cv.pdf).
+For a complete list of my scholarship, please see my [CV](https://files.lincolnmullen.com/cv/Mullen-cv.pdf).
 
 <a name="books-and-projects"></a>
 

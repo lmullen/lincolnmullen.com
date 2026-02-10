@@ -10,9 +10,10 @@
 /posts.atom.xml /blog/index.xml 301
 
 # CV redirects
-/cv/ /Mullen-cv.pdf 302
-/cv/index.html /Mullen-cv.pdf 302
-/files/Mullen-cv.pdf /Mullen-cv.pdf 302
+/cv/ https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/cv/index.html https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/files/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 
 # Blog post redirects
 /blog/the-humanists-os-or-scholarship-in-plain-text/null /blog/the-humanists-os-or-scholarship-in-plain-text/ 301

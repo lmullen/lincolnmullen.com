@@ -30,6 +30,11 @@
 /research/history-dissertations/ / 301
 
 
+# Files moved to R2
+/syllabi/* https://files.lincolnmullen.com/syllabi/:splat 301
+/pdf/* https://files.lincolnmullen.com/pdf/:splat 301
+/page/history-datasets/*.csv https://files.lincolnmullen.com/history-datasets/:splat.csv 301
+
 # Software package redirects (wildcards)
 /software/ / 302
 /software/gender/* https://github.com/lmullen/gender/ 301

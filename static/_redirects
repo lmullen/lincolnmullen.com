@@ -35,6 +35,16 @@
 /pdf/* https://files.lincolnmullen.com/pdf/:splat 301
 /page/history-datasets/*.csv https://files.lincolnmullen.com/history-datasets/:splat.csv 301
 
+# Old course sites moved to PDF
+/courses/church-state.2014/* https://files.lincolnmullen.com/syllabi/church-state.2014.pdf 301
+/courses/clio2.2017/* https://files.lincolnmullen.com/syllabi/clio2.2017.pdf 301
+/courses/clio3.2014/* https://files.lincolnmullen.com/syllabi/clio3.2014.pdf 301
+/courses/data-dh.2016/* https://files.lincolnmullen.com/syllabi/data-dh.2016.pdf 301
+/courses/digital-past-2015/* https://files.lincolnmullen.com/syllabi/digital-past-2015.pdf 301
+/courses/digital-past.2017/* https://files.lincolnmullen.com/syllabi/digital-past.2017.pdf 301
+/courses/religion-capitalism.2015/* https://files.lincolnmullen.com/syllabi/religion-capitalism.2015.pdf 301
+/courses/text-analysis.2016/* https://files.lincolnmullen.com/syllabi/text-analysis.2016.pdf 301
+
 # Software package redirects (wildcards)
 /software/ / 302
 /software/gender/* https://github.com/lmullen/gender/ 301

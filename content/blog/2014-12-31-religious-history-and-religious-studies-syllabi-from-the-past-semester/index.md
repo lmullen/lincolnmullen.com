@@ -22,7 +22,7 @@ So here is a list of past syllabi from people who replied to my entreaties. Only
 -   Jonathan Den Hartog, "[Religion in American History](denhartog.pdf)"
 -   Seth Dowland, "[Islam in America](dowland.pdf)"
 -   Sharon Leon, "[American Religious History after 1865](http://www.6floors.org/teaching/ARH/2014/)"
--   Lincoln Mullen, "[Church and State in America](http://lincolnmullen.com/courses/church-state.2014/)"
+-   Lincoln Mullen, "[Church and State in America](https://files.lincolnmullen.com/syllabi/church-state.2014.pdf)"
 -   John Turner, "[Mormonism](turner.docx)"
 
 **N.B.** The following syllabi have been added since this post was first published:

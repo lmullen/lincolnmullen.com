@@ -11,7 +11,7 @@ draft: false
 
 #### Who are you, and what do you do?
 
-My name is [Lincoln Mullen](http://lincolnmullen.com) and I'm a historian at [George Mason University](http://historyarthistory.gmu.edu/). I teach and write about American religious history; at the moment I'm writing a history of people who converted between religions in the nineteenth-century United States. I'm also a digital historian at the [Roy Rosenzweig Center for History and New Media](http://chnm.gmu.edu/). I'm responsible for teaching a [graduate course on computer programming for historians](http://lincolnmullen.com/courses/clio3.2014/), for which I'm writing a book (still very much a rough draft) on [using R for digital history](http://dh-r.lincolnmullen.com/).
+My name is [Lincoln Mullen](http://lincolnmullen.com) and I'm a historian at [George Mason University](http://historyarthistory.gmu.edu/). I teach and write about American religious history; at the moment I'm writing a history of people who converted between religions in the nineteenth-century United States. I'm also a digital historian at the [Roy Rosenzweig Center for History and New Media](http://chnm.gmu.edu/). I'm responsible for teaching a [graduate course on computer programming for historians](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf), for which I'm writing a book (still very much a rough draft) on [using R for digital history](http://dh-r.lincolnmullen.com/).
 
 #### What hardware do you use?
 

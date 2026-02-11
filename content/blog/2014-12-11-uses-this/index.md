@@ -24,7 +24,7 @@ nineteenth-century United States. I\'m also a digital historian at the
 Media](http://chnm.gmu.edu/ "A history and new media center in Fairfax, Virginia").
 I\'m responsible for teaching a [graduate course on computer programming
 for
-historians](http://lincolnmullen.com/courses/clio3.2014/ "A basic computer programming course aimed at scholars."),
+historians](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf "A basic computer programming course aimed at scholars."),
 for which I\'m writing a book (still very much a rough draft) on [using
 R for digital
 history](http://dh-r.lincolnmullen.com/ "Lincoln's book on R development.").

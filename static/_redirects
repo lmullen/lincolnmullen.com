@@ -10,9 +10,10 @@
 /posts.atom.xml /blog/index.xml 301
 
 # CV redirects
-/cv/ /Mullen-cv.pdf 302
-/cv/index.html /Mullen-cv.pdf 302
-/files/Mullen-cv.pdf /Mullen-cv.pdf 302
+/cv/ https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/cv/index.html https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/files/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 
 # Blog post redirects
 /blog/the-humanists-os-or-scholarship-in-plain-text/null /blog/the-humanists-os-or-scholarship-in-plain-text/ 301
@@ -28,6 +29,11 @@
 /projects/hist144a-maps/ / 301
 /research/history-dissertations/ / 301
 
+
+# Files moved to R2
+/syllabi/* https://files.lincolnmullen.com/syllabi/:splat 301
+/pdf/* https://files.lincolnmullen.com/pdf/:splat 301
+/page/history-datasets/*.csv https://files.lincolnmullen.com/history-datasets/:splat.csv 301
 
 # Software package redirects (wildcards)
 /software/ / 302

@@ -17,7 +17,7 @@ cascade:
 
 [Books and projects](#books-and-projects) | [Articles and chapters](#articles) | [Software](#software) | [Miscellaneous](#misc)
 
-For a complete list of my scholarship, please see my [CV](/Mullen-cv.pdf).
+For a complete list of my scholarship, please see my [CV](https://files.lincolnmullen.com/cv/Mullen-cv.pdf).
 
 <a name="books-and-projects"></a>
 
@@ -145,12 +145,12 @@ Religion* 17 (2015): <http://jsreligion.org/issues/vol17/mullen.html>
 
 "The Contours of Conversion to Catholicism in the Nineteenth Century,"
 *U.S. Catholic Historian* 32, no. 2 (2014): 1--27, <https://doi.org/10.1353/cht.2014.0007>. [published
-version](/pdf/mullen.contours-conversion-to-catholicism.pdf), [Project Muse](https://muse.jhu.edu/article/552113)
+version](https://files.lincolnmullen.com/pdf/mullen.contours-conversion-to-catholicism.pdf), [Project Muse](https://muse.jhu.edu/article/552113)
 
 "Using Metadata and Maps to Teach the History of Religion,"
 *Transformations: The Journal of Inclusive Scholarship and Pedagogy*
 25, no. 1 (2014): 112--118.
-[post-print](/pdf/mullen.using-metadata-and-maps.preprint.pdf)
+[post-print](https://files.lincolnmullen.com/pdf/mullen.using-metadata-and-maps.preprint.pdf)
 
 "The Varieties of Religious Conversion: The Origins of Religious Choice
 in the United States," PhD thesis, Brandeis University (2014).

@@ -21,7 +21,7 @@ A couple of years ago, my colleague John Turner and I bounced around ideas for a
 
 However unfortunate the need for the podcast, John has ably led a team of scholars and podcasters to create it. In October of 2022, we convened the project team at my home for a kickoff meeting. As I looked around the room and listened to the conversation, I congratulated myself on being good at my job, because every person in the room was obviously more knowledgeable and talented than me. The result of their hard work is [_Antisemitism, U.S.A_](https://www.r2studios.org/show/Antisemitism-USA/), launching this June.
 
-{{< image src="ausa-cover.png" alt="Antisemitism, U.S.A. cover art"  link="https://www.r2studios.org/show/Antisemitism-USA/">}}
+{{< image src="ausa-cover.jpeg" alt="Antisemitism, U.S.A. cover art"  link="https://www.r2studios.org/show/Antisemitism-USA/">}}
 
 I've had a pretty good career so far (more on that in a moment), and I have the good fortune to lead a [research center](https://rrchnm.org) that affects millions of people each year. Still, I have a feeling deep down that this podcast might be the single most important thing that I will ever be a part of. So, can I ask you to do two things, please?
 
@@ -43,7 +43,7 @@ Here is the abstract:
 
 I am entirely confident this dissertation will be coming out soon from a good press, but if you really can't wait, write to Kris and ask for a copy.
 
-{{< image src="stinson-graduation.png" alt="Kris Stinson, PhD, and Lincoln Mullen">}}
+{{< image src="stinson-graduation.jpeg" alt="Kris Stinson, PhD, and Lincoln Mullen">}}
 
 ### Personal news
 

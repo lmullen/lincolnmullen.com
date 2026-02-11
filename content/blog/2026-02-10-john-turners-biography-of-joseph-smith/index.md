@@ -12,7 +12,7 @@ draft: false
 # linkpost: ""
 ---
 
-My friend and colleague [John Turner](https://johngturner.com) published his biography, [*Joseph Smith: The Rise and Fall of an American Prophet*](https://yalebooks.yale.edu/book/9780300255164/joseph-smith/) this past summer with Yale University Press. (Why the delayed blog post? Because I manage to publish a blog post as frequently as John publishes a new book.) In addition to the fascinating and well written biography---a worthy sequel (prequel?) to his biography of [Brigham Young](https://www.hup.harvard.edu/catalog.php?isbn=9780674416857)---John has also undertaken an incredibly detailed set of podcast interviews about Smith. There are [thirty episodes and counting](https://www.youtube.com/playlist?list=PLxq5opj6GqOARv8DqnpVuTbHvrtJypVys) available on YouTube. 
+My friend and colleague [John Turner](https://johngturner.com) published his biography, [*Joseph Smith: The Rise and Fall of an American Prophet*](https://yalebooks.yale.edu/book/9780300255164/joseph-smith/), this past summer with Yale University Press. (Why the delayed blog post? Because I manage to publish a blog post as frequently as John publishes a new book.) In addition to the fascinating and well written biography---a worthy sequel (prequel?) to his biography of [Brigham Young](https://www.hup.harvard.edu/catalog.php?isbn=9780674416857)---John has also undertaken an incredibly detailed set of podcast interviews about Smith. There are [thirty episodes and counting](https://www.youtube.com/playlist?list=PLxq5opj6GqOARv8DqnpVuTbHvrtJypVys) available on YouTube. 
 
 {{< image src="joseph-smith-cover.jpg" alt="Cover of Joseph Smith Biography" >}}
 

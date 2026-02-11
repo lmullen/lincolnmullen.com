@@ -1,9 +1,0 @@
-wiki/
-software/
-projects/
-files/
-cgi-bin/
-.DS_Store
-.well-known/
-.ftpquota
-matomo/

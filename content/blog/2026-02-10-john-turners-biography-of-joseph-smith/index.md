@@ -2,7 +2,7 @@
 title: "John Turner's biography of Joseph Smith"
 date: "2026-02-10T23:24:10-05:00"
 slug: "john-turners-biography-of-joseph-smith"
-draft: true
+draft: false
 # newsletter: true
 # tags:
 # - 

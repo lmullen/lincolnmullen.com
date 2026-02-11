@@ -20,40 +20,6 @@
       "problemMatcher": []
     },
     {
-      "label": "Deploy production version",
-      "type": "shell",
-      "command": "make deploy",
-      "presentation": {
-        "echo": true,
-        "reveal": "silent",
-        "focus": false,
-        "panel": "dedicated",
-        "showReuseMessage": true,
-        "clear": true,
-        "close": false,
-      },
-      "problemMatcher": [],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
-    },
-    {
-      "label": "New link",
-      "type": "shell",
-      "command": "./new-link.sh",
-      "presentation": {
-        "echo": true,
-        "reveal": "silent",
-        "focus": false,
-        "panel": "dedicated",
-        "showReuseMessage": false,
-        "clear": true,
-        "close": true
-      },
-      "problemMatcher": []
-    },
-    {
       "label": "New post",
       "type": "shell",
       "command": "./new-post.sh",

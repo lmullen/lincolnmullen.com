@@ -1,0 +1,27 @@
+---
+title: "John Turner's biography of Joseph Smith"
+date: "2026-02-10T23:24:10-05:00"
+slug: "john-turners-biography-of-joseph-smith"
+draft: true
+# newsletter: true
+# tags:
+# - 
+# crosspost: 
+#   url: ""
+#   source: ""
+# linkpost: ""
+---
+
+My friend and colleague [John Turner](https://johngturner.com) published his biography, [*Joseph Smith: The Rise and Fall of an American Prophet*](https://yalebooks.yale.edu/book/9780300255164/joseph-smith/) this past summer with Yale University Press. (Why the delayed blog post? Because I manage to publish a blog post as frequently as John publishes a new book.) In addition to the fascinating and well written biography---a worthy sequel (prequel?) to his biography of [Brigham Young](https://www.hup.harvard.edu/catalog.php?isbn=9780674416857)---John has also undertaken an incredibly detailed set of podcast interviews about Smith. There are [thirty episodes and counting](https://www.youtube.com/playlist?list=PLxq5opj6GqOARv8DqnpVuTbHvrtJypVys) available on YouTube. 
+
+{{< image src="joseph-smith-cover.jpg" alt="Cover of Joseph Smith Biography" >}}
+
+The publisher's description: 
+
+> From an award-winning biographer, a riveting and deeply researched portrait of Mormonism’s charismatic founder.
+>  
+> Joseph Smith Jr. (1805–1844) was one of the most successful and controversial religious leaders of nineteenth-century America, publishing the Book of Mormon and starting what would become the Church of Jesus Christ of Latter-day Saints. He built temples, founded a city-state in Illinois, ran for president, and married more than thirty women. This self-made prophet thrilled his followers with his grand vision of peace and unity, but his increasingly grandiose plans tested and sometimes shattered their faith.
+>  
+> In this vivid biography, John G. Turner presents Smith as a consummate religious entrepreneur and innovator, a man both flawed and compelling. He sold books, land, and merchandise. And he relentlessly advanced doctrines that tapped into anxieties about the nature and meaning of salvation, the validity of miracles, the timing of Christ’s second coming, and the persistence of human relationships for eternity. His teachings prompted people to gather into communities, evoking fierce opposition from those who saw those communities as theocratic threats to republicanism.
+> 
+> With insights from newly accessible diaries, church records, and transcripts of sermons, Turner illuminates Smith’s stunning trajectory, from his beginnings as an uneducated, impoverished farmhand to his ultimate fall at the hands of a murderous mob, revealing how he forged a religious tradition that has resonated with millions of people in the United States and beyond.

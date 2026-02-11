@@ -8,7 +8,7 @@ tags:
 draft: false
 ---
 
-This coming fall I will be teaching a graduate seminar on "Religion and Capitalism in the United States." I taught the course for the [first time](https://lincolnmullen.com/courses/religion-capitalism.2015/) in spring 2015. I think eight significant books on the topic were published the same semester I was teaching it, and more since, so it will likely be a completely new syllabus.
+This coming fall I will be teaching a graduate seminar on "Religion and Capitalism in the United States." I taught the course for the [first time](https://files.lincolnmullen.com/syllabi/religion-capitalism.2015.pdf) in spring 2015. I think eight significant books on the topic were published the same semester I was teaching it, and more since, so it will likely be a completely new syllabus.
 
 My course description was due today. It's a task that I wasn't looking forward to, since these descriptions always seem contrived. But this one ... this one I'm pretty happy with.
 

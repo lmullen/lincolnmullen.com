@@ -23,11 +23,19 @@
 /blog/archive/ /archive/ 302
 
 # Project redirects
-/project/slavery /projects/slavery/ 301
-/project/slavery/ /projects/slavery/ 301
+/project/slavery https://projects.lincolnmullen.com/slavery/ 301
+/project/slavery/ https://projects.lincolnmullen.com/slavery/ 301
 /projects/coding-poster /blog/poster-teaching-graduate-students-to-code/ 301
 /projects/hist144a-maps/ / 301
 /research/history-dissertations/ / 301
+
+# Project static sites moved to projects.lincolnmullen.com
+/projects/asch-2015/* https://projects.lincolnmullen.com/asch-2015/:splat 301
+/projects/paulists-map/* https://projects.lincolnmullen.com/paulists-map/:splat 301
+/projects/sex-ratios/* https://projects.lincolnmullen.com/sex-ratios/:splat 301
+/projects/slavery/* https://projects.lincolnmullen.com/slavery/:splat 301
+/projects/spatial-workshop/* https://projects.lincolnmullen.com/spatial-workshop/:splat 301
+/projects/us-boundaries/* https://projects.lincolnmullen.com/us-boundaries/:splat 301
 
 
 # Files moved to R2

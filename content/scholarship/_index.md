@@ -211,19 +211,19 @@ Religious History](http://shiny.chnm.org/urban-religious-history/)
 (2015).
 
 [Spatial Humanities
-Workshop](http://lincolnmullen.com/projects/spatial-workshop/) (2015).
+Workshop](https://projects.lincolnmullen.com/spatial-workshop/) (2015).
 
 [Divergence in U.S. Sex Ratios by County,
-1820--2010](http://lincolnmullen.com/projects/sex-ratios/) (2014).
+1820--2010](https://projects.lincolnmullen.com/sex-ratios/) (2014).
 
 [Historical Boundaries of the United States,
-1783--1912](http://lincolnmullen.com/projects/us-boundaries/) (2014).
+1783--1912](https://projects.lincolnmullen.com/us-boundaries/) (2014).
 
 [The Spread of U.S. Slavery,
-1790--1860](http://lincolnmullen.com/projects/slavery/) (2014).
+1790--1860](https://projects.lincolnmullen.com/slavery/) (2014).
 
 [Paulist Missions,
-1851--1906](http://lincolnmullen.com/projects/paulists-map/) (2014).
+1851--1906](https://projects.lincolnmullen.com/paulists-map/) (2014).
 
 Lincoln A. Mullen and Erin Bartram, [American Converts
 Database](http://americanconverts.org/) (2013--2014).

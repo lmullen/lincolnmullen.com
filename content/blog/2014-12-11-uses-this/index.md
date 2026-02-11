@@ -108,7 +108,7 @@ which is also beautiful.
 is not beautiful, but Mike Bostock\'s
 [D3.js](https://d3js.org/ "A Javascript framework for manipulating data.")
 is; I use it for interactive data visualizations and
-[maps](http://lincolnmullen.com/projects/slavery/ "Lincoln's maps of the spread of slavery.").
+[maps](https://projects.lincolnmullen.com/slavery/ "Lincoln's maps of the spread of slavery.").
 
 For managing citations I use
 [Zotero](https://www.zotero.org/ "A research tool."), an excellent

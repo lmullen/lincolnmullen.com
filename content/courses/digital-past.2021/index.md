@@ -168,7 +168,7 @@ Assignment: Using the library catalog, JSTOR, and other library resources, find 
 Readings:
 
 -   Foner, ch. 1 ("The World the War Made").
--   [The Spread of U.S. Slavery](http://lincolnmullen.com/projects/slavery/).
+-   [The Spread of U.S. Slavery](https://projects.lincolnmullen.com/slavery/).
 
 In class:
 
@@ -298,7 +298,7 @@ Readings:
 
 -   Richard White, "[What is Spatial History?](http://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29)."
 -   [Atlas of the Historical Geography of the United States](http://dsl.richmond.edu/historicalatlas/).
--   [Georectification](http://lincolnmullen.com/projects/spatial-workshop/georectification.html) from "Spatial Humanities Workshop."
+-   [Georectification](https://projects.lincolnmullen.com/spatial-workshop/georectification.html) from "Spatial Humanities Workshop."
 
 In class:
 
@@ -325,7 +325,7 @@ Before class:
 Readings:
 
 -   Stephen Robertson, "[Putting Harlem on the Map](http://quod.lib.umich.edu/d/dh/12230987.0001.001/1:8/--writing-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1#8.2)," *Writing History in the Digital Age*, edited by Jack Dougherty and Kristen Nawrotzki (2012).
--   [Data Maps](http://lincolnmullen.com/projects/spatial-workshop/data-maps.html)
+-   [Data Maps](https://projects.lincolnmullen.com/spatial-workshop/data-maps.html)
 
 Assignment: Using sources you have already gathered, create a narrative map of Reconstruction using StoryMap.js. The map should clearly communicate its subject and develop as a narrative across space. Embed the map in a blog post, and write about what you learned from making the map and the map itself.
 

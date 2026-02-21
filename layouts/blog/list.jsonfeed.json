@@ -18,22 +18,57 @@
         {{- range $index, $element := first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) }}
         {{- if $index }},{{ end }}
         {
-            "id": "{{ .Permalink | absURL }}",
-            "url": "{{ .Permalink | absURL }}",
-            {{- if .Params.Linkpost }}
-            "external_url": "{{ .Params.Linkpost }}",
+            "id": "{{ $element.Permalink | absURL }}",
+            "url": "{{ $element.Permalink | absURL }}",
+            {{- if $element.Params.Linkpost }}
+            "external_url": "{{ $element.Params.Linkpost }}",
             {{- else }}
-            "title": {{ .Title | jsonify }},
+            "title": {{ $element.Title | jsonify }},
             {{- end }}
-            "content_html": {{ .Content | jsonify }},
-            "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
-            {{- if .Params.tags }},
-            "tags": {{ .Params.tags | jsonify }}
+            "content_html": {{ $element.Content | jsonify }},
+            "date_published": "{{ $element.Date.Format "2006-01-02T15:04:05Z07:00" }}"
+            {{- /* banner_image: resolve from front matter or page bundle (no default fallback) */ -}}
+            {{- $feedImage := "" -}}
+            {{- if $element.Params.image -}}
+              {{- $globalPath := strings.TrimPrefix "/" $element.Params.image -}}
+              {{- with resources.Get $globalPath -}}
+                {{- $feedImage = .Permalink -}}
+              {{- else -}}
+                {{- with $element.Resources.GetMatch $element.Params.image -}}
+                  {{- $feedImage = .Permalink -}}
+                {{- else -}}
+                  {{- $feedImage = $element.Params.image | absURL -}}
+                {{- end -}}
+              {{- end -}}
+            {{- else -}}
+              {{- $conventionNames := slice "feature" "cover" "thumbnail" -}}
+              {{- range $conventionNames -}}
+                {{- if not $feedImage -}}
+                  {{- with $element.Resources.GetMatch (printf "*%s*" .) -}}
+                    {{- if ne .MediaType.SubType "svg" -}}
+                      {{- $feedImage = .Permalink -}}
+                    {{- end -}}
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
+              {{- if not $feedImage -}}
+                {{- range $element.Resources.ByType "image" -}}
+                  {{- if and (not $feedImage) (ne .MediaType.SubType "svg") -}}
+                    {{- $feedImage = .Permalink -}}
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+            {{- if $feedImage }},
+            "banner_image": {{ $feedImage | jsonify }}
+            {{- end }}
+            {{- if $element.Params.tags }},
+            "tags": {{ $element.Params.tags | jsonify }}
             {{- end }},
             "authors": [
                 {
-                    "name": "{{ .Site.Params.author.name }}",
-                    "url": "{{ .Site.BaseURL }}"
+                    "name": "{{ $element.Site.Params.author.name }}",
+                    "url": "{{ $element.Site.BaseURL }}"
                 }
             ]
         }

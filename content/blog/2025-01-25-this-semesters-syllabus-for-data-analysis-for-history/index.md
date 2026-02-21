@@ -2,6 +2,7 @@
 title: "This semester's syllabus for Data Analysis for History"
 date: "2025-01-25T16:10:21-05:00"
 slug: "this-semesters-syllabus-for-data-analysis-for-history"
+description: "A complete rethinking of a decade-old course: replacing an R-centric approach with Observable Plot, PostgreSQL, and Go—and embracing generative AI as a teaching tool."
 draft: false
 # newsletter: true
 # tags:

@@ -2,6 +2,7 @@
 title: 'Atlases of American Religion, Print and Digital'
 date: "2013-07-01"
 slug: 'atlases-of-american-religion-print-and-digital'
+description: "Comparing the Gaustad print atlas with the new Digital Atlas of American Religion: what print limits in static maps and what digital tools reveal—and what both still lack."
 tags:
 - American religious history
 - digital humanities

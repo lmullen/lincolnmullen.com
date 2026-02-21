@@ -2,6 +2,7 @@
 title: "What's so wrong with myths?"
 date: "2010-09-26"
 slug: 'whats-so-wrong-with-myths'
+description: "Myths are inescapable but not equally true; the historian's task is to reshape them toward truth rather than treat them as virtues—especially when, like the Tea Party's, they are demonstrably false."
 tags:
 - history
 draft: false

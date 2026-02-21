@@ -2,6 +2,7 @@
 title: 'A confirmation of Andrew Goldstone on "Teaching Quantitative Methods"'
 date: "2017-02-08"
 slug: 'a-confirmation-of-andrew-goldstone-on-teaching-quantitative-methods'
+description: "A response to Goldstone on teaching quantitative methods, confirming that methodology matters more than programming and that digital history still lacks good models for argumentation."
 tags:
 - digital history
 - teaching

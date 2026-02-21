@@ -2,6 +2,7 @@
 title: 'Boston-Area Days of Digital Humanities'
 date: "2013-01-08"
 slug: 'boston-area-days-of-digital-humanities'
+description: "Two linked DH events in Boston in March 2013—one focused on graduate students and junior faculty, another featuring NEH workshops and keynotes by Julia Flanders and Matthew Jockers."
 tags:
 - digital humanities
 draft: false

@@ -2,6 +2,7 @@
 title: Slack in my classroom
 date: "2017-01-03"
 slug: 'slack-in-my-classroom'
+description: "Slack for graduate digital history courses eliminates nearly all email and makes peer help easy, but the cost is feeling obligated to respond at all hours."
 tags:
 - teaching
 draft: false

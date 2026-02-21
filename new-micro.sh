@@ -38,10 +38,14 @@ fi
 # Create the micro post using Hugo archetype
 hugo new --kind micro "micro/$timestamp.md"
 
-# If image was included, append shortcode to post
+# If image was included, fill in front matter and append shortcode;
+# otherwise remove the empty image: placeholder from front matter
 if [[ "$include_image" =~ ^[Yy]$ ]]; then
+    sed -i '' "s|^image: *$|image: \"/images/micro/$new_image_name\"|" "$post_file"
     echo "" >> "$post_file"
     echo "{{< image src=\"/images/micro/$new_image_name\" alt=\"$alt_text\" >}}" >> "$post_file"
+else
+    sed -i '' '/^image: *$/d' "$post_file"
 fi
 
 # Open in VS Code

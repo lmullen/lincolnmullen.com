@@ -42,8 +42,8 @@ The blog list page combines posts from `blog/`, `micro/`, and `newsletter/` sect
 
 **Micro posts** (`content/micro/YYYY-MM-DD-HH-MM-SS.md`):
 - Required: `date`
-- Optional: `linkpost: "url"` (for external links)
-- Images: Store in `assets/images/micro/` and reference with `{{</* image src="/images/micro/filename.jpg" alt="description" */>}}`
+- Optional: `linkpost: "url"` (for external links), `image: "/images/micro/filename.jpg"` (set automatically by `new-micro.sh` when an image is included)
+- Images: Store in `assets/images/micro/` and reference with `{{</* image src="/images/micro/filename.jpg" alt="description" */>}}`; the `image:` front matter field enables automatic OpenGraph image previews
 
 Use `<!--more-->` in blog posts for "Read More" truncation on list pages.
 

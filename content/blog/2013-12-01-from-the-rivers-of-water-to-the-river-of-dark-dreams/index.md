@@ -2,6 +2,7 @@
 title: 'From the Rivers of Water to the River of Dark Dreams'
 date: "2013-12-01"
 slug: 'from-the-rivers-of-water-to-the-river-of-dark-dreams'
+description: "Clarke's *By the Rivers of Water* is a masterwork of personal narrative history; comparing it to Johnson's abstract *River of Dark Dreams* reveals what religious history has yet to reckon with."
 tags:
 - American religious history
 - book reviews

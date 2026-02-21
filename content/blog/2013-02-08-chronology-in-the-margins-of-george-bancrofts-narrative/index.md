@@ -2,6 +2,7 @@
 title: "Chronology in the Margins of George Bancroft's Narrative"
 date: "2013-02-08"
 slug: 'chronology-in-the-margins-of-george-bancrofts-narrative'
+description: "Bancroft's *History of the United States* used marginal dates and topical running heads to anchor narrative in chronology—a typographic trick that modern historians and digital books still lack."
 tags:
 - historiography
 draft: false

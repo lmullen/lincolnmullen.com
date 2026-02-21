@@ -2,6 +2,7 @@
 title: 'John McPhee on structure and his text-editor'
 date: "2013-01-14"
 slug: 'john-mcphee-on-structure-and-his-text-editor'
+description: "McPhee's *New Yorker* essay on structure includes a passage about Kedit and the custom programs Howard Strauss wrote to adapt the computer to McPhee's own way of working."
 tags:
 - writing
 draft: false

@@ -2,6 +2,7 @@
 title: "Sacred Book, Sacred Space: My Attempt to Buy a Qur'an"
 date: "2010-09-10"
 slug: 'sacred-book-sacred-space-my-attempt-to-buy-a-quran'
+description: "The Qur'an-burning and Ground Zero mosque controversies share a root cause: not a clash between Islam and Christianity, but between Islam and American civil religion."
 tags:
 - religion
 draft: false

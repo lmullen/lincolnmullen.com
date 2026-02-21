@@ -2,6 +2,7 @@
 title: "Kidd on Sarah Osborn's World"
 date: "2012-12-06"
 slug: 'kidd-on-sarah-osborns-world'
+description: "Thomas Kidd calls Catherine Brekus's Sarah Osborn's World simply one of the best books on any American evangelical, male or female—a strong endorsement of a colonial biography."
 tags:
 - religion
 draft: false

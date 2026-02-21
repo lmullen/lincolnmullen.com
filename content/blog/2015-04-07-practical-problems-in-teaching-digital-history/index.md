@@ -2,6 +2,7 @@
 title: Practical Problems in Teaching Digital History
 date: "2015-04-07"
 slug: 'practical-problems-in-teaching-digital-history'
+description: "A handout for a DC History Graduate Students discussion with Mills Kelly on the practical problems of incorporating digital work into history courses."
 tags:
 - digital history
 - teaching

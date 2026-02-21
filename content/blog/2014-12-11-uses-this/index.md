@@ -1,5 +1,6 @@
 ---
 title: "Interview at *Uses This*"
+description: "An interview for *Uses This* on the tools a historian-programmer relies on: MacBook Pro, R, Vim, and a general preference for things that last over things that are new."
 date: 2014-12-11
 tags:
 - Unix

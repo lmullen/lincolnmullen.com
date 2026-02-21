@@ -2,6 +2,7 @@
 title: 'The math behind Protestant and Catholic religious enthusiasm'
 date: "2012-12-08"
 slug: 'the-math-behind-protestant-and-catholic-religious-enthusiasm'
+description: "The growing enthusiasm gap between evangelical Protestants and Catholics may reflect a compositional shift: less-committed evangelicals are quietly dropping their affiliation entirely."
 tags:
 - religion
 draft: false

@@ -2,6 +2,7 @@
 title: "ASCH/AHA 2019"
 date: "2019-01-02"
 slug: "asch-aha-2019"
+description: "An itinerary for the 2019 ASCH and AHA annual meetings, covering three panels on Mill, digital legal history, and nineteenth-century American anti-Catholicism."
 tags:
 - conferences
 - American religious history

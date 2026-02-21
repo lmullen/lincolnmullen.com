@@ -2,6 +2,7 @@
 title: 'Charting Faculty Salaries by Discipline, Rank, and Institution'
 date: "2014-03-17"
 slug: 'charting-faculty-salaries-by-discipline-rank-and-institution'
+description: "Charts of 2013–14 *Chronicle* faculty salary data by discipline and institution type—send to loved ones to justify your life choices, or just learn about salary compression."
 tags:
 - data visualization
 draft: false

@@ -2,6 +2,7 @@
 title: 'Historical Religion Data in the NHGIS and What You Can Do with It'
 date: "2013-10-01"
 slug: 'historical-religion-data-in-the-nhgis-and-what-you-can-do-with-it'
+description: "The NHGIS offers 63 tables of historical U.S. religion data from the Census—here's what's there, how to access it, and what early experiments with mapping it reveal."
 tags:
 - digital history
 - mapping

@@ -2,6 +2,7 @@
 title: TopoJSON in R with rgdal
 date: "2014-09-26"
 slug: 'topojson-in-r-with-rgdal'
+description: "Recent versions of GDAL can read TopoJSON directly, meaning rgdal can too—bringing D3's compact, topologically clean map format into R's mapping workflow."
 tags:
 - R
 - spatial humanities

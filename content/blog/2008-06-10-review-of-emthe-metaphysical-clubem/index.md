@@ -2,6 +2,7 @@
 title: 'Review of The Metaphysical Club'
 date: "2008-06-10"
 slug: 'review-of-emthe-metaphysical-clubem'
+description: "Louis Menand argues that pragmatism grew from the Civil War's destruction of certitude—a compelling thesis conveyed through biographical portraits of Holmes, James, Peirce, and Dewey."
 tags:
 - book reviews
 draft: false

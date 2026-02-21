@@ -2,6 +2,7 @@
 title: 'Setting up a new Mac with dotfiles and Homebrew bundle'
 date: '2021-12-27'
 slug: 'setting-up-a-new-mac-with-homebrew'
+description: "A GitHub dotfiles repository and a Homebrew Brewfile make Mac setup reproducible, automating application installs and development environment configuration."
 tags: 
 - Mac
 - Homebrew

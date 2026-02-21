@@ -2,6 +2,7 @@
 title: New package tokenizers joins rOpenSci
 date: "2016-08-24"
 slug: 'new-package-tokenizers-joins-ropensci'
+description: "The tokenizers R package joins rOpenSci, offering consistent, fast tokenization functions to help unify R's growing but fragmented text analysis ecosystem."
 tags:
 - digital history
 - R

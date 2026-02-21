@@ -2,6 +2,7 @@
 title: 'Introducing America''s Public Bible (Beta)'
 date: "2016-08-01"
 slug: 'introducing-americas-public-bible-beta'
+description: "A beta launch of *America's Public Bible*, which uses machine learning to find biblical quotations in eleven million *Chronicling America* newspaper pages."
 tags:
 - digital history
 - American religious history

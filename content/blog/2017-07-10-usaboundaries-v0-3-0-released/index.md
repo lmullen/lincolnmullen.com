@@ -5,6 +5,7 @@ tags:
 date: '2017-07-10'
 slug: 'usaboundaries-v0-3-0-released'
 title: 'New release: USAboundaries v0.3.0'
+description: "USAboundaries v0.3.0 adds Simple Features support, historical city populations, and State Plane projections to this R package for historical U.S. boundaries."
 ---
 
 I've recently published [version 0.3.0 of my USAboundaries R package](http://ropensci.github.io/USAboundaries/) to CRAN. USAboundaries provides access to spatial data for U.S. counties, states, cities, congressional districts, and zip codes. Of course you can easily get contemporary boundaries from lots of places, but this package lets you specify dates and get the locations for historical county and state boundaries as well as city locations.

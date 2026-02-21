@@ -2,6 +2,7 @@
 title: 'Preprint for "The Spine of American Law"'
 date: "2017-07-13"
 slug: 'preprint-for-the-spine-of-american-law'
+description: "A preprint for an *AHR* article using text reuse to trace how Field's code united the American South and West through a state-level Greater Reconstruction."
 tags:
 - digital history
 - legal history

@@ -2,6 +2,7 @@
 title: 'Maps of Catholic Dioceses in the US, Canada, and Mexico, Take Two'
 date: "2013-09-08"
 slug: 'maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two'
+description: "An improved animated map of Catholic dioceses in North America using NHGIS historical state boundaries, showing the spread of the Church from the colonial period through the twentieth century."
 tags:
 - digital history
 - mapping

@@ -2,6 +2,7 @@
 title: 'Review of To Serve God and Wal-Mart'
 date: "2010-05-05"
 slug: 'review-of-emto-serve-god-and-wal-martem'
+description: "Bethany Moreton's cultural history argues that Wal-Mart's rise depended on Ozarks agrarian traditions and evangelical servant leadership—a compelling thesis with some evidentiary gaps."
 tags:
 - book reviews
 - American religious history

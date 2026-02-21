@@ -2,6 +2,7 @@
 title: 'Panelists Wanted: DH Methods in the Traditional Dissertation'
 date: "2013-01-14"
 slug: 'panelists-wanted-dh-methods-in-the-traditional-dissertation'
+description: "A call for grad students to join a panel discussion on integrating digital humanities methods into a traditional dissertation—not experts dispensing wisdom, but a conversation about moving forward."
 tags:
 - digital humanities
 draft: false

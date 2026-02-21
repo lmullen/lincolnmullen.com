@@ -2,6 +2,7 @@
 title: Religious History and Religious Studies Syllabi from the Past Semester
 date: "2014-12-31"
 slug: 'religious-history-and-religious-studies-syllabi-from-the-past-semester'
+description: "A roundup of syllabi from religious history and religious studies courses, shared so scholars can see how colleagues put fields together—often more revealing than articles."
 tags:
 - American religious history
 - teaching

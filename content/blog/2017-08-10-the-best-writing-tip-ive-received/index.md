@@ -2,6 +2,7 @@
 title: 'The best writing tip I''ve received'
 date: "2017-08-10"
 slug: 'the-best-writing-tip-ive-received'
+description: "The most useful writing tip: a paragraph's last sentence often wants to be the first sentence of the next, a pattern visible in almost every draft."
 tags:
 - writing
 draft: false

@@ -2,6 +2,7 @@
 title: ggplot2 Extensions Gallery
 date: "2016-02-02"
 slug: 'ggplot2-extensions-gallery'
+description: "A new gallery collects ggplot2 extensions, including ggrepel for readable labels and packages for plotting networks within the ggplot2 framework."
 tags:
 - R
 - ggplot2

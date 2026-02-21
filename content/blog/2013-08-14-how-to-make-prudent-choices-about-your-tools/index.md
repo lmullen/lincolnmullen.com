@@ -2,6 +2,7 @@
 title: 'How to Make Prudent Choices About Your Tools'
 date: "2013-08-14"
 slug: 'how-to-make-prudent-choices-about-your-tools'
+description: "The best tool is the one you're already using to get work done—rules of thumb for deciding when a tool switch is worth the hidden cost of all the familiarity you'll lose."
 tags:
 - technology
 draft: false

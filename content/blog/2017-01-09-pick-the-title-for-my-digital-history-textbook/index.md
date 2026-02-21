@@ -2,6 +2,7 @@
 title: Pick the title for my digital history textbook
 date: "2017-01-09"
 slug: 'pick-the-title-for-my-digital-history-textbook'
+description: "A computational history textbook restarted with a clearer vision: historical thinking first, R techniques second, tidy data throughout—plus a request for help choosing the title."
 tags:
 - digital history
 - R

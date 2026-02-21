@@ -2,6 +2,7 @@
 title: 'A programming language and a sense of self'
 date: "2019-07-23"
 slug: 'a-programming-language-and-a-sense-of-self'
+description: "Go's traits—minimalism, strong typing, high performance, and explicit error handling—turn out to map suspiciously well onto one programmer's beleaguered sense of self."
 tags:
 - Go
 - programming

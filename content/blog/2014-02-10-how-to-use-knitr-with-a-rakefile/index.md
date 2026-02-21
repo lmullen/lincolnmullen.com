@@ -2,6 +2,7 @@
 title: 'How to Use Knitr with a Rakefile'
 date: "2014-02-10"
 slug: 'how-to-use-knitr-with-a-rakefile'
+description: "A Rake rule that runs knitr in a clean R session—without loading .Rdata or .Rprofile—so R Markdown blog posts and analyses remain fully reproducible."
 tags:
 - technology
 - R

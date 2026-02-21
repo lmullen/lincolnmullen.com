@@ -2,6 +2,7 @@
 title: Visualizing RRCHNM Projects and People
 date: "2014-11-15"
 slug: 'visualizing-rrchnm-projects-and-people'
+description: "A one-day hackathon at RRCHNM's 20th anniversary conference produced a network visualization of the people and projects that shaped twenty years of digital history."
 tags:
 - digital history
 - data visualization

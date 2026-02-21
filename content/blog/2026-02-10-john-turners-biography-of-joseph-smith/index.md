@@ -2,6 +2,7 @@
 title: "John Turner's biography of Joseph Smith"
 date: "2026-02-10T23:24:10-05:00"
 slug: "john-turners-biography-of-joseph-smith"
+description: "John Turner's Yale biography portrays Joseph Smith as a consummate religious entrepreneur—a compelling account accompanied by thirty podcast episodes of detailed interviews."
 draft: false
 # newsletter: true
 # tags:

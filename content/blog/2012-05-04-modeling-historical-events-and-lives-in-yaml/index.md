@@ -2,6 +2,7 @@
 title: 'Modeling Historical Events and Lives in YAML'
 date: "2012-05-04"
 slug: 'modeling-historical-events-and-lives-in-yaml'
+description: "Using YAML to model nineteenth-century conversion data combines human-readable research notes with structured data that can be queried programmatically—a workflow for historians who code."
 tags:
 - digital humanities
 - Ruby

@@ -2,6 +2,7 @@
 title: "How long does it take to publish in the AHR?"
 date: "2018-07-31"
 slug: "how-long-does-it-take-to-publish-in-the-ahr"
+description: "One article's journey through the *American Historical Review*—349 days from submission to acceptance—makes the case for shorter review deadlines and preprints."
 tags:
 - publishing
 - peer review

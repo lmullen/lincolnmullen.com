@@ -2,6 +2,7 @@
 title: 'Analyzing Historical History Dissertations: Gender'
 date: "2014-02-24"
 slug: 'analyzing-historical-history-dissertations-gender'
+description: "Using SSA names data to infer the gender of history dissertation authors shows a steady rise in women's share since the 1950s, plateauing just below parity."
 tags:
 - digital history
 draft: false

@@ -2,6 +2,7 @@
 title: Review of Religion and the Marketplace in the United States
 date: "2015-02-01"
 slug: 'review-of-religion-and-the-marketplace-in-the-united-states'
+description: "Lofton's essay in this collection asks whether historians write about a 'market of religion' because the market is really there, or because our scholarship is neoliberal."
 tags:
 - American religious history
 - book reviews

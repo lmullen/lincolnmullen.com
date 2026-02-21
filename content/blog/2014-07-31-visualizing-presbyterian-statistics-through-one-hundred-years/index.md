@@ -2,6 +2,7 @@
 title: Visualizing Presbyterian Statistics Through One Hundred Years
 date: "2014-07-31"
 slug: 'visualizing-presbyterian-statistics-through-one-hundred-years'
+description: "Herman Carl Weber's 1927 *Presbyterian Statistics through One Hundred Years* offers a surprising precedent for digital history: denominations have always needed their numbers visualized."
 tags:
 - data visualization
 - American religious history

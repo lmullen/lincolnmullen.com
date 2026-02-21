@@ -2,6 +2,7 @@
 title: Review of The Age of Atheists
 date: "2014-08-21"
 slug: 'review-of-the-age-of-atheists'
+description: "A review at *Books & Culture* of Peter Watson's survey of how people have sought meaning and morality since the presumed death of God in the modern era."
 tags:
 - book reviews
 draft: false

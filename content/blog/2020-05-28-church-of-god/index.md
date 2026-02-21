@@ -2,6 +2,7 @@
 title: 'Church of God'
 date: "2020-05-28"
 slug: 'church-of-god'
+description: "Working on American Religious Ecologies revealed thirteen 'Church of God' denominations in the 1926 Religious Bodies Census, most of them ignored by historians."
 tags:
 - American Religious Ecologies
 - denominations

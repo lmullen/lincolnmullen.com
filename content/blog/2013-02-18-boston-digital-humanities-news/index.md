@@ -2,6 +2,7 @@
 title: 'Boston Digital Humanities News'
 date: "2013-02-18"
 slug: 'boston-digital-humanities-news'
+description: "The Boston Digital Humanities Consortium has launched a website with a mailing list and the most comprehensive calendar of DH events in the Boston area."
 tags:
 - digital humanities
 draft: false

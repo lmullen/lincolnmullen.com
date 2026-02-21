@@ -2,6 +2,7 @@
 title: Bibles and tracts in print culture in America
 date: "2017-09-29"
 slug: 'bibles-and-tracts-in-print-culture-in-america'
+description: "An encyclopedia essay on how Bibles, tracts, and periodicals created both denominational loyalty and cross-denominational unity in American religious history."
 tags:
 - American religious history
 - publications

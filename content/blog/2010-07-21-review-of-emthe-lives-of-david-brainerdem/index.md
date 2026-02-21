@@ -2,6 +2,7 @@
 title: 'Review of The Lives of David Brainerd'
 date: "2010-07-21"
 slug: 'review-of-emthe-lives-of-david-brainerdem'
+description: "John Grigg's critical study traces how successive generations—Edwards, Wesley, Carey, and Jim Eliot—each refashioned David Brainerd's memory to suit their own evangelical purposes."
 tags:
 - book reviews
 - American religious history

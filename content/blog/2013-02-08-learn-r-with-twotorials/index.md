@@ -2,6 +2,7 @@
 title: 'Learn R with Twotorials'
 date: "2013-02-08"
 slug: 'learn-r-with-twotorials'
+description: "R Twotorials breaks learning R into ninety two-minute screencasts—fast-paced and designed for busy scholars who need to pick up statistical computing in stolen moments."
 tags:
 - R
 - technology

@@ -2,6 +2,7 @@
 title: 'Catalog Search Plugin for Omeka Released'
 date: "2013-05-09"
 slug: 'catalog-search-plugin-for-omeka-released'
+description: "An Omeka plugin that links items to external catalog searches—ArchiveGrid, DPLA, Google Books, JSTOR, WorldCat, and more—using Library of Congress subject headings."
 tags:
 - technology
 - Omeka

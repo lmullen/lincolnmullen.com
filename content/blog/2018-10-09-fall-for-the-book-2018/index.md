@@ -2,6 +2,7 @@
 title: "The Chance of Salvation at Fall for the Book"
 date: "2018-10-09"
 slug: "the-chance-of-salvation-at-fall-for-the-book"
+description: "A talk at GMU's Fall for the Book on *The Chance of Salvation*, tracing seven converts from multiple religious traditions and none in forty-five minutes."
 tags:
 - Chance of Salvation
 - talks

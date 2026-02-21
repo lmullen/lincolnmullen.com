@@ -2,6 +2,7 @@
 title: A Figure Plugin for Jekyll
 date: "2014-03-20"
 slug: 'a-figure-plugin-for-jekyll'
+description: "A Jekyll plugin that turns a simple tag with filename, formats, and caption into a properly formatted figure element with responsive image links."
 tags:
 - Jekyll
 draft: false

@@ -2,6 +2,7 @@
 title: RRCHNM's custom API for data-driven projects 
 date: "2022-04-06"
 slug: rrchnm-data-api
+description: "RRCHNM built Apiary, a Go API backed by PostgreSQL, to serve JSON and GeoJSON data to browser visualizations across projects like American Religious Ecologies."
 tags:
 - RRCHNM
 - Go

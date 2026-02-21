@@ -2,6 +2,7 @@
 title: 'The most interesting tech company of 2018'
 date: "2019-01-11"
 slug: 'most-interesting-tech-company-of-2018'
+description: "A surprising argument that Microsoft was the most interesting tech company of 2018, from Xbox to Visual Studio Code to Windows Subsystem for Linux."
 tags:
 - technology
 draft: false

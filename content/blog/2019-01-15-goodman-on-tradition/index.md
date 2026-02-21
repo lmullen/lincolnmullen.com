@@ -2,6 +2,7 @@
 title: 'Goodman on the meaning of "tradition"'
 date: "2019-01-15"
 slug: 'goodman-on-tradition'
+description: "Martin Goodman challenges the 'river of tradition' metaphor for Judaism, showing that the most important aspects of religion now may have little connection with antiquity."
 tags:
 - religious tradition
 - history of Judaism

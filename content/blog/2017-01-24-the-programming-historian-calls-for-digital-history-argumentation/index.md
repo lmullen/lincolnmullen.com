@@ -2,6 +2,7 @@
 title: The Programming Historian calls for digital history argumentation
 date: "2017-01-24"
 slug: 'the-programming-historian-calls-for-digital-history-argumentation'
+description: "*The Programming Historian* calls for tutorials that address the gap between data analysis and historical argumentation—the hardest step in computational history."
 tags:
 - digital history
 draft: false

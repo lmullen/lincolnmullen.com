@@ -2,6 +2,7 @@
 title: Map projections and the historical imagination
 date: "2014-05-22"
 slug: 'map-projections-and-the-historical-imagination'
+description: "Richard Edes Harrison's WWII maps wrenched Americans from Mercator's grip—and D3.js now gives historians the same freedom to choose projections that serve their arguments."
 tags:
 - digital history
 - spatial humanities

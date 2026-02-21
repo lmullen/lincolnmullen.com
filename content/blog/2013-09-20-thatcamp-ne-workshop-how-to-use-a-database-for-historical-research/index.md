@@ -2,6 +2,7 @@
 title: 'THATCamp NE Workshop: How to Use a Database for Historical Research'
 date: "2013-09-20"
 slug: 'thatcamp-ne-workshop-how-to-use-a-database-for-historical-research'
+description: "A THATCamp NE workshop on building databases for historical research: modeling uncertainty, citing sources, and turning a research database into maps and arguments."
 tags:
 - digital history
 - databases

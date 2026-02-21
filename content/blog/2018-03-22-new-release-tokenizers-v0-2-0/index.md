@@ -2,6 +2,7 @@
 title: 'New release: tokenizers v0.2.0'
 date: "2018-03-23"
 slug: 'new-release-tokenizers-v0-2-0'
+description: "tokenizers v0.2.0 adds tweet tokenization, document splitting, word counts, and Text Interchange Format support for better interoperability in R text analysis."
 tags:
 - R
 - tokenizers

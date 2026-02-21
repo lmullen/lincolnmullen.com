@@ -2,6 +2,7 @@
 title: 'Shapefiles of Historic U.S. State Boundaries for Use in R'
 date: "2013-08-21"
 slug: 'shapefiles-of-historic-u-s-state-boundaries-for-use-in-r'
+description: "NHGIS historical state boundary shapefiles converted to WGS84 and packaged as R objects, making historical mapping in ggplot2 straightforward without projection headaches."
 tags:
 - digital history
 - mapping

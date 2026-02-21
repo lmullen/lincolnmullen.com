@@ -2,6 +2,7 @@
 title: 'The Science of the Soul in Colonial New England'
 date: "2012-12-31"
 slug: 'the-science-of-the-soul-in-colonial-new-england'
+description: "Sarah Rivett shows that seventeenth-century Puritan theology and Enlightenment science shared the same empirical epistemology—both grappling with a fallen intellect prone to error."
 tags:
 - religion
 draft: false

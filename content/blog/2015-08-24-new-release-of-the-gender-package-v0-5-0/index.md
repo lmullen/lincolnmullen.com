@@ -2,6 +2,7 @@
 title: 'New Release of the gender Package (v0.5.0)'
 date: "2015-08-24"
 slug: 'new-release-of-the-gender-package-v0-5-0'
+description: "gender v0.5.0 adds performance improvements, European naming data, and a new gender_df() function for datasets where each name has an associated birth year."
 tags:
 - R
 - digital history

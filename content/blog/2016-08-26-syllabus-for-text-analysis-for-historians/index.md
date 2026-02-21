@@ -2,6 +2,7 @@
 title: 'Syllabus for "Text Analysis for Historians"'
 date: "2016-08-26"
 slug: 'syllabus-for-text-analysis-for-historians'
+description: "A disciplinary syllabus for a graduate independent study in text analysis for historians, organized around a corpus of Anglo-American legal treatises."
 tags:
 - digital history
 - syllabus

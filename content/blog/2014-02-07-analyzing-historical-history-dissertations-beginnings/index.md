@@ -2,6 +2,7 @@
 title: 'Analyzing Historical History Dissertations: Beginnings'
 date: "2014-02-07"
 slug: 'analyzing-historical-history-dissertations-beginnings'
+description: "Opening a series using a ProQuest dump of 84,000 history dissertations since 1878 to ask how historians have studied the past—in quantity, length, subject, and generation."
 tags:
 - digital history
 draft: false

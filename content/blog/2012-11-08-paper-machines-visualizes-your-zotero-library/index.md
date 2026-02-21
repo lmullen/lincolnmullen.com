@@ -2,6 +2,7 @@
 title: 'Paper Machines Visualizes Your Zotero Library'
 date: "2012-11-08"
 slug: 'paper-machines-visualizes-your-zotero-library'
+description: "Paper Machines runs topic modeling, phrase extraction, and geographic mapping directly on your Zotero collection—surfacing patterns in primary sources you might not have expected."
 tags:
 - digital humanities
 - Zotero

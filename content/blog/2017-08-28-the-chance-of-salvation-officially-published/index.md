@@ -2,6 +2,7 @@
 title: 'The Chance of Salvation officially published'
 date: "2017-08-28"
 slug: 'the-chance-of-salvation-officially-published'
+description: "The official Harvard University Press publication date for *The Chance of Salvation*, marked by an *Atlantic* interview on the history of conversion in America."
 tags:
 - Chance of Salvation
 - American religious history

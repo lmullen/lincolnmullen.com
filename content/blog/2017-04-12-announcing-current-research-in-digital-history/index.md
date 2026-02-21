@@ -2,6 +2,7 @@
 title: Announcing Current Research in Digital History
 date: "2017-04-12"
 slug: 'announcing-current-research-in-digital-history'
+description: "Announcing CRDH, a new RRCHNM conference and peer-reviewed proceedings intended to encourage digital history scholarship that makes genuine historical arguments."
 tags:
 - digital history
 - RRCHNM

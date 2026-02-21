@@ -2,6 +2,7 @@
 title: 'Review of A Theology of Religious Change'
 date: "2012-01-25"
 slug: 'review-of-ema-theology-of-religious-changeem'
+description: "David Zehnder's ambitious attempt to apply social science research on conversion to monergist theology is most useful where it turns away from doctrinal controversy toward pastoral practice."
 tags:
 - religion
 draft: false

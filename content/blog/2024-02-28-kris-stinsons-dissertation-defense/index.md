@@ -2,6 +2,7 @@
 title: "Kris Stinson dissertation defense announcement"
 date: "2024-02-28T13:50:19-05:00"
 slug: "kris-stinsons-dissertation-defense"
+description: "Kris Stinson defends his dissertation on religion and archaeology in the Atlantic world, arguing that archaeology became the ultimate mediator between myth and history in the eighteenth and nineteenth centuries."
 # newsletter: true
 # tags:
 # -

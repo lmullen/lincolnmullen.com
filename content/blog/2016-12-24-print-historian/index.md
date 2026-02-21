@@ -2,6 +2,7 @@
 date: '2016-12-24T17:13:40+00:00'
 slug: 'print-historian'
 title: Print historian
+description: "The final manuscript of *The Chance of Salvation: A History of Conversion in America* has been delivered to Harvard University Press for fall 2017 publication."
 tags:
 - publication
 - American religion

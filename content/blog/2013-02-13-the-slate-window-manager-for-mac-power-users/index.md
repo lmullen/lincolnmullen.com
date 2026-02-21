@@ -2,6 +2,7 @@
 title: 'The Slate Window Manager for Mac Power Users'
 date: "2013-02-13"
 slug: 'the-slate-window-manager-for-mac-power-users'
+description: "Slate is a free, open-source Mac window manager configurable with a plain-text file—keyboard shortcuts, multi-monitor layouts, and app focus all under your control."
 tags:
 - technology
 draft: false

@@ -2,6 +2,7 @@
 title: 'Volume 14 of the JSR Published'
 date: "2012-11-08"
 slug: 'volume-14-of-the-jsr-published'
+description: "Volume 14 of the Journal of Southern Religion is out, featuring a forum on religion in the early South—plus the debut of EPUB and Kindle editions generated from a custom Ruby tool."
 tags:
 - digital humanities
 draft: false

@@ -2,6 +2,7 @@
 title: An API Client for Omeka in R
 date: "2014-11-15"
 slug: 'an-api-client-for-omeka-in-r'
+description: "omekaR lets R users fetch items and metadata from any Omeka installation via API, bringing digital collections into a data analysis workflow."
 tags:
 - R
 - digital history

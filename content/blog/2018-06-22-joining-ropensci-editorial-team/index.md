@@ -2,6 +2,7 @@
 title: "Why I joined the rOpenSci editorial team"
 date: "2018-06-22"
 slug: "why-i-joined-the-ropensci-editorial-team"
+description: "Joining rOpenSci's editorial team: a case that software written for digital history deserves the same open peer-review process as scholarly prose."
 tags:
 - R
 - rOpenSci

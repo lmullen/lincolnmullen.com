@@ -2,6 +2,7 @@
 title: "Digital humanities is a spectrum; or, we're all digital humanists now"
 date: "2010-04-29"
 slug: 'digital-humanities-is-a-spectrum-or-we8217re-all-digital-humanists-now'
+description: "Digital humanities isn't a binary but a spectrum—all scholars already use digital methods to some degree, making DH's ethos of inclusion a tool of persuasion rather than a barrier."
 tags:
 - digital history
 draft: false

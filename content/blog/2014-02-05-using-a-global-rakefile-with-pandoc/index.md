@@ -2,6 +2,7 @@
 title: 'Using a Global Rakefile with Pandoc'
 date: "2014-02-05"
 slug: 'using-a-global-rakefile-with-pandoc'
+description: "A global Rakefile in ~/.rake makes Pandoc PDF generation available in any directory without copying boilerplate into every project folder."
 tags:
 - Rake
 - Pandoc

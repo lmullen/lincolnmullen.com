@@ -2,6 +2,7 @@
 title: How to Use Neatline with Map Warper Instead of GeoServer
 date: "2015-06-27"
 slug: 'how-to-use-neatline-with-map-warper-instead-of-geoserver'
+description: "Map Warper's WMS service can substitute for GeoServer in Neatline, making georectified historical maps available without running your own tile server."
 aliases:
 - /blog/how-to-use-neatline-without-geoserver/
 tags:

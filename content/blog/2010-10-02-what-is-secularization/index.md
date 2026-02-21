@@ -2,6 +2,7 @@
 title: 'What is secularization?'
 date: "2010-10-02"
 slug: 'what-is-secularization'
+description: "Charles Taylor's most useful definition of secularization focuses not on declining belief but on the shift to a world where religion becomes one contested option among others."
 tags:
 - religion
 draft: false

@@ -2,6 +2,7 @@
 title: A Vagrant Development Environment for R
 date: "2014-09-20"
 slug: 'a-vagrant-development-environment-for-r'
+description: "A Vagrant + VirtualBox setup that spins up a clean Ubuntu environment for R package development, also adaptable for provisioning high-RAM EC2 instances."
 tags:
 - R
 draft: false

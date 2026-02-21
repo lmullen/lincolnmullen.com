@@ -2,6 +2,7 @@
 title: The Business Practices of Corporate Evangelicals
 date: "2015-07-01"
 slug: 'the-business-practices-of-corporate-evangelicals'
+description: "Tim Gloege shows how Moody Bible Institute borrowed branding, contracts, and advertising from business to forge a respectable middle-class evangelicalism."
 tags:
 - American religious history
 - book reviews

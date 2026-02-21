@@ -2,6 +2,7 @@
 title: 'Empowering the Humanities speaker series at Wentworth'
 date: "2013-01-10"
 slug: 'empowering-the-humanities-speaker-series-at-wentworth'
+description: "A digital humanities speaker series at Wentworth Institute of Technology in spring 2013, featuring John Unsworth, Kathryn Tomasek, Ryan Cordell, and George Fifield."
 tags:
 - digital humanities
 draft: false

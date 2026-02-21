@@ -2,6 +2,7 @@
 title: 'Review of Prodigal Nation'
 date: "2009-08-29"
 slug: 'review-of-prodigal-nation'
+description: "Andrew Murphy's history of the American jeremiad reveals two competing traditions—traditionalist and progressive—that share the same rhetoric of decline and renewal across four centuries."
 tags:
 - book reviews
 - American religious history

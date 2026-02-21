@@ -1,6 +1,7 @@
 ---
 date: '2014-12-30'
 slug: 'poster-teaching-graduate-students-to-code'
+description: "A poster from a graduate digital history course showing six student projects—from Mount Vernon slave networks to congressional voting patterns—and what they learned."
 title: 'Poster: Teaching Graduate Students to Code'
 tags:
 - programming

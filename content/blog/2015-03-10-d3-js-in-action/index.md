@@ -2,6 +2,7 @@
 title: 'D3.js in Action'
 date: "2015-03-10"
 slug: 'd3-js-in-action'
+description: "Elijah Meeks's *D3.js in Action* stands out for teaching not just how to code visualizations but which visualizations are worth making—a much harder lesson."
 tags:
 - data visualization
 - programming

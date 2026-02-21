@@ -38,7 +38,7 @@ The blog list page combines posts from `blog/`, `micro/`, and `newsletter/` sect
 
 **Blog posts** (`content/blog/YYYY-MM-DD-slug/index.md`):
 - Required: `title`, `date`, `slug`, `draft`
-- Optional: `newsletter: true`, `crosspost: {url, source}`, `linkpost: "url"`
+- Optional: `description: "..."` (used for OpenGraph/social previews), `newsletter: true`, `crosspost: {url, source}`, `linkpost: "url"`
 
 **Micro posts** (`content/micro/YYYY-MM-DD-HH-MM-SS.md`):
 - Required: `date`
@@ -53,6 +53,17 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 
 - `{{</* image src="file.jpg" alt="description" */>}}` - Responsive images with WebP conversion
 - `{{</* image src="file.gif" */>}}` - GIFs and SVGs pass through without processing
+
+## Generating Post Descriptions
+
+When asked to generate or write a description for a post, read the post file and write a value for the `description:` front matter field, then edit the file to add it.
+
+Best practices for OpenGraph descriptions:
+- **Length**: 150–160 characters is ideal. Platforms truncate at roughly 200 characters, so never exceed that.
+- **Content**: Summarize the single most interesting point or finding — not just a restatement of the title. For linkposts, explain what makes the linked item worth reading rather than describing the post itself.
+- **Tone**: Match the voice of the post. Scholarly posts warrant measured, precise language; more personal posts can be warmer and more direct.
+- **Form**: Write in complete sentences. Active voice. No keyword stuffing. Do not end with an ellipsis. Do not begin with "In this post…" or "This post is about…"
+- **Uniqueness**: The description should add information beyond the title, not repeat it.
 
 ## Social Media Text Generation
 

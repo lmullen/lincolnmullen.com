@@ -2,6 +2,7 @@
 date: '2020-01-10'
 slug: 'farewell-faithful-friend'
 title: 'Farewell, faithful friend'
+description: "A tribute to a 2014 MacBook Pro—the laptop on which a first book was written, a million dollars in grants raised, and a son's birth announced from the hospital."
 tags:
 - Mac
 ---

@@ -2,6 +2,7 @@
 title: 'Analyzing Historical History Dissertations: Cleaning the Data Again'
 date: "2014-02-13"
 slug: 'analyzing-historical-history-dissertations-cleaning-the-data-again'
+description: "Data analysis is iterative: cleaning reveals what must be re-analyzed, and analysis reveals what must be cleaned—lessons from filtering and tidying a ProQuest dissertation dataset."
 tags:
 - digital history
 draft: false

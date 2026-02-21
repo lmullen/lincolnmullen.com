@@ -2,7 +2,7 @@
 title: "The new journal *Computational Humanities Research*"
 date: "2024-12-03T07:23:15-05:00"
 slug: "the-new-journal-computational-humanities-research"
-draft: true
+draft: false
 # newsletter: true
 # tags:
 # - 

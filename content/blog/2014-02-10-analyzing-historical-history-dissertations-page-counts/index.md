@@ -2,6 +2,7 @@
 title: 'Analyzing Historical History Dissertations: Page Counts'
 date: "2014-02-10"
 slug: 'analyzing-historical-history-dissertations-page-counts'
+description: "ProQuest data on history dissertation lengths shows a postwar peak around 1995 and confirms Ben Schmidt's finding that 300 pages is the normal history dissertation length."
 tags:
 - digital history
 - dissertations

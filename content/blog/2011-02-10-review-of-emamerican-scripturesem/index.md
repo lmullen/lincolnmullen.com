@@ -2,6 +2,7 @@
 title: 'Review of American Scriptures'
 date: "2011-02-10"
 slug: 'review-of-emamerican-scripturesem'
+description: "Maffly-Kipp's anthology of sacred texts written in America reveals a striking pattern: nearly all reinterpret Jesus, making it a rich companion to cultural histories of American religion."
 tags:
 - religion
 draft: false

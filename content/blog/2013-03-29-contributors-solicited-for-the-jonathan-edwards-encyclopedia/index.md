@@ -2,6 +2,7 @@
 title: 'Contributors Solicited for the Jonathan Edwards Encyclopedia'
 date: "2013-03-29"
 slug: 'contributors-solicited-for-the-jonathan-edwards-encyclopedia'
+description: "Yale's Jonathan Edwards Center is soliciting contributors for a 450-entry encyclopedia on Edwards, to be published by Eerdmans and edited by Stout, Minkema, and Neele."
 tags:
 - American religious history
 draft: false

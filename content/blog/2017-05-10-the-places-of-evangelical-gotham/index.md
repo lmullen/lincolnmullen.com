@@ -2,6 +2,7 @@
 title: 'The places of Evangelical Gotham'
 date: "2017-05-10"
 slug: 'the-places-of-evangelical-gotham'
+description: "Kyle Roberts traces how evangelicals turned New York's urban spaces into religiously meaningful places through conversion, church planting, and benevolence."
 tags:
 - American religious history
 - book reviews

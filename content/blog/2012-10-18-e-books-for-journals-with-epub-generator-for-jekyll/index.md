@@ -2,6 +2,7 @@
 title: 'E-books for Journals with EPUB Generator for Jekyll'
 date: "2012-10-18"
 slug: 'e-books-for-journals-with-epub-generator-for-jekyll'
+description: "A Ruby script that parses Jekyll site content and pipes it through Pandoc to generate EPUB editions—written for the Journal of Southern Religion and usable on any Jekyll site."
 tags:
 - digital humanities
 - Ruby

@@ -2,6 +2,7 @@
 title: My year in tech 2016
 date: "2017-01-07"
 slug: 'my-year-in-tech-2016'
+description: "R for computational history, goodbye to Twitter, WordPress over Jekyll, a Linux workstation, and an iPad for reading: a brief technology report for 2016."
 tags:
 - technology
 draft: false

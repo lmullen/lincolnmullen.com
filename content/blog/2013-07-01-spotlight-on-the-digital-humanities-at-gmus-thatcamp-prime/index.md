@@ -2,6 +2,7 @@
 title: "Spotlight on the Digital Humanities at GMU's THATCamp Prime"
 date: "2013-07-01"
 slug: 'spotlight-on-the-digital-humanities-at-gmus-thatcamp-prime'
+description: "A report from THATCamp Prime at CHNM covering sessions on digital historians' networks, teaching history, the maker challenge, and the state of DH methodology."
 tags:
 - digital humanities
 - digital history

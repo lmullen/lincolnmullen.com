@@ -2,6 +2,7 @@
 title: 'Learning How to Teach History in a Digital Age'
 date: "2013-08-30"
 slug: 'learning-how-to-teach-history-in-a-digital-age'
+description: "Mills Kelly's *Teaching History in the Digital Age* makes the case that historians should attend to pedagogy scholarship as carefully as to research—and shows how to do it."
 tags:
 - digital history
 - book reviews

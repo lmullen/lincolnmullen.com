@@ -2,6 +2,7 @@
 title: 'syuzhet: An R Package for Sentiment Analysis'
 date: "2015-02-23"
 slug: 'syuzhet-an-r-package-for-sentiment-analysis'
+description: "Matthew Jockers's syuzhet R package extracts sentiment and plot arcs from text, with a new CRAN release and an introductory post on the method."
 tags:
 - R
 - text analysis

@@ -3,6 +3,14 @@ title: "The new journal *Computational Humanities Research*"
 date: "2024-12-03T07:23:15-05:00"
 slug: "the-new-journal-computational-humanities-research"
 draft: false
+description: "Computational Humanities Research is a new open-access journal from Cambridge University Press that fills a real need for scholars who use computational methods to share methodological innovations alongside humanistic inquiry."
+social:
+  bluesky: "A new open-access journal, Computational Humanities Research, fills a real need for historians and humanists using computational methods to share methodological innovations. Two CFPs open now. https://lincolnmullen.com/blog/the-new-journal-computational-humanities-research/"
+  mastodon: "Computational Humanities Research is a new open-access journal from Cambridge University Press edited by Lauren Tilton and Kristoffer Nielbo. It fills a real need: scholars using computational methods need a place to share methodological innovations. Two CFPs are currently open with January deadlines. https://lincolnmullen.com/blog/the-new-journal-computational-humanities-research/"
+  linkedin: |
+    A new open-access journal, Computational Humanities Research, has launched at Cambridge University Press, edited by Lauren Tilton and Kristoffer Nielbo. It publishes transdisciplinary work grounded in humanities research questions and using computational, quantitative methodologies.
+
+    The journal fills a genuine need: while digital historians should publish interpretive claims in the profession's core journals, they also need venues for sharing methodological innovations. Two special issues—on missing data in the humanities and on large language models in humanities research—are accepting submissions with January deadlines. https://lincolnmullen.com/blog/the-new-journal-computational-humanities-research/
 # newsletter: true
 # tags:
 # - 
@@ -21,7 +29,7 @@ The journal has had a very strong start. That is in part due to its capable and 
 - CFP: [Missing Data in the Humanities](https://www.cambridge.org/core/journals/computational-humanities-research/announcements/call-for-papers/missing-data-in-the-humanities)
 - CFP: [Expanding the Toolkit: Large Language Models in Humanities Research](https://www.cambridge.org/core/journals/computational-humanities-research/announcements/call-for-papers/expanding-the-toolkit-large-language-models-in-humanities-research)
 
-The other reason is because I think this journal fits a real need. I've made no secret of my view that digital historians need to [make historical claims](https://doi.org/10.1093/jsh/shab015) and publish them in the interpretative journals of the profession. However, the inverse is also true. Historians using computational methods 
+The other reason is because I think this journal fits a real need. I've made no secret of my view that digital historians need to [make historical claims](https://doi.org/10.1093/jsh/shab015) and publish them in the interpretative journals of the profession. However, the inverse is also true. Historians using computational methods need to share their methodological innovations, and this journal will be a natural place to do so for that community of practice.
 
 {{< image src="chr-cover.png" alt="The cover of the journal Computational Humanities Research" >}}
 

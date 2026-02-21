@@ -2,6 +2,7 @@
 title: 'Parsing TEI Files in Ruby with Nokogiri'
 date: "2013-02-06"
 slug: 'parsing-tei-files-in-ruby-with-nokogiri'
+description: "Nokogiri makes parsing TEI files in Ruby surprisingly concise—a demonstration using Folger Shakespeare texts to count how many times each speaker appears in Macbeth."
 tags:
 - Ruby
 - programming

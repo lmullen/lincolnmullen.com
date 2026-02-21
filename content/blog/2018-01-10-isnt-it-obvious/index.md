@@ -5,6 +5,7 @@ tags:
 date: '2018-01-10T15:37:45+00:00'
 title: "Isn't it obvious?"
 slug: 'isnt-it-obvious'
+description: "Audiences often claim a visualization simply confirms what they knew, but showing blank axes before the data reveals they could not have predicted the outcome."
 ---
 
 A common response to digital history research is that has [failed to make an argumentative or interpretative payoff](http://dhdebates.gc.cuny.edu/debates/text/77) commensurate with the amount of effort that has been put into it. Broadly speaking, [I'm sympathetic](https://rrchnm.org/argument-white-paper/) to that claim. But there is a particular form that this claim sometimes takes which I think is mistaken: the idea that even when interpretations or arguments from digital history work are presented, they do not tell us anything new. Scott Weingart has [written perceptively](http://scottbot.net/digital-history-can-never-be-new/) and more generally about the problem that "digital history can never be new." I want to add only a small piece to that discussion.

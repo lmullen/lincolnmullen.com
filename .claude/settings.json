@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(Site\"\\):*)"
+      "Bash(Site\"\\):*)",
+      "Bash(git merge:*)"
     ]
   }
 }

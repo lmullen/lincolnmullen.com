@@ -2,6 +2,7 @@
 title: Joining George Mason University
 date: "2014-03-21"
 slug: 'joining-george-mason-university'
+description: "An announcement that I am joining the Department of History and Art History at George Mason University, splitting my teaching between digital history and American religious history."
 tags:
 - personal
 draft: false

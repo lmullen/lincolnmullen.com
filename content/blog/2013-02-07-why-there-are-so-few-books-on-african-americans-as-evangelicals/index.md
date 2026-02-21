@@ -2,6 +2,7 @@
 title: 'Why There Are So Few Books on African Americans as Evangelicals'
 date: "2013-02-07"
 slug: 'why-there-are-so-few-books-on-african-americans-as-evangelicals'
+description: "Miles Mullin explains why the NAE's avoidance of race and African Americans' own solidarity across doctrinal lines in the civil rights movement left Black evangelicalism understudied."
 tags:
 - religion
 - historiography

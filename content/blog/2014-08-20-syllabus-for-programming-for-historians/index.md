@@ -2,6 +2,7 @@
 title: Syllabus for Programming for Historians
 date: "2014-08-20"
 slug: 'syllabus-for-programming-for-historians'
+description: "A graduate digital history syllabus that moves from JavaScript fundamentals through R for mapping, text mining, and network analysis to D3.js at the end."
 tags:
 - teaching
 - digital history

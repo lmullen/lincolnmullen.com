@@ -2,6 +2,7 @@
 title: 'What Would Jesus Do? A Parable About Copyright'
 date: "2010-03-11"
 slug: 'what-would-jesus-do-a-parable-about-copyright'
+description: "A copyright registration mistake turned Charles Sheldon's 1897 novel into a publishing phenomenon—a parable about what today's copyright laws would have foreclosed."
 tags:
 - American religious history
 draft: false

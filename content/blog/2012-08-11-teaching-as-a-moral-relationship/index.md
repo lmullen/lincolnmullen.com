@@ -2,6 +2,7 @@
 title: 'Teaching as a Moral Relationship'
 date: "2012-08-11"
 slug: 'teaching-as-a-moral-relationship'
+description: "Remarks for a teaching fellow orientation: the most important thing you can do as a teacher is treat every interaction with students as a moral relationship governed by moral principles."
 tags:
 - teaching
 draft: false

@@ -1,28 +1,43 @@
 {{- /*
-OpenGraph meta tags
+OpenGraph and Twitter/X Card meta tags
 
 This partial generates social media preview tags for sharing pages on
-Facebook, LinkedIn, Slack, Discord, and other platforms.
+Facebook, LinkedIn, BlueSky, Mastodon, Slack, Discord, and other platforms.
 
 Features:
 - Automatic title, description, and URL generation
-- Article-specific metadata for blog posts and newsletter issues
+- Article-specific metadata for blog posts, micro posts, and newsletter issues
 - Optimized image processing (resizes to 1200x630 for optimal social sharing)
 - Support for custom images via front matter
+- Automatic first-image detection from page bundles (Hugo convention)
+- Twitter/X Card meta tags (summary_large_image)
 
-To use a custom image for a specific page, add to front matter:
+Image resolution order:
+1. image: front matter field → try as page bundle resource
+2. image: front matter field → try as global asset (e.g. /images/micro/...)
+3. image: front matter field → fall back to absURL for static files
+4. No image: field → search page bundle for *feature*, *cover*, *thumbnail*
+5. No image: field → first image resource in page bundle
+6. Default: assets/img/social-media.jpeg
+
+To override the image for a specific page, add to front matter:
   image: "featured-image.jpg"  # For page bundle resources
+  image: "/images/micro/photo.jpg"  # For global assets (set automatically by new-micro.sh)
   image: "/img/custom.jpg"     # For static files
 
-The image will be automatically resized and optimized for social sharing.
+For posts with multiple bundle images, name one image with "feature",
+"cover", or "thumbnail" in the filename to select it for social sharing.
 */ -}}
 
 {{- /* Determine page title */ -}}
 {{- $title := .Title -}}
 {{- if .IsHome -}}
   {{- $title = .Site.Title -}}
-{{- else -}}
+{{- else if $title -}}
   {{- $title = printf "%s | %s" .Title .Site.Title -}}
+{{- else -}}
+  {{- /* Micro posts and other title-less pages: use site title only */ -}}
+  {{- $title = .Site.Title -}}
 {{- end -}}
 
 {{- /* Determine description */ -}}
@@ -50,6 +65,8 @@ The image will be automatically resized and optimized for social sharing.
     {{- $type = "article" -}}
   {{- else if eq .Section "newsletter" -}}
     {{- $type = "article" -}}
+  {{- else if eq .Section "micro" -}}
+    {{- $type = "article" -}}
   {{- end -}}
 {{- end -}}
 
@@ -58,18 +75,48 @@ The image will be automatically resized and optimized for social sharing.
 {{- if .Params.image -}}
   {{- /* Use custom image from front matter */ -}}
   {{- with .Resources.GetMatch .Params.image -}}
-    {{- /* Resize page resource image for optimal social sharing */ -}}
+    {{- /* It's a page bundle resource — resize for social sharing */ -}}
     {{- $resized := .Fill "1200x630 Center" -}}
     {{- $image = $resized.Permalink -}}
   {{- else -}}
-    {{- /* Try as a static file path */ -}}
-    {{- $image = .Params.image | absURL -}}
+    {{- /* Try as a global asset (e.g. /images/micro/filename.jpg) */ -}}
+    {{- $globalPath := strings.TrimPrefix "/" $.Params.image -}}
+    {{- with resources.Get $globalPath -}}
+      {{- $resized := .Fill "1200x630 Center" -}}
+      {{- $image = $resized.Permalink -}}
+    {{- else -}}
+      {{- /* Fall back to absURL for files in /static */ -}}
+      {{- $image = $.Params.image | absURL -}}
+    {{- end -}}
   {{- end -}}
 {{- else -}}
-  {{- /* Use default social media image */ -}}
-  {{- with resources.Get "img/social-media.jpeg" -}}
-    {{- $resized := .Fill "1200x630 Center" -}}
-    {{- $image = $resized.Permalink -}}
+  {{- /* No explicit image — use Hugo convention: feature/cover/thumbnail first */ -}}
+  {{- $conventionNames := slice "feature" "cover" "thumbnail" -}}
+  {{- range $conventionNames -}}
+    {{- if not $image -}}
+      {{- with $.Resources.GetMatch (printf "*%s*" .) -}}
+        {{- if ne .MediaType.SubType "svg" -}}
+          {{- $resized := .Fill "1200x630 Center" -}}
+          {{- $image = $resized.Permalink -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* Fall back to first raster image resource in the page bundle */ -}}
+  {{- if not $image -}}
+    {{- range .Resources.ByType "image" -}}
+      {{- if and (not $image) (ne .MediaType.SubType "svg") -}}
+        {{- $resized := .Fill "1200x630 Center" -}}
+        {{- $image = $resized.Permalink -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* Final fallback: default social media image */ -}}
+  {{- if not $image -}}
+    {{- with resources.Get "img/social-media.jpeg" -}}
+      {{- $resized := .Fill "1200x630 Center" -}}
+      {{- $image = $resized.Permalink -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
@@ -95,4 +142,12 @@ The image will be automatically resized and optimized for social sharing.
 <meta property="article:tag" content="{{ . }}">
 {{- end }}
 {{- end }}
+{{- end }}
+
+<!-- Twitter/X Card meta tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{- if $image }}
+<meta name="twitter:image" content="{{ $image }}">
 {{- end }}

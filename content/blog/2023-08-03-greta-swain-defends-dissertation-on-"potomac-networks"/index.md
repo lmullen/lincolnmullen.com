@@ -2,6 +2,7 @@
 title: 'Greta Swain defends dissertation on "Potomac Networks"'
 date: "2023-08-03T10:41:55-04:00"
 slug: "greta-swain-defends-dissertation-on-potomac-networks"
+description: "Greta Swain's dissertation uses digital maps and network analysis to show how both the Mason family and the people they enslaved deployed the Potomac River for economic and personal ends."
 draft: false
 # newsletter: true
 # tags:

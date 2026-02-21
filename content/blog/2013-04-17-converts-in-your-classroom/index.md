@@ -2,6 +2,7 @@
 title: 'Converts in Your Classroom'
 date: "2013-04-17"
 slug: 'converts-in-your-classroom'
+description: "A proposal for history and religion instructors: have students contribute conversion records to the American Converts Database to learn research, transcription, and digital humanities skills."
 tags:
 - teaching
 - American religious history

@@ -2,6 +2,7 @@
 title: 'Course description for Religion and Capitalism'
 date: "2020-02-21"
 slug: 'course-description-for-religion-and-capitalism'
+description: "The course description for a new graduate seminar on Religion and Capitalism in the United States—tracing the question from Puritans to prosperity preachers."
 tags:
 - teaching
 - religion and capitalism

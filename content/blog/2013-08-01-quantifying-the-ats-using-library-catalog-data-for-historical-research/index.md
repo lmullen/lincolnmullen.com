@@ -2,6 +2,7 @@
 title: 'Quantifying the ATS: Using Library Catalog Data for Historical Research'
 date: "2013-08-01"
 slug: 'quantifying-the-ats-using-library-catalog-data-for-historical-research'
+description: "AAS catalog data lets a historian chart American Tract Society printing history—dating undated tracts, visualizing publication trends, and supplementing close reading at scale."
 tags:
 - digital history
 - American religious history

@@ -2,6 +2,7 @@
 title: 'USAboundaries v0.2.0 available on CRAN'
 date: "2016-01-04"
 slug: 'usaboundaries-v0-2-0-available-on-cran'
+description: "USAboundaries v0.2.0 adds current Census boundaries to the package's historical county and state data, with higher resolution options and a cleaner interface."
 tags:
 - R
 - spatial humanities

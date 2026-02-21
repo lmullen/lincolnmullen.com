@@ -2,6 +2,7 @@
 title: Gender package now on CRAN
 date: "2014-09-30"
 slug: 'gender-package-now-on-cran'
+description: "The gender R package arrives on CRAN, predicting names' genders from historical SSA and Census data rather than static name lists—accounting for change over time."
 tags:
 - R
 draft: false

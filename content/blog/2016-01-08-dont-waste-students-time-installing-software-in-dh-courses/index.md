@@ -2,6 +2,7 @@
 title: "Don't Waste Students' Time Installing Software in DH Courses"
 date: "2016-01-08"
 slug: 'dont-waste-students-time-installing-software-in-dh-courses'
+description: "Use browser-based tools like RStudio Server to skip software installation in DH courses and preserve the crucial momentum of the semester's first weeks."
 tags:
 - digital history
 - AHA

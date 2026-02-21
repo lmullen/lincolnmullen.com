@@ -2,6 +2,7 @@
 title: 'Interview about Digital Projects and the Dissertation at the Junto'
 date: "2013-03-29"
 slug: 'interview-about-digital-projects-and-the-dissertation-at-the-junto'
+description: "An interview at The Junto with Jean Bauer and Erin Bartram about incorporating digital databases into a history dissertation—and how advisors and departments have responded."
 tags:
 - digital humanities
 - academia

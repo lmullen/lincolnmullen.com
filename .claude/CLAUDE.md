@@ -59,11 +59,7 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 When asked to generate social media posts for a piece of content, read the post file and produce platform-specific drafts:
 
 - **BlueSky**: ≤300 characters. Conversational, informal tone. End with the permalink URL. No hashtags.
-- **Mastodon**: ≤500 characters. Similar tone to BlueSky, slightly more room for detail. End with the permalink URL. One or two relevant hashtags if they fit naturally (e.g. #DigitalHumanities, #AmericanHistory).
-- **LinkedIn**: 2–4 short paragraphs. More professional framing, emphasizing scholarly or institutional significance. End with the permalink URL. No hashtags.
+- **Mastodon**: ≤500 characters. Similar tone to BlueSky, slightly more room for detail. End with the permalink URL. No hashtags.
+- **LinkedIn**: One or two short paragraphs. More professional framing, emphasizing scholarly or institutional significance. End with the permalink URL. No hashtags.
 
 For all platforms: capture the main point or most interesting detail of the post, not just the title. For linkposts, summarize what makes the linked item worth reading.
-
-## Restrictions
-
-Do not ever run the `make deploy` or `rsync` commands automatically. Those should only be run manually by a human.

@@ -2,6 +2,7 @@
 title: Timothy Larsen on The Noah Sphinx
 date: "2014-09-12"
 slug: 'timothy-larsen-on-the-noah-sphinx'
+description: "Timothy Larsen reviews a history of Victorian Egyptology—where scholars seriously argued the Sphinx was a Noah monument and Petrie excavated in pink underpants."
 tags:
 - book reviews
 draft: false

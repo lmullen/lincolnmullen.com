@@ -2,6 +2,7 @@
 title: 'From Grading to Helping Students'
 date: "2012-12-11"
 slug: 'from-grading-to-helping-students'
+description: "The grade itself takes five minutes; the rest of grading is more usefully understood as helping students improve than as justifying a mark—a reframe that makes the work feel worthwhile."
 tags:
 - teaching
 draft: false

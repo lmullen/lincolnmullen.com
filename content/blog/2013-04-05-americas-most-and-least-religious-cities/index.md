@@ -2,6 +2,7 @@
 title: "America's Most (and Least) Religious Cities"
 date: "2013-04-05"
 slug: 'americas-most-and-least-religious-cities'
+description: "Gallup's most-religious-metro rankings are correlated with class, but religion is more than epiphenomenal—it matters that Provo is Mormon, Boston Catholic, and the South Baptist."
 tags:
 - American religious history
 draft: false

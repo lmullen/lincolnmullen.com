@@ -2,6 +2,7 @@
 title: 'Analyzing Historical History Dissertations: Limitations of the Data'
 date: "2014-02-08"
 slug: 'analyzing-historical-history-dissertations-limitations-of-the-data'
+description: "Why ProQuest's 84,428 history dissertations dwarfs the AHA's 29,000—the difference between dissertations by subject and dissertations from history departments."
 tags:
 - digital history
 draft: false

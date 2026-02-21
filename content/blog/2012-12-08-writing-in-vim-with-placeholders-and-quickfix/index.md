@@ -2,6 +2,7 @@
 title: 'Writing in Vim with placeholders and quickfix'
 date: "2012-12-08"
 slug: 'writing-in-vim-with-placeholders-and-quickfix'
+description: "A Vim workflow for keeping up writing momentum: insert standard placeholder markers like {TODO} and {PAGE}, highlight them in red, then collect them all in the quickfix list for cleanup."
 tags:
 - Vim
 draft: false

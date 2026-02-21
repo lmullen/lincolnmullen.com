@@ -1,6 +1,7 @@
 ---
 title: 'What makes for a good academic mentor?'
 date: 2022-04-11
+slug: 'good-mentor'
 draft: false
 tags:
 - mentoring

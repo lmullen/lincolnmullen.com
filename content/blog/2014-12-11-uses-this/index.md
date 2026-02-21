@@ -1,6 +1,7 @@
 ---
 title: "Interview at *Uses This*"
 date: 2014-12-11
+slug: 'uses-this'
 tags:
 - Unix
 - software

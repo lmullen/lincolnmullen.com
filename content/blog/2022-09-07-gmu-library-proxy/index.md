@@ -1,6 +1,7 @@
 ---
 title: 'Bookmarklet for the GMU library proxy'
 date: 2022-09-07
+slug: 'gmu-library-proxy'
 draft: false
 tags:
 - library

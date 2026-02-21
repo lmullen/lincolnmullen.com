@@ -2,6 +2,7 @@
 title: 'My Take on the Git Commit Logger'
 date: "2013-07-27"
 slug: 'my-take-on-the-git-commit-logger'
+description: "A post-commit Git hook that appends every commit message to a daily log—a lightweight alternative to Brett Terpstra's cron-based commit logger for tracking daily progress."
 tags:
 - technology
 - git

@@ -2,6 +2,7 @@
 title: "RRCHNM welcomes 25 graduate students for the new academic year"
 date: "2022-08-26"
 slug: 'rrchnm-welcomes-new-graduate-students'
+description: "Graduate students are central to RRCHNM—as research assistants on major projects and as independent scholars leading their own digital dissertations, working groups, and publications."
 tags:
 - RRCHNM
 draft: false

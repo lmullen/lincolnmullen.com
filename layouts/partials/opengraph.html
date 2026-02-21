@@ -76,13 +76,13 @@ For posts with multiple bundle images, name one image with "feature",
   {{- /* Use custom image from front matter */ -}}
   {{- with .Resources.GetMatch .Params.image -}}
     {{- /* It's a page bundle resource — resize for social sharing */ -}}
-    {{- $resized := .Fill "1200x630 Center" -}}
+    {{- $resized := .Fit "1200x630" -}}
     {{- $image = $resized.Permalink -}}
   {{- else -}}
     {{- /* Try as a global asset (e.g. /images/micro/filename.jpg) */ -}}
     {{- $globalPath := strings.TrimPrefix "/" $.Params.image -}}
     {{- with resources.Get $globalPath -}}
-      {{- $resized := .Fill "1200x630 Center" -}}
+      {{- $resized := .Fit "1200x630" -}}
       {{- $image = $resized.Permalink -}}
     {{- else -}}
       {{- /* Fall back to absURL for files in /static */ -}}
@@ -96,7 +96,7 @@ For posts with multiple bundle images, name one image with "feature",
     {{- if not $image -}}
       {{- with $.Resources.GetMatch (printf "*%s*" .) -}}
         {{- if ne .MediaType.SubType "svg" -}}
-          {{- $resized := .Fill "1200x630 Center" -}}
+          {{- $resized := .Fit "1200x630" -}}
           {{- $image = $resized.Permalink -}}
         {{- end -}}
       {{- end -}}
@@ -106,7 +106,7 @@ For posts with multiple bundle images, name one image with "feature",
   {{- if not $image -}}
     {{- range .Resources.ByType "image" -}}
       {{- if and (not $image) (ne .MediaType.SubType "svg") -}}
-        {{- $resized := .Fill "1200x630 Center" -}}
+        {{- $resized := .Fit "1200x630" -}}
         {{- $image = $resized.Permalink -}}
       {{- end -}}
     {{- end -}}
@@ -114,7 +114,7 @@ For posts with multiple bundle images, name one image with "feature",
   {{- /* Final fallback: default social media image */ -}}
   {{- if not $image -}}
     {{- with resources.Get "img/social-media.jpeg" -}}
-      {{- $resized := .Fill "1200x630 Center" -}}
+      {{- $resized := .Fit "1200x630" -}}
       {{- $image = $resized.Permalink -}}
     {{- end -}}
   {{- end -}}

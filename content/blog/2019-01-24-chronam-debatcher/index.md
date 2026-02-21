@@ -2,6 +2,7 @@
 title: 'Chronicling America OCR debatcher'
 date: "2019-01-24"
 slug: 'chronam-debatcher'
+description: "A Go utility that processes Chronicling America OCR batch files without unzipping them, producing a CSV of newspaper text and IDs for bulk analysis."
 tags:
 - Go
 - software

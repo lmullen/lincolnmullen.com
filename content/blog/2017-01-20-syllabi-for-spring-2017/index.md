@@ -2,6 +2,7 @@
 title: Syllabi for spring 2017
 date: "2017-01-20"
 slug: 'syllabi-for-spring-2017'
+description: "Three spring 2017 syllabi for Global History of Christianity, The Digital Past on Reconstruction and Redemption, and Data and Visualization in Digital History."
 tags:
 - teaching
 - syllabus

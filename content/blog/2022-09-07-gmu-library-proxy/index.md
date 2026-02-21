@@ -2,6 +2,7 @@
 title: 'Bookmarklet for the GMU library proxy'
 date: 2022-09-07
 draft: false
+description: "A browser bookmarklet that automatically routes any paywalled URL through the GMU library proxy—one click instead of manually prepending the proxy address each time."
 tags:
 - library
 ---

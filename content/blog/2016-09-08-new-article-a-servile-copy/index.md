@@ -2,6 +2,7 @@
 title: 'New article: "A Servile Copy"'
 date: "2016-09-08"
 slug: 'new-article-a-servile-copy'
+description: "An invited article for *Rechtsgeschichte* giving an overview of a project to trace text reuse among nineteenth-century U.S. codes of civil procedure."
 tags:
 - digital history
 - legal history

@@ -2,6 +2,7 @@
 title: 'An introduction to the textreuse package, with suggested applications'
 date: "2015-11-09"
 slug: 'an-introduction-to-the-textreuse-package-with-suggested-applications'
+description: "The textreuse R package detects text reuse at scale with minhashing and locality-sensitive hashing, applied to legal codes and religious tracts."
 tags:
 - digital history
 - R

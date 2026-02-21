@@ -2,6 +2,7 @@
 title: "The 2023 competition for the AHA's Roy Rosenzweig Prize"
 date: "2023-04-14T11:32:06-04:00"
 slug: "entries-accepted-for-the-2023-roy-rosenzweig-prize-from-the-aha"
+description: "The AHA and RRCHNM are accepting entries for the 2023 Roy Rosenzweig Prize for Creativity in Digital History, a $4,000 award for freely available new media projects. Due May 15."
 draft: false
 # newsletter: true
 tags:

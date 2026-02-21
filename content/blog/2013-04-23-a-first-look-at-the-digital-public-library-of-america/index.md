@@ -2,6 +2,7 @@
 title: 'A First Look at the Digital Public Library of America'
 date: "2013-04-23"
 slug: 'a-first-look-at-the-digital-public-library-of-america'
+description: "The DPLA launches as portal, platform, and public advocate—aggregating millions of digitized items from partner institutions with an open API for developers to build on."
 tags:
 - digital humanities
 draft: false

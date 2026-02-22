@@ -1,5 +1,5 @@
 ---
-title: 'Analyzing Historical History Dissertations: Location'
+title: 'Analyzing historical history dissertations: location'
 date: "2014-02-12"
 slug: 'analyzing-historical-history-dissertations-location'
 description: "A mapped look at where history dissertations were produced—the Northeast dominates, but about 25 schools account for half the output while 350 more share the rest."

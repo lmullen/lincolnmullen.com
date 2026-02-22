@@ -1,5 +1,5 @@
 ---
-title: "Mapping Boston's Religions: Next Steps in Mapping U.S. Religious History"
+title: "Mapping Boston's religions: next steps in mapping U.S. religious history"
 date: "2015-01-05"
 slug: 'mapping-bostons-religions-next-steps-in-mapping-u-s-religious-history'
 description: "An ASCH 2015 conference paper arguing for richer, more granular mapping of U.S. religious history, with interactive maps of religious congregations in Boston."

@@ -1,5 +1,5 @@
 ---
-title: The First Draft Podcast
+title: The First Draft podcast
 date: "2014-09-24"
 slug: 'the-first-draft-podcast'
 description: "The First Draft podcast by Elijah Meeks, Jason Heppler, and Paul Zenke offers close-to-the-metal discussions of building projects in the digital humanities."

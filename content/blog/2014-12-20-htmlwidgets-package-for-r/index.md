@@ -1,5 +1,5 @@
 ---
-title: htmlwidgets Package for R
+title: htmlwidgets package for R
 date: "2014-12-20"
 slug: 'htmlwidgets-package-for-r'
 description: "The htmlwidgets R package bridges R and JavaScript so that interactive visualizations from JS libraries can be embedded in knitr documents or the R console."

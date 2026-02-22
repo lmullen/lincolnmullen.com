@@ -54,6 +54,17 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 - `{{</* image src="file.jpg" alt="description" */>}}` - Responsive images with WebP conversion
 - `{{</* image src="file.gif" */>}}` - GIFs and SVGs pass through without processing
 
+## Style Guide
+
+- Use sentence case for blog post titles: capitalize only the first word and proper nouns.
+- Proper nouns to capitalize: people's names, place names, organization and institution names, acronyms, software and tool names, religious denominations (Catholic, Protestant, Baptist, Jewish, Presbyterian, etc.), and named works (book titles, journal names, project names, course names).
+- Field and discipline names are lowercase: "digital humanities", "digital history", "religious history".
+- The word "evangelical(s)" is lowercase when used as a general descriptor.
+- Historical period names are lowercase: "early republic", "colonial".
+- After a colon or semicolon within a title, do not capitalize the next word (unless it is a proper noun).
+- After sentence-ending punctuation (? or !) within a title, capitalize the next word.
+- Software package names keep their conventional capitalization (e.g., knitr, ggplot2, htmlwidgets stay lowercase; Pandoc, Jekyll, Vim stay capitalized).
+
 ## Social Media Text and Description Generation
 
 When asked to generate social media posts for a blog post, read the post file and write the text directly into the post's YAML front matter fields. Generate all of the following at once:

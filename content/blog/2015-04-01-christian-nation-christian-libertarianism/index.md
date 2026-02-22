@@ -1,5 +1,5 @@
 ---
-title: 'Christian Nation, Christian Libertarianism'
+title: 'Christian nation, Christian libertarianism'
 date: "2015-04-01"
 slug: 'christian-nation-christian-libertarianism'
 description: "Kruse's *One Nation Under God* explains how the Christian nation idea became fused with libertarianism—a fusion older than the 1930s but newly amplified by corporate advertising."

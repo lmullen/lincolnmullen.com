@@ -1,5 +1,5 @@
 ---
-title: Preliminary Reading List for Religion and Capitalism
+title: Preliminary reading list for Religion and Capitalism
 date: "2014-10-31"
 slug: 'preliminary-reading-list-for-religion-and-capitalism'
 description: "A preliminary reading list for a graduate seminar on religion and capitalism, engaging the field's unexamined marketplace metaphors and the new history of capitalism."

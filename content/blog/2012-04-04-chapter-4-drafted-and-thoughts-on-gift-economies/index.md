@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 4 Drafted, and Thoughts on Gift Economies'
+title: 'Chapter 4 drafted, and thoughts on gift economies'
 date: "2012-04-04"
 slug: 'chapter-4-drafted-and-thoughts-on-gift-economies'
 description: "Drafting a chapter on Cherokee conversions to Christianity revealed how Leigh Eric Schmidt's gift economy framework illuminates the material realities at the heart of mission records."

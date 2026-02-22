@@ -1,5 +1,5 @@
 ---
-title: 'The Quantified Dissertation: Using Bash and cron to Track Word Counts'
+title: 'The quantified dissertation: using Bash and cron to track word counts'
 date: "2012-08-17"
 slug: 'the-quantified-dissertation-using-bash-and-cron-to-track-word-counts'
 description: "A Bash script and cron job that logs hourly word counts for every dissertation chapter to a CSV file, so you can chart your writing progress over time."

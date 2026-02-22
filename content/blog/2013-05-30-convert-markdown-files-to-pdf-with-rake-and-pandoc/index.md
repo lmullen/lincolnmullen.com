@@ -1,5 +1,5 @@
 ---
-title: 'Convert Markdown Files to PDF with Rake and Pandoc'
+title: 'Convert Markdown files to PDF with Rake and Pandoc'
 date: "2013-05-30"
 slug: 'convert-markdown-files-to-pdf-with-rake-and-pandoc'
 description: "A Rakefile that converts all Markdown files in a directory to PDFs and DOCXs using Pandoc—a Ruby-powered upgrade to the earlier Make-based workflow."

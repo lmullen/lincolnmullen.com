@@ -1,5 +1,5 @@
 ---
-title: 'Initial Thoughts from the AHA / ASCH / ACHA'
+title: 'Initial thoughts from the AHA / ASCH / ACHA'
 date: "2013-01-06"
 slug: 'initial-thoughts-from-the-aha-asch-acha'
 description: "Reflections from New Orleans: a first ACHA panel on Catholic converts, and an unexpected throughline of storytelling—from Cronon's presidential address to sessions on the digital public."

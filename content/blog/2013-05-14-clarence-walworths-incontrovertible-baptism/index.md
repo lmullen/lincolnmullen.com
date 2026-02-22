@@ -1,5 +1,5 @@
 ---
-title: "Clarence Walworth's Incontrovertible Baptism"
+title: "Clarence Walworth's incontrovertible baptism"
 date: "2013-05-14"
 slug: 'clarence-walworths-incontrovertible-baptism'
 description: "Clarence Walworth sought a second baptism by trine immersion in New York Bay in 1843—an unusual act that traced the entering wedge of a new faith leading him to Rome."

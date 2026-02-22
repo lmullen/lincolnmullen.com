@@ -1,5 +1,5 @@
 ---
-title: 'TEI Boilerplate for Getting Started with TEI'
+title: 'TEI Boilerplate for getting started with TEI'
 date: "2013-02-05"
 slug: 'tei-boilerplate-for-getting-started-with-tei'
 description: "TEI Boilerplate uses XSL and jQuery to render TEI files directly in the browser—a much lower barrier to entry than learning XSLT just to see your encoded text."

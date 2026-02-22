@@ -1,5 +1,5 @@
 ---
-title: 'THATCamp AAR Workshop: Data Analysis for Humanists'
+title: 'THATCamp AAR workshop: data analysis for humanists'
 date: "2013-09-20"
 slug: 'thatcamp-aar-workshop-data-analysis-for-humanists'
 description: "A THATCamp AAR workshop using R to map Paulist missions, analyze religious demographics, and mine *Tracts for the Times*—combining mapping, text analysis, and quantitative methods."

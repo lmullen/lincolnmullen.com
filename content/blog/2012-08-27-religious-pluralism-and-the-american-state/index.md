@@ -1,5 +1,5 @@
 ---
-title: 'Religious Pluralism and the American State'
+title: 'Religious pluralism and the American state'
 date: "2012-08-27"
 slug: 'religious-pluralism-and-the-american-state'
 description: "A university writing seminar tracing American religious pluralism from eighteenth-century diversity to twenty-first-century legal conflicts, with primary sources at the center."

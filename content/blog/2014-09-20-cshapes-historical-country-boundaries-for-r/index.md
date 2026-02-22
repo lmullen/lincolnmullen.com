@@ -1,5 +1,5 @@
 ---
-title: 'CShapes: Historical Country Boundaries for R'
+title: 'CShapes: historical country boundaries for R'
 date: "2014-09-20"
 slug: 'cshapes-historical-country-boundaries-for-r'
 description: "The cshapes R package provides historical country boundaries and capitals from 1946 to 2008, a useful model for packaging geographic data for historical mapping."

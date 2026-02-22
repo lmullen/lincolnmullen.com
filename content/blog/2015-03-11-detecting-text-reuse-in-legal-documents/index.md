@@ -1,5 +1,5 @@
 ---
-title: 'Detecting Text Reuse in Nineteenth-Century Legal Documents'
+title: 'Detecting text reuse in nineteenth-century legal documents'
 date: "2015-03-11"
 slug: 'detecting-text-reuse-in-legal-documents'
 description: "A collaboration with Kellen Funk to detect and visualize how New York's Field Code of civil procedure spread to other states through text reuse in legal documents."

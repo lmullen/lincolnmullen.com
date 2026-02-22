@@ -1,5 +1,5 @@
 ---
-title: 'Telling Stories at the AHA'
+title: 'Telling stories at the AHA'
 date: "2013-01-10"
 slug: 'telling-stories-at-the-aha'
 description: "Reflections on narrative options for historians: the types of narrators available, why third-person omniscient dominates, and how to help readers see themselves in historical stories."

@@ -1,5 +1,5 @@
 ---
-title: The Two Purposes of Book Reviews
+title: The two purposes of book reviews
 date: "2014-04-05"
 slug: 'the-two-purposes-of-book-reviews'
 description: "Scholarly journal reviews should be candid about a book's flaws; blog and magazine reviews should catch the good—two different genres with two different purposes."

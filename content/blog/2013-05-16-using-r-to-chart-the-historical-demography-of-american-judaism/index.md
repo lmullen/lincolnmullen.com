@@ -1,5 +1,5 @@
 ---
-title: 'Using R to Chart the Historical Demography of American Judaism'
+title: 'Using R to chart the historical demography of American Judaism'
 date: "2013-05-16"
 slug: 'using-r-to-chart-the-historical-demography-of-american-judaism'
 description: "R as a tool for historical demography: charting American Jewish population growth using CSV data and ggplot2 as a first step toward a larger project on U.S. religious demographics."

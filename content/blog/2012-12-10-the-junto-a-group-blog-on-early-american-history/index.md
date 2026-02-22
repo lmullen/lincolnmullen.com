@@ -1,5 +1,5 @@
 ---
-title: 'The Junto: A Group Blog on Early American History'
+title: 'The Junto: a group blog on early American history'
 date: "2012-12-10"
 slug: 'the-junto-a-group-blog-on-early-american-history'
 description: "The Junto launches as a group blog by nineteen early Americanists, dedicated to historical discussion and content for scholars of early American history."

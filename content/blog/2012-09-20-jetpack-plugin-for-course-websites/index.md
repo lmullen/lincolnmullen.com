@@ -1,5 +1,5 @@
 ---
-title: 'Jetpack Plugin for Course Websites'
+title: 'Jetpack plugin for course websites'
 date: "2012-09-20"
 slug: 'jetpack-plugin-for-course-websites'
 description: "The JetPack plugin brings WordPress.com features—stats, shortened URLs, equation rendering—to self-hosted WordPress course sites without complex configuration."

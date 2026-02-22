@@ -1,5 +1,5 @@
 ---
-title: Some Thoughts on Digital Dissertations at Mason
+title: Some thoughts on digital dissertations at Mason
 date: "2015-10-05"
 slug: 'some-thoughts-on-digital-dissertations-at-mason'
 description: "New GMU guidelines allow hybrid dissertations where digital work counts toward the degree—letting students pioneer in scholarship without also pioneering in institutions."

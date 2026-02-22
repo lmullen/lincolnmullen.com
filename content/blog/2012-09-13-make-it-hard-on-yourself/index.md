@@ -1,5 +1,5 @@
 ---
-title: 'Make It Hard on Yourself'
+title: 'Make it hard on yourself'
 date: "2012-09-13"
 slug: 'make-it-hard-on-yourself'
 description: "Most productivity advice makes things easier, but sometimes the better move is to add friction—deleting shortcuts, waiting 24 hours before agreeing to anything, and imposing hard time constraints."

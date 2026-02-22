@@ -1,5 +1,5 @@
 ---
-title: 'Nineteenth-Century American Religion: A Digital History Seminar'
+title: 'Nineteenth-century American religion: a digital history seminar'
 date: "2013-03-08"
 slug: 'nineteenth-century-american-religion-a-digital-history-seminar'
 description: "A Brandeis University Prize Instructorship course pairing a full survey of nineteenth-century U.S. religious history with a student digital mapping project of religion in Boston."

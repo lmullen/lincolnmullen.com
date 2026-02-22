@@ -1,5 +1,5 @@
 ---
-title: Materials for DH Workshop at the University of Helsinki
+title: Materials for DH workshop at the University of Helsinki
 date: "2016-02-19"
 slug: 'materials-for-dh-workshop-at-the-university-of-helsinki'
 description: "Workshop materials for an introduction to digital humanities and data visualization, presented at the University of Helsinki's Department of Modern Languages."

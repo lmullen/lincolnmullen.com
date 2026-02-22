@@ -1,5 +1,5 @@
 ---
-title: 'Grab a Web Page in Plain Text with Markdownifier'
+title: 'Grab a web page in plain text with Markdownifier'
 date: "2013-05-27"
 slug: 'grab-a-web-page-in-plain-text-with-markdownifier'
 description: "Brett Terpstra's Markdownifier converts any web page to clean Markdown, preserving links and formatting without the clutter of pasting HTML into a word processor."

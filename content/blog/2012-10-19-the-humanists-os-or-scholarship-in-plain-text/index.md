@@ -1,5 +1,5 @@
 ---
-title: "The Humanist's OS; or, Scholarship in Plain Text"
+title: "The humanist's OS; or, scholarship in plain text"
 date: "2012-10-19"
 slug: 'the-humanists-os-or-scholarship-in-plain-text'
 description: "Workshop materials for building a plain-text scholarly workflow with Markdown, Pandoc, and Git—resources for humanists who want Unix-style tools for their research and writing."

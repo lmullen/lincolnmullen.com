@@ -4,10 +4,17 @@ date: "2026-02-10T23:24:10-05:00"
 slug: "john-turners-biography-of-joseph-smith"
 description: "John Turner's Yale biography portrays Joseph Smith as a consummate religious entrepreneur—a compelling account accompanied by thirty podcast episodes of detailed interviews."
 draft: false
+social:
+  bluesky: "My colleague John Turner's biography of Joseph Smith is a riveting portrait of America's most successful religious entrepreneur—and he's paired it with thirty detailed podcast episodes. https://lincolnmullen.com/blog/john-turners-biography-of-joseph-smith/"
+  mastodon: "My colleague John Turner published his biography of Joseph Smith with Yale last summer—a riveting account of America's most controversial religious entrepreneur. Turner presents Smith as both flawed and compelling, drawing on newly accessible diaries and church records. He's also produced thirty detailed podcast episodes to accompany the book. https://lincolnmullen.com/blog/john-turners-biography-of-joseph-smith/"
+  linkedin: |
+    My colleague John G. Turner has published a major biography of Joseph Smith with Yale University Press—a vivid and deeply researched portrait of one of nineteenth-century America's most significant religious figures. Turner presents Smith as a consummate religious entrepreneur, drawing on newly accessible diaries, church records, and sermon transcripts.
+
+    What makes this especially valuable is the extraordinary companion resource Turner has built: thirty podcast episodes of detailed interviews exploring Smith's life and context. Together they constitute a major contribution to the field of American religious history. https://lincolnmullen.com/blog/john-turners-biography-of-joseph-smith/
 # newsletter: true
 # tags:
-# - 
-# crosspost: 
+# -
+# crosspost:
 #   url: ""
 #   source: ""
 # linkpost: ""

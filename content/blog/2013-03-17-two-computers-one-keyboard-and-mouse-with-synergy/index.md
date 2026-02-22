@@ -1,5 +1,5 @@
 ---
-title: 'Two Computers, One Keyboard and Mouse with Synergy'
+title: 'Two computers, one keyboard and mouse with Synergy'
 date: "2013-03-17"
 slug: 'two-computers-one-keyboard-and-mouse-with-synergy'
 description: "Synergy is open-source software that shares a keyboard and mouse across multiple computers—and throws in shared clipboard as a bonus."

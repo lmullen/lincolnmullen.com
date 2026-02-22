@@ -1,5 +1,5 @@
 ---
-title: 'Academic Article Class for XeLaTeX'
+title: 'Academic article class for XeLaTeX'
 date: "2012-03-24"
 slug: 'academic-article-class-for-xelatex'
 description: "An XeLaTeX class for academic articles with better fonts and headings, available on GitHub."

@@ -1,5 +1,5 @@
 ---
-title: 'New Syllabus: Religion and Capitalism in the United States'
+title: 'New syllabus: Religion and Capitalism in the United States'
 date: "2015-01-08"
 slug: 'new-syllabus-religion-and-capitalism-in-the-united-states'
 description: "A new graduate seminar syllabus on Religion and Capitalism in the United States, from Puritan work ethics and Moravian missions to Prosperity Gospel and Hobby Lobby."

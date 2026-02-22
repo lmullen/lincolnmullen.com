@@ -1,5 +1,5 @@
 ---
-title: Exploring Elections for Massachusetts Governor in the Early Republic
+title: Exploring elections for Massachusetts governor in the early republic
 date: "2015-01-12"
 slug: 'exploring-elections-for-massachusetts-governor-in-the-early-republic'
 description: "Using New Nation Votes data to map and chart Massachusetts gubernatorial elections from 1787 to 1824, tracing the rise and fall of Federalist dominance town by town."

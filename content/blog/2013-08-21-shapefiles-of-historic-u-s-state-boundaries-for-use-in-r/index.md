@@ -1,5 +1,5 @@
 ---
-title: 'Shapefiles of Historic U.S. State Boundaries for Use in R'
+title: 'Shapefiles of historic U.S. state boundaries for use in R'
 date: "2013-08-21"
 slug: 'shapefiles-of-historic-u-s-state-boundaries-for-use-in-r'
 description: "NHGIS historical state boundary shapefiles converted to WGS84 and packaged as R objects, making historical mapping in ggplot2 straightforward without projection headaches."

@@ -1,5 +1,5 @@
 ---
-title: 'Where the Problem with Historical Data about U.S. Religion Really Lies'
+title: 'Where the problem with historical data about U.S. religion really lies'
 date: "2016-01-01"
 slug: 'where-the-problem-with-historical-data-about-u-s-religion-really-lies'
 description: "The problem with quantitative U.S. religious history isn't method—it's sources: historians rely on coarse Census aggregates when richer denominational records are available."

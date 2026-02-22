@@ -1,5 +1,5 @@
 ---
-title: 'A Course in Computational Methods and Nineteenth-Century Religious Data'
+title: 'A course in computational methods and nineteenth-century religious data'
 date: "2016-03-04"
 slug: 'a-course-in-computational-methods-and-nineteenth-century-religious-data'
 description: "A graduate methods course in data and visualization that teaches the full computational history pipeline through nineteenth-century U.S. religious data."

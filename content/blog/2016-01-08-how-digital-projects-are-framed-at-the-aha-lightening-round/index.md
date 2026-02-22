@@ -1,5 +1,5 @@
 ---
-title: How Digital Projects Are Framed at the AHA Lightening Round
+title: How digital projects are framed at the AHA lightening round
 date: "2016-01-08"
 slug: 'how-digital-projects-are-framed-at-the-aha-lightening-round'
 description: "The AHA digital projects lightning round frames nearly every project as a historical argument, not a methods demo—exactly the right framing for digital history."

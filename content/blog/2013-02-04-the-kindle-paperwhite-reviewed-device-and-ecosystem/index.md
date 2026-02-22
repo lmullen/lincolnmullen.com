@@ -1,5 +1,5 @@
 ---
-title: 'The Kindle Paperwhite Reviewed: Device and Ecosystem'
+title: 'The Kindle Paperwhite reviewed: device and ecosystem'
 date: "2013-02-04"
 slug: 'the-kindle-paperwhite-reviewed-device-and-ecosystem'
 description: "A full review of the Kindle Paperwhite—device, DRM-laden ecosystem, and all—by a historian who stayed out of e-books for years and came away cautiously converted."

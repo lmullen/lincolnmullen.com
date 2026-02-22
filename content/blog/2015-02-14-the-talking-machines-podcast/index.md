@@ -1,5 +1,5 @@
 ---
-title: The Talking Machines Podcast
+title: The Talking Machines podcast
 date: "2015-02-14"
 slug: 'the-talking-machines-podcast'
 description: "*The Talking Machines* podcast by Katherine Gorman and Ryan Adams covers machine learning through expert interviews and listener Q&A, with high production quality."

@@ -1,5 +1,5 @@
 ---
-title: Corpus of American Tract Society Publications
+title: Corpus of American Tract Society publications
 date: "2015-09-10"
 slug: 'corpus-of-american-tract-society-publications'
 description: "A corpus of 641 American Tract Society publications for testing text reuse detection algorithms, with known patterns of reprinting and borrowing."

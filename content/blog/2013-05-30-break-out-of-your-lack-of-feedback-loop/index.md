@@ -1,5 +1,5 @@
 ---
-title: 'Break Out of Your Lack-of-Feedback Loop'
+title: 'Break out of your lack-of-feedback loop'
 date: "2013-05-30"
 slug: 'break-out-of-your-lack-of-feedback-loop'
 description: "Sharing a draft before you think it's ready isn't a sign of weakness—it's how you learn that people are actually interested in your work, which gives you a reason to finish it."

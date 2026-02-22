@@ -1,5 +1,5 @@
 ---
-title: 'Jacob Dorman on the Rise of Black Israelite Religions'
+title: 'Jacob Dorman on the rise of Black Israelite religions'
 date: "2013-05-01"
 slug: 'jacob-dorman-on-the-rise-of-black-israelite-religions'
 description: "Dorman's *Chosen People* shows that Black Israelite religions originated not in African descent or white Jewish contact, but in Scripture reading and emulation of ancient Israel."

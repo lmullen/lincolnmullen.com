@@ -1,5 +1,5 @@
 ---
-title: 'Some Thoughts on Getting Started with Ubuntu Linux'
+title: 'Some thoughts on getting started with Ubuntu Linux'
 date: "2013-08-21"
 slug: 'some-thoughts-on-getting-started-with-ubuntu-linux'
 description: "Switching from a dying MacBook to a ThinkPad running Ubuntu turns out to suit a digital humanist who already works in Vim, R, and the command line better than a Mac would."

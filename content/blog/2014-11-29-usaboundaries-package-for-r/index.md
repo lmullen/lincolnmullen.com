@@ -1,5 +1,5 @@
 ---
-title: USAboundaries Package for R
+title: USAboundaries package for R
 date: "2014-11-29"
 slug: 'usaboundaries-package-for-r'
 description: "The USAboundaries R package wraps the Newberry Library's Atlas of Historical County Boundaries to make historical U.S. state and county maps straightforward to create."

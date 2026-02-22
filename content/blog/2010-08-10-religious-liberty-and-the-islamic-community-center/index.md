@@ -1,5 +1,5 @@
 ---
-title: 'Religious Liberty and the Islamic Community Center'
+title: 'Religious liberty and the Islamic community center'
 date: "2010-08-10"
 slug: 'religious-liberty-and-the-islamic-community-center'
 description: "Attempts to block an Islamic community center near Ground Zero through state power raise a simple question: should the government be able to prevent the free use of private property for religious purposes?"

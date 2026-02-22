@@ -1,5 +1,5 @@
 ---
-title: 'Analyzing Historical History Dissertations: Page Counts by University'
+title: 'Analyzing historical history dissertations: page counts by university'
 date: "2014-02-11"
 slug: 'analyzing-historical-history-dissertations-page-counts-by-university'
 description: "History dissertation lengths vary significantly by university—looking at page count distributions school by school reveals institutional cultures and departmental expectations."

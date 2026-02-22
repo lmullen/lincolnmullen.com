@@ -1,5 +1,5 @@
 ---
-title: Contours of Conversion to Catholicism in the Nineteenth Century
+title: Contours of conversion to Catholicism in the nineteenth century
 date: "2014-09-15"
 slug: 'contours-of-conversion-to-catholicism-in-the-nineteenth-century'
 description: "A *U.S. Catholic Historian* article tracing three waves of conversion to Catholicism, from scattered Reformed converts in the 1830s to Paulist-won thousands after 1870."

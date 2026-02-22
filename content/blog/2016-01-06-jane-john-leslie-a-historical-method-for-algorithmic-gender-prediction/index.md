@@ -1,5 +1,5 @@
 ---
-title: 'Jane, John ... Leslie? A Historical Method for Algorithmic Gender Prediction'
+title: 'Jane, John ... Leslie? A historical method for algorithmic gender prediction'
 date: "2016-01-06"
 slug: 'jane-john-leslie-a-historical-method-for-algorithmic-gender-prediction'
 description: "The gender package for R infers names' genders from historical data, accounting for change over time—and reveals a persistent gender gap in *AHR* book reviews."

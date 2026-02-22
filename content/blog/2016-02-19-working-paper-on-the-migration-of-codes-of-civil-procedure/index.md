@@ -1,5 +1,5 @@
 ---
-title: Working Paper on the Migration of Codes of Civil Procedure
+title: Working paper on the migration of codes of civil procedure
 date: "2016-02-19"
 slug: 'working-paper-on-the-migration-of-codes-of-civil-procedure'
 description: "A working paper tracing how New York's Field Code of civil procedure spread to most U.S. states, forming the basis of modern American legal practice."

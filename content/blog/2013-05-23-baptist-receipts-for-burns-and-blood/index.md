@@ -1,5 +1,5 @@
 ---
-title: "Baptist 'Receipts' for Burns and Blood"
+title: "Baptist 'receipts' for burns and blood"
 date: "2013-05-23"
 slug: 'baptist-receipts-for-burns-and-blood'
 description: "A curious discovery at the Massachusetts Historical Society: a Baptist commonplace book that includes healing 'receipts' invoking the blood and birth of Jesus to stop bleeding and cure burns."

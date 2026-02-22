@@ -1,5 +1,5 @@
 ---
-title: 'Lower Resolution Shapefiles of Historic State Boundaries'
+title: 'Lower resolution shapefiles of historic state boundaries'
 date: "2013-09-11"
 slug: 'lower-resolution-shapefiles-of-historic-state-boundaries'
 description: "Simplified versions of NHGIS historic state boundary shapefiles for faster iteration in R—reducing the 1860 file from 27.5 MB to 1.7 MB without visible quality loss."

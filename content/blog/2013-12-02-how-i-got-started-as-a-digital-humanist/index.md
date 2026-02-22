@@ -1,5 +1,5 @@
 ---
-title: 'How I Got Started as a Digital Humanist'
+title: 'How I got started as a digital humanist'
 date: "2013-12-02"
 slug: 'how-i-got-started-as-a-digital-humanist'
 description: "Two origin stories: tinkering with WordPress PHP in high school and a graduate history seminar that made writing software feel like historical thinking."

@@ -1,5 +1,5 @@
 ---
-title: 'Aggregating Positions on Maps by Manipulating the Data'
+title: 'Aggregating positions on maps by manipulating the data'
 date: "2013-12-11"
 slug: 'aggregating-positions-on-maps-by-manipulating-the-data'
 description: "Using R's plyr package to aggregate overlapping map points by city and year, turning Paulist mission records into clear, additive clusters instead of stacked dots."

@@ -1,5 +1,5 @@
 ---
-title: 'Jewish Converts to Catholicism and Jewish-Catholic Reconciliation'
+title: 'Jewish converts to Catholicism and Jewish-Catholic reconciliation'
 date: "2013-01-09"
 slug: 'jewish-converts-to-catholicism-and-jewish-catholic-reconciliation'
 description: "John Connelly's research reveals a striking fact: virtually every Catholic activist who worked for Jewish-Catholic reconciliation from the 1840s to 1965 was born Jewish."

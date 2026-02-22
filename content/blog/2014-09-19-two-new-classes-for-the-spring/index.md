@@ -1,5 +1,5 @@
 ---
-title: Two New Classes for the Spring
+title: Two new classes for the spring
 date: "2014-09-19"
 slug: 'two-new-classes-for-the-spring'
 description: "Two new spring courses: a graduate seminar on Religion and Capitalism in the United States, and a digital history course using American religious data as its subject."

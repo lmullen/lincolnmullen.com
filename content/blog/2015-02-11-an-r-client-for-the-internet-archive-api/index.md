@@ -1,5 +1,5 @@
 ---
-title: An R Client for the Internet Archive API
+title: An R client for the Internet Archive API
 date: "2015-02-11"
 slug: 'an-r-client-for-the-internet-archive-api'
 description: "The internetarchive R package lets you search the Internet Archive, retrieve item metadata, and download files—useful for large-scale digital history research."

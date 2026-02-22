@@ -1,5 +1,5 @@
 ---
-title: 'Makefiles for Writing, Data Analysis, OCR, and Converting Shapefiles'
+title: 'Makefiles for writing, data analysis, OCR, and converting shapefiles'
 date: "2016-03-05"
 slug: 'makefiles-for-writing-data-analysis-ocr-and-converting-shapefiles'
 description: "Four Makefiles for digital humanities work: reproducible writing with Pandoc, R Markdown data notebooks, batch OCR, and converting NHGIS shapefiles for CartoDB."

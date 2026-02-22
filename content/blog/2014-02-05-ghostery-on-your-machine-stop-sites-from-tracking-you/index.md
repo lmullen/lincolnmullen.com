@@ -1,5 +1,5 @@
 ---
-title: 'Ghostery on Your Machine: Stop Sites from Tracking You'
+title: 'Ghostery on your machine: stop sites from tracking you'
 date: "2014-02-05"
 slug: 'ghostery-on-your-machine-stop-sites-from-tracking-you'
 description: "Ghostery and similar tools can block the tracking scripts, analytics pixels, and ad networks that follow you across the web—here's how to use them."

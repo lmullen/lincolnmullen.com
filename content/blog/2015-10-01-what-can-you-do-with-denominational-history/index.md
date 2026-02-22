@@ -1,5 +1,5 @@
 ---
-title: 'What Can You Do with Denominational History?'
+title: 'What can you do with denominational history?'
 date: "2015-10-01"
 slug: 'what-can-you-do-with-denominational-history'
 description: "What denominational history can do: *Baptists in America* crosses the color line, explains distinctives, traces institutional politics, and connects to larger American history."

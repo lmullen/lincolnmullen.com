@@ -1,5 +1,5 @@
 ---
-title: 'How Long Are Dissertations in Different Disciplines?'
+title: 'How long are dissertations in different disciplines?'
 date: "2015-05-30"
 slug: 'how-long-are-dissertations-in-different-disciplines'
 description: "ProQuest data on dissertation lengths across disciplines shows history with the longest median at 320 pages, while economics hovers near the bottom."

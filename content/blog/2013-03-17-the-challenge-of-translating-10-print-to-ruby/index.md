@@ -1,5 +1,5 @@
 ---
-title: 'The Challenge of Translating 10 PRINT to Ruby'
+title: 'The challenge of translating 10 PRINT to Ruby'
 date: "2013-03-17"
 slug: 'the-challenge-of-translating-10-print-to-ruby'
 description: "Translating the famous one-line Commodore 64 BASIC maze program into Ruby reveals how much a language's object orientation, idioms, and character encoding shape what a 'faithful' translation can mean."

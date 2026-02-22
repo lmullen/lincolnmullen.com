@@ -1,5 +1,5 @@
 ---
-title: 'Divergence in U.S. Sex Ratios by County, 1820--2010'
+title: 'Divergence in U.S. sex ratios by county, 1820--2010'
 date: "2015-05-05"
 slug: 'divergence-in-u-s-sex-ratios-by-county-1820-2010'
 description: "An interactive map of U.S. sex ratios by county from 1820 to 2010 reveals frontier imbalance, Civil War absences, and prison counties bulging with men since the 1990s."

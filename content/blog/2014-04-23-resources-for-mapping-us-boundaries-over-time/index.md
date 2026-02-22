@@ -1,5 +1,5 @@
 ---
-title: Resources for Mapping US Boundaries Over Time
+title: Resources for mapping US boundaries over time
 date: "2014-04-23"
 slug: 'resources-for-mapping-us-boundaries-over-time'
 description: "A guide to resources for mapping U.S. historical boundaries, led by the Newberry Library's Atlas of Historical County Boundaries with data from 1629 to 2000."

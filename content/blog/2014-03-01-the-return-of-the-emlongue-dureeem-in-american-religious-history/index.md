@@ -1,5 +1,5 @@
 ---
-title: 'The Return of the Longue Durée in American Religious History'
+title: 'The return of the longue durée in American religious history'
 date: "2014-03-01"
 slug: 'the-return-of-the-emlongue-dureeem-in-american-religious-history'
 description: "The field gained breadth of subject by narrowing chronological scope after Ahlstrom, but Armitage and Guldi's call for the longue durée invites American religious history to reclaim synthesis."

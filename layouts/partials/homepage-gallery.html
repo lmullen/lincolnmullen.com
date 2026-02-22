@@ -13,7 +13,7 @@
 				<div class="card-body pt-md-0 pt-sm-0">
 					<h3 class="card-title mb-0">{{ .Title | markdownify }}</h3>
 					{{ if .Params.Subtitle }}<p class="h4"><span class="text-muted small">{{ .Params.Subtitle }}</span></p>{{ end }}
-					<div class="card-text">
+					<div class="card-text mb-2">
 						{{ .Description | markdownify }}
 					</div>
 					{{ if .Params.Links }}

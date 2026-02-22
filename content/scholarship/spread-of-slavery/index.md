@@ -3,7 +3,7 @@ title: "The Spread of U.S. Slavery, 1790–1860"
 subtitle: "A map of census data about enslaved people in the United States"
 thumbnail: "slavery-map.png"
 homepage: true
-homepageOrder: 7
+homepageOrder: 6
 links:
   - url: https://projects.lincolnmullen.com/slavery/
     text: Spread of Slavery map

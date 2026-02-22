@@ -3,7 +3,7 @@ title: "Legal Modernism"
 subtitle: "American legal history through computational methods"
 thumbnail: "thumbnail.png"
 homepage: true
-homepageOrder: 5
+homepageOrder: 1
 links:
   - url: https://legalmodernism.org
     text: Legal Modernism website

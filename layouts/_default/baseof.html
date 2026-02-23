@@ -56,6 +56,9 @@
 	<link rel="canonical" href="{{ .Page.Permalink }}">
 	{{ end }}
 
+	<!-- Analytics -->
+	{{ partial "analytics.html" . }}
+
 </head>
 
 <body>
@@ -116,6 +119,7 @@
 
 	{{ block "scripts" . }}
 	{{ end }}
+
 
 </body>
 

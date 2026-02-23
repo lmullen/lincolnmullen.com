@@ -5,7 +5,7 @@ description: Review a blog post against the site's style guide and front matter 
 
 # Review post
 
-Review the specified blog post file. If no file is given, ask which post to review.
+Review the specified blog post file. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
 
 Read the post file, then check every item below. Report all issues found, organized by category. After reporting, ask the user if they want you to fix the issues.
 

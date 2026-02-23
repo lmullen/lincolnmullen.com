@@ -56,7 +56,9 @@
 	{{ end }}
 
 	<!-- Analytics -->
+	{{ block "analytics" . }}
 	{{ partial "analytics.html" . }}
+	{{ end }}
 
 </head>
 

@@ -37,6 +37,7 @@
 /projects/spatial-workshop/* https://projects.lincolnmullen.com/spatial-workshop/:splat 301
 /projects/us-boundaries/* https://projects.lincolnmullen.com/us-boundaries/:splat 301
 /projects/us-boundaries https://projects.lincolnmullen.com/us-boundaries
+/projects/slavery https://projects.lincolnmullen.com/slavery/ 301
 
 
 # Files moved to R2

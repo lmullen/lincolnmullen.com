@@ -11,6 +11,11 @@ outputFormats:
     baseName: "index"
     isPlainText: false
     rel: "alternate"
+  SocialFeed:
+    mediaType: "application/rss+xml"
+    baseName: "index"
+    isPlainText: true
+    notAlternative: true
 
 permalinks:
   blog: "/:section/:slug/"

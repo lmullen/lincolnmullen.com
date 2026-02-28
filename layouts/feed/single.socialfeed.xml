@@ -19,9 +19,6 @@
           {{- if $text -}}
             {{- $count = add $count 1 }}
     <item>
-      {{- if and (ne $page.Section "micro") $page.Title }}
-      <title>{{ $page.Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
-      {{- end }}
       <link>{{ $page.Permalink | absURL | htmlEscape }}</link>
       <pubDate>{{ $page.Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="true">{{ $page.Permalink | absURL }}</guid>

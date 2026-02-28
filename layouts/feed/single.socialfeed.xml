@@ -1,0 +1,70 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Params.blogFeedTitle }} ({{ .Params.platform }})</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.blogFeedTitle }} — {{ .Params.platform }} feed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    {{ with .Site.Params.author.email }}<managingEditor>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</managingEditor>{{end}}
+    {{ with .OutputFormats.Get "SocialFeed" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{- $platform := .Params.platform -}}
+    {{- $count := 0 -}}
+    {{- range (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) -}}
+      {{- if lt $count 10 -}}
+        {{- $page := . -}}
+        {{- with .Params.social -}}
+          {{- $text := index . $platform -}}
+          {{- if $text -}}
+            {{- $count = add $count 1 }}
+    <item>
+      <link>{{ $page.Permalink | absURL | htmlEscape }}</link>
+      <pubDate>{{ $page.Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid isPermaLink="true">{{ $page.Permalink | absURL }}</guid>
+      <description>{{ $text | htmlEscape }}</description>
+      {{- /* Resolve featured image for enclosure */ -}}
+      {{- $feedImage := "" -}}
+      {{- $feedImageType := "" -}}
+      {{- if $page.Params.image -}}
+        {{- $globalPath := strings.TrimPrefix "/" $page.Params.image -}}
+        {{- with resources.Get $globalPath -}}
+          {{- $feedImage = .Permalink -}}
+          {{- $feedImageType = .MediaType.Type -}}
+        {{- else -}}
+          {{- with $page.Resources.GetMatch $page.Params.image -}}
+            {{- $feedImage = .Permalink -}}
+            {{- $feedImageType = .MediaType.Type -}}
+          {{- end -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $conventionNames := slice "feature" "cover" "thumbnail" -}}
+        {{- range $conventionNames -}}
+          {{- if not $feedImage -}}
+            {{- with $page.Resources.GetMatch (printf "*%s*" .) -}}
+              {{- if ne .MediaType.SubType "svg" -}}
+                {{- $feedImage = .Permalink -}}
+                {{- $feedImageType = .MediaType.Type -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if not $feedImage -}}
+          {{- range $page.Resources.ByType "image" -}}
+            {{- if and (not $feedImage) (ne .MediaType.SubType "svg") -}}
+              {{- $feedImage = .Permalink -}}
+              {{- $feedImageType = .MediaType.Type -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if $feedImage }}
+      <enclosure url="{{ $feedImage }}" type="{{ $feedImageType }}" length="0" />
+      {{- end }}
+    </item>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end }}
+  </channel>
+</rss>

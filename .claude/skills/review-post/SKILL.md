@@ -38,10 +38,12 @@ Flag if these are missing, but as suggestions rather than errors:
 
 If present, validate:
 
-- `bluesky`: Must be 300 characters or fewer (including URL). Should end with the permalink URL.
-- `mastodon`: Must be 500 characters or fewer (including URL). Should end with the permalink URL.
-- `linkedin`: Should end with the permalink URL.
+- `bluesky`: Must be 300 characters or fewer (including URL). Should end with the permalink URL or an external URL.
+- `mastodon`: Must be 500 characters or fewer (including URL). Should end with the permalink URL or an external URL.
+- `linkedin`: Should end with the permalink URL or an external URL.
 - All social media URLs should follow the pattern `https://lincolnmullen.com/blog/<slug>/` where `<slug>` matches the post's `slug` field.
+
+It would be rare that the `bluesky` and `mastodon` fields would be empty. If `linkedin` is empty that will be more common. Note it but do not offer to correct it.
 
 ## Spelling and grammar
 

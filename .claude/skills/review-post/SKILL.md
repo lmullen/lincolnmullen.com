@@ -25,25 +25,33 @@ Read the post file, then check every item below. Report all issues found, organi
 Check that these fields are present and non-empty:
 
 - `title`
-- `date`: Must be present. If the date is more than one hour before the current date/time, ask the user whether it should be updated to now.
-- `slug`
+- `date`: Must be present in ISO 8601 format with timezone offset (e.g., `2026-02-10T23:24:10-05:00`). If the date is more than one hour before the current date/time, ask the user whether it should be updated to now.
+- `slug`: Must be URL-safe: lowercase letters, numbers, and hyphens only. No punctuation, no spaces. Should match what `new-post.sh` generates from the title.
 - `draft`: Must be `false`. Flag as an issue if it is `true` or missing.
 
 ## Optional front matter
 
 Flag if these are missing, but as suggestions rather than errors:
 
-- `description`: Should be 1-2 sentences summarizing the post for meta tags and search results. Platform-neutral and informative.
-- `social` block with `bluesky`, `mastodon`, and `linkedin` fields.
+- `description`: Should be 1-2 sentences summarizing the post for meta tags and search results. Platform-neutral and informative. This field is used for OpenGraph meta tags (`og:description`) and directly affects how the post appears when shared on social media. Flag prominently when missing.
+- `social` block with `bluesky`, `mastodon`, and `linkedin` fields. Posts with empty `social.bluesky` or `social.mastodon` fields will not appear in the platform-specific RSS feeds, so these fields are important for distribution.
 
 If present, validate:
 
-- `bluesky`: Must be 300 characters or fewer (including URL). Should end with the permalink URL or an external URL.
+- `bluesky`: Must be 300 characters or fewer (including URL). Should end with the permalink URL or an external URL (e.g., for linkposts or crossposts where the external URL is more appropriate).
 - `mastodon`: Must be 500 characters or fewer (including URL). Should end with the permalink URL or an external URL.
-- `linkedin`: Should end with the permalink URL or an external URL.
-- All social media URLs should follow the pattern `https://lincolnmullen.com/blog/<slug>/` where `<slug>` matches the post's `slug` field.
+- `linkedin`: No strict character limit. Often uses multi-line `|` YAML syntax for longer content. Should end with the permalink URL or an external URL.
 
 It would be rare that the `bluesky` and `mastodon` fields would be empty. If `linkedin` is empty that will be more common. Note it but do not offer to correct it.
+
+## Other optional front matter
+
+These fields are used by templates. If present, validate them; if absent, do not flag unless context warrants it.
+
+- `crosspost`: If present, must have `url` (a valid URL string) and `source` (name of the external site) sub-fields. Displayed as a notice that the post was originally published elsewhere.
+- `linkpost`: If present, must be a valid URL string. Indicates the post links to an external resource; the URL is used as the canonical link.
+- `newsletter`: If `true`, the post is styled as a newsletter entry (title displayed as "Working on It #<slug>: <title>").
+- `tags`: If present, must be a YAML list. Tags appear in OpenGraph meta tags and the JSON feed. No tag pages are generated.
 
 ## Spelling and grammar
 
@@ -52,8 +60,9 @@ It would be rare that the `bluesky` and `mastodon` fields would be empty. If `li
 
 ## Content
 
-- Check that `<!--more-->` is present for longer posts (provides "Read More" truncation on list pages).
+- For longer posts (roughly 500+ words), suggest adding `<!--more-->` if absent. This provides "Read More" truncation on list pages. This is a suggestion, not a required check.
 - Check that images use the `image` or `figure` shortcodes rather than raw Markdown image syntax.
+- Verify that image files referenced in `image` or `figure` shortcodes actually exist in the post's page bundle directory or in `assets/`.
 
 ## Building up the style guide
 

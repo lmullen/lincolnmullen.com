@@ -31,7 +31,7 @@
       {{ else }}
       <guid isPermaLink="true">{{ .Permalink | absURL }}</guid>
       {{ end }}
-      <description>{{ .Content | html }}</description>
+      <description>{{ .Content | html }}{{ with .Params.via }}{{ printf "<p>Via: <a href=\"%s\">%s</a></p>" . ((urls.Parse .).Host) | html }}{{ end }}</description>
     </item>
     {{ end }}
   </channel>

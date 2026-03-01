@@ -19,6 +19,7 @@
             <a href="{{ .Params.Linkpost }}" class="text-muted"><i class="bi bi-box-arrow-up-right d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Link: <a href="{{ .Params.Linkpost }}" class="text-muted text-decoration-none">{{ .Params.Linkpost }}</a>
           </div>
           {{ end }}
+          {{ partial "via" . }}
           <div>
             <a href="{{ .Permalink }}" class="text-muted" title="Local permalink"><i class="bi bi-link-45deg d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Published:
             <a href="{{ .Permalink }}" class="permalink u-url u-uid" title="Local permalink">

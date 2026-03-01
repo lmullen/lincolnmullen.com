@@ -25,7 +25,11 @@
             {{- else }}
             "title": {{ $element.Title | jsonify }},
             {{- end }}
-            "content_html": {{ $element.Content | jsonify }},
+            {{- $viaHTML := "" -}}
+            {{- with $element.Params.via -}}
+              {{- $viaHTML = printf "<p>Via: <a href=\"%s\">%s</a></p>" . ((urls.Parse .).Host) -}}
+            {{- end }}
+            "content_html": {{ printf "%s%s" $element.Content $viaHTML | jsonify }},
             "date_published": "{{ $element.Date.Format "2006-01-02T15:04:05Z07:00" }}"
             {{- /* banner_image: resolve from front matter or page bundle (no default fallback) */ -}}
             {{- $feedImage := "" -}}

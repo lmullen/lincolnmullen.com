@@ -58,9 +58,13 @@
           {{- end -}}
         {{- end -}}
       {{- end -}}
-      {{- if $feedImage }}
-      <enclosure url="{{ $feedImage }}" type="{{ $feedImageType }}" length="0" />
+      {{- if not $feedImage -}}
+        {{- with resources.Get "img/social-media.jpeg" -}}
+          {{- $feedImage = .Permalink -}}
+          {{- $feedImageType = .MediaType.Type -}}
+        {{- end -}}
       {{- end }}
+      <enclosure url="{{ $feedImage }}" type="{{ $feedImageType }}" length="0" />
     </item>
           {{- end -}}
         {{- end -}}

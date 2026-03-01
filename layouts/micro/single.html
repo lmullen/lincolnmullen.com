@@ -16,7 +16,7 @@
         <footer class="post-footer text-muted mt-4">
           {{ if .Params.Linkpost }}
           <div class="text-truncate">
-            <a href="{{ .Params.Linkpost }}" class="text-muted"><i class="bi bi-box-arrow-up-right d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Link: <a href="{{ .Params.Linkpost }}" class="text-muted text-decoration-none">{{ .Params.Linkpost }}</a>
+            <a href="{{ .Params.Linkpost }}" class="text-muted"><i class="bi bi-box-arrow-up-right d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Link: <a href="{{ .Params.Linkpost }}" class="text-muted">{{ (urls.Parse .Params.Linkpost).Host }}</a>
           </div>
           {{ end }}
           {{ partial "via" . }}

@@ -1,7 +1,37 @@
 {{ define "main" }}
-<script>window.location.href = "/micro/#post-{{ .Date.Format "2006-01-02-15-04-05" }}";</script>
-<noscript>
-  <meta http-equiv="refresh" content="0; url=/micro/#post-{{ .Date.Format "2006-01-02-15-04-05" }}">
-</noscript>
-<p>Redirecting to <a href="/micro/#post-{{ .Date.Format "2006-01-02-15-04-05" }}">the micro posts page</a>...</p>
+
+<div class="container-fluid">
+  <div class="row gx-5">
+    <div class="col-md-3 order-2">
+      {{ partial "blog-nav" . }}
+    </div>
+    <div class="col-md-9 order-1 py-5">
+
+      <article class="h-entry post">
+
+        <div class='post-body e-content mt-2 mb-5'>
+          {{ .Content }}
+        </div>
+
+        <footer class="post-footer text-muted mt-4">
+          {{ if .Params.Linkpost }}
+          <div class="text-truncate">
+            <a href="{{ .Params.Linkpost }}" class="text-muted"><i class="bi bi-box-arrow-up-right d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Link: <a href="{{ .Params.Linkpost }}" class="text-muted text-decoration-none">{{ .Params.Linkpost }}</a>
+          </div>
+          {{ end }}
+          <div>
+            <a href="{{ .Permalink }}" class="text-muted" title="Local permalink"><i class="bi bi-link-45deg d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Published:
+            <a href="{{ .Permalink }}" class="permalink u-url u-uid" title="Local permalink">
+              <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>{{ .Date.Format "January 2, 2006" }}</time></a>.
+            Last modified: <time class='post-updated dt-updated' datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>{{ time.Format "January 2, 2006 at 03:04pm MST" .Lastmod}}</time>.
+          </div>
+          <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
+        </footer>
+
+      </article>
+
+    </div>
+  </div>
+</div>
+
 {{ end }}

@@ -15,6 +15,11 @@
 /files/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 /Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 
+# Micro section redirect
+# Redirects only the list page, not the single pages
+/micro/ /blog/ 302
+/micro /blog/ 302
+
 # Blog post redirects
 /blog/the-humanists-os-or-scholarship-in-plain-text/null /blog/the-humanists-os-or-scholarship-in-plain-text/ 301
 /blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/null /blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/ 301

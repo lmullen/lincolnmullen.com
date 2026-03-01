@@ -17,7 +17,7 @@ title=$1
 slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr '[:blank:]' '-' | tr -s '-')
 date=`date "+%Y-%m-%d"`
 # Use Hugo archetypes to do the heavy lifting in creating the new file
-BLOG_TITLE="$title" hugo new --kind blog blog/$date-$slug
+POST_TITLE="$title" POST_SLUG="$slug" hugo new --kind blog blog/$date-$slug
 # Open the resulting file in VS Code
 code "content/blog/$date-$slug/index.md"
 

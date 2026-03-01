@@ -17,13 +17,15 @@
         "clear": true
       },
       "group": "build",
-      "problemMatcher": []
+      "problemMatcher": [ ]
     },
     {
       "label": "New post",
       "type": "shell",
       "command": "./new-post.sh",
-      "args": ["${input:newPostTitle}"],
+      "args": [
+        "${input:newPostTitle}"
+      ],
       "presentation": {
         "echo": true,
         "reveal": "silent",
@@ -33,7 +35,7 @@
         "clear": true,
         "close": true
       },
-      "problemMatcher": []
+      "problemMatcher": [ ]
     },
     {
       "label": "New micro post",
@@ -47,7 +49,7 @@
         "showReuseMessage": false,
         "clear": true
       },
-      "problemMatcher": []
+      "problemMatcher": [ ]
     }
   ],
   "inputs": [

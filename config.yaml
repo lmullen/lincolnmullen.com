@@ -48,6 +48,7 @@ params:
 taxonomies: false
 
 enableGitInfo: true
+timeZone: "America/New_York"
 
 security:
   funcs:

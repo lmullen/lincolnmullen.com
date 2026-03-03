@@ -3,7 +3,10 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
+# Capture both formats from a single moment so the filename and
+# front matter date (and hence permalink) are always in sync.
 timestamp=$(date +"%Y-%m-%d-%H-%M-%S")
+iso_date=$(date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/\(..\)$/:\1/')
 post_file="content/micro/$timestamp.md"
 
 # Prompt for image inclusion
@@ -35,8 +38,10 @@ if [[ "$include_image" =~ ^[Yy]$ ]]; then
     echo "Image copied to assets/images/micro/$new_image_name"
 fi
 
-# Create the micro post using Hugo archetype
+# Create the micro post using Hugo archetype, then overwrite the date
+# with our captured timestamp so it matches the filename exactly.
 hugo new --kind micro "micro/$timestamp.md"
+sed -i '' "s|^date: .*|date: '$iso_date'|" "$post_file"
 
 # If image was included, fill in front matter and append shortcode;
 # otherwise remove the empty image: placeholder from front matter

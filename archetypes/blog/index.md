@@ -1,7 +1,7 @@
 ---
-title: "{{ getenv "POST_TITLE" }}"
+title: "{{ getenv "HUGO_POST_TITLE" }}"
 date: "{{ .Date  }}"
-slug: "{{ getenv "POST_SLUG" }}"
+slug: "{{ getenv "HUGO_POST_SLUG" }}"
 draft: true
 description: ""
 # newsletter: true

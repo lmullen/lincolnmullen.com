@@ -29,6 +29,8 @@ Check that these fields are present and non-empty:
 - `slug`: Must be URL-safe: lowercase letters, numbers, and hyphens only. No punctuation, no spaces. Should match what `new-post.sh` generates from the title.
 - `draft`: Must be `false`. Flag as an issue if it is `true` or missing.
 
+Also check the name of the directory that contains the file (for example, `content/blog/2013-08-14-how-to-make-prudent-choices-about-your-tools/index.md`). If the date in the directory does not match today's date, flag that and offer to change it. 
+
 ## Optional front matter
 
 Flag if these are missing, but as suggestions rather than errors:

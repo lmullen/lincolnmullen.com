@@ -1,3 +1,122 @@
+/* Indigo & olive color scheme overrides.
+ * Hand-tuned values from issue #137 that supplement what Bootstrap
+ * auto-generates from the Sass variables in variables.scss. */
+:root,
+[data-bs-theme="light"] {
+  --bs-gray: #606470;
+  --bs-gray-dark: #2e323c;
+  --bs-primary-text-emphasis: #1d244d;
+  --bs-secondary-text-emphasis: #2d3818;
+  --bs-success-text-emphasis: #1d3720;
+  --bs-info-text-emphasis: #1d2f40;
+  --bs-warning-text-emphasis: #4c4010;
+  --bs-danger-text-emphasis: #4c1820;
+  --bs-light-text-emphasis: #495057;
+  --bs-dark-text-emphasis: #495057;
+  --bs-primary-bg-subtle: #d4d7ec;
+  --bs-secondary-bg-subtle: #d6dec8;
+  --bs-success-bg-subtle: #cee0d0;
+  --bs-info-bg-subtle: #cedad0;
+  --bs-warning-bg-subtle: #eadec0;
+  --bs-danger-bg-subtle: #eaccd0;
+  --bs-light-bg-subtle: #f8f8fa;
+  --bs-dark-bg-subtle: #ced4da;
+  --bs-primary-border-subtle: #aab0d4;
+  --bs-secondary-border-subtle: #aebe90;
+  --bs-success-border-subtle: #9cc0a0;
+  --bs-info-border-subtle: #9cb4c8;
+  --bs-warning-border-subtle: #d0c080;
+  --bs-danger-border-subtle: #d0a0a8;
+  --bs-light-border-subtle: #e9ecef;
+  --bs-dark-border-subtle: #adb5bd;
+  --bs-secondary-color: rgba(38, 40, 48, 0.75);
+  --bs-secondary-color-rgb: 38, 40, 48;
+  --bs-secondary-bg: #e8eaef;
+  --bs-secondary-bg-rgb: 232, 234, 239;
+  --bs-tertiary-color: rgba(38, 40, 48, 0.5);
+  --bs-tertiary-color-rgb: 38, 40, 48;
+  --bs-tertiary-bg: #f2f2f6;
+  --bs-tertiary-bg-rgb: 242, 242, 246;
+  --bs-highlight-color: #262830;
+  --bs-highlight-bg: #eadec0;
+  --bs-form-valid-color: #3a6e3e;
+  --bs-form-valid-border-color: #3a6e3e;
+  --bs-form-invalid-color: #983040;
+  --bs-form-invalid-border-color: #983040;
+}
+
+/* Dark mode — softer contrast than issue #137 defaults */
+[data-bs-theme="dark"] {
+  --bs-body-color: #b0b4bc;
+  --bs-body-color-rgb: 176, 180, 188;
+  --bs-body-bg: #1e202c;
+  --bs-body-bg-rgb: 30, 32, 44;
+  --bs-emphasis-color: #d8dae0;
+  --bs-emphasis-color-rgb: 216, 218, 224;
+  --bs-secondary-color: rgba(176, 180, 188, 0.75);
+  --bs-secondary-color-rgb: 176, 180, 188;
+  --bs-secondary-bg: #282a36;
+  --bs-secondary-bg-rgb: 40, 42, 54;
+  --bs-tertiary-color: rgba(176, 180, 188, 0.5);
+  --bs-tertiary-color-rgb: 176, 180, 188;
+  --bs-tertiary-bg: #242636;
+  --bs-tertiary-bg-rgb: 36, 38, 54;
+  --bs-primary: #9aa6de;
+  --bs-secondary: #a8be6e;
+  --bs-success: #5aa070;
+  --bs-info: #5a8ebc;
+  --bs-warning: #c8a840;
+  --bs-danger: #c85868;
+  --bs-light: #f2f2f6;
+  --bs-dark: #181a24;
+  --bs-primary-rgb: 154, 166, 222;
+  --bs-secondary-rgb: 168, 190, 110;
+  --bs-success-rgb: 90, 160, 112;
+  --bs-info-rgb: 90, 142, 188;
+  --bs-warning-rgb: 200, 168, 64;
+  --bs-danger-rgb: 200, 88, 104;
+  --bs-light-rgb: 242, 242, 246;
+  --bs-dark-rgb: 24, 26, 36;
+  --bs-primary-text-emphasis: #a0aade;
+  --bs-secondary-text-emphasis: #b4c878;
+  --bs-success-text-emphasis: #80c098;
+  --bs-info-text-emphasis: #80aed0;
+  --bs-warning-text-emphasis: #d8c060;
+  --bs-danger-text-emphasis: #d87888;
+  --bs-light-text-emphasis: #f2f2f6;
+  --bs-dark-text-emphasis: #dee2e6;
+  --bs-primary-border-subtle: #2e3468;
+  --bs-secondary-border-subtle: #404a28;
+  --bs-success-border-subtle: #244430;
+  --bs-info-border-subtle: #243648;
+  --bs-warning-border-subtle: #50441a;
+  --bs-danger-border-subtle: #50222a;
+  --bs-light-border-subtle: #495057;
+  --bs-dark-border-subtle: #343a40;
+  --bs-primary-bg-subtle: #161830;
+  --bs-secondary-bg-subtle: #1e2214;
+  --bs-success-bg-subtle: #141e16;
+  --bs-info-bg-subtle: #141c26;
+  --bs-warning-bg-subtle: #28220e;
+  --bs-danger-bg-subtle: #281416;
+  --bs-light-bg-subtle: #282a36;
+  --bs-dark-bg-subtle: #14161e;
+  --bs-link-color: #9aa6de;
+  --bs-link-color-rgb: 154, 166, 222;
+  --bs-link-hover-color: #b0baec;
+  --bs-link-hover-color-rgb: 176, 186, 236;
+  --bs-code-color: #a8be6e;
+  --bs-highlight-color: #b0b4bc;
+  --bs-highlight-bg: #50441a;
+  --bs-border-color: #303248;
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.12);
+  --bs-heading-color: #d0d2dc;
+  --bs-form-valid-color: #5aa070;
+  --bs-form-valid-border-color: #5aa070;
+  --bs-form-invalid-color: #c85868;
+  --bs-form-invalid-border-color: #c85868;
+}
+
 /* Body styles */
 body {
   margin-top: 2rem;
@@ -11,9 +130,9 @@ body {
 footer.site-footer {
   font-size: 0.9rem;
   border-top: 1px solid $border-color;
-  margin-top: $lm-gap * 2;
-  padding-top: $lm-gap * 2;
-  margin-bottom: $lm-gap * 4;
+  margin-top: $gap * 2;
+  padding-top: $gap * 2;
+  margin-bottom: $gap * 4;
 }
 
 /* Typography */
@@ -47,7 +166,7 @@ a {
 
 /* Base */
 #site-header {
-  margin-bottom: $lm-gap * 2;
+  margin-bottom: $gap * 2;
   border-bottom: 1px solid $border-color;
 }
 
@@ -55,7 +174,7 @@ a.site-title {
   font-weight: 500;
   text-decoration: none;
   font-size: $font-size-base;
-  color: $body-color;
+  color: var(--bs-body-color);
 }
 
 .nav-link {
@@ -144,7 +263,7 @@ img.list-icon {
     border-left: none !important;
     padding: 1rem !important;
     margin: 0 0 2rem 0 !important;
-    background-color: $gray-100;
+    background-color: var(--bs-tertiary-bg);
     top: 0;
   }
 }
@@ -279,7 +398,7 @@ figcaption p:before {
 .post-body hr {
   border: none;
   margin: 2rem 0;
-  color: $body-color;
+  color: var(--bs-body-color);
   opacity: 0.8;
 }
 

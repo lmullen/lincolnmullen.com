@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-bs-theme="light">
 
 <head>
+	<script>
+		(function() {
+			var mq = window.matchMedia('(prefers-color-scheme: dark)');
+			function apply(dark) {
+				document.documentElement.setAttribute('data-bs-theme', dark ? 'dark' : 'light');
+			}
+			apply(mq.matches);
+			mq.addEventListener('change', function(e) { apply(e.matches); });
+		})();
+	</script>
 	{{ block "title" . }}
 	<title>{{ .Title }} | {{ .Site.Title }}</title>
 	{{ end }}

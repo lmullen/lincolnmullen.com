@@ -1,24 +1,57 @@
-// Custom variables
-$lm-primary: #2e3878; // Indigo
-$lm-secondary: #5a7030; // Olive
-$lm-gap: 1rem;
+// Bootstrap variable overrides for indigo & olive color scheme.
+// These are set before Bootstrap's own variables are imported, so they
+// override Bootstrap's defaults via the !default mechanism.
+// See: https://getbootstrap.com/docs/5.3/customize/sass/#variable-defaults
 
-// Colors
-$primary: $lm-primary;
-$secondary: $lm-secondary;
+// Custom spacing variable (not a Bootstrap variable)
+$gap: 1rem;
+
+// Base color palette
+$blue: #3a4899;
+$indigo: #3a4899;
+$purple: #4a3a6e;
+$pink: #9a3e5e;
+$red: #983040;
+$orange: #a87028;
+$yellow: #988020;
+$green: #5a7030;
+$teal: #3a6e5a;
+$cyan: #3a6a7e;
+
+// Theme colors
+$primary: $indigo;
+$secondary: $green;
+$success: #3a6e3e;
+$info: #3a5e80;
+$warning: $yellow;
+$danger: $red;
+$light: #f2f2f6;
+$dark: #181a24;
+
+// Body
 $body-color: #262830;
-$border-color: #d0d2d8;
-$text-muted: rgba(38, 40, 48, 0.5);
+$body-bg: #ffffff;
+
+// Headings
 $headings-color: #181a24;
+
+// Links
+$link-color: $primary;
+$link-hover-color: #2c3878;
+
+// Borders
+$border-color: #d0d2d8;
+
+// Code
+$code-color: $secondary;
 
 // Fonts
 $font-family-sans-serif: "IBM Plex Sans", sans-serif;
 $font-family-monospace: "IBM Plex Mono", monospace;
-// $font-size-base: 1.125rem;
 $font-size-base: 1rem;
 $font-weight-semibold: 500;
 
-// Headings
+// Heading sizes
 $h1-font-size: $font-size-base * 1.75; // = 28px
 $h2-font-size: $font-size-base * 1.5; // = 24px
 $h3-font-size: $font-size-base * 1.25; // = 20px

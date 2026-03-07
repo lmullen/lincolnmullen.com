@@ -134,7 +134,7 @@ a.site-title:hover {
   color: var(--bs-secondary);
   font-weight: 500;
   font-size: 0.95rem;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
   margin-bottom: -1px; // align with header border
   border-bottom: 2px solid transparent;
   transition: border-color 0.15s ease-in-out;
@@ -161,8 +161,17 @@ figcaption em {
 }
 
 /* Homepage */
+.homepage-bio p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 .homepage-list a {
   text-decoration: none;
+}
+
+.homepage-list a:hover {
+  text-decoration: underline;
 }
 
 .homepage-inline-links a {

@@ -2,6 +2,7 @@
 date: '{{ .Date }}'
 draft: true
 linkpost:
+via: 
 image:
 description: ""
 social:

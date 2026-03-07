@@ -1,11 +1,11 @@
 ---
 name: review-post
-description: Review a blog post against the site's style guide and front matter requirements. Use when the user asks to review, check, or validate a post before publishing.
+description: Review a blog, micro, or newsletter post against the site's style guide and front matter requirements. Use when the user asks to review, check, or validate a post before publishing.
 ---
 
 # Review post
 
-Review the specified blog post file. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
+Review the specified post file. This skill works for blog, micro, and newsletter posts. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
 
 Read the post file, then check every item below. Report all issues found, organized by category. After reporting, ask the user if they want you to fix the issues.
 
@@ -25,7 +25,7 @@ Read the post file, then check every item below. Report all issues found, organi
 Check that these fields are present and non-empty:
 
 - `title`
-- `date`: Must be present in ISO 8601 format with timezone offset (e.g., `2026-02-10T23:24:10-05:00`). If the date is more than one hour before the current date/time, ask the user whether it should be updated to now.
+- `date`: Must be present in ISO 8601 format with timezone offset (e.g., `2026-02-10T23:24:10-05:00`). If the date is more than ten minutes before the current date/time, ask the user whether it should be updated to now.
 - `slug`: Must be URL-safe: lowercase letters, numbers, and hyphens only. No punctuation, no spaces. Should match what `new-post.sh` generates from the title.
 - `draft`: Must be `false`. Flag as an issue if it is `true` or missing.
 

@@ -1,11 +1,11 @@
 ---
 name: summarize-for-social-media
-description: Generate first drafts of social media posts. Use when the user asks to create social media content for a post.
+description: Generate first drafts of social media posts for blog, micro, or newsletter posts. Use when the user asks to create social media content for a post.
 ---
 
 ## Social Media Text and Description Generation
 
-When asked to generate social media posts for a blog post, read the post file and write the text directly into the post's YAML front matter fields. Use the post that was provided in the context of the chat. Use the stylistic suggestions in other Claude skills and documentation.
+When asked to generate social media posts for a blog, micro, or newsletter post, read the post file and write the text directly into the post's YAML front matter fields. Use the post that was provided in the context of the chat. Use the stylistic suggestions in other Claude skills and documentation.
 
 If the `linkpost` field is present in the YAML header, always uses that as the "call to action" link at the end of a post.
 
@@ -24,6 +24,8 @@ Write the `social:` block fields (`bluesky`, `mastodon`, `linkedin`) in the fron
 - **linkedin**: One or two short paragraphs. More professional framing, emphasizing scholarly or institutional significance. End with the permalink URL. No hashtags.
 
 For all platforms: capture the main point or most interesting detail of the post, not just the title. For linkposts, summarize what makes the linked item worth reading.
+
+If the body text of the post is short enough to fit within a platform's character limit (after appending the URL), use it verbatim without modification. Do not rephrase short posts unnecessarily.
 
 
 ### YAML formatting

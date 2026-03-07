@@ -1,4 +1,4 @@
-// Bootstrap variable overrides for indigo & olive color scheme.
+// Bootstrap variable overrides for navy & orange color scheme.
 // These are set before Bootstrap's own variables are imported, so they
 // override Bootstrap's defaults via the !default mechanism.
 // See: https://getbootstrap.com/docs/5.3/customize/sass/#variable-defaults
@@ -7,40 +7,40 @@
 $gap: 1rem;
 
 // Base color palette
-$blue: #3a4899;
+$blue: #2c4a7c;
 $indigo: #3a4899;
 $purple: #4a3a6e;
 $pink: #9a3e5e;
-$red: #983040;
-$orange: #a87028;
+$red: #a83838;
+$orange: #c06a20;
 $yellow: #988020;
-$green: #5a7030;
+$green: #3a7a5c;
 $teal: #3a6e5a;
 $cyan: #3a6a7e;
 
 // Theme colors
-$primary: $indigo;
-$secondary: $green;
-$success: #3a6e3e;
-$info: #3a5e80;
-$warning: $yellow;
+$primary: $blue;
+$secondary: $orange;
+$success: $green;
+$info: $blue;
+$warning: $orange;
 $danger: $red;
-$light: #f2f2f6;
-$dark: #181a24;
+$light: #f3f4f6;
+$dark: #1a1e26;
 
 // Body
-$body-color: #262830;
+$body-color: #2a2e36;
 $body-bg: #ffffff;
 
 // Headings
-$headings-color: #181a24;
+$headings-color: #1a1e26;
 
 // Links
-$link-color: $primary;
-$link-hover-color: #2c3878;
+$link-color: #3568b2;
+$link-hover-color: #2c4a7c;
 
 // Borders
-$border-color: #d0d2d8;
+$border-color: #d4d6dc;
 
 // Code
 $code-color: $secondary;

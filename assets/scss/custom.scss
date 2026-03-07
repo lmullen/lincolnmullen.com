@@ -112,7 +112,7 @@ a {
 }
 
 a.site-title {
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   font-size: $font-size-base * 1.25;
   color: var(--bs-primary);
@@ -207,6 +207,24 @@ img.list-icon {
 .homepage-header {
   font-weight: 500;
   font-size: var(--bs-body-font-size);
+}
+
+/* Inline newsletter form */
+.newsletter-inline {
+  background: linear-gradient(135deg, var(--bs-accent), #e89040);
+  color: #fff;
+}
+
+.newsletter-inline-btn {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+
+.newsletter-inline-btn:hover {
+  background-color: var(--bs-link-hover-color);
+  border-color: var(--bs-link-hover-color);
+  color: #fff;
 }
 
 /* Scholarship cards */

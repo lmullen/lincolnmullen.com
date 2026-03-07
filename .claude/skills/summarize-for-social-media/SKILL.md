@@ -7,6 +7,8 @@ description: Generate first drafts of social media posts for blog, micro, or new
 
 When asked to generate social media posts for a blog, micro, or newsletter post, read the post file and write the text directly into the post's YAML front matter fields. Use the post that was provided in the context of the chat. Use the stylistic suggestions in other Claude skills and documentation.
 
+Do not enter plan mode. Do not run the Hugo server or any verification steps. Just read the post, generate the text, and write it into the front matter.
+
 If the `linkpost` field is present in the YAML header, always uses that as the "call to action" link at the end of a post.
 
 Generate all of the following at once:

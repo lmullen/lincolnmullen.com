@@ -55,6 +55,15 @@ These fields are used by templates. If present, validate them; if absent, do not
 - `newsletter`: If `true`, the post is styled as a newsletter entry (title displayed as "Working on It #<slug>: <title>").
 - `tags`: If present, must be a YAML list. Tags appear in OpenGraph meta tags and the JSON feed. No tag pages are generated.
 
+## Micro post front matter
+
+For micro posts (files in `content/micro/`), the required and optional front matter differs from blog posts. Apply these checks instead of the blog-specific required front matter checks above:
+
+- Required: `date` (ISO 8601 format with timezone offset)
+- Optional: `linkpost`, `via`, `image`, `description`, `social`
+- `image`: If the post body contains an `image` or `figure` shortcode, the `image` front matter field **must** be set to the same image path. This field enables OpenGraph image previews when the post is shared on social media. Flag as an **issue** (not a suggestion) if the body has an image but the front matter does not.
+- If present, `image` must be a path starting with `/images/micro/` and the corresponding file must exist in `assets/images/micro/`.
+
 ## Spelling and grammar
 
 - Check the post for spelling errors and obvious grammatical mistakes.

@@ -4,6 +4,7 @@ subtitle: "Stanford University Press, 2023"
 thumbnail: "apb-cover.jpg"
 homepage: true
 homepageOrder: 4
+homepageSize: large
 links:
   - url: https://americaspublicbible.org
     text: _America's Public Bible_ project website

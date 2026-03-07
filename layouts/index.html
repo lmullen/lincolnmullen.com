@@ -4,26 +4,34 @@
 
 {{ define "main" }}
 
-<div class="container-fluid">
-
-	<p class="lead">
-		{{ .Page.Params.Lede | markdownify }}
+<!-- Compact bio -->
+<section class="mb-4">
+	<h1 class="h2 mb-2">{{ .Site.Title }}</h1>
+	{{ .Content }}
+	<p>
+		<a href="/bio/">Biography</a> &middot;
+		<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">CV</a> &middot;
+		<a href="mailto:lincoln@lincolnmullen.com">Contact</a>
 	</p>
+</section>
 
-	<div class="d-none d-md-block">
-		{{ partial "homepage-sidebar.html" .}}
+<!-- Scholarship cards -->
+{{ partial "homepage-scholarship.html" . }}
+
+<!-- Recent writing + Newsletter -->
+<section class="row mt-4 g-4">
+	<div class="col-md-7">
+		<h2 class="homepage-header mb-3">Recent writing</h2>
+		{{ partial "homepage-recent.html" . }}
 	</div>
-
-	<div>
-		{{ .Content }}
+	<div class="col-md-5">
+		{{ partial "newsletter.html" (dict "tag" "homepage") }}
 	</div>
+</section>
 
-	{{ partial "homepage-gallery.html" . }}
-
-	<!-- Move the sidebar to the bottom on small screens -->
-	<div class="d-md-none">
-		{{ partial "homepage-sidebar.html" . }}
-	</div>
-</div>
+<!-- Footer links -->
+<section class="mt-5 pt-4 border-top">
+	{{ partial "homepage-footer-links.html" . }}
+</section>
 
 {{ end }}

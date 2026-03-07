@@ -1,0 +1,47 @@
+{{ $scholarship := where (where .Site.RegularPages "Type" "scholarship") "Params.homepage" "==" true }}
+{{ $large := sort (where $scholarship "Params.homepageSize" "large") "Params.homepageOrder" }}
+{{ $small := sort (where $scholarship "Params.homepageSize" "ne" "large") "Params.homepageOrder" }}
+
+<section class="my-4">
+	<!-- Large scholarship cards (books) -->
+	{{ if $large }}
+	<div class="row g-3 mb-3">
+		{{ range $large }}
+		<div class="col-md-6">
+			{{ $link := "" }}{{ with index .Params.Links 0 }}{{ $link = .url }}{{ end }}
+			<a href="{{ $link }}" class="card scholarship-card scholarship-card-lg h-100 text-decoration-none">
+				{{ $img := .Resources.Get .Params.thumbnail }}
+				{{ $thumb1x := $img.Resize "400x webp" }}
+				{{ $thumb2x := $img.Resize "800x webp" }}
+				<img class="card-img-top" src="{{ $thumb1x.Permalink }}" srcset="{{ $thumb1x.Permalink }} 1x, {{ $thumb2x.Permalink }} 2x" alt="Thumbnail for {{ .Title }}">
+				<div class="card-body">
+					<h3 class="card-title h5 mb-1">{{ .Title | markdownify }}</h3>
+					{{ if .Params.Subtitle }}<p class="card-text text-body-secondary small mb-0">{{ .Params.Subtitle }}</p>{{ end }}
+				</div>
+			</a>
+		</div>
+		{{ end }}
+	</div>
+	{{ end }}
+
+	<!-- Small scholarship cards (projects) -->
+	{{ if $small }}
+	<div class="row g-3">
+		{{ range $small }}
+		<div class="col-6 col-md-3">
+			{{ $link := "" }}{{ with index .Params.Links 0 }}{{ $link = .url }}{{ end }}
+			<a href="{{ $link }}" class="card scholarship-card scholarship-card-sm h-100 text-decoration-none">
+				{{ $img := .Resources.Get .Params.thumbnail }}
+				{{ $thumb1x := $img.Resize "250x webp" }}
+				{{ $thumb2x := $img.Resize "500x webp" }}
+				<img class="card-img-top" src="{{ $thumb1x.Permalink }}" srcset="{{ $thumb1x.Permalink }} 1x, {{ $thumb2x.Permalink }} 2x" alt="Thumbnail for {{ .Title }}">
+				<div class="card-body">
+					<h3 class="card-title h6 mb-1">{{ .Title | markdownify }}</h3>
+					{{ if .Params.Subtitle }}<p class="card-text text-body-secondary small mb-0">{{ .Params.Subtitle }}</p>{{ end }}
+				</div>
+			</a>
+		</div>
+		{{ end }}
+	</div>
+	{{ end }}
+</section>

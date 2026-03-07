@@ -4,6 +4,7 @@ subtitle: "Harvard University Press, 2017"
 thumbnail: "chance-of-salvation-cover.jpg"
 homepage: true
 homepageOrder: 5
+homepageSize: large
 links:
   - url: http://www.hup.harvard.edu/catalog.php?isbn=9780674975620
     text: Harvard University Press

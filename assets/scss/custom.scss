@@ -124,7 +124,9 @@ body {
 }
 
 .main-container {
-  max-width: 1000px;
+  max-width: 1200px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 footer.site-footer {
@@ -164,21 +166,53 @@ a {
   hyphens: none;
 }
 
-/* Base */
+/* Header and navigation */
 #site-header {
   margin-bottom: $gap * 2;
   border-bottom: 1px solid $border-color;
 }
 
 a.site-title {
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
-  font-size: $font-size-base;
-  color: var(--bs-body-color);
+  font-size: $font-size-base * 1.25;
+  color: $primary;
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.nav-link {
+a.site-title:hover {
+  border-bottom: none;
   color: $primary;
+}
+
+#site-header .nav {
+  padding-left: 0;
+}
+
+#site-header .nav li {
+  margin-right: 1.25rem;
+}
+
+#site-header .nav .nav-link {
+  color: $secondary;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  margin-bottom: -1px; // align with header border
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease-in-out;
+}
+
+#site-header .nav .nav-link:hover {
+  color: $secondary;
+  border-bottom-color: $secondary;
+}
+
+#site-header .nav .nav-link.active {
+  color: $secondary;
+  border-bottom-color: $secondary;
 }
 
 /* Figures */
@@ -202,8 +236,7 @@ img.list-icon {
   margin-top: -0.2rem;
 }
 
-#site-header a,
-#homepage-sidebar a {
+#site-header a {
   text-decoration: none;
 }
 
@@ -216,20 +249,41 @@ img.list-icon {
   font-size: var(--bs-body-font-size);
 }
 
-.border-none {
-  border-width: 0;
+/* Scholarship cards */
+.scholarship-card {
+  color: inherit;
+  transition: box-shadow 0.15s ease-in-out;
+  border-color: var(--bs-border-color);
 }
 
-.homepage-card .card-link {
-  font-weight: 500;
-  text-decoration: none;
+.scholarship-card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  color: inherit;
 }
 
-@media (min-width: 768px) {
-  .homepage-links {
-    width: 30%;
-    margin-left: 3rem;
-  }
+[data-bs-theme="dark"] .scholarship-card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.3);
+}
+
+.scholarship-card img {
+  object-fit: cover;
+}
+
+.scholarship-card-lg img {
+  height: 250px;
+}
+
+.scholarship-card-sm img {
+  height: 150px;
+}
+
+/* Recent writing list */
+.recent-writing-item {
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.recent-writing-item:last-child {
+  border-bottom: none;
 }
 
 /* Teaching */

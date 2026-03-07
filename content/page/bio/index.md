@@ -1,5 +1,6 @@
 ---
 title: "Biography"
+url: /bio/
 ---
 
 [Lincoln Mullen](https://lincolnmullen.com) is a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. He is the director of the [Roy Rosenzweig Center for History and New Media](https://rrchnm.org/), a research center which creates educational resources, data-driven histories, and other open-access digital work for public and scholarly audiences. At George Mason University, he is a [professor](https://historyarthistory.gmu.edu/people/lmullen) in the Department of History and Art History, where he teaches American religious history, the history of Christianity, the history of the nineteenth-century United States, and digital history.

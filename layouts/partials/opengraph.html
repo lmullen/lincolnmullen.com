@@ -29,11 +29,6 @@ Image resolution:
 
 {{- /* Determine canonical URL */ -}}
 {{- $url := .Permalink -}}
-{{- if .Params.External -}}
-  {{- $url = .Params.External.URL -}}
-{{- else if .Params.linkpost -}}
-  {{- $url = .Params.linkpost -}}
-{{- end -}}
 
 {{- /* Determine page type */ -}}
 {{- $type := "website" -}}

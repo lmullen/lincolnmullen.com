@@ -165,8 +165,16 @@ figcaption em {
   text-decoration: none;
 }
 
+.homepage-inline-links a {
+  margin-right: 1.25rem;
+}
+
+.homepage-inline-links .list-icon {
+  margin-left: 0.25rem;
+}
+
 .list-icon {
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
 }
 
 // This lines up SVGs brought in via an <img> tag with the Bootstrap

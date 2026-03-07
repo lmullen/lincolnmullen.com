@@ -1,12 +1,15 @@
 // Custom variables
-$lm-primary: rgb(195, 42, 38);
+$lm-primary: #2e3878; // Indigo
+$lm-secondary: #5a7030; // Olive
 $lm-gap: 1rem;
 
 // Colors
 $primary: $lm-primary;
-$body-color: #121213;
-$border-color: #bebebe;
-$text-muted: rgb(159, 161, 162);
+$secondary: $lm-secondary;
+$body-color: #262830;
+$border-color: #d0d2d8;
+$text-muted: rgba(38, 40, 48, 0.5);
+$headings-color: #181a24;
 
 // Fonts
 $font-family-sans-serif: "IBM Plex Sans", sans-serif;

@@ -7,6 +7,7 @@ tags:
 - American religious history
 - book reviews
 draft: false
+image: gloege.jpg
 ---
 
 {{< figure src="gloege.jpg" caption="Guaranteed Pure by Tim Gloege." >}}

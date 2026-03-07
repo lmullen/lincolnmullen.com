@@ -7,6 +7,7 @@ tags:
 - digital history
 - spatial humanities
 draft: false
+image: asch-screenshot.png
 ---
 
 At the 2015 annual meeting of the American Society of Church History I presented a paper on "[Mapping Boston's Religions: Next Steps in Mapping U.S. Religious History](https://projects.lincolnmullen.com/asch-2015/)." The link will take you to the text, slides, and interactive maps for the talk.

@@ -7,6 +7,7 @@ tags:
 - digital history
 - teaching
 draft: false
+image: practical-problems.png
 ---
 
 The [DC History Graduate Students organization](https://dchistorygrad.wordpress.com) has kindly invited [Mills Kelly](http://edwired.org/) and me to [join them for a discussion](https://dchistorygrad.wordpress.com/2015/03/09/stay-tuned-for-more-information/) on incorporating digital work into history courses.

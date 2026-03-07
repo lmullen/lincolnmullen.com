@@ -6,6 +6,7 @@ description: "History dissertation lengths vary significantly by university—lo
 tags:
 - digital history
 draft: false
+image: pages-american-university.png
 ---
 
 In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time.

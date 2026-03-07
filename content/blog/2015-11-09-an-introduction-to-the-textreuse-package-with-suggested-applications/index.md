@@ -8,6 +8,7 @@ tags:
 - R
 - text analysis
 draft: false
+image: CA1851.png
 ---
 
 A number of problems in digital history/humanities require one to calculate the similarity of documents or to identify how one text borrows from another. To give one example, the [Viral Texts](http://viraltexts.org/) project, by Ryan Cordell, David Smith, et al., has been very successful at identifying reprinted articles in American newspapers.[^1] [Kellen Funk](http://kellenfunk.org/) and I have been working on a text reuse problem in nineteenth-century legal history, [where we seek to track](http://lincolnmullen.com/blog/detecting-text-reuse-in-legal-documents/) how codes of civil procedure were [borrowed and modified](http://kellenfunk.org/field-code/) in jurisdictions across the United States.

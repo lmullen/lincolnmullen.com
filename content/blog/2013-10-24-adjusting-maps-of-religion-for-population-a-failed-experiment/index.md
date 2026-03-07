@@ -8,6 +8,7 @@ tags:
 - mapping
 - R
 draft: false
+image: 2013-10-24-churches-relative.png
 ---
 
 XKCD [points out a common problem](http://xkcd.com/1138/) in mapping data:

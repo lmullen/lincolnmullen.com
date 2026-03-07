@@ -6,6 +6,7 @@ description: "Bancroft's *History of the United States* used marginal dates and 
 tags:
 - historiography
 draft: false
+image: 2013-02-08-datecloseup.png
 ---
 
 In the evenings I'm reading through George Bancroft's classic nineteenth-century work, *The History of the United States from the Discovery of the American Continent*. Bancroft's narrative is strengthened by one of the features of the book's typography. Take a look at this page from [volume 1](http://books.google.com/books?id=4OypEm-7tCMC):

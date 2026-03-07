@@ -7,6 +7,7 @@ tags:
 - American religious history
 - book reviews
 draft: false
+image: baptist_distinctives.jpg
 ---
 
 I recently read Thomas Kidd and Barry Hankins's *Baptists in America: A History* (2015). I must have liked it, since my father, for many years a Baptist pastor, says that I've tried to send him copies more than once. This book deserves a proper review, perhaps paired with David Bebbington's *Baptists Through the Centuries: A History of a Global People* (2010). But for today I want to use the book to think through what a denominational history can accomplish. Here are a few thoughts about the particular set of things the book is able to accomplish because it is a denominational history.

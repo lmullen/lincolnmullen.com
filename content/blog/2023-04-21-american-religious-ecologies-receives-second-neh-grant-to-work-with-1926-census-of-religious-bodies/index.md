@@ -13,6 +13,7 @@ crosspost:
   url: "https://rrchnm.org/news/american-religious-ecologies-receives-second-neh-grant-to-work-with-1926-census-of-religious-bodies/"
   source: "RRCHNM"
 # linkpost: ""
+image: schedule.jpg
 ---
 
 We are grateful to acknowledge a second NEH grant in support of our [_American Religious Ecologies_](https://religiousecologies.org/) project. The National Endowment for the Humanities [announced this week](https://www.neh.gov/news/neh-announces-3563-million-258-humanities-projects-nationwide) that RRCHNM will receive a Humanities Collections and Reference Resources grant for $350,000 to continue our work with the 1926 Census of Religious Bodies for the next three years. This new grant follow on our previous award, also from the HCRR program in the NEH’s Division of Preservation and Access, which was received in 2019.

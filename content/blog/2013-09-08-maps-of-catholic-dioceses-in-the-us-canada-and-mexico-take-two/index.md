@@ -8,6 +8,7 @@ tags:
 - mapping
 - American religious history
 draft: false
+image: dioceses.animation.gif
 ---
 
 In an earlier post, I shared some maps of Catholic dioceses in the United States, Canada, and Mexico over time. My R-fu has since gotten stronger. In particular, I've learned [how to use shapefiles](/blog/shapefiles-of-historic-u-s-state-boundaries-for-use-in-r/). While the R packages `ggmaps` is good when one wants a physical or street map, it's not capable of displaying changes in political boundaries, and it forces you to use a square aspect ratio. In these updated maps of Catholic dioceses, I've used shapefiles of historic state boundaries from the [NHGIS](https://www.nhgis.org/) to give a better view of where new dioceses fit into the United States. I've also animated the maps rather than display them separately. The [data](https://github.com/lmullen/demographics-religion/blob/master/data/clean/catholic.dioceses.geocoded.csv) along with the [R code](https://github.com/lmullen/demographics-religion/blob/master/catholic.dioceses.r) for making the maps is available on GitHub.

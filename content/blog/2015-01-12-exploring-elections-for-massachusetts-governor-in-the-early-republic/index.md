@@ -7,6 +7,7 @@ tags:
 - digital history
 - data visualization
 draft: false
+image: ma-gov.png
 ---
 
 The [New Nation Votes](http://elections.lib.tufts.edu/) database (NNV) offers election returns from the early American republic collected by Philip Lampi and digitized by Tufts University and the American Antiquarian Society. Several scholars writing in a 2013 issue of the *Journal of the Early Republic* have tackled questions such as voter turnout and measures of party competitiveness (Brooke), the resurgence of the Federalists after 1808 (Lampi), the expansion of the franchise (Ratcliffe), and families and the turnover of congressmen (Zagarri). My aim is much more preliminary: to see what kind of analysis, in particular mapping, might be done with the dataset.[^1] I have wanted to explore this dataset for some time, so here is a preliminary investigation into the Massachusetts gubernatorial elections up to 1824.

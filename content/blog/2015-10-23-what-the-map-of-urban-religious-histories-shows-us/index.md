@@ -8,6 +8,7 @@ tags:
 - digital history
 - mapping
 draft: false
+image: urban-religion.png
 ---
 
 Earlier today [Paul Putz](http://www.paulemoryputz.com/) wrote a post about an interactive bibliography that he and I created of books that study American religion in the context of cities. Paul explained our motivation for the project and how we created it. I'd like to offer a few observations about what I think we can learn from [the map](http://apps.lincolnmullen.com/urban-religious-history/).

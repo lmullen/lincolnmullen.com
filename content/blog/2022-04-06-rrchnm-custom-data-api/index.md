@@ -11,6 +11,7 @@ draft: false
 crosspost: 
   url: "https://rrchnm.org/news/rrchnms-custom-api-for-data-driven-projects/"
   source: "RRCHNM's blog"
+image: database.png
 ---
 
 RRCHNM is a shop that is more and more working on computational history

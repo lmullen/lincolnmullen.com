@@ -6,6 +6,7 @@ description: "A Vim workflow for keeping up writing momentum: insert standard pl
 tags:
 - Vim
 draft: false
+image: 2012-12-08-marker.png
 ---
 
 In his famous [essay](http://www.wiu.edu/cas/history/pdf/HistoryasaLiteraryArt.pdf) on "History as a Literary Art," Samuel Eliot Morrison advises, "When you once are writing, go on writing as long as you can; there will be plenty of time later to shove in the footnotes or return to the library for extra information," and, "Don't stop to consult your notes for every clause or sentence: it is better to get what you have to say clearly in your mind and dash it off; then, after you have it down, return to your notes and compose your next few pages or paragraphs."

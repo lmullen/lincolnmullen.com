@@ -10,6 +10,7 @@ tags:
 - American religious history
 - data
 draft: false
+image: 1926-census-form.png
 ---
 
 In my [last post](http://usreligion.blogspot.com/2016/01/Where-the-Problem-with-Historical-Data-about-U-S-Religion-Really-Lies.html) I explained that historians of U.S. religion have barely begun to scratch the surface of the data (meaning, sources that are amenable to computation) that are available to them. To demonstrate this I gave the example of a single source, the *Minutes of the Annual Conferences of the Methodist Episcopal Church*.

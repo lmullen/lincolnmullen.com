@@ -6,6 +6,7 @@ description: "The final manuscript of *The Chance of Salvation: A History of Con
 tags:
 - publication
 - American religion
+image: brainerd-mission-station.jpg
 ---
 
 Imagine a photograph of a pile of pages, perhaps with a few glossy image reproductions and a cover letter, and a USPS envelope. Perhaps a few years ago I might have been able to take such a picture for this post. But without having to pay for postage, I've delivered the final revisions of my book manuscript to my editor before the end of December as agreed. *The Chance of Salvation: A History of Conversion in America* will be published by Harvard University Press in fall 2017. While there is still copyediting, proofreading, indexing and so on to be done, the book definitely feels like it is in the hands of the press and not my hands now.

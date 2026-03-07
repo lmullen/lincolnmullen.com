@@ -6,6 +6,7 @@ description: "Using SSA names data to infer the gender of history dissertation a
 tags:
 - digital history
 draft: false
+image: dissertations-by-gender-proportion.png
 ---
 
 **Update February 24, 2014 at 1:50 p.m.:** *I improved the regular expression that parses out first names, so the charts and table have been updated with fewer unknowns.*

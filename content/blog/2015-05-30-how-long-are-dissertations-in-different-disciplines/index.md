@@ -7,6 +7,7 @@ tags:
 - digital history
 - data analysis
 draft: false
+image: diss-length.png
 ---
 
 About a year ago when I was finishing my dissertation I got intensely interested in seeing what I could figure out about history dissertations from data. I'll let you draw your own conclusions as to why that seemed more urgent than writing my own dissertation. I wrote a series of posts on the topic using a dataset of historical history dissertations from ProQuest. But ProQuest also gave me a dataset of contemporary dissertations from all fields that I have not yet done anything with.

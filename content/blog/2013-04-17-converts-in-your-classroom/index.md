@@ -7,6 +7,7 @@ tags:
 - teaching
 - American religious history
 draft: false
+image: 2013-04-17.perry-headline.png
 ---
 
 If you're writing a syllabus for an American history or religion course and want to include a digital assignment, then I have a proposal for you. Why not give your students an assignment to contribute to the [American Converts Database](http://americanconverts.org)?

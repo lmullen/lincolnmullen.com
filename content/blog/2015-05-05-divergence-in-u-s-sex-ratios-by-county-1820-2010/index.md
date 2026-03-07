@@ -8,6 +8,7 @@ tags:
 - mapping
 - data visualization
 draft: false
+image: visualization-screenshot.png
 ---
 
 At a THATCamp New England last spring I re-purposed some earlier code to create a map of sex ratios by county from U.S. Census data. As far as I can remember, though, I never actually made the map public or wrote about it beyond showing it to a few people. I don't intend to do anything more with this data, so here is the interactive map on [Divergence in U.S. Sex Ratios by County, 1820--2010](https://projects.lincolnmullen.com/sex-ratios/).

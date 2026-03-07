@@ -8,6 +8,7 @@ tags:
 - text analysis
 - legal history
 draft: false
+image: ca1851-density.jpg
 ---
 
 {{< figure src="ddfield.jpg" caption="David Dudley Field, leading member of the New York commission that drafted the Field Code of 1850. Image from the New York Public Library." >}}

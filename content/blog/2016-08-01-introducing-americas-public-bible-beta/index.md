@@ -8,6 +8,7 @@ tags:
 - American religious history
 - America's Public Bible
 draft: false
+image: good-samaritan.png
 ---
 
 It's the start of August, and I don't want to presume on the good graces of this blog's readers. So in the spirit of late summer, I'm finally getting around to briefly describing of one of my summer projects in the hope that you find it fun, leaving a fuller accounting of the why and wherefore of the project for another time.

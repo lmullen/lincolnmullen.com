@@ -7,6 +7,7 @@ tags:
 - data visualization
 - American religious history
 draft: false
+image: evangelistic.png
 ---
 
 The title *[Presbyterian Statistics through One Hundred Years, 1826--1926: Tabulated, Visualized, and Interpreted](http://catalog.hathitrust.org/Record/007109885)* sounds like contemporary digital history project. Click the link, and if you're an optimist about digital methods you might expect a revolutionary new methodology for doing history that overturns old models; if you are a pessimist you might expect to find some "Big Data" hubris. But what you'll find is a book from 1927, compiled the Presbyterian minister and employee of the General Council of the Presbyterian Church U.S.A., Herman Carl Weber.[^1] Weber compiled the data at the behest of the PCUSA, laboriously compiling the statistics because the General Council wanted to know what insights could be gathered from its record.

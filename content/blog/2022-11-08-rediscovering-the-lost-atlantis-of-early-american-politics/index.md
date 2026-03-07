@@ -12,6 +12,7 @@ crosspost:
   url: "https://rrchnm.org/news/how-philip-lampi-recovered-the-lost-history-of-early-american-elections/"
   source: "RRCHNM"
 # linkpost: ""
+image: meae.png
 ---
 
 As Americans go to the polls to vote in today's midterm Congressional elections, they will be able to watch results flow practically in real time. By the end of the day, the data for the election returns will be more or less available. For much of United States history, of course, information flowed more slowly. But even still, we can take it for granted that there are regular records of elections, and that it is straightforward to find out who won.

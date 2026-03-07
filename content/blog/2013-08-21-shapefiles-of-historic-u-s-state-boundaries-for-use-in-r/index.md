@@ -8,6 +8,7 @@ tags:
 - mapping
 - R
 draft: false
+image: demo.state-boundaries.png
 ---
 
 In the past few months I've picked up [the R language](http://www.r-project.org/) for digital analysis of historical sources. It's one of the most powerful digital humanities tools that I've learned, because it's useful for so many tasks, especially quantitative analysis and mapping.

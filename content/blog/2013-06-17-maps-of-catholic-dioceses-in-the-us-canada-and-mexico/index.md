@@ -8,6 +8,7 @@ tags:
 - Catholicism
 - mapping
 draft: false
+image: map.catholic.dioceses.1790.png
 ---
 
 **Update:** I've made better maps of these dioceses in [this post](/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/).

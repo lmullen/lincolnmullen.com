@@ -6,6 +6,7 @@ description: "Opening a series using a ProQuest dump of 84,000 history dissertat
 tags:
 - digital history
 draft: false
+image: 2014-02-07-number-dissertations.png
 ---
 
 Some scholars whose work I admire have done some useful data analysis about dissertations. Michael Beck [wrote a post](http://beckmw.wordpress.com/2013/04/15/how-long-is-the-average-dissertation/) where he scraped dissertation data from the University of Minnesota since 2007, and found that history dissertations are the longest. Ben Schmidt [asked how the length of history dissertations](http://rpubs.com/benmschmidt/princetonhistorydiss) at Princeton has varied since 1988, and some other interesting questions about the age of the author. Ben went on to ask "[What years do historians write about?](http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html)" using the "all dissertation titles in history the American Historical Association knows about from the last 120 years." It's a great post: go [read it](http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html).

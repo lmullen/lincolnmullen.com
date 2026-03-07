@@ -7,6 +7,7 @@ tags:
 - digital history
 - legal history
 draft: false
+image: field-code-states-map.jpeg
 ---
 
 [Kellen Funk](http://kellenfunk.org) and I are working on detecting how a New York legal code of civil procedure spread to most other jurisdictions in the United States. That Field Code and the other codes derived from it are the basis of modern American legal practice, so tracking the network and content of the borrowings reveals the structure of a significant part of American legal history.

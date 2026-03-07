@@ -18,6 +18,7 @@ social:
 #   url: ""
 #   source: ""
 # linkpost: ""
+image: chr-cover.png
 ---
 
 [_Computational Humanities Research_](https://www.cambridge.org/core/journals/computational-humanities-research) is a new journal, edited by Lauren Tilton and Kristoffer Nielbo. From its description at Cambridge University Press:

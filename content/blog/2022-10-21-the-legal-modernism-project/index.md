@@ -10,6 +10,7 @@ tags:
 #   url: ""
 #   source: ""
 # linkpost: ""
+image: legal-modernism-screenshot.png
 ---
 
 Sometime ago [Kellen Funk](https://kellenfunk.org/) and I used computational analysis to study how the Field Code created the category of civil procedure in American law, and how that New York code spread across jurisdictions in the nineteenth-century United States. We published [an article](https://doi.org/10.1093/ahr/123.1.132) about those specific findings, and have given various talks, shared code, published datasets, and the like.

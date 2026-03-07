@@ -10,6 +10,7 @@ draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2013/06/where-are-histories-of-american.html"
   source: "Religion in American History"
+image: 2013-06-01-owen-campbell-debate.png
 ---
 
 {{< figure src="2013-06-01-owen-campbell-debate.png" >}}

@@ -1,32 +1,9 @@
 {{- /*
 OpenGraph and Twitter/X Card meta tags
 
-This partial generates social media preview tags for sharing pages on
-Facebook, LinkedIn, BlueSky, Mastodon, Slack, Discord, and other platforms.
-
-Features:
-- Automatic title, description, and URL generation
-- Article-specific metadata for blog posts, micro posts, and newsletter issues
-- Optimized image processing (resizes to 1200x630 for optimal social sharing)
-- Support for custom images via front matter
-- Automatic first-image detection from page bundles (Hugo convention)
-- Twitter/X Card meta tags (summary_large_image)
-
-Image resolution order:
-1. image: front matter field → try as page bundle resource
-2. image: front matter field → try as global asset (e.g. /images/micro/...)
-3. image: front matter field → fall back to absURL for static files
-4. No image: field → search page bundle for *feature*, *cover*, *thumbnail*
-5. No image: field → first image resource in page bundle
-6. Default: assets/img/social-media.jpeg
-
-To override the image for a specific page, add to front matter:
-  image: "featured-image.jpg"  # For page bundle resources
-  image: "/images/micro/photo.jpg"  # For global assets (set automatically by new-micro.sh)
-  image: "/img/custom.jpg"     # For static files
-
-For posts with multiple bundle images, name one image with "feature",
-"cover", or "thumbnail" in the filename to select it for social sharing.
+Image resolution:
+1. image: front matter field → try as page bundle resource, then as global asset
+2. Default: assets/img/social-media.jpeg
 */ -}}
 
 {{- /* Determine page title */ -}}
@@ -52,11 +29,6 @@ For posts with multiple bundle images, name one image with "feature",
 
 {{- /* Determine canonical URL */ -}}
 {{- $url := .Permalink -}}
-{{- if .Params.External -}}
-  {{- $url = .Params.External.URL -}}
-{{- else if .Params.linkpost -}}
-  {{- $url = .Params.linkpost -}}
-{{- end -}}
 
 {{- /* Determine page type */ -}}
 {{- $type := "website" -}}
@@ -73,50 +45,21 @@ For posts with multiple bundle images, name one image with "feature",
 {{- /* Determine image */ -}}
 {{- $image := "" -}}
 {{- if .Params.image -}}
-  {{- /* Use custom image from front matter */ -}}
   {{- with .Resources.GetMatch .Params.image -}}
-    {{- /* It's a page bundle resource — resize for social sharing */ -}}
     {{- $resized := .Fit "1200x630" -}}
     {{- $image = $resized.Permalink -}}
   {{- else -}}
-    {{- /* Try as a global asset (e.g. /images/micro/filename.jpg) */ -}}
     {{- $globalPath := strings.TrimPrefix "/" $.Params.image -}}
     {{- with resources.Get $globalPath -}}
       {{- $resized := .Fit "1200x630" -}}
       {{- $image = $resized.Permalink -}}
-    {{- else -}}
-      {{- /* Fall back to absURL for files in /static */ -}}
-      {{- $image = $.Params.image | absURL -}}
     {{- end -}}
   {{- end -}}
-{{- else -}}
-  {{- /* No explicit image — use Hugo convention: feature/cover/thumbnail first */ -}}
-  {{- $conventionNames := slice "feature" "cover" "thumbnail" -}}
-  {{- range $conventionNames -}}
-    {{- if not $image -}}
-      {{- with $.Resources.GetMatch (printf "*%s*" .) -}}
-        {{- if ne .MediaType.SubType "svg" -}}
-          {{- $resized := .Fit "1200x630" -}}
-          {{- $image = $resized.Permalink -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- /* Fall back to first raster image resource in the page bundle */ -}}
-  {{- if not $image -}}
-    {{- range .Resources.ByType "image" -}}
-      {{- if and (not $image) (ne .MediaType.SubType "svg") -}}
-        {{- $resized := .Fit "1200x630" -}}
-        {{- $image = $resized.Permalink -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- /* Final fallback: default social media image */ -}}
-  {{- if not $image -}}
-    {{- with resources.Get "img/social-media.jpeg" -}}
-      {{- $resized := .Fit "1200x630" -}}
-      {{- $image = $resized.Permalink -}}
-    {{- end -}}
+{{- end -}}
+{{- if not $image -}}
+  {{- with resources.Get "img/social-media.jpeg" -}}
+    {{- $resized := .Fit "1200x630" -}}
+    {{- $image = $resized.Permalink -}}
   {{- end -}}
 {{- end -}}
 

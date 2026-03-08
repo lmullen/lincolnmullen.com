@@ -13,7 +13,7 @@
 				{{ $img := .Resources.Get (index .Params "homepage-thumbnail") }}
 				{{ $thumb1x := $img.Resize "400x webp" }}
 				{{ $thumb2x := $img.Resize "800x webp" }}
-				<img class="card-img-top" src="{{ $thumb1x.Permalink }}" srcset="{{ $thumb1x.Permalink }} 1x, {{ $thumb2x.Permalink }} 2x" alt="Thumbnail for {{ .Title }}">
+				<img class="card-img-top" src="{{ $thumb1x.RelPermalink }}" srcset="{{ $thumb1x.RelPermalink }} 1x, {{ $thumb2x.RelPermalink }} 2x" alt="Thumbnail for {{ .Title }}">
 				<div class="card-body">
 					<h3 class="card-title h6 mb-1">{{ .Title | markdownify }}</h3>
 					{{ if .Params.Subtitle }}<p class="card-text text-body-secondary small mb-0">{{ .Params.Subtitle }}</p>{{ end }}

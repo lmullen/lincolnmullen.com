@@ -6,12 +6,12 @@
 	{{ $regular := $raw.Resize "702x webp"}}
 	{{ $retina := $raw.Resize "1404x webp"}}
 	{{ $link := .Get "link" }}
-	<a href="{{ $link | default $raw.Permalink }}">
-		<img class="img-fluid" src='{{ $regular.Permalink }}' srcset="{{ $regular.Permalink }}, {{ $retina.Permalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}'>
+	<a href="{{ $link | default $raw.RelPermalink }}">
+		<img class="img-fluid" src='{{ $regular.RelPermalink }}' srcset="{{ $regular.RelPermalink }}, {{ $retina.RelPermalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}'>
 	</a>
 	{{ else }}
 	<!-- Don't process GIFs or SVGs -->
-	<img class="img-fluid" src='{{ $raw.Permalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
+	<img class="img-fluid" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
 	{{ end }}
 	<figcaption class="ms-5">
 		<p>

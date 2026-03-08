@@ -1,3 +1,57 @@
+/* Navy & Orange — Light Mode */
+:root,
+[data-bs-theme="light"] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #2a2e36;
+  --bs-primary: #2c4a7c;
+  --bs-secondary: #c06a20;
+  --bs-success: #3a7a5c;
+  --bs-warning: #c06a20;
+  --bs-danger: #a83838;
+  --bs-info: #2c4a7c;
+  --bs-link-color: #3568b2;
+  --bs-link-hover-color: #2c4a7c;
+  --bs-border-color: #d4d6dc;
+  --bs-card-bg: #f3f4f6;
+  --bs-code-color: #c06a20;
+  --bs-muted: #6a6e76;
+  --bs-heading-color: #1a1e26;
+  --bs-accent: #c06a20;
+}
+
+/* Navy & Orange — Dark Mode */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #2c3038;
+  --bs-body-color: #e8eaee;
+  --bs-emphasis-color: #f8f9fa;
+  --bs-emphasis-color-rgb: 248, 249, 250;
+  --bs-primary: #b8d4f8;
+  --bs-secondary: #f0a860;
+  --bs-success: #7acc9a;
+  --bs-warning: #f0a860;
+  --bs-danger: #e08080;
+  --bs-info: #b8d4f8;
+  --bs-link-color: #b8d4f8;
+  --bs-link-color-rgb: 184, 212, 248;
+  --bs-link-hover-color: #d0e4ff;
+  --bs-link-hover-color-rgb: 208, 228, 255;
+  --bs-border-color: #545b66;
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
+  --bs-card-bg: #363b44;
+  --bs-code-color: #f0a860;
+  --bs-muted: #b8bcc4;
+  --bs-heading-color: #f8f9fa;
+  --bs-accent: #f0a860;
+  --bs-secondary-color: rgba(232, 234, 238, 0.75);
+  --bs-secondary-color-rgb: 232, 234, 238;
+  --bs-secondary-bg: #3e444e;
+  --bs-secondary-bg-rgb: 62, 68, 78;
+  --bs-tertiary-color: rgba(232, 234, 238, 0.5);
+  --bs-tertiary-color-rgb: 232, 234, 238;
+  --bs-tertiary-bg: #363b44;
+  --bs-tertiary-bg-rgb: 54, 59, 68;
+}
+
 /* Body styles */
 body {
   margin-top: 2rem;
@@ -5,15 +59,21 @@ body {
 }
 
 .main-container {
-  max-width: 1000px;
+  max-width: 1200px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 footer.site-footer {
   font-size: 0.9rem;
-  border-top: 1px solid $border-color;
-  margin-top: $lm-gap * 2;
-  padding-top: $lm-gap * 2;
-  margin-bottom: $lm-gap * 4;
+  border-top: 1px solid var(--bs-border-color);
+  margin-top: $gap * 2;
+  padding-top: $gap * 2;
+  margin-bottom: $gap * 4;
+
+  p {
+    margin-bottom: 0.25rem;
+  }
 }
 
 /* Typography */
@@ -45,21 +105,53 @@ a {
   hyphens: none;
 }
 
-/* Base */
+/* Header and navigation */
 #site-header {
-  margin-bottom: $lm-gap * 2;
-  border-bottom: 1px solid $border-color;
+  margin-bottom: $gap * 2;
+  border-bottom: 1px solid var(--bs-border-color);
 }
 
 a.site-title {
   font-weight: 500;
   text-decoration: none;
-  font-size: $font-size-base;
-  color: $body-color;
+  font-size: $font-size-base * 1.25;
+  color: var(--bs-primary);
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.nav-link {
-  color: $primary;
+a.site-title:hover {
+  border-bottom: none;
+  color: var(--bs-primary);
+}
+
+#site-header .nav {
+  padding-left: 0;
+}
+
+#site-header .nav li {
+  margin-right: 1.25rem;
+}
+
+#site-header .nav .nav-link {
+  color: var(--bs-secondary);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.25rem 0;
+  margin-bottom: -1px; // align with header border
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease-in-out;
+}
+
+#site-header .nav .nav-link:hover {
+  color: var(--bs-secondary);
+  border-bottom-color: var(--bs-secondary);
+}
+
+#site-header .nav .nav-link.active {
+  color: var(--bs-secondary);
+  border-bottom-color: var(--bs-secondary);
 }
 
 /* Figures */
@@ -73,8 +165,29 @@ figcaption em {
 }
 
 /* Homepage */
+.homepage-bio p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.homepage-list a {
+  text-decoration: none;
+}
+
+.homepage-list a:hover {
+  text-decoration: underline;
+}
+
+.homepage-inline-links a {
+  margin-right: 1.25rem;
+}
+
+.homepage-inline-links .list-icon {
+  margin-left: 0.25rem;
+}
+
 .list-icon {
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
 }
 
 // This lines up SVGs brought in via an <img> tag with the Bootstrap
@@ -83,8 +196,7 @@ img.list-icon {
   margin-top: -0.2rem;
 }
 
-#site-header a,
-#homepage-sidebar a {
+#site-header a {
   text-decoration: none;
 }
 
@@ -97,20 +209,80 @@ img.list-icon {
   font-size: var(--bs-body-font-size);
 }
 
-.border-none {
-  border-width: 0;
+/* Inline newsletter form */
+.newsletter-inline {
+  background: linear-gradient(135deg, var(--bs-accent), #e89040);
+  color: #fff;
 }
 
-.homepage-card .card-link {
-  font-weight: 500;
-  text-decoration: none;
+.newsletter-inline-btn {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
 }
 
-@media (min-width: 768px) {
-  .homepage-links {
-    width: 30%;
-    margin-left: 3rem;
-  }
+.newsletter-inline-btn:hover {
+  background-color: var(--bs-link-hover-color);
+  border-color: var(--bs-link-hover-color);
+  color: #fff;
+}
+
+/* Scholarship cards */
+.scholarship-card {
+  color: inherit;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.scholarship-card .card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.scholarship-card:hover {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+  color: inherit;
+}
+
+.scholarship-card:hover .card-img-top {
+  transform: scale(1.03);
+}
+
+.scholarship-card .card-body {
+  border-top: 3px solid var(--bs-accent);
+}
+
+[data-bs-theme="dark"] .scholarship-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+[data-bs-theme="dark"] .scholarship-card:hover {
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+}
+
+.scholarship-card-sm img {
+  object-fit: cover;
+  height: 150px;
+}
+
+.book-cover-img {
+  width: 50%;
+}
+
+.scholarship-quote {
+  margin-left: 0;
+  line-height: 1.4;
+}
+
+/* Recent writing list */
+.recent-writing-item {
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.recent-writing-item:last-child {
+  border-bottom: none;
 }
 
 /* Teaching */
@@ -144,7 +316,7 @@ img.list-icon {
     border-left: none !important;
     padding: 1rem !important;
     margin: 0 0 2rem 0 !important;
-    background-color: $gray-100;
+    background-color: var(--bs-tertiary-bg);
     top: 0;
   }
 }
@@ -168,7 +340,7 @@ a.link-post-date:hover {
 }
 
 .feed-icon {
-  color: $primary;
+  color: var(--bs-primary);
 }
 
 a.permalink,
@@ -279,7 +451,7 @@ figcaption p:before {
 .post-body hr {
   border: none;
   margin: 2rem 0;
-  color: black;
+  color: var(--bs-body-color);
   opacity: 0.8;
 }
 

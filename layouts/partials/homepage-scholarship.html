@@ -1,0 +1,25 @@
+{{ $scholarship := sort (where (where .Site.RegularPages "Type" "scholarship") "Params.homepage" "==" true) "Params.homepageOrder" }}
+
+<section class="my-4 py-4 border-top border-bottom border-opacity-25">
+	<div class="d-flex align-items-baseline mb-3">
+		<h2 class="h3 mb-0 me-3">Scholarship</h2>
+		<a href="/scholarship/">More publications and projects <i class="bi bi-arrow-right"></i></a>
+	</div>
+	<div class="row g-4" data-masonry='{"percentPosition": true}'>
+		{{ range $scholarship }}
+		<div class="col-sm-6 col-md-4">
+			{{ $link := "" }}{{ with index .Params.Links 0 }}{{ $link = .url }}{{ end }}
+			<a href="{{ $link }}" class="card scholarship-card h-100 text-decoration-none">
+				{{ $img := .Resources.Get (index .Params "homepage-thumbnail") }}
+				{{ $thumb1x := $img.Resize "400x webp" }}
+				{{ $thumb2x := $img.Resize "800x webp" }}
+				<img class="card-img-top" src="{{ $thumb1x.RelPermalink }}" srcset="{{ $thumb1x.RelPermalink }} 1x, {{ $thumb2x.RelPermalink }} 2x" alt="Thumbnail for {{ .Title }}">
+				<div class="card-body">
+					<h3 class="card-title h6 mb-1">{{ .Title | markdownify }}</h3>
+					{{ if .Params.Subtitle }}<p class="card-text text-body-secondary small mb-0">{{ .Params.Subtitle }}</p>{{ end }}
+				</div>
+			</a>
+		</div>
+		{{ end }}
+	</div>
+</section>

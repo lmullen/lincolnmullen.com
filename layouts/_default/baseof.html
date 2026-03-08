@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-bs-theme="light">
 
 <head>
+	<script>
+		(function () {
+			var mq = window.matchMedia('(prefers-color-scheme: dark)');
+			function apply(dark) {
+				document.documentElement.setAttribute('data-bs-theme', dark ? 'dark' : 'light');
+			}
+			apply(mq.matches);
+			mq.addEventListener('change', function (e) { apply(e.matches); });
+		})();
+	</script>
 	{{ block "title" . }}
 	<title>{{ .Title }} | {{ .Site.Title }}</title>
 	{{ end }}
@@ -30,7 +40,7 @@
 
 	{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
 	{{ $style := resources.Get "scss/main.scss" | toCSS  $options | resources.Minify | resources.Fingerprint "md5" }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 	<!-- shortcut icons -->
 	<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
@@ -68,29 +78,26 @@
 	<div class="container main-container">
 
 		<header id="site-header" class="d-print-none">
-			<ul class="nav flex-column flex-sm-row mb-3">
-				<li>
-					<a href="/" class="pt-0 pb-1 nav-link site-title">{{ .Site.Title }}</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/">About</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">CV</a>
-				</li>
-				<!-- <li> -->
-				<!-- <a class="pt-0 pb-1 nav-link" href="/scholarship/">Scholarship</a> -->
-				<!-- </li> -->
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/courses/">Teaching</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/blog/">Blog</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/newsletter/">Newsletter</a>
-				</li>
-			</ul>
+			<nav class="d-flex flex-column flex-sm-row align-items-sm-center mb-3">
+				<a href="/" class="nav-link site-title me-auto">{{ .Site.Title }}</a>
+				<ul class="nav">
+					<li>
+						<a class="nav-link{{ if .IsHome }} active{{ end }}" href="/">About</a>
+					</li>
+					<li>
+						<a class="nav-link{{ if hasPrefix .RelPermalink "/scholarship/" }} active{{ end }}" href="/scholarship/">Scholarship</a>
+					</li>
+					<li>
+						<a class="nav-link{{ if hasPrefix .RelPermalink "/courses/" }} active{{ end }}" href="/courses/">Teaching</a>
+					</li>
+					<li>
+						<a class="nav-link{{ if or (hasPrefix .RelPermalink "/blog/") (hasPrefix .RelPermalink "/micro/") }} active{{ end }}" href="/blog/">Blog</a>
+					</li>
+					<li>
+						<a class="nav-link{{ if hasPrefix .RelPermalink "/newsletter/" }} active{{ end }}" href="/newsletter/">Newsletter</a>
+					</li>
+				</ul>
+			</nav>
 		</header>
 
 		{{ end }}
@@ -102,19 +109,7 @@
 		</main>
 
 		{{ block "footer" . }}
-
-		<footer class="site-footer d-print-none">
-			<div class="h-card">
-				<p>
-					This website is created in <a href="https://en.wikipedia.org/wiki/Annandale,_Virginia"><span class="p-adr h-adr"><span class="p-locality">Annandale</span>, <span class="p-region">Virginia</span></span></a>. Made with <a href="https://gohugo.io/">Hugo</a> (<a href="https://github.com/lmullen/lincolnmullen.com">source code</a>). Here are some <a href="/page/cool-things/">cool things</a>.
-				</p>
-				<p class="d-none">
-					Created by <a href="https://lincolnmullen.com" rel="me" class="u-url u-uid p-name"><span class="p-given-name">Lincoln</span> <span class="p-family-name">Mullen</span></a> &lt;<span class="u-email">lincoln@lincolnmullen.com</span>&gt;. <a class="u-photo" href='https://files.lincolnmullen.com/photos/lincoln-mullen-photo.jpeg'>Photo</a>.
-				</p>
-				<p class="d-none p-note">Lincoln Mullen is a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. He is the executive director of the <a class="p-org u-url h-card" href="https://rrchnm.org">Roy Rosenzweig Center for History and New Media</a> and an associate professor in the <a class="p-org u-url h-card" href="https://historyarthistory.gmu.edu/people/lmullen">Department of History and Art History at George Mason University</a>.</p>
-
-			</div>
-		</footer>
+		{{ partial "footer.html" . }}
 		{{ end }}
 	</div>
 

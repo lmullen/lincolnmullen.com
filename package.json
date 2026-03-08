@@ -12,7 +12,7 @@
   },
   "author": "Lincoln Mullen",
   "dependencies": {
-    "bootstrap": "^5.2.1",
+    "bootstrap": "^5.3.3",
     "wrangler": "^4.63.0"
   }
 }

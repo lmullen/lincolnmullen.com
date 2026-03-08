@@ -1,0 +1,27 @@
+{{ $posts := first 5 (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) }}
+
+<ul class="list-unstyled mb-3">
+	{{ range $posts }}
+	<li class="recent-writing-item d-flex align-items-start py-2">
+		<span class="me-2 text-body-secondary">
+			{{ if eq .Section "micro" }}<i class="bi bi-chat-text" aria-label="Micro post"></i>
+			{{ else if eq .Section "newsletter" }}<i class="bi bi-envelope" aria-label="Newsletter"></i>
+			{{ else }}<i class="bi bi-pencil" aria-label="Blog post"></i>
+			{{ end }}
+		</span>
+		<div class="flex-grow-1">
+			{{ if eq .Section "micro" }}
+			<a href="{{ .Permalink }}">{{ .Content | plainify | truncate 80 }}</a>
+			{{ else if eq .Section "newsletter" }}
+			<a href="{{ .Permalink }}">Working on It #{{ .Slug }}: {{ .Title | markdownify }}</a>
+			{{ else }}
+			<a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+			{{ end }}
+			<br>
+			<small class="text-body-secondary">{{ .Date.Format "January 2, 2006" }}</small>
+		</div>
+	</li>
+	{{ end }}
+</ul>
+
+<a href="/blog/">All posts <i class="bi bi-arrow-right"></i></a>

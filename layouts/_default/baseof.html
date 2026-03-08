@@ -85,6 +85,9 @@
 						<a class="nav-link{{ if .IsHome }} active{{ end }}" href="/">About</a>
 					</li>
 					<li>
+						<a class="nav-link{{ if hasPrefix .RelPermalink "/scholarship/" }} active{{ end }}" href="/scholarship/">Scholarship</a>
+					</li>
+					<li>
 						<a class="nav-link{{ if hasPrefix .RelPermalink "/courses/" }} active{{ end }}" href="/courses/">Teaching</a>
 					</li>
 					<li>

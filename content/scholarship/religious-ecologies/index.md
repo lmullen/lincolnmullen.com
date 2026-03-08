@@ -1,7 +1,8 @@
 ---
 title: "American Religious Ecologies"
-subtitle: "Datasets and visualizations for American religious history"
+subtitle: "Data and visualizations for American religious history"
 thumbnail: "schedule.jpg"
+homepage-thumbnail: "homepage-thumbnail.jpg"
 homepage: true
 homepageOrder: 2
 links:

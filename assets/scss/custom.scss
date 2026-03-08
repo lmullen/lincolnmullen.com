@@ -230,29 +230,50 @@ img.list-icon {
 /* Scholarship cards */
 .scholarship-card {
   color: inherit;
-  transition: box-shadow 0.15s ease-in-out;
-  border-color: var(--bs-border-color);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.scholarship-card .card-img-top {
+  transition: transform 0.3s ease-in-out;
 }
 
 .scholarship-card:hover {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
   color: inherit;
 }
 
+.scholarship-card:hover .card-img-top {
+  transform: scale(1.03);
+}
+
+.scholarship-card .card-body {
+  border-top: 3px solid var(--bs-accent);
+}
+
+[data-bs-theme="dark"] .scholarship-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
 [data-bs-theme="dark"] .scholarship-card:hover {
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.3);
-}
-
-.scholarship-card img {
-  object-fit: cover;
-}
-
-.scholarship-card-lg img {
-  height: 250px;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
 }
 
 .scholarship-card-sm img {
+  object-fit: cover;
   height: 150px;
+}
+
+.book-cover-img {
+  width: 50%;
+}
+
+.scholarship-quote {
+  margin-left: 0;
+  line-height: 1.4;
 }
 
 /* Recent writing list */

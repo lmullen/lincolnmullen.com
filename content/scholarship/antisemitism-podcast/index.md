@@ -2,8 +2,9 @@
 title: "Antisemitism, U.S.A."
 subtitle: "A podcast on the history of American antisemitism"
 thumbnail: "thumbnail.png"
+homepage-thumbnail: "homepage-thumbnail.png"
 homepage: true
-homepageOrder: 3
+homepageOrder: 5
 links:
   - url: https://podcasts.rrchnm.org/show/Antisemitism-USA/
     text: Podcast home page

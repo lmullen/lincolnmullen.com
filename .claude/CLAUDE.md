@@ -65,6 +65,10 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 - After sentence-ending punctuation (? or !) within a title, capitalize the next word.
 - Software package names keep their conventional capitalization (e.g., knitr, ggplot2, htmlwidgets stay lowercase; Pandoc, Jekyll, Vim stay capitalized).
 
-### Permalink URL
+### Permalink URLs
 
-The permalink URL for blog posts follows the pattern `https://lincolnmullen.com/blog/<slug>/`, where `<slug>` is the `slug` field in the front matter. Include this URL at the end of each social media text.
+- **Blog posts**: `https://lincolnmullen.com/blog/<slug>/`, where `<slug>` is the `slug` field in the front matter.
+- **Newsletter posts**: `https://lincolnmullen.com/newsletter/<slug>/`, where `<slug>` is the `slug` field in the front matter.
+- **Micro posts**: `https://lincolnmullen.com/micro/<timestamp>/`, where `<timestamp>` matches the filename pattern `YYYY-MM-DD-HH-MM-SS`.
+
+Include the permalink URL at the end of each social media text.

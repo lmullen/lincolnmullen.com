@@ -8,7 +8,7 @@ tags:
 - computational history
 ---
 
-Greetings. And welcome back to *Working on it*.
+Greetings. And welcome back to *Working on It*.
 
 ---------------------
 

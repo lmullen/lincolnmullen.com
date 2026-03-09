@@ -29,6 +29,13 @@ For all platforms: capture the main point or most interesting detail of the post
 
 If the body text of the post is short enough to fit within a platform's character limit (after appending the URL), use it verbatim without modification. Do not rephrase short posts unnecessarily.
 
+### Newsletter posts
+
+For newsletter posts (files in `content/newsletter/`), **override** the platform-specific tone guidance above. Use the same template for all three platforms (bluesky, mastodon, linkedin):
+
+> In the most recent issue of the "Working on It" newsletter, I wrote about {BRIEF DESCRIPTIONS OF 2-3 THINGS}. Read and subscribe: {PERMALINK}
+
+Replace `{BRIEF DESCRIPTIONS OF 2-3 THINGS}` with concise, natural-sounding descriptions of the main topics covered in the newsletter issue. Replace `{PERMALINK}` with the post's permalink URL. Keep the descriptions brief enough that the bluesky version fits within 300 characters.
 
 ### YAML formatting
 
@@ -48,4 +55,14 @@ social:
     I recently wrote about the example topic, which has significant implications for the field.
 
     The post explores how this matters for scholars and institutions working in this area. https://lincolnmullen.com/blog/example-post-title/
+```
+
+Here is an example for a newsletter post:
+
+```yaml
+description: "Issue 15 of the Working on It newsletter, covering topic A, topic B, and topic C."
+social:
+  bluesky: "In the most recent issue of the \"Working on It\" newsletter, I wrote about topic A, topic B, and topic C. Read and subscribe: https://lincolnmullen.com/blog/example-newsletter/"
+  mastodon: "In the most recent issue of the \"Working on It\" newsletter, I wrote about topic A, topic B, and topic C. Read and subscribe: https://lincolnmullen.com/blog/example-newsletter/"
+  linkedin: "In the most recent issue of the \"Working on It\" newsletter, I wrote about topic A, topic B, and topic C. Read and subscribe: https://lincolnmullen.com/blog/example-newsletter/"
 ```

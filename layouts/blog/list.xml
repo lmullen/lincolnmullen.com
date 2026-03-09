@@ -20,6 +20,9 @@
     <item>
       {{ if .Params.Linkpost }}
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>
+      {{ else if eq .Section "newsletter" }}
+      <title>{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
+      <link>{{ .Permalink | absURL | htmlEscape }}</link>
       {{ else }}
       <title>{{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
       <link>{{ .Permalink | absURL | htmlEscape }}</link>

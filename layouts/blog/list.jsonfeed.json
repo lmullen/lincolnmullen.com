@@ -22,6 +22,8 @@
             "url": "{{ $element.Permalink | absURL }}",
             {{- if $element.Params.Linkpost }}
             "external_url": "{{ $element.Params.Linkpost }}",
+            {{- else if eq $element.Section "newsletter" }}
+            "title": {{ printf "%s #%s: %s" $element.Site.Params.NewsletterTitle $element.Slug $element.Title | jsonify }},
             {{- else }}
             "title": {{ $element.Title | jsonify }},
             {{- end }}

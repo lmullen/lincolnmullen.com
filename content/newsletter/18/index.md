@@ -11,7 +11,7 @@ social:
   linkedin: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
 ---
 
-Welcome back to the (very) occasional newsletter _Working on It_. It has been 668 days since the last issue.
+Welcome back to the (very) occasional newsletter. It has been 668 days since the last issue.
 
 <!--more-->
 

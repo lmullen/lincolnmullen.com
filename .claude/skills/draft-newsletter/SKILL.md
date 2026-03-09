@@ -40,7 +40,7 @@ Replace `{TODAY}` with today's date in `YYYY-MM-DD` format and `{new issue numbe
 Calculate the number of days between today's date and the last issue's `date` field. Write this as the first content after the front matter:
 
 ```
-Welcome back to the (very) occasional newsletter _Working on It_. It has been {NUMDAYS} days since the last issue.
+Welcome back to the (very) occasional newsletter. It has been {NUMDAYS} days since the last issue.
 
 <!--more-->
 ```

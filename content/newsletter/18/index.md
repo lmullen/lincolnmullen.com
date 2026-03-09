@@ -35,7 +35,7 @@ I posted my [syllabus](/courses/data.2025/) for last semester's iteration of Dat
 
 My friend and colleague [John Turner](https://johngturner.com) published his biography, [*Joseph Smith: The Rise and Fall of an American Prophet*](https://yalebooks.yale.edu/book/9780300255164/joseph-smith/), this past summer with Yale University Press. In addition to the fascinating and well written biography---a worthy sequel (prequel?) to his biography of [Brigham Young](https://www.hup.harvard.edu/catalog.php?isbn=9780674416857)---John has also undertaken an incredibly detailed set of podcast interviews about Smith. There are [thirty episodes and counting](https://www.youtube.com/playlist?list=PLxq5opj6GqOARv8DqnpVuTbHvrtJypVys) available on YouTube.
 
-{{< image src="joseph-smith-cover.jpg" alt="Cover of Joseph Smith Biography" >}}
+{{< image src="joseph-smith-cover.jpg" alt="Cover of Joseph Smith Biography" link="https://yalebooks.yale.edu/book/9780300255164/joseph-smith/">}}
 
 ### Links and observations
 
@@ -64,6 +64,8 @@ Listening: Colter Wall, "[Summer Wages](https://open.spotify.com/track/43Mf2OrMN
 Working: [Finding citations](https://github.com/chnm/legal-modernism/blob/main/cite-detector-moml/main.go) in legal treatises.
 
 Vibing: Custom privacy-first web analytics.
+
+Teaching: American Scriptures (HIST/RELI 334).
 
 Anticipating: Spring break.
 

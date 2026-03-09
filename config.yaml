@@ -39,7 +39,7 @@ imaging:
 params:
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
-  newsletterTitle: "Working on it"
+  newsletterTitle: "Working on It"
   siteFeedUrl: "/blog/index.xml"
   author:
     name: "Lincoln Mullen"

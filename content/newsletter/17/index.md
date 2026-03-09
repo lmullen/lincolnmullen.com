@@ -13,7 +13,7 @@ tags:
 # linkpost: ""
 ---
 
-Welcome back to the (very) occasional newsletter _Working on it_. It has been 277 days since the last issue.
+Welcome back to the (very) occasional newsletter _Working on It_. It has been 277 days since the last issue.
 
 ### Antisemitism, U.S.A.
 

@@ -54,7 +54,7 @@ These fields are used by templates. If present, validate them; if absent, do not
 
 - `crosspost`: If present, must have `url` (a valid URL string) and `source` (name of the external site) sub-fields. Displayed as a notice that the post was originally published elsewhere.
 - `linkpost`: If present, must be a valid URL string. Indicates the post links to an external resource; the URL is used as the canonical link.
-- `newsletter`: If `true`, the post is styled as a newsletter entry (title displayed as "Working on it #<slug>: <title>").
+- `newsletter`: If `true`, the post is styled as a newsletter entry. The newsletter title is *Working on It* (italicized). The title displays as "Working on It #<slug>: <title>".
 - `tags`: If present, must be a YAML list. Tags appear in OpenGraph meta tags and the JSON feed. No tag pages are generated.
 
 ## Micro post front matter

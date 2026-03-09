@@ -44,6 +44,8 @@ If present, validate:
 - `mastodon`: Must be 500 characters or fewer (including URL). Should end with the permalink URL or an external URL.
 - `linkedin`: No strict character limit. Often uses multi-line `|` YAML syntax for longer content. Should end with the permalink URL or an external URL.
 
+When validating character limits do not guess. Take the contents of those fields and pipe them to `wc -c` to get an accurate count.
+
 It would be rare that the `bluesky` and `mastodon` fields would be empty. If `linkedin` is empty that will be more common. Note it but do not offer to correct it.
 
 ## Other optional front matter

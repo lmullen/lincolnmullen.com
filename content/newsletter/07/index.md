@@ -9,7 +9,7 @@ tags:
 - Current Research in Digital History
 ---
 
-Greetings. Sorry it's been a while, but welcome back to "Working on It."
+Greetings. Sorry it's been a while, but welcome back to *Working on it*.
 
 ----------------
 

@@ -10,7 +10,7 @@ tags:
 - visualization
 ---
 
-Greetings. And welcome back to "Working on It."
+Greetings. And welcome back to *Working on it*.
 
 -----------------
 

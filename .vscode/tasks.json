@@ -71,6 +71,24 @@
         "close": true
       },
       "problemMatcher": [ ]
+    },
+    {
+      "label": "Copy permalink",
+      "type": "shell",
+      "command": "./permalink.sh",
+      "args": [
+        "${file}"
+      ],
+      "presentation": {
+        "echo": false,
+        "reveal": "never",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true,
+        "close": true
+      },
+      "problemMatcher": [ ]
     }
   ],
   "inputs": [

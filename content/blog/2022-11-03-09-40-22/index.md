@@ -1,0 +1,8 @@
+---
+date: '2022-11-03T09:40:22-04:00'
+slug: '2022-11-03-09-40-22'
+feedid: '/micro/2022-11-03-09-40-22/'
+linkpost: https://sharats.me/posts/shell-script-best-practices/
+---
+
+A very helpful [list of best practices for shell scripting](https://sharats.me/posts/shell-script-best-practices/). I'm no expert on shell scripting, but I write lots of little scripts, so it is helpful to have a template for best practices.

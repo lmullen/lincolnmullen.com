@@ -15,10 +15,8 @@
 /files/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 /Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 
-# Micro section redirect
-# Redirects only the list page, not the single pages
-/micro/ /blog/ 302
-/micro /blog/ 302
+# Micro section redirect (migrated into blog)
+/micro/* /blog/:splat 301
 
 # Blog post redirects
 /blog/the-humanists-os-or-scholarship-in-plain-text/null /blog/the-humanists-os-or-scholarship-in-plain-text/ 301

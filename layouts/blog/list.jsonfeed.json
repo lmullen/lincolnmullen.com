@@ -15,16 +15,17 @@
     "language": "en-US",
     "expired": false,
     "items": [
-        {{- range $index, $element := first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) }}
+        {{- range $index, $element := first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "newsletter")) }}
         {{- if $index }},{{ end }}
         {
-            "id": "{{ $element.Permalink | absURL }}",
+            "id": "{{ with $element.Params.feedid }}{{ . | absURL }}{{ else }}{{ $element.Permalink | absURL }}{{ end }}",
             "url": "{{ $element.Permalink | absURL }}",
             {{- if $element.Params.Linkpost }}
             "external_url": "{{ $element.Params.Linkpost }}",
-            {{- else if eq $element.Section "newsletter" }}
+            {{- end }}
+            {{- if eq $element.Section "newsletter" }}
             "title": {{ printf "%s #%s: %s" $element.Site.Params.NewsletterTitle $element.Slug $element.Title | jsonify }},
-            {{- else }}
+            {{- else if $element.Title }}
             "title": {{ $element.Title | jsonify }},
             {{- end }}
             {{- $viaHTML := "" -}}

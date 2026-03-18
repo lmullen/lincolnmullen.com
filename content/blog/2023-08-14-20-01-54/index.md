@@ -1,0 +1,12 @@
+---
+date: "2023-08-14T20:01:54-04:00"
+slug: '2023-08-14-20-01-54'
+feedid: '/micro/2023-08-14-20-01-54/'
+linkpost: "https://rrchnm.org/about-rrchnm/passing-the-baton/"
+---
+
+I am grateful to have worked for Mills Kelly for the past four years as he has
+served as the executive director at the Roy Rosenzweig Center for History and
+New Media. In
+[a blog post on our website](https://rrchnm.org/about-rrchnm/passing-the-baton/),
+he reflects on the last four years at RRCHNM, and a bit beyond.

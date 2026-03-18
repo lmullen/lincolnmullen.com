@@ -57,11 +57,6 @@ HUGO_POST_TITLE="$title" HUGO_POST_SLUG="$slug" hugo new --kind blog "blog/$dir_
 # Overwrite the date so it matches the captured timestamp exactly
 sed -i '' "s|^date: .*|date: '$iso_date'|" "$post_file"
 
-# Remove the title line for untitled posts
-if [ -z "$title" ]; then
-  sed -i '' '/^title: ""$/d' "$post_file"
-fi
-
 # Handle image: copy into page bundle and update front matter/content
 if [ -n "$image_name" ]; then
   cp "$image_path" "$post_dir/$image_name"

@@ -9,21 +9,23 @@
 
       <!-- Blog post starts here -->
 
-      <article id='{{ urlize .Title }}' class="h-entry post">
+      <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
 
+        {{ with .Title }}
         <header>
-          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
+          <a href='{{ $.Permalink }}' class="u-url u-uid permalink">
             <h2 class="post-title p-name">
-              {{ .Title | markdownify }}
+              {{ . | markdownify }}
             </h2>
           </a>
 
-          {{ if .Params.Crosspost }}
+          {{ if $.Params.Crosspost }}
           <div class="external-url mt-4 mb-4">
-            This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the original post.&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
+            This post originally appeared at {{ $.Params.Crosspost.Source |markdownify }}. <a href="{{ $.Params.Crosspost.URL }}">Read the original post.&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
           </div>
           {{ end}}
         </header>
+        {{ end }}
 
         <div class='post-body e-content mt-2 mb-5'>
           {{ .Content }}
@@ -31,6 +33,11 @@
 
 
         <footer class="post-footer text-muted mt-4">
+          {{ if .Params.Linkpost }}
+          <div class="text-truncate">
+            <a href="{{ .Params.Linkpost }}" class="text-muted"><i class="bi bi-box-arrow-up-right d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Link: <a href="{{ .Params.Linkpost }}" class="text-muted">{{ (urls.Parse .Params.Linkpost).Host }}</a>
+          </div>
+          {{ end }}
           {{ partial "via" . }}
           <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
             <i class="bi bi-link-45deg" aria-hidden="true"></i>
@@ -55,14 +62,14 @@
       <div class="mt-5 mb-4 prevnextlinks">
         <h5>More blog posts</h5>
         <div class="d-flex justify-content-between">
-          {{ if .NextInSection }}
-          <a class="text-start" href="{{.NextInSection.Permalink}}">
-            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;{{ .NextInSection.Title | markdownify }}
+          {{ with .NextInSection }}
+          <a class="text-start" href="{{ .Permalink }}">
+            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;{{ with .Title }}{{ . | markdownify }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}
           </a>
           {{ end }}
-          {{ if .PrevInSection }}
-          <a class="text-end" href="{{.PrevInSection.Permalink}}">
-            {{ .PrevInSection.Title | markdownify }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
+          {{ with .PrevInSection }}
+          <a class="text-end" href="{{ .Permalink }}">
+            {{ with .Title }}{{ . | markdownify }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
           </a>
           {{ end }}
         </div>

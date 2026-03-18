@@ -21,7 +21,7 @@
           </colgroup>
           <tbody>
             {{ range .Pages }}
-            {{ if not .Params.Linkpost }}
+            {{ if and (not .Params.Linkpost) .Title }}
             <tr>
               <td><time class="date" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "January 2" }}</time></td>
               {{ if (eq .Section "newsletter") }}

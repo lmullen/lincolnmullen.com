@@ -16,17 +16,23 @@
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) }}
+    {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "newsletter")) }}
     <item>
+      {{ if eq .Section "newsletter" }}
+      <title>{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
+      {{ else if .Title }}
+      <title>{{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
+      {{ end }}
       {{ if .Params.Linkpost }}
       <link>{{ .Params.Linkpost | absURL | htmlEscape }}</link>
       {{ else }}
-      <title>{{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
       <link>{{ .Permalink | absURL | htmlEscape }}</link>
       {{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Params.author.email }}<author>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</author>{{end}}
-      {{ if .Params.Linkpost }}
+      {{ if .Params.feedid }}
+      <guid>{{ .Params.feedid | absURL }}</guid>
+      {{ else if .Params.Linkpost }}
       <guid>{{ .Permalink | absURL }}</guid>
       {{ else }}
       <guid isPermaLink="true">{{ .Permalink | absURL }}</guid>

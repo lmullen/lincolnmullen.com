@@ -11,7 +11,7 @@
     {{ end }}
     {{- $platform := .Params.platform -}}
     {{- $count := 0 -}}
-    {{- range (where .Site.RegularPages "Section" "in" (slice "blog" "micro" "newsletter")) -}}
+    {{- range (where .Site.RegularPages "Section" "in" (slice "blog" "newsletter")) -}}
       {{- if lt $count 10 -}}
         {{- $page := . -}}
         {{- with .Params.social -}}

@@ -1,0 +1,11 @@
+---
+date: '2026-02-06T15:09:00-05:00'
+slug: '2026-02-06-15-09-00'
+feedid: '/micro/2026-02-06-15-09-00/'
+linkpost:
+image: '2026-02-06-15-06-00.jpeg'
+---
+
+Always a pleasure to take a group of GMU PhD alumni out at the American Historical Association annual meeting.
+
+{{< image src="2026-02-06-15-06-00.jpeg" alt="Group of scholars" >}}

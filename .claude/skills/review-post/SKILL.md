@@ -1,11 +1,11 @@
 ---
 name: review-post
-description: Review a blog post against the site's style guide and front matter requirements. Use when the user asks to review, check, or validate a post before publishing.
+description: Review a blog, micro, or newsletter post against the site's style guide and front matter requirements. Use when the user asks to review, check, or validate a post before publishing.
 ---
 
 # Review post
 
-Review the specified blog post file. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
+Review the specified post file. This skill works for blog, micro, and newsletter posts. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
 
 Read the post file, then check every item below. Report all issues found, organized by category. After reporting, ask the user if they want you to fix the issues.
 
@@ -25,7 +25,7 @@ Read the post file, then check every item below. Report all issues found, organi
 Check that these fields are present and non-empty:
 
 - `title`
-- `date`: Must be present in ISO 8601 format with timezone offset (e.g., `2026-02-10T23:24:10-05:00`). If the date is more than one hour before the current date/time, ask the user whether it should be updated to now.
+- `date`: Must be present in ISO 8601 format with timezone offset (e.g., `2026-02-10T23:24:10-05:00`). If the date is more than ten minutes before the current date/time, ask the user whether it should be updated to now.
 - `slug`: Must be URL-safe: lowercase letters, numbers, and hyphens only. No punctuation, no spaces. Should match what `new-post.sh` generates from the title.
 - `draft`: Must be `false`. Flag as an issue if it is `true` or missing.
 
@@ -44,6 +44,8 @@ If present, validate:
 - `mastodon`: Must be 500 characters or fewer (including URL). Should end with the permalink URL or an external URL.
 - `linkedin`: No strict character limit. Often uses multi-line `|` YAML syntax for longer content. Should end with the permalink URL or an external URL.
 
+When validating character limits do not guess. Take the contents of those fields and pipe them to `wc -c` to get an accurate count.
+
 It would be rare that the `bluesky` and `mastodon` fields would be empty. If `linkedin` is empty that will be more common. Note it but do not offer to correct it.
 
 ## Other optional front matter
@@ -52,8 +54,17 @@ These fields are used by templates. If present, validate them; if absent, do not
 
 - `crosspost`: If present, must have `url` (a valid URL string) and `source` (name of the external site) sub-fields. Displayed as a notice that the post was originally published elsewhere.
 - `linkpost`: If present, must be a valid URL string. Indicates the post links to an external resource; the URL is used as the canonical link.
-- `newsletter`: If `true`, the post is styled as a newsletter entry (title displayed as "Working on It #<slug>: <title>").
+- `newsletter`: If `true`, the post is styled as a newsletter entry. The newsletter title is *Working on It* (italicized). The title displays as "Working on It #<slug>: <title>".
 - `tags`: If present, must be a YAML list. Tags appear in OpenGraph meta tags and the JSON feed. No tag pages are generated.
+
+## Micro post front matter
+
+For micro posts (files in `content/micro/`), the required and optional front matter differs from blog posts. Apply these checks instead of the blog-specific required front matter checks above:
+
+- Required: `date` (ISO 8601 format with timezone offset)
+- Optional: `linkpost`, `via`, `image`, `description`, `social`
+- `image`: If the post body contains an `image` or `figure` shortcode, the `image` front matter field **must** be set to the same image path. This field enables OpenGraph image previews when the post is shared on social media. Flag as an **issue** (not a suggestion) if the body has an image but the front matter does not.
+- If present, `image` must be a path starting with `/images/micro/` and the corresponding file must exist in `assets/images/micro/`.
 
 ## Spelling and grammar
 

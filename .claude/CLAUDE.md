@@ -18,9 +18,12 @@ This site uses the static site generator, [Hugo](https://gohugo.io).
 ### Creating New Content
 
 ```bash
-./new-post.sh "Post Title Here"   # Creates content/blog/YYYY-MM-DD-post-title-here/index.md
-./new-micro.sh                     # Creates content/micro/YYYY-MM-DD-HH-MM-SS.md
+./new-post.sh   # Interactive: prompts for title and optional image
 ```
+
+- **Titled post**: Enter a title when prompted. Creates `content/blog/YYYY-MM-DD-slug/index.md`.
+- **Untitled post** (short-form/micro): Leave the title blank. Creates `content/blog/YYYY-MM-DD-HH-MM-SS/index.md` with the timestamp as the slug.
+- Both types optionally include an image (drag-and-drop friendly).
 
 For courses, manually create `content/courses/[course-code].[year]/index.md` using the archetype at `archetypes/courses.md`.
 
@@ -28,22 +31,18 @@ For courses, manually create `content/courses/[course-code].[year]/index.md` usi
 
 Content types have layout files in `./layouts/` and corresponding content in `./content/`. The most important content types:
 
-- `blog`: Longer blog posts, with a title, tags, and other metadata.
-- `micro`: Shorter social media-like posts without a title, with optional external links and images.
+- `blog`: All blog posts, both titled long-form articles and untitled short-form notes. Every post is a page bundle (`content/blog/<dir>/index.md`). Templates use title presence to distinguish: titled posts appear in the archive and get headings; untitled posts do not.
 - `newsletter`: Archives of my newsletter.
 
-The blog list page combines posts from `blog/`, `micro/`, and `newsletter/` sections into a mixed feed.
+The blog list page combines posts from `blog/` and `newsletter/` sections into a mixed feed.
 
 ### Front Matter Patterns
 
 **Blog posts** (`content/blog/YYYY-MM-DD-slug/index.md`):
-- Required: `title`, `date`, `slug`, `draft`
-- Optional: `description`, `newsletter: true`, `crosspost: {url, source}`, `linkpost: "url"`, `via: "url"`, `social: {bluesky, mastodon, linkedin}`
-
-**Micro posts** (`content/micro/YYYY-MM-DD-HH-MM-SS.md`):
-- Required: `date`
-- Optional: `linkpost: "url"` (for external links), `via: "url"` (attribution link), `image: "/images/micro/filename.jpg"` (set automatically by `new-micro.sh` when an image is included)
-- Images: Store in `assets/images/micro/` and reference with `{{</* image src="/images/micro/filename.jpg" alt="description" */>}}`; the `image:` front matter field enables automatic OpenGraph image previews
+- Required: `date`, `slug`, `draft`
+- Title: Optional. When present, the post appears in the archive and gets a heading. When absent, the post is a short-form note.
+- Optional: `description`, `newsletter: true`, `crosspost: {url, source}`, `linkpost: "url"`, `via: "url"`, `image: "filename.jpg"`, `social: {bluesky, mastodon, linkedin}`, `tags`
+- Images: Store in the page bundle directory and reference with `{{</* image src="filename.jpg" alt="description" */>}}`; the `image:` front matter field (relative filename) enables automatic OpenGraph image previews.
 
 Use `<!--more-->` in blog posts for "Read More" truncation on list pages.
 
@@ -65,6 +64,10 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 - After sentence-ending punctuation (? or !) within a title, capitalize the next word.
 - Software package names keep their conventional capitalization (e.g., knitr, ggplot2, htmlwidgets stay lowercase; Pandoc, Jekyll, Vim stay capitalized).
 
-### Permalink URL
+### Permalink URLs
 
-The permalink URL for blog posts follows the pattern `https://lincolnmullen.com/blog/<slug>/`, where `<slug>` is the `slug` field in the front matter. Include this URL at the end of each social media text.
+- **Blog posts** (titled): `https://lincolnmullen.com/blog/<slug>/`, where `<slug>` is the `slug` field in the front matter.
+- **Blog posts** (untitled): `https://lincolnmullen.com/blog/<timestamp>/`, where `<timestamp>` is in `YYYY-MM-DD-HH-MM-SS` format.
+- **Newsletter posts**: `https://lincolnmullen.com/newsletter/<slug>/`, where `<slug>` is the `slug` field in the front matter.
+
+Include the permalink URL at the end of each social media text.

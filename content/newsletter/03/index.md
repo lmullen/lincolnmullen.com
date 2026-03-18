@@ -8,7 +8,7 @@ tags:
 - D3.js
 ---
 
-Greetings. And welcome back to "Working on It."
+Greetings. And welcome back to *Working on It*.
 
 -------------------
 

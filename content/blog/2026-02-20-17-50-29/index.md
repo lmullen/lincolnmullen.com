@@ -1,0 +1,14 @@
+---
+date: '2026-02-20T17:50:29-05:00'
+slug: '2026-02-20-17-50-29'
+feedid: '/micro/2026-02-20-17-50-29/'
+image: '2026-02-20-17-47-39.png'
+---
+
+{{< image src="2026-02-20-17-47-39.svg" alt="A map of the United States, showing no law west of Dodge, and no god west of the Pecos" >}}
+
+You taught me language; and my profit on't  
+Is, I know how to curse.
+
+You gave me a large language model; and my profit on't  
+Is, I make maps as a joke.

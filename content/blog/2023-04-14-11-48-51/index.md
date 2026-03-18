@@ -1,0 +1,8 @@
+---
+date: '2023-04-14T11:48:51-04:00'
+slug: '2023-04-14-11-48-51'
+feedid: '/micro/2023-04-14-11-48-51/'
+linkpost: https://netnewswire.com
+---
+
+If you care about the open web, you probably use RSS feeds. And if you use feeds and you're on a Mac or iOS, then [NetNewsWire](https://netnewswire.com) is the best RSS reader available. And it's free and open source.

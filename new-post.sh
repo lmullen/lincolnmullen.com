@@ -52,10 +52,7 @@ if [[ "$include_image" =~ ^[Yy]$ ]]; then
 fi
 
 # Create the post using the Hugo archetype
-HUGO_POST_TITLE="$title" HUGO_POST_SLUG="$slug" hugo new --kind blog "blog/$dir_name"
-
-# Overwrite the date so it matches the captured timestamp exactly
-sed -i '' "s|^date: .*|date: '$iso_date'|" "$post_file"
+HUGO_POST_TITLE="$title" HUGO_POST_DATE="$iso_date" HUGO_POST_SLUG="$slug" hugo new --kind blog "blog/$dir_name"
 
 # Handle image: copy into page bundle and update front matter/content
 if [ -n "$image_name" ]; then

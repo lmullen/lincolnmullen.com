@@ -5,6 +5,10 @@ set -o pipefail
 
 # Create a new blog post. Handles both titled (long-form) and untitled
 # (short-form/micro) posts, with optional image inclusion.
+#
+# Archetypes:
+#   archetypes/blog/index.md       — titled posts
+#   archetypes/micro-blog/index.md — untitled posts
 
 cd "$(dirname "$0")"
 
@@ -19,14 +23,15 @@ read -p "Post title (leave blank for untitled): " title
 if [ -n "$title" ]; then
   slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr '[:blank:]' '-' | tr -s '-')
   dir_name="$date_prefix-$slug"
+  kind="blog"
 else
   slug="$timestamp"
   dir_name="$timestamp"
+  kind="micro-blog"
 fi
 
 post_dir="content/blog/$dir_name"
 post_file="$post_dir/index.md"
-mkdir -p "$post_dir"
 
 # Prompt for image inclusion
 read -p "Include an image? (y/n): " include_image
@@ -48,43 +53,25 @@ if [[ "$include_image" =~ ^[Yy]$ ]]; then
   ext="${image_path##*.}"
   ext=$(echo "$ext" | tr '[:upper:]' '[:lower:]')
   image_name="$timestamp.$ext"
-  cp "$image_path" "$post_dir/$image_name"
-  echo "Image copied to $post_dir/$image_name"
 fi
 
-# Write front matter and content
-{
-  echo "---"
-  if [ -n "$title" ]; then
-    echo "title: \"$title\""
-  fi
-  echo "date: \"$iso_date\""
-  echo "slug: \"$slug\""
-  echo "draft: true"
-  if [ -n "$image_name" ]; then
-    echo "image: \"$image_name\""
-  fi
-  echo "description: \"\""
-  if [ -n "$title" ]; then
-    echo "# tags:"
-    echo "# -"
-    echo "# crosspost:"
-    echo "#   url: \"\""
-    echo "#   source: \"\""
-  fi
-  echo "# linkpost: \"\""
-  echo "# via: \"\""
-  echo "social:"
-  echo "  bluesky: \"\""
-  echo "  mastodon: \"\""
-  echo "  linkedin: \"\""
-  echo "---"
-  echo ""
-  if [ -n "$image_name" ]; then
-    echo "{{< image src=\"$image_name\" alt=\"$alt_text\" >}}"
-    echo ""
-  fi
-} > "$post_file"
+# Create the post using the Hugo archetype
+HUGO_POST_TITLE="$title" HUGO_POST_SLUG="$slug" hugo new --kind "$kind" "blog/$dir_name"
+
+# Overwrite the date so it matches the captured timestamp exactly
+sed -i '' "s|^date: .*|date: '$iso_date'|" "$post_file"
+
+# Handle image: copy into page bundle and update front matter/content
+if [ -n "$image_name" ]; then
+  cp "$image_path" "$post_dir/$image_name"
+  echo "Image copied to $post_dir/$image_name"
+
+  # Insert image field before description in front matter
+  sed -i '' "s|^description:|image: \"$image_name\"\ndescription:|" "$post_file"
+
+  # Append image shortcode to content
+  echo "{{< image src=\"$image_name\" alt=\"$alt_text\" >}}" >> "$post_file"
+fi
 
 # Open in VS Code
 code "$post_file"

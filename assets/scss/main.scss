@@ -1,12 +1,13 @@
-// From https://getbootstrap.com/docs/5.2/customize/sass/
+// From https://getbootstrap.com/docs/5.3/customize/sass/
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
 @import "variables";
 
-// 3. Include remainder of required Bootstrap stylesheets
+// 3. Include remainder of required Bootstrap stylesheets (including dark mode variables)
 @import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
 

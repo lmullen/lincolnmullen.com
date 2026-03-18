@@ -1,21 +1,57 @@
-// Custom variables
-$lm-primary: rgb(195, 42, 38);
-$lm-gap: 1rem;
+// Bootstrap variable overrides for navy & orange color scheme.
+// These are set before Bootstrap's own variables are imported, so they
+// override Bootstrap's defaults via the !default mechanism.
+// See: https://getbootstrap.com/docs/5.3/customize/sass/#variable-defaults
 
-// Colors
-$primary: $lm-primary;
-$body-color: #121213;
-$border-color: #bebebe;
-$text-muted: rgb(159, 161, 162);
+// Custom spacing variable (not a Bootstrap variable)
+$gap: 1rem;
+
+// Base color palette
+$blue: #2c4a7c;
+$indigo: #3a4899;
+$purple: #4a3a6e;
+$pink: #9a3e5e;
+$red: #a83838;
+$orange: #c06a20;
+$yellow: #988020;
+$green: #3a7a5c;
+$teal: #3a6e5a;
+$cyan: #3a6a7e;
+
+// Theme colors
+$primary: $blue;
+$secondary: $orange;
+$success: $green;
+$info: $blue;
+$warning: $orange;
+$danger: $red;
+$light: #f3f4f6;
+$dark: #1a1e26;
+
+// Body
+$body-color: #2a2e36;
+$body-bg: #ffffff;
+
+// Headings
+$headings-color: #1a1e26;
+
+// Links
+$link-color: #3568b2;
+$link-hover-color: #2c4a7c;
+
+// Borders
+$border-color: #d4d6dc;
+
+// Code
+$code-color: $secondary;
 
 // Fonts
 $font-family-sans-serif: "IBM Plex Sans", sans-serif;
 $font-family-monospace: "IBM Plex Mono", monospace;
-// $font-size-base: 1.125rem;
 $font-size-base: 1rem;
 $font-weight-semibold: 500;
 
-// Headings
+// Heading sizes
 $h1-font-size: $font-size-base * 1.75; // = 28px
 $h2-font-size: $font-size-base * 1.5; // = 24px
 $h3-font-size: $font-size-base * 1.25; // = 20px

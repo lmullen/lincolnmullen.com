@@ -102,22 +102,11 @@ Analytical Work Reproducibly Using R (and Friends)," *The American
 Statistician* 72, no. 1 (2018): 80--88, <https://doi.org/10.1080/00031305.2017.1375986>.
 [PeerJ preprint](https://peerj.com/preprints/3192/), [published version](https://doi.org/10.1080/00031305.2017.1375986)
 
-Lincoln A. Mullen et al., "Fast, Consistent Tokenization of
-Natural Language Text," *Journal of Open Source Software* 3, no.
-23 (2018): 655, <https://doi.org/10.21105/joss.00655>.
-
-Lincoln A. Mullen and Jordan F. Bratt, "USAboundaries: Historical and Contemporary Boundaries of the United States of America," *Journal of Open Source Software* 3, no. 23 (2018): 314, <https://doi.org/10.21105/joss.00314>.
-
 Kellen Funk and Lincoln A. Mullen, "The Spine of American Law:
 Digital Text Analysis and U.S. Legal Practice," *American Historical
 Review* 123, no. 1 (2018): 132--164, <https://doi.org/10.1093/ahr/123.1.132>. [published version (not paywalled)](https://academic.oup.com/ahr/article/123/1/132/4840258?guestAccessKey=3a271895-4af8-41e8-b3d9-15941dfe0bcf), [SSRN
 preprint](https://ssrn.com/abstract=3001377), [SocArXiv
 preprint](https://osf.io/preprints/socarxiv/w8un4/), [analysis repository](https://github.com/lmullen/civil-procedure-codes)
-
-Lincoln A. Mullen, Margaret Bendroth, Thomas Kidd, Keith Harper, and
-Robert W. Prichard, "The Uses of Denominational History," *Fides et
-Historia* 49, no. 2 (2017): 57--66. [SocArXiv
-preprint](https://osf.io/preprints/socarxiv/3zwgr/)
 
 Arguing with Digital History working group, "Digital History and Argument," white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): <https://rrchnm.org/argument-white-paper/>. (primary author with Stephen Robertson)
 
@@ -131,35 +120,9 @@ Digital Humanities erwarten? [Forum: With the Eyes of a Humanities
 Scholar: What Results Can We Expect from Digital Humanities?]*, 24
 *Rechtsgeschichte [Legal History]* (2016): 341--43, <https://doi.org/10.12946/rg24/341-343>.  
 
-Kellen Funk and Lincoln A. Mullen, "The Migration of the Field Code,"
-working paper, February 2016. [working
-paper](https://osf.io/preprints/socarxiv/nfg92)
-
-Cameron Blevins and Lincoln A. Mullen, "Jane, John . . . Leslie? A
-Historical Method for Algorithmic Gender Prediction," *Digital
-Humanities Quarterly* 9, no. 3 (2015). [published
-version](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html)
-
-"Lynching, Visualization, and Visibility," *Journal of Southern
-Religion* 17 (2015): <http://jsreligion.org/issues/vol17/mullen.html>
-
-"The Contours of Conversion to Catholicism in the Nineteenth Century,"
-*U.S. Catholic Historian* 32, no. 2 (2014): 1--27, <https://doi.org/10.1353/cht.2014.0007>. [published
-version](https://files.lincolnmullen.com/pdf/mullen.contours-conversion-to-catholicism.pdf), [Project Muse](https://muse.jhu.edu/article/552113)
-
-"Using Metadata and Maps to Teach the History of Religion,"
-*Transformations: The Journal of Inclusive Scholarship and Pedagogy*
-25, no. 1 (2014): 112--118.
-[post-print](https://files.lincolnmullen.com/pdf/mullen.using-metadata-and-maps.preprint.pdf)
-
 "The Varieties of Religious Conversion: The Origins of Religious Choice
 in the United States," PhD thesis, Brandeis University (2014).
 [ProQuest](https://search.proquest.com/docview/1616758797)
-
-"Digital Humanities Is a Spectrum; or, We're All Digital Humanists Now,"
-in Melissa Terras, Edward Vanhoutte, and Julianne Nyhan, eds., *Defining
-Digital Humanities: A Reader* (Ashgate, 2013), 237--38.
-[preprint](http://lincolnmullen.com/blog/digital-humanities-is-a-spectrum-or-we8217re-all-digital-humanists-now/)
 
 "A Narrative of the Troubles in the Second Church in Windsor,
 1735--1741," by Roger Wolcott, *Journal of Jonathan Edwards Studies* 2,

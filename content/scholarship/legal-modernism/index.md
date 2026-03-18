@@ -1,7 +1,8 @@
 ---
 title: "Legal Modernism"
-subtitle: "American legal history through computational methods"
+subtitle: "Legal history through computational methods"
 thumbnail: "thumbnail.png"
+homepage-thumbnail: "thumbnail.png"
 homepage: true
 homepageOrder: 1
 links:

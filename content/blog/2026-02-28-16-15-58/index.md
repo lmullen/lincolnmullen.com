@@ -1,6 +1,7 @@
 ---
 date: '2026-02-28T16:15:58-05:00'
 slug: '2026-02-28-16-15-58'
+feedid: '/micro/2026-02-28-16-15-58/'
 linkpost: https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/
 image: "2026-02-28-16-11-52.jpg"
 description: "Alexandra Miller traces the public history of Seneca Village through the Roy Rosenzweig papers, connecting the recently awarded Envisioning Seneca Village digital project to RRCHNM founder Roy Rosenzweig's own scholarship on Central Park."

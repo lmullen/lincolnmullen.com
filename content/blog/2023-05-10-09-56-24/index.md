@@ -1,6 +1,7 @@
 ---
 date: "2023-05-10T09:56:24-04:00"
 slug: '2023-05-10-09-56-24'
+feedid: '/micro/2023-05-10-09-56-24/'
 linkpost: https://historyarthistory.gmu.edu/articles/19036
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: '2023-04-11T14:56:57-04:00'
 slug: '2023-04-11-14-56-57'
+feedid: '/micro/2023-04-11-14-56-57/'
 linkpost: https://www.congregationallibrary.org/events/americaspublicbible
 ---
 

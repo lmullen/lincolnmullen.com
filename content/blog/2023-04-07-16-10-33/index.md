@@ -1,6 +1,7 @@
 ---
 date: '2023-04-07T16:10:33-04:00'
 slug: '2023-04-07-16-10-33'
+feedid: '/micro/2023-04-07-16-10-33/'
 linkpost: https://www.theguardian.com/news/ng-interactive/2023/mar/30/the-slave-trade-and-the-deep-south-accounting-for-the-cotton-capitals-human-cost
 ---
 

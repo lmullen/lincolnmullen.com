@@ -1,6 +1,7 @@
 ---
 date: '2023-04-14T11:48:51-04:00'
 slug: '2023-04-14-11-48-51'
+feedid: '/micro/2023-04-14-11-48-51/'
 linkpost: https://netnewswire.com
 ---
 

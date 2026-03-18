@@ -1,6 +1,7 @@
 ---
 date: '2023-04-04T10:11:39-04:00'
 slug: '2023-04-04-10-11-39'
+feedid: '/micro/2023-04-04-10-11-39/'
 linkpost: https://www.washingtonpost.com/local/2023/04/02/exchange-civil-war-graffiti-digital/81d39558-d156-11ed-ac8b-cd7da05168e9_story.html
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: "2022-10-19T11:17:55-04:00"
 slug: '2022-10-19-11-17-55'
+feedid: '/micro/2022-10-19-11-17-55/'
 linkpost: "https://religiousecologies.org/blog/schedule-spotlight-the-dorcas-spiritual-alliance-church/"
 ---
 

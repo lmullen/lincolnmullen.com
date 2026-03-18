@@ -1,6 +1,7 @@
 ---
 date: "2022-10-20T17:43:16-04:00"
 slug: '2022-10-20-17-43-16'
+feedid: '/micro/2022-10-20-17-43-16/'
 linkpost: "https://us14.campaign-archive.com/?u=36898c6824a31b8e1d4434a55&id=fe50f1ad14"
 ---
 

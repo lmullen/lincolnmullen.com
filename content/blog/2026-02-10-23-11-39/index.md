@@ -1,6 +1,7 @@
 ---
 date: '2026-02-10T23:11:39-05:00'
 slug: '2026-02-10-23-11-39'
+feedid: '/micro/2026-02-10-23-11-39/'
 linkpost: https://drstephenrobertson.com/news/awards-for-harlem-in-disorder/
 ---
 

@@ -1,6 +1,7 @@
 ---
 date: '2022-10-29T19:18:33-04:00'
 slug: '2022-10-29-19-18-33'
+feedid: '/micro/2022-10-29-19-18-33/'
 linkpost: https://rrchnm.org/news/welcoming-jim-ambuske-to-r2-studios/
 ---
 

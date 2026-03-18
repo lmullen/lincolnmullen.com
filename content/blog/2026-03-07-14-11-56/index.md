@@ -1,6 +1,7 @@
 ---
 date: '2026-03-07T14:11:56-05:00'
 slug: '2026-03-07-14-11-56'
+feedid: '/micro/2026-03-07-14-11-56/'
 draft: false
 linkpost: https://vhbelvadi.com/
 via: https://jasonheppler.org/2026/03/02/a-new-design-for-readability/

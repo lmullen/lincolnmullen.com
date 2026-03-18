@@ -1,6 +1,7 @@
 ---
 date: '2026-03-15T15:27:17-04:00'
 slug: '2026-03-15-15-27-17'
+feedid: '/micro/2026-03-15-15-27-17/'
 draft: false
 linkpost: https://aboard.com/podcast/product-is-more-than-prompts/
 via: 

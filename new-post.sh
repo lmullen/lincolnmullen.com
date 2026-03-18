@@ -6,9 +6,7 @@ set -o pipefail
 # Create a new blog post. Handles both titled (long-form) and untitled
 # (short-form/micro) posts, with optional image inclusion.
 #
-# Archetypes:
-#   archetypes/blog/index.md       — titled posts
-#   archetypes/micro-blog/index.md — untitled posts
+# Archetype: archetypes/blog/index.md
 
 cd "$(dirname "$0")"
 
@@ -23,11 +21,9 @@ read -p "Post title (leave blank for untitled): " title
 if [ -n "$title" ]; then
   slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr '[:blank:]' '-' | tr -s '-')
   dir_name="$date_prefix-$slug"
-  kind="blog"
 else
   slug="$timestamp"
   dir_name="$timestamp"
-  kind="micro-blog"
 fi
 
 post_dir="content/blog/$dir_name"
@@ -56,10 +52,15 @@ if [[ "$include_image" =~ ^[Yy]$ ]]; then
 fi
 
 # Create the post using the Hugo archetype
-HUGO_POST_TITLE="$title" HUGO_POST_SLUG="$slug" hugo new --kind "$kind" "blog/$dir_name"
+HUGO_POST_TITLE="$title" HUGO_POST_SLUG="$slug" hugo new --kind blog "blog/$dir_name"
 
 # Overwrite the date so it matches the captured timestamp exactly
 sed -i '' "s|^date: .*|date: '$iso_date'|" "$post_file"
+
+# Remove the title line for untitled posts
+if [ -z "$title" ]; then
+  sed -i '' '/^title: ""$/d' "$post_file"
+fi
 
 # Handle image: copy into page bundle and update front matter/content
 if [ -n "$image_name" ]; then

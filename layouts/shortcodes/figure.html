@@ -7,10 +7,13 @@
 	{{ $retina := $raw.Resize "1404x webp"}}
 	{{ $link := .Get "link" }}
 	<a href="{{ $link | default $raw.RelPermalink }}">
-		<img class="img-fluid" src='{{ $regular.RelPermalink }}' srcset="{{ $regular.RelPermalink }}, {{ $retina.RelPermalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}'>
+		<img class="img-fluid" src='{{ $regular.RelPermalink }}' srcset="{{ $regular.RelPermalink }}, {{ $retina.RelPermalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}' width="{{ $regular.Width }}" height="{{ $regular.Height }}">
 	</a>
+	{{ else if eq $ext ".gif" }}
+	<!-- Don't process GIFs -->
+	<img class="img-fluid" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
 	{{ else }}
-	<!-- Don't process GIFs or SVGs -->
+	<!-- Don't process SVGs (no intrinsic dimensions available) -->
 	<img class="img-fluid" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
 	{{ end }}
 	<figcaption class="ms-5">

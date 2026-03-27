@@ -2,16 +2,71 @@
 
 <div class="container-fluid">
   <div class="row gx-5">
-    <div class="col-md-3 order-2">
-      {{ partial "blog-nav" . }}
+    <div class="col-md-4 offset-md-1 order-2">
+      <div class="sidebar-nav sticky-md-top ps-3 py-4 mt-5 border-start">
+        <div class="vstack gap-4 small">
+
+          {{ with .Params.Linkpost }}
+          <div>
+            <h6 class="homepage-header mb-1">Link</h6>
+            <a href="{{ . }}">{{ (urls.Parse .).Host }}</a>
+          </div>
+          {{ end }}
+
+          {{ with .Params.via }}
+          <div>
+            <h6 class="homepage-header mb-1">Via</h6>
+            <a href="{{ . }}">{{ (urls.Parse .).Host }}</a>
+          </div>
+          {{ end }}
+
+          {{ with .Params.Crosspost }}
+          <div>
+            <h6 class="homepage-header mb-1">Crossposted</h6>
+            <a href="{{ .URL }}"><i class="bi bi-box-arrow-up-right me-1"></i>{{ .Source | markdownify }}</a>
+          </div>
+          {{ end }}
+
+          <div>
+            <h6 class="homepage-header mb-1">Published</h6>
+            <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+              {{ .Date.Format "2 January 2006" }}
+            </time>
+          </div>
+
+          <div>
+            <h6 class="homepage-header mb-1">Last modified</h6>
+            <time class="dt-updated" datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>
+              {{ time.Format "2 January 2006, at 3:04pm" .Lastmod }}
+            </time>
+          </div>
+
+          {{ with .Params.tags }}
+          <div>
+            <h6 class="homepage-header mb-1">Subjects</h6>
+            {{ range . }}
+            <span class="me-1">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <div>
+            <h6 class="homepage-header mb-1">Site feeds</h6>
+            <a href="/blog/index.xml" class="btn btn-sm btn-outline-secondary me-1"><i class="bi bi-rss-fill me-1"></i>RSS</a>
+            <a href="/blog/index.json" class="btn btn-sm btn-outline-secondary"><i class="bi bi-rss-fill me-1"></i>JSON</a>
+          </div>
+
+        </div>
+      </div>
     </div>
-    <div class="col-md-9 order-1 py-5">
+    <div class="col-md-7 order-1 py-5">
 
       <!-- Blog post starts here -->
 
       <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
 
         {{ with .Title }}
+
         <header>
           <a href='{{ $.Permalink }}' class="u-url u-uid permalink">
             <h1 class="post-title p-name">
@@ -32,23 +87,7 @@
         </div>
 
 
-        <footer class="post-footer text-muted mt-4">
-          {{ if .Params.Linkpost }}
-          <div class="text-truncate">
-            <a href="{{ .Params.Linkpost }}" class="text-muted"><i class="bi bi-box-arrow-up-right d-inline-block text-center me-1" style="width: 1.25em;" aria-hidden="true"></i></a>Link: <a href="{{ .Params.Linkpost }}" class="text-muted">{{ (urls.Parse .Params.Linkpost).Host }}</a>
-          </div>
-          {{ end }}
-          {{ partial "via" . }}
-          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
-            <i class="bi bi-link-45deg" aria-hidden="true"></i>
-          </a>
-          Published:
-          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
-            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
-              {{ .Date.Format "January 2, 2006" }}.
-            </time>
-          </a>
-          Last modified: <time class='post-updated dt-updated' datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>{{ time.Format "January 2, 2006 at 03:04pm MST" .Lastmod}}</time>.<br>
+        <footer class="post-footer">
           <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
         </footer>
 

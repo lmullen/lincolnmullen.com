@@ -3,7 +3,7 @@ title: "The new journal *Computational Humanities Research*"
 date: "2024-12-03T07:23:15-05:00"
 slug: "the-new-journal-computational-humanities-research"
 draft: false
-description: "Computational Humanities Research is a new open-access journal from Cambridge University Press that fills a real need for scholars who use computational methods to share methodological innovations alongside humanistic inquiry."
+description: "*Computational Humanities Research* is a new open-access journal from Cambridge University Press that fills a need for scholars who use computational methods to share methodological innovations alongside humanistic inquiry."
 social:
   bluesky: "A new open-access journal, Computational Humanities Research, fills a real need for historians and humanists using computational methods to share methodological innovations. Two CFPs open now. https://lincolnmullen.com/blog/the-new-journal-computational-humanities-research/"
   mastodon: "Computational Humanities Research is a new open-access journal from Cambridge University Press edited by Lauren Tilton and Kristoffer Nielbo. It fills a real need: scholars using computational methods need a place to share methodological innovations. Two CFPs are currently open with January deadlines. https://lincolnmullen.com/blog/the-new-journal-computational-humanities-research/"

@@ -3,7 +3,7 @@ date: "2026-03-08T20:49:26-04:00"
 draft: false
 slug: behind-ahead
 title: Behind, ahead
-description: "How agentic AI coding tools have changed the possibilities for digital history, making once-rare programming skills widely accessible, and with an argument that digital history should be judged by the quality of its ideas, not the difficulty of its implementation."
+description: "Agentic AI coding tools have changed the possibilities for digital history, making once-rare programming skills widely accessible. Digital history should be judged by the quality of its ideas, not the difficulty of its implementation."
 social:
   bluesky: "A few months ago I realized my rare and valuable skill—writing code as a historian—was still valuable but no longer rare. Now I'm thinking about what it means when the technical barriers to digital history drop away. https://lincolnmullen.com/blog/behind-ahead/"
   mastodon: "A few months ago I realized that my rare and valuable skill—writing code as a historian—was still valuable but no longer rare. So what happens when the barriers between idea and implementation go way down? I argue that digital history should be judged by the quality of its ideas and interpretations, not the difficulty of its implementation. https://lincolnmullen.com/blog/behind-ahead/"

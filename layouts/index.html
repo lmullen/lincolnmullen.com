@@ -8,10 +8,10 @@
 
 <section class="row g-4 mb-4">
 	<div class="col-md-8 homepage-bio">
-		{{ $photo := resources.Get "img/lincoln-mullen-photo-square.jpeg" }}
+		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
 		{{ $photo1x := $photo.Resize "180x webp" }}
 		{{ $photo2x := $photo.Resize "360x webp" }}
-		<img src="{{ $photo1x.RelPermalink }}" srcset="{{ $photo1x.RelPermalink }} 1x, {{ $photo2x.RelPermalink }} 2x" alt="Lincoln Mullen" width="180" height="180" class="bio-photo">
+		<img src="{{ $photo1x.RelPermalink }}" srcset="{{ $photo1x.RelPermalink }} 1x, {{ $photo2x.RelPermalink }} 2x" alt="Lincoln Mullen" width="{{ $photo1x.Width }}" height="{{ $photo1x.Height }}" class="bio-photo">
 		{{ .Content }}
 		<p>
 			<a href="/bio/" class="btn btn-outline-primary me-2">Biography</a>
@@ -70,13 +70,13 @@
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha384-e3sbGkYzJZpi7OdZc2eUoj7saI8K/Qbn+kPTdWyUQloiKIc9HRH4RUWFVxTonzTg" crossorigin="anonymous"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var grid = document.getElementById('scholarship-grid');
-  if (!grid) return;
-  var msnry = new Masonry(grid, { percentPosition: true });
-  imagesLoaded(grid, function() {
-    msnry.layout();
-  });
-});
+	document.addEventListener('DOMContentLoaded', function () {
+		var grid = document.getElementById('scholarship-grid');
+		if (!grid) return;
+		var msnry = new Masonry(grid, { percentPosition: true });
+		imagesLoaded(grid, function () {
+			msnry.layout();
+		});
+	});
 </script>
 {{ end }}

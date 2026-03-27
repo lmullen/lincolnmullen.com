@@ -10,7 +10,8 @@
   --bs-danger: #a83838;
   --bs-info: #2c4a7c;
   --bs-link-color: #3568b2;
-  --bs-link-hover-color: #2c4a7c;
+  --bs-link-hover-color: var(--bs-secondary);
+  --bs-link-hover-color-rgb: 192, 106, 32;
   --bs-border-color: #d4d6dc;
   --bs-card-bg: #f3f4f6;
   --bs-code-color: #c06a20;
@@ -33,8 +34,8 @@
   --bs-info: #b8d4f8;
   --bs-link-color: #b8d4f8;
   --bs-link-color-rgb: 184, 212, 248;
-  --bs-link-hover-color: #d0e4ff;
-  --bs-link-hover-color-rgb: 208, 228, 255;
+  --bs-link-hover-color: var(--bs-secondary);
+  --bs-link-hover-color-rgb: 240, 168, 96;
   --bs-border-color: #545b66;
   --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
   --bs-card-bg: #363b44;

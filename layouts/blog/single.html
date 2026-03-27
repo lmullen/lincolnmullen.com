@@ -45,9 +45,9 @@
           <div>
             <h6 class="homepage-header mb-1">Subjects</h6>
             <div class="d-flex flex-wrap gap-2">
-            {{ range . }}
-            <span class="badge rounded-pill text-bg-light px-2 py-1 text-nowrap">{{ . }}</span>
-            {{ end }}
+              {{ range . }}
+              <span class="badge rounded-pill text-bg-light px-2 py-1 text-nowrap">{{ . }}</span>
+              {{ end }}
             </div>
           </div>
           {{ end }}
@@ -60,9 +60,26 @@
           {{ end }}
 
           <div>
+            <h6 class="homepage-header mb-1">Blog</h6>
+            <a href="/blog/">Recent posts</a><br>
+            <a href="/archive/">Archive</a>
+          </div>
+
+          <div>
             <h6 class="homepage-header mb-1">Site feeds</h6>
             <a href="/blog/index.xml" class="btn btn-sm btn-outline-secondary me-1"><i class="bi bi-rss-fill me-1"></i>RSS</a>
             <a href="/blog/index.json" class="btn btn-sm btn-outline-secondary"><i class="bi bi-rss-fill me-1"></i>JSON</a>
+          </div>
+
+          <div>
+            <h6 class="homepage-header mb-2">Newsletter</h6>
+            <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
+              <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="blogpost-single">
+              <div class="input-group">
+                <input type="text" name="email" class="form-control" placeholder="Your email" aria-label="Your email">
+                <input type="submit" class="btn btn-secondary" value="Subscribe">
+              </div>
+            </form>
           </div>
 
         </div>
@@ -102,26 +119,6 @@
 
       </article>
       <!-- Blog post ends here -->
-
-      <div class="mt-5">
-        {{ partial "newsletter.html" (dict "tag" "blogpost-single") }}
-      </div>
-
-      <div class="mt-5 mb-4 prevnextlinks">
-        <h5>More blog posts</h5>
-        <div class="d-flex justify-content-between">
-          {{ with .NextInSection }}
-          <a class="text-start" href="{{ .Permalink }}">
-            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;{{ with .Title }}{{ . | markdownify }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}
-          </a>
-          {{ end }}
-          {{ with .PrevInSection }}
-          <a class="text-end" href="{{ .Permalink }}">
-            {{ with .Title }}{{ . | markdownify }}{{ else }}{{ .Date.Format "January 2, 2006" }}{{ end }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
-          </a>
-          {{ end }}
-        </div>
-      </div>
 
     </div>
   </div>

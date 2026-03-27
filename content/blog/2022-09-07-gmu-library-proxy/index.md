@@ -4,8 +4,6 @@ date: 2022-09-07
 slug: 'gmu-library-proxy'
 draft: false
 description: "A browser bookmarklet that automatically routes any paywalled URL through the GMU library proxy—one click instead of manually prepending the proxy address each time."
-tags:
-- library
 image: 01-blocked.png
 ---
 

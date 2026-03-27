@@ -4,8 +4,6 @@ date: 2022-04-11
 slug: 'good-mentor'
 draft: false
 description: "Eight principles for good academic mentorship—starting with the most important: what got you here is not what will get them there, and your career goals are not theirs."
-tags:
-- mentoring
 ---
 
 I was asked to write up what I thought made someone a good academic mentor, in less than a page. Since I had to write it up quickly, here it is for further thought. This list is partial and based on my own experience, but here is what I've observed from watching the good mentors that I have had.

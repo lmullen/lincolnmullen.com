@@ -3,9 +3,12 @@ title: 'Analyzing historical history dissertations: location'
 date: "2014-02-12"
 slug: 'analyzing-historical-history-dissertations-location'
 description: "A mapped look at where history dissertations were produced—the Northeast dominates, but about 25 schools account for half the output while 350 more share the rest."
+draft: false
 tags:
 - digital history
-draft: false
+- computational history
+- spatial history
+- R
 ---
 
 So far I have mostly looked at the number of dissertations, and the page counts of dissertations. I'd like to refine the analysis of page counts by seeing if the length of dissertations varies by [NRC rankings of history departments](https://www.historians.org/publications-and-directories/perspectives-on-history/december-2010/nrc-report-provides-data-on-history-doctoral-programs). Today, though, I want to look at the locations where history dissertations were produced.

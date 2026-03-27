@@ -3,10 +3,10 @@ title: "ASCH/AHA 2019"
 date: "2019-01-02"
 slug: "asch-aha-2019"
 description: "An itinerary for the 2019 ASCH and AHA annual meetings, covering three panels on Mill, digital legal history, and nineteenth-century American anti-Catholicism."
-tags:
-- conferences
-- American religious history
 draft: false
+tags:
+- American religious history
+- legal history
 ---
 
 Tomorrow is the start of the [annual meeting of the American Society of Church History](https://churchhistory.org/conferences/winter-meeting-2019/), now completely divorced---as far as I can tell---from the [American Historical Association annual meeting](https://aha.confex.com/aha/2019/webprogram/start.html). (I hear the MLA will also be in town.) I'm planning to spend most of my time at ASCH, though I will wander over to a few AHA panels as well. I was originally scheduled for only one session, but for me this is the year of filling in, and now I am on three.

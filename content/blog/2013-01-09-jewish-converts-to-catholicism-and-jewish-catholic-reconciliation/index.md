@@ -3,9 +3,11 @@ title: 'Jewish converts to Catholicism and Jewish-Catholic reconciliation'
 date: "2013-01-09"
 slug: 'jewish-converts-to-catholicism-and-jewish-catholic-reconciliation'
 description: "John Connelly's research reveals a striking fact: virtually every Catholic activist who worked for Jewish-Catholic reconciliation from the 1840s to 1965 was born Jewish."
-tags:
-- religion
 draft: false
+tags:
+- American religious history
+- history of Judaism
+- Chance of Salvation
 ---
 
 From Nicholas J. Healy's [review](http://www.firstthings.com/article/2012/12/jacob-and-esau) of John Connelly, *From Enemy to Brother: The Revolution in Catholic Teaching on the Jews, 1933--1965* (Harvard University Press, 2012):

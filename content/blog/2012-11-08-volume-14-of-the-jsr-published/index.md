@@ -3,9 +3,11 @@ title: 'Volume 14 of the JSR published'
 date: "2012-11-08"
 slug: 'volume-14-of-the-jsr-published'
 description: "Volume 14 of the Journal of Southern Religion is out, featuring a forum on religion in the early South—plus the debut of EPUB and Kindle editions generated from a custom Ruby tool."
-tags:
-- digital humanities
 draft: false
+tags:
+- scholarly publishing
+- Ruby
+- programming
 ---
 
 Today the *JSR* editors ([Mike Pasquier](http://www.artsci.lsu.edu/phil/relig/relig_fac.htm), [Luke Harlow](http://web.utk.edu/~history/faculty/f-harlow.htm), [Art Remillard](http://www.francis.edu/Remillard.htm), and [Emily Clark](http://emilysuzanneclark.wordpress.com/)) published [volume 14](http://jsr.fsu.edu/issues/vol14/) of the *[Journal of Southern Religion](http://jsr.fsu.edu/)*. This issue has a great line up of articles, especially the forum on "Religion in the Early South" guest edited by [Rebecca Goetz](http://historianess.wordpress.com/).

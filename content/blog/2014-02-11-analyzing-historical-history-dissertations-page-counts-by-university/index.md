@@ -3,10 +3,13 @@ title: 'Analyzing historical history dissertations: page counts by university'
 date: "2014-02-11"
 slug: 'analyzing-historical-history-dissertations-page-counts-by-university'
 description: "History dissertation lengths vary significantly by university—looking at page count distributions school by school reveals institutional cultures and departmental expectations."
-tags:
-- digital history
 draft: false
 image: pages-american-university.png
+tags:
+- digital history
+- computational history
+- data visualization
+- R
 ---
 
 In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time.

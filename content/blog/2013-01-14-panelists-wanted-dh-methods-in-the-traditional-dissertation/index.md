@@ -3,9 +3,9 @@ title: 'Panelists wanted: DH methods in the traditional dissertation'
 date: "2013-01-14"
 slug: 'panelists-wanted-dh-methods-in-the-traditional-dissertation'
 description: "A call for grad students to join a panel discussion on integrating digital humanities methods into a traditional dissertation—not experts dispensing wisdom, but a conversation about moving forward."
-tags:
-- digital humanities
 draft: false
+tags:
+- digital history
 ---
 
 On March 15--16, Simmons will be hosting a conference titled "Digital Humanities: The Next Generation." You can read the [CFP](http://nulab.neu.edu/events/dhdays2013/). I'd like to put together a moderated discussion with the working title "DH Methods in the Traditional Dissertation." This is my rationale for the session.

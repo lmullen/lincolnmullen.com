@@ -9,7 +9,6 @@ social:
   mastodon: "My colleague John Turner published his biography of Joseph Smith with Yale last summer—a riveting account of America's most controversial religious entrepreneur. Turner presents Smith as both flawed and compelling, drawing on newly accessible diaries and church records. He's also produced thirty detailed podcast episodes to accompany the book. https://lincolnmullen.com/blog/john-turners-biography-of-joseph-smith/"
   linkedin: |
     My colleague John G. Turner has published a major biography of Joseph Smith with Yale University Press—a vivid and deeply researched portrait of one of nineteenth-century America's most significant religious figures. Turner presents Smith as a consummate religious entrepreneur, drawing on newly accessible diaries, church records, and sermon transcripts.
-
     What makes this especially valuable is the extraordinary companion resource Turner has built: thirty podcast episodes of detailed interviews exploring Smith's life and context. Together they constitute a major contribution to the field of American religious history. https://lincolnmullen.com/blog/john-turners-biography-of-joseph-smith/
 # newsletter: true
 # tags:
@@ -19,6 +18,9 @@ social:
 #   source: ""
 # linkpost: ""
 image: joseph-smith-cover.jpg
+tags:
+- American religious history
+- book reviews
 ---
 
 My friend and colleague [John Turner](https://johngturner.com) published his biography, [*Joseph Smith: The Rise and Fall of an American Prophet*](https://yalebooks.yale.edu/book/9780300255164/joseph-smith/), this past summer with Yale University Press. (Why the delayed blog post? Because I manage to publish a blog post as frequently as John publishes a new book.) In addition to the fascinating and well written biography---a worthy sequel (prequel?) to his biography of [Brigham Young](https://www.hup.harvard.edu/catalog.php?isbn=9780674416857)---John has also undertaken an incredibly detailed set of podcast interviews about Smith. There are [thirty episodes and counting](https://www.youtube.com/playlist?list=PLxq5opj6GqOARv8DqnpVuTbHvrtJypVys) available on YouTube. 

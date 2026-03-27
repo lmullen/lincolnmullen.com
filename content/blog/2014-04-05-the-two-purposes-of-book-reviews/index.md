@@ -3,9 +3,10 @@ title: The two purposes of book reviews
 date: "2014-04-05"
 slug: 'the-two-purposes-of-book-reviews'
 description: "Scholarly journal reviews should be candid about a book's flaws; blog and magazine reviews should catch the good—two different genres with two different purposes."
+draft: false
 tags:
 - book reviews
-draft: false
+- scholarly publishing
 ---
 
 At the *Anxious Bench*, [Thomas Kidd](http://www.baylor.edu/history/index.php?id=7728) has a post titled "[The Art of the Book Review](http://www.patheos.com/blogs/anxiousbench/2014/04/the-art-of-the-book-review/)." Kidd argues:

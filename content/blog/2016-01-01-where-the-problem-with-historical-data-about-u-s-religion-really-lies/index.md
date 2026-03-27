@@ -3,11 +3,12 @@ title: 'Where the problem with historical data about U.S. religion really lies'
 date: "2016-01-01"
 slug: 'where-the-problem-with-historical-data-about-u-s-religion-really-lies'
 description: "The problem with quantitative U.S. religious history isn't method—it's sources: historians rely on coarse Census aggregates when richer denominational records are available."
+draft: false
+image: minutes-1858.png
 tags:
 - American religious history
 - data
-draft: false
-image: minutes-1858.png
+- digital history
 ---
 
 One of my [side projects](http://hdl.handle.net/2027/nyp.33433069134900?urlappend=%3Bseq=23) (eventually to turn into a main project) is figuring out [what can be done](https://projects.lincolnmullen.com/asch-2015/) with historical data about religious groups in the United States. This ground is in some ways well trodden. The field has a very fine atlas in the form of Gaustad, Barlow, and Dishno's *[New Historical Atlas of Religion in America](http://amzn.to/1JOC0EB)*, as well as an experimental *[Digital Atlas of American Religion](http://religionatlas.org/?page_id=44)* for the twentieth century. Then too, the field has more or less decided that this ground is not worth treading anyway. There are a number of sophisticated critiques of the whole enterprise of dealing with religious statistics and mapping. If I can sum these up in a broad statement, the point is that numbers don't tell us anything that the field actually wants to know. As Laurie Maffly-Kipp puts it in a well-argued review essay, "our dazzling new technologies and spatial theories" might only have "brought us back to much more circumscribed definitions of religious experience."[^1] I recognize the weight of these arguments, and a full justification for dealing with religious statistics will eventually have to take them into account.

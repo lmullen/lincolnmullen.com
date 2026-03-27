@@ -3,12 +3,12 @@ title: 'How to make prudent choices about your tools'
 date: "2013-08-14"
 slug: 'how-to-make-prudent-choices-about-your-tools'
 description: "The best tool is the one you're already using to get work done—rules of thumb for deciding when a tool switch is worth the hidden cost of all the familiarity you'll lose."
-tags:
-- technology
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/how-to-make-prudent-choices-about-your-tools/51261"
   source: "ProfHacker"
+tags:
+- tools
 ---
 
 One of the occupational hazards of being the kind of person who writes for or reads ProfHacker is the constant urge to try out new tools or techniques in the relentless search for "productivity." Sharpening one's tools might be a mark of a professional, yet constantly switching tools is the mark of someone who is just wasting time. As Jason has [explained](http://chronicle.com/blogs/profhacker/what-we-talk-about-when-we-talk-about-productivity/47805), ProfHacker is not interested in hacks for hacks' sake.

@@ -5,6 +5,7 @@ slug: 15
 draft: false
 tags:
 - America's Public Bible
+- publication
 ---
 
 Greetings. As foretold, my interactive scholarly work, [_America's Public Bible: A Commentary_](https://americaspublicbible.org), is being published today by Stanford University Press.

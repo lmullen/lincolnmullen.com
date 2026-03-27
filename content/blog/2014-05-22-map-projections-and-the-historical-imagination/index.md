@@ -3,11 +3,12 @@ title: Map projections and the historical imagination
 date: "2014-05-22"
 slug: 'map-projections-and-the-historical-imagination'
 description: "Richard Edes Harrison's WWII maps wrenched Americans from Mercator's grip—and D3.js now gives historians the same freedom to choose projections that serve their arguments."
-tags:
-- digital history
-- spatial humanities
 draft: false
 image: facing-east.png
+tags:
+- digital history
+- spatial history
+- JavaScript
 ---
 
 At the *New Republic*, [Susan Schulten](http://www.mappingthenation.com/) has a [fascinating article](http://www.newrepublic.com/article/117835/richard-edes-harrison-reinvented-mapmaking-world-war-2-americans) about maps made by Richard Edes Harrison during World War II. Schulten writes that Harrison, an artist and not a cartographer, changed the American public's perception of the war and world by refusing to use the Mercator projection. Instead, he drew maps from various perspectives above the earth, evoking "the perspective of a pilot, but one placed at an infinite distance."

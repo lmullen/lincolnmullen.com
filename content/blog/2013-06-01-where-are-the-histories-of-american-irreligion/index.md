@@ -3,14 +3,13 @@ title: 'Where are the histories of American irreligion?'
 date: "2013-06-01"
 slug: 'where-are-the-histories-of-american-irreligion'
 description: "To understand what Campbell defended, we must understand what Owen argued for—but for hundreds of books on American religion there are scarcely three good histories of American irreligion."
-tags:
-- American religious history
-- historiography
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2013/06/where-are-histories-of-american.html"
   source: "Religion in American History"
 image: 2013-06-01-owen-campbell-debate.png
+tags:
+- American religious history
 ---
 
 {{< figure src="2013-06-01-owen-campbell-debate.png" >}}

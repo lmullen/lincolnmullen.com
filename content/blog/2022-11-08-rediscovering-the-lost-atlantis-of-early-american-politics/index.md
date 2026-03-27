@@ -4,15 +4,14 @@ date: '2022-11-08T13:10:24-05:00'
 slug: "rediscovering-the-lost-atlantis-of-early-american-politics"
 description: "Philip Lampi spent decades living out of his car to reconstruct early American election returns that no one had systematically preserved—perhaps the greatest act of historical recovery in U.S. history."
 draft: false
-tags:
-- political history
-- elections
-- Mapping Early American Elections
 crosspost: 
   url: "https://rrchnm.org/news/how-philip-lampi-recovered-the-lost-history-of-early-american-elections/"
   source: "RRCHNM"
 # linkpost: ""
 image: meae.png
+tags:
+- digital history
+- data
 ---
 
 As Americans go to the polls to vote in today's midterm Congressional elections, they will be able to watch results flow practically in real time. By the end of the day, the data for the election returns will be more or less available. For much of United States history, of course, information flowed more slowly. But even still, we can take it for granted that there are regular records of elections, and that it is straightforward to find out who won.

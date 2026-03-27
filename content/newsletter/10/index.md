@@ -4,10 +4,11 @@ date: "2021-03-08"
 slug: 10
 draft: false
 tags:
-- newsletter
 - Collecting These Times
 - Pandemic Religion
 - American Religious Ecologies
+- America's Public Bible
+- RRCHNM
 ---
 
 Hi folks. It has been a hectic couple of months since last I wrote. By a curious confluence of events, in the past week or two a number of lines of work have come to fruition, while others have just gotten started. (Almost all of this work is done in collaboration with my colleagues at [RRCHNM](https://rrchnm.org). Credit where credit is due, but you'll have to click through to see all the contributors to these projects.) 

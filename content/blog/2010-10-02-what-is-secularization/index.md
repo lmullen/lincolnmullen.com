@@ -3,9 +3,9 @@ title: 'What is secularization?'
 date: "2010-10-02"
 slug: 'what-is-secularization'
 description: "Charles Taylor's most useful definition of secularization focuses not on declining belief but on the shift to a world where religion becomes one contested option among others."
-tags:
-- religion
 draft: false
+tags:
+- American religious history
 ---
 
 A few days ago, Paul [introduced us to secularization theory](http://religioninamerica.org/2010/09/25/secularization-theory/), and in particular to Charles Taylor's book *A Secular Age*. (Taylor's other book, *Sources of the Self*, was the [subject of an earlier post](http://religioninamerica.org/2010/09/02/charles-taylor-and-the-sources-of-the-self/).) Taylor's book is notable for going against the grain: at a time when most scholars are again recognizing the importance of religion, Taylor has undertaken to explain the old question of why societies become more secular. Why?

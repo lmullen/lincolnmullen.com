@@ -3,9 +3,9 @@ title: 'Initial thoughts from the AHA / ASCH / ACHA'
 date: "2013-01-06"
 slug: 'initial-thoughts-from-the-aha-asch-acha'
 description: "Reflections from New Orleans: a first ACHA panel on Catholic converts, and an unexpected throughline of storytelling—from Cronon's presidential address to sessions on the digital public."
-tags:
-- conferences
 draft: false
+tags:
+- Chance of Salvation
 ---
 
 Today is the final day of the American Historical Association's annual meeting, along with the annual meetings of the American Society for Church History and the American Catholic Historical Association, but I am back at my desk in Boston after spending the last three days in New Orleans.

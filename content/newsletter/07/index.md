@@ -4,9 +4,10 @@ date: "2020-11-02"
 slug: 7
 draft: false
 tags:
-- newsletter
 - DataScribe
-- Current Research in Digital History
+- RRCHNM
+- digital history
+- scholarly publishing
 ---
 
 Greetings. Sorry it's been a while, but welcome back to *Working on It*.

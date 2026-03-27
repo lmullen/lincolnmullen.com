@@ -3,10 +3,10 @@ title: Preliminary reading list for Religion and Capitalism
 date: "2014-10-31"
 slug: 'preliminary-reading-list-for-religion-and-capitalism'
 description: "A preliminary reading list for a graduate seminar on religion and capitalism, engaging the field's unexamined marketplace metaphors and the new history of capitalism."
+draft: false
 tags:
 - American religious history
 - teaching
-draft: false
 ---
 
 This spring I'll have a chance to teach a graduate readings seminar on the history of religion and American capitalism. This a course I've been thinking about for a long time, and for a number of reasons I think it is worth doing.

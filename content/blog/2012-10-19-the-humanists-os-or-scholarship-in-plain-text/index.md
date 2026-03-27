@@ -5,9 +5,9 @@ slug: 'the-humanists-os-or-scholarship-in-plain-text'
 description: "Workshop materials for building a plain-text scholarly workflow with Markdown, Pandoc, and Git—resources for humanists who want Unix-style tools for their research and writing."
 aliases:
 - '/blog/scholarship-in-plain-text/'
-tags:
-- technology
 draft: false
+tags:
+- tools
 ---
 
 This Saturday, October 20, I'll be giving a [workshop](http://newengland2012.thatcamp.org/workshops/) at [THATCamp New England 2012](http://newengland2012.thatcamp.org/). Here is the description of the workshop:

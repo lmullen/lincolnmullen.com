@@ -3,10 +3,13 @@ title: 'Analyzing historical history dissertations: gender'
 date: "2014-02-24"
 slug: 'analyzing-historical-history-dissertations-gender'
 description: "Using SSA names data to infer the gender of history dissertation authors shows a steady rise in women's share since the 1950s, plateauing just below parity."
-tags:
-- digital history
 draft: false
 image: dissertations-by-gender-proportion.png
+tags:
+- digital history
+- computational history
+- data visualization
+- R
 ---
 
 **Update February 24, 2014 at 1:50 p.m.:** *I improved the regular expression that parses out first names, so the charts and table have been updated with fewer unknowns.*

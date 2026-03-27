@@ -4,9 +4,10 @@ date: "2022-10-30"
 slug: 14
 draft: false
 tags:
-- history of antisemitism
 - America's Public Bible
-- podcasts
+- antisemitism
+- RRCHNM
+- publication
 ---
 
 Hi folks. I write to you after, lo, these many months with two pieces of news and some recommendations.

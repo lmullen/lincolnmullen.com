@@ -4,8 +4,9 @@ date: "2020-05-17"
 slug: 4
 draft: false
 tags:
-- newsletter
 - Pandemic Religion
+- American religious history
+- RRCHNM
 ---
 
 Supposedly this newsletter promises that I am working on it, and at the moment the "it" is [*Pandemic Religion*](https://pandemicreligion.org/).

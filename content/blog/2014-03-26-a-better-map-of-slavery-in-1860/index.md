@@ -3,11 +3,11 @@ title: A better map of slavery in 1860
 date: '2014-03-26T02:59:00+00:00'
 slug: 'a-better-map-of-slavery-in-1860'
 description: "Why the choice of classification breaks matters: improving a viral map of slavery in 1860 by replacing misleading quartile breaks with a more honest natural-breaks scheme."
+image: slaves_1860.webp
 tags:
-- mapping
+- spatial history
 - slavery
 - digital history
-image: slaves_1860.webp
 ---
 
 When I finished working the other night I [tweeted](https://twitter.com/lincolnmullen/status/448282708095934464) the current state of the map of slavery that I had been making. Anthea Butler [retweeted](https://twitter.com/AntheaButler/status/448282851055009792) it, and then a lot of people saw it. (Not *that* many, but certainly more than will ever read the dissertation chapter the map is a part of.) I'm glad that people found the map interesting. But though there was nothing erroneous about the map, it certainly was not the best map of slavery possible. Here is the draft map.

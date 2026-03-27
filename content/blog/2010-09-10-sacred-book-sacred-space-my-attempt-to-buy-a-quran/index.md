@@ -3,9 +3,9 @@ title: "Sacred book, sacred space: my attempt to buy a Qur'an"
 date: "2010-09-10"
 slug: 'sacred-book-sacred-space-my-attempt-to-buy-a-quran'
 description: "The Qur'an-burning and Ground Zero mosque controversies share a root cause: not a clash between Islam and Christianity, but between Islam and American civil religion."
-tags:
-- religion
 draft: false
+tags:
+- American religious history
 ---
 
 Yesterday afternoon, I tried to buy a Qur'an. I used to own two copies of the Qur'an (or, to be precise, a translation of the meaning of the Qur'an). One I bought as a textbook, and read, and one was mailed to me by Muslims trying to proselytize, but a search of my bookcases and attic revealed that neither copy had survived recent relocations. And so, I walked to the center of town to buy another copy.

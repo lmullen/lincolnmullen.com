@@ -4,9 +4,8 @@ date: "2021-09-07"
 slug: 12
 draft: false
 tags:
-- newsletter
-- Roy Rosenzweig
-- tools of the trade
+- tools
+- RRCHNM
 ---
 
 As promised, here is the first installment of an occasional series on my tech stack. If you want to jump straight to the history, see below for two book recommendations on labor history and religious history.

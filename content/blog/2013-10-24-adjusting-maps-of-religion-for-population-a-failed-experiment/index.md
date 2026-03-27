@@ -3,12 +3,14 @@ title: 'Adjusting Maps of Religion for Population (A Failed Experiment?)'
 date: "2013-10-24"
 slug: 'adjusting-maps-of-religion-for-population-a-failed-experiment'
 description: "Dividing county-level religion data by population to control for density—but in 1860 the population was more evenly distributed, so the adjustment changes less than expected."
-tags:
-- digital history
-- mapping
-- R
 draft: false
 image: 2013-10-24-churches-relative.png
+tags:
+- digital history
+- spatial history
+- R
+- American religious history
+- data visualization
 ---
 
 XKCD [points out a common problem](http://xkcd.com/1138/) in mapping data:

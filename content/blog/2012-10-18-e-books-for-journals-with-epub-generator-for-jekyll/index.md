@@ -3,10 +3,11 @@ title: 'E-books for journals with EPUB generator for Jekyll'
 date: "2012-10-18"
 slug: 'e-books-for-journals-with-epub-generator-for-jekyll'
 description: "A Ruby script that parses Jekyll site content and pipes it through Pandoc to generate EPUB editions—written for the Journal of Southern Religion and usable on any Jekyll site."
-tags:
-- digital humanities
-- Ruby
 draft: false
+tags:
+- Ruby
+- programming
+- scholarly publishing
 ---
 
 The *JSR* [editors](http://jsr.fsu.edu/about/masthead.html) been making a lot of changes at the *[Journal of Southern Religion](http://jsr.fsu.edu)* in the past year. We've [rebuilt the site](http://jsr.fsu.edu/blog/announcement/site-update.html) from the ground up, we've [released our content under an open-access license](http://jsr.fsu.edu/blog/announcement/open-access-license.html) (written up [here](http://oaopenaccess.wordpress.com/2012/08/27/open-access-journal-of-southern-religion-adopts-creative-commons-attribution-license/)), we've added a [successful podcast](http://jsr.fsu.edu/new-media/) with seven episodes already, and we're getting close to adding DOIs and releasing a new issue. Sometime soon I want to write a full 'making of' post about the decisions we made and the tools we used. Today, though, I want to introduce a Ruby script I've written for the *JSR* to make e-books in [EPUB](http://idpf.org/epub) format of each issue.

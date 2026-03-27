@@ -3,6 +3,8 @@ date: '2023-04-11T14:56:57-04:00'
 slug: '2023-04-11-14-56-57'
 feedid: '/micro/2023-04-11-14-56-57/'
 linkpost: https://www.congregationallibrary.org/events/americaspublicbible
+tags:
+- America's Public Bible
 ---
 
 The Congregational Library and Archives has kindly invited me to talk about _America's Public Bible: A Commentary_ with them on April 19. The event is online and open to the public [if you register here](https://www.congregationallibrary.org/events/americaspublicbible). 

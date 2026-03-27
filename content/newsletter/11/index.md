@@ -4,9 +4,9 @@ date: "2021-08-29"
 slug: 11
 draft: false
 tags:
-- newsletter
-- technology
 - America's Public Bible
+- tools
+- programming
 ---
 
 Hi folks. It has been an embarrassingly long time since I wrote an issue of this newsletter. A few things happened. The sheer exhaustion of the pandemic caught up with me, as I am sure it did with you. But even more, I took on a major non-work responsibility---the details don't matter for our purposes---and I have tried to discharge my duty faithfully. But a new academic year is upon us, and I hope to get back to writing this newsletter. Below is a scattershot of updates to get started again.

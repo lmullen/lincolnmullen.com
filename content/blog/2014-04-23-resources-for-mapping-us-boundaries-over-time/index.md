@@ -3,11 +3,11 @@ title: Resources for mapping US boundaries over time
 date: "2014-04-23"
 slug: 'resources-for-mapping-us-boundaries-over-time'
 description: "A guide to resources for mapping U.S. historical boundaries, led by the Newberry Library's Atlas of Historical County Boundaries with data from 1629 to 2000."
-tags:
-- digital history
-- spatial humanities
 draft: false
 image: us-1851.png
+tags:
+- digital history
+- spatial history
 ---
 
 When making maps it's not hard to find contemporary boundaries. The [Census Bureau](http://www.census.gov/geo/maps-data/data/tiger-line.html) for the United States and [Natural Earth](http://www.naturalearthdata.com/) for the rest of the world offer reliable shapefiles. Languages like R include [packages](http://cran.r-project.org/web/packages/maps/index.html) which make accessing boundary data very easy. But when working on maps for history, using contemporary boundaries with historical data makes for glaring anachronisms. What I've wanted for research purposes are historical boundaries of the United States which include the changes for each year, and which I can trust because of the evidence of scholarship (e.g., citations) behind them. I also want these boundaries for teaching, so that geography can provide a backbone to the religious, cultural, social, and political changes I'm usually discussing. These are the sources that I've found with a few comments on their usefulness for research and teaching.

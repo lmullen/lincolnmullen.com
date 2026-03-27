@@ -4,9 +4,8 @@ date: "2020-12-06"
 slug: 8
 draft: false
 tags:
-- newsletter
-- visualization
-- religious statistics
+- American religious history
+- data visualization
 ---
 
 In 1927 the Presbyterian Church in the U.S.A. [published a statistical review of their past century](https://catalog.hathitrust.org/Record/007109885), tabulating membership data and other figures from 1826 to 1926. The "laborious task" took the compiler, Herman C. Weber, about three years to accomplish. Its aim was both to make permanent the research he had done on behalf of the denomination as a whole, but also to inform the ongoing ministry of individual congregations. 

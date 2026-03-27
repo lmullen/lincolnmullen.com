@@ -10,6 +10,8 @@ description: "Kris Stinson defends his dissertation on religion and archaeology 
 #   url: ""
 #   source: ""
 # linkpost: ""
+tags:
+- American religious history
 ---
 
 My student [Kris Stinson](https://kristoferstinson.com) will be defending his dissertation at the end of the semester. Here is the formal announcement:

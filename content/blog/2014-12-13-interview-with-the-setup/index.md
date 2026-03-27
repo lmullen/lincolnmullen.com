@@ -3,9 +3,9 @@ title: Interview with the Setup
 date: "2014-12-13"
 slug: 'interview-with-the-setup'
 description: "An interview for *The Setup* on the hardware and software a digital historian uses—MacBook Pro, R, Vim, plain text, and a conviction that Unix tools outlast trends."
-tags:
-- personal
 draft: false
+tags:
+- tools
 ---
 
 *\[I was interviewed by [The Setup](http://lincoln.mullen.usesthis.com/), "a collection of nerdy interviews asking people from all walks of life what they use to get the job done." The interview is [there](http://lincoln.mullen.usesthis.com/) and below.\]*

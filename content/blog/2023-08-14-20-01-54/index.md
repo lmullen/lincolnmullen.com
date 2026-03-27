@@ -3,6 +3,8 @@ date: "2023-08-14T20:01:54-04:00"
 slug: '2023-08-14-20-01-54'
 feedid: '/micro/2023-08-14-20-01-54/'
 linkpost: "https://rrchnm.org/about-rrchnm/passing-the-baton/"
+tags:
+- RRCHNM
 ---
 
 I am grateful to have worked for Mills Kelly for the past four years as he has

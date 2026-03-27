@@ -3,6 +3,8 @@ date: "2023-05-10T09:45:56-04:00"
 slug: '2023-05-10-09-45-56'
 feedid: '/micro/2023-05-10-09-45-56/'
 linkpost: https://mailchi.mp/d3ba39d2a086/rrchnm-news-2?e=7cb773a4b0
+tags:
+- RRCHNM
 ---
 
 The [May newsletter](https://mailchi.mp/d3ba39d2a086/rrchnm-news-2?e=7cb773a4b0)

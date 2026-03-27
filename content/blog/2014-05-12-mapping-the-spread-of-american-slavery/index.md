@@ -2,14 +2,15 @@
 date: "2014-05-12"
 slug: "mapping-the-spread-of-american-slavery"
 description: "An animated map of slavery's expansion across the United States from 1790 to 1860, updated for the web from the 1861 Coast Survey map that Lincoln kept on his desk."
-tags:
-  - slavery
-  - visualization
-  - mapping
 title: Mapping the spread of American slavery
 aliases:
   - /blog/the-spread-of-american-slavery/
 image: visualization-screenshot-1.png
+tags:
+- spatial history
+- slavery
+- digital history
+- data visualization
 ---
 
 _\[A revised version of this post [was published at Smithsonian.com](http://www.smithsonianmag.com/history/maps-reveal-slavery-expanded-across-united-states-180951452/).\]_

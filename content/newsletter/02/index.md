@@ -4,8 +4,10 @@ date: "2020-01-22"
 slug: 2
 draft: false
 tags:
-- newsletter
 - computational history
+- digital history
+- teaching
+- R
 ---
 
 Greetings. And welcome back to *Working on It*.

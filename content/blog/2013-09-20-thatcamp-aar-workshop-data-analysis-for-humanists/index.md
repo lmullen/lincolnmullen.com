@@ -3,10 +3,12 @@ title: 'THATCamp AAR workshop: data analysis for humanists'
 date: "2013-09-20"
 slug: 'thatcamp-aar-workshop-data-analysis-for-humanists'
 description: "A THATCamp AAR workshop using R to map Paulist missions, analyze religious demographics, and mine *Tracts for the Times*—combining mapping, text analysis, and quantitative methods."
+draft: false
 tags:
 - digital history
 - R
-draft: false
+- text analysis
+- spatial history
 ---
 
 At [THATCamp American Academy of Religion](http://aar2013.thatcamp.org/) on November 22 I will be giving this workshop. I think they wanted me to do it because of [this post](http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html).

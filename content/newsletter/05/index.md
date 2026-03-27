@@ -4,10 +4,10 @@ date: "2020-06-07"
 slug: 5
 draft: false
 tags:
-- newsletter
 - American Religious Ecologies
 - America's Public Bible
-- visualization
+- data visualization
+- spatial history
 ---
 
 Greetings. And welcome back to *Working on It*.

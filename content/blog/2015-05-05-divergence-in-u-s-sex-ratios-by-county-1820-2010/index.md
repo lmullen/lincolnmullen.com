@@ -3,12 +3,12 @@ title: 'Divergence in U.S. sex ratios by county, 1820--2010'
 date: "2015-05-05"
 slug: 'divergence-in-u-s-sex-ratios-by-county-1820-2010'
 description: "An interactive map of U.S. sex ratios by county from 1820 to 2010 reveals frontier imbalance, Civil War absences, and prison counties bulging with men since the 1990s."
-tags:
-- digital history
-- mapping
-- data visualization
 draft: false
 image: visualization-screenshot.png
+tags:
+- digital history
+- spatial history
+- data visualization
 ---
 
 At a THATCamp New England last spring I re-purposed some earlier code to create a map of sex ratios by county from U.S. Census data. As far as I can remember, though, I never actually made the map public or wrote about it beyond showing it to a few people. I don't intend to do anything more with this data, so here is the interactive map on [Divergence in U.S. Sex Ratios by County, 1820--2010](https://projects.lincolnmullen.com/sex-ratios/).

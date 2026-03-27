@@ -3,9 +3,10 @@ title: 'The quantified dissertation: using Bash and cron to track word counts'
 date: "2012-08-17"
 slug: 'the-quantified-dissertation-using-bash-and-cron-to-track-word-counts'
 description: "A Bash script and cron job that logs hourly word counts for every dissertation chapter to a CSV file, so you can chart your writing progress over time."
-tags:
-- technology
 draft: false
+tags:
+- tools
+- programming
 ---
 
 Here is a hack for those of you writing a dissertation (or book, or other long form project) in plain text. Since I am writing my dissertation in [Markdown](http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295) and [Pandoc](http://chronicle.com/blogs/profhacker/pandoc-converts-all-your-text-documents/38700), it's easy to find out the word count for a chapter from the command line:

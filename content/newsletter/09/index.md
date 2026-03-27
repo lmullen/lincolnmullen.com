@@ -3,9 +3,6 @@ title: "T.B. Blues"
 date: "2020-12-23"
 slug: 9
 draft: false
-tags:
-- newsletter
-- country music
 ---
 
 Jimmie Rodgers was the first major star of country music, known for adding his trademark "blue yodel" to vaudeville and hillbilly songs. His persona was as important as the music, and Rodgers cultivated a larger-than-life image as someone who had lived out all his songs about trains, whiskey, and women.

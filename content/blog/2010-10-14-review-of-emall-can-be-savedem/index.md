@@ -3,10 +3,9 @@ title: 'Review of All Can Be Saved'
 date: "2010-10-14"
 slug: 'review-of-emall-can-be-savedem'
 description: "Stuart Schwartz finds that toleration in the Iberian Atlantic world grew from common people's own moral reasoning—not from elite philosophy—as they concluded that each person could be saved in their own faith."
+draft: false
 tags:
 - book reviews
-- history
-draft: false
 ---
 
 **Schwartz, Stuart B. *All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World*. New Haven, CT: Yale University Press, 2008. ISBN: 978-0-300-15854-0.**

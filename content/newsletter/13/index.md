@@ -4,8 +4,9 @@ date: "2022-04-16"
 slug: 13
 draft: false
 tags:
-- newsletter
 - American Religious Ecologies
+- spatial history
+- RRCHNM
 ---
 
 Hi folks. Lest this newsletter's status be downgraded from *occasional*

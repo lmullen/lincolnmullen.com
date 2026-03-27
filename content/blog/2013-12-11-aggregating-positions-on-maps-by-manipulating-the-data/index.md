@@ -3,11 +3,12 @@ title: 'Aggregating positions on maps by manipulating the data'
 date: "2013-12-11"
 slug: 'aggregating-positions-on-maps-by-manipulating-the-data'
 description: "Using R's plyr package to aggregate overlapping map points by city and year, turning Paulist mission records into clear, additive clusters instead of stacked dots."
+draft: false
 tags:
 - digital history
+- spatial history
 - R
-- mapping
-draft: false
+- American religious history
 ---
 
 I've recently been [mapping the missions of the Paulist Fathers](http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html) over the course of the nineteenth century. One problem with the data is that many of the points overlap with one another, since the Paulists were often in cities like New York, Philadelphia, Chicago, and Baltimore. When mapping these points, they overlap with one another.

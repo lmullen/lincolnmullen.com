@@ -11,6 +11,12 @@ draft: false
 #   url: ""
 #   source: ""
 # linkpost: ""
+tags:
+- teaching
+- computational history
+- digital history
+- data visualization
+- JavaScript
 ---
 
 I've posted my [syllabus](/courses/data.2025/) for this semester's iteration of Data Analysis for History. I've been teaching this course for over a decade. (Previous iterations: [2014](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf), [2016](https://files.lincolnmullen.com/syllabi/data-dh.2016.pdf), [2017](https://files.lincolnmullen.com/syllabi/clio2.2017.pdf), [2018](/courses/clio2.2018/), [2019](/courses/clio2.2019/), [2020](/courses/data.2020/), [2023](/courses/data.2023/).) This is the first time I have totally re-thought the syllabus, rather than iteratively improved it.

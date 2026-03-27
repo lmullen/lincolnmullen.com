@@ -3,12 +3,11 @@ title: 'Syllabus for "Text Analysis for Historians"'
 date: "2016-08-26"
 slug: 'syllabus-for-text-analysis-for-historians'
 description: "A disciplinary syllabus for a graduate independent study in text analysis for historians, organized around a corpus of Anglo-American legal treatises."
+draft: false
 tags:
 - digital history
-- syllabus
 - teaching
 - text analysis
-draft: false
 ---
 
 This semester I am teaching an independent study for graduate students on "Text Analysis for Historians." You can see the [syllabus here](https://files.lincolnmullen.com/syllabi/text-analysis.2016.pdf). It's an unashamedly disciplinary course. While of course the readings are heavily dependent on the work that is being done in digital humanities or digital literary studies, the organizing principle is whether a method is likely to be useful for historical questions. And the syllabus is organized around a corpus of Anglo-American legal treatises, with readings to frame our work in the context of U.S. legal history.

@@ -3,10 +3,10 @@ title: 'TEI Boilerplate for getting started with TEI'
 date: "2013-02-05"
 slug: 'tei-boilerplate-for-getting-started-with-tei'
 description: "TEI Boilerplate uses XSL and jQuery to render TEI files directly in the browser—a much lower barrier to entry than learning XSLT just to see your encoded text."
-tags:
-- digital humanities
-- TEI
 draft: false
+tags:
+- digital history
+- tools
 ---
 
 I sat in on [John Unsworth's](https://twitter.com/unsworth) digital humanities class on [TEI](http://www.tei-c.org/index.xml) this morning. I'd investigated TEI before, but TEI was frustrating because of the difficulty of transforming the TEI into something immediately visible and useful to check my work. Last night I discovered [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/), a basic XSL stylesheet to transform a TEI file so it is readable in a browser, with accompanying CSS and Javascript. The idea is to let you use your jQuery skills instead of learning XSLT:

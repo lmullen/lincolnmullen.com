@@ -3,10 +3,9 @@ title: "How long does it take to publish in the AHR?"
 date: "2018-07-31"
 slug: "how-long-does-it-take-to-publish-in-the-ahr"
 description: "One article's journey through the *American Historical Review*—349 days from submission to acceptance—makes the case for shorter review deadlines and preprints."
-tags:
-- publishing
-- peer review
 draft: false
+tags:
+- scholarly publishing
 ---
 
 The April 2018 issue of the *American Historical Review* has a [note by the editor](https://doi.org/10.1093/ahr/123.2.xiv), Alex Lichtenstein, explaining the journal's process of peer review and giving a summary of the average length of time it takes an article to go from initial submission to final acceptance. It's an interesting note, and I appreciate the editor's transparency. I also appreciate that the journal has clearly stated in its [author guidelines](https://academic.oup.com/ahr/pages/Author_Guidelines) how many articles it receives, how many of those make it through the full review process, and how many are published. Since Kellen Funk and I published an [article](https://academic.oup.com/ahr/article/123/1/132/4840258?guestAccessKey=3a271895-4af8-41e8-b3d9-15941dfe0bcf) in the *AHR* earlier this year, I thought I might comment on the process of peer review, and especially the time it takes to get one's work into circulation, from the perspective of an author.

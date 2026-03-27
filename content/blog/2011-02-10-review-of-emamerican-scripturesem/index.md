@@ -3,9 +3,10 @@ title: 'Review of American Scriptures'
 date: "2011-02-10"
 slug: 'review-of-emamerican-scripturesem'
 description: "Maffly-Kipp's anthology of sacred texts written in America reveals a striking pattern: nearly all reinterpret Jesus, making it a rich companion to cultural histories of American religion."
-tags:
-- religion
 draft: false
+tags:
+- book reviews
+- American religious history
 ---
 
 **Maffly-Kipp, Laurie F., ed. *American Scriptures: An Anthology of Sacred Writings*. New York: Penguin Books, 2010. 406 pages. ISBN: 0143106198.**

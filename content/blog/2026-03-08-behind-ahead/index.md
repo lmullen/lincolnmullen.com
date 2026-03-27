@@ -9,8 +9,10 @@ social:
   mastodon: "A few months ago I realized that my rare and valuable skill—writing code as a historian—was still valuable but no longer rare. So what happens when the barriers between idea and implementation go way down? I argue that digital history should be judged by the quality of its ideas and interpretations, not the difficulty of its implementation. https://lincolnmullen.com/blog/behind-ahead/"
   linkedin: |
     I recently wrote about how agentic AI coding tools have changed what's possible in digital history. A few months ago, I realized that my rare skill—writing code as a historian—was no longer rare. I watched a first-year graduate student vibe code a map in an hour that was at least as technically sophisticated as the one I used in my job talk a decade ago.
-
     If the barriers between idea and implementation drop dramatically, what does that mean for digital history? I argue that digital history should be judged not by the difficulty of its implementation but by the quality of its ideas and interpretations. In short: have we said something meaningful about the past? https://lincolnmullen.com/blog/behind-ahead/
+tags:
+- digital history
+- RRCHNM
 ---
 
 ## Behind

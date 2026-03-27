@@ -9,6 +9,10 @@ social:
   bluesky: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
   mastodon: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
   linkedin: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
+tags:
+- digital history
+- teaching
+- American religious history
 ---
 
 Welcome back to the (very) occasional newsletter. It has been 668 days since the last issue.

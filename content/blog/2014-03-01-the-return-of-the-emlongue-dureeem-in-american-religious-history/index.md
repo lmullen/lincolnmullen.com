@@ -3,12 +3,13 @@ title: 'The return of the longue durée in American religious history'
 date: "2014-03-01"
 slug: 'the-return-of-the-emlongue-dureeem-in-american-religious-history'
 description: "The field gained breadth of subject by narrowing chronological scope after Ahlstrom, but Armitage and Guldi's call for the longue durée invites American religious history to reclaim synthesis."
-tags:
-- American religious history
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2014/03/the-return-of-longue-duree-in-american.html"
   source: "Religion in American History"
+tags:
+- American religious history
+- digital history
 ---
 
 [David Armitage](http://scholar.harvard.edu/armitage) and [Jo Guldi](http://www.joguldi.com/) have written an article forthcoming in *Annales* which will likely appear on many history department syllabi this fall. (It ought to appear on religious studies syllabi too.) In "[The Return of the *Longue Durée*: An Anglo-American Perspective](http://scholar.harvard.edu/armitage/publications/return-longue-dur%C3%A9e)", Armitage and Guldi describe how and why historians since the 1920s increasingly framed their work within shorter and shorter periods of time. (In addition to their own reading of the historiography, they draw on Ben Schmidt's [study of history dissertations](http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html).) But Armitage and Guldi also point out that since the 1980s historians have been more and more likely to write about longer periods of time. And they argue that "a return to ... the *longue durée* is now both imperative and feasible: imperative, in order to restore history's place as a critical social science, and feasible due to the increased availability of large amount of historical data and the digital tools necessary to analyse it."

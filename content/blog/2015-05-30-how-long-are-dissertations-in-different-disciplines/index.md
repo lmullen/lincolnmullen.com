@@ -3,11 +3,11 @@ title: 'How long are dissertations in different disciplines?'
 date: "2015-05-30"
 slug: 'how-long-are-dissertations-in-different-disciplines'
 description: "ProQuest data on dissertation lengths across disciplines shows history with the longest median at 320 pages, while economics hovers near the bottom."
-tags:
-- digital history
-- data analysis
 draft: false
 image: diss-length.png
+tags:
+- digital history
+- data visualization
 ---
 
 About a year ago when I was finishing my dissertation I got intensely interested in seeing what I could figure out about history dissertations from data. I'll let you draw your own conclusions as to why that seemed more urgent than writing my own dissertation. I wrote a series of posts on the topic using a dataset of historical history dissertations from ProQuest. But ProQuest also gave me a dataset of contemporary dissertations from all fields that I have not yet done anything with.

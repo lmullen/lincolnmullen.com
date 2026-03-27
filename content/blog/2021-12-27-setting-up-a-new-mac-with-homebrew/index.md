@@ -3,10 +3,9 @@ title: 'Setting up a new Mac with dotfiles and Homebrew bundle'
 date: '2021-12-27'
 slug: 'setting-up-a-new-mac-with-homebrew'
 description: "A GitHub dotfiles repository and a Homebrew Brewfile make Mac setup reproducible, automating application installs and development environment configuration."
-tags: 
-- Mac
-- Homebrew
 image: env-screenshot.png
+tags:
+- tools
 ---
 
 I recently had to set up a new Mac for work. Generally speaking, this happens so infrequently that it is worth setting up the new machine from scratch, rather than using Migration Assistant. I like to avoid carrying over the cruft that comes from several years of a constantly updated development environment, and all work files are in iCloud Drive or GitHub anyway. But still, that leaves a fair bit of set up to do to get things working correctly.

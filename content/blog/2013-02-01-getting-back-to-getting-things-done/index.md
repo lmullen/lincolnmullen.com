@@ -3,8 +3,6 @@ title: 'Getting back to Getting Things Done'
 date: "2013-02-01"
 slug: 'getting-back-to-getting-things-done'
 description: "Returning to David Allen's GTD system with help from Merlin Mann's *Back to Work* podcast—on weekly reviews, writing better next actions, and sizing projects you can actually finish."
-tags:
-- productivity
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/getting-back-to-getting-things-done/45741"

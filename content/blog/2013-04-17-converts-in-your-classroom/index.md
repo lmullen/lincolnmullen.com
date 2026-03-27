@@ -3,11 +3,12 @@ title: 'Converts in your classroom'
 date: "2013-04-17"
 slug: 'converts-in-your-classroom'
 description: "A proposal for history and religion instructors: have students contribute conversion records to the American Converts Database to learn research, transcription, and digital humanities skills."
+draft: false
+image: 2013-04-17.perry-headline.png
 tags:
 - teaching
 - American religious history
-draft: false
-image: 2013-04-17.perry-headline.png
+- Chance of Salvation
 ---
 
 If you're writing a syllabus for an American history or religion course and want to include a digital assignment, then I have a proposal for you. Why not give your students an assignment to contribute to the [American Converts Database](http://americanconverts.org)?

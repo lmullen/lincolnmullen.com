@@ -3,9 +3,9 @@ title: 'The math behind Protestant and Catholic religious enthusiasm'
 date: "2012-12-08"
 slug: 'the-math-behind-protestant-and-catholic-religious-enthusiasm'
 description: "The growing enthusiasm gap between evangelical Protestants and Catholics may reflect a compositional shift: less-committed evangelicals are quietly dropping their affiliation entirely."
-tags:
-- religion
 draft: false
+tags:
+- American religious history
 ---
 
 *Christianity Today* [reports](http://www.christianitytoday.com/ct/2012/november-web-only/whats-driving-evangelical-enthusiasm.html) a forthcoming study by sociologist Philip Schwadel that there is a growing "intensity gap" between Protestants and Catholics, "with some 56 percent of evangelicals describing themselves as 'strongly affiliated' with their religion compared with 35 percent of Catholics."

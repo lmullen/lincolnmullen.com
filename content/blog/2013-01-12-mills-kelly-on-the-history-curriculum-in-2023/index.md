@@ -3,10 +3,10 @@ title: 'Mills Kelly on the history curriculum in 2023'
 date: "2013-01-12"
 slug: 'mills-kelly-on-the-history-curriculum-in-2023'
 description: "Mills Kelly's six-part vision for the history curriculum in 2023: making, mining, marking, and mashing as the core digital methods students should learn."
-tags:
-- digital humanities
-- teaching
 draft: false
+tags:
+- digital history
+- teaching
 ---
 
 At his blog, Mills Kelly offers a six-part series on what he thinks the history curriculum should look like in 2023:

@@ -3,12 +3,12 @@ title: 'Maps of Catholic dioceses in the US, Canada, and Mexico'
 date: "2013-06-17"
 slug: 'maps-of-catholic-dioceses-in-the-us-canada-and-mexico'
 description: "Maps of 356 Catholic dioceses across the US, Canada, and Mexico by decade, tracing the institutional expansion of North American Catholicism from Baltimore in 1789."
-tags:
-- American religious history
-- Catholicism
-- mapping
 draft: false
 image: map.catholic.dioceses.1790.png
+tags:
+- American religious history
+- spatial history
+- data visualization
 ---
 
 **Update:** I've made better maps of these dioceses in [this post](/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/).

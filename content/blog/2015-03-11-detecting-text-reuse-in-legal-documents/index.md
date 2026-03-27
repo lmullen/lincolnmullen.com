@@ -3,12 +3,13 @@ title: 'Detecting text reuse in nineteenth-century legal documents'
 date: "2015-03-11"
 slug: 'detecting-text-reuse-in-legal-documents'
 description: "A collaboration with Kellen Funk to detect and visualize how New York's Field Code of civil procedure spread to other states through text reuse in legal documents."
+draft: false
+image: ca1851-density.jpg
 tags:
 - digital history
 - text analysis
 - legal history
-draft: false
-image: ca1851-density.jpg
+- Legal Modernism
 ---
 
 {{< figure src="ddfield.jpg" caption="David Dudley Field, leading member of the New York commission that drafted the Field Code of 1850. Image from the New York Public Library." >}}

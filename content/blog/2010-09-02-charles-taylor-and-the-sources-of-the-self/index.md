@@ -3,9 +3,10 @@ title: 'Charles Taylor and the Sources of the Self'
 date: "2010-09-02"
 slug: 'charles-taylor-and-the-sources-of-the-self'
 description: "Charles Taylor's argument that selfhood is inseparable from one's relation to the Good offers historians of religion a powerful framework for understanding conversion and identity."
+draft: false
 tags:
 - book reviews
-draft: false
+- Chance of Salvation
 ---
 
 What is identity? What is a self? How has selfhood changed over time?

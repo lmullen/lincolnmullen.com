@@ -3,12 +3,14 @@ title: 'Using R to chart the historical demography of American Judaism'
 date: "2013-05-16"
 slug: 'using-r-to-chart-the-historical-demography-of-american-judaism'
 description: "R as a tool for historical demography: charting American Jewish population growth using CSV data and ggplot2 as a first step toward a larger project on U.S. religious demographics."
+draft: false
+image: jewish-population.png
 tags:
 - R
 - American religious history
-- digital humanities
-draft: false
-image: jewish-population.png
+- digital history
+- computational history
+- history of Judaism
 ---
 
 The historical demography of American religion is in a sorry state. I've been intending to write about the reasons and possible fixes for this historiographical quandary for some time. My draft blog post has grown to epic length because there are really several topics to address: (1) what attempts have been made at understanding the historical demographics of American religion, (2) what sources exist for recovering these demographics (spoiler: it's pretty grim, but not as grim as you might think), (3) what historical and analytical techniques can we use to fill in the gaps, and (4) what digital humanities tools might help manage and analyze the data once recovered. Parts one through three must wait for more reading, but I want to offer some preliminary thoughts on digital humanities tools.

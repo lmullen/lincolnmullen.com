@@ -4,13 +4,16 @@ date: "2022-10-21T13:42:43-04:00"
 slug: "the-legal-modernism-project"
 description: "Kellen Funk and I are expanding our computational study of nineteenth-century American law into a full project—Legal Modernism—with a new website for visualizations and ongoing work."
 draft: false
-tags:
-- Legal Modernism
 # crosspost: 
 #   url: ""
 #   source: ""
 # linkpost: ""
 image: legal-modernism-screenshot.png
+tags:
+- Legal Modernism
+- digital history
+- computational history
+- legal history
 ---
 
 Sometime ago [Kellen Funk](https://kellenfunk.org/) and I used computational analysis to study how the Field Code created the category of civil procedure in American law, and how that New York code spread across jurisdictions in the nineteenth-century United States. We published [an article](https://doi.org/10.1093/ahr/123.1.132) about those specific findings, and have given various talks, shared code, published datasets, and the like.

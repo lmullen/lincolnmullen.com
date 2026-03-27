@@ -3,9 +3,10 @@ title: 'Religious liberty and the Islamic community center'
 date: "2010-08-10"
 slug: 'religious-liberty-and-the-islamic-community-center'
 description: "Attempts to block an Islamic community center near Ground Zero through state power raise a simple question: should the government be able to prevent the free use of private property for religious purposes?"
+draft: false
 tags:
 - American religious history
-draft: false
+- legal history
 ---
 
 For some time the news has been filled with debates over a [proposed Islamic community center](http://www.religiondispatches.org/archive/politics/3079/no_space_for_american_islam/) (*not* a mosque) to be built near Ground Zero in New York City. On the one hand, the usual suspects in the Republican Party and, more surprisingly, the Anti-Defamation League, have opposed the center as an insult to the victims of the September 11th terrorist attacks. On the other hand, American Muslims have defended the center as a perfectly legitimate outreach into the community, as the Islamic equivalent of the YMCA.

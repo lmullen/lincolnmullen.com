@@ -3,9 +3,10 @@ title: Two new classes for the spring
 date: "2014-09-19"
 slug: 'two-new-classes-for-the-spring'
 description: "Two new spring courses: a graduate seminar on Religion and Capitalism in the United States, and a digital history course using American religious data as its subject."
+draft: false
 tags:
 - teaching
-draft: false
+- American religious history
 ---
 
 This spring I'll be [teaching](/teaching/) two new courses. This first is a graduate course on "Religion and Capitalism in the United States." The new history of capitalism is bringing tremendous energy to American history generally, and historians of American religions have been producing lots of great books on the connection between religion and capitalism recently. Here is my first take at a course description:

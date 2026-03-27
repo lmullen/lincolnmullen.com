@@ -3,10 +3,10 @@ title: 'The cultural history of American fundamentalism: a review essay'
 date: "2010-06-01"
 slug: 'the-cultural-history-of-american-fundamentalism-a-review-essay'
 description: "A review essay surveying how Marsden, Carpenter, Larson, Watt, and Bendroth redefined fundamentalism not as a reaction against modernity but as a distinctly modern movement."
+draft: false
 tags:
 - book reviews
-- American religion
-draft: false
+- American religious history
 ---
 
 **Bendroth, Margaret Lamberts. *Fundamentalists in the City: Conflict and Division in Boston's Churches, 1885-1950*. New York: Oxford University Press, 2005.**

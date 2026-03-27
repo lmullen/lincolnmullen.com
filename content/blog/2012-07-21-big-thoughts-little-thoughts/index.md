@@ -3,8 +3,6 @@ title: 'Big thoughts, little thoughts'
 date: "2012-07-21"
 slug: 'big-thoughts-little-thoughts'
 description: "Amateurs think big thoughts; professionals think little ones—spending their days in the details that eventually build into larger arguments."
-tags:
-- academia
 draft: false
 ---
 

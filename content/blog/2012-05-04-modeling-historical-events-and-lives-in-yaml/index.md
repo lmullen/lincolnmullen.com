@@ -3,10 +3,12 @@ title: 'Modeling historical events and lives in YAML'
 date: "2012-05-04"
 slug: 'modeling-historical-events-and-lives-in-yaml'
 description: "Using YAML to model nineteenth-century conversion data combines human-readable research notes with structured data that can be queried programmatically—a workflow for historians who code."
-tags:
-- digital humanities
-- Ruby
 draft: false
+tags:
+- digital history
+- Ruby
+- programming
+- Chance of Salvation
 ---
 
 For my [dissertation](http://lincolnmullen.com/blog/categories/dissertation/), I am researching the lives of converts from the nineteenth century. Some people who converted left behind an enormous source base. [Orestes Brownson](http://en.wikipedia.org/wiki/Orestes_Brownson) converted from Congregationalism to Presbyterianism to Universalism to Unitarianism to Transcendentalism to Catholicism, publishing voluminously all along the way. For other converts, I can find the barest of mentions in a newspaper or collection of papers. The dissertation needs to get both at the experience of well-known, articulate converts like Brownson, and lesser- or unknown converts. To retrieve that second kind of experience, I want to try analyzing all the conversions as data.

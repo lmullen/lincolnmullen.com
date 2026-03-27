@@ -4,8 +4,9 @@ date: "2020-04-05"
 slug: 3
 draft: false
 tags:
-- newsletter
-- D3.js
+- JavaScript
+- data visualization
+- programming
 ---
 
 Greetings. And welcome back to *Working on It*.

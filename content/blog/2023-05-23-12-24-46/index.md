@@ -3,6 +3,8 @@ date: "2023-05-23T12:24:46-04:00"
 slug: '2023-05-23-12-24-46'
 feedid: '/micro/2023-05-23-12-24-46/'
 linkpost: https://www.r2studios.org/blog/your-most-obedient-humble-servant-joins-the-r2-studios-network/
+tags:
+- RRCHNM
 ---
 
 A new podcast---or rather, a longstanding

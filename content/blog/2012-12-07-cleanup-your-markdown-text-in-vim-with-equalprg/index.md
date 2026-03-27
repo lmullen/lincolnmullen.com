@@ -3,9 +3,9 @@ title: 'Cleanup your Markdown text in Vim with equalprg'
 date: "2012-12-07"
 slug: 'cleanup-your-markdown-text-in-vim-with-equalprg'
 description: "Set Vim's equalprg to Pandoc and you can reformat messy Markdown prose—fixing line lengths, link formatting, and footnote numbering—with a single keystroke."
-tags:
-- Vim
 draft: false
+tags:
+- tools
 ---
 
 [Jason Heppler](http://jasonheppler.org), [Caleb McDaniel](http://wcm1.web.rice.edu/hacks.html), and [Chad Black](http://parezcoydigo.wordpress.com/) often post Vim hacks, so here is one of mine.

@@ -3,10 +3,11 @@ title: 'My take on the Git commit logger'
 date: "2013-07-27"
 slug: 'my-take-on-the-git-commit-logger'
 description: "A post-commit Git hook that appends every commit message to a daily log—a lightweight alternative to Brett Terpstra's cron-based commit logger for tracking daily progress."
-tags:
-- technology
-- git
 draft: false
+tags:
+- tools
+- Ruby
+- programming
 ---
 
 Almost all the work that I do on my computer that is worth doing goes through a Git repository. My Git commits are therefore a useful indication of what I've accomplished each day, except they are scattered across many directories.

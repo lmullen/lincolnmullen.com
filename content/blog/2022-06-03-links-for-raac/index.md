@@ -5,9 +5,8 @@ draft: false
 slug: raac-links
 description: "Projects in digital scholarship on American religion cited in a presentation at the Biennial Conference on Religion and American Culture, from Uncivil Religion to American Religious Ecologies."
 tags:
-- presentation
-- American religion
 - digital history
+- American religious history
 ---
 
 This weekend I am giving a presentation about the future of digital scholarship in the field of American religion at the [Biennial Conference on Religion and American Culture](https://raac.iupui.edu/programs/biennial-conference-on-religion-american-culture/). In the presentation I'll be sharing a number of digital projects in American religion that I've learned a lot from. Since the proceedings of the conference will be published later, I won't publish my remarks here now. But for the sake of conference participants who might want to follow along, here is a list of the projects I'll mention without notes or comment.

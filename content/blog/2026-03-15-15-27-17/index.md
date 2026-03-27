@@ -9,6 +9,8 @@ description: "Paul Ford and Rich Ziade remind us that good software requires pro
 social:
   bluesky: "Paul Ford and Rich Ziade on why good software needs design and product thinking, not just functionality. Applies to DH projects too—we need to think beyond CRUD apps around a database. https://aboard.com/podcast/product-is-more-than-prompts/"
   mastodon: "Paul Ford and Rich Ziade have a good reminder that good software requires design and product thinking, not just functionality. In my world of DH projects, too many are just CRUD apps around a database. We need more product thinking: not what's most obvious from the sources, but what do users actually want to do? https://aboard.com/podcast/product-is-more-than-prompts/"
+tags:
+- digital history
 ---
 
 Paul Ford and Rich Ziade at the _Aboard_ podcast have a [good reminder](https://aboard.com/podcast/product-is-more-than-prompts/) that good software requires design---and thinking about it as a product---and not just functionality. 

@@ -3,10 +3,10 @@ title: "Why I joined the rOpenSci editorial team"
 date: "2018-06-22"
 slug: "why-i-joined-the-ropensci-editorial-team"
 description: "Joining rOpenSci's editorial team: a case that software written for digital history deserves the same open peer-review process as scholarly prose."
+draft: false
 tags:
 - R
-- rOpenSci
-draft: false
+- digital history
 ---
 
 Today I [joined](https://ropensci.org/blog/2018/06/22/new_editors/) the rOpenSci editorial team, taking on a role editing R packages and seeing them through rOpenSci's peer-review process. It might seem a bit strange for a historian to formally join a group of scientists writing packages for a programming language. So why am I joining rOpenSci?

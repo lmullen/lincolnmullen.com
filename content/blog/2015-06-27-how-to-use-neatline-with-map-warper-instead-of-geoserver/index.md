@@ -5,11 +5,12 @@ slug: 'how-to-use-neatline-with-map-warper-instead-of-geoserver'
 description: "Map Warper's WMS service can substitute for GeoServer in Neatline, making georectified historical maps available without running your own tile server."
 aliases:
 - /blog/how-to-use-neatline-without-geoserver/
-tags:
-- digital history
-- mapping
 draft: false
 image: point.png
+tags:
+- digital history
+- tools
+- spatial history
 ---
 
 > **TL;DR.** You don't need GeoServer to use historic map layers in Neatline: you just need any [WMS server](https://en.wikipedia.org/wiki/Web_Map_Service), such as [Map Warper](http://mapwarper.net/). Map Warper's base WMS URL is `http://mapwarper.net/maps/wms/{MAPID}`; the layer ID is whatever title you gave the map in Map Warper.

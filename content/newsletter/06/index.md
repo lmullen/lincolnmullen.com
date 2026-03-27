@@ -4,8 +4,10 @@ date: "2020-08-16"
 slug: 6
 draft: false
 tags:
-- newsletter
-- visualization
+- data visualization
+- America's Public Bible
+- computational history
+- digital history
 ---
 
 Greetings. And welcome back to *Working on It*.

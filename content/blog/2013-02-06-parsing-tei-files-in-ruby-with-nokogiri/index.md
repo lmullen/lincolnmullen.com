@@ -3,11 +3,10 @@ title: 'Parsing TEI files in Ruby with Nokogiri'
 date: "2013-02-06"
 slug: 'parsing-tei-files-in-ruby-with-nokogiri'
 description: "Nokogiri makes parsing TEI files in Ruby surprisingly concise—a demonstration using Folger Shakespeare texts to count how many times each speaker appears in Macbeth."
+draft: false
 tags:
 - Ruby
 - programming
-- TEI
-draft: false
 ---
 
 Yesterday when I [wrote](http://lincolnmullen.com/blog/tei-boilerplate-for-getting-started-with-tei/) about experimenting with TEI Boilerplate, I mentioned that one of the impediments I'd found to using [TEI](http://www.tei-c.org/index.xml) was being able to do something with it immediately. [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) lets you see a TEI file in your browser immediately. But I also wanted to experiment with analyzing a TEI file programmatically, so I found some sample documents and wrote an easy script in [Ruby](http://www.ruby-lang.org/en/) to serve as my own proof of concept.

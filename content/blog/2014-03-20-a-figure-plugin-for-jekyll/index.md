@@ -3,10 +3,11 @@ title: A figure plugin for Jekyll
 date: "2014-03-20"
 slug: 'a-figure-plugin-for-jekyll'
 description: "A Jekyll plugin that turns a simple tag with filename, formats, and caption into a properly formatted figure element with responsive image links."
-tags:
-- Jekyll
 draft: false
 image: 12names.png
+tags:
+- tools
+- Ruby
 ---
 
 This site runs on [Jekyll](http://jekyllrb.com), a static-site generator written in Ruby. As I create more and more figures to go on this site, it has become increasingly laborious to get the images, captions, and links properly formatted. So I've written a [jekyll_figure](https://github.com/lmullen/jekyll_figure) plugin to automate the figures.

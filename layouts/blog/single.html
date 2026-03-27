@@ -44,9 +44,18 @@
           {{ with .Params.tags }}
           <div>
             <h6 class="homepage-header mb-1">Subjects</h6>
+            <div class="d-flex flex-wrap gap-2">
             {{ range . }}
-            <span class="me-1">{{ . }}</span>
+            <span class="badge rounded-pill text-bg-light px-2 py-1 text-nowrap">{{ . }}</span>
             {{ end }}
+            </div>
+          </div>
+          {{ end }}
+
+          {{ with .Title }}
+          <div>
+            <h6 class="homepage-header mb-1">Cite as</h6>
+            Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, {{ $.Permalink }}
           </div>
           {{ end }}
 

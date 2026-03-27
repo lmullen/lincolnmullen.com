@@ -1,6 +1,6 @@
 {{ $scholarship := sort (where (where .Site.RegularPages "Type" "scholarship") "Params.homepage" "==" true) "Params.homepageOrder" }}
 
-<section class="border-top border-bottom border-opacity-25 homepage-section">
+<section class="border-bottom border-opacity-25 homepage-section">
 	<div class="d-flex align-items-baseline mb-3">
 		<h2 class="homepage-header mb-0 me-3">Scholarship</h2>
 		<a href="/scholarship/" class="small text-decoration-none">More publications and projects <i class="bi bi-arrow-right"></i></a>

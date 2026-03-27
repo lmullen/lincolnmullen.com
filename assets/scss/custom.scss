@@ -186,7 +186,7 @@ a {
 /* Homepage section spacing (matches header gap) */
 .homepage-section {
   margin: ($gap * 2) 0;
-  padding: ($gap * 2) 0;
+  padding-bottom: ($gap * 2);
 }
 
 .site-title {
@@ -368,14 +368,6 @@ img.list-icon {
   line-height: 1.4;
 }
 
-/* Recent writing list */
-.recent-writing-item {
-  border-bottom: 1px solid var(--bs-border-color);
-}
-
-.recent-writing-item:last-child {
-  border-bottom: none;
-}
 
 /* Teaching */
 #syllabus-list td {

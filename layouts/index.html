@@ -6,7 +6,7 @@
 
 <!-- Bio + links -->
 
-<section class="row g-4 mb-4">
+<section class="row g-4 border-bottom border-opacity-25 homepage-section">
 	<div class="col-md-8 homepage-bio">
 		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
 		{{ $photo1x := $photo.Resize "180x webp" }}
@@ -47,14 +47,27 @@
 
 <!-- Recent writing + Newsletter -->
 
-<section class="row g-4 homepage-section">
+<section class="row g-4 border-bottom border-opacity-25 homepage-section">
 	<div class="col-md-7">
-		<h2 class="homepage-header mb-3">Recent writing</h2>
+		<div class="d-flex align-items-baseline mb-3">
+			<h2 class="homepage-header mb-0 me-3">Recent posts</h2>
+			<a href="/blog/" class="small text-decoration-none">All posts <i class="bi bi-arrow-right"></i></a>
+		</div>
 		{{ partial "homepage-recent.html" . }}
 	</div>
 	<div class="col-md-5">
-		<h3 class="homepage-header mb-2">Now</h3>
-		<p>{{ with site.GetPage "/page/now" }}{{ .Content }}{{ end }}</p>
+		{{ $notes := first 3 (where (where .Site.RegularPages "Section" "blog") ".Title" "==" "") }}
+		{{ with $notes }}
+		<h3 class="homepage-header mb-3">Recent notes</h3>
+		<ul class="list-unstyled mb-3">
+		{{ range . }}
+			<li class="py-2 small">
+				{{ .Content | plainify | truncate 120 }}
+				<a href="{{ .Permalink }}" class="text-nowrap">{{ .Date.Format "2 January 2006" }} <i class="bi bi-arrow-right"></i></a>
+			</li>
+		{{ end }}
+		</ul>
+		{{ end }}
 		{{ partial "newsletter.html" (dict "tag" "homepage") }}
 		<h3 class="homepage-header mb-2">Site feeds</h3>
 		<p class="homepage-inline-links homepage-list">

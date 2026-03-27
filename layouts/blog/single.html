@@ -14,9 +14,9 @@
         {{ with .Title }}
         <header>
           <a href='{{ $.Permalink }}' class="u-url u-uid permalink">
-            <h2 class="post-title p-name">
+            <h1 class="post-title p-name">
               {{ . | markdownify }}
-            </h2>
+            </h1>
           </a>
 
           {{ if $.Params.Crosspost }}

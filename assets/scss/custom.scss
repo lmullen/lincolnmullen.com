@@ -2,7 +2,7 @@
 :root,
 [data-bs-theme="light"] {
   --bs-body-bg: #ffffff;
-  --bs-body-color: #2a2e36;
+  --bs-body-color: #1a1a1a;
   --bs-primary: #2c4a7c;
   --bs-secondary: #c06a20;
   --bs-success: #3a7a5c;
@@ -50,6 +50,28 @@
   --bs-tertiary-color-rgb: 232, 234, 238;
   --bs-tertiary-bg: #363b44;
   --bs-tertiary-bg-rgb: 54, 59, 68;
+
+  blockquote {
+    border-left-color: #545b66;
+  }
+
+  blockquote cite {
+    color: #b8bcc4;
+  }
+
+  .footnotes {
+    color: #b8bcc4;
+  }
+
+  code {
+    background-color: #3e444e;
+    color: #f0a860;
+  }
+
+  div.highlight pre {
+    background-color: #1a1e26;
+    color: #e8e6e0;
+  }
 }
 
 /* Body styles */
@@ -62,6 +84,13 @@ body {
   max-width: 1200px;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+/* Content width for readability (~65 characters per line) */
+article,
+.post-body,
+.homepage-bio {
+  max-width: 40rem;
 }
 
 footer.site-footer {
@@ -77,26 +106,81 @@ footer.site-footer {
 }
 
 /* Typography */
-article h1,
-article h2,
-article h3,
+
+/* Page title */
+.post-title,
+article > h1:first-of-type {
+  font-size: 2.4rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+/* Headings */
+article h1 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+  font-weight: 600;
+  margin-top: 2.25rem;
+  margin-bottom: 0.6rem;
+}
+
+article h2 {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+article h3 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
 article h4,
 article h5,
 article h6 {
-  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
 }
 
-p+h2 {
-  margin-top: 1.5rem;
+/* Body text */
+p {
+  margin-bottom: 1rem;
 }
 
 strong {
-  font-weight: $font-weight-semibold;
+  font-weight: 600;
 }
 
+/* Small caps for abbreviations and acronyms */
+.small-caps,
+abbr {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+/* Block quotes */
 blockquote {
-  margin-left: 2rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  line-height: 1.65;
+  border-left: 3px solid #c8c4bc;
+  padding-left: 1.5rem;
+  margin-left: 0;
+}
+
+blockquote cite {
+  font-size: 0.88rem;
+  font-style: normal;
+  color: #777;
 }
 
 a {
@@ -383,6 +467,16 @@ footer.article-footer a {
   text-decoration: none;
 }
 
+/* Code */
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.88em;
+  background-color: #f0eeea;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+/* Code blocks */
 div.highlight {
   max-width: 100%;
 }
@@ -390,7 +484,26 @@ div.highlight {
 div.highlight pre {
   white-space: pre-wrap;
   word-break: break-word;
-  margin-left: 1rem;
+  margin-left: 0;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  background-color: #2a2a2a;
+  color: #e8e6e0;
+  padding: 1.25rem 1.5rem;
+  border-radius: 5px;
+}
+
+div.highlight pre code {
+  font-size: inherit;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
 }
 
 .prevnextlinks a {
@@ -439,13 +552,21 @@ figcaption p:before {
   font-weight: 500;
 }
 
+/* Footnotes / small text */
 .footnotes {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: #555;
   margin-top: 3rem;
 }
 
 .footnotes hr {
   display: none;
+}
+
+sup.footnote-ref {
+  font-size: 0.7em;
+  font-weight: 500;
 }
 
 .post-body hr {

@@ -29,7 +29,7 @@ $light: #f3f4f6;
 $dark: #1a1e26;
 
 // Body
-$body-color: #2a2e36;
+$body-color: #1a1a1a;
 $body-bg: #ffffff;
 
 // Headings
@@ -46,18 +46,24 @@ $border-color: #d4d6dc;
 $code-color: $secondary;
 
 // Fonts
-$font-family-sans-serif: "IBM Plex Sans", sans-serif;
-$font-family-monospace: "IBM Plex Mono", monospace;
-$font-size-base: 1rem;
-$font-weight-semibold: 500;
+$font-family-sans-serif: "Source Serif 4", serif;
+$font-family-serif: "Source Serif 4", serif;
+$font-family-monospace: "Source Code Pro", monospace;
+$font-size-base: 1.1875rem; // 19px
+$line-height-base: 1.7;
+$font-weight-semibold: 600;
 
 // Heading sizes
-$h1-font-size: $font-size-base * 1.75; // = 28px
-$h2-font-size: $font-size-base * 1.5; // = 24px
-$h3-font-size: $font-size-base * 1.25; // = 20px
-$h4-font-size: $font-size-base * 1.125; // = 18px
-$h5-font-size: $font-size-base;
-$h6-font-size: $font-size-base;
+$h1-font-size: 1.65rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.1rem;
+$h4-font-size: 1rem;
+$h5-font-size: 1rem;
+$h6-font-size: 1rem;
+
+// Heading weights and line heights
+$headings-font-weight: 600;
+$headings-line-height: 1.25;
 
 // Miscellaneous
 $border-radius: 0.45rem;

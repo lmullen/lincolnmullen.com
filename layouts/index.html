@@ -47,7 +47,7 @@
 
 <!-- Recent writing + Newsletter -->
 
-<section class="row g-4 border-bottom border-opacity-25 homepage-section">
+<section class="row g-4 homepage-section">
 	<div class="col-md-7">
 		<div class="d-flex align-items-baseline mb-3">
 			<h2 class="homepage-header mb-0 me-3">Recent posts</h2>
@@ -56,9 +56,10 @@
 		{{ partial "homepage-recent.html" . }}
 	</div>
 	<div class="col-md-5">
+		{{ partial "newsletter.html" (dict "tag" "homepage") }}
 		{{ $notes := first 3 (where (where .Site.RegularPages "Section" "blog") ".Title" "==" "") }}
 		{{ with $notes }}
-		<h3 class="homepage-header mb-3">Recent notes</h3>
+		<h3 class="homepage-header mt-4 mb-2">Recent notes</h3>
 		<ul class="list-unstyled mb-3">
 		{{ range . }}
 			<li class="py-2 small">
@@ -68,12 +69,6 @@
 		{{ end }}
 		</ul>
 		{{ end }}
-		{{ partial "newsletter.html" (dict "tag" "homepage") }}
-		<h3 class="homepage-header mb-2">Site feeds</h3>
-		<p class="homepage-inline-links homepage-list">
-			<span class="text-nowrap"><i class="bi bi-rss-fill list-icon" role="img" aria-hidden="true"></i><a href="blog/index.xml">RSS</a></span>
-			<span class="text-nowrap"><i class="bi bi-rss-fill list-icon" role="img" aria-hidden="true"></i><a href="blog/index.json">JSON</a></span>
-		</p>
 	</div>
 </section>
 

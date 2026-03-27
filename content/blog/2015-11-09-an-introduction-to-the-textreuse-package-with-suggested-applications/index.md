@@ -33,7 +33,7 @@ In this post I give an overview of how you might apply the textreuse package to 
     - [Clustering borrowings with affinity propagation](#clustering-borrowings-with-affinity-propagation)
 - [Conclusion](#conclusion)
 
-### Basic tools and concepts for document similarity
+## Basic tools and concepts for document similarity
 
 Let's begin with a tiny corpus that ships with the package. It contains eight documents drawn from American Tract Society publications. We create a corpus object, which contains eight different document objects ([see them here](https://github.com/lmullen/textreuse/tree/master/inst/extdata/ats)). Each of these documents has an ID (based on the filename), the text of the document, and tokens generated from that text---in this case, 5-grams.[^3]
 

@@ -91,7 +91,7 @@ body {
 footer.site-footer {
   font-size: 0.9rem;
   border-top: 1px solid var(--bs-border-color);
-  margin-top: $gap * 2;
+  margin-top: $gap;
   padding-top: $gap * 2;
   margin-bottom: $gap * 4;
 
@@ -368,6 +368,17 @@ img.list-icon {
   line-height: 1.4;
 }
 
+
+/* Orange buttons with white text */
+.btn-secondary,
+.btn-outline-secondary {
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
+}
 
 /* Teaching */
 #syllabus-list td {

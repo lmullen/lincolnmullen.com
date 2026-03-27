@@ -6,7 +6,7 @@
 
 <!-- Bio + links -->
 
-<section class="row mb-4 g-4 pb-4">
+<section class="row g-4 mb-4">
 	<div class="col-md-8 homepage-bio">
 		{{ $photo := resources.Get "img/lincoln-mullen-photo-square.jpeg" }}
 		{{ $photo1x := $photo.Resize "180x webp" }}
@@ -47,7 +47,7 @@
 
 <!-- Recent writing + Newsletter -->
 
-<section class="row mt-4 g-4">
+<section class="row g-4 homepage-section">
 	<div class="col-md-7">
 		<h2 class="homepage-header mb-3">Recent writing</h2>
 		{{ partial "homepage-recent.html" . }}

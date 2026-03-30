@@ -20,6 +20,8 @@
             </h1>
           </a>
         </header>
+        {{ else }}
+        <h1 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h1>
         {{ end }}
 
         <div class='post-body e-content mt-2 mb-5'>

@@ -22,6 +22,8 @@
               {{ .Title | markdownify }}
             </h1>
           </a>
+          {{ else }}
+          <h2 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h2>
           {{ end }}
         </header>
 

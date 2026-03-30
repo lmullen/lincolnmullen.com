@@ -22,8 +22,8 @@ My small contribution to the new text analysis ecosystem is the tokenizers packa
 <!--more-->
 One of the basic tasks in any NLP pipeline is turning texts (which humans can read) into tokens (which machines can compute with). For example, you might break a text into words or into [n-grams](https://en.wikipedia.org/wiki/N-gram). Here is an example using the [former slave interviews](https://memory.loc.gov/ammem/snhtml/snhome.html) from the Great Depression era Federal Writers' Project. (A data package with those interviews is in development [here](https://github.com/lmullen/WPAnarratives)).
 
-::: {.highlight}
-<pre><code class="language-text" data-lang="text"># devtools::install_github("lmullen/WPAnarratives")
+```r
+# devtools::install_github("lmullen/WPAnarratives")
 # install.packages("tokenizers")
 library(WPAnarratives)
 library(tokenizers)
@@ -52,8 +52,7 @@ str(ngrams)
 ##  $ : chr [1:2463] "_jesus has my" "_jesus has my chillun" "_jesus has my chillun counted_" "has my chillun" ...
 ##  $ : chr [1:2328] "charity anderson who" "charity anderson who believes" "charity anderson who believes she" "anderson who believes" ...
 ##  $ : chr [1:1041] "dat was one" "dat was one time" "dat was one time when" "was one time" ...
-</code></pre>
-:::
+```
 
 Practically all text analysis packages provide their own functions for tokenizing text, so why do R users need this package?
 

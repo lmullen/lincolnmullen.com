@@ -59,7 +59,7 @@ forth. PostgreSQL is not an exciting choice; it may very well be the
 least exciting choice imaginable. But rock solid and boring is a great
 place to be for critical infrastructure. 
 
-{{< figure src="database.png" caption="An example of what some of the data looks like from the _American Religious Ecologies_ project. It might not look like much, but we had to reverse engineer and entire federal census in order to create it." >}}
+{{< figure src="database.png" caption="An example of what some of the data looks like from the _American Religious Ecologies_ project. It might not look like much, but we had to reverse engineer an entire federal census in order to create it." >}}
 
 That still leaves the problem of getting the data out of the database
 and into the user's browser. We needed a solution that could provide

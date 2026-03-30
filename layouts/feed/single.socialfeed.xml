@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Site.Params.blogFeedTitle }} ({{ .Params.platform }})</title>
-    <link>{{ .Site.BaseURL }}</link>
+    <link>{{ "/" | absURL }}</link>
     <description>{{ .Site.Params.blogFeedTitle }} — {{ .Params.platform }} feed</description>
     <generator>Hugo -- gohugo.io</generator>
     {{ with .Site.Params.author.email }}<managingEditor>{{.}}{{ with $.Site.Params.author.name }} ({{.}}){{end}}</managingEditor>{{end}}

@@ -7,7 +7,7 @@
 // import Carousel from 'bootstrap/js/dist/carousel';
 // import Collapse from 'bootstrap/js/dist/collapse';
 // import Dropdown from 'bootstrap/js/dist/dropdown';
-// import Modal from 'bootstrap/js/dist/modal';
+import Modal from 'bootstrap/js/dist/modal';
 // import Offcanvas from 'bootstrap/js/dist/offcanvas';
 // import Popover from 'bootstrap/js/dist/popover';
 // import ScrollSpy from 'bootstrap/js/dist/scrollspy';
@@ -18,4 +18,19 @@ import Tooltip from 'bootstrap/js/dist/tooltip';
 // Initialize tooltips on all elements with data-bs-toggle="tooltip"
 document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => {
   new Tooltip(el);
+});
+
+// Copy-to-clipboard for elements with data-copy-target
+document.addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-copy-target]');
+  if (!btn) return;
+  const target = document.getElementById(btn.dataset.copyTarget);
+  if (!target) return;
+  navigator.clipboard.writeText(target.textContent.trim()).then(() => {
+    const icon = btn.querySelector('i');
+    if (icon) {
+      icon.className = 'bi bi-check2';
+      setTimeout(() => { icon.className = 'bi bi-clipboard'; }, 1500);
+    }
+  });
 });

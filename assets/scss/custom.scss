@@ -628,3 +628,12 @@ sup.footnote-ref {
   margin: 0.25rem 1.25rem 0.75rem 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
+
+/* Faster modal animation */
+.modal.fade {
+  transition: opacity 0.08s linear;
+}
+
+.modal.fade .modal-dialog {
+  transition: transform 0.1s ease-out;
+}

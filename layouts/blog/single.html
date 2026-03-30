@@ -57,6 +57,13 @@
             <a href="/archive/">All posts by date</a>
           </div>
 
+          {{ with .Title }}
+          <div>
+            <h6 class="smallcaps-header mb-1">Cite as</h6>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#citeModal">Suggested citation</a>
+          </div>
+          {{ end }}
+
           {{ partial "feeds.html" . }}
 
         </div>
@@ -91,13 +98,6 @@
       <!-- Blog post ends here -->
 
       {{ with .Title }}
-      <div class="mt-5 small" style="max-width: 77.78%;">
-        <h6 class="smallcaps-header mb-1">Cite as</h6>
-        Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, <span class="font-monospace">{{ $.Permalink }}</span>.
-      </div>
-      {{ end }}
-
-      {{ with .Title }}
       {{ $related := where ($.Site.RegularPages.Related $ | first 15) ".Title" "ne" "" }}
       {{ $related = where $related "Section" "eq" "blog" }}
       {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
@@ -121,6 +121,36 @@
     </div>
   </div>
 </div>
+
+{{ with .Title }}
+<div class="modal fade" id="citeModal" tabindex="-1" aria-labelledby="citeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <header class="modal-header">
+        <h5 class="modal-title" id="citeModalLabel">Suggested citation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </header>
+      <div class="modal-body">
+        <div class="mb-4">
+          <h6 class="smallcaps-header mb-1">Footnote</h6>
+          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-footnote">
+            <i class="bi bi-clipboard"></i> Copy
+          </button>
+        </div>
+        <div>
+          <h6 class="smallcaps-header mb-1">Bibliography</h6>
+          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ . | markdownify }}.&rdquo; {{ $.Date.Format "2 January 2006" }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-bibliography">
+            <i class="bi bi-clipboard"></i> Copy
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
 
 {{ end }}
 

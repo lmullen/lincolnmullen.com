@@ -1,9 +1,9 @@
 {{ define "main" }}
 
 <div class="container-fluid">
-  <div class="row gx-5">
-    <div class="col-md-4 offset-md-1 order-2">
-      <div class="sidebar-nav sticky-md-top ps-3 py-4 mt-5 border-start">
+  <div class="row ">
+    <div class="col-md-3 order-2">
+      <div class="sidebar-nav sticky-md-top ps-3 py-4 mt-2 border-start">
         <div class="vstack gap-4 small">
 
           {{ with .Params.Linkpost }}
@@ -23,7 +23,7 @@
           {{ with .Params.Crosspost }}
           <div>
             <h6 class="smallcaps-header mb-1">Crossposted</h6>
-            <a href="{{ .URL }}"><i class="bi bi-box-arrow-up-right me-1"></i>{{ .Source | markdownify }}</a>
+            <a href="{{ .URL }}">{{ .Source | markdownify }}&nbsp;<i class="bi bi-box-arrow-up-right me-1"></i></a>
           </div>
           {{ end }}
 
@@ -51,17 +51,10 @@
           </div>
           {{ end }}
 
-          {{ with .Title }}
-          <div>
-            <h6 class="smallcaps-header mb-1">Cite as</h6>
-            Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, {{ $.Permalink }}
-          </div>
-          {{ end }}
-
           <div>
             <h6 class="smallcaps-header mb-1">Blog</h6>
             <a href="/blog/">Recent posts</a><br>
-            <a href="/archive/">Archive</a>
+            <a href="/archive/">All posts by date</a>
           </div>
 
           {{ partial "feeds.html" . }}
@@ -69,7 +62,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-7 order-1 py-5">
+    <div class="col-md-9 order-1 py-2">
 
       <!-- Blog post starts here -->
 
@@ -83,12 +76,6 @@
               {{ . | markdownify }}
             </h1>
           </a>
-
-          {{ if $.Params.Crosspost }}
-          <div class="external-url mt-4 mb-4">
-            This post originally appeared at {{ $.Params.Crosspost.Source |markdownify }}. <a href="{{ $.Params.Crosspost.URL }}">Read the original post.&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
-          {{ end}}
         </header>
         {{ end }}
 
@@ -103,15 +90,20 @@
       </article>
       <!-- Blog post ends here -->
 
-      <div class="mt-5 pt-4 border-top">
-        {{ partial "newsletter.html" (dict "tag" "blogpost-single") }}
+      {{ with .Title }}
+      <div class="mt-5 small" style="max-width: 77.78%;">
+        <h6 class="smallcaps-header mb-1">Cite as</h6>
+        Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, <span class="font-monospace">{{ $.Permalink }}</span>.
+      </div>
+      {{ end }}
 
-        {{ with .Title }}
-        {{ $related := where ($.Site.RegularPages.Related $ | first 15) ".Title" "ne" "" }}
-        {{ $related = where $related "Section" "eq" "blog" }}
-        {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
-        {{ with $related }}
-        <aside class="mt-4">
+      {{ with .Title }}
+      {{ $related := where ($.Site.RegularPages.Related $ | first 15) ".Title" "ne" "" }}
+      {{ $related = where $related "Section" "eq" "blog" }}
+      {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
+      {{ with $related }}
+      <div class="mt-5">
+        <aside>
           <h6 class="smallcaps-header mb-2">Related posts</h6>
           <ul>
             {{ range . }}

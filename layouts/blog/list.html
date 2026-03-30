@@ -42,10 +42,10 @@
 
         <footer class="post-footer text-muted text-end mt-4">
           {{ with .Params.Linkpost }}
-          <div class="text-nowrap"><span class="smallcaps-header">Link</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
+          <div class="text-nowrap"><span class="smallcaps-header">Link:</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
           {{ end }}
           {{ with .Params.via }}
-          <div class="text-nowrap"><span class="smallcaps-header">Via</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
+          <div class="text-nowrap"><span class="smallcaps-header">Via:</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
           {{ end }}
           <div class="text-nowrap">
           <a href="{{ .Permalink }}" class="permalink text-muted" title="Permalink">

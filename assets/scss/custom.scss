@@ -75,6 +75,12 @@
   }
 }
 
+/* Lists */
+ul,
+ul ul {
+  list-style-type: square;
+}
+
 /* Body styles */
 body {
   margin-top: 2rem;
@@ -299,7 +305,7 @@ img.list-icon {
   color: var(--bs-link-color);
 }
 
-.homepage-header {
+.smallcaps-header {
   font-weight: 600;
   font-size: var(--bs-body-font-size);
   font-variant-caps: all-small-caps;

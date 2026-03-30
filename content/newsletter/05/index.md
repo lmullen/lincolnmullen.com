@@ -34,13 +34,13 @@ That's all I've got from YouTube. I promise never to do that to you again.
 
 -------------------------
 
-### Random screenshot
+## Random screenshot
 
  {{< image src="random-screenshot.png" alt="A random screenshot" >}}
  
 -------------------------
 
-### Brief book review
+## Brief book review
 
 I came across a reference to Vaclav Smil's book [*Energy and Civilization: A History*](https://mitpress.mit.edu/books/energy-and-civilization) (first edition 1994; revised edition 2017) while reading about religion and capitalism. The book seeks to explain that "the course of history can be seen as the quest for controlling greater stores and flows of more concentrated and more versatile forms of energy and converting them, in more affordable ways at lower costs and with higher efficiencies, into heat, light, and motion." I learned a *lot* about how humans have captured and used energy throughout history. In particular, the basic problems and solutions of agriculture and industry in the nineteenth-century United States are much clearer to me now. Despite the language about "the course of history," the book manages to avoid the reductionist notion that all of culture, society, and other forms of human endeavor can be reduced to energy flows, while also advancing what I found to be a compelling case that thinking about energy helps us understand global history over a long period of time.
 
@@ -48,12 +48,12 @@ The other reason I find the book interesting is its frequent use of sidebars and
 
 -------------------------
 
-### Updates
+## Updates
 
-Reading: Peter Gay, [*Freud: A Life for Our Time*](https://wwnorton.com/books/9780393328615).
+**Reading:** Peter Gay, [*Freud: A Life for Our Time*](https://wwnorton.com/books/9780393328615).
 
-Listening: The [*Celeste* soundtrack](https://open.spotify.com/album/5OZHQ7KG8k04IOkF50fACO?si=Y756tptYSvW8-LNztyTy6g) encourages a frenetic yet deliberate style of working, if that's what you need.
+**Listening:** The [*Celeste* soundtrack](https://open.spotify.com/album/5OZHQ7KG8k04IOkF50fACO?si=Y756tptYSvW8-LNztyTy6g) encourages a frenetic yet deliberate style of working, if that's what you need.
 
-Playing: PUBG, again.
+**Playing:** PUBG, again.
 
-Watching: The [Game Maker's Toolkit](https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw) channel on YouTube has amazing video essays explaining how games work.
+**Watching:** The [Game Maker's Toolkit](https://www.youtube.com/channel/UCqJ-Xo29CKyLTjn6z2XwYAw) channel on YouTube has amazing video essays explaining how games work.

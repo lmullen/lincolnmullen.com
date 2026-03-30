@@ -42,12 +42,12 @@ The second is Heath Carter's _[Union Made: Working People and the Rise of Social
 
 -------------------
 
-###  Updates
+## Updates
 
-Working: Containerizing and adapting my prediction model for _America's Public Bible_ so that I can use it for [Computing Cultural Heritage in the Cloud](https://blogs.loc.gov/thesignal/2019/11/introducing-the-computing-cultural-heritage-in-the-cloud-project/).
+**Working:** Containerizing and adapting my prediction model for _America's Public Bible_ so that I can use it for [Computing Cultural Heritage in the Cloud](https://blogs.loc.gov/thesignal/2019/11/introducing-the-computing-cultural-heritage-in-the-cloud-project/).
 
-Listening: Tennessee Ernie Ford, _Nearer the Cross_ (1958): found an LP for 99¢ at the used bookstore. 
+**Listening:** Tennessee Ernie Ford, _Nearer the Cross_ (1958): found an LP for 99¢ at the used bookstore. 
 
-Reading: Just finished Margaret O'Mara's _[The Code: Silicon Valley and the Remaking of America](https://www.penguinrandomhouse.com/books/534709/the-code-by-margaret-omara/)_, which I thought was both really good and a really good read.
+**Reading:** Just finished Margaret O'Mara's _[The Code: Silicon Valley and the Remaking of America](https://www.penguinrandomhouse.com/books/534709/the-code-by-margaret-omara/)_, which I thought was both really good and a really good read.
 
-Hiking: [Sky Meadows](https://www.dcr.virginia.gov/state-parks/sky-meadows) state park with my family.
+**Hiking:** [Sky Meadows](https://www.dcr.virginia.gov/state-parks/sky-meadows) state park with my family.

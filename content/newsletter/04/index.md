@@ -27,26 +27,26 @@ None of this is new, of course. Radio broadcasts, televangelism, and more recent
 
 ---------
 
-### Perils of the Overworld
+## Perils of the Overworld
 
 I heartily commend to you Robin Sloan's newsletter, "[Perils of the Overworld](https://www.robinsloan.com/overworld/)." Sloan is writing about how he is writing and developing a video game in progress. If you've read his novels, *Mr. Penumbra's 24-Hour Bookstore* and *Sourdough*, you'll know why you want to read the newsletter. But even if you haven't, I know you will like his newsletter if you're subscribed to this one. His newsletter is exactly what I was hoping this one would be if I, uh, did interesting work and was a good writer. 😆
 
 ------------
 
-### Random screenshot
+## Random screenshot
 
 {{< image src="random-screenshot.png" alt="Random screenshot" >}}
 
 ------------
 
-### Updates
+## Updates
 
-Reading: David King, [*God's Internationalists: World Vision and the Age of Evangelical Humanitarianism*](https://www.upenn.edu/pennpress/book/15984.html).
+**Reading:** David King, [*God's Internationalists: World Vision and the Age of Evangelical Humanitarianism*](https://www.upenn.edu/pennpress/book/15984.html).
 
-Listening: The Spotify [playlists for the characters](https://open.spotify.com/user/amc_halt_and_catch_fire) from *Halt and Catch Fire*.
+**Listening:** The Spotify [playlists for the characters](https://open.spotify.com/user/amc_halt_and_catch_fire) from *Halt and Catch Fire*.
 
-Playing: [*Outer Wilds*](https://www.mobiusdigitalgames.com/outer-wilds.html).
+**Playing:** [*Outer Wilds*](https://www.mobiusdigitalgames.com/outer-wilds.html).
 
-Working on: Historical map of Catholic dioceses in North America, which I hope will be done soon.
+**Working on:** Historical map of Catholic dioceses in North America, which I hope will be done soon.
 
-Planning: Next week is a week of re-thinking and renewal. All obligations that are not contractual or sacramental will have to justify their continued existence.
+**Planning:** Next week is a week of re-thinking and renewal. All obligations that are not contractual or sacramental will have to justify their continued existence.

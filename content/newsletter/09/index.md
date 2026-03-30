@@ -44,14 +44,14 @@ Not much happening this week, work-wise. But last week the _American Religious E
 
 ----------------
 
-### Updates
+## Updates
 
-Listening: [_American V: A Hundred Highways_](https://music.youtube.com/watch?v=4UWh94-dHcY&list=OLAK5uy_kOKwb8hpGfk6rtmHcu_ZV8QLRYd-BI8lE).
+**Listening:** [_American V: A Hundred Highways_](https://music.youtube.com/watch?v=4UWh94-dHcY&list=OLAK5uy_kOKwb8hpGfk6rtmHcu_ZV8QLRYd-BI8lE).
 
-Working: Not working.
+**Working:** Not working.
 
-Playing: Attempting a piano/guitar duet with my daughter.
+**Playing:** Attempting a piano/guitar duet with my daughter.
 
-Playing: Should I restart _Breath of the Wild_ and try to play it through?
+**Playing:** Should I restart _Breath of the Wild_ and try to play it through?
 
-Reading: Bill C. Malone, _Country Music USA_.
+**Reading:** Bill C. Malone, _Country Music USA_.

@@ -32,7 +32,7 @@ Weber's book and efforts like it at the start of the twentieth century served a 
 
 -------------------
 
-### Around the internet
+## Around the internet
 
 {{< image src="consolation-prize.jpeg" alt="Consolation Prize cover" link="https://consolationprize.rrchnm.org" >}}
 
@@ -41,12 +41,12 @@ Check out [*Consolation Prize*](), a new podcast from RRCHNM. It tells the alway
 --------------------
 
 
-### Updates 
+## Updates
 
-Working: Some initial exploration of citations in historical legal cases.
+**Working:** Some initial exploration of citations in historical legal cases.
 
-Reading: Sean Wilentz, [*Bob Dylan in America*](https://www.penguinrandomhouse.com/books/190610/bob-dylan-in-america-by-sean-wilentz/).
+**Reading:** Sean Wilentz, [*Bob Dylan in America*](https://www.penguinrandomhouse.com/books/190610/bob-dylan-in-america-by-sean-wilentz/).
 
-Playing: I can play C, D, G, E minor, and A minor chords. I can even play them one after another, if you don't mind waiting ten seconds in between.
+**Playing:** I can play C, D, G, E minor, and A minor chords. I can even play them one after another, if you don't mind waiting ten seconds in between.
 
 Otherwise, I'm doing everything I can to get this semester in the can as quickly as possible, even though it went better than expected.

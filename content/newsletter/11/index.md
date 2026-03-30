@@ -52,14 +52,14 @@ Returning to Darnton's ideas for e-books, there is a kind of homology between hi
 
 -------
 
-###  Updates
+## Updates
 
-Listening: [_Unearthed_](https://en.wikipedia.org/wiki/Unearthed_(Johnny_Cash_album)).
+**Listening:** [_Unearthed_](https://en.wikipedia.org/wiki/Unearthed_(Johnny_Cash_album)).
 
-Working: Collaborating with colleagues on a map of city-level data from the Censuses of Religious Bodies.
+**Working:** Collaborating with colleagues on a map of city-level data from the Censuses of Religious Bodies.
 
-Playing: [MLB The Show](https://theshow.com).
+**Playing:** [MLB The Show](https://theshow.com).
 
-Reading: Ted Gioia, [_Healing Songs_](http://tedgioia.com/HealingSongs.html).
+**Reading:** Ted Gioia, [_Healing Songs_](http://tedgioia.com/HealingSongs.html).
 
-Watching: [_Mythic Quest_](https://en.wikipedia.org/wiki/Mythic_Quest). The series as a whole is dumb yet charming, but the standalone episode "A Dark Quiet Death" was truly moving.
+**Watching:** [_Mythic Quest_](https://en.wikipedia.org/wiki/Mythic_Quest). The series as a whole is dumb yet charming, but the standalone episode "A Dark Quiet Death" was truly moving.

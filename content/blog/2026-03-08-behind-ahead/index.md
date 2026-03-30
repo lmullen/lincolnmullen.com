@@ -12,7 +12,7 @@ social:
     If the barriers between idea and implementation drop dramatically, what does that mean for digital history? I argue that digital history should be judged not by the difficulty of its implementation but by the quality of its ideas and interpretations. In short: have we said something meaningful about the past? https://lincolnmullen.com/blog/behind-ahead/
 tags:
 - digital history
-- RRCHNM
+- scholarly communication
 ---
 
 ## Behind

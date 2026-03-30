@@ -36,7 +36,7 @@ Weber's book and efforts like it at the start of the twentieth century served a 
 
 {{< image src="consolation-prize.jpeg" alt="Consolation Prize cover" link="https://consolationprize.rrchnm.org" >}}
 
-Check out [*Consolation Prize*](), a new podcast from RRCHNM. It tells the always surprising stories of diplomatic consuls, and through them the history of the United States in the world. Readers of this newsletter might especially enjoy [episode 4](https://consolationprize.rrchnm.org/2020/11/03/episode-4a-a-webb-of-connections/), which features historian of American religion Leigh Eric Schmidt among other guests. The subject is Alexander Russell Webb, a convert to Islam who became a Muslim missionary to the United States. I'm not involved (though I know [the principal](http://abbymullen.org) on the project) but I'm told that the next episode will be about consuls in Jerusalem and the American obsession with the Holy Land.
+Check out [*Consolation Prize*](https://consolationprize.rrchnm.org), a new podcast from RRCHNM. It tells the always surprising stories of diplomatic consuls, and through them the history of the United States in the world. Readers of this newsletter might especially enjoy [episode 4](https://consolationprize.rrchnm.org/2020/11/03/episode-4a-a-webb-of-connections/), which features historian of American religion Leigh Eric Schmidt among other guests. The subject is Alexander Russell Webb, a convert to Islam who became a Muslim missionary to the United States. I'm not involved (though I know [the principal](http://abbymullen.org) on the project) but I'm told that the next episode will be about consuls in Jerusalem and the American obsession with the Holy Land.
 
 --------------------
 

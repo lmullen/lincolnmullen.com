@@ -3,8 +3,8 @@
 	{{ $raw := .Get "src" | $.Page.Resources.Get }}
 	{{ $ext := path.Ext (.Get "src") }}
 	{{ if and (ne $ext ".gif") (ne $ext ".svg") }}
-	{{ $regular := $raw.Resize "702x webp"}}
-	{{ $retina := $raw.Resize "1404x webp"}}
+	{{ $regular := $raw.Resize "900x webp"}}
+	{{ $retina := $raw.Resize "1800x webp"}}
 	{{ $link := .Get "link" }}
 	<a href="{{ $link | default $raw.RelPermalink }}">
 		<img class="img-fluid" src='{{ $regular.RelPermalink }}' srcset="{{ $regular.RelPermalink }}, {{ $retina.RelPermalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}' width="{{ $regular.Width }}" height="{{ $regular.Height }}">
@@ -16,7 +16,7 @@
 	<!-- Don't process SVGs (no intrinsic dimensions available) -->
 	<img class="img-fluid" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
 	{{ end }}
-	<figcaption class="ms-5">
+	<figcaption class="ms-5 mt-3">
 		<p>
 			{{ .Get "caption" | markdownify }}
 		</p>

@@ -115,6 +115,9 @@
 		{{ end }}
 	</div>
 
+	{{ $js := resources.Get "js/main.js" | js.Build (dict "targetPath" "js/main.js" "minify" true) | resources.Fingerprint "md5" }}
+	<script src="{{ $js.RelPermalink }}" defer></script>
+
 	{{ block "scripts" . }}
 	{{ end }}
 

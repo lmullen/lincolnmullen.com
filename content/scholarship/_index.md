@@ -19,7 +19,7 @@ cascade:
 
 For a complete list of my scholarship, please see my [CV](https://files.lincolnmullen.com/cv/Mullen-cv.pdf).
 
-<a name="books-and-projects"></a>
+## Books and projects {#books-and-projects}
 
 {{% book title="The Chance of Salvation: A History of Conversion in America" image="chance-of-salvation-cover.jpg" year="2017" publisher="Harvard University Press" url="http://www.hup.harvard.edu/catalog.php?isbn=9780674975620" %}}
 
@@ -87,9 +87,7 @@ Press.
 
 -------------------------------------------------------------------
 
-<a name="articles"></a>
-
-## Articles and book chapters
+## Articles and book chapters {#articles}
 
 "The Making of America's Public Bible: Computational Text Analysis for Religious History," in *Introduction to Digital Humanities: Research Methods for the Study of Religion*, edited by Christopher D. Cantwell and Kristian Petersen (DeGruyter, forthcoming). [Humanities Commons preprint](http://dx.doi.org/10.17613/M6WW76Z8Q)
 
@@ -168,41 +166,39 @@ version](http://jestudies.yale.edu/index.php/journal/article/view/107/0?no_redir
 
 -------------------------------------------------------------------
 
-<a name="software"></a>
+## Software {#software}
 
-#### tokenizers: Fast, consistent tokenization of natural language text
+### tokenizers: Fast, consistent tokenization of natural language text
 
 [JOSS paper](https://doi.org/10.21105/joss.00655) | [Package website](http://lincolnmullen.com/software/tokenizers/) | [GitHub repository](https://github.com/ropensci/tokenizers) | [CRAN](https://cran.r-project.org/package=tokenizers)
 
-#### textreuse: Detect text reuse and document similarity
+### textreuse: Detect text reuse and document similarity
 
 [Package website](http://lincolnmullen.com/software/textreuse/) | [GitHub repository](https://github.com/ropensci/textreuse) | [CRAN](https://cran.r-project.org/package=textreuse)
 
-#### USAboundaries: Historical and contemporary boundaries of the United States of America
+### USAboundaries: Historical and contemporary boundaries of the United States of America
 
 [JOSS paper](https://doi.org/10.21105/joss.00314) | [Package website](http://lincolnmullen.com/software/tokenizers/) | [GitHub repository](https://github.com/ropensci/tokenizers) | [CRAN](https://cran.r-project.org/package=tokenizers)
 
-#### historydata: Datasets for historians
+### historydata: Datasets for historians
 
 [Package website](http://lincolnmullen.com/software/historydata/) | [GitHub repository](https://github.com/ropensci/historydata) | [CRAN](https://cran.r-project.org/package=historydata)
 
-#### internetarchive: An R client for the Internet Archive API
+### internetarchive: An R client for the Internet Archive API
 
 [Package website](http://lincolnmullen.com/software/internetarchive/) | [GitHub repository](https://github.com/ropensci/internetarchive) | [CRAN](https://cran.r-project.org/package=internetarchive)
 
-#### gender: Predict gender from names using historical data
+### gender: Predict gender from names using historical data
 
 [DHQ paper](http://www.digitalhumanities.org/dhq/vol/9/3/000223/000223.html) | [Package website](http://lincolnmullen.com/software/gender/) | [GitHub repository](https://github.com/ropensci/gender) | [CRAN](https://cran.r-project.org/package=gender)
 
-#### Other software
+### Other software
 
 - [Chronicling America OCR debatcher](https://github.com/lmullen/chronam-ocr-debatcher)
 
 -------------------------------------------------------------------
 
-<a name="misc"></a>
-
-## Miscellaneous
+## Miscellaneous {#misc}
 
 [*Computational Historical Thinking: With Applications in R*](http://dh-r.lincolnmullen.com/) (textbook in progress).
 

@@ -64,6 +64,17 @@
           </div>
           {{ end }}
 
+          <div>
+            <h6 class="smallcaps-header mb-1">Newsletter</h6>
+            <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
+              <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="blog-post">
+              <div class="input-group input-group-sm">
+                <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email address">
+                <button type="submit" class="btn btn-secondary">Subscribe</button>
+              </div>
+            </form>
+          </div>
+
           {{ partial "feeds.html" . }}
 
         </div>
@@ -151,6 +162,7 @@
   </div>
 </div>
 {{ end }}
+
 
 {{ end }}
 

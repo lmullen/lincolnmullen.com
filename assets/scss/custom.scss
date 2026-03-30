@@ -629,6 +629,32 @@ sup.footnote-ref {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+/* Tooltips */
+.tooltip-inner {
+  background-color: var(--bs-accent);
+  font-size: 0.82rem;
+}
+
+.bs-tooltip-end .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow::before {
+  border-right-color: var(--bs-accent);
+}
+
+.bs-tooltip-start .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
+  border-left-color: var(--bs-accent);
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
+  border-top-color: var(--bs-accent);
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow::before {
+  border-bottom-color: var(--bs-accent);
+}
+
 /* Faster modal animation */
 .modal.fade {
   transition: opacity 0.08s linear;

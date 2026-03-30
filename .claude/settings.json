@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(Site\"\\):*)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Bash(/tmp/check_posts.sh:*)",
+      "Bash(__NEW_LINE_347dcaee2e2f90e5__ chmod:*)",
+      "Bash(/tmp/check_posts.sh)"
     ]
   }
 }

@@ -1,48 +1,13 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
-{{ $.Scratch.Set "dot_rendered" false }}
-<nav aria-label="page navigation">
-	<ul class="pagination pagination-sm justify-content-center">
-		<!-- Gray out on the 1st page -->
-		{{ if and (ne $pag.PageNumber 1) }}
-		<li class="page-item"><a href="{{ $pag.First.URL }}" rel="first" class="page-link"><i class="bi bi-skip-backward-fill" aria-hidden="true"></i></a></li>
-		{{ else }}
-		<li class="page-item disabled"><a href="{{ $pag.First.URL }}" rel="first" class="page-link"><i class="bi bi-skip-backward-fill" aria-hidden="true"></i></a></li>
-		{{ end }}
-
-		{{ if $pag.HasPrev  }}
-		<li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link"><i class="bi bi-rewind-fill" aria-hidden="true"></i></a></li>
-		{{ else }}
-		<li class="page-item disabled"><a href="" rel="prev" class="page-link"><i class="bi bi-rewind-fill" aria-hidden="true"></i></a></li>
-		{{ end }}
-
-		{{ range $pag.Pagers }}
-		{{ if eq . $pag }}
-		<!-- Current Page -->
-		<li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
-		{{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
-		{{ $.Scratch.Set "dot_rendered" false }}
-		<!-- Render prev 3 pages and next 3 pages -->
-		<li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
-		{{ else if eq ($.Scratch.Get "dot_rendered") false }}
-		<!-- render skip pages -->
-		{{ $.Scratch.Set "dot_rendered" true }}
-		<li class="page-item disabled"><a class="page-link">...</a></li>
-		{{ end }}
-		{{ end }}
-
-		{{ if $pag.HasNext }}
-		<li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link"><i class="bi bi-fast-forward-fill" aria-hidden="true"></i></a></li>
-		{{ else }}
-		<li class="page-item disabled"><a href="" rel="next" class="page-link"><i class="bi bi-fast-forward-fill" aria-hidden="true"></i></a></li>
-		{{ end }}
-
-		<!-- Gray out on the last page -->
-		{{ if (ne $pag.PageNumber $pag.TotalPages)}}
-		<li class="page-item"><a href="{{ $pag.Last.URL }}" rel="last" class="page-link"><i class="bi bi-skip-forward-fill" aria-hidden="true"></i></a></li>
-		{{ else }}
-		<li class="page-item disabled"><a href="{{ $pag.Last.URL }}" rel="last" class="page-link"><i class="bi bi-skip-forward-fill" aria-hidden="true"></i></a></li>
-		{{ end }}
-	</ul>
+<nav aria-label="page navigation" class="d-flex justify-content-between my-4">
+  {{ if $pag.HasPrev }}
+  <a href="{{ $pag.Prev.URL }}" rel="prev" class="text-decoration-none">&larr; Newer posts</a>
+  {{ else }}
+  <span></span>
+  {{ end }}
+  {{ if $pag.HasNext }}
+  <a href="{{ $pag.Next.URL }}" rel="next" class="text-decoration-none">Older posts &rarr;</a>
+  {{ end }}
 </nav>
 {{ end }}

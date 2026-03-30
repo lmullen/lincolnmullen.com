@@ -494,6 +494,16 @@ a.author-link {
   opacity: 0.15;
 }
 
+nav[aria-label="page navigation"] {
+  max-width: 77.78%; /* match post body text width */
+}
+
+@media (max-width: 768px) {
+  nav[aria-label="page navigation"] {
+    max-width: 100%;
+  }
+}
+
 .blog-archive td {
   padding-bottom: 0.5rem;
   vertical-align: top;

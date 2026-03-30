@@ -1,16 +1,26 @@
 <div class="sidebar-nav sticky-md-top ps-3 py-4 mt-2 border-start">
-  <div class="vstack gap-4">
+  <div class="vstack gap-4 small">
+
     <div>
-      <i class="bi bi-hourglass-split feed-icon list-icon" role="img" aria-hidden="true"></i><a href="/blog/">Recent posts</a>
+      <p class="smallcaps-header mb-1">Navigate</p>
+      <div class="vstack gap-2">
+        <div><i class="bi bi-hourglass-split feed-icon list-icon" role="img" aria-hidden="true"></i><a href="/blog/">Recent posts</a></div>
+        <div><i class="bi bi-calendar-week feed-icon list-icon" role="img" aria-hidden="true"></i><a href="/archive/">Blog posts by date</a></div>
+      </div>
     </div>
+
     <div>
-      <i class="bi bi-calendar-week feed-icon list-icon" role="img" aria-hidden="true"></i><a href='/archive/'>Blog posts by date</a>
+      <p class="smallcaps-header mb-1">Newsletter</p>
+      <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
+        <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="blog-list">
+        <div class="input-group input-group-sm">
+          <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email address">
+          <button type="submit" class="btn btn-secondary">Subscribe</button>
+        </div>
+      </form>
     </div>
-    <div>
-      <i class="bi bi-rss-fill feed-icon list-icon" role="img" aria-hidden="true"></i><a rel="alternate" type="application/atom+xml" href="/blog/index.xml">Site feed (RSS)</a>
-    </div>
-    <div>
-      <i class="bi bi-rss-fill feed-icon list-icon" role="img" aria-hidden="true"></i><a rel="alternate" type="application/feed+json" href="/blog/index.json">Site feed (JSON)</a>
-    </div>
+
+    {{ partial "feeds.html" . }}
+
   </div>
 </div>

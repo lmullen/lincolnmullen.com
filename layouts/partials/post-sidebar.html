@@ -1,0 +1,70 @@
+<div class="sidebar-nav sticky-md-top ps-3 py-4 mt-2 border-start">
+  <div class="vstack gap-4 small">
+
+    {{ with .Params.Linkpost }}
+    <div>
+      <p class="smallcaps-header mb-1">Link</p>
+      <a href="{{ . }}">{{ (urls.Parse .).Host }}</a>
+    </div>
+    {{ end }}
+
+    {{ with .Params.via }}
+    <div>
+      <p class="smallcaps-header mb-1">Via</p>
+      <a href="{{ . }}">{{ (urls.Parse .).Host }}</a>
+    </div>
+    {{ end }}
+
+    {{ with .Params.Crosspost }}
+    <div>
+      <p class="smallcaps-header mb-1">Crossposted</p>
+      <a href="{{ .URL }}">{{ .Source | markdownify }}&nbsp;<i class="bi bi-box-arrow-up-right me-1"></i></a>
+    </div>
+    {{ end }}
+
+    <div>
+      <p class="smallcaps-header mb-1">Published</p>
+      <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+        {{ .Date.Format "2 January 2006" }}
+      </time>
+      <span data-bs-toggle="tooltip" data-bs-placement="right" title="Last modified: {{ time.Format "2 January 2006, at 3:04pm" .Lastmod }}" role="img" aria-label="Last modified date" class="ms-1">
+        <i class="bi bi-clock-history"></i>
+      </span>
+      <time class="d-none" datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>
+        {{ time.Format "2 January 2006, at 3:04pm" .Lastmod }}
+      </time>
+    </div>
+
+    {{ with .Params.tags }}
+    <div>
+      <p class="smallcaps-header mb-1">Subjects</p>
+      <div class="d-flex flex-wrap gap-2">
+        {{ range . }}
+        <span class="badge rounded-pill text-bg-light px-2 py-1 text-nowrap">{{ . }}</span>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ if and .Title (eq .Section "blog") }}
+    <div>
+      <p class="smallcaps-header mb-1">Cite as</p>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#citeModal">Suggested citation</a>
+    </div>
+    {{ end }}
+
+    <div>
+      <p class="smallcaps-header mb-1">Newsletter</p>
+      <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
+        <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value='{{ if eq .Section "newsletter" }}newsletter-single{{ else }}blog-post{{ end }}'>
+        <div class="input-group input-group-sm">
+          <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email address">
+          <button type="submit" class="btn btn-secondary">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    {{ partial "feeds.html" . }}
+
+  </div>
+</div>

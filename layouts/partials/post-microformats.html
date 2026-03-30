@@ -1,0 +1,16 @@
+<footer class="post-footer d-none">
+  <a rel="author" class="p-author h-card" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
+  <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>{{ .Date.Format "2 January 2006" }}</time>
+  <time class="dt-updated" datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>{{ time.Format "2 January 2006" .Lastmod }}</time>
+  {{- with .Description }}
+  <data class="p-summary" value="{{ . }}"></data>
+  {{- end }}
+  {{- range .Params.tags }}
+  <data class="p-category" value="{{ . }}"></data>
+  {{- end }}
+  {{- with .Params.image }}
+  {{- with $.Resources.GetMatch . }}
+  <img class="u-photo" src="{{ .Permalink }}" alt="">
+  {{- end }}
+  {{- end }}
+</footer>

@@ -44,56 +44,56 @@ dir <- system.file("extdata/ats/", package = "textreuse")
 corpus <- TextReuseCorpus(dir = dir, tokenizer = tokenize_ngrams, n = 5,
                           keep_tokens = TRUE)
 corpus
-```
 
-    ## TextReuseCorpus
-    ## Number of documents: 8
-    ## hash_func : hash_string
-    ## tokenizer : tokenize_ngrams
+## TextReuseCorpus
+## Number of documents: 8
+## hash_func : hash_string
+## tokenizer : tokenize_ngrams
+```
 
 We can inspect the corpus by getting the IDs of the documents, and looking at the first few tokens in *The Life of the Rev. Richard Baxter*.
 
 ```r
 names(corpus)
-```
 
-    ## [1] "calltounconv00baxt"        "gospeltruth00whit"
-    ## [3] "lifeofrevrichard00baxt"    "memoirjamesbrai00ricegoog"
-    ## [5] "practicalthought00nev"     "remember00palm"
-    ## [7] "remembermeorholy00palm"    "thoughtsonpopery00nevi"
+## [1] "calltounconv00baxt"        "gospeltruth00whit"
+## [3] "lifeofrevrichard00baxt"    "memoirjamesbrai00ricegoog"
+## [5] "practicalthought00nev"     "remember00palm"
+## [7] "remembermeorholy00palm"    "thoughtsonpopery00nevi"
+```
 
 ```r
 doc <- corpus[["lifeofrevrichard00baxt"]]
 tokens(doc)[200:210]
-```
 
-    ##  [1] "t be king attempts to"
-    ##  [2] "be king attempts to reconcile"
-    ##  [3] "king attempts to reconcile 4"
-    ##  [4] "attempts to reconcile 4 contents"
-    ##  [5] "to reconcile 4 contents the"
-    ##  [6] "reconcile 4 contents the conflicting"
-    ##  [7] "4 contents the conflicting parties"
-    ##  [8] "contents the conflicting parties declines"
-    ##  [9] "the conflicting parties declines a"
-    ## [10] "conflicting parties declines a bishopric"
-    ## [11] "parties declines a bishopric for"
+##  [1] "t be king attempts to"
+##  [2] "be king attempts to reconcile"
+##  [3] "king attempts to reconcile 4"
+##  [4] "attempts to reconcile 4 contents"
+##  [5] "to reconcile 4 contents the"
+##  [6] "reconcile 4 contents the conflicting"
+##  [7] "4 contents the conflicting parties"
+##  [8] "contents the conflicting parties declines"
+##  [9] "the conflicting parties declines a"
+## [10] "conflicting parties declines a bishopric"
+## [11] "parties declines a bishopric for"
+```
 
 We can then use comparison functions to determine how similar the documents are. Here we use the [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) function (which returns a ratio between 0 and 1), though the package implements several other similarity measures. (The Jaccard similarity is defined as the intersection of the sets divided by the union of the sets.) For instance, two of the documents are almost the same. But neither of them is much like the *Life of Richard Baxter*.
 
 ```r
 jaccard_similarity(corpus[["remember00palm"]],
                    corpus[["remembermeorholy00palm"]])
-```
 
-    ## [1] 0.7006189
+## [1] 0.7006189
+```
 
 ```r
 jaccard_similarity(corpus[["lifeofrevrichard00baxt"]],
                    corpus[["remembermeorholy00palm"]])
-```
 
-    ## [1] 0.0000359887
+## [1] 0.0000359887
+```
 
 Most of the package works with `apply`-like functions that take a corpus of documents and apply various functions to it. Here we use the pairwise comparison function, which finds all the combination of documents in the corpus and compares them using a function that you specify. The result is a matrix of scores (which we will convert to a data frame of pairwise comparisons for legibility).
 
@@ -102,23 +102,23 @@ pairwise_compare(corpus, jaccard_similarity) %>%
   round(3) %>%
   pairwise_candidates() %>%
   arrange(desc(score))
-```
 
-    ## Source: local data frame [28 x 3]
-    ##
-    ##                            a                         b score
-    ##                        (chr)                     (chr) (dbl)
-    ## 1             remember00palm    remembermeorholy00palm 0.701
-    ## 2      practicalthought00nev    thoughtsonpopery00nevi 0.463
-    ## 3         calltounconv00baxt    lifeofrevrichard00baxt 0.281
-    ## 4         calltounconv00baxt memoirjamesbrai00ricegoog 0.002
-    ## 5  memoirjamesbrai00ricegoog     practicalthought00nev 0.002
-    ## 6         calltounconv00baxt         gospeltruth00whit 0.001
-    ## 7         calltounconv00baxt     practicalthought00nev 0.001
-    ## 8         calltounconv00baxt    thoughtsonpopery00nevi 0.001
-    ## 9          gospeltruth00whit memoirjamesbrai00ricegoog 0.001
-    ## 10         gospeltruth00whit     practicalthought00nev 0.001
-    ## ..                       ...                       ...   ...
+## Source: local data frame [28 x 3]
+##
+##                            a                         b score
+##                        (chr)                     (chr) (dbl)
+## 1             remember00palm    remembermeorholy00palm 0.701
+## 2      practicalthought00nev    thoughtsonpopery00nevi 0.463
+## 3         calltounconv00baxt    lifeofrevrichard00baxt 0.281
+## 4         calltounconv00baxt memoirjamesbrai00ricegoog 0.002
+## 5  memoirjamesbrai00ricegoog     practicalthought00nev 0.002
+## 6         calltounconv00baxt         gospeltruth00whit 0.001
+## 7         calltounconv00baxt     practicalthought00nev 0.001
+## 8         calltounconv00baxt    thoughtsonpopery00nevi 0.001
+## 9          gospeltruth00whit memoirjamesbrai00ricegoog 0.001
+## 10         gospeltruth00whit     practicalthought00nev 0.001
+## ..                       ...                       ...   ...
+```
 
 So far, so good. We identified three matches between pairs (all correct, by the way) and have no false positives in the other 25 pairs of potential matches.
 
@@ -134,46 +134,46 @@ Hashing is a technique for mapping arbitrary values to compact, uniform represen
 song <- tokenize_words("the answer is blowin' in the wind")
 hashed_tokens <- hash_string(song)
 hashed_tokens
-```
 
-    ## [1]   -78149361 -1880366041  -845898986 -1592008830  -845898995   -78149361
-    ## [7]  -904825919
+## [1]   -78149361 -1880366041  -845898986 -1592008830  -845898995   -78149361
+## [7]  -904825919
+```
 
 The key idea is that the same tokens will always be matched to the same hashes. For instance, if we hash just the word "the," we will get the same integer that we did in the first word above.
 
 ```r
 hash_string("the")
-```
 
-    ## [1] -78149361
+## [1] -78149361
+```
 
 ```r
 hash_string("the") == hashed_tokens[1]
-```
 
-    ## [1] TRUE
+## [1] TRUE
+```
 
 But even the slightest variation will result in a different hash. So the word "The" (with an initial capital) has a different integer representation altogether.[^8]
 
 ```r
 hash_string("The") == hashed_tokens[1]
-```
 
-    ## [1] FALSE
+## [1] FALSE
+```
 
 Now suppose that we select the lowest integer in our vector of hashes. Which word does it represent?
 
 ```r
 min(hashed_tokens)
-```
 
-    ## [1] -1880366041
+## [1] -1880366041
+```
 
 ```r
 song[which.min(hashed_tokens)]
-```
 
-    ## [1] "answer"
+## [1] "answer"
+```
 
 The resulting integer has the value -1880366041, which corresponds to the word "answer" in our set of tokens. Assuming that our hash function has certain properties, we have in effect randomly selected a token from our document.
 
@@ -182,12 +182,12 @@ If we had a bunch of hash functions, we could select the minimum hash (= minhash
 ```r
 minhash <- minhash_generator(n = 20, seed = 12231)
 minhash(song)
-```
 
-    ##  [1]    35226184 -2015303753 -1815664729 -1962848079 -1690615111
-    ##  [6] -2015078269 -1832536439 -1975996581   180289931 -1925792566
-    ## [11]   161460535 -1926044820   137848423 -2086997468 -1853820671
-    ## [16]   328168917    63234299 -1899537726   447399568 -1827767748
+##  [1]    35226184 -2015303753 -1815664729 -1962848079 -1690615111
+##  [6] -2015078269 -1832536439 -1975996581   180289931 -1925792566
+## [11]   161460535 -1926044820   137848423 -2086997468 -1853820671
+## [16]   328168917    63234299 -1899537726   447399568 -1827767748
+```
 
 We have thus selected 20 random tokens from our document. Notice that we are representing the document by 20 minhashes regardless of the length of our original document. So, we can represent a line from a Bob Dylan song in 20 minhashes, or all of *Moby Dick* in 20 minhashes. All of the documents can be represented uniformly and compactly with a random selection of tokens.
 
@@ -196,9 +196,9 @@ Minhashes have a curious property. Because they select random tokens, if we comp
 ```r
 song_mod <- tokenize_words("the answer is blowin' in the breeze")
 jaccard_similarity(song, song_mod)
-```
 
-    ## [1] 0.7142857
+## [1] 0.7142857
+```
 
 If we generate 20 minhashes for each of these lyrics, we can compare their minhashes in a table. Some of the minhashes for the two documents are equal. We can assign those minhashes to "bands": that is, we can think of the first two rows as a unit, the second two rows as a unit, and so on. If all of the minhashes in any band match, then we can regard the documents a potential match. In this case, we have used 10 bands of 2 rows each, and we see that several of the bands have all of their rows match. So we are justified in regarding these two documents as a probable match.
 
@@ -210,17 +210,17 @@ The question arises, then: how likely are we to detect a match using LSH? The an
 
 ```r
 lsh_probability(h = 20, b = 10, s = 0.71)
-```
 
-    ## [1] 0.9991006
+## [1] 0.9991006
+```
 
 So we are virtually guaranteed to get a match for these two documents which are very similar. If the documents were much less similar, say with a Jaccard similarity of 0.2, the probability of marking the documents as a candidate pair would be lower:
 
 ```r
 lsh_probability(h = 20, b = 10, s = 0.2)
-```
 
-    ## [1] 0.3351674
+## [1] 0.3351674
+```
 
 In other words, we can decide on the number of minhashes and bands that we want to use based on the threshold Jaccard similarity that we want to detect. The relationship between the number of minhashes, the actual Jaccard similarity of the documents we are measuring, and the probability that we will detect a match, looks something like a butte, with a steep threshold. In other words, we can determine the number of bands, rows, and minhashes in such a way that we can be fairly confident that we will identify candidate matches above a certain threshold similarity, and not identify candidate matches for documents below that threshold.
 
@@ -230,21 +230,21 @@ The package gives a function to help you decide on how many minhashes and bands 
 
 ```r
 lsh_threshold(100, 20)
-```
 
-    ## [1] 0.5492803
+## [1] 0.5492803
+```
 
 ```r
 lsh_threshold(1000, 200)
-```
 
-    ## [1] 0.3465724
+## [1] 0.3465724
+```
 
 ```r
 lsh_threshold(2000, 500)
-```
 
-    ## [1] 0.2114743
+## [1] 0.2114743
+```
 
 ## De-duplicating a corpus with LSH
 
@@ -264,9 +264,9 @@ We will use 200 hashes and 50 bands with 4 rows in each band. That should detect
 
 ```r
 lsh_threshold(h = 200, b = 100) %>% round(2)
-```
 
-    ## [1] 0.1
+## [1] 0.1
+```
 
 We can find all of the candidate matches with the LSH function. This takes less than 10 seconds on my computer.
 
@@ -280,14 +280,14 @@ We can extract potential matches by querying for a specific document. Let's look
 
 ```r
 lsh_query(buckets, "lifeofrevrichard00baxt")
-```
 
-    ## Source: local data frame [2 x 3]
-    ##
-    ## a b score
-    ## (chr) (chr) (dbl)
-    ## 1 lifeofrevrichard00baxt calltounconv00baxt NA
-    ## 2 lifeofrevrichard00baxt calltounconverte00bax NA
+## Source: local data frame [2 x 3]
+##
+## a b score
+## (chr) (chr) (dbl)
+## 1 lifeofrevrichard00baxt calltounconv00baxt NA
+## 2 lifeofrevrichard00baxt calltounconverte00bax NA
+```
 
 Or we can get all of the potential matches. Once we have potential matches, we must apply a comparison function to them. (This takes about 12 seconds on my computer.) Here are the results, looking at the highest pairs of matches.[^10]
 
@@ -297,23 +297,23 @@ ats_matches <- buckets %>%
   lsh_compare(ats, jaccard_similarity)
 
 ats_matches %>% arrange(desc(score))
-```
 
-    ## Source: local data frame [384 x 3]
-    ##
-    ## a b score
-    ## (chr) (chr) (dbl)
-    ## 1 ecumenicalmissio003136mbp ecumenicalmissio014136mbp 1.0000000
-    ## 2 powerofchristian005274mbp powerofchristian017371mbp 1.0000000
-    ## 3 cu31924029353509 unclejohnvassar00vass 0.9607856
-    ## 4 themorningcometh00burr themorningcometh01burr 0.9582093
-    ## 5 daughtersofarmen00whee daughtersofarmen01whee 0.9574196
-    ## 6 cu31924023494127 twentysixyearsof00stotrich 0.9555602
-    ## 7 ministrywene00swee ministryweneed00swee 0.9550249
-    ## 8 twostjohnsofnew00stal twostjohnsofnewt01stal 0.9506407
-    ## 9 revivalsketches00hump revivalsketchesm00hump 0.9430790
-    ## 10 ministrywene00swee ministrywenee00swee 0.9302349
-    ## .. ... ... ...
+## Source: local data frame [384 x 3]
+##
+## a b score
+## (chr) (chr) (dbl)
+## 1 ecumenicalmissio003136mbp ecumenicalmissio014136mbp 1.0000000
+## 2 powerofchristian005274mbp powerofchristian017371mbp 1.0000000
+## 3 cu31924029353509 unclejohnvassar00vass 0.9607856
+## 4 themorningcometh00burr themorningcometh01burr 0.9582093
+## 5 daughtersofarmen00whee daughtersofarmen01whee 0.9574196
+## 6 cu31924023494127 twentysixyearsof00stotrich 0.9555602
+## 7 ministrywene00swee ministryweneed00swee 0.9550249
+## 8 twostjohnsofnew00stal twostjohnsofnewt01stal 0.9506407
+## 9 revivalsketches00hump revivalsketchesm00hump 0.9430790
+## 10 ministrywene00swee ministrywenee00swee 0.9302349
+## .. ... ... ...
+```
 
 Out of the 205,120 pairs of documents in the corpus, we only had to compute similarity scores for 384 pairs, or 0.19 percent of all pairs.
 
@@ -341,28 +341,28 @@ cuts <- cutree(clusters, h = 0.6)
 data_frame(doc = names(cuts), cluster = cuts) %>%
   arrange(cluster) %>%
   head(16)
-```
 
-    ## Source: local data frame [16 x 2]
-    ##
-    ## doc cluster
-    ## (chr) (int)
-    ## 1 afflictedmanscom00will_0 1
-    ## 2 afflictedmanscom00will_1 1
-    ## 3 africapastandpr00moisgoog 2
-    ## 4 africapastpresen00mois_0 2
-    ## 5 ahistoryenglish00martgoog 3
-    ## 6 historyofenglish00mart 3
-    ## 7 alarmtounconver00alle 4
-    ## 8 alarmtounconvert00alle_0 4
-    ## 9 alarmtounconvert00alle_1 4
-    ## 10 alarmtounconvert00all 5
-    ## 11 religioneternall00pike 5
-    ## 12 anewmemoirhanna02kniggoog 6
-    ## 13 cu31924013194380 6
-    ## 14 hannahmore00knig 6
-    ## 15 hannahmore01knig 6
-    ## 16 newmemoirofhanna01knig 6
+## Source: local data frame [16 x 2]
+##
+## doc cluster
+## (chr) (int)
+## 1 afflictedmanscom00will_0 1
+## 2 afflictedmanscom00will_1 1
+## 3 africapastandpr00moisgoog 2
+## 4 africapastpresen00mois_0 2
+## 5 ahistoryenglish00martgoog 3
+## 6 historyofenglish00mart 3
+## 7 alarmtounconver00alle 4
+## 8 alarmtounconvert00alle_0 4
+## 9 alarmtounconvert00alle_1 4
+## 10 alarmtounconvert00all 5
+## 11 religioneternall00pike 5
+## 12 anewmemoirhanna02kniggoog 6
+## 13 cu31924013194380 6
+## 14 hannahmore00knig 6
+## 15 hannahmore01knig 6
+## 16 newmemoirofhanna01knig 6
+```
 
 Here we see the first six clusters. Judging by the titles they are accurately clustered. We might wish for cluster 5 to be a part of cluster 4, but we could refine our technique or iterate on the clustering depending on what we wanted. We would then select one document from each cluster to be used.
 
@@ -376,35 +376,35 @@ We can see how this works by aligning two documents. We might notice, for instan
 
 ```r
 align_local(ats[["childshymnbook00caul"]], ats[["historyoflucyjac00amer"]])
-```
 
-    ## TextReuse alignment
-    ## Alignment score: 274
-    ## Document A:
-    ## Early will I seek Thee # # # Now that my journey's just begun My road
-    ## so little trod I'll come before I further run And give myself to God
-    ## ######## ### ##### # What sorrows may my steps attend I never can
-    ## foretell But if the Lord will be my friend I know that all is well
-    ## 62 # THE CHILD'S 56 If all my earthly friends should die And leave me
-    ## mourning here Since God can hear the orphan's cry O # what have I to
-    ## fear # If I am poor he can supply Who has my table spread Who feeds the
-    ## ravens when they cry And fills his poor with bread # If I am rich he'll
-    ## guard my heart Temptation to withstand And make me willing to impart The
-    ## bounties of his hand # But Lord whatever grief or ill For me may be in
-    ## store Make me submissive to thy will #### And I would ask no more
-    ##
-    ## Document B:
-    ## EARLY WILL I SEEK THEE C M 1 NOW that my journey's just begun My road
-    ## so little trod I'll come before I further run And give myself to God
-    ## CHILDREN AND YOUTH 2 What sorrows may my steps attend I never can
-    ## foretell But if the Lord will be my friend I know that all is well
-    ## ## 3 ### ####### ## If all my earthly friends should die And leave me
-    ## mourning here Since God can hear the orphan's cry # 0 what have I to
-    ## fear 4 If I am poor he can supply Who has my table spread Who feeds the
-    ## ravens when they cry And fills his poor with bread 5 If I am rich he'll
-    ## guard my heart Temptation to withstand And make me willing to impart The
-    ## bounties of his hand 6 But Lord whatever grief or ill For me may be in
-    ## store Make me submissive to thy #### wilJ And I would ask no more
+## TextReuse alignment
+## Alignment score: 274
+## Document A:
+## Early will I seek Thee # # # Now that my journey's just begun My road
+## so little trod I'll come before I further run And give myself to God
+## ######## ### ##### # What sorrows may my steps attend I never can
+## foretell But if the Lord will be my friend I know that all is well
+## 62 # THE CHILD'S 56 If all my earthly friends should die And leave me
+## mourning here Since God can hear the orphan's cry O # what have I to
+## fear # If I am poor he can supply Who has my table spread Who feeds the
+## ravens when they cry And fills his poor with bread # If I am rich he'll
+## guard my heart Temptation to withstand And make me willing to impart The
+## bounties of his hand # But Lord whatever grief or ill For me may be in
+## store Make me submissive to thy will #### And I would ask no more
+##
+## Document B:
+## EARLY WILL I SEEK THEE C M 1 NOW that my journey's just begun My road
+## so little trod I'll come before I further run And give myself to God
+## CHILDREN AND YOUTH 2 What sorrows may my steps attend I never can
+## foretell But if the Lord will be my friend I know that all is well
+## ## 3 ### ####### ## If all my earthly friends should die And leave me
+## mourning here Since God can hear the orphan's cry # 0 what have I to
+## fear 4 If I am poor he can supply Who has my table spread Who feeds the
+## ravens when they cry And fills his poor with bread 5 If I am rich he'll
+## guard my heart Temptation to withstand And make me willing to impart The
+## bounties of his hand 6 But Lord whatever grief or ill For me may be in
+## store Make me submissive to thy #### wilJ And I would ask no more
+```
 
 What we find is that *The History of Lucy Jackson* quotes a hymn from a children's hymnbook.[^12]
 

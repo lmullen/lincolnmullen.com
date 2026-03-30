@@ -8,6 +8,7 @@
       {{ .Content }}
 
       {{ partial "newsletter.html" (dict "tag" "newsletter-archive") }}
+      {{ partial "feeds.html" . }}
 
       <h2 class="h3">Past issues</h2>
 

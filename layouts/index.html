@@ -19,13 +19,13 @@
 		</p>
 	</div>
 	<div class="col-md-4 homepage-list">
-		<h3 class="homepage-header mb-2">Contact</h3>
+		<h3 class="smallcaps-header mb-2">Contact</h3>
 		<p class="homepage-inline-links">
 			<span class="text-nowrap"><i class="bi bi-envelope-fill list-icon" role="img" aria-hidden="true" style="color:rgb(21, 96, 161);"></i><a href="mailto:lincoln@lincolnmullen.com">lincoln@lincolnmullen.com</a></span>
 			<span class="text-nowrap"><i class="bi bi-envelope-fill list-icon" role="img" aria-hidden="true" style="color:rgb(21, 96, 161);"></i><a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a></span>
 			<span class="text-nowrap"><i class="bi bi-calendar-event list-icon" role="img" aria-hidden="true" style="color:rgb(24, 182, 42);"></i><a href="/page/office-hours/">Book an appointment</a></span>
 		</p>
-		<h3 class="homepage-header mb-2">Around the internet</h3>
+		<h3 class="smallcaps-header mb-2">Around the internet</h3>
 		<p class="homepage-inline-links">
 			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/bluesky.png" width="16" height="16" class="list-icon"><a href="https://bsky.app/profile/lincolnmullen.com" rel="me">Bluesky</a></span>
 			<span class="text-nowrap"><i class="bi bi-bank2 list-icon" role="img" aria-hidden="true" style="color:rgb(0, 105, 64);"></i><a href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">GMU faculty page</a></span>
@@ -50,16 +50,17 @@
 <section class="row g-4 homepage-section">
 	<div class="col-md-7">
 		<div class="d-flex align-items-baseline mb-3">
-			<h2 class="homepage-header mb-0 me-3">Recent posts</h2>
+			<h2 class="smallcaps-header mb-0 me-3">Recent posts</h2>
 			<a href="/blog/" class="small text-decoration-none">All posts <i class="bi bi-arrow-right"></i></a>
 		</div>
 		{{ partial "homepage-recent.html" . }}
 	</div>
 	<div class="col-md-5">
 		{{ partial "newsletter.html" (dict "tag" "homepage") }}
+		{{ partial "feeds.html" . }}
 		{{ $notes := first 3 (where (where .Site.RegularPages "Section" "blog") ".Title" "==" "") }}
 		{{ with $notes }}
-		<h3 class="homepage-header mt-4 mb-2">Recent notes</h3>
+		<h3 class="smallcaps-header mt-4 mb-2">Recent notes</h3>
 		<ul class="list-unstyled mb-3">
 		{{ range . }}
 			<li class="py-2 small">

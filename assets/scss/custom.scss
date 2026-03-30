@@ -410,7 +410,8 @@ img.list-icon {
 /* Blog */
 
 /* Text wraps at 7/9 of the post column; images fill the full width */
-article.post > header {
+article.post > header,
+article.post > footer.post-footer {
   max-width: 77.78%; /* 7/9 */
 }
 
@@ -436,6 +437,12 @@ article.post > header {
     margin: 0 0 2rem 0 !important;
     background-color: var(--bs-tertiary-bg);
     top: 0;
+  }
+
+  article.post > header,
+  article.post > footer.post-footer,
+  .post-body > * {
+    max-width: 100%;
   }
 }
 
@@ -486,6 +493,10 @@ a.author-link {
 .blog-archive td {
   padding-bottom: 0.5rem;
   vertical-align: top;
+}
+
+.blog-archive a.post-link {
+  text-decoration: none;
 }
 
 footer.article-footer {

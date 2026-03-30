@@ -4,10 +4,10 @@
   {{ .Content }}
 
   <div class="row gx-5">
-    <div class="col-md-3 order-md-2">
+    <div class="col-md-3 order-2">
       {{ partial "blog-nav" . }}
     </div>
-    <div class="col-md-9 order-md-1 blog-list pt-2">
+    <div class="col-md-9 order-1 blog-list pt-2">
 
       {{ range (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages }}
 
@@ -41,15 +41,23 @@
         </div>
 
         <footer class="post-footer text-muted text-end mt-4">
-          {{ partial "via" . }}
+          {{ with .Params.Linkpost }}
+          <div class="text-nowrap"><span class="smallcaps-header">Link</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
+          {{ end }}
+          {{ with .Params.via }}
+          <div class="text-nowrap"><span class="smallcaps-header">Via</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
+          {{ end }}
+          <div class="text-nowrap">
           <a href="{{ .Permalink }}" class="permalink text-muted" title="Permalink">
             <i class="bi bi-link-45deg" aria-hidden="true"></i>
-            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
-              {{ .Date.Format "January 2, 2006" }}
+            <time class='post-date' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
+              {{ .Date.Format "2 January 2006" }}
             </time>
-            <p class="d-none">by <a rel="author" class="p-author h-card" href="{{ .Site.BaseURL }}">Lincoln Mullen</a></p>
           </a>
+          </div>
         </footer>
+
+        {{ partial "post-microformats.html" . }}
 
       </article>
       <!-- Blog post ends here -->

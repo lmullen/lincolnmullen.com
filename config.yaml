@@ -28,8 +28,8 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    style: vs
-    lineNos: true
+    noClasses: false
+    lineNos: false
     tabWidth: 2
 
 imaging:

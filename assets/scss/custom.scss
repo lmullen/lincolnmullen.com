@@ -422,7 +422,8 @@ article.post > footer.post-footer {
 .post-body > figure,
 .post-body > a:has(> img),
 .post-body > div.highlight,
-.post-body > pre {
+.post-body > pre,
+.post-body > table {
   max-width: 100%;
 }
 

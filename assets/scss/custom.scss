@@ -487,7 +487,12 @@ a.author-link {
 }
 
 .post-separator {
-  margin: 5rem 10rem;
+  margin: 4rem 0;
+}
+
+.post-separator hr {
+  max-width: 77.78%; /* match post body text width */
+  opacity: 0.15;
 }
 
 .blog-archive td {

@@ -33,7 +33,7 @@ Greta is off [to be a postdoc](https://historyarthistory.gmu.edu/articles/19036)
 at the Center for Presidential History at Southern Methodist University this
 fall.
 
-> #### Potomac Networks: Waterways, Commerce, and Enslavement in the George Mason Family, 1700–1828
+> **Potomac Networks: Waterways, Commerce, and Enslavement in the George Mason Family, 1700–1828**
 >
 > While George Mason IV is best known as a Virginia political writer, tobacco
 > planter and slaveholder, Mason IV was also an opportunistic Chesapeake

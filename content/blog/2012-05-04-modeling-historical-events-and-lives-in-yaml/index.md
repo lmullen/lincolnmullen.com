@@ -15,7 +15,7 @@ For my [dissertation](http://lincolnmullen.com/blog/categories/dissertation/), I
 
 As I compile my research, I want to use it for two purposes. First, I need regular research notes to use when writing the dissertation. Second, I'd like to use the research as data, which I'll analyze from some unknown tool (maybe Ruby). I have an idea of some of the questions that I'll ask: How many people converted from X to Y? How likely were converts who were clergy in one religion likely to become clergy in another? How were conversions distributed over time? over space? But I won't know which questions can be investigated programmatically or what the data to answer them will look like until I've done substantially more research.
 
-#### The idea: use YAML to model lives and events
+## The idea: use YAML to model lives and events
 
 With that research problem in mind, I've drawn up a list of specifications for what my data model should look like.
 
@@ -26,13 +26,13 @@ With that research problem in mind, I've drawn up a list of specifications for w
 
 My idea is to use [YAML](http://yaml.org/) as the format for the data. YAML is a "human friendly data serialization standard for all programming languages." YAML's two top priorities are "YAML is easily readable by humans" and "YAML data is portable between programming languages," which match my own priorities. I'm familiar with YAML from using [Jekyll](http://jekyllrb.com) for this blog and [another web project](http://jsr.fsu.edu). YAML also fits well into the principles I learned from [*Linux and the Unix Philosophy*](http://openlibrary.org/works/OL3494423W/Linux_and_the_unix_philosophy), especially "store data in flat text files."
 
-#### Example YAML model and Ruby script
+## Example YAML model and Ruby script
 
 I've created a working example with two YAML files and a Ruby script to output some of the data. I've shared the example as a [Gist on GitHub](https://gist.github.com/2580742).
 
 I had to prove to myself that I could get at the data programmatically, so I wrote a Ruby script. It's just a proof-of-concept, and it's the first Ruby script I've written, so there are ugly parts. The script creates a class `Converts`, which loads an array of YAML files into a hash. The class has a few methods to display the names of the converts and a list of all the conversions.
 
-#### What's next?
+## What's next?
 
 If this model works for modeling conversions, it should also work for modeling other kinds of historical events. For example, suppose a labor historian is researching strikes and kept a YAML file for each strike...
 

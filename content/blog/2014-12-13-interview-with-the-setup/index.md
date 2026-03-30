@@ -10,17 +10,17 @@ tags:
 
 *\[I was interviewed by [The Setup](http://lincoln.mullen.usesthis.com/), "a collection of nerdy interviews asking people from all walks of life what they use to get the job done." The interview is [there](http://lincoln.mullen.usesthis.com/) and below.\]*
 
-#### Who are you, and what do you do?
+## Who are you, and what do you do?
 
 My name is [Lincoln Mullen](http://lincolnmullen.com) and I'm a historian at [George Mason University](http://historyarthistory.gmu.edu/). I teach and write about American religious history; at the moment I'm writing a history of people who converted between religions in the nineteenth-century United States. I'm also a digital historian at the [Roy Rosenzweig Center for History and New Media](http://chnm.gmu.edu/). I'm responsible for teaching a [graduate course on computer programming for historians](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf), for which I'm writing a book (still very much a rough draft) on [using R for digital history](http://dh-r.lincolnmullen.com/).
 
-#### What hardware do you use?
+## What hardware do you use?
 
 I have a [15" MacBook Pro](http://www.apple.com/macbook-pro/) with an Intel i7 processor, an SSD, and 16 GB of RAM provided by my department. I also use a [ThinkPad T430](http://shop.lenovo.com/us/en/laptops/thinkpad/t-series/t430/) which was my main machine during graduate school. There is an unremarkable Dell external monitor on my desk. I have an iPhone 5C but I more and more dislike using a phone for anything.
 
 I really like my [Timbuk2 Command Laptop messenger](http://www.amazon.com/gp/product/B005HEV52G/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005HEV52G&linkCode=as2&tag=thebacgla-20&linkId=6PG2AG73XNIA5ES4); I wouldn't change a thing about it.
 
-#### And what software?
+## And what software?
 
 I used to play around with software much too often. Now I've settled down with a few organizing principles influenced by Mike Gancarz's *[Linux and the Unix Philosophy](http://www.amazon.com/gp/product/1555582737/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1555582737&linkCode=as2&tag=thebacgla-20&linkId=ANASKTZGVC7WT6NX)*: I use Unix-style tools and store my data in plain text or flat files. Everything that I write is formatted in [Markdown](http://daringfireball.net/projects/markdown/syntax) using the [Pandoc](http://johnmacfarlane.net/pandoc/) extensions. [John MacFarlane's](http://johnmacfarlane.net/) [Pandoc](http://johnmacfarlane.net/pandoc/) is peerless for converting between markup formats. I use some custom [LaTeX](http://www.latex-project.org/) templates with Pandoc. I use [Vim](http://www.vim.org/), often in the terminal but usually in [MacVim](https://code.google.com/p/macvim/), for all text editing. Every project---writing, coding, you name it---is kept under version control with [Git](http://git-scm.com/) and almost always made available on [GitHub](https://github.com/lmullen). Almost every project is built by [GNU Make](http://bost.ocks.org/mike/make/). All of that is run through the shell, usually [ZSH](http://www.zsh.org/). My [dotfiles](https://github.com/lmullen/dotfiles) and [Vim files](https://github.com/lmullen/vimrc) are available on GitHub.
 
@@ -36,7 +36,7 @@ I use a few Mac or web apps: [iTerm 2](http://iterm2.com/) as a terminal emulato
 
 My open-source or open-access licenses of choice are [MIT](http://opensource.org/licenses/MIT) for software and [CC-BY](http://creativecommons.org/licenses/by/4.0/) for prose.
 
-#### What would be your dream setup?
+## What would be your dream setup?
 
 I have plenty of computing power and can rent more cheaply. I don't even have much to complain about when it comes to battery power. I wish that there was a way to teach students digital methods without going through the grime of setting up a development environment.
 

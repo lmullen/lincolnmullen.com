@@ -11,7 +11,7 @@ tags:
 - tools
 ---
 
-### Who are you, and what do you do?
+## Who are you, and what do you do?
 
 My name is [Lincoln
 Mullen](http://lincolnmullen.com/ "Lincoln's website.") and I\'m a
@@ -29,7 +29,7 @@ for which I\'m writing a book (still very much a rough draft) on [using
 R for digital
 history](http://dh-r.lincolnmullen.com/ "Lincoln's book on R development.").
 
-### What hardware do you use?
+## What hardware do you use?
 
 I have a [15\" MacBook
 Pro](https://www.apple.com/macbook-pro/ "A laptop.") with an Intel i7
@@ -45,7 +45,7 @@ I really like my [Timbuk2 Command Laptop
 messenger](https://www.amazon.com/Timbuk2-Command-Laptop-TSA-Friendly-Messenger/dp/B0068DTASQ "A TSA-friendly bag for laptops.");
 I wouldn\'t change a thing about it.
 
-### And what software?
+## And what software?
 
 I used to play around with software much too often. Now I\'ve settled
 down with a few organizing principles influenced by Mike Gancarz\'s
@@ -166,7 +166,7 @@ for reading feeds.
 My open-source or open-access licenses of choice are MIT for software
 and CC-BY for prose.
 
-### What would be your dream setup?
+## What would be your dream setup?
 
 I have plenty of computing power and can rent more cheaply. I don't
 even have much to complain about when it comes to battery power. I wish

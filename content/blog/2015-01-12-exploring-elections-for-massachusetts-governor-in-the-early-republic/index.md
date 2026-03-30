@@ -49,7 +49,7 @@ In 1823, Otis maintained some of the Federalist strength in western Massachusett
 
 These maps show comparatively little of the split between "blue" cities and "red" country that we are accustomed to in modern electoral maps. This is hardly surprising, since mass urbanization happened much later. But what is surprising in these few maps is how close the vote was in many towns. The line between Federalists and Democratic-Republicans did not run between towns but through them. Elections were highly competitive at the state level, but that competition was also reflected in most towns.[^7] There is a lot more work to do, including figuring out a better way of representing votes by town, creating maps for all the Massachusetts gubernatorial elections, extending the analysis to other states and other types of elections, and taking on questions such as voter turnout and changing patterns of votes within particular towns.
 
-#### Appendix
+## Appendix
 
 If you would like to look up a particular election or candidate, use the table below.
 

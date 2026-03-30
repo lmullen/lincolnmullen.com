@@ -19,21 +19,21 @@ I often get asked how to do certain tasks related to digital humanities. Several
 
 If you look over all these Makefiles you'll see that there are probably only five or six elements which are repeated over and over. It doesn't take many lines in a Makefile to get powerful results, yet I run the command `make` literally dozens of times per day in widely varying projects. GNU Make is a little peculiar, but picking it up has probably had the best return on my time for any technology I've learned.
 
-### Writing projects
+## Writing projects
 
 I wrote about using [Make with pandoc](http://lincolnmullen.com/blog/make-and-pandoc/) several years ago. That is still the basic template that I use for all my writing projects. Here is [an example](https://github.com/lmullen/dissertation/blob/master/Makefile) where the Makefile is basically the same even though the writing project is on a rather larger scale.
 
-### Data analysis notebooks and websites with R Markdown
+## Data analysis notebooks and websites with R Markdown
 
 Almost all of my projects that involve some kind of data analysis end up having a research notebook (like a lab notebook), where I keep track of my work and present preliminary results along the way. These all use [R Markdown](http://rmarkdown.rstudio.com/). As an example, one ongoing project is tracking the migration of law in the nineteenth-century United States. You can see the project's [notebook here](http://lmullen.github.io/civil-procedure-codes/), along with the [Makefile for the project](https://github.com/lmullen/civil-procedure-codes/blob/master/Makefile). This is such a common pattern for my projects that I have abstracted it out into my [Simple R Markdown Notebook](https://lmullen.github.io/rmd-notebook/) ([repository here](https://github.com/lmullen/rmd-notebook)). This is intentionally as bare bones as possible, but the Makefile creates all the pages along with an home page.
 
 I also have several standalone websites which are created with R Markdown. A good recent example is [the Makefile](https://github.com/lmullen/worksheets/blob/master/Makefile) for my worksheets for learning R, which creates [this site](https://dh-r.lincolnmullen.com/worksheets.html). Besides the tasks to actually create the website, check out the task to [deploy it using rsync](https://github.com/lmullen/worksheets/blob/master/Makefile#L14). (Here's an even simpler example of a [deploy task using scp](https://github.com/lmullen/CV/blob/master/Makefile#L14).)
 
-### OCR
+## OCR
 
 A common problem is to have a batch of PDFs for which one wants to generate OCR in plain text, either one file for each page or one file for each PDF. I've had this kind of task in several of my projects, but I recently abstracted it out into its own repository. The basic idea is that you drop a bunch of PDFs into the same directory as the Makefile, then generate the OCR text files in parallel. There is a fuller explanation in the [repository's README](https://github.com/lmullen/ocr-makefile). I even tell you how to install the dependencies. From time to time I've wanted to OCR so many files that I have thrown this Makefile up on a server, which works beautifully.
 
-### Converting and simplifying shapefiles
+## Converting and simplifying shapefiles
 
 [NHGIS](https://www.nhgis.org/) is awesome for providing high quality shapefiles keyed to each U.S. Census. But these are too high-resolution and in the wrong projection to upload to [CartoDB](https://cartodb.com/), which is often useful for teaching. [This is a Makefile](https://github.com/lmullen/nghis-simplifier) which will convert those NHGIS shapefiles into a format that you can use in CartoDB. It wouldn't take much tweaking to adapt this to other tasks involving the conversion of shapefiles.
 

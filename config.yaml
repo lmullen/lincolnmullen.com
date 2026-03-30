@@ -25,6 +25,9 @@ permalinks:
 
 markup:
   goldmark:
+    extensions:
+      footnote:
+        enableAutoIDPrefix: true
     renderer:
       unsafe: true
   highlight:

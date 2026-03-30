@@ -46,6 +46,15 @@ params:
 
 taxonomies: false
 
+related:
+  includeNewer: true
+  threshold: 60
+  indices:
+    - name: tags
+      weight: 100
+    - name: date
+      weight: 10
+
 enableGitInfo: true
 timeZone: "America/New_York"
 

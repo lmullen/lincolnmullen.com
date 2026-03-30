@@ -8,34 +8,34 @@
 
           {{ with .Params.Linkpost }}
           <div>
-            <h6 class="homepage-header mb-1">Link</h6>
+            <h6 class="smallcaps-header mb-1">Link</h6>
             <a href="{{ . }}">{{ (urls.Parse .).Host }}</a>
           </div>
           {{ end }}
 
           {{ with .Params.via }}
           <div>
-            <h6 class="homepage-header mb-1">Via</h6>
+            <h6 class="smallcaps-header mb-1">Via</h6>
             <a href="{{ . }}">{{ (urls.Parse .).Host }}</a>
           </div>
           {{ end }}
 
           {{ with .Params.Crosspost }}
           <div>
-            <h6 class="homepage-header mb-1">Crossposted</h6>
+            <h6 class="smallcaps-header mb-1">Crossposted</h6>
             <a href="{{ .URL }}"><i class="bi bi-box-arrow-up-right me-1"></i>{{ .Source | markdownify }}</a>
           </div>
           {{ end }}
 
           <div>
-            <h6 class="homepage-header mb-1">Published</h6>
+            <h6 class="smallcaps-header mb-1">Published</h6>
             <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
               {{ .Date.Format "2 January 2006" }}
             </time>
           </div>
 
           <div>
-            <h6 class="homepage-header mb-1">Last modified</h6>
+            <h6 class="smallcaps-header mb-1">Last modified</h6>
             <time class="dt-updated" datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>
               {{ time.Format "2 January 2006, at 3:04pm" .Lastmod }}
             </time>
@@ -43,7 +43,7 @@
 
           {{ with .Params.tags }}
           <div>
-            <h6 class="homepage-header mb-1">Subjects</h6>
+            <h6 class="smallcaps-header mb-1">Subjects</h6>
             <div class="d-flex flex-wrap gap-2">
               {{ range . }}
               <span class="badge rounded-pill text-bg-light px-2 py-1 text-nowrap">{{ . }}</span>
@@ -54,33 +54,18 @@
 
           {{ with .Title }}
           <div>
-            <h6 class="homepage-header mb-1">Cite as</h6>
+            <h6 class="smallcaps-header mb-1">Cite as</h6>
             Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, {{ $.Permalink }}
           </div>
           {{ end }}
 
           <div>
-            <h6 class="homepage-header mb-1">Blog</h6>
+            <h6 class="smallcaps-header mb-1">Blog</h6>
             <a href="/blog/">Recent posts</a><br>
             <a href="/archive/">Archive</a>
           </div>
 
-          <div>
-            <h6 class="homepage-header mb-1">Site feeds</h6>
-            <a href="/blog/index.xml" class="btn btn-sm btn-outline-secondary me-1"><i class="bi bi-rss-fill me-1"></i>RSS</a>
-            <a href="/blog/index.json" class="btn btn-sm btn-outline-secondary"><i class="bi bi-rss-fill me-1"></i>JSON</a>
-          </div>
-
-          <div>
-            <h6 class="homepage-header mb-2">Newsletter</h6>
-            <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
-              <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="blogpost-single">
-              <div class="input-group">
-                <input type="text" name="email" class="form-control" placeholder="Your email" aria-label="Your email">
-                <input type="submit" class="btn btn-secondary" value="Subscribe">
-              </div>
-            </form>
-          </div>
+          {{ partial "feeds.html" . }}
 
         </div>
       </div>
@@ -112,13 +97,35 @@
           {{ .Content }}
         </div>
 
-
         <footer class="post-footer">
           <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
         </footer>
 
       </article>
       <!-- Blog post ends here -->
+
+      <div class="mt-5 pt-4 border-top">
+        {{ partial "newsletter.html" (dict "tag" "blogpost-single") }}
+
+        {{ with .Title }}
+        {{ $related := where ($.Site.RegularPages.Related $ | first 15) ".Title" "ne" "" }}
+        {{ $related = where $related "Section" "eq" "blog" }}
+        {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
+        {{ with $related }}
+        <aside class="mt-4">
+          <h6 class="smallcaps-header mb-2">Related posts</h6>
+          <ul>
+            {{ range . }}
+            <li class="mb-1">
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </aside>
+      </div>
+      {{ end }}
+      {{ end }}
+
 
     </div>
   </div>

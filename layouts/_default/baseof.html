@@ -80,28 +80,8 @@
 	{{ block "page-header" . }}
 	<div class="container main-container">
 
-		<header id="site-header" class="d-print-none">
-			<nav class="d-flex flex-column flex-sm-row align-items-sm-center mb-3">
-				<div class="site-title me-auto"><a href="/" class="nav-link">{{ .Site.Title }}</a></div>
-				<ul class="nav">
-					<li>
-						<a class="nav-link{{ if .IsHome }} active{{ end }}" href="/">About</a>
-					</li>
-					<li>
-						<a class="nav-link{{ if hasPrefix .RelPermalink "/scholarship/" }} active{{ end }}" href="/scholarship/">Scholarship</a>
-					</li>
-					<li>
-						<a class="nav-link{{ if hasPrefix .RelPermalink "/courses/" }} active{{ end }}" href="/courses/">Teaching</a>
-					</li>
-					<li>
-						<a class="nav-link{{ if hasPrefix .RelPermalink "/blog/" }} active{{ end }}" href="/blog/">Blog</a>
-					</li>
-					<li>
-						<a class="nav-link{{ if hasPrefix .RelPermalink "/newsletter/" }} active{{ end }}" href="/newsletter/">Newsletter</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+		{{/* Homepage supplies its own left-rail nav; every other page gets the slim header. */}}
+		{{ if not .IsHome }}{{ partial "site-header.html" . }}{{ end }}
 
 		{{ end }}
 

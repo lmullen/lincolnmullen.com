@@ -1,0 +1,9 @@
+{{- /* Fenced code blocks: wrap in the design's .codeblock surface with a mono
+       language label (.clang). Chroma emits token classes (markup.highlight
+       noClasses:false); the palette lives in assets/scss/_chroma.scss. The
+       .clang label is uppercased in CSS, so the raw fence language is fine. */ -}}
+{{- $lang := .Type -}}
+<div class="codeblock">
+  {{- with $lang }}<div class="clang">{{ . }}</div>{{ end -}}
+  {{- highlight (trim .Inner "\n") ($lang | default "text") .Options -}}
+</div>

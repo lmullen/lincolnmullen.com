@@ -18,12 +18,25 @@
   --bs-muted: #6a6e76;
   --bs-heading-color: #1a1e26;
   --bs-accent: #c06a20;
+
+  /* Redesign identity tokens (Design Handoff §2) — light */
+  --navy: #1b54c0; /* links, nav, name, newsletter band fill */
+  --ink: #16203a; /* headings, near-black hairline rules */
+  --body: #1a1a1a; /* body text */
+  --sec: #5a5e66; /* secondary text (excerpts, notes) */
+  --orange: #e07a2e; /* accent: emphasis, card top-border, icons, buttons */
+  --link: #1b54c0; /* inline prose links */
+  --rule: #d4d6dc; /* light hairline (rare) */
+  --rule2: #e6e7ea; /* faint list-row dividers */
+  --mut: #878d99; /* muted meta, social/contact icons */
+  --card: #f3f4f6; /* tinted surface */
+  --radius: 6px; /* the single corner-radius token (§4.12) */
 }
 
 /* Navy & Orange — Dark Mode */
 [data-bs-theme="dark"] {
-  --bs-body-bg: #2c3038;
-  --bs-body-color: #e8eaee;
+  --bs-body-bg: #15171c;
+  --bs-body-color: #c2c7d0;
   --bs-emphasis-color: #f8f9fa;
   --bs-emphasis-color-rgb: 248, 249, 250;
   --bs-primary: #b8d4f8;
@@ -43,6 +56,20 @@
   --bs-muted: #b8bcc4;
   --bs-heading-color: #f8f9fa;
   --bs-accent: #f0a860;
+
+  /* Redesign identity tokens (Design Handoff §2) — dark */
+  --navy: #84aaf2;
+  --ink: #f2f4f8;
+  --body: #c2c7d0;
+  --sec: #9aa0ab;
+  --orange: #ee8b46;
+  --link: #84aaf2;
+  --rule: #2a2e37;
+  --rule2: #23262e;
+  --mut: #828a96;
+  --card: #20242d;
+  --radius: 6px; /* identical in both modes */
+
   --bs-secondary-color: rgba(232, 234, 238, 0.75);
   --bs-secondary-color-rgb: 232, 234, 238;
   --bs-secondary-bg: #3e444e;
@@ -78,27 +105,14 @@ ul ul {
 
 /* Body styles */
 body {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   font-feature-settings: "liga" 1, "dlig" 1;
 }
 
+/* Shared page container (Design Handoff §3 — the .wrap spec) */
 .main-container {
-  max-width: 1200px;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-footer.site-footer {
-  font-size: 0.9rem;
-  border-top: 1px solid var(--bs-border-color);
-  margin-top: $gap * 2;
-  padding-top: $gap * 2;
-  margin-bottom: $gap * 4;
-
-  p {
-    margin-bottom: 0.25rem;
-  }
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
 }
 
 /* Typography */
@@ -183,68 +197,43 @@ a {
   hyphens: none;
 }
 
-/* Header and navigation */
-#site-header {
-  margin-bottom: $gap * 2;
-  border-bottom: 1px solid var(--bs-border-color);
+/* Slim interior-page header (Design Handoff §6) — mono nav reused from the homepage rail.
+   The homepage supplies its own rail nav; every other page gets this. */
+.sitehead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem 2rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.9rem;
+  margin-bottom: 2.4rem;
 }
 
-/* Homepage section spacing (matches header gap) */
-.homepage-section {
-  margin: ($gap * 2) 0;
-  padding-bottom: ($gap * 2);
-}
-
-.site-title {
-  font-size: $font-size-base * 1.25;
-  font-weight: 700;
-  font-variant-caps: all-small-caps;
-  letter-spacing: 0.05em;
-  margin: 0;
-  line-height: inherit;
-}
-
-.site-title a {
+.sitehead .wordmark {
+  font: 700 1.15rem/1 "Source Serif 4", serif;
+  letter-spacing: -0.01em;
+  color: var(--navy);
   text-decoration: none;
-  color: var(--bs-primary);
-  border-bottom: none;
-  padding-left: 0;
-  padding-right: 0;
 }
 
-.site-title a:hover {
-  border-bottom: none;
-  color: var(--bs-primary);
+.sitehead nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.5rem;
 }
 
-#site-header .nav {
-  padding-left: 0;
+.sitehead nav a {
+  font: 600 0.76rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
 }
 
-#site-header .nav li {
-  margin-right: 1.25rem;
-}
-
-#site-header .nav .nav-link {
-  color: var(--bs-primary);
-  font-weight: 500;
-  font-size: $font-size-base * 0.9;
-  font-variant-caps: all-small-caps;
-  letter-spacing: 0.05em;
-  padding: 0.25rem 0;
-  margin-bottom: -1px; // align with header border
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.15s ease-in-out;
-}
-
-#site-header .nav .nav-link:hover {
-  color: var(--bs-secondary);
-  border-bottom-color: var(--bs-secondary);
-}
-
-#site-header .nav .nav-link.active {
-  color: var(--bs-secondary);
-  border-bottom-color: var(--bs-secondary);
+.sitehead nav a:hover,
+.sitehead nav a.on {
+  color: var(--orange);
 }
 
 /* Figures */
@@ -257,107 +246,11 @@ figcaption em {
   font-style: normal;
 }
 
-/* Homepage */
-.homepage-bio p:first-of-type {
-  font-size: 1.35rem;
-  font-weight: 500;
-}
-
-.homepage-list a {
-  text-decoration: none;
-}
-
-.homepage-list a:hover {
-  text-decoration: underline;
-}
-
-.homepage-inline-links {
-  font-size: $font-size-base * 0.95;
-}
-
-.homepage-inline-links a {
-  margin-right: 1.25rem;
-}
-
-.list-icon {
-  display: inline-block;
-  width: 1.25rem;
-  text-align: center;
-  margin-right: 0.4rem;
-}
-
-// This lines up SVGs brought in via an <img> tag with the Bootstrap
-// icons brought in via the <i> tag.
-img.list-icon {
-  margin-top: -0.2rem;
-}
-
-#site-header a {
-  text-decoration: none;
-}
-
-.homepage-list .bi-rss-fill {
-  color: var(--bs-link-color);
-}
-
 .smallcaps-header {
   font-weight: 600;
   font-size: var(--bs-body-font-size);
   font-variant-caps: all-small-caps;
   letter-spacing: 0.05em;
-}
-
-/* Inline newsletter form */
-.newsletter-inline {
-  background: linear-gradient(135deg, var(--bs-accent), #e89040);
-  color: #fff;
-}
-
-.newsletter-inline-btn {
-  background-color: var(--bs-primary);
-  border-color: var(--bs-primary);
-  color: #fff;
-}
-
-.newsletter-inline-btn:hover {
-  background-color: var(--bs-link-hover-color);
-  border-color: var(--bs-link-hover-color);
-  color: #fff;
-}
-
-/* Scholarship cards */
-.scholarship-card {
-  color: inherit;
-  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
-  border: none;
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-.scholarship-card .card-img-top {
-  transition: transform 0.3s ease-in-out;
-}
-
-.scholarship-card:hover {
-  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-3px);
-  color: inherit;
-}
-
-.scholarship-card:hover .card-img-top {
-  transform: scale(1.03);
-}
-
-.scholarship-card .card-body {
-  border-top: 3px solid var(--bs-accent);
-}
-
-[data-bs-theme="dark"] .scholarship-card {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-[data-bs-theme="dark"] .scholarship-card:hover {
-  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
 }
 
 .scholarship-card-sm img {
@@ -669,15 +562,6 @@ sup.footnote-ref {
   margin: 0 !important;
 }
 
-.bio-photo {
-  float: left;
-  width: 180px;
-  height: auto;
-  border-radius: $border-radius;
-  margin: 0.25rem 1.25rem 0.75rem 0;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
 /* Tooltips */
 .tooltip-inner {
   background-color: var(--bs-accent);
@@ -711,4 +595,673 @@ sup.footnote-ref {
 
 .modal.fade .modal-dialog {
   transition: transform 0.1s ease-out;
+}
+
+/* ============================================================
+   Homepage identity — ported from the Claude Design prototype
+   (design_handoff_homepage/prototypes/homepage-light.html).
+   Shared primitives (§4) + homepage layout (§5). Dark values
+   come from the token block at the top of this file; a few
+   surfaces that differ per mode carry an explicit dark rule.
+   ============================================================ */
+
+/* Eyebrow label (§4.1) */
+.ey {
+  font: 600 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+/* Section header (§4.2) — the primary section divider */
+.shead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.55rem;
+  margin-bottom: 1.6rem;
+}
+.shead .lbl {
+  font: 600 0.82rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.shead a {
+  font: 500 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.shead a:hover {
+  color: var(--orange);
+}
+
+/* Hero (§5.1): side rail + oversized statement */
+.hero {
+  display: flex;
+  gap: 3.25rem;
+  padding-bottom: 2.75rem;
+  margin-bottom: 2.75rem;
+  border-bottom: 1px solid var(--ink);
+}
+.rail {
+  width: 196px;
+  flex: none;
+}
+.rail .nm {
+  font: 700 1.7rem/1.05 "Source Serif 4", serif;
+  color: var(--navy);
+  letter-spacing: -0.02em;
+  margin-bottom: 1.6rem;
+}
+.rail nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  border-top: 2px solid var(--ink);
+  padding-top: 1.1rem;
+  margin-bottom: 1.8rem;
+}
+.rail nav a {
+  font: 600 0.76rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+}
+.rail nav a:hover,
+.rail nav a.on {
+  color: var(--orange);
+}
+.rail .photo {
+  width: 100%;
+  max-width: 196px;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Statement / display serif (§4.3) */
+.statement {
+  font: 600 2.9rem/1.1 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 1.6rem;
+}
+.statement em {
+  font-style: italic;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* Prose (§4.4) — bio prose uses #33373f in light per §2 */
+.bio-p {
+  font: 400 1.15rem/1.55 "Source Serif 4", serif;
+  color: #33373f;
+  margin: 0 0 1rem;
+  max-width: 40rem;
+}
+[data-bs-theme="dark"] .bio-p {
+  color: var(--body);
+}
+.bio-p a {
+  color: var(--link);
+  text-decoration: none;
+}
+.bio-p a:hover {
+  color: var(--orange);
+}
+
+/* Action links (§4.5) */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  clear: left;
+}
+.actions a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font: 600 1.08rem/1 "Source Serif 4", serif;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+.actions a:hover {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.actions a i {
+  font-size: 0.82em;
+  transform: translateY(0.02em);
+  transition: transform 0.15s;
+}
+.actions a:hover i {
+  transform: translate(0.2em, 0.02em);
+}
+
+/* Contact band (§5.3) */
+.band {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3.25rem;
+  padding-bottom: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+.band .ey {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.contact a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font: 400 1.02rem/1.3 "Source Serif 4", serif;
+  color: var(--navy);
+  text-decoration: none;
+}
+.contact a:hover {
+  color: var(--orange);
+}
+.contact i {
+  width: 1.1rem;
+  text-align: center;
+  color: var(--mut);
+  flex: none;
+  font-size: 0.95rem;
+}
+.appt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  font: 600 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.85rem;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.appt-btn i:first-child {
+  color: var(--orange);
+  font-size: 0.95rem;
+}
+.appt-btn .bi-arrow-right {
+  font-size: 0.82rem;
+  transition: transform 0.15s;
+}
+.appt-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.appt-btn:hover .bi-arrow-right {
+  transform: translateX(0.2em);
+}
+
+/* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
+   --bc:<hex>; .netlinks.mono forces every logo to --mut. */
+.netlinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem 1.5rem;
+}
+.netlinks a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font: 400 1rem/1.25 "Source Serif 4", serif;
+  color: var(--navy);
+  text-decoration: none;
+}
+.netlinks a:hover {
+  color: var(--orange);
+}
+.netlinks i {
+  width: 1.05rem;
+  text-align: center;
+  color: var(--mut);
+  flex: none;
+  font-size: 0.9rem;
+}
+.netlinks svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: none;
+  fill: currentColor;
+  color: var(--bc, var(--mut));
+}
+.netlinks.mono svg {
+  color: var(--mut);
+}
+
+/* Scholarship (§5.4) — pure-CSS masonry via column-width, no JS */
+.sec {
+  padding-bottom: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+.grid {
+  column-width: 300px;
+  column-gap: 1.5rem;
+}
+.grid .it {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+.scard {
+  display: block;
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.scard img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s;
+}
+.scard:hover {
+  box-shadow: 0 0.5rem 1.4rem rgba(0, 0, 0, 0.14);
+  transform: translateY(-3px);
+}
+.scard:hover img {
+  transform: scale(1.03);
+}
+.scard .b {
+  border-top: 2px solid var(--orange);
+  padding: 0.95rem 1.05rem 1.1rem;
+}
+.scard .t {
+  font: 600 1.06rem/1.25 "Source Serif 4", serif;
+  color: var(--ink);
+}
+.scard .d {
+  font: 400 1rem/1.35 "Source Serif 4", serif;
+  color: var(--sec);
+  margin-top: 0.35rem;
+}
+[data-bs-theme="dark"] .scard {
+  background: #1d2129;
+  border-color: #2a2e37;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* Blog + newsletter band (§4.10) — the single filled-color block; cobalt in BOTH modes */
+.sb {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: #1b54c0;
+  border-radius: var(--radius);
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 2.75rem;
+}
+.sb .blog {
+  padding: 1.7rem 1.85rem;
+  display: flex;
+  flex-direction: column;
+}
+.sb .nl {
+  padding: 1.7rem 1.85rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.22);
+}
+.sb-eyebrow {
+  display: block;
+  font: 600 0.7rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffc79c;
+  margin-bottom: 0.9rem;
+}
+.sb-post-title {
+  display: block;
+  font: 600 1.5rem/1.22 "Source Serif 4", serif;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.sb-post-title:hover {
+  color: #ffc79c;
+}
+.sb-metaline {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0.7rem 0;
+}
+.lp-tag {
+  flex: none;
+  font: 600 0.6rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #1b54c0;
+  background: #ffc79c;
+  border-radius: var(--radius);
+  padding: 0.4em 0.55em;
+}
+.sb-post-date {
+  font: 600 0.64rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+.sb-post-ex {
+  font: 400 1rem/1.45 "Source Serif 4", serif;
+  color: rgba(255, 255, 255, 0.84);
+  margin: 0;
+  max-width: 34rem;
+}
+.blog-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem 2rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 1.3rem;
+}
+.sb-navlinks {
+  display: flex;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+.sb-navlinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: 600 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+.sb-navlinks a i {
+  transition: transform 0.15s;
+}
+.sb-navlinks a:hover {
+  color: #ffc79c;
+}
+.sb-navlinks a:hover i {
+  transform: translateX(0.2em);
+}
+.sb-feedlinks {
+  display: flex;
+  gap: 1.5rem;
+}
+.sb-feedlinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  font: 600 0.74rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.sb-feedlinks a i {
+  font-size: 1.4rem;
+  color: var(--orange);
+  transition: transform 0.15s;
+}
+.sb-feedlinks a:hover {
+  color: #ffc79c;
+}
+.sb-feedlinks a:hover i {
+  transform: translateY(-2px);
+}
+.sb-h {
+  font: 600 1.2rem/1.2 "Source Serif 4", serif;
+  color: #fff;
+}
+.sb-h em {
+  font-style: italic;
+}
+.sb-sub {
+  font: 400 1rem/1.42 "Source Serif 4", serif;
+  color: rgba(255, 255, 255, 0.82);
+  margin: 0.4rem 0 0;
+}
+.sb-sub a {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.sb-sub a:hover {
+  color: #ffc79c;
+  text-decoration-color: #ffc79c;
+}
+.sb-form {
+  display: flex;
+  max-width: 340px;
+  margin-top: 1rem;
+}
+.sb-form input[type="text"],
+.sb-form input[type="email"] {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+  font: 400 0.98rem "Source Serif 4", serif;
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+.sb-form input[type="text"]::placeholder,
+.sb-form input[type="email"]::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sb-form input[type="submit"] {
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  font: 600 0.74rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0 1.2rem;
+  cursor: pointer;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Footer (§4.11) */
+.foot {
+  border-top: 1px solid var(--ink);
+  margin-top: 2.5rem;
+  padding-top: 2.2rem;
+  font: 400 0.92rem/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.foot p {
+  margin: 0.15rem 0;
+}
+.foot p:has(b) {
+  display: flex;
+  align-items: baseline;
+}
+.foot p:has(b) .fl {
+  flex: 1;
+  min-width: 0;
+}
+.foot a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.foot a:hover {
+  color: var(--orange);
+}
+.foot b {
+  display: inline-block;
+  min-width: 3.75rem;
+  font: 600 0.66rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-right: 0.5rem;
+}
+
+/* ===== responsive (§5) ===== */
+@media (max-width: 920px) {
+  .netlinks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .main-container {
+    padding: 1.75rem 1.2rem 3rem;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 1.4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .rail {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem 1rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1.05rem;
+  }
+  .rail .nm {
+    order: 1;
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.1;
+  }
+  .rail .nm br {
+    display: none;
+  }
+  .rail nav {
+    order: 2;
+    flex-basis: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.15rem 1.2rem;
+    border-top: none;
+    padding-top: 0.2rem;
+    margin: 0;
+  }
+  .rail nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .contact {
+    gap: 0.65rem;
+  }
+  .contact a {
+    padding: 0.25rem 0;
+  }
+  .netlinks {
+    gap: 0.7rem 1.5rem;
+  }
+  .netlinks a {
+    padding: 0.3rem 0;
+  }
+  .rail .photo {
+    order: 0;
+    width: 52px;
+    height: 52px;
+    max-width: none;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+  }
+  .statement {
+    font-size: 2.05rem;
+  }
+  .band {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .sb {
+    grid-template-columns: 1fr;
+  }
+  .sb .nl {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+  }
+}
+@media (max-width: 480px) {
+  body {
+    font-size: 1.06rem;
+  }
+  .statement {
+    font-size: 1.72rem;
+    line-height: 1.17;
+  }
+  .bio-p {
+    font-size: 1.08rem;
+  }
+  .actions {
+    gap: 1.1rem;
+  }
+}
+
+/* Featured posts index (placeholder styling — to be redesigned) */
+.featured-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.featured-list li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule2);
+}
+.featured-list li:last-child {
+  border-bottom: none;
+}
+.featured-title {
+  font: 600 1.3rem/1.3 "Source Serif 4", serif;
+  color: var(--ink);
+  text-decoration: none;
+}
+.featured-title:hover {
+  color: var(--orange);
+}
+.featured-date {
+  display: inline-block;
+  margin-left: 0.6rem;
+  font: 600 0.66rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+.featured-desc {
+  font: 400 1.05rem/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+  margin: 0.4rem 0 0;
+  max-width: 40rem;
 }

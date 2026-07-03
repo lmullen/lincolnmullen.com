@@ -43,9 +43,29 @@ params:
   subtitle: "Historian of American religion"
   newsletterTitle: "Working on It"
   siteFeedUrl: "/blog/index.xml"
+  # "Around the internet" social icons: brand (official colors) | monochrome (--mut)
+  iconStyle: brand
   author:
     name: "Lincoln Mullen"
     email: "lincoln@lincolnmullen.com"
+
+# Primary navigation. Rendered in the homepage rail, the slim interior header,
+# and the footer "Site" row so they stay in sync. Newsletter is deliberately
+# excluded (Design Handoff §9); it lives in the cobalt band and on the blog page.
+menu:
+  main:
+    - name: About
+      url: /
+      weight: 10
+    - name: Scholarship
+      url: /scholarship/
+      weight: 20
+    - name: Teaching
+      url: /courses/
+      weight: 30
+    - name: Blog
+      url: /blog/
+      weight: 40
 
 taxonomies: false
 

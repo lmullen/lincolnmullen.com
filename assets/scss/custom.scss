@@ -514,19 +514,7 @@ a.footnote-backref {
   text-decoration: none;
 }
 
-// Automatic figure numbering
-article {
-  counter-reset: figures;
-}
-
-figure {
-  counter-increment: figures;
-}
-
-figcaption p:before {
-  content: "Figure " counter(figures) ". ";
-  font-weight: 500;
-}
+/* Automatic figure numbering lives in the blog section (figcaption.figcap::before). */
 
 /* Footnotes / small text */
 .footnotes {
@@ -1231,39 +1219,507 @@ sup.footnote-ref {
   }
 }
 
-/* Featured posts index (placeholder styling — to be redesigned) */
-.featured-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* ===================================================================
+   Blog — Design Handoff (list · single · archive · featured · shared
+   sidebar · post elements). Composes from the identity tokens (§2).
+   Layout/rail/sidebar rules are scoped under .blog-layout so the
+   single-post .rail never collides with the homepage hero .rail.
+   =================================================================== */
+
+/* ---- two-column page layout (content + sidebar/rail) ---- */
+.blog-layout {
+  display: grid;
+  grid-template-columns: 1fr 14.5rem;
+  gap: 2.4rem;
+  align-items: start;
 }
-.featured-list li {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
+.blog-layout .shead {
+  margin-bottom: 0.4rem;
+}
+.blog-layout .sidebar,
+.blog-layout .rail {
+  border-left: 1px solid var(--rule2);
+  padding-left: 1.8rem;
+}
+.blog-layout .sidebar {
+  margin-top: 3rem; /* align the sidebar with the first content row */
+}
+
+/* ---- list feed post ---- */
+.list-post {
+  padding: 1.55rem 0;
   border-bottom: 1px solid var(--rule2);
 }
-.featured-list li:last-child {
+.list-post:last-of-type {
   border-bottom: none;
 }
-.featured-title {
-  font: 600 1.3rem/1.3 "Source Serif 4", serif;
-  color: var(--ink);
-  text-decoration: none;
-}
-.featured-title:hover {
-  color: var(--orange);
-}
-.featured-date {
-  display: inline-block;
-  margin-left: 0.6rem;
-  font: 600 0.66rem/1 "Source Code Pro", monospace;
+
+/* metadata line — date (+ subjects); never names the post type */
+.metaline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.55rem;
+  font: 600 0.68rem/1.4 "Source Code Pro", monospace;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--mut);
 }
-.featured-desc {
-  font: 400 1.05rem/1.5 "Source Serif 4", serif;
+.metaline .sep {
+  color: var(--rule);
+}
+
+.ptitle {
+  display: inline-block;
+  margin: 0.5rem 0 0;
+  font: 600 1.5rem/1.24 "Source Serif 4", serif;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  text-decoration: none;
+}
+.ptitle:hover {
+  color: var(--navy);
+}
+.pbody {
+  font: 400 1.05rem/1.58 "Source Serif 4", serif;
+  color: var(--body);
+  max-width: 38rem;
+}
+.pbody p {
+  margin: 0.6rem 0 0;
+}
+
+/* read-more action link (serif small-caps, orange arrow slide on hover) */
+.rm {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font: 600 1.02rem/1 "Source Serif 4", serif;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  margin-top: 0.85rem;
+}
+.rm:hover {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.rm i {
+  font-size: 0.8em;
+  transition: transform 0.15s;
+}
+.rm:hover i {
+  transform: translateX(0.2em);
+}
+
+/* Link / Via / Crossposted affordance line */
+.affline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
+  margin-top: 0.95rem;
+}
+.aff {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: 600 0.68rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.aff .afk {
+  color: var(--mut);
+} /* label: Link / Via / Crossposted */
+.aff i {
+  color: var(--orange);
+  font-size: 0.85rem;
+} /* bi-arrow-up-right */
+.aff .afh {
+  color: var(--navy);
+} /* the host / source */
+.aff:hover .afh {
+  color: var(--orange);
+}
+
+/* Subjects (tags) pills */
+.subj {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.pill {
+  font: 600 0.6rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.44em 0.62em;
+  text-decoration: none;
+}
+a.pill:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+/* ---- single post ---- */
+.stmt {
+  font: 600 2.05rem/1.14 "Source Serif 4", serif;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+}
+.stmt a {
+  color: inherit;
+  text-decoration: none;
+}
+.stmt a:hover {
+  color: var(--navy);
+}
+.bodyprose {
+  font: 400 1.12rem/1.62 "Source Serif 4", serif;
+  color: var(--body);
+  max-width: 36rem;
+}
+.bodyprose p {
+  margin: 0 0 1rem;
+}
+
+/* Related posts (titled only) */
+.rel {
+  margin-top: 2.2rem;
+}
+.rel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.rel a {
+  font: 600 1.05rem/1.3 "Source Serif 4", serif;
+  color: var(--ink);
+  text-decoration: none;
+}
+.rel a:hover {
+  color: var(--navy);
+}
+
+/* ---- single-post metadata rail blocks ---- */
+.rb {
+  margin-bottom: 1.4rem;
+}
+.rb .rlbl {
+  font: 600 0.66rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 0.55rem;
+}
+.rb .rv {
+  font: 400 0.98rem/1.4 "Source Serif 4", serif;
+  color: var(--body);
+}
+.rb .rv a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.rb .rv a:hover {
+  color: var(--orange);
+}
+.rb .upd {
+  display: block;
+  font: 600 0.62rem/1.4 "Source Code Pro", monospace;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--mut);
+  margin-top: 0.35rem;
+} /* bi-clock-history + "Updated …" */
+.rail-div {
+  border: none;
+  border-top: 1px solid var(--rule2);
+  margin: 0.2rem 0 1.5rem;
+}
+
+/* ---- shared blog sidebar (Navigate · Newsletter · Site feeds) ---- */
+.bs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.bs-lbl {
+  font: 600 0.66rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 0.7rem;
+}
+.bs-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.bs-nav a {
+  font: 400 1.02rem/1.35 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  color: var(--navy);
+  text-decoration: none;
+}
+.bs-nav a:hover {
+  color: var(--orange);
+}
+.bs-nav a.on {
+  color: var(--orange);
+} /* current page */
+.bs-nav a::after {
+  content: "→";
+  margin-left: 0.4rem;
+}
+.bs-form {
+  display: flex;
+}
+.bs-form input[type="text"],
+.bs-form input[type="email"] {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--rule);
+  border-right: none;
+  background: var(--bs-body-bg);
+  padding: 0.5rem 0.6rem;
+  font: 400 0.92rem "Source Serif 4", serif;
+  color: var(--body);
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+.bs-form input::placeholder {
+  color: var(--mut);
+}
+.bs-form input[type="submit"],
+.bs-form button {
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  font: 600 0.64rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0 0.85rem;
+  cursor: pointer;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.bs-nllink {
+  display: inline-block;
+  margin-top: 0.65rem;
+  font: 400 0.95rem/1.3 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  color: var(--navy);
+  text-decoration: none;
+} /* → newsletter page */
+.bs-nllink:hover {
+  color: var(--orange);
+}
+.bs-feeds {
+  display: flex;
+  gap: 1.3rem;
+} /* borderless text links */
+.feed-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: 600 0.68rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+}
+.feed-btn i {
+  color: var(--orange);
+  font-size: 1rem;
+} /* bi-rss-fill / bi-braces */
+.feed-btn:hover {
+  color: var(--orange);
+}
+
+/* ---- year-grouped index (archive + featured) ---- */
+.idx-group {
+  margin-top: 1.7rem;
+}
+.idx-group:first-of-type {
+  margin-top: 1.3rem;
+}
+.idx-year {
+  font: 600 1.3rem/1 "Source Serif 4", serif;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule2);
+}
+.idx-row {
+  display: grid;
+  grid-template-columns: 4.6rem 1fr;
+  gap: 1.3rem;
+  align-items: baseline;
+  padding: 0.45rem 0;
+}
+.idx-date {
+  font: 600 0.66rem/1.5 "Source Code Pro", monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--mut);
+  text-align: right;
+}
+.idx-title {
+  font: 600 1.06rem/1.35 "Source Serif 4", serif;
+  color: var(--ink);
+  text-decoration: none;
+}
+.idx-title:hover {
+  color: var(--navy);
+}
+.idx-desc {
+  font: 400 0.98rem/1.42 "Source Serif 4", serif;
   color: var(--sec);
-  margin: 0.4rem 0 0;
-  max-width: 40rem;
+  margin: 0.25rem 0 0;
+  max-width: 30rem;
+}
+.idx-row.feat {
+  padding: 0.7rem 0;
+} /* featured rows carry a description */
+
+/* ---- in-post content elements ---- */
+/* figure = image + caption ({{< figure >}}) */
+figure.fig {
+  margin: 1.5rem 0;
+}
+.figimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+}
+figcaption.figcap {
+  margin-top: 0.8rem;
+  font: 400 0.98rem/1.55 "Source Serif 4", serif;
+  color: var(--sec);
+  max-width: 36rem;
+}
+/* Automatic per-post figure numbering, in the mono label voice: "Figure 1." */
+article {
+  counter-reset: figures;
+}
+figure.fig {
+  counter-increment: figures;
+}
+figcaption.figcap::before {
+  content: "Figure " counter(figures) ". ";
+  font: 600 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.04em;
+  color: var(--mut);
+}
+figcaption.figcap a {
+  color: var(--navy);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+}
+figcaption.figcap a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* plain image, no caption ({{< image >}}) */
+.postimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+}
+
+/* inline code (reading columns) */
+.bodyprose code,
+.pbody code {
+  font: 500 0.86em/1 "Source Code Pro", monospace;
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  border-radius: 5px;
+  padding: 0.1em 0.38em;
+  color: var(--ink);
+}
+/* reset code inside fenced blocks so only true inline code gets the pill */
+.codeblock code,
+.chroma code {
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* fenced code block (render-codeblock hook) */
+.codeblock {
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 1.6rem 0;
+}
+.codeblock .clang {
+  font: 600 0.62rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mut);
+  background: var(--rule2);
+  padding: 0.55rem 0.95rem;
+  border-bottom: 1px solid var(--rule2);
+} /* language label */
+.codeblock .highlight {
+  margin: 0;
+}
+.codeblock pre {
+  margin: 0;
+  background: var(--card);
+  padding: 1rem 1.1rem;
+  overflow: auto;
+}
+.codeblock code {
+  font: 400 0.9rem/1.65 "Source Code Pro", monospace;
+  color: var(--ink);
+}
+
+/* block quote — one orange rule, no source/cite line */
+.bodyprose blockquote,
+.pbody blockquote {
+  margin: 1.8rem 0;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--orange);
+}
+.bodyprose blockquote p,
+.pbody blockquote p {
+  font: 400 1.16rem/1.6 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+}
+.bodyprose blockquote p:last-child,
+.pbody blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- responsive: stack sidebar/rail below content ---- */
+@media (max-width: 900px) {
+  .blog-layout {
+    grid-template-columns: 1fr;
+  }
+  .blog-layout .sidebar,
+  .blog-layout .rail {
+    border-left: none;
+    border-top: 1px solid var(--rule2);
+    padding-left: 0;
+    padding-top: 1.5rem;
+    margin-top: 0.5rem;
+  }
 }

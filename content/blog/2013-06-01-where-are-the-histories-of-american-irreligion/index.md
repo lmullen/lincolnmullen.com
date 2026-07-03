@@ -1,5 +1,6 @@
 ---
 title: 'Where are the histories of American irreligion?'
+featured: true
 date: "2013-06-01"
 slug: 'where-are-the-histories-of-american-irreligion'
 description: "To understand what Campbell defended, we must understand what Owen argued for—but for hundreds of books on American religion there are scarcely three good histories of American irreligion."

@@ -1,5 +1,6 @@
 ---
 title: 'What makes for a good academic mentor?'
+featured: true
 date: 2022-04-11
 slug: 'good-mentor'
 draft: false

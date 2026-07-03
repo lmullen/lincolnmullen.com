@@ -1,5 +1,6 @@
 ---
 title: 'A very preliminary taxonomy of sources of nineteenth-century U.S. religious data'
+featured: true
 date: "2016-02-01"
 slug: 'a-very-preliminary-taxonomy-of-sources-of-nineteenth-century-u-s-religious-data'
 description: "A preliminary taxonomy of the computational sources available to historians of U.S. religion, from the Census of Religious Bodies to denominational yearbooks."

@@ -1,5 +1,6 @@
 ---
 title: 'The cultural history of American fundamentalism: a review essay'
+featured: true
 date: "2010-06-01"
 slug: 'the-cultural-history-of-american-fundamentalism-a-review-essay'
 description: "A review essay surveying how Marsden, Carpenter, Larson, Watt, and Bendroth redefined fundamentalism not as a reaction against modernity but as a distinctly modern movement."

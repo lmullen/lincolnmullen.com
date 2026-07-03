@@ -1,6 +1,7 @@
 ---
 date: '2018-01-10T15:37:45+00:00'
 title: "Isn't it obvious?"
+featured: true
 slug: 'isnt-it-obvious'
 description: "Audiences often claim a visualization simply confirms what they knew, but showing blank axes before the data reveals they could not have predicted the outcome."
 image: slide08.png

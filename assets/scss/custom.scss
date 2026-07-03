@@ -883,6 +883,8 @@ sup.footnote-ref {
 .scard img {
   display: block;
   width: 100%;
+  height: auto; /* let the width/height attrs drive aspect-ratio; without this the
+                   attr height becomes a fixed px height and stretches the image */
   transition: transform 0.3s;
 }
 .scard:hover {

@@ -1,26 +1,39 @@
-<div class="sidebar-nav sticky-md-top ps-3 py-4 mt-2">
-  <div class="vstack gap-4 small">
-
-    <div>
-      <p class="smallcaps-header mb-1">Navigate</p>
-      <div class="vstack gap-2">
-        <div><a href="/blog/">Recent posts</a></div>
-        <div><a href="/archive/">Blog posts by date</a></div>
-      </div>
+{{- /* Shared blog sidebar (.bs): Navigate · Newsletter · Site feeds. Reused by
+       the blog index, archive, featured, and newsletter-list pages, and embedded
+       inside post-sidebar.html for single posts. The current page is marked .on
+       (singles match nothing). The Buttondown `tag` is resolved once here so it
+       is correct in every context. Always call with the page context: `. */ -}}
+{{- $tag := "website" -}}
+{{- if eq .RelPermalink "/blog/" -}}{{ $tag = "blog-list" }}
+{{- else if eq .RelPermalink "/archive/" -}}{{ $tag = "blog-archive" }}
+{{- else if eq .RelPermalink "/blog/featured/" -}}{{ $tag = "blog-featured" }}
+{{- else if eq .Section "newsletter" -}}{{ $tag = cond (eq .Kind "page") "newsletter-single" "newsletter-archive" }}
+{{- else if and (eq .Section "blog") (eq .Kind "page") -}}{{ $tag = "blog-post" }}
+{{- end -}}
+<div class="bs">
+  <div>
+    <p class="bs-lbl">Navigate</p>
+    <div class="bs-nav">
+      <a href="/blog/"{{ if eq .RelPermalink "/blog/" }} class="on"{{ end }}>Recent posts</a>
+      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on"{{ end }}>Blog posts by date</a>
+      <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on"{{ end }}>Featured posts</a>
     </div>
-
-    <div>
-      <p class="smallcaps-header mb-1">Newsletter</p>
-      <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="embeddable-buttondown-form">
-        <input type="hidden" value="1" name="embed"><input type="hidden" name="tag" value="blog-list">
-        <div class="input-group input-group-sm">
-          <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email address">
-          <button type="submit" class="btn btn-secondary">Subscribe</button>
-        </div>
-      </form>
+  </div>
+  <div>
+    <p class="bs-lbl">Newsletter</p>
+    <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="bs-form embeddable-buttondown-form">
+      <input type="hidden" value="1" name="embed">
+      <input type="hidden" name="tag" value="{{ $tag }}">
+      <input type="email" name="email" placeholder="Email" aria-label="Email address">
+      <input type="submit" value="Subscribe">
+    </form>
+    <a class="bs-nllink" href="/newsletter/">Read past issues →</a>
+  </div>
+  <div>
+    <p class="bs-lbl">Site feeds</p>
+    <div class="bs-feeds">
+      <a class="feed-btn" href="/blog/index.xml"><i class="bi bi-rss-fill"></i> RSS</a>
+      <a class="feed-btn" href="/blog/index.json"><i class="bi bi-braces"></i> JSON</a>
     </div>
-
-    {{ partial "feeds.html" . }}
-
   </div>
 </div>

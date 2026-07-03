@@ -1581,15 +1581,6 @@ a.pill:hover {
 .idx-title:hover {
   color: var(--navy);
 }
-.idx-desc {
-  font: 400 0.98rem/1.42 "Source Serif 4", serif;
-  color: var(--sec);
-  margin: 0.25rem 0 0;
-  max-width: 30rem;
-}
-.idx-row.feat {
-  padding: 0.7rem 0;
-} /* featured rows carry a description */
 
 /* ---- in-post content elements ---- */
 /* figure = image + caption ({{< figure >}}) */

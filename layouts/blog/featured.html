@@ -1,25 +1,19 @@
-{{/* Curated "Featured posts" index — blog posts flagged `featured: true`, grouped
-     by year, each with a one-line description from front matter. */}}
+{{/* Curated "Featured posts" — blog posts flagged `featured: true`, listed newest
+     first (no year grouping): full date, title, one-line description, read-more link. */}}
 {{ define "main" }}
 <div class="blog-layout">
   <div>
     <div class="shead"><span class="lbl">Featured posts</span></div>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
-    {{ range (where (where .Site.RegularPages "Section" "blog") ".Params.featured" true).GroupByDate "2006" }}
-    <div class="idx-group">
-      <div class="idx-year">{{ .Key }}</div>
-      {{ range .Pages }}
-      {{ $p := . }}
-      <div class="idx-row feat">
-        <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
-        <div>
-          <a class="idx-title" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
-          {{ with .Description }}<p class="idx-desc">{{ $p.RenderString (dict "display" "inline") . }}</p>{{ end }}
-        </div>
-      </div>
-      {{ end }}
-    </div>
+    {{ $featured := sort (where (where .Site.RegularPages "Section" "blog") ".Params.featured" true) "Date" "desc" }}
+    {{ range $featured }}
+    <article class="list-post">
+      <div class="metaline"><span>{{ .Date.Format "2 January 2006" }}</span></div>
+      <a class="ptitle" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+      {{ if .Description }}<div class="pbody"><p>{{ .RenderString (dict "display" "inline") .Description }}</p></div>{{ end }}
+      <a class="rm" href="{{ .RelPermalink }}">Read the entire post <i class="bi bi-arrow-right"></i></a>
+    </article>
     {{ end }}
   </div>
 

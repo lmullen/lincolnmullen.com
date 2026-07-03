@@ -1,38 +1,31 @@
 {{ define "main" }}
-<div class="container-fluid">
+<div class="bodyprose" style="max-width: 40rem">
+  <div class="shead"><span class="lbl">{{ .Site.Params.NewsletterTitle }} — the newsletter</span></div>
+  {{ with .Content }}{{ . }}{{ end }}
 
-  <div class="row gx-5">
-    <div class="col-md-9 blog-archive mt-4">
-      <h1>{{ .Title }}</h1>
-
-      {{ .Content }}
-
-      {{ partial "newsletter.html" (dict "tag" "newsletter-archive") }}
-
-      <h2 class="h3">Past issues</h2>
-
-      <div class="mb-4">
-        <table class='date-list-table' style="width:100%;">
-          <colgroup>
-            <col style="width:8%;">
-            <col style="width:72%;">
-            <col style="width:20%;">
-          </colgroup>
-          <tbody>
-            {{ range .Pages }}
-            <tr>
-              <td class="text-end pe-2">#{{ .Slug }}:</td>
-              <td><a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a></td>
-              <td class="text-end text-muted ps-2 d-none d-sm-block"><time class="date" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2 Jan 2006" }}</time></td>
-            </tr>
-            {{ end }}
-          </tbody>
-        </table>
-      </div>
-    </div>
+  <div class="mt-4 mb-2">
+    <p class="bs-lbl">Subscribe</p>
+    <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="bs-form embeddable-buttondown-form">
+      <input type="hidden" value="1" name="embed">
+      <input type="hidden" name="tag" value="newsletter-archive">
+      <input type="email" name="email" placeholder="Email" aria-label="Email address">
+      <input type="submit" value="Subscribe">
+    </form>
   </div>
 </div>
 
-
-
+<div class="mt-5">
+  <div class="shead"><span class="lbl">Past issues</span></div>
+  {{ range .Pages.GroupByDate "2006" }}
+  <div class="idx-group">
+    <div class="idx-year">{{ .Key }}</div>
+    {{ range .Pages }}
+    <div class="idx-row">
+      <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+      <a class="idx-title" href="{{ .Permalink }}">#{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
 {{ end }}

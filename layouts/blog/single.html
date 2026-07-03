@@ -1,62 +1,41 @@
 {{ define "main" }}
+<div class="blog-layout">
+  <div>
+    <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
 
-<div class="container-fluid">
-  <div class="row gx-5">
-    <div class="col-md-3 order-2">
-      {{ partial "post-sidebar.html" . }}
-    </div>
-    <div class="col-md-9 order-1 py-2">
+      {{ if .Title }}
+      <h1 class="stmt"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a></h1>
+      {{ else }}
+      <h1 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h1>
+      {{ end }}
 
-      <!-- Blog post starts here -->
-
-      <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
-
-        {{ with .Title }}
-
-        <header>
-          <a href='{{ $.Permalink }}' class="u-url u-uid permalink">
-            <h1 class="post-title p-name">
-              {{ . | markdownify }}
-            </h1>
-          </a>
-        </header>
-        {{ else }}
-        <h1 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h1>
-        {{ end }}
-
-        <div class='post-body e-content mt-2 mb-5'>
-          {{ .Content }}
-        </div>
-
-        {{ partial "post-microformats.html" . }}
-
-      </article>
-      <!-- Blog post ends here -->
-
-      {{ with .Title }}
-      {{ $related := where ($.Site.RegularPages.Related $ | first 15) ".Title" "ne" "" }}
-      {{ $related = where $related "Section" "eq" "blog" }}
-      {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
-      {{ with $related }}
-      <div class="mt-5">
-        <hr>
-        <aside>
-          <p class="smallcaps-header mb-2">Related posts</p>
-          <ul>
-            {{ range . }}
-            <li class="mb-1">
-              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-            </li>
-            {{ end }}
-          </ul>
-        </aside>
+      <div class="bodyprose e-content">
+        {{ .Content }}
       </div>
-      {{ end }}
-      {{ end }}
 
+      {{ partial "post-microformats.html" . }}
 
+    </article>
+
+    {{ if .Title }}
+    {{ $related := where ($.Site.RegularPages.Related $ | first 15) ".Title" "ne" "" }}
+    {{ $related = where $related "Section" "eq" "blog" }}
+    {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
+    {{ with $related }}
+    <div class="rel">
+      <div class="shead"><span class="lbl">Related posts</span></div>
+      <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a></li>
+        {{ end }}
+      </ul>
     </div>
+    {{ end }}
+    {{ end }}
+
   </div>
+
+  <aside class="rail">{{ partial "post-sidebar.html" . }}</aside>
 </div>
 
 {{ with .Title }}
@@ -71,14 +50,14 @@
       <div class="modal-body">
         <div class="mb-4">
           <p class="smallcaps-header mb-1">Footnote</p>
-          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ . | markdownify }},&rdquo; {{ $.Date.Format "2 January 2006" }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ $.RenderString (dict "display" "inline") . }},&rdquo; {{ $.Date.Format "2 January 2006" }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
           <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-footnote">
             <i class="bi bi-clipboard"></i> Copy
           </button>
         </div>
         <div>
           <p class="smallcaps-header mb-1">Bibliography</p>
-          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ . | markdownify }}.&rdquo; {{ $.Date.Format "2 January 2006" }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ $.RenderString (dict "display" "inline") . }}.&rdquo; {{ $.Date.Format "2 January 2006" }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
           <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-bibliography">
             <i class="bi bi-clipboard"></i> Copy
           </button>
@@ -88,7 +67,6 @@
   </div>
 </div>
 {{ end }}
-
 
 {{ end }}
 

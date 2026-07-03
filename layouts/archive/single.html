@@ -1,38 +1,24 @@
 {{ define "main" }}
+<div class="blog-layout">
+  <div>
+    <div class="shead"><span class="lbl">Blog posts by date</span></div>
+    {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
-<div class="container-fluid">
-
-  <h1>{{ .Title }}</h1>
-
-  {{ .Content }}
-
-  <div class="row gx-5">
-    <div class="col-md-3 order-md-2">
-      {{ partial "blog-nav" }}
-    </div>
-    <div class="col-md-9 order-md-1 blog-archive mt-4">
-      {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
-      <div class="mb-4">
-        <h2>{{ .Key }}</h2>
-        <table class='date-list-table'>
-          <colgroup>
-            <col style="width:10rem;">
-            <col>
-          </colgroup>
-          <tbody>
-            {{ range .Pages }}
-            {{ if and (not .Params.Linkpost) .Title }}
-            <tr>
-              <td><time class="date" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "January 2" }}</time></td>
-              <td><a href="{{ .Permalink }}" class="post-link">{{ .Title | markdownify }}</a></td>
-            </tr>
-            {{ end }}
-            {{ end }}
-          </tbody>
-        </table>
+    {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
+    <div class="idx-group">
+      <div class="idx-year">{{ .Key }}</div>
+      {{ range .Pages }}
+      {{ if and (not .Params.Linkpost) .Title }}
+      <div class="idx-row">
+        <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+        <a class="idx-title" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
       </div>
       {{ end }}
+      {{ end }}
     </div>
+    {{ end }}
   </div>
+
+  <aside class="sidebar">{{ partial "blog-nav" . }}</aside>
 </div>
 {{ end }}

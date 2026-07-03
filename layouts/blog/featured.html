@@ -1,23 +1,28 @@
-{{/* Curated "Featured posts" index. Lists blog posts flagged `featured: true` in front
-     matter. Placeholder styling — intended to be redesigned in Claude Design. */}}
+{{/* Curated "Featured posts" index — blog posts flagged `featured: true`, grouped
+     by year, each with a one-line description from front matter. */}}
 {{ define "main" }}
-<section class="sec">
-	<div class="shead">
-		<span class="lbl">Featured posts</span>
-		<a href="/blog/">All posts →</a>
-	</div>
+<div class="blog-layout">
+  <div>
+    <div class="shead"><span class="lbl">Featured posts</span></div>
+    {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
-	{{ .Content }}
+    {{ range (where (where .Site.RegularPages "Section" "blog") ".Params.featured" true).GroupByDate "2006" }}
+    <div class="idx-group">
+      <div class="idx-year">{{ .Key }}</div>
+      {{ range .Pages }}
+      {{ $p := . }}
+      <div class="idx-row feat">
+        <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+        <div>
+          <a class="idx-title" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+          {{ with .Description }}<p class="idx-desc">{{ $p.RenderString (dict "display" "inline") . }}</p>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
 
-	{{ $featured := sort (where (where .Site.RegularPages "Section" "blog") ".Params.featured" "==" true) "Date" "desc" }}
-	<ul class="featured-list">
-		{{ range $featured }}
-		<li>
-			<a class="featured-title" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-			<span class="featured-date">{{ .Date.Format "2 January 2006" }}</span>
-			{{ if .Description }}<p class="featured-desc">{{ .RenderString (dict "display" "inline") .Description }}</p>{{ end }}
-		</li>
-		{{ end }}
-	</ul>
-</section>
+  <aside class="sidebar">{{ partial "blog-nav" . }}</aside>
+</div>
 {{ end }}

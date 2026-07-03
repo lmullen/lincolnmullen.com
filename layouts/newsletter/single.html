@@ -1,34 +1,21 @@
 {{ define "main" }}
+<div class="blog-layout">
+  <div>
+    <article id='{{ .Slug }}' class="h-entry post">
 
-<div class="container-fluid">
-  <div class="row gx-5">
-    <div class="col-md-3 order-2">
-      {{ partial "post-sidebar.html" . }}
-    </div>
-    <div class="col-md-9 order-1 py-2">
+      <h1 class="stmt"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a></h1>
 
-      <article id='{{ .Slug }}' class="h-entry post">
+      <div class="bodyprose e-content">
+        {{ .Content }}
+      </div>
 
-        <header>
-          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
-            <h1 class="post-title p-name">
-              {{ .Site.Params.NewsletterTitle }} #{{ .Slug}}: {{ .Title | markdownify }}
-            </h1>
-          </a>
-        </header>
+      {{ partial "post-microformats.html" . }}
 
-        <div class='post-body e-content mt-2 mb-5'>
-          {{ .Content }}
-        </div>
-
-        {{ partial "post-microformats.html" . }}
-
-      </article>
-
-    </div>
+    </article>
   </div>
-</div>
 
+  <aside class="rail">{{ partial "post-sidebar.html" . }}</aside>
+</div>
 {{ end }}
 
 {{ define "canonical" }}

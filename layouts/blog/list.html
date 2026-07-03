@@ -1,72 +1,48 @@
 {{ define "main" }}
-<div class="container-fluid">
+<div class="blog-layout">
+  <div>
+    {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
+    <div class="shead"><span class="lbl">The Blog</span></div>
 
-  {{ .Content }}
+    {{ range (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages }}
+    <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
 
-  <div class="row gx-5">
-    <div class="col-md-3 order-2">
-      {{ partial "blog-nav" . }}
-    </div>
-    <div class="col-md-9 order-1 blog-list pt-2">
+      <div class="metaline">
+        <span>{{ .Date.Format "2 Jan 2006" }}</span>
+        {{ with .Params.tags }}{{ range . }}<span class="sep">/</span><span>{{ . }}</span>{{ end }}{{ end }}
+      </div>
 
-      {{ range (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages }}
+      {{ if .Title }}
+      <a class="ptitle p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+      {{ else }}
+      <h2 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h2>
+      {{ end }}
 
-      <!-- Blog post starts here -->
+      <div class="pbody e-content">
+        {{ if findRE `<!--more-->` .RawContent }}
+        {{ .Summary }}
+        <a class="rm" href="{{ .RelPermalink }}">Read the entire post <i class="bi bi-arrow-right"></i></a>
+        {{ else }}
+        {{ .Content }}
+        {{ end }}
+      </div>
 
-      <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
-
-        <header>
-          {{ if .Title }}
-          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
-            <h1 class="post-title p-name">
-              {{ .Title | markdownify }}
-            </h1>
-          </a>
-          {{ else }}
-          <h2 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h2>
-          {{ end }}
-        </header>
-
-        <div class='post-body e-content mt-2'>
-          {{ if findRE `<!--more-->` .RawContent }}
-          {{ .Summary }}
-          <p class="my-5"><strong><a href="{{ .RelPermalink }}">Read the entire post</a>&nbsp;<i class="bi bi-arrow-right"></i></strong></p>
-          {{ else }}
-          {{ .Content }}
-          {{ end }}
-        </div>
-
-        <footer class="post-footer text-muted text-end mt-4">
-          {{ with .Params.Linkpost }}
-          <div class="text-nowrap"><span class="smallcaps-header">Link:</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
-          {{ end }}
-          {{ with .Params.via }}
-          <div class="text-nowrap"><span class="smallcaps-header">Via:</span>&nbsp;<a href="{{ . }}" class="text-muted">{{ (urls.Parse .).Host }}</a></div>
-          {{ end }}
-          <div class="text-nowrap">
-          <a href="{{ .Permalink }}" class="permalink text-muted" title="Permalink">
-            <i class="bi bi-link-45deg" aria-hidden="true"></i>
-            <time class='post-date' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
-              {{ .Date.Format "2 January 2006" }}
-            </time>
-          </a>
-          </div>
-        </footer>
-
-        {{ partial "post-microformats.html" . }}
-
-      </article>
-      <!-- Blog post ends here -->
-
-      <div class="post-separator">
-        <hr>
+      {{ if or .Params.Linkpost .Params.via .Params.Crosspost }}
+      <div class="affline">
+        {{ with .Params.Linkpost }}<a class="aff" href="{{ . }}"><span class="afk">Link</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
+        {{ with .Params.via }}<a class="aff" href="{{ . }}"><span class="afk">Via</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
+        {{ with .Params.Crosspost }}<a class="aff" href="{{ .URL }}"><span class="afk">Crossposted</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ .Source }}</span></a>{{ end }}
       </div>
       {{ end }}
-      {{ partial "pagination.html" . }}
-    </div>
+
+      {{ partial "post-microformats.html" . }}
+
+    </article>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
   </div>
+
+  <aside class="sidebar">{{ partial "blog-nav" . }}</aside>
 </div>
-
-
-
 {{ end }}

@@ -62,6 +62,10 @@ enableGitInfo: true
 timeZone: "America/New_York"
 
 security:
+  # Allow HTML files inside page bundles to be assembled as content.
+  # The default policy denies text/html; override it to permit all media types.
+  allowContent:
+    - ".*"
   funcs:
     getenv:
       - ^HUGO_

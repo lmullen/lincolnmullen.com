@@ -1,0 +1,39 @@
+{{/* Blog + newsletter band (Design Handoff §4.10) — the single filled-color block.
+     Left: the latest titled blog post + blog links + feeds. Right: newsletter signup. */}}
+{{ $latest := index (first 1 (where (where .Site.RegularPages "Section" "blog") ".Title" "!=" "")) 0 }}
+<section class="sb">
+	<div class="blog">
+		<span class="sb-eyebrow">Read the blog</span>
+		{{ with $latest }}
+		<a class="sb-post-title" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+		<div class="sb-metaline">
+			<span class="lp-tag">Latest</span>
+			<span class="sb-post-date">{{ .Date.Format "2 Jan 2006" }}</span>
+		</div>
+		{{ if .Description }}
+		<p class="sb-post-ex">{{ .RenderString (dict "display" "inline") .Description }}</p>
+		{{ else }}
+		<p class="sb-post-ex">{{ .Summary | plainify | truncate 160 }}</p>
+		{{ end }}
+		{{ end }}
+		<div class="blog-foot">
+			<div class="sb-navlinks">
+				<a href="/blog/">Recent posts <i class="bi bi-arrow-right"></i></a>
+				<a href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
+			</div>
+			<div class="sb-feedlinks">
+				<a href="/blog/index.xml"><i class="bi bi-rss-fill"></i> RSS feed</a>
+				<a href="/blog/index.json"><i class="bi bi-braces"></i> JSON feed</a>
+			</div>
+		</div>
+	</div>
+	<div class="nl">
+		<span class="sb-eyebrow">Newsletter</span>
+		<div class="sb-h">Subscribe to <em>Working on It</em></div>
+		<p class="sb-sub">An occasional <a href="/newsletter/">newsletter</a> on American religious history, digital history, and the making thereof.</p>
+		<form class="sb-form" action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')">
+			<input type="email" name="email" placeholder="Your email address" aria-label="Your email address">
+			<input type="submit" value="Subscribe">
+		</form>
+	</div>
+</section>

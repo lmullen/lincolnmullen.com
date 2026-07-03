@@ -4,88 +4,42 @@
 
 {{ define "main" }}
 
-<!-- Bio + links -->
-
-<section class="row g-4 border-bottom border-opacity-25 homepage-section">
-	<div class="col-md-8 homepage-bio">
+{{/* Hero (Design Handoff §5.1): left rail (name, mono nav, portrait) + oversized statement. */}}
+<section class="hero">
+	<div class="rail">
+		{{/* Literal space before <br> so the wordmark reads "Lincoln Mullen" when the break hides on mobile. */}}
+		<div class="nm">Lincoln <br>Mullen</div>
+		<nav>
+			{{ $cur := .RelPermalink }}
+			{{ range site.Menus.main }}
+			{{ $active := cond (eq .URL "/") (eq $cur "/") (hasPrefix $cur .URL) }}
+			<a href="{{ .URL }}"{{ if $active }} class="on"{{ end }}>{{ .Name }}</a>
+			{{ end }}
+		</nav>
 		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
-		{{ $photo1x := $photo.Resize "180x webp" }}
-		{{ $photo2x := $photo.Resize "360x webp" }}
-		<img src="{{ $photo1x.RelPermalink }}" srcset="{{ $photo1x.RelPermalink }} 1x, {{ $photo2x.RelPermalink }} 2x" alt="Lincoln Mullen" width="{{ $photo1x.Width }}" height="{{ $photo1x.Height }}" class="bio-photo">
-		{{ .Content }}
-		<p>
-			<a href="/bio/" class="btn btn-outline-primary me-2">Biography</a>
-			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf" class="btn btn-outline-primary">CV</a>
-		</p>
+		{{ $photo1x := $photo.Resize "196x webp" }}
+		{{ $photo2x := $photo.Resize "392x webp" }}
+		<img class="photo" src="{{ $photo1x.RelPermalink }}" srcset="{{ $photo1x.RelPermalink }} 1x, {{ $photo2x.RelPermalink }} 2x" alt="Lincoln Mullen" width="{{ $photo1x.Width }}" height="{{ $photo1x.Height }}">
 	</div>
-	<div class="col-md-4 homepage-list">
-		<h3 class="smallcaps-header mb-2">Contact</h3>
-		<p class="homepage-inline-links">
-			<span class="text-nowrap"><i class="bi bi-envelope-fill list-icon" role="img" aria-hidden="true" style="color:rgb(21, 96, 161);"></i><a href="mailto:lincoln@lincolnmullen.com">lincoln@lincolnmullen.com</a></span>
-			<span class="text-nowrap"><i class="bi bi-envelope-fill list-icon" role="img" aria-hidden="true" style="color:rgb(21, 96, 161);"></i><a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a></span>
-			<span class="text-nowrap"><i class="bi bi-calendar-event list-icon" role="img" aria-hidden="true" style="color:rgb(24, 182, 42);"></i><a href="/page/office-hours/">Book an appointment</a></span>
-		</p>
-		<h3 class="smallcaps-header mb-2">Around the internet</h3>
-		<p class="homepage-inline-links">
-			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/bluesky.png" width="16" height="16" class="list-icon"><a href="https://bsky.app/profile/lincolnmullen.com" rel="me">Bluesky</a></span>
-			<span class="text-nowrap"><i class="bi bi-bank2 list-icon" role="img" aria-hidden="true" style="color:rgb(0, 105, 64);"></i><a href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">GMU faculty page</a></span>
-			<span class="text-nowrap"><i class="bi bi-github list-icon" role="img" aria-hidden="true" style="color:#24292f;"></i><a href="https://github.com/lmullen" rel="me">GitHub</a></span>
-			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/google-scholar.svg" width="16" height="16" class="list-icon"><a href="https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ" rel="me">Google Scholar</a></span>
-			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/hcommons.png" width="16" height="16" class="list-icon"><a href="https://hcommons.org/members/lmullen/" rel="me">Knowledge Commons</a></span>
-			<span class="text-nowrap"><i class="bi bi-linkedin list-icon" role="img" aria-hidden="true" style="color:rgb(49,113,172);"></i><a href="https://www.linkedin.com/in/lincolnmullen/" rel="me">LinkedIn</a></span>
-			<span class="text-nowrap"><i class="bi bi-mastodon list-icon" role="img" aria-hidden="true" style="color:#6364FF;"></i><a rel="me" href="https://hcommons.social/@lmullen">Mastodon</a></span>
-			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/orcid.svg" width="16" height="16" class="list-icon"><a href="https://orcid.org/0000-0001-5103-6917" rel="me">ORCID</a></span>
-			<span class="text-nowrap"><i class="bi bi-reddit list-icon" role="img" aria-hidden="true" style="color:rgb(235,85,40);"></i><a rel="me" href="https://www.reddit.com/user/lincolnmullen/">Reddit</a></span>
-			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/zotero.png" width="16" height="16" class="list-icon"><a href="https://www.zotero.org/lmullen" rel="me">Zotero</a></span>
-			<span class="text-nowrap"><img aria-hidden="true" alt="" src="/img/zoom.svg" width="16" height="16" class="list-icon"><a href="https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09">Zoom</a></span>
-		</p>
+	<div class="main">
+		{{/* Statement + bio prose come from content/_index.md: first paragraph → the display
+		     statement (rendered inline so its <em> emphasis lands), the rest → .bio-p prose. */}}
+		{{ $blocks := split (strings.TrimSpace .RawContent) "\n\n" }}
+		<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>
+		{{ range after 1 $blocks }}
+		<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
+		{{ end }}
+		<div class="actions">
+			<a href="/bio/">Biography <i class="bi bi-arrow-right"></i></a>
+			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">Curriculum Vitae <i class="bi bi-arrow-right"></i></a>
+		</div>
 	</div>
 </section>
 
-<!-- Scholarship cards -->
+{{ partial "homepage-subscribe.html" . }}
+
+{{ partial "homepage-contact.html" . }}
+
 {{ partial "homepage-scholarship.html" . }}
 
-<!-- Recent writing + Newsletter -->
-
-<section class="row g-4 homepage-section">
-	<div class="col-md-7">
-		<div class="d-flex align-items-baseline mb-3">
-			<h2 class="smallcaps-header mb-0 me-3">Recent posts</h2>
-			<a href="/blog/" class="small text-decoration-none">All posts <i class="bi bi-arrow-right"></i></a>
-		</div>
-		{{ partial "homepage-recent.html" . }}
-	</div>
-	<div class="col-md-5">
-		{{ partial "newsletter.html" (dict "tag" "homepage") }}
-		{{ partial "feeds.html" . }}
-		{{ $notes := first 3 (where (where .Site.RegularPages "Section" "blog") ".Title" "==" "") }}
-		{{ with $notes }}
-		<h3 class="smallcaps-header mt-4 mb-2">Recent notes</h3>
-		<ul class="list-unstyled mb-3">
-		{{ range . }}
-			<li class="py-2 small">
-				{{ .Content | plainify | truncate 120 }}
-				<a href="{{ .Permalink }}" class="text-nowrap">{{ .Date.Format "2 January 2006" }} <i class="bi bi-arrow-right"></i></a>
-			</li>
-		{{ end }}
-		</ul>
-		{{ end }}
-	</div>
-</section>
-
-{{ end }}
-
-{{ define "scripts" }}
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha384-e3sbGkYzJZpi7OdZc2eUoj7saI8K/Qbn+kPTdWyUQloiKIc9HRH4RUWFVxTonzTg" crossorigin="anonymous"></script>
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		var grid = document.getElementById('scholarship-grid');
-		if (!grid) return;
-		var msnry = new Masonry(grid, { percentPosition: true });
-		imagesLoaded(grid, function () {
-			msnry.layout();
-		});
-	});
-</script>
 {{ end }}

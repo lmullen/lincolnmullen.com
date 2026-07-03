@@ -1390,6 +1390,33 @@ a.pill:hover {
   margin: 0 0 1rem;
 }
 
+/* In-post headings — subordinate to the post title. Posts start at ## (h2),
+   with ### (h3) for subsections; sized below the .ptitle/.stmt titles so an
+   in-body heading never outweighs the post's own title. */
+.bodyprose h1, .bodyprose h2,
+.pbody h1, .pbody h2 {
+  font: 600 1.35rem/1.3 "Source Serif 4", serif;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 1.8rem 0 0.5rem;
+}
+.bodyprose h3,
+.pbody h3 {
+  font: 600 1.2rem/1.35 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 1.5rem 0 0.4rem;
+}
+.bodyprose h4, .bodyprose h5, .bodyprose h6,
+.pbody h4, .pbody h5, .pbody h6 {
+  font: 600 1.05rem/1.4 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 1.3rem 0 0.35rem;
+}
+.bodyprose > :first-child,
+.pbody > :first-child {
+  margin-top: 0;
+}
+
 /* Related posts (titled only) */
 .rel {
   margin-top: 2.2rem;

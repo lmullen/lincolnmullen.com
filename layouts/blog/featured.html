@@ -1,0 +1,23 @@
+{{/* Curated "Featured posts" index. Lists blog posts flagged `featured: true` in front
+     matter. Placeholder styling — intended to be redesigned in Claude Design. */}}
+{{ define "main" }}
+<section class="sec">
+	<div class="shead">
+		<span class="lbl">Featured posts</span>
+		<a href="/blog/">All posts →</a>
+	</div>
+
+	{{ .Content }}
+
+	{{ $featured := sort (where (where .Site.RegularPages "Section" "blog") ".Params.featured" "==" true) "Date" "desc" }}
+	<ul class="featured-list">
+		{{ range $featured }}
+		<li>
+			<a class="featured-title" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+			<span class="featured-date">{{ .Date.Format "2 January 2006" }}</span>
+			{{ if .Description }}<p class="featured-desc">{{ .RenderString (dict "display" "inline") .Description }}</p>{{ end }}
+		</li>
+		{{ end }}
+	</ul>
+</section>
+{{ end }}

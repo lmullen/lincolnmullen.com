@@ -5,7 +5,9 @@
   <header>
     <h1>{{ .Title | markdownify }}</h1>
   </header>
-  {{ .Content }}
+  <div class="reading reading--narrow">
+    {{ .Content }}
+  </div>
 
 </article>
 {{ end }}

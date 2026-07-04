@@ -236,16 +236,6 @@ a {
   color: var(--orange);
 }
 
-/* Figures */
-figcaption {
-  font-style: italic;
-  font-size: 1rem;
-}
-
-figcaption em {
-  font-style: normal;
-}
-
 .smallcaps-header {
   font-weight: 600;
   font-size: var(--bs-body-font-size);
@@ -302,46 +292,9 @@ figcaption em {
 
 /* Blog */
 
-/* Text wraps at 7/9 of the post column; images fill the full width */
-article.post > header,
-article.post > footer.post-footer {
-  max-width: 77.78%; /* 7/9 */
-}
-
-.post-body > * {
-  max-width: 77.78%; /* 7/9 */
-}
-
-.post-body > figure,
-.post-body > a:has(> img),
-.post-body > div.highlight,
-.post-body > pre,
-.post-body > table {
-  max-width: 100%;
-}
-
-/* Tables in blog posts */
-.post-body table {
-  width: 100%;
-  margin: 2rem 0;
-  border-collapse: collapse;
-  border: 1px solid var(--bs-border-color);
-}
-
-.post-body table th,
-.post-body table td {
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--bs-border-color);
-}
-
-.post-body table thead th {
-  font-weight: 600;
-  background-color: var(--bs-tertiary-bg);
-}
-
-.post-body table tbody tr:nth-child(even) {
-  background-color: var(--bs-tertiary-bg);
-}
+/* Reading measure, breakout, tables, and figures for full-text posts now live
+   in the ".reading" section at the end of this file (the reading-typography
+   handoff), replacing the older .post-body 7/9 width + bordered-table system. */
 
 .sidebar-nav {
   top: 5rem;
@@ -353,12 +306,6 @@ article.post > footer.post-footer {
     margin: 0 0 2rem 0 !important;
     background-color: var(--bs-tertiary-bg);
     top: 0;
-  }
-
-  article.post > header,
-  article.post > footer.post-footer,
-  .post-body > * {
-    max-width: 100%;
   }
 }
 
@@ -453,8 +400,7 @@ div.highlight {
   max-width: 100%;
 }
 
-div.highlight pre,
-.post-body > pre {
+div.highlight pre {
   white-space: pre-wrap;
   word-break: break-word;
   margin-left: 0;
@@ -464,10 +410,6 @@ div.highlight pre,
   padding: 0.75rem 1.5rem;
   margin-bottom: 0.5rem;
   border-radius: 5px;
-}
-
-.post-body > div.highlight {
-  margin-bottom: 0.5rem;
 }
 
 div.highlight pre code {
@@ -531,19 +473,6 @@ a.footnote-backref {
 sup.footnote-ref {
   font-size: 0.7em;
   font-weight: 500;
-}
-
-.post-body hr {
-  border: none;
-  margin: 2rem 0;
-  color: var(--bs-body-color);
-  opacity: 0.8;
-}
-
-.post-body hr::before {
-  content: "***";
-  display: block;
-  text-align: center;
 }
 
 .bio-img img {
@@ -1739,5 +1668,354 @@ figcaption.figcap a:hover {
     padding-left: 0;
     padding-top: 1.5rem;
     margin-top: 0.5rem;
+  }
+}
+
+/* ===================================================================
+   Reading-page typography — reading-typography handoff.
+   The one idea: prose holds a legible measure; evidence gets more room.
+     • Body, headings, lists, quotes, footnotes → capped at --measure.
+     • Figures, images, tables, code blocks     → break out to --wide,
+       flush-LEFT with the text, overhanging the column to the RIGHT.
+   Keyed off a single ".reading" wrapper on the post/page content
+   container; text-only pages (bio) add ".reading--narrow". Placed last so
+   its ".reading X" rules win, within reading contexts, over the base
+   .bodyprose / figure / .codeblock / .footnotes rules above — those still
+   serve list excerpts (.pbody) and page intros, which are not .reading.
+   No new tokens/fonts/colors: all values resolve against §2's token set.
+   =================================================================== */
+
+:root {
+  --measure: 40rem; /* legible reading measure for prose */
+  --wide: 58rem; /* breakout width for figures/tables/code */
+  --fig-mid: 46rem; /* smaller breakout for low-res scans */
+}
+
+/* ---- the reading wrapper: measure vs. breakout ---- */
+.reading {
+  /* Interpolated so Dart Sass emits a literal CSS min() rather than trying to
+     evaluate var(--wide) with its own numeric min() function. */
+  max-width: #{"min(var(--wide), 100%)"};
+  margin: 0; /* flush-left within the post column */
+}
+/* text: capped at the reading measure, flush-left */
+.reading > *,
+.reading > p,
+.reading > ul,
+.reading > ol,
+.reading > blockquote,
+.reading > h2,
+.reading > h3 {
+  max-width: var(--measure);
+  margin-left: 0;
+  margin-right: auto;
+}
+/* media / evidence: break out past the measure, still flush-left */
+.reading > figure,
+.reading > a:has(> img),
+.reading > .postimg,
+.reading > table,
+.reading > .codeblock,
+.reading > div.highlight,
+.reading > pre {
+  max-width: 100%; /* i.e. up to --wide */
+  margin-left: 0;
+  margin-right: 0;
+}
+/* text-only pages (bio): narrow the whole column to the measure so a
+   right-floated margin figure can bleed into the gutter (see below) */
+.reading.reading--narrow {
+  max-width: var(--measure);
+}
+
+/* ---- body prose ---- */
+.reading > p {
+  font: 400 1.19rem/1.62 "Source Serif 4", serif;
+  color: var(--body);
+  margin: 0 0 1.15rem;
+  text-wrap: pretty;
+}
+.reading a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.reading a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* ---- in-post headings: serif (not the mono .shead); h2 carries the
+   identity's 1px --ink hairline. Overrides the .bodyprose h2/h3 above. ---- */
+.reading > h2 {
+  font: 600 1.5rem/1.2 "Source Serif 4", serif;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin: 2.9rem 0 1.1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--ink);
+}
+.reading > h3 {
+  font: 600 1.16rem/1.3 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 2rem 0 0.7rem;
+}
+
+/* ---- lists, block quotes ---- */
+.reading > ul,
+.reading > ol {
+  font: 400 1.19rem/1.6 "Source Serif 4", serif;
+  color: var(--body);
+  margin: 0 0 1.15rem;
+  padding-left: 1.3rem;
+}
+.reading > ul li,
+.reading > ol li {
+  margin: 0.5rem 0;
+  padding-left: 0.2rem;
+}
+.reading > ul li::marker {
+  color: var(--ink);
+} /* black bullets, not orange */
+.reading > ol li::marker {
+  color: var(--mut);
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.85em;
+}
+.reading > blockquote {
+  border-left: 2px solid var(--orange);
+  padding: 0.1rem 0 0.1rem 1.4rem;
+  margin: 1.7rem 0;
+}
+.reading > blockquote p {
+  font: 400 1.18rem/1.6 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 0 0 0.7rem;
+}
+.reading > blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- figures + images: breakout, flush-left, caption held to measure ---- */
+.reading figure.fig {
+  margin: 2.2rem 0;
+}
+.reading figure.fig img,
+.reading img.figimg,
+.reading img.postimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  background: #fff; /* white backing keeps transparent scans/charts legible */
+}
+/* low-res page scans shouldn't blow up to full --wide. Opt-in per figure via
+   the shortcode's `class` param ({{< figure ... class="mid" >}}); not a bulk
+   edit — full-width stays the default. */
+.reading figure.fig.mid {
+  max-width: var(--fig-mid);
+}
+.reading figure.fig.portrait {
+  max-width: 27rem;
+}
+/* caption: held to the measure; the mono kicker keeps the "Figure N." content
+   set by figcaption.figcap::before (blog section) and restyles it here */
+.reading figure.fig figcaption,
+.reading .figcap {
+  max-width: var(--measure);
+  margin: 0.8rem 0 0;
+  font: 400 0.98rem/1.55 "Source Serif 4", serif;
+  color: var(--sec);
+  font-style: normal;
+}
+.reading .figcap::before {
+  font: 600 0.62rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mut);
+  margin-right: 0.55rem;
+}
+.reading .figcap a,
+.reading figure.fig figcaption a {
+  color: var(--navy);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+}
+.reading .figcap a:hover,
+.reading figure.fig figcaption a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* ---- tables: breakout; hairline vocabulary, tabular figures ---- */
+.reading table {
+  width: 100%;
+  border-collapse: collapse;
+  font: 400 0.98rem/1.35 "Source Serif 4", serif;
+  color: var(--body);
+  margin: 2rem 0;
+  display: block; /* wide tables scroll rather than overflow the column */
+  overflow-x: auto;
+}
+.reading table thead th {
+  font: 600 0.64rem/1.3 "Source Code Pro", monospace;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-align: left;
+  padding: 0.35rem 0.8rem 0.55rem;
+  border-bottom: 1.5px solid var(--ink);
+  white-space: nowrap;
+}
+.reading table tbody td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid var(--rule2);
+  vertical-align: baseline;
+  font-variant-numeric: tabular-nums;
+}
+/* milestone rows: authored as **bold** cells in the source → render as ink */
+.reading table tbody td strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.reading table tbody tr:last-child td {
+  border-bottom: 1.5px solid var(--ink);
+}
+/* respect per-column alignment when the markdown source sets it ( ----: ) */
+.reading table td[align="right"],
+.reading table th[align="right"] {
+  text-align: right;
+}
+.reading table td[align="center"],
+.reading table th[align="center"] {
+  text-align: center;
+}
+
+/* ---- code: the render-codeblock hook (.codeblock > .clang + highlight);
+   refines the base .codeblock above within reading contexts ---- */
+.reading .codeblock {
+  margin: 1.6rem 0;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.reading .codeblock .clang {
+  font: 600 0.6rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mut);
+  background: var(--rule2); /* spec's #eef0f3 → token, so the chip works in dark mode */
+  padding: 0.5rem 0.95rem;
+  border-bottom: 1px solid var(--rule2);
+}
+.reading .codeblock pre {
+  margin: 0;
+  background: var(--card);
+  padding: 0.95rem 1.1rem;
+  overflow: auto;
+  white-space: pre;
+}
+.reading .codeblock code {
+  font: 400 0.88rem/1.62 "Source Code Pro", monospace;
+  color: var(--ink);
+  background: transparent;
+  padding: 0;
+}
+/* inline code */
+.reading :not(pre) > code {
+  font: 500 0.84em/1 "Source Code Pro", monospace;
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  border-radius: 5px;
+  padding: 0.08em 0.36em;
+  color: var(--ink);
+}
+
+/* ---- footnotes: hide the <hr>, replace with a mono "Notes" label over a
+   1px --ink rule; serif list, mono navy refs, orange back-arrow ---- */
+.reading .footnotes {
+  max-width: var(--measure);
+  margin-top: 3rem;
+  color: var(--sec);
+}
+.reading .footnotes hr {
+  display: none;
+}
+.reading .footnotes::before {
+  content: "Notes";
+  display: block;
+  font: 600 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 1.1rem;
+}
+.reading .footnotes ol {
+  padding-left: 1.4rem;
+  margin: 0;
+}
+.reading .footnotes li {
+  font: 400 0.96rem/1.55 "Source Serif 4", serif;
+  color: var(--sec);
+  margin: 0 0 0.8rem;
+}
+/* Goldmark emits <sup id="fnref:N"><a class="footnote-ref">…</a></sup>, so the
+   class sits on the anchor, not the sup — target a.footnote-ref directly. */
+.reading a.footnote-ref {
+  font: 600 0.68rem/1 "Source Code Pro", monospace;
+  color: var(--navy);
+  text-decoration: none;
+  padding: 0 0.12em;
+}
+.reading a.footnote-ref:hover {
+  color: var(--orange);
+}
+.reading a.footnote-backref {
+  text-decoration: none;
+  color: var(--orange);
+  margin-left: 0.25rem;
+}
+
+/* ---- bio margin figure: half in the column, half in the right gutter.
+   Restyles the existing .bio-img (authored in content/page/bio/index.md);
+   requires the page wrapper to be .reading.reading--narrow. No content edit. ---- */
+.reading--narrow .bio-img.float-end,
+.reading--narrow .bio-img {
+  float: right;
+  width: 15rem;
+  max-width: 42%;
+  margin: 0.4rem -7.5rem 1.2rem 1.7rem; /* right -7.5rem ≈ half of 15rem */
+}
+.reading--narrow .bio-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  margin: 0;
+}
+
+/* ---- responsive: collapse measure/breakout on phones ---- */
+@media (max-width: 768px) {
+  :root {
+    --measure: 100%;
+    --wide: 100%;
+    --fig-mid: 100%;
+  }
+  .reading figure.fig.portrait {
+    max-width: 20rem;
+  }
+  .reading--narrow .bio-img.float-end,
+  .reading--narrow .bio-img {
+    float: none;
+    width: auto;
+    max-width: 20rem;
+    margin: 1.4rem auto;
   }
 }

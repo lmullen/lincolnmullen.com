@@ -7,8 +7,8 @@
 {{/* Hero (Design Handoff §5.1): left rail (name, mono nav, portrait) + oversized statement. */}}
 <section class="hero">
 	<div class="rail">
-		{{/* Literal space before <br> so the wordmark reads "Lincoln Mullen" when the break hides on mobile. */}}
-		<div class="nm">Lincoln <br>Mullen</div>
+		{{/* Single line on the rail (see .rail .nm nowrap); wraps naturally only on small screens. */}}
+		<div class="nm">Lincoln Mullen</div>
 		<nav>
 			{{ $cur := .RelPermalink }}
 			{{ range site.Menus.main }}

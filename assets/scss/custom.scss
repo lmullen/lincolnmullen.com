@@ -646,6 +646,7 @@ sup.footnote-ref {
   color: var(--navy);
   letter-spacing: -0.02em;
   margin-bottom: 1.6rem;
+  white-space: nowrap; /* "Lincoln Mullen" stays on one line within the 196px rail */
 }
 .rail nav {
   display: flex;
@@ -1146,9 +1147,7 @@ sup.footnote-ref {
     margin: 0;
     font-size: 1.3rem;
     line-height: 1.1;
-  }
-  .rail .nm br {
-    display: none;
+    white-space: normal; /* allow the name to wrap on small screens */
   }
   .rail nav {
     order: 2;

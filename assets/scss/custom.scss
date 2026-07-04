@@ -1600,6 +1600,14 @@ a.pill:hover {
 .idx-title:hover {
   color: var(--navy);
 }
+/* newsletter index shows full dates (e.g. "30 Oct 2022"), so it needs a wider,
+   non-wrapping date column than the "Jan 2" archive/featured indexes */
+.nl-index .idx-row {
+  grid-template-columns: 5.5rem 1fr;
+}
+.nl-index .idx-date {
+  white-space: nowrap;
+}
 
 /* ---- in-post content elements ---- */
 /* figure = image + caption ({{< figure >}}) */

@@ -14,17 +14,12 @@
   </div>
 </div>
 
-<div class="mt-5">
+<div class="mt-5 nl-index">
   <div class="shead"><span class="lbl">Past issues</span></div>
-  {{ range .Pages.GroupByDate "2006" }}
-  <div class="idx-group">
-    <div class="idx-year">{{ .Key }}</div>
-    {{ range .Pages }}
-    <div class="idx-row">
-      <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
-      <a class="idx-title" href="{{ .Permalink }}">#{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a>
-    </div>
-    {{ end }}
+  {{ range .Pages.ByDate.Reverse }}
+  <div class="idx-row">
+    <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+    <a class="idx-title" href="{{ .Permalink }}">#{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a>
   </div>
   {{ end }}
 </div>

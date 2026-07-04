@@ -24,11 +24,12 @@
     {{ with $related }}
     <div class="rel">
       <div class="shead"><span class="lbl">Related posts</span></div>
-      <ul>
-        {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a></li>
-        {{ end }}
-      </ul>
+      {{ range . }}
+      <div class="idx-row">
+        <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+        <a class="idx-title" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+      </div>
+      {{ end }}
     </div>
     {{ end }}
     {{ end }}

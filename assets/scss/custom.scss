@@ -1421,21 +1421,13 @@ a.pill:hover {
 .rel {
   margin-top: 2.2rem;
 }
-.rel ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
+/* Related rows reuse the archive index layout (date gutter + serif title),
+   with a wider gutter to fit the year (related posts span years). */
+.rel .idx-row {
+  grid-template-columns: 5.5rem 1fr;
 }
-.rel a {
-  font: 600 1.05rem/1.3 "Source Serif 4", serif;
-  color: var(--ink);
-  text-decoration: none;
-}
-.rel a:hover {
-  color: var(--navy);
+.rel .idx-date {
+  white-space: nowrap;
 }
 
 /* ---- single-post metadata rail blocks ---- */

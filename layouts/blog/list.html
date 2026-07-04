@@ -7,10 +7,7 @@
     {{ range (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages }}
     <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
 
-      <div class="metaline">
-        <span>{{ .Date.Format "2 Jan 2006" }}</span>
-        {{ with .Params.tags }}{{ range . }}<span class="sep">/</span><span>{{ . }}</span>{{ end }}{{ end }}
-      </div>
+      {{ partial "post-metaline.html" . }}
 
       {{ if .Title }}
       <a class="ptitle p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
@@ -21,7 +18,7 @@
       <div class="pbody e-content">
         {{ if findRE `<!--more-->` .RawContent }}
         {{ .Summary }}
-        <a class="rm" href="{{ .RelPermalink }}">Read the entire post <i class="bi bi-arrow-right"></i></a>
+        {{ partial "read-more.html" . }}
         {{ else }}
         {{ .Content }}
         {{ end }}

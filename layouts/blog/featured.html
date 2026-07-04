@@ -9,10 +9,10 @@
     {{ $featured := sort (where (where .Site.RegularPages "Section" "blog") ".Params.featured" true) "Date" "desc" }}
     {{ range $featured }}
     <article class="list-post">
-      <div class="metaline"><span>{{ .Date.Format "2 January 2006" }}</span></div>
+      {{ partial "post-metaline.html" . }}
       <a class="ptitle" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
       {{ if .Description }}<div class="pbody"><p>{{ .RenderString (dict "display" "inline") .Description }}</p></div>{{ end }}
-      <a class="rm" href="{{ .RelPermalink }}">Read the entire post <i class="bi bi-arrow-right"></i></a>
+      {{ partial "read-more.html" . }}
     </article>
     {{ end }}
   </div>

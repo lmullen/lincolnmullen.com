@@ -211,8 +211,8 @@ a {
 }
 
 .sitehead .wordmark {
-  font: 700 1.15rem/1 "Source Serif 4", serif;
-  letter-spacing: -0.01em;
+  font: 700 1.7rem/1.05 "Source Serif 4", serif; /* match the homepage rail wordmark (.rail .nm) */
+  letter-spacing: -0.02em;
   color: var(--navy);
   text-decoration: none;
 }
@@ -234,6 +234,14 @@ a {
 .sitehead nav a:hover,
 .sitehead nav a.on {
   color: var(--orange);
+}
+
+/* On phones, track the homepage rail wordmark's smaller size (.rail .nm mobile). */
+@media (max-width: 760px) {
+  .sitehead .wordmark {
+    font-size: 1.3rem;
+    line-height: 1.1;
+  }
 }
 
 .smallcaps-header {

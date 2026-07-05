@@ -4,6 +4,7 @@ date: '2014-03-26T02:59:00+00:00'
 slug: 'a-better-map-of-slavery-in-1860'
 featured: true
 description: "Why the choice of classification breaks matters: improving a viral map of slavery in 1860 by replacing misleading quartile breaks with a more honest natural-breaks scheme."
+draft: false
 image: slaves_1860.webp
 tags:
 - spatial history

@@ -4,6 +4,7 @@ title: "Isn't it obvious?"
 featured: true
 slug: 'isnt-it-obvious'
 description: "Audiences often claim a visualization simply confirms what they knew, but showing blank axes before the data reveals they could not have predicted the outcome."
+draft: false
 image: slide08.png
 tags:
 - digital history

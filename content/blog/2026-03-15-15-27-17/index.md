@@ -1,10 +1,9 @@
 ---
 date: '2026-03-15T15:27:17-04:00'
 slug: '2026-03-15-15-27-17'
-feedid: '/micro/2026-03-15-15-27-17/'
 draft: false
 linkpost: https://aboard.com/podcast/product-is-more-than-prompts/
-via: 
+via:
 description: "Paul Ford and Rich Ziade remind us that good software requires product thinking and design, not just functionality—a lesson that applies to digital humanities projects too."
 social:
   bluesky: "Paul Ford and Rich Ziade on why good software needs design and product thinking, not just functionality. Applies to DH projects too—we need to think beyond CRUD apps around a database. https://aboard.com/podcast/product-is-more-than-prompts/"

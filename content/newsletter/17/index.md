@@ -4,10 +4,6 @@ date: "2024-05-09T21:00:00-04:00"
 slug: 17
 draft: false
 newsletter: true
-# crosspost:
-#   url: ""
-#   source: ""
-# linkpost: ""
 tags:
 - antisemitism
 - RRCHNM

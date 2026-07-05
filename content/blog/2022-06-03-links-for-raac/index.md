@@ -1,6 +1,6 @@
 ---
 title: 'Links for presentation about digital scholarship for the Biennial Conference on Religion and American Culture'
-date: 2022-06-03
+date: '2022-06-03'
 draft: false
 slug: raac-links
 description: "Projects in digital scholarship on American religion cited in a presentation at the Biennial Conference on Religion and American Culture, from Uncivil Religion to American Religious Ecologies."

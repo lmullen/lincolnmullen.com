@@ -10,13 +10,6 @@ social:
   linkedin: |
     My colleague John G. Turner has published a major biography of Joseph Smith with Yale University Press—a vivid and deeply researched portrait of one of nineteenth-century America's most significant religious figures. Turner presents Smith as a consummate religious entrepreneur, drawing on newly accessible diaries, church records, and sermon transcripts.
     What makes this especially valuable is the extraordinary companion resource Turner has built: thirty podcast episodes of detailed interviews exploring Smith's life and context. Together they constitute a major contribution to the field of American religious history. https://lincolnmullen.com/blog/john-turners-biography-of-joseph-smith/
-# newsletter: true
-# tags:
-# -
-# crosspost:
-#   url: ""
-#   source: ""
-# linkpost: ""
 image: joseph-smith-cover.jpg
 tags:
 - American religious history

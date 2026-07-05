@@ -4,11 +4,9 @@ date: "2023-04-19T15:26:58-04:00"
 slug: "american-religious-ecologies-receives-second-neh-grant"
 description: "A $350,000 NEH grant will allow American Religious Ecologies to complete digitization of the 1926 Census of Religious Bodies—the most comprehensive dataset ever assembled for studying American religion."
 draft: false
-# newsletter: true
-crosspost: 
+crosspost:
   url: "https://rrchnm.org/news/american-religious-ecologies-receives-second-neh-grant-to-work-with-1926-census-of-religious-bodies/"
   source: "RRCHNM"
-# linkpost: ""
 image: schedule.jpg
 tags:
 - American Religious Ecologies

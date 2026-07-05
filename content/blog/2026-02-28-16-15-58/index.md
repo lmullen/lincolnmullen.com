@@ -1,10 +1,10 @@
 ---
 date: '2026-02-28T16:15:58-05:00'
 slug: '2026-02-28-16-15-58'
-feedid: '/micro/2026-02-28-16-15-58/'
 linkpost: https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/
 image: "2026-02-28-16-11-52.jpg"
 description: "Alexandra Miller traces the public history of Seneca Village through the Roy Rosenzweig papers, connecting the recently awarded Envisioning Seneca Village digital project to RRCHNM founder Roy Rosenzweig's own scholarship on Central Park."
+draft: false
 social:
   bluesky: "The AHA/Roy Rosenzweig Prize went to Envisioning Seneca Village this year. RRCHNM's founder also wrote about Seneca Village, and Alexandra Miller dug into the Rosenzweig papers to trace the connections. https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/"
   mastodon: "The Roy Rosenzweig Prize for Creativity in Digital History went to Envisioning Seneca Village, a project that uses 3D models to study a majority Black community demolished to build Central Park. RRCHNM's founder Roy Rosenzweig wrote about Central Park and Seneca Village. Alexandra Miller went into the Rosenzweig papers at GMU and wrote up the full story. https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/"

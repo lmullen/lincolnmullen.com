@@ -4,10 +4,9 @@ date: '2022-11-08T13:10:24-05:00'
 slug: "rediscovering-the-lost-atlantis-of-early-american-politics"
 description: "Philip Lampi spent decades living out of his car to reconstruct early American election returns that no one had systematically preserved—perhaps the greatest act of historical recovery in U.S. history."
 draft: false
-crosspost: 
+crosspost:
   url: "https://rrchnm.org/news/how-philip-lampi-recovered-the-lost-history-of-early-american-elections/"
   source: "RRCHNM"
-# linkpost: ""
 image: meae.png
 tags:
 - digital history

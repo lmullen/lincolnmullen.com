@@ -10,13 +10,6 @@ social:
   linkedin: |
     A new open-access journal, Computational Humanities Research, has launched at Cambridge University Press, edited by Lauren Tilton and Kristoffer Nielbo. It publishes transdisciplinary work grounded in humanities research questions and using computational, quantitative methodologies.
     The journal fills a genuine need: while digital historians should publish interpretive claims in the profession's core journals, they also need venues for sharing methodological innovations. Two special issues—on missing data in the humanities and on large language models in humanities research—are accepting submissions with January deadlines. https://lincolnmullen.com/blog/the-new-journal-computational-humanities-research/
-# newsletter: true
-# tags:
-# - 
-# crosspost: 
-#   url: ""
-#   source: ""
-# linkpost: ""
 image: chr-cover.png
 tags:
 - computational history

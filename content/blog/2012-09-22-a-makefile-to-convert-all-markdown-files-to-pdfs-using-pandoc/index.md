@@ -2,6 +2,7 @@
 date: '2012-09-22'
 slug: 'a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc'
 description: "A four-line Makefile that uses wildcards and pattern rules to automatically convert every Markdown file in a directory to PDF via Pandoc—replacing 60+ lines of manual rules."
+draft: false
 title: A Makefile to convert all Markdown files to PDFs using Pandoc
 aliases:
 - /blog/make-and-pandoc/

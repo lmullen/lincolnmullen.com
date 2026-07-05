@@ -4,10 +4,6 @@ date: "2023-08-06T21:13:11-04:00"
 slug: 16
 draft: false
 newsletter: true
-# crosspost:
-#   url: ""
-#   source: ""
-# linkpost: ""
 tags:
 - Legal Modernism
 - American Religious Ecologies

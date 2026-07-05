@@ -1,6 +1,6 @@
 ---
 title: 'Markdown to HTML on the clipboard'
-date: 2022-10-11T00:39:56-04:00
+date: '2022-10-11T00:39:56-04:00'
 slug: 'markdown-to-html-on-the-clipboard'
 description: "A one-liner using pbpaste, Pandoc, and pbcopy converts Markdown on your Mac clipboard to HTML—no extension or custom script required."
 draft: false

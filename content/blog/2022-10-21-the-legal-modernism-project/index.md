@@ -4,10 +4,6 @@ date: "2022-10-21T13:42:43-04:00"
 slug: "the-legal-modernism-project"
 description: "Kellen Funk and I are expanding our computational study of nineteenth-century American law into a full project—Legal Modernism—with a new website for visualizations and ongoing work."
 draft: false
-# crosspost: 
-#   url: ""
-#   source: ""
-# linkpost: ""
 image: legal-modernism-screenshot.png
 tags:
 - Legal Modernism

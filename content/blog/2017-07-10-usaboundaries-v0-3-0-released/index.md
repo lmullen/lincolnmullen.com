@@ -3,6 +3,7 @@ date: '2017-07-10'
 slug: 'usaboundaries-v0-3-0-released'
 title: 'New release: USAboundaries v0.3.0'
 description: "USAboundaries v0.3.0 adds Simple Features support, historical city populations, and State Plane projections to this R package for historical U.S. boundaries."
+draft: false
 image: usaboundaries-sample.png
 tags:
 - R

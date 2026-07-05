@@ -1,26 +1,48 @@
+/* ============================================================
+   Design tokens & shared primitives
+   ------------------------------------------------------------
+   Bootstrap's own palette is configured in variables.scss and
+   compiled by Bootstrap into :root; only values Bootstrap does
+   not emit (custom tokens, dark-mode overrides) live here.
+   ============================================================ */
+
+/* Breakpoints — SCSS variables because media queries cannot read
+   CSS custom properties. */
+$bp-phone: 480px; /* small phones: type ramp-down */
+$bp-mobile: 768px; /* stack rails, collapse the reading measure */
+$bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
+$bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
+
+/* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
+   for eyebrows, section labels, metalines, dates, buttons, and pills. */
+@mixin mono-label($size: var(--label-md), $tracking: 0.1em, $weight: 600, $lh: 1) {
+  font: $weight #{$size}/#{$lh} "Source Code Pro", monospace;
+  letter-spacing: $tracking;
+  text-transform: uppercase;
+}
+
+/* Reading-voice underlined link (hairline underline, orange on hover
+   handled by callers). */
+@mixin reading-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+/* Serif small-caps action link (Biography →, Read more →). */
+@mixin smallcaps-action {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
 /* Navy & Orange — Light Mode */
 :root,
 [data-bs-theme="light"] {
-  --bs-body-bg: #ffffff;
-  --bs-body-color: #1a1a1a;
-  --bs-primary: #2c4a7c;
-  --bs-secondary: #c06a20;
-  --bs-success: #3a7a5c;
-  --bs-warning: #c06a20;
-  --bs-danger: #a83838;
-  --bs-info: #2c4a7c;
-  --bs-link-color: #3568b2;
-  --bs-link-hover-color: var(--bs-secondary);
-  --bs-link-hover-color-rgb: 192, 106, 32;
-  --bs-border-color: #d4d6dc;
-  --bs-card-bg: #f3f4f6;
-  --bs-code-color: #c06a20;
-  --bs-muted: #6a6e76;
-  --bs-heading-color: #1a1e26;
-  --bs-accent: #c06a20;
+  --bs-accent: #c06a20; /* site-specific: tooltip fill (not a Bootstrap variable) */
 
   /* Redesign identity tokens (Design Handoff §2) — light */
-  --navy: #1b54c0; /* links, nav, name, newsletter band fill */
+  --navy: #1b54c0; /* links, nav, name */
   --ink: #16203a; /* headings, near-black hairline rules */
   --body: #1a1a1a; /* body text */
   --sec: #5a5e66; /* secondary text (excerpts, notes) */
@@ -30,7 +52,23 @@
   --rule2: #e6e7ea; /* faint list-row dividers */
   --mut: #878d99; /* muted meta, social/contact icons */
   --card: #f3f4f6; /* tinted surface */
-  --radius: 6px; /* the single corner-radius token (§4.12) */
+  --bio-ink: #33373f; /* homepage bio prose (§2: between --sec and --ink) */
+  --code-bg: #f0eeea; /* inline-code fill outside reading columns */
+  --radius: 6px; /* the corner-radius token (§4.12) */
+  --radius-sm: 5px; /* small chips: inline code pills */
+
+  /* Same in both modes (the band stays cobalt in dark mode) */
+  --cobalt: #1b54c0; /* blog/newsletter band fill */
+  --accent-soft: #ffc79c; /* soft peach accent on the cobalt band */
+
+  /* Mono label sizes (§4.1) — four steps replace the old 0.6–0.82rem continuum */
+  --label-xs: 0.62rem; /* pills, tags, code-language chips, table headers */
+  --label-sm: 0.68rem; /* metalines, index dates, sidebar labels, feed links */
+  --label-md: 0.74rem; /* eyebrows, nav, buttons, section-header links */
+  --label-lg: 0.82rem; /* section-header labels */
+
+  /* Vertical rhythm between homepage sections */
+  --sp-section: 2.75rem;
 }
 
 /* Navy & Orange — Dark Mode */
@@ -53,7 +91,6 @@
   --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
   --bs-card-bg: #363b44;
   --bs-code-color: #f0a860;
-  --bs-muted: #b8bcc4;
   --bs-heading-color: #f8f9fa;
   --bs-accent: #f0a860;
 
@@ -68,7 +105,8 @@
   --rule2: #23262e;
   --mut: #828a96;
   --card: #20242d;
-  --radius: 6px; /* identical in both modes */
+  --bio-ink: var(--body); /* bio prose reads as body text in dark */
+  --code-bg: #3e444e;
 
   --bs-secondary-color: rgba(232, 234, 238, 0.75);
   --bs-secondary-color-rgb: 232, 234, 238;
@@ -78,24 +116,12 @@
   --bs-tertiary-color-rgb: 232, 234, 238;
   --bs-tertiary-bg: #363b44;
   --bs-tertiary-bg-rgb: 54, 59, 68;
-
-  blockquote {
-    border-left-color: #545b66;
-  }
-
-  blockquote cite {
-    color: #b8bcc4;
-  }
-
-  .footnotes {
-    color: #b8bcc4;
-  }
-
-  code {
-    background-color: #3e444e;
-    color: #f0a860;
-  }
 }
+
+/* ============================================================
+   Base elements & shared page chrome — lists, body, container,
+   headings, header, code, footnotes, tooltips, modal.
+   ============================================================ */
 
 /* Lists */
 ul,
@@ -134,14 +160,6 @@ article h2 {
 }
 
 article h3 {
-  font-size: 1.25rem;
-  line-height: 1.35;
-  font-weight: 600;
-  margin-top: 1.75rem;
-  margin-bottom: 0.5rem;
-}
-
-article h3 {
   font-size: 1.1rem;
   line-height: 1.4;
   font-weight: 600;
@@ -176,11 +194,11 @@ abbr {
   text-decoration: none;
 }
 
-/* Block quotes */
+/* Block quotes (outside .bodyprose/.reading, which restyle them) */
 blockquote {
   font-size: 1rem;
   line-height: 1.65;
-  border-left: 3px solid #c8c4bc;
+  border-left: 3px solid var(--rule);
   padding-left: 1.5rem;
   margin-left: 0;
 }
@@ -188,7 +206,7 @@ blockquote {
 blockquote cite {
   font-size: 0.88rem;
   font-style: normal;
-  color: #777;
+  color: var(--mut);
 }
 
 a {
@@ -224,9 +242,7 @@ a {
 }
 
 .sitehead nav a {
-  font: 600 0.76rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.14em);
   color: var(--navy);
   text-decoration: none;
 }
@@ -237,7 +253,7 @@ a {
 }
 
 /* On phones, track the homepage rail wordmark's smaller size (.rail .nm mobile). */
-@media (max-width: 760px) {
+@media (max-width: $bp-mobile) {
   .sitehead .wordmark {
     font-size: 1.3rem;
     line-height: 1.1;
@@ -250,21 +266,6 @@ a {
   font-variant-caps: all-small-caps;
   letter-spacing: 0.05em;
 }
-
-.scholarship-card-sm img {
-  object-fit: cover;
-  height: 150px;
-}
-
-.book-cover-img {
-  width: 50%;
-}
-
-.scholarship-quote {
-  margin-left: 0;
-  line-height: 1.4;
-}
-
 
 /* Orange buttons with white text */
 .btn-secondary,
@@ -308,7 +309,7 @@ a {
   top: 5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $bp-mobile) {
   .sidebar-nav {
     padding: 1rem !important;
     margin: 0 0 2rem 0 !important;
@@ -317,90 +318,32 @@ a {
   }
 }
 
-.link-post-title a,
-.cross-post-title a {
-  text-decoration: none;
-}
-
-.link-post-date {
-  color: inherit;
-  text-decoration: none;
-}
-
-a.link-post-date:hover {
-  color: inherit;
-}
-
 .sidebar-nav a {
   text-decoration: none;
 }
 
-.feed-icon {
-  color: var(--bs-primary);
-}
-
-a.permalink,
-a.author-link {
+a.permalink {
   text-decoration: none;
   color: inherit;
-}
-
-.external-url {
-  font-style: italic;
-}
-
-.external-url em {
-  font-style: normal;
-}
-
-.external-url a {
-  text-decoration: none;
-}
-
-.post-separator {
-  margin: 4rem 0;
-}
-
-.post-separator hr {
-  max-width: 77.78%; /* match post body text width */
-  opacity: 0.15;
 }
 
 nav[aria-label="page navigation"] {
   max-width: 77.78%; /* match post body text width */
 }
 
-@media (max-width: 768px) {
+@media (max-width: $bp-mobile) {
   nav[aria-label="page navigation"] {
     max-width: 100%;
   }
-}
-
-.blog-archive td {
-  padding-bottom: 0.5rem;
-  vertical-align: top;
-}
-
-.blog-archive a.post-link {
-  text-decoration: none;
-}
-
-footer.article-footer {
-  font-size: 0.8rem;
-  font-style: italic;
-}
-
-footer.article-footer a {
-  text-decoration: none;
 }
 
 /* Code */
 code {
   font-family: "Source Code Pro", monospace;
   font-size: 0.88em;
-  background-color: #f0eeea;
+  background-color: var(--code-bg);
   padding: 0.1em 0.35em;
-  border-radius: 3px;
+  border-radius: var(--radius-sm);
 }
 
 /* Code blocks */
@@ -417,7 +360,7 @@ div.highlight pre {
   line-height: 1.55;
   padding: 0.75rem 1.5rem;
   margin-bottom: 0.5rem;
-  border-radius: 5px;
+  border-radius: var(--radius-sm);
 }
 
 div.highlight pre code {
@@ -430,10 +373,6 @@ div.highlight pre code {
 pre code {
   background-color: transparent;
   padding: 0;
-}
-
-.prevnextlinks a {
-  text-decoration: none;
 }
 
 #TableOfContents ul {
@@ -470,7 +409,7 @@ a.footnote-backref {
 .footnotes {
   font-size: 0.82rem;
   line-height: 1.55;
-  color: #555;
+  color: var(--sec);
   margin-top: 3rem;
 }
 
@@ -532,9 +471,7 @@ sup.footnote-ref {
 
 /* Eyebrow label (§4.1) */
 .ey {
-  font: 600 0.72rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.2em);
   color: var(--orange);
 }
 
@@ -549,15 +486,11 @@ sup.footnote-ref {
   margin-bottom: 1.6rem;
 }
 .shead .lbl {
-  font: 600 0.82rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-lg), 0.2em);
   color: var(--ink);
 }
 .shead a {
-  font: 500 0.72rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.1em, 500);
   color: var(--navy);
   text-decoration: none;
   white-space: nowrap;
@@ -570,8 +503,8 @@ sup.footnote-ref {
 .hero {
   display: flex;
   gap: 3.25rem;
-  padding-bottom: 2.75rem;
-  margin-bottom: 2.75rem;
+  padding-bottom: var(--sp-section);
+  margin-bottom: var(--sp-section);
   border-bottom: 1px solid var(--ink);
 }
 .rail {
@@ -594,9 +527,7 @@ sup.footnote-ref {
   margin-bottom: 1.8rem;
 }
 .rail nav a {
-  font: 600 0.76rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.14em);
   color: var(--navy);
   text-decoration: none;
 }
@@ -629,15 +560,13 @@ sup.footnote-ref {
   color: var(--navy);
 }
 
-/* Prose (§4.4) — bio prose uses #33373f in light per §2 */
+/* Prose (§4.4) — bio prose uses --bio-ink (#33373f in light per §2,
+   --body in dark) */
 .bio-p {
   font: 400 1.15rem/1.55 "Source Serif 4", serif;
-  color: #33373f;
+  color: var(--bio-ink);
   margin: 0 0 1rem;
   max-width: 40rem;
-}
-[data-bs-theme="dark"] .bio-p {
-  color: var(--body);
 }
 .bio-p a {
   color: var(--link);
@@ -660,8 +589,7 @@ sup.footnote-ref {
   align-items: baseline;
   gap: 0.45rem;
   font: 600 1.08rem/1 "Source Serif 4", serif;
-  font-variant-caps: all-small-caps;
-  letter-spacing: 0.04em;
+  @include smallcaps-action;
   color: var(--navy);
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -685,8 +613,8 @@ sup.footnote-ref {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 3.25rem;
-  padding-bottom: 2.75rem;
-  margin-bottom: 2.75rem;
+  padding-bottom: var(--sp-section);
+  margin-bottom: var(--sp-section);
 }
 .band .ey {
   display: block;
@@ -720,9 +648,7 @@ sup.footnote-ref {
   align-items: center;
   gap: 0.55rem;
   margin-top: 1rem;
-  font: 600 0.72rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.1em);
   color: var(--navy);
   border: 1px solid var(--rule);
   border-radius: var(--radius);
@@ -784,8 +710,8 @@ sup.footnote-ref {
 
 /* Scholarship (§5.4) — pure-CSS masonry via column-width, no JS */
 .sec {
-  padding-bottom: 2.75rem;
-  margin-bottom: 2.75rem;
+  padding-bottom: var(--sp-section);
+  margin-bottom: var(--sp-section);
 }
 .grid {
   column-width: 300px;
@@ -797,8 +723,8 @@ sup.footnote-ref {
 }
 .scard {
   display: block;
-  background: #fff;
-  border: 1px solid #ececec;
+  background: #fff; /* paper card on the tinted page, deliberately not --card */
+  border: 1px solid var(--rule2);
   border-radius: var(--radius);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
   text-decoration: none;
@@ -834,8 +760,8 @@ sup.footnote-ref {
   margin-top: 0.35rem;
 }
 [data-bs-theme="dark"] .scard {
-  background: #1d2129;
-  border-color: #2a2e37;
+  background: var(--card);
+  border-color: var(--rule);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -843,11 +769,11 @@ sup.footnote-ref {
 .sb {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background: #1b54c0;
+  background: var(--cobalt);
   border-radius: var(--radius);
   color: #fff;
   overflow: hidden;
-  margin-bottom: 2.75rem;
+  margin-bottom: var(--sp-section);
 }
 .sb .blog {
   padding: 1.7rem 1.85rem;
@@ -860,10 +786,8 @@ sup.footnote-ref {
 }
 .sb-eyebrow {
   display: block;
-  font: 600 0.7rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #ffc79c;
+  @include mono-label(var(--label-sm), 0.2em);
+  color: var(--accent-soft);
   margin-bottom: 0.9rem;
 }
 .sb-post-title {
@@ -874,7 +798,7 @@ sup.footnote-ref {
   letter-spacing: -0.01em;
 }
 .sb-post-title:hover {
-  color: #ffc79c;
+  color: var(--accent-soft);
 }
 .sb-metaline {
   display: flex;
@@ -884,18 +808,14 @@ sup.footnote-ref {
 }
 .lp-tag {
   flex: none;
-  font: 600 0.6rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #1b54c0;
-  background: #ffc79c;
+  @include mono-label(var(--label-xs), 0.12em);
+  color: var(--cobalt);
+  background: var(--accent-soft);
   border-radius: var(--radius);
   padding: 0.4em 0.55em;
 }
 .sb-post-date {
-  font: 600 0.64rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.12em);
   color: rgba(255, 255, 255, 0.62);
 }
 .sb-post-ex {
@@ -922,9 +842,7 @@ sup.footnote-ref {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font: 600 0.72rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.1em);
   color: #fff;
   text-decoration: none;
 }
@@ -932,7 +850,7 @@ sup.footnote-ref {
   transition: transform 0.15s;
 }
 .sb-navlinks a:hover {
-  color: #ffc79c;
+  color: var(--accent-soft);
 }
 .sb-navlinks a:hover i {
   transform: translateX(0.2em);
@@ -947,9 +865,7 @@ sup.footnote-ref {
   gap: 0.5rem;
   color: #fff;
   text-decoration: none;
-  font: 600 0.74rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.08em);
 }
 .sb-feedlinks a i {
   font-size: 1.4rem;
@@ -957,7 +873,7 @@ sup.footnote-ref {
   transition: transform 0.15s;
 }
 .sb-feedlinks a:hover {
-  color: #ffc79c;
+  color: var(--accent-soft);
 }
 .sb-feedlinks a:hover i {
   transform: translateY(-2px);
@@ -982,8 +898,8 @@ sup.footnote-ref {
   text-underline-offset: 2px;
 }
 .sb-sub a:hover {
-  color: #ffc79c;
-  text-decoration-color: #ffc79c;
+  color: var(--accent-soft);
+  text-decoration-color: var(--accent-soft);
 }
 .sb-form {
   display: flex;
@@ -1010,9 +926,7 @@ sup.footnote-ref {
   border: none;
   background: var(--orange);
   color: #fff;
-  font: 600 0.74rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.1em);
   padding: 0 1.2rem;
   cursor: pointer;
   border-radius: 0 var(--radius) var(--radius) 0;
@@ -1047,20 +961,18 @@ sup.footnote-ref {
 .foot b {
   display: inline-block;
   min-width: 3.75rem;
-  font: 600 0.66rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.12em);
   color: var(--ink);
   margin-right: 0.5rem;
 }
 
 /* ===== responsive (§5) ===== */
-@media (max-width: 920px) {
+@media (max-width: $bp-netlinks) {
   .netlinks {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: $bp-mobile) {
   .main-container {
     padding: 1.75rem 1.2rem 3rem;
   }
@@ -1139,7 +1051,7 @@ sup.footnote-ref {
     border-top: 1px solid rgba(255, 255, 255, 0.22);
   }
 }
-@media (max-width: 480px) {
+@media (max-width: $bp-phone) {
   body {
     font-size: 1.06rem;
   }
@@ -1196,9 +1108,7 @@ sup.footnote-ref {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.45rem 0.55rem;
-  font: 600 0.68rem/1.4 "Source Code Pro", monospace;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.12em, 600, 1.4);
   color: var(--mut);
 }
 .metaline .sep {
@@ -1231,8 +1141,7 @@ sup.footnote-ref {
   align-items: baseline;
   gap: 0.4rem;
   font: 600 1.02rem/1 "Source Serif 4", serif;
-  font-variant-caps: all-small-caps;
-  letter-spacing: 0.04em;
+  @include smallcaps-action;
   color: var(--navy);
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -1262,9 +1171,7 @@ sup.footnote-ref {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font: 600 0.68rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.1em);
   text-decoration: none;
 }
 .aff .afk {
@@ -1289,9 +1196,7 @@ sup.footnote-ref {
   gap: 0.4rem;
 }
 .pill {
-  font: 600 0.6rem/1.3 "Source Code Pro", monospace; /* room for tags that wrap to two lines */
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.1em, 600, 1.3); /* lh 1.3: room for tags that wrap to two lines */
   color: var(--navy);
   border: 1px solid var(--rule);
   border-radius: var(--radius);
@@ -1371,9 +1276,7 @@ a.pill:hover {
   margin-bottom: 1.4rem;
 }
 .rb .rlbl {
-  font: 600 0.66rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.14em);
   color: var(--ink);
   margin: 0 0 0.55rem;
 }
@@ -1390,9 +1293,7 @@ a.pill:hover {
 }
 .rb .upd {
   display: block;
-  font: 600 0.62rem/1.4 "Source Code Pro", monospace;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.06em, 600, 1.4);
   color: var(--mut);
   margin-top: 0.35rem;
 } /* bi-clock-history + "Updated …" */
@@ -1409,9 +1310,7 @@ a.pill:hover {
   gap: 1.6rem;
 }
 .bs-lbl {
-  font: 600 0.66rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.14em);
   color: var(--ink);
   margin: 0 0 0.7rem;
 }
@@ -1459,9 +1358,7 @@ a.pill:hover {
   border: none;
   background: var(--orange);
   color: #fff;
-  font: 600 0.64rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.08em);
   padding: 0 0.85rem;
   cursor: pointer;
   border-radius: 0 var(--radius) var(--radius) 0;
@@ -1485,9 +1382,7 @@ a.pill:hover {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font: 600 0.68rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.08em);
   color: var(--navy);
   text-decoration: none;
 }
@@ -1522,9 +1417,7 @@ a.pill:hover {
   padding: 0.45rem 0;
 }
 .idx-date {
-  font: 600 0.66rem/1.5 "Source Code Pro", monospace;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-sm), 0.05em, 600, 1.5);
   color: var(--mut);
   text-align: right;
 }
@@ -1578,9 +1471,7 @@ figcaption.figcap::before {
 }
 figcaption.figcap a {
   color: var(--navy);
-  text-decoration: underline;
-  text-decoration-color: var(--rule);
-  text-underline-offset: 2px;
+  @include reading-underline;
 }
 figcaption.figcap a:hover {
   color: var(--orange);
@@ -1603,7 +1494,7 @@ figcaption.figcap a:hover {
   font: 500 0.86em/1 "Source Code Pro", monospace;
   background: var(--card);
   border: 1px solid var(--rule2);
-  border-radius: 5px;
+  border-radius: var(--radius-sm);
   padding: 0.1em 0.38em;
   color: var(--ink);
 }
@@ -1624,9 +1515,7 @@ figcaption.figcap a:hover {
   margin: 1.6rem 0;
 }
 .codeblock .clang {
-  font: 600 0.62rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.14em);
   color: var(--mut);
   background: var(--rule2);
   padding: 0.55rem 0.95rem;
@@ -1665,7 +1554,7 @@ figcaption.figcap a:hover {
 }
 
 /* ---- responsive: stack sidebar/rail below content ---- */
-@media (max-width: 900px) {
+@media (max-width: $bp-sidebar) {
   .blog-layout {
     grid-template-columns: 1fr;
   }
@@ -1745,10 +1634,7 @@ figcaption.figcap a:hover {
 }
 .reading a {
   color: var(--link);
-  text-decoration: underline;
-  text-decoration-color: var(--rule);
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
+  @include reading-underline;
 }
 .reading a:hover {
   color: var(--orange);
@@ -1840,18 +1726,14 @@ figcaption.figcap a:hover {
   font-style: normal;
 }
 .reading .figcap::before {
-  font: 600 0.62rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.14em);
   color: var(--mut);
   margin-right: 0.55rem;
 }
 .reading .figcap a,
 .reading figure.fig figcaption a {
   color: var(--navy);
-  text-decoration: underline;
-  text-decoration-color: var(--rule);
-  text-underline-offset: 2px;
+  @include reading-underline;
 }
 .reading .figcap a:hover,
 .reading figure.fig figcaption a:hover {
@@ -1870,9 +1752,7 @@ figcaption.figcap a:hover {
   overflow-x: auto;
 }
 .reading table thead th {
-  font: 600 0.64rem/1.3 "Source Code Pro", monospace;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.09em, 600, 1.3);
   color: var(--ink);
   text-align: left;
   padding: 0.35rem 0.8rem 0.55rem;
@@ -1912,9 +1792,7 @@ figcaption.figcap a:hover {
   overflow: hidden;
 }
 .reading .codeblock .clang {
-  font: 600 0.6rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-xs), 0.14em);
   color: var(--mut);
   background: var(--rule2); /* spec's #eef0f3 → token, so the chip works in dark mode */
   padding: 0.5rem 0.95rem;
@@ -1938,7 +1816,7 @@ figcaption.figcap a:hover {
   font: 500 0.84em/1 "Source Code Pro", monospace;
   background: var(--card);
   border: 1px solid var(--rule2);
-  border-radius: 5px;
+  border-radius: var(--radius-sm);
   padding: 0.08em 0.36em;
   color: var(--ink);
 }
@@ -1956,9 +1834,7 @@ figcaption.figcap a:hover {
 .reading .footnotes::before {
   content: "Notes";
   display: block;
-  font: 600 0.72rem/1 "Source Code Pro", monospace;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  @include mono-label(var(--label-md), 0.18em);
   color: var(--ink);
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--ink);
@@ -2010,7 +1886,7 @@ figcaption.figcap a:hover {
 }
 
 /* ---- responsive: collapse measure/breakout on phones ---- */
-@media (max-width: 768px) {
+@media (max-width: $bp-mobile) {
   :root {
     --measure: 100%;
     --wide: 100%;

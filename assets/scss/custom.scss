@@ -53,6 +53,7 @@ $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
   --mut: #878d99; /* muted meta, social/contact icons */
   --card: #f3f4f6; /* tinted surface */
   --bio-ink: #33373f; /* homepage bio prose (§2: between --sec and --ink) */
+  --sch-abs: #4a4e57; /* scholarship abstract — recessed just below --ink citation */
   --code-bg: #f0eeea; /* inline-code fill outside reading columns */
   --radius: 6px; /* the corner-radius token (§4.12) */
   --radius-sm: 5px; /* small chips: inline code pills */
@@ -106,6 +107,7 @@ $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
   --mut: #828a96;
   --card: #20242d;
   --bio-ink: var(--body); /* bio prose reads as body text in dark */
+  --sch-abs: var(--body); /* scholarship abstract recedes below the near-white citation */
   --code-bg: #3e444e;
 
   --bs-secondary-color: rgba(232, 234, 238, 0.75);
@@ -1901,5 +1903,252 @@ figcaption.figcap a:hover {
     width: auto;
     max-width: 20rem;
     margin: 1.4rem auto;
+  }
+}
+
+/* ===================================================================
+   Scholarship — editorial ledger (Scholarship handoff, build 2a).
+   A curated, annotated list of enduring work: active projects first,
+   then everything else newest → oldest, articles/software interleaved
+   by year. Composes from the identity tokens (§2); the interior header
+   (.sitehead) and the section head (.shead §4.2) come from the shared
+   system above. Only --sch-abs (the recessed abstract) is introduced.
+   =================================================================== */
+
+/* page header trio (title · intro · CV link). Named to avoid the blog
+   .ptitle (list-post title): this is the page-level display title. */
+.sch-title {
+  font: 600 2.5rem/1.05 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+}
+.sch-intro {
+  font: 400 1.14rem/1.55 "Source Serif 4", serif;
+  color: var(--bio-ink);
+  max-width: 44rem;
+  margin: 0 0 1rem;
+}
+.sch-cvlink {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font: 600 1rem/1 "Source Serif 4", serif;
+  @include smallcaps-action;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+.sch-cvlink:hover {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.sch-cvlink i {
+  font-size: 0.82em;
+  transition: transform 0.15s;
+}
+.sch-cvlink:hover i {
+  transform: translate(0.2em, 0);
+}
+
+/* section heads: scholarship spacing + the Active-projects orange label.
+   Reuses the shared .shead border/label from §4.2. The scoped selector
+   overrides the homepage .shead bottom margin; the gap to the first row
+   comes from .lg-group instead. */
+.scholarship .shead {
+  margin: 2.9rem 0 0;
+}
+.shead.sub .lbl {
+  color: var(--orange);
+}
+
+/* ledger group + row: cover 188px | body 1fr, hairline row dividers. */
+.lg-group {
+  margin-top: 1.6rem;
+}
+.lg-item {
+  display: grid;
+  grid-template-columns: 188px 1fr;
+  gap: 0 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule2);
+}
+.lg-group .lg-item:first-child {
+  border-top: none;
+  padding-top: 1.1rem;
+}
+/* imageless rows (articles, software, cover-less projects): the body holds
+   column 2 so every entry aligns to one left edge; the gutter stays open. */
+.lg-item.nocover .lg-body {
+  grid-column: 2;
+}
+.lg-cover {
+  grid-column: 1;
+}
+.lg-cover img {
+  display: block;
+  width: 100%;
+  height: auto; /* native aspect ratio — portrait covers, landscape maps, no crop */
+  border-radius: var(--radius);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+}
+.lg-body {
+  min-width: 0;
+}
+.lg-title {
+  margin: 0;
+  font: 600 1.5rem/1.18 "Source Serif 4", serif;
+  letter-spacing: -0.017em;
+  color: var(--ink);
+}
+.lg-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.lg-title a:hover {
+  color: var(--navy);
+}
+/* citation: the anchor of every entry — near-black --ink, identical across
+   titled, article, and pure-citation rows. .lead drops the top margin when
+   no title sits above it. */
+.lg-cite {
+  margin: 0.4rem 0 0;
+  font: 400 1.04rem/1.45 "Source Serif 4", serif;
+  color: var(--ink);
+  max-width: 44rem;
+}
+.lg-cite.lead {
+  margin: 0;
+}
+.lg-cite em {
+  font-style: italic;
+}
+/* abstract: deliberately recessed BELOW the citation — same size and weight,
+   only color separates them (the handoff's inversion). */
+.lg-abs {
+  margin: 0.9rem 0 0;
+  font: 400 1.04rem/1.55 "Source Serif 4", serif;
+  color: var(--sch-abs);
+  max-width: 44rem;
+}
+
+/* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
+   block below the abstract: a mono label over orange-ruled serif quotes, each
+   with a small-caps attribution. Recedes further than the abstract (--sec). */
+.lg-praise {
+  margin-top: 1.2rem;
+  max-width: 44rem;
+}
+.lg-praise .k {
+  display: block;
+  @include mono-label(0.62rem, 0.13em, 600, 1.5);
+  color: var(--mut);
+  margin-bottom: 0.75rem;
+}
+.lg-q {
+  margin: 0 0 0.9rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--orange);
+}
+.lg-q:last-child {
+  margin-bottom: 0;
+}
+.lg-q p {
+  margin: 0;
+  font: 400 1rem/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.lg-q cite {
+  display: block;
+  margin-top: 0.4rem;
+  font: 600 0.92rem/1.3 "Source Serif 4", serif;
+  @include smallcaps-action;
+  font-style: normal;
+  color: var(--sec);
+}
+.lg-q cite::before {
+  content: "— ";
+}
+
+/* award callout */
+.awd {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0.7rem 0 0;
+}
+.awd .k {
+  flex: none;
+  @include mono-label(0.62rem, 0.16em, 600, 1.3);
+  color: var(--orange);
+  padding-top: 0.05rem;
+}
+.awd .v {
+  font: italic 400 1rem/1.35 "Source Serif 4", serif;
+  color: var(--ink);
+}
+
+/* labeled link rows — Links / Reviews / Media. A row renders only when its
+   array is non-empty (graceful omission lives in the template). */
+.lg-links {
+  margin-top: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.lg-lrow {
+  display: flex;
+  gap: 1.1rem;
+  align-items: baseline;
+}
+.lg-lk {
+  flex: none;
+  width: 4.7rem;
+  @include mono-label(0.62rem, 0.13em, 600, 1.5);
+  color: var(--mut);
+}
+.lg-lv {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 0.55rem;
+  font: 400 1rem/1.4 "Source Serif 4", serif;
+}
+.lg-lv a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.lg-lv a em {
+  font-style: italic;
+}
+.lg-lv a:hover {
+  color: var(--orange);
+}
+.lg-lv a:not(:last-child)::after {
+  content: "·";
+  color: var(--rule);
+  margin-left: 0.55rem;
+}
+
+/* responsive: below ~640px stack the cover above the body, gutter collapses. */
+@media (max-width: 640px) {
+  .sch-title {
+    font-size: 2rem;
+  }
+  .lg-item {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .lg-cover {
+    margin-bottom: 1rem;
+  }
+  .lg-cover img {
+    max-width: 200px;
+  }
+  .lg-item.nocover .lg-body {
+    grid-column: 1;
   }
 }

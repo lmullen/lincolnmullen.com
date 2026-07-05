@@ -5,9 +5,20 @@ thumbnail: "thumbnail.png"
 homepage-thumbnail: "homepage-thumbnail.png"
 homepage: true
 homepageOrder: 5
+date: 2024-06-01
+cover: "homepage-thumbnail.png"
+citation: >-
+  Turner, John, Lincoln Mullen, Jeanette Patrick, Jim Ambuske, Britt Tevis,
+  Mark Oppenheimer, and Zev Eleff. <em>Antisemitism, U.S.A.: A History
+  Podcast.</em> R2 Studios, 2024.
+abstract: >-
+  Antisemitism has deep roots in American history, yet we often talk about it
+  as if it were something new. A narrative podcast from RRCHNM tracing just how
+  deep those roots go — a long, complicated history that is easy to overlook.
 links:
   - url: https://podcasts.rrchnm.org/show/Antisemitism-USA/
-    text: Podcast home page
-description: |
-  Antisemitism has deep roots in American history. Yet in the United States, we often talk about it as if it were something new. We’re shocked when events happen like the Tree of Life Shootings in Pittsburgh or the Unite the Right Rally in Charlottesville, but also surprised. We ask, “Where did this come from?” as if it came out of nowhere. But antisemitism in the United States has a history. A long, complicated history. A history easy to overlook. Join us on _Antisemitism, U.S.A._, a narrative podcast from RRCHNM, to learn just how deep those roots go.
+    text: "Listen to the podcast"
+media:
+  - url: https://www.youtube.com/watch?v=cRMr0HRS5fY
+    text: "<em>2 Complicated 4 History</em>"
 ---

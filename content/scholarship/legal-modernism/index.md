@@ -5,13 +5,22 @@ thumbnail: "thumbnail.png"
 homepage-thumbnail: "thumbnail.png"
 homepage: true
 homepageOrder: 1
+active: true
+weight: 2
+date: 2016-01-01
+cover: "thumbnail.png"
+citation: >-
+  Funk, Kellen, and Lincoln A. Mullen. <em>Legal Modernism.</em> Roy Rosenzweig
+  Center for History and New Media, 2016–.
+  https://doi.org/10.31835/legalmodernism.
+abstract: >-
+  American law modernized across the nineteenth century, leaving a vast textual
+  record: hundreds of volumes of regulations and millions of case reports built
+  into thousands of treatises. This project studies and visualizes that
+  modernization through computational text analysis.
 links:
   - url: https://legalmodernism.org
-    text: Legal Modernism website
+    text: "Project website"
   - url: https://github.com/lmullen/legal-modernism
-    text: GitHub repository
-description: |
-  Law and legal practice modernized in the nineteenth-century United States. The textual record of legal modernization is vast. Hundreds of volumes of regulations were formulated, copied, and re-formulated by legislatures. Millions of case reports became the authoritative building blocks for the thousands of treatises from which modern American law was constructed.
-
-  We are studying and visualizing the history of the modernization of American law through computational methods.
+    text: "GitHub repository"
 ---

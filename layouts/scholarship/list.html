@@ -1,7 +1,30 @@
 {{ define "main" }}
+{{/* Scholarship — editorial ledger (handoff build 2a). Active projects first,
+     then all other work newest → oldest with articles/software interleaved by
+     year. Each entry is a page bundle in content/scholarship/<slug>/index.md;
+     see partials/scholarship-entry.html for the row and the front-matter model. */}}
+<div class="scholarship">
+	<h1 class="sch-title">{{ .Title }}</h1>
+	{{ with .Params.intro }}<p class="sch-intro">{{ . }}</p>{{ end }}
+	{{ $cv := .Params.cv_url | default "https://files.lincolnmullen.com/cv/Mullen-cv.pdf" }}
+	<a class="sch-cvlink" href="{{ $cv }}">Full curriculum vitae <i class="bi bi-arrow-right"></i></a>
 
-<h1>{{ .Title }}</h1>
+	{{ $items := where .Pages "Type" "scholarship" }}
+	{{ $active := where $items "Params.active" "==" true }}
+	{{ $rest := where $items "Params.active" "!=" true }}
 
-{{ .Content }}
+	{{ with $active }}
+	<div class="shead sub"><span class="lbl">Active projects</span></div>
+	<div class="lg-group">
+		{{ range .ByWeight }}{{ partial "scholarship-entry.html" . }}{{ end }}
+	</div>
+	{{ end }}
 
+	{{ with $rest }}
+	<div class="shead"><span class="lbl">Selected works</span></div>
+	<div class="lg-group">
+		{{ range .ByDate.Reverse }}{{ partial "scholarship-entry.html" . }}{{ end }}
+	</div>
+	{{ end }}
+</div>
 {{ end }}

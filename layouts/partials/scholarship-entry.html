@@ -30,7 +30,10 @@
 		{{ end }}
 		{{ with .Params.citation }}<p class="lg-cite{{ if $.Params.citation_led }} lead{{ end }}">{{ . | safeHTML }}</p>{{ end }}
 		{{ with .Params.award }}<div class="awd"><span class="k">Award</span><span class="v">{{ . | safeHTML }}</span></div>{{ end }}
-		{{ with .Params.abstract }}<p class="lg-abs">{{ . | safeHTML }}</p>{{ end }}
+		{{/* abstract: may hold multiple paragraphs (blank-line-separated in the
+		     front matter, which YAML folds to single newlines) — split so each
+		     renders as its own <p>, reusing .lg-abs for spacing. */}}
+		{{ with .Params.abstract }}{{ range $p := split . "\n" }}{{ with trim $p " " }}<p class="lg-abs">{{ . | safeHTML }}</p>{{ end }}{{ end }}{{ end }}
 		{{ with .Params.quotes }}
 		<div class="lg-praise">
 			<span class="k">Praise</span>

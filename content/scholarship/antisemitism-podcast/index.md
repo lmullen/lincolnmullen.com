@@ -8,9 +8,9 @@ homepageOrder: 5
 date: 2024-06-01
 cover: "homepage-thumbnail.png"
 citation: >-
-  Turner, John, Lincoln Mullen, Jeanette Patrick, Jim Ambuske, Britt Tevis,
-  Mark Oppenheimer, and Zev Eleff. <em>Antisemitism, U.S.A.: A History
-  Podcast.</em> R2 Studios, 2024.
+  Turner, John, Lincoln Mullen, Britt Tevis, et al.
+  <em>Antisemitism, U.S.A.: A History
+  Podcast.</em> Roy Rosenzweig Center for History and New Media, 2024.
 abstract: >-
   Antisemitism has deep roots in American history, yet we often talk about it
   as if it were something new. A narrative podcast from RRCHNM tracing just how

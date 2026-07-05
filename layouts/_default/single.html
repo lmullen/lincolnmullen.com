@@ -3,7 +3,7 @@
 <article id="{{ urlize .Title }}">
 
   <header>
-    <h1>{{ .Title | markdownify }}</h1>
+    <h1 class="page-title">{{ .Title }}</h1>
   </header>
   <div class="reading reading--narrow">
     {{ .Content }}

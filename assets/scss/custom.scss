@@ -260,6 +260,20 @@ a {
     font-size: 1.3rem;
     line-height: 1.1;
   }
+  .page-title {
+    font-size: 2rem;
+  }
+}
+
+/* Interior page title — the display-serif heading shared by top-level pages
+   (Scholarship, Teaching, …). One treatment so those headings match; kin to
+   the homepage .statement voice. */
+.page-title {
+  font: 600 2.5rem/1.05 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
 }
 
 .smallcaps-header {
@@ -1915,15 +1929,8 @@ figcaption.figcap a:hover {
    system above. Only --sch-abs (the recessed abstract) is introduced.
    =================================================================== */
 
-/* page header trio (title · intro · CV link). Named to avoid the blog
-   .ptitle (list-post title): this is the page-level display title. */
-.sch-title {
-  font: 600 2.5rem/1.05 "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  letter-spacing: -0.025em;
-  color: var(--ink);
-  margin: 0 0 0.9rem;
-}
+/* page header (intro + CV link). The page title itself uses the shared
+   .page-title from the interior-chrome section above. */
 .sch-intro {
   font: 400 1.14rem/1.55 "Source Serif 4", serif;
   color: var(--bio-ink);
@@ -2135,9 +2142,6 @@ figcaption.figcap a:hover {
 
 /* responsive: below ~640px stack the cover above the body, gutter collapses. */
 @media (max-width: 640px) {
-  .sch-title {
-    font-size: 2rem;
-  }
   .lg-item {
     grid-template-columns: 1fr;
     gap: 0;

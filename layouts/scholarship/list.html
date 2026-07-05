@@ -4,7 +4,7 @@
      year. Each entry is a page bundle in content/scholarship/<slug>/index.md;
      see partials/scholarship-entry.html for the row and the front-matter model. */}}
 <div class="scholarship">
-	<h1 class="sch-title">{{ .Title }}</h1>
+	<h1 class="page-title">{{ .Title }}</h1>
 	{{ with .Params.intro }}<p class="sch-intro">{{ . }}</p>{{ end }}
 	{{ $cv := .Params.cv_url | default "https://files.lincolnmullen.com/cv/Mullen-cv.pdf" }}
 	<a class="sch-cvlink" href="{{ $cv }}">Full curriculum vitae <i class="bi bi-arrow-right"></i></a>

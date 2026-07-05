@@ -4,6 +4,10 @@ date: "2017-01-07"
 slug: 'my-year-in-tech-2016'
 description: "R for computational history, goodbye to Twitter, WordPress over Jekyll, a Linux workstation, and an iPad for reading: a brief technology report for 2016."
 draft: false
+tags:
+- tools
+- R
+- programming
 ---
 
 Following [Alan Jacobs](http://text-patterns.thenewatlantis.com/2016/12/my-year-in-technology.html) and [Boone Gorges](https://teleogistic.net/2017/01/02/2016/), here is a brief report on my year in technology.

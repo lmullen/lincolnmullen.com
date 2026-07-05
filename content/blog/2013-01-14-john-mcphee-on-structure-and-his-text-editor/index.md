@@ -4,6 +4,8 @@ date: "2013-01-14"
 slug: 'john-mcphee-on-structure-and-his-text-editor'
 description: "McPhee's *New Yorker* essay on structure includes a passage about Kedit and the custom programs Howard Strauss wrote to adapt the computer to McPhee's own way of working."
 draft: false
+tags:
+- tools
 ---
 
 In the *New Yorker*, John McPhee [writes](http://www.newyorker.com/reporting/2013/01/14/130114fa_fact_mcphee) about how he creates the structures for his writing. The middle of the piece also contains a description of the text-editor that McPhee uses, along with custom programs coded for McPhee by Howard J. Strauss:

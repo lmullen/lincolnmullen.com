@@ -5,6 +5,8 @@ slug: 'gmu-library-proxy'
 draft: false
 description: "A browser bookmarklet that automatically routes any paywalled URL through the GMU library proxy—one click instead of manually prepending the proxy address each time."
 image: 01-blocked.png
+tags:
+- tools
 ---
 
 If you are a GMU student, faculty, or staff member, you can access library resources from off campus using a library proxy. Suppose you want to access this article:

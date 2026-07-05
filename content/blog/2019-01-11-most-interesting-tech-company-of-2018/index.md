@@ -4,6 +4,9 @@ date: "2019-01-11"
 slug: 'most-interesting-tech-company-of-2018'
 description: "A surprising argument that Microsoft was the most interesting tech company of 2018, from Xbox to Visual Studio Code to Windows Subsystem for Linux."
 draft: false
+tags:
+- tools
+- programming
 ---
 
 After thinking about it, I came to the conclusion that the most interesting tech company of 2018 was ... Microsoft? My formative experiences with computers came in the 1990s, and even though the first computer my family had was a Windows PC, I imbibed anti-Microsoft sentiment in my youth. That attitude only hardened once I came to do much of my work in a way that requires a *nix system. My new-found appreciation for the company comes as a surprise, but let me make my case.

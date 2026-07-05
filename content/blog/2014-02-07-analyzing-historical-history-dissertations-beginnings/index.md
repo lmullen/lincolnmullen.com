@@ -26,6 +26,6 @@ For a first plot of the data, we can look at the number of dissertations and the
 
 Because there were so few dissertations in the late nineteenth and early twentieth century (I suspect some are missing), let's limit the plot to the years after 1950.
 
-![](2014-02-07-number-dissertations.png)
+{{< image src="2014-02-07-number-dissertations.png" alt="Chart of the number of history dissertations per year" original="true" >}}
 
 I'll do some more analysis soon. If you have any questions that you think the data can answer, let me know.

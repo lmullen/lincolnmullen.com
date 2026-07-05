@@ -17,7 +17,7 @@ The big problem[^1] with using multiple computers  is switching between keyboard
 
 [Synergy](http://synergy-foss.org/) is open-source software that lets you share a single keyboard and mouse on multiple computers. You install the software on both of your computers (actually, as many computers as you want). One of the computers is set up to be a server, which shares its keyboard and mouse with the other computers, which are set up as clients. Synergy works with Windows, Macs and Linux, and it has a settings manager which is fairly straightforward. You'll have to figure out either the names of your computers on the network (e.g., mullen-mac.local) or your local IP address, but Google can help you with that.
 
-![Synergy settings](https://i0.wp.com/chronicle.com/blogs/profhacker/files/2013/02/Screen-Shot-2013-02-28-at-8.54.22-PM.png?w=739)
+{{< image src="synergy-settings.png" alt="Synergy settings" original="true" >}}
 
 Once you have [Synergy](http://synergy-foss.org/) set up, you can move the mouse from one computer to the next. The keyboard control follows the mouse, so that you can type on either machine. It's not flawless,[^2] but I've found that it works well. You'll quickly realize that your computers use different shortcuts (e.g., copying is Ctrl+C on Windows and Linux but Cmd+C on Macs) but you can change your settings if you really want to go all in.
 

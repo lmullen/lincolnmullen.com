@@ -18,7 +18,7 @@ In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-di
 
 For context, here is the most significant chart:
 
-![](pages-mean-median.png)
+{{< image src="pages-mean-median.png" alt="Chart of mean and median page lengths of history dissertations" original="true" >}}
 
 There are probably at least four factors influencing the length of the dissertation:
 

@@ -22,7 +22,7 @@
 			</span>
 		</p>
 		<p>
-			<b>Feeds</b><span class="fl"><a href="/blog/index.xml">RSS</a> · <a href="/blog/index.json">JSON</a></span>
+			<b>Feeds</b><span class="fl">{{ partial "feed-links.html" (dict "icons" false "sep" " · ") }}</span>
 		</p>
 		<p class="d-none">
 			Created by <a href="{{ "/" | absURL }}" rel="me" class="u-url u-uid p-name"><span class="p-given-name">Lincoln</span> <span class="p-family-name">Mullen</span></a> &lt;<span class="u-email">lincoln@lincolnmullen.com</span>&gt;. <a class="u-photo" href='/img/lincoln-mullen.jpeg'>Photo</a>.

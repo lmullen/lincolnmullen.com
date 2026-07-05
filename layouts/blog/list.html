@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="blog-layout">
   <div>
+    <h1 class="visually-hidden">{{ .Title }}</h1>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
     <div class="shead"><span class="lbl">The Blog</span></div>
 
@@ -12,7 +13,7 @@
       {{ if .Title }}
       <a class="ptitle p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
       {{ else }}
-      <h2 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h2>
+      <h2 class="visually-hidden">Post from {{ .Date.Format site.Params.dateForms.long }}</h2>
       {{ end }}
 
       <div class="pbody e-content">

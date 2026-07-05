@@ -1,7 +1,7 @@
 <footer class="post-footer d-none">
   <a rel="author" class="p-author h-card" href="{{ "/" | absURL }}">Lincoln Mullen</a>
-  <time class="dt-published" datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>{{ .Date.Format "2 January 2006" }}</time>
-  <time class="dt-updated" datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>{{ time.Format "2 January 2006" .Lastmod }}</time>
+  <time class="dt-published" datetime='{{ .Date.Format site.Params.dateForms.rfc3339 }}'>{{ .Date.Format site.Params.dateForms.long }}</time>
+  <time class="dt-updated" datetime='{{ time.Format site.Params.dateForms.rfc3339 .Lastmod }}'>{{ time.Format site.Params.dateForms.long .Lastmod }}</time>
   {{- with .Description }}
   <data class="p-summary" value="{{ . }}"></data>
   {{- end }}

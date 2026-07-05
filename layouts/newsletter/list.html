@@ -1,26 +1,19 @@
 {{ define "main" }}
 <div class="bodyprose" style="max-width: 40rem">
+  <h1 class="visually-hidden">{{ .Site.Params.NewsletterTitle }} — the newsletter</h1>
   <div class="shead"><span class="lbl">{{ .Site.Params.NewsletterTitle }} — the newsletter</span></div>
   {{ with .Content }}{{ . }}{{ end }}
 
   <div class="mt-4 mb-2">
     <p class="bs-lbl">Subscribe</p>
-    <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="bs-form embeddable-buttondown-form">
-      <input type="hidden" value="1" name="embed">
-      <input type="hidden" name="tag" value="newsletter-archive">
-      <input type="email" name="email" placeholder="Email" aria-label="Email address">
-      <input type="submit" value="Subscribe">
-    </form>
+    {{ partial "newsletter-form.html" (dict "tag" "newsletter-archive" "class" "bs-form") }}
   </div>
 </div>
 
 <div class="mt-5 nl-index">
   <div class="shead"><span class="lbl">Past issues</span></div>
   {{ range .Pages.ByDate.Reverse }}
-  <div class="idx-row">
-    <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
-    <a class="idx-title" href="{{ .Permalink }}">#{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a>
-  </div>
+  {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact "prefix" (printf "#%s: " .Slug)) }}
   {{ end }}
 </div>
 {{ end }}

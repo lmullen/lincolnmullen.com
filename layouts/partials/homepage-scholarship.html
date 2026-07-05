@@ -13,9 +13,7 @@
 		<div class="it">
 			<a class="scard" href="{{ $link }}">
 				{{ $img := .Resources.Get (index .Params "homepage-thumbnail") }}
-				{{ $thumb1x := $img.Resize "400x webp" }}
-				{{ $thumb2x := $img.Resize "800x webp" }}
-				<img src="{{ $thumb1x.RelPermalink }}" srcset="{{ $thumb1x.RelPermalink }} 1x, {{ $thumb2x.RelPermalink }} 2x" alt="Cover for {{ .Title }}" width="{{ $thumb1x.Width }}" height="{{ $thumb1x.Height }}" loading="lazy">
+				{{ partial "responsive-image.html" (dict "res" $img "width" 400 "alt" (printf "Cover for %s" .Title) "lazy" true) }}
 				<div class="b">
 					<div class="t">{{ .Title | markdownify }}</div>
 					{{ with .Params.Subtitle }}<div class="d">{{ . }}</div>{{ end }}

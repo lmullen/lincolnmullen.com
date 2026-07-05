@@ -2,6 +2,6 @@
        blog index and the featured page so the two render identically. Call with
        the page context: {{ partial "post-metaline.html" . }} */ -}}
 <div class="metaline">
-  <span>{{ .Date.Format "2 Jan 2006" }}</span>
+  <span>{{ .Date.Format site.Params.dateForms.compact }}</span>
   {{- with .Params.tags }}{{ range . }}<span class="sep">/</span><span>{{ . }}</span>{{ end }}{{ end -}}
 </div>

@@ -39,6 +39,14 @@ imaging:
   quality: 85
 
 params:
+  # Canonical date formats; reference as site.Params.dateForms.* so display
+  # and machine-readable dates stay consistent across templates.
+  dateForms:
+    long: "2 January 2006" # citations, microformats display, hidden headings
+    compact: "2 Jan 2006" # metalines, index rows, rail
+    day: "Jan 2" # archive rows, which are grouped under year headings
+    machine: "2006-01-02" # <time datetime> attributes for date-only values
+    rfc3339: "2006-01-02T15:04:05Z07:00" # full timestamps: microformats, OpenGraph
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
   newsletterTitle: "Working on It"

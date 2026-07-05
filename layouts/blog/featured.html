@@ -3,6 +3,7 @@
 {{ define "main" }}
 <div class="blog-layout">
   <div>
+    <h1 class="visually-hidden">{{ .Title }}</h1>
     <div class="shead"><span class="lbl">Featured posts</span></div>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 

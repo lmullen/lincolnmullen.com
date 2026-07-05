@@ -6,7 +6,7 @@
       {{ if .Title }}
       <h1 class="stmt"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a></h1>
       {{ else }}
-      <h1 class="d-none">Post from {{ .Date.Format "2 January 2006" }}</h1>
+      <h1 class="visually-hidden">Post from {{ .Date.Format site.Params.dateForms.long }}</h1>
       {{ end }}
 
       <div class="reading bodyprose e-content">
@@ -25,10 +25,7 @@
     <div class="rel">
       <div class="shead"><span class="lbl">Related posts</span></div>
       {{ range . }}
-      <div class="idx-row">
-        <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
-        <a class="idx-title" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
-      </div>
+      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact) }}
       {{ end }}
     </div>
     {{ end }}
@@ -51,14 +48,14 @@
       <div class="modal-body">
         <div class="mb-4">
           <p class="smallcaps-header mb-1">Footnote</p>
-          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ $.RenderString (dict "display" "inline") . }},&rdquo; {{ $.Date.Format "2 January 2006" }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ $.RenderString (dict "display" "inline") . }},&rdquo; {{ $.Date.Format site.Params.dateForms.long }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
           <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-footnote">
             <i class="bi bi-clipboard"></i> Copy
           </button>
         </div>
         <div>
           <p class="smallcaps-header mb-1">Bibliography</p>
-          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ $.RenderString (dict "display" "inline") . }}.&rdquo; {{ $.Date.Format "2 January 2006" }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ $.RenderString (dict "display" "inline") . }}.&rdquo; {{ $.Date.Format site.Params.dateForms.long }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
           <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-bibliography">
             <i class="bi bi-clipboard"></i> Copy
           </button>

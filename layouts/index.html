@@ -17,9 +17,7 @@
 			{{ end }}
 		</nav>
 		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
-		{{ $photo1x := $photo.Resize "196x webp" }}
-		{{ $photo2x := $photo.Resize "392x webp" }}
-		<img class="photo" src="{{ $photo1x.RelPermalink }}" srcset="{{ $photo1x.RelPermalink }} 1x, {{ $photo2x.RelPermalink }} 2x" alt="Lincoln Mullen" width="{{ $photo1x.Width }}" height="{{ $photo1x.Height }}">
+		{{ partial "responsive-image.html" (dict "res" $photo "width" 196 "class" "photo" "alt" "Lincoln Mullen") }}
 	</div>
 	<div class="main">
 		{{/* Statement + bio prose come from content/_index.md: first paragraph → the display

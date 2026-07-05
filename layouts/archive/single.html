@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="blog-layout">
   <div>
+    <h1 class="visually-hidden">{{ .Title }}</h1>
     <div class="shead"><span class="lbl">Blog posts by date</span></div>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
@@ -9,10 +10,7 @@
       <div class="idx-year">{{ .Key }}</div>
       {{ range .Pages }}
       {{ if and (not .Params.Linkpost) .Title }}
-      <div class="idx-row">
-        <time class="idx-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
-        <a class="idx-title" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
-      </div>
+      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.day) }}
       {{ end }}
       {{ end }}
     </div>

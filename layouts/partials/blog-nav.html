@@ -21,19 +21,13 @@
   </div>
   <div>
     <p class="bs-lbl">Newsletter</p>
-    <form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="bs-form embeddable-buttondown-form">
-      <input type="hidden" value="1" name="embed">
-      <input type="hidden" name="tag" value="{{ $tag }}">
-      <input type="email" name="email" placeholder="Email" aria-label="Email address">
-      <input type="submit" value="Subscribe">
-    </form>
+    {{ partial "newsletter-form.html" (dict "tag" $tag "class" "bs-form") }}
     <a class="bs-nllink" href="/newsletter/">Read past issues →</a>
   </div>
   <div>
     <p class="bs-lbl">Site feeds</p>
     <div class="bs-feeds">
-      <a class="feed-btn" href="/blog/index.xml"><i class="bi bi-rss-fill"></i> RSS</a>
-      <a class="feed-btn" href="/blog/index.json"><i class="bi bi-braces"></i> JSON</a>
+      {{ partial "feed-links.html" (dict "class" "feed-btn") }}
     </div>
   </div>
 </div>

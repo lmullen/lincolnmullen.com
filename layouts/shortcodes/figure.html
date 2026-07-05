@@ -4,10 +4,8 @@
 	{{ $ext := path.Ext (.Get "src") }}
 	{{ $link := .Get "link" }}
 	{{ if and (ne $ext ".gif") (ne $ext ".svg") }}
-	{{ $regular := $raw.Resize "900x webp"}}
-	{{ $retina := $raw.Resize "1800x webp"}}
 	<a href="{{ $link | default $raw.RelPermalink }}">
-		<img class="figimg" src='{{ $regular.RelPermalink }}' srcset="{{ $regular.RelPermalink }}, {{ $retina.RelPermalink }} 2x" alt='{{ .Get "caption" | markdownify | plainify }}' width="{{ $regular.Width }}" height="{{ $regular.Height }}">
+		{{ partial "responsive-image.html" (dict "res" $raw "width" 900 "class" "figimg" "alt" (.Get "caption" | markdownify | plainify)) }}
 	</a>
 	{{ else if eq $ext ".gif" }}
 	<!-- Don't process GIFs -->

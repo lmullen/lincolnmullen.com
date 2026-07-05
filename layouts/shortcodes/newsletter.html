@@ -1,1 +1,3 @@
-{{ partial "newsletter.html" (dict "tag" "homepage") }}
+{{- /* Embed a newsletter subscribe form in content. Optional tag param sets
+       the Buttondown signup-source tag. */ -}}
+{{ partial "newsletter-form.html" (dict "tag" (.Get "tag" | default "website") "class" "bs-form") }}

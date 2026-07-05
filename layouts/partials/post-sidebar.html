@@ -24,9 +24,9 @@
 
 <div class="rb">
   <p class="rlbl">Published</p>
-  <span class="rv"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "2 January 2006" }}</time></span>
-  {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
-  <span class="upd"><i class="bi bi-clock-history"></i> Updated {{ .Lastmod.Format "2 Jan 2006" }}</span>
+  <span class="rv"><time datetime="{{ .Date.Format site.Params.dateForms.rfc3339 }}">{{ .Date.Format site.Params.dateForms.long }}</time></span>
+  {{ if ne (.Lastmod.Format site.Params.dateForms.machine) (.Date.Format site.Params.dateForms.machine) }}
+  <span class="upd"><i class="bi bi-clock-history"></i> Updated {{ .Lastmod.Format site.Params.dateForms.compact }}</span>
   {{ end }}
 </div>
 

@@ -25,9 +25,7 @@
 	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
 </a>
 {{ else }}
-{{ $regular := $raw.Resize "900x webp"}}
-{{ $retina := $raw.Resize "1800x webp"}}
 <a href="{{ $link | default $raw.RelPermalink }}">
-	<img class="postimg" src='{{ $regular.RelPermalink }}' srcset="{{ $regular.RelPermalink }} 1x, {{ $retina.RelPermalink }} 2x" alt='{{ .Get "alt" | plainify }}' width="{{ $regular.Width }}" height="{{ $regular.Height }}" />
+	{{ partial "responsive-image.html" (dict "res" $raw "width" 900 "class" "postimg" "alt" (.Get "alt" | plainify)) }}
 </a>
 {{ end }}

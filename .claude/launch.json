@@ -3,9 +3,10 @@
   "configurations": [
     {
       "name": "hugo",
-      "runtimeExecutable": "hugo",
-      "runtimeArgs": ["serve", "--port", "2323", "--disableFastRender"],
-      "port": 2323
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "hugo serve --port \"${PORT:-2323}\" --disableFastRender"],
+      "port": 2323,
+      "autoPort": true
     }
   ]
 }

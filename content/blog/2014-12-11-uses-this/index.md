@@ -4,6 +4,8 @@ description: "An interview for *Uses This* on the tools a historian-programmer r
 date: '2014-12-11'
 slug: 'uses-this'
 draft: false
+aliases:
+  - /blog/interview-with-the-setup/
 crosspost:
   url: "https://usesthis.com/interviews/lincoln.mullen/"
   source: "*Uses This*"

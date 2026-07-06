@@ -4,6 +4,8 @@ featured: true
 date: '2022-04-11'
 slug: 'good-mentor'
 draft: false
+aliases:
+  - /blog/what-makes-for-a-good-academic-mentor/
 description: "Eight principles for good academic mentorship—starting with the most important: what got you here is not what will get them there, and your career goals are not theirs."
 tags:
 - teaching

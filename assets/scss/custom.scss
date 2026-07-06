@@ -196,10 +196,9 @@ abbr {
   text-decoration: none;
 }
 
-/* Block quotes (outside .bodyprose/.reading, which restyle them) */
+/* Block quotes (outside .bodyprose/.reading, which restyle them).
+   Quotes keep the surrounding type size; the rule + indent distinguish them. */
 blockquote {
-  font-size: 1rem;
-  line-height: 1.65;
   border-left: 3px solid var(--rule);
   padding-left: 1.5rem;
   margin-left: 0;
@@ -1570,8 +1569,6 @@ figcaption.figcap a:hover {
 }
 .bodyprose blockquote p,
 .pbody blockquote p {
-  font: 400 1.16rem/1.6 "Source Serif 4", serif;
-  color: var(--ink);
   margin: 0 0 0.6rem;
 }
 .bodyprose blockquote p:last-child,
@@ -1652,7 +1649,10 @@ figcaption.figcap a:hover {
 }
 
 /* ---- body prose ---- */
-.reading > p {
+/* Blockquote text matches the body paragraphs exactly; only the orange
+   rule + indent (below) mark it as a quote. */
+.reading > p,
+.reading > blockquote p {
   font: 400 1.19rem/1.62 "Source Serif 4", serif;
   color: var(--body);
   margin: 0 0 1.15rem;
@@ -1710,8 +1710,6 @@ figcaption.figcap a:hover {
   margin: 1.7rem 0;
 }
 .reading > blockquote p {
-  font: 400 1.18rem/1.6 "Source Serif 4", serif;
-  color: var(--ink);
   margin: 0 0 0.7rem;
 }
 .reading > blockquote p:last-child {

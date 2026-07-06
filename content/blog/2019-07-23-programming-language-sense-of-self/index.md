@@ -3,10 +3,10 @@ title: 'A programming language and a sense of self'
 date: "2019-07-23"
 slug: 'a-programming-language-and-a-sense-of-self'
 description: "Go's traits—minimalism, strong typing, high performance, and explicit error handling—turn out to map suspiciously well onto one programmer's beleaguered sense of self."
+draft: false
 tags:
 - Go
 - programming
-draft: false
 ---
 
 Recently I've been writing a fair bit of code in [Go](https://golang.org) for a project I am working on. There is a lot to like about the language. But the thought occurred to me that maybe I like Go because it fits my (unjustifiably) beleaguered sense of self. If I used to like Ruby [because it was fun](https://lincolnmullen.com/blog/the-challenge-of-translating-10-print-to-ruby/), then maybe I like Go now for these reasons:

@@ -1,42 +1,213 @@
+/* ============================================================
+   Design tokens & shared primitives
+   ------------------------------------------------------------
+   Bootstrap's own palette is configured in variables.scss and
+   compiled by Bootstrap into :root; only values Bootstrap does
+   not emit (custom tokens, dark-mode overrides) live here.
+   ============================================================ */
+
+/* Breakpoints — SCSS variables because media queries cannot read
+   CSS custom properties. */
+$bp-phone: 480px; /* small phones: type ramp-down */
+$bp-mobile: 768px; /* stack rails, collapse the reading measure */
+$bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
+$bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
+
+/* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
+   for eyebrows, section labels, metalines, dates, buttons, and pills. */
+@mixin mono-label($size: var(--label-md), $tracking: 0.1em, $weight: 600, $lh: 1) {
+  font: $weight #{$size}/#{$lh} "Source Code Pro", monospace;
+  letter-spacing: $tracking;
+  text-transform: uppercase;
+}
+
+/* Reading-voice underlined link (hairline underline, orange on hover
+   handled by callers). */
+@mixin reading-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+/* Serif small-caps action link (Biography →, Read more →). */
+@mixin smallcaps-action {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+/* Navy & Orange — Light Mode */
+:root,
+[data-bs-theme="light"] {
+  --bs-accent: #c06a20; /* site-specific: tooltip fill (not a Bootstrap variable) */
+
+  /* Redesign identity tokens (Design Handoff §2) — light */
+  --navy: #1b54c0; /* links, nav, name */
+  --ink: #16203a; /* headings, near-black hairline rules */
+  --body: #1a1a1a; /* body text */
+  --sec: #5a5e66; /* secondary text (excerpts, notes) */
+  --orange: #e07a2e; /* accent: emphasis, card top-border, icons, buttons */
+  --link: #1b54c0; /* inline prose links */
+  --rule: #d4d6dc; /* light hairline (rare) */
+  --rule2: #e6e7ea; /* faint list-row dividers */
+  --mut: #878d99; /* muted meta, social/contact icons */
+  --card: #f3f4f6; /* tinted surface */
+  --bio-ink: #33373f; /* homepage bio prose (§2: between --sec and --ink) */
+  --sch-abs: #4a4e57; /* scholarship abstract — recessed just below --ink citation */
+  --code-bg: #f0eeea; /* inline-code fill outside reading columns */
+  --radius: 6px; /* the corner-radius token (§4.12) */
+  --radius-sm: 5px; /* small chips: inline code pills */
+
+  /* Same in both modes (the band stays cobalt in dark mode) */
+  --cobalt: #1b54c0; /* blog/newsletter band fill */
+  --accent-soft: #ffc79c; /* soft peach accent on the cobalt band */
+
+  /* Mono label sizes (§4.1) — four steps replace the old 0.6–0.82rem continuum */
+  --label-xs: 0.62rem; /* pills, tags, code-language chips, table headers */
+  --label-sm: 0.68rem; /* metalines, index dates, sidebar labels, feed links */
+  --label-md: 0.74rem; /* eyebrows, nav, buttons, section-header links */
+  --label-lg: 0.82rem; /* section-header labels */
+
+  /* Vertical rhythm between homepage sections */
+  --sp-section: 2.75rem;
+}
+
+/* Navy & Orange — Dark Mode */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #15171c;
+  --bs-body-color: #c2c7d0;
+  --bs-emphasis-color: #f8f9fa;
+  --bs-emphasis-color-rgb: 248, 249, 250;
+  --bs-primary: #b8d4f8;
+  --bs-secondary: #f0a860;
+  --bs-success: #7acc9a;
+  --bs-warning: #f0a860;
+  --bs-danger: #e08080;
+  --bs-info: #b8d4f8;
+  --bs-link-color: #b8d4f8;
+  --bs-link-color-rgb: 184, 212, 248;
+  --bs-link-hover-color: var(--bs-secondary);
+  --bs-link-hover-color-rgb: 240, 168, 96;
+  --bs-border-color: #545b66;
+  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
+  --bs-card-bg: #363b44;
+  --bs-code-color: #f0a860;
+  --bs-heading-color: #f8f9fa;
+  --bs-accent: #f0a860;
+
+  /* Redesign identity tokens (Design Handoff §2) — dark */
+  --navy: #84aaf2;
+  --ink: #f2f4f8;
+  --body: #c2c7d0;
+  --sec: #9aa0ab;
+  --orange: #ee8b46;
+  --link: #84aaf2;
+  --rule: #2a2e37;
+  --rule2: #23262e;
+  --mut: #828a96;
+  --card: #20242d;
+  --bio-ink: var(--body); /* bio prose reads as body text in dark */
+  --sch-abs: var(--body); /* scholarship abstract recedes below the near-white citation */
+  --code-bg: #3e444e;
+
+  --bs-secondary-color: rgba(232, 234, 238, 0.75);
+  --bs-secondary-color-rgb: 232, 234, 238;
+  --bs-secondary-bg: #3e444e;
+  --bs-secondary-bg-rgb: 62, 68, 78;
+  --bs-tertiary-color: rgba(232, 234, 238, 0.5);
+  --bs-tertiary-color-rgb: 232, 234, 238;
+  --bs-tertiary-bg: #363b44;
+  --bs-tertiary-bg-rgb: 54, 59, 68;
+}
+
+/* ============================================================
+   Base elements & shared page chrome — lists, body, container,
+   headings, header, code, footnotes, tooltips, modal.
+   ============================================================ */
+
+/* Lists */
+ul,
+ul ul {
+  list-style-type: square;
+}
+
 /* Body styles */
 body {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  font-feature-settings: "liga" 1, "dlig" 1;
 }
 
+/* Shared page container (Design Handoff §3 — the .wrap spec) */
 .main-container {
-  max-width: 1000px;
-}
-
-footer.site-footer {
-  font-size: 0.9rem;
-  border-top: 1px solid $border-color;
-  margin-top: $lm-gap * 2;
-  padding-top: $lm-gap * 2;
-  margin-bottom: $lm-gap * 4;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
 }
 
 /* Typography */
-article h1,
-article h2,
-article h3,
+
+/* Headings */
+article h1 {
+  font-size: 2.4rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+article h2 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+  font-weight: 600;
+  margin-top: 2.25rem;
+  margin-bottom: 0.6rem;
+}
+
+article h3 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
 article h4,
 article h5,
 article h6 {
-  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
 }
 
-p+h2 {
-  margin-top: 1.5rem;
+/* Body text */
+p {
+  margin-bottom: 1rem;
 }
 
 strong {
-  font-weight: $font-weight-semibold;
+  font-weight: 600;
 }
 
+/* Small caps for abbreviations and acronyms */
+.small-caps,
+abbr {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+/* Block quotes (outside .bodyprose/.reading, which restyle them).
+   Quotes keep the surrounding type size; the rule + indent distinguish them. */
 blockquote {
-  margin-left: 2rem;
-  font-size: 0.95rem;
+  border-left: 3px solid var(--rule);
+  padding-left: 1.5rem;
+  margin-left: 0;
+}
+
+blockquote cite {
+  font-size: 0.88rem;
+  font-style: normal;
+  color: var(--mut);
 }
 
 a {
@@ -45,72 +216,81 @@ a {
   hyphens: none;
 }
 
-/* Base */
-#site-header {
-  margin-bottom: $lm-gap * 2;
-  border-bottom: 1px solid $border-color;
+/* Slim interior-page header (Design Handoff §6) — mono nav reused from the homepage rail.
+   The homepage supplies its own rail nav; every other page gets this. */
+.sitehead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem 2rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.9rem;
+  margin-bottom: 2.4rem;
 }
 
-a.site-title {
-  font-weight: 500;
-  text-decoration: none;
-  font-size: $font-size-base;
-  color: $body-color;
-}
-
-.nav-link {
-  color: $primary;
-}
-
-/* Figures */
-figcaption {
-  font-style: italic;
-  font-size: 1rem;
-}
-
-figcaption em {
-  font-style: normal;
-}
-
-/* Homepage */
-.list-icon {
-  margin-right: 0.5rem;
-}
-
-// This lines up SVGs brought in via an <img> tag with the Bootstrap
-// icons brought in via the <i> tag.
-img.list-icon {
-  margin-top: -0.2rem;
-}
-
-#site-header a,
-#homepage-sidebar a {
+.sitehead .wordmark {
+  font: 700 1.7rem/1.05 "Source Serif 4", serif; /* match the homepage rail wordmark (.rail .nm) */
+  letter-spacing: -0.02em;
+  color: var(--navy);
   text-decoration: none;
 }
 
-.homepage-list .bi-rss-fill {
-  color: var(--bs-link-color);
+.sitehead nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.5rem;
 }
 
-.homepage-header {
-  font-weight: 500;
-  font-size: var(--bs-body-font-size);
-}
-
-.border-none {
-  border-width: 0;
-}
-
-.homepage-card .card-link {
-  font-weight: 500;
+.sitehead nav a {
+  @include mono-label(var(--label-md), 0.14em);
+  color: var(--navy);
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  .homepage-links {
-    width: 30%;
-    margin-left: 3rem;
+.sitehead nav a:hover,
+.sitehead nav a.on {
+  color: var(--orange);
+}
+
+/* On phones, track the homepage rail wordmark's smaller size (.rail .nm mobile). */
+@media (max-width: $bp-mobile) {
+  .sitehead .wordmark {
+    font-size: 1.3rem;
+    line-height: 1.1;
   }
+  .page-title {
+    font-size: 2rem;
+  }
+}
+
+/* Interior page title — the display-serif heading shared by top-level pages
+   (Scholarship, Teaching, …). One treatment so those headings match; kin to
+   the homepage .statement voice. */
+.page-title {
+  font: 600 2.5rem/1.05 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+}
+
+.smallcaps-header {
+  font-weight: 600;
+  font-size: var(--bs-body-font-size);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.05em;
+}
+
+/* Orange buttons with white text */
+.btn-secondary,
+.btn-outline-secondary {
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+}
+
+.btn-secondary {
+  --bs-btn-color: #fff;
 }
 
 /* Teaching */
@@ -135,82 +315,53 @@ img.list-icon {
 }
 
 /* Blog */
+
+/* Reading measure, breakout, tables, and figures for full-text posts now live
+   in the ".reading" section at the end of this file (the reading-typography
+   handoff), replacing the older .post-body 7/9 width + bordered-table system. */
+
 .sidebar-nav {
   top: 5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $bp-mobile) {
   .sidebar-nav {
-    border-left: none !important;
     padding: 1rem !important;
     margin: 0 0 2rem 0 !important;
-    background-color: $gray-100;
+    background-color: var(--bs-tertiary-bg);
     top: 0;
   }
-}
-
-.link-post-title a,
-.cross-post-title a {
-  text-decoration: none;
-}
-
-.link-post-date {
-  color: inherit;
-  text-decoration: none;
-}
-
-a.link-post-date:hover {
-  color: inherit;
 }
 
 .sidebar-nav a {
   text-decoration: none;
 }
 
-.feed-icon {
-  color: $primary;
-}
-
-a.permalink,
-a.author-link {
+a.permalink {
   text-decoration: none;
   color: inherit;
 }
 
-.external-url {
-  font-style: italic;
+nav[aria-label="page navigation"] {
+  max-width: 77.78%; /* match post body text width */
 }
 
-.external-url em {
-  font-style: normal;
+@media (max-width: $bp-mobile) {
+  nav[aria-label="page navigation"] {
+    max-width: 100%;
+  }
 }
 
-.external-url a {
-  text-decoration: none;
+/* Code */
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.88em;
+  background-color: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius-sm);
 }
 
-.post-title {
-  margin-top: -0.25rem;
-}
-
-.post-separator {
-  margin: 5rem 10rem;
-}
-
-.blog-archive td {
-  padding-bottom: 0.5rem;
-  vertical-align: top;
-}
-
-footer.article-footer {
-  font-size: 0.8rem;
-  font-style: italic;
-}
-
-footer.article-footer a {
-  text-decoration: none;
-}
-
+/* Code blocks */
 div.highlight {
   max-width: 100%;
 }
@@ -218,11 +369,25 @@ div.highlight {
 div.highlight pre {
   white-space: pre-wrap;
   word-break: break-word;
-  margin-left: 1rem;
+  margin-left: 0;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: var(--radius-sm);
 }
 
-.prevnextlinks a {
-  text-decoration: none;
+div.highlight pre code {
+  font-size: inherit;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
 }
 
 #TableOfContents ul {
@@ -253,22 +418,13 @@ a.footnote-backref {
   text-decoration: none;
 }
 
-// Automatic figure numbering
-article {
-  counter-reset: figures;
-}
+/* Automatic figure numbering lives in the blog section (figcaption.figcap::before). */
 
-figure {
-  counter-increment: figures;
-}
-
-figcaption p:before {
-  content: "Figure " counter(figures) ". ";
-  font-weight: 500;
-}
-
+/* Footnotes / small text */
 .footnotes {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--sec);
   margin-top: 3rem;
 }
 
@@ -276,19 +432,1734 @@ figcaption p:before {
   display: none;
 }
 
-.post-body hr {
-  border: none;
-  margin: 2rem 0;
-  color: black;
-  opacity: 0.8;
-}
-
-.post-body hr::before {
-  content: "***";
-  display: block;
-  text-align: center;
+sup.footnote-ref {
+  font-size: 0.7em;
+  font-weight: 500;
 }
 
 .bio-img img {
   margin: 0 !important;
+}
+
+/* Tooltips */
+.tooltip-inner {
+  background-color: var(--bs-accent);
+  font-size: 0.82rem;
+}
+
+.bs-tooltip-end .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow::before {
+  border-right-color: var(--bs-accent);
+}
+
+.bs-tooltip-start .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
+  border-left-color: var(--bs-accent);
+}
+
+.bs-tooltip-top .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
+  border-top-color: var(--bs-accent);
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before,
+.bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow::before {
+  border-bottom-color: var(--bs-accent);
+}
+
+/* Faster modal animation */
+.modal.fade {
+  transition: opacity 0.08s linear;
+}
+
+.modal.fade .modal-dialog {
+  transition: transform 0.1s ease-out;
+}
+
+/* ============================================================
+   Homepage identity — ported from the Claude Design prototype
+   (design_handoff_homepage/prototypes/homepage-light.html).
+   Shared primitives (§4) + homepage layout (§5). Dark values
+   come from the token block at the top of this file; a few
+   surfaces that differ per mode carry an explicit dark rule.
+   ============================================================ */
+
+/* Eyebrow label (§4.1) */
+.ey {
+  @include mono-label(var(--label-md), 0.2em);
+  color: var(--orange);
+}
+
+/* Section header (§4.2) — the primary section divider */
+.shead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.55rem;
+  margin-bottom: 1.6rem;
+}
+.shead .lbl {
+  @include mono-label(var(--label-lg), 0.2em);
+  color: var(--ink);
+}
+.shead a {
+  @include mono-label(var(--label-md), 0.1em, 500);
+  color: var(--navy);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.shead a:hover {
+  color: var(--orange);
+}
+
+/* Hero (§5.1): side rail + oversized statement */
+.hero {
+  display: flex;
+  gap: 3.25rem;
+  padding-bottom: var(--sp-section);
+  margin-bottom: var(--sp-section);
+  border-bottom: 1px solid var(--ink);
+}
+.rail {
+  width: 196px;
+  flex: none;
+}
+.rail .nm {
+  font: 700 1.7rem/1.05 "Source Serif 4", serif;
+  color: var(--navy);
+  letter-spacing: -0.02em;
+  margin-bottom: 1.6rem;
+  white-space: nowrap; /* "Lincoln Mullen" stays on one line within the 196px rail */
+}
+.rail nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  border-top: 2px solid var(--ink);
+  padding-top: 1.1rem;
+  margin-bottom: 1.8rem;
+}
+.rail nav a {
+  @include mono-label(var(--label-md), 0.14em);
+  color: var(--navy);
+  text-decoration: none;
+}
+.rail nav a:hover,
+.rail nav a.on {
+  color: var(--orange);
+}
+.rail .photo {
+  width: 100%;
+  max-width: 196px;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Statement / display serif (§4.3) */
+.statement {
+  font: 600 2.9rem/1.1 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 1.6rem;
+}
+.statement em {
+  font-style: italic;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* Prose (§4.4) — bio prose uses --bio-ink (#33373f in light per §2,
+   --body in dark) */
+.bio-p {
+  font: 400 1.15rem/1.55 "Source Serif 4", serif;
+  color: var(--bio-ink);
+  margin: 0 0 1rem;
+  max-width: 40rem;
+}
+.bio-p a {
+  color: var(--link);
+  text-decoration: none;
+}
+.bio-p a:hover {
+  color: var(--orange);
+}
+
+/* Action links (§4.5) */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  clear: left;
+}
+.actions a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font: 600 1.08rem/1 "Source Serif 4", serif;
+  @include smallcaps-action;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+.actions a:hover {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.actions a i {
+  font-size: 0.82em;
+  transform: translateY(0.02em);
+  transition: transform 0.15s;
+}
+.actions a:hover i {
+  transform: translate(0.2em, 0.02em);
+}
+
+/* Contact band (§5.3) */
+.band {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3.25rem;
+  padding-bottom: var(--sp-section);
+  margin-bottom: var(--sp-section);
+}
+.band .ey {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.contact a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font: 400 1.02rem/1.3 "Source Serif 4", serif;
+  color: var(--navy);
+  text-decoration: none;
+}
+.contact a:hover {
+  color: var(--orange);
+}
+.contact i {
+  width: 1.1rem;
+  text-align: center;
+  color: var(--mut);
+  flex: none;
+  font-size: 0.95rem;
+}
+.appt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1rem;
+  @include mono-label(var(--label-md), 0.1em);
+  color: var(--navy);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.85rem;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.appt-btn i:first-child {
+  color: var(--orange);
+  font-size: 0.95rem;
+}
+.appt-btn .bi-arrow-right {
+  font-size: 0.82rem;
+  transition: transform 0.15s;
+}
+.appt-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+.appt-btn:hover .bi-arrow-right {
+  transform: translateX(0.2em);
+}
+
+/* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
+   --bc:<hex>; .netlinks.mono forces every logo to --mut. */
+.netlinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem 1.5rem;
+}
+.netlinks a {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font: 400 1rem/1.25 "Source Serif 4", serif;
+  color: var(--navy);
+  text-decoration: none;
+}
+.netlinks a:hover {
+  color: var(--orange);
+}
+.netlinks i {
+  width: 1.05rem;
+  text-align: center;
+  color: var(--mut);
+  flex: none;
+  font-size: 0.9rem;
+}
+.netlinks svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: none;
+  fill: currentColor;
+  color: var(--bc, var(--mut));
+}
+.netlinks.mono svg {
+  color: var(--mut);
+}
+
+/* Scholarship (§5.4) — pure-CSS masonry via column-width, no JS */
+.sec {
+  padding-bottom: var(--sp-section);
+  margin-bottom: var(--sp-section);
+}
+.grid {
+  column-width: 300px;
+  column-gap: 1.5rem;
+}
+.grid .it {
+  /* Atomic inline-block so WebKit can't fragment a card across the column
+     boundary — Safari splits multicol children mid-box into the next column
+     (it under-honors `break-inside: avoid`, worst during the reflow as lazy
+     cover images load in); Firefox renders it fine. An inline-block is
+     unbreakable in every engine; `width: 100%` keeps one card per column
+     row and `vertical-align: top` removes the inline baseline gap. */
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+.scard {
+  display: block;
+  background: #fff; /* paper card on the tinted page, deliberately not --card */
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.scard img {
+  display: block;
+  width: 100%;
+  height: auto; /* let the width/height attrs drive aspect-ratio; without this the
+                   attr height becomes a fixed px height and stretches the image */
+  transition: transform 0.3s;
+}
+.scard:hover {
+  box-shadow: 0 0.5rem 1.4rem rgba(0, 0, 0, 0.14);
+  transform: translateY(-3px);
+}
+.scard:hover img {
+  transform: scale(1.03);
+}
+.scard .b {
+  border-top: 2px solid var(--orange);
+  padding: 0.95rem 1.05rem 1.1rem;
+}
+.scard .t {
+  font: 600 1.06rem/1.25 "Source Serif 4", serif;
+  color: var(--ink);
+}
+.scard .d {
+  font: 400 1rem/1.35 "Source Serif 4", serif;
+  color: var(--sec);
+  margin-top: 0.35rem;
+}
+[data-bs-theme="dark"] .scard {
+  background: var(--card);
+  border-color: var(--rule);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* Blog + newsletter band (§4.10) — the single filled-color block; cobalt in BOTH modes */
+.sb {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: var(--cobalt);
+  border-radius: var(--radius);
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: var(--sp-section);
+}
+.sb .blog {
+  padding: 1.7rem 1.85rem;
+  display: flex;
+  flex-direction: column;
+}
+.sb .nl {
+  padding: 1.7rem 1.85rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.22);
+}
+.sb-eyebrow {
+  display: block;
+  @include mono-label(var(--label-sm), 0.2em);
+  color: var(--accent-soft);
+  margin-bottom: 0.9rem;
+}
+.sb-post-title {
+  display: block;
+  font: 600 1.5rem/1.22 "Source Serif 4", serif;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.sb-post-title:hover {
+  color: var(--accent-soft);
+}
+.sb-metaline {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0.7rem 0;
+}
+.lp-tag {
+  flex: none;
+  @include mono-label(var(--label-xs), 0.12em);
+  color: var(--cobalt);
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 0.4em 0.55em;
+}
+.sb-post-date {
+  @include mono-label(var(--label-xs), 0.12em);
+  color: rgba(255, 255, 255, 0.62);
+}
+.sb-post-ex {
+  font: 400 1rem/1.45 "Source Serif 4", serif;
+  color: rgba(255, 255, 255, 0.84);
+  margin: 0;
+  max-width: 34rem;
+}
+.blog-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem 2rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: 1.3rem;
+}
+.sb-navlinks {
+  display: flex;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+}
+.sb-navlinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  @include mono-label(var(--label-md), 0.1em);
+  color: #fff;
+  text-decoration: none;
+}
+.sb-navlinks a i {
+  transition: transform 0.15s;
+}
+.sb-navlinks a:hover {
+  color: var(--accent-soft);
+}
+.sb-navlinks a:hover i {
+  transform: translateX(0.2em);
+}
+.sb-feedlinks {
+  display: flex;
+  gap: 1.5rem;
+}
+.sb-feedlinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  @include mono-label(var(--label-md), 0.08em);
+}
+.sb-feedlinks a i {
+  font-size: 1.4rem;
+  color: var(--orange);
+  transition: transform 0.15s;
+}
+.sb-feedlinks a:hover {
+  color: var(--accent-soft);
+}
+.sb-feedlinks a:hover i {
+  transform: translateY(-2px);
+}
+.sb-h {
+  font: 600 1.2rem/1.2 "Source Serif 4", serif;
+  color: #fff;
+}
+.sb-h em {
+  font-style: italic;
+}
+.sb-sub {
+  font: 400 1rem/1.42 "Source Serif 4", serif;
+  color: rgba(255, 255, 255, 0.82);
+  margin: 0.4rem 0 0;
+}
+.sb-sub a {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.sb-sub a:hover {
+  color: var(--accent-soft);
+  text-decoration-color: var(--accent-soft);
+}
+.sb-form {
+  display: flex;
+  max-width: 340px;
+  margin-top: 1rem;
+}
+.sb-form input[type="text"],
+.sb-form input[type="email"] {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+  font: 400 0.98rem "Source Serif 4", serif;
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+.sb-form input[type="text"]::placeholder,
+.sb-form input[type="email"]::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sb-form input[type="submit"] {
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  @include mono-label(var(--label-md), 0.1em);
+  padding: 0 1.2rem;
+  cursor: pointer;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+/* Footer (§4.11) */
+.foot {
+  border-top: 1px solid var(--ink);
+  margin-top: 2.5rem;
+  padding-top: 2.2rem;
+  font: 400 0.92rem/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.foot p {
+  margin: 0.15rem 0;
+}
+.foot p:has(b) {
+  display: flex;
+  align-items: baseline;
+}
+.foot p:has(b) .fl {
+  flex: 1;
+  min-width: 0;
+}
+.foot a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.foot a:hover {
+  color: var(--orange);
+}
+.foot b {
+  display: inline-block;
+  min-width: 3.75rem;
+  @include mono-label(var(--label-sm), 0.12em);
+  color: var(--ink);
+  margin-right: 0.5rem;
+}
+
+/* ===== responsive (§5) ===== */
+@media (max-width: $bp-netlinks) {
+  .netlinks {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: $bp-mobile) {
+  .main-container {
+    padding: 1.75rem 1.2rem 3rem;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 1.4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .rail {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.55rem 1rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1.05rem;
+  }
+  .rail .nm {
+    order: 1;
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.1;
+    white-space: normal; /* allow the name to wrap on small screens */
+  }
+  .rail nav {
+    order: 2;
+    flex-basis: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.15rem 1.2rem;
+    border-top: none;
+    padding-top: 0.2rem;
+    margin: 0;
+  }
+  .rail nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .contact {
+    gap: 0.65rem;
+  }
+  .contact a {
+    padding: 0.25rem 0;
+  }
+  .netlinks {
+    gap: 0.7rem 1.5rem;
+  }
+  .netlinks a {
+    padding: 0.3rem 0;
+  }
+  .rail .photo {
+    order: 0;
+    width: 52px;
+    height: 52px;
+    max-width: none;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+  }
+  .statement {
+    font-size: 2.05rem;
+  }
+  .band {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .sb {
+    grid-template-columns: 1fr;
+  }
+  .sb .nl {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+  }
+}
+@media (max-width: $bp-phone) {
+  body {
+    font-size: 1.06rem;
+  }
+  .statement {
+    font-size: 1.72rem;
+    line-height: 1.17;
+  }
+  .bio-p {
+    font-size: 1.08rem;
+  }
+  .actions {
+    gap: 1.1rem;
+  }
+}
+
+/* ===================================================================
+   Blog — Design Handoff (list · single · archive · featured · shared
+   sidebar · post elements). Composes from the identity tokens (§2).
+   Layout/rail/sidebar rules are scoped under .blog-layout so the
+   single-post .rail never collides with the homepage hero .rail.
+   =================================================================== */
+
+/* ---- two-column page layout (content + sidebar/rail) ---- */
+.blog-layout {
+  display: grid;
+  grid-template-columns: 1fr 14.5rem;
+  gap: 2.4rem;
+  align-items: start;
+}
+.blog-layout .shead {
+  margin-bottom: 0.4rem;
+}
+.blog-layout .sidebar,
+.blog-layout .rail {
+  border-left: 1px solid var(--rule2);
+  padding-left: 1.8rem;
+}
+.blog-layout .sidebar {
+  margin-top: 3rem; /* align the sidebar with the first content row */
+}
+
+/* ---- list feed post ---- */
+.list-post {
+  padding: 2.1rem 0;
+  border-bottom: 1px solid var(--rule2);
+}
+.list-post:last-of-type {
+  border-bottom: none;
+}
+
+/* metadata line — date (+ subjects); never names the post type */
+.metaline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.55rem;
+  @include mono-label(var(--label-sm), 0.12em, 600, 1.4);
+  color: var(--mut);
+}
+.metaline .sep {
+  color: var(--rule);
+}
+
+.ptitle {
+  display: inline-block;
+  margin: 0.5rem 0 0;
+  font: 600 1.5rem/1.24 "Source Serif 4", serif;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  text-decoration: none;
+}
+.ptitle:hover {
+  color: var(--navy);
+}
+.pbody {
+  font: 400 1.05rem/1.58 "Source Serif 4", serif;
+  color: var(--body);
+  max-width: 38rem;
+}
+.pbody p {
+  margin: 0.6rem 0 0;
+}
+
+/* read-more action link (serif small-caps, orange arrow slide on hover) */
+.rm {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font: 600 1.02rem/1 "Source Serif 4", serif;
+  @include smallcaps-action;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  margin-top: 0.85rem;
+}
+.rm:hover {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.rm i {
+  font-size: 0.8em;
+  transition: transform 0.15s;
+}
+.rm:hover i {
+  transform: translateX(0.2em);
+}
+
+/* Link / Via / Crossposted affordance line */
+.affline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
+  margin-top: 0.95rem;
+}
+.aff {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  @include mono-label(var(--label-sm), 0.1em);
+  text-decoration: none;
+}
+.aff .afk {
+  color: var(--mut);
+} /* label: Link / Via / Crossposted */
+.aff i {
+  color: var(--orange);
+  font-size: 0.85rem;
+} /* bi-arrow-up-right */
+.aff .afh {
+  color: var(--navy);
+} /* the host / source */
+.aff:hover .afh {
+  color: var(--orange);
+}
+
+/* Subjects (tags) pills */
+.subj {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* size each pill to its own content; don't stretch short pills to a tall neighbor */
+  gap: 0.4rem;
+}
+.pill {
+  @include mono-label(var(--label-xs), 0.1em, 600, 1.3); /* lh 1.3: room for tags that wrap to two lines */
+  color: var(--navy);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.3em 0.62em;
+  text-decoration: none;
+}
+a.pill:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+/* ---- single post ---- */
+.stmt {
+  font: 600 2.05rem/1.14 "Source Serif 4", serif;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+}
+.stmt a {
+  color: inherit;
+  text-decoration: none;
+}
+.stmt a:hover {
+  color: var(--navy);
+}
+.bodyprose {
+  font: 400 1.12rem/1.62 "Source Serif 4", serif;
+  color: var(--body);
+  max-width: 36rem;
+}
+.bodyprose p {
+  margin: 0 0 1rem;
+}
+
+/* In-post headings — subordinate to the post title. Posts start at ## (h2),
+   with ### (h3) for subsections; sized below the .ptitle/.stmt titles so an
+   in-body heading never outweighs the post's own title. */
+.bodyprose h1, .bodyprose h2,
+.pbody h1, .pbody h2 {
+  font: 600 1.35rem/1.3 "Source Serif 4", serif;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 1.8rem 0 0.5rem;
+}
+.bodyprose h3,
+.pbody h3 {
+  font: 600 1.2rem/1.35 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 1.5rem 0 0.4rem;
+}
+.bodyprose h4, .bodyprose h5, .bodyprose h6,
+.pbody h4, .pbody h5, .pbody h6 {
+  font: 600 1.05rem/1.4 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 1.3rem 0 0.35rem;
+}
+.bodyprose > :first-child,
+.pbody > :first-child {
+  margin-top: 0;
+}
+
+/* Related posts (titled only) */
+.rel {
+  margin-top: 2.2rem;
+}
+/* Related rows reuse the archive index layout (date gutter + serif title),
+   with a wider gutter to fit the year (related posts span years). */
+.rel .idx-row {
+  grid-template-columns: 5.5rem 1fr;
+}
+.rel .idx-date {
+  white-space: nowrap;
+}
+
+/* ---- single-post metadata rail blocks ---- */
+.rb {
+  margin-bottom: 1.4rem;
+}
+.rb .rlbl {
+  @include mono-label(var(--label-sm), 0.14em);
+  color: var(--ink);
+  margin: 0 0 0.55rem;
+}
+.rb .rv {
+  font: 400 0.98rem/1.4 "Source Serif 4", serif;
+  color: var(--body);
+}
+.rb .rv a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.rb .rv a:hover {
+  color: var(--orange);
+}
+.rb .upd {
+  display: block;
+  @include mono-label(var(--label-xs), 0.06em, 600, 1.4);
+  color: var(--mut);
+  margin-top: 0.35rem;
+} /* bi-clock-history + "Updated …" */
+.rail-div {
+  border: none;
+  border-top: 1px solid var(--rule2);
+  margin: 0.2rem 0 1.5rem;
+}
+
+/* ---- shared blog sidebar (Navigate · Newsletter · Site feeds) ---- */
+.bs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.bs-lbl {
+  @include mono-label(var(--label-sm), 0.14em);
+  color: var(--ink);
+  margin: 0 0 0.7rem;
+}
+.bs-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+.bs-nav a {
+  font: 400 1.02rem/1.35 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  color: var(--navy);
+  text-decoration: none;
+}
+.bs-nav a:hover {
+  color: var(--orange);
+}
+.bs-nav a.on {
+  color: var(--orange);
+} /* current page */
+.bs-nav a::after {
+  content: "→";
+  margin-left: 0.4rem;
+}
+.bs-form {
+  display: flex;
+}
+.bs-form input[type="text"],
+.bs-form input[type="email"] {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--rule);
+  border-right: none;
+  background: var(--bs-body-bg);
+  padding: 0.5rem 0.6rem;
+  font: 400 0.92rem "Source Serif 4", serif;
+  color: var(--body);
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+.bs-form input::placeholder {
+  color: var(--mut);
+}
+.bs-form input[type="submit"],
+.bs-form button {
+  border: none;
+  background: var(--orange);
+  color: #fff;
+  @include mono-label(var(--label-xs), 0.08em);
+  padding: 0 0.85rem;
+  cursor: pointer;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.bs-nllink {
+  display: inline-block;
+  margin-top: 0.65rem;
+  font: 400 0.95rem/1.3 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  color: var(--navy);
+  text-decoration: none;
+} /* → newsletter page */
+.bs-nllink:hover {
+  color: var(--orange);
+}
+.bs-feeds {
+  display: flex;
+  gap: 1.3rem;
+} /* borderless text links */
+.feed-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  @include mono-label(var(--label-sm), 0.08em);
+  color: var(--navy);
+  text-decoration: none;
+}
+.feed-btn i {
+  color: var(--orange);
+  font-size: 1rem;
+} /* bi-rss-fill / bi-braces */
+.feed-btn:hover {
+  color: var(--orange);
+}
+
+/* ---- year-grouped index (archive + featured) ---- */
+.idx-group {
+  margin-top: 1.7rem;
+}
+.idx-group:first-of-type {
+  margin-top: 1.3rem;
+}
+.idx-year {
+  font: 600 1.3rem/1 "Source Serif 4", serif;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule2);
+}
+.idx-row {
+  display: grid;
+  grid-template-columns: 4.6rem 1fr;
+  gap: 1.3rem;
+  align-items: baseline;
+  padding: 0.45rem 0;
+}
+.idx-date {
+  @include mono-label(var(--label-sm), 0.05em, 600, 1.5);
+  color: var(--mut);
+  text-align: right;
+}
+.idx-title {
+  font: 600 1.06rem/1.35 "Source Serif 4", serif;
+  color: var(--ink);
+  text-decoration: none;
+}
+.idx-title:hover {
+  color: var(--navy);
+}
+/* newsletter index shows full dates (e.g. "30 Oct 2022"), so it needs a wider,
+   non-wrapping date column than the "Jan 2" archive/featured indexes */
+.nl-index .idx-row {
+  grid-template-columns: 5.5rem 1fr;
+}
+.nl-index .idx-date {
+  white-space: nowrap;
+}
+
+/* ---- in-post content elements ---- */
+/* figure = image + caption ({{< figure >}}) */
+figure.fig {
+  margin: 1.5rem 0;
+}
+.figimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+}
+figcaption.figcap {
+  margin-top: 0.8rem;
+  font: 400 0.98rem/1.55 "Source Serif 4", serif;
+  color: var(--sec);
+  max-width: 36rem;
+}
+/* Automatic per-post figure numbering, in the mono label voice: "Figure 1." */
+article {
+  counter-reset: figures;
+}
+figure.fig {
+  counter-increment: figures;
+}
+figcaption.figcap::before {
+  content: "Figure " counter(figures) ". ";
+  font: 600 0.72rem/1 "Source Code Pro", monospace;
+  letter-spacing: 0.04em;
+  color: var(--mut);
+}
+figcaption.figcap a {
+  color: var(--navy);
+  @include reading-underline;
+}
+figcaption.figcap a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* plain image, no caption ({{< image >}}) */
+.postimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+}
+
+/* inline code (reading columns) */
+.bodyprose code,
+.pbody code {
+  font: 500 0.86em/1 "Source Code Pro", monospace;
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.38em;
+  color: var(--ink);
+}
+/* reset code inside fenced blocks so only true inline code gets the pill */
+.codeblock code,
+.chroma code {
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* fenced code block (render-codeblock hook) */
+.codeblock {
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 1.6rem 0;
+}
+.codeblock .clang {
+  @include mono-label(var(--label-xs), 0.14em);
+  color: var(--mut);
+  background: var(--rule2);
+  padding: 0.55rem 0.95rem;
+  border-bottom: 1px solid var(--rule2);
+} /* language label */
+.codeblock .highlight {
+  margin: 0;
+}
+.codeblock pre {
+  margin: 0;
+  background: var(--card);
+  padding: 1rem 1.1rem;
+  overflow: auto;
+}
+.codeblock code {
+  font: 400 0.9rem/1.65 "Source Code Pro", monospace;
+  color: var(--ink);
+}
+
+/* block quote — one orange rule, no source/cite line */
+.bodyprose blockquote,
+.pbody blockquote {
+  margin: 1.8rem 0;
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--orange);
+}
+.bodyprose blockquote p,
+.pbody blockquote p {
+  margin: 0 0 0.6rem;
+}
+.bodyprose blockquote p:last-child,
+.pbody blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- responsive: stack sidebar/rail below content ---- */
+@media (max-width: $bp-sidebar) {
+  .blog-layout {
+    grid-template-columns: 1fr;
+  }
+  .blog-layout .sidebar,
+  .blog-layout .rail {
+    border-left: none;
+    border-top: 1px solid var(--rule2);
+    padding-left: 0;
+    padding-top: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+/* ===================================================================
+   Reading-page typography — reading-typography handoff.
+   The one idea: prose holds a legible measure; evidence gets more room.
+     • Body, headings, lists, quotes, footnotes → capped at --measure.
+     • Figures, images, tables, code blocks     → break out to --wide,
+       flush-LEFT with the text, overhanging the column to the RIGHT.
+   Keyed off a single ".reading" wrapper on the post/page content
+   container; text-only pages (bio) add ".reading--narrow". Placed last so
+   its ".reading X" rules win, within reading contexts, over the base
+   .bodyprose / figure / .codeblock / .footnotes rules above — those still
+   serve list excerpts (.pbody) and page intros, which are not .reading.
+   No new tokens/fonts/colors: all values resolve against §2's token set.
+   =================================================================== */
+
+:root {
+  --measure: 40rem; /* legible reading measure for prose */
+  --wide: 58rem; /* breakout width for figures/tables/code */
+  --fig-mid: 46rem; /* smaller breakout for low-res scans */
+}
+
+/* ---- the reading wrapper: measure vs. breakout ---- */
+.reading {
+  /* Interpolated so Dart Sass emits a literal CSS min() rather than trying to
+     evaluate var(--wide) with its own numeric min() function. */
+  max-width: #{"min(var(--wide), 100%)"};
+  margin: 0; /* flush-left within the post column */
+}
+/* text: capped at the reading measure, flush-left */
+.reading > *,
+.reading > p,
+.reading > ul,
+.reading > ol,
+.reading > blockquote,
+.reading > h2,
+.reading > h3 {
+  max-width: var(--measure);
+  margin-left: 0;
+  margin-right: auto;
+}
+/* media / evidence: break out past the measure, still flush-left */
+.reading > figure,
+.reading > a:has(> img),
+.reading > .postimg,
+.reading > table,
+.reading > .codeblock,
+.reading > div.highlight,
+.reading > pre {
+  max-width: 100%; /* i.e. up to --wide */
+  margin-left: 0;
+  margin-right: 0;
+}
+/* text-only pages (bio): narrow the whole column to the measure so a
+   right-floated margin figure can bleed into the gutter (see below) */
+.reading.reading--narrow {
+  max-width: var(--measure);
+}
+
+/* ---- body prose ---- */
+/* Blockquote text matches the body paragraphs exactly; only the orange
+   rule + indent (below) mark it as a quote. */
+.reading > p,
+.reading > blockquote p {
+  font: 400 1.19rem/1.62 "Source Serif 4", serif;
+  color: var(--body);
+  margin: 0 0 1.15rem;
+  text-wrap: pretty;
+}
+.reading a {
+  color: var(--link);
+  @include reading-underline;
+}
+.reading a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* ---- in-post headings: serif (not the mono .shead); h2 carries the
+   identity's 1px --ink hairline. Overrides the .bodyprose h2/h3 above. ---- */
+.reading > h2 {
+  font: 600 1.5rem/1.2 "Source Serif 4", serif;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin: 2.9rem 0 1.1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--ink);
+}
+.reading > h3 {
+  font: 600 1.16rem/1.3 "Source Serif 4", serif;
+  color: var(--ink);
+  margin: 2rem 0 0.7rem;
+}
+
+/* ---- lists, block quotes ---- */
+.reading > ul,
+.reading > ol {
+  font: 400 1.19rem/1.6 "Source Serif 4", serif;
+  color: var(--body);
+  margin: 0 0 1.15rem;
+  padding-left: 1.3rem;
+}
+.reading > ul li,
+.reading > ol li {
+  margin: 0.5rem 0;
+  padding-left: 0.2rem;
+}
+.reading > ul li::marker {
+  color: var(--ink);
+} /* black bullets, not orange */
+.reading > ol li::marker {
+  color: var(--mut);
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.85em;
+}
+.reading > blockquote {
+  border-left: 2px solid var(--orange);
+  padding: 0.1rem 0 0.1rem 1.4rem;
+  margin: 1.7rem 0;
+}
+.reading > blockquote p {
+  margin: 0 0 0.7rem;
+}
+.reading > blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- figures + images: breakout, flush-left, caption held to measure ---- */
+.reading figure.fig {
+  margin: 2.2rem 0;
+}
+.reading figure.fig img,
+.reading img.figimg,
+.reading img.postimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  background: #fff; /* white backing keeps transparent scans/charts legible */
+}
+/* low-res page scans shouldn't blow up to full --wide. Opt-in per figure via
+   the shortcode's `class` param ({{< figure ... class="mid" >}}); not a bulk
+   edit — full-width stays the default. */
+.reading figure.fig.mid {
+  max-width: var(--fig-mid);
+}
+.reading figure.fig.portrait {
+  max-width: 27rem;
+}
+/* caption: held to the measure; the mono kicker keeps the "Figure N." content
+   set by figcaption.figcap::before (blog section) and restyles it here */
+.reading figure.fig figcaption,
+.reading .figcap {
+  max-width: var(--measure);
+  margin: 0.8rem 0 0;
+  font: 400 0.98rem/1.55 "Source Serif 4", serif;
+  color: var(--sec);
+  font-style: normal;
+}
+.reading .figcap::before {
+  @include mono-label(var(--label-xs), 0.14em);
+  color: var(--mut);
+  margin-right: 0.55rem;
+}
+.reading .figcap a,
+.reading figure.fig figcaption a {
+  color: var(--navy);
+  @include reading-underline;
+}
+.reading .figcap a:hover,
+.reading figure.fig figcaption a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+/* ---- tables: breakout; hairline vocabulary, tabular figures ---- */
+.reading table {
+  width: 100%;
+  border-collapse: collapse;
+  font: 400 0.98rem/1.35 "Source Serif 4", serif;
+  color: var(--body);
+  margin: 2rem 0;
+  display: block; /* wide tables scroll rather than overflow the column */
+  overflow-x: auto;
+}
+.reading table thead th {
+  @include mono-label(var(--label-xs), 0.09em, 600, 1.3);
+  color: var(--ink);
+  text-align: left;
+  padding: 0.35rem 0.8rem 0.55rem;
+  border-bottom: 1.5px solid var(--ink);
+  white-space: nowrap;
+}
+.reading table tbody td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid var(--rule2);
+  vertical-align: baseline;
+  font-variant-numeric: tabular-nums;
+}
+/* milestone rows: authored as **bold** cells in the source → render as ink */
+.reading table tbody td strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.reading table tbody tr:last-child td {
+  border-bottom: 1.5px solid var(--ink);
+}
+/* respect per-column alignment when the markdown source sets it ( ----: ) */
+.reading table td[align="right"],
+.reading table th[align="right"] {
+  text-align: right;
+}
+.reading table td[align="center"],
+.reading table th[align="center"] {
+  text-align: center;
+}
+
+/* ---- code: the render-codeblock hook (.codeblock > .clang + highlight);
+   refines the base .codeblock above within reading contexts ---- */
+.reading .codeblock {
+  margin: 1.6rem 0;
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.reading .codeblock .clang {
+  @include mono-label(var(--label-xs), 0.14em);
+  color: var(--mut);
+  background: var(--rule2); /* spec's #eef0f3 → token, so the chip works in dark mode */
+  padding: 0.5rem 0.95rem;
+  border-bottom: 1px solid var(--rule2);
+}
+.reading .codeblock pre {
+  margin: 0;
+  background: var(--card);
+  padding: 0.95rem 1.1rem;
+  overflow: auto;
+  white-space: pre;
+}
+.reading .codeblock code {
+  font: 400 0.88rem/1.62 "Source Code Pro", monospace;
+  color: var(--ink);
+  background: transparent;
+  padding: 0;
+}
+/* inline code */
+.reading :not(pre) > code {
+  font: 500 0.84em/1 "Source Code Pro", monospace;
+  background: var(--card);
+  border: 1px solid var(--rule2);
+  border-radius: var(--radius-sm);
+  padding: 0.08em 0.36em;
+  color: var(--ink);
+}
+
+/* ---- footnotes: hide the <hr>, replace with a mono "Notes" label over a
+   1px --ink rule; serif list, mono navy refs, orange back-arrow ---- */
+.reading .footnotes {
+  max-width: var(--measure);
+  margin-top: 3rem;
+  color: var(--sec);
+}
+.reading .footnotes hr {
+  display: none;
+}
+.reading .footnotes::before {
+  content: "Notes";
+  display: block;
+  @include mono-label(var(--label-md), 0.18em);
+  color: var(--ink);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 1.1rem;
+}
+.reading .footnotes ol {
+  padding-left: 1.4rem;
+  margin: 0;
+}
+.reading .footnotes li {
+  font: 400 0.96rem/1.55 "Source Serif 4", serif;
+  color: var(--sec);
+  margin: 0 0 0.8rem;
+}
+/* Goldmark emits <sup id="fnref:N"><a class="footnote-ref">…</a></sup>, so the
+   class sits on the anchor, not the sup — target a.footnote-ref directly. */
+.reading a.footnote-ref {
+  font: 600 0.68rem/1 "Source Code Pro", monospace;
+  color: var(--navy);
+  text-decoration: none;
+  padding: 0 0.12em;
+}
+.reading a.footnote-ref:hover {
+  color: var(--orange);
+}
+.reading a.footnote-backref {
+  text-decoration: none;
+  color: var(--orange);
+  margin-left: 0.25rem;
+}
+
+/* ---- bio margin figure: half in the column, half in the right gutter.
+   Restyles the existing .bio-img (authored in content/page/bio/index.md);
+   requires the page wrapper to be .reading.reading--narrow. No content edit. ---- */
+.reading--narrow .bio-img.float-end,
+.reading--narrow .bio-img {
+  float: right;
+  width: 15rem;
+  max-width: 42%;
+  margin: 0.4rem -7.5rem 1.2rem 1.7rem; /* right -7.5rem ≈ half of 15rem */
+}
+.reading--narrow .bio-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin: 0;
+}
+
+/* ---- responsive: collapse measure/breakout on phones ---- */
+@media (max-width: $bp-mobile) {
+  :root {
+    --measure: 100%;
+    --wide: 100%;
+    --fig-mid: 100%;
+  }
+  .reading figure.fig.portrait {
+    max-width: 20rem;
+  }
+  .reading--narrow .bio-img.float-end,
+  .reading--narrow .bio-img {
+    float: none;
+    width: auto;
+    max-width: 20rem;
+    margin: 1.4rem auto;
+  }
+}
+
+/* ===================================================================
+   Scholarship — editorial ledger (Scholarship handoff, build 2a).
+   A curated, annotated list of enduring work: active projects first,
+   then everything else newest → oldest, articles/software interleaved
+   by year. Composes from the identity tokens (§2); the interior header
+   (.sitehead) and the section head (.shead §4.2) come from the shared
+   system above. Only --sch-abs (the recessed abstract) is introduced.
+   =================================================================== */
+
+/* page header (intro + CV link). The page title itself uses the shared
+   .page-title from the interior-chrome section above. */
+.sch-intro {
+  font: 400 1.14rem/1.55 "Source Serif 4", serif;
+  color: var(--bio-ink);
+  max-width: 44rem;
+  margin: 0 0 1rem;
+}
+.sch-cvlink {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font: 600 1rem/1 "Source Serif 4", serif;
+  @include smallcaps-action;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+.sch-cvlink:hover {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+}
+.sch-cvlink i {
+  font-size: 0.82em;
+  transition: transform 0.15s;
+}
+.sch-cvlink:hover i {
+  transform: translate(0.2em, 0);
+}
+
+/* section heads: scholarship spacing + the Active-projects orange label.
+   Reuses the shared .shead border/label from §4.2. The scoped selector
+   overrides the homepage .shead bottom margin; the gap to the first row
+   comes from .lg-group instead. */
+.scholarship .shead {
+  margin: 2.9rem 0 0;
+}
+.shead.sub .lbl {
+  color: var(--orange);
+}
+
+/* ledger group + row: cover 188px | body 1fr, hairline row dividers. */
+.lg-group {
+  margin-top: 1.6rem;
+}
+.lg-item {
+  display: grid;
+  grid-template-columns: 188px 1fr;
+  gap: 0 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--rule2);
+}
+.lg-group .lg-item:first-child {
+  border-top: none;
+  padding-top: 1.1rem;
+}
+/* imageless rows (articles, software, cover-less projects): the body holds
+   column 2 so every entry aligns to one left edge; the gutter stays open. */
+.lg-item.nocover .lg-body {
+  grid-column: 2;
+}
+.lg-cover {
+  grid-column: 1;
+}
+.lg-cover img {
+  display: block;
+  width: 100%;
+  height: auto; /* native aspect ratio — portrait covers, landscape maps, no crop */
+  border-radius: var(--radius);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+}
+.lg-body {
+  min-width: 0;
+}
+.lg-title {
+  margin: 0;
+  font: 600 1.5rem/1.18 "Source Serif 4", serif;
+  letter-spacing: -0.017em;
+  color: var(--ink);
+}
+.lg-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.lg-title a:hover {
+  color: var(--navy);
+}
+/* citation: the anchor of every entry — near-black --ink, identical across
+   titled, article, and pure-citation rows. .lead drops the top margin when
+   no title sits above it. */
+.lg-cite {
+  margin: 0.4rem 0 0;
+  font: 400 1.04rem/1.45 "Source Serif 4", serif;
+  color: var(--ink);
+  max-width: 44rem;
+}
+.lg-cite.lead {
+  margin: 0;
+}
+.lg-cite em {
+  font-style: italic;
+}
+/* abstract: deliberately recessed BELOW the citation — same size and weight,
+   only color separates them (the handoff's inversion). */
+.lg-abs {
+  margin: 0.9rem 0 0;
+  font: 400 1.04rem/1.55 "Source Serif 4", serif;
+  color: var(--sch-abs);
+  max-width: 44rem;
+}
+
+/* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
+   block below the abstract: a mono label over orange-ruled serif quotes, each
+   with a small-caps attribution. Recedes further than the abstract (--sec). */
+.lg-praise {
+  margin-top: 1.2rem;
+  max-width: 44rem;
+}
+.lg-praise .k {
+  display: block;
+  @include mono-label(0.62rem, 0.13em, 600, 1.5);
+  color: var(--mut);
+  margin-bottom: 0.75rem;
+}
+.lg-q {
+  margin: 0 0 0.9rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--orange);
+}
+.lg-q:last-child {
+  margin-bottom: 0;
+}
+.lg-q p {
+  margin: 0;
+  font: 400 1rem/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.lg-q cite {
+  display: block;
+  margin-top: 0.4rem;
+  font: 600 0.92rem/1.3 "Source Serif 4", serif;
+  @include smallcaps-action;
+  font-style: normal;
+  color: var(--sec);
+}
+.lg-q cite::before {
+  content: "— ";
+}
+
+/* award callout */
+.awd {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0.7rem 0 0;
+}
+.awd .k {
+  flex: none;
+  @include mono-label(0.62rem, 0.16em, 600, 1.3);
+  color: var(--orange);
+  padding-top: 0.05rem;
+}
+.awd .v {
+  font: italic 400 1rem/1.35 "Source Serif 4", serif;
+  color: var(--ink);
+}
+
+/* labeled link rows — Links / Reviews / Media. A row renders only when its
+   array is non-empty (graceful omission lives in the template). */
+.lg-links {
+  margin-top: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.lg-lrow {
+  display: flex;
+  gap: 1.1rem;
+  align-items: baseline;
+}
+.lg-lk {
+  flex: none;
+  width: 4.7rem;
+  @include mono-label(0.62rem, 0.13em, 600, 1.5);
+  color: var(--mut);
+}
+.lg-lv {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 0.55rem;
+  font: 400 1rem/1.4 "Source Serif 4", serif;
+}
+.lg-lv a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.lg-lv a em {
+  font-style: italic;
+}
+.lg-lv a:hover {
+  color: var(--orange);
+}
+.lg-lv a:not(:last-child)::after {
+  content: "·";
+  color: var(--rule);
+  margin-left: 0.55rem;
+}
+
+/* responsive: below ~640px stack the cover above the body, gutter collapses. */
+@media (max-width: 640px) {
+  .lg-item {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .lg-cover {
+    margin-bottom: 1rem;
+  }
+  .lg-cover img {
+    max-width: 200px;
+  }
+  .lg-item.nocover .lg-body {
+    grid-column: 1;
+  }
 }

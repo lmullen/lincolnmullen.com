@@ -5,11 +5,12 @@ slug: 'how-to-use-neatline-with-map-warper-instead-of-geoserver'
 description: "Map Warper's WMS service can substitute for GeoServer in Neatline, making georectified historical maps available without running your own tile server."
 aliases:
 - /blog/how-to-use-neatline-without-geoserver/
-tags:
-- digital history
-- mapping
 draft: false
 image: point.png
+tags:
+- digital history
+- tools
+- spatial history
 ---
 
 > **TL;DR.** You don't need GeoServer to use historic map layers in Neatline: you just need any [WMS server](https://en.wikipedia.org/wiki/Web_Map_Service), such as [Map Warper](http://mapwarper.net/). Map Warper's base WMS URL is `http://mapwarper.net/maps/wms/{MAPID}`; the layer ID is whatever title you gave the map in Map Warper.
@@ -40,7 +41,7 @@ But [many services](http://trac.osgeo.org/openlayers/wiki/AvailableWMSServices) 
 
 Omeka and Neatline together are very useful for certain kinds of maps, so I hope this brief explanation helps people who might otherwise be deterred by the GeoServer dependency.
 
-#### Bonus: Installing GeoServer via Docker
+## Bonus: Installing GeoServer via Docker
 
 Once you grok [Docker](https://www.docker.com/), GeoServer is not that hard to install, though it is still work to maintain. This [Docker image for GeoServer](https://github.com/kartoza/docker-geoserver) is well documented. I was able to get it working on a low-powered [Digital Ocean instance](https://www.digitalocean.com/?refcode=ae1e7cf83916) without any fuss.
 

@@ -3,10 +3,10 @@ title: "Chronology in the margins of George Bancroft's narrative"
 date: "2013-02-08"
 slug: 'chronology-in-the-margins-of-george-bancrofts-narrative'
 description: "Bancroft's *History of the United States* used marginal dates and topical running heads to anchor narrative in chronology—a typographic trick that modern historians and digital books still lack."
-tags:
-- historiography
 draft: false
 image: 2013-02-08-datecloseup.png
+tags:
+- digital history
 ---
 
 In the evenings I'm reading through George Bancroft's classic nineteenth-century work, *The History of the United States from the Discovery of the American Continent*. Bancroft's narrative is strengthened by one of the features of the book's typography. Take a look at this page from [volume 1](http://books.google.com/books?id=4OypEm-7tCMC):

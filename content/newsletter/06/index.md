@@ -4,8 +4,10 @@ date: "2020-08-16"
 slug: 6
 draft: false
 tags:
-- newsletter
-- visualization
+- data visualization
+- America's Public Bible
+- computational history
+- digital history
 ---
 
 Greetings. And welcome back to *Working on It*.
@@ -44,7 +46,7 @@ Many difficult decisions go into making a visualization as honest as possible, a
 
 ----------------------------------
 
-### Brief book note
+## Brief book note
 
 Two well-written, recently published works take up the themes of masculinity and femininity within American evangelicalism or megachurch Christianity.
 
@@ -54,7 +56,7 @@ Kate Bowler's [*The Preacher's Wife: The Precarious Power of Evangelical Women C
 
 ------------------------
 
-### Random screen shot
+## Random screen shot
 
 Too many screenshots above, so here is a photo of my tomato plants. No fig tree, but I'm thankful that I can sit in peace and safety under my own vines.
 
@@ -62,12 +64,12 @@ Too many screenshots above, so here is a photo of my tomato plants. No fig tree,
 
 -------------------------
 
-### Updates
+## Updates
 
-Reading: Already finished it, but next time I'll write briefly about Tara Isabella Burton's *Strange Rites*. Currently reading Diana Butler Bass's *Standing Against the Whirlwind: Evangelical Episcopalians in Nineteenth-Century America*.
+**Reading:** Already finished it, but next time I'll write briefly about Tara Isabella Burton's *Strange Rites*. Currently reading Diana Butler Bass's *Standing Against the Whirlwind: Evangelical Episcopalians in Nineteenth-Century America*.
 
-Working: Getting reading to teach a minor field readings for PhD students in American religion, the DH Practicum for incoming students at RRCHNM, as well as a course on "Capitalism and American Religion." Here's the [syllabus](https://lincolnmullen.com/courses/capitalism.2020/) for that last one.
+**Working:** Getting reading to teach a minor field readings for PhD students in American religion, the DH Practicum for incoming students at RRCHNM, as well as a course on "Capitalism and American Religion." Here's the [syllabus](https://lincolnmullen.com/courses/capitalism.2020/) for that last one.
 
-Watching: [*The Expanse*](https://www.imdb.com/title/tt3230854/). I promised my colleagues at RRCHNM that I would finish it before we reopen, but I'm not going to meet my goal.
+**Watching:** [*The Expanse*](https://www.imdb.com/title/tt3230854/). I promised my colleagues at RRCHNM that I would finish it before we reopen, but I'm not going to meet my goal.
 
-Playing: Some PGA Tour game on the Xbox, which is infinitely more stressful than any first-person shooter.
+**Playing:** Some PGA Tour game on the Xbox, which is infinitely more stressful than any first-person shooter.

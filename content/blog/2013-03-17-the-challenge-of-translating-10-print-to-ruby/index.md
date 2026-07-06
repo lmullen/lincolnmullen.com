@@ -3,11 +3,11 @@ title: 'The challenge of translating 10 PRINT to Ruby'
 date: "2013-03-17"
 slug: 'the-challenge-of-translating-10-print-to-ruby'
 description: "Translating the famous one-line Commodore 64 BASIC maze program into Ruby reveals how much a language's object orientation, idioms, and character encoding shape what a 'faithful' translation can mean."
-tags:
-- technology
-- programming
 draft: false
 image: 2013-03-16.10PRINT-3.png
+tags:
+- Ruby
+- programming
 ---
 
 I spent the past two days at "[Digital Humanities: The Next Generation](http://web.simmons.edu/~fairb/dhsymposium/program.html)," a conference held at Simmons College. [Patsy Baudoin](https://twitter.com/pbmit) and [Nick Montfort](http://nickm.com/) gave a presentation about *[10 PRINT](http://10print.org/)*, a book they co-authored that turns a critical eye to a one-line computer program written in [BASIC](http://en.wikipedia.org/wiki/BASIC) for the [Commodore 64](http://en.wikipedia.org/wiki/Commodore_64).

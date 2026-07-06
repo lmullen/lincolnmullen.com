@@ -1,16 +1,33 @@
-<div class="sidebar-nav sticky-md-top ps-3 py-4 mt-5 border-start">
-  <div class="vstack gap-4">
-    <div>
-      <i class="bi bi-hourglass-split feed-icon list-icon" role="img" aria-hidden="true"></i><a href="/blog/">Recent posts</a>
+{{- /* Shared blog sidebar (.bs): Navigate · Newsletter · Site feeds. Reused by
+       the blog index, archive, featured, and newsletter-list pages, and embedded
+       inside post-sidebar.html for single posts. The current page is marked .on
+       (singles match nothing). The Buttondown `tag` is resolved once here so it
+       is correct in every context. Always call with the page context: `. */ -}}
+{{- $tag := "website" -}}
+{{- if eq .RelPermalink "/blog/" -}}{{ $tag = "blog-list" }}
+{{- else if eq .RelPermalink "/archive/" -}}{{ $tag = "blog-archive" }}
+{{- else if eq .RelPermalink "/blog/featured/" -}}{{ $tag = "blog-featured" }}
+{{- else if eq .Section "newsletter" -}}{{ $tag = cond (eq .Kind "page") "newsletter-single" "newsletter-archive" }}
+{{- else if and (eq .Section "blog") (eq .Kind "page") -}}{{ $tag = "blog-post" }}
+{{- end -}}
+<div class="bs">
+  <div>
+    <p class="bs-lbl">Navigate</p>
+    <div class="bs-nav">
+      <a href="/blog/"{{ if eq .RelPermalink "/blog/" }} class="on"{{ end }}>Recent posts</a>
+      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on"{{ end }}>Blog posts by date</a>
+      <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on"{{ end }}>Featured posts</a>
     </div>
-    <div>
-      <i class="bi bi-calendar-week feed-icon list-icon" role="img" aria-hidden="true"></i><a href='/archive/'>Blog posts by date</a>
-    </div>
-    <div>
-      <i class="bi bi-rss-fill feed-icon list-icon" role="img" aria-hidden="true"></i><a rel="alternate" type="application/atom+xml" href="/blog/index.xml">Site feed (RSS)</a>
-    </div>
-    <div>
-      <i class="bi bi-rss-fill feed-icon list-icon" role="img" aria-hidden="true"></i><a rel="alternate" type="application/feed+json" href="/blog/index.json">Site feed (JSON)</a>
+  </div>
+  <div>
+    <p class="bs-lbl">Newsletter</p>
+    {{ partial "newsletter-form.html" (dict "tag" $tag "class" "bs-form") }}
+    <a class="bs-nllink" href="/newsletter/">Read past issues →</a>
+  </div>
+  <div>
+    <p class="bs-lbl">Site feeds</p>
+    <div class="bs-feeds">
+      {{ partial "feed-links.html" (dict "class" "feed-btn") }}
     </div>
   </div>
 </div>

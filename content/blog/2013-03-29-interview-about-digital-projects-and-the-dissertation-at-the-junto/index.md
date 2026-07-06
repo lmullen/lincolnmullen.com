@@ -3,10 +3,10 @@ title: 'Interview about digital projects and the dissertation at the Junto'
 date: "2013-03-29"
 slug: 'interview-about-digital-projects-and-the-dissertation-at-the-junto'
 description: "An interview at The Junto with Jean Bauer and Erin Bartram about incorporating digital databases into a history dissertation—and how advisors and departments have responded."
-tags:
-- digital humanities
-- academia
 draft: false
+tags:
+- digital history
+- Chance of Salvation
 ---
 
 At the [Digital Humanities: The Next Generation](http://web.simmons.edu/~fairb/dhsymposium/program.html) conference a couple weeks ago, I caught up with my colleague [Sara Georgini](http://earlyamericanists.com/contributors/sara-georgini/). Sara is a PhD candidate at Boston University, and an editor of the [Adams Papers](http://www.masshist.org/adams_editorial/) at the [Massachusetts Historical Society](http://www.masshist.org/). She is writing what promises to be a fascinating dissertation about the religious lives of several generations and centuries of the Adams family, from Deacon John Adams to Charles Francis Adams.

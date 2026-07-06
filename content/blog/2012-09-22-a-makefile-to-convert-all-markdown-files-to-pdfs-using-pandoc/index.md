@@ -2,12 +2,13 @@
 date: '2012-09-22'
 slug: 'a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc'
 description: "A four-line Makefile that uses wildcards and pattern rules to automatically convert every Markdown file in a directory to PDF via Pandoc—replacing 60+ lines of manual rules."
+draft: false
 title: A Makefile to convert all Markdown files to PDFs using Pandoc
 aliases:
 - /blog/make-and-pandoc/
 tags:
-- Markdown
-- Unix
+- tools
+- programming
 ---
 
 I write all my documents in [Markdown](http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295) and pipe them through [Pandoc](http://johnmacfarlane.net/pandoc/) to make PDFs. Typing `pandoc myfile.md -o myfile.md.pdf` over and over at the command line gets tedious, especially if the [Pandoc](http://johnmacfarlane.net/pandoc/) command requires options for BibTeX and CSL files.

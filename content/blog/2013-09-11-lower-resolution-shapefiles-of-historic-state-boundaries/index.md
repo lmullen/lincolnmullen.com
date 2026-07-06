@@ -3,11 +3,11 @@ title: 'Lower resolution shapefiles of historic state boundaries'
 date: "2013-09-11"
 slug: 'lower-resolution-shapefiles-of-historic-state-boundaries'
 description: "Simplified versions of NHGIS historic state boundary shapefiles for faster iteration in R—reducing the 1860 file from 27.5 MB to 1.7 MB without visible quality loss."
+draft: false
 tags:
 - digital history
-- mapping
+- spatial history
 - R
-draft: false
 ---
 
 A few weeks ago I [posted some shapefiles](/blog/shapefiles-of-historic-u-s-state-boundaries-for-use-in-r/) of historic state boundaries, converted to be used in R. These shapefiles are very high resolution, and so can be slow to work with when iteratively making maps. I've made some lower resolution shapefiles. (The [Ramer-Douglas-Peucker Algorithm](http://karthaus.nl/rdp/) that simplifies the shapefiles is quite interesting.) The new files are much quicker to work with. The R object for the 1860 boundaries, for example, has 1.8 million points and weighs in at 27.5 MB; the simplified object has 122,000 points and is only 1.7 MB. I think I've made the reduction so that there is no noticeable loss of quality when making maps at the national scale at full page print resolution. But you could also substitute the high-resolution version when you're ready to make a final version.

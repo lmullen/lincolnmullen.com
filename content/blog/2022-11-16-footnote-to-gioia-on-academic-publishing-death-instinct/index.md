@@ -4,13 +4,8 @@ date: "2022-11-16T21:16:45-05:00"
 slug: "footnote-to-gioia-on-academic-publishing-death-instinct"
 description: "University presses don't just ignore readers—they don't even sell individual books to libraries, instead bundling content into e-book platforms that treat scholarship as a commodity."
 draft: false
-# newsletter: true
 tags:
-- publishing
-# crosspost: 
-#   url: ""
-#   source: ""
-# linkpost: ""
+- scholarly publishing
 ---
 
 Ted Gioia has a good issue of his newsletter on [academic publishing's "death instinct"](https://tedgioia.substack.com/p/academic-publishing-and-the-death):

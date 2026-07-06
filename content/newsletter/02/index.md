@@ -4,8 +4,10 @@ date: "2020-01-22"
 slug: 2
 draft: false
 tags:
-- newsletter
 - computational history
+- digital history
+- teaching
+- R
 ---
 
 Greetings. And welcome back to *Working on It*.
@@ -38,23 +40,23 @@ In its current version, the course is not so dissimilar from other courses in da
 
 -----------
 
-### Random screenshot
+## Random screenshot
 
 {{< image src="random-screenshot.png" alt="A random screenshot" >}}
 
 -----------
 
-### Around the web
+## Around the web
 
 - What's a *pettifogger*? Kellen Funk [explains](https://twitter.com/kellenfunk/status/1219975657083625475).
 - Matthew Lincoln (no relation, obviously) has been blogging like it is the early 2000s about his [first year at Carnegie Mellon](https://matthewlincoln.net/tags/cmu_dh.html).
 
 -----------
 
-### Updates
+## Updates
 
-Reading: N.T. Wright's biography of Paul; Neal Stephenson's *Seveneves*.
+**Reading:** N.T. Wright's biography of Paul; Neal Stephenson's *Seveneves*.
 
-Watching: *The Expanse*.
+**Watching:** *The Expanse*.
 
-Working: Thinking about the infrastructure for presenting computational history on the web.
+**Working:** Thinking about the infrastructure for presenting computational history on the web.

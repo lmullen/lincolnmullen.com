@@ -4,9 +4,9 @@ date: "2021-08-29"
 slug: 11
 draft: false
 tags:
-- newsletter
-- technology
 - America's Public Bible
+- tools
+- programming
 ---
 
 Hi folks. It has been an embarrassingly long time since I wrote an issue of this newsletter. A few things happened. The sheer exhaustion of the pandemic caught up with me, as I am sure it did with you. But even more, I took on a major non-work responsibility---the details don't matter for our purposes---and I have tried to discharge my duty faithfully. But a new academic year is upon us, and I hope to get back to writing this newsletter. Below is a scattershot of updates to get started again.
@@ -52,14 +52,14 @@ Returning to Darnton's ideas for e-books, there is a kind of homology between hi
 
 -------
 
-###  Updates
+## Updates
 
-Listening: [_Unearthed_](https://en.wikipedia.org/wiki/Unearthed_(Johnny_Cash_album)).
+**Listening:** [_Unearthed_](https://en.wikipedia.org/wiki/Unearthed_(Johnny_Cash_album)).
 
-Working: Collaborating with colleagues on a map of city-level data from the Censuses of Religious Bodies.
+**Working:** Collaborating with colleagues on a map of city-level data from the Censuses of Religious Bodies.
 
-Playing: [MLB The Show](https://theshow.com).
+**Playing:** [MLB The Show](https://theshow.com).
 
-Reading: Ted Gioia, [_Healing Songs_](http://tedgioia.com/HealingSongs.html).
+**Reading:** Ted Gioia, [_Healing Songs_](http://tedgioia.com/HealingSongs.html).
 
-Watching: [_Mythic Quest_](https://en.wikipedia.org/wiki/Mythic_Quest). The series as a whole is dumb yet charming, but the standalone episode "A Dark Quiet Death" was truly moving.
+**Watching:** [_Mythic Quest_](https://en.wikipedia.org/wiki/Mythic_Quest). The series as a whole is dumb yet charming, but the standalone episode "A Dark Quiet Death" was truly moving.

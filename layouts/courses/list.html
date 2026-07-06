@@ -1,11 +1,7 @@
 {{ define "main" }}
-<div class="container-fluid">
 
-  <header>
-    <h1>{{ .Title | markdownify }}</h1>
-  </header>
+<h1 class="page-title">{{ .Title }}</h1>
 
-  {{ .Content }}
+{{ .Content }}
 
-</div>
 {{ end }}

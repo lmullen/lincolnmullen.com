@@ -1,15 +1,15 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": "{{ .Site.Params.blogFeedTitle }}",
-    "home_page_url": "{{ .Site.BaseURL }}",
+    "title": {{ .Site.Params.blogFeedTitle | jsonify }},
+    "home_page_url": "{{ "/" | absURL }}",
     "feed_url": "{{ .Permalink }}",
-    "description": "{{ .Site.Params.description }}",
-    "icon": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>",
-    "favicon": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>",
+    "description": {{ .Site.Params.description | jsonify }},
+    "icon": "{{ "android-chrome-512x512.png" | absURL }}",
+    "favicon": "{{ "favicon.svg" | absURL }}",
     "authors": [
         {
             "name": "{{ .Site.Params.author.name }}",
-            "url": "{{ .Site.BaseURL }}"
+            "url": "{{ "/" | absURL }}"
         }
     ],
     "language": "en-US",
@@ -75,7 +75,7 @@
             "authors": [
                 {
                     "name": "{{ $element.Site.Params.author.name }}",
-                    "url": "{{ $element.Site.BaseURL }}"
+                    "url": "{{ "/" | absURL }}"
                 }
             ]
         }

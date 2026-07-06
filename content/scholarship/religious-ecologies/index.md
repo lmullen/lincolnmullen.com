@@ -1,16 +1,24 @@
 ---
 title: "American Religious Ecologies"
-subtitle: "Datasets and visualizations for American religious history"
+subtitle: "Data and visualizations for American religious history"
 thumbnail: "schedule.jpg"
+homepage-thumbnail: "homepage-thumbnail.jpg"
 homepage: true
 homepageOrder: 2
+active: true
+weight: 1
+date: 2018-01-01
+cover: "homepage-thumbnail.jpg"
+citation: >-
+  Mullen, Lincoln A., and John G. Turner. <em>American
+  Religious Ecologies.</em> Roy Rosenzweig Center for History and New Media,
+  2018–. https://religiousecologies.org.
+abstract: >-
+  The project creates new datasets from historical sources and new ways of
+  visualizing them. Its current effort digitizes the 1926 Census of Religious
+  Bodies — some 232,154 congregation-level schedules — into data, maps, and
+  visualizations of the early twentieth-century American religious landscape.
 links:
   - url: https://religiousecologies.org
-    text: American Religious Ecologies website
-description: |
-  The American Religious Ecologies project is creating new datasets from historical sources and new ways of visualizing them so that we can better understand the history of American religion. 
-
-  We are currently digitizing the 1926 Census of Religious Bodies. At the start of the twentieth century, the U.S. Census Bureau surveyed the nation's "religious bodies." These congregation-level schedules---some 232,154 of them---are a treasure trove of congregation- and place-specific data. 
-
-  We are also transcribing the 1926 census into a dataset, and mapping and visualizing the data. These efforts contribute to a fuller and more vivid depiction of the religious landscape of the early twentieth-century United States.
+    text: "Project website"
 ---

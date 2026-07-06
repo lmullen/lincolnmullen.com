@@ -4,26 +4,40 @@
 
 {{ define "main" }}
 
-<div class="container-fluid">
-
-	<p class="lead">
-		{{ .Page.Params.Lede | markdownify }}
-	</p>
-
-	<div class="d-none d-md-block">
-		{{ partial "homepage-sidebar.html" .}}
+{{/* Hero (Design Handoff §5.1): left rail (name, mono nav, portrait) + oversized statement. */}}
+<section class="hero">
+	<div class="rail">
+		{{/* Single line on the rail (see .rail .nm nowrap); wraps naturally only on small screens. */}}
+		<div class="nm">Lincoln Mullen</div>
+		<nav>
+			{{ $cur := .RelPermalink }}
+			{{ range site.Menus.main }}
+			{{ $active := cond (eq .URL "/") (eq $cur "/") (hasPrefix $cur .URL) }}
+			<a href="{{ .URL }}"{{ if $active }} class="on"{{ end }}>{{ .Name }}</a>
+			{{ end }}
+		</nav>
+		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
+		{{ partial "responsive-image.html" (dict "res" $photo "width" 196 "class" "photo" "alt" "Lincoln Mullen") }}
 	</div>
-
-	<div>
-		{{ .Content }}
+	<div class="main">
+		{{/* Statement + bio prose come from content/_index.md: first paragraph → the display
+		     statement (rendered inline so its <em> emphasis lands), the rest → .bio-p prose. */}}
+		{{ $blocks := split (strings.TrimSpace .RawContent) "\n\n" }}
+		<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>
+		{{ range after 1 $blocks }}
+		<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
+		{{ end }}
+		<div class="actions">
+			<a href="/bio/">Biography <i class="bi bi-arrow-right"></i></a>
+			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">Curriculum Vitae <i class="bi bi-arrow-right"></i></a>
+		</div>
 	</div>
+</section>
 
-	{{ partial "homepage-gallery.html" . }}
+{{ partial "homepage-subscribe.html" . }}
 
-	<!-- Move the sidebar to the bottom on small screens -->
-	<div class="d-md-none">
-		{{ partial "homepage-sidebar.html" . }}
-	</div>
-</div>
+{{ partial "homepage-contact.html" . }}
+
+{{ partial "homepage-scholarship.html" . }}
 
 {{ end }}

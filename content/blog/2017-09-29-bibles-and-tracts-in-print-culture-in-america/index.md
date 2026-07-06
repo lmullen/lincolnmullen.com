@@ -3,10 +3,10 @@ title: Bibles and tracts in print culture in America
 date: "2017-09-29"
 slug: 'bibles-and-tracts-in-print-culture-in-america'
 description: "An encyclopedia essay on how Bibles, tracts, and periodicals created both denominational loyalty and cross-denominational unity in American religious history."
+draft: false
 tags:
 - American religious history
-- publications
-draft: false
+- publication
 ---
 
 My essay in the *Oxford Research Encyclopedia of Religion* on "[Bibles and Tracts in Print Culture in America](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412)" was recently published. When it was first released that collection was freely available, though it has now gone behind a paywall. I was under the impression, which must have been mistaken, that it was going to remain freely available. Nevertheless, the [Religion in America section](http://religion.oxfordre.com/browse?t0=ORE_REL:REFREL023) of that encyclopedia has a fantastic set of essays.

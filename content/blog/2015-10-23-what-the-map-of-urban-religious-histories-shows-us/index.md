@@ -3,12 +3,12 @@ title: What the map of urban religious histories shows us
 date: "2015-10-23"
 slug: 'what-the-map-of-urban-religious-histories-shows-us'
 description: "A mapped bibliography of urban religious history shows that scholarship clusters in major cities and focuses disproportionately on Catholics, Jews, and African Americans."
+draft: false
+image: urban-religion.png
 tags:
 - American religious history
 - digital history
-- mapping
-draft: false
-image: urban-religion.png
+- spatial history
 ---
 
 Earlier today [Paul Putz](http://www.paulemoryputz.com/) wrote a post about an interactive bibliography that he and I created of books that study American religion in the context of cities. Paul explained our motivation for the project and how we created it. I'd like to offer a few observations about what I think we can learn from [the map](http://apps.lincolnmullen.com/urban-religious-history/).

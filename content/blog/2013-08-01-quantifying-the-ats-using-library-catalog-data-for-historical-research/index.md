@@ -3,14 +3,17 @@ title: 'Quantifying the ATS: using library catalog data for historical research'
 date: "2013-08-01"
 slug: 'quantifying-the-ats-using-library-catalog-data-for-historical-research'
 description: "AAS catalog data lets a historian chart American Tract Society printing history—dating undated tracts, visualizing publication trends, and supplementing close reading at scale."
-tags:
-- digital history
-- American religious history
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html"
   source: "Religion in American History"
 image: ats-pub-date.png
+tags:
+- digital history
+- computational history
+- American religious history
+- R
+- data visualization
 ---
 
 The [American Antiquarian Society](http://www.americanantiquarian.org/) was generous enough to offer me a fellowship this summer, so I took a month to research in the [AAS's wonderful collections](http://usreligion.blogspot.com/2013/06/know-your-archives-american-antiquarian.html). A fair bit of my time was spent reading through the nearly complete print run of American Tract Society pamphlets from the early to mid-nineteenth century. I wanted to answer a question: did the ATS pamphlets include "the sinner's prayer," a common feature of twentieth century evangelical tracts? If it did, when did the genre develop? I think I have an answer to that question: yes, the ATS did contribute to the development of the genre of the sinner's prayer. More on what I found another time, both here on the blog and in chapter two of the dissertation.
@@ -21,7 +24,7 @@ There was a second problem: it's really hard to date the ATS tracts. While most 
 
 The solution to the problem of dating the tracts was also the solution to the problem of getting an overview of the tracts. Because the Antiquarian Society's catalog lets users export bibliographic information in a variety of formats, I set out to visualize the ATS printing history using the catalog data. Other scholars have are also using library data to visualize printing: Jim Egan and Jean Bauer have a much more [ambitious project](http://www.stg.brown.edu/projects/mapping-genres/) using collections from the American Antiquarian Society, the John Carter Brown Library, and the John Hay Library.
 
-### Method
+## Method
 
 I made a series of visualizations about various questions using Ruby and R. I'll gloss over the code here, but the code and the cleaned-up data is [available on GitHub](https://github.com/lmullen/ATS-bibliography). Here's how I did it:
 
@@ -33,7 +36,7 @@ I made a series of visualizations about various questions using Ruby and R. I'll
 
 The kind of analysis that I'm writing about here is not an argument itself, but a step along the way to an argument. Nor do I mean to imply that there is some kind of "scientific" value in this analysis. Take this for what it is: a behind-the-scenes musing about methodology.
 
-### Dates
+## Dates
 
 One of my questions was when the ATS published its tracts. This is a histogram of the tracts by date.
 
@@ -43,7 +46,7 @@ The American Tract Society was founded in 1825 from the merger of the New-York R
 
 The above chart shows the earliest possible date that a given tract was published. But the ATS republished these tracts in many editions throughout the nineteenth century. The point is that the ATS publications tended to be first published in the decade between 1825 and 1835---exactly the period when Charles Finney was most active in New York. But unlike Finney, these tracts kept getting the message out for the entirety of the nineteenth century. (The ATS is [still publishing](http://www.crossway.org/group/ats) today.) And though much of Finney's powerful presentation came from being in his presence, and sitting on his anxious bench, the ATS tracts were carried across the country by colporteurs to places like the pine barrens of New Jersey which the government could barely reach.
 
-### Subjects
+## Subjects
 
 A second, obvious, question is, what were these tracts about? Though I had a pretty good sense of the proportions of the various topics, counting the subject headings is a useful correction to possibly haphazard impressions. The ATS catalog entries have 186 distinct subject headings. The distribution of all the subject headings is the familiar "long tail." Keep in mind, though, that each tract can have more than one subject heading, so [a tract](http://catalog.mwa.org/vwebv/holdingsInfo?bibId=229772) might be about both one of the most obscure topics ("Wine---poetry") and one of the most common topics ("Temperance").
 
@@ -63,7 +66,7 @@ These headings fall into several groups:
 
 There is one topic which I found to be ubiquitous in reading the tracts, but which is barely noticeable in the subject headings, namely, warnings against infidelity, atheism, and liberal religion. Tracts with the subject heading "future punishment" were mostly written against Universalists. Other tracts were written against Unitarians. But even though only a few tracts are explicitly about Deists or atheists, they are mentioned or appear as characters in, I would guess, two out of three tracts. Curiously, Catholics are barely mentioned except in a very few "patriotic" tracts. Historians have long recognized the nineteenth century as the century of Protestant anti-Catholicism, and of course it was. But for the ATS the real bogeyman was not Catholicism but infidelity. On the importance of atheism, skepticism, and free thought for shaping American religion, see my recent [historiographic essay](http://usreligion.blogspot.com/2013/06/where-are-histories-of-american.html) and the soon-to-be last chapter of my dissertation.
 
-### Length
+## Length
 
 Anyone who is familiar with the contemporary evangelical tracts would be surprised at long the ATS tracts are. Where a contemporary tract might be six or eight very small pages with several illustrations, the ATS tracts average sixteen pages of closely printed type and were commonly thirty-two pages long. Besides the main tract that comprised the body, the tracts usually had a paper wrapper which had supplementary materials or another tract in its own right. Bill Bright's well-known tract from the 1960s, *Do You Know the Four Spiritual Laws*, could fit on the wrapper of one of these hefty ATS tracts.
 
@@ -71,7 +74,7 @@ Since I am making an argument about how the normative experience of conversion b
 
 {{< figure src="ats-length.png" >}}
 
-### Authors
+## Authors
 
 The most useful analysis was figuring out who wrote these tracts. Not only were the authors frequently British or occasionally Swiss or German, the authors were frequently from the eighteenth or even the seventeenth centuries. In this histogram I've charted the number of tracts by the death date of their authors.[^1]
 

@@ -3,10 +3,10 @@ title: 'THATCamp NE workshop: how to use a database for historical research'
 date: "2013-09-20"
 slug: 'thatcamp-ne-workshop-how-to-use-a-database-for-historical-research'
 description: "A THATCamp NE workshop on building databases for historical research: modeling uncertainty, citing sources, and turning a research database into maps and arguments."
+draft: false
 tags:
 - digital history
-- databases
-draft: false
+- Chance of Salvation
 ---
 
 At [THATCamp New England](http://newengland2013.thatcamp.org/schedule/) on October 18, Erin Bartram and I will be giving this workshop.

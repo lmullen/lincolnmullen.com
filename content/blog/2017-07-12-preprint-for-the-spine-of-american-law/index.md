@@ -3,11 +3,13 @@ title: 'Preprint for "The Spine of American Law"'
 date: "2017-07-13"
 slug: 'preprint-for-the-spine-of-american-law'
 description: "A preprint for an *AHR* article using text reuse to trace how Field's code united the American South and West through a state-level Greater Reconstruction."
+draft: false
 tags:
 - digital history
+- computational history
 - legal history
-- publications
-draft: false
+- text analysis
+- publication
 ---
 
 [Kellen Funk](http://kellenfunk.org/) and I have co-authored an article titled "[The Spine of American Law: Digital Text Analysis and U.S. Legal Practice](https://ssrn.com/abstract=3001377)." The article has been recently accepted for publication in the *American Historical Review*. It is currently scheduled for the February 2018 issue. Here is our abstract.

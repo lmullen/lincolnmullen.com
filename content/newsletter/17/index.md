@@ -5,17 +5,13 @@ slug: 17
 draft: false
 newsletter: true
 tags:
-  - antisemitism
-  - dissertation
-# crosspost:
-#   url: ""
-#   source: ""
-# linkpost: ""
+- antisemitism
+- RRCHNM
 ---
 
 Welcome back to the (very) occasional newsletter _Working on It_. It has been 277 days since the last issue.
 
-### Antisemitism, U.S.A.
+## Antisemitism, U.S.A.
 
 A couple of years ago, my colleague John Turner and I bounced around ideas for a podcast on the history of antisemitism in the United States. We were sure it was necessary topic that public audiences would benefit from learning about. Regrettably, it has become painfully obvious that we were right.
 
@@ -33,7 +29,7 @@ If you want to know more, here is the overview of the podcast:
 
 > Antisemitism has deep roots in American history. Yet in the United States, we often talk about it as if it were something new. We’re shocked when events happen like the Tree of Life Shootings in Pittsburgh or the Unite the Right Rally in Charlottesville, but also surprised. We ask, "Where did this come from?" as if it came out of nowhere. But antisemitism in the United States has a history. A long, complicated history. A history easy to overlook. Join us on _Antisemitism, U.S.A._, a limited podcast series hosted by Mark Oppenheimer, to learn just how deep those roots go. Coming this summer from R2 Studios, part of the Roy Rosenzweig Center for History and New Media at George Mason University. _Antisemitism, U.S.A._ is written by John Turner and Lincoln Mullen. Britt Tevis is the lead scholar. The series is executive produced by Jeanette Patrick and produced by Jim Ambuske.
 
-### Shadows and Solid Things
+## Shadows and Solid Things
 
 Congratulations to [Kris Stinson](https://kristoferstinson.com), who defended his dissertation a couple of weeks ago and graduated today at George Mason University's commencement. Kris's dissertation is titled "Shadows and Solid Things: Religion and Archaeology in the Atlantic World." While of course I am biased, I think it is a remarkable dissertation. Kris is an excellent writer, and if you hear the word dissertation and think "snoozefest," you are wrong in Kris's case.
 
@@ -45,7 +41,7 @@ I am entirely confident this dissertation will be coming out soon from a good pr
 
 {{< image src="stinson-graduation.jpeg" alt="Kris Stinson, PhD, and Lincoln Mullen">}}
 
-### Personal news
+## Personal news
 
 In elementary school, I failed a self-esteem test. My family brings it up regularly. As a result, even in a personal newsletter to which you subscribed and then confirmed your subscription, I am reluctant to mention anything about myself. But here goes.
 
@@ -55,14 +51,14 @@ And then, this month I was promoted to professor (I refuse to use the stupid ter
 
 Do I get credit for the test now?
 
-### Updates
+## Updates
 
-Reflecting (on the past year): Colter Wall, "[Codeine Dream](https://www.youtube.com/watch?v=cMBPq5SP5wE)."
+**Reflecting (on the past year):** Colter Wall, "[Codeine Dream](https://www.youtube.com/watch?v=cMBPq5SP5wE)."
 
-Reading: James S. A. Corey, _Leviathan Wake_.
+**Reading:** James S. A. Corey, _Leviathan Wake_.
 
-Also reading: Jackson Lears, _Animal Spirits: The American Pursuit of Vitality from Camp Meeting to Wall Street_.
+**Also reading:** Jackson Lears, _Animal Spirits: The American Pursuit of Vitality from Camp Meeting to Wall Street_.
 
-Working: Trying to write an article on "The Place of Data in American Religious History."
+**Working:** Trying to write an article on "The Place of Data in American Religious History."
 
-Backpacking: The [PATC](https://www.patc.net) has three maps of Shenandoah National Park. I've made it off of one, and on to the second.
+**Backpacking:** The [PATC](https://www.patc.net) has three maps of Shenandoah National Park. I've made it off of one, and on to the second.

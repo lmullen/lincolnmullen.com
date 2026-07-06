@@ -5,11 +5,10 @@ slug: 16
 draft: false
 newsletter: true
 tags:
-  - legal modernism
-# crosspost:
-#   url: ""
-#   source: ""
-# linkpost: ""
+- Legal Modernism
+- American Religious Ecologies
+- RRCHNM
+- data visualization
 ---
 
 {{< image src="whiteboard.jpeg" alt="Summertime countdown on the whiteboard" >}}
@@ -18,7 +17,7 @@ According to the whiteboard outside our kitchen, there are fourteen days left of
 
 ---
 
-### Currently listening
+## Currently listening
 
 {{< image src="merle.jpeg" alt="Merle Haggard's album, The Land of Many Churches" >}}
 
@@ -26,7 +25,7 @@ I found this double LP album for $3 at the [CD Cellar](https://cdcellarva.com) i
 
 ---
 
-### Currently visualizing
+## Currently visualizing
 
 {{< image src="cdsl.png" alt="A visualization from our paper" >}}
 
@@ -34,7 +33,7 @@ I found this double LP album for $3 at the [CD Cellar](https://cdcellarva.com) i
 
 ---
 
-### Currently collaborating
+## Currently collaborating
 
 {{< image src="team-at-aha.jpeg" alt="Part of the American Religious Ecologies team, current and former, at AHA 2023" >}}
 
@@ -42,7 +41,7 @@ Since I last wrote, [John Turner](http://johngturner.com) and I have received an
 
 ---
 
-### Currently defending
+## Currently defending
 
 {{< image src="defending.jpeg" alt="Committee for Greta Swain's dissertation" >}}
 
@@ -50,7 +49,7 @@ Since I last wrote, [John Turner](http://johngturner.com) and I have received an
 
 ---
 
-### Currently moving
+## Currently moving
 
 {{< image src="moving-1.jpeg" alt="Moving day" >}} {{< image src="moving-2.jpeg" alt="Moving day" >}}
 

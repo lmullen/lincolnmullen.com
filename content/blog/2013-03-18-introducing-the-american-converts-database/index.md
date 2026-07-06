@@ -3,11 +3,12 @@ title: 'Introducing the American Converts Database'
 date: "2013-03-18"
 slug: 'introducing-the-american-converts-database'
 description: "A new collaborative database of religious converts in the United States, built by two PhD students whose dissertations both hinge on the history of American conversion."
-tags:
-- American religious history
-- digital humanities
 draft: false
 image: 2013-03-17.convertsdb.png
+tags:
+- American religious history
+- digital history
+- Chance of Salvation
 ---
 
 This past weekend at the "[Digital Humanities: The Next Generation](http://web.simmons.edu/~fairb/dhsymposium/program.html)" conference, my collaborator [Erin Bartram](http://history.uconn.edu/graduate/bartram.php) and I debuted a project we have just started working on. **[The American Converts Database](http://americanconverts.org)** is a database of people who experienced a religious conversion in the United States.

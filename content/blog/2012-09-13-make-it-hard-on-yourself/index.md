@@ -3,12 +3,12 @@ title: 'Make it hard on yourself'
 date: "2012-09-13"
 slug: 'make-it-hard-on-yourself'
 description: "Most productivity advice makes things easier, but sometimes the better move is to add friction—deleting shortcuts, waiting 24 hours before agreeing to anything, and imposing hard time constraints."
-tags:
-- productivity
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/make-it-hard-on-yourself/42568"
   source: "ProfHacker"
+tags:
+- tools
 ---
 
 A lot of productivity advice, especially about technology, is about making things easier to do. For example, in the last few days at ProfHacker, George has asked about [paperless promotion portfolios](http://chronicle.com/blogs/profhacker/paperless-promotion-and-tenure/42292), Mark has shown us [an easier Zotero workflow with Zotpad](http://chronicle.com/blogs/profhacker/working-with-zotero-on-the-ipad-with-zotpad/42094), Adeline has [reviewed a geo-tagging journal](http://chronicle.com/blogs/profhacker/path-a-twenty-first-century-geotagging-journal/41922), and I have written about [hacking URLs for faster searches](http://chronicle.com/blogs/profhacker/how-to-hack-urls-for-faster-searches-in-your-browser/42304).

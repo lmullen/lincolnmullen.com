@@ -1,7 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" data-bs-theme="light">
 
 <head>
+	<script>
+		(function () {
+			var mq = window.matchMedia('(prefers-color-scheme: dark)');
+			function apply(dark) {
+				document.documentElement.setAttribute('data-bs-theme', dark ? 'dark' : 'light');
+			}
+			apply(mq.matches);
+			mq.addEventListener('change', function (e) { apply(e.matches); });
+		})();
+	</script>
 	{{ block "title" . }}
 	<title>{{ .Title }} | {{ .Site.Title }}</title>
 	{{ end }}
@@ -26,19 +36,25 @@
 	<link rel="dns-prefetch" href="//files.lincolnmullen.com">
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
-	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 	{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
 	{{ $style := resources.Get "scss/main.scss" | toCSS  $options | resources.Minify | resources.Fingerprint "md5" }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}">
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 	<!-- shortcut icons -->
-	<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" href="/favicon.ico" sizes="any">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="theme-color" content="#1b54c0">
 
 	<!-- other websites -->
 	<link href="https://bsky.app/profile/lincolnmullen.com" rel="me">
 	<link href="https://micro.blog/lmullen" rel="me">
-	<link href="https://weblog.lincolnmullen.com" rel="me">
 	<link href="https://hcommons.org/members/lmullen/" rel="me">
 	<link href="https://orcid.org/0000-0001-5103-6917" rel="me">
 	<link href="https://github.com/lmullen/" rel="me">
@@ -47,6 +63,8 @@
 	<link href="https://www.zotero.org/lmullen/" rel="me">
 	<link href="https://observablehq.com/@lmullen?tab=profile" rel="me">
 	<link href="https://www.linkedin.com/in/lincolnmullen/" rel="me">
+	<link href="https://hcommons.social/@lmullen" rel="me">
+	<link href="https://www.reddit.com/user/lincolnmullen/" rel="me">
 	<link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="{{ .Site.Params.blogFeedTitle }}">
 	<link rel="alternate" type="application/feed+json" href="/blog/index.json" title="{{ .Site.Params.blogFeedTitle }}">
 	<link rel="alternate" type="application/rss+xml" href="https://weblog.lincolnmullen.com/feed.xml" title="Lincoln Mullen's Internet Weblog">
@@ -55,10 +73,6 @@
 	<link rel="canonical" href="{{ .Page.Permalink }}">
 	{{ end }}
 
-	<!-- Analytics -->
-	{{ block "analytics" . }}
-	{{ partial "analytics.html" . }}
-	{{ end }}
 
 </head>
 
@@ -67,31 +81,8 @@
 	{{ block "page-header" . }}
 	<div class="container main-container">
 
-		<header id="site-header" class="d-print-none">
-			<ul class="nav flex-column flex-sm-row mb-3">
-				<li>
-					<a href="/" class="pt-0 pb-1 nav-link site-title">{{ .Site.Title }}</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/">About</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">CV</a>
-				</li>
-				<!-- <li> -->
-				<!-- <a class="pt-0 pb-1 nav-link" href="/scholarship/">Scholarship</a> -->
-				<!-- </li> -->
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/courses/">Teaching</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/blog/">Blog</a>
-				</li>
-				<li>
-					<a class="pt-0 pb-1 nav-link" href="/newsletter/">Newsletter</a>
-				</li>
-			</ul>
-		</header>
+		{{/* Homepage supplies its own left-rail nav; every other page gets the slim header. */}}
+		{{ if not .IsHome }}{{ partial "site-header.html" . }}{{ end }}
 
 		{{ end }}
 
@@ -102,21 +93,14 @@
 		</main>
 
 		{{ block "footer" . }}
-
-		<footer class="site-footer d-print-none">
-			<div class="h-card">
-				<p>
-					This website is created in <a href="https://en.wikipedia.org/wiki/Annandale,_Virginia"><span class="p-adr h-adr"><span class="p-locality">Annandale</span>, <span class="p-region">Virginia</span></span></a>. Made with <a href="https://gohugo.io/">Hugo</a> (<a href="https://github.com/lmullen/lincolnmullen.com">source code</a>). Here are some <a href="/page/cool-things/">cool things</a>.
-				</p>
-				<p class="d-none">
-					Created by <a href="https://lincolnmullen.com" rel="me" class="u-url u-uid p-name"><span class="p-given-name">Lincoln</span> <span class="p-family-name">Mullen</span></a> &lt;<span class="u-email">lincoln@lincolnmullen.com</span>&gt;. <a class="u-photo" href='https://files.lincolnmullen.com/photos/lincoln-mullen-photo.jpeg'>Photo</a>.
-				</p>
-				<p class="d-none p-note">Lincoln Mullen is a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. He is the executive director of the <a class="p-org u-url h-card" href="https://rrchnm.org">Roy Rosenzweig Center for History and New Media</a> and an associate professor in the <a class="p-org u-url h-card" href="https://historyarthistory.gmu.edu/people/lmullen">Department of History and Art History at George Mason University</a>.</p>
-
-			</div>
-		</footer>
+		{{ partial "footer.html" . }}
 		{{ end }}
 	</div>
+
+	{{ $js := resources.Get "js/main.js" | js.Build (dict "targetPath" "js/main.js" "minify" true) | resources.Fingerprint "md5" }}
+	<script src="{{ $js.RelPermalink }}" defer></script>
+
+	{{ partial "analytics.html" . }}
 
 	{{ block "scripts" . }}
 	{{ end }}

@@ -5,9 +5,9 @@ slug: 'the-humanists-os-or-scholarship-in-plain-text'
 description: "Workshop materials for building a plain-text scholarly workflow with Markdown, Pandoc, and Git—resources for humanists who want Unix-style tools for their research and writing."
 aliases:
 - '/blog/scholarship-in-plain-text/'
-tags:
-- technology
 draft: false
+tags:
+- tools
 ---
 
 This Saturday, October 20, I'll be giving a [workshop](http://newengland2012.thatcamp.org/workshops/) at [THATCamp New England 2012](http://newengland2012.thatcamp.org/). Here is the description of the workshop:
@@ -18,18 +18,18 @@ This Saturday, October 20, I'll be giving a [workshop](http://newengland2012.tha
 
 Here are some links to resources to help you get started with plain-text scholarship. *N.B. I'll be adding more links soon.*
 
-### ProfHacker posts
+## ProfHacker posts
 
 -   [Markdown: The Syntax You (Probably) Already Know](http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295)
 -   [Writing Power Tools: Text Editors](http://chronicle.com/blogs/profhacker/writing-power-tools-text-editors/38940)
 -   [Pandoc Converts All Your Text Documents](http://chronicle.com/blogs/profhacker/pandoc-converts-all-your-text-documents/38700)
 
-### Online Markdown converters
+## Online Markdown converters
 
 -   [Pandoc Demo](http://johnmacfarlane.net/pandoc/try) (John MacFarlane)
 -   [Markdown Dingus](http://daringfireball.net/projects/markdown/dingus) (John Gruber)
 
-### Git
+## Git
 
 -   ProfHacker: [A Gentle Introduction to Version Control](http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control/23064), by Julie Meloni
 -   *[Pro Git](http://git-scm.com/book)*, by Scott Chacon

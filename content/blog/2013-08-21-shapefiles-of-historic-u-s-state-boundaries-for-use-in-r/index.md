@@ -3,12 +3,12 @@ title: 'Shapefiles of historic U.S. state boundaries for use in R'
 date: "2013-08-21"
 slug: 'shapefiles-of-historic-u-s-state-boundaries-for-use-in-r'
 description: "NHGIS historical state boundary shapefiles converted to WGS84 and packaged as R objects, making historical mapping in ggplot2 straightforward without projection headaches."
-tags:
-- digital history
-- mapping
-- R
 draft: false
 image: demo.state-boundaries.png
+tags:
+- digital history
+- spatial history
+- R
 ---
 
 In the past few months I've picked up [the R language](http://www.r-project.org/) for digital analysis of historical sources. It's one of the most powerful digital humanities tools that I've learned, because it's useful for so many tasks, especially quantitative analysis and mapping.

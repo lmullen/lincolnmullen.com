@@ -1,5 +1,4 @@
 title: "Lincoln Mullen"
-description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
 
 mediaTypes:
   application/feed+json:
@@ -25,31 +24,82 @@ permalinks:
 
 markup:
   goldmark:
+    # Requires Hugo >= 0.148; safe now that the Cloudflare build pins the same
+    # Hugo version as local dev (see wrangler.jsonc). Prevents duplicate
+    # footnote IDs when several footnoted posts share a list page.
+    extensions:
+      footnote:
+        enableAutoIDPrefix: true
     renderer:
       unsafe: true
   highlight:
-    style: vs
-    lineNos: true
+    noClasses: false
+    lineNos: false
     tabWidth: 2
 
 imaging:
   quality: 85
 
 params:
+  # Site description: RSS/JSON feed channel description and the fallback for
+  # meta/OpenGraph descriptions. Must live under params (root-level keys are
+  # no longer copied into .Site.Params by current Hugo).
+  description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
+  # Canonical date formats; reference as site.Params.dateForms.* so display
+  # and machine-readable dates stay consistent across templates.
+  dateForms:
+    long: "2 January 2006" # citations, microformats display, hidden headings
+    compact: "2 Jan 2006" # metalines, index rows, rail
+    day: "Jan 2" # archive rows, which are grouped under year headings
+    machine: "2006-01-02" # <time datetime> attributes for date-only values
+    rfc3339: "2006-01-02T15:04:05Z07:00" # full timestamps: microformats, OpenGraph
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
   newsletterTitle: "Working on It"
   siteFeedUrl: "/blog/index.xml"
+  # "Around the internet" social icons: brand (official colors) | monochrome (--mut)
+  iconStyle: brand
   author:
     name: "Lincoln Mullen"
     email: "lincoln@lincolnmullen.com"
 
+# Primary navigation. Rendered in the homepage rail, the slim interior header,
+# and the footer "Site" row so they stay in sync. Newsletter is deliberately
+# excluded (Design Handoff §9); it lives in the cobalt band and on the blog page.
+menu:
+  main:
+    - name: About
+      url: /
+      weight: 10
+    - name: Scholarship
+      url: /scholarship/
+      weight: 20
+    - name: Teaching
+      url: /courses/
+      weight: 30
+    - name: Blog
+      url: /blog/
+      weight: 40
+
 taxonomies: false
+
+related:
+  includeNewer: true
+  threshold: 60
+  indices:
+    - name: tags
+      weight: 100
+    - name: date
+      weight: 10
 
 enableGitInfo: true
 timeZone: "America/New_York"
 
 security:
+  # Allow HTML files inside page bundles to be assembled as content.
+  # The default policy denies text/html; override it to permit all media types.
+  allowContent:
+    - ".*"
   funcs:
     getenv:
       - ^HUGO_

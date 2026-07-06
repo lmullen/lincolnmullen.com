@@ -4,13 +4,10 @@ date: "2023-08-03T10:41:55-04:00"
 slug: "greta-swain-defends-dissertation-on-potomac-networks"
 description: "Greta Swain's dissertation uses digital maps and network analysis to show how both the Mason family and the people they enslaved deployed the Potomac River for economic and personal ends."
 draft: false
-# newsletter: true
-# tags:
-# -
-# crosspost:
-#   url: ""
-#   source: ""
-# linkpost: ""
+tags:
+- digital history
+- spatial history
+- slavery
 ---
 
 [Greta Swain](http://gretaswain.org)---a PhD student in history at George Mason
@@ -36,7 +33,7 @@ Greta is off [to be a postdoc](https://historyarthistory.gmu.edu/articles/19036)
 at the Center for Presidential History at Southern Methodist University this
 fall.
 
-> #### Potomac Networks: Waterways, Commerce, and Enslavement in the George Mason Family, 1700–1828
+> **Potomac Networks: Waterways, Commerce, and Enslavement in the George Mason Family, 1700–1828**
 >
 > While George Mason IV is best known as a Virginia political writer, tobacco
 > planter and slaveholder, Mason IV was also an opportunistic Chesapeake

@@ -4,8 +4,9 @@ date: "2020-04-05"
 slug: 3
 draft: false
 tags:
-- newsletter
-- D3.js
+- JavaScript
+- data visualization
+- programming
 ---
 
 Greetings. And welcome back to *Working on It*.
@@ -42,7 +43,7 @@ I feel close to having something to show for this, both for collaborative projec
 
 --------
 
-### Brief book review
+## Brief book review
 
 [*They Knew They Were Pilgrims: Plymouth Colony and the Contest for American Liberty*](https://yalebooks.yale.edu/book/9780300225501/they-knew-they-were-pilgrims) is out this week from my friend and collaborator, [John Turner](https://johngturner.com). The book marks the four hundredth anniversary of the founding of Plymouth Colony.
 
@@ -56,22 +57,22 @@ The other theme that stood out to me is the covenanted congregation. The Separat
 
 --------
 
-### Random screenshot
+## Random screenshot
 
 {{< image src="random-screenshot.png" alt="A random screenshot" >}}
 
 --------
 
-### Updates
+## Updates
 
-Reading: Dissertation prospectuses.
+**Reading:** Dissertation prospectuses.
 
-Listening: Johnny Cash, [*My Mother's Hymn Book*](https://open.spotify.com/album/5W5ImYrmggt6B4PidNyF2i).
+**Listening:** Johnny Cash, [*My Mother's Hymn Book*](https://open.spotify.com/album/5W5ImYrmggt6B4PidNyF2i).
 
-Watching: Parks and Rec.
+**Watching:** Parks and Rec.
 
-Playing: Super Mario Odyssey.
+**Playing:** Super Mario Odyssey.
 
-Sketching: Network visualization of how federal judges have moved between courts. 
+**Sketching:** Network visualization of how federal judges have moved between courts. 
 
-Anticipating: The Triduum.
+**Anticipating:** The Triduum.

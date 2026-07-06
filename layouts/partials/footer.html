@@ -1,0 +1,32 @@
+<footer class="foot d-print-none">
+	<div class="h-card">
+		<p>
+			&copy; 2005&ndash;{{ now.Year }} Lincoln Mullen. This website is created in <a href="https://en.wikipedia.org/wiki/Annandale,_Virginia"><span class="p-adr h-adr"><span class="p-locality">Annandale</span>, <span class="p-region">Virginia</span><span class="p-country-name d-none">, United States</span></span></a>. Made with <a href="https://gohugo.io/">Hugo</a> (<a href="https://github.com/lmullen/lincolnmullen.com">source code</a>).
+		</p>
+		<p>
+			<b>Site</b><span class="fl">
+				{{- range $i, $e := site.Menus.main -}}
+				{{- if $i }} · {{ end -}}
+				<a href="{{ $e.URL }}">{{ $e.Name }}</a>
+				{{- end -}}
+			</span>
+		</p>
+		<p>
+			<b>Pages</b><span class="fl">
+				{{- $pages := where site.RegularPages "Section" "page" -}}
+				{{- $sorted := sort $pages "Title" -}}
+				{{- range $i, $p := $sorted -}}
+				{{- if $i }} · {{ end -}}
+				<a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+				{{- end -}}
+			</span>
+		</p>
+		<p>
+			<b>Feeds</b><span class="fl">{{ partial "feed-links.html" (dict "icons" false "sep" " · ") }}</span>
+		</p>
+		<p class="d-none">
+			Created by <a href="{{ "/" | absURL }}" rel="me" class="u-url u-uid p-name"><span class="p-given-name">Lincoln</span> <span class="p-family-name">Mullen</span></a> &lt;<span class="u-email">lincoln@lincolnmullen.com</span>&gt;. <a class="u-photo" href='/img/lincoln-mullen.jpeg'>Photo</a>.
+		</p>
+		<p class="d-none p-note">Lincoln Mullen is a historian of American religion and the nineteenth-century United States, often using computational methods for texts and maps. He is the director of the <a class="p-org u-url h-card" href="https://rrchnm.org">Roy Rosenzweig Center for History and New Media</a> and a professor in the <a class="p-org u-url h-card" href="https://historyarthistory.gmu.edu/people/lmullen">Department of History and Art History at George Mason University</a>.</p>
+	</div>
+</footer>

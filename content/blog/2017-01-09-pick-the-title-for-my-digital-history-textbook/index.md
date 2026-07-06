@@ -3,11 +3,10 @@ title: Pick the title for my digital history textbook
 date: "2017-01-09"
 slug: 'pick-the-title-for-my-digital-history-textbook'
 description: "A computational history textbook restarted with a clearer vision: historical thinking first, R techniques second, tidy data throughout—plus a request for help choosing the title."
+draft: false
 tags:
 - digital history
-- R
 - teaching
-draft: false
 ---
 
 In my [first semester](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf) teaching one of my department's graduate methods courses in digital history, I realized that there was not a lot good material for teaching computer programming and data analysis in R for historians. So I started writing up a series of tutorials for my students, which they said were helpful. It seemed like those materials could be the nucleus of a textbook, so I started [writing one](https://dh-r.lincolnmullen.com/) with the title *Digital History Methods in R*.

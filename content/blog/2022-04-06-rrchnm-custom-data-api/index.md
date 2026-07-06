@@ -1,17 +1,17 @@
 ---
-title: RRCHNM's custom API for data-driven projects 
+title: RRCHNM's custom API for data-driven projects
 date: "2022-04-06"
 slug: rrchnm-data-api
 description: "RRCHNM built Apiary, a Go API backed by PostgreSQL, to serve JSON and GeoJSON data to browser visualizations across projects like American Religious Ecologies."
-tags:
-- RRCHNM
-- Go
-- data
 draft: false
-crosspost: 
+crosspost:
   url: "https://rrchnm.org/news/rrchnms-custom-api-for-data-driven-projects/"
   source: "RRCHNM's blog"
 image: database.png
+tags:
+- RRCHNM
+- Go
+- digital history
 ---
 
 RRCHNM is a shop that is more and more working on computational history
@@ -59,7 +59,7 @@ forth. PostgreSQL is not an exciting choice; it may very well be the
 least exciting choice imaginable. But rock solid and boring is a great
 place to be for critical infrastructure. 
 
-{{< figure src="database.png" caption="An example of what some of the data looks like from the _American Religious Ecologies_ project. It might not look like much, but we had to reverse engineer and entire federal census in order to create it." >}}
+{{< figure src="database.png" caption="An example of what some of the data looks like from the _American Religious Ecologies_ project. It might not look like much, but we had to reverse engineer an entire federal census in order to create it." >}}
 
 That still leaves the problem of getting the data out of the database
 and into the user's browser. We needed a solution that could provide

@@ -1,0 +1,12 @@
+{{- /* Responsive raster <img> with a 1x/2x WebP srcset — the shared resize
+       logic behind the image and figure shortcodes and the homepage images.
+       Callers handle GIF/SVG passthrough and any link wrapper. Call with a
+       dict:
+         res   the image resource
+         width 1x display width in px (2x is derived)
+         class img class
+         alt   alt text (already plainified)
+         lazy  set true to add loading="lazy" */ -}}
+{{- $regular := .res.Resize (printf "%dx webp" .width) -}}
+{{- $retina := .res.Resize (printf "%dx webp" (mul 2 .width)) -}}
+<img{{ with .class }} class="{{ . }}"{{ end }} src="{{ $regular.RelPermalink }}" srcset="{{ $regular.RelPermalink }} 1x, {{ $retina.RelPermalink }} 2x" alt="{{ .alt }}" width="{{ $regular.Width }}" height="{{ $regular.Height }}"{{ if .lazy }} loading="lazy"{{ end }}>

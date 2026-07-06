@@ -1,11 +1,13 @@
 {{ define "main" }}
 
-<article id="{{ urlize .Title }}">
+<article id="entry-{{ urlize .Title }}">
 
   <header>
-    <h1>{{ .Title | markdownify }}</h1>
+    <h1 class="page-title">{{ .Title }}</h1>
   </header>
-  {{ .Content }}
+  <div class="reading reading--narrow">
+    {{ .Content }}
+  </div>
 
 </article>
 {{ end }}

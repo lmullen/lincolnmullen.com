@@ -3,9 +3,10 @@ title: The Programming Historian calls for digital history argumentation
 date: "2017-01-24"
 slug: 'the-programming-historian-calls-for-digital-history-argumentation'
 description: "*The Programming Historian* calls for tutorials that address the gap between data analysis and historical argumentation—the hardest step in computational history."
+draft: false
 tags:
 - digital history
-draft: false
+- computational history
 ---
 
 *The Programming Historian* has sent out a call for contributors to write [several proposed new lessons](http://historyarthistory.gmu.edu/articles/10313). If you have expertise in one of these areas, one of these tutorials would be great to write. *The Programming Historian* has an excellent collection of widely-used tutorials, with a well-thought out open peer-review process.

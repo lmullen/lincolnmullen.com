@@ -3,10 +3,10 @@ title: 'Course description for Religion and Capitalism'
 date: "2020-02-21"
 slug: 'course-description-for-religion-and-capitalism'
 description: "The course description for a new graduate seminar on Religion and Capitalism in the United States—tracing the question from Puritans to prosperity preachers."
-tags:
-- teaching
-- religion and capitalism
 draft: false
+tags:
+- American religious history
+- teaching
 ---
 
 This coming fall I will be teaching a graduate seminar on "Religion and Capitalism in the United States." I taught the course for the [first time](https://files.lincolnmullen.com/syllabi/religion-capitalism.2015.pdf) in spring 2015. I think eight significant books on the topic were published the same semester I was teaching it, and more since, so it will likely be a completely new syllabus.

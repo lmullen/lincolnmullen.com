@@ -3,10 +3,10 @@ title: 'Newman on the sorrow of writing a conversion narrative'
 date: "2013-03-22"
 slug: 'newman-on-the-sorrow-of-writing-a-conversion-narrative'
 description: "Newman's *Apologia Pro Vita Sua* on the trial of writing a conversion narrative: ripping up old grief, venturing again upon the infandum dolorem of years when certainty was failing."
-tags:
-- American religious history
-- conversion
 draft: false
+tags:
+- Chance of Salvation
+- history of Christianity
 ---
 
 John Henry Cardinal Newman in *Apologia Pro Vita Sua* [describing](http://books.google.com/books?id=JvMOAAAAQAAJ&pg=PA191#v=onepage&q&f=false) the sorrows of writing about his conversion:

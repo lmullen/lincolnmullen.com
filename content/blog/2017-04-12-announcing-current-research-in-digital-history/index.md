@@ -3,10 +3,11 @@ title: Announcing Current Research in Digital History
 date: "2017-04-12"
 slug: 'announcing-current-research-in-digital-history'
 description: "Announcing CRDH, a new RRCHNM conference and peer-reviewed proceedings intended to encourage digital history scholarship that makes genuine historical arguments."
+draft: false
 tags:
 - digital history
 - RRCHNM
-draft: false
+- scholarly publishing
 ---
 
 Today Stephen Robertson and I are announcing a new conference and peer-reviewed proceedings titled *[Current Research in Digital History](http://crdh.rrchnm.org/)*, hosted (and funded) by RRCHNM and George Mason University's Department of History and Art History. You can read the announcement at the RRCHNM website, and here is our brief description from the [conference website](http://crdh.rrchnm.org/):

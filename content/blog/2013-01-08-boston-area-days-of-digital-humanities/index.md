@@ -3,9 +3,9 @@ title: 'Boston-area days of digital humanities'
 date: "2013-01-08"
 slug: 'boston-area-days-of-digital-humanities'
 description: "Two linked DH events in Boston in March 2013—one focused on graduate students and junior faculty, another featuring NEH workshops and keynotes by Julia Flanders and Matthew Jockers."
-tags:
-- digital humanities
 draft: false
+tags:
+- digital history
 ---
 
 [John Unsworth](http://lts.brandeis.edu/about/org/aboutthecio.html), [Dave Wedaman](http://wedaman.wordpress.com/), and [Ryan Cordell](http://ryan.cordells.us/) have organized four days of digital humanities events in Boston, March 15--19. This is an exciting DH pair of conferences. I'm hoping to organize a panel for "DH the Next Generation" on digital historical methods in the traditional dissertation---more on that to follow. Here is the [CFP](http://nulab.neu.edu/events/dhdays2013/); here is Wedaman's announcement:

@@ -3,10 +3,9 @@ title: 'Review of All Can Be Saved'
 date: "2010-10-14"
 slug: 'review-of-emall-can-be-savedem'
 description: "Stuart Schwartz finds that toleration in the Iberian Atlantic world grew from common people's own moral reasoning—not from elite philosophy—as they concluded that each person could be saved in their own faith."
+draft: false
 tags:
 - book reviews
-- history
-draft: false
 ---
 
 **Schwartz, Stuart B. *All Can Be Saved: Religious Tolerance and Salvation in the Iberian Atlantic World*. New Haven, CT: Yale University Press, 2008. ISBN: 978-0-300-15854-0.**
@@ -27,7 +26,7 @@ Second, lived religion. Schwartz spends much of the book exploring the condition
 
 Schwartz is to be applauded for his exposition of vernacular ideas, and his work might be strengthened by future investigations into the relationship between vernacular ideas, theology, religious practice, and lived religion.
 
-### Comments
+## Comments
 
 It is always encouraging to see well done reviews done with care, clarity, and an appreciation and understanding of the topic. Your points are well-taken and I appreciate the thought you have put into the critique. My response is that I feel on the first critique you are a bit too hard, after all there is considerable discussion of Africans and syncretism in the chapter on Brazil and some mention of them elsewhere. Also, converso ideas of "salvation" seem to have their origin more in Christian theology rather in that of Judaism.
 

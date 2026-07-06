@@ -3,10 +3,11 @@ title: 'New release of the gender package (v0.5.0)'
 date: "2015-08-24"
 slug: 'new-release-of-the-gender-package-v0-5-0'
 description: "gender v0.5.0 adds performance improvements, European naming data, and a new gender_df() function for datasets where each name has an associated birth year."
+draft: false
 tags:
 - R
 - digital history
-draft: false
+- programming
 ---
 
 I have released a new version (v0.5.0) of the [gender package](http://www.r-pkg.org/pkg/gender) for the [R programming language](https://www.r-project.org/). The gender package predicts gender from first names and dates using historical datasets. You can install the package from [CRAN](https://cran.rstudio.com/web/packages/gender/) or see the [code at GitHub](https://github.com/ropensci/gender).

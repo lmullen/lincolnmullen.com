@@ -3,10 +3,9 @@ title: 'Bunkmail''s "Best American History Reads" and public engagement'
 date: "2019-01-11"
 slug: 'bunkmails-best-american-history-reads'
 description: "Bunk's sixty-one best history reads of 2018 challenge the tired claim that historians ignore public audiences—some audiences simply prefer myths to hard interpretations."
-tags:
-- public engagement
-- American history
 draft: false
+tags:
+- digital history
 ---
 
 The most recent "Bunkmail" offers up a list of "[Best American History Reads of 2018](https://www.bunkhistory.org/resources/3648?related=3505&relationship_name=RELATED)." It's a remarkable collection of, by my count, sixty-one publicly-engaged essays, visualizations, or even bibliographies on topics ranging from Trump (of course) to historic preservation.

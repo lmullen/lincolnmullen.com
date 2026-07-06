@@ -4,13 +4,11 @@ date: "2023-08-15T09:00:00-04:00"
 slug: "rrchnm-on-entering-its-thirtieth-year"
 description: "On becoming executive director of RRCHNM as it enters its thirtieth year: the Center's founding purpose of democratizing history through new media, and its plans ahead."
 draft: false
-# newsletter: true
-tags:
-  - RRCHNM
 crosspost:
   url: "https://rrchnm.org/about-rrchnm/rrchnm-past-present-and-future/"
   source: "RRCHNM"
-# linkpost: ""
+tags:
+- RRCHNM
 ---
 
 The first time that I came across the name

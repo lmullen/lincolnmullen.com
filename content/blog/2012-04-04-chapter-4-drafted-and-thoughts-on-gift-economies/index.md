@@ -3,9 +3,10 @@ title: 'Chapter 4 drafted, and thoughts on gift economies'
 date: "2012-04-04"
 slug: 'chapter-4-drafted-and-thoughts-on-gift-economies'
 description: "Drafting a chapter on Cherokee conversions to Christianity revealed how Leigh Eric Schmidt's gift economy framework illuminates the material realities at the heart of mission records."
-tags:
-- dissertation
 draft: false
+tags:
+- Chance of Salvation
+- American religious history
 ---
 
 After I returned from the AHA/ASCH annual meeting this January, I broke ground on my dissertation. My goal is to turn out a rough draft of a chapter every three months. For this first chapter to be drafted, I was helped in meeting the deadline by the fact that I've been scheduled to present the draft at a history department faculty/grad workshop in April. I sent draft to my committee on Monday, and I'll send it to the history department later this week.

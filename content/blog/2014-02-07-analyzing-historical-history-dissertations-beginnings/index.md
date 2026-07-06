@@ -3,10 +3,13 @@ title: 'Analyzing historical history dissertations: beginnings'
 date: "2014-02-07"
 slug: 'analyzing-historical-history-dissertations-beginnings'
 description: "Opening a series using a ProQuest dump of 84,000 history dissertations since 1878 to ask how historians have studied the past—in quantity, length, subject, and generation."
-tags:
-- digital history
 draft: false
 image: 2014-02-07-number-dissertations.png
+tags:
+- digital history
+- computational history
+- data visualization
+- R
 ---
 
 Some scholars whose work I admire have done some useful data analysis about dissertations. Michael Beck [wrote a post](http://beckmw.wordpress.com/2013/04/15/how-long-is-the-average-dissertation/) where he scraped dissertation data from the University of Minnesota since 2007, and found that history dissertations are the longest. Ben Schmidt [asked how the length of history dissertations](http://rpubs.com/benmschmidt/princetonhistorydiss) at Princeton has varied since 1988, and some other interesting questions about the age of the author. Ben went on to ask "[What years do historians write about?](http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html)" using the "all dissertation titles in history the American Historical Association knows about from the last 120 years." It's a great post: go [read it](http://sappingattention.blogspot.com/2013/05/what-years-do-historians-write-about.html).
@@ -23,6 +26,6 @@ For a first plot of the data, we can look at the number of dissertations and the
 
 Because there were so few dissertations in the late nineteenth and early twentieth century (I suspect some are missing), let's limit the plot to the years after 1950.
 
-![](2014-02-07-number-dissertations.png)
+{{< image src="2014-02-07-number-dissertations.png" alt="Chart of the number of history dissertations per year" original="true" >}}
 
 I'll do some more analysis soon. If you have any questions that you think the data can answer, let me know.

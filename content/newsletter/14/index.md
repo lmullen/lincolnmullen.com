@@ -4,9 +4,10 @@ date: "2022-10-30"
 slug: 14
 draft: false
 tags:
-- history of antisemitism
 - America's Public Bible
-- podcasts
+- antisemitism
+- RRCHNM
+- publication
 ---
 
 Hi folks. I write to you after, lo, these many months with two pieces of news and some recommendations.
@@ -51,15 +52,15 @@ Two related recommendations. For listening, check out [Gatecrashers](https://www
 
 -----------
 
-### Updates
+## Updates
 
-Reading: Colin Woodward, [_Country Boy: The Roots of Johnny Cash_](https://www.uapress.com/product/country-boy/).
+**Reading:** Colin Woodward, [_Country Boy: The Roots of Johnny Cash_](https://www.uapress.com/product/country-boy/).
 
-Listening: Pete Seeger, _Love Songs for Friends and Foes_.
+**Listening:** Pete Seeger, _Love Songs for Friends and Foes_.
 
-Working: Computing citations for our [legal modernism](https://legalmodernism.org) project.
+**Working:** Computing citations for our [legal modernism](https://legalmodernism.org) project.
 
-Raking: Leaves. My children are hiding in the giant pile of leaves in the corner of the yard.
+**Raking:** Leaves. My children are hiding in the giant pile of leaves in the corner of the yard.
 
 {{< image src="leaves.png" alt="Leaves to rake" >}}
 

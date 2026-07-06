@@ -1,0 +1,51 @@
+{{/* One ledger row (Scholarship handoff, build 2a). Context is a scholarship page.
+
+     Front-matter model — every field is optional except `citation`; an absent
+     field is simply omitted and the layout closes up (no empty labels, no blank
+     gutter of links, no broken image slot):
+       title        display heading (titled works: books, projects, maps)
+       citation_led true → drop the title heading; lead with the citation
+                    (articles, software packages)
+       citation     Chicago bibliography string (required); work titles <em>,
+                    article titles in quotes
+       cover        image filename in the bundle; omitted → imageless row
+       award        prize/honor callout
+       abstract     1–3 sentences, recessed below the citation
+       links/reviews/media  arrays of { url, text }; text may carry an <em> venue
+
+     The title links to the first `links` entry when present. */}}
+{{ $cover := "" }}
+{{ with .Params.cover }}{{ $cover = $.Resources.GetMatch . }}{{ end }}
+{{ $primary := "" }}
+{{ with index .Params.links 0 }}{{ $primary = .url }}{{ end }}
+<div class="lg-item{{ if not $cover }} nocover{{ end }}">
+	{{ with $cover }}
+	<div class="lg-cover">
+		{{ partial "responsive-image.html" (dict "res" . "width" 240 "alt" $.Title "lazy" true) }}
+	</div>
+	{{ end }}
+	<div class="lg-body">
+		{{ if not .Params.citation_led }}
+		<h3 class="lg-title">{{ with $primary }}<a href="{{ . }}">{{ $.Title }}</a>{{ else }}{{ $.Title }}{{ end }}</h3>
+		{{ end }}
+		{{ with .Params.citation }}<p class="lg-cite{{ if $.Params.citation_led }} lead{{ end }}">{{ . | safeHTML }}</p>{{ end }}
+		{{ with .Params.award }}<div class="awd"><span class="k">Award</span><span class="v">{{ . | safeHTML }}</span></div>{{ end }}
+		{{/* abstract: may hold multiple paragraphs (blank-line-separated in the
+		     front matter, which YAML folds to single newlines) — split so each
+		     renders as its own <p>, reusing .lg-abs for spacing. */}}
+		{{ with .Params.abstract }}{{ range $p := split . "\n" }}{{ with trim $p " " }}<p class="lg-abs">{{ . | safeHTML }}</p>{{ end }}{{ end }}{{ end }}
+		{{ with .Params.quotes }}
+		<div class="lg-praise">
+			<span class="k">Praise</span>
+			{{ range . }}<blockquote class="lg-q"><p>{{ .text | safeHTML }}</p><cite>{{ .attribution | safeHTML }}</cite></blockquote>{{ end }}
+		</div>
+		{{ end }}
+		{{ if or .Params.links .Params.reviews .Params.media }}
+		<div class="lg-links">
+			{{ with .Params.links }}<div class="lg-lrow"><span class="lg-lk">Links</span><span class="lg-lv">{{ range . }}<a href="{{ .url }}">{{ .text | safeHTML }}</a>{{ end }}</span></div>{{ end }}
+			{{ with .Params.reviews }}<div class="lg-lrow"><span class="lg-lk">Reviews</span><span class="lg-lv">{{ range . }}<a href="{{ .url }}">{{ .text | safeHTML }}</a>{{ end }}</span></div>{{ end }}
+			{{ with .Params.media }}<div class="lg-lrow"><span class="lg-lk">Media</span><span class="lg-lv">{{ range . }}<a href="{{ .url }}">{{ .text | safeHTML }}</a>{{ end }}</span></div>{{ end }}
+		</div>
+		{{ end }}
+	</div>
+</div>

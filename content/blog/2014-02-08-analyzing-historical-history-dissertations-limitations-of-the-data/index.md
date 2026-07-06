@@ -3,9 +3,11 @@ title: 'Analyzing historical history dissertations: limitations of the data'
 date: "2014-02-08"
 slug: 'analyzing-historical-history-dissertations-limitations-of-the-data'
 description: "Why ProQuest's 84,428 history dissertations dwarfs the AHA's 29,000—the difference between dissertations by subject and dissertations from history departments."
+draft: false
 tags:
 - digital history
-draft: false
+- computational history
+- R
 ---
 
 After my post yesterday about [historical history dissertations](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-beginnings/), [Yoni Appelbaum](https://twitter.com/YAppelbaum) sent me some useful questions about the completeness and accuracy of the data. I've had my own questions about exactly what data I am working with, and what are its limitations. The difficulty with a reasonably large data set like this one is that it is easier to know something about the data in aggregate than any of the particulars.

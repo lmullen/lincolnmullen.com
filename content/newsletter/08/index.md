@@ -4,9 +4,8 @@ date: "2020-12-06"
 slug: 8
 draft: false
 tags:
-- newsletter
-- visualization
-- religious statistics
+- American religious history
+- data visualization
 ---
 
 In 1927 the Presbyterian Church in the U.S.A. [published a statistical review of their past century](https://catalog.hathitrust.org/Record/007109885), tabulating membership data and other figures from 1826 to 1926. The "laborious task" took the compiler, Herman C. Weber, about three years to accomplish. Its aim was both to make permanent the research he had done on behalf of the denomination as a whole, but also to inform the ongoing ministry of individual congregations. 
@@ -33,21 +32,21 @@ Weber's book and efforts like it at the start of the twentieth century served a 
 
 -------------------
 
-### Around the internet
+## Around the internet
 
 {{< image src="consolation-prize.jpeg" alt="Consolation Prize cover" link="https://consolationprize.rrchnm.org" >}}
 
-Check out [*Consolation Prize*](), a new podcast from RRCHNM. It tells the always surprising stories of diplomatic consuls, and through them the history of the United States in the world. Readers of this newsletter might especially enjoy [episode 4](https://consolationprize.rrchnm.org/2020/11/03/episode-4a-a-webb-of-connections/), which features historian of American religion Leigh Eric Schmidt among other guests. The subject is Alexander Russell Webb, a convert to Islam who became a Muslim missionary to the United States. I'm not involved (though I know [the principal](http://abbymullen.org) on the project) but I'm told that the next episode will be about consuls in Jerusalem and the American obsession with the Holy Land.
+Check out [*Consolation Prize*](https://consolationprize.rrchnm.org), a new podcast from RRCHNM. It tells the always surprising stories of diplomatic consuls, and through them the history of the United States in the world. Readers of this newsletter might especially enjoy [episode 4](https://consolationprize.rrchnm.org/2020/11/03/episode-4a-a-webb-of-connections/), which features historian of American religion Leigh Eric Schmidt among other guests. The subject is Alexander Russell Webb, a convert to Islam who became a Muslim missionary to the United States. I'm not involved (though I know [the principal](http://abbymullen.org) on the project) but I'm told that the next episode will be about consuls in Jerusalem and the American obsession with the Holy Land.
 
 --------------------
 
 
-### Updates 
+## Updates
 
-Working: Some initial exploration of citations in historical legal cases.
+**Working:** Some initial exploration of citations in historical legal cases.
 
-Reading: Sean Wilentz, [*Bob Dylan in America*](https://www.penguinrandomhouse.com/books/190610/bob-dylan-in-america-by-sean-wilentz/).
+**Reading:** Sean Wilentz, [*Bob Dylan in America*](https://www.penguinrandomhouse.com/books/190610/bob-dylan-in-america-by-sean-wilentz/).
 
-Playing: I can play C, D, G, E minor, and A minor chords. I can even play them one after another, if you don't mind waiting ten seconds in between.
+**Playing:** I can play C, D, G, E minor, and A minor chords. I can even play them one after another, if you don't mind waiting ten seconds in between.
 
 Otherwise, I'm doing everything I can to get this semester in the can as quickly as possible, even though it went better than expected.

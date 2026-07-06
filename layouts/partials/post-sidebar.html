@@ -1,0 +1,51 @@
+{{- /* Single-post metadata rail: Link / Via / Crossposted · Published (+ Updated)
+       · Subjects · Cite as, then a hairline and the shared blog sidebar. Each
+       block renders only when present. Shared by blog and newsletter singles. */ -}}
+{{ with .Params.Linkpost }}
+<div class="rb">
+  <p class="rlbl">Link</p>
+  <span class="rv"><a href="{{ . }}">{{ (urls.Parse .).Host }}</a> <i class="bi bi-arrow-up-right"></i></span>
+</div>
+{{ end }}
+
+{{ with .Params.via }}
+<div class="rb">
+  <p class="rlbl">Via</p>
+  <span class="rv"><a href="{{ . }}">{{ (urls.Parse .).Host }}</a> <i class="bi bi-arrow-up-right"></i></span>
+</div>
+{{ end }}
+
+{{ with .Params.Crosspost }}
+<div class="rb">
+  <p class="rlbl">Crossposted</p>
+  <span class="rv"><a href="{{ .URL }}">{{ .Source | markdownify }}</a> <i class="bi bi-arrow-up-right"></i></span>
+</div>
+{{ end }}
+
+<div class="rb">
+  <p class="rlbl">Published</p>
+  <span class="rv"><time datetime="{{ .Date.Format site.Params.dateForms.rfc3339 }}">{{ .Date.Format site.Params.dateForms.long }}</time></span>
+  {{ if ne (.Lastmod.Format site.Params.dateForms.machine) (.Date.Format site.Params.dateForms.machine) }}
+  <span class="upd"><i class="bi bi-clock-history"></i> Updated {{ .Lastmod.Format site.Params.dateForms.compact }}</span>
+  {{ end }}
+</div>
+
+{{ with .Params.tags }}
+<div class="rb">
+  <p class="rlbl">Subjects</p>
+  <div class="subj">
+    {{ range . }}<span class="pill">{{ . }}</span>{{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{ if and .Title (eq .Section "blog") }}
+<div class="rb">
+  <p class="rlbl">Cite as</p>
+  <span class="rv"><a href="#" data-bs-toggle="modal" data-bs-target="#citeModal">Suggested citation</a></span>
+</div>
+{{ end }}
+
+<hr class="rail-div">
+
+{{ partial "blog-nav" . }}

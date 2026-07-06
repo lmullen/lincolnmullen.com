@@ -1,0 +1,12 @@
+{{- /* Buttondown subscribe form, shared by every subscribe context: the blog
+       sidebar, the newsletter archive, the homepage band, and the newsletter
+       shortcode. Call with a dict:
+         tag         Buttondown tag identifying the signup source
+         class       styling variant, e.g. "bs-form" (sidebar) or "sb-form" (band)
+         placeholder email placeholder text (defaults to "Email") */ -}}
+<form action="https://buttondown.email/api/emails/embed-subscribe/lmullen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/lmullen', 'popupwindow')" class="{{ with .class }}{{ . }} {{ end }}embeddable-buttondown-form">
+  <input type="hidden" value="1" name="embed">
+  <input type="hidden" name="tag" value="{{ .tag | default "website" }}">
+  <input type="email" name="email" placeholder="{{ .placeholder | default "Email" }}" aria-label="Email address">
+  <input type="submit" value="Subscribe">
+</form>

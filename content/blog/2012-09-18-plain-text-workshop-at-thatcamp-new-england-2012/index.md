@@ -3,9 +3,9 @@ title: 'Plain text workshop at THATCamp New England 2012'
 date: "2012-09-18"
 slug: 'plain-text-workshop-at-thatcamp-new-england-2012'
 description: "Workshop description for a plain-text scholarly workflow: text editors, Markdown, Pandoc, and Git as a Unix-inspired operating system for humanists."
-tags:
-- technology
 draft: false
+tags:
+- tools
 ---
 
 I've been asked to give a [workshop](http://newengland2012.thatcamp.org/workshops/) at [THATCamp New England 2012](http://newengland2012.thatcamp.org/) on Saturday, October 20. Here is the description of the workshop:

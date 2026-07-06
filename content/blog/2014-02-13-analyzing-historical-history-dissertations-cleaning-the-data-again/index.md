@@ -3,10 +3,13 @@ title: 'Analyzing historical history dissertations: cleaning the data again'
 date: "2014-02-13"
 slug: 'analyzing-historical-history-dissertations-cleaning-the-data-again'
 description: "Data analysis is iterative: cleaning reveals what must be re-analyzed, and analysis reveals what must be cleaned—lessons from filtering and tidying a ProQuest dissertation dataset."
-tags:
-- digital history
 draft: false
 image: biography-vs-general.png
+tags:
+- digital history
+- computational history
+- data
+- R
 ---
 
 After posts about the length of dissertations about history university by university and for the American academy as a whole, along with a map of where history dissertations have been written, this post will be much less interesting. In this post I want to write about some decisions that I've made to further clean and tidy the data, and the consequent revisions to earlier visualizations. I'm writing about this process because I have conceived of this series of posts as being not just a presentation of my findings about history dissertations, but a set of reflections on the process of data analysis as performed by a historian. I hope this series will be pedagogically useful. Certainly no one ever taught me how to do this kind of data analysis in a history department, and it's not that hard to find scientists complaining that no one ever taught them how to do this kind of work. So I hope this series of posts and the [accompanying code](https://github.com/lmullen/dissertations-data) is one [resource](http://programminghistorian.org/) [among](http://geospatialhistorian.wordpress.com/) [many](http://software-carpentry.org/), and in particular that it will be useful as a guide to the many steps in digging through a mid- to large-sized data set.
@@ -31,25 +34,25 @@ The argument that such dissertations are usually written in schools of education
 
 Here is a chart of the page lengths of history of education dissertations vs all other kinds of history dissertations.
 
-![](history-of-education-vs-general.png)
+{{< image src="history-of-education-vs-general.png" alt="Chart comparing page lengths of history of education dissertations with other history dissertations" original="true" >}}
 
 There is a very wide divergence between the history of education and the other history dissertations, so I've decided to reverse my earlier decision and exclude them from the data set.
 
 There is no such divergence for history of religion dissertations, so they can stay.
 
-![](history-of-religion-vs-general.png)
+{{< image src="history-of-religion-vs-general.png" alt="Chart comparing page lengths of history of religion dissertations with other history dissertations" original="true" >}}
 
 History of science has a bizarre trajectory compared to every other kind of history. (Historians of science, any ideas what is going on here?) But even though historians of science are often in different departments, they can stay in the data set.
 
-![](history-of-science-vs-general.png)
+{{< image src="history-of-science-vs-general.png" alt="Chart comparing page lengths of history of science dissertations with other history dissertations" original="true" >}}
 
 History of economics diverges from general history (though not as sharply as history of education). I'm betting that's because such dissertations are more likely to use quantitative methods, so they can stay.
 
-![](history-of-economics-vs-general.png)
+{{< image src="history-of-economics-vs-general.png" alt="Chart comparing page lengths of history of economics dissertations with other history dissertations" original="true" >}}
 
 Biography also seems close to the profession in general.
 
-![](biography-vs-general.png)
+{{< image src="biography-vs-general.png" alt="Chart comparing page lengths of biography dissertations with other history dissertations" original="true" >}}
 
 As a last step, I'm dropping all universities with fewer than five dissertations that meet all these criteria. Looking through these universities, many of their dissertations seem like false positives, so this cut-off should clean up problems in the long tail.
 
@@ -61,11 +64,11 @@ Now that the data is more thoroughly cleaned, I have redone some of the more sig
 
 First, the number of dissertations per year.
 
-![](number-of-dissertations-per-year-2.png)
+{{< image src="number-of-dissertations-per-year-2.png" alt="Chart of the number of history dissertations per year" original="true" >}}
 
 Second, the mean and median page counts of history dissertations. These are slightly higher after cleaning the data more thoroughly.
 
-![](pages-mean-median-2.png)
+{{< image src="pages-mean-median-2.png" alt="Chart of mean and median page lengths of history dissertations" original="true" >}}
 
 Finally, a redo of all the page counts by university. (Because nothing makes a post popular like giving every historian in North America a little blue dot of their own to look for.)
 

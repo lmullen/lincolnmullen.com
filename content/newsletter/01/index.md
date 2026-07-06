@@ -4,8 +4,7 @@ date: "2019-11-30"
 slug: 1
 draft: false
 tags:
-- newsletter
-- IndieWeb
+- digital history
 ---
 
 Since this is a new newsletter with next-to-no readers, this first issue is less of a missive to subscribers and more of a love letter to the IndieWeb.
@@ -31,24 +30,24 @@ All that to say: I love you, IndieWeb.
 
 -----------
 
-### Random screenshot
+## Random screenshot
 
 {{< image src="random-screenshot.png" alt="A random screenshot" >}}
 
 -----------
 
-### Brief book review
+## Brief book review
 
 Joy Lisi Rankin's [*A People’s History of Computing in the United States*](https://www.hup.harvard.edu/catalog.php?isbn=9780674970977) (Harvard, 2018) locates the early history of computing not in Defense Department initiatives like ARPANET or the creations of Silicon Valley entrepreneurs. Instead, she takes readers on a tour of other sites, such as Dartmouth College and public schools in Minnesota, where users turned computer networks into networked culture. This is a history from the bottom up focused on what users made of technology instead of how technology made them. It's a story of interest to anyone who wants to know about the roots of the modern internet---especially those who want to get back to them.
 
 -----------
 
-### Updates
+## Updates
 
-Reading: Robert Alter's [translation of the Pentateuch](https://wwnorton.com/books/The-Hebrew-Bible/) for myself, and Genesis in the Authorized Version to my daughter. 
+**Reading:** Robert Alter's [translation of the Pentateuch](https://wwnorton.com/books/The-Hebrew-Bible/) for myself, and Genesis in the Authorized Version to my daughter. 
 
-Watching: Rewatching *Halt and Catch Fire*.
+**Watching:** Rewatching *Halt and Catch Fire*.
 
-Working: It's Thanksgiving weekend, so I'm not working on anything except this newsletter. Grant application due Monday morning, though.
+**Working:** It's Thanksgiving weekend, so I'm not working on anything except this newsletter. Grant application due Monday morning, though.
 
-Recently released: The *American Religious Ecologies* team has [released our website](http://religiousecologies.org), which explains what we are doing with the 1926 Census of Religious Bodies.
+**Recently released:** The *American Religious Ecologies* team has [released our website](http://religiousecologies.org), which explains what we are doing with the 1926 Census of Religious Bodies.

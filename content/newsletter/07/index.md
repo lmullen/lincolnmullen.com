@@ -4,9 +4,10 @@ date: "2020-11-02"
 slug: 7
 draft: false
 tags:
-- newsletter
 - DataScribe
-- Current Research in Digital History
+- RRCHNM
+- digital history
+- scholarly publishing
 ---
 
 Greetings. Sorry it's been a while, but welcome back to *Working on It*.
@@ -35,7 +36,7 @@ We've recently changed our publication model ([details here](https://rrchnm.org/
 
 ----------------
 
-### Brief book note
+## Brief book note
 
 I've probably recommended Tara Isabella Burton's [*Strange Rites: New Religions for a Godless World*](https://www.publicaffairsbooks.com/titles/tara-isabella-burton/strange-rites/9781541762510/) to more people than any book I've read in a long time. Partly that is because her compelling descriptions of contemporary religious phenomena---living theater, Harry Potter fandom, witchcraft, wellness movements like SoulCycle, sexual utopianism---that are almost entirely off my radar as a scholar. (Some of you might add, rather unkindly, that they are also  remote from my own unfashionable experiences.) Unless you are a twenty-something Brooklynite or denizen of San Francisco who regularly attends spin class, writes fan fiction, and has a rewards card to Goop, I am willing to bet you are going to learn a lot from this book.
 
@@ -45,7 +46,7 @@ But to be honest, what really captivated me about this book was what I took to b
 
 --------------------------
 
-### Random screenshot
+## Random screenshot
 
 Not so random, but here are a few screenshots from DataScribe.
 
@@ -58,14 +59,14 @@ Not so random, but here are a few screenshots from DataScribe.
 
 ---------------------
 
-### Updates
+## Updates
 
-Working: Made some substantial progress on the interactive visualizations for *America's Public Bible*. Also, did I mention that I've been writing a lot of grants?
+**Working:** Made some substantial progress on the interactive visualizations for *America's Public Bible*. Also, did I mention that I've been writing a lot of grants?
 
-Reading: Zev Eleff's [*Authentically Orthodox: A Tradition-Bound Faith in American Life*](https://www.wsupress.wayne.edu/books/detail/authentically-orthodox). Whether you come to this book because you care about the history of American Judaism or because you want to understand how religious "traditions" works in America, this is a heck of a book. 
+**Reading:** Zev Eleff's [*Authentically Orthodox: A Tradition-Bound Faith in American Life*](https://www.wsupress.wayne.edu/books/detail/authentically-orthodox). Whether you come to this book because you care about the history of American Judaism or because you want to understand how religious "traditions" works in America, this is a heck of a book. 
 
-Listening: All Johnny Cash, all the time.
+**Listening:** All Johnny Cash, all the time.
 
-Playing: I bought a guitar and I'm starting to learn. See previous item. 
+**Playing:** I bought a guitar and I'm starting to learn. See previous item. 
 
-Watching: I started [*Ted Lasso*](https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy) grudgingly and then loved it.
+**Watching:** I started [*Ted Lasso*](https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy) grudgingly and then loved it.

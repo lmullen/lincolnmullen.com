@@ -3,13 +3,14 @@ title: 'From the Rivers of Water to the River of Dark Dreams'
 date: "2013-12-01"
 slug: 'from-the-rivers-of-water-to-the-river-of-dark-dreams'
 description: "Clarke's *By the Rivers of Water* is a masterwork of personal narrative history; comparing it to Johnson's abstract *River of Dark Dreams* reveals what religious history has yet to reckon with."
-tags:
-- American religious history
-- book reviews
 draft: false
 crosspost:
   url: "http://usreligion.blogspot.com/2013/12/from-rivers-of-water-to-river-of-dark.html"
   source: "Religion in American History"
+tags:
+- American religious history
+- book reviews
+- slavery
 ---
 
 As Erskine Clarke begins his most [recent book](https://www.amazon.com/dp/0465002722/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=0465002722&adid=1Q8CTK31XEYMHJTSCGWZ&), Paul, a slave, looks from a rice plantation across the Savannah River to the busy docks of the city of Savannah. Clarke describes life on the plantation and in the city for Paul, a carpenter, as Paul worried whether he would be sold away from the Bayard family that owned him and the other slaves on Hamilton Island. It is not until the end of the second chapter that we learn what has troubled Paul: the soon-to-be minister John Leighton Wilson's arrival in Savannah in 1832 and engagement to Jane Bayard, the woman for whom Paul was owned in trust. In a master stroke of suspense, Clarke thus manages to introduce his readers to the intertwined lives of several of the main people in his narrative.

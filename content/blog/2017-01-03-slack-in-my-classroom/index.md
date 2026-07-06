@@ -3,9 +3,10 @@ title: Slack in my classroom
 date: "2017-01-03"
 slug: 'slack-in-my-classroom'
 description: "Slack for graduate digital history courses eliminates nearly all email and makes peer help easy, but the cost is feeling obligated to respond at all hours."
+draft: false
 tags:
 - teaching
-draft: false
+- digital history
 ---
 
 For several semesters now, I've used [Slack](https://slack.com/) for my graduate courses in digital history. (Here's a good [introduction to Slack](http://www.zachwhalen.net/posts/notes-on-teaching-with-slack/) for teaching.) Judging by what the students tell me and what they write on the student evaluations, nothing I've done as a teacher has been as universally popular. Students appreciate a way to get detailed help from me quickly. Students seem to be less reluctant to ask questions when they can see that other people are asking questions, and when the answer is public for everyone's benefit. And I can tell from the reports Slack sends that they use Slack to talk to one another.

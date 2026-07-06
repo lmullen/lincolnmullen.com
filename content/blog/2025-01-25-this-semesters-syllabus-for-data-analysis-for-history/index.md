@@ -2,15 +2,14 @@
 title: "This semester's syllabus for Data Analysis for History"
 date: "2025-01-25T16:10:21-05:00"
 slug: "this-semesters-syllabus-for-data-analysis-for-history"
-description: "A complete rethinking of a decade-old course: replacing an R-centric approach with Observable Plot, PostgreSQL, and Go—and embracing generative AI as a teaching tool."
+description: "A complete rethinking of a decade-old course: replacing R with Observable Plot, PostgreSQL, and Go, while embracing generative AI as a teaching tool."
 draft: false
-# newsletter: true
-# tags:
-# - 
-# crosspost: 
-#   url: ""
-#   source: ""
-# linkpost: ""
+tags:
+- teaching
+- computational history
+- digital history
+- data visualization
+- JavaScript
 ---
 
 I've posted my [syllabus](/courses/data.2025/) for this semester's iteration of Data Analysis for History. I've been teaching this course for over a decade. (Previous iterations: [2014](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf), [2016](https://files.lincolnmullen.com/syllabi/data-dh.2016.pdf), [2017](https://files.lincolnmullen.com/syllabi/clio2.2017.pdf), [2018](/courses/clio2.2018/), [2019](/courses/clio2.2019/), [2020](/courses/data.2020/), [2023](/courses/data.2023/).) This is the first time I have totally re-thought the syllabus, rather than iteratively improved it.

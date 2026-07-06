@@ -1,16 +1,15 @@
 ---
 date: '2026-02-28T16:15:58-05:00'
 slug: '2026-02-28-16-15-58'
-feedid: '/micro/2026-02-28-16-15-58/'
 linkpost: https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/
 image: "2026-02-28-16-11-52.jpg"
 description: "Alexandra Miller traces the public history of Seneca Village through the Roy Rosenzweig papers, connecting the recently awarded Envisioning Seneca Village digital project to RRCHNM founder Roy Rosenzweig's own scholarship on Central Park."
+draft: false
 social:
   bluesky: "The AHA/Roy Rosenzweig Prize went to Envisioning Seneca Village this year. RRCHNM's founder also wrote about Seneca Village, and Alexandra Miller dug into the Rosenzweig papers to trace the connections. https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/"
   mastodon: "The Roy Rosenzweig Prize for Creativity in Digital History went to Envisioning Seneca Village, a project that uses 3D models to study a majority Black community demolished to build Central Park. RRCHNM's founder Roy Rosenzweig wrote about Central Park and Seneca Village. Alexandra Miller went into the Rosenzweig papers at GMU and wrote up the full story. https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/"
   linkedin: |
     One of the more enjoyable parts of leading RRCHNM is getting to chair the committee that selects the winner of the Roy Rosenzweig Prize for Creativity in Digital History. This year the prize went to Envisioning Seneca Village. Seneca Village was a mixed race but majority Black community located on what became the site of Central Park in New York City. The village was demolished to make way for the park in 1857. The digital project uses 3D models to show what the village looked like before its demise.
-
     The creators of the project were not the first digital historians to look at Seneca Village. RRCHNM's founder and his co-author Elizabeth Blackmar wrote about Central Park and Seneca Village in The Park and the People (Cornell University Press, 1992). So I sent one of our PhD students to the GMU archives to see what she could find in the Roy Rosenzweig papers. Alexandra Miller wrote this detailed and well-researched account of the public history of Seneca Village. https://rrchnm.org/news/lost-in-the-park-roy-rosenzweigs-public-history-legacy/
 ---
 

@@ -1,13 +1,15 @@
 ---
 title: Exploring elections for Massachusetts governor in the early republic
+featured: true
 date: "2015-01-12"
 slug: 'exploring-elections-for-massachusetts-governor-in-the-early-republic'
 description: "Using New Nation Votes data to map and chart Massachusetts gubernatorial elections from 1787 to 1824, tracing the rise and fall of Federalist dominance town by town."
+draft: false
+image: ma-gov.png
 tags:
 - digital history
 - data visualization
-draft: false
-image: ma-gov.png
+- spatial history
 ---
 
 The [New Nation Votes](http://elections.lib.tufts.edu/) database (NNV) offers election returns from the early American republic collected by Philip Lampi and digitized by Tufts University and the American Antiquarian Society. Several scholars writing in a 2013 issue of the *Journal of the Early Republic* have tackled questions such as voter turnout and measures of party competitiveness (Brooke), the resurgence of the Federalists after 1808 (Lampi), the expansion of the franchise (Ratcliffe), and families and the turnover of congressmen (Zagarri). My aim is much more preliminary: to see what kind of analysis, in particular mapping, might be done with the dataset.[^1] I have wanted to explore this dataset for some time, so here is a preliminary investigation into the Massachusetts gubernatorial elections up to 1824.
@@ -48,7 +50,7 @@ In 1823, Otis maintained some of the Federalist strength in western Massachusett
 
 These maps show comparatively little of the split between "blue" cities and "red" country that we are accustomed to in modern electoral maps. This is hardly surprising, since mass urbanization happened much later. But what is surprising in these few maps is how close the vote was in many towns. The line between Federalists and Democratic-Republicans did not run between towns but through them. Elections were highly competitive at the state level, but that competition was also reflected in most towns.[^7] There is a lot more work to do, including figuring out a better way of representing votes by town, creating maps for all the Massachusetts gubernatorial elections, extending the analysis to other states and other types of elections, and taking on questions such as voter turnout and changing patterns of votes within particular towns.
 
-#### Appendix
+## Appendix
 
 If you would like to look up a particular election or candidate, use the table below.
 

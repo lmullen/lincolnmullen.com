@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hugo",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "hugo serve --port \"${PORT:-2323}\" --disableFastRender"],
+      "port": 2323,
+      "autoPort": true
+    }
+  ]
+}

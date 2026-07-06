@@ -3,10 +3,10 @@ title: 'A confirmation of Andrew Goldstone on "Teaching Quantitative Methods"'
 date: "2017-02-08"
 slug: 'a-confirmation-of-andrew-goldstone-on-teaching-quantitative-methods'
 description: "A response to Goldstone on teaching quantitative methods, confirming that methodology matters more than programming and that digital history still lacks good models for argumentation."
+draft: false
 tags:
 - digital history
 - teaching
-draft: false
 ---
 
 At his blog, Andrew Goldstone has [posted a pre-print](https://andrewgoldstone.com/blog/ddh2018preprint/) of his essay on "Teaching Quantitative Methods: What Makes It Hard (in Literary Studies)" for the forthcoming *Debates in DH* *2018*. It's a "lessons learned" essay from one of his courses that is well worth reading if you're teaching or taking that kind of a course in a humanities discipline. This semester I'm teaching my fourth course that fits into that category (fifth, if you count DHSI), and I can co-sign nearly everything that Goldstone writes, having committed many of the same mistakes and learned some of the same lessons. (Except over time I've relaxed my \*nix-based fundamentalism and repealed my ban on Windows.) Here is a response to Goldstone's main points.

@@ -1,74 +1,49 @@
 {{ define "main" }}
-<div class="container-fluid">
+<div class="blog-layout">
+  <div>
+    <h1 class="visually-hidden">{{ .Title }}</h1>
+    {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
+    <div class="shead"><span class="lbl">The Blog</span></div>
 
-  {{ .Content }}
+    {{ range (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages }}
+    <article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
 
-  <div class="row gx-5">
-    <div class="col-md-3 order-md-2">
-      {{ partial "blog-nav" . }}
-    </div>
-    <div class="col-md-9 order-md-1 blog-list pt-5">
+      {{ partial "post-metaline.html" . }}
 
-      {{ range (.Paginate (where $.Site.RegularPages "Section" "in" (slice "blog" "newsletter"))).Pages }}
+      {{ if .Title }}
+      <a class="ptitle p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+      {{ else }}
+      <h2 class="visually-hidden">Post from {{ .Date.Format site.Params.dateForms.long }}</h2>
+      {{ end }}
 
-      <!-- Blog post starts here -->
+      <div class="pbody e-content">
+        {{ if findRE `<!--more-->` .RawContent }}
+        {{/* Strip footnote markers: the summary cuts off before the footnote
+             bodies, so the markers would link to anchors that exist only on
+             the post's own page. */}}
+        {{ replaceRE `<sup id="[^"]*fnref[^"]*".*?</sup>` "" .Summary | safeHTML }}
+        {{ partial "read-more.html" . }}
+        {{ else }}
+        {{ .Content }}
+        {{ end }}
+      </div>
 
-      <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
-
-        <header>
-          {{ if (eq .Section "newsletter") }}
-          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
-            <h2 class="post-title p-name">
-              Working on It #{{ .Slug }}: {{ .Title | markdownify }}
-            </h2>
-          </a>
-          {{ else if .Title }}
-          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
-            <h2 class="post-title p-name">
-              {{ .Title | markdownify }}
-            </h2>
-          </a>
-          {{ end }}
-        </header>
-
-        {{ if .Params.Crosspost }}
-        <div class="external-url alert alert-primary my-4" role="alert">
-          This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the original post.&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
-        </div>
-        {{ end}}
-
-        <div class='post-body e-content mt-2'>
-          {{ if findRE `<!--more-->` .RawContent }}
-          {{ .Summary }}
-          <p class="my-5"><strong><a href="{{ .RelPermalink }}">Read the entire post</a>&nbsp;<i class="bi bi-arrow-right"></i></strong></p>
-          {{ else }}
-          {{ .Content }}
-          {{ end }}
-        </div>
-
-        <footer class="post-footer text-muted text-end mt-4">
-          {{ partial "via" . }}
-          <a href="{{ .Permalink }}" class="permalink text-muted" title="Permalink">
-            <i class="bi bi-link-45deg" aria-hidden="true"></i>
-            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
-              {{ .Date.Format "January 2, 2006" }}
-            </time>
-            <p class="d-none">by <a rel="author" class="p-author h-card" href="{{ .Site.BaseURL }}">Lincoln Mullen</a></p>
-          </a>
-        </footer>
-
-      </article>
-      <!-- Blog post ends here -->
-
-      <div class="post-separator">
-        <hr class="border-1 opacity-10">
+      {{ if or .Params.Linkpost .Params.via .Params.Crosspost }}
+      <div class="affline">
+        {{ with .Params.Linkpost }}<a class="aff" href="{{ . }}"><span class="afk">Link</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
+        {{ with .Params.via }}<a class="aff" href="{{ . }}"><span class="afk">Via</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
+        {{ with .Params.Crosspost }}<a class="aff" href="{{ .URL }}"><span class="afk">Crossposted</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ .Source }}</span></a>{{ end }}
       </div>
       {{ end }}
-      {{ partial "pagination.html" . }}
-    </div>
+
+      {{ partial "post-microformats.html" . }}
+
+    </article>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
   </div>
+
+  <aside class="sidebar">{{ partial "blog-nav" . }}</aside>
 </div>
-
-
-
 {{ end }}

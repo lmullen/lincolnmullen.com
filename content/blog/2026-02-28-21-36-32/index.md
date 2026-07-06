@@ -1,10 +1,11 @@
 ---
 date: '2026-02-28T21:36:32-05:00'
 slug: '2026-02-28-21-36-32'
-feedid: '/micro/2026-02-28-21-36-32/'
 draft: false
 aliases:
-  - /micro/2026-02-28-09-36-32/
+  # The _redirects wildcard rewrites /micro/* to /blog/* before Hugo aliases
+  # are served, so the alias for the old 12-hour-clock URL must live at /blog/.
+  - /blog/2026-02-28-09-36-32/
 linkpost: https://www.terrygodier.com/phantom-obligation
 via: https://daringfireball.net/linked/2026/02/25/godier-phantom-obligation
 description: "A response to Terry Godier's essay arguing that RSS readers create a false sense of obligation by borrowing the email client interface, and a brief review of his new RSS reader app."

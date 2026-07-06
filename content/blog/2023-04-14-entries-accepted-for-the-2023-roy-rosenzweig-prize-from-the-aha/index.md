@@ -4,14 +4,9 @@ date: "2023-04-14T11:32:06-04:00"
 slug: "entries-accepted-for-the-2023-roy-rosenzweig-prize-from-the-aha"
 description: "The AHA and RRCHNM are accepting entries for the 2023 Roy Rosenzweig Prize for Creativity in Digital History, a $4,000 award for freely available new media projects. Due May 15."
 draft: false
-# newsletter: true
 tags:
-- AHA
 - digital history
-# crosspost: 
-#   url: ""
-#   source: ""
-# linkpost: ""
+- RRCHNM
 ---
 
 The American Historical Association is [accepting entries](https://www.historians.org/awards-and-grants/awards-and-prizes/roy-rosenzweig-prize) for the 2023 Roy Rosenzweig Prize for Creativity in Digital History. 

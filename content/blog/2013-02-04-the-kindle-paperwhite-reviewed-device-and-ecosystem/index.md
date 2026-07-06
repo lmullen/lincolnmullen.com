@@ -3,13 +3,12 @@ title: 'The Kindle Paperwhite reviewed: device and ecosystem'
 date: "2013-02-04"
 slug: 'the-kindle-paperwhite-reviewed-device-and-ecosystem'
 description: "A full review of the Kindle Paperwhite—device, DRM-laden ecosystem, and all—by a historian who stayed out of e-books for years and came away cautiously converted."
-tags:
-- technology
-- reading
 draft: false
 crosspost:
   url: "http://chronicle.com/blogs/profhacker/the-kindle-paperwhite-reviewed-device-and-ecosystem/45683"
   source: "ProfHacker"
+tags:
+- tools
 ---
 
 A few weeks ago I did something which surprised my wife, and which surprised me: I bought a [Kindle Paperwhite](https://www.amazon.com/dp/B007OZNZG0/ref=as_li_ss_til?tag=backwardglance-20&camp=0&creative=0&linkCode=as4&creativeASIN=B007OZNZG0&adid=0GS31AKP7HCFR0AN3EW1&). Even more surprising, I like the Kindle a lot, and I find myself doing most of a certain kind of reading on the Kindle.

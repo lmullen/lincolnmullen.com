@@ -3,10 +3,9 @@ title: 'Why there are so few books on African Americans as evangelicals'
 date: "2013-02-07"
 slug: 'why-there-are-so-few-books-on-african-americans-as-evangelicals'
 description: "Miles Mullin explains why the NAE's avoidance of race and African Americans' own solidarity across doctrinal lines in the civil rights movement left Black evangelicalism understudied."
-tags:
-- religion
-- historiography
 draft: false
+tags:
+- American religious history
 ---
 
 One of the most interesting and important questions in the history of evangelicalism is why African Americans who share many of the same doctrines and practices as evangelicals have not been studied as evangelicals. In other words, why does race trump religion as an identity, and is does this divide reflect the history or the practices of historians? I first came across this question in the work of [Ed Blum](http://www-rohan.sdsu.edu/dept/histweb/faculty_and_staff/faculty_bios/e_blum.htm) and [Paul Harvey](http://paulharvey.org/). In the past couple weeks [John Fea](http://www.philipvickersfithian.com/) has asked "[Where are the Studies of Twentieth-Century Black Evangelicalism](http://www.patheos.com/blogs/anxiousbench/2013/01/where-are-the-studies-of-twentieth-century-black-evangelicalism/)," providing a preliminary list of literature in that post and in a [follow-up post](http://www.patheos.com/blogs/anxiousbench/2013/01/more-on-the-history-black-evangelicalism-in-america/).

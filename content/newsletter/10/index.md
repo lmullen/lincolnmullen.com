@@ -4,10 +4,11 @@ date: "2021-03-08"
 slug: 10
 draft: false
 tags:
-- newsletter
 - Collecting These Times
 - Pandemic Religion
 - American Religious Ecologies
+- America's Public Bible
+- RRCHNM
 ---
 
 Hi folks. It has been a hectic couple of months since last I wrote. By a curious confluence of events, in the past week or two a number of lines of work have come to fruition, while others have just gotten started. (Almost all of this work is done in collaboration with my colleagues at [RRCHNM](https://rrchnm.org). Credit where credit is due, but you'll have to click through to see all the contributors to these projects.) 
@@ -52,20 +53,20 @@ We need to send the final version back to the journal this week, but Stephen Rob
 
 ------------------
 
-### We're hiring
+## We're hiring
 
 RRCHNM is hiring a full-stack web developer. Here is the [job ad](https://jobs.gmu.edu/postings/49698). We are doing exciting new things, especially with data and computational history, but building on our existing strengths in public history. We are a great place to work, and we hope that whoever we hire will be a developer-scholar and a real partner in our work. I'm chairing the search, and if this position at all interests you, feel free to reach out. I'd also be grateful if you could pass this along to anyone you know who might be interested.
 
 ------------------
 
-### Updates
+## Updates
 
-Listening: Spotify playlists for country music by decade.
+**Listening:** Spotify playlists for country music by decade.
 
-Working: See above.
+**Working:** See above.
 
-Playing: Learning the chords for "[The Man in Black](https://www.youtube.com/watch?v=oDd32K-mOVw)."
+**Playing:** Learning the chords for "[The Man in Black](https://www.youtube.com/watch?v=oDd32K-mOVw)."
 
-Reading: Walter Isaacson, _Steve Jobs_. Do any of you have favorite examples of the biographer's art that I should read? Feel free to reply and let me know.
+**Reading:** Walter Isaacson, _Steve Jobs_. Do any of you have favorite examples of the biographer's art that I should read? Feel free to reply and let me know.
 
-Subscribing: My friend Jason Heppler is [starting a newsletter](https://jasonheppler.substack.com/p/introducing-breve) on "digital humanities, cities, data, design, libraries, climate, data visualization, art, the environment." You should subscribe too.
+**Subscribing:** My friend Jason Heppler is [starting a newsletter](https://jasonheppler.substack.com/p/introducing-breve) on "digital humanities, cities, data, design, libraries, climate, data visualization, art, the environment." You should subscribe too.

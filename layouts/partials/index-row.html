@@ -1,0 +1,10 @@
+{{- /* One date + title row for compact post indexes (related posts, newsletter
+       archive, blog archive). Call with a dict:
+         page     the page to link
+         dateForm display format, usually one of site.Params.dateForms
+         prefix   optional string prepended to the title */ -}}
+{{- $p := .page -}}
+<div class="idx-row">
+  <time class="idx-date" datetime="{{ $p.Date.Format site.Params.dateForms.machine }}">{{ $p.Date.Format .dateForm }}</time>
+  <a class="idx-title" href="{{ $p.RelPermalink }}">{{ with .prefix }}{{ . }}{{ end }}{{ $p.RenderString (dict "display" "inline") $p.Title }}</a>
+</div>

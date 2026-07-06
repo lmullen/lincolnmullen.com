@@ -3,10 +3,10 @@ title: 'Using a global Rakefile with Pandoc'
 date: "2014-02-05"
 slug: 'using-a-global-rakefile-with-pandoc'
 description: "A global Rakefile in ~/.rake makes Pandoc PDF generation available in any directory without copying boilerplate into every project folder."
-tags:
-- Rake
-- Pandoc
 draft: false
+tags:
+- tools
+- Ruby
 ---
 
 I wrote a post a while ago about [how to use Rake to automate the process of building PDFs using Pandoc](http://lincolnmullen.com/blog/rake-and-pandoc/). The idea is that you drop the Rakefile into each project that has Markdown files, and by running `rake pdfs` you can generate the PDFs without typing long and awkward Pandoc commands. It works great.

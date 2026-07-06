@@ -1,14 +1,16 @@
 ---
 title: 'Detecting text reuse in nineteenth-century legal documents'
+featured: true
 date: "2015-03-11"
 slug: 'detecting-text-reuse-in-legal-documents'
 description: "A collaboration with Kellen Funk to detect and visualize how New York's Field Code of civil procedure spread to other states through text reuse in legal documents."
+draft: false
+image: ca1851-density.jpg
 tags:
 - digital history
 - text analysis
 - legal history
-draft: false
-image: ca1851-density.jpg
+- Legal Modernism
 ---
 
 {{< figure src="ddfield.jpg" caption="David Dudley Field, leading member of the New York commission that drafted the Field Code of 1850. Image from the New York Public Library." >}}
@@ -23,7 +25,7 @@ How can you track changes in the law of nearly every state in the United States 
 - [Density Plots: Predicting the Influence of One Jurisdiction's Code on Another's](http://kellenfunk.org/field-code/density-plots/)
 - [Network Analysis: Finding the Regional Influences of Codification](http://kellenfunk.org/field-code/network-analysis/)
 
-### The question stated
+## The question stated
 
 After the American Revolution, almost all states were common law jurisdictions. Beginning in the 1840s, legal reformers, led most prominently by the New York attorney David Dudley Field, attempted to revolutionize legal practice by preparing codes of civil procedure. For civil cases these codes did away with common law ways of bringing lawsuits and running trials and instead offered a simplified, rationalized, supposedly democratic way of conducting lawsuits. The first such code was submitted by a three-man commission to the New York state legislature in 1848. In 1850 the legislature enacted a revised version, commonly called the Field Code. Other states followed suit and codified their civil procedure. As Kellen [writes](http://kellenfunk.org/field-code/the-influence-of-the-field-code-an-introduction/):
 
@@ -35,7 +37,7 @@ This has the makings of a classic digital history problem. To begin with, the co
 
 And most important, there is a real historical payoff to doing digital work on these codes. Legal historians have long known about the Field Code in New York; they have also long known that other states emulated that code. No one, however, has figured out exactly which parts of which codes were borrowed and whether states adapted their codes from states other than New York.[^2] In other words, this project is also a classic problem of historical revisionism, whereby an accepted historical narrative is made considerably more complex. And, as I'll report below, we have indeed found that the relationships between state legal codes is more complex than previously argued.
 
-### An example borrowing
+## An example borrowing
 
 But first, let's look at one instance of the kinds of borrowings that we are trying to detect in order to see what the potential difficulties are. For this example, I'll show one place where California's 1851 code of civil procedure borrowed from New York's 1850 code. Keep in mind that California was admitted as a state in September 1850, so in 1851 it was revising its code of civil procedure for the first time as a state.
 
@@ -69,7 +71,7 @@ The borrowing is obvious, but variations make it complicated to detect the simil
 
 So the challenge is to figure out how to detect these borrowings at a large scale, both identifying which codes were most likely to be derived from others and also identifying which sections in particular were borrowed. This project is thus similar in purpose and method, though rather different in content, to the *[Viral Texts](http://viraltexts.org/)* project created by Ryan Cordell, Elizabeth Maddock Dillon, David Smith, Abby Mullen, Peter Roby, Kevin Smith, and Matthew Williamson to detect communities of reprinting in nineteenth-century newspapers.
 
-### Using n-grams to detect borrowings
+## Using n-grams to detect borrowings
 
 For our test run of the project we started with 61 codes, which comprise some ten thousand pages and four million words. This is only a middling-sized dataset, compared to some, but it is still nothing to sneeze at. Our first priority in investigating this corpus of civil procedures codes was to figure out whether we could detect (and visualize) where borrowings occurred between codes. Like the *Viral Texts* team (and many other people doing the same kind of work), we use n-grams to break the text into small chunks in order to detect reuse.[^5]
 
@@ -103,7 +105,7 @@ However, I don't want you to look at that plot in isolation. Instead, compare it
 
 Just as we chose the California 1851 code because we knew it borrowed from New York, we also chose the 1853 Michigan code because knew it did *not* borrow from New York. And that is what the two plots show: California borrows heavily and Michigan borrows hardly at all. The noise in the Michigan plot is what we would expect. All of these codes are formulaic documents using a highly specialized (and verbose) vocabulary, so it is not surprising that there are phrases of even five words that occasionally show up in both codes. Exactly how reliable this method remains to be determined precisely, and of course these plots could be improved. But these plots do provide persuasive, if pragmatic, evidence that this method works: we can detect which codes borrow and which codes do not. Furthermore, by writing a kind of [keywords in context](http://en.wikipedia.org/wiki/Key_Word_in_Context) function, we were able to spot check the matches to see that they were in fact significant borrowings of meaningful length.[^7]
 
-### Visualizing the network of borrowings
+## Visualizing the network of borrowings
 
 Once we were sure that we could usefully detect matches between codes, we wanted to get an overview of our entire corpus.[^8] To do this, we reduced the relationship between each code to a single number expressing the degree to which code B borrowed from code A. We tried this several ways. The simplest way is to figure out whether a given n-gram in code B also occurs in code A, then to calculate the proportion of matches to the total number of n-grams. We have to experiment further with this. Another way is was to calculate the ratio between the unique number of five-grams in both codes and the unique number of the five-grams in the destination code. This gives us a single number between 0 and 1 for each combination of codes.[^9] Conceptually, this is equivalent to the proportion of the destination code that is borrowed from the origin code. So for example the California 1851 code above has a score of .387 when compared to the New York 1850 code: a significant proportion of the California code was borrowed from the New York code. When a code is compared to itself, the pairing gets a score of 1, i.e., they are a perfect match. Two codes in which there were absolutely no borrowings would receive a score of 0. For comparison, when the Michigan 1853 is compared to New York 1850 (as plotted above) it receives a score of .032.
 
@@ -140,7 +142,7 @@ The network graph below extracts the largest family of codes that were related t
 
 {{< figure src="code-family-s25.svg" caption="The largest family of codes which borrowed from one another (weight ≥ .25)." >}}
 
-### Preliminary findings and next steps
+## Preliminary findings and next steps
 
 Our most significant findings so far both confirms and modifies the existing interpretations of the codification movement. The New York 1850 code, the original Field Code, was indeed the most important of the codes of civil procedure. But the NY 1850 code was only weakly to moderately related to its derivatives. Its significance was not in providing the model for each of the codes of civil procedure that followed. Rather, the Field Code provided the model for several regional families of codes. The Field Code, for instance, strongly influenced the California 1851 code. But the California 1851 code provided the archetype for a set of codes in the Western states. Utah, Montana, Arizona, Nevada, Colorado, and Idaho borrowed their codes almost entirely from California's. Other regional borrowings can be detected. North Carolina in 1868 borrowed from New York's 1849 code (an earlier version of the 1850 code), and Florida and South Carolina in 1870 borrowed from North Carolina. In 1862 Oregon borrowed from New York's 1850 code, and in 1900 Alaska borrowed from Oregon. The story is not that states adopted the Field Code, but that the first or more important state in each region used the Field Code as a model, and then the other states crafted codes from local models that worked for the particular needs and conditions of those places.
 
@@ -150,7 +152,7 @@ On that last point. We are at the stage in the project where we have proven (to 
 
 Finally, two tentative further steps. First, it may prove worthwhile to create an interactive web version of some of these visualizations, and perhaps of a "code browser," in order to permit others to explore these borrowings for themselves. Whether there would be enough interest to justify the expense of time we have not yet determined. And second, we think this method is more broadly applicable to the field of legal history. We hope that readers of these posts might offer some critiques of our methods. Eventually we plan to write up our methods in a more formal way, as well as to extend our work to legislative borrowings more broadly.
 
-#### Appendix: check our work
+## Appendix: check our work
 
 All the code for this project is [available on GitHub](https://github.com/lmullen/civil-procedure-codes). In the `text` directory of that repository you can find the plain-text versions of all the codes that we have OCRed, if you wish to run your own analysis. See also Kellen's [American Legislation Project](http://kellenfunk.org/legislation/), which gathers the available scanned versions of the published codes. Several RPubs files ([1](http://rpubs.com/lmullen/24393), [2](http://rpubs.com/lmullen/24527), [3](http://rpubs.com/lmullen/24776), [4](http://rpubs.com/lmullen/24945), [5](http://rpubs.com/lmullen/52960)) show the earlier stages of our investigation. I'm not really proud of some of the code in those documents, but this is as close to [open notebook history](http://wcm1.web.rice.edu/open-notebook-history.html) as we can get. We will of course improve the code as we go.
 

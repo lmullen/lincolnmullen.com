@@ -5,10 +5,9 @@ slug: 'ghostery-on-your-machine-stop-sites-from-tracking-you'
 description: "Ghostery and similar tools can block the tracking scripts, analytics pixels, and ad networks that follow you across the web—here's how to use them."
 aliases:
 - /blog/ghostery-in-the-machine/
-tags:
-- privacy
-- technology
 draft: false
+tags:
+- tools
 ---
 
 *[This is a preview of a post that will appear at [ProfHacker](http://chronicle.com/blogs/profhacker/) next week. I've been on a long ProfHacker hiatus to write other things, but Internet privacy is sufficiently important to me to make an exception.]*

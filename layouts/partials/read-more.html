@@ -1,0 +1,4 @@
+{{- /* "Read the entire post" action link. Shared by the blog index and the
+       featured page so the two render identically. Call with the page context:
+       {{ partial "read-more.html" . }} */ -}}
+<a class="rm" href="{{ .RelPermalink }}">Read the entire post <i class="bi bi-arrow-right"></i></a>

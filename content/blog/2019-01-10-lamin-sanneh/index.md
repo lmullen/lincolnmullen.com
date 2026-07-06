@@ -3,10 +3,9 @@ title: 'Lamin Sanneh (1942–2019)'
 date: "2019-01-10"
 slug: 'lamin-sanneh'
 description: "A tribute to Lamin Sanneh, whose insight that indigenous peoples transform Christianity beyond missionaries' intentions reshaped the study of world Christianity."
-tags:
-- world Christianity
-- history of Christianity
 draft: false
+tags:
+- history of Christianity
 ---
 
 [Lamin Sanneh](https://divinity.yale.edu/news/professor-lamin-sanneh-1942-2019):

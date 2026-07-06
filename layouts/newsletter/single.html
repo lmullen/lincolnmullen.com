@@ -1,76 +1,21 @@
 {{ define "main" }}
+<div class="blog-layout">
+  <div>
+    <article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
 
-<div class="container-fluid">
-  <div class="row gx-5">
-    <div class="col-md-3 order-2">
-      {{ partial "blog-nav" . }}
-    </div>
-    <div class="col-md-9 order-1 py-5">
+      <h1 class="stmt"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a></h1>
 
-
-      <article id='{{ urlize .Title }}' class="h-entry post">
-
-        <header>
-          <a href='{{ .Permalink }}' class="u-url u-uid permalink">
-            <h2 class="post-title p-name">
-              {{ .Site.Params.NewsletterTitle }} #{{ .Slug}}: {{ .Title | markdownify }}
-            </h2>
-          </a>
-
-          {{ if .Params.Crosspost }}
-          <div class="external-url mt-4 mb-4">
-            This post originally appeared at {{ .Params.Crosspost.Source |markdownify }}. <a href="{{ .Params.Crosspost.URL }}">Read the original post&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>
-          </div>
-          {{ end}}
-        </header>
-
-        <div class='post-body e-content mt-2 mb-5'>
-          {{ .Content }}
-        </div>
-
-
-        <footer class="post-footer text-muted mt-4">
-          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
-            <i class="bi bi-link-45deg" aria-hidden="true"></i>
-          </a>
-          Published:
-          <a href="{{ .Permalink }}" class="permalink" title="Local permalink">
-            <time class='post-date dt-published' datetime='{{ .Date.Format "2006-01-02T15:04:05Z0700" }}'>
-              {{ .Date.Format "January 2, 2006" }}.
-            </time>
-          </a>
-          Last modified: <time class='post-updated dt-updated' datetime='{{ time.Format "2006-01-02T15:04:05Z0700" .Lastmod }}'>{{ time.Format "January 2, 2006 at 03:04pm MST" .Lastmod}}</time>.<br>
-          <a rel="author" class="p-author h-card author-link d-none" href="{{ .Site.BaseURL }}">Lincoln Mullen</a>
-        </footer>
-
-      </article>
-
-
-      <div class="mt-5">
-        <p>Thanks for reading this issue of the newsletter. You can subscribe to get future issues.</p>
-        {{ partial "newsletter.html" (dict "tag" "newsletter-single") }}
+      <div class="reading bodyprose e-content">
+        {{ .Content }}
       </div>
 
-      <div class="mt-5 mb-4 prevnextlinks">
-        <h5>More newsletter issues</h5>
-        <div class="d-flex justify-content-between">
-          {{ if .NextInSection }}
-          <a class="text-start" href="{{.NextInSection.Permalink}}">
-            <i class="bi bi-arrow-left" aria-hidden="true"></i>&nbsp;#{{ .NextInSection.Slug}}:&nbsp;{{ .NextInSection.Title | markdownify }}
-          </a>
-          {{ end }}
-          {{ if .PrevInSection }}
-          <a class="text-end" href="{{.PrevInSection.Permalink}}">
-            #{{ .PrevInSection.Slug }}:&nbsp;{{ .PrevInSection.Title | markdownify }}&nbsp;<i class="bi bi-arrow-right" aria-hidden="true"></i>
-          </a>
-          {{ end }}
-        </div>
-      </div>
+      {{ partial "post-microformats.html" . }}
 
-    </div>
+    </article>
   </div>
-</div>
 
+  <aside class="rail">{{ partial "post-sidebar.html" . }}</aside>
+</div>
 {{ end }}
 
 {{ define "canonical" }}

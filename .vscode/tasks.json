@@ -38,27 +38,13 @@
       "problemMatcher": [ ]
     },
     {
-      "label": "New micro post",
-      "type": "shell",
-      "command": "./new-micro.sh",
-      "presentation": {
-        "echo": true,
-        "reveal": "always",
-        "focus": true,
-        "panel": "dedicated",
-        "showReuseMessage": false,
-        "clear": true
-      },
-      "problemMatcher": [ ]
-    },
-    {
       "label": "Clean up markdown",
       "type": "shell",
       "command": "tmpfile=$(mktemp) && pandoc \"${file}\" -t markdown --markdown-headings=atx --standalone --wrap=none -o \"$tmpfile\" && mv \"$tmpfile\" \"${file}\"",
       "options": {
         "shell": {
           "executable": "/bin/bash",
-          "args": ["-c"]
+          "args": [ "-c" ]
         }
       },
       "presentation": {

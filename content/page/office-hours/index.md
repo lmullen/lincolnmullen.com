@@ -19,4 +19,4 @@ booking an appointment.
 10401 York River Road, Fairfax, Virginia.
 
 **Zoom:**
-[My Zoom meeting room](https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09).
+[My Zoom meeting room](https://gmu.zoom.us/j/98102718795).

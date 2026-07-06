@@ -6,7 +6,7 @@
     <div class="shead"><span class="lbl">The Blog</span></div>
 
     {{ range (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages }}
-    <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
+    <article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
 
       {{ partial "post-metaline.html" . }}
 
@@ -18,7 +18,10 @@
 
       <div class="pbody e-content">
         {{ if findRE `<!--more-->` .RawContent }}
-        {{ .Summary }}
+        {{/* Strip footnote markers: the summary cuts off before the footnote
+             bodies, so the markers would link to anchors that exist only on
+             the post's own page. */}}
+        {{ replaceRE `<sup id="[^"]*fnref[^"]*".*?</sup>` "" .Summary | safeHTML }}
         {{ partial "read-more.html" . }}
         {{ else }}
         {{ .Content }}

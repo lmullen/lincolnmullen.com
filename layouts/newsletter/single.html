@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="blog-layout">
   <div>
-    <article id='{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
+    <article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
 
       <h1 class="stmt"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .RenderString (dict "display" "inline") .Title }}</a></h1>
 

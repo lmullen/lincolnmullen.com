@@ -1,5 +1,4 @@
 title: "Lincoln Mullen"
-description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
 
 mediaTypes:
   application/feed+json:
@@ -25,9 +24,12 @@ permalinks:
 
 markup:
   goldmark:
-    # extensions:
-    #   footnote:
-    #     enableAutoIDPrefix: true
+    # Requires Hugo >= 0.148; safe now that the Cloudflare build pins the same
+    # Hugo version as local dev (see wrangler.jsonc). Prevents duplicate
+    # footnote IDs when several footnoted posts share a list page.
+    extensions:
+      footnote:
+        enableAutoIDPrefix: true
     renderer:
       unsafe: true
   highlight:
@@ -39,6 +41,10 @@ imaging:
   quality: 85
 
 params:
+  # Site description: RSS/JSON feed channel description and the fallback for
+  # meta/OpenGraph descriptions. Must live under params (root-level keys are
+  # no longer copied into .Site.Params by current Hugo).
+  description: "Lincoln Mullen is a historian of American religion and the nineteenth-century United States."
   # Canonical date formats; reference as site.Params.dateForms.* so display
   # and machine-readable dates stay consistent across templates.
   dateForms:

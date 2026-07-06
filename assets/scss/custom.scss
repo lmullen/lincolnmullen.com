@@ -734,7 +734,17 @@ sup.footnote-ref {
   column-gap: 1.5rem;
 }
 .grid .it {
+  /* Atomic inline-block so WebKit can't fragment a card across the column
+     boundary — Safari splits multicol children mid-box into the next column
+     (it under-honors `break-inside: avoid`, worst during the reflow as lazy
+     cover images load in); Firefox renders it fine. An inline-block is
+     unbreakable in every engine; `width: 100%` keeps one card per column
+     row and `vertical-align: top` removes the inline baseline gap. */
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
   break-inside: avoid;
+  -webkit-column-break-inside: avoid;
   margin-bottom: 1.5rem;
 }
 .scard {

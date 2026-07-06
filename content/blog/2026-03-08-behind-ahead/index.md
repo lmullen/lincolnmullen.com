@@ -16,8 +16,6 @@ tags:
 - scholarly publishing
 ---
 
-## Behind
-
 Two months ago it dawned on me that I was behind. I hadn't been avoiding generative AI for my work. In fact I used it quite a bit. I would give Claude a database schema, and then ask natural language queries and copy and paste the SQL. When I taught students how to make visualizations, I showed them how to use a chatbot to debug their code. I certainly wasn't above getting a chatbot to generate the rough draft of any administrative summary I deemed nonsense.
 
 That probably made me a power user. At least, I thought so. But at [RRCHNM](https://rrchnm.org) we have the custom of spending a Friday early each semester eating pizza and experimenting collaboratively with some "new media" to see what we might be able to use it for. I'd vaguely been following along about agentic coding, so I decided we would spend that Friday vibe coding.[^1] In preparation, I installed [Claude Code](https://claude.com/product/claude-code) and spent an afternoon with it.
@@ -33,8 +31,6 @@ So it was humbling to type a few paragraphs into Claude Code and get back a work
 Has AI been over-hyped? I'm in no position to comment on its general impact on the global economy. But within my narrow world of digital history and computational humanities, this is a sea change. A disruption, as the tech bros put it. It took me about two days of experimenting to realize that my rare and valuable skill was still valuable but no longer rare. When we held the vibe coding event, I watched a first-year graduate student make an insightful map in an hour, a map that was at least as technically sophisticated as the one I had used in my job talk a decade earlier.
 
 Are there risks to using generative AI? Obviously. But it should be equally obvious that not using it will create huge missed opportunities to bring good digital scholarship into the world. That's a risk too, like leaving your money in cash instead of investing in stocks.
-
-## Ahead
 
 I'll miss writing code. I still do it---stubbornly, just because I want to. I'll probably write some code this week. I have this one computational project that contains only code written by one human, i.e., by me. I've mostly refused help on that project from anyone else capable of writing code because I wanted one project to myself where the computational thinking was all mine. I love the feeling of "[resistance in the materials](https://nowviskie.org/2013/resistance-in-the-materials/)," as Bethany Nowviskie discussed.[^3] But when I finish that code this week, that may very well mean goodbye. I'm sure I'll read and edit more code than ever. It just won't make sense for me to write it.
 

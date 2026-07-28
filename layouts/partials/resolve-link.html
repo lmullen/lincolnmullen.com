@@ -1,0 +1,20 @@
+{{/* Resolve a shortcode's link= value.
+
+A bare filename is looked up as a page resource and returned as a root-relative
+URL. Written verbatim it would be a document-relative href, which resolves only
+on the page's own permalink and 404s wherever else the content is rendered --
+the blog list page, which prints full .Content, and the RSS/JSON feeds.
+
+Anything already absolute (a URL, a site path, a fragment, mailto:) passes
+through untouched, as does a name matching no page resource.
+
+Takes a dict: "link" (the raw parameter value) and "page" (the shortcode's
+.Page). Returns a string, empty when no link was given, so that callers can
+still use `default` to fall back to the image itself. */}}
+{{ $link := .link | default "" }}
+{{ if and $link (not (or (strings.Contains $link "://") (hasPrefix $link "/") (hasPrefix $link "#") (hasPrefix $link "mailto:"))) }}
+	{{ with .page.Resources.Get $link }}
+		{{ $link = .RelPermalink }}
+	{{ end }}
+{{ end }}
+{{ return $link }}

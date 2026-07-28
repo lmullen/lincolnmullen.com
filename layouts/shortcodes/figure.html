@@ -2,17 +2,21 @@
 <figure class="fig">
 	{{ $raw := .Get "src" | $.Page.Resources.Get }}
 	{{ $ext := path.Ext (.Get "src") }}
-	{{ $link := .Get "link" }}
+	{{ $link := partial "resolve-link.html" (dict "link" (.Get "link") "page" .Page) }}
 	{{ if and (ne $ext ".gif") (ne $ext ".svg") }}
 	<a href="{{ $link | default $raw.RelPermalink }}">
 		{{ partial "responsive-image.html" (dict "res" $raw "width" 900 "class" "figimg" "alt" (.Get "caption" | markdownify | plainify)) }}
 	</a>
 	{{ else if eq $ext ".gif" }}
 	<!-- Don't process GIFs -->
-	<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
+	<a href="{{ $link | default $raw.RelPermalink }}">
+		<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
+	</a>
 	{{ else }}
 	<!-- Don't process SVGs (no intrinsic dimensions available) -->
-	<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
+	<a href="{{ $link | default $raw.RelPermalink }}">
+		<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "caption" | markdownify | plainify }}' />
+	</a>
 	{{ end }}
 	{{ if .Get "caption" }}
 	<figcaption class="figcap">{{ .Page.RenderString (dict "display" "inline") (.Get "caption") }}</figcaption>

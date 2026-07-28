@@ -8,7 +8,7 @@
 {{ $raw = $.Page.Resources.Get $src }}
 {{ end }}
 {{ $ext := path.Ext (.Get "src") }}
-{{ $link := .Get "link" }}
+{{ $link := partial "resolve-link.html" (dict "link" (.Get "link") "page" .Page) }}
 {{ $original := .Get "original" }}
 {{ if eq $ext ".svg" }}
 <!-- Don't process SVGs (no intrinsic dimensions available) -->

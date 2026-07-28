@@ -32,6 +32,15 @@ markup:
         enableAutoIDPrefix: true
     renderer:
       unsafe: true
+    # Resolve relative Markdown link destinations -- [syllabus](foo.pdf) -- against
+    # page resources, so they work when the content is rendered somewhere other
+    # than the page's own permalink (list pages, feeds). "auto", the default, does
+    # nothing on a monolingual site; "fallback" is what activates the embedded
+    # hook. Shortcode link= parameters are handled separately, in
+    # layouts/partials/resolve-link.html.
+    renderHooks:
+      link:
+        useEmbedded: fallback
   highlight:
     noClasses: false
     lineNos: false

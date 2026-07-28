@@ -68,6 +68,16 @@ $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
   --label-md: 0.74rem; /* eyebrows, nav, buttons, section-header links */
   --label-lg: 0.82rem; /* section-header labels */
 
+  /* Type scale — one value per voice, so the same content is the same size
+     everywhere. Body prose is NOT a token: it inherits the Bootstrap base
+     ($font-size-base 1.1875rem / $line-height-base 1.5 in variables.scss),
+     the single source of truth for running text. */
+  --h-title: 2.5rem; /* the title of the page/post you are viewing */
+  --h2: 1.5rem; /* in-body section heading (##) */
+  --h3: 1.2rem; /* in-body subsection (###) */
+  --h4: 1.05rem; /* #### and below */
+  --prose-sm: 0.98rem; /* secondary prose: captions, tables, footnotes, footer, citations */
+
   /* Vertical rhythm between homepage sections */
   --sp-section: 2.75rem;
 }
@@ -146,24 +156,26 @@ body {
 /* Typography */
 
 /* Headings */
+/* Fallback headings for un-wrapped article content; sizes drawn from the one
+   shared type scale so they never form a third competing system. */
 article h1 {
-  font-size: 2.4rem;
-  line-height: 1.15;
-  font-weight: 700;
+  font-size: var(--h-title);
+  line-height: 1.1;
+  font-weight: 600;
   margin-bottom: 0.3rem;
 }
 
 article h2 {
-  font-size: 1.65rem;
-  line-height: 1.25;
+  font-size: var(--h2);
+  line-height: 1.2;
   font-weight: 600;
   margin-top: 2.25rem;
   margin-bottom: 0.6rem;
 }
 
 article h3 {
-  font-size: 1.1rem;
-  line-height: 1.4;
+  font-size: var(--h3);
+  line-height: 1.3;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.4rem;
@@ -172,7 +184,7 @@ article h3 {
 article h4,
 article h5,
 article h6 {
-  font-size: 1rem;
+  font-size: var(--h4);
   line-height: 1.4;
   font-weight: 600;
   margin-top: 1.5rem;
@@ -259,7 +271,8 @@ a {
     font-size: 1.3rem;
     line-height: 1.1;
   }
-  .page-title {
+  .page-title,
+  .stmt {
     font-size: 2rem;
   }
 }
@@ -268,7 +281,7 @@ a {
    (Scholarship, Teaching, …). One treatment so those headings match; kin to
    the homepage .statement voice. */
 .page-title {
-  font: 600 2.5rem/1.05 "Source Serif 4", serif;
+  font: 600 var(--h-title)/1.05 "Source Serif 4", serif;
   font-optical-sizing: auto;
   letter-spacing: -0.025em;
   color: var(--ink);
@@ -422,7 +435,7 @@ a.footnote-backref {
 
 /* Footnotes / small text */
 .footnotes {
-  font-size: 0.82rem;
+  font-size: var(--prose-sm);
   line-height: 1.55;
   color: var(--sec);
   margin-top: 3rem;
@@ -578,10 +591,10 @@ sup.footnote-ref {
 /* Prose (§4.4) — bio prose uses --bio-ink (#33373f in light per §2,
    --body in dark) */
 .bio-p {
-  font: 400 1.15rem/1.55 "Source Serif 4", serif;
+  /* inherits body base (1.1875rem/1.5) — one source of truth for prose */
   color: var(--bio-ink);
   margin: 0 0 1rem;
-  max-width: 40rem;
+  max-width: var(--measure);
 }
 .bio-p a {
   color: var(--link);
@@ -603,7 +616,7 @@ sup.footnote-ref {
   display: inline-flex;
   align-items: baseline;
   gap: 0.45rem;
-  font: 600 1.08rem/1 "Source Serif 4", serif;
+  font: 600 1rem/1 "Source Serif 4", serif;
   @include smallcaps-action;
   color: var(--navy);
   text-decoration: none;
@@ -644,7 +657,7 @@ sup.footnote-ref {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  font: 400 1.02rem/1.3 "Source Serif 4", serif;
+  font: 400 1rem/1.3 "Source Serif 4", serif;
   color: var(--navy);
   text-decoration: none;
 }
@@ -962,7 +975,7 @@ sup.footnote-ref {
   border-top: 1px solid var(--ink);
   margin-top: 2.5rem;
   padding-top: 2.2rem;
-  font: 400 0.92rem/1.5 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
   color: var(--sec);
 }
 .foot p {
@@ -1084,9 +1097,6 @@ sup.footnote-ref {
     font-size: 1.72rem;
     line-height: 1.17;
   }
-  .bio-p {
-    font-size: 1.08rem;
-  }
   .actions {
     gap: 1.1rem;
   }
@@ -1152,9 +1162,9 @@ sup.footnote-ref {
   color: var(--navy);
 }
 .pbody {
-  font: 400 1.05rem/1.58 "Source Serif 4", serif;
+  /* inherits body base — excerpts/notes match the full post exactly */
   color: var(--body);
-  max-width: 38rem;
+  max-width: var(--measure);
 }
 .pbody p {
   margin: 0.6rem 0 0;
@@ -1165,7 +1175,7 @@ sup.footnote-ref {
   display: inline-flex;
   align-items: baseline;
   gap: 0.4rem;
-  font: 600 1.02rem/1 "Source Serif 4", serif;
+  font: 600 1rem/1 "Source Serif 4", serif;
   @include smallcaps-action;
   color: var(--navy);
   text-decoration: none;
@@ -1235,8 +1245,10 @@ a.pill:hover {
 
 /* ---- single post ---- */
 .stmt {
-  font: 600 2.05rem/1.14 "Source Serif 4", serif;
-  letter-spacing: -0.02em;
+  /* same treatment as .page-title — a post title and a page title are one role */
+  font: 600 var(--h-title)/1.05 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  letter-spacing: -0.025em;
   color: var(--ink);
   margin: 0 0 0.9rem;
 }
@@ -1248,9 +1260,9 @@ a.pill:hover {
   color: var(--navy);
 }
 .bodyprose {
-  font: 400 1.12rem/1.62 "Source Serif 4", serif;
+  /* inherits body base */
   color: var(--body);
-  max-width: 36rem;
+  max-width: var(--measure);
 }
 .bodyprose p {
   margin: 0 0 1rem;
@@ -1261,20 +1273,20 @@ a.pill:hover {
    in-body heading never outweighs the post's own title. */
 .bodyprose h1, .bodyprose h2,
 .pbody h1, .pbody h2 {
-  font: 600 1.35rem/1.3 "Source Serif 4", serif;
-  letter-spacing: -0.01em;
+  font: 600 var(--h2)/1.2 "Source Serif 4", serif;
+  letter-spacing: -0.012em;
   color: var(--ink);
   margin: 1.8rem 0 0.5rem;
 }
 .bodyprose h3,
 .pbody h3 {
-  font: 600 1.2rem/1.35 "Source Serif 4", serif;
+  font: 600 var(--h3)/1.3 "Source Serif 4", serif;
   color: var(--ink);
   margin: 1.5rem 0 0.4rem;
 }
 .bodyprose h4, .bodyprose h5, .bodyprose h6,
 .pbody h4, .pbody h5, .pbody h6 {
-  font: 600 1.05rem/1.4 "Source Serif 4", serif;
+  font: 600 var(--h4)/1.4 "Source Serif 4", serif;
   color: var(--ink);
   margin: 1.3rem 0 0.35rem;
 }
@@ -1306,7 +1318,7 @@ a.pill:hover {
   margin: 0 0 0.55rem;
 }
 .rb .rv {
-  font: 400 0.98rem/1.4 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
   color: var(--body);
 }
 .rb .rv a {
@@ -1345,7 +1357,7 @@ a.pill:hover {
   gap: 0.55rem;
 }
 .bs-nav a {
-  font: 400 1.02rem/1.35 "Source Serif 4", serif;
+  font: 400 1rem/1.35 "Source Serif 4", serif;
   font-optical-sizing: auto;
   color: var(--navy);
   text-decoration: none;
@@ -1477,7 +1489,7 @@ figure.fig {
 }
 figcaption.figcap {
   margin-top: 0.8rem;
-  font: 400 0.98rem/1.55 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.55 "Source Serif 4", serif;
   color: var(--sec);
   max-width: 36rem;
 }
@@ -1606,7 +1618,7 @@ figcaption.figcap a:hover {
    =================================================================== */
 
 :root {
-  --measure: 40rem; /* legible reading measure for prose */
+  --measure: 44rem; /* the one reading measure for all long-form body text (~72 chars at the 19px base) */
   --wide: 58rem; /* breakout width for figures/tables/code */
   --fig-mid: 46rem; /* smaller breakout for low-res scans */
 }
@@ -1653,7 +1665,7 @@ figcaption.figcap a:hover {
    rule + indent (below) mark it as a quote. */
 .reading > p,
 .reading > blockquote p {
-  font: 400 1.19rem/1.62 "Source Serif 4", serif;
+  /* inherits body base (1.1875rem/1.5) */
   color: var(--body);
   margin: 0 0 1.15rem;
   text-wrap: pretty;
@@ -1670,7 +1682,7 @@ figcaption.figcap a:hover {
 /* ---- in-post headings: serif (not the mono .shead); h2 carries the
    identity's 1px --ink hairline. Overrides the .bodyprose h2/h3 above. ---- */
 .reading > h2 {
-  font: 600 1.5rem/1.2 "Source Serif 4", serif;
+  font: 600 var(--h2)/1.2 "Source Serif 4", serif;
   letter-spacing: -0.012em;
   color: var(--ink);
   margin: 2.9rem 0 1.1rem;
@@ -1678,7 +1690,7 @@ figcaption.figcap a:hover {
   border-bottom: 1px solid var(--ink);
 }
 .reading > h3 {
-  font: 600 1.16rem/1.3 "Source Serif 4", serif;
+  font: 600 var(--h3)/1.3 "Source Serif 4", serif;
   color: var(--ink);
   margin: 2rem 0 0.7rem;
 }
@@ -1686,7 +1698,7 @@ figcaption.figcap a:hover {
 /* ---- lists, block quotes ---- */
 .reading > ul,
 .reading > ol {
-  font: 400 1.19rem/1.6 "Source Serif 4", serif;
+  /* inherits body base */
   color: var(--body);
   margin: 0 0 1.15rem;
   padding-left: 1.3rem;
@@ -1745,7 +1757,7 @@ figcaption.figcap a:hover {
 .reading .figcap {
   max-width: var(--measure);
   margin: 0.8rem 0 0;
-  font: 400 0.98rem/1.55 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.55 "Source Serif 4", serif;
   color: var(--sec);
   font-style: normal;
 }
@@ -1769,7 +1781,7 @@ figcaption.figcap a:hover {
 .reading table {
   width: 100%;
   border-collapse: collapse;
-  font: 400 0.98rem/1.35 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
   color: var(--body);
   margin: 2rem 0;
   display: block; /* wide tables scroll rather than overflow the column */
@@ -1869,7 +1881,7 @@ figcaption.figcap a:hover {
   margin: 0;
 }
 .reading .footnotes li {
-  font: 400 0.96rem/1.55 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.55 "Source Serif 4", serif;
   color: var(--sec);
   margin: 0 0 0.8rem;
 }
@@ -1939,9 +1951,9 @@ figcaption.figcap a:hover {
 /* page header (intro + CV link). The page title itself uses the shared
    .page-title from the interior-chrome section above. */
 .sch-intro {
-  font: 400 1.14rem/1.55 "Source Serif 4", serif;
+  /* inherits body base */
   color: var(--bio-ink);
-  max-width: 44rem;
+  max-width: var(--measure);
   margin: 0 0 1rem;
 }
 .sch-cvlink {
@@ -2011,30 +2023,14 @@ figcaption.figcap a:hover {
 .lg-body {
   min-width: 0;
 }
-.lg-title {
-  margin: 0;
-  font: 600 1.5rem/1.18 "Source Serif 4", serif;
-  letter-spacing: -0.017em;
-  color: var(--ink);
-}
-.lg-title a {
-  color: var(--ink);
-  text-decoration: none;
-}
-.lg-title a:hover {
-  color: var(--navy);
-}
-/* citation: the anchor of every entry — near-black --ink, identical across
-   titled, article, and pure-citation rows. .lead drops the top margin when
-   no title sits above it. */
+/* citation: the sole heading of every entry — near-black --ink, inherits the
+   body base, and renders identically for every kind of scholarship (books,
+   projects, maps, articles, software). It always leads the entry, so no top
+   margin. */
 .lg-cite {
-  margin: 0.4rem 0 0;
-  font: 400 1.04rem/1.45 "Source Serif 4", serif;
-  color: var(--ink);
-  max-width: 44rem;
-}
-.lg-cite.lead {
   margin: 0;
+  color: var(--ink);
+  max-width: var(--measure);
 }
 .lg-cite em {
   font-style: italic;
@@ -2042,10 +2038,10 @@ figcaption.figcap a:hover {
 /* abstract: deliberately recessed BELOW the citation — same size and weight,
    only color separates them (the handoff's inversion). */
 .lg-abs {
+  /* same size/weight as .lg-cite (inherits base); only color recesses it */
   margin: 0.9rem 0 0;
-  font: 400 1.04rem/1.55 "Source Serif 4", serif;
   color: var(--sch-abs);
-  max-width: 44rem;
+  max-width: var(--measure);
 }
 
 /* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
@@ -2053,7 +2049,7 @@ figcaption.figcap a:hover {
    with a small-caps attribution. Recedes further than the abstract (--sec). */
 .lg-praise {
   margin-top: 1.2rem;
-  max-width: 44rem;
+  max-width: var(--measure);
 }
 .lg-praise .k {
   display: block;
@@ -2071,7 +2067,7 @@ figcaption.figcap a:hover {
 }
 .lg-q p {
   margin: 0;
-  font: 400 1rem/1.5 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
   color: var(--sec);
 }
 .lg-q cite {

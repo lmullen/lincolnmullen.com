@@ -19,6 +19,8 @@ XKCD [points out a common problem](http://xkcd.com/1138/) in mapping data:
 
 If it's true that maps of data tend to mirror maps of population, then it strikes me that this is particularly a problem for historical maps. Even if I have a rough mental map of what parts of the United States are populated today, I certainly don't have an accurate mental map of the U.S. population at any given point in history. Does a map of any given historical data follow the population? You couldn't know unless you had mapped the population.
 
+<!--more-->
+
 To try to solve this problem I plotted some county-level [religion data from the NHGIS](http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html). Then I plotted the same data divided by the population. If we're concerned that the main, hidden variable that is actually driving our map is population, then dividing by population should control for that effect. I'll show you the maps that I made first (code [here](https://github.com/lmullen/nhgis-explore/tree/2013-10-24-blog-post)), then try to figure out what `map = x /  population` means as an analysis tool.
 
 Here is a map of the population of the eastern United States in 1860. Notice that the scale used in all this maps is a square-root scale, meaning that the difference between a populous city and a less-populous farming county is compressed so that the cities don't wash out the map. I've mapped only the eastern United States not because the West is unimportant, but because the West is so much less populous than the East that adjusting for population skews the maps.

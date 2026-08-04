@@ -11,6 +11,8 @@ tags:
 
 In his famous [essay](http://www.wiu.edu/cas/history/pdf/HistoryasaLiteraryArt.pdf) on "History as a Literary Art," Samuel Eliot Morrison advises, "When you once are writing, go on writing as long as you can; there will be plenty of time later to shove in the footnotes or return to the library for extra information," and, "Don't stop to consult your notes for every clause or sentence: it is better to get what you have to say clearly in your mind and dash it off; then, after you have it down, return to your notes and compose your next few pages or paragraphs."
 
+<!--more-->
+
 I try to follow this advice when I'm writing by leaving notes or markers in the text when I'm missing a fact or a reference. Following up on my [post](http://lincolnmullen.com/blog/cleanup-your-markdown-text-in-vim-with-equalprg/) about Vim yesterday, here is how I manage these markers in Vim.
 
 First, I insert the markers in a standard form: `{TODO}` is my generic marker; `{PAGE}` marks a missing reference; `{FACT}` marks a missing date or the like. I insert these markers using [vim-snipmate](https://github.com/garbas/vim-snipmate) but any method will do.

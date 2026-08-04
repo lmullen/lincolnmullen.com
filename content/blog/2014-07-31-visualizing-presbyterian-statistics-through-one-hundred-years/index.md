@@ -13,6 +13,8 @@ tags:
 
 The title *[Presbyterian Statistics through One Hundred Years, 1826--1926: Tabulated, Visualized, and Interpreted](http://catalog.hathitrust.org/Record/007109885)* sounds like contemporary digital history project. Click the link, and if you're an optimist about digital methods you might expect a revolutionary new methodology for doing history that overturns old models; if you are a pessimist you might expect to find some "Big Data" hubris. But what you'll find is a book from 1927, compiled the Presbyterian minister and employee of the General Council of the Presbyterian Church U.S.A., Herman Carl Weber.[^1] Weber compiled the data at the behest of the PCUSA, laboriously compiling the statistics because the General Council wanted to know what insights could be gathered from its record.
 
+<!--more-->
+
 The first part of Weber's work included dozens of tables like the one below.[^2] Denominations often maintained records and published them in yearbooks and annual reports.[^3] What is especially useful with Weber's figures are that he compiled the numbers longitudinally---apparently over a period of three years of work---so that it is possible to see change over time.
 
 {{< figure src="table.png" caption="Figure 1: A table of membership figures from Weber, p. 12." >}}

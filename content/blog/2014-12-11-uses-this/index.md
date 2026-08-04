@@ -17,6 +17,8 @@ tags:
 
 My name is [Lincoln Mullen](http://lincolnmullen.com/) and I'm a historian at [George Mason University](http://historyarthistory.gmu.edu/). I teach and write about American religious history; at the moment I'm writing a history of people who converted between religions in the nineteenth-century United States. I'm also a digital historian at the [Roy Rosenzweig Center for History and New Media](http://chnm.gmu.edu/). I'm responsible for teaching a [graduate course on computer programming for historians](https://files.lincolnmullen.com/syllabi/clio3.2014.pdf), for which I'm writing a book (still very much a rough draft) on [using R for digital history](http://dh-r.lincolnmullen.com/).
 
+<!--more-->
+
 ## What hardware do you use?
 
 I have a [15" MacBook Pro](https://www.apple.com/macbook-pro/) with an Intel i7 processor, an SSD, and 16 GB of RAM provided by my department. I also use a [ThinkPad T430](http://shop.lenovo.com/us/en/laptops/thinkpad/t-series/t430/) which was my main machine during graduate school. There is an unremarkable Dell external monitor on my desk. I have an [iPhone 5C](https://en.wikipedia.org/wiki/IPhone_5C) but I more and more dislike using a phone for anything.

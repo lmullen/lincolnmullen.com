@@ -12,6 +12,8 @@ tags:
 
 *[This is a preview of a post that will appear at [ProfHacker](http://chronicle.com/blogs/profhacker/) next week. I've been on a long ProfHacker hiatus to write other things, but Internet privacy is sufficiently important to me to make an exception.]*
 
+<!--more-->
+
 Suppose that you visited the website of the *[New York Times](http://nytimes.com)* this morning. If you were me, then you likely skimmed past ads for eyeglasses, an advertorial for Dell, a link to graduate programs at Columbia, and innumerable ads for home delivery of the *Times*. Those ads were targeted at me: I recently bought glasses, I recently looked for some computer hardware, and I'm a graduate student. Your ads were probably different, but they were almost certainly targeted at you in some way.
 
 What's going on here? The *Times*, like every other website in the world, is tracking who you are. Websites definitely track what you do on their site: just think of the customized recommendations on Amazon's website. (Why yes, I do think I'll buy the next volume of the *Summa Theologica*.) But websites are also tracking where you go and what you do on other websites, *whether or not you give them permission to do so*. The *Times* probably knows my shopping patterns, if not as well as Amazon, then well enough to make reasonable guesses about what I might be interested in. The *Times* is an entirely reputable website; there plenty of disreputable websites that are doing the same thing.

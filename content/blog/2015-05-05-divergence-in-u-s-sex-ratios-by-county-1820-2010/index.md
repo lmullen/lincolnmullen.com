@@ -13,6 +13,8 @@ tags:
 
 At a THATCamp New England last spring I re-purposed some earlier code to create a map of sex ratios by county from U.S. Census data. As far as I can remember, though, I never actually made the map public or wrote about it beyond showing it to a few people. I don't intend to do anything more with this data, so here is the interactive map on [Divergence in U.S. Sex Ratios by County, 1820--2010](https://projects.lincolnmullen.com/sex-ratios/).
 
+<!--more-->
+
 {{< figure src="visualization-screenshot.png" caption="Screenshot of the interactive map of sex ratios in U.S. counties." >}}
 
 Two general patterns are clear. First, heavily populated places tended to be slightly female, while lightly populated places[^1] tend to be heavily male. In any decade there were counties with more than 60% males; but there were only one or two counties with significant populations where the population was more than 60% female, and hardly any where the population was more than 55% female. It is easier to diverge from an equal number of males and females when the population is small.[^2] As an extreme example, Gaines County, Texas, in 1880 was 87.5% female, but only because its population as counted in the Census was seven females and one male. Thus, as the population increases, counties diverge less sharply from an even sex ratio though they do tend to have more females than males. You can see this same effect displayed a different way in this chart of sex ratios vs population.

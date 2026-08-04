@@ -15,4 +15,6 @@ The American Historical Association is [accepting entries](https://www.historian
 >
 > This prize is awarded annually to honor and support work on a creative and freely available new media project, and in particular for work that reflects thoughtful, critical, and rigorous engagement with technology and the practice of history. The current prize amount is $4,000, funded by donations to GMU's AHA/RRCHNM Rosenzweig Prize Fund.
 
+<!--more-->
+
 You can see the [AHA website](https://www.historians.org/awards-and-grants/awards-and-prizes/roy-rosenzweig-prize) for details about how to enter your work for consideration for the prize. The due date is May 15, 2023. RRCHNM will also [accept donations](https://securemason.gmu.edu/s/1564/GID2/16/19-giving.aspx?sid=1564&gid=2&pgid=651&cid=1709&bledit=1&sort=1&dids=318.534.535.176.170&appealcode=IHM02) that go towards funding the prize.

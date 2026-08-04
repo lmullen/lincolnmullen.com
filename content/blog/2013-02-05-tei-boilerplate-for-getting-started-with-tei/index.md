@@ -13,6 +13,8 @@ I sat in on [John Unsworth's](https://twitter.com/unsworth) digital humanities c
 
 > But the power of XSLT comes at a cost. XSLT is a far more complex language than CSS and has a far steeper learning curve. There are relatively few expert XSLT programmers compared to the numbers of expert Web developers with extensive knowledge of HTML/CSS/JavaScript.
 
+<!--more-->
+
 > On the other hand, JavaScript is an extremely capable language for doing fancy things with XML content. JavaScript frameworks like JQuery and EXT JS, and the major browsers provide excellent support for manipulating the DOM (Document Object Model) of the web page. With TEI Boilerplate, the TEI document becomes part of the DOM, and JavaScript may then be used to perform more complex transformations, movements, and other manipulations of the TEI content than can be achieved with CSS alone.
 
 By the way, you might spend an hour in frustration, including some ill-advised messing around in the guts of your system, because your browser simply will not display the TEI file when it's hosted locally, though it will display it when it's hosted on a server. It turns out that Chrome [disables](http://stackoverflow.com/a/6251757) local XSL transformations for security reasons, so just use another browser. I suppose you could also put the files on a locally hosted [XAMPP](http://www.apachefriends.org/en/xampp.html) server.

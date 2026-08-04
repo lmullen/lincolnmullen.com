@@ -18,6 +18,8 @@ tags:
 
 In 1865, the French observer of American Catholicism E. Rameur opened the inaugural issue of the *Catholic World* with an article on "[The Progress of the Church in the United States](http://quod.lib.umich.edu/m/moajrnl/bac8387.0001.001/5:3?rgn=full+text;view=image)." In assessing the current population of the church, Rameur's task was very difficult, as he pointed out: "The number of the faithful it is not easy to determine accurately; for a false delicacy prevents the Americans from including the statistics of religious belief in their census-tables. Estimates are very variable." Rameur was right: in the United States, unlike in many other countries, the census does not track religious data. The omission is justified by the separation of church and state, but every religious historian I know would gladly suffer a breach in the wall of separation for the sake of reliable data for the history of religion.
 
+<!--more-->
+
 {{< figure src="2013-10-01-rameur.png" >}}
 
 But Rameur understated the amount of data about religion in the U.S. census. By the time he wrote, the 1850 and 1860 census had gathered some data about churches, though not about their membership. (Rameur dismissed this data, but historians can't afford to be so discriminating.) Gaustad and Barlow summarize what is available in the census for their note on the sources for their standard work, *[The New Historical Atlas of American Religion](https://www.amazon.com/dp/B0044KMUNC/ref=as_li_ss_til?tag=thebacgla-20&camp=0&creative=0&linkCode=as4&creativeASIN=B0044KMUNC&adid=1VWHJBJNDXA101GHTNYP&)*:

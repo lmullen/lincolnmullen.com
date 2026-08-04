@@ -26,6 +26,8 @@ But combining data analysis and the web takes work. In this blog post, I
 want to explain how we are solving one aspect of that challenge via our
 custom data API.
 
+<!--more-->
+
 We have a lot of datasets in play for RRCHNM's projects. Some of the
 spatial datasets, such as Natural Earth and the Atlas of Historic County
 Boundaries, we use over and over across projects. AHCB is a critical

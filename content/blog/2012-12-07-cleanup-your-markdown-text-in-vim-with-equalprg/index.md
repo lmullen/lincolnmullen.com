@@ -12,6 +12,8 @@ tags:
 
 One of the downsides to writing prose in Markdown is that the formatting of the text can become quite messy, with lines of varying lengths, footnotes scattered throughout the document with incorrect numbering, links in the text, and so on. For files like HTML or Javascript, Vim can automatically indent text using the `=` command over a range or motion, or the `==` command on a single line. By setting the `equalprg` variable, you can clean up your Markdown text using an external program.
 
+<!--more-->
+
 First, add this line to a `~/.vim/ftplugin/pandoc.vim` file. This code tells Vim to use `=` to call Pandoc as a filter to format the text.
 
 ```vim

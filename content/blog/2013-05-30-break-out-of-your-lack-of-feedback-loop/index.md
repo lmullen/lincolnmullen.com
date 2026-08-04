@@ -13,6 +13,8 @@ tags:
 
 Does this ever happen to you? Let's say you're writing an article or a chapter. It's taking longer than you anticipated. (No surprise there.) Your editor or your dissertation advisor, or maybe just your writing group, is expecting to read a draft, but you think it's not ready. It's incomplete, it's tentative, it doesn't adequately review the secondary literature, it doesn't take into account a source you haven't read yet. So you put off sending out your work. Then another opportunity comes around to share your work. But in the intervening month, your draft hasn't improved as much as you'd hoped, and surely your readers' expectations have been raised. So you put off sending out your work until you're convinced that your readers' expectations are so high that you can't show them your draft until the draft is worthy of a Pulitzer Prize.
 
+<!--more-->
+
 This scenario probably describes the writing life of too many graduate students and, I suspect, many other writers even after graduate school. But it's an amateur mistake.
 
 You show your work in progress to other people *because* it's not good enough. It's not good enough in ways that you know about, and it's probably not good enough in ways that you don't know about. Other readers can help you work through those problems because they come to your work not having seen it before. Your drafts will probably come back covered in the proverbial red ink.

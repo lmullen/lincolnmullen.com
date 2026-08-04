@@ -10,6 +10,8 @@ tags:
 
 One of the most interesting and important questions in the history of evangelicalism is why African Americans who share many of the same doctrines and practices as evangelicals have not been studied as evangelicals. In other words, why does race trump religion as an identity, and is does this divide reflect the history or the practices of historians? I first came across this question in the work of [Ed Blum](http://www-rohan.sdsu.edu/dept/histweb/faculty_and_staff/faculty_bios/e_blum.htm) and [Paul Harvey](http://paulharvey.org/). In the past couple weeks [John Fea](http://www.philipvickersfithian.com/) has asked "[Where are the Studies of Twentieth-Century Black Evangelicalism](http://www.patheos.com/blogs/anxiousbench/2013/01/where-are-the-studies-of-twentieth-century-black-evangelicalism/)," providing a preliminary list of literature in that post and in a [follow-up post](http://www.patheos.com/blogs/anxiousbench/2013/01/more-on-the-history-black-evangelicalism-in-america/).
 
+<!--more-->
+
 Yesterday at the *Anxious Bench* [Miles S. Mullin II](http://www.swbts.edu/index.cfm?pageid=805&enc=485E4B4A5433392C23442550455051395379) provided two historical reasons for the divide in a post on "[The Quandry of African American Evangelicalism](http://www.patheos.com/blogs/anxiousbench/2013/02/the-quandary-of-african-american-evangelicalism/)":
 
 > Two historical realities have contributed to the paucity of works on twentieth-century African American evangelicalism. The first relates to the history of evangelicalism as a movement. The second relates to the manner in which the struggle for full equality emerged as the centerpiece of African American history in the twentieth century.

@@ -76,24 +76,24 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 
 ## Schedule
 
-### Tues., Aug. 27: Tongues of fire
+### Tues., Aug. 25: Tongues of fire
 
 - In class: Acts of the Apostles, ch. 2.
 
-### Thu., Aug. 29: From Ancient Israel to Rabbinic Judaism
+### Thu., Aug. 27: From Ancient Israel to Rabbinic Judaism
 
 - Isaiah and Daniel.
 - MacCulloch, ch. 2.
 - Holland, ch. 2.
 
-### Tues., Sep. 3: Jesus and the New Testament
+### Tues., Sep. 1: Jesus and the New Testament
 
 - Gospels, opening accounts.
 - Gospel of Mark (entire).
 - Wilken, introduction, chs. 1--2.
 - Holland, ch. 3.
 
-### Thu., Sep. 5: Christians and Pagans
+### Thu., Sep. 3: Christians and Pagans
 
 - Acts and Galatians.
 - _Didache_.
@@ -102,57 +102,53 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 - Holland, ch. 1.
 - **DUE: Short writing on early Christian practices:** How do the authors of Acts and Galatians describe conflicts between different groups of early Christians? According to the New Testament readings and the readings from the Didache and Justin Martyr, what were the most significant rituals and practices among early Christians?
 
-### Tues., Sep. 10: Christians and Heretics
+### Tues., Sep. 8: Christians and Heretics
 
 - Gospel of Thomas.
 - Wilken, chs. 4, 6.
 
-### Thu., Sep. 12: Christianity and Empire
+### Thu., Sep. 10: Christianity and Empire
 
 - _Martyrdom of Perpetua and Felicity_.
 - Wilken, chs. 5, 7, 8, 17.
 
-### Tues., Sep. 17: Councils from Nicaea to Chalcedon
+### Tues., Sep. 15: Councils from Nicaea to Chalcedon
 
 - Creed of Nicaea and Chalcedonian Definition.
 - Wilken, chs. 9, 20.
 - **DUE: Short writing on Nicaea and Chalcedon:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Nicaea and Chalcedon were certainly theological disputes, but in what way was the imperial power involved in those councils?
 
-### Thu., Sep. 19: Augustine, Egeria, and the Making of Latin Christianity
+### Thu., Sep. 17: Augustine, Egeria, and the Making of Latin Christianity
 
 - Egeria, _Pilgrimage_.
 - Augustine, _City of God_, book 14.
 - Wilken, chs. 11, 18, 19.
 
-### Tues., Sep. 24: Catchup
-
-- Readings from previous class period.
-
-### Thu., Sep. 26: Expansion to Northwest Europe
+### Tues., Sep. 22: Expansion to Northwest Europe
 
 - Bede, _History of the English Church and People_.
 - Patrick, _Confession_.
 - Wilken, chs. 27, 28, 35.
 - Holland, ch. 8.
 
-### Tues., Oct. 1: Syrian and Ethiopian Christianity
+### Thu., Sep. 24: Syrian and Ethiopian Christianity
 
 - _Kebra Negast_.
 - Wilken, chs. 21--23.
 - **DUE: Short writing on Ethiopian Christianity:** Christianity in Ethiopia developed in parallel to, but distinctly different from, Christianity in Europe. What are the similarities and differences? How do you account for those differences in terms of the global systems that affected Christian development?
 
-### Tues., Oct. 1: Islam and Christianity
+### Tues., Sep. 29: Islam and Christianity
 
 - John of Damascus, _Fount of Knowledge_, "On Heresies."
 - Wilken, chs. 30, 32--34.
 - **DUE: Short writing on John of Damascus and Islam:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic? How does John's understanding differ from Islam's own understanding of its origins, and from historians' accounts?
 
-### Thu., Oct. 3: Medieval Christianity and the Middle East
+### Thu., Oct. 1: Medieval Christianity and the Middle East
 
 - First Crusade, four accounts.
 - Holland, ch. 10.
 
-### Tues., Oct. 8: Asian and African Christianities
+### Tues., Oct. 6: Asian and African Christianities
 
 - Cosmas Indicopleustes.
 - John of Ephesus.
@@ -161,89 +157,89 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 - Wilken, ch. 25.
 - **DUE: Short writing on reception in Asia and Africa:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. How was Christianity was received in Asia and Africa? What were the similarities and differences in its reception in other places?
 
-### Thu., Oct. 10: Midterm exam
+### Thu., Oct. 8: Midterm exam
 
 Bring a bluebook to class.
 
-### Tues., Oct. 15: Byzantine and Russian Christianity
+### Tues., Oct. 13: Byzantine and Russian Christianity
 
 - _Russian Primary Chronicle_.
 - John of Damascus, _On the Divine Images_.
 - Wilken, chs. 24, 31, 36.
 
-### Thu., Oct. 17: Ascetics
+### Thu., Oct. 15: Ascetics
 
 - Holland, ch. 5.
 - _Life of Antony_.
 - _Life of Macrina_.
 - **DUE: Short writing on asceticism:** Why were the lives of ascetics appealing to Christians and non-Christians? In what ways did ascetics challenge society or the church?
 
-### Tues., Oct. 22: Monastics and friars
+### Tues., Oct. 20: Monastics and friars
 
 - Rule of St. Benedict.
 - Rule of St. Francis.
 - Wilken, chs. 10, 15, 16.
 
-### Thu., Oct. 24: The Protestant Reformation
+### Thu., Oct. 22: The Protestant Reformation
 
 - Luther, _Freedom of a Christian_.
 - Luther, 95 Theses.
 - Holland, ch. 13.
 - **DUE: Short writing on Luther:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society?
 
-### Tues., Oct. 29: The Catholic Reformation
+### Tues., Oct. 27: The Catholic Reformation
 
 - Francis Xavier in Asia.
 - Thomas Aquinas, _Summa Theologiae_, Tertia Pars.
 - Holland, ch. 14.
 
-### Thu., Oct. 31: Spread of Christianity in Asia
+### Thu., Oct. 29: Spread of Christianity in Asia
 
 - Taiping Rebellion.
 
-### Thu., Nov. 7: Spread of Christianity in Africa
+### Thu., Nov. 5: Spread of Christianity in Africa
 
 - African ecclesiastical independence.
 
-### Tues., Nov. 12: Enlightenment and Revolutions
+### Tues., Nov. 10: Enlightenment and Revolutions
 
 - Paine, _Age of Reason_.
 - Schleiermacher, _On Religion_.
 - Holland, chs. 16, 18.
 - **DUE: Short writing on liberal Christianity:** Friedrich Schleiermacher's _On Religion_ attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine?
 
-### Thu., Nov. 14: Christianity in North and South America
+### Thu., Nov. 12: Christianity in North and South America
 
 - Gutiérrez, _A Theology of Liberation_.
 - Language in Latin America.
 - Emerson, "Divinity School Address."
 
-### Tues., Nov. 19: Christianity and Missions in the Modern Era
+### Tues., Nov. 17: Christianity and Missions in the Modern Era
 
 - Missionary societies in Africa.
 - Holland, ch. 17.
 - **DUE: Short writing on ecclesiastical independence:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish.
 
-### Thu., Nov. 21: Pentecostalism
+### Thu., Nov. 19: Pentecostalism
 
 - Nimi Wariboko, "Pentecostalism in Africa," _Oxford Research Encyclopedia of African History_ (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
 
-### Tues., Nov. 26: Colonization and Decolonization
+### Tues., Nov. 24: Colonization and Decolonization
 
 - Holland, ch. 19.
 - McGreevy, ch. 10.
 
-### Tues., Dec. 3: Vatican II
+### Tues., Dec. 1: Vatican II
 
 - Vatican II documents.
 - Holland, ch. 20.
 - McGreevy, ch. 11.
 
-### Thu., Dec. 5: Whose religion is Christianity?
+### Thu., Dec. 3: Whose religion is Christianity?
 
 - Holland, ch. 21.
 
-### Final exam: Tuesday, Dec. 17, 10:30am--1:15pm
+### Final exam: Tuesday, Dec. 15, 10:30am--1:15pm
 
 Bring a bluebook to the exam.
 

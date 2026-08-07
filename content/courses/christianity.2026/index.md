@@ -15,7 +15,7 @@ email: lmullen@gmu.edu
 office: Research Hall 483
 officehours: "By appointment"
 toc: true
-draft: true
+draft: false
 ---
 
 ## Course description

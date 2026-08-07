@@ -27,7 +27,7 @@ This course is organized around a comparative examination of the many forms glob
 At the end of this course, you will
 
 1. be familiar with Christianity in a variety of global contexts across time;
-2. understand the historic development of Christian beyond the West as well as the later reception of Christianity in non-Western cultures;
+2. understand the historic development of Christianity beyond the West as well as the later reception of Christianity in non-Western cultures;
 3. understand key questions of transmission, reception, and inculturation that affect Christianity's relationship to empire and other global systems;
 4. demonstrate specific knowledge of topics in the history of Christianity, such as Christendom, the Reformation, missions, and Pentecostalism; and
 5. be able to write clearly and coherently about the history of Christianity.
@@ -47,11 +47,11 @@ In addition, this course meets the requirements for the Just Societies flag. Upo
 
 This class will include a combination of lecture, discussion, and active learning. Doing the reading is absolutely essential. There will be a reading quiz every class period: if you've done the reading, you can expect to do well on the quizzes. Attend class having read any assigned material and be prepared to discuss or otherwise engage with those readings in class. You must have a copy of the texts assigned for each day available to you during class.
 
-All assignments for this course will be completed in class in handwriting. Exceptions will be made made only for students with a letter documenting an accomodation from the Office of Disability Services. At the start of the semester, you should purchase approximately twelve bluebooks. No assignments will be accepted that are not in a bluebook. 
+All assignments for this course will be completed in class in handwriting. Exceptions will be made only for students with a letter documenting an accommodation from the Office of Disability Services. At the start of the semester, you should purchase approximately twelve bluebooks. No assignments will be accepted that are not in a bluebook. 
 
 Use of laptops, tablets, and phones for notetaking is strongly discouraged in this class. Students who feel they must use a laptop or tablet for notetaking may submit a request in writing; details will be explained in class.
 
-Here is the AI policy: AI is an incredibly useful tool. But then, so is the codex, perhaps the signature technology of Christianity over against its antecedents. You'll have many opportunities in other classes (including some that I teach) to explore AI. This class will be about reading and thinking about the history of Christianity. To that end, you may use AI outside the classroom however you like: it could be very helpful for creating study guides, for example. In class, you may not use AI for any purpose. Given the way that the course is set up, I really don't think you'll have a chance to use AI on any assignment. But any suspected use of AI for an assignment will result in a zero on the assignment and will be referred to the honor committe. 
+Here is the AI policy: AI is an incredibly useful tool. But then, so is the codex, perhaps the signature technology of Christianity over against its antecedents. You'll have many opportunities in other classes (including some that I teach) to explore AI. This class will be about reading and thinking about the history of Christianity. To that end, you may use AI outside the classroom however you like: it could be very helpful for creating study guides, for example. In class, you may not use AI for any purpose. Given the way that the course is set up, I really don't think you'll have a chance to use AI on any assignment. But any suspected use of AI for an assignment will result in a zero on the assignment and will be referred to the honor committee.
 
 I will use Canvas only for a gradebook, for distributing readings, and for communications. The best place to ask general questions about the class is the Canvas discussion board. That way, if your question is relevant to everyone, they will be able to see it. If your question is individual, you are welcome to use the Canvas messaging feature (please try this first) or to email me (<lmullen@gmu.edu>). You can generally expect a response within 24--48 hours, though never on a Sunday.
 
@@ -66,11 +66,11 @@ Although you can find the Bible for free in many places and don't strictly need 
 
 ## Assignments
 
-Grades will be based on the assignments listed below. Please turn in all assignments on Canvas.
+Grades will be based on the assignments listed below. All assignments will be completed in class in bluebooks.
 
 *Reading quizzes (25%).* Every class will include a brief quiz over the assigned readings. There are no makeup quizzes or late quizzes, but an absence (or at most two) will not hurt your overall grade. Everyone may choose one and only one quiz to mark as excused.
 
-*Short writing assignments (8 × 2.5% each = 20%).* We will do eight short writing assignments in class on the day assigned. The prompts for these writing assignments will be given in calss. Each assignment will be written in a blue book and then discussed in class. 
+*Short writing assignments (20%).* We will do approximately eight short writing assignments in class on the day assigned. The prompts for these writing assignments will be given in class. Each assignment will be written in a bluebook and then discussed in class. All you need to do to prepare for these is do the reading the night before AND bring a copy to class.
 
 *Midterm exam (25%) and final exam (25%).* Exams will include essay and identification questions. A study guide will be crafted collaboratively in advance. 
 
@@ -103,7 +103,7 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 - _Didache_.
 - Justin Martyr, _First Apology_.
 - Holland, ch. 1.
-- **DUE: Short writing on early Christian practices:** How do the authors of Acts and Galatians describe conflicts between different groups of early Christians? According to the New Testament readings and the readings from the Didache and Justin Martyr, what were the most significant rituals and practices among early Christians?
+- **In class: Short writing on early Christian practices.**
 
 ### Tues., Sep. 8: Christians and Heretics
 
@@ -119,7 +119,7 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 
 - Creed of Nicaea and Chalcedonian Definition.
 - Wilken, chs. 9, 20.
-- **DUE: Short writing on Nicaea and Chalcedon:** What was the chief question at the Council of Nicaea? How did the Council of Nicaea resolve it? What was the chief question at Chalcedon? How did that church council respond to it? Nicaea and Chalcedon were certainly theological disputes, but in what way was the imperial power involved in those councils?
+- **In class: Short writing on Nicaea and Chalcedon.**
 
 ### Thu., Sep. 17: Augustine, Egeria, and the Making of Latin Christianity
 
@@ -138,13 +138,13 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 
 - _Kebra Negast_.
 - Wilken, chs. 21--23.
-- **DUE: Short writing on Ethiopian Christianity:** Christianity in Ethiopia developed in parallel to, but distinctly different from, Christianity in Europe. What are the similarities and differences? How do you account for those differences in terms of the global systems that affected Christian development?
+- **In class: Short writing on Ethiopian Christianity.**
 
 ### Tues., Sep. 29: Islam and Christianity
 
 - John of Damascus, _Fount of Knowledge_, "On Heresies."
 - Wilken, chs. 30, 32--34.
-- **DUE: Short writing on John of Damascus and Islam:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic? How does John's understanding differ from Islam's own understanding of its origins, and from historians' accounts?
+- **In class: Short writing on John of Damascus and Islam.**
 
 ### Thu., Oct. 1: Medieval Christianity and the Middle East
 
@@ -158,7 +158,7 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 - Chinese Christian sutras.
 - Chinese inscription at Xian.
 - Wilken, ch. 25.
-- **DUE: Short writing on reception in Asia and Africa:** We have read a number of accounts of how Christianity was transmitted to, and received by, populations across the Mediterranean basin, Europe, the Middle East, Asia, and Africa. How was Christianity was received in Asia and Africa? What were the similarities and differences in its reception in other places?
+- **In class: Short writing on reception in Asia and Africa.**
 
 ### Thu., Oct. 8: Midterm exam
 
@@ -175,7 +175,7 @@ Bring a bluebook to class.
 - Holland, ch. 5.
 - _Life of Antony_.
 - _Life of Macrina_.
-- **DUE: Short writing on asceticism:** Why were the lives of ascetics appealing to Christians and non-Christians? In what ways did ascetics challenge society or the church?
+- **In class: Short writing on asceticism.**
 
 ### Tues., Oct. 20: Monastics and friars
 
@@ -188,7 +188,7 @@ Bring a bluebook to class.
 - Luther, _Freedom of a Christian_.
 - Luther, 95 Theses.
 - Holland, ch. 13.
-- **DUE: Short writing on Luther:** What is Luther's concept of Christian freedom? In what specific ways does Luther emphasize social and moral discipline in an effort to construct a more godly society?
+- **In class: Short writing on Luther.**
 
 ### Tues., Oct. 27: The Catholic Reformation
 
@@ -209,7 +209,7 @@ Bring a bluebook to class.
 - Paine, _Age of Reason_.
 - Schleiermacher, _On Religion_.
 - Holland, chs. 16, 18.
-- **DUE: Short writing on liberal Christianity:** Friedrich Schleiermacher's _On Religion_ attempts to answer Christianity's "cultured despisers." Having read Schleiermacher and Paine, how do you think Schleiermacher would respond to Paine?
+- **In class: Short writing on liberal Christianity.**
 
 ### Thu., Nov. 12: Christianity in North and South America
 
@@ -221,7 +221,7 @@ Bring a bluebook to class.
 
 - Missionary societies in Africa.
 - Holland, ch. 17.
-- **DUE: Short writing on ecclesiastical independence:** Missions Christianity in Africa was closely connected with colonization, and yet African Christians have also become independent of European and American churches. What were the processes by which that independence was gained? Draw on your readings for today, but also from earlier weeks, and you may reference Christianity in Asia as well if you wish.
+- **In class: Short writing on ecclesiastical independence.**
 
 ### Thu., Nov. 19: Pentecostalism
 
@@ -258,7 +258,7 @@ Complete all the readings before the start of each class. No unexcused late work
 
 Class communications will be sent through Canvas or through your GMU email account, both of which you must check.
 
-If the campus closes, or if a class meeting needs to be canceled or adjusted due to weather or some other concern, students should check for updates on how to continue learning and for information about any changes assignments.
+If the campus closes, or if a class meeting needs to be canceled or adjusted due to weather or some other concern, students should check for updates on how to continue learning and for information about any changes to assignments.
 
 Unless otherwise specified, you should work on your own for assignments. In general, every source that you use should be acknowledged in a parenthetical citation, footnote, or bibliography entry. Sources must be adequately paraphrased, meaning (at a minimum) that word choice, sentence and paragraph structure, and the order of ideas must be made your own. Whenever you use others' exact words, you must mark them as such by quotation marks or block quotations with accompanying citations. Plagiarism consists of presenting the writing, research, or analysis of others as one's own. It applies not only to using the text of another author's work verbatim without quotation marks and accurate citations but also to the taking of specific information, analysis or opinions---even if not in the exact words of the author---and presenting them without citation in one's own paper. Using AI-assistance for any paper, quiz, exam, or assignment is also plagiarism. Any instance of plagiarism will result in, at minimum, the student receiving a grade of 0 on the assignment, and the student will not be given the opportunity to resubmit the assignment.
 

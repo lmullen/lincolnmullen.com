@@ -20,7 +20,7 @@ draft: true
 
 ## Course description
 
-This course is organized around a comparative examination of the many forms global Christianity has taken over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adaptation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts, the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as an element of global systems organized around missions, empire, migration, trade, and warfare.
+This course is organized around a comparative examination of the many forms global Christianity has taken over the past two thousand years. Chronologically, it begins with the ancient Jewish, Greek, and Roman contexts of early Christianity and continues through the present. Students will become familiar with many kinds of Christianity across the globe, including Asian, African, Latin American, European, and North American Christianities. In each geographic and chronological context, students will explore several themes, including the adaptation of Christianity to local cultures, the transmission and reception of Christianity, the translation and use of sacred texts, the experiences of a typical church service, and the relationship between Christianity and politics. Students will also consider Christianity as an element of global systems organized around missions, empire, migration, trade, and warfare. This course carries the Mason Core Global Contexts designation and the Just Societies flag.
 
 ## Learning goals
 
@@ -70,13 +70,13 @@ Grades will be based on the assignments listed below. All assignments will be co
 
 *Reading quizzes (25%).* Every class will include a brief quiz over the assigned readings. There are no makeup quizzes or late quizzes, but an absence (or at most two) will not hurt your overall grade. Everyone may choose one and only one quiz to mark as excused.
 
-*Short writing assignments (20%).* We will do approximately eight short writing assignments in class on the day assigned. The prompts for these writing assignments will be given in class. Each assignment will be written in a bluebook and then discussed in class. All you need to do to prepare for these is do the reading the night before AND bring a copy to class.
+*Short writing assignments (20%).* We will do approximately ten short writing assignments in class on the day assigned. The prompts for these writing assignments will be given in class. Each assignment will be written in a bluebook and then discussed in class. All you need to do to prepare for these is do the reading the night before AND bring a copy to class.
 
 *Midterm exam (25%) and final exam (25%).* Exams will include essay and identification questions. A study guide will be crafted collaboratively in advance. 
 
 *Class participation (5%).* Regular attendance and participation in class activities is expected as a matter of course.
 
-Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, ... F = 0--59.
+Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- = 90--92, B+ = 88--89, B = 83--87, B- = 80--82, C+ = 78--79, C = 73--77, C- = 70--72, D = 60--69, F = 0--59.
 
 ## Schedule
 
@@ -241,6 +241,7 @@ Bring a bluebook to class.
 ### Thu., Dec. 3: Whose religion is Christianity?
 
 - Holland, ch. 21.
+- **In class: Short writing about positioning oneself in global systems.**
 
 ### Final exam: Tuesday, Dec. 15, 10:30am--1:15pm
 
@@ -264,7 +265,7 @@ Unless otherwise specified, you should work on your own for assignments. In gene
 
 George Mason University has an [Honor Code](https://oai.gmu.edu/mason-honor-code/), which requires all members of this community to maintain the highest standards of academic honesty and integrity. Cheating, plagiarism, lying, and stealing are all prohibited. All violations of the Honor Code will be reported to the Honor Committee.
 
-See the George Mason University [catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/).
+See the George Mason University [catalog](http://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](http://ctfe.gmu.edu/professional-development/mason-diversity-statement/). This course follows the [common policies for all George Mason University courses](https://stearnscenter.gmu.edu/home/gmu-common-course-policies/), including policies on academic standards, disability accommodations, FERPA, and Title IX.
 
 If you are a student with a disability and you need academic accommodations, please see me and contact the [Office of Disability Resources](https://ds.gmu.edu/). I am more than happy to assist you in succeeding in the course, but all academic accommodations must be arranged through that office.
 

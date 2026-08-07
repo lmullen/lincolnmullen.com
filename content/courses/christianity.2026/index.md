@@ -5,10 +5,10 @@ year: 2026
 department: Department of History and Art History
 university: George Mason University
 coursenum: HIST 384 and RELI 384
-courseurl: https://historyarthistory.gmu.edu/courses/hist384
+courseurl: https://historyarthistory.gmu.edu/courses/hist384/course_sections/126685
 credits: 3
 meets: Tuesdays and Thursdays, 10:30am to 11:45am
-room: Horizon Hall 2008
+room: Enterprise Hall 274
 instructor: Lincoln Mullen
 instructorurl: https://lincolnmullen.com
 email: lmullen@gmu.edu
@@ -45,11 +45,15 @@ In addition, this course meets the requirements for the Just Societies flag. Upo
 
 ## Essential information
 
-This class will include a combination of lecture, discussion, and active learning. Doing the reading is absolutely essential. There will be a reading quiz every class period: if you've done the reading, you can expect to do well on the quizzes. Attend class having read any assigned material and be prepared to discuss or otherwise engage with those readings in class. You must have a copy of the texts assigned for each day available to you during class (electronic copies are fine).
+This class will include a combination of lecture, discussion, and active learning. Doing the reading is absolutely essential. There will be a reading quiz every class period: if you've done the reading, you can expect to do well on the quizzes. Attend class having read any assigned material and be prepared to discuss or otherwise engage with those readings in class. You must have a copy of the texts assigned for each day available to you during class.
 
-We will be using Canvas for many course activities, so you will need a way to access Canvas during the class period (laptop, possibly a phone or tablet).
+All assignments for this course will be completed in class in handwriting. Exceptions will be made made only for students with a letter documenting an accomodation from the Office of Disability Services. At the start of the semester, you should purchase approximately twelve bluebooks. No assignments will be accepted that are not in a bluebook. 
 
-The best place to ask general questions about the class is the Canvas discussion board. That way, if your question is relevant to everyone, they will be able to see it. If your question is individual, you are welcome to use the Canvas messaging feature (please try this first) or to email me (<lmullen@gmu.edu>). You can generally expect a response within 24--48 hours, though never on a Sunday.
+Use of laptops, tablets, and phones for notetaking is strongly discouraged in this class. Students who feel they must use a laptop or tablet for notetaking may submit a request in writing; details will be explained in class.
+
+Here is the AI policy: AI is an incredibly useful tool. But then, so is the codex, perhaps the signature technology of Christianity over against its antecedents. You'll have many opportunities in other classes (including some that I teach) to explore AI. This class will be about reading and thinking about the history of Christianity. To that end, you may use AI outside the classroom however you like: it could be very helpful for creating study guides, for example. In class, you may not use AI for any purpose. Given the way that the course is set up, I really don't think you'll have a chance to use AI on any assignment. But any suspected use of AI for an assignment will result in a zero on the assignment and will be referred to the honor committe. 
+
+I will use Canvas only for a gradebook, for distributing readings, and for communications. The best place to ask general questions about the class is the Canvas discussion board. That way, if your question is relevant to everyone, they will be able to see it. If your question is individual, you are welcome to use the Canvas messaging feature (please try this first) or to email me (<lmullen@gmu.edu>). You can generally expect a response within 24--48 hours, though never on a Sunday.
 
 You are always welcome to talk with me during office hours. To do so, please [book an appointment](/page/office-hours/). If the scheduled times don't work for you, contact me and suggest a few other times that would work for you. I try to come to class early and stay briefly after class for short conversations.
 
@@ -64,11 +68,11 @@ Although you can find the Bible for free in many places and don't strictly need 
 
 Grades will be based on the assignments listed below. Please turn in all assignments on Canvas.
 
-*Reading quizzes (25%).* Every class will include a brief quiz over the assigned readings. There are no makeup quizzes or late quizzes, but an absence (or at most two) will not hurt your overall grade.
+*Reading quizzes (25%).* Every class will include a brief quiz over the assigned readings. There are no makeup quizzes or late quizzes, but an absence (or at most two) will not hurt your overall grade. Everyone may choose one and only one quiz to mark as excused.
 
-*Short writing assignments (4 × 5% each = 20%).* Four short writing assignments are due before the start of class on the day assigned. The prompts for these writing assignments are listed in the schedule below. There are nine prompts; you may select any four that you wish to write. These assignments are the basis of class activities that day, so there are no extensions for due date, but your choice of assignment should afford you some flexibility with your schedule. Each assignment should be between 450 and 550 words. Use quotations from the primary sources as your main source of evidence. Use parenthetical citations.
+*Short writing assignments (8 × 2.5% each = 20%).* We will do eight short writing assignments in class on the day assigned. The prompts for these writing assignments will be given in calss. Each assignment will be written in a blue book and then discussed in class. 
 
-*Midterm exam (25%) and final exam (25%).* Exams will include essay and identification questions.
+*Midterm exam (25%) and final exam (25%).* Exams will include essay and identification questions. A study guide will be crafted collaboratively in advance. 
 
 *Class participation (5%).* Regular attendance and participation in class activities is expected as a matter of course.
 
@@ -98,14 +102,13 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 - Acts and Galatians.
 - _Didache_.
 - Justin Martyr, _First Apology_.
-- Wilken, ch. 3.
 - Holland, ch. 1.
 - **DUE: Short writing on early Christian practices:** How do the authors of Acts and Galatians describe conflicts between different groups of early Christians? According to the New Testament readings and the readings from the Didache and Justin Martyr, what were the most significant rituals and practices among early Christians?
 
 ### Tues., Sep. 8: Christians and Heretics
 
 - Gospel of Thomas.
-- Wilken, chs. 4, 6.
+- Wilken, chs. 3, 4, 6.
 
 ### Thu., Sep. 10: Christianity and Empire
 
@@ -247,11 +250,9 @@ Bring a bluebook to the exam.
 
 This syllabus can and will be updated as necessary. While I will announce any substantive changes, you are expected to keep track of revised readings, assignments, and due dates.
 
-Please submit all assignments in Canvas, except for the midterm and final exams. I will not accept emailed or paper copies of assignments for any reason.
+You are expected to attend each class and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class. Participation grades will be reduced due to repeated absences. Attendance will be taken only via the bluebooks submitted for quizzes. If you are late enough to class that you can't take a quiz, you just miss the quiz, no exceptions. If you wish to be excused for an absence, please contact me before the absence if possible, or as soon as possible after the absence if it is an emergency. I understand that life happens, and I will do my best to work with you.
 
-You are expected to attend each class and to participate actively (exceptions made only for health reasons, religious holidays, and other university-approved excuses). Whether or not students attend class consistently is the best indicator of how well they will do in the class. Participation grades will be reduced due to repeated absences. If you wish to be excused for an absence, please contact me before the absence if possible, or as soon as possible after the absence if it is an emergency. I understand that life happens, and I will do my best to work with you.
-
-Computers, phones, and the like are to be used only for course work while class is in session. Please don't distract your neighbors!
+Computers, phones, and the like are to be used only for course work while class is in session. Please don't distract your neighbors.
 
 Complete all the readings before the start of each class. No unexcused late work will be accepted. No work will be accepted after the last day of class for any reason. I will discuss grades only in conversation during office hours, not via correspondence.
 

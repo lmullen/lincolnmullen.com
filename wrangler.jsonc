@@ -2,10 +2,10 @@
 	"name": "lincolnmullen-dot-com",
 	"compatibility_date": "2025-01-29",
 	"build": {
-		// Pin Hugo to match local dev (Homebrew 0.163.3); Cloudflare's build image
+		// Pin Hugo to match local dev (Homebrew 0.165.0); Cloudflare's build image
 		// otherwise defaults to an older Hugo (0.147.7) that lacks newer template
 		// methods. Fetch the exact binary and call ./hugo, not the preinstalled one.
-		"command": "curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.163.3/hugo_extended_0.163.3_linux-amd64.tar.gz | tar -xzf - hugo && ./hugo --cleanDestinationDir --minify --baseURL \"https://lincolnmullen.com\""
+		"command": "curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.tar.gz | tar -xzf - hugo && ./hugo --cleanDestinationDir --minify --baseURL \"https://lincolnmullen.com\""
 	},
 	"assets": {
 		"directory": "./public",

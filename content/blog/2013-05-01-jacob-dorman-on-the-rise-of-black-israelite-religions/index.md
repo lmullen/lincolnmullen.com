@@ -12,6 +12,8 @@ tags:
 
 *[I'm glad to have joined the blog [Religion in American History](http://usreligion.blogspot.com/) as a regular contributor, having earlier written [one guest post](http://usreligion.blogspot.com/2012/12/the-science-of-soul-in-colonial-new.html). Here is my post that appeared at [the blog](http://usreligion.blogspot.com/2013/05/jacob-dorman-on-rise-of-black-israelite.html "Permalink to Jacob Dorman on the Rise of Black Israelite Religions") on May 1, 2013.]*
 
+<!--more-->
+
 {{< image src="dorman-cover.jpg" alt="Cover of Jacob Dorman, Chosen People: The Rise of American Black Israelite Religions" original="true" >}}
 
 When I was in high school, I occasionally drove my grandfather, a Baptist pastor, to preach at other churches. Several times we visited a predominantly black Baptist congregation in Providence, Rhode Island. What surprised me most during the first visit were the decorations: where you might have expected a cross, a picture of Jesus, and a communion table, there was a Star of David and a menorah instead. The pastor told me after the service that the congregation rented the building on Sundays from [another congregation](http://www.jfri.org/page.aspx?id=125657) that met on Saturdays because they were black Jews. The idea of black Jews challenged to my ill-informed adolescent categories. But even at that time [Jacob Dorman](http://americanstudies.ku.edu/faculty/dorman/index.shtml) was already doing the research for the book that would set me straight, *[Chosen People: The Rise of American Black Israelite Religions](http://amzn.to/11blrOQ)* (Oxford, 2013).

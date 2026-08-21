@@ -13,6 +13,8 @@ At [THATCamp New England](http://newengland2013.thatcamp.org/schedule/) on Octob
 
 > **How to Use a Database for Historical Research**
 
+<!--more-->
+
 > Erin Bartram and Lincoln Mullen
 
 > This workshop will investigate the intellectual problem of how to create a database for historical research. By database, we don't mean a commercial database from which one finds primary sources, but rather a database that is an intellectual model of one's research. The workshop will have two parts. In the first part, we will discuss the form of the database and the problem of how to model historical research. We will address such questions as, What is a database? What fields should my database have? How do I represent uncertainty in a database? How do I cite my sources? The second part of the workshop will deal with the question of how to make a historical argument from a database. We will address such questions as, How do I get my data out of the database and into a useable form? How do I make maps and charts from my data? How do I deal with the perennial historian's problem of selection?

@@ -11,6 +11,8 @@ tags:
 
 After I returned from the AHA/ASCH annual meeting this January, I broke ground on my dissertation. My goal is to turn out a rough draft of a chapter every three months. For this first chapter to be drafted, I was helped in meeting the deadline by the fact that I've been scheduled to present the draft at a history department faculty/grad workshop in April. I sent draft to my committee on Monday, and I'll send it to the history department later this week.
 
+<!--more-->
+
 The first chapter that I've written will be the fourth chapter of the dissertation. It is a history of Cherokee conversions to Christianity in the first four decades of the nineteenth century.
 
 A challenge for this chapter---as I expect it will be for every chapter---was telling a complete story in a very small frame. There is a good reason why very few histories of American religion outside surveys try to deal with multiple religious traditions at once. I tried to solve this problem by focusing on a few converts and then describing Cherokee conversions more generally. This technique was also necessary to give a narrative line to the chapter.

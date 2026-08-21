@@ -14,6 +14,8 @@ tags:
 
 The start of the academic year at RRCHNM also means the return of many of our graduate students. This week RRCHNM welcomed [twenty-five graduate research assistants or graduate affiliates](https://rrchnm.org/our-people/).
 
+<!--more-->
+
 {{< figure src="first-day-rrchnm.jpg" caption="RRCHNM on the first day of classes." >}}
 
 Graduate students are a critical part of the work that RRCHNM creates, and RRCHNM is in turn core to the experience of many of the graduate students in [GMU's Department of History and Art History](https://historyarthistory.gmu.edu/).

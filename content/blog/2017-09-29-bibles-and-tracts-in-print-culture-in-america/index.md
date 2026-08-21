@@ -11,6 +11,8 @@ tags:
 
 My essay in the *Oxford Research Encyclopedia of Religion* on "[Bibles and Tracts in Print Culture in America](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412)" was recently published. When it was first released that collection was freely available, though it has now gone behind a paywall. I was under the impression, which must have been mistaken, that it was going to remain freely available. Nevertheless, the [Religion in America section](http://religion.oxfordre.com/browse?t0=ORE_REL:REFREL023) of that encyclopedia has a fantastic set of essays.
 
+<!--more-->
+
 Here is a summary of [my contribution](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-412):
 
 > Since the first printing presses were established in Britain's North American colonies, print was a ubiquitous feature of American religion. Print was a powerful means of communicating religious ideas, both to the faithful and to people whom religious groups wished to persuade. One common form of religious communication was the pamphlet or, by the 19th century, the tract. These tracts were a way of catechizing people who were already a member of different denominational groups, and tracts provided them with inexpensive collections of religious reading material, such as hymns or psalms. Tracts become a primary feature of evangelism in the United States, as did Bible distribution. In the 19th century the American Tract Society and the American Bible Society managed to exert a long reach into the interior of the United States, with distribution channels that were more far flung than those of any other institution except perhaps the postal service.

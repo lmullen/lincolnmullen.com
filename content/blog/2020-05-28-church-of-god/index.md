@@ -25,6 +25,8 @@ For our work on the [*American Religious Ecologies*](https://religiousecologies.
 - The (Original) Church of God
 - Church of God [or, Church of God (General Assembly)]
 
+<!--more-->
+
 My favorite of these is The Church of God as Organized by Christ, though The (Original) Church of God gives them a run for their money.
 
 I'd be willing to wager that very few historians of American religion could distinguish between each of these groups. And why should they be able to? The minutiae of denominational distinctives is not the stuff of historical understanding. And yet, I find that the Religious Bodies Censuses are a useful tool for focusing my attention on groups that I would otherwise pass by. Of these groups listed above, the only one that I can recall reading about in a work of academic history is Anthea Butler's [*Women in the Church of God in Christ*](https://uncpress.org/book/9780807858080/women-in-the-church-of-god-in-christ/), unless you lump all the Adventists together. What are the stories of the others? As I tried to explain in an [earlier post](https://religiousecologies.org/blog/what-can-you-learn-from-a-census-schedule/) about a congregation in the Armenian Apostolic Church, you can learn a great deal from these census schedules about groups you might otherwise never pay attention to.

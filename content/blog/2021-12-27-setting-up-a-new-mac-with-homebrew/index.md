@@ -11,6 +11,8 @@ tags:
 
 I recently had to set up a new Mac for work. Generally speaking, this happens so infrequently that it is worth setting up the new machine from scratch, rather than using Migration Assistant. I like to avoid carrying over the cruft that comes from several years of a constantly updated development environment, and all work files are in iCloud Drive or GitHub anyway. But still, that leaves a fair bit of set up to do to get things working correctly.
 
+<!--more-->
+
 For a long time I've kept [my dotfiles in a GitHub repository](https://github.com/lmullen/dotfiles). This sets up configuration for ZSH, Neovim, Go, R, Homebrew, LaTeX, Git, and the like. While a lot of it is Mac specific, the shell and text editor configuration work fine on Linux machines, so I can easily bring settings to servers. This makes customizing my development environment fairly painless. (And Visual Studio Code now has great settings sync, so that takes care of itself.)
 
 Of course not everything can go in a public GitHub repository. Recently, I've taken to having a single file (`~/.env.zsh`), which contains project and service credentials, as well as machine-specific settings, stored as environment variables. For example, all the projects that I create pull their database connection settings from environment variables. And setting the number of cores available on a particular makes scaling up parallel processing easier. This file, like SSH keys, is easy to move over to a new machine.

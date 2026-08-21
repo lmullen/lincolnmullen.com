@@ -10,6 +10,8 @@ draft: false
 
 Digital humanities is a spectrum. To put it another way, all humanities scholars use digital practices and concepts to one degree or another, even those who do not identify as digital humanists. Working as a digital humanist is *not* one side of a binary, the other side of which is working as a traditional scholar.
 
+<!--more-->
+
 Consider a few examples: one historian keeps notes and transcribed documents in MS Word documents so that they can be searched. A literary scholar uses a print-on-demand machine to get a physical copy of a book or newspaper scanned by Google. A medievalist uses a library or archive website to read a document that would otherwise require a trip to Europe. A professor making assignments for a class posts readings to Blackboard. A graduate student in a hurry uses Amazon's "Look Inside" feature to verify a footnote. A history department circulates papers for a workshop via e-mail.
 
 These examples are all done by scholars every day. The examples are unremarkable: using these methods does not imply that the scholar works in the digital humanities. They are unremarkable, though, because they are ubiquitous.

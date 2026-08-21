@@ -10,6 +10,8 @@ draft: false
 
 Have you heard the saying "What would Jesus do?" Who hasn't? In the 1990s the phrase became a fad among evangelical Christians, who printed the abbreviation *WWJD?* on bracelets, t-shirts, and posters, spawning in turn a host of mocking pop culture imitations. *WWJD* can provide a useful lens for looking at [evangelical consumer culture](http://www.bookforum.com/inprint/016_02/3848) of the late twentieth century. But the phrase can also serve as a parable about contemporary copyright law.
 
+<!--more-->
+
 The phrase "What would Jesus do?" originated in a novel titled [*In His Steps: What Would Jesus Do?*](http://books.google.com/books?id=cHVIAAAAMAAJ), published in 1897 by Charles M. Sheldon. Sheldon was a Congregational minister in Topeka, Kansas, and a Progressive concerned with Christianity's relationship to the social politics of his day. His book is a parable about the Reverend Henry Maxwell, a minister to a wealthy middle-class congregation. Maxwell comes into contact with a poor man who owes his plight to industrialization, and is thereby jarred from his complacency about social issues. He challenges his congregation to seriously consider the question "What would Jesus do?" in all their actions. As his congregation takes up the challenge, their views on politics, class, race, charity, and corporations fall in line with the social gospel.
 
 The long reach of Sheldon's *In His Steps* was due in large part to its message, which appealed to both mainline and evangelical Christians, and to its simple though not particularly literary prose. But its long reach was also due to a simple mistake by Sheldon's publisher: the book was never properly copyrighted.

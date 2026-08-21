@@ -33,4 +33,4 @@ The main limitation of the *Digital Atlas* is that the data only goes back to 18
 
 Digital methods and tools are opening exciting new possibilities for historical research and publication. If the *[Digital Atlas of American Religion](http://www.religionatlas.org/)* is any indication that bright future includes religious history.
 
-[^1]: I have made a very modest [attempt](https://github.com/lmullen/demographics-religion) at starting to gather this kind of Historical data and analysis transparently, the reasons for which I've started to write about [here](http://lincolnmullen.com/blog/first-thoughts-on-using-r-as-a-historian/).
+[^1]: I have made a very modest [attempt](https://github.com/lmullen/demographics-religion) at starting to gather this kind of Historical data and analysis transparently, the reasons for which I've started to write about here.

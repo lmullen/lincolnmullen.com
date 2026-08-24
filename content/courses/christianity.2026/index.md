@@ -47,7 +47,7 @@ In addition, this course meets the requirements for the Just Societies flag. Upo
 
 This class will include a combination of lecture, discussion, and active learning. Doing the reading is absolutely essential. There will be a reading quiz every class period: if you've done the reading, you can expect to do well on the quizzes. Attend class having read any assigned material and be prepared to discuss or otherwise engage with those readings in class. You must have a copy of the texts assigned for each day available to you during class.
 
-All assignments for this course will be completed in class in handwriting. Exceptions will be made only for students with a letter documenting an accommodation from the Office of Disability Services. At the start of the semester, you should purchase approximately twelve bluebooks. No assignments will be accepted that are not in a bluebook. 
+All assignments for this course will be completed in class in handwriting. Exceptions will be made only for students with a letter documenting an accommodation from the Office of Disability Services. At the start of the semester, you should purchase approximately ten bluebooks. No assignments will be accepted that are not in a bluebook. 
 
 Use of laptops, tablets, and phones for notetaking is strongly discouraged in this class. Students who feel they must use a laptop or tablet for notetaking may submit a request in writing; details will be explained in class.
 

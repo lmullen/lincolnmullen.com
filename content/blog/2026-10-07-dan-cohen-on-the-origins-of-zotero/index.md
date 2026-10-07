@@ -1,5 +1,4 @@
 ---
-title: "Dan Cohen on the origins of Zotero"
 date: "2026-10-07T12:37:06-04:00"
 slug: "dan-cohen-on-the-origins-of-zotero"
 draft: false

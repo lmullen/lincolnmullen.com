@@ -5,9 +5,9 @@ draft: false
 linkpost: https://ftrain.com/aboard-the-web-is-more-than-enough
 description: ""
 social:
-  bluesky: ""
-  mastodon: ""
-  linkedin: ""
+  bluesky: "Paul Ford on industrial software creation becoming accessible (again) to individuals. https://lincolnmullen.com/blog/2026-10-23-21-08-53/"
+  mastodon: "Paul Ford on industrial software creation becoming accessible (again) to individuals. https://lincolnmullen.com/blog/2026-10-23-21-08-53/"
+  linkedin: "Paul Ford on industrial software creation becoming accessible (again) to individuals. https://lincolnmullen.com/blog/2026-10-23-21-08-53/"
 ---
 
 There’s not been a lot of optimism about the web recently, but Paul Ford points out that web technologies designed for teams of software engineers can now be used by individuals:

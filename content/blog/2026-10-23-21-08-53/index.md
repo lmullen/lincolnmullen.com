@@ -10,7 +10,7 @@ social:
   linkedin: "Paul Ford on industrial software creation becoming accessible (again) to individuals. https://ftrain.com/aboard-the-web-is-more-than-enough"
 ---
 
-There’s not been a lot of optimism about the web recently, but Paul Ford points out that web technologies designed for teams of software engineers can now be used by individuals:
+There’s not been a lot of optimism about the web recently, but Paul Ford [points out](https://ftrain.com/aboard-the-web-is-more-than-enough) that web technologies designed for teams of software engineers can now be used by individuals:
 
 > The high tax of building for app stores seems less worth paying when you can just test an idea in the world from a web server for $0 after a couple weeks. Perhaps Mozilla should take another swing at launching a mobile phone! (Forget I mentioned that.) In any case, what used to be a large industrial process is now a personal one, if you so desire. Web browsers enable incredibly rich app development—and that’s radically easier than it used to be.
 

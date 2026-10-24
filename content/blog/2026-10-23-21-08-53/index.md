@@ -3,7 +3,7 @@ date: '2026-10-23T21:08:53-04:00'
 slug: '2026-10-23-21-08-53'
 draft: false
 linkpost: https://ftrain.com/aboard-the-web-is-more-than-enough
-description: ""
+description: "Paul Ford on industrial software creation becoming accessible (again) to individuals."
 social:
   bluesky: "Paul Ford on industrial software creation becoming accessible (again) to individuals. https://ftrain.com/aboard-the-web-is-more-than-enough"
   mastodon: "Paul Ford on industrial software creation becoming accessible (again) to individuals. https://ftrain.com/aboard-the-web-is-more-than-enough"

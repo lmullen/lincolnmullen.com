@@ -1,0 +1,77 @@
+{{- /* Machine-readable citation metadata, so that Zotero (and anything else
+reading embedded metadata) saves a post as a blog post rather than a bare web
+page. The visible Chicago-style citations in layouts/blog/single.html are the
+human-readable counterpart of this.
+
+Zotero reads these through its "Embedded Metadata" translator, which hands
+recognized prefixes to the RDF translator. Three details drive what is emitted
+here:
+
+  1. Type detection has a strict precedence order, and "z:itemType" sits at the
+     top of it. That matters because opengraph.html emits og:type=website on
+     non-article pages, which otherwise forces the type to "webpage". Without
+     an explicit statement a post is saved as a webpage. "rdf:type" is a
+     standards-flavored belt-and-braces duplicate; the two agree, and the
+     Zotero-private one wins.
+
+  2. The Highwire "citation_" family is applied last and overwrites the RDF
+     layer, which is why citation_date and citation_abstract are used here:
+     they beat article:published_time (an RFC3339 timestamp, where a plain date
+     reads better) and og:description (truncated to 200 characters).
+
+  3. Some citation_ tags hard-override the item type and must never appear on
+     these pages: citation_journal_title, citation_book_title,
+     citation_inbook_title, citation_conference_title, citation_conference,
+     citation_dissertation_institution, and
+     citation_technical_report_institution. citation_title is deliberately
+     omitted too -- it is not fatal on its own, but it makes journalArticle the
+     fallback type, so any future slip in the tags above would silently
+     downgrade posts. dc:title carries the title instead.
+
+Prefixes need no xmlns or "prefix" attribute; dc, dcterms, z and rdf are all
+recognized by default. */ -}}
+{{- if and .IsPage (in (slice "blog" "newsletter") .Section) -}}
+
+{{- /* Title. Titles are Markdown, so render inline and strip tags the same way
+       the visible headings do. Untitled micro posts borrow the wording of
+       their hidden heading in blog/single.html. */ -}}
+{{- $title := "" -}}
+{{- if .Title -}}
+  {{- $rendered := .RenderString (dict "display" "inline") .Title | plainify -}}
+  {{- if eq .Section "newsletter" -}}
+    {{- $title = printf "%s #%s: %s" .Site.Params.newsletterTitle .Slug $rendered -}}
+  {{- else -}}
+    {{- $title = $rendered -}}
+  {{- end -}}
+{{- else -}}
+  {{- $title = printf "Post from %s" (.Date.Format site.Params.dateForms.long) -}}
+{{- end -}}
+
+{{- /* Abstract: the author's own description when there is one, otherwise the
+       summary, kept to a length that reads as an abstract. */ -}}
+{{- $abstract := "" -}}
+{{- if .Description -}}
+  {{- $abstract = .Description -}}
+{{- else -}}
+  {{- with .Summary -}}
+    {{- $abstract = . | plainify | strings.TrimSpace | truncate 400 -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Publication title. Zotero maps this to the "Blog" field. */ -}}
+{{- $source := .Site.Params.blogFeedTitle -}}
+{{- if eq .Section "newsletter" -}}
+  {{- $source = .Site.Params.newsletterTitle -}}
+{{- end -}}
+
+<!-- Citation metadata (Zotero) -->
+<meta name="z:itemType" content="blogPost">
+<meta name="rdf:type" content="http://schema.org/BlogPosting">
+<meta name="dc:title" content="{{ $title }}">
+<meta name="dc:creator" content="{{ .Site.Params.author.name }}">
+<meta name="dc:source" content="{{ $source }}">
+<meta name="citation_date" content="{{ .Date.Format site.Params.dateForms.machine }}">
+{{- with $abstract }}
+<meta name="citation_abstract" content="{{ . }}">
+{{- end }}
+{{- end -}}

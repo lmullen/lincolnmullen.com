@@ -112,7 +112,7 @@ Every branch gets two previews: a local Hugo server and a Cloudflare branch prev
 - Run it from inside the branch's worktree, in the background, bound to all interfaces so the published port can reach it:
   `hugo serve --port <port> --bind 0.0.0.0 --baseURL http://localhost:<port>/ --buildDrafts --buildFuture --disableFastRender`
 - Run `npm ci` in the worktree first; the SCSS imports Bootstrap from `node_modules`.
-- If `hugo` is not on the `PATH`, install the version pinned in `wrangler.jsonc` into `~/.local/bin`, choosing `linux-arm64` or `linux-amd64` to match `uname -m`.
+- If `hugo` is not on the `PATH`, run `mise install` in the worktree (or checkout) to get the Hugo version pinned in `.mise.toml`, and run Hugo through mise (`mise exec -- hugo ...`) if it is still not found. Keep `.mise.toml` and the version in `wrangler.jsonc` in sync.
 - The local preview URL is `http://localhost:<port>/`. Hugo rebuilds on file changes, so the server keeps working as you edit; restart it only if it stops.
 - Keep one server per branch. Stop a branch's server before removing its worktree.
 

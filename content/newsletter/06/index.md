@@ -60,7 +60,7 @@ Kate Bowler's [*The Preacher's Wife: The Precarious Power of Evangelical Women C
 
 Too many screenshots above, so here is a photo of my tomato plants. No fig tree, but I'm thankful that I can sit in peace and safety under my own vines.
 
-{{< image src="tomatoes.png" alt="Tomato plants" >}}
+{{< image src="tomatoes.jpg" alt="Tomato plants" >}}
 
 -------------------------
 

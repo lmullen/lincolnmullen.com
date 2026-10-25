@@ -16,7 +16,7 @@ Greetings. And welcome back to *Working on It*.
 
 This week the [*American Religious Ecologies*](https://religiousecologies.org) team released our interactive map of Roman Catholic dioceses in North America from 1511 to the present, with an accompanying essay. [Check it out.](https://religiousecologies.org/visualizations/catholic-dioceses/)
 
-{{< image src="catholic-dioceses.png" alt="Screenshot of a map of Catholic dioceses" link="https://religiousecologies.org/visualizations/catholic-dioceses" >}}
+{{< image src="catholic-dioceses.jpg" alt="Screenshot of a map of Catholic dioceses" link="https://religiousecologies.org/visualizations/catholic-dioceses" >}}
 
 This is the first visualization that we've shipped, but we are working on more. It's taken us some time because we've also been building our infrastructure for creating, analyzing, and visualizing historical datasets. In later issues, I hope to explain some of the considerations that go into making visualizations like this one.
 
@@ -36,7 +36,7 @@ That's all I've got from YouTube. I promise never to do that to you again.
 
 ## Random screenshot
 
- {{< image src="random-screenshot.png" alt="A random screenshot" >}}
+ {{< image src="random-screenshot.jpg" alt="A random screenshot" >}}
  
 -------------------------
 

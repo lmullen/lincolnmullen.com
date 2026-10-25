@@ -40,23 +40,24 @@ Image resolution:
   {{- end -}}
 {{- end -}}
 
-{{- /* Determine image */ -}}
+{{- /* Determine image. Previews are always WebP, like the in-page images,
+       so the cache keys do not depend on the source format. */ -}}
 {{- $image := "" -}}
 {{- if .Params.image -}}
   {{- with .Resources.GetMatch .Params.image -}}
-    {{- $resized := .Fit "1200x630" -}}
+    {{- $resized := .Fit "1200x630 webp" -}}
     {{- $image = $resized.Permalink -}}
   {{- else -}}
     {{- $globalPath := strings.TrimPrefix "/" $.Params.image -}}
     {{- with resources.Get $globalPath -}}
-      {{- $resized := .Fit "1200x630" -}}
+      {{- $resized := .Fit "1200x630 webp" -}}
       {{- $image = $resized.Permalink -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- if not $image -}}
   {{- with resources.Get "img/social-media.jpeg" -}}
-    {{- $resized := .Fit "1200x630" -}}
+    {{- $resized := .Fit "1200x630 webp" -}}
     {{- $image = $resized.Permalink -}}
   {{- end -}}
 {{- end -}}

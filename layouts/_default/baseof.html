@@ -42,7 +42,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-	{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
+	{{/* Bootstrap is imported as "bootstrap/scss/..." and resolved through
+	     includePaths rather than a "node_modules/..." prefix: from Hugo 0.168
+	     the Sass import resolver rejects Bootstrap's own relative imports when
+	     the parent file was found by a relative path (issue #178). */}}
+	{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
 	{{ $style := resources.Get "scss/main.scss" | toCSS  $options | resources.Minify | resources.Fingerprint "md5" }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 

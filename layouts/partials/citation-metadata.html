@@ -30,19 +30,14 @@ here:
 
 Prefixes need no xmlns or "prefix" attribute; dc, dcterms, z and rdf are all
 recognized by default. */ -}}
-{{- if and .IsPage (in (slice "blog" "newsletter") .Section) -}}
+{{- if and .IsPage (eq .Section "blog") -}}
 
 {{- /* Title. Titles are Markdown, so render inline and strip tags the same way
        the visible headings do. Untitled micro posts borrow the wording of
        their hidden heading in blog/single.html. */ -}}
 {{- $title := "" -}}
 {{- if .Title -}}
-  {{- $rendered := .RenderString (dict "display" "inline") .Title | plainify -}}
-  {{- if eq .Section "newsletter" -}}
-    {{- $title = printf "%s #%s: %s" .Site.Params.newsletterTitle .Slug $rendered -}}
-  {{- else -}}
-    {{- $title = $rendered -}}
-  {{- end -}}
+  {{- $title = .RenderString (dict "display" "inline") .Title | plainify -}}
 {{- else -}}
   {{- $title = printf "Post from %s" (.Date.Format site.Params.dateForms.long) -}}
 {{- end -}}
@@ -60,9 +55,6 @@ recognized by default. */ -}}
 
 {{- /* Publication title. Zotero maps this to the "Blog" field. */ -}}
 {{- $source := .Site.Params.blogFeedTitle -}}
-{{- if eq .Section "newsletter" -}}
-  {{- $source = .Site.Params.newsletterTitle -}}
-{{- end -}}
 
 <!-- Citation metadata (Zotero) -->
 <meta name="z:itemType" content="blogPost">

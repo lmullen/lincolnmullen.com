@@ -42,16 +42,15 @@ To check whether you are in the sandbox, test whether these directories exist be
 Content types have layout files in `./layouts/` and corresponding content in `./content/`. The most important content types:
 
 - `blog`: All blog posts, both titled long-form articles and untitled short-form notes. Every post is a page bundle (`content/blog/<dir>/index.md`). Templates use title presence to distinguish: titled posts appear in the archive and get headings; untitled posts do not.
-- `newsletter`: Archives of my newsletter.
 
-The blog list page combines posts from `blog/` and `newsletter/` sections into a mixed feed.
+The site has no separate newsletter. Issues of the former newsletter, *Working on It*, are ordinary blog posts titled "Working on It #<n>: …" and tagged `newsletter`; their `feedid` keeps the old `/newsletter/<n>/` feed GUID. Email signup (Buttondown) offers new posts bundled into an occasional email.
 
 ### Front Matter Patterns
 
 **Blog posts** (`content/blog/YYYY-MM-DD-slug/index.md`):
 - Required: `date`, `slug`, `draft`
 - Title: Optional. When present, the post appears in the archive and gets a heading. When absent, the post is a short-form note.
-- Optional: `description`, `newsletter: true`, `crosspost: {url, source}`, `linkpost: "url"`, `via: "url"`, `image: "filename.jpg"`, `social: {bluesky, mastodon, linkedin}`, `tags`
+- Optional: `description`, `crosspost: {url, source}`, `linkpost: "url"`, `via: "url"`, `image: "filename.jpg"`, `social: {bluesky, mastodon, linkedin}`, `tags`
 - Images: Store in the page bundle directory and reference with `{{</* image src="filename.jpg" alt="description" */>}}`; the `image:` front matter field (relative filename) enables automatic OpenGraph image previews.
 
 Use `<!--more-->` in blog posts for "Read More" truncation on list pages.
@@ -78,7 +77,6 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 
 - **Blog posts** (titled): `https://lincolnmullen.com/blog/<slug>/`, where `<slug>` is the `slug` field in the front matter.
 - **Blog posts** (untitled): `https://lincolnmullen.com/blog/<timestamp>/`, where `<timestamp>` is in `YYYY-MM-DD-HH-MM-SS` format.
-- **Newsletter posts**: `https://lincolnmullen.com/newsletter/<slug>/`, where `<slug>` is the `slug` field in the front matter.
 
 Include the permalink URL at the end of each social media text.
 

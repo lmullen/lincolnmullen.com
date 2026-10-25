@@ -1,5 +1,5 @@
-{{/* Blog + newsletter band (Design Handoff §4.10) — the single filled-color block.
-     Left: the latest titled blog post + blog links + feeds. Right: newsletter signup. */}}
+{{/* Blog + email band (Design Handoff §4.10) — the single filled-color block.
+     Left: the latest titled blog post + blog links + feeds. Right: email signup. */}}
 {{ $latest := index (first 1 (where (where .Site.RegularPages "Section" "blog") ".Title" "!=" "")) 0 }}
 <section class="sb">
 	<div class="blog">
@@ -27,9 +27,9 @@
 		</div>
 	</div>
 	<div class="nl">
-		<span class="sb-eyebrow">Newsletter</span>
-		<div class="sb-h">Subscribe to <em>Working on It</em></div>
-		<p class="sb-sub">An occasional <a href="/newsletter/">newsletter</a> on American religious history, digital history, and the making thereof.</p>
-		{{ partial "newsletter-form.html" (dict "tag" "homepage" "class" "sb-form" "placeholder" "Your email address") }}
+		<span class="sb-eyebrow">Email</span>
+		<div class="sb-h">Subscribe to posts in an occasional email</div>
+		<p class="sb-sub">New posts on American religious history, digital history, and the making thereof, bundled into an occasional email.</p>
+		{{ partial "subscribe-form.html" (dict "tag" "homepage" "class" "sb-form" "placeholder" "Your email address") }}
 	</div>
 </section>

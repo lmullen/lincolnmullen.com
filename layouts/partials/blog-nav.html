@@ -1,13 +1,12 @@
-{{- /* Shared blog sidebar (.bs): Navigate · Newsletter · Site feeds. Reused by
-       the blog index, archive, featured, and newsletter-list pages, and embedded
-       inside post-sidebar.html for single posts. The current page is marked .on
+{{- /* Shared blog sidebar (.bs): Navigate · Email · Site feeds. Reused by
+       the blog index, archive, and featured pages, and embedded inside
+       post-sidebar.html for single posts. The current page is marked .on
        (singles match nothing). The Buttondown `tag` is resolved once here so it
        is correct in every context. Always call with the page context: `. */ -}}
 {{- $tag := "website" -}}
 {{- if eq .RelPermalink "/blog/" -}}{{ $tag = "blog-list" }}
 {{- else if eq .RelPermalink "/archive/" -}}{{ $tag = "blog-archive" }}
 {{- else if eq .RelPermalink "/blog/featured/" -}}{{ $tag = "blog-featured" }}
-{{- else if eq .Section "newsletter" -}}{{ $tag = cond (eq .Kind "page") "newsletter-single" "newsletter-archive" }}
 {{- else if and (eq .Section "blog") (eq .Kind "page") -}}{{ $tag = "blog-post" }}
 {{- end -}}
 <div class="bs">
@@ -20,9 +19,9 @@
     </div>
   </div>
   <div>
-    <p class="bs-lbl">Newsletter</p>
-    {{ partial "newsletter-form.html" (dict "tag" $tag "class" "bs-form") }}
-    <a class="bs-nllink" href="/newsletter/">Read past issues →</a>
+    <p class="bs-lbl">Email</p>
+    <p class="bs-sub">Subscribe to posts in an occasional email.</p>
+    {{ partial "subscribe-form.html" (dict "tag" $tag "class" "bs-form") }}
   </div>
   <div>
     <p class="bs-lbl">Site feeds</p>

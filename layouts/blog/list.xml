@@ -14,11 +14,9 @@
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "newsletter")) }}
+    {{ range first 50 (where .Site.RegularPages "Section" "blog") }}
     <item>
-      {{ if eq .Section "newsletter" }}
-      <title>{{ .Site.Params.NewsletterTitle }} #{{ .Slug }}: {{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
-      {{ else if .Title }}
+      {{ if .Title }}
       <title>{{ .Title | markdownify | plainify | htmlUnescape | safeHTML }}</title>
       {{ end }}
       {{ if .Params.Linkpost }}

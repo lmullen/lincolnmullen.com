@@ -14,9 +14,9 @@
   <div>
     <p class="bs-lbl">Navigate</p>
     <div class="bs-nav">
-      <a href="/blog/"{{ if eq .RelPermalink "/blog/" }} class="on"{{ end }}>Recent posts</a>
-      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on"{{ end }}>Blog posts by date</a>
-      <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on"{{ end }}>Featured posts</a>
+      <a href="/blog/"{{ if eq .RelPermalink "/blog/" }} class="on" aria-current="page"{{ end }}>Recent posts</a>
+      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on" aria-current="page"{{ end }}>Blog posts by date</a>
+      <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on" aria-current="page"{{ end }}>Featured posts</a>
     </div>
   </div>
   <div>

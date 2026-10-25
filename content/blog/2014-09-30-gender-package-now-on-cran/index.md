@@ -13,4 +13,6 @@ tags:
 
 > Encodes gender based on names and dates of birth, using either the Social Security Administration's data set of first names by year of birth or Census Bureau data from 1789 to 1940, both from the United States of America. By using these data sets instead of lists of male and female names, this package is able to more accurately guess the gender of a name, and it is able to report the probability that a name was male or female.
 
+<!--more-->
+
 The package was based on an idea by [Cameron Blevins](http://cameronblevins.org), with whom I'm collaborating on a related article, and it includes significant contributions from [Ben Schmidt](http://benschmidt.org/).

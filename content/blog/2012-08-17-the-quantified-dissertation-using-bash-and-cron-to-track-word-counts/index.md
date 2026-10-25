@@ -15,6 +15,8 @@ Here is a hack for those of you writing a dissertation (or book, or other long f
 $ wc -w ch4.dissertation.Mullen.md
 ```
 
+<!--more-->
+
 I wanted to track my progress by regularly getting a word count for every chapter. To do that, I wrote a Bash script which runs `wc` and stores the data to a CSV file. Here is the script:
 
 ```bash

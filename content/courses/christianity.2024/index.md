@@ -135,16 +135,12 @@ Final grades will be calculated using this scale: A+ = 98--100, A = 93--97, A- =
 - Wilken, chs. 27, 28, 35.
 - Holland, ch. 8.
 
-### Tues., Oct. 1: Syrian and Ethiopian Christianity
+### Tues., Oct. 1: Syrian and Ethiopian Christianity; Islam and Christianity
 
 - _Kebra Negast_.
-- Wilken, chs. 21--23.
-- **DUE: Short writing on Ethiopian Christianity:** Christianity in Ethiopia developed in parallel to, but distinctly different from, Christianity in Europe. What are the similarities and differences? How do you account for those differences in terms of the global systems that affected Christian development?
-
-### Tues., Oct. 1: Islam and Christianity
-
 - John of Damascus, _Fount of Knowledge_, "On Heresies."
-- Wilken, chs. 30, 32--34.
+- Wilken, chs. 21--23, 30, 32--34.
+- **DUE: Short writing on Ethiopian Christianity:** Christianity in Ethiopia developed in parallel to, but distinctly different from, Christianity in Europe. What are the similarities and differences? How do you account for those differences in terms of the global systems that affected Christian development?
 - **DUE: Short writing on John of Damascus and Islam:** How does John of Damascus explain Islam within the terms of Christian theology and practice? What arguments does he use in his apologetic? How does John's understanding differ from Islam's own understanding of its origins, and from historians' accounts?
 
 ### Thu., Oct. 3: Medieval Christianity and the Middle East

@@ -13,6 +13,8 @@ tags:
 
 If you want to learn methods, techniques, or technologies that are outside your usual scholarly ambit, then you often have to learn them in small sections as you find time. That's why I was glad to learn about [R Twotorials](http://www.twotorials.com/).
 
+<!--more-->
+
 R, according to the R Project's [website](http://www.r-project.org/), "is a free software environment for statistical computing and graphics." It's a programming language useful for analyzing data and creating graphics, especially if you're using statistical methods. It's also the language that Matthew Jockers [suggests you learn](http://www.matthewjockers.net/2013/01/03/advice-for-dh-newbies/) if you're interested in digital humanities.
 
 [R Twotorials](http://www.twotorials.com/) is a set of some ninety screencasts, each two minutes long, that teach you how to use R. Created by graduate student [Anthony Damico](http://www.asdfree.com/p/about-faq.html), a statistical analyst at the Kaiser Family Foundation, the screencasts are fast-paced and entertainingly bombastic. You can get a flavor for the screencasts and a sense of how R might be useful by watching this video on [how to make simple plots in R](http://www.screenr.com/XeS8).

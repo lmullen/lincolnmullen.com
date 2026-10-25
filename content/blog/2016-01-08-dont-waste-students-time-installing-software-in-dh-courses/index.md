@@ -13,6 +13,8 @@ Here is a summary of what I said in the [DH pedagogy lightening sessions](http:/
 
 Simple idea 1: Installing software takes [a lot of time](http://www.pgbovine.net/command-line-bullshittery.htm), and installing software can often be harder and require more technological skill than actually using the software.
 
+<!--more-->
+
 Simple idea 2: You must *scaffold* your digital history courses, so that one assignment leads into the next, and so that students build the methodological and technical skills that they need as they go through the course.
 
 The problem is that students need to install the software before they can use it. The most technologically difficult, and the least pedagogically or historically interesting task, happens at the beginning of the course. This presents a tremendous barrier to student involvement. It wastes course time early in the semester, when building momentum is crucial.

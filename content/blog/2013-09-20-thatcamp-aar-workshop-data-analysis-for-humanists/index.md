@@ -13,6 +13,8 @@ tags:
 
 At [THATCamp American Academy of Religion](http://aar2013.thatcamp.org/) on November 22 I will be giving this workshop. I think they wanted me to do it because of [this post](http://usreligion.blogspot.com/2013/08/quantifying-american-tract-society.html).
 
+<!--more-->
+
 > **Data Analysis for Humanists**
 
 > Humanities scholars now have access to a range of data sets and techniques for analyzing them that were previously regarded as the province of scholars in other disciplines. Three kinds of data analysis are common in academic research: mapping, text mining, and quantitative analysis. In this workshop, we'll try our hands at all three, using data sets of interest to scholars of religion. We will make maps from the missions of the Paulist Fathers, do some quantitative analysis of religious demographic data, and mine the texts of the Oxford Movement's *Tracts for the Times*. By bringing these common kinds of data analysis together, we will learn the basic practices and theories which underlie all of them. Of course we will have occasion to discuss what data analysis means from a humanistic perspective.

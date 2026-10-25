@@ -11,6 +11,8 @@ draft: false
 
 *[In November I had the privilege of attending the [Speaking in Code](http://codespeak.scholarslab.org/) conference at Scholars' Lab at the University of Virginia. One of the outcomes of that conference will be a collection of brief essays that Jeremy Boggs is putting together. This is a draft of my contribution.]*
 
+<!--more-->
+
 Though I didn't know it at the time, I had two starting points as a digital humanist.
 
 The first was in high school, when I set up my own website using [WordPress](http://wordpress.org/). WordPress was fun, but it wasn't very slick. To get things working properly I had to copy and paste a lot of PHP. I understood very little of what I was doing, but gradually I was able to decipher such cryptic utterances as the [WordPress loop](http://codex.wordpress.org/The_Loop):

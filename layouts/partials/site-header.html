@@ -2,11 +2,11 @@
      Rendered on every page except the homepage, which supplies its own left-rail nav. */}}
 <header class="sitehead d-print-none">
 	<a class="wordmark" href="/">{{ .Site.Title }}</a>
-	<nav>
+	<nav aria-label="Site">
 		{{ $cur := .RelPermalink }}
 		{{ range site.Menus.main }}
 		{{ $active := cond (eq .URL "/") (eq $cur "/") (hasPrefix $cur .URL) }}
-		<a href="{{ .URL }}"{{ if $active }} class="on"{{ end }}>{{ .Name }}</a>
+		<a href="{{ .URL }}"{{ if $active }} class="on" aria-current="page"{{ end }}>{{ .Name }}</a>
 		{{ end }}
 	</nav>
 </header>

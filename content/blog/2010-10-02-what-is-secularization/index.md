@@ -10,6 +10,8 @@ tags:
 
 A few days ago, Paul [introduced us to secularization theory](http://religioninamerica.org/2010/09/25/secularization-theory/), and in particular to Charles Taylor's book *A Secular Age*. (Taylor's other book, *Sources of the Self*, was the [subject of an earlier post](http://religioninamerica.org/2010/09/02/charles-taylor-and-the-sources-of-the-self/).) Taylor's book is notable for going against the grain: at a time when most scholars are again recognizing the importance of religion, Taylor has undertaken to explain the old question of why societies become more secular. Why?
 
+<!--more-->
+
 The phenomenon in need of explaining is this: religion can expand and secularization can occur at the same time in the same society. As [Leigh Eric Schmidt](http://www.hds.harvard.edu/faculty/schmidt.cfm) observes in a [review of Taylor's book](http://blogs.ssrc.org/tif/2007/11/29/that-weird-strange-thing/), "We must pair our narratives of modern secularization with narratives of modern sanctification." Religion and secularization are "America's uncanny twins." (Do read at least the last paragraph of Schmidt's review.)
 
 Whatever the faults of Taylor's history of secularization, Taylor offers a [definition of secularization](http://books.google.com/books?id=hWRXYY3HRFoC&printsec=frontcover&dq=charles+taylor+a+secular+age&ei=UKimTKOJGIKeM-H9peMC&cd=1#v=onepage&q&f=false) that is powerful enough to account for simultaneous religion and secularization. Taylor first offers two unsatisfactory definitions of *secularization:*

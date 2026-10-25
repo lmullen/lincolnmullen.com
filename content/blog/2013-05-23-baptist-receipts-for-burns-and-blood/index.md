@@ -10,6 +10,8 @@ draft: false
 
 While researching at the Massachusetts Historical Society this week, I have been reading the "Simeon Crowell commonplace-book." The document is not so much a proper commonplace book as a collection of Crowell's poems and a few poems by other people, two lengthy narratives of his life, and some copies of letters. Included among these other materials is a "receipt," or recipe, for the cure of asthma, which involved mixing various food and non-food substances together. Also included are these more curious "receipts":[^1]
 
+<!--more-->
+
 > *A Receipt for Stoping Blod.*
 >
 > Jesus was born in gallilee of the virgin

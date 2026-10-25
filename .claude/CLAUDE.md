@@ -127,7 +127,7 @@ In the sandbox, `CLOUDFLARE_API_TOKEN` can read builds and their logs through th
 
 - List builds: `GET https://api.cloudflare.com/client/v4/accounts/<account>/builds/workers/<script-tag>/builds?per_page=10`. Each result has `build_uuid`, `build_trigger_metadata.branch` and `.commit_hash`, `status`, `build_outcome`, and `created_on` / `running_on` / `stopped_on`.
 - Read a build's log: `GET https://api.cloudflare.com/client/v4/accounts/<account>/builds/builds/<build_uuid>/logs`. `result.lines` is a list of `[timestamp_ms, text]` pairs. The endpoint can briefly return a non-JSON response right after a build stops; retry.
-- Measure build time as `stopped_on` minus `created_on`. The gap between `created_on` and `running_on` is mostly Cloudflare initializing the build environment, which is part of the build, not a queue wait.
+- Measure total build time as `stopped_on` minus `created_on`. The gap between `created_on` and `running_on` combines two things: waiting in the queue behind another build of this worker (builds run one at a time) and initializing the build environment. The log separates them: when a build was queued, `Initializing build environment...` appears twice, and the second one marks the end of the wait.
 
 **Status line.** `.claude/statusline.sh` (registered in `.claude/settings.json`) prints the sandbox kit's status line and then `preview: local remote`, linking the Hugo server running from the current checkout and its Cloudflare branch preview. It finds the server by matching a `hugo` process's working directory to the checkout, so start servers from inside the worktree as above.
 

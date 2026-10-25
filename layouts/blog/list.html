@@ -28,11 +28,13 @@
         {{ end }}
       </div>
 
-      {{ if or .Params.Linkpost .Params.via .Params.Crosspost }}
+      {{ if or (not .Title) .Params.Linkpost .Params.via .Params.Crosspost }}
       <div class="affline">
         {{ with .Params.Linkpost }}<a class="aff" href="{{ . }}"><span class="afk">Link</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
         {{ with .Params.via }}<a class="aff" href="{{ . }}"><span class="afk">Via</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
         {{ with .Params.Crosspost }}<a class="aff" href="{{ .URL }}"><span class="afk">Crossposted</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ .Source }}</span></a>{{ end }}
+        {{/* Untitled posts have no title link, so expose the permalink here. */}}
+        {{ if not .Title }}<a class="aff u-url u-uid" href="{{ .Permalink }}"><span class="afk">Permalink</span><i class="bi bi-link-45deg"></i><span class="afh">{{ (urls.Parse .Permalink).Host }}</span></a>{{ end }}
       </div>
       {{ end }}
 

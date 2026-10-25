@@ -29,7 +29,7 @@ For courses, manually create `content/courses/[course-code].[year]/index.md` usi
 
 ## Additional Directories (Docker Sandbox Only)
 
-If, and only if, you are running in a Docker sandbox (see `sbxenv.yaml` at the repository root), these directories are mounted as additional workspaces. Outside a sandbox they will not be available, so do not assume they exist, and do not try to find or recreate them.
+When running in a Docker sandbox, these directories may be mounted as additional workspaces. Outside a sandbox they will not be available, so do not assume they exist, and do not try to find or recreate them.
 
 - `/Users/lmullen/github/lmullen/projects.lincolnmullen.com`: Standalone projects served off a subdomain of this site, separate from the Hugo site.
 - `/Users/lmullen/github/lmullen/domesday`: My custom web analytics, served from Cloudflare. It has its own `CLAUDE.md`; read it before working in that repository.
@@ -81,3 +81,33 @@ Use the `figure` shortcode for images with a caption, and the `image` shortcode 
 - **Newsletter posts**: `https://lincolnmullen.com/newsletter/<slug>/`, where `<slug>` is the `slug` field in the front matter.
 
 Include the permalink URL at the end of each social media text.
+
+## Git and GitHub
+
+### Branches and worktrees
+
+Whenever the user asks you to work on a separate branch, use a git worktree instead of switching branches in the current checkout.
+
+- Never run `git switch` or `git checkout <branch>` in the main working directory. Leave it on whatever branch it's on, with any uncommitted changes untouched.
+- Create worktrees inside the project at `.worktrees/<branch-name>` (replace `/` in branch names with `-`).
+- Before creating the first worktree, make sure `.worktrees/` is listed in `.gitignore`. If it isn't, add it and tell the user.
+- For a new branch, base it on `main` unless the user says otherwise:
+  `git worktree add -b <branch> .worktrees/<branch> main`
+- For an existing branch: `git worktree add .worktrees/<branch> <branch>`
+- If a worktree for that branch already exists (check `git worktree list`), reuse it rather than creating another.
+- After creating a worktree, do all reading, editing, building, and testing from inside that directory. Install dependencies there if needed (e.g., `go mod download`, `npm install`).
+- Tell the user the worktree path when you create it.
+- Commit work in the worktree's branch. Don't merge into `main` or push unless the user asks.
+- Don't remove a worktree or delete its branch unless the user asks. When they do, use `git worktree remove <path>` followed by `git branch -d <branch>`, and run `git worktree prune` if needed.
+- When the user needs to run a command that must run against the branch's code (a migration, a build, a database command), give the command to switch to its worktree (`cd .worktrees/<branch-name>` from the project root) before the command itself, so it runs against the branch rather than whatever the main checkout has checked out.
+
+### GitHub
+
+Use the `gh` CLI for GitHub operations — creating pull requests, viewing issues, checking CI status, and commenting.
+
+- Open a PR: `gh pr create --base main --head <branch> --title "..." --body "..."`
+- Reference the issue a PR closes in the commit or PR body with `Closes #<n>` so it auto-closes on merge.
+- View an issue: `gh issue view <n>`
+- Check CI on a PR: `gh pr checks <n>`
+
+Do not hand-build GitHub API calls with `curl`; prefer `gh`.

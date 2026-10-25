@@ -6,7 +6,7 @@ description: "Reflections on narrative options for historians: the types of narr
 draft: false
 ---
 
-As I mentioned in my [first post](http://lincolnmullen.com/blog/initial-thoughts-from-the-aha/) on the AHA, one of the main themes of the sessions I attended was storytelling. More veteran historians assure me that this is one of the perpetual questions of the profession. Be that as it may, it was timely for me, coming in the midst of dissertation writing.
+As I mentioned in my [first post](/blog/initial-thoughts-from-the-aha-asch-acha/) on the AHA, one of the main themes of the sessions I attended was storytelling. More veteran historians assure me that this is one of the perpetual questions of the profession. Be that as it may, it was timely for me, coming in the midst of dissertation writing.
 
 <!--more-->
 

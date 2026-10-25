@@ -9,7 +9,7 @@ tags:
 - programming
 ---
 
-Yesterday when I [wrote](http://lincolnmullen.com/blog/tei-boilerplate-for-getting-started-with-tei/) about experimenting with TEI Boilerplate, I mentioned that one of the impediments I'd found to using [TEI](http://www.tei-c.org/index.xml) was being able to do something with it immediately. [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) lets you see a TEI file in your browser immediately. But I also wanted to experiment with analyzing a TEI file programmatically, so I found some sample documents and wrote an easy script in [Ruby](http://www.ruby-lang.org/en/) to serve as my own proof of concept.
+Yesterday when I [wrote](/blog/tei-boilerplate-for-getting-started-with-tei/) about experimenting with TEI Boilerplate, I mentioned that one of the impediments I'd found to using [TEI](http://www.tei-c.org/index.xml) was being able to do something with it immediately. [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) lets you see a TEI file in your browser immediately. But I also wanted to experiment with analyzing a TEI file programmatically, so I found some sample documents and wrote an easy script in [Ruby](http://www.ruby-lang.org/en/) to serve as my own proof of concept.
 
 <!--more-->
 

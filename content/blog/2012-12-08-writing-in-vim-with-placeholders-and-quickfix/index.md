@@ -13,7 +13,7 @@ In his famous [essay](http://www.wiu.edu/cas/history/pdf/HistoryasaLiteraryArt.p
 
 <!--more-->
 
-I try to follow this advice when I'm writing by leaving notes or markers in the text when I'm missing a fact or a reference. Following up on my [post](http://lincolnmullen.com/blog/cleanup-your-markdown-text-in-vim-with-equalprg/) about Vim yesterday, here is how I manage these markers in Vim.
+I try to follow this advice when I'm writing by leaving notes or markers in the text when I'm missing a fact or a reference. Following up on my [post](/blog/cleanup-your-markdown-text-in-vim-with-equalprg/) about Vim yesterday, here is how I manage these markers in Vim.
 
 First, I insert the markers in a standard form: `{TODO}` is my generic marker; `{PAGE}` marks a missing reference; `{FACT}` marks a missing date or the like. I insert these markers using [vim-snipmate](https://github.com/garbas/vim-snipmate) but any method will do.
 

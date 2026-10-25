@@ -30,8 +30,8 @@ Go forth and make maps without anachronism.
 
 [^1]: I think the interface is provided by an ArcGIS web viewer.
 
-[^2]: For [mapping Catholic dioceses](http://lincolnmullen.com/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/).
+[^2]: For [mapping Catholic dioceses](/blog/maps-of-catholic-dioceses-in-the-us-canada-and-mexico-take-two/).
 
-[^3]: As in this [map of slavery in 1860](http://lincolnmullen.com/blog/a-better-map-of-slavery-in-1860/).
+[^3]: As in this [map of slavery in 1860](/blog/a-better-map-of-slavery-in-1860/).
 
 [^4]: When I make maps in [ggplot2](http://ggplot2.org/), R sometimes chokes on fortified shapefiles that are not in EPSG 4326 or EPSG 3857, but otherwise does fine plotting and re-projecting the shapefiles itself.

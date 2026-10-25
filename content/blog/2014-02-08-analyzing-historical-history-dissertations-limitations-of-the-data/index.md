@@ -10,7 +10,7 @@ tags:
 - R
 ---
 
-After my post yesterday about [historical history dissertations](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-beginnings/), [Yoni Appelbaum](https://twitter.com/YAppelbaum) sent me some useful questions about the completeness and accuracy of the data. I've had my own questions about exactly what data I am working with, and what are its limitations. The difficulty with a reasonably large data set like this one is that it is easier to know something about the data in aggregate than any of the particulars.
+After my post yesterday about [historical history dissertations](/blog/analyzing-historical-history-dissertations-beginnings/), [Yoni Appelbaum](https://twitter.com/YAppelbaum) sent me some useful questions about the completeness and accuracy of the data. I've had my own questions about exactly what data I am working with, and what are its limitations. The difficulty with a reasonably large data set like this one is that it is easier to know something about the data in aggregate than any of the particulars.
 
 <!--more-->
 

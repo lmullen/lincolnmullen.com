@@ -9,7 +9,7 @@ tags:
 - programming
 ---
 
-Recently I've been writing a fair bit of code in [Go](https://golang.org) for a project I am working on. There is a lot to like about the language. But the thought occurred to me that maybe I like Go because it fits my (unjustifiably) beleaguered sense of self. If I used to like Ruby [because it was fun](https://lincolnmullen.com/blog/the-challenge-of-translating-10-print-to-ruby/), then maybe I like Go now for these reasons:
+Recently I've been writing a fair bit of code in [Go](https://golang.org) for a project I am working on. There is a lot to like about the language. But the thought occurred to me that maybe I like Go because it fits my (unjustifiably) beleaguered sense of self. If I used to like Ruby [because it was fun](/blog/the-challenge-of-translating-10-print-to-ruby/), then maybe I like Go now for these reasons:
 
 - Go is a minimalist language. I would prefer that we just get down to work without any fuss.
 - Go is a high performance language for concurrency. There is too much to do and it all has to be done at once, so I guess we better do it quickly.

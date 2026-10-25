@@ -10,4 +10,4 @@ tags:
 - data visualization
 ---
 
-This past December I was invited by the Department of Modern Languages at the University of Helsinki to give a workshop introduction to DH with a special emphasis on data visualization. I had a wonderful time with the scholars there, and learned more about the wide-ranging DH research coming out of that university. I posted my [workshop materials](http://lincolnmullen.com/projects/helsinki-workshop/) online here.
+This past December I was invited by the Department of Modern Languages at the University of Helsinki to give a workshop introduction to DH with a special emphasis on data visualization. I had a wonderful time with the scholars there, and learned more about the wide-ranging DH research coming out of that university. I posted my workshop materials online here.

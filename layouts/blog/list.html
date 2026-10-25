@@ -28,13 +28,13 @@
         {{ end }}
       </div>
 
-      {{ if or .Params.Linkpost .Params.via .Params.Crosspost }}
       <div class="affline">
         {{ with .Params.Linkpost }}<a class="aff" href="{{ . }}"><span class="afk">Link</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
         {{ with .Params.via }}<a class="aff" href="{{ . }}"><span class="afk">Via</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
         {{ with .Params.Crosspost }}<a class="aff" href="{{ .URL }}"><span class="afk">Crossposted</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ .Source }}</span></a>{{ end }}
+        {{/* Titled posts already mark up their title link as u-url. */}}
+        <a class="aff{{ if not .Title }} u-url u-uid{{ end }}" href="{{ .Permalink }}"><span class="afk">Permalink</span><i class="bi bi-link-45deg"></i><span class="afh">{{ (urls.Parse .Permalink).Host }}</span></a>
       </div>
-      {{ end }}
 
       {{ partial "post-microformats.html" . }}
 

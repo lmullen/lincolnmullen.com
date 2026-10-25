@@ -11,6 +11,8 @@ tags:
 
 At the [Digital Humanities: The Next Generation](http://web.simmons.edu/~fairb/dhsymposium/program.html) conference a couple weeks ago, I caught up with my colleague [Sara Georgini](http://earlyamericanists.com/contributors/sara-georgini/). Sara is a PhD candidate at Boston University, and an editor of the [Adams Papers](http://www.masshist.org/adams_editorial/) at the [Massachusetts Historical Society](http://www.masshist.org/). She is writing what promises to be a fascinating dissertation about the religious lives of several generations and centuries of the Adams family, from Deacon John Adams to Charles Francis Adams.
 
+<!--more-->
+
 Sara writes for [The Junto](http://earlyamericanists.com/), and she was kind enough to arrange an e-mail interview with [Jean Bauer](http://library.brown.edu/cds/about/staff/jean-bauer), creator of [Early American Foreign Service Database](http://www.eafsd.org/) and [Project Quincy](http://projectquincy.org/), and with [Erin Bartram](http://history.uconn.edu/graduate/bartram.php) and me, collaborators on [The American Converts Database](http://americanconverts.org), about digital methods in the history dissertation.
 
 You can read the [full interview here](http://earlyamericanists.com/2013/03/29/digital-dissertation-workshop/). Here are Jean and Erin leading off with answers to the first question.

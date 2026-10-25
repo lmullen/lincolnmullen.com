@@ -10,6 +10,8 @@ tags:
 
 Over at *Books and Culture*, Timothy Larsen has an [entertaining review](http://www.booksandculture.com/articles/2014/sepoct/noah-sphinx.html) of David Gange's *Dialogues with the Dead: Egyptology in British Culture and Religion, 1822--1922*.
 
+<!--more-->
+
 > And what the Victorians wanted to know was what those who had dwelt beside the Nile long ago had to say about the Bible. A lazy assumption of secularization has infused accounts of modern history, making people imagine that a religious focus was decreasing as the 19th century progressed. Like the plagues of Egypt, however, it actually intensified at the end. Thus the Egyptology of the 1880s and 1890s was significantly more preoccupied with scriptural connections than was that of mid-century.
 
 Larsen captures many fascinating details from the book, including these:

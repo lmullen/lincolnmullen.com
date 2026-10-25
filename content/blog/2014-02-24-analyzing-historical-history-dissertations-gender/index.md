@@ -14,6 +14,8 @@ tags:
 
 **Update February 24, 2014 at 1:50 p.m.:** *I improved the regular expression that parses out first names, so the charts and table have been updated with fewer unknowns.*
 
+<!--more-->
+
 One of the useful questions that can be asked of any data set is about the significance of gender. Unfortunately almost all of the data sets that I have gotten to analyze don't record gender. I'm willing to hazard a guess that that is true for many if not most data sets of interest to historians. However, many data sets, like the one I'm working on for history dissertations, do include a list of names, and first names are a pretty good indicator of gender.
 
 But names are an imperfect indicator of gender. To begin with, you need a list of male and female names to assign a gender to a record. (There are a little under 12 thousand unique first names in the dissertations data set.) But the gender associated with names also varies over time. (Curiously, it seems that names tend to switch from male to female, but not the other way round.) [Cameron Blevins](http://www.cameronblevins.org/) had the really smart idea to look up the gender of names as they vary over time by using [Social Security Administration's names data set](http://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data). He and I are working together to compare the usefulness of his method in our respective data sets, so I'll write about the details later. (In the mean time, here is Cameron's [implementation in Python](https://github.com/cblevins/Gender-ID-By-Time) and an [R package](https://github.com/lmullen/gender) that I wrote. The READMEs explain more about the method.)

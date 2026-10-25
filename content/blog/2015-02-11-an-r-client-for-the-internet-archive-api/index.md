@@ -12,6 +12,8 @@ tags:
 
 In support of some of my research projects, I created a simple R package to access the [Internet Archive's](https://archive.org/) API. The package is intended to search for items, to retrieve their metadata in a usable form, and to download the files associated with the items. The package, called `internetarchive`, is [available on GitHub](https://github.com/lmullen/internetarchive). The README and the [vignette](http://lincolnmullen.com/research/internetarchive/) have a full explanation, but here is a brief overview.
 
+<!--more-->
+
 First, you can do keyword searches:
 
     library("internetarchive")

@@ -8,6 +8,8 @@ draft: false
 
 In this week's issue of *The Economist*, the Lexington columnist wrote an article titled "[The Perils of Constitution-Worship](http://www.economist.com/node/17103701?story_id=17103701)," with the summary, "One of the guiding principles of the tea-party movement is based on a myth." After I [recommended](http://twitter.com/lincolnmullen/status/25586554095) the article, a colleague at Brandeis [asked](http://twitter.com/wedaman/status/25590462791), what's so wrong with myths anyway? This is a question well-worth asking, and answering.
 
+<!--more-->
+
 Myths are probably inescapable. We all believe myths, in the sense that we all use stories about the past that are more believed than proved as a means of explaining and arguing about the present. Society could scarcely function if there were not some myths held in common.
 
 Though myths may be inescapable, it does not follow that all myths are equally true, nor that they are all equally useful. Some myths more closely align with what can be known about the past and present than others. To that extent, the more truthful a myth is, the more useful it is. For myths are useful because they make prominent certain features of the past, but in so doing they blur other features. In short, myths are vices that must confronted, not virtues to be lauded. The task of the historian is to reshape myths to conform as near as possible to the truth---to be a translator speaking for the past.

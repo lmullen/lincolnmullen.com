@@ -12,6 +12,8 @@ tags:
 
 In June of 1843, [Clarence Walworth](http://americanconverts.org/items/show/698) waded into the salty waters of the bay around New York City to be baptized for the second time. The Episcopalian minister who baptized him immersed Walworth three times while pronouncing the baptismal formula "in the Name of the FATHER and of the SON and of the HOLY GHOST." Afterwards the minister put his hand to an certificate of baptism in the hand of the young Walworth, "heavily done in imitation of Old English lettering, ornamentally shaded with red." The Episcopal church had not enjoined Walworth to be re-baptized, nor did it prescribe the "mode of 'trine immersion'" in its prayer book. Why then did Walworth take pains to be baptized in an unusual way, and what did it mean?[^1]
 
+<!--more-->
+
 {{< figure src="2013-05-13-walworth.png" >}}
 
 When he was a child Walworth had been baptized as a Presbyterian, the faith of his family. He began attending an Episcopal church while practicing law, because his "fellow lodger" was the church organist. Bishop Onderdonk confirmed Walworth in the Episcopal church in 1839, but Walworth claimed that "No questions had been put to me as to what I believed or did not believe." His theological opinions were unschooled but broadly Protestant, save for a distaste for the doctrine of justification by faith alone. "With these convictions," Walworth thought, "I could without scruple have become a Presbyterian or Methodist as readily as an Episcopalian."

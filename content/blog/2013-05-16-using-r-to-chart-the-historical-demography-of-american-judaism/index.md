@@ -15,6 +15,8 @@ tags:
 
 The historical demography of American religion is in a sorry state. I've been intending to write about the reasons and possible fixes for this historiographical quandary for some time. My draft blog post has grown to epic length because there are really several topics to address: (1) what attempts have been made at understanding the historical demographics of American religion, (2) what sources exist for recovering these demographics (spoiler: it's pretty grim, but not as grim as you might think), (3) what historical and analytical techniques can we use to fill in the gaps, and (4) what digital humanities tools might help manage and analyze the data once recovered. Parts one through three must wait for more reading, but I want to offer some preliminary thoughts on digital humanities tools.
 
+<!--more-->
+
 So what tools are available to historians who want to study historical demography?
 
 As I see it, there are three main features that we need. One is a simple, future-proof way to store data. The second is a way to analyze the data mathematically. The third is a way to present the data visually.

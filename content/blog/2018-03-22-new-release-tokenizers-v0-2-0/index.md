@@ -17,6 +17,8 @@ A new v0.2.0 release of the [tokenizers package](http://lincolnmullen.com/softwa
 -   New functions to count words, characters, and sentences without tokenization.
 -   The package now uses C++98 rather than C++11, so more users will be able to install it without upgrading their compiler. (No more e-mails from CentOS 6 users.)
 
+<!--more-->
+
 Most important, the package implements the draft recommendations of the [Text Interchange Format](https://github.com/ropensci/tif). The TIF standards were drafted at the [2017 rOpenSci Text Workshop](http://textworkshop17.ropensci.org/). They define standards for tokens, corpora, and document-term matrices to allow R text analysis packages to interoperate with one another. I think these standards, once finalized and widely adopted, will be a very positive development for the coherence of the ecosystem of packages around text analysis in R. A [new vignette](http://lincolnmullen.com/software/tokenizers/articles/tif-and-tokenizers.html) explains how the tokenizers package fits into this ecosystem.
 
 Finally, the package now has a [new website](http://lincolnmullen.com/software/tokenizers/index.html) for vignettes and documentation, thanks to [pkgdown](http://pkgdown.r-lib.org/). What the package does not have is a nice hex-sticker logo, but perhaps that can come in due time.

@@ -12,6 +12,8 @@ tags:
 
 I wrote earlier about using [Rakefiles with Pandoc](http://lincolnmullen.com/blog/using-a-global-rakefile-with-pandoc/). Now that I'm engaged in writing a series of posts on historical history dissertations, I have another problem that Rake can solve. Each of the blog posts for the series is written in [R Markdown](http://www.rstudio.com/ide/docs/authoring/using_markdown?version=0.98.501&mode=desktop), which lets me mix R code and writing together in a kind of [literate programming](http://en.wikipedia.org/wiki/Literate_programming) or research notebook. Then the fabulous [knitr package](http://yihui.name/knitr/) by [Yihui Xie](http://yihui.name/) runs the code to create a combination of writing and output in a Markdown file.
 
+<!--more-->
+
 Let's assume that you have a set of R Markdown files in your project directory, and that you want to knit them without loading any `.Rdata` or `.Rprofile` files so that your research is reproducible. You can do this by with a Rakefile like this:
 
 ```ruby

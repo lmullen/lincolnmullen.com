@@ -13,6 +13,8 @@ tags:
 
 I've recently been [mapping the missions of the Paulist Fathers](http://usreligion.blogspot.com/2013/10/historical-religion-data-in-nhgis-and.html) over the course of the nineteenth century. One problem with the data is that many of the points overlap with one another, since the Paulists were often in cities like New York, Philadelphia, Chicago, and Baltimore. When mapping these points, they overlap with one another.
 
+<!--more-->
+
 This is a common problem in mapping, which [Leaflet.js](http://leafletjs.com/) solves admirably for web maps. See, for example, the [DPLA's map of items](http://dp.la/map). Another solution is to make the points transparent, so that overlapping points are darker than one another. While a judicious use of transparency can help in some places, it is generally a poor solution. It's hard to explain what the layered colors mean to users, and the eye is poor at detecting the difference anyway.
 
 What I wanted to do is to sum together the overlapping points. So for example, instead of having a data file with a mission at St. Peter's Church in New York in September 1851 with 4,000 confessions, and another mission at St. Patrick's Cathedral in October 1851 with 7,000 confessions, I wanted a data file where those points are aggregated as New York missions in 1851 with 11,000 total confessions and 2 missions.

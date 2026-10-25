@@ -19,6 +19,8 @@ Robert Owen and Alexander Campbell squared off against one another in a public d
 
 > Now I would further propose, that all persons doubtful of the truth of the christian religion, or who do not believe it, and who are not friendly to its spread and prevalence over the world, will please signify it by standing up.[^1]
 
+<!--more-->
+
 The Owen-Campbell showdown was just one time of many when nineteenth-century Christians and skeptics [formally debated](http://www.jstor.org/stable/3170943) one another, let alone all the times when they merely declaimed rather than debated. But to judge by the writings of American historians of religion, the triumph of religion over free thought and skepticism in nineteenth-century United States was as lopsided as in the Owen-Campbell debate. For all the hundreds of books on American religion, you would be hard pressed to find three good books on American irreligion.
 
 I want to argue that to understand the religion that Campbell defended, we must also understand the irreligion that Owen argued for. Before I get to that point, though, let me substantiate the claim that there are few good histories of American irreligion, if that's what we should call it. I'm uncertain which umbrella name to give this phenomenon, which encompasses at least Deism, skepticism, agnosticism, rationalism, Free Thought, Ethical Culture, atheism, secularism, and infidelity. Then there are the "nones," that is, people who did not claim a particular religious identity. I've chosen the term "irreligion" until someone proposes a better one.

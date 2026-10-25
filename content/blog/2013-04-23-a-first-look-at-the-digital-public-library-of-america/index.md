@@ -14,6 +14,8 @@ tags:
 
 Last Thursday at noon the Digital Public Library of America launched its website. The opening festivities, which had been booked solid with a long wait list for weeks, were canceled, since the venue at the main branch of the Boston Public Library was adjacent to the site of the bombing in Boston earlier that week. But the DPLA, which is a website and not a location, went ahead with the launch of the public service anyway.
 
+<!--more-->
+
 The DPLA is a project that gathers together the digital collections from many partner institutions. The DPLA aggregates the metadata for these items and points users to the digital copies available at the partners' websites. As more and more institutions join the DPLA, it will be the universal place to search for open digital resources. The DPLA itself gives a [fuller explanation](http://dp.la/info/) of what it does:
 
 > -   **A *portal* that delivers students, teachers, scholars, and the public to incredible resources, wherever they may be in America.** Far more than a search engine, the portal provides innovative ways to search and scan through the united collection of millions of items, including by timeline, map, format, and topic.

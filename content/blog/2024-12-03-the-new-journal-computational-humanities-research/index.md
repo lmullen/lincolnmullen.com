@@ -21,6 +21,8 @@ tags:
 
 > _Computational Humanities Research_ (CHR) is an open access journal in the computational humanities, publishing transdisciplinary papers that are grounded in humanities research questions and use computational, quantitative methodologies to analyse humanities data in its various forms. It is the official journal of the CHR Conference. CHR publishes research that tackles big questions and solves problems pertaining to the humanities through advanced computational methods, contributing empirically to major theoretical, cultural, and historical inquiry. It seeks papers that spotlight quantitative and computational methods and applications, including the practical use and impact of computational techniques, in humanities research. 
 
+<!--more-->
+
 The journal has had a very strong start. That is in part due to its capable and energetic leadership. That includes two special issues on significant topics currently accepting submissions due in January:
 
 - CFP: [Missing Data in the Humanities](https://www.cambridge.org/core/journals/computational-humanities-research/announcements/call-for-papers/missing-data-in-the-humanities)

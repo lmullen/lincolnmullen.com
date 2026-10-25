@@ -11,6 +11,8 @@ tags:
 
 *The Programming Historian* has sent out a call for contributors to write [several proposed new lessons](http://historyarthistory.gmu.edu/articles/10313). If you have expertise in one of these areas, one of these tutorials would be great to write. *The Programming Historian* has an excellent collection of widely-used tutorials, with a well-thought out open peer-review process.
 
+<!--more-->
+
 I hadn't quite realized until my colleague [Stephen Robertson](http://drstephenrobertson.com/) pointed it out to me that what unites these proposed lessons is a call for historical argumentation. *The Programming Historian* is exactly right to think that there is a big gap between data analysis methods and making historical arguments, and that what computational historians need to do is hammer out what that process of historical thinking looks like.
 
 From their [blog post](http://programminghistorian.org/posts/call-to-action):

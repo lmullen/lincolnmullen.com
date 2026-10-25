@@ -27,6 +27,16 @@ This site uses the static site generator, [Hugo](https://gohugo.io).
 
 For courses, manually create `content/courses/[course-code].[year]/index.md` using the archetype at `archetypes/courses.md`.
 
+## Additional Directories (Docker Sandbox Only)
+
+If, and only if, you are running in a Docker sandbox (see `sbxenv.yaml` at the repository root), these directories are mounted as additional workspaces. Outside a sandbox they will not be available, so do not assume they exist, and do not try to find or recreate them.
+
+- `/Users/lmullen/github/lmullen/projects.lincolnmullen.com`: Standalone projects served off a subdomain of this site, separate from the Hugo site.
+- `/Users/lmullen/github/lmullen/domesday`: My custom web analytics, served from Cloudflare. It has its own `CLAUDE.md`; read it before working in that repository.
+- `/Users/lmullen/notes/writing/blog-drafts`: Drafts that I write in Obsidian on the go. These are source material for new blog posts, not part of the site. Do not edit or delete them unless I ask.
+
+To check whether you are in the sandbox, test whether these directories exist before relying on them.
+
 ## Content Types
 
 Content types have layout files in `./layouts/` and corresponding content in `./content/`. The most important content types:

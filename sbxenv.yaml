@@ -1,0 +1,9 @@
+schemaVersion: 1
+name: lincolnmullen.com
+agent: claude
+workspace: /Users/lmullen/github/lmullen/lincolnmullen.com
+additionalWorkspaces:
+  - path: /Users/lmullen/github/lmullen/projects.lincolnmullen.com
+  - path: /Users/lmullen/github/lmullen/domesday
+  - path: /Users/lmullen/notes/writing/blog-drafts
+    readOnly: true

@@ -13,7 +13,7 @@ This fall I'll be teaching a university writing seminar titled 'Religious Plural
 
 <!--more-->
 
-I've made the [syllabus](religious-pluralism.syllabus.2012-fall.pdf) available online and I've put up a basic [course website](http://lincolnmullen.com/courses/uws/).
+I've made the [syllabus](https://files.lincolnmullen.com/syllabi/religious-pluralism.syllabus.2012-fall.pdf) available online and I've put up a basic [course website](http://lincolnmullen.com/courses/uws/).
 
 Here is the course description:
 

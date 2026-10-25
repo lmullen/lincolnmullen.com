@@ -97,9 +97,31 @@ Whenever the user asks you to work on a separate branch, use a git worktree inst
 - If a worktree for that branch already exists (check `git worktree list`), reuse it rather than creating another.
 - After creating a worktree, do all reading, editing, building, and testing from inside that directory. Install dependencies there if needed (e.g., `go mod download`, `npm install`).
 - Tell the user the worktree path when you create it.
-- Commit work in the worktree's branch. Don't merge into `main` or push unless the user asks.
+- Commit work in the worktree's branch. Don't merge into `main` unless the user asks. Push the branch (never `main`) whenever you make changes so Cloudflare builds a preview; see "Preview servers" below.
 - Don't remove a worktree or delete its branch unless the user asks. When they do, use `git worktree remove <path>` followed by `git branch -d <branch>`, and run `git worktree prune` if needed.
 - When the user needs to run a command that must run against the branch's code (a migration, a build, a database command), give the command to switch to its worktree (`cd .worktrees/<branch-name>` from the project root) before the command itself, so it runs against the branch rather than whatever the main checkout has checked out.
+
+### Preview servers
+
+Every branch gets two previews: a local Hugo server and a Cloudflare branch preview. Whenever you make changes on a branch, give the user both URLs.
+
+**Local preview.** Ports 1313, 1314, 1315, and 1316 are published from the sandbox to the host. When you create a branch, start a Hugo server for it on one of those ports:
+
+- Pick the first free port: `(exec 3<>/dev/tcp/127.0.0.1/<port>) 2>/dev/null` succeeds if the port is taken. If all four are taken, ask the user which server to stop.
+- Run it from inside the branch's worktree, in the background, bound to all interfaces so the published port can reach it:
+  `hugo serve --port <port> --bind 0.0.0.0 --baseURL http://localhost:<port>/ --buildDrafts --buildFuture --disableFastRender`
+- Run `npm ci` in the worktree first; the SCSS imports Bootstrap from `node_modules`.
+- If `hugo` is not on the `PATH`, install the version pinned in `wrangler.jsonc` into `~/.local/bin`, choosing `linux-arm64` or `linux-amd64` to match `uname -m`.
+- The local preview URL is `http://localhost:<port>/`. Hugo rebuilds on file changes, so the server keeps working as you edit; restart it only if it stops.
+- Keep one server per branch. Stop a branch's server before removing its worktree.
+
+**Remote preview.** Cloudflare Workers Builds deploys every pushed branch, so push the branch after each change (`git push -u origin <branch>` the first time). The branch preview URL is:
+
+`https://<branch>-lincolnmullen-dot-com.lincoln-07e.workers.dev/`
+
+`<branch>` is the branch name, lowercased, with characters other than letters, digits, and `-` replaced by `-`. Once a PR is open, Cloudflare's bot comment on the PR shows the exact Branch Preview URL and build status; prefer that if it differs. The URL works only after the build finishes (`gh pr checks <n>`). The sandbox firewall may block `*.workers.dev`, so don't treat a failed fetch from the sandbox as a failed deploy.
+
+**Status line.** `.claude/statusline.sh` (registered in `.claude/settings.json`) prints the sandbox kit's status line and then `preview: local remote`, linking the Hugo server running from the current checkout and its Cloudflare branch preview. It finds the server by matching a `hugo` process's working directory to the checkout, so start servers from inside the worktree as above.
 
 ### GitHub
 

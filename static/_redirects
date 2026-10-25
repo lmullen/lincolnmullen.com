@@ -25,6 +25,11 @@
 /blog/ghostery-in-the-machine/ /blog/ghostery-on-your-machine-stop-sites-from-tracking-you/ 301
 /blog/archive/ /archive/ 302
 
+# Newsletter images renamed to match their actual format (JPEG data had a .png extension)
+/newsletter/5/catholic-dioceses.png /newsletter/5/catholic-dioceses.jpg 301
+/newsletter/5/random-screenshot.png /newsletter/5/random-screenshot.jpg 301
+/newsletter/6/tomatoes.png /newsletter/6/tomatoes.jpg 301
+
 # Project redirects
 /project/slavery https://projects.lincolnmullen.com/slavery/ 301
 /project/slavery/ https://projects.lincolnmullen.com/slavery/ 301

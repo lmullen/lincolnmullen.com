@@ -31,7 +31,7 @@ As a first step towards using R as a historian, I want to present some basic dat
 
 The data are American Jewish population estimates taken from the appendix to Jonathan D. Sarna, *[American Judaism: A History](http://books.google.com/books?id=Ujw_IawuIIgC&lpg=PA375&vq=appendix&dq=jonathan%20sarna%20american%20judaism&pg=PA375#v=onepage&q&f=false)* (New Haven: Yale University Press, 2004), 375--76. Because this data has some gaps, and because it includes upper and lower bound estimates, the data is more interesting than a trivial example.
 
-I've entered this data into a [CSV file](https://github.com/lmullen/demographics-religion/blob/master/judaism/sarna.appendix.csv), part of which looks like this:
+I've entered this data into a [CSV file](https://github.com/religious-ecologies/religious-statistics/blob/master/jews-sarna/sarna-2005.csv), part of which looks like this:
 
 ```
 year,estimate-low,estimate-high,percentage-population-low,percentage-population-high
@@ -42,7 +42,7 @@ year,estimate-low,estimate-high,percentage-population-low,percentage-population-
 1800,2500,2500,0.04,0.04
 ```
 
-Next I've written [an R script](https://github.com/lmullen/demographics-religion/blob/master/judaism/judaism.overview.R) which will do some analysis and plotting.
+Next I've written [an R script](https://github.com/religious-ecologies/religious-statistics/blob/485e13cb7702ec3538e4beb93af800f17ee862d1/judaism/judaism.overview.R) which will do some analysis and plotting.
 
 Getting the data into R is easy:
 

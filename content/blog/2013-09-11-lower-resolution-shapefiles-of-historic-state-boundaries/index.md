@@ -16,7 +16,7 @@ A few weeks ago I [posted some shapefiles](/blog/shapefiles-of-historic-u-s-stat
 
 -   [Low-resolution shapefiles](https://dl.dropboxusercontent.com/u/1125028/historic.states.low-res.zip)
 -   [High resolution shapefiles](https://www.dropbox.com/s/xu0bug1x7hgm5h1/historic-state-boundaries.zip)
--   [Code to generate the shapefiles](https://github.com/lmullen/demographics-religion/blob/master/historic.shapefiles.r)
+-   [Code to generate the shapefiles](https://github.com/religious-ecologies/religious-statistics/blob/7a263285c478bf541faded3a72e5582223290df2/historic.shapefiles.r)
 
 The [NHGIS](https://nhgis.org) has kindly granted me permission to share these converted files, but if you use them, please be sure to cite the NHGIS. (Please cite me too!) The NHGIS has also asked that you not redistribute these converted files yourself, but instead point people here or to their own site. This is the citation you can use for the NHGIS:
 

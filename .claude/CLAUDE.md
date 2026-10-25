@@ -121,6 +121,8 @@ Every branch gets two previews: a local Hugo server and a Cloudflare branch prev
 
 `<branch>` is the branch name, lowercased, with characters other than letters, digits, and `-` replaced by `-`. Once a PR is open, Cloudflare's bot comment on the PR shows the exact Branch Preview URL and build status; prefer that if it differs. The URL works only after the build finishes (`gh pr checks <n>`). The sandbox firewall may block `*.workers.dev`, so don't treat a failed fetch from the sandbox as a failed deploy.
 
+**Status line.** `.claude/statusline.sh` (registered in `.claude/settings.json`) prints the sandbox kit's status line and then `preview: local remote`, linking the Hugo server running from the current checkout and its Cloudflare branch preview. It finds the server by matching a `hugo` process's working directory to the checkout, so start servers from inside the worktree as above.
+
 ### GitHub
 
 Use the `gh` CLI for GitHub operations — creating pull requests, viewing issues, checking CI status, and commenting.

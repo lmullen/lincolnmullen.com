@@ -254,7 +254,7 @@ Readings:
 
 Assignment:
 
--   [Text analysis assignment](https://github.com/ClioGMU/clio2-texts).
+-   [Text analysis assignment](https://github.com/ClioGMU/clio2-text).
 
 Readings:
 

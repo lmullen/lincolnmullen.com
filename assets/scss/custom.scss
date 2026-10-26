@@ -670,13 +670,6 @@ sup.footnote-ref {
 .netlinks a:hover {
   color: var(--orange-text);
 }
-.netlinks i {
-  width: 1.05rem;
-  text-align: center;
-  color: var(--mut);
-  flex: none;
-  font-size: 0.9rem;
-}
 .netlinks svg {
   width: 1.05rem;
   height: 1.05rem;
@@ -814,19 +807,12 @@ sup.footnote-ref {
   margin: 0;
   max-width: 34rem;
 }
-.blog-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.2rem 2rem;
-  flex-wrap: wrap;
-  margin-top: auto;
-  padding-top: 1.3rem;
-}
 .sb-navlinks {
   display: flex;
   gap: 1.6rem;
   flex-wrap: wrap;
+  margin-top: auto; /* sits at the foot of the column */
+  padding-top: 1.3rem;
 }
 .sb-navlinks a {
   display: inline-flex;

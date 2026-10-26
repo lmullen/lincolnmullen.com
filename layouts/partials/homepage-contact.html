@@ -1,16 +1,27 @@
-{{/* Contact band (Design Handoff §5.3): Contact (left) + Around the internet (right).
-     Contact icons stay monochrome (--mut). The netlinks service logos are real brand
-     marks (inline SVGs); iconStyle=brand colors each via --bc, iconStyle=monochrome
-     forces them all to --mut through the .mono class. */}}
+{{/* About · Contact · Around the internet (Design Handoff §5.3), the first row of
+     content, inside the hero's main column. Left column: About (biography, CV) and
+     Contact; the two right columns: the netlinks. Contact icons stay monochrome
+     (--mut). The netlinks service logos are real brand marks (inline SVGs);
+     iconStyle=brand colors each via --bc, iconStyle=monochrome forces them all to
+     --mut through the .mono class. */}}
 {{ $mono := eq (site.Params.iconStyle | default "brand") "monochrome" }}
-<section class="band">
+<div class="hero-links">
 	<div>
-		<span class="ey">Contact</span>
-		<div class="contact">
-			<a href="mailto:lincoln@lincolnmullen.com"><i class="bi bi-envelope" aria-hidden="true"></i>lincoln@lincolnmullen.com</a>
-			<a href="mailto:lmullen@gmu.edu"><i class="bi bi-envelope" aria-hidden="true"></i>lmullen@gmu.edu</a>
+		<div class="hl-block">
+			<span class="ey">About</span>
+			<div class="contact">
+				<a href="/bio/"><i class="bi bi-person" aria-hidden="true"></i>Biography</a>
+				<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf"><i class="bi bi-file-earmark-text" aria-hidden="true"></i>Curriculum Vitae</a>
+			</div>
 		</div>
-		<a href="/page/office-hours/" class="appt-btn"><i class="bi bi-calendar-event" aria-hidden="true"></i>Book an appointment <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+		<div class="hl-block">
+			<span class="ey">Contact</span>
+			<div class="contact">
+				<a href="mailto:lincoln@lincolnmullen.com"><i class="bi bi-envelope" aria-hidden="true"></i>lincoln@lincolnmullen.com</a>
+				<a href="mailto:lmullen@gmu.edu"><i class="bi bi-envelope" aria-hidden="true"></i>lmullen@gmu.edu</a>
+			</div>
+			<a href="/page/office-hours/" class="appt-btn"><i class="bi bi-calendar-event" aria-hidden="true"></i>Book an appointment <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+		</div>
 	</div>
 	<div>
 		<span class="ey">Around the internet</span>
@@ -28,4 +39,4 @@
 			<a href="https://www.zotero.org/lmullen" rel="me" style="--bc:#CC2936"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.231 2.462 7.18 20.923h14.564V24H2.256v-2.462L16.308 3.076H2.975V0h18.256v2.462z"/></svg>Zotero</a>
 		</div>
 	</div>
-</section>
+</div>

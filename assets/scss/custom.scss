@@ -606,49 +606,27 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* Action links (§4.5) */
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.75rem;
-  margin-top: 1.5rem;
-  clear: left;
-}
-.actions a {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  font: 600 1rem/1 "Source Serif 4", serif;
-  @include smallcaps-action;
-  color: var(--navy);
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
-}
-.actions a:hover {
-  color: var(--orange-text);
-  border-bottom-color: var(--orange-text);
-}
-.actions a i {
-  font-size: 0.82em;
-  transform: translateY(0.02em);
-  transition: transform 0.15s;
-}
-.actions a:hover i {
-  transform: translate(0.2em, 0.02em);
-}
-
-/* Contact band (§5.3) */
-.band {
+/* About · Contact · Around the internet (§5.3): three equal columns in the hero's
+   main column, below the bio. The left column stacks About and Contact; the
+   netlinks fill the other two (see .hero-links .netlinks). */
+.hero-links {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 3.25rem;
-  padding-bottom: var(--sp-section);
-  margin-bottom: var(--sp-section);
+  gap: 2rem 3.25rem;
+  margin-top: 2rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--rule);
+  clear: left;
 }
-.band .ey {
+.hero-links .ey {
   display: block;
   margin-bottom: 0.8rem;
+}
+.hl-block + .hl-block {
+  margin-top: 1.6rem;
+}
+.hero-links .netlinks {
+  grid-template-columns: repeat(2, 1fr);
 }
 .contact {
   display: flex;
@@ -1082,11 +1060,10 @@ sup.footnote-ref {
   .statement {
     font-size: 2.05rem;
   }
-  .band {
+  .hero-links {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
   }
   .sb {
     grid-template-columns: 1fr;
@@ -1103,9 +1080,6 @@ sup.footnote-ref {
   .statement {
     font-size: 1.72rem;
     line-height: 1.17;
-  }
-  .actions {
-    gap: 1.1rem;
   }
 }
 

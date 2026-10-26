@@ -12,6 +12,7 @@ $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
+$bp-hero-links: 1100px; /* homepage hero grid: About/Contact beside netlinks → stacked */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -623,8 +624,10 @@ sup.footnote-ref {
 .hl-block + .hl-block {
   margin-top: 1.6rem;
 }
-.hero-links .netlinks {
-  grid-template-columns: repeat(2, 1fr);
+@media (min-width: ($bp-hero-links + 1px)) {
+  .hero-links .netlinks {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .contact {
   display: flex;
@@ -956,6 +959,22 @@ sup.footnote-ref {
 }
 
 /* ===== responsive (§5) ===== */
+@media (max-width: $bp-hero-links) {
+  /* The hero's main column is too narrow for three columns: About and Contact
+     share one row, the netlinks run full width below (3 → 2 columns at
+     $bp-netlinks like everywhere else). */
+  .hero-links {
+    grid-template-columns: 1fr;
+  }
+  .hero-links > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem 2rem;
+  }
+  .hl-block + .hl-block {
+    margin-top: 0;
+  }
+}
 @media (max-width: $bp-netlinks) {
   .netlinks {
     grid-template-columns: 1fr 1fr;
@@ -1037,6 +1056,11 @@ sup.footnote-ref {
   .sb .nl {
     border-left: none;
     border-top: 1px solid rgba(255, 255, 255, 0.22);
+  }
+}
+@media (max-width: 640px) {
+  .hero-links > div:first-child {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: $bp-phone) {

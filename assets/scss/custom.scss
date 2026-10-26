@@ -613,9 +613,7 @@ sup.footnote-ref {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem 3.25rem;
-  margin-top: 2rem;
-  padding-top: 1.6rem;
-  border-top: 1px solid var(--rule);
+  margin-top: 2.4rem;
   clear: left;
 }
 .hero-links .ey {
@@ -879,6 +877,7 @@ sup.footnote-ref {
   display: flex;
   gap: 1.75rem;
   flex-wrap: wrap;
+  margin-top: 0.6rem; /* with the eyebrow's own margin, matches the gap to the post title at left */
 }
 .sb-feedlinks a {
   display: inline-flex;

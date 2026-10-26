@@ -10,16 +10,16 @@ social:
   linkedin: ""
 ---
 
-I [use AI](/blog/behind-ahead/) for my work and in my personal life, and this blog mixes both. Using AI necessarily raises the questions of authorship and attribution. Who wrote, the author or his agent? Of course the mind is never unmediated by technology. I hope my readers will not begrudge me the use of the codex and the text editor if I call the thoughts here my own. But still, having AI write is fundamentally different than using those other assistive technologies for writing, even though I don't know how to articulate why.
+I [use AI](/blog/behind-ahead/) for my work and in my personal life, and this blog mixes both. Using AI necessarily raises questions of authorship and attribution. Who wrote, the author or his agent? Of course the mind is never unmediated by technology. I hope my readers will not begrudge me the use of the codex and the text editor if I call the thoughts here my own. But still, having AI write is fundamentally different from using those other assistive technologies for writing, even though I don't know how to articulate why.
 
 <!--more-->
 
-So for myself at least, and perhaps for my readers, I find it necessary to draw the line at where I will and won't use AI in my work. So for the purposes of this website, here is where I draw the line right now.
+So for myself at least, and perhaps for my readers, I find it necessary to draw the line where I will and won't use AI in my work. For the purposes of this website, here is where I draw the line right now.
 
-- Anything that bears my name, I take responsibility for. If there is an error in fact or judgement, I accept it as mine, the same as I would for a conventionally authored publication, or for a work of scholarship aided by a research assistant. But in the same way, I also claim the credit: if the AI helped me produce something useful, it was because I used it skillfully.
+- Anything that bears my name, I take responsibility for. If there is an error in fact or judgment, I accept it as mine, the same as I would for a conventionally authored publication, or for a work of scholarship aided by a research assistant. But in the same way, I also claim the credit: if the AI helped me produce something useful, it was because I used it skillfully.
 - I will not use AI to write prose. If you read words under my name, you can be sure that I wrote them.[^1]
-- For the purposes of prose, I will use AI in much the same way I would employ a copyeditor. A copyeditor or proofreader has often pointed out my errors, even if I make my own corrections.
-- I have no compunction about using AI for writing code. This website is [important to me](/blog/working-on-it-1/), and for a long time I had written every line of code for it. Now the code is mostly AI generated, and better for it. This blog has only ever half been about the writing. It's always been a technological playground, which I've reinvented whenever I needed to learn something new.
+- For the purposes of prose, I will use AI in much the same way I would employ a copyeditor. A copyeditor or proofreader has often pointed out my errors, even when I made my own corrections.
+- I have no compunction about using AI for writing code. This website is [important to me](/blog/working-on-it-1/), and for a long time I had written every line of code for it. Now the code is mostly AI-generated, and better for it. This blog has only ever half been about the writing. It's always been a technological playground, which I've reinvented whenever I needed to learn something new.
 
 The norms for writing and AI are emerging, and are already sharply diverging between the disciplines. These are my norms, at least for this website and at least for now.
 

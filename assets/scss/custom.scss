@@ -895,20 +895,22 @@ sup.footnote-ref {
 .sb-navlinks a:hover i {
   transform: translateX(0.2em);
 }
+/* Feed links lead the subscribe column: heading-weight serif with the orange icon */
 .sb-feedlinks {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.75rem;
+  flex-wrap: wrap;
 }
 .sb-feedlinks a {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.55rem;
   color: #fff;
   text-decoration: none;
-  @include mono-label(var(--label-md), 0.08em);
+  font: 600 1.2rem/1.2 "Source Serif 4", serif;
 }
 .sb-feedlinks a i {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   color: var(--orange-text);
   transition: transform 0.15s;
 }
@@ -918,17 +920,10 @@ sup.footnote-ref {
 .sb-feedlinks a:hover i {
   transform: translateY(-2px);
 }
-.sb-h {
-  font: 600 1.2rem/1.2 "Source Serif 4", serif;
-  color: #fff;
-}
-.sb-h em {
-  font-style: italic;
-}
 .sb-sub {
   font: 400 1rem/1.42 "Source Serif 4", serif;
   color: rgba(255, 255, 255, 0.82);
-  margin: 0.4rem 0 0;
+  margin: 0.9rem 0 0;
 }
 .sb-sub a {
   color: #fff;

@@ -1,5 +1,6 @@
-{{/* Blog + email band (Design Handoff §4.10) — the single filled-color block.
-     Left: the latest titled blog post + blog links + feeds. Right: email signup. */}}
+{{/* Blog + subscribe band (Design Handoff §4.10) — the single filled-color block.
+     Left: the latest titled blog post + blog links. Right: how to subscribe —
+     the RSS and JSON feeds first, then the occasional email. */}}
 {{ $latest := index (first 1 (where (where .Site.RegularPages "Section" "blog") ".Title" "!=" "")) 0 }}
 <section class="sb">
 	<div class="blog">
@@ -21,15 +22,14 @@
 				<a href="/blog/">Recent posts <i class="bi bi-arrow-right"></i></a>
 				<a href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
 			</div>
-			<div class="sb-feedlinks">
-				{{ partial "feed-links.html" (dict "suffix" " feed") }}
-			</div>
 		</div>
 	</div>
 	<div class="nl">
-		<span class="sb-eyebrow">Email</span>
-		<div class="sb-h">Subscribe to posts in an occasional email</div>
-		<p class="sb-sub">New posts on American religious history, digital history, and the making thereof, bundled into an occasional email.</p>
+		<span class="sb-eyebrow">Subscribe to the blog</span>
+		<div class="sb-feedlinks">
+			{{ partial "feed-links.html" (dict "suffix" " feed") }}
+		</div>
+		<p class="sb-sub">You can also subscribe via email. Posts will be bundled and sent to you occasionally.</p>
 		{{ partial "subscribe-form.html" (dict "tag" "homepage" "class" "sb-form" "placeholder" "Your email address") }}
 	</div>
 </section>

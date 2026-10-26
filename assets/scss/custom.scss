@@ -849,7 +849,7 @@ sup.footnote-ref {
 }
 .sb-feedlinks a i {
   font-size: 1.45rem;
-  color: var(--orange-text);
+  color: var(--accent-soft); /* 4.5:1 on the cobalt; the orange text color is only 1.4:1 */
   transition: transform 0.15s;
 }
 .sb-feedlinks a:hover {
@@ -897,8 +897,8 @@ sup.footnote-ref {
 }
 .sb-form input[type="submit"] {
   border: none;
-  background: var(--orange-text);
-  color: #fff;
+  background: var(--accent-soft);
+  color: #16203a; /* fixed near-black: the fill is the same in both modes (11:1) */
   @include mono-label(var(--label-md), 0.1em);
   padding: 0 1.2rem;
   cursor: pointer;

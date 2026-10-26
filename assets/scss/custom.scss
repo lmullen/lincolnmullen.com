@@ -649,35 +649,6 @@ sup.footnote-ref {
   flex: none;
   font-size: 0.95rem;
 }
-.appt-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  margin-top: 1rem;
-  @include mono-label(var(--label-md), 0.1em);
-  color: var(--navy);
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-  padding: 0.6rem 0.85rem;
-  text-decoration: none;
-  transition: border-color 0.15s, color 0.15s;
-}
-.appt-btn i:first-child {
-  color: var(--orange-text);
-  font-size: 0.95rem;
-}
-.appt-btn .bi-arrow-right {
-  font-size: 0.82rem;
-  transition: transform 0.15s;
-}
-.appt-btn:hover {
-  border-color: var(--orange-text);
-  color: var(--orange-text);
-}
-.appt-btn:hover .bi-arrow-right {
-  transform: translateX(0.2em);
-}
-
 /* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
 .netlinks {

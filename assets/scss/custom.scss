@@ -873,7 +873,8 @@ sup.footnote-ref {
 .sb-navlinks a:hover i {
   transform: translateX(0.2em);
 }
-/* Feed links lead the subscribe column: heading-weight serif with the orange icon */
+/* Feed links lead the subscribe column: the mono label voice at its largest
+   size, with the orange icon */
 .sb-feedlinks {
   display: flex;
   gap: 1.75rem;
@@ -885,7 +886,7 @@ sup.footnote-ref {
   gap: 0.55rem;
   color: #fff;
   text-decoration: none;
-  font: 600 1.2rem/1.2 "Source Serif 4", serif;
+  @include mono-label(var(--label-lg), 0.1em);
 }
 .sb-feedlinks a i {
   font-size: 1.45rem;

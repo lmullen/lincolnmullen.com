@@ -7,6 +7,7 @@ draft: false
 tags:
 - newsletter
 - digital history
+featured: true
 ---
 
 Since this is a new newsletter with next-to-no readers, this first issue is less of a missive to subscribers and more of a love letter to the IndieWeb.

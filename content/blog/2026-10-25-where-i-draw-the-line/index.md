@@ -1,9 +1,9 @@
 ---
 title: "Where I draw the line"
-date: '2026-10-25T23:04:54-04:00'
+date: '2026-10-25T23:42:12-04:00'
 slug: "where-i-draw-the-line"
 draft: false
-description: "Where do I draw the line between using AI and doing it myself when I am making this website."
+description: "Where do I draw the line between using AI and doing it myself when making this website?"
 social:
   bluesky: "Where I draw the line between AI assistance and authorship. https://lincolnmullen.com/blog/where-i-draw-the-line/"
   mastodon: "Where I draw the line between AI assistance and authorship. https://lincolnmullen.com/blog/where-i-draw-the-line/"

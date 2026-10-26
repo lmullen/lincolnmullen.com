@@ -3,11 +3,14 @@ title: "Where I draw the line"
 date: '2026-10-25T23:04:54-04:00'
 slug: "where-i-draw-the-line"
 draft: false
-description: ""
+description: "Lincoln Mullen explains where he draws the line on using AI for his website: he uses it to write code and as a copyeditor, but he writes all of the prose himself and takes responsibility for everything under his name."
 social:
-  bluesky: ""
-  mastodon: ""
-  linkedin: ""
+  bluesky: "Where I draw the line on AI for this website: I use it to write code and as a copyeditor, but I don't use it to write prose. If you read words under my name, I wrote them. https://lincolnmullen.com/blog/where-i-draw-the-line/"
+  mastodon: "Using AI raises questions about authorship and attribution, so here is where I draw the line for this website. Anything under my name, I take responsibility for. I use AI much as I would a copyeditor, and I have no compunction about using it to write code. But I don't use it to write prose. If you read words under my name, I wrote them. https://lincolnmullen.com/blog/where-i-draw-the-line/"
+  linkedin: |
+    Using AI raises questions of authorship and attribution, and the norms for writing with AI are already diverging sharply between the disciplines.
+
+    I've written down where I draw the line for my own website: I take responsibility for anything that bears my name, I use AI for code and in the way I would use a copyeditor, but I write the prose myself. https://lincolnmullen.com/blog/where-i-draw-the-line/
 ---
 
 I [use AI](/blog/behind-ahead/) for my work, for which this blog is a hub. Using AI necessarily raises questions of authorship and attribution. Who did the writing, the author or his agent? Is this blog the work of a machine or of my mind? Of course the mind is never unmediated by technology. I hope my readers will not begrudge me the use of the codex and the [text editor](https://www.hup.harvard.edu/books/9780674417076)[^1] if I call the thoughts posted here my own. But still, having AI write is fundamentally different from using those other assistive technologies for writing, even though I don't know how to articulate why it is different.

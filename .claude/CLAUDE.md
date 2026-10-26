@@ -57,6 +57,8 @@ The site has no separate newsletter. Issues of the former newsletter, *Working o
 
 Use `<!--more-->` in blog posts for "Read More" truncation on list pages.
 
+When working on a post, do not paste the full Markdown file into the chat unless the user asks for it. Summarize the changes and quote only the relevant lines.
+
 ## Shortcodes
 
 Use the `figure` shortcode for images with a caption, and the `image` shortcode for images that do not need a caption.
@@ -110,7 +112,8 @@ Every branch gets two previews: a local Hugo server and a Cloudflare branch prev
 
 - Pick the first free port: `(exec 3<>/dev/tcp/127.0.0.1/<port>) 2>/dev/null` succeeds if the port is taken. If all four are taken, ask the user which server to stop.
 - Run it from inside the branch's worktree, in the background, bound to all interfaces so the published port can reach it:
-  `hugo serve --port <port> --bind 0.0.0.0 --baseURL http://localhost:<port>/ --buildDrafts --buildFuture --disableFastRender`
+  `hugo serve --port <port> --bind 0.0.0.0 --baseURL http://localhost:<port>/ --buildDrafts --buildFuture --disableFastRender --poll 500ms`
+- Keep `--poll 500ms`. The checkout is mounted from the host over virtiofs, which does not deliver file-change events for edits made on the host, so without polling Hugo misses the user's edits and live reload never fires.
 - Run `npm ci` in the worktree first; the SCSS imports Bootstrap from `node_modules`.
 - If `hugo` is not on the `PATH`, run `mise install` in the worktree (or checkout) to get the Hugo version pinned in `.mise.toml`, and run Hugo through mise (`mise exec -- hugo ...`) if it is still not found. Keep `.mise.toml` and the version in `wrangler.jsonc` in sync.
 - The local preview URL is `http://localhost:<port>/`. Hugo rebuilds on file changes, so the server keeps working as you edit; restart it only if it stops.

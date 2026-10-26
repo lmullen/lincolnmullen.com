@@ -42,4 +42,4 @@ Follow the "Git and GitHub" section of `CLAUDE.md` for the worktree, the local H
 
 ## Handoff
 
-Show the user the full Markdown file in the reply. After each revision, show the full file again.
+Do not show the user the full Markdown file in the reply unless they ask for it. Summarize what you created or changed, and quote only the lines that matter (for example, new front matter fields).

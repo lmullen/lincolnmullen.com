@@ -1,11 +1,11 @@
 ---
 name: summarize-for-social-media
-description: Generate first drafts of social media posts for blog, micro, or newsletter posts. Use when the user asks to create social media content for a post.
+description: Generate first drafts of social media posts for blog or micro posts. Use when the user asks to create social media content for a post.
 ---
 
 ## Social Media Text and Description Generation
 
-When asked to generate social media posts for a blog, micro, or newsletter post, read the post file and write the text directly into the post's YAML front matter fields. Use the post that was provided in the context of the chat. Use the stylistic suggestions in other Claude skills and documentation.
+When asked to generate social media posts for a blog or micro post, read the post file and write the text directly into the post's YAML front matter fields. Use the post that was provided in the context of the chat. Use the stylistic suggestions in other Claude skills and documentation.
 
 Do not enter plan mode. Do not run the Hugo server or any verification steps. Just read the post, generate the text, and write it into the front matter.
 
@@ -29,14 +29,6 @@ For all platforms: capture the main point or most interesting detail of the post
 
 If the body text of the post is short enough to fit within a platform's character limit (after appending the URL), use it verbatim without modification. Do not rephrase short posts unnecessarily.
 
-### Newsletter posts
-
-For newsletter posts (files in `content/newsletter/`), **override** the platform-specific tone guidance above. Use the same template for all three platforms (bluesky, mastodon, linkedin):
-
-> In the most recent issue of the "Working on It" newsletter, I wrote about {BRIEF DESCRIPTIONS OF 2-3 THINGS}. Read and subscribe: {PERMALINK}
-
-Replace `{BRIEF DESCRIPTIONS OF 2-3 THINGS}` with concise, natural-sounding descriptions of the main topics covered in the newsletter issue. Replace `{PERMALINK}` with the post's permalink URL. Keep the descriptions brief enough that the bluesky version fits within 300 characters.
-
 ### YAML formatting
 
 - For `description`, `bluesky`, and `mastodon`, use double-quoted strings on a single line.
@@ -55,14 +47,4 @@ social:
     I recently wrote about the example topic, which has significant implications for the field.
 
     The post explores how this matters for scholars and institutions working in this area. https://lincolnmullen.com/blog/example-post-title/
-```
-
-Here is an example for a newsletter post:
-
-```yaml
-description: "Issue 15 of the Working on It newsletter, covering topic A, topic B, and topic C."
-social:
-  bluesky: "In the most recent issue of the \"Working on It\" newsletter, I wrote about topic A, topic B, and topic C. Read and subscribe: https://lincolnmullen.com/blog/example-newsletter/"
-  mastodon: "In the most recent issue of the \"Working on It\" newsletter, I wrote about topic A, topic B, and topic C. Read and subscribe: https://lincolnmullen.com/blog/example-newsletter/"
-  linkedin: "In the most recent issue of the \"Working on It\" newsletter, I wrote about topic A, topic B, and topic C. Read and subscribe: https://lincolnmullen.com/blog/example-newsletter/"
 ```

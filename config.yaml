@@ -20,7 +20,6 @@ permalinks:
   blog: "/:section/:slug/"
   archive: "/:slug/"
   page: "/:section/:slug/"
-  newsletter: "/:section/:slug/"
 
 markup:
   goldmark:
@@ -64,7 +63,6 @@ params:
     rfc3339: "2006-01-02T15:04:05Z07:00" # full timestamps: microformats, OpenGraph
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
-  newsletterTitle: "Working on It"
   siteFeedUrl: "/blog/index.xml"
   # "Around the internet" social icons: brand (official colors) | monochrome (--mut)
   iconStyle: brand
@@ -73,7 +71,7 @@ params:
     email: "lincoln@lincolnmullen.com"
 
 # Primary navigation. Rendered in the homepage rail, the slim interior header,
-# and the footer "Site" row so they stay in sync. Newsletter is deliberately
+# and the footer "Site" row so they stay in sync. The email signup is deliberately
 # excluded (Design Handoff §9); it lives in the cobalt band and on the blog page.
 menu:
   main:

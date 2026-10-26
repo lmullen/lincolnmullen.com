@@ -1,11 +1,11 @@
 ---
 name: review-post
-description: Review a blog, micro, or newsletter post against the site's style guide and front matter requirements. Use when the user asks to review, check, or validate a post before publishing.
+description: Review a blog or micro post against the site's style guide and front matter requirements. Use when the user asks to review, check, or validate a post before publishing.
 ---
 
 # Review post
 
-Review the specified post file. This skill works for blog, micro, and newsletter posts. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
+Review the specified post file. This skill works for blog and micro posts. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to review.
 
 Read the post file, then check every item below. Report all issues found, organized by category. After reporting, ask the user if they want you to fix the issues.
 
@@ -54,7 +54,6 @@ These fields are used by templates. If present, validate them; if absent, do not
 
 - `crosspost`: If present, must have `url` (a valid URL string) and `source` (name of the external site) sub-fields. Displayed as a notice that the post was originally published elsewhere.
 - `linkpost`: If present, must be a valid URL string. Indicates the post links to an external resource; the URL is used as the canonical link.
-- `newsletter`: If `true`, the post is styled as a newsletter entry. The newsletter title is *Working on It* (italicized). The title displays as "Working on It #<slug>: <title>".
 - `tags`: If present, must be a YAML list. Tags appear in OpenGraph meta tags and the JSON feed. No tag pages are generated.
 
 ## Micro post front matter

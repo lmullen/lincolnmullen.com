@@ -25,10 +25,15 @@
 /blog/ghostery-in-the-machine/ /blog/ghostery-on-your-machine-stop-sites-from-tracking-you/ 301
 /blog/archive/ /archive/ 302
 
-# Newsletter images renamed to match their actual format (JPEG data had a .png extension)
-/newsletter/5/catholic-dioceses.png /newsletter/5/catholic-dioceses.jpg 301
-/newsletter/5/random-screenshot.png /newsletter/5/random-screenshot.jpg 301
-/newsletter/6/tomatoes.png /newsletter/6/tomatoes.jpg 301
+# The newsletter ("Working on It") was folded into the blog in October 2026.
+# Issues are now blog posts with slugs working-on-it-<n>; images moved with them.
+# Three images were renamed earlier to match their actual format (JPEG data had a .png extension).
+/newsletter/5/catholic-dioceses.png /blog/working-on-it-5/catholic-dioceses.jpg 301
+/newsletter/5/random-screenshot.png /blog/working-on-it-5/random-screenshot.jpg 301
+/newsletter/6/tomatoes.png /blog/working-on-it-6/tomatoes.jpg 301
+/newsletter/index.xml /blog/index.xml 301
+/newsletter/ /archive/ 301
+/newsletter/:n/* /blog/working-on-it-:n/:splat 301
 
 # Project redirects
 /project/slavery https://projects.lincolnmullen.com/slavery/ 301

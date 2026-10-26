@@ -25,6 +25,8 @@ This site uses the static site generator, [Hugo](https://gohugo.io).
 - **Untitled post** (short-form/micro): Leave the title blank. Creates `content/blog/YYYY-MM-DD-HH-MM-SS/index.md` with the timestamp as the slug.
 - Both types optionally include an image (drag-and-drop friendly).
 
+When creating a post for the user, follow the `new-post` skill (`.claude/skills/new-post/SKILL.md`) instead of running the script, which ends by opening VS Code.
+
 For courses, manually create `content/courses/[course-code].[year]/index.md` using the archetype at `archetypes/courses.md`.
 
 ## Additional Directories (Docker Sandbox Only)

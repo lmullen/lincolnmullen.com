@@ -1,4 +1,5 @@
-// Bootstrap variable overrides for navy & orange color scheme.
+// Bootstrap variable overrides for navy & orange color scheme. Theme, link,
+// heading, and border colors match the identity tokens in custom.scss.
 // These are set before Bootstrap's own variables are imported, so they
 // override Bootstrap's defaults via the !default mechanism.
 // See: https://getbootstrap.com/docs/5.3/customize/sass/#variable-defaults
@@ -19,13 +20,13 @@ $teal: #3a6e5a;
 $cyan: #3a6a7e;
 
 // Theme colors
-$primary: $blue;
+$primary: #1b54c0; // --navy
 // Text-safe orange (5.0:1 on white; matches --orange-text in custom.scss).
 // Bootstrap uses $secondary for button fills with white text and for code,
 // where the brighter $orange (3.9:1) fails WCAG AA.
 $secondary: #b0561a;
 $success: $green;
-$info: $blue;
+$info: $primary;
 $warning: $orange;
 $danger: $red;
 $light: #f3f4f6;
@@ -36,10 +37,10 @@ $body-color: #1a1a1a;
 $body-bg: #ffffff;
 
 // Headings
-$headings-color: #1a1e26;
+$headings-color: #16203a; // --ink
 
 // Links
-$link-color: #3568b2;
+$link-color: $primary; // --navy
 $link-hover-color: #b0561a; // text-safe orange, 5.0:1 on white
 
 // Borders

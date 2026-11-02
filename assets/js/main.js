@@ -13,12 +13,7 @@ import Modal from 'bootstrap/js/dist/modal';
 // import ScrollSpy from 'bootstrap/js/dist/scrollspy';
 // import Tab from 'bootstrap/js/dist/tab';
 // import Toast from 'bootstrap/js/dist/toast';
-import Tooltip from 'bootstrap/js/dist/tooltip';
-
-// Initialize tooltips on all elements with data-bs-toggle="tooltip"
-document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(el => {
-  new Tooltip(el);
-});
+// import Tooltip from 'bootstrap/js/dist/tooltip';
 
 // Copy-to-clipboard for elements with data-copy-target
 document.addEventListener('click', (e) => {

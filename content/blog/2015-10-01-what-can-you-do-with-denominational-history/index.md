@@ -12,6 +12,8 @@ image: baptist_distinctives.jpg
 
 I recently read Thomas Kidd and Barry Hankins's *Baptists in America: A History* (2015). I must have liked it, since my father, for many years a Baptist pastor, says that I've tried to send him copies more than once. This book deserves a proper review, perhaps paired with David Bebbington's *Baptists Through the Centuries: A History of a Global People* (2010). But for today I want to use the book to think through what a denominational history can accomplish. Here are a few thoughts about the particular set of things the book is able to accomplish because it is a denominational history.
 
+<!--more-->
+
 1. A denominational history can cross the color line.
 
 This book is not filled with "Baptists" and "black Baptists," where unmarked Baptists can be assumed to be white. Rather, Kidd and Hankins are careful to write "white Baptists" when they mean white Baptists, and write "black Baptists" when they mean black Baptists. A denominational history is of course far from the only way to discuss race in the context of religious history. Yet we can contrast the effects of the decision to focus on Baptists with the decision to focus on, say, evangelicalism. Recent histories of evangelicalism or fundamentalism tend to take white Christians as their subjects, whether or not there are good [reasons](http://www.patheos.com/blogs/anxiousbench/2013/02/the-quandary-of-african-american-evangelicalism/) to question that demarcation, acknowledge the color line, and leave it at that. If race is the single most-important category in U.S. history (and it is), then our histories of U.S. religion ought to be able to discuss race at least as well as this denominational history.

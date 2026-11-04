@@ -13,6 +13,8 @@ tags:
 
 A few weeks ago I did something which surprised my wife, and which surprised me: I bought a [Kindle Paperwhite](https://www.amazon.com/dp/B007OZNZG0/ref=as_li_ss_til?tag=backwardglance-20&camp=0&creative=0&linkCode=as4&creativeASIN=B007OZNZG0&adid=0GS31AKP7HCFR0AN3EW1&). Even more surprising, I like the Kindle a lot, and I find myself doing most of a certain kind of reading on the Kindle.
 
+<!--more-->
+
 Here is a not-so-brief review of the device itself, followed by a few thoughts on the Kindle as an e-book ecosystem.
 
 ## The Device

@@ -7,5 +7,10 @@
       "Bash(__NEW_LINE_347dcaee2e2f90e5__ chmod:*)",
       "Bash(/tmp/check_posts.sh)"
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"$(git rev-parse --show-toplevel)/.claude/statusline.sh\"",
+    "padding": 0
   }
 }

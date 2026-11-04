@@ -12,6 +12,8 @@ tags:
 
 This site runs on [Jekyll](http://jekyllrb.com), a static-site generator written in Ruby. As I create more and more figures to go on this site, it has become increasingly laborious to get the images, captions, and links properly formatted. So I've written a [jekyll_figure](https://github.com/lmullen/jekyll_figure) plugin to automate the figures.
 
+<!--more-->
+
 A tag like this:
 
     {% figure filename svg,png,pdf 'Your caption here' %}

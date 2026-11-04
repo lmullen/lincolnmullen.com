@@ -11,6 +11,8 @@ tags:
 
 This weekend I am giving a presentation about the future of digital scholarship in the field of American religion at the [Biennial Conference on Religion and American Culture](https://raac.iupui.edu/programs/biennial-conference-on-religion-american-culture/). In the presentation I'll be sharing a number of digital projects in American religion that I've learned a lot from. Since the proceedings of the conference will be published later, I won't publish my remarks here now. But for the sake of conference participants who might want to follow along, here is a list of the projects I'll mention without notes or comment.
 
+<!--more-->
+
 - [Uncivil Religion](https://uncivilreligion.org/home/index)
 - [Singing Box 331: Re-sounding Eighteenth-Century Mohican Hymns from the Moravian Archives](https://oieahc.wm.edu/digital-projects/oi-reader/singing-box-331-rachel-wheeler-sarah-eyerly/)
 - [Places, Perspectives: African American Community-building in Tennessee, 1860--1920](https://dsi.mtsu.edu/places/)

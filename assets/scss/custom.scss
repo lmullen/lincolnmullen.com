@@ -12,6 +12,7 @@ $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
+$bp-hero-links: 1100px; /* homepage hero grid: About/Contact beside netlinks → stacked */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -46,7 +47,8 @@ $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
   --ink: #16203a; /* headings, near-black hairline rules */
   --body: #1a1a1a; /* body text */
   --sec: #5a5e66; /* secondary text (excerpts, notes) */
-  --orange: #e07a2e; /* accent: emphasis, card top-border, icons, buttons */
+  --orange: #e07a2e; /* accent: decorative only (borders, fills) */
+  --orange-text: #b0561a; /* orange as a text/icon color — 5.0:1 on white (WCAG AA); the brighter --orange measures only 3.0:1 */
   --link: #1b54c0; /* inline prose links */
   --rule: #d4d6dc; /* light hairline (rare) */
   --rule2: #e6e7ea; /* faint list-row dividers */
@@ -59,7 +61,7 @@ $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
   --radius-sm: 5px; /* small chips: inline code pills */
 
   /* Same in both modes (the band stays cobalt in dark mode) */
-  --cobalt: #1b54c0; /* blog/newsletter band fill */
+  --cobalt: #1b54c0; /* blog/email band fill */
   --accent-soft: #ffc79c; /* soft peach accent on the cobalt band */
 
   /* Mono label sizes (§4.1) — four steps replace the old 0.6–0.82rem continuum */
@@ -111,6 +113,7 @@ $bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
   --body: #c2c7d0;
   --sec: #9aa0ab;
   --orange: #ee8b46;
+  --orange-text: var(--orange); /* already 7.2:1 on the dark background */
   --link: #84aaf2;
   --rule: #2a2e37;
   --rule2: #23262e;
@@ -262,7 +265,7 @@ a {
 
 .sitehead nav a:hover,
 .sitehead nav a.on {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 /* On phones, track the homepage rail wordmark's smaller size (.rail .nm mobile). */
@@ -500,7 +503,7 @@ sup.footnote-ref {
 /* Eyebrow label (§4.1) */
 .ey {
   @include mono-label(var(--label-md), 0.2em);
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 /* Section header (§4.2) — the primary section divider */
@@ -524,7 +527,7 @@ sup.footnote-ref {
   white-space: nowrap;
 }
 .shead a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 /* Hero (§5.1): side rail + oversized statement */
@@ -561,7 +564,7 @@ sup.footnote-ref {
 }
 .rail nav a:hover,
 .rail nav a.on {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 .rail .photo {
   width: 100%;
@@ -601,52 +604,30 @@ sup.footnote-ref {
   text-decoration: none;
 }
 .bio-p a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
-/* Action links (§4.5) */
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.75rem;
-  margin-top: 1.5rem;
-  clear: left;
-}
-.actions a {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  font: 600 1rem/1 "Source Serif 4", serif;
-  @include smallcaps-action;
-  color: var(--navy);
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
-}
-.actions a:hover {
-  color: var(--orange);
-  border-bottom-color: var(--orange);
-}
-.actions a i {
-  font-size: 0.82em;
-  transform: translateY(0.02em);
-  transition: transform 0.15s;
-}
-.actions a:hover i {
-  transform: translate(0.2em, 0.02em);
-}
-
-/* Contact band (§5.3) */
-.band {
+/* About · Contact · Around the internet (§5.3): three equal columns in the hero's
+   main column, below the bio. The left column stacks About and Contact; the
+   netlinks fill the other two (see .hero-links .netlinks). */
+.hero-links {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 3.25rem;
-  padding-bottom: var(--sp-section);
-  margin-bottom: var(--sp-section);
+  gap: 2rem 3.25rem;
+  margin-top: 2.4rem;
+  clear: left;
 }
-.band .ey {
+.hero-links .ey {
   display: block;
   margin-bottom: 0.8rem;
+}
+.hl-block + .hl-block {
+  margin-top: 1.6rem;
+}
+@media (min-width: ($bp-hero-links + 1px)) {
+  .hero-links .netlinks {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .contact {
   display: flex;
@@ -662,7 +643,7 @@ sup.footnote-ref {
   text-decoration: none;
 }
 .contact a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 .contact i {
   width: 1.1rem;
@@ -671,35 +652,6 @@ sup.footnote-ref {
   flex: none;
   font-size: 0.95rem;
 }
-.appt-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  margin-top: 1rem;
-  @include mono-label(var(--label-md), 0.1em);
-  color: var(--navy);
-  border: 1px solid var(--rule);
-  border-radius: var(--radius);
-  padding: 0.6rem 0.85rem;
-  text-decoration: none;
-  transition: border-color 0.15s, color 0.15s;
-}
-.appt-btn i:first-child {
-  color: var(--orange);
-  font-size: 0.95rem;
-}
-.appt-btn .bi-arrow-right {
-  font-size: 0.82rem;
-  transition: transform 0.15s;
-}
-.appt-btn:hover {
-  border-color: var(--orange);
-  color: var(--orange);
-}
-.appt-btn:hover .bi-arrow-right {
-  transform: translateX(0.2em);
-}
-
 /* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
 .netlinks {
@@ -716,14 +668,7 @@ sup.footnote-ref {
   text-decoration: none;
 }
 .netlinks a:hover {
-  color: var(--orange);
-}
-.netlinks i {
-  width: 1.05rem;
-  text-align: center;
-  color: var(--mut);
-  flex: none;
-  font-size: 0.9rem;
+  color: var(--orange-text);
 }
 .netlinks svg {
   width: 1.05rem;
@@ -803,7 +748,7 @@ sup.footnote-ref {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-/* Blog + newsletter band (§4.10) — the single filled-color block; cobalt in BOTH modes */
+/* Blog + email band (§4.10) — the single filled-color block; cobalt in BOTH modes */
 .sb {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -862,19 +807,12 @@ sup.footnote-ref {
   margin: 0;
   max-width: 34rem;
 }
-.blog-foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.2rem 2rem;
-  flex-wrap: wrap;
-  margin-top: auto;
-  padding-top: 1.3rem;
-}
 .sb-navlinks {
   display: flex;
   gap: 1.6rem;
   flex-wrap: wrap;
+  margin-top: auto; /* sits at the foot of the column */
+  padding-top: 1.3rem;
 }
 .sb-navlinks a {
   display: inline-flex;
@@ -893,21 +831,25 @@ sup.footnote-ref {
 .sb-navlinks a:hover i {
   transform: translateX(0.2em);
 }
+/* Feed links lead the subscribe column: the mono label voice at its largest
+   size, with the orange icon */
 .sb-feedlinks {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.6rem; /* with the eyebrow's own margin, matches the gap to the post title at left */
 }
 .sb-feedlinks a {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.55rem;
   color: #fff;
   text-decoration: none;
-  @include mono-label(var(--label-md), 0.08em);
+  @include mono-label(var(--label-lg), 0.1em);
 }
 .sb-feedlinks a i {
-  font-size: 1.4rem;
-  color: var(--orange);
+  font-size: 1.45rem;
+  color: var(--accent-soft); /* 4.5:1 on the cobalt; the orange text color is only 1.4:1 */
   transition: transform 0.15s;
 }
 .sb-feedlinks a:hover {
@@ -916,17 +858,10 @@ sup.footnote-ref {
 .sb-feedlinks a:hover i {
   transform: translateY(-2px);
 }
-.sb-h {
-  font: 600 1.2rem/1.2 "Source Serif 4", serif;
-  color: #fff;
-}
-.sb-h em {
-  font-style: italic;
-}
 .sb-sub {
   font: 400 1rem/1.42 "Source Serif 4", serif;
   color: rgba(255, 255, 255, 0.82);
-  margin: 0.4rem 0 0;
+  margin: 0.9rem 0 0;
 }
 .sb-sub a {
   color: #fff;
@@ -962,8 +897,8 @@ sup.footnote-ref {
 }
 .sb-form input[type="submit"] {
   border: none;
-  background: var(--orange);
-  color: #fff;
+  background: var(--accent-soft);
+  color: #16203a; /* fixed near-black: the fill is the same in both modes (11:1) */
   @include mono-label(var(--label-md), 0.1em);
   padding: 0 1.2rem;
   cursor: pointer;
@@ -994,7 +929,12 @@ sup.footnote-ref {
   text-decoration: none;
 }
 .foot a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
+}
+/* Links inside the footer's prose sentence (not the labeled link lists) need
+   a non-color cue to stand out from the surrounding text (WCAG 1.4.1). */
+.foot p:not(:has(b)) a {
+  @include reading-underline;
 }
 .foot b {
   display: inline-block;
@@ -1005,6 +945,22 @@ sup.footnote-ref {
 }
 
 /* ===== responsive (§5) ===== */
+@media (max-width: $bp-hero-links) {
+  /* The hero's main column is too narrow for three columns: About and Contact
+     share one row, the netlinks run full width below (3 → 2 columns at
+     $bp-netlinks like everywhere else). */
+  .hero-links {
+    grid-template-columns: 1fr;
+  }
+  .hero-links > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem 2rem;
+  }
+  .hl-block + .hl-block {
+    margin-top: 0;
+  }
+}
 @media (max-width: $bp-netlinks) {
   .netlinks {
     grid-template-columns: 1fr 1fr;
@@ -1075,11 +1031,10 @@ sup.footnote-ref {
   .statement {
     font-size: 2.05rem;
   }
-  .band {
+  .hero-links {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
   }
   .sb {
     grid-template-columns: 1fr;
@@ -1089,6 +1044,11 @@ sup.footnote-ref {
     border-top: 1px solid rgba(255, 255, 255, 0.22);
   }
 }
+@media (max-width: 640px) {
+  .hero-links > div:first-child {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: $bp-phone) {
   body {
     font-size: 1.06rem;
@@ -1096,9 +1056,6 @@ sup.footnote-ref {
   .statement {
     font-size: 1.72rem;
     line-height: 1.17;
-  }
-  .actions {
-    gap: 1.1rem;
   }
 }
 
@@ -1184,8 +1141,8 @@ sup.footnote-ref {
   margin-top: 0.85rem;
 }
 .rm:hover {
-  color: var(--orange);
-  border-bottom-color: var(--orange);
+  color: var(--orange-text);
+  border-bottom-color: var(--orange-text);
 }
 .rm i {
   font-size: 0.8em;
@@ -1213,14 +1170,14 @@ sup.footnote-ref {
   color: var(--mut);
 } /* label: Link / Via / Crossposted */
 .aff i {
-  color: var(--orange);
+  color: var(--orange-text);
   font-size: 0.85rem;
 } /* bi-arrow-up-right */
 .aff .afh {
   color: var(--navy);
 } /* the host / source */
 .aff:hover .afh {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 /* Subjects (tags) pills */
@@ -1239,8 +1196,8 @@ sup.footnote-ref {
   text-decoration: none;
 }
 a.pill:hover {
-  border-color: var(--orange);
-  color: var(--orange);
+  border-color: var(--orange-text);
+  color: var(--orange-text);
 }
 
 /* ---- single post ---- */
@@ -1326,7 +1283,7 @@ a.pill:hover {
   text-decoration: none;
 }
 .rb .rv a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 .rb .upd {
   display: block;
@@ -1340,7 +1297,7 @@ a.pill:hover {
   margin: 0.2rem 0 1.5rem;
 }
 
-/* ---- shared blog sidebar (Navigate · Newsletter · Site feeds) ---- */
+/* ---- shared blog sidebar (Navigate · Email · Site feeds) ---- */
 .bs {
   display: flex;
   flex-direction: column;
@@ -1351,6 +1308,12 @@ a.pill:hover {
   color: var(--ink);
   margin: 0 0 0.7rem;
 }
+.bs-sub {
+  font: 400 0.95rem/1.35 "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  color: var(--mut);
+  margin: -0.3rem 0 0.7rem;
+} /* one-line pitch above the email form */
 .bs-nav {
   display: flex;
   flex-direction: column;
@@ -1363,10 +1326,10 @@ a.pill:hover {
   text-decoration: none;
 }
 .bs-nav a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 .bs-nav a.on {
-  color: var(--orange);
+  color: var(--orange-text);
 } /* current page */
 .bs-nav a::after {
   content: "→";
@@ -1393,23 +1356,12 @@ a.pill:hover {
 .bs-form input[type="submit"],
 .bs-form button {
   border: none;
-  background: var(--orange);
+  background: var(--orange-text);
   color: #fff;
   @include mono-label(var(--label-xs), 0.08em);
   padding: 0 0.85rem;
   cursor: pointer;
   border-radius: 0 var(--radius) var(--radius) 0;
-}
-.bs-nllink {
-  display: inline-block;
-  margin-top: 0.65rem;
-  font: 400 0.95rem/1.3 "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  color: var(--navy);
-  text-decoration: none;
-} /* → newsletter page */
-.bs-nllink:hover {
-  color: var(--orange);
 }
 .bs-feeds {
   display: flex;
@@ -1424,11 +1376,11 @@ a.pill:hover {
   text-decoration: none;
 }
 .feed-btn i {
-  color: var(--orange);
+  color: var(--orange-text);
   font-size: 1rem;
 } /* bi-rss-fill / bi-braces */
 .feed-btn:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 /* ---- year-grouped index (archive + featured) ---- */
@@ -1465,14 +1417,6 @@ a.pill:hover {
 }
 .idx-title:hover {
   color: var(--navy);
-}
-/* newsletter index shows full dates (e.g. "30 Oct 2022"), so it needs a wider,
-   non-wrapping date column than the "Jan 2" archive/featured indexes */
-.nl-index .idx-row {
-  grid-template-columns: 5.5rem 1fr;
-}
-.nl-index .idx-date {
-  white-space: nowrap;
 }
 
 /* ---- in-post content elements ---- */
@@ -1511,8 +1455,8 @@ figcaption.figcap a {
   @include reading-underline;
 }
 figcaption.figcap a:hover {
-  color: var(--orange);
-  text-decoration-color: var(--orange);
+  color: var(--orange-text);
+  text-decoration-color: var(--orange-text);
 }
 
 /* plain image, no caption ({{< image >}}) */
@@ -1675,8 +1619,8 @@ figcaption.figcap a:hover {
   @include reading-underline;
 }
 .reading a:hover {
-  color: var(--orange);
-  text-decoration-color: var(--orange);
+  color: var(--orange-text);
+  text-decoration-color: var(--orange-text);
 }
 
 /* ---- in-post headings: serif (not the mono .shead); h2 carries the
@@ -1773,8 +1717,8 @@ figcaption.figcap a:hover {
 }
 .reading .figcap a:hover,
 .reading figure.fig figcaption a:hover {
-  color: var(--orange);
-  text-decoration-color: var(--orange);
+  color: var(--orange-text);
+  text-decoration-color: var(--orange-text);
 }
 
 /* ---- tables: breakout; hairline vocabulary, tabular figures ---- */
@@ -1894,11 +1838,11 @@ figcaption.figcap a:hover {
   padding: 0 0.12em;
 }
 .reading a.footnote-ref:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 .reading a.footnote-backref {
   text-decoration: none;
-  color: var(--orange);
+  color: var(--orange-text);
   margin-left: 0.25rem;
 }
 
@@ -1968,8 +1912,8 @@ figcaption.figcap a:hover {
   padding-bottom: 2px;
 }
 .sch-cvlink:hover {
-  color: var(--orange);
-  border-bottom-color: var(--orange);
+  color: var(--orange-text);
+  border-bottom-color: var(--orange-text);
 }
 .sch-cvlink i {
   font-size: 0.82em;
@@ -1987,7 +1931,7 @@ figcaption.figcap a:hover {
   margin: 2.9rem 0 0;
 }
 .shead.sub .lbl {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 /* ledger group + row: cover 188px | body 1fr, hairline row dividers. */
@@ -2092,7 +2036,7 @@ figcaption.figcap a:hover {
 .awd .k {
   flex: none;
   @include mono-label(0.62rem, 0.16em, 600, 1.3);
-  color: var(--orange);
+  color: var(--orange-text);
   padding-top: 0.05rem;
 }
 .awd .v {
@@ -2135,7 +2079,7 @@ figcaption.figcap a:hover {
   font-style: italic;
 }
 .lg-lv a:hover {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 .lg-lv a:not(:last-child)::after {
   content: "·";

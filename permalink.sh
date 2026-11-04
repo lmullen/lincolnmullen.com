@@ -8,7 +8,7 @@ type="${rel%%/*}"
 
 if [ "$type" = "micro" ]; then
   slug=$(basename "$file" .md)
-elif [ "$type" = "blog" ] || [ "$type" = "newsletter" ]; then
+elif [ "$type" = "blog" ]; then
   slug=$(grep -m1 '^slug:' "$file" | sed 's/^slug: *//')
 else
   echo "Not a recognized post type" >&2

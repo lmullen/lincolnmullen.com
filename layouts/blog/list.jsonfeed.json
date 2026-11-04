@@ -15,7 +15,7 @@
     "language": "en-US",
     "expired": false,
     "items": [
-        {{- range $index, $element := first 50 (where .Site.RegularPages "Section" "in" (slice "blog" "newsletter")) }}
+        {{- range $index, $element := first 50 (where .Site.RegularPages "Section" "blog") }}
         {{- if $index }},{{ end }}
         {
             "id": "{{ with $element.Params.feedid }}{{ . | absURL }}{{ else }}{{ $element.Permalink | absURL }}{{ end }}",
@@ -23,9 +23,7 @@
             {{- if $element.Params.Linkpost }}
             "external_url": "{{ $element.Params.Linkpost }}",
             {{- end }}
-            {{- if eq $element.Section "newsletter" }}
-            "title": {{ printf "%s #%s: %s" $element.Site.Params.NewsletterTitle $element.Slug $element.Title | jsonify }},
-            {{- else if $element.Title }}
+            {{- if $element.Title }}
             "title": {{ $element.Title | jsonify }},
             {{- end }}
             {{- $viaHTML := "" -}}

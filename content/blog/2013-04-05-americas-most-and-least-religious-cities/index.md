@@ -12,4 +12,6 @@ draft: false
 
 > "Politicos on the left and right like to explain religious voters' proclivity purely in terms of values. But this misses a central point -- that religion is inextricably bound up with the nation's underlying economic and geographic class divide."
 
+<!--more-->
+
 I completely agree that religiosity is connected to class. But surely *religion* has something to do with religiosity. It matters that Provo (the most religious city) is heavily Mormon, that Boston (in the bottom 10) is heavily Catholic, that Florida and New York have more Jews than other places, that Baptists are the largest denomination in the South, and so on. Religion is connected with class, but it is not just epiphenomenal, a marker of something deemed more significant like politics or economics.

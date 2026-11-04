@@ -13,6 +13,8 @@ In the evenings I'm reading through George Bancroft's classic nineteenth-century
 
 {{< figure src="2013-02-08-fullpage.png" >}}
 
+<!--more-->
+
 The margins of every page contain the dates of events mentioned in the narrative. Usually the date is a year, but they are often precise to the month or day. Here is a close up of one of the dates:
 
 {{< figure src="2013-02-08-datecloseup.png" >}}

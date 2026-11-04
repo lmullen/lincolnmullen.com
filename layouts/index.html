@@ -9,11 +9,11 @@
 	<div class="rail">
 		{{/* Single line on the rail (see .rail .nm nowrap); wraps naturally only on small screens. */}}
 		<div class="nm">Lincoln Mullen</div>
-		<nav>
+		<nav aria-label="Site">
 			{{ $cur := .RelPermalink }}
 			{{ range site.Menus.main }}
 			{{ $active := cond (eq .URL "/") (eq $cur "/") (hasPrefix $cur .URL) }}
-			<a href="{{ .URL }}"{{ if $active }} class="on"{{ end }}>{{ .Name }}</a>
+			<a href="{{ .URL }}"{{ if $active }} class="on" aria-current="page"{{ end }}>{{ .Name }}</a>
 			{{ end }}
 		</nav>
 		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
@@ -27,16 +27,11 @@
 		{{ range after 1 $blocks }}
 		<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
 		{{ end }}
-		<div class="actions">
-			<a href="/bio/">Biography <i class="bi bi-arrow-right"></i></a>
-			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">Curriculum Vitae <i class="bi bi-arrow-right"></i></a>
-		</div>
+		{{ partial "homepage-contact.html" . }}
 	</div>
 </section>
 
 {{ partial "homepage-subscribe.html" . }}
-
-{{ partial "homepage-contact.html" . }}
 
 {{ partial "homepage-scholarship.html" . }}
 

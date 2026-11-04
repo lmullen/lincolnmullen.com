@@ -14,6 +14,8 @@ tags:
 
 One of the occupational hazards of being the kind of person who writes for or reads ProfHacker is the constant urge to try out new tools or techniques in the relentless search for "productivity." Sharpening one's tools might be a mark of a professional, yet constantly switching tools is the mark of someone who is just wasting time. As Jason has [explained](http://chronicle.com/blogs/profhacker/what-we-talk-about-when-we-talk-about-productivity/47805), ProfHacker is not interested in hacks for hacks' sake.
 
+<!--more-->
+
 Abraham Lincoln (almost certainly never) said, "Give me six hours to chop down a tree, and I'll spend the first four sharpening my ax." Whoever came up with it, that bit of folksy wisdom neatly captures an ambiguity about work. You'd be a fool to work with a dull ax, but being shrewd about your preparations can quickly turn into being lazy about actually doing your work.
 
 How can you make prudent choices about which tools to use? I'd like to offer a few rules of thumb that I've developed for myself. I've thought about these in terms of what software to use, but I think they work for picking any kind of tool or settling on any kind of process. They're listed in descending order of importance. I'm willing to stand by the first as an iron law of productivity; the rest have a lot more wiggle room.

@@ -21,7 +21,7 @@ If you look over all these Makefiles you'll see that there are probably only fiv
 
 ## Writing projects
 
-I wrote about using [Make with pandoc](http://lincolnmullen.com/blog/make-and-pandoc/) several years ago. That is still the basic template that I use for all my writing projects. Here is [an example](https://github.com/lmullen/dissertation/blob/master/Makefile) where the Makefile is basically the same even though the writing project is on a rather larger scale.
+I wrote about using [Make with pandoc](/blog/make-and-pandoc/) several years ago. That is still the basic template that I use for all my writing projects. Here is [an example](https://github.com/lmullen/dissertation/blob/master/Makefile) where the Makefile is basically the same even though the writing project is on a rather larger scale.
 
 ## Data analysis notebooks and websites with R Markdown
 

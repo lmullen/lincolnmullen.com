@@ -13,6 +13,8 @@ tags:
 
 I was asked to write up what I thought made someone a good academic mentor, in less than a page. Since I had to write it up quickly, here it is for further thought. This list is partial and based on my own experience, but here is what I've observed from watching the good mentors that I have had.
 
+<!--more-->
+
 1.	_What got you here is not what will get them there._ Too much of mentorship is the mentor describing their own career path. While there is value in hearing other people’s stories as a quick route for understanding how the academy works, the chances that someone else will follow the same career path are nil. A good mentor helps someone else find their own way forward, based on their values, interests, and goals, as well as the changing circumstances in the academy.
 2.	_Where you wanted to go is not where they want to go._ Too much of mentorship is the mentor trying to reproduce him- or herself via the person being mentored. But other people’s career goals—not to mention how their career fits into their personal life—can and should be very different than your own. 
 3.	_People can find their own answers._ Generally speaking, almost all of the time people can work out what their own values, interests, priorities, strengths, and so forth are. They seldom need suggestions of what to do or even how to do it. What they need is someone to talk to who genuinely listens and can help them figure those things out for themselves. Occasionally they need someone they trust to give them “permission” to do what they’ve already figured out.

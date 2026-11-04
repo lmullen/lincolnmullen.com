@@ -12,6 +12,8 @@ tags:
 
 > Days of DH is two digital humanities events in Boston, March 15 -- 19, 2013.
 
+<!--more-->
+
 > March 15-16, is "DH the Next Generation." Hosted by Simmons Graduate School of Library and Information Science and organized by John Unsworth, it will focus on issues of the Digital Humanities as they relate to graduate students and junior faculty and will feature a mix of formal presentations and moderated discussion sessions.
 
 > March 18-19 is "Days of DH." Hosted by the new NULab for Texts, Maps, and Networks at Northeastern University and organized by Ryan Cordell and a team of others, it will include a grants workshop with the NEH Office of Digital Humanities, a methods workshop, keynotes by Julia Flanders and Matthew Jockers, and forums for local "DHers" to share their work.

@@ -11,6 +11,8 @@ tags:
 
 Today I [joined](https://ropensci.org/blog/2018/06/22/new_editors/) the rOpenSci editorial team, taking on a role editing R packages and seeing them through rOpenSci's peer-review process. It might seem a bit strange for a historian to formally join a group of scientists writing packages for a programming language. So why am I joining rOpenSci?
 
+<!--more-->
+
 I've been involved with [rOpenSci](https://ropensci.org/about/) since about 2015, after [Scott Chamberlain](https://scottchamberlain.info/) reached out to see if I was interested in participating with the group. Since then I've contributed a number of R packages, including several that went through rOpenSci's process of peer review, and I've guest edited several packages that have gone through the same process. I've also been to two of their unconferences and both of their workshops for developers of text analysis packages. The rOpenSci developer collective has been very helpful for me in improving and peer reviewing the software that I write for many of my digital projects.
 
 I'm joining the rOpenSci editorial team because I believe that their mission of creating "a culture that values open and reproducible research using shared data and reusable software" is just as much needed for digital history and the digital humanities as it is for the sciences. (For "science," maybe read *Wissenschaft*?) It is not because I think digital history is a science, or some other such nonsense that might get written about in the *Chronicle of Higher Education*. At higher levels of abstraction the disciplinary differences between the sciences and the humanities are very real, but at the level of code and computation there is a great deal that the two domains of knowledge can learn from one another.

@@ -6,7 +6,17 @@
          width 1x display width in px (2x is derived)
          class img class
          alt   alt text (already plainified)
-         lazy  set true to add loading="lazy" */ -}}
-{{- $regular := .res.Resize (printf "%dx webp" .width) -}}
-{{- $retina := .res.Resize (printf "%dx webp" (mul 2 .width)) -}}
-<img{{ with .class }} class="{{ . }}"{{ end }} src="{{ $regular.RelPermalink }}" srcset="{{ $regular.RelPermalink }} 1x, {{ $retina.RelPermalink }} 2x" alt="{{ .alt }}" width="{{ $regular.Width }}" height="{{ $regular.Height }}"{{ if .lazy }} loading="lazy"{{ end }}>
+         lazy  set true to add loading="lazy"
+       Never upscales: each width is capped at the source width, and the 2x
+       candidate is dropped when the source is no wider than the 1x image. */ -}}
+{{- $w1 := .width -}}
+{{- if lt .res.Width $w1 }}{{ $w1 = .res.Width }}{{ end -}}
+{{- $w2 := mul 2 .width -}}
+{{- if lt .res.Width $w2 }}{{ $w2 = .res.Width }}{{ end -}}
+{{- $regular := .res.Resize (printf "%dx webp" $w1) -}}
+{{- $srcset := printf "%s 1x" $regular.RelPermalink -}}
+{{- if gt $w2 $w1 -}}
+{{- $retina := .res.Resize (printf "%dx webp" $w2) -}}
+{{- $srcset = printf "%s, %s 2x" $srcset $retina.RelPermalink -}}
+{{- end -}}
+<img{{ with .class }} class="{{ . }}"{{ end }} src="{{ $regular.RelPermalink }}" srcset="{{ $srcset }}" alt="{{ .alt }}" width="{{ $regular.Width }}" height="{{ $regular.Height }}"{{ if .lazy }} loading="lazy"{{ end }}>

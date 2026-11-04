@@ -25,6 +25,8 @@ to use digital methods for historical interpretation, the dissertation has broad
 implications for the understanding the history of waterways and commercial
 development in early America.
 
+<!--more-->
+
 Below is the title and abstract for the dissertation. As with all dissertations,
 it will take some time for the final version to be submitted, but you'll want
 look it up once it has been.

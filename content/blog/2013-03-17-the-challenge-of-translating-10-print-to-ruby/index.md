@@ -12,6 +12,8 @@ tags:
 
 I spent the past two days at "[Digital Humanities: The Next Generation](http://web.simmons.edu/~fairb/dhsymposium/program.html)," a conference held at Simmons College. [Patsy Baudoin](https://twitter.com/pbmit) and [Nick Montfort](http://nickm.com/) gave a presentation about *[10 PRINT](http://10print.org/)*, a book they co-authored that turns a critical eye to a one-line computer program written in [BASIC](http://en.wikipedia.org/wiki/BASIC) for the [Commodore 64](http://en.wikipedia.org/wiki/Commodore_64).
 
+<!--more-->
+
 ```
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
 ```

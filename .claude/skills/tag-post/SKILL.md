@@ -1,6 +1,6 @@
 ---
 name: tag-post
-description: Add or update tags on a blog or newsletter post using the site's canonical tag taxonomy. Use when the user asks to tag a post, review tags, or add tags.
+description: Add or update tags on a blog post using the site's canonical tag taxonomy. Use when the user asks to tag a post, review tags, or add tags.
 ---
 
 # Tag post
@@ -31,6 +31,12 @@ tags:
 | `antisemitism` | History of antisemitism specifically |
 | `legal history` | Nineteenth-century legal codes, civil procedure, Field Code, law broadly |
 | `slavery` | History of slavery, abolition, mapping slavery data |
+
+### Format tags
+
+| Tag | Use for |
+|-----|---------|
+| `newsletter` | Former issues of the *Working on It* newsletter, now blog posts titled "Working on It #<n>: …". Do not add to new posts. |
 
 ### Method/approach tags
 

@@ -10,6 +10,8 @@ draft: false
 
 *[I have been asked to participate in an orientation for new teaching fellows at Brandeis University. As part of the panel, I am supposed to speak for five minutes on the topic, "one piece of advice that you wish you had known before you started teaching." These are the remarks I intend to give, which are similar to a [post I wrote for ProfHacker](http://chronicle.com/blogs/profhacker/how-to-persuade-with-ethos-pathos-or-logos/35431) on a related theme. I will be glad for any critiques.]*
 
+<!--more-->
+
 Good morning. My name is Lincoln Mullen, and I am a graduate student in the history department. I have been a teaching fellow for five Brandeis history courses, two with David Hackett Fischer and one each with Govind Sreenivasan, David Engerman, and Xing Hang.
 
 I have been asked to give you one piece of advice that I wish I had known before I started teaching, and so I offer you a principle which I learned from the professors I worked with, sometimes by word, sometimes by example.

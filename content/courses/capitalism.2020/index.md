@@ -127,7 +127,7 @@ Suggested readings:
 
 ### October 12 (Week 7)
 
-During this week (or the subsequent week, if your schedule requires it), plan on meeting with me individually to discuss your final paper. Please [sign up](https://lincolnmullen.com/page/office-hours/) for an office hours time; extra slots will be available. The first step for your paper---the topic statement and book list---is due on October 14, and will be the basis of our discussions.
+During this week (or the subsequent week, if your schedule requires it), plan on meeting with me individually to discuss your final paper. Please [sign up](/page/office-hours/) for an office hours time; extra slots will be available. The first step for your paper---the topic statement and book list---is due on October 14, and will be the basis of our discussions.
 
 ### October 19 (Week 8): Corporations
 

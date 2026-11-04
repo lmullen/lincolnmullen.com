@@ -20,7 +20,10 @@ $cyan: #3a6a7e;
 
 // Theme colors
 $primary: $blue;
-$secondary: $orange;
+// Text-safe orange (5.0:1 on white; matches --orange-text in custom.scss).
+// Bootstrap uses $secondary for button fills with white text and for code,
+// where the brighter $orange (3.9:1) fails WCAG AA.
+$secondary: #b0561a;
 $success: $green;
 $info: $blue;
 $warning: $orange;
@@ -37,7 +40,7 @@ $headings-color: #1a1e26;
 
 // Links
 $link-color: #3568b2;
-$link-hover-color: #c06a20;
+$link-hover-color: #b0561a; // text-safe orange, 5.0:1 on white
 
 // Borders
 $border-color: #d4d6dc;

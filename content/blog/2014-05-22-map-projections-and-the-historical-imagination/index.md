@@ -13,6 +13,8 @@ tags:
 
 At the *New Republic*, [Susan Schulten](http://www.mappingthenation.com/) has a [fascinating article](http://www.newrepublic.com/article/117835/richard-edes-harrison-reinvented-mapmaking-world-war-2-americans) about maps made by Richard Edes Harrison during World War II. Schulten writes that Harrison, an artist and not a cartographer, changed the American public's perception of the war and world by refusing to use the Mercator projection. Instead, he drew maps from various perspectives above the earth, evoking "the perspective of a pilot, but one placed at an infinite distance."
 
+<!--more-->
+
 {{< figure src="harrison-ussr.jpg" caption="Richard Edes Harrison, 'Europe as Viewed from the U.S.S.R.' (1944). Courtesy of [David Rumsey Map Collection](http://www.davidrumsey.com/luna/servlet/s/qpbh66)." >}}
 
 Schulten [writes](http://www.newrepublic.com/article/117835/richard-edes-harrison-reinvented-mapmaking-world-war-2-americans):

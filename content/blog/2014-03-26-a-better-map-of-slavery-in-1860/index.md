@@ -14,6 +14,8 @@ tags:
 
 When I finished working the other night I [tweeted](https://twitter.com/lincolnmullen/status/448282708095934464) the current state of the map of slavery that I had been making. Anthea Butler [retweeted](https://twitter.com/AntheaButler/status/448282851055009792) it, and then a lot of people saw it. (Not *that* many, but certainly more than will ever read the dissertation chapter the map is a part of.) I'm glad that people found the map interesting. But though there was nothing erroneous about the map, it certainly was not the best map of slavery possible. Here is the draft map.
 
+<!--more-->
+
 {{< figure src="twitter-map.png" caption="Number of slaves by county in 1860 (quartile breaks)." >}}
 
 It's easy to spot the biggest problem in that map: the values mapped to the colors are less than ideal. I suspect that most people who saw the map didn't pay any attention to the legend at the bottom. And why should they have? Until I changed the numbers to a humanist-readable format the legend was almost incomprehensible. What the legend means is that the lightest yellow represents counties where there were 450 or fewer slaves living; the dark red represents counties where there were more than 5,380 slaves and fewer than 37,300 slaves.

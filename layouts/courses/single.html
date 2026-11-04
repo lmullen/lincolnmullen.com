@@ -3,11 +3,6 @@
 <div class="container-fluid">
 
   <div class="row gx-3">
-    <div class="col-md-3 order-md-2">
-      <div class="sidebar-nav ps-3 py-2 mt-2 border-start d-none d-md-block d-print-none">
-        {{ .TableOfContents }}
-      </div>
-    </div>
     <div class="col-md-9 order-md-1">
 
       <article class="syllabus" id="entry-{{ urlize .Title }}">
@@ -42,6 +37,13 @@
           {{ .Content }}
         </div>
       </article>
+    </div>
+    {{/* Sidebar TOC after the article in source order so screen readers and
+         keyboard users reach the content first; order-md-* flips it visually. */}}
+    <div class="col-md-3 order-md-2">
+      <div class="sidebar-nav ps-3 py-2 mt-2 border-start d-none d-md-block d-print-none">
+        {{ replace .TableOfContents `<nav id="TableOfContents">` `<nav id="TableOfContents" aria-label="Table of contents">` | safeHTML }}
+      </div>
     </div>
   </div>
 </div>

@@ -12,7 +12,7 @@ tags:
 - R
 ---
 
-In the [last post](http://lincolnmullen.com/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time.
+In the [last post](/blog/analyzing-historical-history-dissertations-page-counts/), I looked at the changing lengths of history dissertations over time.
 
 <!--more-->
 

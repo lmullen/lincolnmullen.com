@@ -2,6 +2,9 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "../../../notes/writing/blog-drafts"
     }
   ],
   "settings": {

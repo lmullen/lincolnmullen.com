@@ -46,7 +46,10 @@ markup:
     tabWidth: 2
 
 imaging:
-  quality: 85
+  jpeg:
+    quality: 85
+  webp:
+    quality: 85
 
 params:
   # Site description: RSS/JSON feed channel description and the fallback for

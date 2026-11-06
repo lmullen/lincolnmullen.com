@@ -11,6 +11,9 @@ tags:
 - American religious history
 - data
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2016/02/a-very-preliminary-taxonomy-of-sources.html"
+  source: "Religion in American History"
 image: 1926-census-form.png
 ---
 

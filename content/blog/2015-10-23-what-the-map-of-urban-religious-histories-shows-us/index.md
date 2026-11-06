@@ -4,6 +4,9 @@ date: "2015-10-23"
 slug: 'what-the-map-of-urban-religious-histories-shows-us'
 description: "A mapped bibliography of urban religious history shows that scholarship clusters in major cities and focuses disproportionately on Catholics, Jews, and African Americans."
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2015/10/what-map-of-urban-religious-histories.html"
+  source: "Religion in American History"
 image: urban-religion.png
 tags:
 - American religious history

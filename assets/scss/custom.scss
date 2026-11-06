@@ -874,7 +874,7 @@ sup.footnote-ref {
 /* ---- two-column page layout (content + sidebar/rail) ---- */
 .blog-layout {
   display: grid;
-  grid-template-columns: 1fr 14.5rem;
+  grid-template-columns: 1fr 17rem; /* the content column is capped at --measure, so the rail can be generous */
   gap: 2.4rem;
   align-items: start;
 }
@@ -1089,6 +1089,15 @@ a.pill:hover {
 }
 .rb .rv a:hover {
   color: var(--orange-text);
+}
+/* Outbound link + arrow (Link / Via / Crossposted, via ext-link.html): the last
+   word and the arrow are one unbreakable unit; a long host wraps after a dot. */
+.rb .rv a.ext .nb {
+  white-space: nowrap;
+}
+.rb .rv a.ext i {
+  color: var(--orange-text);
+  font-size: 0.85em;
 }
 .rb .upd {
   display: block;

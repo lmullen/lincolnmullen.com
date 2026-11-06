@@ -1,24 +1,25 @@
 {{- /* Single-post metadata rail: Link / Via / Crossposted · Published (+ Updated)
-       · Subjects · Cite as, then a hairline and the shared blog sidebar. Each
-       block renders only when present. */ -}}
+       · Subjects · Cite as, then the shared blog sidebar. Each block renders only
+       when present. Outbound links go through ext-link.html, which keeps the
+       arrow with the last word. */ -}}
 {{ with .Params.Linkpost }}
 <div class="rb">
   <p class="rlbl">Link</p>
-  <span class="rv"><a href="{{ . }}">{{ (urls.Parse .).Host }}</a> <i class="bi bi-arrow-up-right"></i></span>
+  <span class="rv">{{ partial "ext-link.html" (dict "url" .) }}</span>
 </div>
 {{ end }}
 
 {{ with .Params.via }}
 <div class="rb">
   <p class="rlbl">Via</p>
-  <span class="rv"><a href="{{ . }}">{{ (urls.Parse .).Host }}</a> <i class="bi bi-arrow-up-right"></i></span>
+  <span class="rv">{{ partial "ext-link.html" (dict "url" .) }}</span>
 </div>
 {{ end }}
 
 {{ with .Params.Crosspost }}
 <div class="rb">
   <p class="rlbl">Crossposted</p>
-  <span class="rv"><a href="{{ .URL }}">{{ .Source | markdownify }}</a> <i class="bi bi-arrow-up-right"></i></span>
+  <span class="rv">{{ partial "ext-link.html" (dict "url" .URL "label" .Source) }}</span>
 </div>
 {{ end }}
 

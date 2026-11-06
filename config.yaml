@@ -67,6 +67,8 @@ params:
   # Buttondown's hosted signup page for the occasional email of new posts; the
   # site has no embedded form.
   emailSignupUrl: "https://buttondown.com/lmullen"
+  # How many of the most recent blog posts the home page shows.
+  homePosts: 15
   # "Around the internet" social icons: brand (official colors) | monochrome (--mut)
   iconStyle: brand
   author:

@@ -18,21 +18,24 @@
 
 {{ partial "homepage-subscribe.html" . }}
 
-{{/* The blog: the twenty most recent posts, titled and untitled alike, in one
-     stream. Older posts are reached through the featured and archive pages, so
-     there is no pagination here. */}}
+{{/* The blog: the most recent posts (site.Params.homePosts of them), titled and
+     untitled alike, in one stream. Older posts are reached through the featured
+     and archive pages, so there is no pagination here. */}}
 <div class="home-stream">
-	{{ range first 20 (where site.RegularPages "Section" "blog") }}
+	{{ range first (site.Params.homePosts | default 15) (where site.RegularPages "Section" "blog") }}
 	{{ partial "list-post.html" . }}
 	{{ end }}
+</div>
 
-	<div class="kr">
-		<span class="lbl">Keep reading</span>
-		<div class="kr-links">
-			<a class="rm" href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
-			<a class="rm" href="/archive/">All posts <i class="bi bi-arrow-right"></i></a>
+<section class="sb sb-foot">
+	<div class="sb-grp">
+		<span class="sb-eyebrow">Keep reading</span>
+		<div class="sb-links">
+			<a href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
+			<span class="dot">·</span>
+			<a href="/archive/">All posts <i class="bi bi-arrow-right"></i></a>
 		</div>
 	</div>
-</div>
+</section>
 
 {{ end }}

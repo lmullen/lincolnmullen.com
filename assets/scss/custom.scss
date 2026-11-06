@@ -632,7 +632,7 @@ sup.footnote-ref {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.4rem 1.1rem;
+  gap: 0.4rem 0.9rem;
 }
 .sb-links a {
   display: inline-flex;
@@ -695,81 +695,43 @@ sup.footnote-ref {
   display: grid;
   grid-template-columns: 8.5rem minmax(0, 1fr);
 }
-.home-stream .list-post .metaline {
-  /* the date on the title's first line, any subjects stacked beneath it like a
-     margin note */
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.35rem;
-  padding-top: 0.55rem;
-  padding-right: 1rem;
-}
-.home-stream .list-post .metaline .sep {
-  display: none;
-}
-.home-stream .ptitle {
-  margin-top: 0;
-}
-.kr {
-  display: grid;
-  grid-template-columns: 8.5rem minmax(0, 1fr);
-  align-items: baseline;
-  border-top: 1px solid var(--ink);
-  padding-top: 1rem;
-  margin-top: 0.25rem;
-}
-.kr .lbl {
-  @include mono-label(var(--label-lg), 0.2em);
-  color: var(--ink);
-}
-.kr-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem 1.5rem;
-}
-.kr-links .rm {
-  margin-top: 0;
-  font-size: 1.1rem;
-}
-
-/* Footer (§4.11) */
-.foot {
-  border-top: 1px solid var(--ink);
-  margin-top: 2.5rem;
-  padding-top: 2.2rem;
-  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
-  color: var(--sec);
-}
-.foot p {
-  margin: 0.15rem 0;
-}
-.foot p:has(b) {
-  display: flex;
-  align-items: baseline;
-}
-.foot p:has(b) .fl {
-  flex: 1;
-  min-width: 0;
-}
-.foot a {
-  color: var(--navy);
+.home-stream .pdate {
+  /* the date, linking to the post, with a faint permalink mark after it */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  align-self: start;
+  padding-top: 0.6rem; /* sits on the title's first line */
+  @include mono-label(var(--label-sm), 0.12em, 600, 1.4);
+  color: var(--mut);
   text-decoration: none;
 }
-.foot a:hover {
+.home-stream .pdate i {
+  color: var(--rule);
+  font-size: 0.95rem;
+  transition: color 0.15s;
+}
+.home-stream .pdate:hover,
+.home-stream .pdate:hover i {
   color: var(--orange-text);
 }
-/* Links inside the footer's prose sentence (not the labeled link lists) need
-   a non-color cue to stand out from the surrounding text (WCAG 1.4.1). */
-.foot p:not(:has(b)) a {
-  @include reading-underline;
+.home-stream .ptitle {
+  /* a step up from the list title, with room beneath it, kin to a post page */
+  display: block;
+  font-size: 1.85rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.7rem;
 }
-.foot b {
-  display: inline-block;
-  min-width: 3.75rem;
-  @include mono-label(var(--label-sm), 0.12em);
-  color: var(--ink);
-  margin-right: 0.5rem;
+.home-stream .list-post:last-of-type {
+  border-bottom: none;
+}
+
+/* The bar again at the foot of the stream, pointing on to the featured posts and
+   the archive */
+.sb-foot {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
 
 /* ===== responsive (§5) ===== */
@@ -848,16 +810,12 @@ sup.footnote-ref {
     display: none;
   }
   /* The date moves from the gutter to above the post */
-  .home-stream .list-post,
-  .kr {
+  .home-stream .list-post {
     grid-template-columns: minmax(0, 1fr);
   }
-  .home-stream .list-post .metaline {
+  .home-stream .pdate {
     padding-top: 0;
-    margin-bottom: 0.6rem;
-  }
-  .kr {
-    gap: 0.6rem;
+    margin-bottom: 0.5rem;
   }
 }
 @media (max-width: $bp-phone) {

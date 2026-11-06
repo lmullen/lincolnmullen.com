@@ -932,32 +932,46 @@ sup.footnote-ref {
   margin: 0.6rem 0 0;
 }
 
-/* read-more action: an outlined mono button in the navy, orange on hover, so the
-   way into a truncated post stands out from the prose around it */
+/* read-more action: a filled navy button, white mono label, peach arrow; the
+   orange on hover. The one solid control on the page, so the way into a
+   truncated post is unmistakable. */
 .rm {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
+  gap: 0.6rem;
   min-height: 2.6rem;
-  padding: 0 1.1rem;
+  padding: 0 1.15rem;
   @include mono-label(var(--label-md), 0.1em);
-  color: var(--navy);
-  border: 1px solid var(--navy);
+  color: #fff;
+  background: var(--navy);
   border-radius: var(--radius);
   text-decoration: none;
   margin-top: 1.1rem;
-  transition: color 0.15s, border-color 0.15s;
+  transition: background-color 0.15s;
 }
 .rm:hover {
-  color: var(--orange-text);
-  border-color: var(--orange-text);
+  color: #fff;
+  background: var(--orange-text);
 }
 .rm i {
+  color: var(--accent-soft);
   font-size: 1.05em;
-  transition: transform 0.15s;
+  transition: transform 0.15s, color 0.15s;
 }
 .rm:hover i {
+  color: #fff;
   transform: translateX(0.2em);
+}
+/* In dark mode the navy token is a pale blue: keep the label legible on it */
+[data-bs-theme="dark"] .rm {
+  color: #15171c;
+}
+[data-bs-theme="dark"] .rm i {
+  color: #15171c;
+}
+[data-bs-theme="dark"] .rm:hover,
+[data-bs-theme="dark"] .rm:hover i {
+  color: #15171c;
 }
 
 /* Link / Via / Crossposted affordance line */

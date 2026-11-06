@@ -1,4 +1,4 @@
-<!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html -->
+<!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_shortcodes/figure.html -->
 <figure class="fig">
 	{{ $raw := .Get "src" | $.Page.Resources.Get }}
 	{{ $ext := path.Ext (.Get "src") }}

@@ -8,4 +8,4 @@ tags:
 - tools
 ---
 
-I've created an XeLaTeX class that creates a nice-looking academic article with nicer fonts and headings. You can get the code at [GitHub](https://github.com/lmullen/academic-article-xetex).
+I've created an XeLaTeX class that creates a nice-looking academic article with nicer fonts and headings. You can get the code at [GitHub](https://github.com/lmullen/academic-article-latex).

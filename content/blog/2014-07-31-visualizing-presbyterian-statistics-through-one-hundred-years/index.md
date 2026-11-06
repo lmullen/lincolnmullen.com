@@ -41,6 +41,6 @@ My point in showing Weber's visualizations is two-fold. First, visualization as 
 
 [^1]: The book is Herman C. Weber, *Presbyterian Statistics Through One Hundred Year, 1826--1926: Tabulated, Visualized, and Interpreted* (Philadelphia: The General Council, Presbyterian Church in the U.S.A., 1927), <http://catalog.hathitrust.org/Record/007109885>.
 
-[^2]: For use in my dissertation, and for a future project on the demography of American religion, I've turned some of Weber's data tables into [a useable format](https://github.com/lmullen/demographics-religion/tree/master/data/weber-1927). If you want to see what I've started to do with the data---though this is very much a work in progress---you can see [this repository](https://github.com/lmullen/presbyterian-analysis).
+[^2]: For use in my dissertation, and for a future project on the demography of American religion, I've turned some of Weber's data tables into [a useable format](https://github.com/religious-ecologies/religious-statistics/tree/master/presbyterians-weber). If you want to see what I've started to do with the data---though this is very much a work in progress---you can see [this repository](https://github.com/lmullen/presbyterian-analysis).
 
 [^3]: See for example [this run of Congregationalist yearbooks](http://www.congregationallibrary.org/periodicals/yearbooks) from 1854 to 1960 compiled by the fine folks at the [Congregational Library](http://www.congregationallibrary.org/).

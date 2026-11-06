@@ -1,4 +1,4 @@
-<!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/figure.html -->
+<!-- Cf. https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_shortcodes/figure.html -->
 <figure class="my-5">
 	{{ $src := .Get "src" | $.Page.Resources.GetMatch }}
 	<video class="ratio" controls {{ if .Get "autoplay" }} autoplay loop {{ end }}>

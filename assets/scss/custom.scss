@@ -932,46 +932,32 @@ sup.footnote-ref {
   margin: 0.6rem 0 0;
 }
 
-/* read-more action: a filled navy button, white mono label, peach arrow; the
-   orange on hover. The one solid control on the page, so the way into a
-   truncated post is unmistakable. */
+/* read-more action: editorial, no box. Body-size serif at weight 600 in the
+   navy, standing on a 2px orange rule (the quote-rule accent), the arrow in
+   orange; on hover the text goes orange too and the arrow slides. */
 .rm {
   display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  min-height: 2.6rem;
-  padding: 0 1.15rem;
-  @include mono-label(var(--label-md), 0.1em);
-  color: #fff;
-  background: var(--navy);
-  border-radius: var(--radius);
+  align-items: baseline;
+  gap: 0.5rem;
+  font: 600 1.1rem/1.3 "Source Serif 4", serif;
+  letter-spacing: -0.005em;
+  color: var(--navy);
   text-decoration: none;
+  border-bottom: 2px solid var(--orange);
+  padding-bottom: 0.2rem;
   margin-top: 1.1rem;
-  transition: background-color 0.15s;
+  transition: color 0.15s;
 }
 .rm:hover {
-  color: #fff;
-  background: var(--orange-text);
+  color: var(--orange-text);
 }
 .rm i {
-  color: var(--accent-soft);
-  font-size: 1.05em;
-  transition: transform 0.15s, color 0.15s;
+  color: var(--orange-text);
+  font-size: 0.9em;
+  transition: transform 0.15s;
 }
 .rm:hover i {
-  color: #fff;
   transform: translateX(0.2em);
-}
-/* In dark mode the navy token is a pale blue: keep the label legible on it */
-[data-bs-theme="dark"] .rm {
-  color: #15171c;
-}
-[data-bs-theme="dark"] .rm i {
-  color: #15171c;
-}
-[data-bs-theme="dark"] .rm:hover,
-[data-bs-theme="dark"] .rm:hover i {
-  color: #15171c;
 }
 
 /* Link / Via / Crossposted affordance line */

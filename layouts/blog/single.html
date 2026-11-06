@@ -23,9 +23,9 @@
     {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
     {{ with $related }}
     <div class="rel">
-      <div class="shead"><span class="lbl">Related posts</span></div>
+      <h2 class="rel-lbl">Related posts</h2>
       {{ range . }}
-      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact) }}
+      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact "desc" true) }}
       {{ end }}
     </div>
     {{ end }}

@@ -22,6 +22,17 @@ $bp-hero-links: 1000px; /* homepage link columns: four → two */
   text-transform: uppercase;
 }
 
+/* The label over a section that follows a post's text (Notes, Related posts):
+   a small tracked mono label on a 1px --ink rule. */
+@mixin post-section-label {
+  display: block;
+  @include mono-label(var(--label-md), 0.18em);
+  color: var(--ink);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ink);
+  margin: 0 0 1.1rem;
+}
+
 /* Reading-voice underlined link (hairline underline, orange on hover
    handled by callers). */
 @mixin reading-underline {
@@ -877,9 +888,6 @@ sup.footnote-ref {
   gap: 2.4rem;
   align-items: start;
 }
-.blog-layout .shead {
-  margin-bottom: 0.4rem;
-}
 .blog-layout .sidebar,
 .blog-layout .rail {
   border-left: 1px solid var(--rule2);
@@ -1062,14 +1070,18 @@ a.pill:hover {
   margin-top: 0;
 }
 
-/* Related posts (titled only) */
+/* Related posts (titled only): labeled like the Notes, then index rows with the
+   full compact date (related posts span years) and the description beneath */
 .rel {
-  margin-top: 2.2rem;
+  max-width: var(--measure);
+  margin-top: 3rem;
 }
-/* Related rows reuse the archive index layout (date gutter + serif title),
-   with a wider gutter to fit the year (related posts span years). */
+.rel-lbl {
+  @include post-section-label;
+}
 .rel .idx-row {
   grid-template-columns: 7rem minmax(0, 1fr);
+  padding: 0.7rem 0;
 }
 
 /* ---- single-post metadata rail blocks ---- */
@@ -1609,12 +1621,7 @@ figcaption.figcap a:hover {
 }
 .reading .footnotes::before {
   content: "Notes";
-  display: block;
-  @include mono-label(var(--label-md), 0.18em);
-  color: var(--ink);
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--ink);
-  margin-bottom: 1.1rem;
+  @include post-section-label;
 }
 .reading .footnotes ol {
   padding-left: 1.4rem;

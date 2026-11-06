@@ -48,13 +48,6 @@ markup:
 imaging:
   quality: 85
 
-# Keep HTML comments through --minify, for the credit comment at the top of
-# every page (layouts/_default/baseof.html).
-minify:
-  tdewolff:
-    html:
-      keepComments: true
-
 params:
   # Site description: RSS/JSON feed channel description and the fallback for
   # meta/OpenGraph descriptions. Must live under params (root-level keys are

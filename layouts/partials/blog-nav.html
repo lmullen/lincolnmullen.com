@@ -7,7 +7,7 @@
 <div class="bs">
   {{ if $single }}{{ partial "subscribe-box.html" . }}{{ end }}
   <div>
-    <p class="bs-lbl">Navigate</p>
+    <p class="rlbl">Navigate</p>
     <div class="bs-nav">
       <a href="/"{{ if .IsHome }} class="on" aria-current="page"{{ end }}>Recent posts</a>
       <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on" aria-current="page"{{ end }}>Featured posts</a>

@@ -1,15 +1,13 @@
 {{ define "main" }}
 <div class="blog-layout">
   <div>
-    <h1 class="stmt">{{ .Title }}</h1>
+    <h1 class="page-title">{{ .Title }}</h1>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
-    {{/* Every post, newest first, as one flat index: full compact date, then the
-         title with its description beneath, or for an untitled post its
-         description or opening text held to one line (see index-row.html). */}}
-    <div class="idx-group idx-flat">
+    {{/* Every post, newest first, as one flat index (see index-row.html). */}}
+    <div class="idx-list">
       {{ range where .Site.RegularPages "Section" "blog" }}
-      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact "desc" true) }}
+      {{ partial "index-row.html" . }}
       {{ end }}
     </div>
   </div>

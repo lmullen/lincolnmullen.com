@@ -22,15 +22,48 @@ $bp-hero-links: 1000px; /* homepage link columns: four → two */
   text-transform: uppercase;
 }
 
-/* The label over a section that follows a post's text (Notes, Related posts):
-   a small tracked mono label on a 1px --ink rule. */
-@mixin post-section-label {
-  display: block;
+/* Section label (§4.2): the small tracked mono label that heads a section —
+   the scholarship ledger's groups, a post's Notes and Related posts. */
+@mixin section-label-text {
   @include mono-label(var(--label-md), 0.18em);
   color: var(--ink);
+}
+/* The label as its own block, standing on the 1px --ink rule. */
+@mixin section-label {
+  display: block;
+  @include section-label-text;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--ink);
   margin: 0 0 1.1rem;
+}
+
+/* A date that links to its post, with a faint permalink mark after it (the
+   home stream, the post indexes). */
+@mixin date-permalink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  @include mono-label(var(--label-sm), 0.08em, 600, 1.5);
+  color: var(--mut);
+  text-decoration: none;
+  white-space: nowrap;
+  i {
+    color: var(--rule);
+    font-size: 0.95rem;
+    transition: color 0.15s;
+  }
+  &:hover,
+  &:hover i {
+    color: var(--orange-text);
+  }
+}
+
+/* A serif link in the UI (link lists, navigation, the bars): secondary prose
+   size, navy, no underline. */
+@mixin serif-ui-link {
+  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
+  color: var(--navy);
+  text-decoration: none;
 }
 
 /* Reading-voice underlined link (hairline underline, orange on hover
@@ -88,8 +121,6 @@ $bp-hero-links: 1000px; /* homepage link columns: four → two */
   --h4: 1.05rem; /* #### and below, archive and scholarship-card titles */
   --prose-sm: 1rem; /* secondary prose and serif UI text: captions, tables, footnotes, footer, links, cards */
 
-  /* Vertical rhythm between homepage sections */
-  --sp-section: 2.75rem;
 }
 
 /* Navy & Orange — Dark Mode */
@@ -209,7 +240,6 @@ strong {
 }
 
 /* Small caps for abbreviations and acronyms */
-.small-caps,
 abbr {
   font-variant-caps: small-caps;
   letter-spacing: 0.03em;
@@ -277,21 +307,27 @@ a {
     font-size: 1.3rem;
     line-height: 1.1;
   }
-  .page-title,
-  .stmt {
+  .page-title {
     font-size: 2rem;
   }
 }
 
-/* Interior page title — the display-serif heading shared by top-level pages
-   (Scholarship, Teaching, …). One treatment so those headings match; kin to
-   the homepage .statement voice. */
+/* Page title — the display-serif heading of the page or post you are on
+   (Scholarship, Teaching, a post, the post indexes); kin to the homepage
+   .statement voice. A post's title links to itself. */
 .page-title {
   font: 600 var(--h-title)/1.05 "Source Serif 4", serif;
   font-optical-sizing: auto;
   letter-spacing: -0.025em;
   color: var(--ink);
   margin: 0 0 0.9rem;
+}
+.page-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.page-title a:hover {
+  color: var(--navy);
 }
 
 .smallcaps-header {
@@ -483,19 +519,18 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* Section header (§4.2) — the primary section divider */
+/* Section header (§4.2) — the section label with room for a link at the right */
 .shead {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
   border-bottom: 1px solid var(--ink);
-  padding-bottom: 0.55rem;
-  margin-bottom: 1.6rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.1rem;
 }
 .shead .lbl {
-  @include mono-label(var(--label-lg), 0.2em);
-  color: var(--ink);
+  @include section-label-text;
 }
 .shead a {
   @include mono-label(var(--label-md), 0.1em, 500);
@@ -571,9 +606,7 @@ sup.footnote-ref {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
-  color: var(--navy);
-  text-decoration: none;
+  @include serif-ui-link;
 }
 .contact a:hover {
   color: var(--orange-text);
@@ -596,9 +629,7 @@ sup.footnote-ref {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  font: 400 var(--prose-sm)/1.25 "Source Serif 4", serif;
-  color: var(--navy);
-  text-decoration: none;
+  @include serif-ui-link;
 }
 .netlinks a:hover {
   color: var(--orange-text);
@@ -650,9 +681,8 @@ sup.footnote-ref {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
+  @include serif-ui-link;
   color: #fff;
-  text-decoration: none;
 }
 .sb-links a i {
   color: var(--accent-soft); /* 4.5:1 on the cobalt; the orange text color is only 1.4:1 */
@@ -686,9 +716,8 @@ sup.footnote-ref {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
+  @include serif-ui-link;
   color: #fff;
-  text-decoration: none;
 }
 .bs-band a i {
   color: var(--accent-soft);
@@ -709,24 +738,9 @@ sup.footnote-ref {
   padding: 2.75rem 0; /* more air between posts than the 2.1rem list default */
 }
 .home-stream .pdate {
-  /* the date, linking to the post, with a faint permalink mark after it */
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
+  @include date-permalink;
   align-self: start;
   padding-top: 0.6rem; /* sits on the title's first line */
-  @include mono-label(var(--label-sm), 0.12em, 600, 1.4);
-  color: var(--mut);
-  text-decoration: none;
-}
-.home-stream .pdate i {
-  color: var(--rule);
-  font-size: 0.95rem;
-  transition: color 0.15s;
-}
-.home-stream .pdate:hover,
-.home-stream .pdate:hover i {
-  color: var(--orange-text);
 }
 .home-stream .ptitle {
   /* a step up from the list title, with room beneath it, kin to a post page */
@@ -906,19 +920,6 @@ sup.footnote-ref {
   border-bottom: none;
 }
 
-/* metadata line — date (+ subjects); never names the post type */
-.metaline {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.45rem 0.55rem;
-  @include mono-label(var(--label-sm), 0.12em, 600, 1.4);
-  color: var(--mut);
-}
-.metaline .sep {
-  color: var(--rule);
-}
-
 .ptitle {
   display: inline-block;
   margin: 0.5rem 0 0;
@@ -1018,22 +1019,7 @@ a.pill:hover {
   color: var(--orange-text);
 }
 
-/* ---- single post ---- */
-.stmt {
-  /* same treatment as .page-title — a post title and a page title are one role */
-  font: 600 var(--h-title)/1.05 "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  letter-spacing: -0.025em;
-  color: var(--ink);
-  margin: 0 0 0.9rem;
-}
-.stmt a {
-  color: inherit;
-  text-decoration: none;
-}
-.stmt a:hover {
-  color: var(--navy);
-}
+/* ---- single post (its title is .page-title) ---- */
 .bodyprose {
   /* inherits body base */
   color: var(--body);
@@ -1044,7 +1030,7 @@ a.pill:hover {
 }
 
 /* In-post headings — subordinate to the post title. Posts start at ## (h2),
-   with ### (h3) for subsections; sized below the .ptitle/.stmt titles so an
+   with ### (h3) for subsections; sized below the .ptitle/.page-title titles so an
    in-body heading never outweighs the post's own title. */
 .bodyprose h1, .bodyprose h2,
 .pbody h1, .pbody h2 {
@@ -1070,25 +1056,20 @@ a.pill:hover {
   margin-top: 0;
 }
 
-/* Related posts (titled only): labeled like the Notes, then index rows with the
-   full compact date (related posts span years) and the description beneath */
+/* Related posts (titled only): labeled like the Notes, then index rows */
 .rel {
   max-width: var(--measure);
   margin-top: 3rem;
 }
 .rel-lbl {
-  @include post-section-label;
-}
-.rel .idx-row {
-  grid-template-columns: 7rem minmax(0, 1fr);
-  padding: 0.7rem 0;
+  @include section-label;
 }
 
 /* ---- single-post metadata rail blocks ---- */
 .rb {
   margin-bottom: 1.4rem;
 }
-.rb .rlbl {
+.rlbl {
   @include mono-label(var(--label-sm), 0.14em);
   color: var(--ink);
   margin: 0 0 0.55rem;
@@ -1125,21 +1106,13 @@ a.pill:hover {
   flex-direction: column;
   gap: 1.6rem;
 }
-.bs-lbl {
-  @include mono-label(var(--label-sm), 0.14em);
-  color: var(--ink);
-  margin: 0 0 0.7rem;
-}
 .bs-nav {
   display: flex;
   flex-direction: column;
   gap: 0.55rem;
 }
 .bs-nav a {
-  font: 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  color: var(--navy);
-  text-decoration: none;
+  @include serif-ui-link;
 }
 .bs-nav a:hover {
   color: var(--orange-text);
@@ -1151,20 +1124,9 @@ a.pill:hover {
   content: "→";
   margin-left: 0.4rem;
 }
-/* ---- year-grouped index (archive + featured) ---- */
-.idx-group {
-  margin-top: 1.7rem;
-}
-.idx-group:first-of-type {
+/* ---- post index (all posts, featured posts, related posts) ---- */
+.idx-list {
   margin-top: 1.3rem;
-}
-/* A flat index with no year headings (featured posts): dates carry the year, so
-   the gutter widens to fit the compact form */
-.idx-flat .idx-row {
-  grid-template-columns: 7rem minmax(0, 1fr);
-}
-.idx-flat .idx-row {
-  padding: 0.7rem 0;
 }
 .idx-desc {
   font: 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
@@ -1172,40 +1134,16 @@ a.pill:hover {
   max-width: var(--measure);
   margin: 0.2rem 0 0;
 }
-.idx-year {
-  font: 600 var(--h3)/1 "Source Serif 4", serif;
-  color: var(--ink);
-  letter-spacing: -0.01em;
-  margin: 0 0 0.7rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--rule2);
-}
 .idx-row {
   display: grid;
-  grid-template-columns: 5.4rem minmax(0, 1fr);
+  grid-template-columns: 7rem minmax(0, 1fr); /* the compact date and its mark */
   gap: 1.3rem;
   align-items: baseline;
-  padding: 0.45rem 0;
+  padding: 0.7rem 0;
 }
 .idx-date {
-  /* the date, linking to the post, with a faint permalink mark after it */
-  display: inline-flex;
-  align-items: center;
+  @include date-permalink;
   justify-content: flex-end;
-  gap: 0.3rem;
-  @include mono-label(var(--label-sm), 0.05em, 600, 1.5);
-  color: var(--mut);
-  text-decoration: none;
-  white-space: nowrap;
-}
-.idx-date i {
-  color: var(--rule);
-  font-size: 0.95rem;
-  transition: color 0.15s;
-}
-.idx-date:hover,
-.idx-date:hover i {
-  color: var(--orange-text);
 }
 .idx-title {
   font: 600 var(--h4)/1.35 "Source Serif 4", serif;
@@ -1494,15 +1432,6 @@ figcaption.figcap a:hover {
   border-radius: var(--radius);
   background: #fff; /* white backing keeps transparent scans/charts legible */
 }
-/* low-res page scans shouldn't blow up to full --wide. Opt-in per figure via
-   the shortcode's `class` param ({{< figure ... class="mid" >}}); not a bulk
-   edit — full-width stays the default. */
-.reading figure.fig.mid {
-  max-width: var(--fig-mid);
-}
-.reading figure.fig.portrait {
-  max-width: 27rem;
-}
 /* caption: held to the measure; the mono kicker keeps the "Figure N." content
    set by figcaption.figcap::before (blog section) and restyles it here */
 .reading figure.fig figcaption,
@@ -1621,7 +1550,7 @@ figcaption.figcap a:hover {
 }
 .reading .footnotes::before {
   content: "Notes";
-  @include post-section-label;
+  @include section-label;
 }
 .reading .footnotes ol {
   padding-left: 1.4rem;
@@ -1677,9 +1606,6 @@ figcaption.figcap a:hover {
     --wide: 100%;
     --fig-mid: 100%;
   }
-  .reading figure.fig.portrait {
-    max-width: 20rem;
-  }
   .reading--narrow .bio-img.float-end,
   .reading--narrow .bio-img {
     float: none;
@@ -1706,29 +1632,6 @@ figcaption.figcap a:hover {
   max-width: var(--measure);
   margin: 0 0 1rem;
 }
-.sch-cvlink {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  font: 600 var(--prose-sm)/1 "Source Serif 4", serif;
-  @include smallcaps-action;
-  color: var(--navy);
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
-}
-.sch-cvlink:hover {
-  color: var(--orange-text);
-  border-bottom-color: var(--orange-text);
-}
-.sch-cvlink i {
-  font-size: 0.82em;
-  transition: transform 0.15s;
-}
-.sch-cvlink:hover i {
-  transform: translate(0.2em, 0);
-}
-
 /* section heads: scholarship spacing + the Active-projects orange label.
    Reuses the shared .shead border/label from §4.2. The scoped selector
    overrides the homepage .shead bottom margin; the gap to the first row

@@ -729,11 +729,9 @@ sup.footnote-ref {
   border-bottom: none;
 }
 
-/* The bar again at the foot of the stream, pointing on to the featured posts and
-   the archive */
+/* The same bar again after the last post */
 .sb-foot {
-  max-width: calc(var(--measure) + 8.5rem); /* the stream's width */
-  margin: 1.5rem auto 0;
+  margin: 1.5rem 0 0;
 }
 
 /* Footer (§4.11) */

@@ -1,7 +1,9 @@
-{{/* Subscribe bar — the single filled-color block, one line between the hero and
-     the blog. Left: the feeds and the Buttondown email signup page. Right: the two
-     pages that hold everything the home page's twenty posts do not. */}}
-<section class="sb">
+{{/* Subscribe bar — the single filled-color block. Left: the feeds and the
+     Buttondown email signup page. Right: the two pages that hold everything the
+     home page's stream does not. Rendered twice on the home page, between the
+     hero and the blog and again after the last post, so the two always match.
+     Call with a dict: class, extra classes for the section (e.g. "sb-foot"). */}}
+<section class="sb{{ with .class }} {{ . }}{{ end }}">
 	<div class="sb-grp">
 		<span class="sb-eyebrow">Subscribe</span>
 		<div class="sb-links">

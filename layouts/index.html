@@ -16,7 +16,7 @@
 	{{ partial "homepage-contact.html" . }}
 </section>
 
-{{ partial "homepage-subscribe.html" . }}
+{{ partial "homepage-subscribe.html" (dict) }}
 
 {{/* The blog: the most recent posts (site.Params.homePosts of them), titled and
      untitled alike, in one stream. Older posts are reached through the featured
@@ -27,15 +27,7 @@
 	{{ end }}
 </div>
 
-<section class="sb sb-foot">
-	<div class="sb-grp">
-		<span class="sb-eyebrow">Keep reading</span>
-		<div class="sb-links">
-			<a href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
-			<span class="dot">·</span>
-			<a href="/archive/">All posts <i class="bi bi-arrow-right"></i></a>
-		</div>
-	</div>
-</section>
+{{/* The same bar again, after the last post */}}
+{{ partial "homepage-subscribe.html" (dict "class" "sb-foot") }}
 
 {{ end }}

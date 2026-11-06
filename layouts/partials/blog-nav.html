@@ -9,9 +9,9 @@
   <div>
     <p class="rlbl">Navigate</p>
     <div class="bs-nav">
-      <a href="/"{{ if .IsHome }} class="on" aria-current="page"{{ end }}>Recent posts</a>
-      <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on" aria-current="page"{{ end }}>Featured posts</a>
-      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on" aria-current="page"{{ end }}>All posts</a>
+      <a href="/"{{ if .IsHome }} class="on" aria-current="page"{{ end }}>Blog homepage</a>
+      <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on" aria-current="page"{{ end }}>Featured blog posts</a>
+      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on" aria-current="page"{{ end }}>All blog posts</a>
     </div>
   </div>
   {{ if not $single }}{{ partial "subscribe-box.html" . }}{{ end }}

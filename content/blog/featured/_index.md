@@ -1,5 +1,5 @@
 ---
-title: "Featured posts"
+title: "Featured blog posts"
 description: "A selection of featured posts from Lincoln Mullen's blog."
 layout: featured
 ---

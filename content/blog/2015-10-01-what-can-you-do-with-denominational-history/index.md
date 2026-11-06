@@ -7,6 +7,9 @@ tags:
 - American religious history
 - book reviews
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2015/10/what-can-you-do-with-denominational.html"
+  source: "Religion in American History"
 image: baptist_distinctives.jpg
 ---
 

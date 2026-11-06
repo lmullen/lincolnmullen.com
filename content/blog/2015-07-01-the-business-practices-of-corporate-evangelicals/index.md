@@ -7,6 +7,9 @@ tags:
 - American religious history
 - book reviews
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2015/07/the-business-practices-of-corporate.html"
+  source: "Religion in American History"
 image: gloege.jpg
 ---
 

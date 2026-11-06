@@ -8,6 +8,9 @@ tags:
 - American religious history
 - America's Public Bible
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2016/08/introducing-americas-public-bible-beta.html"
+  source: "Religion in American History"
 image: good-samaritan.png
 ---
 

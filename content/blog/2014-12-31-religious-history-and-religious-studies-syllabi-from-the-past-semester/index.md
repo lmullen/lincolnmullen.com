@@ -4,6 +4,9 @@ date: "2014-12-31"
 slug: 'religious-history-and-religious-studies-syllabi-from-the-past-semester'
 description: "A roundup of syllabi from religious history and religious studies courses, shared so scholars can see how colleagues put fields together—often more revealing than articles."
 draft: false
+crosspost:
+  url: "http://usreligion.blogspot.com/2015/01/religious-history-and-religious-studies.html"
+  source: "Religion in American History"
 tags:
 - American religious history
 - teaching

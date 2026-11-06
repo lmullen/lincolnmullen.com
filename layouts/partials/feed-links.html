@@ -3,9 +3,10 @@
          class  class for each link (e.g. "feed-btn")
          suffix label suffix, e.g. " feed" → "RSS feed"
          icons  set false to omit the Bootstrap icons
-         sep    separator between the two links (defaults to a space) */ -}}
+         sep    separator between the two links (defaults to a space); may be
+                HTML, e.g. a styled dot */ -}}
 {{- $icons := ne .icons false -}}
 {{- $suffix := .suffix | default "" -}}
 <a{{ with .class }} class="{{ . }}"{{ end }} href="/blog/index.xml">{{ if $icons }}<i class="bi bi-rss-fill"></i> {{ end }}RSS{{ $suffix }}</a>
-{{- .sep | default " " -}}
+{{- .sep | default " " | safeHTML -}}
 <a{{ with .class }} class="{{ . }}"{{ end }} href="/blog/index.json">{{ if $icons }}<i class="bi bi-braces"></i> {{ end }}JSON{{ $suffix }}</a>

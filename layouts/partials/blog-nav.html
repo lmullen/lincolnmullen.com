@@ -1,32 +1,18 @@
-{{- /* Shared blog sidebar (.bs): Navigate · Email · Site feeds. Reused by
-       the blog index, archive, and featured pages, and embedded inside
-       post-sidebar.html for single posts. The current page is marked .on
-       (singles match nothing). The Buttondown `tag` is resolved once here so it
-       is correct in every context. Always call with the page context: `. */ -}}
-{{- $tag := "website" -}}
-{{- if eq .RelPermalink "/blog/" -}}{{ $tag = "blog-list" }}
-{{- else if eq .RelPermalink "/archive/" -}}{{ $tag = "blog-archive" }}
-{{- else if eq .RelPermalink "/blog/featured/" -}}{{ $tag = "blog-featured" }}
-{{- else if and (eq .Section "blog") (eq .Kind "page") -}}{{ $tag = "blog-post" }}
-{{- end -}}
+{{- /* Shared blog sidebar (.bs): Navigate and the cobalt subscribe box. Reused by
+       the archive and featured pages, and embedded in post-sidebar.html for
+       single posts, where the box comes first so it sits between the post's
+       metadata and the navigation. The current page is marked .on (singles
+       match nothing). Always call with the page context: `. */ -}}
+{{- $single := and (eq .Kind "page") (eq .Section "blog") -}}
 <div class="bs">
+  {{ if $single }}{{ partial "subscribe-box.html" . }}{{ end }}
   <div>
     <p class="bs-lbl">Navigate</p>
     <div class="bs-nav">
-      <a href="/blog/"{{ if eq .RelPermalink "/blog/" }} class="on" aria-current="page"{{ end }}>Recent posts</a>
-      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on" aria-current="page"{{ end }}>Blog posts by date</a>
+      <a href="/"{{ if .IsHome }} class="on" aria-current="page"{{ end }}>Recent posts</a>
       <a href="/blog/featured/"{{ if eq .RelPermalink "/blog/featured/" }} class="on" aria-current="page"{{ end }}>Featured posts</a>
+      <a href="/archive/"{{ if eq .RelPermalink "/archive/" }} class="on" aria-current="page"{{ end }}>All posts</a>
     </div>
   </div>
-  <div>
-    <p class="bs-lbl">Email</p>
-    <p class="bs-sub">Subscribe to posts in an occasional email.</p>
-    {{ partial "subscribe-form.html" (dict "tag" $tag "class" "bs-form") }}
-  </div>
-  <div>
-    <p class="bs-lbl">Site feeds</p>
-    <div class="bs-feeds">
-      {{ partial "feed-links.html" (dict "class" "feed-btn") }}
-    </div>
-  </div>
+  {{ if not $single }}{{ partial "subscribe-box.html" . }}{{ end }}
 </div>

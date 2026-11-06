@@ -11,8 +11,8 @@
 $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
-$bp-netlinks: 920px; /* homepage netlinks grid: 3 → 2 columns */
-$bp-hero-links: 1100px; /* homepage hero grid: About/Contact beside netlinks → stacked */
+$bp-stack: 640px; /* header, hero links, subscribe bar and home stream go single-column */
+$bp-hero-links: 1000px; /* homepage link columns: four → two */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -225,21 +225,19 @@ a {
   hyphens: none;
 }
 
-/* Slim interior-page header (Design Handoff §6) — mono nav reused from the homepage rail.
-   The homepage supplies its own rail nav; every other page gets this. */
+/* Site header on every page: wordmark + mono nav, no rule beneath (on the home
+   page the hero's own rule closes the first block). */
 .sitehead {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 0.6rem 2rem;
   flex-wrap: wrap;
-  border-bottom: 1px solid var(--ink);
-  padding-bottom: 0.9rem;
   margin-bottom: 2.4rem;
 }
 
 .sitehead .wordmark {
-  font: 700 1.7rem/1.05 "Source Serif 4", serif; /* match the homepage rail wordmark (.rail .nm) */
+  font: 700 1.7rem/1.05 "Source Serif 4", serif;
   letter-spacing: -0.02em;
   color: var(--navy);
   text-decoration: none;
@@ -262,7 +260,6 @@ a {
   color: var(--orange-text);
 }
 
-/* On phones, track the homepage rail wordmark's smaller size (.rail .nm mobile). */
 @media (max-width: $bp-mobile) {
   .sitehead .wordmark {
     font-size: 1.3rem;
@@ -498,60 +495,22 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* Hero (§5.1): side rail + oversized statement */
+/* Hero: the statement, the biography, and the link columns, closed by the ink rule.
+   The header above it is the shared .sitehead. */
 .hero {
-  display: flex;
-  gap: 3.25rem;
-  padding-bottom: var(--sp-section);
-  margin-bottom: var(--sp-section);
+  padding: 0.5rem 0 2rem;
+  margin-bottom: 1.75rem;
   border-bottom: 1px solid var(--ink);
-}
-.rail {
-  width: 196px;
-  flex: none;
-}
-.rail .nm {
-  font: 700 1.7rem/1.05 "Source Serif 4", serif;
-  color: var(--navy);
-  letter-spacing: -0.02em;
-  margin-bottom: 1.6rem;
-  white-space: nowrap; /* "Lincoln Mullen" stays on one line within the 196px rail */
-}
-.rail nav {
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-  border-top: 2px solid var(--ink);
-  padding-top: 1.1rem;
-  margin-bottom: 1.8rem;
-}
-.rail nav a {
-  @include mono-label(var(--label-md), 0.14em);
-  color: var(--navy);
-  text-decoration: none;
-}
-.rail nav a:hover,
-.rail nav a.on {
-  color: var(--orange-text);
-}
-.rail .photo {
-  width: 100%;
-  max-width: 196px;
-  border-radius: var(--radius);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
-}
-.main {
-  flex: 1;
-  min-width: 0;
 }
 
 /* Statement / display serif (§4.3) */
 .statement {
-  font: 600 2.9rem/1.1 "Source Serif 4", serif;
+  font: 600 2.25rem/1.2 "Source Serif 4", serif;
   font-optical-sizing: auto;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
   color: var(--ink);
-  margin: 0 0 1.6rem;
+  max-width: 58rem;
+  margin: 0 0 1.1rem;
 }
 .statement em {
   font-style: italic;
@@ -559,12 +518,14 @@ sup.footnote-ref {
   color: var(--navy);
 }
 
-/* Prose (§4.4) — bio prose */
+/* Bio prose under the statement: a step down from body size, in the secondary
+   color, so the statement leads and the link columns follow quickly. */
 .bio-p {
-  /* inherits body base (1.1875rem/1.5) — one source of truth for prose */
-  color: var(--body);
+  font-size: 1.0625rem;
+  line-height: 1.45;
+  color: var(--sec);
   margin: 0 0 1rem;
-  max-width: var(--measure);
+  max-width: 58rem;
 }
 .bio-p a {
   color: var(--navy);
@@ -574,27 +535,20 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* About · Contact · Around the internet (§5.3): three equal columns in the hero's
-   main column, below the bio. The left column stacks About and Contact; the
-   netlinks fill the other two (see .hero-links .netlinks). */
+/* About · Contact · Around the internet: four columns under the bio. About and
+   Contact take one each; the netlinks span the last two as a two-column list. */
 .hero-links {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 2rem 3.25rem;
-  margin-top: 2.4rem;
-  clear: left;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem 2rem;
+  margin-top: 1.5rem;
 }
 .hero-links .ey {
   display: block;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
 }
-.hl-block + .hl-block {
-  margin-top: 1.6rem;
-}
-@media (min-width: ($bp-hero-links + 1px)) {
-  .hero-links .netlinks {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.hero-links .netwrap {
+  grid-column: span 2;
 }
 .contact {
   display: flex;
@@ -623,8 +577,8 @@ sup.footnote-ref {
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
 .netlinks {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.4rem 1.5rem;
 }
 .netlinks a {
   display: flex;
@@ -648,228 +602,135 @@ sup.footnote-ref {
   color: var(--mut);
 }
 
-/* Scholarship (§5.4) — pure-CSS masonry via column-width, no JS */
-.sec {
-  padding-bottom: var(--sp-section);
-  margin-bottom: var(--sp-section);
-}
-.grid {
-  column-width: 300px;
-  column-gap: 1.5rem;
-}
-.grid .it {
-  /* Atomic inline-block so WebKit can't fragment a card across the column
-     boundary — Safari splits multicol children mid-box into the next column
-     (it under-honors `break-inside: avoid`, worst during the reflow as lazy
-     cover images load in); Firefox renders it fine. An inline-block is
-     unbreakable in every engine; `width: 100%` keeps one card per column
-     row and `vertical-align: top` removes the inline baseline gap. */
-  display: inline-block;
-  width: 100%;
-  vertical-align: top;
-  break-inside: avoid;
-  -webkit-column-break-inside: avoid;
-  margin-bottom: 1.5rem;
-}
-.scard {
-  display: block;
-  background: #fff; /* paper card on the tinted page, deliberately not --card */
-  border: 1px solid var(--rule2);
-  border-radius: var(--radius);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
-  text-decoration: none;
-  color: inherit;
-  overflow: hidden;
-  transition: box-shadow 0.2s, transform 0.2s;
-}
-.scard img {
-  display: block;
-  width: 100%;
-  height: auto; /* let the width/height attrs drive aspect-ratio; without this the
-                   attr height becomes a fixed px height and stretches the image */
-  transition: transform 0.3s;
-}
-.scard:hover {
-  box-shadow: 0 0.5rem 1.4rem rgba(0, 0, 0, 0.14);
-  transform: translateY(-3px);
-}
-.scard:hover img {
-  transform: scale(1.03);
-}
-.scard .b {
-  border-top: 2px solid var(--orange);
-  padding: 0.95rem 1.05rem 1.1rem;
-}
-.scard .t {
-  font: 600 var(--h4)/1.25 "Source Serif 4", serif;
-  color: var(--ink);
-}
-.scard .d {
-  font: 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
-  color: var(--sec);
-  margin-top: 0.35rem;
-}
-[data-bs-theme="dark"] .scard {
-  background: var(--card);
-  border-color: var(--rule);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-}
-
-/* Blog + email band (§4.10) — the single filled-color block; cobalt in BOTH modes */
+/* Subscribe bar (§4.10) — the single filled-color block; cobalt in BOTH modes.
+   One line between the hero and the blog: the feeds and the email signup page
+   at left, the featured and archive pages at right. */
 .sb {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 2rem;
+  min-height: 4rem;
+  padding: 0.85rem 1.75rem;
   background: var(--cobalt);
   border-radius: var(--radius);
   color: #fff;
-  overflow: hidden;
-  margin-bottom: var(--sp-section);
+  margin-bottom: 1.5rem;
 }
-.sb .blog {
-  padding: 1.7rem 1.85rem;
+.sb-grp {
   display: flex;
-  flex-direction: column;
-}
-.sb .nl {
-  padding: 1.7rem 1.85rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.22);
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
 }
 .sb-eyebrow {
-  display: block;
   @include mono-label(var(--label-sm), 0.2em);
   color: var(--accent-soft);
-  margin-bottom: 0.9rem;
 }
-.sb-post-title {
-  display: block;
-  font: 600 var(--h2)/1.22 "Source Serif 4", serif;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: -0.01em;
-}
-.sb-post-title:hover {
-  color: var(--accent-soft);
-}
-.sb-metaline {
+.sb-links {
   display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  margin: 0.7rem 0;
-}
-.lp-tag {
-  flex: none;
-  @include mono-label(var(--label-xs), 0.12em);
-  color: var(--cobalt);
-  background: var(--accent-soft);
-  border-radius: var(--radius);
-  padding: 0.4em 0.55em;
-}
-.sb-post-date {
-  @include mono-label(var(--label-xs), 0.12em);
-  color: rgba(255, 255, 255, 0.62);
-}
-.sb-post-ex {
-  font: 400 var(--prose-sm)/1.45 "Source Serif 4", serif;
-  color: rgba(255, 255, 255, 0.84);
-  margin: 0;
-  max-width: 34rem;
-}
-.sb-navlinks {
-  display: flex;
-  gap: 1.6rem;
   flex-wrap: wrap;
-  margin-top: auto; /* sits at the foot of the column */
-  padding-top: 1.3rem;
+  align-items: center;
+  gap: 0.4rem 1.1rem;
 }
-.sb-navlinks a {
+.sb-links a {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  @include mono-label(var(--label-md), 0.1em);
+  gap: 0.45rem;
+  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
   color: #fff;
   text-decoration: none;
 }
-.sb-navlinks a i {
+.sb-links a i {
+  color: var(--accent-soft); /* 4.5:1 on the cobalt; the orange text color is only 1.4:1 */
+  font-size: 0.95rem;
   transition: transform 0.15s;
 }
-.sb-navlinks a:hover {
+.sb-links a:hover {
   color: var(--accent-soft);
 }
-.sb-navlinks a:hover i {
+.sb-links a:hover .bi-arrow-right {
   transform: translateX(0.2em);
 }
-/* Feed links lead the subscribe column: the mono label voice at its largest
-   size, with the orange icon */
-.sb-feedlinks {
-  display: flex;
-  gap: 1.75rem;
-  flex-wrap: wrap;
-  margin-top: 0.6rem; /* with the eyebrow's own margin, matches the gap to the post title at left */
+.sb .dot {
+  color: rgba(255, 255, 255, 0.45);
 }
-.sb-feedlinks a {
+
+/* The bar's vertical form, for the blog sidebar */
+.bs-band {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1.05rem 1.2rem;
+  background: var(--cobalt);
+  border-radius: var(--radius);
+  color: #fff;
+}
+.bs-band .sb-eyebrow {
+  margin-bottom: 0.15rem;
+}
+.bs-band a {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
+  gap: 0.5rem;
+  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
   color: #fff;
   text-decoration: none;
-  @include mono-label(var(--label-lg), 0.1em);
 }
-.sb-feedlinks a i {
-  font-size: 1.45rem;
-  color: var(--accent-soft); /* 4.5:1 on the cobalt; the orange text color is only 1.4:1 */
-  transition: transform 0.15s;
-}
-.sb-feedlinks a:hover {
+.bs-band a i {
   color: var(--accent-soft);
 }
-.sb-feedlinks a:hover i {
-  transform: translateY(-2px);
-}
-.sb-sub {
-  font: 400 var(--prose-sm)/1.42 "Source Serif 4", serif;
-  color: rgba(255, 255, 255, 0.82);
-  margin: 0.9rem 0 0;
-}
-.sb-sub a {
-  color: #fff;
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.35);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-}
-.sb-sub a:hover {
+.bs-band a:hover {
   color: var(--accent-soft);
-  text-decoration-color: var(--accent-soft);
 }
-.sb-form {
+
+/* The home-page stream: a centered reading column with the date hung in a left
+   gutter (.list-post is the shared entry; see layouts/partials/list-post.html). */
+.home-stream {
+  max-width: calc(var(--measure) + 8.5rem);
+  margin: 0 auto;
+}
+.home-stream .list-post {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+}
+.home-stream .list-post .metaline {
+  /* the date on the title's first line, any subjects stacked beneath it like a
+     margin note */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding-top: 0.55rem;
+  padding-right: 1rem;
+}
+.home-stream .list-post .metaline .sep {
+  display: none;
+}
+.home-stream .ptitle {
+  margin-top: 0;
+}
+.kr {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  align-items: baseline;
+  border-top: 1px solid var(--ink);
+  padding-top: 1rem;
+  margin-top: 0.25rem;
+}
+.kr .lbl {
+  @include mono-label(var(--label-lg), 0.2em);
+  color: var(--ink);
+}
+.kr-links {
   display: flex;
-  max-width: 340px;
-  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
 }
-.sb-form input[type="text"],
-.sb-form input[type="email"] {
-  flex: 1;
-  min-width: 0;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-right: none;
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-  padding: 0.6rem 0.8rem;
-  font: 400 var(--prose-sm) "Source Serif 4", serif;
-  border-radius: var(--radius) 0 0 var(--radius);
-}
-.sb-form input[type="text"]::placeholder,
-.sb-form input[type="email"]::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-.sb-form input[type="submit"] {
-  border: none;
-  background: var(--accent-soft);
-  color: #16203a; /* fixed near-black: the fill is the same in both modes (11:1) */
-  @include mono-label(var(--label-md), 0.1em);
-  padding: 0 1.2rem;
-  cursor: pointer;
-  border-radius: 0 var(--radius) var(--radius) 0;
+.kr-links .rm {
+  margin-top: 0;
+  font-size: 1.1rem;
 }
 
 /* Footer (§4.11) */
@@ -913,66 +774,22 @@ sup.footnote-ref {
 
 /* ===== responsive (§5) ===== */
 @media (max-width: $bp-hero-links) {
-  /* The hero's main column is too narrow for three columns: About and Contact
-     share one row, the netlinks run full width below (3 → 2 columns at
-     $bp-netlinks like everywhere else). */
+  /* Four columns are too tight for the email addresses: About and Contact
+     share a row, the netlinks run full width below in their two columns. */
   .hero-links {
-    grid-template-columns: 1fr;
-  }
-  .hero-links > div:first-child {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.6rem 2rem;
-  }
-  .hl-block + .hl-block {
-    margin-top: 0;
-  }
-}
-@media (max-width: $bp-netlinks) {
-  .netlinks {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem 2rem;
   }
 }
 @media (max-width: $bp-mobile) {
   .main-container {
     padding: 1.75rem 1.2rem 3rem;
   }
-  .hero {
-    flex-direction: column;
-    gap: 1.4rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+  .statement {
+    font-size: 1.9rem;
   }
-  .rail {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.55rem 1rem;
-    border-bottom: 1px solid var(--rule);
-    padding-bottom: 1.05rem;
-  }
-  .rail .nm {
-    order: 1;
-    margin: 0;
-    font-size: 1.3rem;
-    line-height: 1.1;
-    white-space: normal; /* allow the name to wrap on small screens */
-  }
-  .rail nav {
-    order: 2;
-    flex-basis: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.15rem 1.2rem;
-    border-top: none;
-    padding-top: 0.2rem;
-    margin: 0;
-  }
-  .rail nav a {
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
+  .hero-links {
+    gap: 1.4rem 1.5rem;
   }
   .contact {
     gap: 0.65rem;
@@ -986,43 +803,66 @@ sup.footnote-ref {
   .netlinks a {
     padding: 0.3rem 0;
   }
-  .rail .photo {
-    order: 0;
-    width: 52px;
-    height: 52px;
-    max-width: none;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 0;
+}
+@media (max-width: $bp-stack) {
+  .sitehead {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .sitehead nav {
+    gap: 0.35rem 1.1rem;
   }
   .statement {
-    font-size: 2.05rem;
+    font-size: 1.625rem;
+    line-height: 1.25;
+    letter-spacing: -0.015em;
   }
+  .bio-p {
+    font-size: 1rem;
+  }
+  /* One column: nothing wraps mid-label */
   .hero-links {
-    grid-template-columns: 1fr;
-    gap: 1.6rem;
-    margin-top: 1.6rem;
+    grid-template-columns: minmax(0, 1fr);
   }
+  .hero-links .netwrap {
+    grid-column: auto;
+  }
+  .netlinks {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  /* The bar stacks: eyebrow, then each link on its own line */
   .sb {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+    padding: 1rem 1.1rem;
   }
-  .sb .nl {
-    border-left: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.22);
+  .sb-grp,
+  .sb-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
-}
-@media (max-width: 640px) {
-  .hero-links > div:first-child {
-    grid-template-columns: 1fr;
+  .sb .dot {
+    display: none;
+  }
+  /* The date moves from the gutter to above the post */
+  .home-stream .list-post,
+  .kr {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .home-stream .list-post .metaline {
+    padding-top: 0;
+    margin-bottom: 0.6rem;
+  }
+  .kr {
+    gap: 0.6rem;
   }
 }
 @media (max-width: $bp-phone) {
   body {
     font-size: 1.06rem;
-  }
-  .statement {
-    font-size: 1.72rem;
-    line-height: 1.17;
   }
 }
 
@@ -1049,7 +889,7 @@ sup.footnote-ref {
   padding-left: 1.8rem;
 }
 .blog-layout .sidebar {
-  margin-top: 3rem; /* align the sidebar with the first content row */
+  margin-top: 0.4rem; /* align with the page title */
 }
 
 /* ---- list feed post ---- */
@@ -1258,13 +1098,7 @@ a.pill:hover {
   color: var(--mut);
   margin-top: 0.35rem;
 } /* bi-clock-history + "Updated …" */
-.rail-div {
-  border: none;
-  border-top: 1px solid var(--rule2);
-  margin: 0.2rem 0 1.5rem;
-}
-
-/* ---- shared blog sidebar (Navigate · Email · Site feeds) ---- */
+/* ---- shared blog sidebar (Navigate · subscribe box) ---- */
 .bs {
   display: flex;
   flex-direction: column;
@@ -1275,12 +1109,6 @@ a.pill:hover {
   color: var(--ink);
   margin: 0 0 0.7rem;
 }
-.bs-sub {
-  font: 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  color: var(--mut);
-  margin: -0.3rem 0 0.7rem;
-} /* one-line pitch above the email form */
 .bs-nav {
   display: flex;
   flex-direction: column;
@@ -1302,54 +1130,6 @@ a.pill:hover {
   content: "→";
   margin-left: 0.4rem;
 }
-.bs-form {
-  display: flex;
-}
-.bs-form input[type="text"],
-.bs-form input[type="email"] {
-  flex: 1;
-  min-width: 0;
-  border: 1px solid var(--rule);
-  border-right: none;
-  background: var(--bs-body-bg);
-  padding: 0.5rem 0.6rem;
-  font: 400 var(--prose-sm) "Source Serif 4", serif;
-  color: var(--body);
-  border-radius: var(--radius) 0 0 var(--radius);
-}
-.bs-form input::placeholder {
-  color: var(--mut);
-}
-.bs-form input[type="submit"],
-.bs-form button {
-  border: none;
-  background: var(--orange-text);
-  color: #fff;
-  @include mono-label(var(--label-xs), 0.08em);
-  padding: 0 0.85rem;
-  cursor: pointer;
-  border-radius: 0 var(--radius) var(--radius) 0;
-}
-.bs-feeds {
-  display: flex;
-  gap: 1.3rem;
-} /* borderless text links */
-.feed-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  @include mono-label(var(--label-sm), 0.08em);
-  color: var(--navy);
-  text-decoration: none;
-}
-.feed-btn i {
-  color: var(--orange-text);
-  font-size: 1rem;
-} /* bi-rss-fill / bi-braces */
-.feed-btn:hover {
-  color: var(--orange-text);
-}
-
 /* ---- year-grouped index (archive + featured) ---- */
 .idx-group {
   margin-top: 1.7rem;
@@ -1384,6 +1164,12 @@ a.pill:hover {
 }
 .idx-title:hover {
   color: var(--navy);
+}
+/* An untitled post, listed by its description */
+.idx-note {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--sec);
 }
 
 /* ---- in-post content elements ---- */
@@ -1795,6 +1581,9 @@ figcaption.figcap a:hover {
   font: 400 var(--prose-sm)/1.55 "Source Serif 4", serif;
   color: var(--sec);
   margin: 0 0 0.8rem;
+}
+.reading .footnotes a {
+  text-decoration: none;
 }
 /* Goldmark emits <sup id="fnref:N"><a class="footnote-ref">…</a></sup>, so the
    class sits on the anchor, not the sup — target a.footnote-ref directly. */

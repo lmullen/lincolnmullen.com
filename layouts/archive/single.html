@@ -1,17 +1,16 @@
 {{ define "main" }}
 <div class="blog-layout">
   <div>
-    <h1 class="visually-hidden">{{ .Title }}</h1>
-    <div class="shead"><span class="lbl">Blog posts by date</span></div>
+    <h1 class="stmt">{{ .Title }}</h1>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
+    {{/* Every post, titled or not: untitled posts are listed by their description
+         (see index-row.html). Grouped by year, newest first. */}}
     {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006" }}
     <div class="idx-group">
       <div class="idx-year">{{ .Key }}</div>
       {{ range .Pages }}
-      {{ if and (not .Params.Linkpost) .Title }}
       {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.day) }}
-      {{ end }}
       {{ end }}
     </div>
     {{ end }}

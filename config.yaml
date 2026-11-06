@@ -64,18 +64,22 @@ params:
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
   siteFeedUrl: "/blog/index.xml"
+  # Buttondown's hosted signup page for the occasional email of new posts; the
+  # site has no embedded form.
+  emailSignupUrl: "https://buttondown.com/lmullen"
   # "Around the internet" social icons: brand (official colors) | monochrome (--mut)
   iconStyle: brand
   author:
     name: "Lincoln Mullen"
     email: "lincoln@lincolnmullen.com"
 
-# Primary navigation. Rendered in the homepage rail, the slim interior header,
-# and the footer "Site" row so they stay in sync. The email signup is deliberately
-# excluded (Design Handoff §9); it lives in the cobalt band and on the blog page.
+# Primary navigation, rendered in the site header and the footer "Site" row.
+# The blog lives on the home page, so "Blog" points at the root; the About
+# content that used to be the home page is the biography and CV, linked from the
+# hero. Email signup is a link to Buttondown's hosted page (emailSignupUrl).
 menu:
   main:
-    - name: About
+    - name: Blog
       url: /
       weight: 10
     - name: Scholarship
@@ -84,9 +88,6 @@ menu:
     - name: Teaching
       url: /courses/
       weight: 30
-    - name: Blog
-      url: /blog/
-      weight: 40
 
 taxonomies: false
 

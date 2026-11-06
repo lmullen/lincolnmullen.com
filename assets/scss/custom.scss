@@ -695,6 +695,7 @@ sup.footnote-ref {
 .home-stream .list-post {
   display: grid;
   grid-template-columns: 8.5rem minmax(0, 1fr);
+  padding: 2.75rem 0; /* more air between posts than the 2.1rem list default */
 }
 .home-stream .pdate {
   /* the date, linking to the post, with a faint permalink mark after it */
@@ -933,7 +934,7 @@ sup.footnote-ref {
 }
 
 /* read-more action: editorial, no box. Body-size serif at weight 600 in the
-   navy, indented a little, the words standing on a 2px orange rule (the
+   navy, the words standing on a 2px orange rule (the
    quote-rule accent) and the arrow beyond it in orange; on hover the text goes
    orange too and the arrow slides. */
 .rm {
@@ -944,7 +945,7 @@ sup.footnote-ref {
   letter-spacing: -0.005em;
   color: var(--navy);
   text-decoration: none;
-  margin: 1.1rem 0 0 1.25rem;
+  margin-top: 1.1rem;
   transition: color 0.15s;
 }
 .rm span {

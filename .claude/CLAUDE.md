@@ -47,6 +47,8 @@ Content types have layout files in `./layouts/` and corresponding content in `./
 
 The site has no separate newsletter. Issues of the former newsletter, *Working on It*, are ordinary blog posts titled "Working on It #<n>: …" and tagged `newsletter`; their `feedid` keeps the old `/newsletter/<n>/` feed GUID. Email signup (Buttondown) offers new posts bundled into an occasional email.
 
+New issues of *Working on It* (#19 on) are emails, not blog posts. They live in `emails/`, which Hugo does not publish. To make one, follow the `newsletter` skill (`.claude/skills/newsletter/SKILL.md`). It asks which recent posts to include in full or as a summary, writes the issue, and renders HTML for the user to paste into Kit.
+
 ### Front Matter Patterns
 
 **Blog posts** (`content/blog/YYYY-MM-DD-slug/index.md`):

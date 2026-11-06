@@ -14,3 +14,6 @@ resources/_gen/*
 
 # Git worktrees
 .worktrees/
+
+# Rendered newsletter issues (generated for pasting into Kit)
+emails/*.html

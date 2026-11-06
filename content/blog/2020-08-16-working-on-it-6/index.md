@@ -2,6 +2,7 @@
 title: "Working on It #6: Honesty in visualizations"
 date: "2020-08-16"
 slug: working-on-it-6
+description: "The choices behind making an honest visualization of Bible quotation trends for *America's Public Bible*, from prediction thresholds to cutoff dates, plus notes on new books by Kristin Kobes Du Mez and Kate Bowler."
 feedid: /newsletter/6/
 draft: false
 tags:

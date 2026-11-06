@@ -1,6 +1,7 @@
 ---
 date: "2022-10-20T17:43:16-04:00"
 slug: '2022-10-20-17-43-16'
+description: "The American Religion @ RRCHNM newsletter announces a Luce Foundation grant for a podcast on American antisemitism, a map of National Spiritual Alliance preachers, and oral histories of Jewish experiences of the pandemic."
 draft: false
 linkpost: "https://us14.campaign-archive.com/?u=36898c6824a31b8e1d4434a55&id=fe50f1ad14"
 ---

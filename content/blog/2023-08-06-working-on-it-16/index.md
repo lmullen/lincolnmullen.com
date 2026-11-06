@@ -2,6 +2,7 @@
 title: "Working on It #16: Photo newsletter"
 date: "2023-08-06T21:13:11-04:00"
 slug: working-on-it-16
+description: "A summertime newsletter in photos: a Merle Haggard church album, visualizing legal citations for Legal Modernism, a new NEH grant for *American Religious Ecologies*, Greta Swain's dissertation defense, and an office move."
 feedid: /newsletter/16/
 draft: false
 tags:

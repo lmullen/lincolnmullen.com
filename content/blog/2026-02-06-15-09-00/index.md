@@ -1,6 +1,7 @@
 ---
 date: '2026-02-06T15:09:00-05:00'
 slug: '2026-02-06-15-09-00'
+description: "A photo of GMU history PhD alumni gathered at the American Historical Association annual meeting."
 draft: false
 linkpost:
 image: '2026-02-06-15-06-00.jpeg'

@@ -1,6 +1,7 @@
 ---
 date: "2023-05-10T09:45:56-04:00"
 slug: '2023-05-10-09-45-56'
+description: "RRCHNM's May newsletter features a visualization of Victor Recording's expeditions in Latin America, two graduate student successes, and a grant for American religious history."
 draft: false
 linkpost: https://mailchi.mp/d3ba39d2a086/rrchnm-news-2?e=7cb773a4b0
 ---

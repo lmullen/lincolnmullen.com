@@ -1,6 +1,7 @@
 ---
 date: '2026-02-20T17:50:29-05:00'
 slug: '2026-02-20-17-50-29'
+description: "A joke map of the United States, \"no law west of Dodge, and no god west of the Pecos,\" with apologies to Caliban."
 draft: false
 image: '2026-02-20-17-47-39.png'
 ---

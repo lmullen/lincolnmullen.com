@@ -2,6 +2,7 @@
 title: "Working on It #7: Being an enabler"
 date: "2020-11-02"
 slug: working-on-it-7
+description: "On RRCHNM as an enabler of other people's work, with the public beta of DataScribe, a new issue of *Current Research in Digital History*, and a note on Tara Isabella Burton's *Strange Rites*."
 feedid: /newsletter/7/
 draft: false
 tags:

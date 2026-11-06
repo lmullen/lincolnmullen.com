@@ -1,6 +1,7 @@
 ---
 date: "2023-05-10T09:56:24-04:00"
 slug: '2023-05-10-09-56-24'
+description: "Four students from GMU's PhD program in history are headed to a postdoc, the Center for Military History, and two assistant professorships."
 draft: false
 linkpost: https://historyarthistory.gmu.edu/articles/19036
 ---

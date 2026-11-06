@@ -1,6 +1,7 @@
 ---
 date: "2022-10-19T11:17:55-04:00"
 slug: '2022-10-19-11-17-55'
+description: "Caroline Greer writes about a National Spiritual Alliance church named after its pastor, Dorcas Brown."
 draft: false
 linkpost: "https://religiousecologies.org/blog/schedule-spotlight-the-dorcas-spiritual-alliance-church/"
 ---

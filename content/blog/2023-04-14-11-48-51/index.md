@@ -1,6 +1,7 @@
 ---
 date: '2023-04-14T11:48:51-04:00'
 slug: '2023-04-14-11-48-51'
+description: "NetNewsWire is the best RSS reader for Mac and iOS, and it is free and open source."
 draft: false
 linkpost: https://netnewswire.com
 ---

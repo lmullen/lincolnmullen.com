@@ -1,6 +1,7 @@
 ---
 date: '2022-11-03T09:40:22-04:00'
 slug: '2022-11-03-09-40-22'
+description: "A helpful list of best practices and a template for writing shell scripts."
 draft: false
 linkpost: https://sharats.me/posts/shell-script-best-practices/
 ---

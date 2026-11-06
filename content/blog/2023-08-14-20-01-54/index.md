@@ -1,6 +1,7 @@
 ---
 date: "2023-08-14T20:01:54-04:00"
 slug: '2023-08-14-20-01-54'
+description: "Mills Kelly reflects on his four years as executive director of the Roy Rosenzweig Center for History and New Media."
 draft: false
 linkpost: "https://rrchnm.org/about-rrchnm/passing-the-baton/"
 ---

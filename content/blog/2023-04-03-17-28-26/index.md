@@ -1,6 +1,7 @@
 ---
 date: '2023-04-03T17:28:26-04:00'
 slug: '2023-04-03-17-28-26'
+description: "RRCHNM is launching a newsletter about how its students and staff create history for public audiences."
 draft: false
 linkpost: https://airtable.com/shr4EDv3YKjl3NdZD
 ---

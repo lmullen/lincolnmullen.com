@@ -1,6 +1,7 @@
 ---
 date: '2022-11-29T16:32:43-05:00'
 slug: '2022-11-29-16-32-43'
+description: "Jason Heppler writes about building a data API for historical research at RRCHNM."
 draft: false
 linkpost: https://deathbynumbers.org/2022/11/21/building-a-data-api-for-historical-research/
 ---

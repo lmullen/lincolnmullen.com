@@ -1,6 +1,7 @@
 ---
 date: '2023-04-04T10:11:39-04:00'
 slug: '2023-04-04-10-11-39'
+description: "*The Washington Post* covers Jason Heppler and Mills Kelly's work with two Northern Virginia historic houses to digitize and preserve graffiti left by Civil War soldiers."
 draft: false
 linkpost: https://www.washingtonpost.com/local/2023/04/02/exchange-civil-war-graffiti-digital/81d39558-d156-11ed-ac8b-cd7da05168e9_story.html
 ---

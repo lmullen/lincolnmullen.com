@@ -2,6 +2,7 @@
 title: "Working on It #17: Antisemitism, U.S.A: A history podcast"
 date: "2024-05-09T21:00:00-04:00"
 slug: working-on-it-17
+description: "The launch of *Antisemitism, U.S.A.*, a podcast from R2 Studios on the history of American antisemitism, along with Kris Stinson's dissertation defense and news of becoming RRCHNM's executive director."
 feedid: /newsletter/17/
 draft: false
 tags:

@@ -617,7 +617,8 @@ sup.footnote-ref {
   background: var(--cobalt);
   border-radius: var(--radius);
   color: #fff;
-  margin-bottom: 1.5rem;
+  max-width: calc(var(--measure) + 8.5rem); /* the stream's width, centered like it */
+  margin: 0 auto 1.5rem;
 }
 .sb-grp {
   display: flex;
@@ -731,7 +732,7 @@ sup.footnote-ref {
 
 /* The same bar again after the last post */
 .sb-foot {
-  margin: 1.5rem 0 0;
+  margin: 1.5rem auto 0;
 }
 
 /* Footer (§4.11) */

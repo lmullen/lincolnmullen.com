@@ -1,5 +1,6 @@
 {{- /* One date + title row for compact post indexes (related posts, blog
-       archive, featured posts). An untitled post is listed by its description,
+       archive, featured posts). The date links to the post with a faint
+       permalink mark, as on the home page. An untitled post is listed by its description,
        or failing that the start of its text, set as a note and clipped to one
        line by the stylesheet. Call with a dict:
          page     the page to link
@@ -7,7 +8,7 @@
          desc     true to show the post's description beneath its title */ -}}
 {{- $p := .page -}}
 <div class="idx-row">
-  <time class="idx-date" datetime="{{ $p.Date.Format site.Params.dateForms.machine }}">{{ $p.Date.Format .dateForm }}</time>
+  <a class="idx-date" href="{{ $p.RelPermalink }}" aria-label="Permalink: post from {{ $p.Date.Format site.Params.dateForms.long }}"><time datetime="{{ $p.Date.Format site.Params.dateForms.machine }}">{{ $p.Date.Format .dateForm }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
   {{- if $p.Title }}
   <div>
     <a class="idx-title" href="{{ $p.RelPermalink }}">{{ $p.RenderString (dict "display" "inline") $p.Title }}</a>

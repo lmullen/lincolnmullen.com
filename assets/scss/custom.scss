@@ -1069,10 +1069,7 @@ a.pill:hover {
 /* Related rows reuse the archive index layout (date gutter + serif title),
    with a wider gutter to fit the year (related posts span years). */
 .rel .idx-row {
-  grid-template-columns: 5.5rem 1fr;
-}
-.rel .idx-date {
-  white-space: nowrap;
+  grid-template-columns: 7rem minmax(0, 1fr);
 }
 
 /* ---- single-post metadata rail blocks ---- */
@@ -1152,7 +1149,7 @@ a.pill:hover {
 /* A flat index with no year headings (featured posts): dates carry the year, so
    the gutter widens to fit the compact form */
 .idx-flat .idx-row {
-  grid-template-columns: 5.5rem minmax(0, 1fr);
+  grid-template-columns: 7rem minmax(0, 1fr);
 }
 .idx-flat .idx-row {
   padding: 0.7rem 0;
@@ -1173,15 +1170,30 @@ a.pill:hover {
 }
 .idx-row {
   display: grid;
-  grid-template-columns: 4.6rem minmax(0, 1fr);
+  grid-template-columns: 5.4rem minmax(0, 1fr);
   gap: 1.3rem;
   align-items: baseline;
   padding: 0.45rem 0;
 }
 .idx-date {
+  /* the date, linking to the post, with a faint permalink mark after it */
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.3rem;
   @include mono-label(var(--label-sm), 0.05em, 600, 1.5);
   color: var(--mut);
-  text-align: right;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.idx-date i {
+  color: var(--rule);
+  font-size: 0.95rem;
+  transition: color 0.15s;
+}
+.idx-date:hover,
+.idx-date:hover i {
+  color: var(--orange-text);
 }
 .idx-title {
   font: 600 var(--h4)/1.35 "Source Serif 4", serif;

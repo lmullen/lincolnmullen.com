@@ -225,14 +225,15 @@ a {
   hyphens: none;
 }
 
-/* Site header on every page: wordmark + mono nav, no rule beneath (on the home
-   page the hero's own rule closes the first block). */
+/* Site header on every page: wordmark + mono nav over an ink rule. */
 .sitehead {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 0.6rem 2rem;
   flex-wrap: wrap;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.9rem;
   margin-bottom: 2.4rem;
 }
 

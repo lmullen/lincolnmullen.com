@@ -730,8 +730,47 @@ sup.footnote-ref {
 /* The bar again at the foot of the stream, pointing on to the featured posts and
    the archive */
 .sb-foot {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
+  max-width: calc(var(--measure) + 8.5rem); /* the stream's width */
+  margin: 1.5rem auto 0;
+}
+
+/* Footer (§4.11) */
+.foot {
+  border-top: 1px solid var(--ink);
+  margin-top: 2.5rem;
+  padding-top: 2.2rem;
+  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.foot p {
+  margin: 0.15rem 0;
+}
+.foot p:has(b) {
+  display: flex;
+  align-items: baseline;
+}
+.foot p:has(b) .fl {
+  flex: 1;
+  min-width: 0;
+}
+.foot a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.foot a:hover {
+  color: var(--orange-text);
+}
+/* Links inside the footer's prose sentence (not the labeled link lists) need
+   a non-color cue to stand out from the surrounding text (WCAG 1.4.1). */
+.foot p:not(:has(b)) a {
+  @include reading-underline;
+}
+.foot b {
+  display: inline-block;
+  min-width: 3.75rem;
+  @include mono-label(var(--label-sm), 0.12em);
+  color: var(--ink);
+  margin-right: 0.5rem;
 }
 
 /* ===== responsive (§5) ===== */
@@ -853,7 +892,7 @@ sup.footnote-ref {
 /* ---- list feed post ---- */
 .list-post {
   padding: 2.1rem 0;
-  border-bottom: 1px solid var(--rule2);
+  border-bottom: 1px solid var(--rule); /* --rule2 was too faint between posts, in dark mode especially */
 }
 .list-post:last-of-type {
   border-bottom: none;

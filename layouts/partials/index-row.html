@@ -1,6 +1,7 @@
 {{- /* One date + title row for compact post indexes (related posts, blog
        archive, featured posts). An untitled post is listed by its description,
-       or failing that the start of its text, set as a note. Call with a dict:
+       or failing that the start of its text, set as a note and clipped to one
+       line by the stylesheet. Call with a dict:
          page     the page to link
          dateForm display format, usually one of site.Params.dateForms
          desc     true to show the post's description beneath its title */ -}}
@@ -15,6 +16,6 @@
     {{- end }}
   </div>
   {{- else }}
-  <a class="idx-title idx-note" href="{{ $p.RelPermalink }}">{{ with $p.Description }}{{ $p.RenderString (dict "display" "inline") . }}{{ else }}{{ $p.Summary | plainify | truncate 100 }}{{ end }}</a>
+  <a class="idx-title idx-note" href="{{ $p.RelPermalink }}">{{ with $p.Description }}{{ $p.RenderString (dict "display" "inline") . }}{{ else }}{{ $p.Summary | plainify | truncate 240 }}{{ end }}</a>
   {{- end }}
 </div>

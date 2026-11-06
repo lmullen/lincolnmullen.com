@@ -933,8 +933,9 @@ sup.footnote-ref {
 }
 
 /* read-more action: editorial, no box. Body-size serif at weight 600 in the
-   navy, standing on a 2px orange rule (the quote-rule accent), the arrow in
-   orange; on hover the text goes orange too and the arrow slides. */
+   navy, indented a little, the words standing on a 2px orange rule (the
+   quote-rule accent) and the arrow beyond it in orange; on hover the text goes
+   orange too and the arrow slides. */
 .rm {
   display: inline-flex;
   align-items: baseline;
@@ -943,10 +944,12 @@ sup.footnote-ref {
   letter-spacing: -0.005em;
   color: var(--navy);
   text-decoration: none;
+  margin: 1.1rem 0 0 1.25rem;
+  transition: color 0.15s;
+}
+.rm span {
   border-bottom: 2px solid var(--orange);
   padding-bottom: 0.2rem;
-  margin-top: 1.1rem;
-  transition: color 0.15s;
 }
 .rm:hover {
   color: var(--orange-text);

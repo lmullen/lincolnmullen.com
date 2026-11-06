@@ -1144,6 +1144,11 @@ a.pill:hover {
 .idx-group:first-of-type {
   margin-top: 1.3rem;
 }
+/* A flat index with no year headings (featured posts): dates carry the year, so
+   the gutter widens to fit the compact form */
+.idx-flat .idx-row {
+  grid-template-columns: 5.5rem 1fr;
+}
 .idx-year {
   font: 600 var(--h3)/1 "Source Serif 4", serif;
   color: var(--ink);

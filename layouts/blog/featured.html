@@ -1,21 +1,18 @@
-{{/* Curated "Featured posts" — blog posts flagged `featured: true`, listed newest
-     first (no year grouping): full date, title, one-line description, read-more link. */}}
+{{/* Curated "Featured posts" — blog posts flagged `featured: true`, newest first,
+     as one flat index in the archive's style (full compact date + title) with no
+     year grouping. */}}
 {{ define "main" }}
 <div class="blog-layout">
   <div>
-    <h1 class="visually-hidden">{{ .Title }}</h1>
-    <div class="shead"><span class="lbl">Featured posts</span></div>
+    <h1 class="stmt">{{ .Title }}</h1>
     {{ with .Content }}<div class="bodyprose mb-4">{{ . }}</div>{{ end }}
 
     {{ $featured := sort (where (where .Site.RegularPages "Section" "blog") ".Params.featured" true) "Date" "desc" }}
-    {{ range $featured }}
-    <article class="list-post">
-      {{ partial "post-metaline.html" . }}
-      <a class="ptitle" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
-      {{ if .Description }}<div class="pbody"><p>{{ .RenderString (dict "display" "inline") .Description }}</p></div>{{ end }}
-      {{ partial "read-more.html" . }}
-    </article>
-    {{ end }}
+    <div class="idx-group idx-flat">
+      {{ range $featured }}
+      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact) }}
+      {{ end }}
+    </div>
   </div>
 
   <aside class="sidebar">{{ partial "blog-nav" . }}</aside>

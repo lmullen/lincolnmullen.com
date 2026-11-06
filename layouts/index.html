@@ -4,35 +4,30 @@
 
 {{ define "main" }}
 
-{{/* Hero (Design Handoff §5.1): left rail (name, mono nav, portrait) + oversized statement. */}}
+{{/* Hero: the statement and biography from content/_index.md (first paragraph →
+     the display statement, rendered inline so its <em> emphasis lands; the rest →
+     .bio-p prose), then the About · Contact · Around the internet link columns. */}}
 <section class="hero">
-	<div class="rail">
-		{{/* Single line on the rail (see .rail .nm nowrap); wraps naturally only on small screens. */}}
-		<div class="nm">Lincoln Mullen</div>
-		<nav aria-label="Site">
-			{{ $cur := .RelPermalink }}
-			{{ range site.Menus.main }}
-			{{ $active := cond (eq .URL "/") (eq $cur "/") (hasPrefix $cur .URL) }}
-			<a href="{{ .URL }}"{{ if $active }} class="on" aria-current="page"{{ end }}>{{ .Name }}</a>
-			{{ end }}
-		</nav>
-		{{ $photo := resources.Get "img/lincoln-mullen-photo-cropped.jpeg" }}
-		{{ partial "responsive-image.html" (dict "res" $photo "width" 196 "class" "photo" "alt" "Lincoln Mullen") }}
-	</div>
-	<div class="main">
-		{{/* Statement + bio prose come from content/_index.md: first paragraph → the display
-		     statement (rendered inline so its <em> emphasis lands), the rest → .bio-p prose. */}}
-		{{ $blocks := split (strings.TrimSpace .RawContent) "\n\n" }}
-		<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>
-		{{ range after 1 $blocks }}
-		<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
-		{{ end }}
-		{{ partial "homepage-contact.html" . }}
-	</div>
+	{{ $blocks := split (strings.TrimSpace .RawContent) "\n\n" }}
+	<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>
+	{{ range after 1 $blocks }}
+	<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
+	{{ end }}
+	{{ partial "homepage-contact.html" . }}
 </section>
 
-{{ partial "homepage-subscribe.html" . }}
+{{ partial "homepage-subscribe.html" (dict) }}
 
-{{ partial "homepage-scholarship.html" . }}
+{{/* The blog: the most recent posts (site.Params.homePosts of them), titled and
+     untitled alike, in one stream. Older posts are reached through the featured
+     and archive pages, so there is no pagination here. */}}
+<div class="home-stream">
+	{{ range first (site.Params.homePosts | default 15) (where site.RegularPages "Section" "blog") }}
+	{{ partial "list-post.html" . }}
+	{{ end }}
+</div>
+
+{{/* The same bar again, after the last post */}}
+{{ partial "homepage-subscribe.html" (dict "class" "sb-foot") }}
 
 {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "All blog posts by date"
+title: "All blog posts"
 layout: archive
 type: archive
 slug: "/archive/"

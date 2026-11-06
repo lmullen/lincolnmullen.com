@@ -88,8 +88,7 @@
 	{{ block "page-header" . }}
 	<div class="container main-container">
 
-		{{/* Homepage supplies its own left-rail nav; every other page gets the slim header. */}}
-		{{ if not .IsHome }}{{ partial "site-header.html" . }}{{ end }}
+		{{ partial "site-header.html" . }}
 
 		{{ end }}
 

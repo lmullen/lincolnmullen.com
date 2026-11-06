@@ -1,9 +1,19 @@
-{{- /* One date + title row for compact post indexes (related posts, blog
-       archive). Call with a dict:
-         page     the page to link
-         dateForm display format, usually one of site.Params.dateForms */ -}}
-{{- $p := .page -}}
+{{- /* One row of a post index (all posts, featured posts, related posts): the
+       date, linking to the post with a faint permalink mark as on the home page,
+       then the title with the description beneath it. An untitled post is listed
+       by its description, or failing that the start of its text, set as a note
+       and clipped to one line by the stylesheet. Call with the page context:
+       {{ partial "index-row.html" . }} */ -}}
 <div class="idx-row">
-  <time class="idx-date" datetime="{{ $p.Date.Format site.Params.dateForms.machine }}">{{ $p.Date.Format .dateForm }}</time>
-  <a class="idx-title" href="{{ $p.RelPermalink }}">{{ $p.RenderString (dict "display" "inline") $p.Title }}</a>
+  <a class="idx-date" href="{{ .RelPermalink }}" aria-label="Permalink: post from {{ .Date.Format site.Params.dateForms.long }}"><time datetime="{{ .Date.Format site.Params.dateForms.machine }}">{{ .Date.Format site.Params.dateForms.compact }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+  {{- if .Title }}
+  <div>
+    <a class="idx-title" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+    {{- with .Description }}
+    <p class="idx-desc">{{ $.RenderString (dict "display" "inline") . }}</p>
+    {{- end }}
+  </div>
+  {{- else }}
+  <a class="idx-title idx-note" href="{{ .RelPermalink }}">{{ with .Description }}{{ $.RenderString (dict "display" "inline") . }}{{ else }}{{ .Summary | plainify | truncate 240 }}{{ end }}</a>
+  {{- end }}
 </div>

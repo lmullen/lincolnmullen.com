@@ -1,0 +1,42 @@
+{{- /* One post in the home-page stream: the date in the left gutter (stacked
+       above the post on phones), linking to the post with a faint permalink
+       icon after it; then the title (titled posts only), the body (full post, or
+       the summary before <!--more--> plus a read-more link), and the Link / Via
+       / Crossposted line when the post has any. Subjects appear only on the
+       post's own page. Call with the page context: {{ partial "list-post.html" . }} */ -}}
+<article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
+
+  {{/* Titled posts mark their title link as u-url; untitled posts use the date. */}}
+  <a class="pdate{{ if not .Title }} u-url u-uid{{ end }}" href="{{ .Permalink }}" aria-label="Permalink: post from {{ .Date.Format site.Params.dateForms.long }}"><time datetime="{{ .Date.Format site.Params.dateForms.machine }}">{{ .Date.Format site.Params.dateForms.compact }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+
+  <div class="list-body">
+    {{ if .Title }}
+    <a class="ptitle p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>
+    {{ else }}
+    <h2 class="visually-hidden">Post from {{ .Date.Format site.Params.dateForms.long }}</h2>
+    {{ end }}
+
+    <div class="pbody e-content">
+      {{ if findRE `<!--more-->` .RawContent }}
+      {{/* Strip footnote markers: the summary cuts off before the footnote
+           bodies, so the markers would link to anchors that exist only on
+           the post's own page. */}}
+      {{ replaceRE `<sup id="[^"]*fnref[^"]*".*?</sup>` "" .Summary | safeHTML }}
+      {{ partial "read-more.html" . }}
+      {{ else }}
+      {{ .Content }}
+      {{ end }}
+    </div>
+
+    {{ if or .Params.Linkpost .Params.via .Params.Crosspost }}
+    <div class="affline">
+      {{ with .Params.Linkpost }}<a class="aff" href="{{ . }}"><span class="afk">Link</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
+      {{ with .Params.via }}<a class="aff" href="{{ . }}"><span class="afk">Via</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ (urls.Parse .).Host }}</span></a>{{ end }}
+      {{ with .Params.Crosspost }}<a class="aff" href="{{ .URL }}"><span class="afk">Crossposted</span><i class="bi bi-arrow-up-right"></i><span class="afh">{{ .Source }}</span></a>{{ end }}
+    </div>
+    {{ end }}
+
+    {{ partial "post-microformats.html" . }}
+  </div>
+
+</article>

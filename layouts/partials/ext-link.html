@@ -1,0 +1,11 @@
+{{- /* An outbound link in the post rail with the arrow tied to its last word, so
+       the arrow never sits alone on a line. A host name may break after any dot
+       but its last segment; a label with spaces may break between words. Call with
+       a dict:
+         url    the link target
+         label  the text to show; omit to show the url's host */ -}}
+{{- $label := .label | default (urls.Parse .url).Host -}}
+{{- $parts := split $label "." -}}
+{{- $last := index $parts (sub (len $parts) 1) -}}
+{{- $head := strings.TrimSuffix $last $label -}}
+<a class="ext" href="{{ .url }}">{{ with $head }}{{ replace . "." ".<wbr>" | safeHTML }}{{ end }}<span class="nb">{{ $last }}&nbsp;<i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></a>

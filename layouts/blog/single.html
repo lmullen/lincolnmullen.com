@@ -4,7 +4,7 @@
     <article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="h-entry post">
 
       {{ if .Title }}
-      <h1 class="stmt"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a></h1>
+      <h1 class="page-title"><a class="p-name u-url u-uid permalink" href="{{ .Permalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a></h1>
       {{ else }}
       <h1 class="visually-hidden">Post from {{ .Date.Format site.Params.dateForms.long }}</h1>
       {{ end }}
@@ -23,9 +23,9 @@
     {{ $related = where $related "Permalink" "ne" $.Permalink | first 5 }}
     {{ with $related }}
     <div class="rel">
-      <div class="shead"><span class="lbl">Related posts</span></div>
+      <h2 class="rel-lbl">Related posts</h2>
       {{ range . }}
-      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact) }}
+      {{ partial "index-row.html" . }}
       {{ end }}
     </div>
     {{ end }}

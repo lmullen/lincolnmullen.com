@@ -1,5 +1,10 @@
 # Cloudflare Pages redirects
 
+# The blog moved to the home page; its old index and pagination URLs point at
+# the new homes of that content.
+/blog/ / 301
+/blog/page/* /archive/ 301
+
 # Feed redirects
 /atom.xml /blog/index.xml 301
 /blog/category/history/feed/ /blog/index.xml 301

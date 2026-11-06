@@ -1149,6 +1149,15 @@ a.pill:hover {
 .idx-flat .idx-row {
   grid-template-columns: 5.5rem 1fr;
 }
+.idx-flat .idx-row {
+  padding: 0.7rem 0;
+}
+.idx-desc {
+  font: 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
+  color: var(--sec);
+  max-width: var(--measure);
+  margin: 0.2rem 0 0;
+}
 .idx-year {
   font: 600 var(--h3)/1 "Source Serif 4", serif;
   color: var(--ink);

@@ -1,13 +1,19 @@
 {{- /* One date + title row for compact post indexes (related posts, blog
-       archive). An untitled post is listed by its description, or failing that
-       the start of its text, set as a note. Call with a dict:
+       archive, featured posts). An untitled post is listed by its description,
+       or failing that the start of its text, set as a note. Call with a dict:
          page     the page to link
-         dateForm display format, usually one of site.Params.dateForms */ -}}
+         dateForm display format, usually one of site.Params.dateForms
+         desc     true to show the post's description beneath its title */ -}}
 {{- $p := .page -}}
 <div class="idx-row">
   <time class="idx-date" datetime="{{ $p.Date.Format site.Params.dateForms.machine }}">{{ $p.Date.Format .dateForm }}</time>
   {{- if $p.Title }}
-  <a class="idx-title" href="{{ $p.RelPermalink }}">{{ $p.RenderString (dict "display" "inline") $p.Title }}</a>
+  <div>
+    <a class="idx-title" href="{{ $p.RelPermalink }}">{{ $p.RenderString (dict "display" "inline") $p.Title }}</a>
+    {{- if and .desc $p.Description }}
+    <p class="idx-desc">{{ $p.RenderString (dict "display" "inline") $p.Description }}</p>
+    {{- end }}
+  </div>
   {{- else }}
   <a class="idx-title idx-note" href="{{ $p.RelPermalink }}">{{ with $p.Description }}{{ $p.RenderString (dict "display" "inline") . }}{{ else }}{{ $p.Summary | plainify | truncate 100 }}{{ end }}</a>
   {{- end }}

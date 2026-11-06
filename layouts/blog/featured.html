@@ -1,6 +1,6 @@
 {{/* Curated "Featured posts" — blog posts flagged `featured: true`, newest first,
-     as one flat index in the archive's style (full compact date + title) with no
-     year grouping. */}}
+     as one flat index in the archive's style (full compact date + title, with the
+     description beneath) and no year grouping. */}}
 {{ define "main" }}
 <div class="blog-layout">
   <div>
@@ -10,7 +10,7 @@
     {{ $featured := sort (where (where .Site.RegularPages "Section" "blog") ".Params.featured" true) "Date" "desc" }}
     <div class="idx-group idx-flat">
       {{ range $featured }}
-      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact) }}
+      {{ partial "index-row.html" (dict "page" . "dateForm" site.Params.dateForms.compact "desc" true) }}
       {{ end }}
     </div>
   </div>

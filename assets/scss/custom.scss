@@ -1310,7 +1310,6 @@ figcaption.figcap a:hover {
 :root {
   --measure: 44rem; /* the one reading measure for all long-form body text (~72 chars at the 19px base) */
   --wide: 58rem; /* breakout width for figures/tables/code */
-  --fig-mid: 46rem; /* smaller breakout for low-res scans */
 }
 
 /* ---- the reading wrapper: measure vs. breakout ---- */
@@ -1604,7 +1603,6 @@ figcaption.figcap a:hover {
   :root {
     --measure: 100%;
     --wide: 100%;
-    --fig-mid: 100%;
   }
   .reading--narrow .bio-img.float-end,
   .reading--narrow .bio-img {

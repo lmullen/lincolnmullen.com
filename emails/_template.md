@@ -17,4 +17,4 @@ posts:
 
 * * *
 
-*You're getting this because you subscribed to occasional emails of new posts from [lincolnmullen.com](https://lincolnmullen.com). Every post is also on the [blog](https://lincolnmullen.com/) and in the [RSS feed](https://lincolnmullen.com/blog/index.xml).*
+*You've received this because you subscribed to occasional emails gathering new posts from [lincolnmullen.com](https://lincolnmullen.com). Every post is also on the [blog](https://lincolnmullen.com/) and in the [RSS](https://lincolnmullen.com/blog/index.xml) and [JSON](https://lincolnmullen.com/blog/index.json) feeds.*

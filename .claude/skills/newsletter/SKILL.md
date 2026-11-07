@@ -40,14 +40,16 @@ Commands:
    - Ask with AskUserQuestion, showing the full subject line in the question. Offer your recommended subject first, marked "(Recommended)", plus one or two alternatives. The user can pick one or type their own with "Other". If they type their own, use it verbatim. If they give feedback rather than a subject, draft again and ask again.
    - Then show the preview text and ask whether to keep it or change it, the same way.
 
-4. **Intro.** Ask whether the user wants to write an intro paragraph. Use the user's wording verbatim. Don't make up personal news. If the user gives none, leave the intro out.
+4. **Intro (optional).** Most issues won't have an intro. Ask with AskUserQuestion, with **No intro** as the first option and **Write an intro** as the second. The user can also type the intro directly with "Other".
+   - If they want one, use their wording verbatim. Don't draft an intro for them unless they ask, and don't make up personal news.
+   - If they choose no intro, move on. Don't ask again or suggest one.
 
 5. **Write the issue.** Copy `emails/_template.md` to `emails/YYYY-MM-DD-working-on-it-<n>.md`, using today's date in America/New_York. Then fill it in:
    - `{{number}}`, `{{topic}}`, and `{{preview_text}}`.
    - `{{date}}`: the current time, ISO 8601 with offset (`TZ=America/New_York date -Iseconds`). The next issue starts after this date, so use the time of writing.
    - `{{posts}}`: one YAML list item per included post directory, `  - <dir>`.
    - `{{items}}`: the output of `items <dir> <dir> ...` for all the included posts. It does the ordering: titled posts first, each with an h2 heading, then untitled notes, each group in chronological order, with a horizontal rule (`* * *`) between every post. Don't reorder the posts or change the separators.
-   - `{{intro}}`: the user's intro paragraph, which goes right after the headnote. If there's none, delete the placeholder.
+   - `{{intro}}`: the user's intro paragraph, which goes right after the headnote. If there's no intro, delete the `{{intro}}` line and the blank line after it, so the headnote is followed directly by the separator.
    - Remove any line left with only a placeholder. Keep everything else in the template, including the headnote and footer, which the user maintains.
    - The issue's layout is: headnote, optional intro, separator, posts, separator, footer.
 

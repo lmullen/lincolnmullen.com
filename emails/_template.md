@@ -7,7 +7,7 @@ posts:
 {{posts}}
 ---
 
-*Working On It* is an occasional email from Lincoln Mullen, a historian of American religion, gathering recent posts from [lincolnmullen.com](https://lincolnmullen.com).
+*Working On It* is an occasional email from Lincoln Mullen, a historian of American religion, gathering recent posts from [his blog](https://lincolnmullen.com).
 
 {{intro}}
 
@@ -16,7 +16,5 @@ posts:
 {{items}}
 
 * * *
-
-{{currently}}
 
 *You're getting this because you subscribed to occasional emails of new posts from [lincolnmullen.com](https://lincolnmullen.com). Every post is also on the [blog](https://lincolnmullen.com/) and in the [RSS feed](https://lincolnmullen.com/blog/index.xml).*

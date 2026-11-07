@@ -40,7 +40,7 @@ Commands:
    - Ask with AskUserQuestion, showing the full subject line in the question. Offer your recommended subject first, marked "(Recommended)", plus one or two alternatives. The user can pick one or type their own with "Other". If they type their own, use it verbatim. If they give feedback rather than a subject, draft again and ask again.
    - Then show the preview text and ask whether to keep it or change it, the same way.
 
-4. **Intro.** Ask whether the user wants to write an intro paragraph or a "Currently" list, like the one that ended #18 (**Teaching:** …, **Reading:** …). Use the user's wording verbatim. Don't make up personal news or a "Currently" list. If the user gives none, leave those sections out.
+4. **Intro.** Ask whether the user wants to write an intro paragraph. Use the user's wording verbatim. Don't make up personal news. If the user gives none, leave the intro out.
 
 5. **Write the issue.** Copy `emails/_template.md` to `emails/YYYY-MM-DD-working-on-it-<n>.md`, using today's date in America/New_York. Then fill it in:
    - `{{number}}`, `{{topic}}`, and `{{preview_text}}`.
@@ -48,9 +48,8 @@ Commands:
    - `{{posts}}`: one YAML list item per included post directory, `  - <dir>`.
    - `{{items}}`: the output of `items <dir> <dir> ...` for all the included posts. It does the ordering: titled posts first, each with an h2 heading, then untitled notes, each group in chronological order, with a horizontal rule (`* * *`) between every post. Don't reorder the posts or change the separators.
    - `{{intro}}`: the user's intro paragraph, which goes right after the headnote. If there's none, delete the placeholder.
-   - `{{currently}}`: the user's "Currently" list followed by a `* * *` line, so it is separated from the footer. If there's none, delete the placeholder.
    - Remove any line left with only a placeholder. Keep everything else in the template, including the headnote and footer, which the user maintains.
-   - The issue's layout is: headnote, optional intro, separator, posts, separator, optional "Currently" list, footer.
+   - The issue's layout is: headnote, optional intro, separator, posts, separator, footer.
 
 6. **Render** with `render emails/<issue>.md`. Check the stderr warnings, and spot-check the HTML: links absolute, images present, nothing left in `{{< >}}` or `{{ }}`.
 

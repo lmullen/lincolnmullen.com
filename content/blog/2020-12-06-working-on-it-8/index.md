@@ -1,5 +1,5 @@
 ---
-title: "Working on It #8: Presbyterians—tabulated, visualized, and interpreted"
+title: "Working On It #8: Presbyterians—tabulated, visualized, and interpreted"
 date: "2020-12-06"
 slug: working-on-it-8
 feedid: /newsletter/8/

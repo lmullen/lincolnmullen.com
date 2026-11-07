@@ -1,5 +1,5 @@
 ---
-title: "Working on It #4: Pandemic Religion"
+title: "Working On It #4: Pandemic Religion"
 date: "2020-05-17"
 slug: working-on-it-4
 feedid: /newsletter/4/

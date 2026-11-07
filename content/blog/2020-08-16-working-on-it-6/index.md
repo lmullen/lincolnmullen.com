@@ -1,5 +1,5 @@
 ---
-title: "Working on It #6: Honesty in visualizations"
+title: "Working On It #6: Honesty in visualizations"
 date: "2020-08-16"
 slug: working-on-it-6
 feedid: /newsletter/6/
@@ -12,7 +12,7 @@ tags:
 - digital history
 ---
 
-Greetings. And welcome back to *Working on It*.
+Greetings. And welcome back to *Working On It*.
 
 <!--more-->
 

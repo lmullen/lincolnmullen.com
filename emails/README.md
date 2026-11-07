@@ -1,6 +1,6 @@
 # Emails
 
-Issues of *Working on It*, the occasional email of new posts, sent through Kit.
+Issues of *Working On It*, the occasional email of new posts, sent through Kit.
 
 Each issue is a Markdown file, `YYYY-MM-DD-working-on-it-<n>.md`, made by the `newsletter` skill (`.claude/skills/newsletter/SKILL.md`). Its front matter records which posts it included, so the next issue starts after them. `_template.md` holds the boilerplate.
 

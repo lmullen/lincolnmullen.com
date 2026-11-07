@@ -1,5 +1,5 @@
 ---
-title: "Working on It #{{number}}: {{topic}}"
+title: "Working On It #{{number}}: {{topic}}"
 number: {{number}}
 date: "{{date}}"
 preview_text: "{{preview_text}}"
@@ -7,7 +7,7 @@ posts:
 {{posts}}
 ---
 
-*Working on It* is an occasional email from Lincoln Mullen, a historian of American religion, gathering recent posts from [lincolnmullen.com](https://lincolnmullen.com).
+*Working On It* is an occasional email from Lincoln Mullen, a historian of American religion, gathering recent posts from [lincolnmullen.com](https://lincolnmullen.com).
 
 {{intro}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Working on It #16: Photo newsletter"
+title: "Working On It #16: Photo newsletter"
 date: "2023-08-06T21:13:11-04:00"
 slug: working-on-it-16
 feedid: /newsletter/16/

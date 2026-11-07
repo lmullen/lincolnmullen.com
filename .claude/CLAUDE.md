@@ -45,9 +45,9 @@ Content types have layout files in `./layouts/` and corresponding content in `./
 
 - `blog`: All blog posts, both titled long-form articles and untitled short-form notes. Every post is a page bundle (`content/blog/<dir>/index.md`). Templates use title presence to distinguish: titled posts appear in the archive and get headings; untitled posts do not.
 
-The site has no separate newsletter. Issues of the former newsletter, *Working on It*, are ordinary blog posts titled "Working on It #<n>: …" and tagged `newsletter`; their `feedid` keeps the old `/newsletter/<n>/` feed GUID. Email signup (Buttondown) offers new posts bundled into an occasional email.
+The site has no separate newsletter. Issues of the former newsletter, *Working On It*, are ordinary blog posts titled "Working On It #<n>: …" and tagged `newsletter`; their `feedid` keeps the old `/newsletter/<n>/` feed GUID. Email signup (Buttondown) offers new posts bundled into an occasional email.
 
-New issues of *Working on It* (#19 on) are emails, not blog posts. They live in `emails/`, which Hugo does not publish. To make one, follow the `newsletter` skill (`.claude/skills/newsletter/SKILL.md`). It asks which recent posts to include (each appears as it does on the website), writes the issue, and renders HTML for the user to paste into Kit.
+New issues of *Working On It* (#19 on) are emails, not blog posts. They live in `emails/`, which Hugo does not publish. To make one, follow the `newsletter` skill (`.claude/skills/newsletter/SKILL.md`). It asks which recent posts to include (each appears as it does on the website), writes the issue, and renders HTML for the user to paste into Kit.
 
 ### Front Matter Patterns
 

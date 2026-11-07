@@ -1,5 +1,5 @@
 ---
-title: "Working on It #3: Programming in D3 and the Pilgrims"
+title: "Working On It #3: Programming in D3 and the Pilgrims"
 date: "2020-04-05"
 slug: working-on-it-3
 feedid: /newsletter/3/
@@ -11,7 +11,7 @@ tags:
 - programming
 ---
 
-Greetings. And welcome back to *Working on It*.
+Greetings. And welcome back to *Working On It*.
 
 <!--more-->
 

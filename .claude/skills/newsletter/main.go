@@ -1,5 +1,5 @@
 // Command newsletter is the helper for the newsletter skill. It lists posts
-// published since the last issue of Working on It, converts a post to
+// published since the last issue of Working On It, converts a post to
 // email-ready Markdown, and renders an issue to HTML for pasting into Kit.
 //
 // Run it from anywhere in the repository:

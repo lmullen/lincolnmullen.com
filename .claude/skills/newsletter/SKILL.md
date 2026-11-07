@@ -1,11 +1,11 @@
 ---
 name: newsletter
-description: Put together the next issue of the Working on It email from posts published since the last issue, asking which posts to include, then write it to emails/ and render HTML to paste into Kit. Use when the user asks to make, draft, or prepare a newsletter or email issue.
+description: Put together the next issue of the Working On It email from posts published since the last issue, asking which posts to include, then write it to emails/ and render HTML to paste into Kit. Use when the user asks to make, draft, or prepare a newsletter or email issue.
 ---
 
 # Newsletter
 
-Make the next issue of *Working on It*, the occasional email of new blog posts. The user chooses the posts, the skill writes the issue to `emails/`, and the user pastes it into Kit and sends it there. Nothing is uploaded or sent automatically.
+Make the next issue of *Working On It*, the occasional email of new blog posts. The user chooses the posts, the skill writes the issue to `emails/`, and the user pastes it into Kit and sends it there. Nothing is uploaded or sent automatically.
 
 ## The helper program
 
@@ -34,7 +34,7 @@ Commands:
    - **Skip**: left out.
 
 3. **Subject and preview text.** Don't write the issue until the user has approved the subject.
-   - The subject is `Working on It #<n>: <topic>`. Base the topic on the most substantive post included in the issue: usually the longest titled essay, not a short note or a linkpost. Say which post you based it on.
+   - The subject is `Working On It #<n>: <topic>`. Base the topic on the most substantive post included in the issue: usually the longest titled essay, not a short note or a linkpost. Say which post you based it on.
    - Write the topic in sentence case, following the style guide in `CLAUDE.md`. Make it a short phrase in the spirit of past topics like "Behind, ahead", not just the post's title repeated.
    - Draft `preview_text`, one plain sentence of about 90–140 characters.
    - Ask with AskUserQuestion, showing the full subject line in the question. Offer your recommended subject first, marked "(Recommended)", plus one or two alternatives. The user can pick one or type their own with "Other". If they type their own, use it verbatim. If they give feedback rather than a subject, draft again and ask again.

@@ -1,5 +1,5 @@
 ---
-title: "Working on It #13: Newsletters all the way down"
+title: "Working On It #13: Newsletters all the way down"
 date: "2022-04-16"
 slug: working-on-it-13
 feedid: /newsletter/13/

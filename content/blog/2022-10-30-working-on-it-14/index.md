@@ -1,5 +1,5 @@
 ---
-title: "Working on It #14: _America's Public Bible_ to be published in December"
+title: "Working On It #14: _America's Public Bible_ to be published in December"
 date: "2022-10-30"
 slug: working-on-it-14
 feedid: /newsletter/14/

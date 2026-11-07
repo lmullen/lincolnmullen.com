@@ -1,5 +1,5 @@
 ---
-title: "Working on It #17: Antisemitism, U.S.A: A history podcast"
+title: "Working On It #17: Antisemitism, U.S.A: A history podcast"
 date: "2024-05-09T21:00:00-04:00"
 slug: working-on-it-17
 feedid: /newsletter/17/
@@ -10,7 +10,7 @@ tags:
 - RRCHNM
 ---
 
-Welcome back to the (very) occasional newsletter _Working on It_. It has been 277 days since the last issue.
+Welcome back to the (very) occasional newsletter _Working On It_. It has been 277 days since the last issue.
 
 <!--more-->
 

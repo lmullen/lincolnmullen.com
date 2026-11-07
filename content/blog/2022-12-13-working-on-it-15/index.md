@@ -1,5 +1,5 @@
 ---
-title: "Working on It #15: A commentary on how Americans have used the Bible"
+title: "Working On It #15: A commentary on how Americans have used the Bible"
 date: "2022-12-13"
 slug: working-on-it-15
 feedid: /newsletter/15/

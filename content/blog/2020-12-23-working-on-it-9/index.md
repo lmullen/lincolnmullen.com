@@ -1,5 +1,5 @@
 ---
-title: "Working on It #9: T.B. Blues"
+title: "Working On It #9: T.B. Blues"
 date: "2020-12-23"
 slug: working-on-it-9
 feedid: /newsletter/9/

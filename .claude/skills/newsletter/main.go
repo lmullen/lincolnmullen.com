@@ -11,6 +11,9 @@
 //
 //	last            Print the last issue's number and date (JSON).
 //	candidates      List posts published since the last issue (JSON).
+//	items <dir>...  Print the posts as one block for an issue: titled posts,
+//	                then untitled notes, each in date order, separated by
+//	                horizontal rules. Each post is shown as by item.
 //	item <dir>      Print a post as email-ready Markdown, as the website shows
 //	                it: the text before <!--more--> plus a link to the full
 //	                post if there is a break, otherwise the whole post.
@@ -337,6 +340,48 @@ func item(dir string) (string, error) {
 	return strings.TrimRight(b.String(), "\n") + "\n", nil
 }
 
+// separator goes between posts. It is written as "* * *" rather than "---",
+// which Markdown would read as a heading underline after a line of text.
+const separator = "\n* * *\n\n"
+
+// items converts the given posts and orders them for an issue: titled posts
+// first, then untitled notes, each group in chronological order, with a
+// separator between every post.
+func items(dirs []string) (string, error) {
+	type post struct {
+		dir    string
+		titled bool
+		date   time.Time
+	}
+	var posts []post
+	for _, dir := range dirs {
+		fm, _, err := loadPost(dir)
+		if err != nil {
+			return "", err
+		}
+		date, err := parseDate(fm.Date)
+		if err != nil {
+			return "", fmt.Errorf("%s: %w", dir, err)
+		}
+		posts = append(posts, post{dir, fm.Title != "", date})
+	}
+	sort.SliceStable(posts, func(i, j int) bool {
+		if posts[i].titled != posts[j].titled {
+			return posts[i].titled
+		}
+		return posts[i].date.Before(posts[j].date)
+	})
+	parts := make([]string, 0, len(posts))
+	for _, p := range posts {
+		s, err := item(p.dir)
+		if err != nil {
+			return "", err
+		}
+		parts = append(parts, s)
+	}
+	return strings.Join(parts, separator), nil
+}
+
 // Inline styles, since email clients ignore most external and <head> CSS.
 var styles = []struct{ tag, style string }{
 	{"h2", "font-size:20px;line-height:1.3;margin:32px 0 8px;"},
@@ -394,7 +439,7 @@ func printJSON(v any) error {
 }
 
 func run(args []string) error {
-	usage := errors.New("usage: newsletter last | candidates | item <dir> | render <issue.md>")
+	usage := errors.New("usage: newsletter last | candidates | items <dir>... | item <dir> | render <issue.md>")
 	if len(args) == 0 {
 		return usage
 	}
@@ -420,6 +465,13 @@ func run(args []string) error {
 		return printJSON(c)
 	case args[0] == "item" && len(args) == 2:
 		s, err := item(args[1])
+		if err != nil {
+			return err
+		}
+		_, err = os.Stdout.WriteString(s)
+		return err
+	case args[0] == "items" && len(args) >= 2:
+		s, err := items(args[1:])
 		if err != nil {
 			return err
 		}

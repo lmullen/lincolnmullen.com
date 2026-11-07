@@ -21,6 +21,7 @@ Commands:
 
 - `last`: the last issue's number and date. If `emails/` has no issues yet, this is #18, the last issue published as a blog post.
 - `candidates`: JSON list of published posts dated after the last issue, oldest first, with word counts and whether each has a `<!--more-->` break. Posts tagged `newsletter` are excluded.
+- `items <dir> <dir> ...`: all of an issue's posts as one block, ordered and separated for the issue (see step 5). Each post is converted as by `item`.
 - `item <dir>`: one post as email-ready Markdown, the way the website shows it. If the post has a `<!--more-->` break, this is the text before the break plus "Read the full post →". Otherwise it is the whole post. It also adds the heading (or a date line for untitled notes) and the permalink, and turns `image`/`figure`/`youtube`/`video` shortcodes into plain Markdown with absolute URLs to the original image files, which email clients can show. Warnings about unhandled shortcodes go to stderr. Fix those by hand.
 - `render <issue.md>`: writes `<issue>.html` next to the issue, with simple inline styles.
 
@@ -32,11 +33,12 @@ Commands:
    - **As on the website** (Recommended): included the way `item` produces it, cut at `<!--more-->` if there is one, in full if not.
    - **Skip**: left out.
 
-3. **Subject and preview text.**
-   - The subject is `Working on It #<n>: <topic>`. Base the topic on the most substantive post included in the issue: usually the longest titled essay, not a short note or a linkpost. If it isn't obvious which post that is, say which one you picked.
+3. **Subject and preview text.** Don't write the issue until the user has approved the subject.
+   - The subject is `Working on It #<n>: <topic>`. Base the topic on the most substantive post included in the issue: usually the longest titled essay, not a short note or a linkpost. Say which post you based it on.
    - Write the topic in sentence case, following the style guide in `CLAUDE.md`. Make it a short phrase in the spirit of past topics like "Behind, ahead", not just the post's title repeated.
    - Draft `preview_text`, one plain sentence of about 90–140 characters.
-   - Show the user both and let them change them.
+   - Ask with AskUserQuestion, showing the full subject line in the question. Offer your recommended subject first, marked "(Recommended)", plus one or two alternatives. The user can pick one or type their own with "Other". If they type their own, use it verbatim. If they give feedback rather than a subject, draft again and ask again.
+   - Then show the preview text and ask whether to keep it or change it, the same way.
 
 4. **Intro.** Ask whether the user wants to write an intro paragraph or a "Currently" list, like the one that ended #18 (**Teaching:** …, **Reading:** …). Use the user's wording verbatim. Don't make up personal news or a "Currently" list. If the user gives none, leave those sections out.
 
@@ -44,9 +46,11 @@ Commands:
    - `{{number}}`, `{{topic}}`, and `{{preview_text}}`.
    - `{{date}}`: the current time, ISO 8601 with offset (`TZ=America/New_York date -Iseconds`). The next issue starts after this date, so use the time of writing.
    - `{{posts}}`: one YAML list item per included post directory, `  - <dir>`.
-   - `{{items}}`: the output of `item` for each included post, oldest first, separated by blank lines.
-   - `{{intro}}` and `{{currently}}`: the user's text, or delete the placeholder.
-   - Remove any line left with only a placeholder. Keep everything else in the template, which the user maintains.
+   - `{{items}}`: the output of `items <dir> <dir> ...` for all the included posts. It does the ordering: titled posts first, each with an h2 heading, then untitled notes, each group in chronological order, with a horizontal rule (`* * *`) between every post. Don't reorder the posts or change the separators.
+   - `{{intro}}`: the user's intro paragraph, which goes right after the headnote. If there's none, delete the placeholder.
+   - `{{currently}}`: the user's "Currently" list followed by a `* * *` line, so it is separated from the footer. If there's none, delete the placeholder.
+   - Remove any line left with only a placeholder. Keep everything else in the template, including the headnote and footer, which the user maintains.
+   - The issue's layout is: headnote, optional intro, separator, posts, separator, optional "Currently" list, footer.
 
 6. **Render** with `render emails/<issue>.md`. Check the stderr warnings, and spot-check the HTML: links absolute, images present, nothing left in `{{< >}}` or `{{ }}`.
 

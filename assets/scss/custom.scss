@@ -13,6 +13,7 @@ $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-stack: 640px; /* header, hero links, subscribe bar and home stream go single-column */
 $bp-hero-links: 1000px; /* homepage link columns: four → two */
+$bp-bar-wrap: 860px; /* home subscribe bar: one line above, two rows below */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -655,9 +656,9 @@ sup.footnote-ref {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 0.6rem 2rem;
-  min-height: 4rem;
-  padding: 0.85rem 1.75rem;
+  gap: 0.5rem 1.5rem;
+  min-height: 3.5rem;
+  padding: 0.7rem 1.5rem;
   background: var(--cobalt);
   border-radius: var(--radius);
   color: #fff;
@@ -667,22 +668,24 @@ sup.footnote-ref {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem 1.25rem;
+  gap: 0.5rem 0.85rem;
 }
 .sb-eyebrow {
   @include mono-label(var(--label-sm), 0.2em);
   color: var(--accent-soft);
 }
-/* At the stream's width the two groups wrap onto two rows; a common width for
-   the labels lines up the rows' links */
-.home-stream .sb-eyebrow {
-  min-width: 6.5rem;
+/* Below the width where the bar fits on one line, its two groups wrap onto
+   two rows; a common width for the labels lines up the rows' links */
+@media (min-width: $bp-stack) and (max-width: $bp-bar-wrap) {
+  .home-stream .sb-eyebrow {
+    min-width: 6.5rem;
+  }
 }
 .sb-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.4rem 0.9rem;
+  gap: 0.4rem 1.1rem; /* no separators: the gap alone sets the links apart */
 }
 .sb-links a {
   display: inline-flex;
@@ -701,9 +704,6 @@ sup.footnote-ref {
 }
 .sb-links a:hover .bi-arrow-right {
   transform: translateX(0.2em);
-}
-.sb .dot {
-  color: rgba(255, 255, 255, 0.45);
 }
 
 /* The bar's vertical form, for the blog sidebar */
@@ -766,7 +766,7 @@ sup.footnote-ref {
    a section header would put its link. */
 .stream-head {
   flex-wrap: wrap;
-  margin: 2.5rem 0 1.25rem;
+  margin: 2.5rem 0 1rem;
 }
 .stream-head .lbl {
   font-size: var(--label-xl); /* the largest step: the label names the blog */
@@ -776,7 +776,7 @@ sup.footnote-ref {
   color: var(--sec);
 }
 .home-stream .sb + .list-post {
-  padding-top: 1.25rem; /* the bar already separates the first post from the name */
+  padding-top: 1rem; /* the bar already separates the first post from the name */
 }
 
 /* The same bar again after the last post */
@@ -894,9 +894,6 @@ sup.footnote-ref {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
-  }
-  .sb .dot {
-    display: none;
   }
   /* The date moves from the gutter to above the post */
   .home-stream .list-post {

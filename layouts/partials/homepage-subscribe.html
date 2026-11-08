@@ -8,8 +8,7 @@
 	<div class="sb-grp">
 		<span class="sb-eyebrow">Subscribe</span>
 		<div class="sb-links">
-			{{ partial "feed-links.html" (dict "sep" `<span class="dot">·</span>`) }}
-			<span class="dot">·</span>
+			{{ partial "feed-links.html" (dict "sep" "") }}
 			<a href="{{ site.Params.emailSignupUrl }}"><i class="bi bi-envelope-fill"></i> Email</a>
 		</div>
 	</div>
@@ -17,7 +16,6 @@
 		<span class="sb-eyebrow">More posts</span>
 		<div class="sb-links">
 			<a href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
-			<span class="dot">·</span>
 			<a href="/archive/">All posts <i class="bi bi-arrow-right"></i></a>
 		</div>
 	</div>

@@ -28,6 +28,9 @@
     sends (only media queries stay in a style block). An inlined
     !important beats everything, including the dark-mode rules, so light-
     mode colors never use !important; dark-mode colors always do.
+  - No font shorthand (font: ...): Gmail drops it, which left the footer
+    at the body's size. Every rule sets font-family, font-size, and so
+    on separately.
   - Links aren't underlined. Gmail ignores the underline color and offset
     that make the website's hairline underline, so it would show a plain
     one. "Read the post" has the website's orange rule, drawn as a border.
@@ -37,6 +40,11 @@
     emails themselves (Outlook on the web, Gmail's apps) need a light
     background to darken; without one, Outlook lightened the text but left
     its light pane behind it.
+  - Outlook on the web applies the dark-mode rules whenever the browser is
+    in dark mode, even when Outlook's own theme is light, so a transparent
+    background there shows its white reading pane behind light text. It
+    renames classes with an x_ prefix, so [class~="x_woi"] matches only in
+    Outlook on the web, and dark mode gives it the site's dark background.
 
   Colors are the site's tokens (assets/scss/custom.scss):
     ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
@@ -76,7 +84,10 @@
   }
   .woi-name,
   .woi-name a {
-    font: 600 15px/1 "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #16203a;
@@ -94,7 +105,11 @@
   }
   .woi-note p,
   .message-content .woi-footer p {
-    font: italic 400 15px/1.5 "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
     color: #5a5e66;
     margin: 0 0 8px;
   }
@@ -277,6 +292,7 @@
      tokens. Every rule is !important to beat the inlined light colors. ---- */
   @media (prefers-color-scheme: dark) {
     .woi { background-color: transparent !important; }
+    [class~="x_woi"] { background-color: #15171c !important; }
     .woi-name { border-bottom-color: #f2f4f8 !important; }
     .woi-name,
     .woi-name a { color: #f2f4f8 !important; }

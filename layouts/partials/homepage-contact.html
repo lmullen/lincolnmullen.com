@@ -2,7 +2,8 @@
      statement. Each row is an eyebrow label in a narrow left column and the
      links flowing inline to its right, wrapping as needed, so the hero gives way
      to the blog within a few lines. About has two lines of dot-separated text
-     links, as in the footer: the personal links, then the two affiliations. On
+     links (.dotlinks, shared with the footer): the personal links, then the two
+     affiliations. On
      phones the label sits above its links. The netlinks service logos are real
      brand marks (inline SVGs); iconStyle=brand colors each via --bc,
      iconStyle=monochrome forces them all to --mut through the .mono class. */}}
@@ -10,13 +11,13 @@
 <div class="hero-links">
 	<span class="ey">About</span>
 	<div class="hl-lines">
-		<p class="hl-line">
-			<a href="/bio/">Biography</a> ·
-			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">Curriculum vitae</a> ·
-			<a href="mailto:lincoln@lincolnmullen.com">lincoln@lincolnmullen.com</a>
+		<p class="dotlinks">
+			<a href="/bio/">Biography</a><span class="sep">·</span>
+			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">Curriculum vitae</a><span class="sep">·</span>
+			<a class="tt" href="mailto:lincoln@lincolnmullen.com">lincoln@lincolnmullen.com</a>
 		</p>
-		<p class="hl-line">
-			<a href="https://rrchnm.org/">Director, RRCHNM</a> ·
+		<p class="dotlinks">
+			<a href="https://rrchnm.org/">Director, RRCHNM</a><span class="sep">·</span>
 			<a href="https://historyarthistory.gmu.edu/people/lmullen">Professor of history, GMU</a>
 		</p>
 	</div>

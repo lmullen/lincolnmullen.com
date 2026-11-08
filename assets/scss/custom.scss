@@ -605,24 +605,42 @@ sup.footnote-ref {
   align-items: baseline;
   gap: 0.4rem 1.6rem;
 }
-/* About: two lines of text links separated by middle dots, as in the footer
-   (the personal links, then the affiliations), spaced like wrapped lines */
+/* About: two .dotlinks lines (the personal links, then the affiliations),
+   spaced like wrapped lines within a row */
 .hl-lines {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-}
-.hl-line {
-  margin: 0;
   @include serif-ui-link;
-  color: var(--sec); /* the separators */
 }
-.hl-line a {
+.hl-lines p {
+  margin: 0;
+}
+.hl-lines a {
   color: var(--navy);
   text-decoration: none;
 }
-.hl-line a:hover {
+.hl-lines a:hover {
   color: var(--orange-text);
+}
+/* Dot-separated link lists (§4.9): the hero's About lines and the footer's
+   rows. A wrapping flex row whose items are the links and the middle dots
+   between them (<span class="sep">·</span>), so whitespace in the template does
+   not count and the dot sits in equal gaps; with the dot's own width the links
+   end up as far apart as the icon links in .netlinks. */
+.dotlinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.65rem;
+}
+.dotlinks .sep {
+  color: var(--sec);
+}
+/* An address or other code-like item set in the mono voice */
+.dotlinks .tt {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9em;
 }
 /* Elsewhere links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
@@ -833,11 +851,17 @@ sup.footnote-ref {
   .hero-links {
     gap: 0.9rem 1.5rem;
   }
-  .netlinks,
-  .hl-lines {
+  .netlinks {
     gap: 0.5rem 1.4rem;
   }
-  .hl-line,
+  /* Smaller row gap: the links' padding already separates wrapped lines */
+  .dotlinks {
+    gap: 0.25rem 0.55rem;
+  }
+  .hl-lines {
+    gap: 0.5rem;
+  }
+  .dotlinks a,
   .netlinks a {
     padding: 0.2rem 0;
   }

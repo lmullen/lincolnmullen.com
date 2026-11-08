@@ -42,7 +42,7 @@ Second, it is more like drawing visualizations than describing them. In some of 
 
 Getting reacquainted with D3 has also meant learning modern JavaScript. I'm no developer, as the real developers I work with might be the first to point out. That means that I am mostly free to skip the chaos that is the modern front-end web and use only the good parts. The good parts have gotten a lot better, especially usable classes and modules in JavaScript. And I'll admit it, I'm weak: I like functions with default parameters.
 
-One of the other nice features of the modern web is the rise of interactive notebooks. [Observable](https://observablehq.com), another creation from the author of D3, is great for sketching out ideas. You can see the environmental historian [Jason Heppler's notebooks](https://observablehq.com/@hepplerj) for some cool examples. I like [owning my own turf](https://buttondown.email/lmullen/archive/d2fd77a0-16aa-4597-a3ba-1364aa020022) too much to put finished work there, I think, but Observable is great for prototyping. 
+One of the other nice features of the modern web is the rise of interactive notebooks. [Observable](https://observablehq.com), another creation from the author of D3, is great for sketching out ideas. You can see the environmental historian [Jason Heppler's notebooks](https://observablehq.com/@hepplerj) for some cool examples. I like [owning my own turf](/blog/working-on-it-1/) too much to put finished work there, I think, but Observable is great for prototyping. 
 
 I feel close to having something to show for this, both for collaborative projects at RRCHNM, and for some things I am working on on my own. Hopefully I'll have something to share in the coming weeks.
 

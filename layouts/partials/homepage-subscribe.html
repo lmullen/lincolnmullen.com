@@ -1,5 +1,5 @@
 {{/* Subscribe bar — the single filled-color block. Left: the feeds and the
-     Buttondown email signup page. Right: the two pages that hold everything the
+     email signup, which opens the Kit signup modal (subscribe-modal.html). Right: the two pages that hold everything the
      home page's stream does not. Rendered twice on the home page, inside the
      stream (so at its width): under the blog's name and again after the last
      post, so the two always match.
@@ -9,7 +9,7 @@
 		<span class="sb-eyebrow">Subscribe</span>
 		<div class="sb-links">
 			{{ partial "feed-links.html" (dict "sep" "") }}
-			<a href="{{ site.Params.emailSignupUrl }}"><i class="bi bi-envelope-fill"></i> Email</a>
+			<a href="#subscribe" data-bs-toggle="modal" data-bs-target="#subscribeModal"><i class="bi bi-envelope-fill"></i> Email</a>
 		</div>
 	</div>
 	<div class="sb-grp">

@@ -237,18 +237,131 @@ var (
 	tagRE       = regexp.MustCompile(`<[^>]+>`)
 )
 
+var schemeRE = regexp.MustCompile(`^[a-zA-Z][a-zA-Z0-9+.-]*:`)
+
+// absURL makes a URL from a post absolute. Site-relative URLs ("/blog/...")
+// resolve against the site, and page-relative ones ("file.pdf") against the
+// post's permalink, base. URLs with a scheme and fragments are unchanged.
+func absURL(u, base string) string {
+	switch {
+	case u == "", strings.HasPrefix(u, "#"), schemeRE.MatchString(u):
+		return u
+	case strings.HasPrefix(u, "//"):
+		return "https:" + u
+	case strings.HasPrefix(u, "/"):
+		return site + u
+	}
+	return base + strings.TrimPrefix(u, "./")
+}
+
+var (
+	fenceRE      = regexp.MustCompile("(?m)^[ \t]*(```|~~~)")
+	inlineCodeRE = regexp.MustCompile("``[^`]*``|`[^`\n]*`")
+)
+
+// outsideCode applies f to the parts of a Markdown text that are not fenced
+// code blocks or inline code spans, so rewriting links and footnotes cannot
+// change code samples.
+func outsideCode(text string, f func(string) string) string {
+	var b strings.Builder
+	inFence := false
+	for _, line := range strings.SplitAfter(text, "\n") {
+		if fenceRE.MatchString(line) {
+			inFence = !inFence
+			b.WriteString(line)
+			continue
+		}
+		if inFence {
+			b.WriteString(line)
+			continue
+		}
+		last := 0
+		for _, loc := range inlineCodeRE.FindAllStringIndex(line, -1) {
+			b.WriteString(f(line[last:loc[0]]))
+			b.WriteString(line[loc[0]:loc[1]])
+			last = loc[1]
+		}
+		b.WriteString(f(line[last:]))
+	}
+	return b.String()
+}
+
+var (
+	mdLinkRE   = regexp.MustCompile(`(\]\(\s*<?)([^)\s>]+)`)
+	htmlLinkRE = regexp.MustCompile(`((?:href|src)\s*=\s*")([^"]*)(")`)
+	refDefRE   = regexp.MustCompile(`^(\s{0,3}\[[^\]^][^\]]*\]:\s*<?)([^\s>]+)`)
+)
+
+// absoluteLinks makes the URLs of Markdown links and images, reference
+// definitions, and HTML href and src attributes absolute, since links
+// relative to the website are broken in an email.
+func absoluteLinks(text, base string) string {
+	return outsideCode(text, func(s string) string {
+		repl := func(re *regexp.Regexp) {
+			s = re.ReplaceAllStringFunc(s, func(m string) string {
+				g := re.FindStringSubmatch(m)
+				return g[1] + absURL(g[2], base) + strings.Join(g[3:], "")
+			})
+		}
+		repl(mdLinkRE)
+		repl(htmlLinkRE)
+		repl(refDefRE)
+		return s
+	})
+}
+
+var (
+	footnoteDefRE = regexp.MustCompile(`^\[\^([^\]]+)\]:[ \t]*(.*?)\n?$`)
+	footnoteRefRE = regexp.MustCompile(`\[\^([^\]]+)\]`)
+)
+
+// footnotes renders a post's Markdown footnotes without relying on the
+// renderer: each referenced footnote becomes a superscript number, numbered
+// within the post so that posts in one issue cannot collide, and its note is
+// listed at the end of the post. A reference whose definition is not in the
+// text, as when the post is cut at <!--more--> above its notes, is dropped.
+func footnotes(text string) string {
+	// Definitions are whole lines, so find them line by line, skipping
+	// fenced code blocks. (The site's footnotes are all one line long.)
+	defs := map[string]string{}
+	var kept strings.Builder
+	inFence := false
+	for _, line := range strings.SplitAfter(text, "\n") {
+		if fenceRE.MatchString(line) {
+			inFence = !inFence
+		} else if m := footnoteDefRE.FindStringSubmatch(line); !inFence && m != nil {
+			defs[m[1]] = m[2]
+			continue
+		}
+		kept.WriteString(line)
+	}
+	text = kept.String()
+	var order []string
+	num := map[string]int{}
+	text = outsideCode(text, func(s string) string {
+		return footnoteRefRE.ReplaceAllStringFunc(s, func(ref string) string {
+			id := footnoteRefRE.FindStringSubmatch(ref)[1]
+			if _, ok := defs[id]; !ok {
+				return ""
+			}
+			if num[id] == 0 {
+				order = append(order, id)
+				num[id] = len(order)
+			}
+			return fmt.Sprintf("<sup>%d</sup>", num[id])
+		})
+	})
+	text = strings.TrimSpace(text)
+	for _, id := range order {
+		text += fmt.Sprintf("\n\n<sup>%d</sup> %s", num[id], defs[id])
+	}
+	return text
+}
+
 // expandShortcodes turns the site's shortcodes into plain Markdown, with
 // absolute URLs to the original files so email clients can show images.
 func expandShortcodes(body, base string, warn func(string)) string {
-	abs := func(src string) string {
-		switch {
-		case strings.HasPrefix(src, "http://"), strings.HasPrefix(src, "https://"):
-			return src
-		case strings.HasPrefix(src, "/"):
-			return site + src
-		}
-		return base + src
-	}
+	abs := func(src string) string { return absURL(src, base) }
 	return shortcodeRE.ReplaceAllStringFunc(body, func(sc string) string {
 		m := shortcodeRE.FindStringSubmatch(sc)
 		name, args := m[1], m[2]
@@ -314,6 +427,7 @@ func item(dir string) (string, error) {
 	text = expandShortcodes(text, permalink, func(w string) {
 		fmt.Fprintf(os.Stderr, "WARNING (%s): %s\n", dir, w)
 	})
+	text = absoluteLinks(footnotes(text), permalink)
 
 	var b strings.Builder
 	if fm.Title != "" {

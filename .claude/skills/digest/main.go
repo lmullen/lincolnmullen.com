@@ -431,31 +431,37 @@ func item(dir string) (string, error) {
 	})
 	text = absoluteLinks(footnotes(text), permalink)
 
+	// The lines the helper adds are marked with <u> so the Kit template
+	// (digests/kit-template.html) can style them: Kit's editor drops classes
+	// when the issue is pasted in, but keeps <u>, <strong>, and <em>, and
+	// posts never use <u>. <u> alone marks a date, <u> with bold the "Read
+	// the post" action, and <u> with italics the Link / Via line. The
+	// template turns the underline off.
+	//
 	// The date is written as the blog writes it (its "long" date form) and
-	// links to the post. It goes below a titled post's heading; an untitled
-	// note has no heading, so its date is bold and stands in for one.
+	// links to the post. It goes below a titled post's heading and atop an
+	// untitled note, styled the same in both.
 	var b strings.Builder
-	dateLink := fmt.Sprintf("[%s](%s)", date.Format(longDate), permalink)
+	dateLink := fmt.Sprintf("<u>[%s](%s)</u>", date.Format(longDate), permalink)
 	if fm.Title != "" {
-		fmt.Fprintf(&b, "## [%s](%s)\n\n%s\n\n", fm.Title, permalink, dateLink)
-	} else {
-		fmt.Fprintf(&b, "**%s**\n\n", dateLink)
+		fmt.Fprintf(&b, "## [%s](%s)\n\n", fm.Title, permalink)
 	}
+	b.WriteString(dateLink + "\n\n")
 	b.WriteString(text + "\n\n")
 	if truncated {
-		fmt.Fprintf(&b, "[Read the full post →](%s)\n\n", permalink)
+		fmt.Fprintf(&b, "<u>**[Read the post →](%s)**</u>\n\n", permalink)
 	}
 	// As on the blog, the post's outside links go in one line after the
 	// post, each as a labeled link rather than a bare URL.
 	var links []string
 	if fm.Linkpost != "" {
-		links = append(links, fmt.Sprintf("[Link →](%s)", fm.Linkpost))
+		links = append(links, fmt.Sprintf("<u>*[Link →](%s)*</u>", fm.Linkpost))
 	}
 	if fm.Via != "" {
-		links = append(links, fmt.Sprintf("[Via →](%s)", fm.Via))
+		links = append(links, fmt.Sprintf("<u>*[Via →](%s)*</u>", fm.Via))
 	}
 	if cp := fm.Crosspost; cp != nil && cp.URL != "" {
-		links = append(links, fmt.Sprintf("[Crossposted →](%s)", cp.URL))
+		links = append(links, fmt.Sprintf("<u>*[Crossposted →](%s)*</u>", cp.URL))
 	}
 	if len(links) > 0 {
 		b.WriteString(strings.Join(links, " · ") + "\n")

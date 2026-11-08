@@ -3,8 +3,7 @@
   from lincolnmullen.com. It follows the website's design: Source Serif 4
   (falling back to Georgia where an email client won't load web fonts),
   ink headings, navy links, small uppercase mono dates, an orange quote
-  rule, and the blog's name and tagline as they head the home page's
-  stream of posts.
+  rule, and the blog's name as it heads the home page's stream of posts.
 
   To install: in Kit, go to Email Templates → New Email Template → Create
   HTML Template, paste this whole file into the code editor, name it
@@ -18,9 +17,28 @@
   templates, this is a fragment: Kit supplies the <html>, <head>, and
   <body>.
 
+  How Kit treats this file, which shapes the rules below:
+
+  - Kit copies these rules into each element's style attribute when it
+    sends (only media queries stay in a style block). An inlined
+    !important beats everything, including the dark-mode rules, so light-
+    mode colors never use !important; dark-mode colors always do.
+  - The email's text is pasted into Kit's editor, which drops classes. So
+    the digest helper marks its special lines with <u>, which posts never
+    use: <u> alone is a date, <u> with bold is "Read the post →", and <u>
+    with italics is the Link / Via / Crossposted line. The rules below
+    turn the underline off and style each. Kit may put the link inside or
+    outside the marks, so the rules cover both.
+  - Kit writes a quote as div.blockquotes (with its own inline gray left
+    border, which the rules here override) around div.blockquotes-line.
+  - Links aren't underlined. Gmail ignores the underline color and offset
+    that make the website's hairline underline, so it would show a plain
+    one. "Read the post →" keeps the site's orange rule, drawn as a border.
+
   Colors are the site's tokens (assets/scss/custom.scss):
     ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
-    orange #e07a2e, rule #d4d6dc.
+    orange #e07a2e, rule #d4d6dc. Dark: ink #f2f4f8, body #c2c7d0,
+    sec #9aa0ab, mut #828a96, navy #84aaf2, orange #ee8b46, rule #2a2e37.
 -->
 <style>
   /* Apple Mail and iOS Mail load this; other clients ignore it and use Georgia. */
@@ -31,41 +49,74 @@
     supported-color-schemes: light dark;
   }
 
+  /* No background color: the email takes the mail app's own background,
+     so in dark mode it doesn't sit as a black block on the app's gray. */
   .woi {
     max-width: 600px;
     margin: 0 auto;
     padding: 24px 16px 32px;
-    background-color: #ffffff;
   }
 
-  /* ---- the blog's name and tagline, as they head the home page's stream:
-     the name as a section label (mono, uppercase, tracked, ink) and the
-     tagline in italics in the secondary voice, both on the 1px ink rule
-     (.shead.stream-head in assets/scss/custom.scss). An email is too
-     narrow for both on one line, so the tagline sits below the name, as on
-     the home page when the two wrap. A table rather than flexbox, which
-     email clients don't support reliably. ---- */
+  /* ---- the blog's name, as it heads the home page's stream: a section
+     label (mono, uppercase, tracked, ink) on the 1px ink rule ---- */
   .woi-head {
     width: 100%;
     border-collapse: collapse;
-    margin: 8px 0 28px;
+    margin: 8px 0 20px;
+  }
+  .woi-name {
+    padding: 0 0 8px;
+    border-bottom: 1px solid #16203a;
   }
   .woi-name,
   .woi-name a {
     font: 600 15px/1 "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #16203a !important;
+    color: #16203a;
     text-decoration: none !important;
   }
-  .woi-name {
-    padding: 0 0 8px;
+
+  /* ---- the headnote and footer: the same in every issue. Secondary prose,
+     smaller than the posts and in italics. ---- */
+  .woi-note {
+    margin: 0 0 28px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d4d6dc;
   }
-  .woi-desc {
-    font: italic 400 16px/1.3 "Source Serif 4", Georgia, "Times New Roman", serif;
+  .woi-note p,
+  .woi-footer p {
+    font: italic 400 15px/1.5 "Source Serif 4", Georgia, "Times New Roman", serif;
     color: #5a5e66;
-    padding: 0 0 8px;
-    border-bottom: 1px solid #16203a;
+    margin: 0 0 8px;
+  }
+  .woi-note p {
+    margin: 0;
+  }
+  .woi-footer a {
+    color: #1b54c0;
+    text-decoration: none !important;
+  }
+  .woi-footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #d4d6dc;
+  }
+  /* The unsubscribe line and the address: smaller still, roman, gray. */
+  .woi-footer p.woi-admin,
+  .woi-footer p.woi-address {
+    font-style: normal;
+    font-size: 13px;
+    margin: 0 0 4px;
+  }
+  .woi-footer p.woi-admin {
+    margin-top: 16px;
+  }
+  .woi-footer p.woi-admin a {
+    color: #5a5e66;
+  }
+  .woi-footer p.woi-address {
+    color: #878d99;
   }
 
   /* ---- body text ---- */
@@ -91,9 +142,7 @@
   }
   .message-content a {
     color: #1b54c0;
-    text-decoration: underline;
-    text-decoration-color: #d4d6dc;
-    text-underline-offset: 2px;
+    text-decoration: none !important;
   }
   .message-content strong {
     font-weight: 600;
@@ -109,56 +158,93 @@
     letter-spacing: -0.01em;
     color: #16203a;
   }
-  .message-content h1 {
-    font-size: 28px;
-    margin: 8px 0 12px;
-  }
-  .message-content h2 {
-    font-size: 24px;
-    margin: 8px 0 6px;
-  }
-  .message-content h3 {
-    font-size: 20px;
-    margin: 24px 0 8px;
-  }
+  .message-content h1 { font-size: 28px; margin: 8px 0 12px; }
+  .message-content h2 { font-size: 24px; margin: 8px 0 6px; }
+  .message-content h3 { font-size: 20px; margin: 24px 0 8px; }
   .message-content h1 a,
   .message-content h2 a,
   .message-content h3 a {
-    color: #16203a !important;
+    color: #16203a;
+  }
+
+  /* ---- the helper's marked lines (see the note at the top) ---- */
+  .message-content u {
     text-decoration: none !important;
   }
 
-  /* ---- dates: the line below a post's title, and a note's bold date ----
-     Small uppercase mono in the muted gray, as in the blog's post lists. */
-  .message-content h2 + p,
-  .message-content h2 + p a,
-  .message-content h2 + div p,
-  .message-content h2 + div p a,
-  .message-content p > strong:only-child > a {
+  /* Dates (<u> alone), below a post's title and atop a note: small
+     uppercase mono in the muted gray, as in the blog's post lists. */
+  .message-content u,
+  .message-content u a,
+  .message-content a u {
     font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace !important;
     font-size: 13px !important;
     font-weight: 600 !important;
+    font-style: normal !important;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #878d99 !important;
-    text-decoration: none !important;
-  }
-  .message-content h2 + p,
-  .message-content h2 + div p {
-    margin-bottom: 14px;
+    color: #878d99;
   }
 
-  /* ---- quotes: one orange rule ---- */
+  /* "Read the post →" (<u> with bold): the website's read-more action,
+     semibold navy serif on a 2px orange rule. */
+  .message-content u strong,
+  .message-content strong u,
+  .message-content u strong a,
+  .message-content strong u a,
+  .message-content a u strong,
+  .message-content a strong u {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #1b54c0;
+  }
+  .message-content u strong,
+  .message-content strong u {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #e07a2e;
+  }
+
+  /* Link / Via / Crossposted (<u> with italics): small uppercase mono in
+     navy, as the website sets these links, with no underline. */
+  .message-content u em,
+  .message-content em u,
+  .message-content u em a,
+  .message-content em u a,
+  .message-content a u em,
+  .message-content a em u {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1b54c0;
+  }
+
+  /* ---- quotes: one orange rule. Kit's quote is div.blockquotes with its
+     own inline border; !important beats it (and so the rule stays the same
+     orange in dark mode, where it reads fine). ---- */
   .message-content blockquote,
   .message-content .blockquotes {
-    margin: 24px 0;
-    padding: 0 0 0 20px;
-    border-left: 2px solid #e07a2e;
+    margin: 24px 0 !important;
+    padding: 0 0 0 20px !important;
+    border-left: 2px solid #e07a2e !important;
+    background: none !important;
+  }
+  .message-content blockquote,
+  .message-content .blockquotes,
+  .message-content .blockquotes-line {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 18px;
     font-style: normal;
+    line-height: 1.55;
     color: #1a1a1a;
   }
   .message-content .blockquotes-line {
-    background-color: #e07a2e;
+    padding: 0 0 8px;
   }
   .message-content blockquote p:last-child {
     margin-bottom: 0;
@@ -190,103 +276,62 @@
     line-height: 0;
   }
 
-  /* ---- the headnote and footer: the same in every issue, so they live
-     here rather than in each issue. Secondary prose (the site's
-     --prose-sm voice), smaller than the posts and in italics, with the
-     blog's name set roman as a title. ---- */
-  .woi-note {
-    margin: 0 0 28px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #d4d6dc;
-  }
-  .woi-note p,
-  .woi-footer p {
-    font: italic 400 15px/1.5 "Source Serif 4", Georgia, "Times New Roman", serif;
-    color: #5a5e66;
-    margin: 0 0 8px;
-  }
-  .woi-note p:last-child {
-    margin-bottom: 0;
-  }
-  .woi-note a,
-  .woi-footer a {
-    color: #1b54c0 !important;
-    text-decoration: underline;
-    text-decoration-color: #d4d6dc;
-    text-underline-offset: 2px;
-  }
-  .woi-note .woi-title {
-    font-style: normal;
-  }
-  .woi-footer {
-    margin-top: 32px;
-    padding-top: 16px;
-    border-top: 1px solid #d4d6dc;
-  }
-  /* The unsubscribe line and the address: smaller still, roman, gray. */
-  .woi-footer p.woi-admin,
-  .woi-footer p.woi-address {
-    font-style: normal;
-    font-size: 13px;
-    margin: 0 0 4px;
-  }
-  .woi-footer p.woi-admin {
-    margin-top: 16px;
-  }
-  .woi-footer p.woi-admin a {
-    color: #5a5e66 !important;
-  }
-  .woi-footer p.woi-address {
-    color: #878d99;
-  }
-
   /* ---- small screens ---- */
   @media (max-width: 480px) {
-    .woi { padding: 16px 12px 24px; }
+    .woi { padding: 16px 12px 24px !important; }
     .message-content,
     .message-content p,
-    .message-content li { font-size: 17px; }
-    .message-content h2 { font-size: 21px; }
+    .message-content li,
+    .message-content .blockquotes-line { font-size: 17px !important; }
+    .message-content h2 { font-size: 21px !important; }
   }
 
   /* ---- dark mode (Apple Mail, iOS Mail, Outlook for Mac): the site's dark
-     tokens ---- */
+     tokens. Every rule is !important to beat the inlined light colors. ---- */
   @media (prefers-color-scheme: dark) {
-    .woi { background-color: #15171c !important; }
-    .woi-desc { border-bottom-color: #f2f4f8 !important; }
+    .woi-name { border-bottom-color: #f2f4f8 !important; }
     .woi-name,
     .woi-name a { color: #f2f4f8 !important; }
-    .woi-desc { color: #9aa0ab !important; }
+    .woi-note { border-bottom-color: #2a2e37 !important; }
+    .woi-note p,
+    .woi-footer p { color: #9aa0ab !important; }
+    .woi-footer { border-top-color: #2a2e37 !important; }
+    .woi-footer a { color: #84aaf2 !important; }
+    .woi-footer p.woi-admin a { color: #9aa0ab !important; }
+    .woi-footer p.woi-address { color: #828a96 !important; }
     .message-content,
     .message-content p,
     .message-content li,
     .message-content td,
     .message-content blockquote,
-    .message-content .blockquotes { color: #c2c7d0 !important; }
+    .message-content .blockquotes,
+    .message-content .blockquotes-line { color: #c2c7d0 !important; }
     .message-content h1,
     .message-content h2,
     .message-content h3,
     .message-content h1 a,
     .message-content h2 a,
     .message-content h3 a { color: #f2f4f8 !important; }
-    .message-content a { color: #84aaf2 !important; text-decoration-color: #545b66; }
-    .message-content h2 + p,
-    .message-content h2 + p a,
-    .message-content h2 + div p,
-    .message-content h2 + div p a,
-    .message-content p > strong:only-child > a { color: #828a96 !important; }
-    .message-content blockquote,
-    .message-content .blockquotes { border-left-color: #ee8b46 !important; }
-    .message-content hr,
-    .woi-footer { border-top-color: #2a2e37 !important; }
-    .woi-note { border-bottom-color: #2a2e37 !important; }
-    .woi-note p { color: #9aa0ab !important; }
-    .woi-note a,
-    .woi-footer a { color: #84aaf2 !important; text-decoration-color: #545b66; }
-    .woi-footer p.woi-admin a { color: #9aa0ab !important; }
+    .message-content a { color: #84aaf2 !important; }
+    .message-content u,
+    .message-content u a,
+    .message-content a u { color: #828a96 !important; }
+    .message-content u strong,
+    .message-content strong u,
+    .message-content u strong a,
+    .message-content strong u a,
+    .message-content a u strong,
+    .message-content a strong u,
+    .message-content u em,
+    .message-content em u,
+    .message-content u em a,
+    .message-content em u a,
+    .message-content a u em,
+    .message-content a em u { color: #84aaf2 !important; }
+    .message-content u strong,
+    .message-content strong u { border-bottom-color: #ee8b46 !important; }
+    .message-content hr { border-top-color: #2a2e37 !important; }
     .message-content code { background-color: #20242d !important; }
-    .woi-footer p { color: #9aa0ab !important; }
-    .woi-footer p.woi-address { color: #828a96 !important; }
   }
 </style>
 
@@ -297,20 +342,17 @@
     <tr>
       <td class="woi-name"><a href="https://lincolnmullen.com/">Working On It</a></td>
     </tr>
-    <tr>
-      <td class="woi-desc">A blog about religious history, digital history, and the making thereof</td>
-    </tr>
   </table>
 
   <div class="woi-note">
-    <p>This email is an occasional digest of new posts from the <a class="woi-title" href="https://lincolnmullen.com">Working On It</a> blog. The blog is written by Lincoln Mullen, a historian of American religion.</p>
+    <p>An occasional digest of new blog posts written by Lincoln Mullen, a historian of American religion.</p>
   </div>
 
   <div class="message-content">
     {{ message_content }}
 
     <div class="woi-footer">
-      <p>You’ve received this email because you subscribed to an occasional digest of new posts from <a href="https://lincolnmullen.com">lincolnmullen.com</a>. Everything in this email (and more) is also on the <a href="https://lincolnmullen.com/">blog</a> and in the <a href="https://lincolnmullen.com/blog/index.xml">RSS</a> and <a href="https://lincolnmullen.com/blog/index.json">JSON</a> feeds.</p>
+      <p>You received this email because you subscribed to an occasional digest of new posts from <a href="https://lincolnmullen.com">lincolnmullen.com</a>. Everything in this email (and more) is also on the <a href="https://lincolnmullen.com/">blog</a> and in the <a href="https://lincolnmullen.com/blog/index.xml">RSS</a> and <a href="https://lincolnmullen.com/blog/index.json">JSON</a> feeds.</p>
       <p>Have thoughts? Simply reply to this email. Thanks for reading.</p>
       <p class="woi-admin"><a href="{{ unsubscribe_url }}">Unsubscribe</a> · <a href="{{ subscriber_preferences_url }}">Update your preferences</a> · <a href="https://lincolnmullen.com/">lincolnmullen.com</a></p>
       <p class="woi-address">{{ address }}</p>

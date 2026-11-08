@@ -12,7 +12,7 @@
 //	last            Print the last issue's number and date (JSON).
 //	candidates      List posts published since the last issue (JSON).
 //	items <dir>...  Print the posts as one block for an issue: titled posts,
-//	                then untitled notes, each in date order, separated by
+//	                then untitled notes, each newest first, separated by
 //	                horizontal rules. Each post is shown as by item.
 //	item <dir>      Print a post as email-ready Markdown, as the website shows
 //	                it: the text before <!--more--> plus a link to the full
@@ -44,6 +44,8 @@ const (
 	blog   = "content/blog"
 	emails = "emails"
 	more   = "<!--more-->"
+	// The blog's "long" date form (site.Params.dateForms.long in hugo.yaml).
+	longDate = "2 January 2006"
 )
 
 // The last issue published as a blog post, before issues moved to emails/.
@@ -429,27 +431,34 @@ func item(dir string) (string, error) {
 	})
 	text = absoluteLinks(footnotes(text), permalink)
 
+	// The date is written as the blog writes it (its "long" date form) and
+	// links to the post. It goes below a titled post's heading; an untitled
+	// note has no heading, so its date is bold and stands in for one.
 	var b strings.Builder
+	dateLink := fmt.Sprintf("[%s](%s)", date.Format(longDate), permalink)
 	if fm.Title != "" {
-		fmt.Fprintf(&b, "## [%s](%s)\n\n", fm.Title, permalink)
+		fmt.Fprintf(&b, "## [%s](%s)\n\n%s\n\n", fm.Title, permalink, dateLink)
 	} else {
-		fmt.Fprintf(&b, "**[%s](%s)**\n\n", date.Format("January 2, 2006"), permalink)
-	}
-	if cp := fm.Crosspost; cp != nil && cp.URL != "" {
-		src := cp.Source
-		if src == "" {
-			src = cp.URL
-		}
-		fmt.Fprintf(&b, "*Originally published at [%s](%s).*\n\n", src, cp.URL)
-	}
-	if fm.Linkpost != "" {
-		fmt.Fprintf(&b, "Link: <%s>\n\n", fm.Linkpost)
+		fmt.Fprintf(&b, "**%s**\n\n", dateLink)
 	}
 	b.WriteString(text + "\n\n")
 	if truncated {
-		fmt.Fprintf(&b, "[Read the full post →](%s)\n", permalink)
-	} else if fm.Via != "" {
-		fmt.Fprintf(&b, "*Via: <%s>*\n", fm.Via)
+		fmt.Fprintf(&b, "[Read the full post →](%s)\n\n", permalink)
+	}
+	// As on the blog, the post's outside links go in one line after the
+	// post, each as a labeled link rather than a bare URL.
+	var links []string
+	if fm.Linkpost != "" {
+		links = append(links, fmt.Sprintf("[Link →](%s)", fm.Linkpost))
+	}
+	if fm.Via != "" {
+		links = append(links, fmt.Sprintf("[Via →](%s)", fm.Via))
+	}
+	if cp := fm.Crosspost; cp != nil && cp.URL != "" {
+		links = append(links, fmt.Sprintf("[Crossposted →](%s)", cp.URL))
+	}
+	if len(links) > 0 {
+		b.WriteString(strings.Join(links, " · ") + "\n")
 	}
 	return strings.TrimRight(b.String(), "\n") + "\n", nil
 }
@@ -459,7 +468,7 @@ func item(dir string) (string, error) {
 const separator = "\n* * *\n\n"
 
 // items converts the given posts and orders them for an issue: titled posts
-// first, then untitled notes, each group in chronological order, with a
+// first, then untitled notes, each group newest first like the blog, with a
 // separator between every post.
 func items(dirs []string) (string, error) {
 	type post struct {
@@ -483,7 +492,7 @@ func items(dirs []string) (string, error) {
 		if posts[i].titled != posts[j].titled {
 			return posts[i].titled
 		}
-		return posts[i].date.Before(posts[j].date)
+		return posts[i].date.After(posts[j].date)
 	})
 	parts := make([]string, 0, len(posts))
 	for _, p := range posts {

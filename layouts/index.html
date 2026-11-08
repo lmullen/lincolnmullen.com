@@ -22,6 +22,12 @@
      untitled alike, in one stream. Older posts are reached through the featured
      and archive pages, so there is no pagination here. */}}
 <div class="home-stream">
+	{{/* The blog's name as a section label on the ink rule (§4.2), with its
+	     description in the slot at the right */}}
+	<h2 class="shead stream-head">
+		<span class="lbl">{{ site.Params.blogFeedTitle }}</span>
+		<span class="desc">{{ site.Params.blogDescription }}</span>
+	</h2>
 	{{ range first (site.Params.homePosts | default 15) (where site.RegularPages "Section" "blog") }}
 	{{ partial "list-post.html" . }}
 	{{ end }}

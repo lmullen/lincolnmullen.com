@@ -5,7 +5,7 @@
      Call with a dict: class, extra classes for the section (e.g. "sb-foot"). */}}
 <section class="sb{{ with .class }} {{ . }}{{ end }}">
 	<div class="sb-grp">
-		<span class="sb-eyebrow">Subscribe</span>
+		<span class="sb-eyebrow">Subscribe to <span class="text-nowrap">{{ site.Params.blogFeedTitle }}</span></span>
 		<div class="sb-links">
 			{{ partial "feed-links.html" (dict "suffix" " feed" "sep" `<span class="dot">·</span>`) }}
 			<span class="dot">·</span>

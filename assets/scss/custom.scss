@@ -599,35 +599,30 @@ sup.footnote-ref {
   line-height: calc(var(--prose-sm) * 1.3);
   translate: 0 0.125rem;
 }
-.contact,
 .netlinks {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.4rem 1.6rem;
 }
-/* A cell holding more than one line of links (About: the personal links, then
-   the affiliations), spaced like wrapped lines within a row */
+/* About: two lines of text links separated by middle dots, as in the footer
+   (the personal links, then the affiliations), spaced like wrapped lines */
 .hl-lines {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
 }
-.contact a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
+.hl-line {
+  margin: 0;
   @include serif-ui-link;
+  color: var(--sec); /* the separators */
 }
-.contact a:hover {
+.hl-line a {
+  color: var(--navy);
+  text-decoration: none;
+}
+.hl-line a:hover {
   color: var(--orange-text);
-}
-.contact i {
-  width: 1.1rem;
-  text-align: center;
-  color: var(--mut);
-  flex: none;
-  font-size: 0.95rem;
 }
 /* Elsewhere links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
@@ -838,12 +833,11 @@ sup.footnote-ref {
   .hero-links {
     gap: 0.9rem 1.5rem;
   }
-  .contact,
   .netlinks,
   .hl-lines {
     gap: 0.5rem 1.4rem;
   }
-  .contact a,
+  .hl-line,
   .netlinks a {
     padding: 0.2rem 0;
   }

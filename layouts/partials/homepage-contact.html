@@ -1,24 +1,24 @@
 {{/* About · Elsewhere: two compact rows of links under the hero
      statement. Each row is an eyebrow label in a narrow left column and the
      links flowing inline to its right, wrapping as needed, so the hero gives way
-     to the blog within a few lines. About has two lines: the personal links,
-     then the two affiliations. On phones the label sits above its links.
-     Contact icons stay monochrome (--mut). The netlinks service logos are real
+     to the blog within a few lines. About has two lines of dot-separated text
+     links, as in the footer: the personal links, then the two affiliations. On
+     phones the label sits above its links. The netlinks service logos are real
      brand marks (inline SVGs); iconStyle=brand colors each via --bc,
      iconStyle=monochrome forces them all to --mut through the .mono class. */}}
 {{ $mono := eq (site.Params.iconStyle | default "brand") "monochrome" }}
 <div class="hero-links">
 	<span class="ey">About</span>
 	<div class="hl-lines">
-		<div class="contact">
-			<a href="/bio/"><i class="bi bi-person" aria-hidden="true"></i>Biography</a>
-			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf"><i class="bi bi-file-earmark-text" aria-hidden="true"></i>Curriculum vitae</a>
-			<a href="mailto:lincoln@lincolnmullen.com"><i class="bi bi-envelope" aria-hidden="true"></i>lincoln@lincolnmullen.com</a>
-		</div>
-		<div class="contact">
-			<a href="https://rrchnm.org/"><i class="bi bi-building" aria-hidden="true"></i>Director, Roy Rosenzweig Center for History and New Media</a>
-			<a href="https://historyarthistory.gmu.edu/people/lmullen"><i class="bi bi-mortarboard" aria-hidden="true"></i>Professor of history, George Mason University</a>
-		</div>
+		<p class="hl-line">
+			<a href="/bio/">Biography</a> ·
+			<a href="https://files.lincolnmullen.com/cv/Mullen-cv.pdf">Curriculum vitae</a> ·
+			<a href="mailto:lincoln@lincolnmullen.com">lincoln@lincolnmullen.com</a>
+		</p>
+		<p class="hl-line">
+			<a href="https://rrchnm.org/">Director, RRCHNM</a> ·
+			<a href="https://historyarthistory.gmu.edu/people/lmullen">Professor of history, GMU</a>
+		</p>
 	</div>
 	<span class="ey">Elsewhere</span>
 	<div class="netlinks{{ if $mono }} mono{{ end }}">

@@ -45,9 +45,9 @@ Content types have layout files in `./layouts/` and corresponding content in `./
 
 - `blog`: All blog posts, both titled long-form articles and untitled short-form notes. Every post is a page bundle (`content/blog/<dir>/index.md`). Templates use title presence to distinguish: titled posts appear in the archive and get headings; untitled posts do not.
 
-The blog is named *Working on It*, after the former newsletter: the name heads the home page's stream and titles the feeds (`blogFeedTitle` in `config.yaml`). The nav item and the featured and archive page titles still say "blog."
+The blog's title is *Working On It*, after the former newsletter. Spell it with a capital "On" everywhere: in prose, post titles, citations, feeds, and social text. The title comes from `blogFeedTitle` in `config.yaml`, which supplies the label heading the home page's stream, the RSS and JSON feed titles, the `rel="alternate"` links, the suggested citations, and the Zotero "Blog" field; change it there rather than hard-coding it. The nav item and the featured and archive page titles still say "blog," and the subscribe bars say "Subscribe."
 
-The site has no separate newsletter. Issues of the former newsletter, *Working on It*, are ordinary blog posts titled "Working on It #<n>: …" and tagged `newsletter`; their `feedid` keeps the old `/newsletter/<n>/` feed GUID. Email signup (Buttondown) offers new posts bundled into an occasional email.
+The site has no separate newsletter. Issues of the former newsletter, *Working On It*, are ordinary blog posts titled "Working On It #<n>: …" and tagged `newsletter`; their `feedid` keeps the old `/newsletter/<n>/` feed GUID. Email signup (Buttondown) offers new posts bundled into an occasional email.
 
 ### Front Matter Patterns
 

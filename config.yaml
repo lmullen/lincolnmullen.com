@@ -66,7 +66,7 @@ params:
     rfc3339: "2006-01-02T15:04:05Z07:00" # full timestamps: microformats, OpenGraph
   # The blog's name (the former newsletter's), used as the feed title, in the
   # rel="alternate" links, and as the "Blog" field for Zotero citations.
-  blogFeedTitle: "Working on It"
+  blogFeedTitle: "Working On It"
   # The one-line description beside the blog's name on the home page.
   blogDescription: "Religious history, digital history, and the making thereof"
   subtitle: "Historian of American religion"

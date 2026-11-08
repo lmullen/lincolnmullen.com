@@ -1,5 +1,5 @@
 ---
-title: "Working on It #14: _America's Public Bible_ to be published in December"
+title: "Working On It #14: _America's Public Bible_ to be published in December"
 date: "2022-10-30"
 slug: working-on-it-14
 description: "*America's Public Bible: A Commentary* will be published by Stanford University Press in December, and the Henry Luce Foundation has funded a podcast on the history of American antisemitism."

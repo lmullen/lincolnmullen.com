@@ -1,5 +1,5 @@
 ---
-title: "Working on It #12: Books for Labor Day"
+title: "Working On It #12: Books for Labor Day"
 date: "2021-09-07"
 slug: working-on-it-12
 description: "The difference between a technology stack and digital tools, introducing the stack used for digital history work, plus Labor Day recommendations of books by Roy Rosenzweig and Heath Carter."

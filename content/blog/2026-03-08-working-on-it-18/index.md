@@ -1,14 +1,14 @@
 ---
-title: "Working on It #18: Behind, ahead"
+title: "Working On It #18: Behind, ahead"
 date: "2026-03-08T22:32:13-04:00"
 slug: working-on-it-18
 feedid: /newsletter/18/
 draft: false
-description: "Issue 18 of the \"Working on It\" newsletter, about catching up on agentic AI tools, a rethought syllabus for Data Analysis for History, and John Turner's biography of Joseph Smith."
+description: "Issue 18 of the \"Working On It\" newsletter, about catching up on agentic AI tools, a rethought syllabus for Data Analysis for History, and John Turner's biography of Joseph Smith."
 social:
-  bluesky: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
-  mastodon: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
-  linkedin: "In the most recent issue of the \"Working on It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
+  bluesky: "In the most recent issue of the \"Working On It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
+  mastodon: "In the most recent issue of the \"Working On It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
+  linkedin: "In the most recent issue of the \"Working On It\" newsletter, I wrote about realizing I was behind on agentic coding, my rethought Data Analysis for History syllabus, and John Turner's Joseph Smith biography. Read and subscribe: https://lincolnmullen.com/newsletter/18/"
 tags:
 - newsletter
 - digital history

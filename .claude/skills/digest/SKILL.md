@@ -1,0 +1,64 @@
+---
+name: digest
+description: Put together the next issue of Working On It, the occasional digest of new blog posts. Asks which posts published since the last issue to include, writes the issue to digests/, and renders HTML to paste into a Kit HTML block. Use when the user asks to make, draft, or prepare a digest (or a newsletter or email issue).
+---
+
+# Digest
+
+Make the next issue of *Working On It*, the occasional digest of new blog posts. A digest has no content of its own: it gathers posts already on the blog. The user chooses the posts, the skill writes the issue to `digests/`, and the user pastes its HTML into an HTML block in a Kit broadcast and sends it there. Nothing is uploaded or sent automatically.
+
+## The helper program
+
+The mechanical work is done by a Go program in this folder (`main.go`). Run it from anywhere in the repository:
+
+```bash
+go -C .claude/skills/digest run . <command>
+```
+
+It changes to the repository root itself, so file arguments are relative to the root. If `go` isn't installed in a Docker sandbox, install it with `sudo apt-get install -y golang-1.26`. Don't rewrite the helper in Python or another language.
+
+Commands:
+
+- `last`: the last issue's number and date. If `digests/` has no issues yet, this is #18, the last issue published as a blog post.
+- `candidates`: JSON list of published posts dated after the last issue, oldest first, with word counts and whether each has a `<!--more-->` break. Posts tagged `newsletter` (issues #1–18, from when *Working On It* was a newsletter on the blog) are excluded.
+- `items <dir> <dir> ...`: all of an issue's posts as one block, ordered and separated for the issue (see step 5). Each post is converted as by `item`.
+- `item <dir>`: one post as email-ready Markdown, the way the website shows it. If the post has a `<!--more-->` break, this is the text before the break plus "Read the post →". Otherwise it is the whole post. It also adds the heading and, below it, the date as the blog writes it (`15 March 2026`), linked to the permalink; an untitled note gets the same linked date, without a heading. A post's `linkpost`, `via`, and `crosspost` URLs go in one line after the post as labeled links ("Link →", "Via →", "Crossposted →"), never as bare URLs. The lines it adds are HTML with classes for the Kit template to style: `p.woi-date` (the date), `p.woi-more` ("Read the post →"), and `p.woi-links` with `a.woi-aff` links (Link / Via / Crossposted). It also turns `image`/`figure`/`youtube`/`video` shortcodes into plain Markdown with absolute URLs to the original image files, which email clients can show. Links relative to the site or the post are made absolute. Footnotes become superscript numbers, numbered within each post, with the notes listed at the end of the post; a footnote whose note falls below the `<!--more-->` break is dropped. Warnings about unhandled shortcodes go to stderr. Fix those by hand.
+- `render <issue.md>`: writes two files next to the issue. `<issue>.kit.html` is the issue's HTML alone (no `<html>`, `<head>`, or `<body>`, and no inline styles), to paste into a Kit HTML block; the Kit template styles it. `<issue>.preview.html` is that HTML inside `digests/kit-template.html`, to see the email in a browser.
+
+## Steps
+
+1. **Find the posts.** Run `last` and `candidates`. Show the user a short numbered list with each post's date, title (or "note:" and the first line for untitled posts), word count, and whether it will be cut at a break. If there are no posts, say so and stop.
+
+2. **Choose posts.** Ask about each post with AskUserQuestion, up to four questions per call. There are two options:
+   - **As on the website** (Recommended): included the way `item` produces it, cut at `<!--more-->` if there is one, in full if not.
+   - **Skip**: left out.
+
+3. **Subject and preview text.** Don't write the issue until the user has approved the subject.
+   - The subject is `Working On It #<n>: <topic>`, and the topic is the title of one of the titled posts included in the issue, exactly as the post writes it. Untitled notes are not options.
+   - Draft `preview_text`, one plain sentence of about 90–140 characters.
+   - In the subject and preview text, call it a digest, never a newsletter, and never mention a cadence (weekly, monthly, and so on). It is occasional.
+   - Ask with AskUserQuestion, with one option per titled post, each showing the full subject line (`Working On It #<n>: <post title>`). Put the most substantive post first, marked "(Recommended)": usually the longest titled essay, not a short announcement or linkpost. If there are more than four titled posts, offer the four most substantive. The user can write a different subject directly with "Other"; use it verbatim. If they give feedback rather than a subject, ask again with their feedback in mind. If the issue has no titled posts, draft one or two short topics in sentence case (following the style guide in `CLAUDE.md`) as the options instead.
+   - Then show the preview text and ask whether to keep it or change it, the same way.
+
+4. **Intro (optional).** Most issues won't have an intro. Ask with AskUserQuestion, with **No intro** as the first option and **Write an intro** as the second. The user can also type the intro directly with "Other".
+   - If they want one, use their wording verbatim. Don't draft an intro for them unless they ask, and don't make up personal news.
+   - If they choose no intro, move on. Don't ask again or suggest one.
+
+5. **Write the issue.** Copy `digests/_template.md` to `digests/YYYY-MM-DD-working-on-it-<n>.md`, using today's date in America/New_York. Then fill it in:
+   - `{{number}}`, `{{topic}}`, and `{{preview_text}}`.
+   - `{{date}}`: the current time, ISO 8601 with offset (`TZ=America/New_York date -Iseconds`). The next issue starts after this date, so use the time of writing.
+   - `{{posts}}`: one YAML list item per included post directory, `  - <dir>`.
+   - `{{items}}`: the output of `items <dir> <dir> ...` for all the included posts. It does the ordering: titled posts first, each with an h2 heading, then untitled notes, each group in reverse chronological order (newest first, like the blog), with a horizontal rule (`* * *`) between every post. Don't reorder the posts or change the separators.
+   - `{{intro}}`: the user's intro paragraph, followed by the separator before the posts. If there's no intro, delete the `{{intro}}` line and the separator after it, so the issue starts with the first post.
+   - Remove any line left with only a placeholder.
+   - The issue's layout is: optional intro, separator, posts. The headnote ("An occasional digest of new blog posts…") and the footer ("You received this email…", the reply line, unsubscribe, and address) are the same in every issue, so they are in the Kit template (`digests/kit-template.html`), not in the issue. Don't add them to the issue.
+
+6. **Render** with `render digests/<issue>.md`. Check the stderr warnings, and spot-check the `.kit.html`: links absolute, images present, nothing left in `{{< >}}` or `{{ }}`, and no `<html>`, `<head>`, or `<body>`.
+
+7. **Hand off.** Don't paste the whole issue into the chat. Report:
+   - The subject line and preview text, ready to copy.
+   - The included posts.
+   - The full paths of the `.kit.html` and `.preview.html` files. The repo is mounted from the user's Mac, so they can open them there.
+   - How to send it: create a Kit broadcast that uses the "Working On It" HTML email template (`digests/kit-template.html`, installed in Kit), add an HTML block (the + content block menu → HTML), and paste the whole contents of the `.kit.html` into it, as code. On the Mac, `pbcopy < <path to .kit.html>` puts it on the clipboard; or open it in a text editor and copy all. Don't paste the preview page into the visual editor: that drops the classes the template styles. The template supplies the name, headnote, fonts, colors, and footer. Set the subject and preview text. Leave the broadcast **not public**: issues are not posted to Kit's web archive. Send a test email before sending to everyone.
+
+8. **Commit.** Once the user says the issue is final, commit the `.md` file. The `.kit.html` and `.preview.html` are ignored by git. Issues aren't published on the site, so commit on whatever branch the user is on unless they ask otherwise, and don't push `main` without asking. If the user edited the HTML in Kit after pasting, ask whether to bring those edits back into the `.md` so the archive matches what was sent.

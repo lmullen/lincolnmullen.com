@@ -1,0 +1,367 @@
+<!--
+  Kit email template for Working On It, the occasional digest of new posts
+  from lincolnmullen.com. It follows the website's design: Source Serif 4
+  (falling back to Georgia where an email client won't load web fonts),
+  ink headings, navy links, small uppercase mono dates, an orange quote
+  rule, and the blog's name as it heads the home page's stream of posts.
+
+  To install: in Kit, go to Email Templates → New Email Template → Create
+  HTML Template, paste this whole file into the code editor, name it
+  "Working On It", and save. Then choose it for each digest broadcast (or
+  set it as the default from the template's ⋯ menu).
+
+  Kit requires three Liquid tags: message_content (where the email's text
+  goes), an unsubscribe link, and the mailing address; all three are in
+  the markup below. Don't write Liquid tags with their braces in this
+  comment: Kit fills them in even inside comments. Like Kit's own
+  templates, this is a fragment: Kit supplies the <html>, <head>, and
+  <body>.
+
+  How Kit treats this file, which shapes the rules below:
+
+  - Each issue goes into a Kit HTML block: the digest helper's render
+    command writes the issue's HTML (digests/<issue>.kit.html) without
+    styles, and these rules style it. The helper marks the lines it adds
+    with classes: woi-date (a post's date), woi-more ("Read the post →"),
+    and woi-links (the Link / Via / Crossposted line, of woi-aff links).
+  - Kit copies these rules into each element's style attribute when it
+    sends (only media queries stay in a style block). An inlined
+    !important beats everything, including the dark-mode rules, so light-
+    mode colors never use !important; dark-mode colors always do.
+  - No font shorthand (font: ...): Gmail drops it, which left the footer
+    at the body's size. Every rule sets font-family, font-size, and so
+    on separately.
+  - Links aren't underlined. Gmail ignores the underline color and offset
+    that make the website's hairline underline, so it would show a plain
+    one. "Read the post" has the website's orange rule, drawn as a border.
+  - Backgrounds: the email sets a white background, and dark mode makes it
+    transparent. Clients that read the dark-mode rules (Apple Mail) then
+    show their own dark background behind light text. Clients that darken
+    emails themselves (Outlook on the web, Gmail's apps) need a light
+    background to darken; without one, Outlook lightened the text but left
+    its light pane behind it.
+  - Outlook on the web applies the dark-mode rules by the browser's
+    setting rather than its own theme, and has its own dark mode, which
+    recolors the light email by itself. So the dark-mode rules use
+    attribute selectors, which Outlook (it renames classes with an x_
+    prefix) never matches. See the note on the dark-mode rules below.
+  - A mail system may float a banner above the email (an "External
+    Message" table aligned left); .woi clears it.
+
+  Colors are the site's tokens (assets/scss/custom.scss):
+    ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
+    orange #e07a2e, rule #d4d6dc. Dark: ink #f2f4f8, body #c2c7d0,
+    sec #9aa0ab, mut #828a96, navy #84aaf2, orange #ee8b46, and for
+    rules the dark border color #545b66 (the darker rule token, #2a2e37,
+    vanishes on iOS Mail's dark background).
+-->
+<style>
+  /* Apple Mail and iOS Mail load this; other clients ignore it and use Georgia. */
+  @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Code+Pro:wght@600&display=swap");
+
+  :root {
+    color-scheme: light dark;
+    supported-color-schemes: light dark;
+  }
+
+  /* White, for clients that darken emails themselves; transparent in dark
+     mode (below), so Apple Mail shows its own background. clear: both keeps
+     the email below anything a mail system floats above it, like a
+     left-aligned "External Message" banner table, which it would otherwise
+     paint its background under. */
+  .woi {
+    clear: both;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 16px 32px;
+    background-color: #ffffff;
+  }
+
+  /* ---- the blog's name, as it heads the home page's stream: a section
+     label (mono, uppercase, tracked, ink) on the 1px ink rule ---- */
+  .woi-head {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 20px;
+  }
+  .woi-name {
+    padding: 0 0 8px;
+    border-bottom: 1px solid #16203a;
+  }
+  .woi-name,
+  .woi-name a {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #16203a;
+    text-decoration: none !important;
+  }
+
+  /* ---- the headnote and footer: the same in every issue. Secondary prose,
+     smaller than the posts and in italics. The footer sits inside
+     .message-content, so its selectors start with it: otherwise the body-
+     text rules below, equally specific and later, would win. ---- */
+  .woi-note {
+    margin: 0 0 28px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d4d6dc;
+  }
+  .woi-note p,
+  .message-content .woi-footer p {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a5e66;
+    margin: 0 0 8px;
+  }
+  .woi-note p {
+    margin: 0;
+  }
+  .woi-note a,
+  .message-content .woi-footer a {
+    color: #1b54c0;
+    text-decoration: none !important;
+  }
+  .woi-footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #d4d6dc;
+  }
+  /* The unsubscribe line and the address: smaller still, roman, gray. */
+  .message-content .woi-footer p.woi-admin,
+  .message-content .woi-footer p.woi-address {
+    font-style: normal;
+    font-size: 13px;
+    margin: 0 0 4px;
+  }
+  .message-content .woi-footer p.woi-admin {
+    margin-top: 16px;
+  }
+  .message-content .woi-footer p.woi-admin a {
+    color: #5a5e66;
+  }
+  .message-content .woi-footer p.woi-address {
+    color: #878d99;
+  }
+
+  /* ---- body text ---- */
+  .message-content,
+  .message-content p,
+  .message-content li,
+  .message-content td {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #1a1a1a;
+  }
+  .message-content p {
+    margin: 0 0 16px;
+  }
+  .message-content ul,
+  .message-content ol {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+  .message-content li {
+    margin: 0 0 6px;
+  }
+  .message-content a {
+    color: #1b54c0;
+    text-decoration: none !important;
+  }
+  .message-content strong {
+    font-weight: 600;
+  }
+
+  /* ---- headings: a post's title, linked to the post ---- */
+  .message-content h1,
+  .message-content h2,
+  .message-content h3 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #16203a;
+  }
+  .message-content h1 { font-size: 28px; margin: 8px 0 12px; }
+  .message-content h2 { font-size: 24px; margin: 8px 0 6px; }
+  .message-content h3 { font-size: 20px; margin: 24px 0 8px; }
+  .message-content h1 a,
+  .message-content h2 a,
+  .message-content h3 a {
+    color: #16203a;
+  }
+
+  /* ---- dates (p.woi-date), below a post's title and atop a note: small
+     uppercase mono in the muted gray, as in the blog's post lists ---- */
+  .message-content p.woi-date {
+    margin: 0 0 14px;
+  }
+  .message-content p.woi-date,
+  .message-content p.woi-date a {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #878d99;
+  }
+
+  /* ---- "Read the post →" (p.woi-more): the website's read-more action,
+     semibold navy serif with the words on a 2px orange rule and an orange
+     arrow ---- */
+  .message-content p.woi-more {
+    margin: 4px 0 16px;
+  }
+  .message-content p.woi-more a {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1b54c0;
+  }
+  .message-content .woi-more-text {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #e07a2e;
+  }
+
+  /* ---- Link / Via / Crossposted (p.woi-links, a.woi-aff): small uppercase
+     mono in navy with an orange arrow, as the website sets them ---- */
+  .message-content p.woi-links {
+    margin: 4px 0 16px;
+  }
+  .message-content a.woi-aff {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1b54c0;
+    margin-right: 18px;
+  }
+  .message-content .woi-arrow {
+    color: #b0561a;
+  }
+
+  /* ---- quotes: one orange rule ---- */
+  .message-content blockquote {
+    margin: 24px 0;
+    padding: 0 0 0 20px;
+    border-left: 2px solid #e07a2e;
+    font-style: normal;
+    color: #1a1a1a;
+  }
+  .message-content blockquote p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ---- images, rules, code ---- */
+  .message-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 16px 0;
+    border-radius: 6px;
+  }
+  .message-content hr {
+    border: 0;
+    border-top: 1px solid #d4d6dc;
+    height: 0;
+    margin: 32px 0;
+  }
+  .message-content code {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 15px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    padding: 1px 5px;
+  }
+  .message-content sup {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  /* ---- small screens ---- */
+  @media (max-width: 480px) {
+    .woi { padding: 16px 12px 24px !important; }
+    .message-content,
+    .message-content p,
+    .message-content li { font-size: 17px !important; }
+    .message-content h2 { font-size: 21px !important; }
+  }
+
+  /* ---- dark mode (Apple Mail, iOS Mail): the site's dark tokens. Every
+     rule is !important to beat the inlined light colors. The selectors are
+     attribute selectors ([class~="woi"]) rather than class selectors so that
+     they never match in Outlook on the web, which renames classes (woi
+     becomes x_woi) but leaves attribute selectors alone. Outlook applies
+     dark-mode rules by the browser's setting, not its own theme, and has its
+     own dark mode, which recolors a light email well by itself; mixing the
+     two gave light text on its light pane, or a muddy gray card. ---- */
+  @media (prefers-color-scheme: dark) {
+    [class~="woi"] { background-color: transparent !important; }
+    [class~="woi-name"] { border-bottom-color: #f2f4f8 !important; }
+    [class~="woi-name"],
+    [class~="woi-name"] a { color: #f2f4f8 !important; }
+    [class~="woi-note"] { border-bottom-color: #545b66 !important; }
+    [class~="woi-note"] p,
+    [class~="message-content"] [class~="woi-footer"] p { color: #9aa0ab !important; }
+    [class~="message-content"] [class~="woi-footer"] { border-top-color: #545b66 !important; }
+    [class~="woi-note"] a,
+    [class~="message-content"] [class~="woi-footer"] a { color: #84aaf2 !important; }
+    [class~="message-content"] [class~="woi-footer"] p[class~="woi-admin"] a { color: #9aa0ab !important; }
+    [class~="message-content"] [class~="woi-footer"] p[class~="woi-address"] { color: #828a96 !important; }
+    [class~="message-content"],
+    [class~="message-content"] p,
+    [class~="message-content"] li,
+    [class~="message-content"] td,
+    [class~="message-content"] blockquote { color: #c2c7d0 !important; }
+    [class~="message-content"] h1,
+    [class~="message-content"] h2,
+    [class~="message-content"] h3,
+    [class~="message-content"] h1 a,
+    [class~="message-content"] h2 a,
+    [class~="message-content"] h3 a { color: #f2f4f8 !important; }
+    [class~="message-content"] a { color: #84aaf2 !important; }
+    [class~="message-content"] p[class~="woi-date"],
+    [class~="message-content"] p[class~="woi-date"] a { color: #828a96 !important; }
+    [class~="message-content"] p[class~="woi-more"] a,
+    [class~="message-content"] a[class~="woi-aff"] { color: #84aaf2 !important; }
+    [class~="message-content"] [class~="woi-more-text"] { border-bottom-color: #ee8b46 !important; }
+    [class~="message-content"] [class~="woi-arrow"] { color: #ee8b46 !important; }
+    [class~="message-content"] blockquote { border-left-color: #ee8b46 !important; }
+    [class~="message-content"] hr { border-top-color: #545b66 !important; }
+    [class~="message-content"] code { background-color: #20242d !important; }
+  }
+</style>
+
+<!--[if mso]><center><table><tr><td width="600"><![endif]-->
+<div class="woi">
+
+  <table class="woi-head" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="woi-name"><a href="https://lincolnmullen.com/">Working On It</a></td>
+    </tr>
+  </table>
+
+  <div class="woi-note">
+    <p>An occasional digest of new blog posts written by <a href="https://lincolnmullen.com">Lincoln Mullen</a>, a historian of American religion.</p>
+  </div>
+
+  <div class="message-content">
+    {{ message_content }}
+
+    <div class="woi-footer">
+      <p>You received this email because you subscribed to an occasional digest of new posts from <a href="https://lincolnmullen.com">lincolnmullen.com</a>. Everything in this email (and more) is also on the <a href="https://lincolnmullen.com/">blog</a> and in the <a href="https://lincolnmullen.com/blog/index.xml">RSS</a> and <a href="https://lincolnmullen.com/blog/index.json">JSON</a> feeds.</p>
+      <p>Have thoughts? Simply reply to this email. Thanks for reading.</p>
+      <p class="woi-admin"><a href="{{ unsubscribe_url }}">Unsubscribe</a> · <a href="{{ subscriber_preferences_url }}">Update your preferences</a> · <a href="https://lincolnmullen.com/">lincolnmullen.com</a></p>
+      <p class="woi-address">{{ address }}</p>
+    </div>
+  </div>
+
+</div>
+<!--[if mso]></td></tr></table></center><![endif]-->

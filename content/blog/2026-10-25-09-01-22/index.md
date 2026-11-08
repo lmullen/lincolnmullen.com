@@ -12,4 +12,4 @@ social:
 
 A dungeon crawler played by two boys on paper.
 
-{{< image src="2026-10-25-09-01-22.jpg" alt="A hand-drawndungeon map on lined notebook paper, with hearts, shields, and arrows tallied across the top and a sword, arrow, and shield with their damage and upgrade costs listed down the side" >}}
+{{< image src="2026-10-25-09-01-22.jpg" alt="A hand-drawn dungeon map on lined notebook paper, with hearts, shields, and arrows tallied across the top and a sword, arrow, and shield with their damage and upgrade costs listed down the side" >}}

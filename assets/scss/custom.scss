@@ -582,9 +582,9 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* About · Elsewhere: two rows under the bio, each an eyebrow label in
-   a narrow left column with its links flowing inline to the right and wrapping
-   as needed. The label's cap height sits on the serif links' baseline. */
+/* About · Elsewhere: two rows under the statement, each an eyebrow label in a
+   narrow left column with its links flowing inline to the right and wrapping as
+   needed. The label's caps sit on the serif links' baseline. */
 .hero-links {
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr);
@@ -593,8 +593,8 @@ sup.footnote-ref {
   margin-top: 1.5rem;
 }
 /* The label takes the links' line box (--prose-sm at 1.3), then drops 2px so
-   its caps sit on the serif baseline. Grid baseline alignment would follow the
-   icon, not the text, because the icon is the first item in each link. */
+   its caps sit on the serif baseline. Grid baseline alignment is no use here:
+   in the Elsewhere row it would follow each link's logo, not its text. */
 .hero-links .ey {
   line-height: calc(var(--prose-sm) * 1.3);
   translate: 0 0.125rem;
@@ -611,14 +611,14 @@ sup.footnote-ref {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  @include serif-ui-link;
+  font-size: var(--prose-sm); /* the line box the label aligns to */
+  line-height: 1.3;
 }
 .hl-lines p {
   margin: 0;
 }
 .hl-lines a {
-  color: var(--navy);
-  text-decoration: none;
+  @include serif-ui-link;
 }
 .hl-lines a:hover {
   color: var(--orange-text);

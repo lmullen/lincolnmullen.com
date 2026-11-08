@@ -543,12 +543,11 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* Hero: the statement, the biography, and the link columns, closed by the ink rule.
-   The header above it is the shared .sitehead. */
+/* Hero: the statement and the link rows. The header above it is the shared
+   .sitehead; below, the blog's own section rule separates it from the stream. */
 .hero {
-  padding: 0.5rem 0 2rem;
-  margin-bottom: 1.75rem;
-  border-bottom: 1px solid var(--ink);
+  padding: 0.5rem 0 0;
+  margin-bottom: 3rem;
 }
 
 /* Statement / display serif (§4.3) */
@@ -606,6 +605,13 @@ sup.footnote-ref {
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.4rem 1.6rem;
+}
+/* A cell holding more than one line of links (About: the personal links, then
+   the affiliations), spaced like wrapped lines within a row */
+.hl-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 .contact a {
   display: inline-flex;
@@ -833,7 +839,8 @@ sup.footnote-ref {
     gap: 0.9rem 1.5rem;
   }
   .contact,
-  .netlinks {
+  .netlinks,
+  .hl-lines {
     gap: 0.5rem 1.4rem;
   }
   .contact a,

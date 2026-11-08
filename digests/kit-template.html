@@ -23,17 +23,21 @@
     sends (only media queries stay in a style block). An inlined
     !important beats everything, including the dark-mode rules, so light-
     mode colors never use !important; dark-mode colors always do.
-  - The email's text is pasted into Kit's editor, which drops classes. So
-    the digest helper marks its special lines with <u>, which posts never
-    use: <u> alone is a date, <u> with bold is "Read the post →", and <u>
-    with italics is the Link / Via / Crossposted line. The rules below
-    turn the underline off and style each. Kit may put the link inside or
-    outside the marks, so the rules cover both.
+  - The email's text is pasted into Kit's editor, which drops classes and
+    the formatting around whole links, and wraps the text in a table. So
+    the only hooks are elements and position: a date is the paragraph
+    right after a title (h2) or a separator (hr).
   - Kit writes a quote as div.blockquotes (with its own inline gray left
     border, which the rules here override) around div.blockquotes-line.
   - Links aren't underlined. Gmail ignores the underline color and offset
     that make the website's hairline underline, so it would show a plain
-    one. "Read the post →" keeps the site's orange rule, drawn as a border.
+    one.
+  - Backgrounds: the email sets a white background, and dark mode makes it
+    transparent. Clients that read the dark-mode rules (Apple Mail) then
+    show their own dark background behind light text. Clients that darken
+    emails themselves (Outlook on the web, Gmail's apps) need a light
+    background to darken; without one, Outlook lightened the text but left
+    its light pane behind it.
 
   Colors are the site's tokens (assets/scss/custom.scss):
     ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
@@ -51,12 +55,13 @@
     supported-color-schemes: light dark;
   }
 
-  /* No background color: the email takes the mail app's own background,
-     so in dark mode it doesn't sit as a black block on the app's gray. */
+  /* White, for clients that darken emails themselves; transparent in dark
+     mode (below), so Apple Mail shows its own background. */
   .woi {
     max-width: 600px;
     margin: 0 auto;
     padding: 24px 16px 32px;
+    background-color: #ffffff;
   }
 
   /* ---- the blog's name, as it heads the home page's stream: a section
@@ -172,22 +177,15 @@
     color: #16203a;
   }
 
-  /* ---- the helper's marked lines (see the note at the top) ---- */
-  .message-content u {
-    text-decoration: none !important;
-  }
-
-  /* Dates, below a post's title and atop a note: small uppercase mono in
-     the muted gray, as in the blog's post lists. Selected by <u> and also by
-     position, in case Kit drops the <u>: the paragraph after a title, and
-     the one after a divider (each post starts after a rule). */
+  /* ---- dates, below a post's title and atop a note: small uppercase mono
+     in the muted gray, as in the blog's post lists. Kit keeps no marks to
+     hook them by, so they're selected by position: the paragraph right
+     after a title, and the one right after a separator (each post starts
+     after a rule). ---- */
   .message-content h2 + p,
   .message-content h2 + p a,
   .message-content hr + p,
-  .message-content hr + p a,
-  .message-content u,
-  .message-content u a,
-  .message-content a u {
+  .message-content hr + p a {
     font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace !important;
     font-size: 13px !important;
     font-weight: 600 !important;
@@ -196,47 +194,9 @@
     text-transform: uppercase;
     color: #878d99;
   }
-
-  /* "Read the post →" (<u> with bold): the website's read-more action,
-     semibold navy serif on a 2px orange rule. */
-  .message-content u strong,
-  .message-content strong u,
-  .message-content u strong a,
-  .message-content strong u a,
-  .message-content a u strong,
-  .message-content a strong u {
-    font-family: "Source Serif 4", Georgia, "Times New Roman", serif !important;
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    letter-spacing: 0;
-    text-transform: none;
-    color: #1b54c0;
-  }
   .message-content h2 + p,
   .message-content hr + p {
     margin-bottom: 14px;
-  }
-  .message-content u strong,
-  .message-content strong u {
-    padding-bottom: 3px;
-    border-bottom: 2px solid #e07a2e;
-  }
-
-  /* Link / Via / Crossposted (<u> with italics): small uppercase mono in
-     navy, as the website sets these links, with no underline. */
-  .message-content u em,
-  .message-content em u,
-  .message-content u em a,
-  .message-content em u a,
-  .message-content a u em,
-  .message-content a em u {
-    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    font-style: normal !important;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #1b54c0;
   }
 
   /* ---- quotes: one orange rule. Kit's quote is div.blockquotes with its
@@ -304,6 +264,7 @@
   /* ---- dark mode (Apple Mail, iOS Mail, Outlook for Mac): the site's dark
      tokens. Every rule is !important to beat the inlined light colors. ---- */
   @media (prefers-color-scheme: dark) {
+    .woi { background-color: transparent !important; }
     .woi-name { border-bottom-color: #f2f4f8 !important; }
     .woi-name,
     .woi-name a { color: #f2f4f8 !important; }
@@ -332,24 +293,7 @@
     .message-content h2 + p,
     .message-content h2 + p a,
     .message-content hr + p,
-    .message-content hr + p a,
-    .message-content u,
-    .message-content u a,
-    .message-content a u { color: #828a96 !important; }
-    .message-content u strong,
-    .message-content strong u,
-    .message-content u strong a,
-    .message-content strong u a,
-    .message-content a u strong,
-    .message-content a strong u,
-    .message-content u em,
-    .message-content em u,
-    .message-content u em a,
-    .message-content em u a,
-    .message-content a u em,
-    .message-content a em u { color: #84aaf2 !important; }
-    .message-content u strong,
-    .message-content strong u { border-bottom-color: #ee8b46 !important; }
+    .message-content hr + p a { color: #828a96 !important; }
     .message-content hr { border-top-color: #545b66 !important; }
     .message-content code { background-color: #20242d !important; }
   }

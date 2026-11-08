@@ -1,4 +1,4 @@
-module github.com/lmullen/lincolnmullen.com/newsletter
+module github.com/lmullen/lincolnmullen.com/digest
 
 go 1.23
 

@@ -1,18 +1,18 @@
 ---
-name: newsletter
-description: Put together the next issue of the Working On It email from posts published since the last issue, asking which posts to include, then write it to emails/ and render HTML to paste into Kit. Use when the user asks to make, draft, or prepare a newsletter or email issue.
+name: digest
+description: Put together the next issue of Working On It, the occasional digest of new blog posts. Asks which posts published since the last issue to include, writes the issue to emails/, and renders HTML to paste into Kit. Use when the user asks to make, draft, or prepare a digest (or a newsletter or email issue).
 ---
 
-# Newsletter
+# Digest
 
-Make the next issue of *Working On It*, the occasional email of new blog posts. The user chooses the posts, the skill writes the issue to `emails/`, and the user pastes it into Kit and sends it there. Nothing is uploaded or sent automatically.
+Make the next issue of *Working On It*, the occasional digest of new blog posts. A digest has no content of its own: it gathers posts already on the blog. The user chooses the posts, the skill writes the issue to `emails/`, and the user pastes it into Kit and sends it there. Nothing is uploaded or sent automatically.
 
 ## The helper program
 
 The mechanical work is done by a Go program in this folder (`main.go`). Run it from anywhere in the repository:
 
 ```bash
-go -C .claude/skills/newsletter run . <command>
+go -C .claude/skills/digest run . <command>
 ```
 
 It changes to the repository root itself, so file arguments are relative to the root. If `go` isn't installed in a Docker sandbox, install it with `sudo apt-get install -y golang-1.26`. Don't rewrite the helper in Python or another language.
@@ -20,7 +20,7 @@ It changes to the repository root itself, so file arguments are relative to the 
 Commands:
 
 - `last`: the last issue's number and date. If `emails/` has no issues yet, this is #18, the last issue published as a blog post.
-- `candidates`: JSON list of published posts dated after the last issue, oldest first, with word counts and whether each has a `<!--more-->` break. Posts tagged `newsletter` are excluded.
+- `candidates`: JSON list of published posts dated after the last issue, oldest first, with word counts and whether each has a `<!--more-->` break. Posts tagged `newsletter` (issues #1–18, from when *Working On It* was a newsletter on the blog) are excluded.
 - `items <dir> <dir> ...`: all of an issue's posts as one block, ordered and separated for the issue (see step 5). Each post is converted as by `item`.
 - `item <dir>`: one post as email-ready Markdown, the way the website shows it. If the post has a `<!--more-->` break, this is the text before the break plus "Read the full post →". Otherwise it is the whole post. It also adds the heading (or a date line for untitled notes) and the permalink, and turns `image`/`figure`/`youtube`/`video` shortcodes into plain Markdown with absolute URLs to the original image files, which email clients can show. Warnings about unhandled shortcodes go to stderr. Fix those by hand.
 - `render <issue.md>`: writes `<issue>.html` next to the issue, with simple inline styles.
@@ -37,6 +37,7 @@ Commands:
    - The subject is `Working On It #<n>: <topic>`. Base the topic on the most substantive post included in the issue: usually the longest titled essay, not a short note or a linkpost. Say which post you based it on.
    - Write the topic in sentence case, following the style guide in `CLAUDE.md`. Make it a short phrase in the spirit of past topics like "Behind, ahead", not just the post's title repeated.
    - Draft `preview_text`, one plain sentence of about 90–140 characters.
+   - In the subject and preview text, call it a digest, never a newsletter, and never mention a cadence (weekly, monthly, and so on). It is occasional.
    - Ask with AskUserQuestion, showing the full subject line in the question. Offer your recommended subject first, marked "(Recommended)", plus one or two alternatives. The user can pick one or type their own with "Other". If they type their own, use it verbatim. If they give feedback rather than a subject, draft again and ask again.
    - Then show the preview text and ask whether to keep it or change it, the same way.
 

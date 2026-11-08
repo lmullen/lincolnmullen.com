@@ -64,7 +64,7 @@ params:
   blogFeedTitle: "Lincoln Mullen's blog"
   subtitle: "Historian of American religion"
   siteFeedUrl: "/blog/index.xml"
-  # Buttondown's hosted signup page for the occasional email of new posts; the
+  # Buttondown's hosted signup page for the occasional digest of new posts; the
   # site has no embedded form.
   emailSignupUrl: "https://buttondown.com/lmullen"
   # How many of the most recent blog posts the home page shows.

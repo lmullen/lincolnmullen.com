@@ -1,10 +1,10 @@
-// Command newsletter is the helper for the newsletter skill. It lists posts
+// Command digest is the helper for the digest skill. It lists posts
 // published since the last issue of Working On It, converts a post to
 // email-ready Markdown, and renders an issue to HTML for pasting into Kit.
 //
 // Run it from anywhere in the repository:
 //
-//	go -C .claude/skills/newsletter run . <command> [args]
+//	go -C .claude/skills/digest run . <command> [args]
 //
 // It changes to the repository root first, so file arguments are relative to
 // the root. Commands:
@@ -439,7 +439,7 @@ func printJSON(v any) error {
 }
 
 func run(args []string) error {
-	usage := errors.New("usage: newsletter last | candidates | items <dir>... | item <dir> | render <issue.md>")
+	usage := errors.New("usage: digest last | candidates | items <dir>... | item <dir> | render <issue.md>")
 	if len(args) == 0 {
 		return usage
 	}
@@ -490,7 +490,7 @@ func run(args []string) error {
 
 func main() {
 	if err := run(os.Args[1:]); err != nil {
-		fmt.Fprintln(os.Stderr, "newsletter:", err)
+		fmt.Fprintln(os.Stderr, "digest:", err)
 		os.Exit(1)
 	}
 }

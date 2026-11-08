@@ -12,7 +12,6 @@ $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-stack: 640px; /* header, hero links, subscribe bar and home stream go single-column */
-$bp-hero-links: 1000px; /* homepage link columns: four → two */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -584,28 +583,25 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* About · Contact · Around the internet: four columns under the bio. About and
-   Contact take one each; the netlinks span the last two as a two-column list. */
+/* About · Around the internet: two rows under the bio, each an eyebrow label in
+   a narrow left column with its links flowing inline to the right and wrapping
+   as needed. The label's cap height sits on the serif links' baseline. */
 .hero-links {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.25rem 2rem;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.75rem 1.75rem;
   margin-top: 1.5rem;
 }
-.hero-links .ey {
-  display: block;
-  margin-bottom: 0.6rem;
-}
-.hero-links .netwrap {
-  grid-column: span 2;
-}
-.contact {
+.contact,
+.netlinks {
   display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1.6rem;
 }
 .contact a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.55rem;
   @include serif-ui-link;
@@ -622,13 +618,8 @@ sup.footnote-ref {
 }
 /* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
-.netlinks {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.4rem 1.5rem;
-}
 .netlinks a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.55rem;
   @include serif-ui-link;
@@ -823,14 +814,6 @@ sup.footnote-ref {
 }
 
 /* ===== responsive (§5) ===== */
-@media (max-width: $bp-hero-links) {
-  /* Four columns are too tight for the email addresses: About and Contact
-     share a row, the netlinks run full width below in their two columns. */
-  .hero-links {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.4rem 2rem;
-  }
-}
 @media (max-width: $bp-mobile) {
   .main-container {
     padding: 1.75rem 1.2rem 3rem;
@@ -838,20 +821,17 @@ sup.footnote-ref {
   .statement {
     font-size: 1.9rem;
   }
+  /* Roomier tap targets as the rows start to wrap */
   .hero-links {
-    gap: 1.4rem 1.5rem;
+    gap: 0.9rem 1.5rem;
   }
-  .contact {
-    gap: 0.65rem;
-  }
-  .contact a {
-    padding: 0.25rem 0;
-  }
+  .contact,
   .netlinks {
-    gap: 0.7rem 1.5rem;
+    gap: 0.5rem 1.4rem;
   }
+  .contact a,
   .netlinks a {
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
   }
 }
 @media (max-width: $bp-stack) {
@@ -871,15 +851,14 @@ sup.footnote-ref {
   .bio-p {
     font-size: 1rem;
   }
-  /* One column: nothing wraps mid-label */
+  /* One column: each label sits above its links, with a wider gap between the
+     two groups than between a label and its own links */
   .hero-links {
     grid-template-columns: minmax(0, 1fr);
+    gap: 0.6rem;
   }
-  .hero-links .netwrap {
-    grid-column: auto;
-  }
-  .netlinks {
-    grid-template-columns: minmax(0, 1fr);
+  .hero-links .ey + div {
+    margin-bottom: 0.6rem;
   }
   /* The bar stacks: eyebrow, then each link on its own line */
   .sb {

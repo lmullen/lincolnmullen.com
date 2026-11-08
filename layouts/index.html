@@ -6,7 +6,7 @@
 
 {{/* Hero: the statement and biography from content/_index.md (first paragraph →
      the display statement, rendered inline so its <em> emphasis lands; the rest →
-     .bio-p prose), then the About · Contact · Around the internet link columns. */}}
+     .bio-p prose), then the About · Around the internet link rows. */}}
 <section class="hero">
 	{{ $blocks := split (strings.TrimSpace .RawContent) "\n\n" }}
 	<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>

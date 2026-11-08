@@ -34,11 +34,10 @@ Commands:
    - **Skip**: left out.
 
 3. **Subject and preview text.** Don't write the issue until the user has approved the subject.
-   - The subject is `Working On It #<n>: <topic>`. Base the topic on the most substantive post included in the issue: usually the longest titled essay, not a short note or a linkpost. Say which post you based it on.
-   - Write the topic in sentence case, following the style guide in `CLAUDE.md`. Make it a short phrase in the spirit of past topics like "Behind, ahead", not just the post's title repeated.
+   - The subject is `Working On It #<n>: <topic>`, and the topic is the title of one of the titled posts included in the issue, exactly as the post writes it. Untitled notes are not options.
    - Draft `preview_text`, one plain sentence of about 90–140 characters.
    - In the subject and preview text, call it a digest, never a newsletter, and never mention a cadence (weekly, monthly, and so on). It is occasional.
-   - Ask with AskUserQuestion, showing the full subject line in the question. Offer your recommended subject first, marked "(Recommended)", plus one or two alternatives. The user can pick one or type their own with "Other". If they type their own, use it verbatim. If they give feedback rather than a subject, draft again and ask again.
+   - Ask with AskUserQuestion, with one option per titled post, each showing the full subject line (`Working On It #<n>: <post title>`). Put the most substantive post first, marked "(Recommended)": usually the longest titled essay, not a short announcement or linkpost. If there are more than four titled posts, offer the four most substantive. The user can write a different subject directly with "Other"; use it verbatim. If they give feedback rather than a subject, ask again with their feedback in mind. If the issue has no titled posts, draft one or two short topics in sentence case (following the style guide in `CLAUDE.md`) as the options instead.
    - Then show the preview text and ask whether to keep it or change it, the same way.
 
 4. **Intro (optional).** Most issues won't have an intro. Ask with AskUserQuestion, with **No intro** as the first option and **Write an intro** as the second. The user can also type the intro directly with "Other".

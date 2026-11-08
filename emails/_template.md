@@ -7,7 +7,7 @@ posts:
 {{posts}}
 ---
 
-*This email is an occasional digest of new posts from the* Working On It *[blog](https://lincolnmullen.com). The blog is written by Lincoln Mullen, a historian of American religion.*
+*This email is an occasional digest of new posts from the* [Working On It](https://lincolnmullen.com) *blog. The blog is written by Lincoln Mullen, a historian of American religion.*
 
 {{intro}}
 

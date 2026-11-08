@@ -40,16 +40,16 @@ import (
 )
 
 const (
-	site   = "https://lincolnmullen.com"
-	blog   = "content/blog"
-	emails = "emails"
-	more   = "<!--more-->"
+	site    = "https://lincolnmullen.com"
+	blog    = "content/blog"
+	digests = "digests"
+	more    = "<!--more-->"
 	// The blog's "long" date form (site.Params.dateForms.long in hugo.yaml).
 	longDate = "2 January 2006"
 )
 
-// The last issue published as a blog post, before issues moved to emails/.
-// Used when emails/ has no issues yet.
+// The last issue published as a blog post, before issues moved to digests/.
+// Used when digests/ has no issues yet.
 var legacyLast = issue{Number: 18, Date: "2026-03-08T22:32:13-04:00"}
 
 type frontMatter struct {
@@ -139,7 +139,7 @@ func findRoot() (string, error) {
 }
 
 func lastIssue() (issue, error) {
-	files, err := filepath.Glob(filepath.Join(emails, "*.md"))
+	files, err := filepath.Glob(filepath.Join(digests, "*.md"))
 	if err != nil {
 		return issue{}, err
 	}

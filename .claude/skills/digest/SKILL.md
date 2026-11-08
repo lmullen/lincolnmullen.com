@@ -1,11 +1,11 @@
 ---
 name: digest
-description: Put together the next issue of Working On It, the occasional digest of new blog posts. Asks which posts published since the last issue to include, writes the issue to emails/, and renders HTML to paste into Kit. Use when the user asks to make, draft, or prepare a digest (or a newsletter or email issue).
+description: Put together the next issue of Working On It, the occasional digest of new blog posts. Asks which posts published since the last issue to include, writes the issue to digests/, and renders HTML to paste into Kit. Use when the user asks to make, draft, or prepare a digest (or a newsletter or email issue).
 ---
 
 # Digest
 
-Make the next issue of *Working On It*, the occasional digest of new blog posts. A digest has no content of its own: it gathers posts already on the blog. The user chooses the posts, the skill writes the issue to `emails/`, and the user pastes it into Kit and sends it there. Nothing is uploaded or sent automatically.
+Make the next issue of *Working On It*, the occasional digest of new blog posts. A digest has no content of its own: it gathers posts already on the blog. The user chooses the posts, the skill writes the issue to `digests/`, and the user pastes it into Kit and sends it there. Nothing is uploaded or sent automatically.
 
 ## The helper program
 
@@ -19,7 +19,7 @@ It changes to the repository root itself, so file arguments are relative to the 
 
 Commands:
 
-- `last`: the last issue's number and date. If `emails/` has no issues yet, this is #18, the last issue published as a blog post.
+- `last`: the last issue's number and date. If `digests/` has no issues yet, this is #18, the last issue published as a blog post.
 - `candidates`: JSON list of published posts dated after the last issue, oldest first, with word counts and whether each has a `<!--more-->` break. Posts tagged `newsletter` (issues #1–18, from when *Working On It* was a newsletter on the blog) are excluded.
 - `items <dir> <dir> ...`: all of an issue's posts as one block, ordered and separated for the issue (see step 5). Each post is converted as by `item`.
 - `item <dir>`: one post as email-ready Markdown, the way the website shows it. If the post has a `<!--more-->` break, this is the text before the break plus "Read the full post →". Otherwise it is the whole post. It also adds the heading and, below it, the date as the blog writes it (`15 March 2026`), linked to the permalink; an untitled note gets just the linked date, in bold. A post's `linkpost`, `via`, and `crosspost` URLs go in one line after the post as labeled links ("Link →", "Via →", "Crossposted →"), never as bare URLs. It also turns `image`/`figure`/`youtube`/`video` shortcodes into plain Markdown with absolute URLs to the original image files, which email clients can show. Links relative to the site or the post are made absolute. Footnotes become superscript numbers, numbered within each post, with the notes listed at the end of the post; a footnote whose note falls below the `<!--more-->` break is dropped. Warnings about unhandled shortcodes go to stderr. Fix those by hand.
@@ -44,7 +44,7 @@ Commands:
    - If they want one, use their wording verbatim. Don't draft an intro for them unless they ask, and don't make up personal news.
    - If they choose no intro, move on. Don't ask again or suggest one.
 
-5. **Write the issue.** Copy `emails/_template.md` to `emails/YYYY-MM-DD-working-on-it-<n>.md`, using today's date in America/New_York. Then fill it in:
+5. **Write the issue.** Copy `digests/_template.md` to `digests/YYYY-MM-DD-working-on-it-<n>.md`, using today's date in America/New_York. Then fill it in:
    - `{{number}}`, `{{topic}}`, and `{{preview_text}}`.
    - `{{date}}`: the current time, ISO 8601 with offset (`TZ=America/New_York date -Iseconds`). The next issue starts after this date, so use the time of writing.
    - `{{posts}}`: one YAML list item per included post directory, `  - <dir>`.
@@ -53,7 +53,7 @@ Commands:
    - Remove any line left with only a placeholder. Keep everything else in the template, including the headnote and footer, which the user maintains.
    - The issue's layout is: headnote, optional intro, separator, posts, separator, footer.
 
-6. **Render** with `render emails/<issue>.md`. Check the stderr warnings, and spot-check the HTML: links absolute, images present, nothing left in `{{< >}}` or `{{ }}`.
+6. **Render** with `render digests/<issue>.md`. Check the stderr warnings, and spot-check the HTML: links absolute, images present, nothing left in `{{< >}}` or `{{ }}`.
 
 7. **Hand off.** Don't paste the whole issue into the chat. Report:
    - The subject line and preview text, ready to copy.

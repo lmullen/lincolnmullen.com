@@ -103,11 +103,12 @@ $bp-hero-links: 1000px; /* homepage link columns: four → two */
   --cobalt: #1b54c0; /* blog/email band fill */
   --accent-soft: #ffc79c; /* soft peach accent on the cobalt band */
 
-  /* Mono label sizes (§4.1) — four steps replace the old 0.6–0.82rem continuum */
+  /* Mono label sizes (§4.1) — five steps replace the old 0.6–0.82rem continuum */
   --label-xs: 0.62rem; /* pills, tags, code-language chips, table headers */
   --label-sm: 0.68rem; /* metalines, index dates, sidebar labels, feed links */
   --label-md: 0.74rem; /* eyebrows, nav, buttons, section-header links */
   --label-lg: 0.82rem; /* section-header labels */
+  --label-xl: 0.95rem; /* the blog's name heading the home page's stream */
 
   /* Type scale — one value per voice, so the same content is the same size
      everywhere. Body prose is NOT a token: it inherits the Bootstrap base
@@ -654,9 +655,9 @@ sup.footnote-ref {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 0.6rem 2rem;
-  min-height: 4rem;
-  padding: 0.85rem 1.75rem;
+  gap: 0.5rem 1.5rem;
+  min-height: 3.5rem;
+  padding: 0.7rem 1.5rem;
   background: var(--cobalt);
   border-radius: var(--radius);
   color: #fff;
@@ -666,17 +667,24 @@ sup.footnote-ref {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem 1.25rem;
+  gap: 0.5rem 0.85rem;
 }
 .sb-eyebrow {
   @include mono-label(var(--label-sm), 0.2em);
   color: var(--accent-soft);
 }
+/* Both labels take the width of the longer, "More posts" (10 mono characters,
+   each followed by 0.2em of tracking), so when the bar wraps onto two rows the
+   rows' links line up. It needs no breakpoint: on one line it changes nothing
+   but a character's width after "Subscribe". */
+.home-stream .sb-eyebrow {
+  min-width: calc(10ch + 2em);
+}
 .sb-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.4rem 0.9rem;
+  gap: 0.4rem 1.1rem; /* no separators: the gap alone sets the links apart */
 }
 .sb-links a {
   display: inline-flex;
@@ -695,9 +703,6 @@ sup.footnote-ref {
 }
 .sb-links a:hover .bi-arrow-right {
   transform: translateX(0.2em);
-}
-.sb .dot {
-  color: rgba(255, 255, 255, 0.45);
 }
 
 /* The bar's vertical form, for the blog sidebar */
@@ -753,6 +758,24 @@ sup.footnote-ref {
 }
 .home-stream .list-post:last-of-type {
   border-bottom: none;
+}
+
+/* The blog's name heading the stream: the section label (§4.2) across the
+   full width of the stream, with the description in the secondary voice where
+   a section header would put its link. */
+.stream-head {
+  flex-wrap: wrap;
+  margin: 2.5rem 0 1rem;
+}
+.stream-head .lbl {
+  font-size: var(--label-xl); /* the largest step: the label names the blog */
+}
+.stream-head .desc {
+  font: italic 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.home-stream .sb + .list-post {
+  padding-top: 1rem; /* the bar already separates the first post from the name */
 }
 
 /* The same bar again after the last post */
@@ -870,9 +893,6 @@ sup.footnote-ref {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
-  }
-  .sb .dot {
-    display: none;
   }
   /* The date moves from the gutter to above the post */
   .home-stream .list-post {
@@ -1124,6 +1144,25 @@ a.pill:hover {
 .bs-nav a::after {
   content: "→";
   margin-left: 0.4rem;
+}
+/* The blog's name and tagline atop a post's rail: the section label (§4.2) on
+   the ink rule, then the tagline in italics, as on the home page. */
+.blog-name {
+  margin-bottom: 1.8rem;
+}
+.blog-name .lbl {
+  @include section-label;
+  font-size: var(--label-lg);
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+}
+.blog-name .lbl:hover {
+  color: var(--orange-text);
+}
+.blog-name .desc {
+  font: italic 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
+  color: var(--sec);
+  margin: 0;
 }
 /* ---- post index (all posts, featured posts, related posts) ---- */
 .idx-list {

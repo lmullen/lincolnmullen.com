@@ -1,6 +1,7 @@
 ---
 date: '2026-02-10T23:11:39-05:00'
 slug: '2026-02-10-23-11-39'
+description: "Stephen Robertson's digital monograph *Harlem in Disorder* wins the American Studies Association's Ángel David Nieves Book Award, along with two honorable mentions."
 draft: false
 linkpost: https://drstephenrobertson.com/news/awards-for-harlem-in-disorder/
 ---

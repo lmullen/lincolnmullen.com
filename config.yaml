@@ -46,7 +46,10 @@ markup:
     tabWidth: 2
 
 imaging:
-  quality: 85
+  jpeg:
+    quality: 85
+  webp:
+    quality: 85
 
 params:
   # Site description: RSS/JSON feed channel description and the fallback for
@@ -61,7 +64,11 @@ params:
     day: "Jan 2" # archive rows, which are grouped under year headings
     machine: "2006-01-02" # <time datetime> attributes for date-only values
     rfc3339: "2006-01-02T15:04:05Z07:00" # full timestamps: microformats, OpenGraph
-  blogFeedTitle: "Lincoln Mullen's blog"
+  # The blog's name (the former newsletter's), used as the feed title, in the
+  # rel="alternate" links, and as the "Blog" field for Zotero citations.
+  blogFeedTitle: "Working On It"
+  # The one-line description beside the blog's name on the home page.
+  blogDescription: "A blog about religious history, digital history, and the making thereof"
   subtitle: "Historian of American religion"
   siteFeedUrl: "/blog/index.xml"
   # Buttondown's hosted signup page for the occasional digest of new posts; the

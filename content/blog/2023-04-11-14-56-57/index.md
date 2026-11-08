@@ -1,6 +1,7 @@
 ---
 date: '2023-04-11T14:56:57-04:00'
 slug: '2023-04-11-14-56-57'
+description: "An invitation to an online conversation with the Congregational Library and Archives about *America's Public Bible: A Commentary* on April 19."
 draft: false
 linkpost: https://www.congregationallibrary.org/events/americaspublicbible
 ---

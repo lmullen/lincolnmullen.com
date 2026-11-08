@@ -2,6 +2,7 @@
 title: "Working On It #8: Presbyterians—tabulated, visualized, and interpreted"
 date: "2020-12-06"
 slug: working-on-it-8
+description: "A 1927 statistical review of the Presbyterian Church tabulated and visualized a century of data, an occasion to consider the purposes that religious statistics served in the early twentieth century."
 feedid: /newsletter/8/
 draft: false
 tags:

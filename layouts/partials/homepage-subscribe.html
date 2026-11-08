@@ -1,23 +1,22 @@
 {{/* Subscribe bar — the single filled-color block. Left: the feeds and the
      Buttondown email signup page. Right: the two pages that hold everything the
-     home page's stream does not. Rendered twice on the home page, between the
-     hero and the blog and again after the last post, so the two always match.
+     home page's stream does not. Rendered twice on the home page, inside the
+     stream (so at its width): under the blog's name and again after the last
+     post, so the two always match.
      Call with a dict: class, extra classes for the section (e.g. "sb-foot"). */}}
 <section class="sb{{ with .class }} {{ . }}{{ end }}">
 	<div class="sb-grp">
 		<span class="sb-eyebrow">Subscribe</span>
 		<div class="sb-links">
-			{{ partial "feed-links.html" (dict "suffix" " feed" "sep" `<span class="dot">·</span>`) }}
-			<span class="dot">·</span>
-			<a href="{{ site.Params.emailSignupUrl }}"><i class="bi bi-envelope-fill"></i> Via email</a>
+			{{ partial "feed-links.html" (dict "sep" "") }}
+			<a href="{{ site.Params.emailSignupUrl }}"><i class="bi bi-envelope-fill"></i> Email</a>
 		</div>
 	</div>
 	<div class="sb-grp">
 		<span class="sb-eyebrow">More posts</span>
 		<div class="sb-links">
-			<a href="/blog/featured/">Featured blog posts <i class="bi bi-arrow-right"></i></a>
-			<span class="dot">·</span>
-			<a href="/archive/">All blog posts <i class="bi bi-arrow-right"></i></a>
+			<a href="/blog/featured/">Featured posts <i class="bi bi-arrow-right"></i></a>
+			<a href="/archive/">All posts <i class="bi bi-arrow-right"></i></a>
 		</div>
 	</div>
 </section>

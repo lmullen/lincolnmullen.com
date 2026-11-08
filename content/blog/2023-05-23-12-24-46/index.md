@@ -1,6 +1,7 @@
 ---
 date: "2023-05-23T12:24:46-04:00"
 slug: '2023-05-23-12-24-46'
+description: "Kathryn Gehred's women's history podcast, *Your Most Obedient & Humble Servant*, joins the R2 Studios network at RRCHNM."
 draft: false
 linkpost: https://www.r2studios.org/blog/your-most-obedient-humble-servant-joins-the-r2-studios-network/
 ---

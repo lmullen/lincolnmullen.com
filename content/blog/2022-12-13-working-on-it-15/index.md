@@ -2,6 +2,7 @@
 title: "Working On It #15: A commentary on how Americans have used the Bible"
 date: "2022-12-13"
 slug: working-on-it-15
+description: "*America's Public Bible: A Commentary*, an interactive scholarly work on how Americans used the Bible in the nineteenth and early twentieth centuries, is published today by Stanford University Press."
 feedid: /newsletter/15/
 draft: false
 tags:

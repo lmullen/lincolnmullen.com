@@ -1,7 +1,15 @@
-{{- /* Single-post metadata rail: Link / Via / Crossposted · Published (+ Updated)
-       · Subjects · Cite as, then the shared blog sidebar. Each block renders only
+{{- /* Single-post metadata rail: the blog's name and tagline · Link / Via /
+       Crossposted · Post published (+ updated) · Subjects · Cite post, then the
+       shared blog sidebar. Each block renders only
        when present. Outbound links go through ext-link.html, which keeps the
        arrow with the last word. */ -}}
+{{- /* The blog's name and tagline, as on the home page: the label on the ink
+       rule, linking to the home page where the stream lives, then the tagline
+       in italics. */}}
+<div class="blog-name">
+  <a class="lbl" href="/">{{ site.Params.blogFeedTitle }}</a>
+  <p class="desc">{{ site.Params.blogDescription }}</p>
+</div>
 {{ with .Params.Linkpost }}
 <div class="rb">
   <p class="rlbl">Link</p>
@@ -24,10 +32,10 @@
 {{ end }}
 
 <div class="rb">
-  <p class="rlbl">Published</p>
+  <p class="rlbl">Post published</p>
   <span class="rv"><time datetime="{{ .Date.Format site.Params.dateForms.rfc3339 }}">{{ .Date.Format site.Params.dateForms.long }}</time></span>
   {{ if ne (.Lastmod.Format site.Params.dateForms.machine) (.Date.Format site.Params.dateForms.machine) }}
-  <span class="upd"><i class="bi bi-clock-history"></i> Updated {{ .Lastmod.Format site.Params.dateForms.compact }}</span>
+  <span class="upd"><i class="bi bi-clock-history"></i> Post updated {{ .Lastmod.Format site.Params.dateForms.compact }}</span>
   {{ end }}
 </div>
 
@@ -42,7 +50,7 @@
 
 {{ if .Title }}
 <div class="rb">
-  <p class="rlbl">Cite as</p>
+  <p class="rlbl">Cite post</p>
   <span class="rv"><a href="#" data-bs-toggle="modal" data-bs-target="#citeModal">Suggested citation</a></span>
 </div>
 {{ end }}

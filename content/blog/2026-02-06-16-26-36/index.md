@@ -1,6 +1,7 @@
 ---
 date: '2026-02-06T16:26:36-05:00'
 slug: '2026-02-06-16-26-36'
+description: "This site has moved from Reclaim Hosting to Cloudflare, and Claude helped clean up scores of old posts migrated between blog engines."
 draft: false
 linkpost:
 ---

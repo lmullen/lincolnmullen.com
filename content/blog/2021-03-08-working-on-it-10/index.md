@@ -2,6 +2,7 @@
 title: "Working On It #10: Sneak preview"
 date: "2021-03-08"
 slug: working-on-it-10
+description: "A gallery of projects just released or underway at RRCHNM, including *Collecting These Times*, a Web Monetization module for Omeka S, DataScribe, and the expanded *America's Public Bible*, plus a job opening for a full-stack developer."
 feedid: /newsletter/10/
 draft: false
 tags:

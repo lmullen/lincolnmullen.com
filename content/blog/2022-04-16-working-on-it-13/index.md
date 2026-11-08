@@ -2,6 +2,7 @@
 title: "Working On It #13: Newsletters all the way down"
 date: "2022-04-16"
 slug: working-on-it-13
+description: "News from RRCHNM: a new newsletter on American religion, a map of urban congregations in 1926, DataScribe's 1.0 release, outcomes from Computing Cultural Heritage in the Cloud, and the Uncivil Religion project."
 feedid: /newsletter/13/
 draft: false
 tags:

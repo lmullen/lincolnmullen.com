@@ -2,6 +2,7 @@
 title: "Working On It #4: Pandemic Religion"
 date: "2020-05-17"
 slug: working-on-it-4
+description: "An introduction to *Pandemic Religion*, a digital archive collecting religious experiences of the COVID-19 pandemic, and some questions about whether moving services online is making churches less local."
 feedid: /newsletter/4/
 draft: false
 tags:

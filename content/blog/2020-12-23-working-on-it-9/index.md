@@ -2,6 +2,7 @@
 title: "Working On It #9: T.B. Blues"
 date: "2020-12-23"
 slug: working-on-it-9
+description: "Jimmie Rodgers's \"T.B. Blues\" and Johnny Cash's last song, \"Like the 309,\" as two country singers facing their own deaths, plus the release of 40,000 schedules from the 1926 Census of Religious Bodies."
 feedid: /newsletter/9/
 draft: false
 tags:

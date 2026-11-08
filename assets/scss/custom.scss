@@ -583,7 +583,7 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* About · Around the internet: two rows under the bio, each an eyebrow label in
+/* About · Elsewhere: two rows under the bio, each an eyebrow label in
    a narrow left column with its links flowing inline to the right and wrapping
    as needed. The label's cap height sits on the serif links' baseline. */
 .hero-links {
@@ -616,7 +616,7 @@ sup.footnote-ref {
   flex: none;
   font-size: 0.95rem;
 }
-/* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
+/* Elsewhere links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
 .netlinks a {
   display: inline-flex;
@@ -807,7 +807,7 @@ sup.footnote-ref {
 }
 .foot b {
   display: inline-block;
-  min-width: 3.75rem;
+  min-width: 4.75rem; /* wide enough for the longest label, Elsewhere */
   @include mono-label(var(--label-sm), 0.12em);
   color: var(--ink);
   margin-right: 0.5rem;

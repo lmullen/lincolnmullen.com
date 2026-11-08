@@ -624,23 +624,24 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 /* Dot-separated link lists (§4.9): the hero's About lines and the footer's
-   rows. A wrapping flex row whose items are the links and the middle dots
-   between them (<span class="sep">·</span>), so whitespace in the template does
-   not count and the dot sits in equal gaps; with the dot's own width the links
-   end up as far apart as the icon links in .netlinks. */
+   rows. A wrapping flex row of links; each link but the last carries a middle
+   dot after it, so whitespace in the template does not count, the dot sits in
+   equal gaps (a little closer than the icon links in .netlinks), and a wrapped
+   line never begins with a dot. */
 .dotlinks {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.4rem 0.65rem;
+  gap: 0.4rem 0.5rem;
 }
-.dotlinks .sep {
+.dotlinks a:not(:last-child)::after {
+  content: "·" / "";
+  margin-left: 0.5rem;
   color: var(--sec);
 }
 /* An address or other code-like item set in the mono voice */
 .dotlinks .tt {
   font-family: "Source Code Pro", monospace;
-  font-size: 0.9em;
 }
 /* Elsewhere links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */
@@ -856,7 +857,10 @@ sup.footnote-ref {
   }
   /* Smaller row gap: the links' padding already separates wrapped lines */
   .dotlinks {
-    gap: 0.25rem 0.55rem;
+    gap: 0.25rem 0.45rem;
+  }
+  .dotlinks a:not(:last-child)::after {
+    margin-left: 0.45rem;
   }
   .hl-lines {
     gap: 0.5rem;

@@ -5,8 +5,7 @@
 		</p>
 		<p>
 			<b>Site</b><span class="fl dotlinks">
-				{{- range $i, $e := site.Menus.main -}}
-				{{- if $i }}<span class="sep">·</span>{{ end -}}
+				{{- range $e := site.Menus.main -}}
 				<a href="{{ $e.URL }}">{{ $e.Name }}</a>
 				{{- end -}}
 			</span>
@@ -15,26 +14,25 @@
 			<b>Pages</b><span class="fl dotlinks">
 				{{- $pages := where site.RegularPages "Section" "page" -}}
 				{{- $sorted := sort $pages "Title" -}}
-				{{- range $i, $p := $sorted -}}
-				{{- if $i }}<span class="sep">·</span>{{ end -}}
+				{{- range $p := $sorted -}}
 				<a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
 				{{- end -}}
 			</span>
 		</p>
 		<p>
-			<b>Feeds</b><span class="fl dotlinks">{{ partial "feed-links.html" (dict "icons" false "sep" `<span class="sep">·</span>`) }}</span>
+			<b>Feeds</b><span class="fl dotlinks">{{ partial "feed-links.html" (dict "icons" false "sep" "") }}</span>
 		</p>
 		<p>
 			<b>Elsewhere</b><span class="fl dotlinks">
-				<a href="https://bsky.app/profile/lincolnmullen.com" rel="me">Bluesky</a><span class="sep">·</span>
-				<a href="https://github.com/lmullen" rel="me">GitHub</a><span class="sep">·</span>
-				<a href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">GMU faculty</a><span class="sep">·</span>
-				<a href="https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ" rel="me">Google Scholar</a><span class="sep">·</span>
-				<a href="https://hcommons.org/members/lmullen/" rel="me">Knowledge Commons</a><span class="sep">·</span>
-				<a href="https://www.linkedin.com/in/lincolnmullen/" rel="me">LinkedIn</a><span class="sep">·</span>
-				<a href="https://hcommons.social/@lmullen" rel="me">Mastodon</a><span class="sep">·</span>
-				<a href="https://orcid.org/0000-0001-5103-6917" rel="me">ORCID</a><span class="sep">·</span>
-				<a href="https://www.zotero.org/lmullen" rel="me">Zotero</a><span class="sep">·</span>
+				<a href="https://bsky.app/profile/lincolnmullen.com" rel="me">Bluesky</a>
+				<a href="https://github.com/lmullen" rel="me">GitHub</a>
+				<a href="https://historyarthistory.gmu.edu/people/lmullen" rel="me">GMU faculty</a>
+				<a href="https://scholar.google.com/citations?hl=en&user=qhhNmCQAAAAJ" rel="me">Google Scholar</a>
+				<a href="https://hcommons.org/members/lmullen/" rel="me">Knowledge Commons</a>
+				<a href="https://www.linkedin.com/in/lincolnmullen/" rel="me">LinkedIn</a>
+				<a href="https://hcommons.social/@lmullen" rel="me">Mastodon</a>
+				<a href="https://orcid.org/0000-0001-5103-6917" rel="me">ORCID</a>
+				<a href="https://www.zotero.org/lmullen" rel="me">Zotero</a>
 				<a href="https://gmu.zoom.us/j/8191376868?pwd=dFF5VzRXV2tpOGJQZG9LMFJmK25PZz09">Zoom</a>
 			</span>
 		</p>

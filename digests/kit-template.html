@@ -40,11 +40,13 @@
     emails themselves (Outlook on the web, Gmail's apps) need a light
     background to darken; without one, Outlook lightened the text but left
     its light pane behind it.
-  - Outlook on the web applies the dark-mode rules whenever the browser is
-    in dark mode, even when Outlook's own theme is light, so a transparent
-    background there shows its white reading pane behind light text. It
-    renames classes with an x_ prefix, so [class~="x_woi"] matches only in
-    Outlook on the web, and dark mode gives it the site's dark background.
+  - Outlook on the web applies the dark-mode rules by the browser's
+    setting rather than its own theme, and has its own dark mode, which
+    recolors the light email by itself. So the dark-mode rules use
+    attribute selectors, which Outlook (it renames classes with an x_
+    prefix) never matches. See the note on the dark-mode rules below.
+  - A mail system may float a banner above the email (an "External
+    Message" table aligned left); .woi clears it.
 
   Colors are the site's tokens (assets/scss/custom.scss):
     ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
@@ -63,8 +65,12 @@
   }
 
   /* White, for clients that darken emails themselves; transparent in dark
-     mode (below), so Apple Mail shows its own background. */
+     mode (below), so Apple Mail shows its own background. clear: both keeps
+     the email below anything a mail system floats above it, like a
+     left-aligned "External Message" banner table, which it would otherwise
+     paint its background under. */
   .woi {
+    clear: both;
     max-width: 600px;
     margin: 0 auto;
     padding: 24px 16px 32px;
@@ -288,43 +294,48 @@
     .message-content h2 { font-size: 21px !important; }
   }
 
-  /* ---- dark mode (Apple Mail, iOS Mail, Outlook for Mac): the site's dark
-     tokens. Every rule is !important to beat the inlined light colors. ---- */
+  /* ---- dark mode (Apple Mail, iOS Mail): the site's dark tokens. Every
+     rule is !important to beat the inlined light colors. The selectors are
+     attribute selectors ([class~="woi"]) rather than class selectors so that
+     they never match in Outlook on the web, which renames classes (woi
+     becomes x_woi) but leaves attribute selectors alone. Outlook applies
+     dark-mode rules by the browser's setting, not its own theme, and has its
+     own dark mode, which recolors a light email well by itself; mixing the
+     two gave light text on its light pane, or a muddy gray card. ---- */
   @media (prefers-color-scheme: dark) {
-    .woi { background-color: transparent !important; }
-    [class~="x_woi"] { background-color: #15171c !important; }
-    .woi-name { border-bottom-color: #f2f4f8 !important; }
-    .woi-name,
-    .woi-name a { color: #f2f4f8 !important; }
-    .woi-note { border-bottom-color: #545b66 !important; }
-    .woi-note p,
-    .message-content .woi-footer p { color: #9aa0ab !important; }
-    .message-content .woi-footer { border-top-color: #545b66 !important; }
-    .woi-note a,
-    .message-content .woi-footer a { color: #84aaf2 !important; }
-    .message-content .woi-footer p.woi-admin a { color: #9aa0ab !important; }
-    .message-content .woi-footer p.woi-address { color: #828a96 !important; }
-    .message-content,
-    .message-content p,
-    .message-content li,
-    .message-content td,
-    .message-content blockquote { color: #c2c7d0 !important; }
-    .message-content h1,
-    .message-content h2,
-    .message-content h3,
-    .message-content h1 a,
-    .message-content h2 a,
-    .message-content h3 a { color: #f2f4f8 !important; }
-    .message-content a { color: #84aaf2 !important; }
-    .message-content p.woi-date,
-    .message-content p.woi-date a { color: #828a96 !important; }
-    .message-content p.woi-more a,
-    .message-content a.woi-aff { color: #84aaf2 !important; }
-    .message-content .woi-more-text { border-bottom-color: #ee8b46 !important; }
-    .message-content .woi-arrow { color: #ee8b46 !important; }
-    .message-content blockquote { border-left-color: #ee8b46 !important; }
-    .message-content hr { border-top-color: #545b66 !important; }
-    .message-content code { background-color: #20242d !important; }
+    [class~="woi"] { background-color: transparent !important; }
+    [class~="woi-name"] { border-bottom-color: #f2f4f8 !important; }
+    [class~="woi-name"],
+    [class~="woi-name"] a { color: #f2f4f8 !important; }
+    [class~="woi-note"] { border-bottom-color: #545b66 !important; }
+    [class~="woi-note"] p,
+    [class~="message-content"] [class~="woi-footer"] p { color: #9aa0ab !important; }
+    [class~="message-content"] [class~="woi-footer"] { border-top-color: #545b66 !important; }
+    [class~="woi-note"] a,
+    [class~="message-content"] [class~="woi-footer"] a { color: #84aaf2 !important; }
+    [class~="message-content"] [class~="woi-footer"] p[class~="woi-admin"] a { color: #9aa0ab !important; }
+    [class~="message-content"] [class~="woi-footer"] p[class~="woi-address"] { color: #828a96 !important; }
+    [class~="message-content"],
+    [class~="message-content"] p,
+    [class~="message-content"] li,
+    [class~="message-content"] td,
+    [class~="message-content"] blockquote { color: #c2c7d0 !important; }
+    [class~="message-content"] h1,
+    [class~="message-content"] h2,
+    [class~="message-content"] h3,
+    [class~="message-content"] h1 a,
+    [class~="message-content"] h2 a,
+    [class~="message-content"] h3 a { color: #f2f4f8 !important; }
+    [class~="message-content"] a { color: #84aaf2 !important; }
+    [class~="message-content"] p[class~="woi-date"],
+    [class~="message-content"] p[class~="woi-date"] a { color: #828a96 !important; }
+    [class~="message-content"] p[class~="woi-more"] a,
+    [class~="message-content"] a[class~="woi-aff"] { color: #84aaf2 !important; }
+    [class~="message-content"] [class~="woi-more-text"] { border-bottom-color: #ee8b46 !important; }
+    [class~="message-content"] [class~="woi-arrow"] { color: #ee8b46 !important; }
+    [class~="message-content"] blockquote { border-left-color: #ee8b46 !important; }
+    [class~="message-content"] hr { border-top-color: #545b66 !important; }
+    [class~="message-content"] code { background-color: #20242d !important; }
   }
 </style>
 

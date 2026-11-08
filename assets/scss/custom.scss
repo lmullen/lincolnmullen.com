@@ -13,7 +13,6 @@ $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-stack: 640px; /* header, hero links, subscribe bar and home stream go single-column */
 $bp-hero-links: 1000px; /* homepage link columns: four → two */
-$bp-bar-wrap: 860px; /* home subscribe bar: one line above, two rows below */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -674,12 +673,12 @@ sup.footnote-ref {
   @include mono-label(var(--label-sm), 0.2em);
   color: var(--accent-soft);
 }
-/* Below the width where the bar fits on one line, its two groups wrap onto
-   two rows; a common width for the labels lines up the rows' links */
-@media (min-width: $bp-stack) and (max-width: $bp-bar-wrap) {
-  .home-stream .sb-eyebrow {
-    min-width: 6.5rem;
-  }
+/* Both labels take the width of the longer, "More posts" (10 mono characters,
+   each followed by 0.2em of tracking), so when the bar wraps onto two rows the
+   rows' links line up. It needs no breakpoint: on one line it changes nothing
+   but a character's width after "Subscribe". */
+.home-stream .sb-eyebrow {
+  min-width: calc(10ch + 2em);
 }
 .sb-links {
   display: flex;

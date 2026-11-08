@@ -1,0 +1,275 @@
+<!--
+  Kit email template for Working On It, the occasional digest of new posts
+  from lincolnmullen.com. It follows the website's design: Source Serif 4
+  (falling back to Georgia where an email client won't load web fonts),
+  ink headings, navy links, small uppercase mono dates, an orange quote
+  rule, and the cobalt band from the blog's subscribe bar.
+
+  To install: in Kit, go to Email Templates → New Email Template → Create
+  HTML Template, paste this whole file into the code editor, name it
+  "Working On It", and save. Then choose it for each digest broadcast (or
+  set it as the default from the template's ⋯ menu).
+
+  Kit requires three Liquid tags: message_content (where the email's text
+  goes), an unsubscribe link, and the mailing address; all three are in
+  the markup below. Don't write Liquid tags with their braces in this
+  comment: Kit fills them in even inside comments. Like Kit's own
+  templates, this is a fragment: Kit supplies the <html>, <head>, and
+  <body>.
+
+  Colors are the site's tokens (assets/scss/custom.scss):
+    ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
+    orange #e07a2e, rule #d4d6dc, cobalt #1b54c0, accent-soft #ffc79c.
+-->
+<style>
+  /* Apple Mail and iOS Mail load this; other clients ignore it and use Georgia. */
+  @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Code+Pro:wght@600&display=swap");
+
+  :root {
+    color-scheme: light dark;
+    supported-color-schemes: light dark;
+  }
+
+  .woi {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 16px 32px;
+    background-color: #ffffff;
+  }
+
+  /* ---- the cobalt band ---- */
+  .woi-band {
+    width: 100%;
+    border-collapse: separate;
+    background-color: #1b54c0;
+    border-radius: 6px;
+    margin: 0 0 28px;
+  }
+  .woi-band td {
+    padding: 18px 24px;
+  }
+  .woi-eyebrow {
+    font: 600 12px/1.2 "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffc79c;
+    margin: 0 0 6px;
+  }
+  .woi-tagline {
+    font: 400 17px/1.35 "Source Serif 4", Georgia, "Times New Roman", serif;
+    color: #ffffff;
+    margin: 0;
+  }
+  .woi-tagline a {
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+
+  /* ---- body text ---- */
+  .message-content,
+  .message-content p,
+  .message-content li,
+  .message-content td {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #1a1a1a;
+  }
+  .message-content p {
+    margin: 0 0 16px;
+  }
+  .message-content ul,
+  .message-content ol {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+  .message-content li {
+    margin: 0 0 6px;
+  }
+  .message-content a {
+    color: #1b54c0;
+    text-decoration: underline;
+    text-decoration-color: #d4d6dc;
+    text-underline-offset: 2px;
+  }
+  .message-content strong {
+    font-weight: 600;
+  }
+
+  /* ---- headings: a post's title, linked to the post ---- */
+  .message-content h1,
+  .message-content h2,
+  .message-content h3 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #16203a;
+  }
+  .message-content h1 {
+    font-size: 28px;
+    margin: 8px 0 12px;
+  }
+  .message-content h2 {
+    font-size: 24px;
+    margin: 8px 0 6px;
+  }
+  .message-content h3 {
+    font-size: 20px;
+    margin: 24px 0 8px;
+  }
+  .message-content h1 a,
+  .message-content h2 a,
+  .message-content h3 a {
+    color: #16203a !important;
+    text-decoration: none !important;
+  }
+
+  /* ---- dates: the line below a post's title, and a note's bold date ----
+     Small uppercase mono in the muted gray, as in the blog's post lists. */
+  .message-content h2 + p,
+  .message-content h2 + p a,
+  .message-content h2 + div p,
+  .message-content h2 + div p a,
+  .message-content p > strong:only-child > a {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #878d99 !important;
+    text-decoration: none !important;
+  }
+  .message-content h2 + p,
+  .message-content h2 + div p {
+    margin-bottom: 14px;
+  }
+
+  /* ---- quotes: one orange rule ---- */
+  .message-content blockquote,
+  .message-content .blockquotes {
+    margin: 24px 0;
+    padding: 0 0 0 20px;
+    border-left: 2px solid #e07a2e;
+    font-style: normal;
+    color: #1a1a1a;
+  }
+  .message-content .blockquotes-line {
+    background-color: #e07a2e;
+  }
+  .message-content blockquote p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ---- images, rules, code ---- */
+  .message-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 16px 0;
+    border-radius: 6px;
+  }
+  .message-content hr {
+    border: 0;
+    border-top: 1px solid #d4d6dc;
+    height: 0;
+    margin: 32px 0;
+  }
+  .message-content code {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 15px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    padding: 1px 5px;
+  }
+  .message-content sup {
+    font-size: 12px;
+    line-height: 0;
+  }
+
+  /* ---- footer ---- */
+  .woi-footer {
+    margin-top: 36px;
+    padding-top: 16px;
+    border-top: 1px solid #d4d6dc;
+  }
+  .woi-footer p {
+    font: 400 14px/1.5 "Source Serif 4", Georgia, "Times New Roman", serif;
+    color: #5a5e66;
+    margin: 0 0 6px;
+  }
+  .woi-footer a {
+    color: #5a5e66 !important;
+    text-decoration: underline;
+    text-decoration-color: #d4d6dc;
+  }
+  .woi-footer .woi-address {
+    color: #878d99;
+  }
+
+  /* ---- small screens ---- */
+  @media (max-width: 480px) {
+    .woi { padding: 16px 12px 24px; }
+    .woi-band td { padding: 14px 18px; }
+    .message-content,
+    .message-content p,
+    .message-content li { font-size: 17px; }
+    .message-content h2 { font-size: 21px; }
+  }
+
+  /* ---- dark mode (Apple Mail, iOS Mail, Outlook for Mac): the site's dark
+     tokens; the band stays cobalt, as on the site ---- */
+  @media (prefers-color-scheme: dark) {
+    .woi { background-color: #15171c !important; }
+    .message-content,
+    .message-content p,
+    .message-content li,
+    .message-content td,
+    .message-content blockquote,
+    .message-content .blockquotes { color: #c2c7d0 !important; }
+    .message-content h1,
+    .message-content h2,
+    .message-content h3,
+    .message-content h1 a,
+    .message-content h2 a,
+    .message-content h3 a { color: #f2f4f8 !important; }
+    .message-content a { color: #84aaf2 !important; text-decoration-color: #545b66; }
+    .message-content h2 + p,
+    .message-content h2 + p a,
+    .message-content h2 + div p,
+    .message-content h2 + div p a,
+    .message-content p > strong:only-child > a { color: #828a96 !important; }
+    .message-content blockquote,
+    .message-content .blockquotes { border-left-color: #ee8b46 !important; }
+    .message-content hr,
+    .woi-footer { border-top-color: #2a2e37 !important; }
+    .message-content code { background-color: #20242d !important; }
+    .woi-footer p,
+    .woi-footer a { color: #9aa0ab !important; }
+    .woi-footer .woi-address { color: #828a96 !important; }
+  }
+</style>
+
+<!--[if mso]><center><table><tr><td width="600"><![endif]-->
+<div class="woi">
+
+  <table class="woi-band" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1b54c0">
+    <tr>
+      <td>
+        <p class="woi-eyebrow">Working On It</p>
+        <p class="woi-tagline"><a href="https://lincolnmullen.com">Lincoln Mullen</a></p>
+      </td>
+    </tr>
+  </table>
+
+  <div class="message-content">
+    {{ message_content }}
+
+    <div class="woi-footer">
+      <p><a href="{{ unsubscribe_url }}">Unsubscribe</a> · <a href="{{ subscriber_preferences_url }}">Update your preferences</a> · <a href="https://lincolnmullen.com/">lincolnmullen.com</a></p>
+      <p class="woi-address">{{ address }}</p>
+    </div>
+  </div>
+
+</div>
+<!--[if mso]></td></tr></table></center><![endif]-->

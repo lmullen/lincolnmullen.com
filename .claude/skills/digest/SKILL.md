@@ -59,6 +59,6 @@ Commands:
    - The subject line and preview text, ready to copy.
    - The included posts.
    - The full path of the `.html` file. The repo is mounted from the user's Mac, so they can open it there.
-   - How to send it: open the `.html` in a browser, select all, copy, and paste into a new Kit broadcast that uses a Classic template. Set the subject and preview text. Leave the broadcast **not public**: issues are not posted to Kit's web archive. Send a test email before sending to everyone.
+   - How to send it: open the `.html` in a browser, select all, copy, and paste into a new Kit broadcast that uses the "Working On It" HTML email template (`digests/kit-template.html`, installed in Kit). The template supplies the band, fonts, colors, and the unsubscribe footer, so pasting carries over only the content. Set the subject and preview text. Leave the broadcast **not public**: issues are not posted to Kit's web archive. Send a test email before sending to everyone.
 
 8. **Commit.** Once the user says the issue is final, commit the `.md` file. The `.html` is ignored by git. Issues aren't published on the site, so commit on whatever branch the user is on unless they ask otherwise, and don't push `main` without asking. If the user edited the text in Kit after pasting, ask whether to bring those edits back into the `.md` so the archive matches what was sent.

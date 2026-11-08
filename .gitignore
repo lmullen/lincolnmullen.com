@@ -17,3 +17,4 @@ resources/_gen/*
 
 # Rendered newsletter issues (generated for pasting into Kit)
 digests/*.html
+!digests/kit-template.html

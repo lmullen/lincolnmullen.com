@@ -15,4 +15,4 @@ As a PI or co-PI at RRCHNM, he has received over $3.4 million in external grants
 
 He received his PhD in American history from Brandeis University in 2014, and joined George Mason University that same year. From 2019 to 2022 he was a fellow in the Young Scholars in American Religion program at the Center for the Study of Religion and American Culture.
 
-He shares his life with his two children and his partner, a nurse (and soon, a nurse practitioner). He splits his time between Annandale, Virginia, and West Chester, Pennsylvania.
+He shares his life with his two children and his partner, a nurse (and soon, nurse practitioner). He splits his time between Annandale, Virginia, and West Chester, Pennsylvania.

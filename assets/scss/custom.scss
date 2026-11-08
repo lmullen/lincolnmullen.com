@@ -12,7 +12,6 @@ $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-stack: 640px; /* header, hero links, subscribe bar and home stream go single-column */
-$bp-hero-links: 1000px; /* homepage link columns: four → two */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -544,12 +543,11 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* Hero: the statement, the biography, and the link columns, closed by the ink rule.
-   The header above it is the shared .sitehead. */
+/* Hero: the statement and the link rows. The header above it is the shared
+   .sitehead; below, the blog's own section rule separates it from the stream. */
 .hero {
-  padding: 0.5rem 0 2rem;
-  margin-bottom: 1.75rem;
-  border-bottom: 1px solid var(--ink);
+  padding: 0.5rem 0 0;
+  margin-bottom: 3rem;
 }
 
 /* Statement / display serif (§4.3) */
@@ -584,51 +582,71 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* About · Contact · Around the internet: four columns under the bio. About and
-   Contact take one each; the netlinks span the last two as a two-column list. */
+/* About · Elsewhere: two rows under the statement, each an eyebrow label in a
+   narrow left column with its links flowing inline to the right and wrapping as
+   needed. The label's caps sit on the serif links' baseline. */
 .hero-links {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.25rem 2rem;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: start;
+  gap: 0.75rem 1.75rem;
   margin-top: 1.5rem;
 }
+/* The label takes the links' line box (--prose-sm at 1.3), then drops 2px so
+   its caps sit on the serif baseline. Grid baseline alignment is no use here:
+   in the Elsewhere row it would follow each link's logo, not its text. */
 .hero-links .ey {
-  display: block;
-  margin-bottom: 0.6rem;
+  line-height: calc(var(--prose-sm) * 1.3);
+  translate: 0 0.125rem;
 }
-.hero-links .netwrap {
-  grid-column: span 2;
+.netlinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1.6rem;
 }
-.contact {
+/* About: two .dotlinks lines (the personal links, then the affiliations),
+   spaced like wrapped lines within a row */
+.hl-lines {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  font-size: var(--prose-sm); /* the line box the label aligns to */
+  line-height: 1.3;
 }
-.contact a {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
+.hl-lines p {
+  margin: 0;
+}
+.hl-lines a {
   @include serif-ui-link;
 }
-.contact a:hover {
+.hl-lines a:hover {
   color: var(--orange-text);
 }
-.contact i {
-  width: 1.1rem;
-  text-align: center;
-  color: var(--mut);
-  flex: none;
-  font-size: 0.95rem;
-}
-/* Around-the-internet links (§4.9). iconStyle: brand → each <a> sets
-   --bc:<hex>; .netlinks.mono forces every logo to --mut. */
-.netlinks {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.4rem 1.5rem;
-}
-.netlinks a {
+/* Dot-separated link lists (§4.9): the hero's About lines and the footer's
+   rows. A wrapping flex row of links; each link but the last carries a middle
+   dot after it, so whitespace in the template does not count, the dot sits in
+   equal gaps (a little closer than the icon links in .netlinks), and a wrapped
+   line never begins with a dot. */
+.dotlinks {
   display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.5rem;
+}
+.dotlinks a:not(:last-child)::after {
+  content: "·" / "";
+  margin-left: 0.5rem;
+  color: var(--sec);
+}
+/* An address or other code-like item set in the mono voice */
+.dotlinks .tt {
+  font-family: "Source Code Pro", monospace;
+}
+/* Elsewhere links (§4.9). iconStyle: brand → each <a> sets
+   --bc:<hex>; .netlinks.mono forces every logo to --mut. */
+.netlinks a {
+  display: inline-flex;
   align-items: center;
   gap: 0.55rem;
   @include serif-ui-link;
@@ -816,21 +834,13 @@ sup.footnote-ref {
 }
 .foot b {
   display: inline-block;
-  min-width: 3.75rem;
+  min-width: 4.75rem; /* wide enough for the longest label, Elsewhere */
   @include mono-label(var(--label-sm), 0.12em);
   color: var(--ink);
   margin-right: 0.5rem;
 }
 
 /* ===== responsive (§5) ===== */
-@media (max-width: $bp-hero-links) {
-  /* Four columns are too tight for the email addresses: About and Contact
-     share a row, the netlinks run full width below in their two columns. */
-  .hero-links {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.4rem 2rem;
-  }
-}
 @media (max-width: $bp-mobile) {
   .main-container {
     padding: 1.75rem 1.2rem 3rem;
@@ -838,20 +848,29 @@ sup.footnote-ref {
   .statement {
     font-size: 1.9rem;
   }
+  /* Roomier tap targets as the rows start to wrap */
   .hero-links {
-    gap: 1.4rem 1.5rem;
-  }
-  .contact {
-    gap: 0.65rem;
-  }
-  .contact a {
-    padding: 0.25rem 0;
+    gap: 0.9rem 1.5rem;
   }
   .netlinks {
-    gap: 0.7rem 1.5rem;
+    gap: 0.5rem 1.4rem;
   }
+  /* Smaller row gap: the links' padding already separates wrapped lines */
+  .dotlinks {
+    gap: 0.25rem 0.45rem;
+  }
+  .dotlinks a:not(:last-child)::after {
+    margin-left: 0.45rem;
+  }
+  .hl-lines {
+    gap: 0.5rem;
+  }
+  .dotlinks a,
   .netlinks a {
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
+  }
+  .hero-links .ey {
+    padding-top: 0.2rem; /* keep the label on the padded links' baseline */
   }
 }
 @media (max-width: $bp-stack) {
@@ -871,15 +890,18 @@ sup.footnote-ref {
   .bio-p {
     font-size: 1rem;
   }
-  /* One column: nothing wraps mid-label */
+  /* One column: each label sits above its links, with a wider gap between the
+     two groups than between a label and its own links */
   .hero-links {
     grid-template-columns: minmax(0, 1fr);
+    gap: 0.6rem;
   }
-  .hero-links .netwrap {
-    grid-column: auto;
+  .hero-links .ey {
+    padding-top: 0;
+    translate: none;
   }
-  .netlinks {
-    grid-template-columns: minmax(0, 1fr);
+  .hero-links .ey + div {
+    margin-bottom: 0.6rem;
   }
   /* The bar stacks: eyebrow, then each link on its own line */
   .sb {

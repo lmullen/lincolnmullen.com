@@ -76,7 +76,7 @@ params:
   emailSignupAction: "https://app.kit.com/forms/10160200/subscriptions"
   # How many of the most recent blog posts the home page shows.
   homePosts: 15
-  # "Around the internet" social icons: brand (official colors) | monochrome (--mut)
+  # "Elsewhere" social icons: brand (official colors) | monochrome (--mut)
   iconStyle: brand
   author:
     name: "Lincoln Mullen"

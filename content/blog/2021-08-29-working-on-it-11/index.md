@@ -1,5 +1,5 @@
 ---
-title: "Working on It #11: The stack"
+title: "Working On It #11: The stack"
 date: "2021-08-29"
 slug: working-on-it-11
 description: "Updates on the forthcoming version of *America's Public Bible*, which is structured like Robert Darnton's layered pyramid of an e-book, and on joining Computing Cultural Heritage in the Cloud at LC Labs."

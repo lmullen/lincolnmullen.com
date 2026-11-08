@@ -1,5 +1,5 @@
 ---
-title: "Working on It #2: Teaching computational history"
+title: "Working On It #2: Teaching computational history"
 date: "2020-01-22"
 slug: working-on-it-2
 description: "How a course on computational history for GMU PhD students has changed over six iterations, shifting from teaching programming toward teaching historical methods and argument."
@@ -13,7 +13,7 @@ tags:
 - R
 ---
 
-Greetings. And welcome back to *Working on It*.
+Greetings. And welcome back to *Working On It*.
 
 <!--more-->
 

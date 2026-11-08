@@ -1,5 +1,5 @@
 ---
-title: "Working on It #1: Love letter to the IndieWeb"
+title: "Working On It #1: Love letter to the IndieWeb"
 date: "2019-11-30"
 slug: working-on-it-1
 feedid: /newsletter/1/

@@ -1,5 +1,5 @@
 ---
-title: "Working on It #3: Programming in D3 and the Pilgrims"
+title: "Working On It #3: Programming in D3 and the Pilgrims"
 date: "2020-04-05"
 slug: working-on-it-3
 description: "Relearning D3.js and modern JavaScript for interactive visualizations that feel close to the material, plus a review of John Turner's history of Plymouth Colony, *They Knew They Were Pilgrims*."
@@ -12,7 +12,7 @@ tags:
 - programming
 ---
 
-Greetings. And welcome back to *Working on It*.
+Greetings. And welcome back to *Working On It*.
 
 <!--more-->
 

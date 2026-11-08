@@ -1,5 +1,5 @@
 ---
-title: "Working on It #5: YouTube influencer"
+title: "Working On It #5: YouTube influencer"
 date: "2020-06-07"
 slug: working-on-it-5
 description: "The *American Religious Ecologies* team releases an interactive map of Catholic dioceses in North America, along with videos of a talk on the digital history of American religion and a Library of Congress panel on the Bible in public life."
@@ -13,7 +13,7 @@ tags:
 - spatial history
 ---
 
-Greetings. And welcome back to *Working on It*.
+Greetings. And welcome back to *Working On It*.
 
 <!--more-->
 

@@ -36,7 +36,7 @@ tags:
 
 | Tag | Use for |
 |-----|---------|
-| `newsletter` | Former issues of the *Working on It* newsletter, now blog posts titled "Working on It #<n>: …". Do not add to new posts. |
+| `newsletter` | Former issues of the *Working On It* newsletter, now blog posts titled "Working On It #<n>: …". Do not add to new posts. |
 
 ### Method/approach tags
 

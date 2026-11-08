@@ -3,7 +3,8 @@
   from lincolnmullen.com. It follows the website's design: Source Serif 4
   (falling back to Georgia where an email client won't load web fonts),
   ink headings, navy links, small uppercase mono dates, an orange quote
-  rule, and the cobalt band from the blog's subscribe bar.
+  rule, and the blog's name and tagline as they head the home page's
+  stream of posts.
 
   To install: in Kit, go to Email Templates → New Email Template → Create
   HTML Template, paste this whole file into the code editor, name it
@@ -19,7 +20,7 @@
 
   Colors are the site's tokens (assets/scss/custom.scss):
     ink #16203a, body #1a1a1a, sec #5a5e66, mut #878d99, navy #1b54c0,
-    orange #e07a2e, rule #d4d6dc, cobalt #1b54c0, accent-soft #ffc79c.
+    orange #e07a2e, rule #d4d6dc.
 -->
 <style>
   /* Apple Mail and iOS Mail load this; other clients ignore it and use Georgia. */
@@ -37,32 +38,34 @@
     background-color: #ffffff;
   }
 
-  /* ---- the cobalt band ---- */
-  .woi-band {
+  /* ---- the blog's name and tagline, as they head the home page's stream:
+     the name as a section label (mono, uppercase, tracked, ink) and the
+     tagline in italics in the secondary voice, both on the 1px ink rule
+     (.shead.stream-head in assets/scss/custom.scss). An email is too
+     narrow for both on one line, so the tagline sits below the name, as on
+     the home page when the two wrap. A table rather than flexbox, which
+     email clients don't support reliably. ---- */
+  .woi-head {
     width: 100%;
-    border-collapse: separate;
-    background-color: #1b54c0;
-    border-radius: 6px;
-    margin: 0 0 28px;
+    border-collapse: collapse;
+    margin: 8px 0 28px;
   }
-  .woi-band td {
-    padding: 18px 24px;
-  }
-  .woi-eyebrow {
-    font: 600 12px/1.2 "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
-    letter-spacing: 0.2em;
+  .woi-name,
+  .woi-name a {
+    font: 600 15px/1 "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #ffc79c;
-    margin: 0 0 6px;
+    color: #16203a !important;
+    text-decoration: none !important;
   }
-  .woi-tagline {
-    font: 400 17px/1.35 "Source Serif 4", Georgia, "Times New Roman", serif;
-    color: #ffffff;
-    margin: 0;
+  .woi-name {
+    padding: 0 0 8px;
   }
-  .woi-tagline a {
-    color: #ffffff !important;
-    text-decoration: none;
+  .woi-desc {
+    font: italic 400 16px/1.3 "Source Serif 4", Georgia, "Times New Roman", serif;
+    color: #5a5e66;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #16203a;
   }
 
   /* ---- body text ---- */
@@ -210,7 +213,6 @@
   /* ---- small screens ---- */
   @media (max-width: 480px) {
     .woi { padding: 16px 12px 24px; }
-    .woi-band td { padding: 14px 18px; }
     .message-content,
     .message-content p,
     .message-content li { font-size: 17px; }
@@ -218,9 +220,13 @@
   }
 
   /* ---- dark mode (Apple Mail, iOS Mail, Outlook for Mac): the site's dark
-     tokens; the band stays cobalt, as on the site ---- */
+     tokens ---- */
   @media (prefers-color-scheme: dark) {
     .woi { background-color: #15171c !important; }
+    .woi-desc { border-bottom-color: #f2f4f8 !important; }
+    .woi-name,
+    .woi-name a { color: #f2f4f8 !important; }
+    .woi-desc { color: #9aa0ab !important; }
     .message-content,
     .message-content p,
     .message-content li,
@@ -253,12 +259,12 @@
 <!--[if mso]><center><table><tr><td width="600"><![endif]-->
 <div class="woi">
 
-  <table class="woi-band" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1b54c0">
+  <table class="woi-head" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
     <tr>
-      <td>
-        <p class="woi-eyebrow">Working On It</p>
-        <p class="woi-tagline"><a href="https://lincolnmullen.com">Lincoln Mullen</a></p>
-      </td>
+      <td class="woi-name"><a href="https://lincolnmullen.com/">Working On It</a></td>
+    </tr>
+    <tr>
+      <td class="woi-desc">A blog about religious history, digital history, and the making thereof</td>
     </tr>
   </table>
 

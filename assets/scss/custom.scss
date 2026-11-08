@@ -1144,6 +1144,22 @@ a.pill:hover {
   content: "→";
   margin-left: 0.4rem;
 }
+/* The blog's name and tagline atop the blog part of a post's rail: the section
+   label (§4.2) on the ink rule, then the tagline in italics, as on the home page. */
+.bs-name .lbl {
+  @include section-label;
+  font-size: var(--label-lg);
+  margin-bottom: 0.6rem;
+  text-decoration: none;
+}
+.bs-name .lbl:hover {
+  color: var(--orange-text);
+}
+.bs-name .desc {
+  font: italic 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
+  color: var(--sec);
+  margin: 0;
+}
 /* ---- post index (all posts, featured posts, related posts) ---- */
 .idx-list {
   margin-top: 1.3rem;

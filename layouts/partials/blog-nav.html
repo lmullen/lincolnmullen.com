@@ -1,11 +1,21 @@
-{{- /* Shared blog sidebar (.bs): Navigate and the cobalt subscribe box. Reused by
+{{- /* Shared blog sidebar (.bs): Navigate and the cobalt subscribe box (and, on
+       single posts, the blog's name and tagline above them). Reused by
        the archive and featured pages, and embedded in post-sidebar.html for
        single posts, where the box comes first so it sits between the post's
        metadata and the navigation. The current page is marked .on (singles
        match nothing). Always call with the page context: `. */ -}}
 {{- $single := and (eq .Kind "page") (eq .Section "blog") -}}
 <div class="bs">
-  {{ if $single }}{{ partial "subscribe-box.html" . }}{{ end }}
+  {{ if $single }}
+  {{- /* On a post, the blog's name and tagline head the blog's part of the
+         rail, as on the home page: the label on the ink rule, the tagline in
+         italics. The name links to the home page, where the stream lives. */}}
+  <div class="bs-name">
+    <a class="lbl" href="/">{{ site.Params.blogFeedTitle }}</a>
+    <p class="desc">{{ site.Params.blogDescription }}</p>
+  </div>
+  {{ partial "subscribe-box.html" . }}
+  {{ end }}
   <div>
     <p class="rlbl">Navigate</p>
     <div class="bs-nav">

@@ -11,7 +11,7 @@
 $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
-$bp-stack: 640px; /* header, hero links, subscribe bar and home stream go single-column */
+$bp-stack: 640px; /* header, hero links and home stream go single-column; subscribe bar goes two-column */
 
 /* The mono label voice (§4.1): the uppercase Source Code Pro kicker used
    for eyebrows, section labels, metalines, dates, buttons, and pills. */
@@ -903,11 +903,13 @@ sup.footnote-ref {
   .hero-links .ey + div {
     margin-bottom: 0.6rem;
   }
-  /* The bar stacks: eyebrow, then each link on its own line */
+  /* The bar's two groups sit side by side as two equal columns; inside each,
+     the eyebrow sits above the links, one link per line */
   .sb {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.9rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 0.9rem 1.25rem;
     padding: 1rem 1.1rem;
   }
   .sb-grp,

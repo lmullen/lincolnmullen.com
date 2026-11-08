@@ -19,19 +19,18 @@
 
   How Kit treats this file, which shapes the rules below:
 
+  - Each issue goes into a Kit HTML block: the digest helper's render
+    command writes the issue's HTML (digests/<issue>.kit.html) without
+    styles, and these rules style it. The helper marks the lines it adds
+    with classes: woi-date (a post's date), woi-more ("Read the post →"),
+    and woi-links (the Link / Via / Crossposted line, of woi-aff links).
   - Kit copies these rules into each element's style attribute when it
     sends (only media queries stay in a style block). An inlined
     !important beats everything, including the dark-mode rules, so light-
     mode colors never use !important; dark-mode colors always do.
-  - The email's text is pasted into Kit's editor, which drops classes and
-    the formatting around whole links, and wraps the text in a table. So
-    the only hooks are elements and position: a date is the paragraph
-    right after a title (h2) or a separator (hr).
-  - Kit writes a quote as div.blockquotes (with its own inline gray left
-    border, which the rules here override) around div.blockquotes-line.
   - Links aren't underlined. Gmail ignores the underline color and offset
     that make the website's hairline underline, so it would show a plain
-    one.
+    one. "Read the post" has the website's orange rule, drawn as a border.
   - Backgrounds: the email sets a white background, and dark mode makes it
     transparent. Clients that read the dark-mode rules (Apple Mail) then
     show their own dark background behind light text. Clients that darken
@@ -177,49 +176,63 @@
     color: #16203a;
   }
 
-  /* ---- dates, below a post's title and atop a note: small uppercase mono
-     in the muted gray, as in the blog's post lists. Kit keeps no marks to
-     hook them by, so they're selected by position: the paragraph right
-     after a title, and the one right after a separator (each post starts
-     after a rule). ---- */
-  .message-content h2 + p,
-  .message-content h2 + p a,
-  .message-content hr + p,
-  .message-content hr + p a {
-    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    font-style: normal !important;
+  /* ---- dates (p.woi-date), below a post's title and atop a note: small
+     uppercase mono in the muted gray, as in the blog's post lists ---- */
+  .message-content p.woi-date {
+    margin: 0 0 14px;
+  }
+  .message-content p.woi-date,
+  .message-content p.woi-date a {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 13px;
+    font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #878d99;
   }
-  .message-content h2 + p,
-  .message-content hr + p {
-    margin-bottom: 14px;
-  }
 
-  /* ---- quotes: one orange rule. Kit's quote is div.blockquotes with its
-     own inline border; !important beats it (and so the rule stays the same
-     orange in dark mode, where it reads fine). ---- */
-  .message-content blockquote,
-  .message-content .blockquotes {
-    margin: 24px 0 !important;
-    padding: 0 0 0 20px !important;
-    border-left: 2px solid #e07a2e !important;
-    background: none !important;
+  /* ---- "Read the post →" (p.woi-more): the website's read-more action,
+     semibold navy serif with the words on a 2px orange rule and an orange
+     arrow ---- */
+  .message-content p.woi-more {
+    margin: 4px 0 16px;
   }
-  .message-content blockquote,
-  .message-content .blockquotes,
-  .message-content .blockquotes-line {
+  .message-content p.woi-more a {
     font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
     font-size: 18px;
-    font-style: normal;
-    line-height: 1.55;
-    color: #1a1a1a;
+    font-weight: 600;
+    color: #1b54c0;
   }
-  .message-content .blockquotes-line {
-    padding: 0 0 8px;
+  .message-content .woi-more-text {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #e07a2e;
+  }
+
+  /* ---- Link / Via / Crossposted (p.woi-links, a.woi-aff): small uppercase
+     mono in navy with an orange arrow, as the website sets them ---- */
+  .message-content p.woi-links {
+    margin: 4px 0 16px;
+  }
+  .message-content a.woi-aff {
+    font-family: "Source Code Pro", ui-monospace, Menlo, Consolas, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1b54c0;
+    margin-right: 18px;
+  }
+  .message-content .woi-arrow {
+    color: #b0561a;
+  }
+
+  /* ---- quotes: one orange rule ---- */
+  .message-content blockquote {
+    margin: 24px 0;
+    padding: 0 0 0 20px;
+    border-left: 2px solid #e07a2e;
+    font-style: normal;
+    color: #1a1a1a;
   }
   .message-content blockquote p:last-child {
     margin-bottom: 0;
@@ -256,8 +269,7 @@
     .woi { padding: 16px 12px 24px !important; }
     .message-content,
     .message-content p,
-    .message-content li,
-    .message-content .blockquotes-line { font-size: 17px !important; }
+    .message-content li { font-size: 17px !important; }
     .message-content h2 { font-size: 21px !important; }
   }
 
@@ -280,9 +292,7 @@
     .message-content p,
     .message-content li,
     .message-content td,
-    .message-content blockquote,
-    .message-content .blockquotes,
-    .message-content .blockquotes-line { color: #c2c7d0 !important; }
+    .message-content blockquote { color: #c2c7d0 !important; }
     .message-content h1,
     .message-content h2,
     .message-content h3,
@@ -290,10 +300,13 @@
     .message-content h2 a,
     .message-content h3 a { color: #f2f4f8 !important; }
     .message-content a { color: #84aaf2 !important; }
-    .message-content h2 + p,
-    .message-content h2 + p a,
-    .message-content hr + p,
-    .message-content hr + p a { color: #828a96 !important; }
+    .message-content p.woi-date,
+    .message-content p.woi-date a { color: #828a96 !important; }
+    .message-content p.woi-more a,
+    .message-content a.woi-aff { color: #84aaf2 !important; }
+    .message-content .woi-more-text { border-bottom-color: #ee8b46 !important; }
+    .message-content .woi-arrow { color: #ee8b46 !important; }
+    .message-content blockquote { border-left-color: #ee8b46 !important; }
     .message-content hr { border-top-color: #545b66 !important; }
     .message-content code { background-color: #20242d !important; }
   }

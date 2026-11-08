@@ -1,6 +1,6 @@
 // Command digest is the helper for the digest skill. It lists posts
 // published since the last issue of Working On It, converts a post to
-// email-ready Markdown, and renders an issue to HTML for pasting into Kit.
+// email-ready Markdown, and renders an issue to HTML for a Kit HTML block.
 //
 // Run it from anywhere in the repository:
 //
@@ -17,7 +17,9 @@
 //	item <dir>      Print a post as email-ready Markdown, as the website shows
 //	                it: the text before <!--more--> plus a link to the full
 //	                post if there is a break, otherwise the whole post.
-//	render <issue>  Write <issue>.html next to the issue's Markdown file.
+//	render <issue>  Write <issue>.kit.html (the issue's HTML, to paste into a
+//	                Kit HTML block) and <issue>.preview.html (that HTML in the
+//	                Kit template, to view in a browser) next to the issue.
 package main
 
 import (
@@ -431,34 +433,45 @@ func item(dir string) (string, error) {
 	})
 	text = absoluteLinks(footnotes(text), permalink)
 
+	// The lines the helper adds are written as HTML with classes, which the
+	// Kit template (digests/kit-template.html) styles: the issue is pasted
+	// into a Kit HTML block, which keeps them. Each is its own HTML block in
+	// the Markdown, so it needs blank lines around it.
+	//
 	// The date is written as the blog writes it (its "long" date form) and
 	// links to the post. It goes below a titled post's heading and atop an
-	// untitled note, right after the separator. The Kit template styles it
-	// by that position, since Kit's editor drops classes and marks on paste.
+	// untitled note.
 	var b strings.Builder
-	dateLink := fmt.Sprintf("[%s](%s)", date.Format(longDate), permalink)
 	if fm.Title != "" {
 		fmt.Fprintf(&b, "## [%s](%s)\n\n", fm.Title, permalink)
 	}
-	b.WriteString(dateLink + "\n\n")
+	fmt.Fprintf(&b, "<p class=\"woi-date\"><a href=\"%s\">%s</a></p>\n\n",
+		html.EscapeString(permalink), date.Format(longDate))
 	b.WriteString(text + "\n\n")
+	// The read-more action, as the website sets it: the words on an orange
+	// rule, then an orange arrow.
 	if truncated {
-		fmt.Fprintf(&b, "[Read the post →](%s)\n\n", permalink)
+		fmt.Fprintf(&b, "<p class=\"woi-more\"><a href=\"%s\"><span class=\"woi-more-text\">Read the post</span> <span class=\"woi-arrow\">→</span></a></p>\n\n",
+			html.EscapeString(permalink))
 	}
 	// As on the blog, the post's outside links go in one line after the
 	// post, each as a labeled link rather than a bare URL.
 	var links []string
+	aff := func(label, u string) string {
+		return fmt.Sprintf("<a class=\"woi-aff\" href=\"%s\">%s <span class=\"woi-arrow\">→</span></a>",
+			html.EscapeString(u), label)
+	}
 	if fm.Linkpost != "" {
-		links = append(links, fmt.Sprintf("[Link →](%s)", fm.Linkpost))
+		links = append(links, aff("Link", fm.Linkpost))
 	}
 	if fm.Via != "" {
-		links = append(links, fmt.Sprintf("[Via →](%s)", fm.Via))
+		links = append(links, aff("Via", fm.Via))
 	}
 	if cp := fm.Crosspost; cp != nil && cp.URL != "" {
-		links = append(links, fmt.Sprintf("[Crossposted →](%s)", cp.URL))
+		links = append(links, aff("Crossposted", cp.URL))
 	}
 	if len(links) > 0 {
-		b.WriteString(strings.Join(links, " · ") + "\n")
+		b.WriteString("<p class=\"woi-links\">" + strings.Join(links, " ") + "</p>\n")
 	}
 	return strings.TrimRight(b.String(), "\n") + "\n", nil
 }
@@ -505,17 +518,23 @@ func items(dirs []string) (string, error) {
 	return strings.Join(parts, separator), nil
 }
 
-// Inline styles, since email clients ignore most external and <head> CSS.
-var styles = []struct{ tag, style string }{
-	{"h2", "font-size:20px;line-height:1.3;margin:32px 0 8px;"},
-	{"img", "max-width:100%;height:auto;display:block;margin:16px 0;"},
-	{"blockquote", "margin:16px 0;padding-left:16px;border-left:3px solid #ccc;color:#555;"},
-}
+// kitTemplate is the Kit email template the issue is sent with. render uses
+// it only for the preview; in Kit, the template wraps the pasted fragment.
+const kitTemplate = digests + "/kit-template.html"
 
-func render(path string) (string, error) {
+// render converts an issue to HTML and writes two files next to it:
+//
+//   - <issue>.kit.html: the issue's content alone, with no <html>, <head>,
+//     or <body> and no inline styles, to paste into a Kit HTML block. The
+//     Kit template supplies the styles, and Kit inlines them when it sends.
+//   - <issue>.preview.html: that content wrapped in the Kit template, with
+//     Kit's tags filled in with placeholders, to see the email in a browser.
+//
+// It returns the two paths.
+func render(path string) ([]string, error) {
 	b, err := os.ReadFile(path)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 	var fm struct {
 		Title       string `yaml:"title"`
@@ -523,7 +542,7 @@ func render(path string) (string, error) {
 	}
 	body, err := splitFrontMatter(string(b), &fm)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 	md := goldmark.New(
 		goldmark.WithExtensions(extension.GFM, extension.Typographer),
@@ -531,27 +550,45 @@ func render(path string) (string, error) {
 	)
 	var buf bytes.Buffer
 	if err := md.Convert([]byte(body), &buf); err != nil {
-		return "", err
+		return nil, err
 	}
-	content := buf.String()
-	for _, s := range styles {
-		re := regexp.MustCompile(`<` + s.tag + `([\s>/])`)
-		content = re.ReplaceAllString(content, `<`+s.tag+` style="`+s.style+`"$1`)
+	fragment := buf.String()
+
+	tmpl, err := os.ReadFile(kitTemplate)
+	if err != nil {
+		return nil, err
 	}
-	doc := fmt.Sprintf(`<!DOCTYPE html>
+	page := strings.NewReplacer(
+		"{{ message_content }}", fragment,
+		"{{ unsubscribe_url }}", "#",
+		"{{ subscriber_preferences_url }}", "#",
+		"{{ address }}", "[Your mailing address, from Kit]",
+	).Replace(string(tmpl))
+	if strings.Contains(page, "{{") {
+		fmt.Fprintln(os.Stderr, "WARNING: the preview has a Liquid tag the helper doesn't fill in")
+	}
+	preview := fmt.Sprintf(`<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>%[1]s</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Preview: %[1]s</title>
 </head>
-<body style="font-family:Georgia,serif;font-size:17px;line-height:1.55;max-width:640px;margin:2em auto;padding:0 1em;color:#222;">
+<body style="margin:0;background:#f3f4f6;">
 <!-- Subject: %[1]s -->
 <!-- Preview text: %[2]s -->
-%[3]s</body>
+%[3]s
+</body>
 </html>
-`, html.EscapeString(fm.Title), html.EscapeString(fm.PreviewText), content)
-	out := strings.TrimSuffix(path, filepath.Ext(path)) + ".html"
-	return out, os.WriteFile(out, []byte(doc), 0o644)
+`, html.EscapeString(fm.Title), html.EscapeString(fm.PreviewText), page)
+
+	base := strings.TrimSuffix(path, filepath.Ext(path))
+	outs := []string{base + ".kit.html", base + ".preview.html"}
+	if err := os.WriteFile(outs[0], []byte(fragment), 0o644); err != nil {
+		return nil, err
+	}
+	return outs, os.WriteFile(outs[1], []byte(preview), 0o644)
 }
 
 func printJSON(v any) error {
@@ -601,11 +638,11 @@ func run(args []string) error {
 		_, err = os.Stdout.WriteString(s)
 		return err
 	case args[0] == "render" && len(args) == 2:
-		out, err := render(args[1])
+		outs, err := render(args[1])
 		if err != nil {
 			return err
 		}
-		fmt.Println(out)
+		fmt.Println(strings.Join(outs, "\n"))
 		return nil
 	}
 	return usage

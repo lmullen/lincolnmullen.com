@@ -762,8 +762,11 @@ sup.footnote-ref {
   flex-wrap: wrap;
   margin: 2.5rem 0 0;
 }
+.stream-head .lbl {
+  font-size: var(--label-lg); /* a step up: the label names the blog */
+}
 .stream-head .desc {
-  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
+  font: italic 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
   color: var(--sec);
 }
 .home-stream .stream-head + .list-post {

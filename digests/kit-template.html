@@ -190,23 +190,53 @@
     line-height: 0;
   }
 
-  /* ---- footer ---- */
+  /* ---- the headnote and footer: the same in every issue, so they live
+     here rather than in each issue. Secondary prose (the site's
+     --prose-sm voice), smaller than the posts and in italics, with the
+     blog's name set roman as a title. ---- */
+  .woi-note {
+    margin: 0 0 28px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d4d6dc;
+  }
+  .woi-note p,
+  .woi-footer p {
+    font: italic 400 15px/1.5 "Source Serif 4", Georgia, "Times New Roman", serif;
+    color: #5a5e66;
+    margin: 0 0 8px;
+  }
+  .woi-note p:last-child {
+    margin-bottom: 0;
+  }
+  .woi-note a,
+  .woi-footer a {
+    color: #1b54c0 !important;
+    text-decoration: underline;
+    text-decoration-color: #d4d6dc;
+    text-underline-offset: 2px;
+  }
+  .woi-note .woi-title {
+    font-style: normal;
+  }
   .woi-footer {
-    margin-top: 36px;
+    margin-top: 32px;
     padding-top: 16px;
     border-top: 1px solid #d4d6dc;
   }
-  .woi-footer p {
-    font: 400 14px/1.5 "Source Serif 4", Georgia, "Times New Roman", serif;
-    color: #5a5e66;
-    margin: 0 0 6px;
+  /* The unsubscribe line and the address: smaller still, roman, gray. */
+  .woi-footer p.woi-admin,
+  .woi-footer p.woi-address {
+    font-style: normal;
+    font-size: 13px;
+    margin: 0 0 4px;
   }
-  .woi-footer a {
+  .woi-footer p.woi-admin {
+    margin-top: 16px;
+  }
+  .woi-footer p.woi-admin a {
     color: #5a5e66 !important;
-    text-decoration: underline;
-    text-decoration-color: #d4d6dc;
   }
-  .woi-footer .woi-address {
+  .woi-footer p.woi-address {
     color: #878d99;
   }
 
@@ -249,10 +279,14 @@
     .message-content .blockquotes { border-left-color: #ee8b46 !important; }
     .message-content hr,
     .woi-footer { border-top-color: #2a2e37 !important; }
+    .woi-note { border-bottom-color: #2a2e37 !important; }
+    .woi-note p { color: #9aa0ab !important; }
+    .woi-note a,
+    .woi-footer a { color: #84aaf2 !important; text-decoration-color: #545b66; }
+    .woi-footer p.woi-admin a { color: #9aa0ab !important; }
     .message-content code { background-color: #20242d !important; }
-    .woi-footer p,
-    .woi-footer a { color: #9aa0ab !important; }
-    .woi-footer .woi-address { color: #828a96 !important; }
+    .woi-footer p { color: #9aa0ab !important; }
+    .woi-footer p.woi-address { color: #828a96 !important; }
   }
 </style>
 
@@ -268,11 +302,17 @@
     </tr>
   </table>
 
+  <div class="woi-note">
+    <p>This email is an occasional digest of new posts from the <a class="woi-title" href="https://lincolnmullen.com">Working On It</a> blog. The blog is written by Lincoln Mullen, a historian of American religion.</p>
+  </div>
+
   <div class="message-content">
     {{ message_content }}
 
     <div class="woi-footer">
-      <p><a href="{{ unsubscribe_url }}">Unsubscribe</a> · <a href="{{ subscriber_preferences_url }}">Update your preferences</a> · <a href="https://lincolnmullen.com/">lincolnmullen.com</a></p>
+      <p>You’ve received this email because you subscribed to an occasional digest of new posts from <a href="https://lincolnmullen.com">lincolnmullen.com</a>. Everything in this email (and more) is also on the <a href="https://lincolnmullen.com/">blog</a> and in the <a href="https://lincolnmullen.com/blog/index.xml">RSS</a> and <a href="https://lincolnmullen.com/blog/index.json">JSON</a> feeds.</p>
+      <p>Have thoughts? Simply reply to this email. Thanks for reading.</p>
+      <p class="woi-admin"><a href="{{ unsubscribe_url }}">Unsubscribe</a> · <a href="{{ subscriber_preferences_url }}">Update your preferences</a> · <a href="https://lincolnmullen.com/">lincolnmullen.com</a></p>
       <p class="woi-address">{{ address }}</p>
     </div>
   </div>

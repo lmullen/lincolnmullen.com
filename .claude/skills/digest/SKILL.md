@@ -49,9 +49,9 @@ Commands:
    - `{{date}}`: the current time, ISO 8601 with offset (`TZ=America/New_York date -Iseconds`). The next issue starts after this date, so use the time of writing.
    - `{{posts}}`: one YAML list item per included post directory, `  - <dir>`.
    - `{{items}}`: the output of `items <dir> <dir> ...` for all the included posts. It does the ordering: titled posts first, each with an h2 heading, then untitled notes, each group in reverse chronological order (newest first, like the blog), with a horizontal rule (`* * *`) between every post. Don't reorder the posts or change the separators.
-   - `{{intro}}`: the user's intro paragraph, which goes right after the headnote. If there's no intro, delete the `{{intro}}` line and the blank line after it, so the headnote is followed directly by the separator.
-   - Remove any line left with only a placeholder. Keep everything else in the template, including the headnote and footer, which the user maintains.
-   - The issue's layout is: headnote, optional intro, separator, posts, separator, footer.
+   - `{{intro}}`: the user's intro paragraph, followed by the separator before the posts. If there's no intro, delete the `{{intro}}` line and the separator after it, so the issue starts with the first post.
+   - Remove any line left with only a placeholder.
+   - The issue's layout is: optional intro, separator, posts. The headnote ("This email is an occasional digest…") and the footer ("You've received this email…", the reply line, unsubscribe, and address) are the same in every issue, so they are in the Kit template (`digests/kit-template.html`), not in the issue. Don't add them to the issue.
 
 6. **Render** with `render digests/<issue>.md`. Check the stderr warnings, and spot-check the HTML: links absolute, images present, nothing left in `{{< >}}` or `{{ }}`.
 

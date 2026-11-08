@@ -48,14 +48,14 @@
       <div class="modal-body">
         <div class="mb-4">
           <p class="smallcaps-header mb-1">Footnote</p>
-          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ $.RenderString (dict "display" "inline") . }},&rdquo; {{ $.Date.Format site.Params.dateForms.long }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <p id="cite-footnote" class="mb-1">Lincoln Mullen, &ldquo;{{ $.RenderString (dict "display" "inline") . }},&rdquo; <em>{{ site.Params.blogFeedTitle }}</em> (blog), {{ $.Date.Format site.Params.dateForms.long }}, <span class="font-monospace">{{ $.Permalink }}</span>.</p>
           <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-footnote">
             <i class="bi bi-clipboard"></i> Copy
           </button>
         </div>
         <div>
           <p class="smallcaps-header mb-1">Bibliography</p>
-          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ $.RenderString (dict "display" "inline") . }}.&rdquo; {{ $.Date.Format site.Params.dateForms.long }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
+          <p id="cite-bibliography" class="mb-1">Mullen, Lincoln. &ldquo;{{ $.RenderString (dict "display" "inline") . }}.&rdquo; <em>{{ site.Params.blogFeedTitle }}</em> (blog), {{ $.Date.Format site.Params.dateForms.long }}. <span class="font-monospace">{{ $.Permalink }}</span>.</p>
           <button type="button" class="btn btn-sm btn-outline-secondary" data-copy-target="cite-bibliography">
             <i class="bi bi-clipboard"></i> Copy
           </button>

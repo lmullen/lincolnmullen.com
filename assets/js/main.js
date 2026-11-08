@@ -29,3 +29,71 @@ document.addEventListener('click', (e) => {
     }
   });
 });
+
+// Email signup (layouts/partials/subscribe-modal.html). Submit the form to Kit
+// in the background and show Kit's answer in the modal. Kit's endpoint allows
+// cross-origin posts and answers JSON with a status of "success",
+// "quarantined" (Kit wants a bot check on its own page), or "failed" with error
+// messages. If the request itself fails, fall back to a plain form post.
+const subscribeForm = document.querySelector('[data-subscribe-form]');
+if (subscribeForm) {
+  const modal = document.getElementById('subscribeModal');
+  const status = modal.querySelector('[data-subscribe-status]');
+  const note = modal.querySelector('[data-subscribe-note]');
+  const button = subscribeForm.querySelector('button[type="submit"]');
+
+  const say = (text, kind) => {
+    status.textContent = text;
+    status.className = `subscribe-status mt-3 mb-0${kind ? ` text-${kind}` : ''}`;
+  };
+
+  subscribeForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const body = new FormData(subscribeForm);
+    body.append('referrer', document.referrer);
+    body.append('host', window.location.href);
+    button.disabled = true;
+    say('Subscribing…');
+
+    let data;
+    try {
+      const res = await fetch(subscribeForm.action, {
+        method: 'POST',
+        body,
+        headers: { Accept: 'application/json' },
+      });
+      if (!res.ok) throw new Error(res.statusText);
+      data = await res.json();
+    } catch {
+      subscribeForm.submit();
+      return;
+    }
+
+    button.disabled = false;
+    if (data.status === 'success') {
+      subscribeForm.hidden = true;
+      note.hidden = true;
+      say('Thanks! Now check your email to confirm your subscription.', 'success');
+    } else if (data.status === 'quarantined' && data.url) {
+      say('');
+      const link = document.createElement('a');
+      link.href = data.url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.textContent = 'confirm on Kit’s site';
+      status.append('Kit needs to check that you are not a bot. Please ', link, ' to finish subscribing.');
+    } else {
+      const messages = data.errors?.messages ?? [];
+      say(messages[0] || 'Something went wrong. Please try again.', 'danger');
+    }
+  });
+
+  // Reset the form when the modal closes, so it starts fresh next time.
+  modal.addEventListener('hidden.bs.modal', () => {
+    subscribeForm.reset();
+    subscribeForm.hidden = false;
+    note.hidden = false;
+    button.disabled = false;
+    say('');
+  });
+}

@@ -1,0 +1,32 @@
+{{- /* Email signup modal for the occasional digest of new posts, sent through
+       Kit. Included once in baseof.html and opened by every "Email" link
+       (data-bs-target="#subscribeModal"): the home page's subscribe bars and
+       the blog sidebar's subscribe box.
+
+       The form posts the address straight to Kit's form endpoint
+       (emailSignupAction in config.yaml). assets/js/main.js submits it in the
+       background and shows Kit's answer here; without JavaScript the browser
+       posts the form to Kit and Kit shows its own page. Kit sends the
+       confirmation email (double opt-in). */ -}}
+<div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <header class="modal-header">
+        <span class="modal-title h5" id="subscribeModalLabel">Subscribe by email</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </header>
+      <div class="modal-body">
+        <p>Get new posts from <em>{{ site.Params.blogFeedTitle }}</em> by email, bundled into an occasional digest.</p>
+        <form class="subscribe-form" action="{{ site.Params.emailSignupAction }}" method="post" data-subscribe-form>
+          <label for="subscribe-email" class="visually-hidden">Email address</label>
+          <div class="d-flex gap-2">
+            <input type="email" class="form-control" id="subscribe-email" name="email_address" placeholder="Email address" autocomplete="email" required>
+            <button type="submit" class="btn btn-primary text-nowrap">Subscribe</button>
+          </div>
+        </form>
+        <p class="subscribe-status mt-3 mb-0" role="status" aria-live="polite" data-subscribe-status></p>
+        <p class="small text-body-secondary mt-3 mb-0" data-subscribe-note>You will get an email asking you to confirm your subscription. You can unsubscribe at any time.</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,8 +1,9 @@
 {{- /* The vertical form of the subscribe bar, for the blog sidebar: the two feeds
-       and the Buttondown email signup page, stacked in the cobalt box. */ -}}
+       and the email signup, which opens the Kit signup modal
+       (subscribe-modal.html), stacked in the cobalt box. */ -}}
 <div class="bs-band">
   <span class="sb-eyebrow">Subscribe</span>
   <a href="/blog/index.xml"><i class="bi bi-rss-fill"></i> RSS feed</a>
   <a href="/blog/index.json"><i class="bi bi-braces"></i> JSON feed</a>
-  <a href="{{ site.Params.emailSignupUrl }}"><i class="bi bi-envelope-fill"></i> Via email</a>
+  <a href="#subscribe" data-bs-toggle="modal" data-bs-target="#subscribeModal"><i class="bi bi-envelope-fill"></i> Via email</a>
 </div>

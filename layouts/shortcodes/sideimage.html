@@ -1,0 +1,16 @@
+{{- /* An illustrative image beside the text: floated right, half in the
+       column and half in the gutter, with an optional unnumbered caption.
+       Parameters: src, caption, alt, link (as for figure), and
+       side="left" to float it inside the column on the left instead.
+       The image is served at 320px (640px at 2x), since it is displayed
+       at about 15rem. Styled by figure.sideimg in custom.scss. */ -}}
+{{- $class := "sideimg" -}}
+{{- if eq (.Get "side") "left" }}{{ $class = "sideimg sideimg--left" }}{{ end -}}
+{{- partial "figure.html" (dict
+	"page" .Page
+	"src" (.Get "src")
+	"caption" (.Get "caption")
+	"alt" (.Get "alt")
+	"link" (.Get "link")
+	"class" $class
+	"width" 320) }}

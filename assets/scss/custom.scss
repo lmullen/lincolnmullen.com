@@ -493,10 +493,6 @@ sup.footnote-ref {
   font-weight: 500;
 }
 
-.bio-img img {
-  margin: 0 !important;
-}
-
 /* Faster modal animation */
 .modal.fade {
   transition: opacity 0.08s linear;
@@ -1362,9 +1358,10 @@ figcaption.figcap a:hover {
    The one idea: prose holds a legible measure; evidence gets more room.
      • Body, headings, lists, quotes, footnotes → capped at --measure.
      • Figures, images, tables, code blocks     → break out to --wide,
-       flush-LEFT with the text, overhanging the column to the RIGHT.
+       flush-LEFT with the text, overhanging the column to the RIGHT. A side
+   image ({{< sideimage >}}) floats beside the text, half in that gutter.
    Keyed off a single ".reading" wrapper on the post/page content
-   container; text-only pages (bio) add ".reading--narrow". Placed last so
+   container. Placed last so
    its ".reading X" rules win, within reading contexts, over the base
    .bodyprose / figure / .codeblock / .footnotes rules above — those still
    serve list excerpts (.pbody) and page intros, which are not .reading.
@@ -1406,11 +1403,6 @@ figcaption.figcap a:hover {
   max-width: 100%; /* i.e. up to --wide */
   margin-left: 0;
   margin-right: 0;
-}
-/* text-only pages (bio): narrow the whole column to the measure so a
-   right-floated margin figure can bleed into the gutter (see below) */
-.reading.reading--narrow {
-  max-width: var(--measure);
 }
 
 /* ---- body prose ---- */
@@ -1644,22 +1636,37 @@ figcaption.figcap a:hover {
   margin-left: 0.25rem;
 }
 
-/* ---- bio margin figure: half in the column, half in the right gutter.
-   Restyles the existing .bio-img (authored in content/page/bio/index.md);
-   requires the page wrapper to be .reading.reading--narrow. No content edit. ---- */
-.reading--narrow .bio-img.float-end,
-.reading--narrow .bio-img {
+/* ---- side image ({{< sideimage >}}): an illustrative image floated right
+   beside the text, half in the measure and half in the gutter between the
+   measure and the wide column. It takes the figure vocabulary above
+   unchanged (hairline border, radius, the serif caption at --prose-sm) and
+   only opts out of the "Figure N." numbering. The float sits at the
+   .reading wrapper's right edge; the right margin pulls it back so that
+   its right edge lands half its width past the measure, and never goes
+   below zero, so in a column narrower than that the image stops at the
+   column's edge instead of overflowing it. (Percentages in a float's margin
+   resolve against the wrapper's width.) ---- */
+.reading figure.sideimg {
+  --side-width: 15rem;
   float: right;
-  width: 15rem;
+  width: var(--side-width);
   max-width: 42%;
-  margin: 0.4rem -7.5rem 1.2rem 1.7rem; /* right -7.5rem ≈ half of 15rem */
+  /* Interpolated so Dart Sass emits literal CSS max(). */
+  margin: 0.4rem #{"max(0rem, 100% - var(--measure) - var(--side-width) / 2)"} 1.2rem 3rem;
+  counter-increment: none;
 }
-.reading--narrow .bio-img img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius);
-  margin: 0;
+/* side="left": inside the column, text wrapping on its right */
+.reading figure.sideimg--left {
+  float: left;
+  margin: 0.4rem 3rem 1.2rem 0;
+}
+.reading figure.sideimg .figcap::before {
+  content: none;
+}
+/* Outside a reading wrapper (list excerpts), hold the small image to its
+   intended size rather than stretching it to the column. */
+figure.sideimg {
+  max-width: 15rem;
 }
 
 /* ---- responsive: collapse measure/breakout on phones ---- */
@@ -1668,8 +1675,7 @@ figcaption.figcap a:hover {
     --measure: 100%;
     --wide: 100%;
   }
-  .reading--narrow .bio-img.float-end,
-  .reading--narrow .bio-img {
+  .reading figure.sideimg {
     float: none;
     width: auto;
     max-width: 20rem;

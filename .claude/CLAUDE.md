@@ -65,10 +65,14 @@ When working on a post, do not paste the full Markdown file into the chat unless
 
 ## Shortcodes
 
-Use the `figure` shortcode for images with a caption, and the `image` shortcode for images that do not need a caption.
+Use the `figure` shortcode for images with a caption, the `image` shortcode for images that do not need a caption, and the `sideimage` shortcode for an illustrative image floated beside the text.
 
 - `{{</* image src="file.jpg" alt="description" */>}}` - Responsive images with WebP conversion
 - `{{</* image src="file.gif" */>}}` - GIFs and SVGs pass through without processing
+- `{{</* figure src="file.jpg" caption="Markdown caption" */>}}` - Numbered figure, breaking out to the wide column; `link`, `alt`, `class`, and `width` (1x pixels) are optional
+- `{{</* sideimage src="file.jpg" alt="description" caption="Optional caption" */>}}` - Small image floated right, half in the text column and half in the gutter, with an unnumbered caption; `link` and `side="left"` are optional. Works in both blog posts and pages.
+
+Image `src` values are page-bundle filenames, or global assets with a leading slash (`/img/photo.jpeg`).
 
 ## Style Guide
 

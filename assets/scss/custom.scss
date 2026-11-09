@@ -1644,22 +1644,34 @@ figcaption.figcap a:hover {
   margin-left: 0.25rem;
 }
 
-/* ---- bio margin figure: half in the column, half in the right gutter.
-   Restyles the existing .bio-img (authored in content/page/bio/index.md);
-   requires the page wrapper to be .reading.reading--narrow. No content edit. ---- */
-.reading--narrow .bio-img.float-end,
-.reading--narrow .bio-img {
+/* ---- bio portrait: a figure ({{< figure class="bio-img" >}} in
+   content/page/bio/index.md) floated right, half in the column and half in
+   the right gutter. It takes the figure vocabulary (hairline border, radius,
+   serif caption) but not the "Figure N." numbering. The overhang is capped at
+   the gutter actually available, so on a tablet-width screen the portrait
+   stops at the container edge instead of running past it. Requires the page
+   wrapper to be .reading.reading--narrow. ---- */
+.reading.reading--narrow > figure.fig.bio-img {
+  /* gutter = container (capped at 1180px) minus its side padding and the
+     measure; ~1rem spare for the scrollbar */
+  --bio-gutter: calc(min(100vw, 1180px) - 4rem - var(--measure));
+  --bio-width: 15rem;
   float: right;
-  width: 15rem;
+  width: var(--bio-width);
   max-width: 42%;
-  margin: 0.4rem -7.5rem 1.2rem 1.7rem; /* right -7.5rem ≈ half of 15rem */
+  /* Interpolated so Dart Sass emits literal CSS calc()/clamp(). */
+  margin: 0.4rem #{"calc(-1 * clamp(0rem, var(--bio-gutter), var(--bio-width) / 2))"} 1.2rem 3rem;
 }
-.reading--narrow .bio-img img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius);
-  margin: 0;
+.reading--narrow figure.bio-img {
+  counter-increment: none;
+}
+.reading--narrow figure.bio-img .figcap {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+.reading--narrow figure.bio-img .figcap::before {
+  content: none;
 }
 
 /* ---- responsive: collapse measure/breakout on phones ---- */
@@ -1668,8 +1680,7 @@ figcaption.figcap a:hover {
     --measure: 100%;
     --wide: 100%;
   }
-  .reading--narrow .bio-img.float-end,
-  .reading--narrow .bio-img {
+  .reading.reading--narrow > figure.fig.bio-img {
     float: none;
     width: auto;
     max-width: 20rem;

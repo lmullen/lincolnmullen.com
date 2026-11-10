@@ -14,6 +14,23 @@ This site uses the static site generator, [Hugo](https://gohugo.io).
 
 - Build: `hugo --cleanDestinationDir --minify`
 - Local preview: `hugo serve --port 2323 --buildDrafts --buildFuture --disableFastRender`
+- Update the processed-image cache: `./gen-cache.sh` (see below)
+
+Hugo is pinned in two places that must agree: `.mise.toml` (local dev, `mise install`) and the download URL in the build command in `wrangler.jsonc` (Cloudflare). To upgrade, change both, then run `./gen-cache.sh` and commit whatever it changes, since cache keys can change between versions. In a cloud session without mise, fetch the pinned release the way the `wrangler.jsonc` build command does and put that `hugo` first on `PATH`.
+
+### Processed-image cache
+
+Hugo writes the WebP variants it makes from images to `resources/_gen/images`, and that directory is committed. Cloudflare Workers Builds starts every deploy from a fresh clone, so without the committed cache it re-encodes every image, which once took most of a four-minute build (issue #176). The cache must therefore hold exactly what a production build needs: every variant the live site uses, and nothing else.
+
+`./gen-cache.sh` (also `make gen-cache`) keeps it that way. It builds the site with the production settings (no drafts, no future posts) against a copy of the cache, runs Hugo's garbage collection on the copy, and then adds whatever is missing from `resources/_gen/images` and deletes whatever is stale, printing both lists. `./gen-cache.sh --check` (`make check-gen-cache`) only reports and exits non-zero on drift, without touching the working tree; the "Processed-image cache" GitHub Actions workflow runs it on every pull request, so a pull request with an out-of-date cache fails its check.
+
+Run `./gen-cache.sh` and commit the result (`git add -A resources/_gen/images`) in the same commit as any change that alters which images get processed or how:
+
+- adding, replacing, or removing an image in a post or page, or changing a post's `image:` front matter (OpenGraph previews are processed images too);
+- changing `imaging` in `config.yaml`, `layouts/partials/responsive-image.html`, the `image`, `figure`, and `sideimage` shortcodes, or any other template that calls `.Resize`, `.Fill`, `.Fit`, or `.Process`;
+- upgrading Hugo.
+
+The script refuses to run unless `hugo` is the version pinned in `.mise.toml` and `wrangler.jsonc` downloads the same version, because a cache built with a different Hugo may use different keys and go unused on Cloudflare. It needs `node_modules` (`npm ci`), since the build compiles the SCSS. Don't commit cache files written by `hugo serve --buildDrafts --buildFuture`: variants for drafts are not needed in production, and the script removes them. A post dated in the future is likewise left out until its date passes; the first deploy after that encodes its images, and the next `./gen-cache.sh` run adds them.
 
 ### Creating New Content
 

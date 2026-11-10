@@ -1,0 +1,33 @@
+# Fail a pull request whose committed processed-image cache
+# (resources/_gen/images) does not match what a production build needs, so
+# Cloudflare never has to re-encode images and the repository carries no stale
+# ones. See "Processed-image cache" in .claude/CLAUDE.md and ./gen-cache.sh.
+name: Processed-image cache
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Install the Hugo version pinned in .mise.toml
+        run: |
+          version=$(sed -n 's/^hugo-extended *= *"\([^"]*\)".*/\1/p' .mise.toml)
+          mkdir -p "$HOME/.local/bin"
+          curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-amd64.tar.gz" \
+            | tar -xzf - -C "$HOME/.local/bin" hugo
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - run: ./gen-cache.sh --check

@@ -3,7 +3,8 @@ node_modules
 public
 .hugo_build.lock
 # Commit Hugo's processed-image cache so Cloudflare builds reuse it instead of
-# re-encoding every image (issue #176). Run `hugo --gc` to prune stale entries.
+# re-encoding every image (issue #176). Run ./gen-cache.sh to add missing
+# variants and prune stale ones; see "Processed-image cache" in .claude/CLAUDE.md.
 resources/*
 !resources/_gen/
 resources/_gen/*

@@ -36,7 +36,7 @@ Do not run `./new-post.sh`: it ends by opening the file in VS Code with `code`, 
 Follow the "Git and GitHub" section of `CLAUDE.md` for the worktree, the local Hugo server, pushing, and reading the Cloudflare preview URLs from the build. The only post-specific rules are:
 
 - Name the branch `draft-post-<short-slug>`, where `<short-slug>` is a short, lowercase, hyphenated description of the post (e.g. `draft-post-zelda-on-paper`). The branch name becomes part of the preview URL, so keep it short.
-- Build the site before pushing to catch errors: `hugo --cleanDestinationDir --minify -d <scratch dir>`.
+- Before pushing, run `./gen-cache.sh` from the worktree. It builds the site with the production settings, so it catches template and front matter errors, and it adds the new post's image variants to Hugo's processed-image cache (`resources/_gen/images`) and removes stale ones. Commit what it changed together with the post: `git add -A resources/_gen/images`. It refuses to run if `hugo` is not the version pinned in `.mise.toml`; see "Processed-image cache" in `CLAUDE.md` for how to get that version.
 - Open the pull request as a draft.
 - Track the post like any other work (see "Issues and the project board" in `CLAUDE.md`): find or create an issue for the post before opening the pull request, put `Closes #<n>` in the pull request body, and move the issue on the board.
 - Report the preview URL for the post itself (the branch preview URL followed by `/blog/<slug>/`), not just the site root.

@@ -104,12 +104,12 @@ All work on this repository is tracked on the GitHub project at <https://github.
 
 **Put it on the board.** `gh project item-add 4 --owner lmullen --url <issue url>`. Adding an issue that is already on the board is harmless (it returns the existing item), so always run it. Note the item id it prints; status moves need it.
 
-**Move it as the work moves.** Status is the board's `Status` single-select field. Read its option names and ids once per session with `gh project field-list 4 --owner lmullen --format json`; don't assume the column names.
+**Move it as the work moves.** Status is the board's `Status` single-select field, with four columns: `Triage`, `TODO`, `In progress`, and `Done`. New items land in `Triage`. Read the field and option ids once per session with `gh project field-list 4 --owner lmullen --format json`.
 
-- When you start on an issue, move it to the in-progress column.
-- When you open a pull request, move it to the review column, if the board has one.
-- When the pull request merges, `Closes #<n>` closes the issue and the board's workflow moves it to the done column. If the board didn't, move it.
-- If work stalls or is abandoned, move it back to the backlog or to-do column and comment on the issue to say why.
+- `Triage` holds ideas and reports that haven't been accepted yet; `TODO` holds accepted work that nobody has started. An issue you create for something the user has just asked for skips `Triage`: put it in `TODO`, or straight into `In progress` if you are starting on it now.
+- When you start on an issue, move it to `In progress`. It stays there while its pull request is open; the board has no review column.
+- When the pull request merges, `Closes #<n>` closes the issue and the board's workflow moves it to `Done`. If the board didn't, move it.
+- If work stalls or is abandoned, move it back to `TODO` (or to `Triage` if it is no longer clearly wanted) and comment on the issue to say why.
 
 Change a status with:
 

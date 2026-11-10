@@ -38,6 +38,7 @@ Follow the "Git and GitHub" section of `CLAUDE.md` for the worktree, the local H
 - Name the branch `draft-post-<short-slug>`, where `<short-slug>` is a short, lowercase, hyphenated description of the post (e.g. `draft-post-zelda-on-paper`). The branch name becomes part of the preview URL, so keep it short.
 - Build the site before pushing to catch errors: `hugo --cleanDestinationDir --minify -d <scratch dir>`.
 - Open the pull request as a draft.
+- Track the post like any other work (see "Issues and the project board" in `CLAUDE.md`): find or create an issue for the post before opening the pull request, put `Closes #<n>` in the pull request body, and move the issue on the board.
 - Report the preview URL for the post itself (the branch preview URL followed by `/blog/<slug>/`), not just the site root.
 
 ## Handoff

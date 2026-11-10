@@ -102,7 +102,7 @@ All work on this repository is tracked on the GitHub project at <https://github.
 
 **Otherwise create one.** `gh issue create --title "<title>" --body "<what and why>"`. The title names the outcome in sentence case, like a commit subject. The body gives enough context to stand on its own: what the user asked for, why, and anything that constrains the approach. Apply an existing label when one fits (`gh label list`); don't invent labels. One issue per unit of work: if the user asks for several unrelated things, open one issue each.
 
-**Put it on the board.** `gh project item-add 4 --owner lmullen --url <issue url>`. Adding an issue that is already on the board is harmless (it returns the existing item), so always run it. Note the item id it prints; status moves need it.
+**It lands on the board by itself.** The project adds every issue opened in this repository automatically, in `Triage`, so there is no need to run `gh project item-add` here. Opening the issue is all it takes to get the work onto the board. You still need the item id for status moves; get it from `gh project item-list` as described below.
 
 **Move it as the work moves.** Status is the board's `Status` single-select field, with four columns: `Triage`, `TODO`, `In progress`, and `Done`. New items land in `Triage`. Read the field and option ids once per session with `gh project field-list 4 --owner lmullen --format json`.
 
@@ -125,7 +125,7 @@ The project id comes from `gh project view 4 --owner lmullen --format json --jq 
 
 **Token scope.** `gh project` needs the `project` scope. If it reports a missing scope, run `gh auth refresh -s project` (or ask the user to run it when you can't).
 
-**When the project API is unavailable.** Claude Code cloud sessions (claude.ai/code) block GitHub's GraphQL API, so `gh project`, `gh issue create`, and `gh pr create` fail there. Still follow the rest of this section through the REST API: create the issue with `gh api repos/lmullen/<repo>/issues -f title=... -f body=...`, open the pull request with `gh api repos/lmullen/<repo>/pulls -f title=... -f head=<branch> -f base=main -f body=...` (with `Closes #<n>` in the body), and tell the user which board moves you could not make so they can make them.
+**When the project API is unavailable.** Claude Code cloud sessions (claude.ai/code) block GitHub's GraphQL API, so `gh project`, `gh issue create`, and `gh pr create` fail there. Still follow the rest of this section through the REST API: create the issue with `gh api repos/lmullen/<repo>/issues -f title=... -f body=...`, open the pull request with `gh api repos/lmullen/<repo>/pulls -f title=... -f head=<branch> -f base=main -f body=...` (with `Closes #<n>` in the body), and tell the user which board moves you could not make so they can make them. Because this repository's issues are added to the board automatically, opening the issue is enough to get the work onto the board even from a cloud session.
 
 ### Branches and worktrees
 

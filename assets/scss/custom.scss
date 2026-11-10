@@ -10,6 +10,7 @@
    CSS custom properties. */
 $bp-phone: 480px; /* small phones: type ramp-down */
 $bp-mobile: 768px; /* stack rails, collapse the reading measure */
+$bp-hero: 1080px; /* home hero: the link columns drop under the statement as rows */
 $bp-sidebar: 900px; /* blog layout: sidebar stacks below content */
 $bp-stack: 640px; /* header, hero links and home stream go single-column; subscribe bar goes two-column */
 
@@ -539,9 +540,15 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* Hero: the statement and the link rows. The header above it is the shared
+/* Hero: the statement at the left and the About and Elsewhere link lists in
+   two narrow columns at the right, so the hero spans the page's full width
+   and ends flush with the header's nav. The header above it is the shared
    .sitehead; below, the blog's own section rule separates it from the stream. */
 .hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  align-items: start;
+  column-gap: 4rem;
   padding: 0.5rem 0 0;
   margin-bottom: 3rem;
 }
@@ -553,7 +560,7 @@ sup.footnote-ref {
   letter-spacing: -0.02em;
   color: var(--ink);
   max-width: 58rem;
-  margin: 0 0 1.1rem;
+  margin: 0;
 }
 .statement em {
   font-style: italic;
@@ -567,7 +574,7 @@ sup.footnote-ref {
   font-size: 1.0625rem;
   line-height: 1.45;
   color: var(--sec);
-  margin: 0 0 1rem;
+  margin: 1.1rem 0 0;
   max-width: 58rem;
 }
 .bio-p a {
@@ -578,36 +585,30 @@ sup.footnote-ref {
   color: var(--orange-text);
 }
 
-/* About · Elsewhere: two rows under the statement, each an eyebrow label in a
-   narrow left column with its links flowing inline to the right and wrapping as
-   needed. The label's caps sit on the serif links' baseline. */
+/* About · Elsewhere: two columns, each an eyebrow label with its links
+   stacked beneath, one per line. The markup is flat (label, links, label,
+   links), so the grid fills by column: two rows, one column per list. */
 .hero-links {
   display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
   align-items: start;
-  gap: 0.75rem 1.75rem;
-  margin-top: 1.5rem;
-}
-/* The label takes the links' line box (--prose-sm at 1.3), then drops 2px so
-   its caps sit on the serif baseline. Grid baseline alignment is no use here:
-   in the Elsewhere row it would follow each link's logo, not its text. */
-.hero-links .ey {
-  line-height: calc(var(--prose-sm) * 1.3);
-  translate: 0 0.125rem;
+  gap: 0.75rem 3.5rem;
+  padding-top: 0.4rem; /* the labels' caps sit at the statement's cap height */
 }
 .netlinks {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.4rem 1.6rem;
+  flex-direction: column;
+  gap: 0.4rem;
 }
-/* About: two .dotlinks lines (the personal links, then the affiliations),
-   spaced like wrapped lines within a row */
+/* About: two .dotlinks groups (the personal links, then the affiliations),
+   which read as one list in the column */
 .hl-lines {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  font-size: var(--prose-sm); /* the line box the label aligns to */
+  font-size: var(--prose-sm); /* the line box the label aligns to in rows */
   line-height: 1.3;
 }
 .hl-lines p {
@@ -618,6 +619,54 @@ sup.footnote-ref {
 }
 .hl-lines a:hover {
   color: var(--orange-text);
+}
+/* In the column the dot-separated lines stack too, without their dots */
+.hl-lines .dotlinks {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.hl-lines .dotlinks a:not(:last-child)::after {
+  content: none;
+}
+/* Below $bp-hero there is no room for the columns: the lists drop under the
+   statement as two rows, each label in a narrow left column with its links
+   flowing inline to the right and wrapping as needed. */
+@media (max-width: $bp-hero) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .hero-links {
+    grid-template-rows: none;
+    grid-template-columns: max-content minmax(0, 1fr);
+    grid-auto-flow: row;
+    gap: 0.75rem 1.75rem;
+    margin-top: 1.5rem;
+    padding-top: 0;
+  }
+  /* The label takes the links' line box (--prose-sm at 1.3), then drops 2px so
+     its caps sit on the serif baseline. Grid baseline alignment is no use here:
+     in the Elsewhere row it would follow each link's logo, not its text. */
+  .hero-links .ey {
+    line-height: calc(var(--prose-sm) * 1.3);
+    translate: 0 0.125rem;
+  }
+  .netlinks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 1.6rem;
+  }
+  .hl-lines .dotlinks {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem 0.5rem;
+  }
+  .hl-lines .dotlinks a:not(:last-child)::after {
+    content: "·" / "";
+  }
 }
 /* Dot-separated link lists (§4.9): the hero's About lines and the footer's
    rows. A wrapping flex row of links; each link but the last carries a middle
@@ -852,7 +901,8 @@ sup.footnote-ref {
     gap: 0.5rem 1.4rem;
   }
   /* Smaller row gap: the links' padding already separates wrapped lines */
-  .dotlinks {
+  .dotlinks,
+  .hl-lines .dotlinks {
     gap: 0.25rem 0.45rem;
   }
   .dotlinks a:not(:last-child)::after {

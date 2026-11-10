@@ -4,15 +4,20 @@
 
 {{ define "main" }}
 
-{{/* Hero: the statement from content/_index.md (first paragraph → the display
-     statement, rendered inline so its <em> emphasis lands; any further paragraphs
-     → .bio-p prose), then the About · Elsewhere link rows. */}}
+{{/* Hero: three columns across the page's full width. The statement from
+     content/_index.md (first paragraph → the display statement, rendered inline
+     so its <em> emphasis lands; any further paragraphs → .bio-p prose) fills the
+     left; the About and Elsewhere link lists stand in two narrow columns at the
+     right edge. On narrower screens the lists drop under the statement
+     as rows. */}}
 <section class="hero">
 	{{ $blocks := split (strings.TrimSpace .RawContent) "\n\n" }}
-	<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>
-	{{ range after 1 $blocks }}
-	<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
-	{{ end }}
+	<div class="hero-text">
+		<h1 class="statement">{{ .RenderString (dict "display" "inline") (index $blocks 0) }}</h1>
+		{{ range after 1 $blocks }}
+		<p class="bio-p">{{ $.RenderString (dict "display" "inline") . }}</p>
+		{{ end }}
+	</div>
 	{{ partial "homepage-contact.html" . }}
 </section>
 

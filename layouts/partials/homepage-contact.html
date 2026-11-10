@@ -1,10 +1,11 @@
-{{/* About · Elsewhere: two compact rows of links under the hero
-     statement. Each row is an eyebrow label in a narrow left column and the
-     links flowing inline to its right, wrapping as needed, so the hero gives way
-     to the blog within a few lines. About has two lines of dot-separated text
-     links (.dotlinks, shared with the footer; the dots are CSS): the personal
-     links, then the two affiliations. On
-     phones the label sits above its links. The netlinks service logos are real
+{{/* About · Elsewhere: the two link lists beside the hero statement. On wide
+     screens each is a narrow column at the hero's right edge: an eyebrow label
+     with its links stacked beneath, one per line. On narrower screens
+     they become two compact rows under the statement, the label in a narrow
+     left column and the links flowing inline to its right; About then has two
+     lines of dot-separated links (.dotlinks, shared with the footer; the dots
+     are CSS): the personal links, then the two affiliations. On phones the
+     label sits above its links. The netlinks service logos are real
      brand marks (inline SVGs); iconStyle=brand colors each via --bc,
      iconStyle=monochrome forces them all to --mut through the .mono class. */}}
 {{ $mono := eq (site.Params.iconStyle | default "brand") "monochrome" }}

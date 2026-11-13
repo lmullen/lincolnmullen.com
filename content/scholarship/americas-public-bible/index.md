@@ -30,11 +30,18 @@ links:
     text: "Project website"
   - url: https://www.sup.org/books/title/?id=28910
     text: "Stanford University Press"
+reviews:
+  - url: https://doi.org/10.1093/jahist/jax556
+    text: "James P. Byrd, <em>Journal of American History</em>"
 media:
   - url: https://wapo.st/2aLT1Zo
     text: "Julie Zauzmer, <em>Washington Post</em>"
   - url: https://www.wsj.com/articles/library-of-congress-looks-to-ai-to-help-users-sift-through-its-collection-11624552197
     text: "<em>Wall Street Journal</em>"
+  - url: https://congregationallibrary.org/video/americas-public-bible
+    text: "Book talk, Congregational Library &amp; Archives"
+  - url: https://www.youtube.com/watch?v=1LPouikAk8U
+    text: "“The Bible in Public Life,” Kluge Center, Library of Congress"
 quotes:
   - text: "Laying bare how the Bible was used in the American press, America’s Public Bible is a one-of-a-kind contribution to historical knowledge and digital scholarship. Its rich analysis and sophisticated tools deliver insights into nineteenth-century American history made decidedly in the twenty-first."
     attribution: "Ian Milligan, University of Waterloo"

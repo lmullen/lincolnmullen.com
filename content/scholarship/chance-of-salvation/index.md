@@ -58,6 +58,22 @@ reviews:
     text: "Christopher D. Cantwell, <em>Journal of the AAR</em>"
   - url: http://readingreligion.org/books/chance-salvation
     text: "Lewis R. Rambo, <em>Reading Religion</em>"
+  - url: https://doi.org/10.1353/ajh.2019.0010
+    text: "Shari Rabin, <em>American Jewish History</em>"
+  - url: https://doi.org/10.1093/whq/whz019
+    text: "Hunter M. Hampton, <em>Western Historical Quarterly</em>"
+  - url: https://doi.org/10.1080/14664658.2018.1436919
+    text: "Timothy Wesley, <em>American Nineteenth Century History</em>"
+  - url: https://doi.org/10.1017/S1537781418000543
+    text: "Andrew S. Hudson, <em>Journal of the Gilded Age and Progressive Era</em>"
+  - url: https://scholarsarchive.byu.edu/msr2/vol6/iss1/26/
+    text: "Ben Wright, <em>Mormon Studies Review</em>"
+  - url: https://christianscholars.com/the-chance-of-salvation-a-history-of-conversion-in-america/
+    text: "Christopher Richmann, <em>Christian Scholar’s Review</em>"
+  - url: https://bulletin.equinoxpub.com/2018/01/american-converts-and-their-possessions-a-review-of-lincoln-mullens-the-chance-of-salvation/
+    text: "Charlie McCrary, <em>Bulletin for the Study of Religion</em>"
+  - url: https://www.christianitytoday.com/ct/2017/november-web-only/how-america-became-conversion-nation.html
+    text: "Josh McMullen, <em>Christianity Today</em>"
 media:
   - url: https://www.theatlantic.com/politics/archive/2017/08/conversions-lincoln-mullen/536151/
     text: "Emma Green, <em>The Atlantic</em>"
@@ -65,6 +81,10 @@ media:
     text: "Maureen Fiedler, <em>Interfaith Voices</em>"
   - url: http://www.patheos.com/blogs/anxiousbench/2017/08/the-chance-of-salvation/
     text: "John Turner, <em>The Anxious Bench</em>"
+  - url: https://www.thegospelcoalition.org/blogs/evangelical-history/the-chance-of-salvation-an-interview-with-lincoln-mullen/
+    text: "Justin Taylor, <em>Evangelical History</em>"
+  - url: https://aarweb.org/podcast/conversion-in-america-a-conversation-with-lincoln-mullen/
+    text: "Kristian Petersen, <em>Religious Studies News</em> podcast"
 quotes:
   - text: "A riveting and important book that illuminates one of the most basic facts of American religious experience, which Mullen calls ‘obligated choice.’ He wisely interprets the widespread occurrence of religious conversions as well as the pervasive individualism of American religious experience."
     attribution: "Mark Noll, author of <em>America’s God</em>"

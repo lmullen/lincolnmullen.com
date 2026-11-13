@@ -1741,38 +1741,13 @@ figure.sideimg {
    and the shared section head (.shead §4.2).
    =================================================================== */
 
-/* page header: one paragraph, the intro running into the link to the CV.
+/* page header: the intro and, under it, the link to the CV (the shared .rm).
    The title uses the shared .page-title from the interior-chrome section. */
 .sch-intro {
   /* inherits body base */
   color: var(--body);
   max-width: var(--measure);
   margin: 0;
-}
-/* the CV link: the .rm voice (semibold navy on an orange rule, with an
-   arrow), set inline at the body size */
-.sch-cv {
-  font-weight: 600;
-  color: var(--navy);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.15s;
-}
-.sch-cv span {
-  border-bottom: 2px solid var(--orange);
-  padding-bottom: 0.1rem;
-}
-.sch-cv i {
-  display: inline-block;
-  color: var(--orange-text);
-  font-size: 0.9em;
-  transition: transform 0.15s;
-}
-.sch-cv:hover {
-  color: var(--orange-text);
-}
-.sch-cv:hover i {
-  transform: translateX(0.2em);
 }
 
 /* sections: the shared .shead, with scholarship spacing. The scoped selector
@@ -1783,15 +1758,7 @@ figure.sideimg {
 }
 .scholarship .shead {
   margin: 0;
-}
-/* No text on this page is smaller than the body text. Labels that are small
-   mono capitals elsewhere on the site (the section heads, Award, Praise,
-   Links) are plain semibold serif at the body size here, and the section
-   heads are serif headings. */
-.scholarship .shead .lbl {
-  font: 600 var(--h2)/1.2 "Source Serif 4", serif;
-  letter-spacing: -0.015em;
-  text-transform: none;
+  scroll-margin-top: 1.5rem;
 }
 
 /* ---- feature: image | text, in two columns. --sf-media is the image
@@ -1873,10 +1840,9 @@ figure.sideimg {
   width: 100%;
 }
 .sf-flag {
-  font-weight: 600;
-  line-height: 1.3;
+  @include mono-label(var(--label-xs), 0.16em, 600, 1.3);
   color: var(--orange-text);
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.6rem;
 }
 .sf-title {
   font: 600 var(--h2)/1.15 "Source Serif 4", serif;
@@ -1889,17 +1855,16 @@ figure.sideimg {
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
-/* a linked title is navy, which also sets it apart from the section heads */
 .sf-title a {
-  color: var(--navy);
+  color: inherit;
   text-decoration: none;
 }
 .sf-title a:hover {
-  color: var(--orange-text);
+  color: var(--navy);
 }
 .sf-sub {
   margin: 0.45rem 0 0;
-  font-style: italic;
+  font: italic 400 var(--h4)/1.35 "Source Serif 4", serif;
   color: var(--sec);
 }
 .sf-abs {
@@ -1913,6 +1878,7 @@ figure.sideimg {
   margin: 1.15rem 0 0;
   padding-top: 0.9rem;
   border-top: 1px solid var(--rule2);
+  font: 400 var(--prose-sm)/1.45 "Source Serif 4", serif;
   color: var(--sec);
   overflow-wrap: anywhere;
 }
@@ -1938,8 +1904,9 @@ figure.sideimg {
 }
 .sc-year span {
   display: block;
-  font: 600 #{$font-size-base}/1.3 "Source Serif 4", serif;
-  color: var(--sec);
+  margin-top: 0.35rem;
+  @include mono-label(var(--label-xs), 0.13em, 600, 1.3);
+  color: var(--mut);
 }
 .sc-cite {
   /* inherits body base */
@@ -1948,25 +1915,25 @@ figure.sideimg {
 }
 .sc-abs p {
   margin: 0 0 0.7rem;
+  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
   color: var(--sec);
 }
 .sc-abs p:last-child {
   margin-bottom: 0;
 }
 /* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
-   block below the abstract: a label over orange-ruled serif quotes, each
-   with its attribution. Recedes from the abstract by
-   color alone. */
+   block below the abstract: a mono label over orange-ruled serif quotes, each
+   with a small-caps attribution. Recedes further than the abstract by size
+   (--prose-sm). */
 .lg-praise {
   margin-top: 1.2rem;
   max-width: var(--measure);
 }
 .lg-praise .k {
   display: block;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--sec);
-  margin-bottom: 0.6rem;
+  @include mono-label(var(--label-xs), 0.13em, 600, 1.5);
+  color: var(--mut);
+  margin-bottom: 0.75rem;
 }
 .lg-q {
   margin: 0 0 0.9rem;
@@ -1978,12 +1945,14 @@ figure.sideimg {
 }
 .lg-q p {
   margin: 0;
+  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
   color: var(--sec);
 }
 .lg-q cite {
   display: block;
   margin-top: 0.4rem;
-  font-size: #{$font-size-base}; /* Bootstrap shrinks cite inside a blockquote */
+  font: 600 var(--prose-sm)/1.3 "Source Serif 4", serif;
+  @include smallcaps-action;
   font-style: normal;
   color: var(--sec);
 }
@@ -2000,13 +1969,12 @@ figure.sideimg {
 }
 .awd .k {
   flex: none;
-  font-weight: 600;
-  line-height: 1.3;
+  @include mono-label(var(--label-xs), 0.16em, 600, 1.3);
   color: var(--orange-text);
+  padding-top: 0.05rem;
 }
 .awd .v {
-  font-style: italic;
-  line-height: 1.35;
+  font: italic 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
   color: var(--ink);
 }
 
@@ -2025,10 +1993,9 @@ figure.sideimg {
 }
 .lg-lk {
   flex: none;
-  width: 4.4rem;
-  font-weight: 600;
-  line-height: 1.4;
-  color: var(--sec);
+  width: 4.7rem;
+  @include mono-label(var(--label-xs), 0.13em, 600, 1.5);
+  color: var(--mut);
 }
 .lg-lv {
   flex: 1;
@@ -2036,7 +2003,7 @@ figure.sideimg {
   display: flex;
   flex-wrap: wrap;
   gap: 0.1rem 0.55rem;
-  line-height: 1.4;
+  font: 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
 }
 .lg-lv a {
   color: var(--navy);

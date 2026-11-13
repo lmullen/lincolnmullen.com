@@ -15,24 +15,9 @@
 {{ $viz := (where $items "Params.kind" "visualization").ByDate.Reverse }}
 {{ $articles := (where $items "Params.kind" "article").ByDate.Reverse }}
 <div class="scholarship">
-	<header class="sch-head">
-		<div class="sch-head-text">
-			<h1 class="page-title">{{ .Title }}</h1>
-			{{ with .Params.intro }}<p class="sch-intro">{{ . }}</p>{{ end }}
-		</div>
-		<a class="sch-cv" href="{{ $cv }}">
-			<span class="k">Curriculum vitae</span>
-			<span class="v">{{ .Params.cv_note | default "The complete record of my scholarly activity" }}</span>
-			<span class="go">Read the CV <i class="bi bi-arrow-right" aria-hidden="true"></i></span>
-		</a>
-	</header>
-
-	<nav class="sch-toc" aria-label="Sections of this page">
-		{{ with $books }}<a href="#books">Books</a>{{ end }}
-		{{ with $projects }}<a href="#digital-projects">Digital projects</a>{{ end }}
-		{{ with $viz }}<a href="#visualizations">Visualizations</a>{{ end }}
-		{{ with $articles }}<a href="#chapters-and-articles">Chapters and articles</a>{{ end }}
-	</nav>
+	<h1 class="page-title">{{ .Title }}</h1>
+	{{ with .Params.intro }}<p class="sch-intro">{{ . }}</p>{{ end }}
+	<a class="rm" href="{{ $cv }}"><span>See my curriculum vitae</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
 
 	{{ with $books }}
 	<section class="sch-section sch-books" aria-labelledby="books">

@@ -1741,77 +1741,13 @@ figure.sideimg {
    and the shared section head (.shead §4.2).
    =================================================================== */
 
-/* page header: title and intro at the left, the CV block at the right. The
-   title uses the shared .page-title from the interior-chrome section. */
-.sch-head {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(17rem, 22rem);
-  gap: 1.5rem 3rem;
-  align-items: end;
-}
+/* page header: the intro and, under it, the link to the CV (the shared .rm).
+   The title uses the shared .page-title from the interior-chrome section. */
 .sch-intro {
   /* inherits body base */
   color: var(--body);
   max-width: var(--measure);
   margin: 0;
-}
-/* the CV block: the page's one filled-color block, so the link to the full
-   record is the first thing seen after the title. Cobalt in both modes. */
-.sch-cv {
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  padding: 1.25rem 1.4rem 1.2rem;
-  border-radius: var(--radius);
-  background: var(--cobalt);
-  color: #fff;
-  text-decoration: none;
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-.sch-cv .k {
-  @include mono-label(var(--label-md), 0.18em);
-  color: var(--accent-soft);
-}
-.sch-cv .v {
-  font: 600 var(--h3)/1.25 "Source Serif 4", serif;
-  letter-spacing: -0.01em;
-}
-.sch-cv .go {
-  margin-top: 0.35rem;
-  font: 400 var(--prose-sm)/1.3 "Source Serif 4", serif;
-}
-.sch-cv .go i {
-  display: inline-block;
-  font-size: 0.9em;
-  color: var(--accent-soft);
-  transition: transform 0.15s;
-}
-.sch-cv:hover {
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(27, 84, 192, 0.28);
-}
-.sch-cv:hover .go i {
-  transform: translateX(0.2em);
-}
-
-/* jump links to the four sections */
-.sch-toc {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem 1.6rem;
-  margin-top: 2rem;
-  padding: 0.85rem 0;
-  border-top: 1px solid var(--rule2);
-  border-bottom: 1px solid var(--rule2);
-}
-.sch-toc a {
-  @include mono-label(var(--label-md), 0.1em, 500, 1.4);
-  color: var(--navy);
-  text-decoration: none;
-}
-.sch-toc a:hover {
-  color: var(--orange-text);
 }
 
 /* sections: the shared .shead, with scholarship spacing. The scoped selector
@@ -2089,14 +2025,9 @@ figure.sideimg {
   margin-left: 0.55rem;
 }
 
-/* responsive. Below $bp-sidebar the abstract drops under the citation and
-   the header stacks; below $bp-mobile every feature goes to one column,
+/* responsive. Below $bp-sidebar the abstract drops under the citation; below $bp-mobile every feature goes to one column,
    image first. */
 @media (max-width: $bp-sidebar) {
-  .sch-head {
-    grid-template-columns: minmax(0, 1fr);
-    align-items: start;
-  }
   .sf {
     gap: 0 2.25rem;
   }

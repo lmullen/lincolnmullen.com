@@ -76,8 +76,8 @@ reviews:
     text: "Josh McMullen, <em>Christianity Today</em>"
   - url: https://doi.org/10.1111/rsr.14333
     text: "Abel Rios, <em>Religious Studies Review</em>"
-  - text: "Brian Sullivan, <em>Library Journal</em>"
-  - text: "<em>Choice</em>"
+  - url: https://www.libraryjournal.com/review/the-chance-of-salvation-a-history-of-conversion-in-america
+    text: "Brian Sullivan, <em>Library Journal</em>"
   - url: https://juvenileinstructor.org/book-review-lincoln-mullen-the-chance-of-salvation/
     text: "Jeff Turner, <em>Juvenile Instructor</em>"
   - url: https://benjaminepark.com/2017/08/30/review-lincoln-mullen-the-chance-of-salvation/

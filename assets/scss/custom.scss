@@ -1773,6 +1773,9 @@ figure.sideimg {
 .sch-cv:hover {
   color: var(--orange-text);
 }
+.sch-cv-arrow {
+  color: var(--orange);
+}
 
 /* sections: the shared .shead, with scholarship spacing. The scoped selector
    overrides the homepage .shead bottom margin; the gap to the first entry

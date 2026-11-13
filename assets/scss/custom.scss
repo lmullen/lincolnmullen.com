@@ -1941,35 +1941,29 @@ figure.sideimg {
   color: var(--navy);
 }
 
-/* ---- text-only list (chapters and articles): year | citation + links |
-   abstract, with hairline row dividers. */
+/* ---- text-only list (chapters and articles): the citation with the
+   abstract under it, and the links in a narrow column at the side. Hairline
+   row dividers. */
 .sc-item {
   display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr) minmax(0, 1.15fr);
-  gap: 0 2.5rem;
+  grid-template-columns: minmax(0, 1fr) 13rem;
+  gap: 0 3.25rem;
   padding: 1.9rem 0;
   border-top: 1px solid var(--rule2);
 }
 .sc-list .sc-item:first-child {
   border-top: none;
 }
-.sc-year {
-  margin: 0;
-  padding-top: 0.2rem;
-  font: 600 var(--h3)/1.2 "Source Serif 4", serif;
-  color: var(--ink);
-  font-variant-numeric: lining-nums tabular-nums;
-}
-.sc-year span {
-  display: block;
-  margin-top: 0.35rem;
-  @include mono-label(var(--label-xs), 0.13em, 600, 1.3);
-  color: var(--mut);
+.sc-main {
+  max-width: var(--measure);
 }
 .sc-cite {
   /* inherits body base */
   margin: 0;
   color: var(--ink);
+}
+.sc-abs {
+  margin-top: 0.7rem;
 }
 .sc-abs p {
   margin: 0 0 0.7rem;
@@ -1978,6 +1972,21 @@ figure.sideimg {
 }
 .sc-abs p:last-child {
   margin-bottom: 0;
+}
+/* the side column: the Links label over its links, one to a line */
+.sc-side .lg-links {
+  margin-top: 0.3rem; /* the label sits on the citation's first line */
+}
+.sc-side .lg-lrow {
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.sc-side .lg-lv {
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.sc-side .lg-lv a::after {
+  content: none !important;
 }
 /* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
    block below the abstract, laid out like the link rows beneath it: the
@@ -2099,8 +2108,8 @@ figure.sideimg {
   margin-left: 0.55rem;
 }
 
-/* responsive. Below $bp-sidebar the abstract drops under the citation; below $bp-mobile every feature goes to one column,
-   image first. */
+/* responsive. Below $bp-mobile every feature goes to one column, image
+   first, and an article's links drop under its abstract. */
 @media (max-width: $bp-sidebar) {
   .sf {
     gap: 0 2.25rem;
@@ -2109,12 +2118,7 @@ figure.sideimg {
     gap: 0 2.5rem;
   }
   .sc-item {
-    grid-template-columns: 5.5rem minmax(0, 1fr);
-    gap: 0 1.5rem;
-  }
-  .sc-abs {
-    grid-column: 2;
-    margin-top: 1rem;
+    gap: 0 2.25rem;
   }
 }
 @media (max-width: $bp-mobile) {
@@ -2144,6 +2148,14 @@ figure.sideimg {
   .sch-section {
     margin-top: 2.75rem;
   }
+  /* the links drop under the abstract */
+  .sc-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.9rem 0;
+  }
+  .sc-main {
+    max-width: none;
+  }
   .sv-grid {
     grid-template-columns: minmax(0, 1fr);
     gap: 2rem 0;
@@ -2151,18 +2163,6 @@ figure.sideimg {
   }
 }
 @media (max-width: $bp-phone) {
-  .sc-item {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  .sc-year {
-    display: flex;
-    align-items: baseline;
-    gap: 0.7rem;
-    margin-bottom: 0.5rem;
-  }
-  .sc-abs {
-    grid-column: 1;
-  }
   .lg-lrow,
   .lg-praise {
     flex-direction: column;

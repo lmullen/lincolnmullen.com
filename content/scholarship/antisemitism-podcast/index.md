@@ -25,8 +25,7 @@ abstract: >-
   by Mark Oppenheimer, that traces just how deep those roots go. Its ten
   episodes run from the colonial period and the early republic to the present.
   The series is written by historians John Turner and Lincoln Mullen, with
-  Britt Tevis as lead scholar. It is executive produced by Jeanette Patrick and
-  produced by Jim Ambuske.
+  Britt Tevis as lead scholar.
 links:
   - url: https://podcasts.rrchnm.org/show/Antisemitism-USA/
     text: "Listen to the podcast"

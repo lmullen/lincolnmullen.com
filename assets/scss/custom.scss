@@ -1985,7 +1985,7 @@ figure.sideimg {
   flex-direction: column;
   gap: 0.15rem;
 }
-.sc-side .lg-lv a::after {
+.sc-side .lg-lv > ::after {
   content: none !important;
 }
 /* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
@@ -2102,7 +2102,10 @@ figure.sideimg {
 .lg-lv a:hover {
   color: var(--orange-text);
 }
-.lg-lv a:not(:last-child)::after {
+.lg-lv span {
+  color: var(--sec);
+}
+.lg-lv > :not(:last-child)::after {
   content: "·";
   color: var(--rule);
   margin-left: 0.55rem;

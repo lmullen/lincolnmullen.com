@@ -42,6 +42,8 @@ media:
     text: "Book talk, Congregational Library &amp; Archives"
   - url: https://www.youtube.com/watch?v=1LPouikAk8U
     text: "“The Bible in Public Life,” Kluge Center, Library of Congress"
+  - url: https://tif.ssrc.org/2018/04/18/digital-projects-in-the-classroom/
+    text: "“Digital Projects in the Classroom,” <em>The Immanent Frame</em>"
 quotes:
   - text: "Laying bare how the Bible was used in the American press, America’s Public Bible is a one-of-a-kind contribution to historical knowledge and digital scholarship. Its rich analysis and sophisticated tools deliver insights into nineteenth-century American history made decidedly in the twenty-first."
     attribution: "Ian Milligan, University of Waterloo"

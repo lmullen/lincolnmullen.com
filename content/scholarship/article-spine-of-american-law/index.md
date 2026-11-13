@@ -1,5 +1,7 @@
 ---
 title: "The Spine of American Law"
+kind: article
+label: "Article"
 date: 2018-03-01
 citation_led: true
 citation: >-

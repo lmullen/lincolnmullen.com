@@ -1,5 +1,7 @@
 ---
 title: "American Religious Ecologies"
+kind: project
+cover_alt: "Map of the eastern United States with blue circles marking the places whose congregations were recorded in the 1926 Census of Religious Bodies"
 subtitle: "Data and visualizations for American religious history"
 thumbnail: "schedule.jpg"
 homepage-thumbnail: "homepage-thumbnail.jpg"
@@ -8,7 +10,7 @@ homepageOrder: 2
 active: true
 weight: 1
 date: 2018-01-01
-cover: "homepage-thumbnail.jpg"
+cover: "populated-places-map.png"
 citation: >-
   Mullen, Lincoln A., and John G. Turner. <em>American
   Religious Ecologies.</em> Roy Rosenzweig Center for History and New Media,

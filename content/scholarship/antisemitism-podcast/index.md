@@ -1,5 +1,7 @@
 ---
 title: "Antisemitism, U.S.A."
+kind: project
+cover_alt: "Podcast cover art: Antisemitism, U.S.A.: A History, lettered on a concrete wall"
 subtitle: "A narrative podcast on the history of American antisemitism"
 thumbnail: "thumbnail.png"
 homepage-thumbnail: "homepage-thumbnail.png"

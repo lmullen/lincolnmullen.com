@@ -1,5 +1,7 @@
 ---
 title: "USAboundaries"
+kind: article
+label: "Software"
 date: 2018-01-10
 citation_led: true
 citation: >-

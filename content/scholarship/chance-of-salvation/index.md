@@ -1,13 +1,15 @@
 ---
 title: "The Chance of Salvation: A History of Conversion in America"
+kind: book
+cover_alt: "Cover of The Chance of Salvation: A History of Conversion in America, by Lincoln A. Mullen"
 subtitle: "Harvard University Press, 2017"
-thumbnail: "chance-of-salvation-cover.jpg"
-homepage-thumbnail: "chance-of-salvation-cover.jpg"
+thumbnail: "chance-of-salvation-cover.png"
+homepage-thumbnail: "chance-of-salvation-cover.png"
 homepage: true
 homepageOrder: 1
 homepageSize: large
 date: 2017-03-01
-cover: "chance-of-salvation-cover.jpg"
+cover: "chance-of-salvation-cover.png"
 citation: >-
   Mullen, Lincoln A. <em>The Chance of Salvation: A History of Conversion in
   America.</em> Cambridge, MA: Harvard University Press, 2017.

@@ -1,13 +1,15 @@
 ---
 title: "America's Public Bible: A Commentary"
+kind: book
+cover_alt: "Cover of America's Public Bible: A Commentary, by Lincoln A. Mullen"
 subtitle: "Stanford University Press, 2023"
-thumbnail: "apb-cover.jpg"
-homepage-thumbnail: "apb-cover.jpg"
+thumbnail: "americas-public-bible-cover.png"
+homepage-thumbnail: "americas-public-bible-cover.png"
 homepage: true
 homepageOrder: 2
 homepageSize: large
 date: 2023-04-01
-cover: "apb-cover.jpg"
+cover: "americas-public-bible-cover.png"
 citation: >-
   Mullen, Lincoln A. <em>America's Public Bible: A Commentary.</em> Stanford,
   CA: Stanford University Press, 2023.

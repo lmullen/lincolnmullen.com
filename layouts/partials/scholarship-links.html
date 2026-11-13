@@ -1,0 +1,10 @@
+{{/* Labeled link rows — Links / Reviews / Media — for a scholarship entry.
+     Each is an array of { url, text } in the front matter; a row renders only
+     when its array is non-empty. Context is a scholarship page. */}}
+{{ if or .Params.links .Params.reviews .Params.media }}
+<div class="lg-links">
+	{{ with .Params.links }}<div class="lg-lrow"><span class="lg-lk">Links</span><span class="lg-lv">{{ range . }}<a href="{{ .url }}">{{ .text | safeHTML }}</a>{{ end }}</span></div>{{ end }}
+	{{ with .Params.reviews }}<div class="lg-lrow"><span class="lg-lk">Reviews</span><span class="lg-lv">{{ range . }}<a href="{{ .url }}">{{ .text | safeHTML }}</a>{{ end }}</span></div>{{ end }}
+	{{ with .Params.media }}<div class="lg-lrow"><span class="lg-lk">Media</span><span class="lg-lv">{{ range . }}<a href="{{ .url }}">{{ .text | safeHTML }}</a>{{ end }}</span></div>{{ end }}
+</div>
+{{ end }}

@@ -1,5 +1,7 @@
 ---
 title: "textreuse"
+kind: article
+label: "Software"
 date: 2015-01-01
 citation_led: true
 citation: >-

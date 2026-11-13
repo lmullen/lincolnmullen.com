@@ -2,9 +2,9 @@
 title: "Mapping Early American Elections"
 kind: project
 subtitle: "Interactive maps of Congressional elections, 1788–1825"
-cover_alt: "County-level map of the elections to the Sixth Congress, 1798–1799, shaded by party vote share"
+cover_alt: "County-level map of New York’s elections to the Fourth Congress, 1794, shaded by party vote share"
 date: 2019-06-01
-cover: "sixth-congress-map.png"
+cover: "new-york-fourth-congress-map.png"
 citation: >-
   <em>Mapping Early American Elections.</em> Roy Rosenzweig
   Center for History and New Media, 2016–2019. https://doi.org/10.31835/meae.

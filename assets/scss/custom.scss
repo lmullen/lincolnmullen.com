@@ -81,6 +81,14 @@ $bp-stack: 640px; /* header, hero links and home stream go single-column; subscr
   letter-spacing: 0.04em;
 }
 
+/* The root size. Every size on the site is in rem, so this one ratio scales
+   the type, the spacing, and the reading measure together: 20/19 turns the
+   1.1875rem body from 19px into 20px at the browser's default 16px, and
+   still follows a reader's own default size. */
+:root {
+  font-size: calc(100% * 20 / 19);
+}
+
 /* Navy & Orange — Light Mode */
 :root,
 [data-bs-theme="light"] {
@@ -104,10 +112,10 @@ $bp-stack: 640px; /* header, hero links and home stream go single-column; subscr
   --accent-soft: #ffc79c; /* soft peach accent on the cobalt band */
 
   /* Mono label sizes (§4.1) — five steps replace the old 0.6–0.82rem continuum */
-  --label-xs: 0.62rem; /* pills, tags, code-language chips, table headers */
-  --label-sm: 0.68rem; /* metalines, index dates, sidebar labels, feed links */
-  --label-md: 0.74rem; /* eyebrows, nav, buttons, section-header links */
-  --label-lg: 0.82rem; /* section-header labels */
+  --label-xs: 0.7rem; /* pills, tags, code-language chips, table headers */
+  --label-sm: 0.74rem; /* metalines, index dates, sidebar labels, feed links */
+  --label-md: 0.78rem; /* eyebrows, nav, buttons, section-header links */
+  --label-lg: 0.86rem; /* section-header labels */
   --label-xl: 0.95rem; /* the blog's name heading the home page's stream */
 
   /* Type scale — one value per voice, so the same content is the same size
@@ -118,9 +126,9 @@ $bp-stack: 640px; /* header, hero links and home stream go single-column; subscr
      their own. */
   --h-title: 2.5rem; /* the title of the page/post you are viewing */
   --h2: 1.5rem; /* in-body section heading (##), post titles in lists and the band */
-  --h3: 1.2rem; /* in-body subsection (###), archive year headings */
-  --h4: 1.05rem; /* #### and below, archive and scholarship-card titles */
-  --prose-sm: 1rem; /* secondary prose and serif UI text: captions, tables, footnotes, footer, links, cards */
+  --h3: 1.3125rem; /* in-body subsection (###), archive year headings */
+  --h4: 1.1875rem; /* #### and below, archive and scholarship-card titles */
+  --prose-sm: 1.0625rem; /* secondary prose and serif UI text: captions, tables, footnotes, footer, links, cards */
 
 }
 
@@ -256,7 +264,7 @@ blockquote {
 }
 
 blockquote cite {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-style: normal;
   color: var(--mut);
 }
@@ -428,7 +436,7 @@ div.highlight pre {
   word-break: break-word;
   margin-left: 0;
   font-family: "Source Code Pro", monospace;
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   line-height: 1.55;
   padding: 0.75rem 1.5rem;
   margin-bottom: 0.5rem;
@@ -808,8 +816,12 @@ sup.footnote-ref {
 }
 .home-stream .pdate {
   @include date-permalink;
-  align-self: start;
-  padding-top: 0.6rem; /* sits on the title's first line */
+  /* shares a baseline with the first line beside it: the title, or the first
+     line of text in a post without one */
+  align-self: baseline;
+}
+.home-stream .list-body {
+  align-self: baseline;
 }
 .home-stream .ptitle {
   /* a step up from the list title, with room beneath it, kin to a post page */
@@ -969,7 +981,6 @@ sup.footnote-ref {
     grid-template-columns: minmax(0, 1fr);
   }
   .home-stream .pdate {
-    padding-top: 0;
     margin-bottom: 0.5rem;
   }
 }
@@ -1368,7 +1379,7 @@ figcaption.figcap a:hover {
   overflow: auto;
 }
 .codeblock code {
-  font: 400 0.88rem/1.62 "Source Code Pro", monospace;
+  font: 400 0.92rem/1.62 "Source Code Pro", monospace;
   color: var(--ink);
 }
 
@@ -1419,7 +1430,7 @@ figcaption.figcap a:hover {
    =================================================================== */
 
 :root {
-  --measure: 44rem; /* the one reading measure for all long-form body text (~72 chars at the 19px base) */
+  --measure: 44rem; /* the one reading measure for all long-form body text (~72 chars at the body size) */
   --wide: 58rem; /* breakout width for figures/tables/code */
 }
 
@@ -1628,7 +1639,7 @@ figcaption.figcap a:hover {
   white-space: pre;
 }
 .reading .codeblock code {
-  font: 400 0.88rem/1.62 "Source Code Pro", monospace;
+  font: 400 0.92rem/1.62 "Source Code Pro", monospace;
   color: var(--ink);
   background: transparent;
   padding: 0;

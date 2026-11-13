@@ -48,40 +48,38 @@ links:
   - url: https://bookshop.org/books/the-chance-of-salvation-a-history-of-conversion-in-america/9780674975620
     text: "Bookshop.org"
 reviews:
-  - url: https://academic.oup.com/jah/article-abstract/105/2/375/5085758
-    text: "Jay Green, <em>Journal of American History</em>"
-  - url: https://doi.org/10.1093/ahr/123.2.584
-    text: "E. Brooks Holifield, <em>American Historical Review</em>"
-  - url: https://doi.org/10.1017/S0009640718001385
-    text: "Amanda Porterfield, <em>Church History</em>"
   - url: https://doi.org/10.1093/jaarel/lfz019
     text: "Christopher D. Cantwell, <em>Journal of the AAR</em>"
-  - url: http://readingreligion.org/books/chance-salvation
-    text: "Lewis R. Rambo, <em>Reading Religion</em>"
-  - url: https://doi.org/10.1353/ajh.2019.0010
-    text: "Shari Rabin, <em>American Jewish History</em>"
+  - url: https://academic.oup.com/jah/article-abstract/105/2/375/5085758
+    text: "Jay Green, <em>Journal of American History</em>"
   - url: https://doi.org/10.1093/whq/whz019
     text: "Hunter M. Hampton, <em>Western Historical Quarterly</em>"
-  - url: https://doi.org/10.1080/14664658.2018.1436919
-    text: "Timothy Wesley, <em>American Nineteenth Century History</em>"
+  - url: https://doi.org/10.1093/ahr/123.2.584
+    text: "E. Brooks Holifield, <em>American Historical Review</em>"
   - url: https://doi.org/10.1017/S1537781418000543
     text: "Andrew S. Hudson, <em>Journal of the Gilded Age and Progressive Era</em>"
-  - url: https://scholarsarchive.byu.edu/msr2/vol6/iss1/26/
-    text: "Ben Wright, <em>Mormon Studies Review</em>"
-  - url: https://christianscholars.com/the-chance-of-salvation-a-history-of-conversion-in-america/
-    text: "Christopher Richmann, <em>Christian Scholar’s Review</em>"
   - url: https://bulletin.equinoxpub.com/2018/01/american-converts-and-their-possessions-a-review-of-lincoln-mullens-the-chance-of-salvation/
     text: "Charlie McCrary, <em>Bulletin for the Study of Religion</em>"
   - url: https://www.christianitytoday.com/ct/2017/november-web-only/how-america-became-conversion-nation.html
     text: "Josh McMullen, <em>Christianity Today</em>"
+  - url: https://doi.org/10.1017/S0009640718001385
+    text: "Amanda Porterfield, <em>Church History</em>"
+  - url: https://doi.org/10.1353/ajh.2019.0010
+    text: "Shari Rabin, <em>American Jewish History</em>"
+  - url: http://readingreligion.org/books/chance-salvation
+    text: "Lewis R. Rambo, <em>Reading Religion</em>"
+  - url: https://christianscholars.com/the-chance-of-salvation-a-history-of-conversion-in-america/
+    text: "Christopher Richmann, <em>Christian Scholar’s Review</em>"
   - url: https://doi.org/10.1111/rsr.14333
     text: "Abel Rios, <em>Religious Studies Review</em>"
   - url: https://www.libraryjournal.com/review/the-chance-of-salvation-a-history-of-conversion-in-america
     text: "Brian Sullivan, <em>Library Journal</em>"
   - url: https://juvenileinstructor.org/book-review-lincoln-mullen-the-chance-of-salvation/
     text: "Jeff Turner, <em>Juvenile Instructor</em>"
-  - url: https://benjaminepark.com/2017/08/30/review-lincoln-mullen-the-chance-of-salvation/
-    text: "Benjamin E. Park, blog review"
+  - url: https://doi.org/10.1080/14664658.2018.1436919
+    text: "Timothy Wesley, <em>American Nineteenth Century History</em>"
+  - url: https://scholarsarchive.byu.edu/msr2/vol6/iss1/26/
+    text: "Ben Wright, <em>Mormon Studies Review</em>"
 media:
   - url: https://www.theatlantic.com/politics/archive/2017/08/conversions-lincoln-mullen/536151/
     text: "Emma Green, <em>The Atlantic</em>"

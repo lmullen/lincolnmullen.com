@@ -1752,13 +1752,38 @@ figure.sideimg {
    and the shared section head (.shead §4.2).
    =================================================================== */
 
-/* page header: the intro and, under it, the link to the CV (the shared .rm).
+/* page header: one paragraph, the intro running into the link to the CV.
    The title uses the shared .page-title from the interior-chrome section. */
 .sch-intro {
   /* inherits body base */
   color: var(--body);
   max-width: var(--measure);
   margin: 0;
+}
+/* the CV link: the .rm voice (semibold navy on an orange rule, with an
+   arrow), set inline at the body size */
+.sch-cv {
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+.sch-cv span {
+  border-bottom: 2px solid var(--orange);
+  padding-bottom: 0.1rem;
+}
+.sch-cv i {
+  display: inline-block;
+  color: var(--orange-text);
+  font-size: 0.9em;
+  transition: transform 0.15s;
+}
+.sch-cv:hover {
+  color: var(--orange-text);
+}
+.sch-cv:hover i {
+  transform: translateX(0.2em);
 }
 
 /* sections: the shared .shead, with scholarship spacing. The scoped selector
@@ -1809,7 +1834,7 @@ figure.sideimg {
   gap: 0 4rem;
 }
 .sch-projects .sf {
-  --sf-media: 54%;
+  --sf-media: 50%; /* a project's image takes no more than half the row */
 }
 .sch-viz .sf {
   --sf-media: 60%;
@@ -1883,15 +1908,18 @@ figure.sideimg {
   margin: 1rem 0 0;
   color: var(--body);
 }
-/* the citation: recessed under the links, for readers who need to cite the
-   project and to credit its collaborators */
+/* the citation: a labeled row under the links (.lg-lrow), for readers who
+   need to cite the project and to credit its collaborators */
 .sf-cite {
-  margin: 1.15rem 0 0;
-  padding-top: 0.9rem;
-  border-top: 1px solid var(--rule2);
-  font: 400 var(--prose-sm)/1.45 "Source Serif 4", serif;
+  flex: 1;
+  min-width: 0;
+  font: 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
   color: var(--sec);
   overflow-wrap: anywhere;
+}
+/* the citation row follows the link rows at the rows' own spacing */
+.lg-links + .lg-links {
+  margin-top: 0.6rem;
 }
 
 /* ---- text-only list (chapters and articles): year | citation + links |
@@ -1933,29 +1961,38 @@ figure.sideimg {
   margin-bottom: 0;
 }
 /* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
-   block below the abstract: a mono label over orange-ruled serif quotes, each
-   with a small-caps attribution. Recedes further than the abstract by size
-   (--prose-sm). */
+   block below the abstract, laid out like the link rows beneath it: the
+   shared mono label (.lg-lk) at the left, then the quotes, whose text starts
+   where the link text does. The orange rule marks the quoted words only and
+   hangs in the gap between the label and the text; the small-caps
+   attribution under it carries no rule. Recedes further than the abstract
+   by size (--prose-sm). */
 .lg-praise {
+  --q-inset: 0.9rem; /* rule to text; less than the row gap, so the rule clears the label */
   margin-top: 1.2rem;
   max-width: var(--measure);
+  display: flex;
+  gap: 1.1rem; /* the .lg-lrow gap */
+  align-items: baseline;
 }
-.lg-praise .k {
-  display: block;
-  @include mono-label(var(--label-xs), 0.13em, 600, 1.5);
-  color: var(--mut);
-  margin-bottom: 0.75rem;
+.lg-pv {
+  flex: 1;
+  min-width: 0;
 }
 .lg-q {
   margin: 0 0 0.9rem;
-  padding-left: 1rem;
-  border-left: 2px solid var(--orange);
+  /* clear the site's blockquote rule and indent: the rule here is on the
+     quoted paragraph alone */
+  padding: 0;
+  border: 0;
 }
 .lg-q:last-child {
   margin-bottom: 0;
 }
 .lg-q p {
-  margin: 0;
+  margin: 0 0 0 calc(-1 * var(--q-inset) - 2px);
+  padding-left: var(--q-inset);
+  border-left: 2px solid var(--orange);
   font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
   color: var(--sec);
 }
@@ -2091,8 +2128,13 @@ figure.sideimg {
   .sc-abs {
     grid-column: 1;
   }
-  .lg-lrow {
+  .lg-lrow,
+  .lg-praise {
     flex-direction: column;
     gap: 0.15rem;
+  }
+  /* stacked under its label, the quote's rule sits at the left edge */
+  .lg-q p {
+    margin-left: 0;
   }
 }

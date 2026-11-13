@@ -8,7 +8,7 @@ homepage-thumbnail: "thumbnail.png"
 homepage: true
 homepageOrder: 1
 active: true
-weight: 2
+weight: 1
 date: 2016-01-01
 cover: "thumbnail.png"
 citation: >-

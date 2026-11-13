@@ -1,7 +1,7 @@
 ---
-title: "America's Public Bible: A Commentary"
+title: "America’s Public Bible: A Commentary"
 kind: book
-cover_alt: "Cover of America's Public Bible: A Commentary, by Lincoln A. Mullen"
+cover_alt: "Cover of America’s Public Bible: A Commentary, by Lincoln A. Mullen"
 subtitle: "Stanford University Press, 2023"
 thumbnail: "americas-public-bible-cover.png"
 homepage-thumbnail: "americas-public-bible-cover.png"
@@ -11,11 +11,11 @@ homepageSize: large
 date: 2023-04-01
 cover: "americas-public-bible-cover.png"
 citation: >-
-  Mullen, Lincoln A. <em>America's Public Bible: A Commentary.</em> Stanford,
+  Mullen, Lincoln A. <em>America’s Public Bible: A Commentary.</em> Stanford,
   CA: Stanford University Press, 2023.
-award: "Chronicling America Data Challenge — National Endowment for the Humanities, 2016"
+award: "Chronicling America Data Challenge — NEH, 2016"
 abstract: >-
-  <em>America's Public Bible</em> is an interactive scholarly work that uncovers
+  <em>America’s Public Bible</em> is an interactive scholarly work that uncovers
   the history of the Bible in the nineteenth- and early twentieth-century United
   States. When the Bible was cited on one side or the other of an issue, only
   rarely was its meaning explicated rather than assumed. Those who cited the text
@@ -24,7 +24,7 @@ abstract: >-
   newspapers used the Bible test that assumption. By identifying and studying
   quotations in American newspapers, the site offers a commentary on how the
   Bible was used in public life, uncovering trends and patterns that would be
-  invisible to a single scholar's reading of these documents.
+  invisible to a single scholar’s reading of these documents.
 links:
   - url: https://americaspublicbible.org
     text: "Project website"
@@ -36,8 +36,8 @@ media:
   - url: https://www.wsj.com/articles/library-of-congress-looks-to-ai-to-help-users-sift-through-its-collection-11624552197
     text: "<em>Wall Street Journal</em>"
 quotes:
-  - text: "Laying bare how the Bible was used in the American press, America's Public Bible is a one-of-a-kind contribution to historical knowledge and digital scholarship. Its rich analysis and sophisticated tools deliver insights into nineteenth-century American history made decidedly in the twenty-first."
+  - text: "Laying bare how the Bible was used in the American press, America’s Public Bible is a one-of-a-kind contribution to historical knowledge and digital scholarship. Its rich analysis and sophisticated tools deliver insights into nineteenth-century American history made decidedly in the twenty-first."
     attribution: "Ian Milligan, University of Waterloo"
-  - text: "The most ambitious quantitative analysis of its kind and a new window into the use of the Bible in American public life. Lincoln Mullen's digital wizardry is matched only by his incisive historical commentary on the data he has amassed. He has set a new standard for digital historical scholarship."
-    attribution: "Peter Thuesen, Indiana University-Purdue University Indianapolis (IUPUI)"
+  - text: "The most ambitious quantitative analysis of its kind and a new window into the use of the Bible in American public life. Lincoln Mullen’s digital wizardry is matched only by his incisive historical commentary on the data he has amassed. He has set a new standard for digital historical scholarship."
+    attribution: "Peter Thuesen, Indiana University-Purdue University Indianapolis"
 ---

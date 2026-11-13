@@ -16,8 +16,7 @@
 {{ $articles := (where $items "Params.kind" "article").ByDate.Reverse }}
 <div class="scholarship">
 	<h1 class="page-title">{{ .Title }}</h1>
-	{{ with .Params.intro }}<p class="sch-intro">{{ . }}</p>{{ end }}
-	<a class="rm" href="{{ $cv }}"><span>See my curriculum vitae</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+	<p class="sch-intro">{{ with .Params.intro }}{{ . }} {{ end }}<a class="sch-cv" href="{{ $cv }}"><span>See my curriculum vitae</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a></p>
 
 	{{ with $books }}
 	<section class="sch-section sch-books" aria-labelledby="books">

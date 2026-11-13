@@ -8,7 +8,7 @@ homepage-thumbnail: "homepage-thumbnail.jpg"
 homepage: true
 homepageOrder: 2
 active: true
-weight: 1
+weight: 2
 date: 2018-01-01
 cover: "populated-places-map.png"
 citation: >-

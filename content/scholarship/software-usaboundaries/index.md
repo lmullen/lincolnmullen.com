@@ -13,7 +13,7 @@ abstract: >-
   in this package include state, county, congressional district, and zip code
   tabulation area. Contemporary boundaries are provided by the U.S. Census Bureau
   (public domain). Historical boundaries for the years from 1629 to 2000 are
-  provided from the Newberry Library's Atlas of Historical County Boundaries
+  provided from the Newberry Library’s Atlas of Historical County Boundaries
   (licensed CC BY-NC-SA).
 links:
   - url: https://github.com/ropensci/USAboundaries

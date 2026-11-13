@@ -16,7 +16,7 @@ citation: >-
 award: "Best First Book in the History of Religions — American Academy of Religion, 2018"
 abstract: >-
   The United States has a long history of religious pluralism, yet Americans have
-  often thought that people's faith determines their eternal salvation. The result
+  often thought that people’s faith determines their eternal salvation. The result
   is that Americans switch religions more often than any other nation. <em>The
   Chance of Salvation</em> traces the history of the distinctively American idea
   that religion is a matter of individual choice.
@@ -46,8 +46,8 @@ media:
   - url: http://www.patheos.com/blogs/anxiousbench/2017/08/the-chance-of-salvation/
     text: "John Turner, <em>The Anxious Bench</em>"
 quotes:
-  - text: "A riveting and important book that illuminates one of the most basic facts of American religious experience, which Mullen calls 'obligated choice.' He wisely interprets the widespread occurrence of religious conversions as well as the pervasive individualism of American religious experience."
-    attribution: "Mark Noll, author of America's God: From Jonathan Edwards to Abraham Lincoln"
+  - text: "A riveting and important book that illuminates one of the most basic facts of American religious experience, which Mullen calls ‘obligated choice.’ He wisely interprets the widespread occurrence of religious conversions as well as the pervasive individualism of American religious experience."
+    attribution: "Mark Noll, author of <em>America’s God</em>"
   - text: "This freshly synthetic work shows how religious choice developed as the backbone of American religious life. In this first book by Lincoln Mullen, the unintended effects resulting from people choosing their own religion become manifest. Mullen exposes these ironies gently and clearly. This is an important book and a pleasure to read."
     attribution: "Amanda Porterfield, Church History"
 ---

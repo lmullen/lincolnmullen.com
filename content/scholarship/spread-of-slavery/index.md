@@ -10,7 +10,7 @@ citation: >-
   Mullen, Lincoln A. <em>The Spread of U.S. Slavery, 1790–1860.</em> 2014.
   https://lincolnmullen.com/projects/slavery/.
 abstract: >-
-  An animated map of slavery's expansion across the United States, updated for
+  An animated map of slavery’s expansion across the United States, updated for
   the web from the 1861 Coast Survey map that Lincoln kept on his desk.
   Frequently used in classrooms.
 links:

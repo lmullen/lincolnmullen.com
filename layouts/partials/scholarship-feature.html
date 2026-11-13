@@ -6,7 +6,7 @@
               always comes first in the source, so it leads when the columns
               stack on a narrow screen.
        width  1x display width of the image in px (2x is derived)
-       cite   true prints the citation under the text (books omit it: their
+       cite   true prints the citation as a labeled row under the links (books omit it: their
               title and publisher line already say it)
        lazy   true lazy-loads the image
 
@@ -42,11 +42,11 @@
 		{{ with $p.Params.abstract }}{{ range split . "\n" }}{{ with trim . " " }}<p class="sf-abs">{{ . | safeHTML }}</p>{{ end }}{{ end }}{{ end }}
 		{{ with $p.Params.quotes }}
 		<div class="lg-praise">
-			<span class="k">Praise</span>
-			{{ range . }}<blockquote class="lg-q"><p>{{ .text | safeHTML }}</p><cite>{{ .attribution | safeHTML }}</cite></blockquote>{{ end }}
+			<span class="lg-lk">Praise</span>
+			<div class="lg-pv">{{ range . }}<blockquote class="lg-q"><p>{{ .text | safeHTML }}</p><cite>{{ .attribution | safeHTML }}</cite></blockquote>{{ end }}</div>
 		</div>
 		{{ end }}
 		{{ partial "scholarship-links.html" $p }}
-		{{ if .cite }}{{ with $p.Params.citation }}<p class="sf-cite">{{ . | safeHTML }}</p>{{ end }}{{ end }}
+		{{ if .cite }}{{ with $p.Params.citation }}<div class="lg-links"><div class="lg-lrow"><span class="lg-lk">Citation</span><span class="sf-cite">{{ . | safeHTML }}</span></div></div>{{ end }}{{ end }}
 	</div>
 </article>

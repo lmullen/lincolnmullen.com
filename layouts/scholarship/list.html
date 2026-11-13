@@ -1,30 +1,62 @@
 {{ define "main" }}
-{{/* Scholarship — editorial ledger (handoff build 2a). Active projects first,
-     then all other work newest → oldest with articles/software interleaved by
-     year. Each entry is a page bundle in content/scholarship/<slug>/index.md;
-     see partials/scholarship-entry.html for the row and the front-matter model. */}}
+{{/* Scholarship — four sections in a fixed order: books, digital projects,
+     visualizations, then chapters and articles. Each entry is a page bundle in
+     content/scholarship/<slug>/index.md whose `kind` front matter (book,
+     project, visualization, article) files it into a section. Books and
+     projects are features with an image beside the text, alternating sides
+     in one run down the page (partials/scholarship-feature.html).
+     Visualizations are a grid of images, each with its linked title beneath.
+     The last section is a text-only list of citations
+     (partials/scholarship-citation.html). */}}
+{{ $cv := .Params.cv_url | default "https://files.lincolnmullen.com/cv/Mullen-cv.pdf" }}
+{{ $items := where .Pages "Type" "scholarship" }}
+{{ $books := (where $items "Params.kind" "book").ByDate.Reverse }}
+{{/* active projects lead (by weight), then finished ones newest first */}}
+{{ $projects := where $items "Params.kind" "project" }}
+{{ $projects = union (where $projects "Params.active" true).ByWeight (where $projects "Params.active" "!=" true).ByDate.Reverse }}
+{{ $viz := (where $items "Params.kind" "visualization").ByDate.Reverse }}
+{{ $articles := (where $items "Params.kind" "article").ByDate.Reverse }}
 <div class="scholarship">
 	<h1 class="page-title">{{ .Title }}</h1>
-	{{ with .Params.intro }}<p class="sch-intro">{{ . }}</p>{{ end }}
-	{{ $cv := .Params.cv_url | default "https://files.lincolnmullen.com/cv/Mullen-cv.pdf" }}
-	<a class="rm" href="{{ $cv }}"><span>Full curriculum vitae</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+	<p class="sch-intro">{{ with .Params.intro }}{{ . }} {{ end }}<a class="sch-cv" href="{{ $cv }}">See my curriculum vitae</a>&nbsp;<i class="bi bi-arrow-right sch-cv-arrow" aria-hidden="true"></i></p>
 
-	{{ $items := where .Pages "Type" "scholarship" }}
-	{{ $active := where $items "Params.active" "==" true }}
-	{{ $rest := where $items "Params.active" "!=" true }}
-
-	{{ with $active }}
-	<h2 class="shead sub"><span class="lbl">Active projects</span></h2>
-	<div class="lg-group">
-		{{ range .ByWeight }}{{ partial "scholarship-entry.html" . }}{{ end }}
-	</div>
+	{{ with $books }}
+	<section class="sch-section sch-books" aria-labelledby="books">
+		<h2 class="shead" id="books"><span class="lbl">Books</span></h2>
+		{{ range $i, $p := . }}{{ partial "scholarship-feature.html" (dict "page" $p "flip" (eq (mod $i 2) 1) "width" 460 "lazy" false) }}{{ end }}
+	</section>
 	{{ end }}
 
-	{{ with $rest }}
-	<h2 class="shead"><span class="lbl">Selected works</span></h2>
-	<div class="lg-group">
-		{{ range .ByDate.Reverse }}{{ partial "scholarship-entry.html" . }}{{ end }}
-	</div>
+	{{ with $projects }}
+	<section class="sch-section sch-projects" aria-labelledby="digital-projects">
+		<h2 class="shead" id="digital-projects"><span class="lbl">Digital projects</span></h2>
+		{{ range $i, $p := . }}{{ partial "scholarship-feature.html" (dict "page" $p "flip" (eq (mod (add $i (len $books)) 2) 1) "width" 400 "cite" true "lazy" true) }}{{ end }}
+	</section>
+	{{ end }}
+
+	{{ with $viz }}
+	<section class="sch-section sch-viz" aria-labelledby="visualizations">
+		<h2 class="shead" id="visualizations"><span class="lbl">Visualizations</span></h2>
+		<div class="sv-grid">
+			{{ range . }}
+			{{ $v := . }}
+			{{ $href := "" }}{{ with .Params.links }}{{ $href = (index . 0).url }}{{ end }}
+			<a class="sv"{{ with $href }} href="{{ . }}"{{ end }}>
+				{{ with .Params.cover }}{{ with $v.Resources.GetMatch . }}{{ partial "responsive-image.html" (dict "res" . "width" 360 "alt" ($v.Params.cover_alt | default $v.Title) "lazy" true) }}{{ end }}{{ end }}
+				<span class="sv-title">{{ .Title }}</span>
+			</a>
+			{{ end }}
+		</div>
+	</section>
+	{{ end }}
+
+	{{ with $articles }}
+	<section class="sch-section sch-articles" aria-labelledby="chapters-and-articles">
+		<h2 class="shead" id="chapters-and-articles"><span class="lbl">Chapters and articles</span></h2>
+		<div class="sc-list">
+			{{ range . }}{{ partial "scholarship-citation.html" . }}{{ end }}
+		</div>
+	</section>
 	{{ end }}
 </div>
 {{ end }}

@@ -1,5 +1,7 @@
 ---
 title: "Packaging Data Analytical Work Reproducibly Using R"
+kind: article
+label: "Article"
 date: 2018-02-01
 citation_led: true
 citation: >-

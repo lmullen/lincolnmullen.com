@@ -1745,111 +1745,285 @@ figure.sideimg {
 }
 
 /* ===================================================================
-   Scholarship — editorial ledger (Scholarship handoff, build 2a).
-   A curated, annotated list of enduring work: active projects first,
-   then everything else newest → oldest, articles/software interleaved
-   by year. Composes from the identity tokens (§2); the interior header
-   (.sitehead) and the section head (.shead §4.2) come from the shared
-   system above and introduces no tokens of its own.
+   Scholarship — books, digital projects, visualizations, then chapters
+   and articles. Books and projects are features: an image beside the
+   text, alternating sides down the page. Visualizations are a grid of
+   images with titles. The last is a text-only list of citations. Composes from the identity tokens (§2)
+   and the shared section head (.shead §4.2).
    =================================================================== */
 
-/* page header (intro + CV link). The page title itself uses the shared
-   .page-title from the interior-chrome section above. */
+/* page header: one paragraph, the intro running into the link to the CV.
+   The title uses the shared .page-title from the interior-chrome section. */
 .sch-intro {
   /* inherits body base */
   color: var(--body);
   max-width: var(--measure);
-  margin: 0 0 1rem;
+  margin: 0;
 }
-/* section heads: scholarship spacing + the Active-projects orange label.
-   Reuses the shared .shead border/label from §4.2. The scoped selector
-   overrides the homepage .shead bottom margin; the gap to the first row
-   comes from .lg-group instead. */
-.scholarship .shead {
-  margin: 2.9rem 0 0;
+/* the CV link: the .rm voice (semibold navy on an orange rule), set inline
+   in the intro sentence */
+.sch-cv {
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid var(--orange);
+  padding-bottom: 0.1rem;
+  transition: color 0.15s;
 }
-.shead.sub .lbl {
+.sch-cv:hover {
   color: var(--orange-text);
 }
-
-/* ledger group + row: cover 188px | body 1fr, hairline row dividers. */
-.lg-group {
-  margin-top: 1.6rem;
+.sch-cv-arrow {
+  color: var(--orange);
 }
-.lg-item {
+
+/* sections: the shared .shead, with scholarship spacing. The scoped selector
+   overrides the homepage .shead bottom margin; the gap to the first entry
+   comes from the entry's own padding. */
+.sch-section {
+  margin-top: 3.5rem;
+}
+.scholarship .shead {
+  margin: 0;
+  scroll-margin-top: 1.5rem;
+}
+
+/* ---- feature: image | text, in two columns. --sf-media is the image
+   column's share of the row; each section sets its own, since a portrait
+   cover wants a narrower column than a landscape map. The image is first in
+   the source and .sf--flip moves it to the right-hand column, so a section's
+   images zigzag down the page while a narrow screen always leads with the
+   image. */
+.sf {
+  --sf-media: 50%;
   display: grid;
-  grid-template-columns: 188px 1fr;
-  gap: 0 2rem;
-  padding: 2rem 0;
+  grid-template-columns: minmax(0, var(--sf-media)) minmax(0, 1fr);
+  gap: 0 3.25rem;
+  align-items: start;
+  padding: 3rem 0;
   border-top: 1px solid var(--rule2);
 }
-.lg-group .lg-item:first-child {
+.shead + .sf {
   border-top: none;
-  padding-top: 1.1rem;
 }
-/* imageless rows (articles, software, cover-less projects): the body holds
-   column 2 so every entry aligns to one left edge; the gutter stays open. */
-.lg-item.nocover .lg-body {
+.sf--flip {
+  grid-template-columns: minmax(0, 1fr) minmax(0, var(--sf-media));
+}
+.sf--flip .sf-media {
   grid-column: 2;
+  grid-row: 1;
 }
-.lg-cover {
+.sf--flip .sf-body {
   grid-column: 1;
+  grid-row: 1;
 }
-.lg-cover img {
-  display: block;
-  width: 100%;
-  height: auto; /* native aspect ratio — portrait covers, landscape maps, no crop */
-  border-radius: var(--radius);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+.sf--noimg {
+  grid-template-columns: minmax(0, 1fr);
 }
-.lg-body {
-  min-width: 0;
+.sch-books .sf {
+  --sf-media: 38%;
+  gap: 0 4rem;
 }
-/* citation: the sole heading of every entry — near-black --ink, inherits the
-   body base, and renders identically for every kind of scholarship (books,
-   projects, maps, articles, software). It always leads the entry, so no top
-   margin. */
-.lg-cite {
-  margin: 0;
-  color: var(--ink);
-  max-width: var(--measure);
-}
-.lg-cite em {
-  font-style: italic;
-}
-/* abstract: deliberately recessed BELOW the citation — same size and weight,
-   only color separates them (the handoff's inversion). */
-.lg-abs {
-  /* same size/weight as .lg-cite (inherits base); only color recesses it */
-  margin: 0.9rem 0 0;
-  color: var(--sec);
-  max-width: var(--measure);
+.sch-projects .sf {
+  --sf-media: 33.333%; /* a project's image takes a third of the row */
 }
 
-/* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
-   block below the abstract: a mono label over orange-ruled serif quotes, each
-   with a small-caps attribution. Recedes further than the abstract by size
-   (--prose-sm). */
-.lg-praise {
-  margin-top: 1.2rem;
+/* the image: native aspect ratio, never cropped. It stays in view while a
+   longer text column scrolls past it. */
+.sf-media {
+  position: sticky;
+  top: 1.5rem;
+}
+.sf-media a {
+  display: block;
+}
+.sf-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 0 0 1px var(--rule), 0 10px 28px -12px rgba(22, 32, 58, 0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.sf-media a:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 0 0 1px var(--rule), 0 18px 36px -14px rgba(22, 32, 58, 0.45);
+}
+/* book covers are objects, not screenshots: square corners and a deeper shadow */
+.sch-books .sf-media img {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 18px 40px -16px rgba(22, 32, 58, 0.55);
+}
+
+.sf-body {
+  min-width: 0;
   max-width: var(--measure);
 }
-.lg-praise .k {
+.sf--flip .sf-body {
+  justify-self: end;
+  width: 100%;
+}
+.sf-flag {
+  @include mono-label(var(--label-xs), 0.16em, 600, 1.3);
+  color: var(--orange-text);
+  margin: 0 0 0.6rem;
+}
+.sf-title {
+  font: 600 var(--h2)/1.15 "Source Serif 4", serif;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0;
+}
+.sch-books .sf-title {
+  font-size: 1.9rem; /* the two books lead the page */
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.sf-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.sf-title a:hover {
+  color: var(--navy);
+}
+.sf-sub {
+  margin: 0.45rem 0 0;
+  font: italic 400 var(--h4)/1.35 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.sf-abs {
+  /* inherits body base */
+  margin: 1rem 0 0;
+  color: var(--body);
+}
+/* the citation: a labeled row under the links (.lg-lrow), for readers who
+   need to cite the project and to credit its collaborators */
+.sf-cite {
+  flex: 1;
+  min-width: 0;
+  font: 400 var(--prose-sm)/1.4 "Source Serif 4", serif;
+  color: var(--sec);
+  overflow-wrap: anywhere;
+}
+/* the citation row follows the link rows at the rows' own spacing */
+.lg-links + .lg-links {
+  margin-top: 0.6rem;
+}
+
+/* ---- visualizations: a grid of images, each with its linked title beneath */
+.sv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem 2.25rem;
+  padding: 2.5rem 0 0.5rem;
+}
+.sv {
   display: block;
-  @include mono-label(var(--label-xs), 0.13em, 600, 1.5);
-  color: var(--mut);
-  margin-bottom: 0.75rem;
+  text-decoration: none;
+}
+.sv img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 0 0 1px var(--rule), 0 10px 28px -12px rgba(22, 32, 58, 0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.sv:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 0 0 1px var(--rule), 0 18px 36px -14px rgba(22, 32, 58, 0.45);
+}
+.sv-title {
+  display: block;
+  margin-top: 0.9rem;
+  font: 600 var(--h4)/1.3 "Source Serif 4", serif;
+  color: var(--ink);
+  transition: color 0.15s;
+}
+.sv:hover .sv-title {
+  color: var(--navy);
+}
+
+/* ---- text-only list (chapters and articles): the citation with the
+   abstract under it, and the links in a narrow column at the side. Hairline
+   row dividers. */
+.sc-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 13rem;
+  gap: 0 3.25rem;
+  padding: 1.9rem 0;
+  border-top: 1px solid var(--rule2);
+}
+.sc-list .sc-item:first-child {
+  border-top: none;
+}
+.sc-main {
+  max-width: var(--measure);
+}
+.sc-cite {
+  /* inherits body base */
+  margin: 0;
+  color: var(--ink);
+}
+.sc-abs {
+  margin-top: 0.7rem;
+}
+.sc-abs p {
+  margin: 0 0 0.7rem;
+  font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
+  color: var(--sec);
+}
+.sc-abs p:last-child {
+  margin-bottom: 0;
+}
+/* the side column: the Links label over its links, one to a line */
+.sc-side .lg-links {
+  margin-top: 0.3rem; /* the label sits on the citation's first line */
+}
+.sc-side .lg-lrow {
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.sc-side .lg-lv {
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.sc-side .lg-lv > ::after {
+  content: none !important;
+}
+/* praise / endorsements — advance blurbs (entries carrying `quotes`). A quiet
+   block below the abstract, laid out like the link rows beneath it: the
+   shared mono label (.lg-lk) at the left, then the quotes, whose text starts
+   where the link text does. The orange rule marks the quoted words only and
+   hangs in the gap between the label and the text; the small-caps
+   attribution under it carries no rule. Recedes further than the abstract
+   by size (--prose-sm). */
+.lg-praise {
+  --q-inset: 0.9rem; /* rule to text; less than the row gap, so the rule clears the label */
+  margin-top: 1.2rem;
+  max-width: var(--measure);
+  display: flex;
+  gap: 1.1rem; /* the .lg-lrow gap */
+  align-items: baseline;
+}
+.lg-pv {
+  flex: 1;
+  min-width: 0;
 }
 .lg-q {
   margin: 0 0 0.9rem;
-  padding-left: 1rem;
-  border-left: 2px solid var(--orange);
+  /* clear the site's blockquote rule and indent: the rule here is on the
+     quoted paragraph alone */
+  padding: 0;
+  border: 0;
 }
 .lg-q:last-child {
   margin-bottom: 0;
 }
 .lg-q p {
-  margin: 0;
+  margin: 0 0 0 calc(-1 * var(--q-inset) - 2px);
+  padding-left: var(--q-inset);
+  border-left: 2px solid var(--orange);
   font: 400 var(--prose-sm)/1.5 "Source Serif 4", serif;
   color: var(--sec);
 }
@@ -1879,8 +2053,19 @@ figure.sideimg {
   padding-top: 0.05rem;
 }
 .awd .v {
-  font: italic 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
   color: var(--ink);
+}
+/* the prize on its own line, the organization and year below it */
+.awd-t,
+.awd-o {
+  display: block;
+}
+.awd-t {
+  font-style: italic;
+}
+.awd-o {
+  color: var(--sec);
 }
 
 /* labeled link rows — Links / Reviews / Media. A row renders only when its
@@ -1920,25 +2105,77 @@ figure.sideimg {
 .lg-lv a:hover {
   color: var(--orange-text);
 }
-.lg-lv a:not(:last-child)::after {
+.lg-lv span {
+  color: var(--sec);
+}
+.lg-lv > :not(:last-child)::after {
   content: "·";
   color: var(--rule);
   margin-left: 0.55rem;
 }
 
-/* responsive: below ~640px stack the cover above the body, gutter collapses. */
-@media (max-width: 640px) {
-  .lg-item {
-    grid-template-columns: 1fr;
-    gap: 0;
+/* responsive. Below $bp-mobile every feature goes to one column, image
+   first, and an article's links drop under its abstract. */
+@media (max-width: $bp-sidebar) {
+  .sf {
+    gap: 0 2.25rem;
   }
-  .lg-cover {
-    margin-bottom: 1rem;
+  .sch-books .sf {
+    gap: 0 2.5rem;
   }
-  .lg-cover img {
-    max-width: 200px;
+  .sc-item {
+    gap: 0 2.25rem;
   }
-  .lg-item.nocover .lg-body {
+}
+@media (max-width: $bp-mobile) {
+  .sf,
+  .sf--flip,
+  .sch-books .sf {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.6rem 0;
+    padding: 2.25rem 0;
+  }
+  .sf--flip .sf-media,
+  .sf--flip .sf-body {
     grid-column: 1;
+    grid-row: auto;
+  }
+  .sf-media {
+    position: static;
+  }
+  .sf-body {
+    max-width: none;
+  }
+  /* a portrait cover at full width would fill the screen; cap and center it */
+  .sch-books .sf-media {
+    width: #{"min(100%, 21rem)"};
+    margin: 0 auto;
+  }
+  .sch-section {
+    margin-top: 2.75rem;
+  }
+  /* the links drop under the abstract */
+  .sc-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.9rem 0;
+  }
+  .sc-main {
+    max-width: none;
+  }
+  .sv-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem 0;
+    padding-top: 2rem;
+  }
+}
+@media (max-width: $bp-phone) {
+  .lg-lrow,
+  .lg-praise {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  /* stacked under its label, the quote's rule sits at the left edge */
+  .lg-q p {
+    margin-left: 0;
   }
 }

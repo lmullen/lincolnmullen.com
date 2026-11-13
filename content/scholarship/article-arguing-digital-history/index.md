@@ -1,5 +1,7 @@
 ---
 title: "Arguing with Digital History"
+kind: article
+label: "Article"
 date: 2021-06-01
 citation_led: true
 citation: >-

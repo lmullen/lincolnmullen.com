@@ -1,5 +1,7 @@
 ---
 title: "tokenizers"
+kind: article
+label: "Software"
 date: 2018-01-15
 citation_led: true
 citation: >-

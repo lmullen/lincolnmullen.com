@@ -1,0 +1,14 @@
+{{/* One row of the Scholarship page's text-only list (chapters, articles,
+     software papers): the citation, then the abstract under it, with the
+     links in a narrow column at the side. Context is a scholarship page.
+     Front matter: `citation` (Chicago bibliography string), `abstract`,
+     `links`. */}}
+<article class="sc-item">
+	<div class="sc-main">
+		{{ with .Params.citation }}<p class="sc-cite">{{ . | safeHTML }}</p>{{ end }}
+		{{ with .Params.abstract }}<div class="sc-abs">{{ range split . "\n" }}{{ with trim . " " }}<p>{{ . | safeHTML }}</p>{{ end }}{{ end }}</div>{{ end }}
+	</div>
+	<div class="sc-side">
+		{{ partial "scholarship-links.html" . }}
+	</div>
+</article>

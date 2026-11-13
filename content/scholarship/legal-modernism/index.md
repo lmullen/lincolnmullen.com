@@ -1,12 +1,14 @@
 ---
 title: "Legal Modernism"
+kind: project
+cover_alt: "Network graph of state codes of civil procedure, labeled by state and year, with arrows showing which codes borrowed from which"
 subtitle: "Legal history through computational methods"
 thumbnail: "thumbnail.png"
 homepage-thumbnail: "thumbnail.png"
 homepage: true
 homepageOrder: 1
 active: true
-weight: 2
+weight: 1
 date: 2016-01-01
 cover: "thumbnail.png"
 citation: >-

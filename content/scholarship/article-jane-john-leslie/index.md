@@ -1,5 +1,7 @@
 ---
 title: "Jane, John … Leslie?"
+kind: article
+label: "Article"
 date: 2015-07-01
 citation_led: true
 citation: >-

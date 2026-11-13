@@ -1,0 +1,53 @@
+{{/* One feature on the Scholarship page: a large image beside the text. Call
+     with a dict:
+       page   the scholarship page
+       flip   true puts the image at the right and the text at the left; the
+              caller alternates it so images zigzag down the page. The image
+              always comes first in the source, so it leads when the columns
+              stack on a narrow screen.
+       width  1x display width of the image in px (2x is derived)
+       cite   true prints the citation as a labeled row under the links (books omit it: their
+              title and publisher line already say it)
+       lazy   true lazy-loads the image
+
+     Front matter — everything but `title` is optional, and an absent field
+     is simply omitted:
+       title, subtitle   heading and the line under it
+       cover, cover_alt  image filename in the bundle and its alt text; the
+                         image links to the first of `links`
+       active            true marks a project still under way
+       award             prize or honor, as "Prize — Organization, year"
+       abstract          paragraphs separated by blank lines
+       quotes            array of { text, attribution }
+       links/reviews/media  arrays of { url, text }; text may carry an <em> venue
+       citation          Chicago bibliography string */}}
+{{ $p := .page }}
+{{ $cover := "" }}
+{{ with $p.Params.cover }}{{ $cover = $p.Resources.GetMatch . }}{{ end }}
+{{ $href := "" }}
+{{ with $p.Params.links }}{{ $href = (index . 0).url }}{{ end }}
+<article class="sf{{ if .flip }} sf--flip{{ end }}{{ if not $cover }} sf--noimg{{ end }}">
+	{{ with $cover }}
+	<div class="sf-media">
+		{{ $img := partial "responsive-image.html" (dict "res" . "width" $.width "alt" ($p.Params.cover_alt | default $p.Title) "lazy" $.lazy) }}
+		{{ if $href }}<a href="{{ $href }}">{{ $img }}</a>{{ else }}{{ $img }}{{ end }}
+	</div>
+	{{ end }}
+	<div class="sf-body">
+		{{ if $p.Params.active }}<p class="sf-flag">Active project</p>{{ end }}
+		<h3 class="sf-title">{{ if $href }}<a href="{{ $href }}">{{ $p.Title }}</a>{{ else }}{{ $p.Title }}{{ end }}</h3>
+		{{ with $p.Params.subtitle }}<p class="sf-sub">{{ . }}</p>{{ end }}
+		{{/* "Prize — Organization, year": the prize on one line, the rest below */}}
+		{{ with $p.Params.award }}{{ $a := split . " — " }}<div class="awd"><span class="k">Award</span><span class="v"><span class="awd-t">{{ index $a 0 | safeHTML }}</span>{{ if gt (len $a) 1 }}<span class="awd-o">{{ delimit (after 1 $a) " — " | safeHTML }}</span>{{ end }}</span></div>{{ end }}
+		{{/* YAML folds the blank lines between paragraphs to single newlines */}}
+		{{ with $p.Params.abstract }}{{ range split . "\n" }}{{ with trim . " " }}<p class="sf-abs">{{ . | safeHTML }}</p>{{ end }}{{ end }}{{ end }}
+		{{ with $p.Params.quotes }}
+		<div class="lg-praise">
+			<span class="lg-lk">Praise</span>
+			<div class="lg-pv">{{ range . }}<blockquote class="lg-q"><p>{{ .text | safeHTML }}</p><cite>{{ .attribution | safeHTML }}</cite></blockquote>{{ end }}</div>
+		</div>
+		{{ end }}
+		{{ partial "scholarship-links.html" $p }}
+		{{ if .cite }}{{ with $p.Params.citation }}<div class="lg-links"><div class="lg-lrow"><span class="lg-lk">Citation</span><span class="sf-cite">{{ . | safeHTML }}</span></div></div>{{ end }}{{ end }}
+	</div>
+</article>

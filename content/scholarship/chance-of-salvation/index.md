@@ -15,11 +15,31 @@ citation: >-
   America.</em> Cambridge, MA: Harvard University Press, 2017.
 award: "Best First Book in the History of Religions — American Academy of Religion, 2018"
 abstract: >-
-  The United States has a long history of religious pluralism, yet Americans have
-  often thought that people’s faith determines their eternal salvation. The result
-  is that Americans switch religions more often than any other nation. <em>The
-  Chance of Salvation</em> traces the history of the distinctively American idea
-  that religion is a matter of individual choice.
+  The United States has a long history of religious pluralism, and yet Americans
+  have often thought that people’s faith determines their eternal destinies. The
+  result is that Americans switch religions more often than any other nation.
+  <em>The Chance of Salvation</em> traces the history of the distinctively
+  American idea that religion is a matter of individual choice.
+
+  Lincoln Mullen shows how the willingness of Americans to change faiths,
+  recorded in narratives that describe a wide variety of conversion experiences,
+  created a shared assumption that religious identity is a decision. In the
+  nineteenth century, as Americans confronted a growing array of religious
+  options, pressures to convert altered the basis of American religion.
+  Evangelical Protestants emphasized conversion as a personal choice, while
+  Protestant missionaries brought Christianity to Native American nations such
+  as the Cherokee, who adopted Christianity on their own terms. Enslaved and
+  freed African Americans similarly created a distinctive form of Christian
+  conversion based on ideas of divine justice and redemption. Mormons
+  proselytized for a new tradition that stressed individual free will. American
+  Jews largely resisted evangelism while at the same time winning converts to
+  Judaism. Converts to Catholicism chose to opt out of the system of religious
+  choice by turning to the authority of the Church.
+
+  By the early twentieth century, religion in the United States was a system of
+  competing options that created an obligation for more and more Americans to
+  choose their own faith. Religion had changed from a family inheritance to a
+  consciously adopted identity.
 links:
   - url: https://www.hup.harvard.edu/books/9780674975620
     text: "Harvard University Press"

@@ -1746,9 +1746,9 @@ figure.sideimg {
 
 /* ===================================================================
    Scholarship — books, digital projects, visualizations, then chapters
-   and articles. The first three sections are features: a large image
-   beside the text, alternating sides down the page. The last is a
-   text-only list of citations. Composes from the identity tokens (§2)
+   and articles. Books and projects are features: an image beside the
+   text, alternating sides down the page. Visualizations are a grid of
+   images with titles. The last is a text-only list of citations. Composes from the identity tokens (§2)
    and the shared section head (.shead §4.2).
    =================================================================== */
 
@@ -1760,30 +1760,18 @@ figure.sideimg {
   max-width: var(--measure);
   margin: 0;
 }
-/* the CV link: the .rm voice (semibold navy on an orange rule, with an
-   arrow), set inline at the body size */
+/* the CV link: the .rm voice (semibold navy on an orange rule), set inline
+   in the intro sentence */
 .sch-cv {
   font-weight: 600;
   color: var(--navy);
   text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.15s;
-}
-.sch-cv span {
   border-bottom: 2px solid var(--orange);
   padding-bottom: 0.1rem;
-}
-.sch-cv i {
-  display: inline-block;
-  color: var(--orange-text);
-  font-size: 0.9em;
-  transition: transform 0.15s;
+  transition: color 0.15s;
 }
 .sch-cv:hover {
   color: var(--orange-text);
-}
-.sch-cv:hover i {
-  transform: translateX(0.2em);
 }
 
 /* sections: the shared .shead, with scholarship spacing. The scoped selector
@@ -1834,10 +1822,7 @@ figure.sideimg {
   gap: 0 4rem;
 }
 .sch-projects .sf {
-  --sf-media: 50%; /* a project's image takes no more than half the row */
-}
-.sch-viz .sf {
-  --sf-media: 60%;
+  --sf-media: 33.333%; /* a project's image takes a third of the row */
 }
 
 /* the image: native aspect ratio, never cropped. It stays in view while a
@@ -1920,6 +1905,40 @@ figure.sideimg {
 /* the citation row follows the link rows at the rows' own spacing */
 .lg-links + .lg-links {
   margin-top: 0.6rem;
+}
+
+/* ---- visualizations: a grid of images, each with its linked title beneath */
+.sv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem 2.25rem;
+  padding: 2.5rem 0 0.5rem;
+}
+.sv {
+  display: block;
+  text-decoration: none;
+}
+.sv img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 0 0 1px var(--rule), 0 10px 28px -12px rgba(22, 32, 58, 0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.sv:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 0 0 1px var(--rule), 0 18px 36px -14px rgba(22, 32, 58, 0.45);
+}
+.sv-title {
+  display: block;
+  margin-top: 0.9rem;
+  font: 600 var(--h4)/1.3 "Source Serif 4", serif;
+  color: var(--ink);
+  transition: color 0.15s;
+}
+.sv:hover .sv-title {
+  color: var(--navy);
 }
 
 /* ---- text-only list (chapters and articles): year | citation + links |
@@ -2022,8 +2041,19 @@ figure.sideimg {
   padding-top: 0.05rem;
 }
 .awd .v {
-  font: italic 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
+  font: 400 var(--prose-sm)/1.35 "Source Serif 4", serif;
   color: var(--ink);
+}
+/* the prize on its own line, the organization and year below it */
+.awd-t,
+.awd-o {
+  display: block;
+}
+.awd-t {
+  font-style: italic;
+}
+.awd-o {
+  color: var(--sec);
 }
 
 /* labeled link rows — Links / Reviews / Media. A row renders only when its
@@ -2113,6 +2143,11 @@ figure.sideimg {
   }
   .sch-section {
     margin-top: 2.75rem;
+  }
+  .sv-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem 0;
+    padding-top: 2rem;
   }
 }
 @media (max-width: $bp-phone) {

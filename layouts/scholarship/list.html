@@ -2,10 +2,12 @@
 {{/* Scholarship — four sections in a fixed order: books, digital projects,
      visualizations, then chapters and articles. Each entry is a page bundle in
      content/scholarship/<slug>/index.md whose `kind` front matter (book,
-     project, visualization, article) files it into a section. The first three
-     sections are features with a large image beside the text, alternating
-     sides down the page (partials/scholarship-feature.html); the last is a
-     text-only list of citations (partials/scholarship-citation.html). */}}
+     project, visualization, article) files it into a section. Books and
+     projects are features with an image beside the text, alternating sides
+     in one run down the page (partials/scholarship-feature.html).
+     Visualizations are a grid of images, each with its linked title beneath.
+     The last section is a text-only list of citations
+     (partials/scholarship-citation.html). */}}
 {{ $cv := .Params.cv_url | default "https://files.lincolnmullen.com/cv/Mullen-cv.pdf" }}
 {{ $items := where .Pages "Type" "scholarship" }}
 {{ $books := (where $items "Params.kind" "book").ByDate.Reverse }}
@@ -16,7 +18,7 @@
 {{ $articles := (where $items "Params.kind" "article").ByDate.Reverse }}
 <div class="scholarship">
 	<h1 class="page-title">{{ .Title }}</h1>
-	<p class="sch-intro">{{ with .Params.intro }}{{ . }} {{ end }}<a class="sch-cv" href="{{ $cv }}"><span>See my curriculum vitae</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a></p>
+	<p class="sch-intro">{{ with .Params.intro }}{{ . }} {{ end }}<a class="sch-cv" href="{{ $cv }}">See my curriculum vitae</a>.</p>
 
 	{{ with $books }}
 	<section class="sch-section sch-books" aria-labelledby="books">
@@ -28,14 +30,23 @@
 	{{ with $projects }}
 	<section class="sch-section sch-projects" aria-labelledby="digital-projects">
 		<h2 class="shead" id="digital-projects"><span class="lbl">Digital projects</span></h2>
-		{{ range $i, $p := . }}{{ partial "scholarship-feature.html" (dict "page" $p "flip" (eq (mod $i 2) 1) "width" 680 "cite" true "lazy" true) }}{{ end }}
+		{{ range $i, $p := . }}{{ partial "scholarship-feature.html" (dict "page" $p "flip" (eq (mod (add $i (len $books)) 2) 1) "width" 400 "cite" true "lazy" true) }}{{ end }}
 	</section>
 	{{ end }}
 
 	{{ with $viz }}
 	<section class="sch-section sch-viz" aria-labelledby="visualizations">
 		<h2 class="shead" id="visualizations"><span class="lbl">Visualizations</span></h2>
-		{{ range $i, $p := . }}{{ partial "scholarship-feature.html" (dict "page" $p "flip" (eq (mod $i 2) 1) "width" 720 "cite" true "lazy" true) }}{{ end }}
+		<div class="sv-grid">
+			{{ range . }}
+			{{ $v := . }}
+			{{ $href := "" }}{{ with .Params.links }}{{ $href = (index . 0).url }}{{ end }}
+			<a class="sv"{{ with $href }} href="{{ . }}"{{ end }}>
+				{{ with .Params.cover }}{{ with $v.Resources.GetMatch . }}{{ partial "responsive-image.html" (dict "res" . "width" 360 "alt" ($v.Params.cover_alt | default $v.Title) "lazy" true) }}{{ end }}{{ end }}
+				<span class="sv-title">{{ .Title }}</span>
+			</a>
+			{{ end }}
+		</div>
 	</section>
 	{{ end }}
 

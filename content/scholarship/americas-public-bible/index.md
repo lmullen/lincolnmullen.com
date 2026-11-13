@@ -13,7 +13,7 @@ cover: "americas-public-bible-cover.png"
 citation: >-
   Mullen, Lincoln A. <em>America’s Public Bible: A Commentary.</em> Stanford,
   CA: Stanford University Press, 2023.
-award: "Chronicling America Data Challenge — NEH, 2016"
+award: "Chronicling America Data Challenge — National Endowment for the Humanities, 2016"
 abstract: >-
   <em>America’s Public Bible</em> is an interactive scholarly work that uncovers
   the history of the Bible in the nineteenth- and early twentieth-century United

@@ -16,7 +16,7 @@
        cover, cover_alt  image filename in the bundle and its alt text; the
                          image links to the first of `links`
        active            true marks a project still under way
-       award             prize or honor
+       award             prize or honor, as "Prize — Organization, year"
        abstract          paragraphs separated by blank lines
        quotes            array of { text, attribution }
        links/reviews/media  arrays of { url, text }; text may carry an <em> venue
@@ -37,7 +37,8 @@
 		{{ if $p.Params.active }}<p class="sf-flag">Active project</p>{{ end }}
 		<h3 class="sf-title">{{ if $href }}<a href="{{ $href }}">{{ $p.Title }}</a>{{ else }}{{ $p.Title }}{{ end }}</h3>
 		{{ with $p.Params.subtitle }}<p class="sf-sub">{{ . }}</p>{{ end }}
-		{{ with $p.Params.award }}<div class="awd"><span class="k">Award</span><span class="v">{{ . | safeHTML }}</span></div>{{ end }}
+		{{/* "Prize — Organization, year": the prize on one line, the rest below */}}
+		{{ with $p.Params.award }}{{ $a := split . " — " }}<div class="awd"><span class="k">Award</span><span class="v"><span class="awd-t">{{ index $a 0 | safeHTML }}</span>{{ if gt (len $a) 1 }}<span class="awd-o">{{ delimit (after 1 $a) " — " | safeHTML }}</span>{{ end }}</span></div>{{ end }}
 		{{/* YAML folds the blank lines between paragraphs to single newlines */}}
 		{{ with $p.Params.abstract }}{{ range split . "\n" }}{{ with trim . " " }}<p class="sf-abs">{{ . | safeHTML }}</p>{{ end }}{{ end }}{{ end }}
 		{{ with $p.Params.quotes }}

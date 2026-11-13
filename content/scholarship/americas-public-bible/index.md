@@ -42,6 +42,10 @@ media:
     text: "Book talk, Congregational Library &amp; Archives"
   - url: https://www.youtube.com/watch?v=1LPouikAk8U
     text: "“The Bible in Public Life,” Kluge Center, Library of Congress"
+  - url: https://www.theatlantic.com/politics/archive/2018/06/romans-13/562916/
+    text: "“The Fight to Define Romans 13,” <em>The Atlantic</em>"
+  - url: https://www.neh.gov/divisions/preservation/featured-project/neh-data-challenge-winner-americas-public-bible
+    text: "“NEH Data Challenge Winner,” National Endowment for the Humanities"
   - url: https://tif.ssrc.org/2018/04/18/digital-projects-in-the-classroom/
     text: "“Digital Projects in the Classroom,” <em>The Immanent Frame</em>"
 quotes:

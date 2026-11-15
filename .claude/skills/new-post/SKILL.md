@@ -39,13 +39,13 @@ Do not run `./new-post.sh`; it is the user's own tool and ends by opening VS Cod
 
 - **Untitled post**: the directory and `slug` are the timestamp, `YYYY-MM-DD-HH-MM-SS`. Omit the `title` field entirely; do not leave it as `""`.
 - **Titled post**: the directory is `YYYY-MM-DD-<slug>`, where the slug is the lowercased, hyphenated title with punctuation removed.
-- `date` is ISO 8601 with the UTC offset, e.g. `'2026-10-25T09:01:22-04:00'`, in America/New_York (`TZ=America/New_York date`).
+- `date` is the current time: ISO 8601 with the UTC offset, e.g. `'2026-10-25T09:01:22-04:00'`, in America/New_York (`TZ=America/New_York date +%Y-%m-%dT%H:%M:%S%:z`). It is set again before every commit; see step 8.
 - Set `draft: false`. The branch preview and the pull request are the draft stage. Mention this in the handoff.
 - Remove the archetype's commented-out fields that the post doesn't use.
 
 By source:
 
-- **Existing bundle**: move it out of the main checkout and into the worktree (`mv`, from the main checkout's `content/blog/<dir>` to the worktree's), so that nothing is left behind to collide with `main` after the merge. Keep the directory name, `slug`, and `date` the user gave it, unless the date is more than a day old; then pause and ask whether to update the date, slug, and directory to now.
+- **Existing bundle**: move it out of the main checkout and into the worktree (`mv`, from the main checkout's `content/blog/<dir>` to the worktree's), so that nothing is left behind to collide with `main` after the merge. Then bring it up to date, since the bundle may have sat for a while: set `date` to now, and rename the directory to match (the timestamp, with the same change to `slug`, for an untitled post; the `YYYY-MM-DD` prefix for a titled one).
 - **Obsidian note**: copy the body into a new bundle dated now. Do not change the note yet (see step 9). Convert Obsidian syntax to what the site uses: `![[image.png]]` embeds become shortcodes (find the image in the vault and copy it into the bundle), and `[[wikilinks]]` become plain text or, if they point at something public, ordinary links. If an embed or link can't be resolved, pause and ask.
 - **Prompt**: write the text into a new bundle dated now.
 
@@ -133,6 +133,7 @@ Then look at the post on the local server to confirm it renders: the title or it
 
 ## 8. Commit, push, and pull request
 
+- **Update the date before every commit.** Each time you commit to the post's branch, the first commit and every later one (review fixes, social text, changes the user asks for), first set the post's `date` to the current time, in the format from step 3. The post should carry the time it was last worked on, so that it is current whenever it is merged. Change only `date`: leave the directory name and `slug` as they were when the bundle was built, so that the permalink, the social media links, and the preview URL stay the same from one commit to the next. If the user has asked for a particular date, keep theirs.
 - Commit the bundle together with the cache changes (`git add -A resources/_gen/images`), plus any change to `tags.md` or `CLAUDE.md` from the steps above.
 - Push the branch, so Cloudflare builds a preview.
 - Open the pull request **ready for review, not as a draft**, with `lmullen` as the reviewer and `Closes #<n>` in the body. In the body, list the fixes you made in step 4, so the user can see every change to their text.

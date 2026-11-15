@@ -1,9 +1,8 @@
 ---
 title: "Interpretation over exploration"
-date: "2026-11-15T16:40:03-05:00"
-slug: "narrative-over-exploration"
+date: "2026-11-15T16:43:07-05:00"
+slug: "interpretation-over-exploration"
 draft: false
-linkpost: "https://pudding.cool/2026/06/menu-story/"
 image: "pudding-menu-visualizations.png"
 tags:
 - digital history
@@ -11,9 +10,9 @@ tags:
 - historical interpretation
 description: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization."
 social:
-  bluesky: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization. https://pudding.cool/2026/06/menu-story/"
-  mastodon: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization. https://pudding.cool/2026/06/menu-story/"
-  linkedin: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization. https://pudding.cool/2026/06/menu-story/"
+  bluesky: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization. https://lincolnmullen.com/blog/interpretation-over-exploration/"
+  mastodon: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization. https://lincolnmullen.com/blog/interpretation-over-exploration/"
+  linkedin: "Why The Pudding's interpretative visual essay is more interesting than their exploratory visualization. https://lincolnmullen.com/blog/interpretation-over-exploration/"
 ---
 
 _The Pudding_ is one of my favorite sites on the internet, full of fascinating and whimsical data visualizations. Occasionally the site takes on historical topics, as they recently did with historical menus from the New York Public Library. The site offered two looks at the menus. The first is an [exploratory interface](https://pudding.cool/2026/06/menu-collection/) to find the menus in the NYPL collection by city or other details, and to look at them directly. The second is an [interpretative story](https://pudding.cool/2026/06/menu-story/) explaining what can be learned from the menus.

@@ -1,9 +1,14 @@
 # Cloudflare Pages redirects
 
+# Exact-path rules come first and wildcard rules last. Cloudflare counts every
+# rule after the first splat (*) or placeholder (:name) as dynamic, and it
+# ignores everything after the 100th dynamic rule, so keep new exact-path rules
+# in the top half. A rule matches only the path it names, so add a rule both
+# with and without the trailing slash.
+
 # The blog moved to the home page; its old index and pagination URLs point at
 # the new homes of that content.
 /blog/ / 301
-/blog/page/* /archive/ 301
 
 # Feed redirects
 /atom.xml /blog/index.xml 301
@@ -20,9 +25,6 @@
 /files/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 /Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
 
-# Micro section redirect (migrated into blog)
-/micro/* /blog/:splat 301
-
 # Blog post redirects
 /blog/the-humanists-os-or-scholarship-in-plain-text/null /blog/the-humanists-os-or-scholarship-in-plain-text/ 301
 /blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/null /blog/a-makefile-to-convert-all-markdown-files-to-pdfs-using-pandoc/ 301
@@ -38,7 +40,6 @@
 /newsletter/6/tomatoes.png /blog/working-on-it-6/tomatoes.jpg 301
 /newsletter/index.xml /blog/index.xml 301
 /newsletter/ /archive/ 301
-/newsletter/:n/* /blog/working-on-it-:n/:splat 301
 
 # Project redirects
 /project/slavery https://projects.lincolnmullen.com/slavery/ 301
@@ -48,15 +49,221 @@
 /research/history-dissertations/ / 301
 
 # Project static sites moved to projects.lincolnmullen.com
+/projects/us-boundaries https://projects.lincolnmullen.com/us-boundaries
+/projects/slavery https://projects.lincolnmullen.com/slavery/ 301
+
+# Software package redirects (wildcards)
+/software/ / 302
+
+# Redirects for 404s found in Domesday analytics (issue #118).
+# Use the find-404s skill (.claude/skills/find-404s/SKILL.md) to find more.
+
+# Pages that moved, or that never had a page of their own
+/about/ /bio/ 301
+/about /bio/ 301
+/articles/ /scholarship/ 301
+/articles /scholarship/ 301
+/reviews/ /scholarship/ 301
+/reviews /scholarship/ 301
+/projects/ /scholarship/ 301
+/projects /scholarship/ 301
+/links/ / 301
+/links / 301
+/blog/tag /archive/ 302
+/blog/tag/ /archive/ 302
+/blog/categories /archive/ 302
+/blog/categories/ /archive/ 302
+/courses/uws /teaching/ 301
+/courses/uws/ /teaching/ 301
+/scholarship/legal-modernism/ https://legalmodernism.org/ 301
+/scholarship/legal-modernism https://legalmodernism.org/ 301
+/projects/americas-public-bible/ https://americaspublicbible.org/ 301
+/projects/americas-public-bible https://americaspublicbible.org/ 301
+/research/internetarchive/ https://docs.ropensci.org/internetarchive/ 301
+/research/internetarchive https://docs.ropensci.org/internetarchive/ 301
+/slavery/ https://projects.lincolnmullen.com/slavery/ 301
+/slavery https://projects.lincolnmullen.com/slavery/ 301
+/projects/slavery-map/ https://projects.lincolnmullen.com/slavery/ 301
+/projects/slavery-map https://projects.lincolnmullen.com/slavery/ 301
+/projects/helsinki-workshop /blog/materials-for-dh-workshop-at-the-university-of-helsinki/ 301
+/projects/helsinki-workshop/ /blog/materials-for-dh-workshop-at-the-university-of-helsinki/ 301
+
+# A link elsewhere on the web that repeats the domain as a path
+/https%3A/lincolnmullen.com / 301
+/https%3A/lincolnmullen.com/ / 301
+
+# Files that moved to R2 under a different path
+/downloads/docs/Mullen-cv.pdf https://files.lincolnmullen.com/cv/Mullen-cv.pdf 301
+/files/american-scriptures.fall2019.pdf https://files.lincolnmullen.com/syllabi/american-scriptures.fall2019.pdf 301
+/files/Global-History-Christianity.spring-2017.pdf https://files.lincolnmullen.com/syllabi/Global-History-Christianity.spring-2017.pdf 301
+/files/Heppler_Mullen-DHSI.pdf https://files.lincolnmullen.com/syllabi/Heppler_Mullen-DHSI.pdf 301
+/files/religion-19c-dh.pdf https://files.lincolnmullen.com/syllabi/religion-19c-dh.pdf 301
+/downloads/docs/religion-19c-dh.pdf https://files.lincolnmullen.com/syllabi/religion-19c-dh.pdf 301
+/downloads/pdf/religion-19c-dh.pdf https://files.lincolnmullen.com/syllabi/religion-19c-dh.pdf 301
+/files/religious-pluralism.syllabus.2012-fall.pdf https://files.lincolnmullen.com/syllabi/religious-pluralism.syllabus.2012-fall.pdf 301
+/blog/religious-pluralism-and-the-american-state/religious-pluralism.syllabus.2012-fall.pdf https://files.lincolnmullen.com/syllabi/religious-pluralism.syllabus.2012-fall.pdf 301
+/files/mullen.contours-conversion-to-catholicism.pdf https://files.lincolnmullen.com/pdf/mullen.contours-conversion-to-catholicism.pdf 301
+/downloads/pdf/mullen.contours-conversion-to-catholicism.pdf https://files.lincolnmullen.com/pdf/mullen.contours-conversion-to-catholicism.pdf 301
+/files/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf https://files.lincolnmullen.com/pdf/mullen.using-metadata-and-maps.preprint.pdf 301
+/downloads/pdf/mullen.using-metadata-and-maps.preprint.pdf https://files.lincolnmullen.com/pdf/mullen.using-metadata-and-maps.preprint.pdf 301
+/projects/worksheets/data/methodists.csv https://files.lincolnmullen.com/history-datasets/methodists.csv 301
+
+# Computational Historical Thinking (dh-r) is offline: dh-r.lincolnmullen.com
+# no longer resolves. Send its old URLs to the source repository until it is
+# back, with 302s so they can be repointed.
+/projects/dh-r https://github.com/lmullen/dh-r 302
+/projects/dh-r/ https://github.com/lmullen/dh-r 302
+/projects/dh-r2 https://github.com/lmullen/dh-r 302
+/projects/dh-r2/ https://github.com/lmullen/dh-r 302
+/projects/worksheets https://github.com/lmullen/dh-r 302
+/projects/worksheets/ https://github.com/lmullen/dh-r 302
+
+# Blog posts at old or shortened slugs
+/blog/an-introduction-to-the-textreuse-package/ /blog/an-introduction-to-the-textreuse-package-with-suggested-applications/ 301
+/blog/an-introduction-to-the-textreuse-package /blog/an-introduction-to-the-textreuse-package-with-suggested-applications/ 301
+/blog/digital-humanities-is-a-spectrum/ /blog/digital-humanities-is-a-spectrum-or-we8217re-all-digital-humanists-now/ 301
+/blog/digital-humanities-is-a-spectrum /blog/digital-humanities-is-a-spectrum-or-we8217re-all-digital-humanists-now/ 301
+/blog/working-paper-on-the-migration-of-the-field-code/ /blog/working-paper-on-the-migration-of-codes-of-civil-procedure/ 301
+/blog/working-paper-on-the-migration-of-the-field-code /blog/working-paper-on-the-migration-of-codes-of-civil-procedure/ 301
+/blog/detecting-text-reuse-in-nineteenth-century-legal-documents/ /blog/detecting-text-reuse-in-legal-documents/ 301
+/blog/detecting-text-reuse-in-nineteenth-century-legal-documents /blog/detecting-text-reuse-in-legal-documents/ 301
+/blog/shapefiles-of-historic-us-state-boundaries-for-use-in/ /blog/shapefiles-of-historic-u-s-state-boundaries-for-use-in-r/ 301
+/blog/shapefiles-of-historic-us-state-boundaries-for-use-in /blog/shapefiles-of-historic-u-s-state-boundaries-for-use-in-r/ 301
+/blog/the-cultural-history-of-american-fundamentalism/ /blog/the-cultural-history-of-american-fundamentalism-a-review-essay/ 301
+/blog/the-cultural-history-of-american-fundamentalism /blog/the-cultural-history-of-american-fundamentalism-a-review-essay/ 301
+/blog/d3-dot-js-in-action/ /blog/d3-js-in-action/ 301
+/blog/d3-dot-js-in-action /blog/d3-js-in-action/ 301
+/blog/initial-thoughts-from-the-aha/ /blog/initial-thoughts-from-the-aha-asch-acha/ 301
+/blog/initial-thoughts-from-the-aha /blog/initial-thoughts-from-the-aha-asch-acha/ 301
+/blog/rake-and-pandoc/ /blog/convert-markdown-files-to-pdf-with-rake-and-pandoc/ 301
+/blog/rake-and-pandoc /blog/convert-markdown-files-to-pdf-with-rake-and-pandoc/ 301
+/blog/workshop-at-thatcamp-new-england-2012/ /blog/plain-text-workshop-at-thatcamp-new-england-2012/ 301
+/blog/workshop-at-thatcamp-new-england-2012 /blog/plain-text-workshop-at-thatcamp-new-england-2012/ 301
+/blog/bookmarklet-for-the-gmu-library-proxy/ /blog/gmu-library-proxy/ 301
+/blog/bookmarklet-for-the-gmu-library-proxy /blog/gmu-library-proxy/ 301
+/blog/dont-waste-students-time-installing-software/ /blog/dont-waste-students-time-installing-software-in-dh-courses/ 301
+/blog/dont-waste-students-time-installing-software /blog/dont-waste-students-time-installing-software-in-dh-courses/ 301
+/blog/historical-religion-data-in-the-nhgis/ /blog/historical-religion-data-in-the-nhgis-and-what-you-can-do-with-it/ 301
+/blog/historical-religion-data-in-the-nhgis /blog/historical-religion-data-in-the-nhgis-and-what-you-can-do-with-it/ 301
+/blog/using-library-catalog-data-for-historical-research/ /blog/quantifying-the-ats-using-library-catalog-data-for-historical-research/ 301
+/blog/using-library-catalog-data-for-historical-research /blog/quantifying-the-ats-using-library-catalog-data-for-historical-research/ 301
+/blog/how-long-does-it-take-to-publish-in-ahr/ /blog/how-long-does-it-take-to-publish-in-the-ahr/ 301
+/blog/how-long-does-it-take-to-publish-in-ahr /blog/how-long-does-it-take-to-publish-in-the-ahr/ 301
+/blog/my-take-on-the-git-logger/ /blog/my-take-on-the-git-commit-logger/ 301
+/blog/my-take-on-the-git-logger /blog/my-take-on-the-git-commit-logger/ 301
+/blog/to-serve-god-and-walmart/ /blog/review-of-emto-serve-god-and-wal-martem/ 301
+/blog/to-serve-god-and-walmart /blog/review-of-emto-serve-god-and-wal-martem/ 301
+/blog/review-of-emprodigal-nationem/ /blog/review-of-prodigal-nation/ 301
+/blog/review-of-emprodigal-nationem /blog/review-of-prodigal-nation/ 301
+/blog/prodigal-nation/ /blog/review-of-prodigal-nation/ 301
+/blog/prodigal-nation /blog/review-of-prodigal-nation/ 301
+/blog/getting-back-to-gtd/ /blog/getting-back-to-getting-things-done/ 301
+/blog/getting-back-to-gtd /blog/getting-back-to-getting-things-done/ 301
+/blog/where-are-the-histories-of-irreligion/ /blog/where-are-the-histories-of-american-irreligion/ 301
+/blog/where-are-the-histories-of-irreligion /blog/where-are-the-histories-of-american-irreligion/ 301
+/blog/charting-faculty-salaries/ /blog/charting-faculty-salaries-by-discipline-rank-and-institution/ 301
+/blog/charting-faculty-salaries /blog/charting-faculty-salaries-by-discipline-rank-and-institution/ 301
+/blog/a-parable-about-copyright/ /blog/what-would-jesus-do-a-parable-about-copyright/ 301
+/blog/a-parable-about-copyright /blog/what-would-jesus-do-a-parable-about-copyright/ 301
+/blog/academic-article-class-for-xetex/ /blog/academic-article-class-for-xelatex/ 301
+/blog/academic-article-class-for-xetex /blog/academic-article-class-for-xelatex/ 301
+/blog/adjusting-maps-of-religion-for-population/ /blog/adjusting-maps-of-religion-for-population-a-failed-experiment/ 301
+/blog/adjusting-maps-of-religion-for-population /blog/adjusting-maps-of-religion-for-population-a-failed-experiment/ 301
+/blog/african-americans-as-evangelicals/ /blog/why-there-are-so-few-books-on-african-americans-as-evangelicals/ 301
+/blog/african-americans-as-evangelicals /blog/why-there-are-so-few-books-on-african-americans-as-evangelicals/ 301
+/blog/aggregating-positions-on-maps/ /blog/aggregating-positions-on-maps-by-manipulating-the-data/ 301
+/blog/aggregating-positions-on-maps /blog/aggregating-positions-on-maps-by-manipulating-the-data/ 301
+/blog/digital-dissertations-at-mason/ /blog/some-thoughts-on-digital-dissertations-at-mason/ 301
+/blog/digital-dissertations-at-mason /blog/some-thoughts-on-digital-dissertations-at-mason/ 301
+/blog/exploring-massachusetts-gubernatorial-elections/ /blog/exploring-elections-for-massachusetts-governor-in-the-early-republic/ 301
+/blog/exploring-massachusetts-gubernatorial-elections /blog/exploring-elections-for-massachusetts-governor-in-the-early-republic/ 301
+/blog/getting-started-with-ubuntu/ /blog/some-thoughts-on-getting-started-with-ubuntu-linux/ 301
+/blog/getting-started-with-ubuntu /blog/some-thoughts-on-getting-started-with-ubuntu-linux/ 301
+/blog/how-i-got-started-in-dh/ /blog/how-i-got-started-as-a-digital-humanist/ 301
+/blog/how-i-got-started-in-dh /blog/how-i-got-started-as-a-digital-humanist/ 301
+/blog/htmlwidgets-for-r/ /blog/htmlwidgets-package-for-r/ 301
+/blog/htmlwidgets-for-r /blog/htmlwidgets-package-for-r/ 301
+/blog/jetpack-for-course-websites/ /blog/jetpack-plugin-for-course-websites/ 301
+/blog/jetpack-for-course-websites /blog/jetpack-plugin-for-course-websites/ 301
+/blog/jewish-converts-to-catholicism-and-jewish-catholic-reconciliaion/ /blog/jewish-converts-to-catholicism-and-jewish-catholic-reconciliation/ 301
+/blog/jewish-converts-to-catholicism-and-jewish-catholic-reconciliaion /blog/jewish-converts-to-catholicism-and-jewish-catholic-reconciliation/ 301
+/blog/joining-ropensci-editorial-team/ /blog/why-i-joined-the-ropensci-editorial-team/ 301
+/blog/joining-ropensci-editorial-team /blog/why-i-joined-the-ropensci-editorial-team/ 301
+/blog/kindle-paperwhite/ /blog/the-kindle-paperwhite-reviewed-device-and-ecosystem/ 301
+/blog/kindle-paperwhite /blog/the-kindle-paperwhite-reviewed-device-and-ecosystem/ 301
+/blog/longue-duree-american-religious-history/ /blog/the-return-of-the-emlongue-dureeem-in-american-religious-history/ 301
+/blog/longue-duree-american-religious-history /blog/the-return-of-the-emlongue-dureeem-in-american-religious-history/ 301
+/blog/lower-resolution-shapefiles/ /blog/lower-resolution-shapefiles-of-historic-state-boundaries/ 301
+/blog/lower-resolution-shapefiles /blog/lower-resolution-shapefiles-of-historic-state-boundaries/ 301
+/blog/markdownifier/ /blog/grab-a-web-page-in-plain-text-with-markdownifier/ 301
+/blog/markdownifier /blog/grab-a-web-page-in-plain-text-with-markdownifier/ 301
+/blog/james-rogers-on-the-math-behind-protestant-and-catholic-religious-enthusiasm/ /blog/the-math-behind-protestant-and-catholic-religious-enthusiasm/ 301
+/blog/james-rogers-on-the-math-behind-protestant-and-catholic-religious-enthusiasm /blog/the-math-behind-protestant-and-catholic-religious-enthusiasm/ 301
+/blog/sarah-osborns-world/ /blog/kidd-on-sarah-osborns-world/ 301
+/blog/sarah-osborns-world /blog/kidd-on-sarah-osborns-world/ 301
+/blog/slate-window-manager/ /blog/the-slate-window-manager-for-mac-power-users/ 301
+/blog/slate-window-manager /blog/the-slate-window-manager-for-mac-power-users/ 301
+/blog/telling-stories-aha/ /blog/telling-stories-at-the-aha/ 301
+/blog/telling-stories-aha /blog/telling-stories-at-the-aha/ 301
+/blog/the-lives-of-david-brainerd/ /blog/review-of-emthe-lives-of-david-brainerdem/ 301
+/blog/the-lives-of-david-brainerd /blog/review-of-emthe-lives-of-david-brainerdem/ 301
+/blog/the-metaphysical-club/ /blog/review-of-emthe-metaphysical-clubem/ 301
+/blog/the-metaphysical-club /blog/review-of-emthe-metaphysical-clubem/ 301
+/blog/the-quantified-dissertation/ /blog/the-quantified-dissertation-using-bash-and-cron-to-track-word-counts/ 301
+/blog/the-quantified-dissertation /blog/the-quantified-dissertation-using-bash-and-cron-to-track-word-counts/ 301
+/blog/theology-of-religious-change/ /blog/review-of-ema-theology-of-religious-changeem/ 301
+/blog/theology-of-religious-change /blog/review-of-ema-theology-of-religious-changeem/ 301
+/blog/translating-10-print-to-ruby/ /blog/the-challenge-of-translating-10-print-to-ruby/ 301
+/blog/translating-10-print-to-ruby /blog/the-challenge-of-translating-10-print-to-ruby/ 301
+/blog/usaboundaries-v0-dot-2-0-available-on-cran/ /blog/usaboundaries-v0-2-0-available-on-cran/ 301
+/blog/usaboundaries-v0-dot-2-0-available-on-cran /blog/usaboundaries-v0-2-0-available-on-cran/ 301
+/blog/using-r-to-chart-the-historical-demography-of-judaism/ /blog/using-r-to-chart-the-historical-demography-of-american-judaism/ 301
+/blog/using-r-to-chart-the-historical-demography-of-judaism /blog/using-r-to-chart-the-historical-demography-of-american-judaism/ 301
+/blog/interview-at-uses-this/ /blog/uses-this/ 301
+/blog/interview-at-uses-this /blog/uses-this/ 301
+/blog/chapter-4-of-dissertation-drafted/ /blog/chapter-4-drafted-and-thoughts-on-gift-economies/ 301
+/blog/chapter-4-of-dissertation-drafted /blog/chapter-4-drafted-and-thoughts-on-gift-economies/ 301
+/blog/american-scriptures/ /blog/review-of-emamerican-scripturesem/ 301
+/blog/american-scriptures /blog/review-of-emamerican-scripturesem/ 301
+/blog/thatcamp-ne-how-to-use-a-search/ /blog/thatcamp-ne-workshop-how-to-use-a-database-for-historical-research/ 301
+/blog/thatcamp-ne-how-to-use-a-search /blog/thatcamp-ne-workshop-how-to-use-a-database-for-historical-research/ 301
+/blog/data-visualization-workshop-at-the-university-of-helsinki/ /blog/materials-for-dh-workshop-at-the-university-of-helsinki/ 301
+/blog/data-visualization-workshop-at-the-university-of-helsinki /blog/materials-for-dh-workshop-at-the-university-of-helsinki/ 301
+/blog/2022-10-20-05-43-16/ /blog/2022-10-20-17-43-16/ 301
+/blog/2022-10-20-05-43-16 /blog/2022-10-20-17-43-16/ 301
+/blog/2023-04-07-04-10-33/ /blog/2023-04-07-16-10-33/ 301
+/blog/2023-04-07-04-10-33 /blog/2023-04-07-16-10-33/ 301
+/blog/2023-04-11-02-56-57/ /blog/2023-04-11-14-56-57/ 301
+/blog/2023-04-11-02-56-57 /blog/2023-04-11-14-56-57/ 301
+/blog/2023-08-14-08-01-54/ /blog/2023-08-14-20-01-54/ 301
+/blog/2023-08-14-08-01-54 /blog/2023-08-14-20-01-54/ 301
+/blog/2026-02-06-03-09-00/ /blog/2026-02-06-15-09-00/ 301
+/blog/2026-02-06-03-09-00 /blog/2026-02-06-15-09-00/ 301
+/blog/2026-02-06-04-26-36/ /blog/2026-02-06-16-26-36/ 301
+/blog/2026-02-06-04-26-36 /blog/2026-02-06-16-26-36/ 301
+
+# ---------------------------------------------------------------------------
+# Wildcard rules (at most 100)
+
+# The blog moved to the home page; its old index and pagination URLs point at
+# the new homes of that content.
+/blog/page/* /archive/ 301
+
+# Micro section redirect (migrated into blog)
+/micro/* /blog/:splat 301
+
+# The newsletter ("Working On It") was folded into the blog in October 2026.
+# Issues are now blog posts with slugs working-on-it-<n>; images moved with them.
+# Three images were renamed earlier to match their actual format (JPEG data had a .png extension).
+/newsletter/:n/* /blog/working-on-it-:n/:splat 301
+
+# Project static sites moved to projects.lincolnmullen.com
 /projects/asch-2015/* https://projects.lincolnmullen.com/asch-2015/:splat 301
 /projects/paulists-map/* https://projects.lincolnmullen.com/paulists-map/:splat 301
 /projects/sex-ratios/* https://projects.lincolnmullen.com/sex-ratios/:splat 301
 /projects/slavery/* https://projects.lincolnmullen.com/slavery/:splat 301
 /projects/spatial-workshop/* https://projects.lincolnmullen.com/spatial-workshop/:splat 301
 /projects/us-boundaries/* https://projects.lincolnmullen.com/us-boundaries/:splat 301
-/projects/us-boundaries https://projects.lincolnmullen.com/us-boundaries
-/projects/slavery https://projects.lincolnmullen.com/slavery/ 301
-
 
 # Files moved to R2
 /syllabi/* https://files.lincolnmullen.com/syllabi/:splat 301
@@ -74,7 +281,6 @@
 /courses/text-analysis.2016/* https://files.lincolnmullen.com/syllabi/text-analysis.2016.pdf 301
 
 # Software package redirects (wildcards)
-/software/ / 302
 /software/gender/* https://github.com/lmullen/gender/ 301
 /software/historydata/* https://docs.ropensci.org/historydata/ 301
 /software/internetarchive/* https://docs.ropensci.org/internetarchive/ 301
@@ -82,3 +288,22 @@
 /software/tokenizers/* https://docs.ropensci.org/tokenizers/ 301
 /software/usaboundaries/* https://docs.ropensci.org/USAboundaries/ 301
 /software/usaboundariesdata/* https://docs.ropensci.org/USAboundariesData/ 301
+
+# Redirects for 404s found in Domesday analytics (issue #118).
+# Use the find-404s skill (.claude/skills/find-404s/SKILL.md) to find more.
+
+# Pages that moved, or that never had a page of their own
+/blog/tag/* /archive/ 302
+/blog/categories/* /archive/ 302
+/courses/uws/* /teaching/ 301
+/projects/helsinki-workshop/* /blog/materials-for-dh-workshop-at-the-university-of-helsinki/ 301
+
+# A link elsewhere on the web that repeats the domain as a path
+/https%3A/lincolnmullen.com/* /:splat 301
+
+# Computational Historical Thinking (dh-r) is offline: dh-r.lincolnmullen.com
+# no longer resolves. Send its old URLs to the source repository until it is
+# back, with 302s so they can be repointed.
+/projects/dh-r/* https://github.com/lmullen/dh-r 302
+/projects/dh-r2/* https://github.com/lmullen/dh-r 302
+/projects/worksheets/* https://github.com/lmullen/dh-r 302

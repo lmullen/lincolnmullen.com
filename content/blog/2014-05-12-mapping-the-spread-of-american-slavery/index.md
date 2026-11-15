@@ -58,7 +58,7 @@ Historians have long used maps of slavery to advance their arguments.[^9] I hope
 Guldi, "[Le Retour de la longue durée: Une perspective
 anglo-saxonne](http://scholar.harvard.edu/armitage/publications/return-longue-dur%C3%A9e),"
 *Annales*, in press. Whatever the reason for the blockbuster success of
-Thomas Picketty's *Capital in the Twenty-First Century*, it\'s worth
+Thomas Piketty's *Capital in the Twenty-First Century*, it\'s worth
 noting that the book is primarily a *longue durée* history of the
 structure of capital.
 

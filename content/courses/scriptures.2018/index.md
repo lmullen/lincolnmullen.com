@@ -21,7 +21,7 @@ officesignup: https://calendar.google.com/calendar/selfsched?sstoken=UU94MzdPM1Z
 
 ## Course description
 
-In this course, students will analyze texts that Americans have treated as "scripture." Students will read texts that present themselves as scripture, such as selections from the Book of Mormon and a Holy Sacred and Divine Roll and Book (a Shaker text). They will also read texts that have attained a sort of canonicity within American culture, such as the Declaration of Independence and Martin Luther King Jr.'s "Letter from Birmingham Jail." Students will thus gain more than a valuable familiarity with a variety of American religious traditions. They will also reflect on the way that, even in a digital age, texts continue to shape American identity. Finally, the course invites students to reflect on the meaning and function of "scripture." Although many Americans reflexively define scripture as "the Word of God" or think of the Bible or the Qu’ran, the scholar Wilfred Cantwell Smith cautions that "no text is a scripture in itself and as such. People---a given community---make a text into scripture, or keep it scripture." Along those lines, Americans, and different groups of Americans, have granted such authority to a wide variety of texts. 
+In this course, students will analyze texts that Americans have treated as "scripture." Students will read texts that present themselves as scripture, such as selections from the Book of Mormon and a Holy Sacred and Divine Roll and Book (a Shaker text). They will also read texts that have attained a sort of canonicity within American culture, such as the Declaration of Independence and Martin Luther King Jr.'s "Letter from Birmingham Jail." Students will thus gain more than a valuable familiarity with a variety of American religious traditions. They will also reflect on the way that, even in a digital age, texts continue to shape American identity. Finally, the course invites students to reflect on the meaning and function of "scripture." Although many Americans reflexively define scripture as "the Word of God" or think of the Bible or the Qur’an, the scholar Wilfred Cantwell Smith cautions that "no text is a scripture in itself and as such. People---a given community---make a text into scripture, or keep it scripture." Along those lines, Americans, and different groups of Americans, have granted such authority to a wide variety of texts. 
 
 ## Learning goals
 
@@ -190,7 +190,7 @@ Read:
 - OAHSPE, in Maffly-Kipp, 219--240.
 - Aquarian Gospel of Jesus the Christ, 378--406.
 
-### Tuesday, October 23: The Qu'ran in America
+### Tuesday, October 23: The Qur'an in America
 
 **Short essay 3:** Three double-spaced pages. What circumstances shaped Omar ibn Said's conclusion? How does he make use of both the Qur'an and the Bible in his life story? 
 
@@ -198,12 +198,12 @@ Read:
 
 - Omar ibn Said, *Autobiography of Omar ibn Said, Slave in North Carolina*. PDF on Blackboard.
 
-### Thursday, October 25: The Qu'ran in America
+### Thursday, October 25: The Qur'an in America
 
 Read:
 
 - Elijah Muhammad, *Message to the Blackman in America*. PDF on Blackboard.
-- Amina Wadud, *Qu'ran and Woman*, from *Columbia Sourcebook of Muslims in the United States*. PDF on Blackboard.
+- Amina Wadud, *Qur'an and Woman*, from *Columbia Sourcebook of Muslims in the United States*. PDF on Blackboard.
 
 ### Tuesday, October 30: Women's interpretation of the Bible
 

@@ -369,7 +369,7 @@ Here we see the first six clusters. Judging by the titles they are accurately cl
 
 This method could be broadly useful for anyone who wants to do text analysis on a clean corpus of documents.
 
-## Local alignment for natual language
+## Local alignment for natural language
 
 Another major feature in this initial release of the package is a version of the Smith-Waterman local alignment algorithm suitable for natural language processing.[^11] Local alignment is the process of taking two substrings and finding the best possible matching substring, where "best" is determined by a scoring algorithm that assigns values for matches, mismatches, and gaps. The Smith-Waterman dynamic programming algorithm is used for aligning DNA or protein sequences. There are dozens and dozens of explanations of how the algorithm works online: it seems to be an obligatory lecture in any bioinformatics course; the [Wikipedia explanation](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) is unusually lucid for a description of an algorithm. The only implementation of this algorithm in R is in Bioconductor's [Biostrings package](https://bioconductor.org/packages/release/bioc/html/Biostrings.html), so I have implemented a version for natural language.
 

@@ -122,7 +122,7 @@ Read:
 
 Read:
 
-- [Models of Argument-Driven Digital History](https://model-articles.rrchnm.org/). Read the introduction and the articles by Barleta, Midura, Hitchcok and Turkel, and one more of your choice. 
+- [Models of Argument-Driven Digital History](https://model-articles.rrchnm.org/). Read the introduction and the articles by Barleta, Midura, Hitchcock and Turkel, and one more of your choice. 
 
 Do before class:
 
@@ -146,7 +146,7 @@ Do before class:
 - Install [Visual Studio Code](https://code.visualstudio.com) and [CyberDuck](https://cyberduck.io).
 - Work through this [tutorial on making a basic website](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/). 
 - Also look at the [MDN web development guides](https://developer.mozilla.org/en-US/docs/Learn). Sometimes having things explained a different way helps.
-- This is a [harder, but still beginnner, version](https://microsoft.github.io/Web-Dev-For-Beginners/#/) of the tutorial we are working through. Keep it in mind in case you want to do something more advanced.
+- This is a [harder, but still beginner, version](https://microsoft.github.io/Web-Dev-For-Beginners/#/) of the tutorial we are working through. Keep it in mind in case you want to do something more advanced.
 
 Do after class:
 
@@ -324,6 +324,6 @@ GMU has established well-defined [COVID-19 policies](https://www.gmu.edu/safe-re
 
 While much of our class communication will be in Slack, please do check your Mason email, since critical communications from me or from the university may be sent there.
 
-See the [George Mason University catalog](https://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](https://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](https://oai.gmu.edu/) and the [honor code](https://oai.gmu.edu/mason-honor-code/). If you are a student with a disability and you need academic accommodations, please contact the Office of Disability Services at 703-993-2474 or through [their website](https://ods.gmu.edu), then provide their documented accomodations to me. You are responsible for verifying your enrollment status. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/).
+See the [George Mason University catalog](https://catalog.gmu.edu/) for general policies, as well as the university [statement on diversity](https://ctfe.gmu.edu/professional-development/mason-diversity-statement/). You are expected to know and follow George Mason's policies on [academic integrity](https://oai.gmu.edu/) and the [honor code](https://oai.gmu.edu/mason-honor-code/). If you are a student with a disability and you need academic accommodations, please contact the Office of Disability Services at 703-993-2474 or through [their website](https://ods.gmu.edu), then provide their documented accommodations to me. You are responsible for verifying your enrollment status. Please note the dates for dropping and adding courses from the [GMU academic calendar](https://registrar.gmu.edu/calendars/).
 
 Thanks to my colleagues Stephen Robertson and Jessica Otis, from whose syllabi I have borrowed ideas and readings.

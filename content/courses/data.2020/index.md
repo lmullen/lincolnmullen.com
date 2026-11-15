@@ -28,7 +28,7 @@ The key changes are these:
 
 3. The class calendar, as well as some readings, have changed due to the change in the university calendar. See the schedule below.
 
-4. While the final project will retain the same emphasis on indepdenent data analysis that produces historical insight for your field, the details of the assignment have changed. See the assignments section below.
+4. While the final project will retain the same emphasis on independent data analysis that produces historical insight for your field, the details of the assignment have changed. See the assignments section below.
 
 5. I will continue to be available to you in office hours, but now via Webex. In fact, the variety of times of day when I will be available will be much greater. Here's [how to meet with me](/page/office-hours/) individually.
 

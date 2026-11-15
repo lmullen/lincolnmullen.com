@@ -33,6 +33,6 @@ Briefly, these are some of the advantages to using the command line:
 - Command line tools are free and usually open-source. This gives you freedom over the way that you compute.
 - Command line tools are rock-solid stable. They don’t break, and they don’t crash.
 
-With this post, ProfHacker is inagurating a series of occasional posts titled **The ProfHacker Guide to the Command Line**. In future posts we’ll discuss how to find the command line on your Windows, Mac, or Linux computer, how to do some basic commands, and how to install useful programs. We will also cover programs like [pandoc](http://johnmacfarlane.net/pandoc/) (for converting text files and [pdftk](http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) (for manipulating PDFs).
+With this post, ProfHacker is inaugurating a series of occasional posts titled **The ProfHacker Guide to the Command Line**. In future posts we’ll discuss how to find the command line on your Windows, Mac, or Linux computer, how to do some basic commands, and how to install useful programs. We will also cover programs like [pandoc](http://johnmacfarlane.net/pandoc/) (for converting text files and [pdftk](http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) (for manipulating PDFs).
 
 **What about you? Have you used the command line before? Are you willing to experiment? What topics should we cover?**

@@ -56,7 +56,7 @@ David P. King, *God's Internationalists: World Vision and the Age of Evangelical
 Suggested readings:
 
 -   King, *God's Internationalists*.
--   Block, *Ordinary Lives in the Early Carribean*.
+-   Block, *Ordinary Lives in the Early Caribbean*.
 -   Norton, *Sacred Gifts, Profane Pleasures*.
 
 ### August 31 (Week 2): Commerce

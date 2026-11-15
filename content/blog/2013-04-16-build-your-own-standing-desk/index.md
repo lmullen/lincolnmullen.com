@@ -22,7 +22,7 @@ So what if you want a low-cost standing desk? Colin Nederkoorn has the answer, w
 
 **The results. (Click to enlarge)**
 
-I tried a standing desk for a week or two using boxes and books until I was sure that I wanted to work standing. Then I built a desk using the idea behind Nederkoon’s plans. You can see the results in this photo. I’m quite pleased with the functionality, even if it’s not much to look at.
+I tried a standing desk for a week or two using boxes and books until I was sure that I wanted to work standing. Then I built a desk using the idea behind Nederkoorn’s plans. You can see the results in this photo. I’m quite pleased with the functionality, even if it’s not much to look at.
 
 There are a few downsides. First, that price assumes you have a table to put the standing part of the desk on (we did already), and the parts we bought were more expensive than the guide suggests. I’d figure on $30-35 for just the parts that make a standing desk if you already have a table, plus another $40-$50 if you don’t have a table. Second, you’ll have to make a trip to the ~~consumer paradise~~ hellhole that is Ikea. Third, you might need to borrow a drill from a friend. But if I can put this desk together you don’t need to be very good with tools.
 

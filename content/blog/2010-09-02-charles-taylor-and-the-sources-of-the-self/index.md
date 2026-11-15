@@ -11,7 +11,7 @@ tags:
 
 What is identity? What is a self? How has selfhood changed over time?
 
-Those are the questions that [Charles Taylor](http://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)), a philosopher with a historical method, sets out to answer in [*Sources of the Self: The Making of the Modern Identity*](http://www.librarything.com/work/40593) (Harvard University Press, 1989). His book is an investigation of how the modern sense of what it means to be a person came into being through the influences of philosophers and popular thought. To that end, he first lays a philosophical foundation, then offers a history of selfhood that is somewhere between straightfoward intellectual history and a history of *mentalités*.
+Those are the questions that [Charles Taylor](http://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)), a philosopher with a historical method, sets out to answer in [*Sources of the Self: The Making of the Modern Identity*](http://www.librarything.com/work/40593) (Harvard University Press, 1989). His book is an investigation of how the modern sense of what it means to be a person came into being through the influences of philosophers and popular thought. To that end, he first lays a philosophical foundation, then offers a history of selfhood that is somewhere between straightforward intellectual history and a history of *mentalités*.
 
 <!--more-->
 

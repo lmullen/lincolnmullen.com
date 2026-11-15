@@ -70,4 +70,4 @@ If you would like to look up a particular election or candidate, use the table b
 
 [^6]: I am surprised that a Federalist did better in Western Massachusetts. Am I wrong to be surprised?
 
-[^7]: Of course there are some exceptions. Chesire and Adams stand out to me: both were home to mills, and Chesire had a glass factory. Did these mill towns have a different kind of politics?
+[^7]: Of course there are some exceptions. Cheshire and Adams stand out to me: both were home to mills, and Cheshire had a glass factory. Did these mill towns have a different kind of politics?

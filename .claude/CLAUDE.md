@@ -118,7 +118,7 @@ This section holds only the facts about this repository.
 ### Project board
 
 - The board is <https://github.com/users/lmullen/projects/4> (owner `lmullen`, project number `4`). It spans all of my repositories.
-- Its `Status` columns are `Triage`, `TODO`, `In progress`, `To review`, and `Done`.
+- Its `Status` columns are `Triage`, `TODO`, `In progress`, and `Done`. There is no review column: an issue stays in `In progress` while its pull request is open.
 - Issues opened in this repository are added to the board automatically, in `Triage`, so there is no need to run `gh project item-add`. You still need the item id for status moves.
 
 ### Branches

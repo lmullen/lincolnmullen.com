@@ -7,7 +7,7 @@
 <article id='entry-{{ with .Title }}{{ urlize . }}{{ else }}{{ .Slug }}{{ end }}' class="list-post h-entry">
 
   {{/* Titled posts mark their title link as u-url; untitled posts use the date. */}}
-  <a class="pdate{{ if not .Title }} u-url u-uid{{ end }}" href="{{ .Permalink }}" aria-label="Permalink: post from {{ .Date.Format site.Params.dateForms.long }}"><time datetime="{{ .Date.Format site.Params.dateForms.machine }}">{{ .Date.Format site.Params.dateForms.compact }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+  <a class="pdate{{ if not .Title }} u-url u-uid{{ end }}" href="{{ .Permalink }}"><span class="visually-hidden">Permalink: post from </span><time datetime="{{ .Date.Format site.Params.dateForms.machine }}">{{ .Date.Format site.Params.dateForms.compact }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
 
   <div class="list-body">
     {{ if .Title }}

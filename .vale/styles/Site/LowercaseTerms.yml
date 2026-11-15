@@ -1,0 +1,15 @@
+# Fields, historical periods, and "evangelical" as a general descriptor are
+# lowercase. They are capitalized in many titles and names (Journal of the
+# Early Republic, Debates in the Digital Humanities, Evangelical Gotham), so
+# this is only a suggestion.
+extends: substitution
+message: "Use lowercase '%s' unless it is part of a title or name."
+level: suggestion
+ignorecase: false
+swap:
+  Digital Humanities: digital humanities
+  Digital History: digital history
+  Religious History: religious history
+  Early Republic: early republic
+  Evangelicals: evangelicals
+  Evangelical: evangelical

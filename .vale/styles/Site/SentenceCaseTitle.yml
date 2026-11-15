@@ -1,0 +1,25 @@
+# Post titles (the `title` front matter field) use sentence case. An untitled
+# draft with `title: ""` gets a stray suggestion until the line is removed. Vale can't tell proper nouns
+# from other words, so add recurring ones to `exceptions`.
+extends: capitalization
+message: "Use sentence case: '%s'."
+level: suggestion
+scope: title
+
+match: $sentence
+indicators:
+  - "?"
+  - "!"
+exceptions:
+  - Working On It
+  - American
+  - Americans
+  - Christian
+  - Christianity
+  - English
+  - God
+  - Hugo
+  - I
+  - R
+  - RRCHNM
+  - George Mason University

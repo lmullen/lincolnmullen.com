@@ -1,0 +1,5 @@
+engine: dasel
+scopes:
+  - name: social
+    expr: social.all()
+    type: md

@@ -19,3 +19,8 @@ resources/_gen/*
 # Rendered newsletter issues (generated for pasting into Kit)
 digests/*.html
 !digests/kit-template.html
+
+# Vale packages downloaded by `vale sync`; the house style and vocabulary are committed
+.vale/styles/*
+!.vale/styles/Site/
+!.vale/styles/config/

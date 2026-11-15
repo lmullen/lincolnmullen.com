@@ -1,0 +1,14 @@
+extends: substitution
+message: "Capitalize denominations and religious groups: '%s'."
+level: warning
+ignorecase: false
+# The lookarounds skip hyphenated slugs, which Vale reads from the front matter.
+swap:
+  '(?<!-)baptists?(?!-)': Baptist
+  '(?<!-)catholics?(?!-)': Catholic
+  '(?<!-)jewish(?!-)': Jewish
+  '(?<!-)jews(?!-)': Jews
+  '(?<!-)methodists?(?!-)': Methodist
+  '(?<!-)mormons?(?!-)': Mormon
+  '(?<!-)presbyterians?(?!-)': Presbyterian
+  '(?<!-)protestants?(?!-)': Protestant

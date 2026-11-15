@@ -15,19 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
+      # Installs Hugo and Node as pinned in .mise.toml, verified against the
+      # checksums in mise.lock, so CI runs the same tools as local dev.
+      - uses: jdx/mise-action@v5
 
       - run: npm ci
-
-      - name: Install the Hugo version pinned in .mise.toml
-        run: |
-          version=$(sed -n 's/^hugo-extended *= *"\([^"]*\)".*/\1/p' .mise.toml)
-          mkdir -p "$HOME/.local/bin"
-          curl -sSL "https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_extended_${version}_linux-amd64.tar.gz" \
-            | tar -xzf - -C "$HOME/.local/bin" hugo
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
 
       - run: ./gen-cache.sh --check

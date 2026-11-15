@@ -33,15 +33,22 @@ esac
 
 cache=resources/_gen/images
 
-# The pinned Hugo version is the source of truth for both local dev and the
-# Cloudflare build; make sure the two pins agree and that we are running it.
+# .mise.toml is the source of truth for local dev, CI, and the Cloudflare build;
+# make sure mise.lock and .node-version agree with it and that we are running
+# the pinned Hugo.
 pinned=$(sed -n 's/^hugo-extended *= *"\([^"]*\)".*/\1/p' .mise.toml)
 if [ -z "$pinned" ]; then
   echo "gen-cache: could not read the hugo-extended version from .mise.toml" >&2
   exit 1
 fi
-if ! grep -q "hugo_extended_${pinned}_linux-amd64" wrangler.jsonc; then
-  echo "gen-cache: wrangler.jsonc does not download Hugo ${pinned}; keep its build command in sync with .mise.toml" >&2
+locked=$(awk '/^\[/ { t = ($0 == "[[tools.hugo-extended]]") } t && $1 == "version" { gsub(/"/, "", $3); print $3; exit }' mise.lock)
+if [ "$locked" != "$pinned" ]; then
+  echo "gen-cache: mise.lock has Hugo ${locked:-(none)} but .mise.toml pins ${pinned}; run 'mise lock' and commit mise.lock, which the Cloudflare build (cloudflare-build.sh) downloads from" >&2
+  exit 1
+fi
+node_pinned=$(sed -n 's/^node *= *"\([^"]*\)".*/\1/p' .mise.toml)
+if [ "$(tr -d '[:space:]' < .node-version)" != "$node_pinned" ]; then
+  echo "gen-cache: .node-version (read by Cloudflare) does not match node = \"${node_pinned}\" in .mise.toml" >&2
   exit 1
 fi
 running=$(hugo version 2>/dev/null | sed -n 's/^hugo v\([0-9][0-9.]*\).*/\1/p')

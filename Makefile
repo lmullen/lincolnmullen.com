@@ -12,3 +12,11 @@ gen-cache :
 
 check-gen-cache :
 	./gen-cache.sh --check
+
+# Proofread prose with Vale (run `vale sync` first). The first pass covers the
+# body, title, and description; the second the social media text, in posts
+# that have any. Pass FILES to check only some files: make vale FILES=content/blog/x
+FILES ?= content $(wildcard digests/2*.md)
+vale :
+	-vale $(FILES)
+	grep -rl --include='*.md' '^social:' $(FILES) | xargs vale --config .vale-social.ini

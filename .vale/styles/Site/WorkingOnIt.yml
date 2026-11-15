@@ -1,0 +1,9 @@
+extends: substitution
+message: "The blog's title is spelled '%s'."
+level: error
+ignorecase: false
+swap:
+  Working on It: Working On It
+  Working on it: Working On It
+  working on It: Working On It
+  Working On it: Working On It

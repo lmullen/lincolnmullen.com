@@ -134,6 +134,7 @@ Then look at the post on the local server to confirm it renders: the title or it
 ## 8. Commit, push, and pull request
 
 - **Update the date before every commit.** Each time you commit to the post's branch, the first commit and every later one (review fixes, social text, changes the user asks for), first set the post's `date` to the current time, in the format from step 3. The post should carry the time it was last worked on, so that it is current whenever it is merged. Change only `date`: leave the directory name and `slug` as they were when the bundle was built, so that the permalink, the social media links, and the preview URL stay the same from one commit to the next. If the user has asked for a particular date, keep theirs.
+- **Keep the slug in step with the title.** The exception to the rule above: if the title of a post that has not yet been published changes, rename the slug and the directory to match the new title without asking, update the permalink in the social media text, and run `./gen-cache.sh`, since the cache paths include the slug. Once a post is published, never change its slug.
 - Commit the bundle together with the cache changes (`git add -A resources/_gen/images`), plus any change to `tags.md` or `CLAUDE.md` from the steps above.
 - Push the branch, so Cloudflare builds a preview.
 - Open the pull request **ready for review, not as a draft**, with `lmullen` as the reviewer and `Closes #<n>` in the body. In the body, list the fixes you made in step 4, so the user can see every change to their text.

@@ -24,6 +24,7 @@ The canonical tags for blog posts. The "Tags" step of the `new-post` skill (`SKI
 | Tag | Use for |
 |-----|---------|
 | `digital history` | Digital history methods, argumentation, the field's development; umbrella for computational approaches to the past |
+| `historical interpretation` | Doing the work of interpretation and argument from sources, as opposed to only collecting or presenting them |
 | `computational history` | Subset of digital history emphasizing quantitative/computational methods specifically |
 | `data visualization` | Charts, graphs, interactive visualizations of historical data |
 | `spatial history` | Maps, GIS, geographic analysis, spatial approaches to history |

@@ -10,7 +10,10 @@
   {{- end }}
   {{- with .Params.image }}
   {{- with $.Resources.GetMatch . }}
-  <img class="u-photo" src="{{ .Permalink }}" alt="">
+  {{- /* A <data> element, not an <img>: browsers download a hidden <img>, and
+         this is the full-size original (issue #240). Microformats parsers read
+         a u-* property's URL from the value attribute of a <data> element. */}}
+  <data class="u-photo" value="{{ .Permalink }}"></data>
   {{- end }}
   {{- end }}
 </footer>

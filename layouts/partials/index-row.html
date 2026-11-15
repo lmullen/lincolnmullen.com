@@ -5,7 +5,7 @@
        and clipped to one line by the stylesheet. Call with the page context:
        {{ partial "index-row.html" . }} */ -}}
 <div class="idx-row">
-  <a class="idx-date" href="{{ .RelPermalink }}" aria-label="Permalink: post from {{ .Date.Format site.Params.dateForms.long }}"><time datetime="{{ .Date.Format site.Params.dateForms.machine }}">{{ .Date.Format site.Params.dateForms.compact }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+  <a class="idx-date" href="{{ .RelPermalink }}"><span class="visually-hidden">Permalink: post from </span><time datetime="{{ .Date.Format site.Params.dateForms.machine }}">{{ .Date.Format site.Params.dateForms.compact }}</time><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
   {{- if .Title }}
   <div>
     <a class="idx-title" href="{{ .RelPermalink }}">{{ .RenderString (dict "display" "inline") .Title }}</a>

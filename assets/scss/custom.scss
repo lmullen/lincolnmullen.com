@@ -98,7 +98,7 @@ $bp-stack: 640px; /* header, hero links and home stream go single-column; subscr
   --ink: #16203a; /* headings, near-black hairline rules */
   --body: #1a1a1a; /* body text */
   --sec: #5a5e66; /* secondary text (excerpts, notes, abstracts) */
-  --mut: #878d99; /* muted meta, social/contact icons */
+  --mut: #696e77; /* muted meta, social/contact icons — 5.1:1 on white, 4.7:1 on --card (WCAG AA needs 4.5:1) */
   --orange: #e07a2e; /* accent: decorative only (borders, fills) */
   --orange-text: #b0561a; /* orange as a text/icon color — 5.0:1 on white (WCAG AA); the brighter --orange measures only 3.0:1 */
   --rule: #d4d6dc; /* light hairline (rare) */

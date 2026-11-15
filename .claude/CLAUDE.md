@@ -111,56 +111,20 @@ Include the permalink URL at the end of each social media text.
 
 ## Git and GitHub
 
-### Issues and the project board
+The rules for working with Git and GitHub are the same in all my repositories and are not repeated here: the `lmullen-agent` identity, an issue for every change, the project board, branches and worktrees, pull requests, merging, and cleanup after a merge. In a Docker sandbox they come from the lmullen-agent kit, whose context file you must read before any Git or GitHub operation. In a Claude Code cloud session they are in `~/.claude/CLAUDE.md`. Their source is [`lmullen-agent-context.md`](https://github.com/lmullen/dotfiles/blob/main/sandboxes/kits/lmullen-agent/lmullen-agent-context.md) in `lmullen/dotfiles`; change a rule there, not here.
 
-All work on this repository is tracked on the GitHub project at <https://github.com/users/lmullen/projects/4> (owner `lmullen`, project number `4`). The project spans all of my repositories. Every change belongs to an issue, and every pull request is linked to one. Keep the board true to what is actually happening: when you start, pause, or finish something, the issue's status should say so.
+This section holds only the facts about this repository.
 
-**Find the issue first.** Before starting work, look for an open issue in this repository that covers it: `gh issue list --state open`, or `gh issue list --search "<words>"` for a larger backlog. Use an existing issue even when its title is not an exact match, and don't open a duplicate. Also check the board for a draft item describing the work (`gh project item-list 4 --owner lmullen --format json --limit 500`, type `DraftIssue`); if one matches, ask the user to convert it to an issue in this repository rather than creating a second one.
+### Project board
 
-**Otherwise create one.** `gh issue create --title "<title>" --body "<what and why>"`. The title names the outcome in sentence case, like a commit subject. The body gives enough context to stand on its own: what the user asked for, why, and anything that constrains the approach. Apply an existing label when one fits (`gh label list`); don't invent labels. One issue per unit of work: if the user asks for several unrelated things, open one issue each.
+- The board is <https://github.com/users/lmullen/projects/4> (owner `lmullen`, project number `4`). It spans all of my repositories.
+- Its `Status` columns are `Triage`, `TODO`, `In progress`, and `Done`. There is no review column: an issue stays in `In progress` while its pull request is open.
+- Issues opened in this repository are added to the board automatically, in `Triage`, so there is no need to run `gh project item-add`. You still need the item id for status moves.
 
-**It lands on the board by itself.** The project adds every issue opened in this repository automatically, in `Triage`, so there is no need to run `gh project item-add` here. Opening the issue is all it takes to get the work onto the board. You still need the item id for status moves; get it from `gh project item-list` as described below.
+### Branches
 
-**Move it as the work moves.** Status is the board's `Status` single-select field, with four columns: `Triage`, `TODO`, `In progress`, and `Done`. New items land in `Triage`. Read the field and option ids once per session with `gh project field-list 4 --owner lmullen --format json`.
-
-- `Triage` holds ideas and reports that haven't been accepted yet; `TODO` holds accepted work that nobody has started. An issue you create for something the user has just asked for skips `Triage`: put it in `TODO`, or straight into `In progress` if you are starting on it now.
-- When you start on an issue, move it to `In progress`. It stays there while its pull request is open; the board has no review column.
-- When the pull request merges, `Closes #<n>` closes the issue and the board's workflow moves it to `Done`. If the board didn't, move it.
-- If work stalls or is abandoned, move it back to `TODO` (or to `Triage` if it is no longer clearly wanted) and comment on the issue to say why.
-
-Change a status with:
-
-```bash
-gh project item-edit --project-id <project id> --id <item id> --field-id <Status field id> --single-select-option-id <option id>
-```
-
-The project id comes from `gh project view 4 --owner lmullen --format json --jq .id`; the field and option ids from `field-list`; and the item id from `item-add`, or from `gh project item-list 4 --owner lmullen --format json --limit 500 --jq '.items[] | select(.content.url == "<issue url>") | .id'`.
-
-**Link the pull request.** Put `Closes #<n>` in the pull request body so GitHub links the PR to the issue and closes it on merge, and name the issue in the commit message when there is a single commit. A pull request normally closes one issue; if it genuinely closes several, write a `Closes #<n>` line for each. Don't close an issue by hand while a pull request for it is open.
-
-**Keep the issue current.** When scope changes, when you discover a blocker, or when you leave part of the work undone, say so in a brief comment on the issue, not only in the chat, so the board tells the whole story. One comment per real update; don't narrate.
-
-**Token scope.** `gh project` needs the `project` scope. If it reports a missing scope, run `gh auth refresh -s project` (or ask the user to run it when you can't).
-
-**When the project API is unavailable.** Claude Code cloud sessions (claude.ai/code) block GitHub's GraphQL API, so `gh project`, `gh issue create`, and `gh pr create` fail there. Still follow the rest of this section through the REST API: create the issue with `gh api repos/lmullen/<repo>/issues -f title=... -f body=...`, open the pull request with `gh api repos/lmullen/<repo>/pulls -f title=... -f head=<branch> -f base=main -f body=...` (with `Closes #<n>` in the body), and tell the user which board moves you could not make so they can make them. Because this repository's issues are added to the board automatically, opening the issue is enough to get the work onto the board even from a cloud session.
-
-### Branches and worktrees
-
-Whenever the user asks you to work on a separate branch, use a git worktree instead of switching branches in the current checkout.
-
-- Never run `git switch` or `git checkout <branch>` in the main working directory. Leave it on whatever branch it's on, with any uncommitted changes untouched.
-- Start branch names with a letter, not a digit, so Cloudflare can create a branch preview URL (see "Preview servers" below). Put any issue number at the end: `speed-up-builds-176`, not `176-speed-up-builds`.
-- Create worktrees inside the project at `.worktrees/<branch-name>` (replace `/` in branch names with `-`).
-- Before creating the first worktree, make sure `.worktrees/` is listed in `.gitignore`. If it isn't, add it and tell the user.
-- For a new branch, base it on `main` unless the user says otherwise:
-  `git worktree add -b <branch> .worktrees/<branch> main`
-- For an existing branch: `git worktree add .worktrees/<branch> <branch>`
-- If a worktree for that branch already exists (check `git worktree list`), reuse it rather than creating another.
-- After creating a worktree, do all reading, editing, building, and testing from inside that directory. Install dependencies there if needed (e.g., `go mod download`, `npm install`).
-- Tell the user the worktree path when you create it.
-- Commit work in the worktree's branch. Don't merge into `main` unless the user asks. Push the branch (never `main`) whenever you make changes so Cloudflare builds a preview; see "Preview servers" below.
-- Don't remove a worktree or delete its branch unless the user asks. When they do, use `git worktree remove <path>` followed by `git branch -d <branch>`, and run `git worktree prune` if needed.
-- When the user needs to run a command that must run against the branch's code (a migration, a build, a database command), give the command to switch to its worktree (`cd .worktrees/<branch-name>` from the project root) before the command itself, so it runs against the branch rather than whatever the main checkout has checked out.
+- Push the branch after every change, so Cloudflare builds a preview; see "Preview servers" below.
+- Branch names must start with a letter, with any issue number at the end (`speed-up-builds-176`, not `176-speed-up-builds`). Cloudflare cannot make a branch preview URL from a name that starts with a digit.
 
 ### Preview servers
 
@@ -191,14 +155,3 @@ In the sandbox, `CLOUDFLARE_API_TOKEN` can read builds and their logs through th
 - Measure total build time as `stopped_on` minus `created_on`. The gap between `created_on` and `running_on` combines two things: waiting in the queue behind another build of this worker (builds run one at a time) and initializing the build environment. The log separates them: when a build was queued, `Initializing build environment...` appears twice, and the second one marks the end of the wait.
 
 **Status line.** `.claude/statusline.sh` (registered in `.claude/settings.json`) prints the sandbox kit's status line and then `preview: local remote`, linking the Hugo server running from the current checkout and its Cloudflare branch preview. It finds the server by matching a `hugo` process's working directory to the checkout, so start servers from inside the worktree as above.
-
-### GitHub
-
-Use the `gh` CLI for GitHub operations — creating pull requests, viewing issues, checking CI status, and commenting.
-
-- Open a PR: `gh pr create --base main --head <branch> --title "..." --body "..."`
-- Reference the issue a PR closes in the PR body with `Closes #<n>` so it auto-closes on merge (see "Issues and the project board" above).
-- View an issue: `gh issue view <n>`
-- Check CI on a PR: `gh pr checks <n>`
-
-Do not hand-build GitHub API calls with `curl`; prefer `gh`.

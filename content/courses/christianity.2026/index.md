@@ -204,31 +204,30 @@ Bring a bluebook to class.
 
 - African ecclesiastical independence.
 
-### Tues., Nov. 10: Enlightenment and Revolutions
+### ~~Tues., Nov. 10: Class canceled~~
+
+### Thu., Nov. 12: Enlightenment and Revolutions
 
 - Paine, _Age of Reason_.
 - Schleiermacher, _On Religion_.
 - Holland, chs. 16, 18.
 - **In class: Short writing on liberal Christianity.**
 
-### Thu., Nov. 12: Christianity in North and South America
+### Tues., Nov. 17: Christianity in North and South America
 
 - Gutiérrez, _A Theology of Liberation_.
 - Language in Latin America.
 - Emerson, "Divinity School Address."
 
-### Tues., Nov. 17: Christianity and Missions in the Modern Era
+### Thu., Nov. 19: Christianity and Missions in the Modern Era
 
 - Missionary societies in Africa.
 - Holland, ch. 17.
 - **In class: Short writing on ecclesiastical independence.**
 
-### Thu., Nov. 19: Pentecostalism
+### Tues., Nov. 24: Pentecostalism, colonization, and decolonization
 
 - Nimi Wariboko, "Pentecostalism in Africa," _Oxford Research Encyclopedia of African History_ (2017): <https://doi.org/10.1093/acrefore/9780190277734.013.120>.
-
-### Tues., Nov. 24: Colonization and Decolonization
-
 - Holland, ch. 19.
 - McGreevy, ch. 10.
 

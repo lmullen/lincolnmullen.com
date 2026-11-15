@@ -1,2 +1,10 @@
+# Tools for working on the site, installed by `mise install`
+# (https://mise.jdx.dev). The Docker sandbox for this site installs them from
+# here too.
 [tools]
+# The Hugo the site is built with. .github/workflows/gen-cache.yml reads this
+# pin, so CI uses the same version.
 hugo-extended = "0.169.0"
+# For npm (Bootstrap and Wrangler, in package.json). Same major release as
+# actions/setup-node in .github/workflows/gen-cache.yml.
+node = "22"

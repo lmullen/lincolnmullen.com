@@ -2,9 +2,11 @@
 # (https://mise.jdx.dev). The Docker sandbox for this site installs them from
 # here too.
 [tools]
-# The Hugo the site is built with. .github/workflows/gen-cache.yml reads this
-# pin, so CI uses the same version.
+# The Hugo the site is built with. CI (.github/workflows/gen-cache.yml) installs
+# it with mise, and the Cloudflare build (cloudflare-build.sh) downloads it from
+# the URL and checksum in mise.lock. After changing a version, run `mise lock`
+# (or `mise install`) and commit mise.lock.
 hugo-extended = "0.169.0"
-# For npm (Bootstrap and Wrangler, in package.json). Same major release as
-# actions/setup-node in .github/workflows/gen-cache.yml.
+# For npm (Bootstrap and Wrangler, in package.json). Cloudflare reads
+# .node-version instead, so keep that file the same; gen-cache.sh checks.
 node = "22"

@@ -31,7 +31,7 @@ So technophobes, “techno-curmudgeons, and Luddites,” here are three simple s
 
 What’s the most important or urgent project you are working on right now? What would happen to your article, grant, or book chapter if your computer crashed right now? You need to back it up immediately. It would be best if your whole computer were backed up, but we’re going to keep this simple. So do one of the following:
 
-- E-mail a copy of the document to yourself so that it is stored on your university’s mail servers or in GMail.
+- E-mail a copy of the document to yourself so that it is stored on your university’s mail servers or in Gmail.
 - Burn a CD with your project files.
 - Copy your files to a thumb drive.
 - Copy your files to the networked drive your university provides.

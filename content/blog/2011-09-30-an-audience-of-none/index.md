@@ -13,13 +13,13 @@ tags:
 
 {{< image src="audience-300x196.jpg" alt="An audience seated in an auditorium" >}}
 
-Students, when asked to write the typical term paper or research paper, know that they are writing for an audience of one: their professor or TA. I have the suspcion that many students assume their professor or TA barely reads the paper, if at all: an audience of none.
+Students, when asked to write the typical term paper or research paper, know that they are writing for an audience of one: their professor or TA. I have the suspicion that many students assume their professor or TA barely reads the paper, if at all: an audience of none.
 
 <!--more-->
 
 On the other hand, professors and TAs often lament that some students’ writing is barely readable, even though students are often admonished to write for the general educated reader, whoever that may be.
 
-Poor writing is to be expected when students have, or believe they have, no audience to write for. Without an audience, there are no necessary contraints to topic, tone, genre, style, method of argumentation—only the artificial constraints of the assignment. If the writing is not read, there is no motivation to write well, nor any feedback and encouragement to future efforts. There may be any number of reasons for bad writing, but how to give students a genuine audience is a problem that is at least solvable (hackable).
+Poor writing is to be expected when students have, or believe they have, no audience to write for. Without an audience, there are no necessary constraints to topic, tone, genre, style, method of argumentation—only the artificial constraints of the assignment. If the writing is not read, there is no motivation to write well, nor any feedback and encouragement to future efforts. There may be any number of reasons for bad writing, but how to give students a genuine audience is a problem that is at least solvable (hackable).
 
 There are the kinds of public writing assignments that I have heard of recently:
 

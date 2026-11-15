@@ -10,7 +10,7 @@ tags:
 
 **Menand, Louis. *The Metaphysical Club*. New York: Farrar, Straus, and Giroux, 2001. 546 pages. ISBN: 0374528497.**
 
-Most self-described intellectuals have joined a discussion club at some time or another. Though a few intellectual clubs have left their mark, such as the Holy Club of John and Charles Wesley or the Inklings of C. S. Lewis and J. R. R. Tolkein, most groups disband, leaving behind few records and even less influence. Scarcely any informal gathering of intelligentsia can claim to have promulgated a new philosophy that remade a nation.
+Most self-described intellectuals have joined a discussion club at some time or another. Though a few intellectual clubs have left their mark, such as the Holy Club of John and Charles Wesley or the Inklings of C. S. Lewis and J. R. R. Tolkien, most groups disband, leaving behind few records and even less influence. Scarcely any informal gathering of intelligentsia can claim to have promulgated a new philosophy that remade a nation.
 
 <!--more-->
 

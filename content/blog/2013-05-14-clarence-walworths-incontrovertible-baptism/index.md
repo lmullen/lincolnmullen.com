@@ -40,7 +40,7 @@ In terms of theology, Walworth's second baptism was incontrovertible. Yet it was
 
 [^3]: Walworth, 10.
 
-[^4]: Canons of the Council of Trent, seventh sessions, canons on baptism, canon 4. *The Canons and Decrees of the Council of Trent*, trans. H. J. Schroeder (Charlotte: TAN Books, 1971), 53. McMaster converted to Catholicism at nearly the same time as Walworth, and Walworth, McMaster, and in 1845 Isaac Hecker all traveled to Belgium together to undertake novitiates as Redemptorists. Before he was ordained Arthur Carey was tried for his Romanist testimonies, but was acquited. But in 1844 he died prematurely at the age of 21 as a deacon of the Episcopal Church.
+[^4]: Canons of the Council of Trent, seventh sessions, canons on baptism, canon 4. *The Canons and Decrees of the Council of Trent*, trans. H. J. Schroeder (Charlotte: TAN Books, 1971), 53. McMaster converted to Catholicism at nearly the same time as Walworth, and Walworth, McMaster, and in 1845 Isaac Hecker all traveled to Belgium together to undertake novitiates as Redemptorists. Before he was ordained Arthur Carey was tried for his Romanist testimonies, but was acquitted. But in 1844 he died prematurely at the age of 21 as a deacon of the Episcopal Church.
 
 [^5]: Walworth, 33. "Episcopalians in this country, and Anglicans in England, are essentially Protestant, and their antics are remarkable when they try to be Catholic."
 

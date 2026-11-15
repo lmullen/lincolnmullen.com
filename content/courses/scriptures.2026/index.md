@@ -188,7 +188,7 @@ Read:
 
 ### GMU spring break, March 9--13
 
-### Tuesday, Mar. 17: The Qu'ran in America
+### Tuesday, Mar. 17: The Qur'an in America
 
 **Response paper.** What circumstances shaped Omar ibn Said's conclusion? How does he make use of both the Qur'an and the Bible in his life story?
 
@@ -196,7 +196,7 @@ Read:
 
 - Omar ibn Said, _Autobiography of Omar ibn Said, Slave in North Carolina_. PDF on Canvas.
 - Elijah Muhammad, _Message to the Blackman in America_. PDF on Canvas.
-- Amina Wadud, _Qu'ran and Woman_, from _Columbia Sourcebook of Muslims in the United States_. PDF on Canvas.
+- Amina Wadud, _Qur'an and Woman_, from _Columbia Sourcebook of Muslims in the United States_. PDF on Canvas.
 
 ### Thursday, Mar. 19: Women's interpretations of the Bible
 

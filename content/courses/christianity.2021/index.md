@@ -215,7 +215,7 @@ Exam to be given online. Details to be announced.
 ### Thursday, April 22: Colonization and Decolonization
 
 - MacCulloch, ch. 24.
-- Sanneh, ch. 4 ("The Yogi and the Commisar").
+- Sanneh, ch. 4 ("The Yogi and the Commissar").
 - Complete reading Achebe, _Things Fall Apart_. (Whoever has ears to hear: start this book in plenty of time. As you read note that the section involving missionaries and Christianity in the denouement will obviously be our focus, but that episode depends on the narrative structure of the entire novel.)
 
 ### Tuesday, April 27: Vatican II

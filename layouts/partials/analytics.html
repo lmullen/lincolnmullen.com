@@ -1,5 +1,6 @@
 {{ if hugo.IsProduction }}
-<script defer src="https://domesday.lincolnmullen.com/script.js"></script>
+{{- /* data-status lets Domesday record 404s; the find-404s skill relies on it. */}}
+<script defer src="https://domesday.lincolnmullen.com/script.js"{{ if eq .Kind "404" }} data-status="404"{{ end }}></script>
 <noscript>
   <img src="https://domesday.lincolnmullen.com/collect/pixel?url={{ .Permalink | urlquery }}" alt="" width="1" height="1" />
 </noscript>

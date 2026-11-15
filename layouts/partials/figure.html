@@ -8,7 +8,9 @@
          link     where the image links; defaults to the full-size image
          class    extra class(es) on the <figure>
          width    1x display width in px for the responsive image
-       Raster images get a 1x/2x WebP srcset; GIFs and SVGs pass through. */ -}}
+         fluid    true when the image fills its column up to `width` (see
+                  partials/responsive-image.html)
+       Raster images get a WebP srcset; GIFs and SVGs pass through. */ -}}
 {{- $raw := "" -}}
 {{- if hasPrefix .src "/" -}}
 {{- $raw = resources.Get (strings.TrimPrefix "/" .src) -}}
@@ -20,21 +22,22 @@
 {{- /* Evaluate the fallback only when needed, so that an image with its own
        link does not also publish the unused full-size original. */ -}}
 {{- if not $link }}{{ $link = $raw.RelPermalink }}{{ end -}}
+{{- $loading := partial "image-loading.html" (dict "page" .page "src" .src) -}}
 {{- $alt := .alt | default (.caption | markdownify | plainify) -}}
 <figure class="fig{{ with .class }} {{ . }}{{ end }}">
 	{{ if and (ne $ext ".gif") (ne $ext ".svg") }}
 	<a href="{{ $link }}">
-		{{ partial "responsive-image.html" (dict "res" $raw "width" .width "class" "figimg" "alt" $alt) }}
+		{{ partial "responsive-image.html" (dict "res" $raw "width" .width "class" "figimg" "alt" $alt "fluid" .fluid "loading" $loading) }}
 	</a>
 	{{ else if eq $ext ".gif" }}
 	<!-- Don't process GIFs -->
 	<a href="{{ $link }}">
-		<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ $alt }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
+		<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ $alt }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" {{ $loading | safeHTMLAttr }} />
 	</a>
 	{{ else }}
 	<!-- Don't process SVGs (no intrinsic dimensions available) -->
 	<a href="{{ $link }}">
-		<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ $alt }}' />
+		<img class="figimg" src='{{ $raw.RelPermalink }}' alt='{{ $alt }}' {{ $loading | safeHTMLAttr }} />
 	</a>
 	{{ end }}
 	{{ with .caption }}

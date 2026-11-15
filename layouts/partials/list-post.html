@@ -16,15 +16,19 @@
     <h2 class="visually-hidden">Post from {{ .Date.Format site.Params.dateForms.long }}</h2>
     {{ end }}
 
+    {{/* In this stream a post's images are rarely on the first screen, so
+         the image a post would load first on its own page (see
+         partials/image-loading.html) is lazy-loaded here like the rest. */}}
+    {{ $eager := `(?:fetchpriority="high"|loading="eager")` }}
     <div class="pbody e-content">
       {{ if findRE `<!--more-->` .RawContent }}
       {{/* Strip footnote markers: the summary cuts off before the footnote
            bodies, so the markers would link to anchors that exist only on
            the post's own page. */}}
-      {{ replaceRE `<sup id="[^"]*fnref[^"]*".*?</sup>` "" .Summary | safeHTML }}
+      {{ replaceRE `<sup id="[^"]*fnref[^"]*".*?</sup>` "" .Summary | replaceRE $eager `loading="lazy"` | safeHTML }}
       {{ partial "read-more.html" . }}
       {{ else }}
-      {{ .Content }}
+      {{ .Content | replaceRE $eager `loading="lazy"` | safeHTML }}
       {{ end }}
     </div>
 

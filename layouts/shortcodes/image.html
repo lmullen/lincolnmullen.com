@@ -10,22 +10,23 @@
 {{ $ext := path.Ext (.Get "src") }}
 {{ $link := partial "resolve-link.html" (dict "link" (.Get "link") "page" .Page) }}
 {{ $original := .Get "original" }}
+{{ $loading := partial "image-loading.html" (dict "page" .Page "src" $src) }}
 {{ if eq $ext ".svg" }}
 <!-- Don't process SVGs (no intrinsic dimensions available) -->
 <a href="{{ $link | default $raw.RelPermalink }}">
-	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' />
+	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' {{ $loading | safeHTMLAttr }} />
 </a>
 {{ else if eq $ext ".gif" }}
 <!-- Don't process GIFs -->
 <a href="{{ $link | default $raw.RelPermalink }}">
-	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
+	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" {{ $loading | safeHTMLAttr }} />
 </a>
 {{ else if (eq $original "true")}}
 <a href="{{ $link | default $raw.RelPermalink }}">
-	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" />
+	<img class="postimg" src='{{ $raw.RelPermalink }}' alt='{{ .Get "alt" | plainify }}' width="{{ $raw.Width }}" height="{{ $raw.Height }}" {{ $loading | safeHTMLAttr }} />
 </a>
 {{ else }}
 <a href="{{ $link | default $raw.RelPermalink }}">
-	{{ partial "responsive-image.html" (dict "res" $raw "width" 900 "class" "postimg" "alt" (.Get "alt" | plainify)) }}
+	{{ partial "responsive-image.html" (dict "res" $raw "width" 900 "class" "postimg" "alt" (.Get "alt" | plainify) "fluid" true "loading" $loading) }}
 </a>
 {{ end }}

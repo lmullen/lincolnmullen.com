@@ -1,0 +1,23 @@
+{{- /* How an image in a page's content should load, as an attribute for its
+       <img>. Call with a dict: page (the page) and src (the shortcode's src).
+       Returns one of:
+         fetchpriority="high"  the page's first image, when it opens the post
+                               (within the first 1,000 characters of the
+                               source): it is probably the largest thing on
+                               the first screen, so fetch it early
+         loading="eager"       the page's first image, further down
+         loading="lazy"        every later image: fetched only as the reader
+                               scrolls toward it
+       "First" means the first image, figure, or sideimage shortcode in the
+       page's source. The home page's stream turns the first two into
+       loading="lazy" (partials/list-post.html), since a post's images are
+       rarely on the first screen there. */ -}}
+{{- $attr := `loading="lazy"` -}}
+{{- $first := findRE `\{\{[<%]\s*(?:image|figure|sideimage)\s[^>]*>` .page.RawContent 1 -}}
+{{- with index $first 0 -}}
+{{- if strings.Contains . (printf `src="%s"` $.src) -}}
+{{- $lead := index (split $.page.RawContent .) 0 -}}
+{{- $attr = cond (lt (len $lead) 1000) `fetchpriority="high"` `loading="eager"` -}}
+{{- end -}}
+{{- end -}}
+{{- return $attr -}}

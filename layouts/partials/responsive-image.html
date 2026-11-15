@@ -1,22 +1,50 @@
-{{- /* Responsive raster <img> with a 1x/2x WebP srcset — the shared resize
-       logic behind the image and figure shortcodes and the homepage images.
+{{- /* Responsive raster <img> with a WebP srcset — the shared resize logic
+       behind the image and figure shortcodes and the scholarship covers.
        Callers handle GIF/SVG passthrough and any link wrapper. Call with a
        dict:
-         res   the image resource
-         width 1x display width in px (2x is derived)
-         class img class
-         alt   alt text (already plainified)
-         lazy  set true to add loading="lazy"
-       Never upscales: each width is capped at the source width, and the 2x
-       candidate is dropped when the source is no wider than the 1x image. */ -}}
+         res     the image resource
+         width   1x display width in px
+         class   img class
+         alt     alt text (already plainified)
+         lazy    set true to add loading="lazy"
+         loading a loading or fetchpriority attribute, as returned by
+                 partials/image-loading.html; overrides lazy
+         fluid   set true for an image that fills its column up to `width`
+                 and shrinks with the column on narrow screens
+       By default the srcset holds a 1x and a 2x candidate, which suits an
+       image shown at a fixed size. A fluid image is shown narrower than
+       `width` on a phone, where a 2x candidate chosen by pixel density alone
+       is far larger than the screen needs. So its srcset lists widths (1x,
+       4/3x, and 2x) with a `sizes` attribute that tells the browser how wide
+       the image is displayed, and the browser picks the smallest file that
+       is sharp enough: the 4/3x one on most phones.
+       Never upscales: each width is capped at the source width, and
+       duplicate candidates are dropped. */ -}}
 {{- $w1 := .width -}}
 {{- if lt .res.Width $w1 }}{{ $w1 = .res.Width }}{{ end -}}
 {{- $w2 := mul 2 .width -}}
 {{- if lt .res.Width $w2 }}{{ $w2 = .res.Width }}{{ end -}}
 {{- $regular := .res.Resize (printf "%dx webp" $w1) -}}
-{{- $srcset := printf "%s 1x" $regular.RelPermalink -}}
-{{- if gt $w2 $w1 -}}
-{{- $retina := .res.Resize (printf "%dx webp" $w2) -}}
-{{- $srcset = printf "%s, %s 2x" $srcset $retina.RelPermalink -}}
+{{- $srcset := "" -}}
+{{- $sizes := "" -}}
+{{- if .fluid -}}
+{{- $wmid := div (mul 4 .width) 3 -}}
+{{- if lt .res.Width $wmid }}{{ $wmid = .res.Width }}{{ end -}}
+{{- $srcset = printf "%s %dw" $regular.RelPermalink $w1 -}}
+{{- if gt $wmid $w1 -}}
+{{- $srcset = printf "%s, %s %dw" $srcset (.res.Resize (printf "%dx webp" $wmid)).RelPermalink $wmid -}}
 {{- end -}}
-<img{{ with .class }} class="{{ . }}"{{ end }} src="{{ $regular.RelPermalink }}" srcset="{{ $srcset }}" alt="{{ .alt }}" width="{{ $regular.Width }}" height="{{ $regular.Height }}"{{ if .lazy }} loading="lazy"{{ end }}>
+{{- if gt $w2 $wmid -}}
+{{- $srcset = printf "%s, %s %dw" $srcset (.res.Resize (printf "%dx webp" $w2)).RelPermalink $w2 -}}
+{{- end -}}
+{{- /* The page's side padding is 1.25rem, so on a narrow screen the image is
+       2.5rem narrower than the viewport. */ -}}
+{{- $sizes = printf "(min-width: %dpx) %dpx, calc(100vw - 2.5rem)" (add $w1 40) $w1 -}}
+{{- else -}}
+{{- $srcset = printf "%s 1x" $regular.RelPermalink -}}
+{{- if gt $w2 $w1 -}}
+{{- $srcset = printf "%s, %s 2x" $srcset (.res.Resize (printf "%dx webp" $w2)).RelPermalink -}}
+{{- end -}}
+{{- end -}}
+{{- $loading := .loading | default (cond (eq .lazy true) `loading="lazy"` "") -}}
+<img{{ with .class }} class="{{ . }}"{{ end }} src="{{ $regular.RelPermalink }}" srcset="{{ $srcset }}"{{ with $sizes }} sizes="{{ . }}"{{ end }} alt="{{ .alt }}" width="{{ $regular.Width }}" height="{{ $regular.Height }}"{{ with $loading }} {{ . | safeHTMLAttr }}{{ end }}>

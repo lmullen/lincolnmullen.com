@@ -1,25 +1,6 @@
----
-name: tag-post
-description: Add or update tags on a blog post using the site's canonical tag taxonomy. Use when the user asks to tag a post, review tags, or add tags.
----
+# Tag taxonomy
 
-# Tag post
-
-Add or update tags on the specified post file. If no file is given, use the file currently open in VS Code (provided via IDE context). If no file is open or specified, ask which post to tag.
-
-Read the post's front matter and content, then select 1-5 tags from the taxonomy below. Prefer using tags from this taxonomy, but if the post is about a different subject, ask whether to use a new tag. If you create a new tag, add it to this taxonomy. It is OK to use both a general and specific tag (e.g., `digital history` and `computational history`). It is OK to leave a post untagged if nothing fits well.
-
-## YAML format
-
-Use non-indented list format:
-
-```yaml
-tags:
-- digital history
-- American religious history
-```
-
-## Tag taxonomy
+The canonical tags for blog posts. The "Tags" step of the `new-post` skill (`SKILL.md` in this directory) says when and how to apply them. When the user approves a new tag, add it to the right table here.
 
 ### Subject tags
 
@@ -86,8 +67,4 @@ tags:
 - **`legal history` vs `Legal Modernism`**: `Legal Modernism` for posts about the specific project. `legal history` for general legal history. Can overlap.
 - **`scholarly publishing` vs `publication`**: `scholarly publishing` = posts *about* the process. `publication` = announcing something the author published.
 - **`American religious history` vs `history of Christianity`**: Use `American religious history` for US-focused. Use `history of Christianity` for broader/non-American contexts. Can overlap.
-- **Micro/untitled posts** (timestamp slugs): Generally leave untagged unless content clearly fits a tag.
-
-## Output
-
-Show the proposed tags with a brief rationale for each, then ask: "Want me to apply these tags?"
+- **Untitled posts** (timestamp slugs): Generally leave untagged unless the content clearly fits a tag.

@@ -42,7 +42,7 @@ The script refuses to run unless `hugo` is the version pinned in `.mise.toml`, `
 - **Untitled post** (short-form/micro): Leave the title blank. Creates `content/blog/YYYY-MM-DD-HH-MM-SS/index.md` with the timestamp as the slug.
 - Both types optionally include an image (drag-and-drop friendly).
 
-When creating a post for the user, follow the `new-post` skill (`.claude/skills/new-post/SKILL.md`) instead of running the script, which ends by opening VS Code.
+The script is for my own use. For any work on a post (creating it, turning a draft or an Obsidian note into one, reviewing, tagging, or adding social media text), follow the `new-post` skill (`.claude/skills/new-post/SKILL.md`), which does not run the script. A post always reaches the site through a pull request; never commit or push a post to `main`.
 
 For courses, manually create `content/courses/[course-code].[year]/index.md` using the archetype at `archetypes/courses.md`.
 
@@ -52,7 +52,7 @@ When running in a Docker sandbox, these directories may be mounted as additional
 
 - `/Users/lmullen/github/lmullen/projects.lincolnmullen.com`: Standalone projects served off a subdomain of this site, separate from the Hugo site.
 - `/Users/lmullen/github/lmullen/domesday`: My custom web analytics, served from Cloudflare. It has its own `CLAUDE.md`; read it before working in that repository.
-- `/Users/lmullen/notes/writing/blog-drafts`: Drafts that I write in Obsidian on the go. These are source material for new blog posts, not part of the site. Do not edit or delete them unless I ask.
+- `/Users/lmullen/notes/writing/blog`: Drafts that I write in Obsidian on the go. These are source material for new blog posts, not part of the site. Do not edit or delete them unless I ask, with one exception: when a note becomes a post, the `new-post` skill sets the note's `writing-status` to `completed`.
 
 To check whether you are in the sandbox, test whether these directories exist before relying on them.
 
@@ -107,7 +107,7 @@ Image `src` values are page-bundle filenames, or global assets with a leading sl
 - **Blog posts** (titled): `https://lincolnmullen.com/blog/<slug>/`, where `<slug>` is the `slug` field in the front matter.
 - **Blog posts** (untitled): `https://lincolnmullen.com/blog/<timestamp>/`, where `<timestamp>` is in `YYYY-MM-DD-HH-MM-SS` format.
 
-Include the permalink URL at the end of each social media text.
+Include the permalink URL at the end of each social media text, or the `linkpost` URL when the post has one.
 
 ## Git and GitHub
 

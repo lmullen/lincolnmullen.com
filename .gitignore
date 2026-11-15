@@ -24,3 +24,6 @@ digests/*.html
 .vale/styles/*
 !.vale/styles/Site/
 !.vale/styles/config/
+
+# Claude Code worktrees
+.claude/worktrees/

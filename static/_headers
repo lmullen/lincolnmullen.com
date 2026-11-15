@@ -1,0 +1,6 @@
+# Cloudflare response headers for static assets.
+
+# The web fonts never change under the same name (a new version of a font would
+# get a new file name), so browsers may keep them for a year without asking.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable

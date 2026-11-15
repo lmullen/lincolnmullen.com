@@ -50,8 +50,8 @@ $border-color: #d4d6dc;
 $code-color: $secondary;
 
 // Fonts
-$font-family-sans-serif: "Source Serif 4", serif;
-$font-family-serif: "Source Serif 4", serif;
+$font-family-sans-serif: "Source Serif 4", "Source Serif 4 Fallback", serif;
+$font-family-serif: "Source Serif 4", "Source Serif 4 Fallback", serif;
 $font-family-monospace: "Source Code Pro", monospace;
 $font-size-base: 1.1875rem; // 20px at the root size set in custom.scss
 $line-height-base: 1.5;

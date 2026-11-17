@@ -5,8 +5,12 @@
 # The Hugo the site is built with. CI (.github/workflows/gen-cache.yml) installs
 # it with mise, and the Cloudflare build (cloudflare-build.sh) downloads it from
 # the URL and checksum in mise.lock. After changing a version, run `mise lock`
-# (or `mise install`) and commit mise.lock.
-hugo-extended = "0.169.0"
+# (or `mise install`) and commit mise.lock. Since 0.170.0 there is no separate
+# "extended" edition of Hugo.
+hugo = "0.170.0"
+# Dart Sass, which Hugo runs (as `sass` on the PATH) to compile assets/scss.
+# The Cloudflare build downloads it from mise.lock the same way as Hugo.
+"github:sass/dart-sass" = "1.108.2"
 # For npm (Bootstrap and Wrangler, in package.json). Cloudflare reads
 # .node-version instead, so keep that file the same; gen-cache.sh checks.
 node = "22"

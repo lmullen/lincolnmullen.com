@@ -16,7 +16,11 @@ This site uses the static site generator, [Hugo](https://gohugo.io).
 - Local preview: `hugo serve --port 2323 --buildDrafts --buildFuture --disableFastRender`
 - Update the processed-image cache: `./gen-cache.sh` (see below)
 
-Tool versions are pinned in `.mise.toml`, and `mise.lock` records each tool's download URL and checksum for every platform. `mise install` sets up a checkout; the GitHub Actions check installs with mise too; and Cloudflare's build command (`wrangler.jsonc`) runs `./cloudflare-build.sh`, which downloads the Hugo pinned in `.mise.toml` from the URL in `mise.lock` and verifies its checksum. Cloudflare doesn't use mise for Node, so `.node-version` repeats the Node pin for its build image. To upgrade Hugo or Node, change `.mise.toml` (and `.node-version` for Node), run `mise lock` (`mise install` also updates it), then run `./gen-cache.sh`, and commit all of it, including whatever the script changes in the cache, since cache keys can change between Hugo versions. In a cloud session without mise, install it with `npm install -g @jdxcode/mise` and run `mise install`.
+Tool versions are pinned in `.mise.toml`, and `mise.lock` records each tool's download URL and checksum for every platform. `mise install` sets up a checkout; the GitHub Actions check installs with mise too; and Cloudflare's build command (`wrangler.jsonc`) runs `./cloudflare-build.sh`, which downloads the Hugo and Dart Sass pinned in `.mise.toml` from the URLs in `mise.lock` and verifies their checksums. Cloudflare doesn't use mise for Node, so `.node-version` repeats the Node pin for its build image. To upgrade Hugo, Dart Sass, or Node, change `.mise.toml` (and `.node-version` for Node), run `mise lock` (`mise install` also updates it), then run `./gen-cache.sh`, and commit all of it, including whatever the script changes in the cache, since cache keys can change between Hugo versions. In a cloud session without mise, install it with `npm install -g @jdxcode/mise` and run `mise install`.
+
+### Sass
+
+`layouts/_default/baseof.html` compiles `assets/scss/main.scss`, which imports Bootstrap from `node_modules`, with Dart Sass. Hugo has no built-in Sass compiler since 0.170.0: it runs the `sass` binary it finds on the `PATH`, so Dart Sass must be installed wherever the site is built (`mise install` locally and in CI; `cloudflare-build.sh` on Cloudflare). Dart Sass's deprecation warnings for `@import` and for Bootstrap's own files are silenced in the `css.Sass` options; remove the silencing when Bootstrap moves to `@use`.
 
 ### Processed-image cache
 
@@ -30,7 +34,7 @@ Run `./gen-cache.sh` and commit the result (`git add -A resources/_gen/images`) 
 - changing `imaging` in `config.yaml`, `layouts/partials/responsive-image.html`, the `image`, `figure`, and `sideimage` shortcodes, or any other template that calls `.Resize`, `.Fill`, `.Fit`, or `.Process`;
 - upgrading Hugo.
 
-The script refuses to run unless `hugo` is the version pinned in `.mise.toml`, `mise.lock` records the same version, and `.node-version` matches the Node pin, because a cache built with a different Hugo may use different keys and go unused on Cloudflare. It needs `node_modules` (`npm ci`), since the build compiles the SCSS. Don't commit cache files written by `hugo serve --buildDrafts --buildFuture`: variants for drafts are not needed in production, and the script removes them. A post dated in the future is likewise left out until its date passes; the first deploy after that encodes its images, and the next `./gen-cache.sh` run adds them.
+The script refuses to run unless `hugo` is the version pinned in `.mise.toml`, `mise.lock` records the same version, and `.node-version` matches the Node pin, because a cache built with a different Hugo may use different keys and go unused on Cloudflare. It needs `node_modules` (`npm ci`) and Dart Sass (`sass`, installed by `mise install`), since the build compiles the SCSS. Don't commit cache files written by `hugo serve --buildDrafts --buildFuture`: variants for drafts are not needed in production, and the script removes them. A post dated in the future is likewise left out until its date passes; the first deploy after that encodes its images, and the next `./gen-cache.sh` run adds them.
 
 ### Creating New Content
 
@@ -137,7 +141,7 @@ Every branch gets two previews: a local Hugo server and a Cloudflare branch prev
   `hugo serve --port <port> --bind 0.0.0.0 --baseURL http://localhost:<port>/ --buildDrafts --buildFuture --disableFastRender --poll 500ms`
 - Keep `--poll 500ms`. The checkout is mounted from the host over virtiofs, which does not deliver file-change events for edits made on the host, so without polling Hugo misses the user's edits and live reload never fires.
 - Run `npm ci` in the worktree first; the SCSS imports Bootstrap from `node_modules`.
-- If `hugo` is not on the `PATH`, run `mise install` in the worktree (or checkout) to get the Hugo version pinned in `.mise.toml`, and run Hugo through mise (`mise exec -- hugo ...`) if it is still not found. Keep `mise.lock` (and `.node-version`) in step with `.mise.toml`.
+- If `hugo` or `sass` is not on the `PATH`, run `mise install` in the worktree (or checkout) to get the Hugo and Dart Sass versions pinned in `.mise.toml`, and run Hugo through mise (`mise exec -- hugo ...`) if it is still not found. Keep `mise.lock` (and `.node-version`) in step with `.mise.toml`.
 - The local preview URL is `http://localhost:<port>/`. Hugo rebuilds on file changes, so the server keeps working as you edit; restart it only if it stops.
 - Keep one server per branch. Stop a branch's server before removing its worktree.
 

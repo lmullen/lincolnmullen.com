@@ -41,9 +41,22 @@
 	{{/* Bootstrap is imported as "bootstrap/scss/..." and resolved through
 	     includePaths rather than a "node_modules/..." prefix: from Hugo 0.168
 	     the Sass import resolver rejects Bootstrap's own relative imports when
-	     the parent file was found by a relative path (issue #178). */}}
-	{{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "includePaths" (slice "node_modules")) }}
-	{{ $style := resources.Get "scss/main.scss" | toCSS  $options | resources.Minify | resources.Fingerprint "md5" }}
+	     the parent file was found by a relative path (issue #178).
+
+	     Hugo compiles with Dart Sass, which must be on the PATH as `sass`
+	     (.mise.toml installs it; cloudflare-build.sh downloads it). main.scss pulls
+	     in Bootstrap 5.3 with @import, which Dart Sass has deprecated, and
+	     Bootstrap's own files use @import and other deprecated features. Those
+	     warnings are silenced until Bootstrap moves to @use (issue #187). */}}
+	{{ $options := (dict
+		"transpiler" "dartsass"
+		"targetPath" "css/styles.css"
+		"outputStyle" "compressed"
+		"includePaths" (slice "node_modules")
+		"silenceDeprecations" (slice "import")
+		"silenceDependencyDeprecations" true
+	) }}
+	{{ $style := resources.Get "scss/main.scss" | css.Sass $options | resources.Minify | resources.Fingerprint "md5" }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 	<!-- shortcut icons -->

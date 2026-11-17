@@ -1,51 +1,82 @@
+{{ define "title" }}
+<title>{{ .Title }} ({{ .Params.semester }} {{ .Params.year }}) | {{ .Site.Title }}</title>
+{{ end }}
+
 {{ define "main" }}
+{{- /* A syllabus, laid out like a blog post: the content at the reading measure
+       beside a rail. The course details sit at the top of the content, where a
+       student looks first; the rail holds the way back to Teaching, the other
+       semesters of the course, and the contents (## sections only). */ -}}
+{{ $p := . }}
+<div class="blog-layout syllabus-layout">
+  <article class="syllabus" id="entry-{{ urlize .Title }}">
 
-<div class="container-fluid">
+    <p class="syl-print d-none d-print-block">
+      This syllabus comes from {{ .Permalink }}. Only the online version is authoritative, and it may be updated as necessary.
+    </p>
 
-  <div class="row gx-3">
-    <div class="col-md-9 order-md-1">
+    <header class="syl-head">
+      <p class="syl-term">{{ .Params.semester }} {{ .Params.year }}</p>
+      <h1 class="page-title">{{ .Title }}</h1>
 
-      <article class="syllabus" id="entry-{{ urlize .Title }}">
-
-        <div class="d-none d-print-block alert alert-danger">
-          <p>
-            This syllabus comes from {{ .Permalink }}.
-          </p>
-          <p class="mb-0">
-            Only the online version of this syllabus is authoritative, and it may be updated as necessary.
-          </p>
+      <dl class="syl-facts">
+        <div>
+          <dt>Course</dt>
+          <dd>{{ with .Params.courseurl }}<a href="{{ . }}">{{ $p.Params.coursenum }}</a>{{ else }}{{ .Params.coursenum }}{{ end }}, {{ .Params.credits }} credits. {{ .Params.department }}, {{ .Params.university }}.</dd>
         </div>
-
-        <header>
-          <h1 class="page-title">{{ .Title }} ({{ .Params.semester }} {{ .Params.year }})</h1>
-          <div class="card my-4">
-            <div class="card-body">
-              <p>
-                <strong>Course:</strong> <a href="{{ .Params.courseurl }}">{{ .Params.coursenum }}</a>. {{ .Params.semester}}
-                {{ .Params.year }}. {{ .Params.department}}, {{ .Params.university }}. {{ .Params.credits }} credits. Meets
-                {{ .Params.meets | markdownify }} in {{ .Params.room | markdownify }}.
-              </p>
-              <p class="mb-0">
-                <strong>Instructor:</strong> <a href=" {{ .Params.instructorurl }}">{{ .Params.instructor }}</a> &lt;<a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a>&gt;. Office: {{ .Params.office }}. Office hours:
-                {{ .Params.officehours }}. <span><a href="/page/office-hours/">Book an appointment.</a></span>
-              </p>
-            </div>
-          </div>
-        </header>
-
-        <div class="reading">
-          {{ .Content }}
+        <div>
+          <dt>Meets</dt>
+          <dd>{{ .Params.meets | markdownify }}, {{ .Params.room | markdownify }}.</dd>
         </div>
-      </article>
+        <div>
+          <dt>Instructor</dt>
+          <dd><a href="{{ .Params.instructorurl }}">{{ .Params.instructor }}</a>, <a href="mailto:lmullen@gmu.edu">lmullen@gmu.edu</a>. {{ .Params.office }}.</dd>
+        </div>
+        <div>
+          <dt>Office hours</dt>
+          <dd>{{ .Params.officehours | strings.FirstUpper | markdownify }}. <a href="/page/office-hours/">Book an appointment</a>.</dd>
+        </div>
+      </dl>
+    </header>
+
+    <div class="reading bodyprose">
+      {{ .Content }}
     </div>
-    {{/* Sidebar TOC after the article in source order so screen readers and
-         keyboard users reach the content first; order-md-* flips it visually. */}}
-    <div class="col-md-3 order-md-2">
-      <div class="sidebar-nav ps-3 py-2 mt-2 border-start d-none d-md-block d-print-none">
-        {{ replace .TableOfContents `<nav id="TableOfContents">` `<nav id="TableOfContents" aria-label="Table of contents">` | safeHTML }}
-      </div>
+  </article>
+
+  <aside class="rail syl-rail d-print-none">
+    <div class="blog-name">
+      <a class="lbl" href="/courses/">Teaching</a>
+      <p class="desc">Syllabi for all of my courses.</p>
     </div>
-  </div>
+
+    {{- /* Other semesters of this course: the syllabi with the same title, newest
+           first. Course pages have no date, so sort on year and term. */ -}}
+    {{ $order := dict "Spring" 1 "Summer" 2 "Fall" 3 }}
+    {{ $others := slice }}
+    {{ range where (where site.RegularPages "Section" "courses") "Title" .Title }}
+    {{ $others = $others | append (dict "page" . "key" (add (mul (int .Params.year) 10) (index $order .Params.semester | default 0))) }}
+    {{ end }}
+    {{ if gt (len $others) 1 }}
+    <div class="rb">
+      <p class="rlbl">Semesters</p>
+      <ul class="syl-terms">
+        {{ range sort $others "key" "desc" }}
+        {{ with .page }}
+        {{ $term := printf "%s %v" .Params.semester .Params.year }}
+        <li>{{ if eq .Permalink $p.Permalink }}<span class="on" aria-current="page">{{ $term }}</span>{{ else }}<a href="{{ .RelPermalink }}">{{ $term }}</a>{{ end }}</li>
+        {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ with .Fragments.ToHTML 2 2 false }}
+    <div class="rb syl-toc">
+      <p class="rlbl" id="syl-toc-label">Contents</p>
+      {{ replace . `<nav id="TableOfContents">` `<nav id="TableOfContents" aria-labelledby="syl-toc-label">` | safeHTML }}
+    </div>
+    {{ end }}
+  </aside>
 </div>
-
 {{ end }}

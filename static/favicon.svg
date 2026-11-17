@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Lincoln Mullen">
-  <rect width="512" height="512" rx="112" fill="#1b54c0"></rect>
-  <text x="256" y="330" text-anchor="middle" font-family="&#39;Source Serif 4&#39;, &#39;Source Serif 4 Variable&#39;, Georgia, &#39;Times New Roman&#39;, serif" font-weight="600" font-size="288" letter-spacing="-18" style="font-optical-sizing:auto" fill="#f7f1e6">LM</text>
-  <rect x="176" y="392" width="160" height="20" rx="10" fill="#e07a2e"></rect>
+  <clipPath id="r"><rect width="512" height="512" rx="112"/></clipPath>
+  <g clip-path="url(#r)" shape-rendering="crispEdges">
+    <rect width="512" height="512" fill="#1b54c0"/>
+    <polygon fill="#e07a2e" points="576,-600 -600,576 -600,640 640,-600"/>
+    <polygon fill="#e07a2e" points="832,-600 -600,832 -600,896 896,-600"/>
+    <polygon fill="#e07a2e" points="1088,-600 -600,1088 -600,1152 1152,-600"/>
+    <polygon fill="#e07a2e" points="1344,-600 -600,1344 -600,1408 1408,-600"/>
+    <polygon fill="#e07a2e" points="1600,-600 -600,1600 -600,1664 1664,-600"/>
+  </g>
 </svg>

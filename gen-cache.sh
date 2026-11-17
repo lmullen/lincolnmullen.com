@@ -36,12 +36,12 @@ cache=resources/_gen/images
 # .mise.toml is the source of truth for local dev, CI, and the Cloudflare build;
 # make sure mise.lock and .node-version agree with it and that we are running
 # the pinned Hugo.
-pinned=$(sed -n 's/^hugo-extended *= *"\([^"]*\)".*/\1/p' .mise.toml)
+pinned=$(sed -n 's/^hugo *= *"\([^"]*\)".*/\1/p' .mise.toml)
 if [ -z "$pinned" ]; then
-  echo "gen-cache: could not read the hugo-extended version from .mise.toml" >&2
+  echo "gen-cache: could not read the hugo version from .mise.toml" >&2
   exit 1
 fi
-locked=$(awk '/^\[/ { t = ($0 == "[[tools.hugo-extended]]") } t && $1 == "version" { gsub(/"/, "", $3); print $3; exit }' mise.lock)
+locked=$(awk '/^\[/ { t = ($0 == "[[tools.hugo]]") } t && $1 == "version" { gsub(/"/, "", $3); print $3; exit }' mise.lock)
 if [ "$locked" != "$pinned" ]; then
   echo "gen-cache: mise.lock has Hugo ${locked:-(none)} but .mise.toml pins ${pinned}; run 'mise lock' and commit mise.lock, which the Cloudflare build (cloudflare-build.sh) downloads from" >&2
   exit 1
@@ -54,6 +54,10 @@ fi
 running=$(hugo version 2>/dev/null | sed -n 's/^hugo v\([0-9][0-9.]*\).*/\1/p')
 if [ "$running" != "$pinned" ]; then
   echo "gen-cache: hugo ${running:-is not installed}; .mise.toml pins ${pinned}. Run 'mise install' (or fetch that release from github.com/gohugoio/hugo/releases) so the cache is built with the version Cloudflare uses." >&2
+  exit 1
+fi
+if ! command -v sass >/dev/null 2>&1; then
+  echo "gen-cache: Dart Sass (sass) is not on the PATH; run 'mise install', which installs the version pinned in .mise.toml" >&2
   exit 1
 fi
 if [ ! -d node_modules ]; then

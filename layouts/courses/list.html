@@ -1,7 +1,88 @@
 {{ define "main" }}
+{{- /* Teaching: one entry per course, from data/courses.yaml, the course with
+       the most recent semester first. Each entry is the course number as a
+       mono eyebrow, the title (linking to the newest syllabus), the course
+       description, and a row per semester: the term, linking to that
+       syllabus like a date in the post indexes, then the semester's own title
+       when the course went by another name, and any note. The description is
+       the first paragraph of "Course description" in the newest syllabus on
+       this site, unless the data file gives one. */ -}}
+{{ $seasons := dict "Spring" 1 "Summer" 2 "Fall" 3 }}
+{{ $courses := slice }}
+{{ range hugo.Data.courses }}
+  {{ $course := . }}
+  {{ $rows := slice }}
+  {{ range .syllabi }}
+    {{ $row := dict "note" .note }}
+    {{ with .page }}
+      {{ $pg := site.GetPage (printf "/courses/%s" .) }}
+      {{ if not $pg }}{{ errorf "data/courses.yaml: no syllabus page content/courses/%s" . }}{{ end }}
+      {{ $row = merge $row (dict "page" $pg "term" (printf "%s %v" $pg.Params.semester $pg.Params.year) "url" $pg.RelPermalink "title" $pg.Title "pdf" false) }}
+    {{ else }}
+      {{ $row = merge $row (dict "term" .term "url" (.url | default "") "title" (.title | default $course.title) "pdf" (strings.HasSuffix (.url | default "") ".pdf")) }}
+    {{ end }}
+    {{ $parts := split $row.term " " }}
+    {{ $key := add (mul (int (index $parts 1)) 10) (index $seasons (index $parts 0) | default 0) }}
+    {{ $rows = $rows | append (merge $row (dict "key" $key)) }}
+  {{ end }}
+  {{ $rows = sort $rows "key" "desc" }}
 
-<h1 class="page-title">{{ .Title }}</h1>
+  {{- /* the newest syllabus on this site, and the newest one online at all */ -}}
+  {{ $newestPage := false }}
+  {{ $newestURL := "" }}
+  {{ range $rows }}
+    {{ if and (not $newestPage) .page }}{{ $newestPage = .page }}{{ end }}
+    {{ if and (not $newestURL) .url }}{{ $newestURL = .url }}{{ end }}
+  {{ end }}
 
-{{ .Content }}
+  {{ $desc := .description | default "" }}
+  {{ if and (not $desc) $newestPage }}
+    {{ with findRESubmatch `(?s)## Course description\s*\n(.*?)(?:\n## |\z)` $newestPage.RawContent 1 }}
+      {{ $desc = index (split (strings.TrimSpace (index (index . 0) 1)) "\n\n") 0 }}
+    {{ end }}
+  {{ end }}
 
+  {{ $number := .number | default "" }}
+  {{ if and (not $number) $newestPage }}
+    {{ $number = replaceRE `-[A-Z0-9]+\b` "" $newestPage.Params.coursenum }}
+  {{ end }}
+
+  {{ $courses = $courses | append (dict "title" .title "number" $number "desc" $desc "url" $newestURL "rows" $rows "key" (index $rows 0).key) }}
+{{ end }}
+
+<div class="teaching">
+  <h1 class="page-title">{{ .Title }}</h1>
+  <div class="teach-intro">{{ .Content }}</div>
+
+  <section class="sch-section" aria-labelledby="courses">
+    <h2 class="shead" id="courses"><span class="lbl">Courses</span></h2>
+
+    {{ range sort $courses "key" "desc" }}
+    {{ $course := . }}
+    <section class="course" id="{{ urlize .title }}" aria-labelledby="{{ urlize .title }}-title">
+      {{ with .number }}<p class="course-num">{{ . }}</p>{{ end }}
+      <h3 class="course-title" id="{{ urlize .title }}-title">{{ with .url }}<a href="{{ . }}">{{ $course.title }}</a>{{ else }}{{ $course.title }}{{ end }}</h3>
+      {{ with .desc }}<div class="course-desc">{{ . | $.RenderString }}</div>{{ end }}
+
+      <ul class="course-syl" aria-label="Syllabi for {{ .title }}">
+        {{ range .rows }}
+        <li>
+          {{ if .url }}
+          <a class="course-term" href="{{ .url }}"><span class="visually-hidden">Syllabus: </span>{{ .term }}<i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+          {{ else }}
+          <span class="course-term">{{ .term }}</span>
+          {{ end }}
+          <span class="course-row">
+            {{- if ne .title $course.title }}<span class="course-alt">{{ $.RenderString (dict "display" "inline") .title }}</span>{{ end }}
+            {{- with .note }}<span class="course-note">{{ . }}</span>{{ end }}
+            {{- if .pdf }}<span class="course-pdf">PDF</span>{{ end }}
+            {{- if not .url }}<span class="course-note">No syllabus online</span>{{ end -}}
+          </span>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </section>
+</div>
 {{ end }}

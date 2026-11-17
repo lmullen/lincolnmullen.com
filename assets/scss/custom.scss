@@ -358,16 +358,107 @@ a {
   --bs-btn-color: #fff;
 }
 
-/* Teaching */
-#syllabus-list td {
-  padding-bottom: 0.75rem;
-  vertical-align: top;
+/* Teaching (layouts/courses/list.html): one entry per course under the
+   Courses section label, divided by hairlines like the post lists. The
+   course number is a mono eyebrow, the title a list title, the description
+   body prose at the measure, and each semester a row whose term links to
+   its syllabus like a date in the post indexes. */
+.teach-intro {
+  max-width: var(--measure);
 }
-
-.semester {
-  text-align: right;
-  padding-right: 0.5rem;
-  white-space: nowrap;
+.teach-intro p {
+  margin: 0;
+}
+.course {
+  max-width: var(--measure);
+  padding: 2.1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.course:first-of-type {
+  padding-top: 0.9rem;
+}
+.course:last-of-type {
+  border-bottom: none;
+}
+.course-num {
+  @include mono-label(var(--label-sm), 0.08em, 600, 1.5);
+  color: var(--mut);
+  margin: 0 0 0.35rem;
+}
+.course-title {
+  font: 600 var(--h2)/1.22 "Source Serif 4", "Source Serif 4 Fallback", serif;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0;
+}
+.course-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.course-title a:hover {
+  color: var(--navy);
+}
+.course-desc {
+  color: var(--body);
+  margin-top: 0.5rem;
+}
+.course-desc p {
+  margin: 0;
+}
+.course-desc a {
+  color: var(--navy);
+  @include reading-underline;
+}
+.course-syl {
+  list-style: none;
+  margin: 1.1rem 0 0;
+  padding: 0;
+}
+.course-syl li {
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--rule2);
+}
+.course-term {
+  @include date-permalink;
+}
+/* here the term is the link itself, not a date beside a linked title */
+a.course-term {
+  color: var(--navy);
+}
+span.course-term,
+span.course-term:hover {
+  color: var(--mut);
+}
+.course-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.8rem;
+  font: 400 var(--prose-sm)/1.4 "Source Serif 4", "Source Serif 4 Fallback", serif;
+}
+.course-alt {
+  color: var(--ink);
+}
+.course-note {
+  font-style: italic;
+  color: var(--sec);
+}
+.course-pdf {
+  @include mono-label(var(--label-xs), 0.1em, 600, 1.3);
+  color: var(--mut);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.15em 0.45em;
+}
+@media (max-width: $bp-phone) {
+  .course-syl li {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
 }
 
 .syllabus h2,

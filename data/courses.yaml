@@ -1,0 +1,135 @@
+# The courses on the Teaching page (layouts/courses/list.html). The page sorts
+# the courses by their latest semester and each course's syllabi newest first,
+# so the order here does not matter.
+#
+# Each course has a `title` and a list of `syllabi`. A syllabus on this site is
+# named by its page bundle under content/courses/ (`page: christianity.2026`);
+# its term, title, and course number come from the page's front matter. Any
+# other syllabus gives its `term` ("Spring 2017") and, if it is online, its
+# `url`. Either kind can add a `note` ("with John Turner"), and a `title` when
+# that semester's course went by another name than the course's `title`.
+#
+# A course's description is the first paragraph of the "Course description"
+# section of its newest syllabus on this site, so a new syllabus updates it.
+# Give a `description` only for a course with no syllabus on the site, and a
+# `number` only to override (or, for such a course, supply) the course number.
+
+- title: Global History of Christianity
+  syllabi:
+    - page: christianity.2026
+    - page: christianity.2024
+    - page: christianity.2023
+    - page: christianity.2021
+    - page: christianity.2019
+    - term: Spring 2017
+      url: https://files.lincolnmullen.com/syllabi/Global-History-Christianity.spring-2017.pdf
+      note: with Mack Holt and John Turner
+
+- title: American Scriptures
+  syllabi:
+    - page: scriptures.2026
+    - page: scriptures.2024
+    - term: Fall 2019
+      url: https://files.lincolnmullen.com/syllabi/american-scriptures.fall2019.pdf
+      note: with John Turner
+    - page: scriptures.2018
+
+- title: "The Digital Past: Reconstruction and Redemption"
+  syllabi:
+    - term: Fall 2025
+    - page: digital-past.2021
+    - term: Spring 2017
+      url: https://files.lincolnmullen.com/syllabi/digital-past.2017.pdf
+    - term: Spring 2015
+      title: The Digital Past
+      url: https://files.lincolnmullen.com/syllabi/digital-past-2015.pdf
+
+# The graduate courses in programming and data analysis for historians, under
+# their several names, as one course.
+- title: Programming and Data Analysis for Historians
+  syllabi:
+    - page: data.2025
+    - page: data.2023
+    - page: data.2020
+    - page: programming.2019
+    - page: clio2.2019
+    - page: clio2.2018
+    - term: Spring 2017
+      title: "Clio 2: Data and Visualization in Digital History"
+      url: https://files.lincolnmullen.com/syllabi/clio2.2017.pdf
+    - term: Fall 2016
+      title: Text Analysis for Historians
+      url: https://files.lincolnmullen.com/syllabi/text-analysis.2016.pdf
+    - term: Summer 2016
+      title: R, Interactive Graphics, and Data Visualization
+      url: https://files.lincolnmullen.com/syllabi/Heppler_Mullen-DHSI.pdf
+      note: with Jason Heppler
+    - term: Spring 2016
+      title: Data and Visualization in Digital History
+      url: https://files.lincolnmullen.com/syllabi/data-dh.2016.pdf
+    - term: Fall 2014
+      title: "Clio 3: Programming in History/New Media"
+      url: https://files.lincolnmullen.com/syllabi/clio3.2014.pdf
+
+- title: Capitalism and American Religion
+  syllabi:
+    - page: capitalism.2023
+    - page: capitalism.2020
+    - term: Spring 2015
+      title: Religion and Capitalism in the United States
+      url: https://files.lincolnmullen.com/syllabi/religion-capitalism.2015.pdf
+
+- title: "Clio Wired: An Introduction to History and New Media"
+  syllabi:
+    - page: clio1.2022
+
+- title: Church and State in America
+  description: >-
+    Two of the most pressing questions about American religion and its public
+    role are intertwined: how should religions relate to one another, and how
+    should religions relate to the state? In this class you will take up these
+    questions by studying the interactions of Protestant, Catholic, Jewish,
+    Mormon, and Native American religions with one another and with the federal
+    and state governments. You will investigate how law has regulated the public
+    sphere and the civil square in which religious interactions take place, but
+    also how religious actors have driven those interactions. We will read
+    primary and secondary sources about the American Revolution and
+    disestablishment, moral reform, temperance, and abolition, polygamy, the
+    school system, pacifism, civil rights, and political movements, ranging
+    from the late eighteenth to the late twentieth century.
+  syllabi:
+    - term: Fall 2014
+      url: https://files.lincolnmullen.com/syllabi/church-state.2014.pdf
+
+- title: Mapping Boston’s Religions
+  number: HIST 144a, Brandeis University
+  description: >-
+    During the American Revolution and the following decades, the state and
+    federal governments cut their financial and constitutional support for
+    established churches. Though many at the time predicted the demise of
+    Christianity, the result was a flowering of an astonishing diversity of
+    religions. In this course you will read the writings of the many individuals
+    and groups that lived out their religion in the nineteenth-century United
+    States. The centerpiece of this class will be a digital history project:
+    you will do your own original research into nineteenth-century sources to
+    make a digital map of religion in Boston over the nineteenth century.
+  syllabi:
+    - term: Spring 2014
+      url: https://files.lincolnmullen.com/syllabi/religion-19c-dh.pdf
+
+- title: Religious Pluralism and the American State
+  number: UWS 1a, Brandeis University
+  description: >-
+    Two of the most pressing questions about American religion and its public
+    role are intertwined: how should religions relate to one another, and how
+    should religions relate to the state? In this class you will take up these
+    two questions through the historical analysis of texts about the
+    interactions of Protestant, Catholic, Jewish, Mormon, and Native American
+    religions with one another and with the federal and state governments. We
+    will trace the history of American pluralism, from the fact of diversity in
+    the eighteenth century to the idea of pluralism in the twenty-first century.
+    Because this is a writing seminar, you will write three essays based on
+    primary and secondary sources.
+  syllabi:
+    - term: Fall 2012
+      url: https://files.lincolnmullen.com/syllabi/religious-pluralism.syllabus.2012-fall.pdf

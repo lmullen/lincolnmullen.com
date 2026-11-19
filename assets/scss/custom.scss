@@ -610,7 +610,7 @@ sup.footnote-ref {
   flex-direction: column;
   gap: 0.4rem;
 }
-/* About: two .dotlinks groups (the personal links, then the affiliations),
+/* About: three .dotlinks groups (the personal links, the affiliations, email),
    which read as one list in the column */
 .hl-lines {
   display: flex;
@@ -691,10 +691,6 @@ sup.footnote-ref {
   content: "·" / "";
   margin-left: 0.5rem;
   color: var(--sec);
-}
-/* An address or other code-like item set in the mono voice */
-.dotlinks .tt {
-  font-family: "Source Code Pro", monospace;
 }
 /* Elsewhere links (§4.9). iconStyle: brand → each <a> sets
    --bc:<hex>; .netlinks.mono forces every logo to --mut. */

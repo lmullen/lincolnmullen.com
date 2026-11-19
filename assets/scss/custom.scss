@@ -638,12 +638,6 @@ sup.footnote-ref {
 .hl-lines .dotlinks a:not(:last-child)::after {
   content: none;
 }
-/* The email's envelope hangs in the margin, so the address lines up with the
-   other links; on phones, with no margin to hang in, it sits inline */
-.hl-lines .bi {
-  margin-left: -1.35em;
-  margin-right: 0.35em;
-}
 /* Below $bp-hero there is no room for the columns: the lists drop under the
    statement as two rows, each label in a narrow left column with its links
    flowing inline to the right and wrapping as needed. */
@@ -962,9 +956,6 @@ sup.footnote-ref {
   }
   .hero-links .ey + div {
     margin-bottom: 0.6rem;
-  }
-  .hl-lines .bi {
-    margin-left: 0;
   }
   /* The bar's two groups sit side by side as two equal columns; inside each,
      the eyebrow sits above the links, one link per line */

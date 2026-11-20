@@ -72,6 +72,8 @@ By source:
 
 Check the post, fix what is obviously wrong, and keep a list of what you changed for the handoff.
 
+Proofread properly: read the body sentence by sentence, not in one skim, and look at punctuation (missing commas around parenthetical phrases such as "to be sure" or "of course") as well as spelling. Check every quotation against its source, including familiar ones quoted from memory, and every internal link against the post it points to. If you can't reach a source, say in the handoff which quotation you couldn't check. Never write "no fixes" in the pull request unless you have done this pass.
+
 **Fix without asking:**
 
 - Spelling errors, typos, doubled words, and plainly broken grammar or punctuation.
@@ -115,7 +117,7 @@ Do not draft this text. It comes from the user, in this order of preference:
 4. **The title.** If the post has a title but no description, the social text is the title.
 5. **Nothing to go on** (an untitled post, too long to quote, with no description): ask the user to write the social text, and a description if they want one, then fill in what they give you. Don't hold up the rest of the work for this. Finish through the pull request with the fields empty, ask in the handoff, and push the text to the branch when it comes.
 
-Never write a `description` yourself. If it is missing, leave it empty and say so in the handoff, since it is what link previews and search results show.
+Never write a `description` yourself. Check for one on every post, titled or untitled: link previews and search results show it. If the source has none (or an empty `description: ""`), ask the user for one, together with any other questions, and add it to the branch when it comes. Until then, leave it empty and don't hold up the rest of the work.
 
 Each of `social.bluesky`, `social.mastodon`, and `social.linkedin` is the text, a space, and then a link:
 
@@ -167,5 +169,7 @@ Do not paste the full Markdown file into the reply unless the user asks for it. 
 - the preview URLs **for the post itself**: the local server and the Cloudflare branch preview, each followed by `/blog/<slug>/` (read the Cloudflare URL from the build, as `CLAUDE.md` says);
 - that `draft` is `false`, so merging publishes the post;
 - every fix you made to the text, quoting the before and after;
-- suggestions you did not apply: rewordings, a place for `<!--more-->`, a missing description;
+- suggestions you did not apply: rewordings, a place for `<!--more-->`;
+- a request for a description, if the post has none;
+- any quotation you could not check against its source;
 - which text each social field uses, and anything you still need from the user, such as social text to write.

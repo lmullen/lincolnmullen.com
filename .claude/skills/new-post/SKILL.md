@@ -20,8 +20,20 @@ When the user asks for only part of this on a post that already has a branch (fo
 A post starts in one of three places. If the user doesn't say which post, and more than one candidate exists, ask.
 
 - **A bundle in `content/blog/`.** Usually an untracked directory in the main checkout with `draft: true`, which the user wrote in their editor. `git status --short content/blog` in the main checkout lists them.
-- **A note in Obsidian**, in `/Users/lmullen/notes/writing/blog`. That folder is mounted only in the Docker sandbox; if it is absent, say so rather than looking elsewhere. The filename, without `.md`, is the working title. The note's own front matter (`writing-status` and the other `writing-*` fields) belongs to Obsidian and does not go into the post. Notes whose status is `completed` are already posts.
+- **A note in Obsidian**, in `/Users/lmullen/notes/writing/blog`. That folder is mounted only in the Docker sandbox; if it is absent, say so rather than looking elsewhere. The filename, without `.md`, is the working title. The note's `writing-*` fields (`writing-status`, `writing-type`, and so on) belong to Obsidian and do not go into the post. Notes whose status is `completed` are already posts. A note may also carry some of the post's own fields; see "Post fields in an Obsidian note" below.
 - **The prompt.** Text the user types or a file they provide. When the user gives exact wording, use it verbatim.
+
+### Post fields in an Obsidian note
+
+Besides the `writing-*` fields, a note's front matter may hold some of the post's fields, sometimes in a shorter form than the post uses. Carry them into the post's front matter:
+
+- **`title`**: a non-empty title makes a titled post (and overrides the filename as the title). An empty `title: ""` means an untitled post, even if the filename reads like a title.
+- **`description`**, **`linkpost`**, **`via`**, **`tags`**, **`image`**, **`crosspost`**: copy them as they are, then check them as in step 4. An empty value means none was given: leave `description` empty, and omit the others.
+- **`social` as a single string**: the same text for `bluesky`, `mastodon`, and `linkedin`. `social` written out per platform is used as given; a platform it leaves out gets the text of the others, if it fits.
+- **`PERMALINK`** in social text is a placeholder for the post's own permalink, `https://lincolnmullen.com/blog/<slug>/`. Replace it with that, even when the post has a `linkpost`: the user's placeholder takes precedence over the linkpost rule in step 6. Count characters after the replacement.
+- **`writing-type`** hints at the kind of post (`blog post`, `link post`) but sets nothing by itself; a link post is one with `linkpost` set.
+
+If a field's meaning is unclear (an unfamiliar name or short form), pause and ask, then add the answer to this list.
 
 Read the whole source before going on. If the source is plainly unfinished (an outline, a stub of a sentence or two under a long-form title, notes to self, `TODO` markers), pause and ask whether to go ahead.
 
@@ -97,7 +109,7 @@ tags:
 
 Do not draft this text. It comes from the user, in this order of preference:
 
-1. **Text the user supplied** for a field, in the source's front matter or in the prompt. Use it as given. If they supplied text for one platform only, use it for the others too, as long as it fits.
+1. **Text the user supplied** for a field, in the source's front matter or in the prompt. Use it as given (with a `PERMALINK` placeholder filled in; see step 1). If they supplied text for one platform only, use it for the others too, as long as it fits.
 2. **The description.** If the post has a `description`, the social text for each platform is the description.
 3. **The body of a short untitled post**, when the whole body fits within the platform's limit. Use it verbatim (as plain text).
 4. **The title.** If the post has a title but no description, the social text is the title.
@@ -144,7 +156,7 @@ Then look at the post on the local server to confirm it renders: the title or it
 
 After the pull request is open:
 
-- **Obsidian note**: never delete, move, or rewrite the note. Change only its `writing-status` front matter field to `completed` (adding the field if the note has none), and leave the body and the other fields as they are.
+- **Obsidian note**: never delete, move, or rewrite the note. Change only its `writing-status` front matter field to `completed` (adding the field if the note has none), and leave the body and the other fields as they are. In the Docker sandbox the notes folder may be mounted read-only; if the write fails, don't work around it. Tell the user in the handoff to set `writing-status: completed` themselves.
 - **Existing bundle**: confirm that the directory is gone from the main checkout.
 
 ## 10. Handoff
